@@ -21,7 +21,16 @@ Key highlights include:
 ### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
 ---
 
-## 📜 **Quest Updates & Additions**  
+## 📜 **Quest Updates & Additions**
+### Ad Astra Progression
+- Basic Rocket Progression: Condensed all Rocket Quest Pages into one page
+- Final Rocket Progression: Condensed all Forge Rocket Quests into one page
+### Rocket Progression
+- Moved all Quests into Ad Astra Progression
+### Forge Rocket
+- Moved all Quests into Ad Astra Progression
+### Imcomplete Quests
+- Made all incomplete quest pages invisible to make quests less overwhelming
 ---
 
 ## 🔥 **Forge Frontier Core Updates**  
