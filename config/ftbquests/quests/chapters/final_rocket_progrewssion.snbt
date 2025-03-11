@@ -1,0 +1,2852 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "final_rocket_progrewssion"
+	group: "522267C8B93A6C20"
+	icon: {
+		Count: 1
+		id: "ad_astra_rocketed:tier_7_rocket"
+		tag: { }
+	}
+	id: "0EE8A99BA594EAF8"
+	images: [
+		{
+			click: "#262FF2B00E853521"
+			height: 15.0d
+			hover: ["Forge Rocket, Click image for more info!"]
+			image: "ftb:textures/forge_rocket.png"
+			rotation: 0.0d
+			width: 7.647058823529411d
+			x: 2.0d
+			y: -6.25d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/forge_rocket_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.0d
+			y: -12.5d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_nose_cone.png"
+			rotation: 0.0d
+			width: 3.075d
+			x: -13.0d
+			y: 13.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_cone_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_alloy.png"
+			rotation: 0.0d
+			width: 2.8444444444444446d
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			height: 2.5d
+			image: "ftb:textures/_forge_frontier_item_application_rocket_casing.png"
+			rotation: 0.0d
+			width: 6.8d
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_casing_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_door.png"
+			rotation: 0.0d
+			width: 3.0120481927710845d
+			x: 19.0d
+			y: 14.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_door_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_tank.png"
+			rotation: 0.0d
+			width: 2.9761904761904763d
+			x: -13.5d
+			y: 28.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_tank_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -13.5d
+			y: 22.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: -10.5d
+			y: 25.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_engine.png"
+			rotation: 0.0d
+			width: 2.901098901098901d
+			x: 2.5d
+			y: 28.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_engine_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: 22.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 5.0d
+			y: 25.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_core.png"
+			rotation: 0.0d
+			width: 3.3d
+			x: 18.5d
+			y: 29.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/rocket_core_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 18.5d
+			y: 21.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 21.5d
+			y: 25.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_fin_left.png"
+			rotation: 0.0d
+			width: 2.898876404494382d
+			x: -14.0d
+			y: 44.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/left_fin_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -14.0d
+			y: 37.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: -11.0d
+			y: 41.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_fin_right.png"
+			rotation: 0.0d
+			width: 2.9195402298850577d
+			x: 2.5d
+			y: 44.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/right_fin_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: 37.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 5.5d
+			y: 41.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7584AB93EB7D37EB"
+				"4BB54E651BBB1FC9"
+				"2A09E2154B6C0CB3"
+				"05ED4FAADAE24126"
+				"01C5A24BC7CC2BE7"
+				"0F323F6B149201ED"
+				"4F69B98546F521BE"
+				"6BF5F6F5E9B0F6B7"
+				"68E19B88A3FC363D"
+				"0449EAD19A4F22FE"
+				"5A35F91B01CEBE2A"
+				"2440BFE4B5131CBC"
+				"397DCD619B732A44"
+				"45896323D20A614F"
+				"3BAA143D8FC45CBC"
+				"6AC7B8878F6A4865"
+				"36AF8CB1CFDC0032"
+				"6E746C30A1D5F1A5"
+				"4A72FA334E1FF90B"
+				"3613ED84D9018B60"
+				"115EAB268DA26FC2"
+				"0DD3EE62AAC15828"
+				"40E4A50EA66F1B39"
+				"5E5285009F4E0981"
+			]
+			description: [
+				"Congratulations, fearless adventurer! With the Forge Rocket completed, you’re now ready to unlock the path to the final planet, where The Forge and its secrets lie in wait! As a reward for completing this monumental quest, you’ve earned a rare trophy—a powerful key that will enable the crafting of a special fuel, essential for reaching The Forge in a future update. Fuel up, gather your supplies, and prepare for trials that will test your courage and skill in the ancient halls of The Forge, culminating in a showdown with the ultimate boss."
+				""
+				"Prepare for this epic journey, coming in the &6v3.0&r update. Are you ready to seize your destiny and claim your place among legends?"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_7_rocket"
+				tag: { }
+			}
+			id: "400308BD598388A0"
+			rewards: [
+				{
+					id: "74B62405D5879C20"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "30393193D694A31D"
+					item: "forge_frontier:trophy_block"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Click me for more info!"
+			tasks: [
+				{
+					id: "490CDBFC42DC01C1"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_7_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1AAED8F80CF892BC"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "1372A0EA7D97EBCE"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					id: "2BA800B470A6E7D2"
+					title: "I understand The Forge will be coming Later"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Left Fin\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61C456C8F86FE38A\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_fin_left"
+			id: "45896323D20A614F"
+			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
+			tasks: [{
+				count: 2L
+				id: "74F24953B539C091"
+				item: "forge_frontier:forge_rocket_fin_left"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Left Fin\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61C456C8F86FE38A\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_fin_left"
+			id: "2440BFE4B5131CBC"
+			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
+			tasks: [{
+				id: "2B8CFD38442AF465"
+				item: "forge_frontier:forge_rocket_fin_left"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Fin Right\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"742FFA43ACCE7C7D\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_fin_right"
+			id: "3613ED84D9018B60"
+			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
+			tasks: [{
+				count: 2L
+				id: "2E4C351F798280C4"
+				item: "forge_frontier:forge_rocket_fin_right"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Fin Right\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"742FFA43ACCE7C7D\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_fin_right"
+			id: "3BAA143D8FC45CBC"
+			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
+			tasks: [{
+				id: "3BAB4690E4BDBF8E"
+				item: "forge_frontier:forge_rocket_fin_right"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Tank\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0BF8B19F43CAC526\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_tank"
+			id: "40E4A50EA66F1B39"
+			subtitle: "The fuel tank of the Forge Rocket, providing the energy needed to ignite the engine and power the journey to the final frontier. "
+			tasks: [{
+				id: "25F18022F79620A8"
+				item: "forge_frontier:forge_rocket_tank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Tank\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0BF8B19F43CAC526\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_tank"
+			id: "6AC7B8878F6A4865"
+			subtitle: "The fuel tank of the Forge Rocket, providing the energy needed to ignite the engine and power the journey to the final frontier. "
+			tasks: [{
+				count: 2L
+				id: "701AB716003DFE4D"
+				item: "forge_frontier:forge_rocket_tank"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Core\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2707014306776FEA\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_core"
+			id: "5E5285009F4E0981"
+			subtitle: "The heart of the Forge Rocket, the Core powers and coordinates all essential systems, from navigation to life support. This critical component keeps the rocket stable and on course, making it indispensable for your journey to the final frontier. "
+			tasks: [{
+				id: "6F8FF514C5026DC0"
+				item: "forge_frontier:forge_rocket_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Engine\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"62E3B12BF0527891\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_engine"
+			id: "4F69B98546F521BE"
+			subtitle: "The powerhouse of the Forge Rocket, responsible for propelling it into space. Built to endure high thrust and extreme temperatures, this engine is key to reaching new frontiers. "
+			tasks: [
+				{
+					id: "73E1493DDBEB5390"
+					item: "forge_frontier:forge_rocket_engine"
+					type: "item"
+				}
+				{
+					id: "4AC84A333420173E"
+					title: "How to Craft"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "6BF5F6F5E9B0F6B7"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 11L
+				id: "661C28621748C018"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "0F323F6B149201ED"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 12L
+				id: "63C87D4FECC3ECDC"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "115EAB268DA26FC2"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 13L
+				id: "21C6FB5804FE86FC"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "01C5A24BC7CC2BE7"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 9L
+				id: "61D21BE38D234780"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "6E746C30A1D5F1A5"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 10L
+				id: "042D97797711ECA1"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "0DD3EE62AAC15828"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 7L
+				id: "7BEBCC8E3F1B0F08"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "36AF8CB1CFDC0032"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 8L
+				id: "2EC62B19459A1E09"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "4BB54E651BBB1FC9"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 4L
+				id: "742A14B209924A3A"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "5A35F91B01CEBE2A"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 5L
+				id: "04131F63808DF7CB"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "2A09E2154B6C0CB3"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 6L
+				id: "5D9A8E527DD1EE48"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "05ED4FAADAE24126"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				id: "0A1EDAF1CE5757EB"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "0449EAD19A4F22FE"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 2L
+				id: "4DBF5F886073C050"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "4A72FA334E1FF90B"
+			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
+			tasks: [{
+				count: 3L
+				id: "7DA8BA1FF4153087"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Nose Cone\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A5DCF6D665473DB\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_nose_cone"
+			id: "7584AB93EB7D37EB"
+			subtitle: "The pointed tip of the Forge Rocket, designed for aerodynamic stability and smoother entry through atmospheres. Essential for completing the rocket build. "
+			tasks: [
+				{
+					id: "4DCDDDF41A441922"
+					item: "forge_frontier:forge_rocket_nose_cone"
+					type: "item"
+				}
+				{
+					id: "68BC566C1FF3BBD3"
+					title: "How to Craft"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -9.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Forge Rocket Door\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A4E5B8651CA1F22\" } }"
+			]
+			icon: "forge_frontier:forge_rocket_door"
+			id: "68E19B88A3FC363D"
+			subtitle: "A reinforced access door for entering and exiting the Forge Rocket. Provides a secure seal, ensuring the rocket remains airtight during liftoff and in deep space. "
+			tasks: [{
+				id: "756E732DE490D6C8"
+				item: "forge_frontier:forge_rocket_door"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["262FF2B00E853521"]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 6 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02DAAC2A8AE50C94\" } }"
+			]
+			id: "397DCD619B732A44"
+			subtitle: "Click me for more info!"
+			tasks: [{
+				id: "7DEC3AB1A2032B67"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.25d
+		}
+		{
+			description: [
+				"Prepare to embark on the ultimate journey with the Forge Rocket! This advanced vessel, arriving in v3.0, will be your key to accessing a mysterious new planet and uncovering the secrets of The Forge. This unique, custom structure awaits only the most determined adventurers, offering trials that will test your skills, bravery, and resolve."
+				"{@pagebreak}"
+				"Once you land, explore the intricate halls and chambers of The Forge, each filled with ancient mechanisms and daunting trials designed to judge your worth. Only the strongest will earn the right to face the final boss, a fearsome and custom-made foe. Prove yourself in this epic battle, and as a reward, obtain a rare item that unlocks the ability to craft all available Creative items—a power unlike any other."
+				"{@pagebreak}"
+				"This final planet promises a true test of strength and strategy, along with treasures that are as rewarding as they are rare. Prepare yourself to confront the unknown, overcome the ultimate challenge, and claim the power of creation itself. Are you ready to rise to the occasion? The Forge awaits!"
+			]
+			hide_dependent_lines: true
+			id: "262FF2B00E853521"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:candy_cavity"
+				id: "79DD67456A860C4E"
+				type: "dimension"
+			}]
+			title: "Forge Rocket Introduction"
+			x: 2.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "45CE256EDFD2214D"
+			shape: "square"
+			tasks: [{
+				id: "4359A61E7A9C5EC1"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "469238B1CF3B21C6"
+			shape: "square"
+			tasks: [{
+				id: "49CE469857CE3EB3"
+				item: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "2E72579CC7C70527"
+			shape: "square"
+			tasks: [{
+				id: "76F4573E54606C74"
+				item: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "51FF9610C39CA1D5"
+			shape: "square"
+			tasks: [{
+				id: "2F3A30374FD6B7BE"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "6C1BFD24E98941AD"
+			shape: "square"
+			tasks: [{
+				id: "3151692C5C9F605A"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "3EFA0C835FBE21B7"
+			shape: "square"
+			tasks: [{
+				id: "675A21200A619CF8"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "10622F361011CB8D"
+			shape: "square"
+			tasks: [{
+				id: "1F3EC1A67B853057"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "65FE0F963EA02086"
+			shape: "square"
+			tasks: [{
+				id: "0936717EDCEC911B"
+				item: {
+					Count: 1
+					id: "alexscaves:hood_of_darkness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "2AF6BA87B0BC3C64"
+			shape: "square"
+			tasks: [{
+				id: "77298D85D2893AE3"
+				item: {
+					Count: 1
+					id: "alexscaves:gingerbread_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "707BE9E6F479E8AD"
+			shape: "square"
+			tasks: [{
+				id: "6195B4300D448365"
+				item: {
+					Count: 1
+					id: "alexscaves:primordial_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "3C40155C09BE352D"
+			shape: "square"
+			tasks: [{
+				id: "3FB1ED0F07B0580E"
+				item: {
+					Count: 1
+					id: "createqol:shadow_radiance_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "07FB3DFAA3D85C95"
+			shape: "square"
+			tasks: [{
+				id: "428ADFC989FAB942"
+				item: {
+					Count: 1
+					id: "ad_astra:jet_suit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "1C93CB7C78223893"
+			shape: "square"
+			tasks: [{
+				id: "44A87C623422F7F7"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "20CE801B1C3135B7"
+			shape: "square"
+			tasks: [{
+				id: "5A3834F7DB3D5C21"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "629457FD68736CC6"
+			shape: "square"
+			tasks: [{
+				id: "5E046C09CAF89156"
+				item: {
+					Count: 1
+					id: "ae2:fluix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "1BF2E8B90C3BFA87"
+			shape: "square"
+			tasks: [{
+				id: "7A9A3901CF687ACC"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "4FF96EE047C7D563"
+			shape: "square"
+			tasks: [{
+				id: "795429712B925FF3"
+				item: {
+					Count: 1
+					id: "enlightened_end:adamantite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "33036CEFC78CACBD"
+			shape: "square"
+			tasks: [{
+				id: "5183BA57C0C00CB9"
+				item: {
+					Count: 1
+					id: "advancednetherite:netherite_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "62DC06E6DB52DC11"
+			shape: "square"
+			tasks: [{
+				id: "5B9568981BE08CD4"
+				item: {
+					Count: 1
+					id: "create_ethium:ethium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "3F35A78827F7CA22"
+			shape: "square"
+			tasks: [{
+				id: "0663DAB77D023649"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "01C6755A2144B2F8"
+			shape: "square"
+			tasks: [{
+				id: "51B5295D1DDBF38D"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "64399941DFB2A700"
+			shape: "square"
+			tasks: [{
+				id: "4633ABF2305704CF"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "3343738F7E731B9A"
+			shape: "square"
+			tasks: [{
+				id: "2E6B61C50FE1B232"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "243D72631150166A"
+			shape: "square"
+			tasks: [{
+				id: "4985CA837216510A"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["66D6C6A425AF48A8"]
+			id: "48EFFFA049A30504"
+			shape: "square"
+			tasks: [{
+				id: "41F32429E8A23856"
+				item: {
+					Count: 1
+					id: "cataclysm:ancient_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"10622F361011CB8D"
+				"707BE9E6F479E8AD"
+				"64399941DFB2A700"
+				"07FB3DFAA3D85C95"
+				"2E72579CC7C70527"
+				"65FE0F963EA02086"
+				"3C40155C09BE352D"
+				"20CE801B1C3135B7"
+				"6C1BFD24E98941AD"
+				"629457FD68736CC6"
+				"33036CEFC78CACBD"
+				"469238B1CF3B21C6"
+				"1C93CB7C78223893"
+				"01C6755A2144B2F8"
+				"243D72631150166A"
+				"3343738F7E731B9A"
+				"51FF9610C39CA1D5"
+				"3F35A78827F7CA22"
+				"48EFFFA049A30504"
+				"2AF6BA87B0BC3C64"
+				"3EFA0C835FBE21B7"
+				"1BF2E8B90C3BFA87"
+				"62DC06E6DB52DC11"
+				"4FF96EE047C7D563"
+				"45CE256EDFD2214D"
+			]
+			description: [""]
+			hide_dependency_lines: true
+			id: "1A5DCF6D665473DB"
+			subtitle: "The pointed tip of the Forge Rocket, designed for aerodynamic stability and smoother entry through atmospheres. Essential for completing the rocket build. "
+			tasks: [{
+				id: "1E0923F853BBCFF0"
+				item: "forge_frontier:forge_rocket_nose_cone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "66D6C6A425AF48A8"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "24F2BC290D1379DE"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "645095D1F886FAB8"
+			shape: "square"
+			tasks: [{
+				id: "3339CE7F258A0A5B"
+				item: "forge_frontier:compressed_lead_4x"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "7AAFF03DB14B563A"
+			shape: "square"
+			tasks: [{
+				id: "2E627D2AB3AE97DB"
+				item: "forge_frontier:compressed_aluminum_4x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "102FDF88DD007049"
+			shape: "square"
+			tasks: [{
+				id: "36E7AF5C4E7FBC96"
+				item: "forge_frontier:compressed_malachite_4x"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "3D492F19757FBF68"
+			shape: "square"
+			tasks: [{
+				id: "4033DDA1A6B33562"
+				item: "forge_frontier:compressed_irradium_4x"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "33D089BFFBB8ACA8"
+			shape: "square"
+			tasks: [{
+				id: "44D5B2A484AF66A9"
+				item: "forge_frontier:compressed_bismuth_4x"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "05B3C1EA21803DF9"
+			shape: "square"
+			tasks: [{
+				id: "00D3EB4F7E5D1B42"
+				item: "forge_frontier:compressed_desh_4x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "4579583A3455FFF4"
+			shape: "square"
+			tasks: [{
+				id: "72EE4BC8B208CA86"
+				item: "forge_frontier:compressed_ostrum_4x"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "71DCABE706D3F906"
+			shape: "square"
+			tasks: [{
+				id: "49C144D317FC862C"
+				item: "forge_frontier:compressed_calorite_4x"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "1A6B742AD4174067"
+			shape: "square"
+			tasks: [{
+				id: "74033EAC043A9E46"
+				item: "forge_frontier:compressed_scarlet_neodymium_4x"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "6384135DAEA1989D"
+			shape: "square"
+			tasks: [{
+				id: "575CE4581AD3A26E"
+				item: "forge_frontier:compressed_azure_neodymium_4x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "7A49199AD7C67856"
+			shape: "square"
+			tasks: [{
+				id: "545F4A04016878CB"
+				item: "forge_frontier:compressed_uranium_4x"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "2699748D3172F7AA"
+			shape: "square"
+			tasks: [{
+				id: "6625D210EF385C8C"
+				item: "forge_frontier:compressed_amber_4x"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "0E073BDDBE007735"
+			shape: "square"
+			tasks: [{
+				id: "16F1E194C54CA38A"
+				item: "forge_frontier:compressed_sulfur_4x"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "441F7841C05A866D"
+			shape: "square"
+			tasks: [{
+				id: "18D77D76F4AFB0FF"
+				item: "forge_frontier:compressed_guano_4x"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "353E7BD7A9A0F94B"
+			shape: "square"
+			tasks: [{
+				id: "717493C3C12F256C"
+				item: "forge_frontier:compressed_pearl_4x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "262FB7030C4331FA"
+			shape: "square"
+			tasks: [{
+				id: "13121E3B8303C94D"
+				item: "forge_frontier:compressed_mithril_4x"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "286780F7814926B8"
+			shape: "square"
+			tasks: [{
+				id: "59ABCA2DFAFBC8D3"
+				item: "forge_frontier:compressed_industrial_iron_4x"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "596CDD93A165CE36"
+			shape: "square"
+			tasks: [{
+				id: "18D9BA75B5837989"
+				item: "forge_frontier:compressed_void_steel_4x"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "78A698F4BD970E34"
+			shape: "square"
+			tasks: [{
+				id: "5388DB17F22B48FD"
+				item: "forge_frontier:compressed_netherite-diamond_4x"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5989CA8F6DA5A13D"]
+			id: "5FCCB2083412B001"
+			shape: "square"
+			tasks: [{
+				id: "4C29382DBAEBDB2A"
+				item: "forge_frontier:compressed_ethium_1x"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"05B3C1EA21803DF9"
+				"286780F7814926B8"
+				"4579583A3455FFF4"
+				"353E7BD7A9A0F94B"
+				"7AAFF03DB14B563A"
+				"7A49199AD7C67856"
+				"6384135DAEA1989D"
+				"3D492F19757FBF68"
+				"441F7841C05A866D"
+				"2699748D3172F7AA"
+				"596CDD93A165CE36"
+				"102FDF88DD007049"
+				"71DCABE706D3F906"
+				"0E073BDDBE007735"
+				"1A6B742AD4174067"
+				"78A698F4BD970E34"
+				"262FB7030C4331FA"
+				"5FCCB2083412B001"
+				"645095D1F886FAB8"
+				"33D089BFFBB8ACA8"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "1BD0B917B705AEE1"
+			tasks: [{
+				id: "256871A5B6261311"
+				item: "forge_frontier:forge_alloy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BD0B917B705AEE1"]
+			id: "60824E7CD9F212EC"
+			tasks: [{
+				id: "5396235F5B56FDE2"
+				item: "forge_frontier:forge_rocket_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "5989CA8F6DA5A13D"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "7C7EAF878D49C378"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "50D04A7D531CB082"
+			shape: "square"
+			tasks: [{
+				id: "6D0AC9010F5A6621"
+				item: "ad_astra:mars_stone"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "68D0F65427476975"
+			shape: "square"
+			tasks: [{
+				id: "1FD15B99718B5196"
+				item: "ad_astra:glacio_stone"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "62FCE0C4508928FC"
+			shape: "square"
+			tasks: [{
+				id: "6BFC7E43D72E187F"
+				item: "ad_astra:venus_stone"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "3743F593E6D01606"
+			shape: "square"
+			tasks: [{
+				id: "3B0554792ABA5F1F"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "484E734FFCC7AEC3"
+			shape: "square"
+			tasks: [{
+				id: "523CF7E94235302A"
+				item: "ad_astra:mercury_stone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "3D71B7E1751CDACF"
+			shape: "square"
+			tasks: [{
+				id: "799FF3E987472225"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "120690651425F774"
+			shape: "square"
+			tasks: [{
+				id: "35DEB6104F047417"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "75EB969258119A0C"
+			shape: "square"
+			tasks: [{
+				id: "1E6C71B175F3D26B"
+				item: "deeperdarker:sculk_stone"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "0269CE3F9FC98ABE"
+			shape: "square"
+			tasks: [{
+				id: "78432E482427CA3E"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "3D241AF0CAF1D9BD"
+			shape: "square"
+			tasks: [{
+				id: "78FEE0FC3B561A05"
+				item: "alexscaves:muck"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "397385400BBFACB3"
+			shape: "square"
+			tasks: [{
+				id: "0E1091307A4D8A6B"
+				item: "alexscaves:guanostone"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "7076261298C5A0B0"
+			shape: "square"
+			tasks: [{
+				id: "6B5245A87AF3B8D8"
+				item: "alexscaves:limestone"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "446905E1C34D6D52"
+			shape: "square"
+			tasks: [{
+				id: "6E95AEC7FF840AD0"
+				item: "alexscaves:cake_layer"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "5C62D6059DEA012A"
+			shape: "square"
+			tasks: [{
+				id: "3E280A9F7324C721"
+				item: "alexscaves:radrock"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "07C1FFC3335345FB"
+			shape: "square"
+			tasks: [{
+				id: "05FBFE0B38F0D173"
+				item: "alexscaves:galena"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7EAF87C66A707E09"]
+			id: "13ED01872525019B"
+			shape: "square"
+			tasks: [{
+				id: "6EADB38EA70F5FBE"
+				item: "createteleporters:custom_portal"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"0269CE3F9FC98ABE"
+				"3D71B7E1751CDACF"
+				"75EB969258119A0C"
+				"484E734FFCC7AEC3"
+				"3743F593E6D01606"
+				"5C62D6059DEA012A"
+				"07C1FFC3335345FB"
+				"62FCE0C4508928FC"
+				"7076261298C5A0B0"
+				"120690651425F774"
+				"50D04A7D531CB082"
+				"13ED01872525019B"
+				"68D0F65427476975"
+				"446905E1C34D6D52"
+				"3D241AF0CAF1D9BD"
+				"397385400BBFACB3"
+			]
+			hide_dependency_lines: true
+			id: "6A4E5B8651CA1F22"
+			subtitle: "A reinforced access door for entering and exiting the Forge Rocket. Provides a secure seal, ensuring the rocket remains airtight during liftoff and in deep space. "
+			tasks: [{
+				id: "29ADAFB0058A0677"
+				item: "forge_frontier:forge_rocket_door"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 10.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7EAF87C66A707E09"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "0B117A1CD993432D"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "49C8BE20F9567EBB"
+			shape: "square"
+			tasks: [{
+				id: "0FC1A7E2CCD14A0C"
+				item: {
+					Count: 1
+					id: "ae2:fluid_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			hide_details_until_startable: false
+			id: "12AB7D8A9369396D"
+			shape: "square"
+			tasks: [{
+				id: "46FE2907EDCA50EC"
+				item: {
+					Count: 1
+					id: "ae2:item_storage_cell_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "1477301EF24575A1"
+			shape: "square"
+			tasks: [{
+				id: "2DA6654B34D6E05C"
+				item: {
+					Count: 1
+					id: "appflux:fe_256k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "0CFB0239CAD5D792"
+			shape: "square"
+			tasks: [{
+				id: "78F7B2B4A5FC6CE3"
+				item: {
+					Count: 1
+					id: "ae2things:disk_drive_256k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "1EB6902B6FCD4E91"
+			shape: "square"
+			tasks: [{
+				id: "2F713399264E57FA"
+				item: "sophisticatedstorage:netherite_shulker_box"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "7D30F1330720933C"
+			shape: "square"
+			tasks: [{
+				id: "0133174E48028198"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:netherite_barrel"
+					tag: {
+						accentColor: 16351261
+						mainColor: 16351261
+					}
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "7F821A23AF051675"
+			shape: "square"
+			tasks: [{
+				id: "41A2A6B3BD2444BA"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "719B8F6A771F37B7"
+			shape: "square"
+			tasks: [{
+				id: "10B6C9DA63C798A2"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "0BCF950AB2114854"
+			shape: "square"
+			tasks: [{
+				id: "0B4CCEA9DE412352"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "77DA9830B86C7C65"
+			shape: "square"
+			tasks: [{
+				id: "3EEEA4C439E8B6C5"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "671DF351351EC625"
+			shape: "square"
+			tasks: [{
+				id: "764762FC8D77E941"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["775BA7278045F015"]
+			id: "327FAF70446D6D83"
+			shape: "square"
+			tasks: [{
+				id: "5EE6C193E9DD288D"
+				item: "railways:fuel_tank"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"0BCF950AB2114854"
+				"7F821A23AF051675"
+				"1EB6902B6FCD4E91"
+				"327FAF70446D6D83"
+				"77DA9830B86C7C65"
+				"49C8BE20F9567EBB"
+				"12AB7D8A9369396D"
+				"0CFB0239CAD5D792"
+				"671DF351351EC625"
+				"719B8F6A771F37B7"
+				"1477301EF24575A1"
+				"7D30F1330720933C"
+			]
+			hide_dependency_lines: true
+			id: "0BF8B19F43CAC526"
+			tasks: [{
+				id: "29E0A9E0F620F1EB"
+				item: "forge_frontier:forge_rocket_tank"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 25.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "775BA7278045F015"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "4B3DE521E82C8D41"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: -17.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "41544A71C2124046"
+			shape: "square"
+			tasks: [{
+				id: "0B688684599677BC"
+				item: "balancedflight:ascended_flight_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "4B97893867815C4A"
+			shape: "square"
+			tasks: [{
+				id: "78041188183F8E51"
+				item: "balancedflight:flight_anchor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "2DB29D279BB0EFA0"
+			shape: "square"
+			tasks: [{
+				id: "42C61B5FF9D6C1C3"
+				item: {
+					Count: 1
+					id: "ad_astra:jet_suit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "75AB34B8EFD7C6D1"
+			shape: "square"
+			tasks: [{
+				id: "22E7E10CAA4FC363"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "7296521A5EF5F384"
+			shape: "square"
+			tasks: [{
+				id: "3F34E461E4EDE151"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "76E818891088F995"
+			shape: "square"
+			tasks: [{
+				id: "5C4D554363ECEAB1"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "19A777BA8D824CA1"
+			shape: "square"
+			tasks: [{
+				id: "7FD5386E25094C05"
+				item: {
+					Count: 1
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "7641DB332FE13744"
+			shape: "square"
+			tasks: [{
+				id: "4807EE00D357726D"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3E186F177E7D056E"]
+			id: "2B4FC6BF8BD6AFE4"
+			shape: "square"
+			tasks: [{
+				id: "71BF16EED6B9009D"
+				item: {
+					Count: 1
+					id: "hangglider:reinforced_hang_glider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"41544A71C2124046"
+				"2B4FC6BF8BD6AFE4"
+				"4B97893867815C4A"
+				"2DB29D279BB0EFA0"
+				"75AB34B8EFD7C6D1"
+				"7641DB332FE13744"
+				"76E818891088F995"
+				"7296521A5EF5F384"
+				"19A777BA8D824CA1"
+			]
+			hide_dependency_lines: true
+			id: "62E3B12BF0527891"
+			subtitle: "The powerhouse of the Forge Rocket, responsible for propelling it into space. Built to endure high thrust and extreme temperatures, this engine is key to reaching new frontiers. "
+			tasks: [{
+				id: "0FDA72DD27C28BD5"
+				item: "forge_frontier:forge_rocket_engine"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 25.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3E186F177E7D056E"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "43DE603B1481BF2A"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "5B08F4C951BE34C9"
+			shape: "square"
+			tasks: [{
+				id: "476D59EE852CB4F1"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "5510DF2FCBC6B480"
+			shape: "square"
+			tasks: [{
+				id: "669CC044039609C8"
+				item: "create_additions_synthetics:creative_core"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "67B9076DFB706A9A"
+			shape: "square"
+			tasks: [{
+				id: "6F107883EE2B4386"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "563D5DD3C1D0ADCF"
+			shape: "square"
+			tasks: [{
+				id: "7E1D713F824EB8F0"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "2507EA70A1FF821D"
+			shape: "square"
+			tasks: [{
+				id: "265EE600447D5F20"
+				item: "create_things_and_misc:vibration_mechanism"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "7DF3F851FD7C1413"
+			shape: "square"
+			tasks: [{
+				id: "562BFAB16231E9D9"
+				item: "create_dd:integrated_mechanism"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "5C0D60A38483BDFC"
+			shape: "square"
+			tasks: [{
+				id: "6891ABBAC9F35B31"
+				item: "create_dd:sealed_mechanism"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "7B8042B0097F8BF7"
+			shape: "square"
+			tasks: [{
+				id: "2B541C6A89BC0F87"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "15D49D1E45C03B62"
+			shape: "square"
+			tasks: [{
+				id: "3A686F0B8F04E1C2"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "5FE7F786F8865736"
+			shape: "square"
+			tasks: [{
+				id: "6BE5D200384AE576"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "4439AEAF41FBC359"
+			shape: "square"
+			tasks: [{
+				id: "3792D493C96D73FD"
+				item: "createteleporters:quantum_mechanism"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "06EC7D41D031EC62"
+			shape: "square"
+			tasks: [{
+				id: "1FC586BBBB0AC7DC"
+				item: "create_dd:stargaze_singularity"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "0A1D520B2958930F"
+			shape: "square"
+			tasks: [{
+				id: "1699A7E7DEFA4F2E"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "499A2BC61FD612B1"
+			shape: "square"
+			tasks: [{
+				id: "0D02795706488B7A"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 27.0d
+		}
+		{
+			dependencies: ["31DB4D1C003118C7"]
+			id: "0F110958CDECA588"
+			shape: "square"
+			tasks: [{
+				id: "1D4A254FFED8025F"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"0A1D520B2958930F"
+				"15D49D1E45C03B62"
+				"7DF3F851FD7C1413"
+				"0F110958CDECA588"
+				"5FE7F786F8865736"
+				"5C0D60A38483BDFC"
+				"563D5DD3C1D0ADCF"
+				"4439AEAF41FBC359"
+				"2507EA70A1FF821D"
+				"5B08F4C951BE34C9"
+				"7B8042B0097F8BF7"
+				"5510DF2FCBC6B480"
+				"499A2BC61FD612B1"
+				"06EC7D41D031EC62"
+				"67B9076DFB706A9A"
+			]
+			hide_dependency_lines: true
+			id: "2707014306776FEA"
+			subtitle: "The heart of the Forge Rocket, the Core powers and coordinates all essential systems, from navigation to life support. This critical component keeps the rocket stable and on course, making it indispensable for your journey to the final frontier. "
+			tasks: [{
+				id: "2063720A5F79931A"
+				item: "forge_frontier:forge_rocket_core"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 25.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "31DB4D1C003118C7"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "03F7A2AD3E5F1EC5"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "4B38859A5812BAF5"
+			shape: "square"
+			tasks: [{
+				id: "483FD3ECFA03350D"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "16F537656A8BF0EA"
+			shape: "square"
+			tasks: [{
+				id: "22C3C31F5F0BAEC8"
+				item: "alexsdelight:kangaroo_pasta"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "6737E3EA69C4C374"
+			shape: "square"
+			tasks: [{
+				id: "7D5194E153B00AF0"
+				item: "ends_delight:dragon_leg_with_sauce_block"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "1FF8452C38C0C771"
+			shape: "square"
+			tasks: [{
+				id: "55C7B9950AD092F5"
+				item: "delightful:smore"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 40.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "6C8D6B004D9E8F70"
+			shape: "square"
+			tasks: [{
+				id: "163A551095E87BEB"
+				item: "casualness_delight:donkey_burger"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "75D49F97DC444885"
+			shape: "square"
+			tasks: [{
+				id: "3C27049FB02C3ACB"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "4E6FB4B0380276C0"
+			shape: "square"
+			tasks: [{
+				id: "67A7BD96DFB79215"
+				item: "adastradelight:cheeseburger"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "3A9A7DB5B7DDD57C"
+			shape: "square"
+			tasks: [{
+				id: "5C249FB60A05DA3C"
+				item: "naturalistdelight:duck_soup"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 41.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "6FA1D16A55C97EE6"
+			shape: "square"
+			tasks: [{
+				id: "0BF7023482C51856"
+				item: "appliedenergisticsdelight:charged_apple_cider"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 42.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "4087DB9F6D9B26CC"
+			shape: "square"
+			tasks: [{
+				id: "1A8F7D9E06D29C2B"
+				item: "alexscavesdelight:toxic_hamburger"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 42.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "0A6FDC464AB63830"
+			shape: "square"
+			tasks: [{
+				id: "64EC2F54A37CBB8B"
+				item: "alexscavesdelight:heart_of_iron_humburger"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 42.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "157B8FE93C4DFB20"
+			shape: "square"
+			tasks: [{
+				id: "742C427D7BC3680A"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 42.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "47E0CA38180B8848"
+			shape: "square"
+			tasks: [{
+				id: "3D9810220758DF42"
+				item: "silentsdelight:plated_warden_heart"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 39.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "53F6DE3056656108"
+			shape: "square"
+			tasks: [{
+				id: "26255CB025788EFE"
+				item: "miners_delight:improvised_barbecue_stick"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 39.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "3976FAD7BC2D9DC6"
+			shape: "square"
+			tasks: [{
+				id: "62E40DC9E255094C"
+				item: "oceansdelight:cabbage_wrapped_elder_guardian"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 39.5d
+		}
+		{
+			dependencies: ["5ACA08F426B26898"]
+			id: "7087464FB1FBACD9"
+			shape: "square"
+			tasks: [{
+				id: "3F540CD6C086B3BB"
+				item: "aquaculturedelight:rollmops"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 39.5d
+		}
+		{
+			dependencies: [
+				"75D49F97DC444885"
+				"6C8D6B004D9E8F70"
+				"6FA1D16A55C97EE6"
+				"4B38859A5812BAF5"
+				"1FF8452C38C0C771"
+				"7087464FB1FBACD9"
+				"3976FAD7BC2D9DC6"
+				"53F6DE3056656108"
+				"6737E3EA69C4C374"
+				"3A9A7DB5B7DDD57C"
+				"0A6FDC464AB63830"
+				"4087DB9F6D9B26CC"
+				"16F537656A8BF0EA"
+				"47E0CA38180B8848"
+				"4E6FB4B0380276C0"
+				"157B8FE93C4DFB20"
+			]
+			hide_dependency_lines: true
+			id: "61C456C8F86FE38A"
+			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
+			tasks: [{
+				id: "526BA222163B818F"
+				item: "forge_frontier:forge_rocket_fin_left"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 41.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "5ACA08F426B26898"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "205D0C7A9E20BFCD"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: -18.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "2F5B5E73D94FFCAB"
+			shape: "square"
+			tasks: [{
+				id: "6F70C311CDA30A44"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "042BEA68325B117B"
+			shape: "square"
+			tasks: [{
+				id: "1C6B7E91C728F0B9"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "33D65589EF574C7D"
+			shape: "square"
+			tasks: [{
+				id: "7444E84256ECCA0D"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "4A4552DC1098719F"
+			shape: "square"
+			tasks: [{
+				id: "4E51477B1085BA50"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 40.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "4A0524751C25D370"
+			shape: "square"
+			tasks: [{
+				id: "169FB2908116A87D"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "06D1514A212BEEB0"
+			shape: "square"
+			tasks: [{
+				id: "01919A5763DD3DA8"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "4A186039887AEB51"
+			shape: "square"
+			tasks: [{
+				id: "0C6109E739552373"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "71193DCFAB4ED806"
+			shape: "square"
+			tasks: [{
+				id: "169B615DF353CA3A"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 39.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "4EF0E1952B3673E8"
+			shape: "square"
+			tasks: [{
+				id: "664C7C74E5DB9BBE"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "15698305406EBE56"
+			shape: "square"
+			tasks: [{
+				id: "6C83C25E6384FBE5"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "15D0774144EF66F1"
+			shape: "square"
+			tasks: [{
+				id: "6B69BCD1D20DC05C"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 41.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "4370594BA6D96CA3"
+			shape: "square"
+			tasks: [{
+				id: "72CD796FF876660B"
+				item: "experienceobelisk:nightmare_bottle"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "7D60426FA95A88A9"
+			shape: "square"
+			tasks: [{
+				id: "46A3A9B73A113AA4"
+				item: "experienceobelisk:daydream_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "03A9497CAB6F2997"
+			shape: "square"
+			tasks: [{
+				id: "57E45BC04525AD17"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "49F5BFA486B50B9C"
+			shape: "square"
+			tasks: [{
+				id: "0B826E3F55660A6C"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 42.0d
+		}
+		{
+			dependencies: ["12B37EE213109C14"]
+			id: "17C8A3EA710208B5"
+			shape: "square"
+			tasks: [{
+				id: "76EE7182FBCDE7DE"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 41.0d
+		}
+		{
+			dependencies: [
+				"06D1514A212BEEB0"
+				"4370594BA6D96CA3"
+				"042BEA68325B117B"
+				"4A0524751C25D370"
+				"4A186039887AEB51"
+				"2F5B5E73D94FFCAB"
+				"03A9497CAB6F2997"
+				"15D0774144EF66F1"
+				"15698305406EBE56"
+				"33D65589EF574C7D"
+				"17C8A3EA710208B5"
+				"49F5BFA486B50B9C"
+				"4EF0E1952B3673E8"
+				"7D60426FA95A88A9"
+				"71193DCFAB4ED806"
+				"4A4552DC1098719F"
+			]
+			hide_dependency_lines: true
+			id: "742FFA43ACCE7C7D"
+			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
+			tasks: [{
+				id: "6F7F162AA133FA15"
+				item: "forge_frontier:forge_rocket_fin_right"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 41.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "12B37EE213109C14"
+			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			tasks: [{
+				id: "6D728A7786F92A73"
+				title: "Forge Rocket Check"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 41.0d
+		}
+	]
+	title: "Final Rocket Progression"
+}
