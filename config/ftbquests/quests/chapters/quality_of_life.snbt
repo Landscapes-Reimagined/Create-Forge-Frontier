@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	autofocus_id: "6EE09A4C8D827BE0"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
