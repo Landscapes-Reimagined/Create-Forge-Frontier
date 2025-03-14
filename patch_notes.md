@@ -13,6 +13,10 @@ Key highlights include:
 
 ## 🆕 **Mod Additions**  
 - **[CarrasconLib](modlink)**: 
+- [Design n Decor Fork]()
+- [Create Fuel and Water Information]()
+- [Create Nuclear]()
+- [Pipe Organs]()
 
 ## ❌ **Mod Removals**  
 - **Bobber Detector**: Broken in v6.0 of Create, and not essential to the pack
@@ -22,6 +26,8 @@ Key highlights include:
 - **Wooder Wheels**: Added via Create in previos version, so its not essential to the pack
 - **Create: Halitosis**: Broken in v6.0 of Create, and can be implemented via KubeJS
 - **3D Skin Layers**: Broken Textures, and rarely updated
+- **Toms Simple Storage**:
+- **Create Contrapion Terminals**:
 
 ## ⚙️ **Configuration & UI Updates** 
 ### **Drippy Loading Screen**  
