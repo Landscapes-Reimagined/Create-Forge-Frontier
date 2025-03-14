@@ -37,14 +37,7 @@ Key highlights include:
 ---
 ### These updates enhance **performance, compatibility, and overall gameplay experience** by ensuring that all mods align seamlessly with *Create 6.0*. Stay tuned for further improvements! 🚀  
 
-## ⚙️ **Configuration & UI Updates** 
-### **Drippy Loading Screen**  
-- 🎨 **Visual Enhancements:** Updated to **version 2.3.0**, to match pack version.  
-### **Fancy Menu**  
-- 🖥️ **Refined Interface:** Upgraded to **version 2.3.0**, to match pack version.
-### Other Mods Listed Here 
-- Config Info Here 
-### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
+## 🔥 **Forge Frontier Core Updates**  
 ---
 
 ## 📜 **Quest Updates & Additions**
@@ -59,10 +52,17 @@ Key highlights include:
 - Made all incomplete quest pages invisible to make quests less overwhelming
 ---
 
-## 🔥 **Forge Frontier Core Updates**  
+## ⚙️ **KubeJS Updates**
 ---
 
-## ⚙️ **KubeJS Updates**
+## ⚙️ **Configuration & UI Updates** 
+### **Drippy Loading Screen**  
+- 🎨 **Visual Enhancements:** Updated to **version 2.3.0**, to match pack version.  
+### **Fancy Menu**  
+- 🖥️ **Refined Interface:** Upgraded to **version 2.3.0**, to match pack version.
+### Other Mods Listed Here 
+- Config Info Here 
+### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
 ---
 
 ## 🔄 **Mod Updates & Enhancements**  
