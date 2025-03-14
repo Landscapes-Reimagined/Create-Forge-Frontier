@@ -11,6 +11,18 @@ Key highlights include:
 > **🚨 Reminder:** Before updating, we highly recommend **backing up your world** to preserve your progress.  
 ---
 
+## 🆕 **Mod Additions**  
+- **[Mod Name](modlink)**: 
+
+## ❌ **Mod Removals**  
+- **Bobber Detector**: Broken in v6.0 of Create, and not essential to the pack
+- **Create: Crystal Clear**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
+- **Create: Deepslate Processing**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
+- **Create: Dynamic Light**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
+- **Wooder Wheels**: Added via Create in previos version, so its not essential to the pack
+- **Create: Halitosis**: Broken in v6.0 of Create, and can be implemented via KubeJS
+- **Acedium**: Causes major GL Errors, making rendering of the world flash every second
+
 ## ⚙️ **Configuration & UI Updates** 
 ### **Drippy Loading Screen**  
 - 🎨 **Visual Enhancements:** Updated to **version 2.3.0**, to match pack version.  
