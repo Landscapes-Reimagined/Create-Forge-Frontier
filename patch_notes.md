@@ -12,22 +12,30 @@ Key highlights include:
 ---
 
 ## 🆕 **Mod Additions**  
-- **[CarrasconLib](modlink)**: 
-- [Design n Decor Fork]()
-- [Create Fuel and Water Information]()
-- [Create Nuclear]()
-- [Pipe Organs]()
+- **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**  
+  - A powerful and evolving **library mod**, designed to centralize and streamline essential tools for mod development.  
+- **[Create: Design n' Decor Fork](https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor-fork-create-0-6)**  
+  - A revitalized fork of the original *Create: Design n’ Decor* mod, now fully compatible with **Create 0.6**. This update breathes new life into an unmaintained mod, bringing fresh **design and decoration elements** back to the game.  
+- **[Create: Fuel & Water Information](https://www.curseforge.com/minecraft/mc-mods/create-fuel-and-water-information)**  
+  - Enhances your HUD with **real-time fuel and water levels**, providing crucial information for **Create-based automation and fluid systems**.  
+- **[Create Nuclear](https://www.curseforge.com/minecraft/mc-mods/createnuclear)**  
+  - Introduces an expansive **nuclear energy system** into *Create*, allowing players to construct **high-efficiency reactors** capable of generating over **two million SU**.  
+- **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
+  - Expands **Minecraft’s music capabilities** with a variety of **pipe organ stops**, adding depth and immersion to in-game compositions.  
+---
 
 ## ❌ **Mod Removals**  
-- **Bobber Detector**: Broken in v6.0 of Create, and not essential to the pack
-- **Create: Crystal Clear**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
-- **Create: Deepslate Processing**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
-- **Create: Dynamic Light**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
-- **Wooder Wheels**: Added via Create in previos version, so its not essential to the pack
-- **Create: Halitosis**: Broken in v6.0 of Create, and can be implemented via KubeJS
-- **3D Skin Layers**: Broken Textures, and rarely updated
-- **Toms Simple Storage**:
-- **Create Contrapion Terminals**:
+- **Bobber Detector** – Incompatible with *Create v6.0* and deemed non-essential to the modpack.  
+- **Create: Crystal Clear** – No longer functional in *Create v6.0*, **rarely updated**, and unnecessary for the pack.  
+- **Create: Deepslate Processing** – Broken in *Create v6.0* and **infrequently maintained**, making it redundant.  
+- **Create: Dynamic Light** – Incompatible with *Create v6.0* and **not actively updated**.  
+- **Wooder Wheels** – Now included **natively in Create**, eliminating the need for a separate mod.  
+- **Create: Halitosis** – No longer functional in *Create v6.0* and can be **recreated using KubeJS**.  
+- **3D Skin Layers** – **Texture issues** and **lack of updates** led to its removal.  
+- **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
+- **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.  
+---
+### These updates enhance **performance, compatibility, and overall gameplay experience** by ensuring that all mods align seamlessly with *Create 6.0*. Stay tuned for further improvements! 🚀  
 
 ## ⚙️ **Configuration & UI Updates** 
 ### **Drippy Loading Screen**  
