@@ -120,7 +120,6 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Jade Addons**: v5.3.1 → v5.5.0  
 - **Login Protection**: v3.4 → v3.5  
 - **Moonlight Lib**: v2.13.71 → v2.13.73
-- **Naturalist**: v4.0.3 > v5.0pre1  
 - **Neruina**: [Temporarily Disabled]  
 - **Octolib**: v0.4.2 → v0.5.0.1  
 - **Oculus Flywheel Compat**: [Temporarily Disabled]  
