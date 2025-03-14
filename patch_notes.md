@@ -21,6 +21,7 @@ Key highlights include:
 - **Create: Dynamic Light**: Broken in v6.0 of Create, Rarely Updated and not essential to the pack
 - **Wooder Wheels**: Added via Create in previos version, so its not essential to the pack
 - **Create: Halitosis**: Broken in v6.0 of Create, and can be implemented via KubeJS
+- **3D Skin Layers**: Broken Textures, and rarely updated
 
 ## ⚙️ **Configuration & UI Updates** 
 ### **Drippy Loading Screen**  
