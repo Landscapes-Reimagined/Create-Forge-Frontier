@@ -1,0 +1,43 @@
+
+#Machine Settings
+[machines]
+	#Default internal requiredEnergy capacity of Forge Frontier machines
+	#Range: > 0
+	default_machine_internal_energy_capacity = 500000
+	#Default internal requiredEnergy max insert rate of Forge Frontier machines
+	#Range: > 0
+	default_machine_energy_insert_rate = 4096
+	#Default internal requiredEnergy max extract rate of Forge Frontier machines
+	#NOTE: YOU CANNOT EXTRACT ENERGY FROM MOST MACHINES!!!
+	#Range: > 0
+	default_machine_internal_extract_rate = 4096
+	#
+	#Default Energetic Blaze FE energy capacity
+	#Range: > 0
+	energetic_blaze_energy_capacity = 500000
+	#Default Energetic Blaze maximum FE receive rate
+	#Range: > 0
+	energetic_blaze_energy_receive = 32768
+	#Defualt Energetic Blaze maximum FE extraction rate
+	#Range: > 0
+	energetic_blaze_energy_use = 32768
+	#Default Energetic Blaze FE energy capacity when the blaze is Infusing
+	#Range: > 500000
+	energetic_blaze_infusing_energy_capacity = 750000
+	#Default multiplier for the Energetic Blaze's max FE receive and extract rat when Infusing
+	#Range: 1.0 ~ 15.0
+	energetic_blaze_max_fe_receive_inject_infuse_multiplier = 1.5
+	#Default Energetic Blaze AE energy capacity
+	#Range: 0.0 ~ 1.7976931348623157E308
+	energetic_blaze_ae_energy_capacity = 5000000.0
+	#Default Energetic Blaze maximum energy receive rate
+	#Range: 0.0 ~ 1.7976931348623157E308
+	energetic_blaze_max_ae_receive = 327680.0
+
+	#Miscellaneous Settings
+	[machines.misc]
+		#Curio slots to tick
+		#only modify if you know what you're doing!!!
+		#Denote different slots with a comma, like: slot1, slot2, slot3
+		ticking_curio_slots = "head"
+

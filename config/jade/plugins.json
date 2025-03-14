@@ -54,6 +54,16 @@
   "cagedmobs": {
     "cagedmobs_jade": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "collectorsreap": {
     "crop_progress": true
   },
@@ -72,8 +82,8 @@
   "apotheosis": {
     "ench": true
   },
-  "lootr": {
-    "info": true
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -90,6 +100,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
@@ -105,17 +118,6 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": true,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
   },
   "corpse": {
     "corpse": true

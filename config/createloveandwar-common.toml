@@ -1,0 +1,15 @@
+#Whether to disable oil generation on world creation
+addNoOilDatapackAutomatically = false
+#Automatically add simple brass datapack on world creation
+addSimpleBrassDatapackAutomatically = true
+#Automatically add Vender's game Data compat
+vendersGameDataCompat = true
+#Automatically add Vender's game Resource compat
+vendersGameArtCompat = true
+#Drawing machine duration in ticks
+#Range: > 0
+drawing_processing_duration = 100
+#Stamping machine duration in ticks
+#Range: > 0
+stamping_processing_duration = 100
+

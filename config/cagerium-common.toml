@@ -1,0 +1,7 @@
+#Range: 1 ~ 100000
+terrarium_ticks_to_drop = 100
+#Range: 1 ~ 100000
+cage_ticks_to_drop = 100
+#Range: 1 ~ 100000
+plate_ticks_to_drop = 300
+

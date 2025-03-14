@@ -1,0 +1,27 @@
+
+#.
+#Modify Create Qol blocks comportements
+[kinetics]
+
+	[kinetics.stressValues]
+
+		#.
+		#.
+		#Fine tune the kinetic stats of individual components
+		[kinetics.stressValues.v2]
+
+			#.
+			#.
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[kinetics.stressValues.v2.impact]
+				mason_saw = 4.0
+				loom_saw = 4.0
+				shadow_radiance_chestplate = 4.0
+				inventory_linker = 8.0
+				alchemy_saw = 4.0
+				tinkering_saw = 4.0
+				botanist_saw = 4.0
+				glassblower_saw = 4.0
+				carpenters_saw = 4.0
+

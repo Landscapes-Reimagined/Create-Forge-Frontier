@@ -1,0 +1,37 @@
+
+["World Settings"]
+	allow_bullet_break_blocks = true
+	allow_bullet_create_explosions = true
+	allow_bullet_create_fire = true
+	allow_bullet_casing_drops = true
+	allow_summon_npc = true
+	#Range: 0.0 ~ 1000.0
+	summon_npc_min_distance = 400.0
+	#Range: 0.0 ~ 10000.0
+	summon_npc_extra_cooldown = 0.0
+
+["Crafting Settings"]
+	allow_painting = true
+	#Range: 0 ~ 100
+	additional_paint_can_cost = 0
+	allow_magazine_modifying = true
+	#Range: 0 ~ 100
+	additional_magazine_modify_cost = 0
+	allow_gun_crafting = true
+	allow_part_crafting = true
+
+[Actions]
+	allow_shoot_actions = true
+	allow_raycast_actions = true
+	allow_laser_actions = true
+	#Range: 0.0 ~ 100.0
+	global_damage_multiplier = 1.0
+	#Range: 0.0 ~ 100.0
+	global_heal_multiplier = 1.0
+	#Range: 0.0 ~ 100.0
+	global_fire_duration_multiplier = 1.0
+	#Range: 0.0 ~ 100.0
+	global_repair_multiplier = 1.0
+	#Range: 0.0 ~ 100.0
+	global_headshot_multiplier = 1.4
+

@@ -37,9 +37,6 @@
 			willow = true
 			ashen = true
 
-		[types.leaves_type.ad_astra]
-			glacian = true
-
 		[types.leaves_type.chipped]
 			apple_acacia = true
 			cherry_acacia = true
@@ -122,37 +119,21 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.endlessbiomes]
-			penumbral = true
-			glowing_penumbral = true
-
 		[types.leaves_type.phantasm]
 			pream = true
 
-		[types.leaves_type.create_dd]
-			rubber = true
+		[types.leaves_type.ad_astra]
+			glacian = true
 
 	[types.wood_type]
-
-		[types.wood_type.createdieselgenerators]
-			chip_wood = true
 
 		[types.wood_type.quark]
 			azalea = true
 			ancient = true
 			blossom = true
 
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
-
 		[types.wood_type.cataclysm]
 			chorus = true
-
-		[types.wood_type.enlightened_end]
-			indigo = true
-			cerulean = true
 
 		[types.wood_type.betterarcheology]
 			rotten = true
@@ -189,34 +170,35 @@
 			willow = true
 			yellow_bioshroom = true
 
-		[types.wood_type.endlessbiomes]
-			penumbra = true
-			twisted = true
-
 		[types.wood_type.phantasm]
 			pream = true
 
-		[types.wood_type.create_dd]
-			rose = true
-			smoked = true
-			spirit = true
-			rubber = true
+		[types.wood_type.enlightened_end]
+			indigo = true
+			cerulean = true
+
+		[types.wood_type.unusualend]
+			chorus_cane = true
+
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
 
 	[types.cake]
 
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
+		[types.cake.deeperdarkerdelight]
+			bloom_berries_cake = true
 
 		[types.cake.farmersrespite]
 			coffee_cake = true
 
-		[types.cake.collectorsreap]
-			lime_cake = true
-			pomegranate_cake = true
-
-		[types.cake.deeperdarkerdelight]
-			bloom_berries_cake = true
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
 
 		[types.cake.neapolitan]
 			vanilla_cake = true
@@ -225,6 +207,10 @@
 			banana_cake = true
 			mint_cake = true
 			adzuki_cake = true
+
+		[types.cake.collectorsreap]
+			lime_cake = true
+			pomegranate_cake = true
 
 #Disables specific entries
 [entries]
