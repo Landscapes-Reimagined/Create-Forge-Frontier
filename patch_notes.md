@@ -21,7 +21,9 @@ Key highlights include:
 - **[Create Nuclear](https://www.curseforge.com/minecraft/mc-mods/createnuclear)**  
   - Introduces an expansive **nuclear energy system** into *Create*, allowing players to construct **high-efficiency reactors** capable of generating over **two million SU**.  
 - **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
-  - Expands **Minecraft’s music capabilities** with a variety of **pipe organ stops**, adding depth and immersion to in-game compositions.  
+  - Expands **Minecraft’s music capabilities** with a variety of **pipe organ stops**, adding depth and immersion to in-game compositions.
+- **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)**  
+  - A powerful **vein mining tool** that allows players to efficiently harvest multiple blocks at once. Simply hold the **configured key** (set in Minecraft’s control settings) to activate **Ultimine**. Gathered items will automatically collect **beneath your feet**, eliminating the need to chase after drops!  
 ---
 
 ## ❌ **Mod Removals**  
