@@ -37,7 +37,11 @@ Key highlights include:
 - **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
 - **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.  
 ---
-### These updates enhance **performance, compatibility, and overall gameplay experience** by ensuring that all mods align seamlessly with *Create 6.0*. Stay tuned for further improvements! 🚀  
+### These updates enhance **performance, compatibility, and overall gameplay experience** by ensuring that all mods align seamlessly with *Create 6.0*. Stay tuned for further improvements! 🚀
+
+## ❌ Resourepack Removals
+- Create Energistics: Replaced with Custom Assets inside KubeJS
+- Create Re-Aged: Replaced with Custom Assets inside KubeJS
 
 ## 🔥 **Forge Frontier Core Updates**  
 ---
@@ -55,6 +59,9 @@ Key highlights include:
 ---
 
 ## ⚙️ **KubeJS Updates**
+### Assets
+- Created AE and Addon Resources
+- Created New Age Resources
 ---
 
 ## ⚙️ **Configuration & UI Updates** 
