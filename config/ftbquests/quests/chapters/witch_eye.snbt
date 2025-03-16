@@ -314,7 +314,10 @@
 			tasks: [{
 				count: 9L
 				id: "06F7B8F8DD899601"
-				item: { Count: 9, id: "create_dd:blaze_gold" }
+				item: {
+					Count: 9
+					id: "create_dd:blaze_gold"
+				}
 				type: "item"
 			}]
 			x: 5.5d
@@ -327,7 +330,10 @@
 			tasks: [{
 				count: 9L
 				id: "27DF95D900BEEFC8"
-				item: { Count: 9, id: "create_dd:chromatic_compound" }
+				item: {
+					Count: 9
+					id: "create_dd:chromatic_compound"
+				}
 				type: "item"
 			}]
 			x: 8.0d

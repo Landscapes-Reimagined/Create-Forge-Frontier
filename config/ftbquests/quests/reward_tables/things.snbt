@@ -1,0 +1,10 @@
+{
+	id: "31D92E30683EA78B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:oak_log" }
+		{ item: "minecraft:spruce_fence_gate" }
+	]
+	title: "things"
+}
