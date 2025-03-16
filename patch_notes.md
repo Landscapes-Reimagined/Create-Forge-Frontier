@@ -42,6 +42,8 @@ Key highlights include:
 ## ❌ Resourepack Removals
 - Create Energistics: Replaced with Custom Assets inside KubeJS
 - Create Re-Aged: Replaced with Custom Assets inside KubeJS
+- Lootr Chest Retexture: Replaced with Custom Assets inside KubeJS
+- Create Easy Village: Replaced with Custom Assets inside KubeJS
 
 ## 🔥 **Forge Frontier Core Updates**  
 ---
@@ -60,8 +62,11 @@ Key highlights include:
 
 ## ⚙️ **KubeJS Updates**
 ### Assets
-- Created AE and Addon Resources
-- Created New Age Resources
+- Created Custom AE and Addon Resources
+- Created Custom New Age Resources
+- Created Custom Lootr Resources
+- Created Custom Easy Villager Resources
+- Created Custom Easy Piglin Resources
 ---
 
 ## ⚙️ **Configuration & UI Updates** 
