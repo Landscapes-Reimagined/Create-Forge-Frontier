@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "豬布林商人",
+  "itemGroup.easy_piglins": "Easy Piglins",
+  "gui.easy_piglins.input_items": "輸入物品",
+  "gui.easy_piglins.output_items": "輸出物品",
+  "message.easy_piglins.cant_pick_up": "無法撿起攻擊中或忙碌的豬布林"
+}

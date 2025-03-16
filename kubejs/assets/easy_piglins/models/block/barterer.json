@@ -1,0 +1,7 @@
+{
+  "parent": "easy_piglins:block/farm",
+  "textures": {
+    "front": "minecraft:block/nether_bricks",
+    "back": "minecraft:block/nether_bricks"
+  }
+}

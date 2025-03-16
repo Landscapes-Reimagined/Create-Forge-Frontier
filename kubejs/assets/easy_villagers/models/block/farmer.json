@@ -1,0 +1,7 @@
+{
+  "parent": "easy_villagers:block/farm",
+  "textures": {
+    "front": "farmersdelight:block/rich_soil",
+    "back": "farmersdelight:block/rich_soil"
+  }
+}

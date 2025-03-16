@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "Торговець",
+  "itemGroup.easy_piglins": "Полегшення піґлінів",
+  "gui.easy_piglins.input_items": "Даєте",
+  "gui.easy_piglins.output_items": "Забираєте",
+  "message.easy_piglins.cant_pick_up": "Не можна підбирати агресивних або зайнятих піглінів"
+}

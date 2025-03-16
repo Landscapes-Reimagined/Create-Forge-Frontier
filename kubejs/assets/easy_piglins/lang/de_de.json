@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "Tauschhändler",
+  "itemGroup.easy_piglins": "Easy Piglins",
+  "gui.easy_piglins.input_items": "Eingabegegenstände",
+  "gui.easy_piglins.output_items": "Ausgabegegenstände",
+  "message.easy_piglins.cant_pick_up": "Piglins können nicht aufgenommen werden, wenn sie aggressiv oder beschäftigt sind"
+}
