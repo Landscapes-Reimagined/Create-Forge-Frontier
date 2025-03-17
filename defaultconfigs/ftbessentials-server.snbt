@@ -244,7 +244,7 @@
 			# /rtp min distance from spawn point
 			# Default: 500
 			# Range: 0 ~ 30000000
-			min_distance: 500
+			min_distance: 5000
 			
 			# Warm-up time before /rtp command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.rtp.warmup
