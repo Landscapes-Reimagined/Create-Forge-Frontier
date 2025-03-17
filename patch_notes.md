@@ -152,7 +152,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Login Protection**: v3.4 → v3.5  
 - **Moonlight Lib**: v2.13.71 → v2.13.75
 - **Neruina**: [Temporarily Disabled]  
-- **Octolib**: v0.4.2 → v0.5.0.1  
+- **Octolib**: v0.4.2 → v0.5.0.1
+- **Oculus**: v1.7.0 → v1.8.0 
 - **Oculus Flywheel Compat**: [Temporarily Disabled]  
 - **Placebo**: v8.6.2 → v8.6.3  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
