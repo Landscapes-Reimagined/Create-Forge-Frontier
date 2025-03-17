@@ -23,7 +23,9 @@ Key highlights include:
 - **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
   - Expands **Minecraft’s music capabilities** with a variety of **pipe organ stops**, adding depth and immersion to in-game compositions.
 - **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)**  
-  - A powerful **vein mining tool** that allows players to efficiently harvest multiple blocks at once. Simply hold the **configured key** (set in Minecraft’s control settings) to activate **Ultimine**. Gathered items will automatically collect **beneath your feet**, eliminating the need to chase after drops!  
+  - A powerful **vein mining tool** that allows players to efficiently harvest multiple blocks at once. Simply hold the **configured key** (set in Minecraft’s control settings) to activate **Ultimine**. Gathered items will automatically collect **beneath your feet**, eliminating the need to chase after drops!
+- **[Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation)**
+  - Modern World Creation enhances the **Vanilla Create World screen** with a sleek, modern interface. It features smooth hover animations for game mode selection and is fully keyboard navigable using the arrow and tab keys, ensuring improved accessibility and ease of use.  
 ---
 
 ## ❌ **Mod Removals**  
