@@ -112,7 +112,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Goggles**: v0.5.6 → v6.0.0  
 - **Create Interiors**: v0.5.6-build.104 → v0.5.6-local  
 - **Create Mechanical Extruder**: v1.6.3 → v1.6.6
-- **Create Patern Schematics**: v1.1.19 → v1.2.2   
+- **Create Patern Schematics**: v1.1.19 → v1.2.3   
 - **Create Power Loader**: v1.5.0 → v2.0.0  
 - **Create New Age**: v1.1.2 → v1.1.3  
 - **Create QOL**: v1.2 → v1.3.0  
@@ -128,17 +128,19 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Extreme Sound Muffler**: v3.48 → v3.49 
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.8  
-- **Fzzy Config**: v0.6.4 → v0.6.5  
-- **Immediately Fast**: v1.3.5 → v1.3.6  
+- **Fzzy Config**: v0.6.4 → v0.6.5
+- **Gecko Lib**: v4.7 → v4.7.1.1  
+- **Immediately Fast**: v1.3.5 → v1.5.0  
 - **Jade**: v11.12.3 → v11.13.1  
 - **Jade Addons**: v5.3.1 → v5.5.0  
 - **Login Protection**: v3.4 → v3.5  
-- **Moonlight Lib**: v2.13.71 → v2.13.73
+- **Moonlight Lib**: v2.13.71 → v2.13.75
 - **Neruina**: [Temporarily Disabled]  
 - **Octolib**: v0.4.2 → v0.5.0.1  
 - **Oculus Flywheel Compat**: [Temporarily Disabled]  
 - **Placebo**: v8.6.2 → v8.6.3  
-- **PuzzlesLib**: v8.1.25 → v8.1.29  
+- **PuzzlesLib**: v8.1.25 → v8.1.29
+- **Quark**: v4.0-460 → v4.0-461  
 - **Season HUD**: v1.12.2 → v1.12.4  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
@@ -150,7 +152,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **TFMG**: v0.9.3 → v0.9.3b  
 - **WATUT**: v1.1.3 → v1.2.2
 - **Xaeros Minimap**: v25.1.0 → v25.2.0  
-- **XaeroPlus**: v2.26.3 → v2.26.5  
+- **XaeroPlus**: v2.26.3 → v2.26.5
+- **Zeta**: v1.0-24 → v1.0-28  
 ---
 
 ### 📜 **Learn More About the Changes**  
