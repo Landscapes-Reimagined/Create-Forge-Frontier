@@ -29,25 +29,31 @@ Key highlights include:
 ---
 
 ## ❌ **Mod Removals**  
+### **Incompatibility & Redundancy**  
 - **Bobber Detector** – Incompatible with *Create v6.0* and deemed non-essential to the modpack.  
 - **Create: Crystal Clear** – No longer functional in *Create v6.0*, **rarely updated**, and unnecessary for the pack.  
 - **Create: Deepslate Processing** – Broken in *Create v6.0* and **infrequently maintained**, making it redundant.  
 - **Create: Dynamic Light** – Incompatible with *Create v6.0* and **not actively updated**.  
-- **Wooder Wheels** – Now included **natively in Create**, eliminating the need for a separate mod.  
 - **Create: Halitosis** – No longer functional in *Create v6.0* and can be **recreated using KubeJS**.  
-- **3D Skin Layers** – **Texture issues** and **lack of updates** led to its removal.  
+- **Wooder Wheels** – Now included **natively in Create**, eliminating the need for a separate mod.  
 - **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
-- **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.
-- **Kambrik** - Non Essential Library Mod
-- **LibX** - Non Essential Library Mod
-- **Lithostitched** - Non Essential Library Mod
-- **Necrononicon** - Non Essential Library Mod
-- **ObsidianUI** - Non Essential Library Mod
-- **Poly Lib** - Non Essential Library Mod
-- **Load My Resources** - Non Essential Library Mod
-- **JCPlugin** - Non Essential Library Mod
+- **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.  
+- **3D Skin Layers** – Removed due to **broken textures** and **lack of ongoing support**.  
+
+### **Non-Essential Library Mods**  
+The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
+- **Kambrik**  
+- **LibX**  
+- **Lithostitched**  
+- **Necrononicon**  
+- **ObsidianUI**  
+- **Poly Lib**  
+- **Load My Resources**  
+- **JCPlugin**  
+
+### **Why These Changes?**  
+By removing **incompatible, redundant, and non-essential** mods, we are improving **performance, stability, and overall compatibility** with *Create v6.0*. These adjustments ensure a **smoother and more efficient gameplay experience** for all players.  
 ---
-### These updates enhance **performance, compatibility, and overall gameplay experience** by ensuring that all mods align seamlessly with *Create 6.0*. Stay tuned for further improvements! 🚀
 
 ## ❌ Resourepack Removals
 - Create Energistics: Replaced with Custom Assets inside KubeJS
