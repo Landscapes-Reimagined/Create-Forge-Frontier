@@ -27,16 +27,16 @@
 	DropDustChance = 0.5
 
 	["Bookshelf Settings"."Infected Bookshelves"]
-		#The minimum spawn delay of Infected Bookshelves in ticks. Default = 150
+		#The minimum spawn delay of Infected Bookshelves in ticks. Default = 300
 		#Range: 1 ~ 10000
 		SpawnDelayMin = 150
-		#The maximum spawn delay of Infected Bookshelves in ticks. Default = 250
+		#The maximum spawn delay of Infected Bookshelves in ticks. Default = 500
 		#Range: 1 ~ 10000
 		SpawnDelayMax = 250
 		#The XP value of spawned orbs. Default = 6
 		#Range: 1 ~ 32767
 		OrbValue = 6
-		#The number of spawns until the bookshelf decays. Default = 100
+		#The number of spawns until the bookshelf decays. Default = 50
 		#Range: 1 ~ 10000
 		Spawns = 100
 
@@ -50,7 +50,7 @@
 		#The XP value of spawned orbs. Default = 12
 		#Range: 1 ~ 32767
 		OrbValue = 12
-		#The number of spawns until the bookshelf decays. Default = 200
+		#The number of spawns until the bookshelf decays. Default = 100
 		#Range: 1 ~ 10000
 		Spawns = 200
 
@@ -64,7 +64,7 @@
 		#The XP value of spawned orbs. Default = 6
 		#Range: 1 ~ 32767
 		OrbValue = 6
-		#The number of spawns until the bookshelf decays. Default = 200
+		#The number of spawns until the bookshelf decays. Default = 50
 		#Range: 1 ~ 10000
 		Spawns = 200
 
@@ -82,4 +82,6 @@
 	#The bonus that Insightful & Extravagant Agar apply to bookshelves sharing a vertex. Default = 1.10
 	#Range: 0.0 ~ 4.0
 	AgarVertexBonus = 1.1
+	#Whether or not Agar blocks emit light. Set this to false if you are using intensive shader settings and are experiencing fps drops.
+	AgarEmitsLight = true
 

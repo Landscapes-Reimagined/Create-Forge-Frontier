@@ -39,5 +39,5 @@
 		#Curio slots to tick
 		#only modify if you know what you're doing!!!
 		#Denote different slots with a comma, like: slot1, slot2, slot3
-		ticking_curio_slots = "head"
+		ticking_curio_slots = "jetpacks"
 

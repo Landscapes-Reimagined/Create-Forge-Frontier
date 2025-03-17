@@ -25,9 +25,6 @@
 	#Range: 1.0 ~ 3.4028234663852886E38
 	filterItemRenderDistance = 10.0
 	#.
-	#Show kinetic debug information on blocks while the F3-Menu is open.
-	enableRainbowDebug = false
-	#.
 	#Display a tooltip when looking at overstressed components.
 	enableOverstressedTooltip = true
 	#.

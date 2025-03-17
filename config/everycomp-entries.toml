@@ -140,6 +140,7 @@
 
 		[types.wood_type.deeperdarker]
 			echo = true
+			bloom = true
 
 		[types.wood_type.alexscaves]
 			pewen = true
@@ -178,7 +179,7 @@
 			cerulean = true
 
 		[types.wood_type.unusualend]
-			chorus_cane = true
+			chorus_nest = true
 
 		[types.wood_type.createdieselgenerators]
 			chip_wood = true
