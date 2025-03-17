@@ -35,7 +35,15 @@ Key highlights include:
 - **Create: Halitosis** – No longer functional in *Create v6.0* and can be **recreated using KubeJS**.  
 - **3D Skin Layers** – **Texture issues** and **lack of updates** led to its removal.  
 - **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
-- **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.  
+- **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.
+- **Kambrik** - Non Essential Library Mod
+- **LibX** - Non Essential Library Mod
+- **Lithostitched** - Non Essential Library Mod
+- **Necrononicon** - Non Essential Library Mod
+- **ObsidianUI** - Non Essential Library Mod
+- **Poly Lib** - Non Essential Library Mod
+- **Load My Resources** - Non Essential Library Mod
+- **JCPlugin** - Non Essential Library Mod
 ---
 ### These updates enhance **performance, compatibility, and overall gameplay experience** by ensuring that all mods align seamlessly with *Create 6.0*. Stay tuned for further improvements! 🚀
 
