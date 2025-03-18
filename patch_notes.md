@@ -25,7 +25,10 @@ Key highlights include:
 - **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)**  
   - A powerful **vein mining tool** that allows players to efficiently harvest multiple blocks at once. Simply hold the **configured key** (set in Minecraft’s control settings) to activate **Ultimine**. Gathered items will automatically collect **beneath your feet**, eliminating the need to chase after drops!
 - **[Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation)**
-  - Modern World Creation enhances the **Vanilla Create World screen** with a sleek, modern interface. It features smooth hover animations for game mode selection and is fully keyboard navigable using the arrow and tab keys, ensuring improved accessibility and ease of use.  
+  - Modern World Creation enhances the **Vanilla Create World screen** with a sleek, modern interface. It features smooth hover animations for game mode selection and is fully keyboard navigable using the arrow and tab keys, ensuring improved accessibility and ease of use.
+- **[Vanillin](https://www.curseforge.com/minecraft/mc-mods/vanillin)**  
+  - A **performance optimization mod** that leverages **instanced rendering** for entities and block entities using *Flywheel*. By offloading rendering tasks to *Flywheel*, **Vanillin** significantly enhances **frame rates** and reduces performance impact, ensuring that even **thousands of entities** render as efficiently as a single one. 🚀  
+
 ---
 
 ## ❌ **Mod Removals**  
