@@ -105,14 +105,16 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Acedium**: [Temporarily Disabled]  
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.0
-- **Aquaculture**: v2.5.4 → v2.5.5  
-- **Balanced Flight**: [Temporarily Disabled]  
+- **Aquaculture**: v2.5.4 → v2.5.5
+- **Artifacts**: v9.5.13 → v9.5.14
+- **Balanced Flight**: [Temporarily Disabled]
+- **Balm**: v7.3.18 → v7.3.20  
 - **Blueprint**: v7.1.1 → v7.1.2  
-- **Cataclysm**: v2.57 → v2.58  
-- **Cognition**: v2.3.0 → v2.3.3  
+- **Cataclysm**: v2.57 → v2.60  
+- **Cognition**: v2.3.0 → v2.3.4  
 - **Collective**: v7.93 → v7.94  
 - **Copycat Plus**: [Temporarily Disabled]  
-- **Create**: v0.5.1 → v6.0.3  
+- **Create**: v0.5.1 → v6.0.4  
 - **Create Additions**: v1.2.5 → v1.3.1  
 - **Create Applied Kinetics**: v1.4.0 → v1.5.0  
 - **Create Aquatic Ambitions**: v1.1.1 → v1.1.3  
@@ -124,7 +126,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Design n Decor**: [Temporarily Disabled]
 - **Create Diesel Generators**: v1.2i → v1.3.1
 - **Create Dreams and Desires**: [Temporarily Disabled]    
-- **Create Easy Structures**: v0.1.2 → v0.1.3  
+- **Create Easy Structures**: v0.1.2 → v0.2  
 - **Create Enchantment Industry**: v1.2.9 → v1.3.2  
 - **Create Encased**: v1.6.2 → v1.7.0
 - **Create Forge Frontier Core**: [Temporarily Disabled]    
@@ -134,7 +136,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Patern Schematics**: v1.1.19 → v1.2.3   
 - **Create Power Loader**: v1.5.0 → v2.0.0  
 - **Create New Age**: v1.1.2 → v1.1.3  
-- **Create QOL**: v1.2 → v1.3.0  
+- **Create QOL**: v1.2 → v1.3.1  
 - **Create Slice and Dice**: v3.3.0 → v3.4.0  
 - **Create Steam and Rails**: [Temporarily Disabled]   
 - **Create Stuff and Additions**: v2.0.8 → v2.0.9
@@ -143,7 +145,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Disenchanting Table**: v3.1.0 → v4.0.0  
 - **EMI Schematics**: [Temporarily Disabled]  
 - **Embeddium Plus → Chloride**: v1.2.13 → v1.5.4  
-- **Every Compat**: v2.7.19 → v2.7.21  
+- **Every Compat**: v2.7.19 → v2.7.23  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
@@ -156,7 +158,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Jade**: v11.12.3 → v11.13.1  
 - **Jade Addons**: v5.3.1 → v5.5.0  
 - **Login Protection**: v3.4 → v3.5  
-- **Moonlight Lib**: v2.13.71 → v2.13.75
+- **Moonlight Lib**: v2.13.71 → v2.13.79
 - **Neruina**: [Temporarily Disabled]  
 - **Octolib**: v0.4.2 → v0.5.0.1
 - **Oculus**: v1.7.0 → v1.8.0 
