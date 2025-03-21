@@ -145,7 +145,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Disenchanting Table**: v3.1.0 → v4.0.0  
 - **EMI Schematics**: [Temporarily Disabled]  
 - **Embeddium Plus → Chloride**: v1.2.13 → v1.5.4  
-- **Every Compat**: v2.7.19 → v2.7.23  
+- **Every Compat**: v2.7.19 → v2.7.24  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
@@ -170,9 +170,10 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.22.902  
-- **Structure Credits**: v2.2.1 → v2.2.3  
+- **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.5  
-- **Supplementaries**: v3.1.18 → v3.1.20 
+- **Supplementaries**: v3.1.18 → v3.1.20
+- **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
 - **TFMG**: v0.9.3 → v0.9.3b  
 - **WATUT**: v1.1.3 → v1.2.3
