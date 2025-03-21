@@ -12,12 +12,15 @@ Key highlights include:
 ---
 
 ## 🆕 **Mod Additions**  
-- **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**  
-  - A powerful and evolving **library mod**, designed to centralize and streamline essential tools for mod development.  
+- **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**
+- **[Create: Curios Backtank](https://www.curseforge.com/minecraft/mc-mods/create-curios-backtank)**  
+  - A simple yet effective addon that allows the **Create Backtank** to be equipped in a **Curios slot**, freeing up inventory space while maintaining full functionality. Perfect for automation-focused adventurers seeking better equipment integration.
 - **[Create: Design n' Decor Fork](https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor-fork-create-0-6)**  
   - A revitalized fork of the original *Create: Design n’ Decor* mod, now fully compatible with **Create 0.6**. This update breathes new life into an unmaintained mod, bringing fresh **design and decoration elements** back to the game.  
 - **[Create: Fuel & Water Information](https://www.curseforge.com/minecraft/mc-mods/create-fuel-and-water-information)**  
-  - Enhances your HUD with **real-time fuel and water levels**, providing crucial information for **Create-based automation and fluid systems**.  
+  - Enhances your HUD with **real-time fuel and water levels**, providing crucial information for **Create-based automation and fluid systems**.
+- **[Create Mechanical Chicken](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-chicken)**  
+  - A quirky and creative addon for *Create* that enables **egg generation** using **rotation and fluids**. Bring your chicken farms into the mechanical age with this fun, functional addition to your contraptions! 🐔⚙️  
 - **[Create Nuclear](https://www.curseforge.com/minecraft/mc-mods/createnuclear)**  
   - Introduces an expansive **nuclear energy system** into *Create*, allowing players to construct **high-efficiency reactors** capable of generating over **two million SU**.  
 - **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
