@@ -89,6 +89,14 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Created Custom Lootr Resources
 - Created Custom Easy Villager Resources
 - Created Custom Easy Piglin Resources
+- Reworked Forge Frontier Resource Stones, Crushed Resource Stones, and Crushed Pile Textures
+- Reworked Custom Molten Vents to match new Resource Stone Textures
+### Startup Scrips
+- Removed Crushed Unused crushed Redstone
+### Server Scripts
+- Removed Excess Seed Oil Recipes
+- Added New Seed Oil Tag to allow usage in the Mechanical Chicken
+- Removed Unused Crushed Redstone Recipes
 ---
 
 ## ⚙️ **Configuration & UI Updates** 
