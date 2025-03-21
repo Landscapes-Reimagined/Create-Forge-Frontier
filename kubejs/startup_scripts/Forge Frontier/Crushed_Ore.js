@@ -8,7 +8,6 @@ StartupEvents.registry('item', event => {
         'Irradium',
         'Malachite',
         'Ostrum',
-        'Redstone',
         'Verdantine',
         'Glacium',
         'Debris',

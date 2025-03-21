@@ -89,25 +89,6 @@ ServerEvents.recipes(event => {
         ]
     }).id('forge_frontier:seething/crushed_aluminum_pile')       
 
-    // Crushed Raw Redstone
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'forge_frontier:crushed_redstone'
-            }
-        ],
-        results: [
-            {
-                item: 'minecraft:redstone'
-            },
-            {
-                chance: 0.75,
-                item: 'minecraft:redstone'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_redstone')
-
     // Crushed Bismuth Pile
     event.custom({
         type: "create_dd:superheating",

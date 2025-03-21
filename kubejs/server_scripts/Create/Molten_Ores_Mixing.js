@@ -1002,24 +1002,6 @@ ServerEvents.recipes(event => {
         }).id('forge_frontier:mixing/emerald_block_molten');
 
     // Molten Redstone
-        // Crushed Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'forge_frontier:crushed_redstone',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_redstone',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_raw_redstone_molten');
-
         // Ore to Molten
         event.custom({
             type: "create:mixing",
