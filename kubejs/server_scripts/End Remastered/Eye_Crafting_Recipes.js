@@ -53,11 +53,11 @@ ServerEvents.recipes(event => {
         ],
         key: {
           D: Ingredient.of('minecraft:diamond'),
-          A: Ingredient.of('forge_frontier:pirate_arrow'),
-          B: Ingredient.of('forge_frontier:cannon_ball'),
+          A: Ingredient.of('forge_frontier:blackbeards_musket'),
+          B: Ingredient.of('forge_frontier:cursed_cannon_ball'),
           U: Ingredient.of('endrem:undead_soul'),
           G: Ingredient.of('minecraft:gunpowder'),
-          C: Ingredient.of('forge_frontier:pirate_crossbow')
+          C: Ingredient.of('forge_frontier:blackbeards_cutlass')
         },
         result: Ingredient.of('endrem:black_eye'),
         acceptMirrored: false

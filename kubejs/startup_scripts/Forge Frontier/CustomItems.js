@@ -65,7 +65,7 @@ StartupEvents.registry('block', event => {
         .tagItem('tooltiprareness:epic_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
-    
+   
 });
 
 // New Items
@@ -78,20 +78,32 @@ StartupEvents.registry('item', event => {
             .texture("forge_frontier:item/coin_texture"); 
 
     // Custom Eye - Items
-        event.create('forge_frontier:pirate_arrow')
-            .tooltip('A legendary arrow coveted by the Pirates of the Seven Seas, steeped in tales of adventure. Though not meant for battle, its value is beyond measure.')
-            .displayName('Pirate Arrow')
-            .texture('forge_frontier:item/pirate_arrow');
+        event.create('forge_frontier:blackbeards_musket')
+            .displayName("Blackbeard's Musket")
+            .tooltip("A legendary firearm once wielded by Blackbeard himself, this musket echoes with the roar of the high seas. Forged for fear, not finesse, it was less a tool of war and more a symbol of terror—its presence alone worth a king's ransom.")
+            .parentModel('forge_frontier:item/blackbeards_musket')
+            .texture('forge_frontier:item/blackbeards_musket')
+            .maxStackSize(1)
+            .rarity('rare'); 
 
-        event.create('forge_frontier:pirate_crossbow')
-            .tooltip('An exquisite crossbow that once belonged to the most feared pirate captains. A symbol of command, not a weapon of war.')
-            .displayName('Pirate Crossbow')
-            .texture('forge_frontier:item/pirate_crossbow');
+        event.create('forge_frontier:blackbeards_cutlass', 'sword')
+            .displayName("Blackbeard's Cutlass")
+            .tooltip("A fearsome blade said to have sailed with Blackbeard across countless raids, Blackbeard's Cutlass is as much legend as steel. Its edge has tasted gold and blood alike, a weapon forged not just for battle—but for command. Those who face it rarely live to tell the tale.")
+            .parentModel('forge_frontier:item/blackbeards_cutlass')
+            .texture('forge_frontier:item/blackbeards_cutlass')
+            .attackDamageBonus(2)
+            .speed(2)
+            .tier('netherite')
+            .maxStackSize(1)
+            .rarity('rare'); 
 
-        event.create('forge_frontier:cannon_ball')
-            .tooltip('A relic from the mighty cannons of the Seven Seas Pirates, revered for its historical significance rather than its destructive power.')
-            .displayName('Cannon Ball')
-            .texture('forge_frontier:item/cannon_ball');
+        event.create('forge_frontier:cursed_cannon_ball')
+            .displayName('Cursed Cannonball')
+            .tooltip("A heavy iron sphere once fired from the cannons of Blackbeard’s flagship, this Cursed Cannonball carries more than brute force—it bears the weight of dread. Said to leave behind echoes of thunder and ghostly flames, it's a relic of naval devastation and pirate-inflicted fear.")
+            .parentModel('forge_frontier:item/cursed_cannon_ball')
+            .texture('forge_frontier:item/cursed_cannon_ball')
+            .maxStackSize(2)
+            .rarity('rare');
 
         event.create('forge_frontier:soul_flame_staff')
             .tooltip('An ancient staff imbued with soul fire, once guiding the lost through the fiery depths of the Nether.')
