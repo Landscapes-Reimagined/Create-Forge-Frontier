@@ -113,17 +113,19 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 This update introduces **mod improvements, compatibility fixes, and performance optimizations** to provide a **smoother, more immersive gameplay experience**.  
 ### 🛠 **Updated Mods:**  
 - **Ad Astra**: v1.15.19 → v1.15.20  
-- **Acedium**: [Temporarily Disabled]  
+- **Acedium**: [Temporarily Disabled]
+- **Alex's Caves Delight**: 1.0.24 → 1.0.25   
 - **Amendments**: v1.2.18 → v1.2.19
-- **Applied Flux**: v1.1.10 → v1.2.0
+- **Applied Flux**: v1.1.10 → v1.2.1
 - **Aquaculture**: v2.5.4 → v2.5.5
 - **Artifacts**: v9.5.13 → v9.5.14
 - **Balanced Flight**: [Temporarily Disabled]
 - **Balm**: v7.3.18 → v7.3.20  
 - **Blueprint**: v7.1.1 → v7.1.2  
-- **Cataclysm**: v2.57 → v2.60  
+- **Cataclysm**: v2.57 → v2.62  
 - **Cognition**: v2.3.0 → v2.3.4  
-- **Collective**: v7.93 → v7.94  
+- **Collective**: v7.93 → v7.94
+- **Corpse Curios Compat**: v2.2.1 → v2.2.2  
 - **Copycat Plus**: [Temporarily Disabled]  
 - **Create**: v0.5.1 → v6.0.4  
 - **Create Additions**: v1.2.5 → v1.3.1  
@@ -139,7 +141,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Dreams and Desires**: [Temporarily Disabled]    
 - **Create Easy Structures**: v0.1.2 → v0.2  
 - **Create Enchantment Industry**: v1.2.9 → v1.3.2  
-- **Create Encased**: v1.6.2 → v1.7.0
+- **Create Encased**: v1.6.2 → v1.7.1
 - **Create Forge Frontier Core**: [Temporarily Disabled]    
 - **Create Goggles**: v0.5.6 → v6.0.0  
 - **Create Interiors**: v0.5.6-build.104 → v0.5.6-local  
@@ -168,7 +170,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Immediately Fast**: v1.3.5 → v1.5.0  
 - **Jade**: v11.12.3 → v11.13.1  
 - **Jade Addons**: v5.3.1 → v5.5.0  
-- **Login Protection**: v3.4 → v3.5  
+- **Login Protection**: v3.4 → v3.5
+- **Lootr**: v0.7.35.90 → v0.7.35.91  
 - **Moonlight Lib**: v2.13.71 → v2.13.79
 - **Neruina**: [Temporarily Disabled]  
 - **Octolib**: v0.4.2 → v0.5.0.1
@@ -177,13 +180,14 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Placebo**: v8.6.2 → v8.6.3  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
 - **Quark**: v4.0-460 → v4.0-461  
-- **Season HUD**: v1.12.2 → v1.12.5  
+- **Season HUD**: v1.12.2 → v1.12.5
+- **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.22.902  
 - **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.5  
-- **Supplementaries**: v3.1.18 → v3.1.20
+- **Supplementaries**: v3.1.18 → v3.1.21
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
 - **TFMG**: v0.9.3 → v0.9.3b  
