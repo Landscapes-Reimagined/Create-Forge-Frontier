@@ -12,7 +12,10 @@ Key highlights include:
 ---
 
 ## 🆕 **Mod Additions**  
-- **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**
+- **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**  
+  - A modular and evolving **library mod** designed to **centralize and streamline** core tools used across multiple mod projects. Built with **Architectury API** as a foundation, CarrasconLib leverages its robust feature set to ensure consistency and cross-compatibility. While future reworks may be considered, the current implementation offers reliable functionality and efficient development integration.
+- **[CapeJS](https://www.curseforge.com/minecraft/mc-mods/capejs)**  
+  - **CapeJS** is a lightweight utility mod that allows **custom capes** to be assigned to specific players via **KubeJS client scripts**. Designed with modpack creators in mind, it enables capes to be granted to **developers, completionists, contributors, or friends** with ease. Capes not only display on the player model but also replace the **elytra texture** for added visual flair.
 - **[Create: Curios Backtank](https://www.curseforge.com/minecraft/mc-mods/create-curios-backtank)**  
   - A simple yet effective addon that allows the **Create Backtank** to be equipped in a **Curios slot**, freeing up inventory space while maintaining full functionality. Perfect for automation-focused adventurers seeking better equipment integration.
 - **[Create: Design n' Decor Fork](https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor-fork-create-0-6)**  
