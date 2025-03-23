@@ -114,10 +114,13 @@ StartupEvents.registry('item', event => {
             .speed(3)
             .rarity('rare');
 
-        event.create('forge_frontier:infernal_ingot')
-            .tooltip('Forged in the heart of a blazing inferno, this ingot once crafted legendary weapons. Now, it holds the secrets of the ancients.')
-            .displayName('Infernal Ingot')
-            .texture('forge_frontier:item/infernal_ingot');
+        event.create('forge_frontier:ancient_obol')
+            .displayName('Ancient Obol')
+            .tooltip("A single coin bearing the weight of eternity. Said to be the fare for crossing into the afterlife, the Ancient Obol is a relic from the age of myth—imbued with silent whispers and the promise of passage no mortal should seek.")
+            .parentModel('forge_frontier/ancient_obol')
+            .texture('forge_frontier:item/infernal_ingot')
+            .maxStackSize(1)
+            .rarity('rare');
 
         event.create('forge_frontier:ras_solar_sword')
             .tooltip('Forged by Ra himself, this radiant sword was wielded by the Pharaohs in battles long forgotten. It shines with the light of the sun.')
