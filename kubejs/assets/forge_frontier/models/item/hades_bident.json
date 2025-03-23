@@ -1,0 +1,19 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "forge_frontier:item/hades_bident"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, -26],
+			"translation": [0, 3.5, 0],
+			"scale": [1, 1.11, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [22, -89, -18],
+			"translation": [-0.25, 2, 12],
+			"scale": [1, 1.11, 1]
+		}
+	}
+}

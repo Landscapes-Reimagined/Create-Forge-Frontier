@@ -105,10 +105,14 @@ StartupEvents.registry('item', event => {
             .maxStackSize(2)
             .rarity('rare');
 
-        event.create('forge_frontier:soul_flame_staff')
-            .tooltip('An ancient staff imbued with soul fire, once guiding the lost through the fiery depths of the Nether.')
-            .displayName('Soul Flame Staff')
-            .texture('forge_frontier:item/soul_flame_staff');
+        event.create('forge_frontier:hades_bident', 'sword')
+            .displayName("Hade's Bident")
+            .tooltip("A weapon of judgment forged in the deepest fires of the underworld. Hades' Bident strikes not with flame, but with dominion—piercing both flesh and soul. Legends claim the ground splits beneath its blow, as if the dead reach up to drag the living below.")
+            .parentModel('forge_frontier/hades_bident')
+            .texture('forge_frontier:item/hades_bident')
+            .maxStackSize(1)
+            .speed(3)
+            .rarity('rare');
 
         event.create('forge_frontier:infernal_ingot')
             .tooltip('Forged in the heart of a blazing inferno, this ingot once crafted legendary weapons. Now, it holds the secrets of the ancients.')
