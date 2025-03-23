@@ -118,7 +118,15 @@ StartupEvents.registry('item', event => {
             .displayName('Ancient Obol')
             .tooltip("A single coin bearing the weight of eternity. Said to be the fare for crossing into the afterlife, the Ancient Obol is a relic from the age of myth—imbued with silent whispers and the promise of passage no mortal should seek.")
             .parentModel('forge_frontier/ancient_obol')
-            .texture('forge_frontier:item/infernal_ingot')
+            .texture('forge_frontier:item/ancient_obol')
+            .maxStackSize(1)
+            .rarity('rare');
+        
+        event.create('forge_frontier:cerberus_fang')
+            .displayName("Cerberus's Fang")
+            .tooltip("Torn from the maw of the beast that guards the gates of the underworld, Cerberus’s Fang pulses with infernal energy. It burns with more than fire—it carries the bite of eternal vigilance and the fury of a guardian that never sleeps.")
+            .parentModel('forge_frontier:item/cerberus_fang')
+            .texture('forge_frontier:item/cerberus_fang')
             .maxStackSize(1)
             .rarity('rare');
 
@@ -152,10 +160,7 @@ StartupEvents.registry('item', event => {
             .displayName("Infernal Chisel")
             .texture('forge_frontier:item/infernal_chisel');
         
-        event.create('forge_frontier:hellhounds_fang')
-            .tooltip("This fang, lost by Hades' hellhounds in their pursuit of lost souls, was later repurposed by the ancient Nether  dwellers as a precise cutting tool.")
-            .displayName("Hellhound's Fang")
-            .texture('forge_frontier:item/hellhounds_fang');
+
          
 
     // Overcharged Items

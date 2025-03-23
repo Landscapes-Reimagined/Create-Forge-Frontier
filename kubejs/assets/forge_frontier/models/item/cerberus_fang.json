@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "forge_frontier:item/cerberus_fang"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, -180, 50],
+			"scale": [1.5, 1.5, 2]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-180, 0, -50],
+			"scale": [1.5, 1.5, 2]
+		},
+		"firstperson_righthand": {
+			"scale": [1.5, 1.5, 2]
+		},
+		"firstperson_lefthand": {
+			"scale": [1.5, 1.5, 2]
+		},
+		"ground": {
+			"translation": [0, 4, 0],
+			"scale": [1.5, 1.5, 2]
+		},
+		"gui": {
+			"scale": [1.5, 1.5, 2]
+		},
+		"fixed": {
+			"rotation": [0, 0, 50],
+			"scale": [1.5, 1.5, 2]
+		}
+	}
+}
