@@ -130,9 +130,9 @@ ServerEvents.recipes(event => {
       ],
       key: {
         B: Ingredient.of('minecraft:red_nether_bricks'),
-        S: Ingredient.of('forge_frontier:soul_flame_staff'),
-        I: Ingredient.of('forge_frontier:infernal_ingot'),
-        F: Ingredient.of('forge_frontier:hellhounds_fang'),
+        S: Ingredient.of('forge_frontier:hades_bident'),
+        I: Ingredient.of('forge_frontier:ancient_obol'),
+        F: Ingredient.of('forge_frontier:cerberus_fang'),
         U: Ingredient.of('endrem:undead_soul'),
       },
       result: Ingredient.of('endrem:nether_eye'),
