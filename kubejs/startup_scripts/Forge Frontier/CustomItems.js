@@ -136,12 +136,17 @@ StartupEvents.registry('item', event => {
             .parentModel('forge_frontier:item/ra_scepter')
             .texture('forge_frontier:item/ra_scepter')
             .maxStackSize(1)
+            .glow(true)
             .rarity('rare');
 
-        event.create('forge_frontier:sun_disc')
-            .tooltip('Harnessing the power of the sun, this disc was once a divine artifact of Ra, the sun god. It radiates with untold energy.')
-            .displayName('Sun Disc')
-            .texture('forge_frontier:item/sun_disc');
+        event.create('forge_frontier:ancient_winged_sun')
+            .displayName('Ancient Winged Sun')
+            .tooltip('An emblem of forgotten power, the Ancient Winged Sun once adorned the crowns of sun-kissed kings. Said to harness the balance of day and night, it grants strength not through force, but through harmony and command over the heavens.')
+            .parentModel('forge_frontier:item/ancient_winged_sun')
+            .texture('forge_frontier:item/ancient_winged_sun')
+            .glow(true)
+            .maxStackSize(1)
+            .rarity('rare');
 
         event.create('forge_frontier:piglin_kings_crown')
             .tooltip('This regal crown was worn by the ancient Piglin King, a symbol of his dominion over the Nether, now worn by the new King of the Nether the Wildfire. It glimmers with lost power.')
