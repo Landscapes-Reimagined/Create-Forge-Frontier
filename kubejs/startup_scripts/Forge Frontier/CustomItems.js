@@ -130,10 +130,13 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .rarity('rare');
 
-        event.create('forge_frontier:ras_solar_sword')
-            .tooltip('Forged by Ra himself, this radiant sword was wielded by the Pharaohs in battles long forgotten. It shines with the light of the sun.')
-            .displayName("Ra's Solar Sword")
-            .texture('forge_frontier:item/ras_solar_sword');
+        event.create('forge_frontier:ra_scepter')
+            .displayName("Ra's Scepter")
+            .tooltip('A relic bathed in sunlight and divine judgment, Ra’s Scepter channels the burning gaze of the sun god himself. In battle, it gleams like dawn over desert sands—blinding, searing, and absolute.')
+            .parentModel('forge_frontier:item/ra_scepter')
+            .texture('forge_frontier:item/ra_scepter')
+            .maxStackSize(1)
+            .rarity('rare');
 
         event.create('forge_frontier:sun_disc')
             .tooltip('Harnessing the power of the sun, this disc was once a divine artifact of Ra, the sun god. It radiates with untold energy.')
