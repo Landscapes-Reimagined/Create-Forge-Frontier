@@ -148,10 +148,13 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .rarity('rare');
 
-        event.create('forge_frontier:piglin_kings_crown')
-            .tooltip('This regal crown was worn by the ancient Piglin King, a symbol of his dominion over the Nether, now worn by the new King of the Nether the Wildfire. It glimmers with lost power.')
-            .displayName("Piglin King's Crown")
-            .texture('forge_frontier:item/piglin_kings_crown');
+        event.create('forge_frontier:golden_tusks_crown')
+            .displayName("Crown of the Golden Tusks")
+            .tooltip('Once worn by the Piglin King, this crown is an emblem of brutal dominion and boundless greed. The Crown of the Golden Tusks radiates pride, power, and the echoing roar of a kingdom built on conquest and fire.')
+            .parentModel("forge_frontier:item/golden_tusks_crown_custom")
+            .texture('forge_frontier:item/golden_tusks_crown')
+            .maxStackSize(1)
+            .rarity('rare');
 
         event.create('forge_frontier:piglin_war_axe')
             .tooltip('Once swung in the great war between Piglins and Villagers, this war axe bears the scars of countless battles.')
