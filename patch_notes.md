@@ -40,7 +40,8 @@ Key highlights include:
 - **Bobber Detector** – Incompatible with *Create v6.0* and deemed non-essential to the modpack.  
 - **Create: Crystal Clear** – No longer functional in *Create v6.0*, **rarely updated**, and unnecessary for the pack.  
 - **Create: Deepslate Processing** – Broken in *Create v6.0* and **infrequently maintained**, making it redundant.  
-- **Create: Dynamic Light** – Incompatible with *Create v6.0* and **not actively updated**.  
+- **Create: Dynamic Light** – Incompatible with *Create v6.0* and **not actively updated**. 
+- **Create: The Factory Must Grow**: Too technical for the pack. 
 - **Create: Halitosis** – No longer functional in *Create v6.0* and can be **recreated using KubeJS**.  
 - **Wooder Wheels** – Now included **natively in Create**, eliminating the need for a separate mod.  
 - **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
