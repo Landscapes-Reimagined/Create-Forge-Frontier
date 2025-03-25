@@ -18,8 +18,6 @@ Key highlights include:
   - **CapeJS** is a lightweight utility mod that allows **custom capes** to be assigned to specific players via **KubeJS client scripts**. Designed with modpack creators in mind, it enables capes to be granted to **developers, completionists, contributors, or friends** with ease. Capes not only display on the player model but also replace the **elytra texture** for added visual flair.
 - **[Create: Curios Backtank](https://www.curseforge.com/minecraft/mc-mods/create-curios-backtank)**  
   - A simple yet effective addon that allows the **Create Backtank** to be equipped in a **Curios slot**, freeing up inventory space while maintaining full functionality. Perfect for automation-focused adventurers seeking better equipment integration.
-- **[Create: Design n' Decor Fork](https://www.curseforge.com/minecraft/mc-mods/create-design-n-decor-fork-create-0-6)**  
-  - A revitalized fork of the original *Create: Design n’ Decor* mod, now fully compatible with **Create 0.6**. This update breathes new life into an unmaintained mod, bringing fresh **design and decoration elements** back to the game.  
 - **[Create: Fuel & Water Information](https://www.curseforge.com/minecraft/mc-mods/create-fuel-and-water-information)**  
   - Enhances your HUD with **real-time fuel and water levels**, providing crucial information for **Create-based automation and fluid systems**.
 - **[Create Mechanical Chicken](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-chicken)**  
@@ -123,7 +121,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Aquaculture**: v2.5.4 → v2.5.5
 - **Artifacts**: v9.5.13 → v9.5.14
 - **Balanced Flight**: [Temporarily Disabled]
-- **Balm**: v7.3.18 → v7.3.20  
+- **Balm**: v7.3.18 → v7.3.25  
 - **Blueprint**: v7.1.1 → v7.1.2  
 - **Cataclysm**: v2.57 → v2.62  
 - **Cognition**: v2.3.0 → v2.3.4  
@@ -136,7 +134,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Aquatic Ambitions**: v1.1.1 → v1.1.3  
 - **Create Bells and Whistles**: v0.4.3 → v0.4.5  
 - **Create Better Villagers**: v1.2.7 → v1.2.8  
-- **Create Central Kitchen**: [Temporarily Disabled]  
+- **Create Central Kitchen**: v1.3.12 → v1.4.0  
 - **Create Compressed**: v1.0.1 → v2.1.0  
 - **Create Connected**: [Temporarily Disabled]
 - **Create Design n Decor**: [Temporarily Disabled]
@@ -166,8 +164,11 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.8  
-- **Fzzy Config**: v0.6.4 → v0.6.6
-- **Gecko Lib**: v4.7 → v4.7.1.1
+- **Fzzy Config**: v0.6.4 → v0.6.7
+- **Gecko Lib**: v4.7 → v4.7.1.2
+- **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
+- **Hopo Better Ruined Portals**: v1.3.7 → v1.3.7b
+- **Hopo Better Underwater Ruins**: v1.1.5 → v1.1.5b
 - **IDAS**: v1.10.3 → 1.11.1
 - **Immersive Aircrafts**: v1.2.1 → 1.2.2  
 - **Immediately Fast**: v1.3.5 → v1.5.0  
