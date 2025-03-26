@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "forge_frontier:item/brute_warlord_axe"
+		"layer0": "forge_frontier:item/end_remastered_items/brute_warlord_axe"
 	},
 	"display": {
 		"thirdperson_righthand": {

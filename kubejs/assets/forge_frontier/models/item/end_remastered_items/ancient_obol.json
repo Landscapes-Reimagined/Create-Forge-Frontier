@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/generated",
 	"textures": {
-		"layer0": "forge_frontier:item/ancient_obol"
+		"layer0": "forge_frontier:item/end_remastered_items/ancient_obol"
 	},
 	"display": {
 		"thirdperson_righthand": {

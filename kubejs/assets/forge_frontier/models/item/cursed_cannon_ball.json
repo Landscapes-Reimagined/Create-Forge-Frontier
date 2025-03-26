@@ -1,7 +1,0 @@
-
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "forge_frontier:item/cursed_cannon_ball"
-  }
-}

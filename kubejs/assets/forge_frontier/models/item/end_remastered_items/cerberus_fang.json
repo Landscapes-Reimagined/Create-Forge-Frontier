@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "forge_frontier:item/cerberus_fang"
+		"layer0": "forge_frontier:item/end_remastered_items/cerberus_fang"
 	},
 	"display": {
 		"thirdperson_righthand": {

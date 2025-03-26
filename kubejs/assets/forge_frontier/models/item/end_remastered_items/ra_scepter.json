@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "forge_frontier:item/ra_scepter"
+		"layer0": "forge_frontier:item/end_remastered_items/ra_scepter"
 	},
 	"display": {
 		"thirdperson_righthand": {

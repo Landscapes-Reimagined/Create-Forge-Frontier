@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "forge_frontier:item/deep_forge_chisel"
+		"layer0": "forge_frontier:item/end_remastered_items/deep_forge_chisel"
 	},
 	"display": {
 		"thirdperson_righthand": {
