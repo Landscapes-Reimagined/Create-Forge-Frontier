@@ -93,6 +93,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Created Custom Easy Piglin Resources
 - Reworked Forge Frontier Resource Stones, Crushed Resource Stones, and Crushed Pile Textures
 - Reworked Custom Molten Vents to match new Resource Stone Textures
+- Reworked all Custom Item models,textures, and names, linked to End Remastered
 ### Startup Scrips
 - Removed Crushed Unused crushed Redstone
 ### Server Scripts
