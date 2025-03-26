@@ -61,10 +61,11 @@ StartupEvents.registry('block', event => {
         .resistance(1200)
         .waterlogged()
         .renderType('solid')
-        .box(1, 0, 1, 15, 14, 15)
+        .box(4, 0, 4, 12, 14, 12) // Updated bounding box
         .tagItem('tooltiprareness:epic_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
+
    
 });
 
@@ -75,8 +76,7 @@ StartupEvents.registry('item', event => {
         event.create('forge_frontier:closed_beta_coin')
             .displayName('Closed Beta Coin')
             .maxStackSize(64)
-            .texture("forge_frontier:item/coin_texture"); 
-              
+            .texture("forge_frontier:item/coin_texture");   
     // Overcharged Items
         event.create('forge_frontier:overcharged_netherite_ingot')
             .displayName('Overcharged Netherite Ingot')
