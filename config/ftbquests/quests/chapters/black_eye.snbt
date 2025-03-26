@@ -147,10 +147,10 @@
 			subtitle: "Found in Treasure Room"
 			tasks: [{
 				id: "6BA66A566256B7D6"
-				item: "forge_frontier:cannon_ball"
+				item: "forge_frontier:cursed_cannon_ball"
 				type: "item"
 			}]
-			title: "1/2 Cannon Ball"
+			title: "1/2 Cursed Cannonball"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -164,10 +164,10 @@
 			tasks: [{
 				count: 2L
 				id: "7FEF8C51BFD9EA6F"
-				item: "forge_frontier:cannon_ball"
+				item: "forge_frontier:cursed_cannon_ball"
 				type: "item"
 			}]
-			title: "2/2 Canon Ball"
+			title: "2/2 Cursed Canonball"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -181,7 +181,7 @@
 			subtitle: "Found in Treasure Room"
 			tasks: [{
 				id: "543434730D22F9CB"
-				item: "forge_frontier:pirate_arrow"
+				item: "forge_frontier:blackbeards_musket"
 				type: "item"
 			}]
 			x: 0.0d
@@ -196,7 +196,13 @@
 			subtitle: "Found in Treasure Room"
 			tasks: [{
 				id: "1D01F9996089D3B9"
-				item: "forge_frontier:pirate_crossbow"
+				item: {
+					Count: 1
+					id: "forge_frontier:blackbeards_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d

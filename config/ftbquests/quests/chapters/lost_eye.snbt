@@ -140,7 +140,7 @@
 			subtitle: "Found in Mars Temple Loot"
 			tasks: [{
 				id: "090D7B2C02533F74"
-				item: "forge_frontier:infernal_chisel"
+				item: "forge_frontier:deep_forge_chisel"
 				type: "item"
 			}]
 			x: 0.0d

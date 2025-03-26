@@ -165,7 +165,7 @@
 			subtitle: "Found in Treasure Room"
 			tasks: [{
 				id: "09169E6B8F9A6F8A"
-				item: "forge_frontier:sun_disc"
+				item: "forge_frontier:ancient_winged_sun"
 				type: "item"
 			}]
 			x: -1.5d
@@ -177,7 +177,13 @@
 			subtitle: "Found in Pharaoh's Tomb behind his throne"
 			tasks: [{
 				id: "2DBA8E37C085B130"
-				item: "forge_frontier:ras_solar_sword"
+				item: {
+					Count: 1
+					id: "forge_frontier:ra_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 1.5d

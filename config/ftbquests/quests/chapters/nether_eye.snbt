@@ -152,10 +152,10 @@
 			id: "6C290FFD911233B6"
 			tasks: [{
 				id: "21572C6A6521CA3B"
-				item: "forge_frontier:infernal_ingot"
+				item: "forge_frontier:ancient_obol"
 				type: "item"
 			}]
-			title: "1/2 Infernal Ingot"
+			title: "1/2 Ancient Obol"
 			x: -1.5d
 			y: 3.5d
 		}
@@ -165,10 +165,10 @@
 			tasks: [{
 				count: 2L
 				id: "776C3E4A992F06D3"
-				item: "forge_frontier:infernal_ingot"
+				item: "forge_frontier:ancient_obol"
 				type: "item"
 			}]
-			title: "2/2 Infernal Ingot"
+			title: "2/2 Ancient Obol"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -177,7 +177,7 @@
 			id: "5C9D6619EE13779E"
 			tasks: [{
 				id: "328E8385A267277B"
-				item: "forge_frontier:hellhounds_fang"
+				item: "forge_frontier:cerberus_fang"
 				type: "item"
 			}]
 			x: 0.0d
@@ -188,7 +188,13 @@
 			id: "1DD476F323AF9D27"
 			tasks: [{
 				id: "7F1D40634A3C7A6B"
-				item: "forge_frontier:soul_flame_staff"
+				item: {
+					Count: 1
+					id: "forge_frontier:hades_bident"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d

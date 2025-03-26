@@ -153,7 +153,13 @@
 			subtitle: "Found in Bastion Treasure Loot"
 			tasks: [{
 				id: "420EF7A1D3C84530"
-				item: "forge_frontier:piglin_war_axe"
+				item: {
+					Count: 1
+					id: "forge_frontier:brute_warlord_axe"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: -1.5d
@@ -165,7 +171,7 @@
 			subtitle: "Found in Abandoned Tower Loot"
 			tasks: [{
 				id: "5A2513C221D15943"
-				item: "forge_frontier:piglin_totem"
+				item: "forge_frontier:crimson_pact_totem"
 				type: "item"
 			}]
 			x: 1.5d
@@ -177,7 +183,7 @@
 			subtitle: "Obtained by killing The Wildfire"
 			tasks: [{
 				id: "0A055476DDDFA33F"
-				item: "forge_frontier:piglin_kings_crown"
+				item: "forge_frontier:golden_tusks_crown"
 				type: "item"
 			}]
 			x: 0.0d
