@@ -167,10 +167,14 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .rarity('rare');
 
-        event.create('forge_frontier:piglin_totem')
-            .tooltip('A sacred totem of the Piglins, believed to ward off the curse of zombification. It holds the essence of Piglin ancestors.')
+        event.create('forge_frontier:crimson_pact_totem')
             .displayName("Piglin Totem")
-            .texture('forge_frontier:item/piglin_totem');
+            .tooltip(" A dark relic bound in oath and blood, the Totem of the Crimson Pact thrums with ancient Piglin magic. Said to grant strength in exchange for loyalty, it is not carried—it is borne, with a price that echoes beyond death.")
+            .parentModel('forge_frontier:item/crimson_pact_totem')
+            .texture('forge_frontier:item/crimson_pact_totem')
+            .glow(true)
+            .maxStackSize(1)
+            .rarity('rare');
 
         event.create('forge_frontier:infernal_chisel')
             .tooltip('Once wielded by the ancient blacksmiths of Martian colonies, this infernal chisel was instrumental in crafting formidable weapons and tools.')
