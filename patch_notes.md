@@ -68,6 +68,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Create Re-Aged: Replaced with Custom Assets inside KubeJS
 - Lootr Chest Retexture: Replaced with Custom Assets inside KubeJS
 - Create Easy Village: Replaced with Custom Assets inside KubeJS
+- Create Teleporters Remastered: Original Textures match recipes, so no reason to have custom texture
 
 ## 🔥 **Forge Frontier Core Updates**  
 ---
