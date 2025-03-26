@@ -94,6 +94,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Reworked Forge Frontier Resource Stones, Crushed Resource Stones, and Crushed Pile Textures
 - Reworked Custom Molten Vents to match new Resource Stone Textures
 - Reworked all Custom Item models,textures, and names, linked to End Remastered
+- Reworked Custom Overcharged Items and Blocks to match new New Age Textures
 ### Startup Scrips
 - Removed Crushed Unused crushed Redstone
 ### Server Scripts
