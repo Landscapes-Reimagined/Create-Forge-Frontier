@@ -190,7 +190,7 @@ ServerEvents.recipes(event => {
           C: Ingredient.of('forge_frontier:golden_tusks_crown'),
           A: Ingredient.of('forge_frontier:brute_warlord_axe'),
           U: Ingredient.of('endrem:undead_soul'),
-          T: Ingredient.of('forge_frontier:crimsom_pact_totem'),
+          T: Ingredient.of('forge_frontier:crimson_pact_totem'),
           N: Ingredient.of('minecraft:netherite_ingot'),
         },
         result: Ingredient.of('endrem:cursed_eye'),
