@@ -124,7 +124,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Artifacts**: v9.5.13 → v9.5.14
 - **Balanced Flight**: [Temporarily Disabled]
 - **Balm**: v7.3.18 → v7.3.25  
-- **Blueprint**: v7.1.1 → v7.1.2  
+- **Blueprint**: v7.1.1 → v7.1.2
+- **Botany Pots**: v13.0.40 → v13.0.41  
 - **Cataclysm**: v2.57 → v2.62  
 - **Cognition**: v2.3.0 → v2.3.4  
 - **Collective**: v7.93 → v7.94
@@ -136,7 +137,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Aquatic Ambitions**: v1.1.1 → v1.1.3  
 - **Create Bells and Whistles**: v0.4.3 → v0.4.5  
 - **Create Better Villagers**: v1.2.7 → v1.2.8  
-- **Create Central Kitchen**: v1.3.12 → v1.4.0  
+- **Create Central Kitchen**: v1.3.12 → v1.4.0.b  
 - **Create Compressed**: v1.0.1 → v2.1.0  
 - **Create Connected**: [Temporarily Disabled]
 - **Create Design n Decor**: [Temporarily Disabled]
