@@ -168,7 +168,7 @@ StartupEvents.registry('item', event => {
             .rarity('rare');
 
         event.create('forge_frontier:crimson_pact_totem')
-            .displayName("Piglin Totem")
+            .displayName("Totem of the Crimson Pact")
             .tooltip(" A dark relic bound in oath and blood, the Totem of the Crimson Pact thrums with ancient Piglin magic. Said to grant strength in exchange for loyalty, it is not carried—it is borne, with a price that echoes beyond death.")
             .parentModel('forge_frontier:item/crimson_pact_totem')
             .texture('forge_frontier:item/crimson_pact_totem')
@@ -176,10 +176,13 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .rarity('rare');
 
-        event.create('forge_frontier:infernal_chisel')
-            .tooltip('Once wielded by the ancient blacksmiths of Martian colonies, this infernal chisel was instrumental in crafting formidable weapons and tools.')
-            .displayName("Infernal Chisel")
-            .texture('forge_frontier:item/infernal_chisel');
+        event.create('forge_frontier:deep_forge_chisel')
+            .displayName("Chisel of the Deep Forge")
+            .tooltip("Crafted in silence beneath the world’s crust, the Chisel of the Deep Forge shapes not just stone—but the fate of those who wield it. Every strike hums with molten purpose, as if the earth itself lends its will to the artisan's hand.")
+            .parentModel('forge_frontier:item/deep_forge_chisel')
+            .texture('forge_frontier:item/deep_forge_chisel')
+            .maxStackSize(1)
+            .rarity('rare');
         
     // Overcharged Items
         event.create('forge_frontier:overcharged_netherite_ingot')
