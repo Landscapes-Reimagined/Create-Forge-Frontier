@@ -110,6 +110,7 @@ StartupEvents.registry('item', event => {
             .tooltip("A weapon of judgment forged in the deepest fires of the underworld. Hades' Bident strikes not with flame, but with dominion—piercing both flesh and soul. Legends claim the ground splits beneath its blow, as if the dead reach up to drag the living below.")
             .parentModel('forge_frontier/hades_bident')
             .texture('forge_frontier:item/hades_bident')
+            .tier('netherite')
             .maxStackSize(1)
             .speed(3)
             .rarity('rare');
@@ -130,11 +131,12 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .rarity('rare');
 
-        event.create('forge_frontier:ra_scepter')
+        event.create('forge_frontier:ra_scepter', 'hoe')
             .displayName("Ra's Scepter")
             .tooltip('A relic bathed in sunlight and divine judgment, Ra’s Scepter channels the burning gaze of the sun god himself. In battle, it gleams like dawn over desert sands—blinding, searing, and absolute.')
             .parentModel('forge_frontier:item/ra_scepter')
             .texture('forge_frontier:item/ra_scepter')
+            .tier('netherite')
             .maxStackSize(1)
             .glow(true)
             .rarity('rare');
@@ -156,10 +158,14 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .rarity('rare');
 
-        event.create('forge_frontier:piglin_war_axe')
-            .tooltip('Once swung in the great war between Piglins and Villagers, this war axe bears the scars of countless battles.')
-            .displayName("Piglin War Axe")
-            .texture('forge_frontier:item/piglin_war_axe');
+        event.create('forge_frontier:brute_warlord_axe', 'axe')
+            .displayName("Axe of the Brute Warlord")
+            .tooltip("Forged in war and baptized in blood, the Axe of the Brute Warlord is not a weapon of elegance—it is a declaration of strength. Each swing is a story, each scar on its blade a reminder of battles won and mercy denied.")
+            .parentModel("forge_frontier:item/brute_warlord_axe")
+            .texture('forge_frontier:item/brute_warlord_axe')
+            .tier('netherite')
+            .maxStackSize(1)
+            .rarity('rare');
 
         event.create('forge_frontier:piglin_totem')
             .tooltip('A sacred totem of the Piglins, believed to ward off the curse of zombification. It holds the essence of Piglin ancestors.')
@@ -171,9 +177,6 @@ StartupEvents.registry('item', event => {
             .displayName("Infernal Chisel")
             .texture('forge_frontier:item/infernal_chisel');
         
-
-         
-
     // Overcharged Items
         event.create('forge_frontier:overcharged_netherite_ingot')
             .displayName('Overcharged Netherite Ingot')
