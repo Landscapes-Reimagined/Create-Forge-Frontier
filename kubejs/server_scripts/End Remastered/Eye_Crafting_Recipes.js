@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
           A: Ingredient.of('minecraft:ancient_debris'),
-          C: Ingredient.of('forge_frontier:infernal_chisel'),
+          C: Ingredient.of('forge_frontier:deep_forge_chisel'),
           F: Ingredient.of('cataclysm:infernal_forge'),
           U: Ingredient.of('endrem:undead_soul'),
           H: Ingredient.of('cataclysm:monstrous_horn'),
@@ -187,10 +187,10 @@ ServerEvents.recipes(event => {
         ],
         key: {
           B: Ingredient.of('minecraft:gilded_blackstone'),
-          C: Ingredient.of('forge_frontier:piglin_kings_crown'),
-          A: Ingredient.of('forge_frontier:piglin_war_axe'),
+          C: Ingredient.of('forge_frontier:golden_tusks_crown'),
+          A: Ingredient.of('forge_frontier:brute_warlord_axe'),
           U: Ingredient.of('endrem:undead_soul'),
-          T: Ingredient.of('forge_frontier:piglin_totem'),
+          T: Ingredient.of('forge_frontier:crimsom_pact_totem'),
           N: Ingredient.of('minecraft:netherite_ingot'),
         },
         result: Ingredient.of('endrem:cursed_eye'),
