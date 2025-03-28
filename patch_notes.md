@@ -123,15 +123,15 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 ## 🔄 **Mod Updates & Enhancements**  
 This update introduces **mod improvements, compatibility fixes, and performance optimizations** to provide a **smoother, more immersive gameplay experience**.  
 ### 🛠 **Updated Mods:**  
-- **Ad Astra**: v1.15.19 → v1.15.20  
-- **Acedium**: [Temporarily Disabled]
+- **Ad Astra**: v1.15.19 → v1.15.20
+- **AE2**: v15.3.3 → v15.3.4  
 - **Alex's Caves Delight**: 1.0.24 → 1.0.25   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
 - **Aquaculture**: v2.5.4 → v2.5.5
-- **Artifacts**: v9.5.13 → v9.5.14
+- **Artifacts**: v9.5.13 → v9.5.15
 - **Balanced Flight**: [Temporarily Disabled]
-- **Balm**: v7.3.18 → v7.3.25  
+- **Balm**: v7.3.18 → v7.3.26  
 - **Blueprint**: v7.1.1 → v7.1.2
 - **Botany Pots**: v13.0.40 → v13.0.41  
 - **Cataclysm**: v2.57 → v2.62  
@@ -145,15 +145,14 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Aquatic Ambitions**: v1.1.1 → v1.1.3  
 - **Create Bells and Whistles**: v0.4.3 → v0.4.5  
 - **Create Better Villagers**: v1.2.7 → v1.2.8  
-- **Create Central Kitchen**: v1.3.12 → v1.4.0.b  
+- **Create Central Kitchen**: v1.3.12 → v1.4.0.c  
 - **Create Compressed**: v1.0.1 → v2.1.0  
 - **Create Connected**: [Temporarily Disabled]
-- **Create Design n Decor**: [Temporarily Disabled]
 - **Create Diesel Generators**: v1.2i → v1.3.1
 - **Create Dreams and Desires**: [Temporarily Disabled]    
 - **Create Easy Structures**: v0.1.2 → v0.2  
 - **Create Enchantment Industry**: v1.2.9 → v1.3.2  
-- **Create Encased**: v1.6.2 → v1.7.1
+- **Create Encased**: v1.6.2 → v1.7.1-fix1
 - **Create Forge Frontier Core**: [Temporarily Disabled]    
 - **Create Goggles**: v0.5.6 → v6.0.0  
 - **Create Interiors**: v0.5.6-build.104 → v0.5.6-local  
@@ -169,12 +168,13 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Utilities**: v0.3.0 → v0.3.1  
 - **Disenchanting Table**: v3.1.0 → v4.0.0  
 - **EMI Schematics**: [Temporarily Disabled]  
-- **Embeddium Plus → Chloride**: v1.2.13 → v1.5.4  
+- **Embeddium Plus → Chloride**: v1.2.13 → v1.5.4
+- **Entity Culling**: v1.7.3 → v1.7.4  
 - **Every Compat**: v2.7.19 → v2.7.24  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
-- **Friends and Foes**: v3.0.7 → v3.0.8  
+- **Friends and Foes**: v3.0.7 → v3.0.9  
 - **Fzzy Config**: v0.6.4 → v0.6.7
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
@@ -186,12 +186,12 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Jade**: v11.12.3 → v11.13.1  
 - **Jade Addons**: v5.3.1 → v5.5.0  
 - **Login Protection**: v3.4 → v3.5
+- **Loot Integrations**: v4.2 → v4.3
 - **Lootr**: v0.7.35.90 → v0.7.35.91  
 - **Moonlight Lib**: v2.13.71 → v2.13.79
-- **Neruina**: [Temporarily Disabled]  
+- **Not Enough Animations**: v1.9.2 → v1.9.3
 - **Octolib**: v0.4.2 → v0.5.0.1
-- **Oculus**: v1.7.0 → v1.8.0 
-- **Oculus Flywheel Compat**: [Temporarily Disabled]  
+- **Oculus**: v1.7.0 → v1.8.0  
 - **Placebo**: v8.6.2 → v8.6.3  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
 - **Quark**: v4.0-460 → v4.0-461  
@@ -199,7 +199,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.902  
+- **Sophisticated Core**: v1.2.20.894 → v1.2.22.902
+- **Sound Physics Remastered**: v1.4.8 → v1.4.10  
 - **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.5  
 - **Supplementaries**: v3.1.18 → v3.1.21
