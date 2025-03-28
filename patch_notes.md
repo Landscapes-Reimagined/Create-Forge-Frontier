@@ -32,7 +32,8 @@ Key highlights include:
   - Modern World Creation enhances the **Vanilla Create World screen** with a sleek, modern interface. It features smooth hover animations for game mode selection and is fully keyboard navigable using the arrow and tab keys, ensuring improved accessibility and ease of use.
 - **[Vanillin](https://www.curseforge.com/minecraft/mc-mods/vanillin)**  
   - A **performance optimization mod** that leverages **instanced rendering** for entities and block entities using *Flywheel*. By offloading rendering tasks to *Flywheel*, **Vanillin** significantly enhances **frame rates** and reduces performance impact, ensuring that even **thousands of entities** render as efficiently as a single one. 🚀  
-
+- **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**
+  - This mod adds a few extra feature's to the Create mod's excellent Attribute and List Filters!
 ---
 
 ## ❌ **Mod Removals**  
