@@ -117,6 +117,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Created Custom Incomplete Items for Sequenced Assembly Recipes for Advanced AE and Applied Flux
 - Reworked Texture for custom trophy
 - Reworked Textures for custom overcharged items/blocks
+- Created Custom CagedMobs Resources
 
 ### Startup Scrips
 - Removed Crushed Unused crushed Redstone
