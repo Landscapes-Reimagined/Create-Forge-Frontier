@@ -45,14 +45,14 @@ ServerEvents.recipes(event => {
             item: 'ae2:printed_silicon'
         },
         transitionalItem: {
-            item: 'createappliedkinetics:incomplete_silicon_print'
+            item: 'forge_frontier:incomplete_quantum_processor'
         },
         sequence: [
             {
             type: 'create:deploying',
             ingredients: [
                 {
-                item: 'createappliedkinetics:incomplete_silicon_print'
+                item: 'forge_frontier:incomplete_quantum_processor'
                 },
                 {
                 item: 'advanced_ae:printed_quantum_processor'
@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                item: 'createappliedkinetics:incomplete_silicon_print'
+                item: 'forge_frontier:incomplete_quantum_processor'
                 }
             ]
             },
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
             type: 'create:deploying',
             ingredients: [
                 {
-                item: 'createappliedkinetics:incomplete_silicon_print'
+                item: 'forge_frontier:incomplete_quantum_processor'
                 },
                 {
                 item: 'minecraft:redstone'
@@ -76,7 +76,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
                 {
-                item: 'createappliedkinetics:incomplete_silicon_print'
+                item: 'forge_frontier:incomplete_quantum_processor'
                 }
             ]
             },
@@ -84,12 +84,12 @@ ServerEvents.recipes(event => {
             type: 'create:pressing',
             ingredients: [
                 {
-                item: 'createappliedkinetics:incomplete_silicon_print'
+                item: 'forge_frontier:incomplete_quantum_processor'
                 }
             ],
             results: [
                 {
-                item: 'createappliedkinetics:incomplete_silicon_print'
+                item: 'forge_frontier:incomplete_quantum_processor'
                 }
             ]
             }
@@ -111,27 +111,27 @@ ServerEvents.recipes(event => {
             item: 'advanced_ae:quantum_alloy'
         },
         transitionalItem: {
-            item: 'createappliedkinetics:incomplete_silicon_press'
+            item: 'forge_frontier:incomplete_printed_quantum_processor'
         },
         sequence: [
             {
                 keepHeldItem: true,
                 type: 'create:deploying',
                 ingredients: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' },
+                    { item: 'forge_frontier:incomplete_printed_quantum_processor' },
                     { item: 'advanced_ae:quantum_processor_press'}
                 ],
                 results: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_printed_quantum_processor' }
                 ]
             },
             {
                 type: 'create:pressing',
                 ingredients: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_printed_quantum_processor' }
                 ],
                 results: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_printed_quantum_processor' }
                 ]
             }
         ],
@@ -149,38 +149,38 @@ ServerEvents.recipes(event => {
             item: 'advanced_ae:quantum_infused_dust'
         },
         transitionalItem: {
-            item: 'createappliedkinetics:incomplete_silicon_press'
+            item: 'forge_frontier:incomplete_quantum_processor_press'
         },
         sequence: [
             {
                 "keepHeldItem": true,
                 type: 'create:deploying',
                 ingredients: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' },
+                    { item: 'forge_frontier:incomplete_quantum_processor_press' },
                     { item: 'ae2:engineering_processor_press' }
                 ],
                 results: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_quantum_processor_press' }
                 ]
             },
             {
                 type: 'create:deploying',
                 "keepHeldItem": true,
                 ingredients: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' },
+                    { item: 'forge_frontier:incomplete_quantum_processor_press' },
                     { item: 'ae2:logic_processor_press' }
                 ],
                 results: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_quantum_processor_press' }
                 ]
             },
             {
                 type: 'create:pressing',
                 ingredients: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_quantum_processor_press' }
                 ],
                 results: [
-                    { item: 'createappliedkinetics:incomplete_silicon_press' }
+                    { item: 'forge_frontier:incomplete_quantum_processor_press' }
                 ]
             }
         ],
@@ -198,7 +198,7 @@ ServerEvents.recipes(event => {
           item: "minecraft:iron_block"
         },
         transitionalItem: {
-          item: "createappliedkinetics:incomplete_calculation_processor_press"
+          item: "forge_frontier:incomplete_quantum_processor_press"
         },
         sequence: [
           {
@@ -206,7 +206,7 @@ ServerEvents.recipes(event => {
             type: "create:deploying",
             ingredients: [
               {
-                item: "createappliedkinetics:incomplete_calculation_processor_press"
+                item: "forge_frontier:incomplete_quantum_processor_press"
               },
               {
                 item: 'advanced_ae:quantum_processor_press'
@@ -214,7 +214,7 @@ ServerEvents.recipes(event => {
             ],
             results: [
               {
-                item: "createappliedkinetics:incomplete_calculation_processor_press"
+                item: "forge_frontier:incomplete_quantum_processor_press"
               }
             ]
           },
@@ -222,12 +222,12 @@ ServerEvents.recipes(event => {
             type: "create:pressing",
             ingredients: [
               {
-                item: "createappliedkinetics:incomplete_calculation_processor_press"
+                item: "forge_frontier:incomplete_quantum_processor_press"
               }
             ],
             results: [
               {
-                item: "createappliedkinetics:incomplete_calculation_processor_press"
+                item: "forge_frontier:incomplete_quantum_processor_press"
               }
             ]
           }
