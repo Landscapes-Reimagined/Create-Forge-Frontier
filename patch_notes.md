@@ -37,8 +37,8 @@ Key highlights include:
 
 ---
 ## Resource Pack Additions
-- []()
-  - 
+- [Create Sophisticated Backpacks](https://www.curseforge.com/minecraft/texture-packs/create-sophisticated-backpacks)
+  - A Resource Pack that makes Sophisticated Backpacks look like one of Create mod's items!
 ---
 
 ## ❌ **Mod Removals**  
@@ -81,6 +81,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Lootr Chest Retexture: Replaced with Custom Assets inside KubeJS
 - Create Easy Village: Replaced with Custom Assets inside KubeJS
 - Create Teleporters Remastered: Original Textures match recipes, so no reason to have custom texture
+- Create Immersive Aircraft Warship Resourepack: Never needed, because mod was removed ages ago
 
 ## 🔥 **Forge Frontier Core Updates**  
 ---
