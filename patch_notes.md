@@ -53,6 +53,7 @@ Key highlights include:
 - **GeckoLib Iris Compat** - Now included in Geckolib, eliminating the need for a seperate mod
 - **Neruina** - Incompatibile with multiple mods, causing more harm than good.
 - **Oculus Flywheel Compat** - Removed due to incompatibility with Flywheel 1.0, will be added back if it becomes compatible again
+- **Create Design n' Decor**: Incompatible with Create 6.0, and not longer recieving updated for 1.20.1
 
 ### **Non-Essential Library Mods**  
 The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
