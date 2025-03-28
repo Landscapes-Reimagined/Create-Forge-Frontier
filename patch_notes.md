@@ -32,8 +32,9 @@ Key highlights include:
   - Modern World Creation enhances the **Vanilla Create World screen** with a sleek, modern interface. It features smooth hover animations for game mode selection and is fully keyboard navigable using the arrow and tab keys, ensuring improved accessibility and ease of use.
 - **[Vanillin](https://www.curseforge.com/minecraft/mc-mods/vanillin)**  
   - A **performance optimization mod** that leverages **instanced rendering** for entities and block entities using *Flywheel*. By offloading rendering tasks to *Flywheel*, **Vanillin** significantly enhances **frame rates** and reduces performance impact, ensuring that even **thousands of entities** render as efficiently as a single one. 🚀  
-- **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**
-  - This mod adds a few extra feature's to the Create mod's excellent Attribute and List Filters!
+- **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**  
+  - A small but powerful addon for *Create* that expands the functionality of **Attribute and List Filters**, allowing them to be used in more flexible contexts throughout your contraptions. Ideal for advanced automation and sorting systems where precision filtering is key.
+
 ---
 
 ## ❌ **Mod Removals**  
@@ -51,6 +52,7 @@ Key highlights include:
 - **Acedium** - Removed due to incompatibility with Flywheel 1.0
 - **GeckoLib Iris Compat** - Now included in Geckolib, eliminating the need for a seperate mod
 - **Neruina** - Incompatibile with multiple mods, causing more harm than good.
+- **Oculus Flywheel Compat** - Removed due to incompatibility with Flywheel 1.0, will be added back if it becomes compatible again
 
 ### **Non-Essential Library Mods**  
 The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
