@@ -36,6 +36,10 @@ Key highlights include:
   - A small but powerful addon for *Create* that expands the functionality of **Attribute and List Filters**, allowing them to be used in more flexible contexts throughout your contraptions. Ideal for advanced automation and sorting systems where precision filtering is key.
 
 ---
+## Resource Pack Additions
+- []()
+  - 
+---
 
 ## ❌ **Mod Removals**  
 ### **Incompatibility & Redundancy**  
@@ -89,6 +93,8 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Moved all Quests into Ad Astra Progression
 ### Forge Rocket
 - Moved all Quests into Ad Astra Progression
+### End Remastered
+- Adjusted Recipe Quests to use new End Remastered Items
 ### Imcomplete Quests
 - Made all incomplete quest pages invisible to make quests less overwhelming
 ---
@@ -104,12 +110,22 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Reworked Custom Molten Vents to match new Resource Stone Textures
 - Reworked all Custom Item models,textures, and names, linked to End Remastered
 - Reworked Custom Overcharged Items and Blocks to match new New Age Textures
+- Created Custom Sophisticated Storage Resources
+- Created Custom Advanced AE Resources
+- Created Custom Applied Flux Resources
+- Created Custom Incomplete Items for Sequenced Assembly Recipes for Advanced AE and Applied Flux
+- Reworked Texture for custom trophy
+- Reworked Textures for custom overcharged items/blocks
+
 ### Startup Scrips
 - Removed Crushed Unused crushed Redstone
+- Added New End Remastered Items
+- Added New Incomplete Processing Items
 ### Server Scripts
 - Removed Excess Seed Oil Recipes
 - Added New Seed Oil Tag to allow usage in the Mechanical Chicken
 - Removed Unused Crushed Redstone Recipes
+- Adjusted Advanced AE and Applied Flux Sequenced Assembly Recipes to use proper incomplete items
 ---
 
 ## ⚙️ **Configuration & UI Updates** 
