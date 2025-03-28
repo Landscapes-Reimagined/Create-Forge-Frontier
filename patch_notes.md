@@ -47,7 +47,10 @@ Key highlights include:
 - **Wooder Wheels** – Now included **natively in Create**, eliminating the need for a separate mod.  
 - **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
 - **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.  
-- **3D Skin Layers** – Removed due to **broken textures** and **lack of ongoing support**.  
+- **3D Skin Layers** – Removed due to **broken textures** and **lack of ongoing support**. 
+- **Acedium** - Removed due to incompatibility with Flywheel 1.0
+- **GeckoLib Iris Compat** - Now included in Geckolib, eliminating the need for a seperate mod
+- **Neruina** - Incompatibile with multiple mods, causing more harm than good.
 
 ### **Non-Essential Library Mods**  
 The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
