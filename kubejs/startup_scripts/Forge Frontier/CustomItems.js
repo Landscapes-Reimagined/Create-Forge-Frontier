@@ -82,6 +82,37 @@ StartupEvents.registry('item', event => {
             .displayName('Overcharged Netherite Ingot')
             .texture('forge_frontier:item/overcharged_netherite_ingot');
 
+    // Incomplete Items
+        // Quantum
+            event.create('forge_frontier:incomplete_quantum_processor')
+                .displayName('Incomplete Quantum Processor')
+                .texture('forge_frontier:item/incomplete_quantum_processor')
+
+        // Printed Quantum 
+            event.create('forge_frontier:incomplete_printed_quantum_processor')
+                .displayName('Incomplete Printed Quantum Processor')
+                .texture('forge_frontier:item/incomplete_printed_quantum_processor')
+
+        // Inscriber Quantum Processor
+            event.create('forge_frontier:incomplete_quantum_processor_press')
+                .displayName('Incomplete Quantum Processor Press')
+                .texture('forge_frontier:item/incomplete_quantum_processor_press')        
+
+        // Energy
+            event.create('forge_frontier:incomplete_energy_processor')
+                .displayName('Incomplete Energy Processor')
+                .texture('forge_frontier:item/incomplete_energy_processor')
+
+        // Printed Energy
+            event.create('forge_frontier:incomplete_printed_energy_processor')
+                .displayName('Incomplete Printed Energy Processor')
+                .texture('forge_frontier:item/incomplete_printed_energy_processor')
+
+        // Inscriber Energy Processor
+            event.create('forge_frontier:incomplete_energy_processor_press')
+                .displayName('Incomplete Energy Processor Press')
+                .texture('forge_frontier:item/incomplete_energy_processor_press')
+
     // New Molds
         event.create('forge_frontier:upgrade_mold')
             .displayName('Upgrade Template Mold')
