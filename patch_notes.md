@@ -151,7 +151,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Aquaculture**: v2.5.4 → v2.5.5
 - **Artifacts**: v9.5.13 → v9.5.15
 - **Balanced Flight**: [Temporarily Disabled]
-- **Balm**: v7.3.18 → v7.3.26  
+- **Balm**: v7.3.18 → v7.3.27  
 - **Blueprint**: v7.1.1 → v7.1.2
 - **Botany Pots**: v13.0.40 → v13.0.41  
 - **Cataclysm**: v2.57 → v2.62  
@@ -186,7 +186,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Stuff and Additions**: v2.0.8 → v2.0.9
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
 - **Create Utilities**: v0.3.0 → v0.3.1  
-- **Disenchanting Table**: v3.1.0 → v4.0.0  
+- **Disenchanting Table**: v3.1.0 → v4.0.2
+- **EMI**: v1.1.20 → v1.1.21
 - **EMI Schematics**: [Temporarily Disabled]  
 - **Embeddium Plus → Chloride**: v1.2.13 → v1.5.4
 - **Entity Culling**: v1.7.3 → v1.7.4  
@@ -215,14 +216,15 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Placebo**: v8.6.2 → v8.6.3  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
 - **Quark**: v4.0-460 → v4.0-461  
-- **Season HUD**: v1.12.2 → v1.12.5
+- **Season HUD**: v1.12.2 → v1.12.6
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.902
+- **Sophisticated Core**: v1.2.20.894 → v1.2.22.908
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1081
 - **Sound Physics Remastered**: v1.4.8 → v1.4.10  
 - **Structure Credits**: v2.2.1 → v2.3.1 
-- **Structure Essentials**: v4.3 → v4.5  
+- **Structure Essentials**: v4.3 → v4.6  
 - **Supplementaries**: v3.1.18 → v3.1.21
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
