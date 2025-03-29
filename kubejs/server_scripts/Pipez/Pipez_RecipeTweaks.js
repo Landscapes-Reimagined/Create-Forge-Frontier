@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 		type: 'create:item_application',
 		ingredients: [
 		  {
-			item: 'tfmg:brass_pipe'
+			item: 'createutilites:void_steel_ingot'
 		  },
 		  {
 			item: 'create_dd:blaze_gold_casing'
@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
 		type: 'create:item_application',
 		ingredients: [
 		  {
-			item: 'tfmg:steel_pipe'
+			item: 'createnuclear:graphite_rod'
 		  },
 		  {
 			item: 'create_dd:steel_casing'

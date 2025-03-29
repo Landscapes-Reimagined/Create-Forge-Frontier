@@ -71,50 +71,6 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
 
     // Extruding Recipes
 
-      // Galena
-      event.custom({
-        type: 'create_mechanical_extruder:extruding',
-        ingredients: [
-          {
-            fluid: 'create_dd:strawberry_milkshake',
-            amount: 1000
-          },
-          {
-            fluid: 'minecraft:lava',
-            amount: 1000
-          }
-        ],
-        catalyst: {
-          item: 'tfmg:lead_block'
-        },
-        result: {
-          item: 'tfmg:galena'
-        },
-        
-      }).id('forge_frontier:extruding/gelena')
-
-      // Bauxite
-      event.custom({
-        type: 'create_mechanical_extruder:extruding',
-        ingredients: [
-          {
-            fluid: 'create_dd:chocolate_milkshake',
-            amount: 1000
-          },
-          {
-            fluid: 'minecraft:lava',
-            amount: 1000
-          }
-        ],
-        catalyst: {
-          item: 'tfmg:aluminum_block'
-        },
-        result: {
-          item: 'tfmg:bauxite'
-        },
-        
-      }).id('forge_frontier:extruding/bauxite')
-
       // Sky Stone
       event.custom({
         type: 'create_mechanical_extruder:extruding',

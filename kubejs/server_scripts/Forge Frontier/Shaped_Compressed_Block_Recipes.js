@@ -57,22 +57,9 @@ ServerEvents.recipes(event => {
             'AAA'
         ],
         {
-            A: 'tfmg:lead_block', 
+            A: 'createnuclear:lead_block', 
         }
     ).id( 'forge_frontier:shaped/lead_block_1x' )
-
-    // Aluminum
-    event.shaped(
-        Item.of('forge_frontier:compressed_aluminum_1x'),
-        [
-            'AAA',
-            'AAA',
-            'AAA'
-        ],
-        {
-            A: 'tfmg:aluminum_block', 
-        }
-    ).id( 'forge_frontier:shaped/aluminum_block_1x' )
 	
     // Malachite
         // Creates New Shaped Recipe for Malachite

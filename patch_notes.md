@@ -115,6 +115,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Reworked Texture for custom trophy
 - Reworked Textures for custom overcharged items/blocks
 - Created Custom CagedMobs Resources
+- Created Custom Sophisticated Backpack Resources
 
 ### Startup Scrips
 - Removed Crushed Unused crushed Redstone

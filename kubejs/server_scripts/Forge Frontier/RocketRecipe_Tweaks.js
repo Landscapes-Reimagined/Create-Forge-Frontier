@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
             P: Ingredient.of("create:precision_mechanism"),
             F: Ingredient.of("ad_astra:rocket_fin"),
             t: Ingredient.of("ad_astra:steel_tank"),
-            T: Ingredient.of("tfmg:steel_fluid_tank"),
+            T: Ingredient.of("create_sa:large_fueling_tank"),
             E: Ingredient.of("ad_astra:steel_engine")
         },
         result: Ingredient.of("ad_astra:tier_1_rocket"),
@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
             R: Ingredient.of("ad_astra:tier_1_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
             t: Ingredient.of("ad_astra:desh_tank"),
-            T: Ingredient.of("tfmg:steel_fluid_tank"),
+            T: Ingredient.of("create_sa:large_fueling_tank"),
             E: Ingredient.of("ad_astra:desh_engine")
         },
         result: Ingredient.of("ad_astra:tier_2_rocket"),
@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
             R: Ingredient.of("ad_astra:tier_2_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
             t: Ingredient.of("ad_astra:ostrum_tank"),
-            T: Ingredient.of("tfmg:steel_fluid_tank"),
+            T: Ingredient.of("create_sa:large_fueling_tank"),
             E: Ingredient.of("ad_astra:ostrum_engine")
         },
         result: Ingredient.of("ad_astra:tier_3_rocket"),
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
             R: Ingredient.of("ad_astra:tier_3_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
             t: Ingredient.of("ad_astra:calorite_tank"),
-            T: Ingredient.of("tfmg:steel_fluid_tank"),
+            T: Ingredient.of("create_sa:large_fueling_tank"),
             E: Ingredient.of("ad_astra:calorite_engine")
         },
         result: Ingredient.of("ad_astra:tier_4_rocket"),
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
             R: Ingredient.of("ad_astra:tier_4_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
             t: Ingredient.of("forge_frontier:tier_5_tank"),
-            T: Ingredient.of("tfmg:steel_fluid_tank"),
+            T: Ingredient.of("create_sa:large_fueling_tank"),
             E: Ingredient.of("forge_frontier:tier_5_engine")
         },
         result: Ingredient.of("ad_astra_rocketed:tier_5_rocket"),
@@ -169,7 +169,7 @@ ServerEvents.recipes(event => {
             R: Ingredient.of("ad_astra_rocketed:tier_5_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
             t: Ingredient.of("forge_frontier:tier_6_tank"),
-            T: Ingredient.of("tfmg:steel_fluid_tank"),
+            T: Ingredient.of("create_sa:large_fueling_tank"),
             E: Ingredient.of("forge_frontier:tier_6_engine"),
         },
         result: Ingredient.of("ad_astra_rocketed:tier_6_rocket"),
@@ -406,7 +406,7 @@ ServerEvents.recipes(event => {
             pattern: [
                 "FIfD",
                 "SBbC",
-                "VcvT"
+                "Vcv"
             ],
             key: {
                 F: Ingredient.of("ae2:fluid_storage_cell_256k"),
@@ -416,11 +416,11 @@ ServerEvents.recipes(event => {
                 S: Ingredient.of("sophisticatedstorage:netherite_shulker_box"),
                 B: Ingredient.of("sophisticatedstorage:netherite_barrel"),
                 b: Ingredient.of("sophisticatedbackpacks:netherite_backpack"),
-                C: Ingredient.of("toms_storage:ts.crafting_terminal"),
+                C: Ingredient.of("create:stock_ticker"),
                 V: Ingredient.of("createutilities:void_tank"),
                 c: Ingredient.of("createutilities:void_chest"),
                 v: Ingredient.of("create:item_vault"),
-                T: Ingredient.of("railways:fuel_tank")
+                // T: Ingredient.of("railways:fuel_tank")
             },
             result: Ingredient.of("forge_frontier:forge_rocket_tank"),
             acceptMirrored: false
@@ -433,7 +433,7 @@ ServerEvents.recipes(event => {
                 "QSC",
                 "Ici",
                 "sPT",
-                "VLE",
+                "VL",
                 "AHY"
             ],
             key: {
@@ -448,7 +448,6 @@ ServerEvents.recipes(event => {
                 T: Ingredient.of("create_dd:integrated_mechanism"),
                 V: Ingredient.of("create_things_and_misc:vibration_mechanism"),
                 L: Ingredient.of("create_power_loader:brass_chunk_loader"),
-                E: Ingredient.of("tfmg:steel_mechanism"),
                 A: Ingredient.of("create_sa:steam_engine"),
                 H: Ingredient.of("create_sa:heat_engine"),
                 Y: Ingredient.of("create_sa:hydraulic_engine"),

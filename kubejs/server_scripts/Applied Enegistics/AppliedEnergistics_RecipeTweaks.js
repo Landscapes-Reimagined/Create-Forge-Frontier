@@ -37,13 +37,13 @@ event.shaped(
   [
     ' A ',
     'IPI',
-    ' H '
+    ' C '
   ],
   {
     A: 'ae2:annihilation_core',
     I: 'minecraft:iron_ingot',
     P: 'minecraft:sticky_piston',
-    H: 'toms_storage:ts.inventory_hopper_basic'
+    C: 'create:smart_chute'
   }
 ).id( 'forge_frontier:shaped/import_bus' )
 
@@ -54,13 +54,13 @@ event.shaped(
   [
     'IFI',
     ' P ',
-    ' H '
+    ' C '
   ],
   {
     I: 'minecraft:iron_ingot',
     F: 'ae2:formation_core',
     P: 'minecraft:piston',
-    H: 'toms_storage:ts.inventory_hopper_basic'
+    C: 'create:smart_chute'
   }
 ).id( 'forge_frontier:shaped/export_bus' )
 
@@ -77,7 +77,7 @@ event.custom({
     L: Ingredient.of('ae2:logic_processor'),
     A: Ingredient.of('ae2:annihilation_core'),
     P: Ingredient.of('#ae2:illuminated_panel'),
-    T: Ingredient.of('toms_storage:ts.storage_terminal')
+    T: Ingredient.of('create:stock_ticker')
   },
   result: Ingredient.of('ae2:terminal'),
   acceptMirrored: false

@@ -58,25 +58,11 @@ ServerEvents.recipes(event => {
             }
         ],
         result: {
-            item: 'tfmg:lead_block',
+            item: 'createnuclear:lead_block',
             count: 9
         }
     }).id( 'forge_frontier:shapeless/compressed_lead_block_1x' )
-
-    // Aluminum
-    event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'forge_frontier:compressed_aluminum_1x'
-            }
-        ],
-        result: {
-            item: 'tfmg:aluminum_block',
-            count: 9
-        }
-    }).id( 'forge_frontier:shapeless/compressed_aluminum_block_1x' )
-    
+ 
     // Malachite
         // Malachite Block to Malchite Shapeless Recipe
         event.custom({

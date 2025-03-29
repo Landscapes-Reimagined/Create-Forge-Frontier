@@ -1,77 +1,4 @@
 ServerEvents.recipes(event => {
-    // Molten Aluminum
-        // Crushed Raw to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'create:crushed_raw_aluminum',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_aluminum',
-                    amount: 200
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_raw_aluminum_molten');
-
-        // Crushed Pile to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'forge_frontier:crushed_aluminum_pile',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_aluminum',
-                    amount: 1800
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/crushed_aluminum_pile_molten');
-
-        // Ingot to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'tfmg:aluminum_ingot',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_aluminum',
-                    amount: 100
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/aluminum_ingot_molten');
-
-        // Block to Molten
-        event.custom({
-            type: "create:mixing",
-            ingredients: [
-                {
-                    item: 'tfmg:aluminum_block',
-                    amount: 1
-                }
-            ],
-            results: [
-                {
-                    fluid: 'forge_frontier:molten_aluminum',
-                    amount: 900
-                }
-            ],
-            heatRequirement: "superheated"
-        }).id('forge_frontier:mixing/aluminum_block_molten');    
-
     // Molten Lead
         // Crushed Raw to Molten
         event.custom({
@@ -114,7 +41,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'tfmg:raw_lead',
+                    item: 'createnuclear:raw_lead',
                     amount: 1
                 }
             ],
@@ -154,7 +81,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'tfmg:lead_ingot',
+                    item: 'createnuclear:lead_ingot',
                     amount: 1
                 }
             ],
@@ -172,7 +99,7 @@ ServerEvents.recipes(event => {
             type: "create:mixing",
             ingredients: [
                 {
-                    item: 'tfmg:lead_block',
+                    item: 'createnuclear:lead_block',
                     amount: 1
                 }
             ],

@@ -61,33 +61,14 @@ ServerEvents.recipes(event => {
         ],
         results: [
             {
-                item: 'tfmg:lead_block'
+                item: 'createnuclear:lead_block'
             },
             {
                 chance: 0.60,
-                item: 'tfmg:lead_block'
+                item: 'createnuclear:lead_block'
             }
         ]
     }).id('forge_frontier:seething/crushed_lead_pile')    
-
-    // Crushed Aluminum Pile
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'forge_frontier:crushed_aluminum_pile'
-            }
-        ],
-        results: [
-            {
-                item: 'tfmg:aluminum_block'
-            },
-            {
-                chance: 0.60,
-                item: 'tfmg:aluminum_block'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_aluminum_pile')       
 
     // Crushed Bismuth Pile
     event.custom({

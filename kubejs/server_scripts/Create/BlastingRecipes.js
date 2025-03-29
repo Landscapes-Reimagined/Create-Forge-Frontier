@@ -9,30 +9,8 @@ ServerEvents.recipes(event => {
             ingredient: {
                 item: 'forge_frontier:crushed_lead_pile'
             },
-            result: 'tfmg:lead_block'
+            result: 'createnuclear:lead_block'
         }).id('forge_frontier:blasting/crushed_lead_pile')        
-
-        // Crushed Aluminum Pile
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_aluminum_pile'
-            },
-            result: 'tfmg:aluminum_block'
-        }).id('forge_frontier:blasting/crushed_aluminum_pile')           
-
-        // Crushed Raw Redstone
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_redstone'
-            },
-            result: 'minecraft:redstone'
-        }).id('forge_frontier:blasting/crushed_raw_redstone')
 
         // Crushed Bismuth Pile
         event.custom({
