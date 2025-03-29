@@ -37,10 +37,6 @@ Key highlights include:
 - **[Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
   - A comprehensive integration mod that bridges **Sophisticated Storage** with **Create**, enabling full use of storage blocks and upgrades on moving contraptions. Whether on **trains, rotating platforms, flying machines**, or other Create mechanisms, your storage retains all its **advanced inventory management features** and upgrade functionality.
 ---
-## Resource Pack Additions
-- [Create Sophisticated Backpacks](https://www.curseforge.com/minecraft/texture-packs/create-sophisticated-backpacks)
-  - A Resource Pack that makes Sophisticated Backpacks look like one of Create mod's items!
----
 
 ## ❌ **Mod Removals**  
 ### **Incompatibility & Redundancy**  
@@ -213,7 +209,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Moonlight Lib**: v2.13.71 → v2.13.79
 - **Not Enough Animations**: v1.9.2 → v1.9.3
 - **Octolib**: v0.4.2 → v0.5.0.1
-- **Oculus**: v1.7.0 → v1.8.0  
+- **Oculus**: v1.7.0 → v1.8.0 
+- **Pipez**: v1.2.16 → v1.2.20
 - **Placebo**: v8.6.2 → v8.6.3  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
 - **Quark**: v4.0-460 → v4.0-461  
@@ -233,7 +230,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **WATUT**: v1.1.3 → v1.2.3
 - **Xaeros Minimap**: v25.1.0 → v25.2.0  
 - **XaeroPlus**: v2.26.3 → v2.26.5
-- **Zeta**: v1.0-24 → v1.0-28  
+- **Zeta**: v1.0-24 → v1.0-29  
 ---
 
 ### 📜 **Learn More About the Changes**  
