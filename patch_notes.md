@@ -218,8 +218,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.908
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1081
+- **Sophisticated Core**: v1.2.20.894 → v1.2.22.909
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1082
 - **Sound Physics Remastered**: v1.4.8 → v1.4.10  
 - **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.6  
