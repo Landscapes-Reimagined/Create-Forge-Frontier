@@ -34,7 +34,8 @@ Key highlights include:
   - A **performance optimization mod** that leverages **instanced rendering** for entities and block entities using *Flywheel*. By offloading rendering tasks to *Flywheel*, **Vanillin** significantly enhances **frame rates** and reduces performance impact, ensuring that even **thousands of entities** render as efficiently as a single one. 🚀  
 - **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**  
   - A small but powerful addon for *Create* that expands the functionality of **Attribute and List Filters**, allowing them to be used in more flexible contexts throughout your contraptions. Ideal for advanced automation and sorting systems where precision filtering is key.
-
+- **[Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
+  - A comprehensive integration mod that bridges **Sophisticated Storage** with **Create**, enabling full use of storage blocks and upgrades on moving contraptions. Whether on **trains, rotating platforms, flying machines**, or other Create mechanisms, your storage retains all its **advanced inventory management features** and upgrade functionality.
 ---
 ## Resource Pack Additions
 - [Create Sophisticated Backpacks](https://www.curseforge.com/minecraft/texture-packs/create-sophisticated-backpacks)
