@@ -16,7 +16,6 @@ ServerEvents.recipes(event => {
     
     const materials = [
         'lead',
-        'aluminum',
         'malachite',
         'irradium',
         'bismuth',
@@ -271,7 +270,8 @@ ServerEvents.recipes(event => {
             }
         ).id( 'forge_frontier:shaped/guano_block_1x' )      
 
-    // Methril
+    /*
+        // Methril
          // Creates New Compressed Recipes for Mithril Compressed Blocks 1x
          event.shaped(
             Item.of('forge_frontier:compressed_mithril_1x'),
@@ -312,6 +312,7 @@ ServerEvents.recipes(event => {
                 A: 'create_dd:industrial_iron_block', 
             }
         ).id( 'forge_frontier:shaped/industrial_iron_block_1x' )     
+    */
 
     // Void Steel
         // Creates New Compressed Recipes for Void Steel Compressed Blocks 1x

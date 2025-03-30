@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
-// Polished Items Seething Recipes
+/*
+    // Polished Items Seething Recipes
     const seethingRecipes = [
         {
             name: "polished_amethyst",
@@ -297,5 +298,5 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('forge_frontier:seething/crushed_zinc_pile')
-
+*/
 })

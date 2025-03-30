@@ -2,6 +2,7 @@ ServerEvents.recipes(event => {
 event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
 
 // Creates Sequenced Assembly Recipe for Mechanical Extruder
+/*
     event.custom({
       type: 'create:sequenced_assembly',
       ingredient: {
@@ -899,5 +900,5 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         },
         
       }).id('forge_frontier:extruding/sulphite')  
-
+*/
   })

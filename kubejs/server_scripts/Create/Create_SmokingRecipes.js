@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => 
     {
+        /*
         // New Smoking Recipe for Smoked Logs
         event.remove({ id: 'create_dd:mixing/smoked_log'})
         event.custom({
@@ -21,6 +22,6 @@ ServerEvents.recipes(event =>
             },
             result: 'supplementaries:ash'
         }).id( 'forge_frontier:smoking/ash' )
-
+        */
     }
 )

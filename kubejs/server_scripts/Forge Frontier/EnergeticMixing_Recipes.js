@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => 
     {
+        /*
         // Remove Recipes
         event.remove({ id: 'forgefrontier:test_recipe'})
         event.remove({ id: 'create:mixing/compat/ae2/fluix_crystal'})
@@ -241,5 +242,6 @@ ServerEvents.recipes(event =>
                 results: recipe.results
             }).id(`forge_frontier:energetic_mixing/${recipe.id}`);
         });
+        */
     }
 )

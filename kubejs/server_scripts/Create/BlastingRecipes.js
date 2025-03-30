@@ -79,6 +79,7 @@ ServerEvents.recipes(event => {
         }).id('forge_frontier:blasting/crushed_ostrum_pile')
 
         // Crushed Tin Pile
+        /*
         event.custom({
             type: "minecraft:smelting",
             cookingtime: 200,
@@ -88,6 +89,7 @@ ServerEvents.recipes(event => {
             },
             result: 'create_dd:tin_block'
         }).id('forge_frontier:blasting/crushed_tin_pile')
+        */
 
         // Crushed Uranium Pile
         event.custom({

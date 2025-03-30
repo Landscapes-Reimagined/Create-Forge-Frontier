@@ -207,7 +207,8 @@ ServerEvents.recipes(event => {
 		]
 	  }).id('forge_frontier:item_application/advanced_collector');
 
-	// Creates New Hyperbox Recipe
+	/*
+	  // Creates New Hyperbox Recipe
 	event.custom({
 		type: 'create:item_application',
 		ingredients: [
@@ -224,7 +225,7 @@ ServerEvents.recipes(event => {
 		  }
 		]
 	  }).id('forge_frontier:item_application/hyperbox');
-
+	  */
 
 	// Strophar Mushroom to Quantum Fluid Mixing Recipe
 	event.custom({
@@ -390,6 +391,7 @@ ServerEvents.recipes(event => {
 		}
 	  }).id( 'forge_frontier:shapeless/nugget_coal' )
 
+	/*
 	// Adjust Coal Piece Recipe
 	event.custom({
 		type: 'minecraft:crafting_shapeless',
@@ -404,6 +406,7 @@ ServerEvents.recipes(event => {
 		  }
 
 	}).id( 'forge_frontier:shapeless/coal_piece_coal' )
+	  */
 
 	// Creates Modded Crafting Table Recipe
 	event.shapeless(
