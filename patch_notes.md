@@ -36,6 +36,14 @@ Key highlights include:
   - A small but powerful addon for *Create* that expands the functionality of **Attribute and List Filters**, allowing them to be used in more flexible contexts throughout your contraptions. Ideal for advanced automation and sorting systems where precision filtering is key.
 - **[Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
   - A comprehensive integration mod that bridges **Sophisticated Storage** with **Create**, enabling full use of storage blocks and upgrades on moving contraptions. Whether on **trains, rotating platforms, flying machines**, or other Create mechanisms, your storage retains all its **advanced inventory management features** and upgrade functionality.
+- **[Tinkers' Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)**  
+  - A renowned tool-building mod focused on **customization, progression, and creativity**, **Tinkers' Construct** lets you craft and modify tools with virtually endless combinations. Tools never break and can be upgraded, renamed, and reshaped to fit your style and needs.  
+- **[Tinkers' Integrations and Tweaks](https://www.curseforge.com/minecraft/mc-mods/tcintegrations)**  
+  - A modular add-on that provides **integration and compatibility** between *Tinkers' Construct* and other mods. It introduces tailored tweaks and enhancements to ensure a seamless experience across modded environments.
+- **[Tinkers' Delight](https://www.curseforge.com/minecraft/mc-mods/tinker-delight)**  
+  - A content-rich addon that brings **Tinkers' Construct compatibility to Farmer’s Delight**, allowing for new interactions and crafting possibilities between both mods.
+- **[Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)**  
+  - A required **core library** used by *Tinkers' Construct* and other SlimeKnights mods. It includes **shared code**, **descriptive book systems**, and **common inventory handling**—forming the backbone of the Tinkers mod ecosystem.
 ---
 
 ## ❌ **Mod Removals**  
