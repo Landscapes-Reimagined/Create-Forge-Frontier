@@ -1,6 +1,20 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "block/cube",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
   "textures": {
-    "all": "forge_frontier:block/forge_rocket/forge_rocket_casing"
-  }
+    "down": "forge_frontier:block/forge_rocket/forge_rocket_casing",
+    "up": "forge_frontier:block/forge_rocket/forge_rocket_casing",
+    "north": "forge_frontier:block/forge_rocket/forge_rocket_casing",
+    "east": "forge_frontier:block/forge_rocket/forge_rocket_casing",
+    "south": "forge_frontier:block/forge_rocket/forge_rocket_casing",
+    "west": "forge_frontier:block/forge_rocket/forge_rocket_casing",
+    "particle": "forge_frontier:block/forge_rocket/forge_rocket_casing"
+  },
+  "render_type": "solid"
 }
