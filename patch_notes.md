@@ -160,9 +160,9 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Balm**: v7.3.18 → v7.3.27  
 - **Blueprint**: v7.1.1 → v7.1.2
 - **Botany Pots**: v13.0.40 → v13.0.41  
-- **Cataclysm**: v2.57 → v2.62  
+- **Cataclysm**: v2.57 → v2.63  
 - **Cognition**: v2.3.0 → v2.3.4  
-- **Collective**: v7.93 → v7.94
+- **Collective**: v7.93 → v8.1
 - **Corpse Curios Compat**: v2.2.1 → v2.2.2  
 - **Copycat Plus**: [Temporarily Disabled]  
 - **Create**: v0.5.1 → v6.0.4  
@@ -193,23 +193,25 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
 - **Create Utilities**: v0.3.0 → v0.3.1  
 - **Disenchanting Table**: v3.1.0 → v4.0.2
+- **Easy Villagers**: v1.1.23 → v1.1.24
 - **EMI**: v1.1.20 → v1.1.21
 - **EMI Schematics**: [Temporarily Disabled]  
-- **Embeddium Plus → Chloride**: v1.2.13 → v1.5.4
+- **Embeddium Plus → Chloride**: v1.2.13 → v1.5.5
 - **Entity Culling**: v1.7.3 → v1.7.4  
 - **Every Compat**: v2.7.19 → v2.7.24  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.9  
-- **Fzzy Config**: v0.6.4 → v0.6.7
+- **Fzzy Config**: v0.6.4 → v0.6.8
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
 - **Hopo Better Ruined Portals**: v1.3.7 → v1.3.7b
 - **Hopo Better Underwater Ruins**: v1.1.5 → v1.1.5b
 - **IDAS**: v1.10.3 → 1.11.1
 - **Immersive Aircrafts**: v1.2.1 → 1.2.2  
-- **Immediately Fast**: v1.3.5 → v1.5.0  
+- **Immediately Fast**: v1.3.5 → v1.5.0
+- **Integrated API**: v1.5.2 → v1.5.3  
 - **Jade**: v11.12.3 → v11.13.1  
 - **Jade Addons**: v5.3.1 → v5.5.0  
 - **Login Protection**: v3.4 → v3.5
@@ -219,7 +221,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Not Enough Animations**: v1.9.2 → v1.9.3
 - **Octolib**: v0.4.2 → v0.5.0.1
 - **Oculus**: v1.7.0 → v1.8.0 
-- **Pipez**: v1.2.16 → v1.2.20
+- **Pipez**: v1.2.16 → v1.2.21
 - **Placebo**: v8.6.2 → v8.6.3  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
 - **Quark**: v4.0-460 → v4.0-461  
@@ -227,8 +229,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.909
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1082
+- **Sophisticated Core**: v1.2.20.894 → v1.2.22.914
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1085
 - **Sound Physics Remastered**: v1.4.8 → v1.4.10  
 - **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.6  
