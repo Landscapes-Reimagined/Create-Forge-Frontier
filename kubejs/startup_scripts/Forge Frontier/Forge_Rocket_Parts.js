@@ -24,7 +24,8 @@ StartupEvents.registry('block', event => {
     // Rocket Casing
     const casings = [
         { id: 'forge_rocket_casing', name: 'Forge Rocket Casing' },
-        { id: 'desh_rocket_casing', name: 'Desh Rocket Casing' }
+        { id: 'desh_rocket_casing', name: 'Desh Rocket Casing' },
+        { id: 'ostrum_rocket_casing', name: 'Ostrum Rocket Casing'}
     ];
 
     casings.forEach(casing => {
