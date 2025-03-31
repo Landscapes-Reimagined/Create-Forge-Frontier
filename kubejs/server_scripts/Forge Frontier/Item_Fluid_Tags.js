@@ -310,6 +310,21 @@ ServerEvents.tags('item', event => {
     // Create Casing
     event.add('create:casing', 'forge_frontier:forge_rocket_casing');
 
+    // Knife Tags
+    const knifeItems = event.get('forge:tools/knives').getObjectIds();
+
+    const additionalKnifeTags = [
+      'farmersdelight:tools/knives',
+      'farmersdelight:straw_harvesters',
+      'nethersdelight:tools/hunting_tools',
+      'sliceanddice:allowed_tools',
+      'ends_delight:dragon_loot_tools'
+    ];
+  
+    additionalKnifeTags.forEach(tag => {
+      event.add(tag, knifeItems);
+    });
+
 });
 
 ServerEvents.tags('fluid', event => {

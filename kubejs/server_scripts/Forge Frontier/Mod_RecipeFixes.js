@@ -1,5 +1,21 @@
 // Mod Recipe Fixes
 ServerEvents.recipes(event => {
+    
+    // Switches Out Ash for Gunpowder in Ash Recipe
+    event.remove({ id: 'regions_unexplored:ash'})
+    event.shaped(
+        Item.of('regions_unexplored:ash'),
+        [
+            'AA',
+            'AA'
+        ],
+        {
+            A: 'supplementaries:ash'
+        }
+    ).id( 'forge_frontier:shaped/ash')
+
+    // Removes Recipe for Broken Manual
+    event.remove({ id: 'iammusicplayer:manual'})
 
     // Removes Excess Recipes for Seed Oil
     event.remove({ id: 'createaddition:compacting/seed_oil'})
@@ -196,10 +212,6 @@ ServerEvents.recipes(event => {
       */
 
     // Removes Conflicting Recipes
-    event.remove({ id: 'quark:building/crafting/compressed/cocoa_beans_sack'})
-    event.remove({ id: 'quark:building/crafting/compressed/gunpowder_sack'})
-    event.remove({ id: 'quark:building/crafting/compressed/berry_sack'})
-    event.remove({ id: 'quark:building/crafting/compressed/glowberry_sack'})
     event.remove({ id: 'cratedelight:minecraft/crafting/wheat_flour_bag'})
     event.remove({ id: 'cratedelight:minecraft/crafting/cinder_flour_bag'})
     event.remove({ id: 'cratedelight:minecraft/crafting/powdered_obsidian_bag'})
