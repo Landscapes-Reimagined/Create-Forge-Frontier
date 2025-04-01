@@ -1,6 +1,6 @@
 {
   "type": "minecraft:ae2mtrt",
-  "biomes": ["ad_astra:glacio_snowy_barrens","ad_astra:glacio_ice_peaks"],
+  "biomes": ["ad_astra:mercury_deltas"],
   "spawn_overrides": {},
   "step": "top_layer_modification"
 }
