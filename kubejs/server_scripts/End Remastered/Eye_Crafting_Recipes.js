@@ -7,8 +7,19 @@ ServerEvents.recipes(event => {
           type: "create:mixing",
           ingredients: [
             {
-              fluid: "create_enchantment_industry:hyper_experience",
-              amount: 50
+              item: "create_enchantment_industry:hyper_experience_bottle",
+            },
+            {
+              item: "create_enchantment_industry:hyper_experience_bottle",
+            },
+            {
+              item: "create_enchantment_industry:hyper_experience_bottle",
+            },
+            {
+              item: "create_enchantment_industry:hyper_experience_bottle",
+            },
+            {
+              item: "create_enchantment_industry:hyper_experience_bottle",
             },
             {
               item: "minecraft:phantom_membrane"
@@ -92,8 +103,8 @@ ServerEvents.recipes(event => {
         ],
         key: {
           G: Ingredient.of('createcompression:compressed_gold_2x'),
-          D: Ingredient.of('createcompression:compressed_diamond_2x'),
-          E: Ingredient.of('createcompression:compressed_emerald_2x'),
+          D: Ingredient.of('minecraft:diamond_block'),
+          E: Ingredient.of('minecraft:emerald_block'),
           U: Ingredient.of('endrem:undead_soul')
         },
         result: Ingredient.of('endrem:corrupted_eye'),
@@ -169,8 +180,8 @@ ServerEvents.recipes(event => {
         ],
         key: {
           M: Ingredient.of('create_compressed:mechanism_block'),
-          B: Ingredient.of('createcompression:compressed_brass_2x'),
-          m: Ingredient.of('create_dd:mithril_block'),
+          B: Ingredient.of('create:brass_block'),
+          m: Ingredient.of('create_dd:mithril_ingot'),
           U: Ingredient.of('endrem:undead_soul'),
         },
         result: Ingredient.of('endrem:rogue_eye'),
@@ -206,7 +217,7 @@ ServerEvents.recipes(event => {
           'EUE'
         ],
         key: {
-          E: Ingredient.of('createcompression:compressed_emerald_2x'),
+          E: Ingredient.of('minecraft:emerald_block'),
           H: Ingredient.of('artifacts:villager_hat'),
           V: Ingredient.of('betterarcheology:vase_green'),
           F: Ingredient.of('betterarcheology:villager_fossil_head'),
@@ -242,16 +253,16 @@ ServerEvents.recipes(event => {
           item: "minecraft:totem_of_undying"
         },
         requirements: {
-          eterna: 40,
-          quanta: 80,
-          arcana: 80,
-          rectifaction: 40
+          eterna: 20,
+          quanta: 30,
+          arcana: 10,
+          rectifaction: 0
         },
         "max_requirements": {
           eterna: -1,
-          quanta: 100,
-          arcana: 85,
-          rectifaction: 60
+          quanta: -1,
+          arcana: -1,
+          rectifaction: 0
         },
         result: {
           item: "endrem:magical_eye",
@@ -272,7 +283,7 @@ ServerEvents.recipes(event => {
           N: Ingredient.of('cagedmobs:star_infused_netherite_nugget'),
           U: Ingredient.of('endrem:undead_soul'),
           W: Ingredient.of('minecraft:wither_skeleton_skull'),
-          S: Ingredient.of('createcompression:compressed_soul_sand_3x'),
+          S: Ingredient.of('minecraft:soul_sand'),
         },
         result: Ingredient.of('endrem:wither_eye'),
         acceptMirrored: false
@@ -360,18 +371,17 @@ ServerEvents.recipes(event => {
         type: "apotheosis:enchanting",
         input: {
           item: "minecraft:ender_eye"
-        },
-        requirements: {
-          eterna: 40,
-          quanta: 90,
-          arcana: 75,
-          rectifaction: 30
+        },requirements: {
+          eterna: 20,
+          quanta: 30,
+          arcana: 10,
+          rectifaction: 0
         },
         "max_requirements": {
           eterna: -1,
-          quanta: 100,
-          arcana: 80,
-          rectifaction: 50
+          quanta: -1,
+          arcana: -1,
+          rectifaction: 0
         },
         result: {
           item: "endrem:cryptic_eye",
