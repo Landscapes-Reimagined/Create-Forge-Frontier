@@ -1,6 +1,67 @@
 // Ad Astra Rocket Recipe Tweaks
 ServerEvents.recipes(event => {
 
+    // Rocket Casing Recipes
+    const casingRecipes = [
+        {
+            id: 'steel_rocket_casing',
+            ingredients: [
+                { tag: 'forge_frontier:netherite_casing_application' },
+                { tag: 'ad_astra:steel_ingots' }
+            ]
+        },
+        {
+            id: 'desh_rocket_casing',
+            ingredients: [
+                { item: 'forge_frontier:steel_rocket_casing' },
+                { item: 'ad_astra:desh_ingot' }
+            ]
+        },
+        {
+            id: 'ostrum_rocket_casing',
+            ingredients: [
+                { item: 'forge_frontier:desh_rocket_casing' },
+                { item: 'ad_astra:ostrum_ingot' }
+            ]
+        },
+        {
+            id: 'calorite_rocket_casing',
+            ingredients: [
+                { item: 'forge_frontier:ostrum_rocket_casing' },
+                { item: 'ad_astra:calorite_ingot' }
+            ]
+        },
+        {
+            id: 'malachite_rocket_casing',
+            ingredients: [
+                { item: 'forge_frontier:calorite_rocket_casing' },
+                { item: 'enlightened_end:malachite' }
+            ]
+        },
+        {
+            id: 'primal_magma_rocket_casing',
+            ingredients: [
+                { item: 'forge_frontier:malachite_rocket_casing' },
+                { item: 'alexscaves:primal_magma' }
+            ]
+        },
+        {
+            id: 'forge_rocket_casing',
+            ingredients: [
+                { item: 'forge_frontier:primal_magma_rocket_casing' },
+                { item: 'forge_frontier:forge_alloy' }
+            ]
+        }
+    ];
+
+    casingRecipes.forEach(recipe => {
+        event.custom({
+            type: 'create:item_application',
+            ingredients: recipe.ingredients,
+            results: [{ item: `forge_frontier:${recipe.id}` }]
+        }).id(`forge_frontier:item_application/${recipe.id}`);
+    });
+
     // Tier 1 Rocket
 
     event.remove({ id: "ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench"})
@@ -18,7 +79,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
-            S: Ingredient.of("#c:steel_blocks"),
+            S: Ingredient.of("forge_frontier:steel_rocket_casing"),
             D: Ingredient.of("ad_astra:steel_door"),
             B: Ingredient.of("create:display_board"),
             P: Ingredient.of("create:precision_mechanism"),
@@ -48,7 +109,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
-            D: Ingredient.of("ad_astra:desh_block"),
+            D: Ingredient.of("forge_frontier:desh_rocket_casing"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra:tier_1_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
@@ -77,7 +138,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
-            O: Ingredient.of("ad_astra:ostrum_block"),
+            O: Ingredient.of("forge_frontier:ostrum_rocket_casing"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra:tier_2_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
@@ -106,7 +167,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
-            C: Ingredient.of("ad_astra:calorite_block"),
+            C: Ingredient.of("forge_frontier:calorite_rocket_casing"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra:tier_3_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
@@ -135,7 +196,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
-            M: Ingredient.of("enlightened_end:malachite_block"),
+            M: Ingredient.of("forge_frontier:malachite_rocket_casing"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra:tier_4_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
@@ -164,7 +225,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             N: Ingredient.of("ad_astra:rocket_nose_cone"),
-            M: Ingredient.of("alexscaves:primal_magma"),
+            M: Ingredient.of("forge_frontier:primal_magma_rocket_casing"),
             d: Ingredient.of("ad_astra:steel_door"),
             R: Ingredient.of("ad_astra_rocketed:tier_5_rocket"),
             F: Ingredient.of("ad_astra:rocket_fin"),
@@ -524,21 +585,5 @@ ServerEvents.recipes(event => {
             acceptMirrored: false
         }).id("forge_frontier:mechanical_crafting/forge_alloy");
 
-        // Rocket Casing
-        event.custom({
-            type: 'create:item_application',
-            ingredients: [
-              {
-                tag: 'minecraft:logs'
-              },
-              {
-                item: 'forge_frontier:forge_alloy'
-              }
-            ],
-            results: [
-              {
-                item: 'forge_frontier:forge_rocket_casing'
-              }
-            ]
-          }).id('forge_frontier:item_application/rocket_casing');
+
 })
