@@ -83,7 +83,7 @@ ServerEvents.tags('block', event => {
         '#chipped:soul_lantern',
         '#ad_astra:globes',
         '#ad_astra:sliding_doors',
-        'forge_frontier:forge_rocket_casing',
+        '#create:casing',
         'create_new_age:magnetite_block',
         'create_new_age:redstone_magnet',
         'create_new_age:layered_magnet',
@@ -92,7 +92,15 @@ ServerEvents.tags('block', event => {
     ]);
 
 // Create Casing Tag
-event.add('create:casing','forge_frontier:forge_rocket_casing')
+event.add("create:casing", [
+    "forge_frontier:forge_rocket_casing",
+    "forge_frontier:steel_rocket_casing",
+    "forge_frontier:desh_rocket_casing",
+    "forge_frontier:ostrum_rocket_casing",
+    "forge_frontier:calorite_rocket_casing",
+    "forge_frontier:primal_magma_rocket_casing",
+    "forge_frontier:malachite_rocket_casing",
+]);
 
 // Adds Fan Processing Catalysts
 event.add('create_dd:fan_processing_catalysts_freezing', 'create_connected:fan_freezing_catalyst')

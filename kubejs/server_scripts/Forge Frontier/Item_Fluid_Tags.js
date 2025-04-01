@@ -39,6 +39,7 @@ ServerEvents.tags("item", event => {
         "regions_unexplored:stripped_cobalt_wood"
     ])
 
+
     // MCTB Revertable Workbench
     event.add("mctb:revertable_workbench","minecraft:crafting_table")
 
@@ -311,7 +312,15 @@ ServerEvents.tags("item", event => {
     ]);
 
     // Create Casing
-    event.add("create:casing", "forge_frontier:forge_rocket_casing");
+    event.add("create:casing", [
+        "forge_frontier:forge_rocket_casing",
+        "forge_frontier:steel_rocket_casing",
+        "forge_frontier:desh_rocket_casing",
+        "forge_frontier:ostrum_rocket_casing",
+        "forge_frontier:calorite_rocket_casing",
+        "forge_frontier:primal_magma_rocket_casing",
+        "forge_frontier:malachite_rocket_casing",
+    ]);
 
     // Knife Tags
     const knifeItems = event.get("forge:tools/knives").getObjectIds();
