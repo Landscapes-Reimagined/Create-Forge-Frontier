@@ -1,17 +1,6 @@
 ServerEvents.recipes(event => {
 
     // Ore Blasting Recipes
-        // Crushed Lead Pile
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_lead_pile'
-            },
-            result: 'createnuclear:lead_block'
-        }).id('forge_frontier:blasting/crushed_lead_pile')        
-
         // Crushed Bismuth Pile
         event.custom({
             type: "minecraft:smelting",
@@ -77,41 +66,6 @@ ServerEvents.recipes(event => {
             },
             result: 'ad_astra:ostrum_block'
         }).id('forge_frontier:blasting/crushed_ostrum_pile')
-
-        // Crushed Tin Pile
-        /*
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_tin_pile'
-            },
-            result: 'create_dd:tin_block'
-        }).id('forge_frontier:blasting/crushed_tin_pile')
-        */
-
-        // Crushed Uranium Pile
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_uranium_pile'
-            },
-            result: 'alexscaves:block_of_uranium'
-        }).id('forge_frontier:blasting/crushed_uranium_pile')
-
-        // Crushed Uranium Pile
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'create:crushed_raw_uranium'
-            },
-            result: 'alexscaves:uranium'
-        }).id('forge_frontier:blasting/crushed_raw_uranium')
 
         // Crushed Iron Pile
         event.custom({
