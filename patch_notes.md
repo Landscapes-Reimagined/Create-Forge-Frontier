@@ -46,6 +46,8 @@ Key highlights include:
   - A required **core library** used by *Tinkers' Construct* and other SlimeKnights mods. It includes **shared code**, **descriptive book systems**, and **common inventory handling**—forming the backbone of the Tinkers mod ecosystem.
 - **[Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco)**
   - Create Deco is the best mod around for taking your industrial, urban, or steampunk builds to the next level. With everything from catwalks to cage lamps and shipping containers to sheet metal, Create Deco integrates flawlessly with the existing selection of building blocks in Create.
+- **[Create Ultimine](https://www.curseforge.com/minecraft/mc-mods/create-ultimine)**
+  - Create Ultimine is a Quality of Life mod that supports Create interactions with FTB Ultimine.
 ---
 
 ## ❌ **Mod Removals**  
