@@ -6,7 +6,7 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "tfmg:block/lead_block"
+        "all": "createnuclear:block/lead_block"
       },
       "transform": {
         "origin": "center",
@@ -17,11 +17,11 @@
       "parent": "block/cube_all",
       "render_type": "minecraft:translucent",
       "textures": {
-        "all": "createcompression:block/layer_1"
+        "all": "createcompression:block/layer_7"
       }
     }
   },
   "textures": {
-    "particle": "tfmg:block/lead_block"
+    "particle": "createnuclear:block/lead_block"
   }
 }
