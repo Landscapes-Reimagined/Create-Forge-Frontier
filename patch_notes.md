@@ -131,6 +131,8 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Created Custom Resources for Apotheosis Warden Tendril, and Silents Delight Warden ear so it have its own unique textures
 - Reworked Resources for Forge Rocket Casing, its now a connected texture block
 - Created New Rocket Casing Tiers for Ad Astra Rocket Recipes
+- Switched Compressed Lead Assets from TFMG to Create Nuclear
+- Fixed Asset Location for Custom Compressed Blocks
 ### Data
 - Adjusted Azaelea Botany Pot recipes to give Azelea logs instead of oak logs
 - Adjusted Molten Vent Spawn rate for Space vents to be more rare, and vanilla resource vents to be more common
@@ -139,6 +141,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Removed Crushed Unused crushed Redstone
 - Added New End Remastered Items
 - Added New Incomplete Processing Items
+- Commeted out Dreams and Desires Blocks until mod is complete
 ### Server Scripts
 - Removed Excess Seed Oil Recipes
 - Added New Seed Oil Tag to allow usage in the Mechanical Chicken
@@ -149,6 +152,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Adjusted Regions Unexplored Ash Recipe to use Supplementaries Ash instead of Gunpowder
 - Added new Rocket Tier Casing, and adjusted Ad Astra Rocket Recipes to use new casing
 - Lowered the Difficulty of a few End Remastered Eyes to be more fair
+- Commeted out Dreams and Desires Shaped Block Recipes until mod is complete
 ---
 
 ## ⚙️ **Configuration & UI Updates** 
