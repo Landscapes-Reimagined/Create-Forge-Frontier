@@ -10,75 +10,75 @@ Key highlights include:
 
 > **🚨 Reminder:** Before updating, we highly recommend **backing up your world** to preserve your progress.  
 ---
-## 🆕 **Mod Additions**  
+## 🆕 **Mod Additions**
 - **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**  
-  - A modular and evolving **library mod** designed to **centralize and streamline** core tools used across multiple mod projects. Built with **Architectury API** as a foundation, CarrasconLib leverages its robust feature set to ensure consistency and cross-compatibility. While future reworks may be considered, the current implementation offers reliable functionality and efficient development integration.
+  A modular **library mod** built on Architectury API, used to streamline development and ensure mod compatibility.
 - **[CapeJS](https://www.curseforge.com/minecraft/mc-mods/capejs)**  
-  - **CapeJS** is a lightweight utility mod that allows **custom capes** to be assigned to specific players via **KubeJS client scripts**. Designed with modpack creators in mind, it enables capes to be granted to **developers, completionists, contributors, or friends** with ease. Capes not only display on the player model but also replace the **elytra texture** for added visual flair.
+  Lightweight mod that allows **custom capes** via KubeJS scripts. Also replaces the **elytra texture** for added flair.
 - **[Create: Curios Backtank](https://www.curseforge.com/minecraft/mc-mods/create-curios-backtank)**  
-  - A simple yet effective addon that allows the **Create Backtank** to be equipped in a **Curios slot**, freeing up inventory space while maintaining full functionality. Perfect for automation-focused adventurers seeking better equipment integration.
-- **[Create: Fuel & Water Information](https://www.curseforge.com/minecraft/mc-mods/create-fuel-and-water-information)**  
-  - Enhances your HUD with **real-time fuel and water levels**, providing crucial information for **Create-based automation and fluid systems**.
+  Lets players equip the **Backtank** in a **Curios slot**, saving inventory space while keeping full functionality.
+- **[Create: Fuel & Water Info](https://www.curseforge.com/minecraft/mc-mods/create-fuel-and-water-information)**  
+  Adds a HUD overlay showing **real-time fuel and water levels** for Create automation.
 - **[Create Mechanical Chicken](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-chicken)**  
-  - A quirky and creative addon for *Create* that enables **egg generation** using **rotation and fluids**. Bring your chicken farms into the mechanical age with this fun, functional addition to your contraptions! 🐔⚙️  
+  A fun addon that uses **rotation and fluids** to generate eggs. 🐔⚙️
 - **[Create Nuclear](https://www.curseforge.com/minecraft/mc-mods/createnuclear)**  
-  - Introduces an expansive **nuclear energy system** into *Create*, allowing players to construct **high-efficiency reactors** capable of generating over **two million SU**.  
+  Adds high-tier **nuclear reactors** for generating over **2 million SU** in Create.
 - **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
-  - Expands **Minecraft’s music capabilities** with a variety of **pipe organ stops**, adding depth and immersion to in-game compositions.
+  Adds immersive **pipe organ stops** to enhance musical contraptions.
 - **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)**  
-  - A powerful **vein mining tool** that allows players to efficiently harvest multiple blocks at once. Simply hold the **configured key** (set in Minecraft’s control settings) to activate **Ultimine**. Gathered items will automatically collect **beneath your feet**, eliminating the need to chase after drops!
-- **[Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation)**
-  - Modern World Creation enhances the **Vanilla Create World screen** with a sleek, modern interface. It features smooth hover animations for game mode selection and is fully keyboard navigable using the arrow and tab keys, ensuring improved accessibility and ease of use.
+  A vein-mining tool. Hold a key to mine multiple blocks—items drop beneath your feet.
+- **[Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation)**  
+  Replaces the vanilla world creation screen with a **modern interface** featuring smooth animations and full keyboard navigation.
 - **[Vanillin](https://www.curseforge.com/minecraft/mc-mods/vanillin)**  
-  - A **performance optimization mod** that leverages **instanced rendering** for entities and block entities using *Flywheel*. By offloading rendering tasks to *Flywheel*, **Vanillin** significantly enhances **frame rates** and reduces performance impact, ensuring that even **thousands of entities** render as efficiently as a single one. 🚀  
+  A **performance mod** that uses Flywheel to **instanced render** entities and block entities—massive FPS boost.
 - **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**  
-  - A small but powerful addon for *Create* that expands the functionality of **Attribute and List Filters**, allowing them to be used in more flexible contexts throughout your contraptions. Ideal for advanced automation and sorting systems where precision filtering is key.
-- **[Sophisticated Storage Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
-  - A comprehensive integration mod that bridges **Sophisticated Storage** with **Create**, enabling full use of storage blocks and upgrades on moving contraptions. Whether on **trains, rotating platforms, flying machines**, or other Create mechanisms, your storage retains all its **advanced inventory management features** and upgrade functionality.
+  Expands the use of **Attribute and List Filters** throughout Create contraptions.
+- **[Sophisticated Storage - Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
+  Enables full Create support for **Sophisticated Storage blocks**—including trains, platforms, and flying machines.
 - **[Tinkers' Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)**  
-  - A renowned tool-building mod focused on **customization, progression, and creativity**, **Tinkers' Construct** lets you craft and modify tools with virtually endless combinations. Tools never break and can be upgraded, renamed, and reshaped to fit your style and needs.  
+  Build fully customizable, **unbreakable tools** with infinite upgrades and modifications.
 - **[Tinkers' Integrations and Tweaks](https://www.curseforge.com/minecraft/mc-mods/tcintegrations)**  
-  - A modular add-on that provides **integration and compatibility** between *Tinkers' Construct* and other mods. It introduces tailored tweaks and enhancements to ensure a seamless experience across modded environments.
+  Adds **compatibility features** and quality-of-life tweaks for Tinkers across other mods.
 - **[Tinkers' Delight](https://www.curseforge.com/minecraft/mc-mods/tinker-delight)**  
-  - A content-rich addon that brings **Tinkers' Construct compatibility to Farmer’s Delight**, allowing for new interactions and crafting possibilities between both mods.
+  Integrates **Tinkers’ Construct** with **Farmer’s Delight** for cross-mod crafting.
 - **[Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)**  
-  - A required **core library** used by *Tinkers' Construct* and other SlimeKnights mods. It includes **shared code**, **descriptive book systems**, and **common inventory handling**—forming the backbone of the Tinkers mod ecosystem.
-- **[Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco)**
-  - Create Deco is the best mod around for taking your industrial, urban, or steampunk builds to the next level. With everything from catwalks to cage lamps and shipping containers to sheet metal, Create Deco integrates flawlessly with the existing selection of building blocks in Create.
-- **[Create Ultimine](https://www.curseforge.com/minecraft/mc-mods/create-ultimine)**
-  - Create Ultimine is a Quality of Life mod that supports Create interactions with FTB Ultimine.
+  A required **core library** for Tinkers, includes shared inventories and systems.
+- **[Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco)**  
+  Adds stylish **industrial and steampunk-themed blocks** like catwalks, cages, and containers.
+- **[Create Ultimine](https://www.curseforge.com/minecraft/mc-mods/create-ultimine)**  
+  Adds **FTB Ultimine compatibility** to Create for seamless mining automation.
 ---
 
-## ❌ **Mod Removals**  
-### **Incompatibility & Redundancy**  
-- **Bobber Detector** – Incompatible with *Create v6.0* and deemed non-essential to the modpack.  
-- **Create: Crystal Clear** – No longer functional in *Create v6.0*, **rarely updated**, and unnecessary for the pack.  
-- **Create: Deepslate Processing** – Broken in *Create v6.0* and **infrequently maintained**, making it redundant.  
-- **Create: Dynamic Light** – Incompatible with *Create v6.0* and **not actively updated**. 
-- **Create: The Factory Must Grow**: Too technical for the pack. 
-- **Create: Halitosis** – No longer functional in *Create v6.0* and can be **recreated using KubeJS**.  
-- **Wooder Wheels** – Now included **natively in Create**, eliminating the need for a separate mod.  
-- **Tom's Simple Storage** – **Conflicts with Create 6.0 mechanics** and its removal results in a **performance boost**.  
-- **Create Contraption Terminals** – Removed alongside **Tom’s Simple Storage**, as it is no longer necessary.  
-- **3D Skin Layers** – Removed due to **broken textures** and **lack of ongoing support**. 
-- **Acedium** - Removed due to incompatibility with Flywheel 1.0
-- **GeckoLib Iris Compat** - Now included in Geckolib, eliminating the need for a seperate mod
-- **Neruina** - Incompatibile with multiple mods, causing more harm than good.
-- **Oculus Flywheel Compat** - Removed due to incompatibility with Flywheel 1.0, will be added back if it becomes compatible again
-- **Create Design n' Decor** - Incompatible with Create 6.0, and not longer recieving updated for 1.20.1
-- **Guard Villagers** - Increases performance, due to large amount guards that spawn per village structure
-
+## ❌ Mod Removals
+### 🔄 Incompatible with Create v6.0  
+These mods are no longer compatible with the latest version of Create and have been removed to ensure stability:
+- **Bobber Detector** – Incompatible and non-essential.  
+- **Create: Crystal Clear** – Broken in v6.0; rarely updated.  
+- **Create: Deepslate Processing** – Broken and infrequently maintained.  
+- **Create: Dynamic Light** – Not actively updated or compatible.  
+- **Create Design n' Decor** – No longer updated for 1.20.1.  
+- **Create: Halitosis** – Functionality now handled via KubeJS.  
+### 🛠 Replaced or Redundant  
+These mods were removed because their functionality is now native to other mods or no longer necessary:
+- **Wooder Wheels** – Now included natively in Create.  
+- **Create Contraption Terminals** – Redundant after removal of Tom’s Simple Storage.  
+- **Tom's Simple Storage** – Conflicts with Create mechanics; removed for performance.  
+- **GeckoLib Iris Compat** – Merged into GeckoLib.  
+### 🧪 Experimental, Too Complex, or Poor Fit  
+Removed due to being overly technical or not aligned with pack design goals:
+- **Create: The Factory Must Grow** – Too complex and technical for intended gameplay experience.  
+- **Guard Villagers** – Removed to reduce excessive entity spawning and improve performance.  
+### ⚠️ Incompatible with Flywheel 1.0  
+These mods conflicted with the new Flywheel update:
+- **Acedium**, **Oculus Flywheel Compat** – Will be re-added if compatibility returns.  
+- **Neruina** – Broad incompatibility with other mods.
+### 🧱 Broken or Unmaintained  
+Removed due to stability issues or discontinued support:
+- **3D Skin Layers** – Caused visual issues; no longer supported.
 ### **Non-Essential Library Mods**  
 The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
-- **Kambrik**  
-- **LibX**  
-- **Lithostitched**  
-- **Necrononicon**  
-- **ObsidianUI**  
-- **Poly Lib**  
-- **Load My Resources**  
-- **JCPlugin**  
-
+- **Kambrik**, **LibX**, **Lithostitched**, **Necrononicon**, **ObsidianUI**, **Poly Lib**, **Load My Resources**, **JCPlugin**  
+---
 ### **Why These Changes?**  
 By removing **incompatible, redundant, and non-essential** mods, we are improving **performance, stability, and overall compatibility** with *Create v6.0*. These adjustments ensure a **smoother and more efficient gameplay experience** for all players.
 
