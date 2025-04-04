@@ -10,7 +10,7 @@ Key highlights include:
 
 > **🚨 Reminder:** Before updating, we highly recommend **backing up your world** to preserve your progress.  
 ---
-
+## **[Mod Updates](https://github.com/M0nkeyPr0grammer/Create-Forge-Frontier/blob/75e12c99b0137584d7c06875adeaff4d55d994bc/patch_notes.md)**
 ## 🆕 **Mod Additions**  
 - **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**  
   - A modular and evolving **library mod** designed to **centralize and streamline** core tools used across multiple mod projects. Built with **Architectury API** as a foundation, CarrasconLib leverages its robust feature set to ensure consistency and cross-compatibility. While future reworks may be considered, the current implementation offers reliable functionality and efficient development integration.
