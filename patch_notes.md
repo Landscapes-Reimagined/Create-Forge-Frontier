@@ -47,6 +47,8 @@ Key highlights include:
   Adds stylish **industrial and steampunk-themed blocks** like catwalks, cages, and containers.
 - **[Create Ultimine](https://www.curseforge.com/minecraft/mc-mods/create-ultimine)**  
   Adds **FTB Ultimine compatibility** to Create for seamless mining automation.
+- **[Angel Ring 3](https://legacy.curseforge.com/minecraft/mc-mods/angel-ring)**
+  Grants creative-mode-style flight for easier building and exploration. A must-have utility for enhanced mobility.
 ---
 
 ## ❌ Mod Removals
@@ -56,7 +58,8 @@ Key highlights include:
 - **Create: Deepslate Processing** – Broken and infrequently maintained.  
 - **Create: Dynamic Light** – Not actively updated or compatible.  
 - **Create Design n' Decor** – No longer updated for 1.20.1.  
-- **Create: Halitosis** – Functionality now handled via KubeJS.  
+- **Create: Halitosis** – Functionality now handled via KubeJS.
+- **Create: Balanced Flight** - Broken in v6.0; rarely updated.
 ### 🛠 Replaced or Redundant
 - **Wooder Wheels** – Now included natively in Create.  
 - **Create Contraption Terminals** – Redundant after removal of Tom’s Simple Storage.  
