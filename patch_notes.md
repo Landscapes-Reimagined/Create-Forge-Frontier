@@ -50,30 +50,25 @@ Key highlights include:
 ---
 
 ## ❌ Mod Removals
-### 🔄 Incompatible with Create v6.0  
-These mods are no longer compatible with the latest version of Create and have been removed to ensure stability:
+### 🔄 Incompatible with Create v6.0
 - **Bobber Detector** – Incompatible and non-essential.  
 - **Create: Crystal Clear** – Broken in v6.0; rarely updated.  
 - **Create: Deepslate Processing** – Broken and infrequently maintained.  
 - **Create: Dynamic Light** – Not actively updated or compatible.  
 - **Create Design n' Decor** – No longer updated for 1.20.1.  
 - **Create: Halitosis** – Functionality now handled via KubeJS.  
-### 🛠 Replaced or Redundant  
-These mods were removed because their functionality is now native to other mods or no longer necessary:
+### 🛠 Replaced or Redundant
 - **Wooder Wheels** – Now included natively in Create.  
 - **Create Contraption Terminals** – Redundant after removal of Tom’s Simple Storage.  
 - **Tom's Simple Storage** – Conflicts with Create mechanics; removed for performance.  
 - **GeckoLib Iris Compat** – Merged into GeckoLib.  
-### 🧪 Experimental, Too Complex, or Poor Fit  
-Removed due to being overly technical or not aligned with pack design goals:
+### 🧪 Experimental, Too Complex, or Poor Fit
 - **Create: The Factory Must Grow** – Too complex and technical for intended gameplay experience.  
 - **Guard Villagers** – Removed to reduce excessive entity spawning and improve performance.  
-### ⚠️ Incompatible with Flywheel 1.0  
-These mods conflicted with the new Flywheel update:
+### ⚠️ Incompatible with Flywheel 1.0
 - **Acedium**, **Oculus Flywheel Compat** – Will be re-added if compatibility returns.  
 - **Neruina** – Broad incompatibility with other mods.
-### 🧱 Broken or Unmaintained  
-Removed due to stability issues or discontinued support:
+### 🧱 Broken or Unmaintained 
 - **3D Skin Layers** – Caused visual issues; no longer supported.
 ### **Non-Essential Library Mods**  
 The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
