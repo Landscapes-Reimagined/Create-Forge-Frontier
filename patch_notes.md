@@ -48,7 +48,11 @@ Key highlights include:
 - **[Create Ultimine](https://www.curseforge.com/minecraft/mc-mods/create-ultimine)**  
   Adds **FTB Ultimine compatibility** to Create for seamless mining automation.
 - **[Angel Ring 3](https://legacy.curseforge.com/minecraft/mc-mods/angel-ring)**
-  Grants creative-mode-style flight for easier building and exploration. A must-have utility for enhanced mobility.
+  Grants **creative-mode-style flight** for easier building and exploration. A must-have utility for enhanced mobility.
+- **[Sodium/Embeddium Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged)**
+  An unofficial multiloader port of **LambDynamicLights** that integrates with Sodium and Embeddium, which brings in dynamic lighting.
+- **[Sodium/Embeddium Options API](https://www.curseforge.com/minecraft/mc-mods/sodium-options-api)**
+  This mod adds cross-platform events for adding **Sodium/Embeddium options** menu integration.
 ---
 
 ## ❌ Mod Removals
