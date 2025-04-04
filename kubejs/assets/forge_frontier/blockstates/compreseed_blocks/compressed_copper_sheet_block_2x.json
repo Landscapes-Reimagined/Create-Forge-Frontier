@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/compressed_blocks/compressed_copper_sheet_block_2x"
+    }
+  }
+}

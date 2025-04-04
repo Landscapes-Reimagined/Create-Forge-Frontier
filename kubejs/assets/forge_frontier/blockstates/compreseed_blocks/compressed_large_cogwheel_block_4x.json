@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/compressed_blocks/compressed_large_cogwheel_block_4x"
+    }
+  }
+}

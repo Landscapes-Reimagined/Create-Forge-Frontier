@@ -1,0 +1,27 @@
+{
+  "parent": "block/block",
+  "loader": "forge:composite",
+  "children": {
+    "solid": {
+      "parent": "block/cube_all",
+      "render_type": "minecraft:solid",
+      "textures": {
+        "all": "create_compressed:block/gold_sheet_block"
+      },
+      "transform": {
+        "origin": "center",
+        "scale": 1
+      }
+    },
+    "translucent": {
+      "parent": "block/cube_all",
+      "render_type": "minecraft:translucent",
+      "textures": {
+        "all": "createcompression:block/layer_7"
+      }
+    }
+  },
+  "textures": {
+    "particle": "create_compressed:block/gold_sheet_block"
+  }
+}

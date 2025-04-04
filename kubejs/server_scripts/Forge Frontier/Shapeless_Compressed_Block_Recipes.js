@@ -39,7 +39,25 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        'star_infused_netherite'
+        'star_infused_netherite',
+        // New Compressed Create Blocks
+        'cogwheel_block',
+        'large_cogwheel_block',
+        'belt_block',
+        'shaft_bundle',
+        'mechanism_block',
+        'rose_quartz_crystal_block',
+        'rose_quartz_polished_block',
+        'copper_sheet_block',
+        'iron_sheet_block',
+        'golden_sheet_block',
+        'brass_sheet_block',
+        'sturdy_sheet_block',
+        'pulp_block',
+        'wheat_flour_pile',
+        'dough_block',
+        'cinder_flour_pile',
+        'powdered_obsidian_pile',
     ];
     
     materials.forEach(material => {
@@ -47,6 +65,244 @@ ServerEvents.recipes(event => {
             createCompressedBlockShapelessRecipe(event, material, i);
         }
     });
+
+    // Cogwheel Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_cogwheel_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:cogwheel_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_cogwheel_block_block_1x')
+
+    // Large Cogwheel Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_large_cogwheel_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:large_cogwheel_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_large_cogwheel_block_block_1x')
+
+    // Belt Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_belt_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:belt_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_belt_block_block_1x')
+
+    // Shaft Bundle
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_shaft_bundle_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:shaft_bundle',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_shaft_bundle_block_1x')
+
+    // Mechanism Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_mechanism_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:mechanism_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_mechanism_block_block_1x')
+
+    // Rose Quartz Crystal Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_rose_quartz_crystal_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:rose_quartz_crystal_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_rose_quartz_crystal_block_block_1x')
+
+    // Rose Quartz Polished Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_rose_quartz_polished_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:rose_quartz_polished_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_rose_quartz_polished_block_block_1x')
+
+    // Copper Sheet Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_copper_sheet_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:copper_sheet_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_copper_sheet_block_block_1x')
+
+    // Iron Sheet Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_iron_sheet_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:iron_sheet_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_iron_sheet_block_block_1x')
+
+    // Golden Sheet Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_golden_sheet_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:gold_sheet_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_golden_sheet_block_block_1x')
+
+    // Brass Sheet Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_brass_sheet_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:brass_sheet_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_brass_sheet_block_block_1x')
+
+    // Sturdy Sheet Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_sturdy_sheet_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:sturdy_sheet_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_sturdy_sheet_block_block_1x')
+
+    // Pulp Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_pulp_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:pulp_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_pulp_block_block_1x')
+
+    // Wheat Flour Pile
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_wheat_flour_pile_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:wheat_flour_pile',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_wheat_flour_pile_block_1x')
+
+    // Dough Block
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_dough_block_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:dough_block',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_dough_block_block_1x')
+
+    // Cinder Flour Pile
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_cinder_flour_pile_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:cinder_flour_pile',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_cinder_flour_pile_block_1x')
+
+    // Powdered Obsidian Pile
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_powdered_obsidian_pile_1x'
+            }
+        ],
+        result: {
+            item: 'create_compressed:powdered_obsidian_pile',
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_powdered_obsidian_pile_block_1x')    
 
     // Lead
     event.custom({

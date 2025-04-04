@@ -38,7 +38,25 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        'star_infused_netherite'
+        'star_infused_netherite',
+        // New Compressed Create Blocks
+        'cogwheel_block',
+        'large_cogwheel_block',
+        'belt_block',
+        'shaft_bundle',
+        'mechanism_block',
+        'rose_quartz_crystal_block',
+        'rose_quartz_polished_block',
+        'copper_sheet_block',
+        'iron_sheet_block',
+        'golden_sheet_block',
+        'brass_sheet_block',
+        'sturdy_sheet_block',
+        'pulp_block',
+        'wheat_flour_pile',
+        'dough_block',
+        'cinder_flour_pile',
+        'powdered_obsidian_pile',
         ];
     
     materials.forEach(material => {
