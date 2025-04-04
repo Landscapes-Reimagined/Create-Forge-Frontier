@@ -109,53 +109,67 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Made all incomplete quest pages invisible to make quests less overwhelming
 ---
 
-## ⚙️ **KubeJS Updates**
-### Assets
-- Created Custom AE and Addon Resources
-- Created Custom New Age Resources
-- Created Custom Lootr Resources
-- Created Custom Easy Villager Resources
-- Created Custom Easy Piglin Resources
-- Reworked Forge Frontier Resource Stones, Crushed Resource Stones, and Crushed Pile Textures
-- Reworked Custom Molten Vents to match new Resource Stone Textures
-- Reworked all Custom Item models,textures, and names, linked to End Remastered
-- Reworked Custom Overcharged Items and Blocks to match new New Age Textures
-- Created Custom Sophisticated Storage Resources
-- Created Custom Advanced AE Resources
-- Created Custom Applied Flux Resources
-- Created Custom Incomplete Items for Sequenced Assembly Recipes for Advanced AE and Applied Flux
-- Reworked Texture for custom trophy
-- Reworked Textures for custom overcharged items/blocks
-- Created Custom CagedMobs Resources
-- Created Custom Sophisticated Backpack Resources
-- Created Custom Resources for Apotheosis Warden Tendril, and Silents Delight Warden ear so it have its own unique textures
-- Reworked Resources for Forge Rocket Casing, its now a connected texture block
-- Created New Rocket Casing Tiers for Ad Astra Rocket Recipes
-- Switched Compressed Lead Assets from TFMG to Create Nuclear
-- Fixed Asset Location for Custom Compressed Blocks
-- Created Compressed 1x-9x blocks for most Create Compressed Blocks
-### Data
-- Adjusted Azaelea Botany Pot recipes to give Azelea logs instead of oak logs
-- Adjusted Molten Vent Spawn rate for Space vents to be more rare, and vanilla resource vents to be more common
-- Moved AE2 Meteorite from Glacio to Mercury
-### Startup Scrips
-- Removed Crushed Unused crushed Redstone
-- Added New End Remastered Items
-- Added New Incomplete Processing Items
-- Commeted out Dreams and Desires Blocks until mod is complete
-- Created Compressed 1x-9x blocks for most Create Compressed Blocks
-### Server Scripts
-- Removed Excess Seed Oil Recipes
-- Added New Seed Oil Tag to allow usage in the Mechanical Chicken
-- Removed Unused Crushed Redstone Recipes
-- Adjusted Advanced AE and Applied Flux Sequenced Assembly Recipes to use proper incomplete items
-- Adjusted Recipes for AE2, Sophisticated Storage Blocks and base upgrade, Sophisticated Backpacks base upgrade, and pipez using new Create items
-- Gave all Farmers Delight and Addons, knives proper item tags
-- Adjusted Regions Unexplored Ash Recipe to use Supplementaries Ash instead of Gunpowder
-- Added new Rocket Tier Casing, and adjusted Ad Astra Rocket Recipes to use new casing
-- Lowered the Difficulty of a few End Remastered Eyes to be more fair
-- Commeted out Dreams and Desires Shaped Block Recipes until mod is complete
-- Created Compressed 1x-9x blocks for most Create Compressed Blocks
+## ⚙️ KubeJS Updates
+### 🎨 Asset Updates
+- Created custom resources for:
+  - **AE2 and Addons**
+  - **New Age**
+  - **Lootr**
+  - **Easy Villagers**
+  - **Easy Piglins**
+  - **Sophisticated Storage & Backpacks**
+  - **Advanced AE & Applied Flux**
+  - **Caged Mobs**
+- Created **incomplete item textures** for Sequenced Assembly Recipes in **Advanced AE** and **Applied Flux**
+- Created unique textures for:
+  - **Apotheosis Warden Tendril**
+  - **Silent’s Delight Warden Ear**
+- Reworked:
+  - **Forge Frontier Resource Stones**, Crushed Stones, and Crushed Pile textures
+  - **Molten Vents** to match the new resource textures
+  - **Overcharged items and blocks** to match **New Age** aesthetics
+  - Custom items for **End Remastered**
+  - **Forge Rocket Casing** (now uses connected textures)
+  - **Custom trophy texture**
+- Added new **Rocket Casing tiers** for **Ad Astra Rocket Recipes**
+- Switched **Compressed Lead** assets from **TFMG** to **Create Nuclear**
+- Fixed asset locations for **custom compressed blocks**
+- Created **Compressed 1x–9x blocks** for most **Create Compressed blocks**
+
+### 🗂️ Data Adjustments
+- Updated **Azalea Botany Pot** recipes to yield **Azalea logs** instead of Oak
+- Adjusted **Molten Vent spawn rates**:
+  - **Space vents** are now rarer
+  - **Vanilla resource vents** are more common
+- Moved **AE2 Meteorites** from **Glacio** to **Mercury**
+
+### 🚀 Startup Scripts
+- Removed unused **Crushed Redstone** item
+- Added:
+  - New **End Remastered items**
+  - New **incomplete processing items**
+- Commented out all **Dreams and Desires blocks** until the mod is finalized
+- Added **Compressed 1x–9x blocks** for most **Create Compressed blocks**
+
+### 🛠️ Server Scripts
+- Removed:
+  - Excess **Seed Oil recipes**
+  - Unused **Crushed Redstone recipes**
+- Added:
+  - New **Seed Oil tag** for **Mechanical Chicken** compatibility
+  - Proper **item tags** for all **Farmer’s Delight knives** and addons
+- Adjusted:
+  - **Advanced AE** and **Applied Flux** sequenced assembly recipes
+  - Recipes for:
+    - **AE2**
+    - **Sophisticated Storage blocks & upgrades**
+    - **Sophisticated Backpacks base upgrades**
+    - **Pipez**, using new **Create** components
+  - **Regions Unexplored Ash recipe** to use **Supplementaries Ash**
+  - **Ad Astra Rocket recipes** to use new **Rocket Tier Casing**
+  - Lowered difficulty of select **End Remastered Eyes**
+- Commented out **Dreams and Desires shaped block recipes** until mod is complete
+- Added **Compressed 1x–9x block recipes** for most **Create Compressed blocks**
 ---
 
 ## ⚙️ **Configuration & UI Updates** 
