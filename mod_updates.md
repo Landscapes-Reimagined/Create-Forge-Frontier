@@ -29,7 +29,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Dreams and Desires**: [Temporarily Disabled]    
 - **Create Easy Structures**: v0.1.2 → v0.2  
 - **Create Enchantment Industry**: v1.2.9 → v1.3.2  
-- **Create Encased**: v1.6.2 → v1.7.1-fix1
+- **Create Encased**: v1.6.2 → v1.7.1-fix2
 - **Create Forge Frontier Core**: [Temporarily Disabled]    
 - **Create Goggles**: v0.5.6 → v6.0.0  
 - **Create Interiors**: v0.5.6-build.104 → v0.5.6-local  
@@ -50,7 +50,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **EMI Schematics**: [Temporarily Disabled]  
 - **Embeddium Plus → Chloride**: v1.2.13 → v1.5.5
 - **Entity Culling**: v1.7.3 → v1.7.4  
-- **Every Compat**: v2.7.19 → v2.7.24  
+- **Every Compat**: v2.7.19 → v2.7.25  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
@@ -77,7 +77,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Pipez**: v1.2.16 → v1.2.21
 - **Placebo**: v8.6.2 → v8.6.3
 - **Polymorph**: v0.49.8 → v0.49.9  
-- **PuzzlesLib**: v8.1.25 → v8.1.29
+- **PuzzlesLib**: v8.1.25 → v8.1.32
 - **Quark**: v4.0-460 → v4.0-461
 - **Relics**: v0.8.0.7 → v0.8.0.9  
 - **Season HUD**: v1.12.2 → v1.12.6
