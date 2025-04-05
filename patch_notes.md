@@ -53,6 +53,8 @@ Key highlights include:
   An unofficial multiloader port of **LambDynamicLights** that integrates with Sodium and Embeddium, which brings in dynamic lighting.
 - **[Sodium/Embeddium Options API](https://www.curseforge.com/minecraft/mc-mods/sodium-options-api)**
   This mod adds cross-platform events for adding **Sodium/Embeddium options** menu integration.
+- **[Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)**
+  Open Loader is a utility mod that allows data packs and resource packs to be applied globally across all save files in a game instance
 ---
 
 ## ❌ Mod Removals
@@ -68,7 +70,8 @@ Key highlights include:
 - **Wooder Wheels** – Now included natively in Create.  
 - **Create Contraption Terminals** – Redundant after removal of Tom’s Simple Storage.  
 - **Tom's Simple Storage** – Conflicts with Create mechanics; removed for performance.  
-- **GeckoLib Iris Compat** – Merged into GeckoLib.  
+- **GeckoLib Iris Compat** – Merged into GeckoLib.
+- **Global Packs** - Replaced with OpenLoader  
 ### 🧪 Experimental, Too Complex, or Poor Fit
 - **Create: The Factory Must Grow** – Too complex and technical for intended gameplay experience.  
 - **Guard Villagers** – Removed to reduce excessive entity spawning and improve performance.  
