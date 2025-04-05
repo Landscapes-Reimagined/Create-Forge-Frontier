@@ -8,12 +8,11 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Applied Flux**: v1.1.10 → v1.2.1
 - **Aquaculture**: v2.5.4 → v2.5.5
 - **Artifacts**: v9.5.13 → v9.5.15
-- **Balanced Flight**: [Temporarily Disabled]
 - **Balm**: v7.3.18 → v7.3.27  
 - **Blueprint**: v7.1.1 → v7.1.2
 - **Botany Pots**: v13.0.40 → v13.0.41  
 - **Cataclysm**: v2.57 → v2.63  
-- **Cognition**: v2.3.0 → v2.3.4  
+- **Cognition**: v2.3.0 → v2.3.5  
 - **Collective**: v7.93 → v8.1
 - **Corpse Curios Compat**: v2.2.1 → v2.2.2  
 - **Copycat Plus**: [Temporarily Disabled]  
@@ -23,7 +22,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Aquatic Ambitions**: v1.1.1 → v1.1.3  
 - **Create Bells and Whistles**: v0.4.3 → v0.4.5  
 - **Create Better Villagers**: v1.2.7 → v1.2.8  
-- **Create Central Kitchen**: v1.3.12 → v1.4.0.c  
+- **Create Central Kitchen**: v1.3.12 → v1.4.0.d  
 - **Create Compressed**: v1.0.1 → v2.1.0  
 - **Create Connected**: [Temporarily Disabled]
 - **Create Diesel Generators**: v1.2i → v1.3.1
@@ -43,7 +42,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Steam and Rails**: [Temporarily Disabled]   
 - **Create Stuff and Additions**: v2.0.8 → v2.0.9
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
-- **Create Utilities**: v0.3.0 → v0.3.1  
+- **Create Utilities**: v0.3.0 → v0.3.1
+- **Creative Core**: v2.12.31 → v2.12.32  
 - **Disenchanting Table**: v3.1.0 → v4.0.2
 - **Easy Villagers**: v1.1.23 → v1.1.24
 - **EMI**: v1.1.20 → v1.1.21
@@ -54,7 +54,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
-- **Friends and Foes**: v3.0.7 → v3.0.9  
+- **Friends and Foes**: v3.0.7 → v3.0.9
+- **FTB Quests**: v2001.4.11 > v2001.4.12  
 - **Fzzy Config**: v0.6.4 → v0.6.8
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
@@ -69,24 +70,26 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Login Protection**: v3.4 → v3.5
 - **Loot Integrations**: v4.2 → v4.3
 - **Lootr**: v0.7.35.90 → v0.7.35.91  
-- **Moonlight Lib**: v2.13.71 → v2.13.79
+- **Moonlight Lib**: v2.13.71 → v2.13.81
 - **Not Enough Animations**: v1.9.2 → v1.9.3
 - **Octolib**: v0.4.2 → v0.5.0.1
 - **Oculus**: v1.7.0 → v1.8.0 
 - **Pipez**: v1.2.16 → v1.2.21
-- **Placebo**: v8.6.2 → v8.6.3  
+- **Placebo**: v8.6.2 → v8.6.3
+- **Polymorph**: v0.49.8 → v0.49.9  
 - **PuzzlesLib**: v8.1.25 → v8.1.29
-- **Quark**: v4.0-460 → v4.0-461  
+- **Quark**: v4.0-460 → v4.0-461
+- **Relics**: v0.8.0.7 → v0.8.0.9  
 - **Season HUD**: v1.12.2 → v1.12.6
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
-- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1211  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.914
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1085
+- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1215  
+- **Sophisticated Core**: v1.2.20.894 → v1.2.22.936
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1104
 - **Sound Physics Remastered**: v1.4.8 → v1.4.10  
 - **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.6  
-- **Supplementaries**: v3.1.18 → v3.1.21
+- **Supplementaries**: v3.1.18 → v3.1.24
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
 - **TFMG**: v0.9.3 → v0.9.3b  
