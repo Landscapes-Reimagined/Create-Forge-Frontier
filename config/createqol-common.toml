@@ -2,6 +2,26 @@
 #.
 #Modify Create Qol blocks comportements
 [kinetics]
+	#.
+	#Define if the shadow radiance helmet has goggles
+	helmetHaveGoggles = true
+	#.
+	#Define if players can add propellers to their shadow radiance chestplate
+	propellersAllowed = true
+	#.
+	#Define if players can activate the hover mode with their shadow radiance chestplate
+	hoverAllowed = true
+	#.
+	#Define if the shadow radiance armor pieces give potion effects
+	armorEffectsEnable = true
+	#.
+	#Define if the diving effect is applied on the shadow radiance boots
+	#Diving makes players descend quicker in liquids 
+	bootsDiving = true
+	#.
+	#Define if players can walk normally under lava with shadow radiance boots 
+	#Diving makes players descend quicker in liquids 
+	bootsLavaWalking = true
 
 	[kinetics.stressValues]
 

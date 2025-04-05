@@ -51,6 +51,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "create_mechanical_chicken": {
+    "data": true
+  },
   "cagedmobs": {
     "cagedmobs_jade": true
   },

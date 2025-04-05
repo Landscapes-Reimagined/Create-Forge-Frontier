@@ -4,7 +4,7 @@
 	andesiteJetpackMaxHeight = 25.0
 	copperJetpackMaxHeight = 20.0
 	netheriteJetpackMaxHeight = 50.0
-	enableAboveCloudEnchant = false
+	enableAboveCloudEnchant = true
 
 ["Jetpack/Grapplin Speed"]
 	brassJetpackSpeed = 0.15

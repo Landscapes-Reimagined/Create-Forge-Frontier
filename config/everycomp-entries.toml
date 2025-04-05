@@ -125,6 +125,11 @@
 		[types.leaves_type.ad_astra]
 			glacian = true
 
+		[types.leaves_type.tconstruct]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -189,6 +194,12 @@
 			strophar = true
 			glacian = true
 
+		[types.wood_type.tconstruct]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
+
 	[types.cake]
 
 		[types.cake.deeperdarkerdelight]
@@ -201,6 +212,10 @@
 			chocolate_cake = true
 			honey_cake = true
 
+		[types.cake.collectorsreap]
+			lime_cake = true
+			pomegranate_cake = true
+
 		[types.cake.neapolitan]
 			vanilla_cake = true
 			chocolate_cake = true
@@ -208,10 +223,6 @@
 			banana_cake = true
 			mint_cake = true
 			adzuki_cake = true
-
-		[types.cake.collectorsreap]
-			lime_cake = true
-			pomegranate_cake = true
 
 #Disables specific entries
 [entries]
