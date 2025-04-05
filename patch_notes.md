@@ -102,9 +102,12 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 ---
 
 ## 📜 **Quest Updates & Additions**
+### Overworld
+- Changed Bookshelf Quest to accept any bookshelf type
 ### Ad Astra Progression
 - Basic Rocket Progression: Condensed all Rocket Quest Pages into one page
 - Final Rocket Progression: Condensed all Forge Rocket Quests into one page
+- Updated Recipes Quests to match new Rocket Recipes
 ### Rocket Progression
 - Moved all Quests into Ad Astra Progression
 ### Forge Rocket

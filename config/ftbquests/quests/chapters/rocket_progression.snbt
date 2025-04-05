@@ -395,7 +395,14 @@
 			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "1775F3EF951060B2"
-				item: "tfmg:steel_fluid_tank"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.5d
@@ -600,7 +607,14 @@
 			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "487C4FB14F1BF6F4"
-				item: "tfmg:steel_fluid_tank"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 10.0d
@@ -1022,7 +1036,14 @@
 			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "3266231D647DBCF0"
-				item: "tfmg:steel_fluid_tank"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 24.5d
@@ -1432,7 +1453,14 @@
 			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "13A8DA3EEAD14608"
-				item: "tfmg:steel_fluid_tank"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -3.5d
@@ -1842,7 +1870,14 @@
 			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "2F1570F8E57B2DD0"
-				item: "tfmg:steel_fluid_tank"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 10.0d
@@ -2265,7 +2300,14 @@
 			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
 			tasks: [{
 				id: "43B92D7D772F6BD0"
-				item: "tfmg:steel_fluid_tank"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 24.5d
@@ -2623,7 +2665,7 @@
 					type: "item"
 				}
 			]
-			x: 24.75d
+			x: 24.5d
 			y: 27.0d
 		}
 	]

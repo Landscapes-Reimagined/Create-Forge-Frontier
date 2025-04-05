@@ -421,8 +421,8 @@
 					type: "item"
 				}
 				{
-					block: "minecraft:bookshelf"
-					block_type: 0
+					block: "forge:bookshelves"
+					block_type: 1
 					id: "30D2BEFD1555E4A3"
 					replace: false
 					replaced: "minecraft:air"
