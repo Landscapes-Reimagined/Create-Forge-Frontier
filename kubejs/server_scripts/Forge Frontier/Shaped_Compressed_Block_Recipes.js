@@ -64,6 +64,227 @@ ServerEvents.recipes(event => {
             createCompressedBlockRecipe(event, material, i);
         }
     });
+// Creates 1x Shaped Recipes
+    // Cogwheel Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_cogwheel_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:cogwheel_block'
+        }
+    ).id('forge_frontier:shaped/cogwheel_block_1x');
+
+    // Large Cogwheel Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_large_cogwheel_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:large_cogwheel_block'
+        }
+    ).id('forge_frontier:shaped/large_cogwheel_block_1x');
+
+    // Belt Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_belt_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:belt_block'
+        }
+    ).id('forge_frontier:shaped/belt_block_1x');
+
+    // Shaft Bundle
+    event.shaped(
+        Item.of('forge_frontier:compressed_shaft_bundle_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:shaft_bundle'
+        }
+    ).id('forge_frontier:shaped/shaft_bundle_1x');
+
+    // Mechanism Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_mechanism_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:mechanism_block'
+        }
+    ).id('forge_frontier:shaped/mechanism_block_1x');
+
+    // Rose Quartz Crystal Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_rose_quartz_crystal_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:rose_quartz_crystal_block'
+        }
+    ).id('forge_frontier:shaped/rose_quartz_crystal_block_1x');
+
+    // Rose Quartz Polished Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_rose_quartz_polished_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:rose_quartz_polished_block'
+        }
+    ).id('forge_frontier:shaped/rose_quartz_polished_block_1x');
+
+    // Copper Sheet Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_copper_sheet_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:copper_sheet_block'
+        }
+    ).id('forge_frontier:shaped/copper_sheet_block_1x');
+
+    // Iron Sheet Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_iron_sheet_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:iron_sheet_block'
+        }
+    ).id('forge_frontier:shaped/iron_sheet_block_1x');
+
+    // Golden Sheet Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_golden_sheet_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:gold_sheet_block'
+        }
+    ).id('forge_frontier:shaped/golden_sheet_block_1x');
+
+    // Brass Sheet Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_brass_sheet_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:brass_sheet_block'
+        }
+    ).id('forge_frontier:shaped/brass_sheet_block_1x');
+
+    // Sturdy Sheet Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_sturdy_sheet_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:sturdy_sheet_block'
+        }
+    ).id('forge_frontier:shaped/sturdy_sheet_block_1x');
+
+    // Pulp Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_pulp_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:pulp_block'
+        }
+    ).id('forge_frontier:shaped/pulp_block_1x');
+
+    // Wheat Flour Pile
+    event.shaped(
+        Item.of('forge_frontier:compressed_wheat_flour_pile_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:wheat_flour_pile'
+        }
+    ).id('forge_frontier:shaped/wheat_flour_pile_1x');
+
+    // Dough Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_dough_block_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:dough_block'
+        }
+    ).id('forge_frontier:shaped/dough_block_1x');
+
+    // Cinder Flour Pile
+    event.shaped(
+        Item.of('forge_frontier:compressed_cinder_flour_pile_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:cinder_flour_pile'
+        }
+    ).id('forge_frontier:shaped/cinder_flour_pile_1x');
+
+    // Powdered Obsidian Pile
+    event.shaped(
+        Item.of('forge_frontier:compressed_powdered_obsidian_pile_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : 'create_compressed:powdered_obsidian_pile'
+        }
+    ).id('forge_frontier:shaped/powdered_obsidian_pile_1x');
 
     // Lead
     event.shaped(
@@ -77,7 +298,7 @@ ServerEvents.recipes(event => {
             A: 'createnuclear:lead_block', 
         }
     ).id( 'forge_frontier:shaped/lead_block_1x' )
-	
+
     // Malachite
         // Creates New Shaped Recipe for Malachite
         event.remove({ id: 'enlightened_end:malachite_block' })
