@@ -168,6 +168,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
   - New **Seed Oil tag** for **Mechanical Chicken** compatibility
   - Proper **item tags** for all **Farmer’s Delight knives** and addons
   - New Recipes for Netherite Scrap
+  - New Crushing, Washing, Blasting, and Haunting recipes for compressed blocks
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
