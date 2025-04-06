@@ -167,6 +167,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Added:
   - New **Seed Oil tag** for **Mechanical Chicken** compatibility
   - Proper **item tags** for all **Farmer’s Delight knives** and addons
+  - New Recipes for Netherite Scrap
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
@@ -177,6 +178,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
   - **Regions Unexplored Ash recipe** to use **Supplementaries Ash**
   - **Ad Astra Rocket recipes** to use new **Rocket Tier Casing**
   - Lowered difficulty of select **End Remastered Eyes**
+  - Blasting/Washing Recipes for Forge Frontier Ore Stones
 - Commented out **Dreams and Desires shaped block recipes** until mod is complete
 - Added **Compressed 1x–9x block recipes** for most **Create Compressed blocks**
 ---

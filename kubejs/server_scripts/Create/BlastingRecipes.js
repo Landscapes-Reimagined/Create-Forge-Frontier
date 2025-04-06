@@ -1,7 +1,28 @@
 ServerEvents.recipes(event => {
-
     // Ore Blasting Recipes
-        // Crushed Bismuth Pile
+        // Crushed Irradium 
+        event.custom({
+            type: 'minecraft:blasting',
+            cookingtime: 100,
+            experience: 0.1,
+            ingredient: 
+                { item: 'forge_frontier:crushed_irradium' },
+            result: 
+                { item: 'enlightened_end:depleted_irradium_bar' }
+        }).id('forge_frontier:blasting/irradium_ore'); 
+
+        // Crushed Malachite
+        event.custom({
+            type: 'minecraft:blasting',
+            cookingtime: 100,
+            experience: 0.1,
+            ingredient: 
+                { item: 'forge_frontier:crushed_malachite' },
+            result: 
+                { item: 'enlightened_end:malachite' }
+        }).id('forge_frontier:blasting/malachite_ore');
+
+         // Crushed Bismuth Pile
         event.custom({
             type: "minecraft:smelting",
             cookingtime: 200,
@@ -11,6 +32,19 @@ ServerEvents.recipes(event => {
             },
             result: 'enlightened_end:bismuth_block'
         }).id('forge_frontier:blasting/crushed_bismuth_pile')
+
+        // Crushed Bismith
+        event.custom({
+            type: 'minecraft:blasting',
+            cookingtime: 100, 
+            experience: 0.1, 
+            ingredient: {
+                item: 'forge_frontier:crushed_bismuth' 
+            },
+            result: {
+                item: 'enlightened_end:bismuth_ingot' 
+            }
+        }).id('forge_frontier:blasting/bismuth_ore');        
 
         // Crushed Calorite Pile
         event.custom({

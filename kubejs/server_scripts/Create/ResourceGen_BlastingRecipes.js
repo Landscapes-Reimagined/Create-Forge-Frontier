@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast', result: 'ad_astra:calorite_ingot' },
         { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite', result: 'ad_astra:ice_shard' },
         { name: 'crushed_stellaris', input: 'forge_frontier:crushed_stellaris', result: 'ad_astra:ostrum_ingot' },
-        { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite', result: 'enlightened_end:irradium_bar' },
+        { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite', result: 'enlightened_end:depleted_irradium_bar' },
         { name: 'crushed_shale', input: 'forge_frontier:crushed_shale', result: 'enlightened_end:malachite' },
         { name: 'crushed_palerock', input: 'forge_frontier:crushed_palerock', result: 'enlightened_end:bismuth_ingot' },
         { name: 'crushed_guanite', input: 'forge_frontier:crushed_guanite', result: 'alexscaves:guano' },
