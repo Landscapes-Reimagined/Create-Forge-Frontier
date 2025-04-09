@@ -55,8 +55,8 @@ Key highlights include:
   This mod adds cross-platform events for adding **Sodium/Embeddium options** menu integration.
 - **[Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)**
   Open Loader is a utility mod that allows data packs and resource packs to be applied globally across all save files in a game instance
-- **[Create: Trading Floor](https://www.curseforge.com/minecraft/mc-mods/create-trading-floor)**
-  Adds the trading depot block, which can be used within create to automatically trade with villagers over the day.
+- **[Sophisticated Backpacks Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration)**
+  Sophisticated Backpacks Create Integration is a full-featured integration of Sophisticated Backpacks with Create, making it possible to use Sophisticated Backpacks on Create contraptions not only as portable storage, but with all of their powerful inventory management features and upgrades fully functional.
 - **[Create: Mobile Packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages)**
   A Minecraft mod that adds support for delivering Create Mod Packages directly to the player.
 ---
