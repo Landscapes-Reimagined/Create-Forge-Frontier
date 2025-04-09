@@ -3,11 +3,12 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 ### 🛠 **Updated Mods:**  
 - **Ad Astra**: v1.15.19 → v1.15.20
 - **AE2**: v15.3.3 → v15.3.4  
-- **Alex's Caves Delight**: 1.0.24 → 1.0.25   
+- **Alex's Caves Delight**: 1.0.24 → 1.0.25
+- **Ambient Sounds**: v6.1.6 → v6.1.8   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
 - **Aquaculture**: v2.5.4 → v2.5.5
-- **Artifacts**: v9.5.13 → v9.5.15
+- **Artifacts**: v9.5.13 → v9.5.16
 - **Balm**: v7.3.18 → v7.3.27  
 - **Blueprint**: v7.1.1 → v7.1.2
 - **Botany Pots**: v13.0.40 → v13.0.41  
@@ -24,7 +25,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Better Villagers**: v1.2.7 → v1.2.8  
 - **Create Central Kitchen**: v1.3.12 → v1.4.0.d  
 - **Create Compressed**: v1.0.1 → v2.1.0  
-- **Create Connected**: v0.9.4 → v1.0.0
+- **Create Connected**: v0.9.4 → v1.0.1
 - **Create Diesel Generators**: v1.2i → v1.3.1
 - **Create Dreams and Desires**: [Temporarily Disabled]    
 - **Create Easy Structures**: v0.1.2 → v0.2  
@@ -43,7 +44,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Stuff and Additions**: v2.0.8 → v2.0.9
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
 - **Create Utilities**: v0.3.0 → v0.3.1
-- **Creative Core**: v2.12.31 → v2.12.32  
+- **Creative Core**: v2.12.31 → v2.12.32 
+- **Curios**: v5.12.1 → v5.13.0 
 - **Disenchanting Table**: v3.1.0 → v4.0.2
 - **Easy Villagers**: v1.1.23 → v1.1.24
 - **EMI**: v1.1.20 → v1.1.21
@@ -56,7 +58,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.9
 - **FTB Quests**: v2001.4.11 > v2001.4.12
-- **Fusion**: v1.2.5 → v1.2.6a  
+- **Fusion**: v1.2.5 → v1.2.6b  
 - **Fzzy Config**: v0.6.4 → v0.6.8
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
@@ -89,7 +91,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1215  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.22.936
 - **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1104
-- **Sound Physics Remastered**: v1.4.8 → v1.4.12  
+- **Sound Physics Remastered**: v1.4.8 → v1.4.13  
 - **Structure Credits**: v2.2.1 → v2.3.1 
 - **Structure Essentials**: v4.3 → v4.6  
 - **Supplementaries**: v3.1.18 → v3.1.24
