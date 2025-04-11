@@ -24,9 +24,6 @@ net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 net.minecraft.client.gui.screens.OptionsScreen {
 }
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
@@ -70,5 +67,8 @@ net.minecraft.client.gui.screens.CreateFlatWorldScreen {
 }
 
 net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
