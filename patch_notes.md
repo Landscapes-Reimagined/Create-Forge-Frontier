@@ -197,9 +197,15 @@ Forge 47.3.33 → 47.4.0
 
 ## ⚙️ **Configuration & UI Updates** 
 ### **Drippy Loading Screen**  
-- 🎨 **Visual Enhancements:** Updated to **version 2.3.0**, to match pack version.  
+- 🎨 **Visual Enhancements:** Updated to **version 2.3.0**, to match pack version.
+- Added in New Custom Music Track  
 ### **Fancy Menu**  
 - 🖥️ **Refined Interface:** Upgraded to **version 2.3.0**, to match pack version.
+- Added in New Custom Music Track
+### YOSBY
+- Setup Default Options.txt, so options will no longer reset each pack update
+### AE2
+- Removed Cascades from EMI, to improve performance massively
 ### Other Mods Listed Here 
 - Config Info Here 
 ### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
