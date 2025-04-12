@@ -1,0 +1,69 @@
+{
+  "item.create_mob_spawners.empty_soul_catcher": "Atrapa almas vacío",
+  "item.create_mob_spawners.empty_soul_catcher.tooltip.summary": "Utiliza el poder de las almas atrapadas para capturar enemigos. Si haces clic derecho en un enemigo que tenga un efecto de poción de _debilidad_, _capturarás_ su alma y la almacenarás en su interior. Luego, puedes _liberarla_ haciendo clic derecho en la posición deseada.",
+
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.too_far": "La entidad está demasiado lejos.",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.too_much_health": "La entidad tiene demasiada salud restante, necesita debilitarse más.",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.dead": "No se pueden atrapar entidades muertas.",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.no_weakness": "La entidad no está debilitada. Prueba a aplicarle una poción de debilidad.",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.player": "Los jugadores no pueden ser capturados",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.boss": "Los jefes no pueden ser capturados",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.blacklisted": "Esta entidad no es capturable",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.incompatible": "Esta entidad no es capturable",
+
+  "item.create_mob_spawners.soul_catcher": "Atrapa almas",
+  "item.create_mob_spawners.soul_catcher.tooltip.summary": "Contiene el alma de una criatura. Se puede _liberar_ haciendo clic derecho en la posición deseada o colocarla dentro de un _generador de criaturas mecánico_.",
+
+  "item.create_mob_spawners.soul_catcher.no_space": "No hay suficiente espacio para liberar esta criatura",
+
+  "create_mob_spawners.ponder.soul_catcher.header": "Atrapa almas",
+  "create_mob_spawners.ponder.soul_catcher.text_1": "¿Ves a este inocente cerdo? Vamos a atraparlo.",
+  "create_mob_spawners.ponder.soul_catcher.text_2": "Para atrapar el alma de una criatura, es necesario debilitarlo (por ejemplo, con una poción de debilidad)",
+  "create_mob_spawners.ponder.soul_catcher.text_3": "Ahora, haz clic derecho con un Atrapa Almas vacío para comenzar a atrapar su alma",
+  "create_mob_spawners.ponder.soul_catcher.text_4": "¡Te pillé! El cerdo fue atrapado.",
+  "create_mob_spawners.ponder.soul_catcher.text_5": "Si quieres liberarlo de nuevo, solo haz clic derecho en la posición deseada con el Atrapa Almas",
+
+  "block.create_mob_spawners.mechanical_spawner": "Generador de criaturas mecánicor",
+  "block.create_mob_spawners.mechanical_spawner.tooltip.summary": "Utiliza el poder de la magia regenerativa para generar criaturas. Necesita _fuerza rotatoria_, un suministro de líquido de _Té del constructor_ y un _Atrapa almas_ colocado en el interior para funcionar.",
+  "block.create_mob_spawners.mechanical_spawner.tooltip.stress": "Depende del tipo de criatura",
+
+  "create_mob_spawners.ponder.spawner.header": "Generador de criaturas mecánico",
+  "create_mob_spawners.ponder.spawner.text_1": "Haz clic derecho en el generador con un atrapa almas para colocarlo dentro",
+  "create_mob_spawners.ponder.spawner.text_2": "El generador necesita un suministro de Té del constructor para funcionar",
+  "create_mob_spawners.ponder.spawner.text_3": "El generador también necesita fuerza de rotación. Cuanto más rápida sea la rotación, más rápido finalizará el proceso de generación",
+  "create_mob_spawners.ponder.spawner.text_4": "Con un poco de tiempo, el generador generará el tipo de criatura aplicado en una posición cercana",
+  "create_mob_spawners.ponder.spawner.text_5": "El atrap aalmas se puede expulsar haciendo clic derecho en el generador mientras te agachas",
+
+  "create_mob_spawners.gui.spawner.spawning_area": "Area de la generación de criaturas",
+  "create_mob_spawners.gui.spawner.width": "Ancho",
+  "create_mob_spawners.gui.spawner.height": "Altura",
+  "create_mob_spawners.gui.spawner.height_offset": "Desplazamiento de altura desde el centro",
+
+  "creativetab.create_mob_spawners_tab": "Create: Mob Spawners",
+
+  "config.jade.plugin_create_mob_spawners.spawner_progress": "Progreso del generador de criaturas mecánico",
+
+  "create_mob_spawners.waila.spawner_progress": "Progreso: %s",
+  "create_mob_spawners.waila.spawner_progress.delaying": "Retrasando...",
+  "create_mob_spawners.waila.spawner_progress.delay_reason": "Razón: %s",
+  "create_mob_spawners.waila.spawner_delay_reason.unknown": "Desconocido",
+  "create_mob_spawners.waila.spawner_delay_reason.invalid_entity": "Entidad no válida contenida",
+  "create_mob_spawners.waila.spawner_delay_reason.searching_position": "Buscando una posición válida...",
+  "create_mob_spawners.waila.spawner_delay_reason.entity_creation_error": "No se pudo crear la entidad",
+  "create_mob_spawners.waila.spawner_delay_reason.too_many_entities": "Demasiadas entidades cerca",
+  "create_mob_spawners.waila.spawner_stalling_reason.no_soul": "No hay almas almacenadas en el interior",
+  "create_mob_spawners.waila.spawner_stalling_reason.not_enough_fluid": "No hay suficiente fluido",
+  "create_mob_spawners.waila.spawner_stalling_reason.no_rotational_force": "No hay fuerza de rotación",
+  "create_mob_spawners.waila.spawner_stalling_reason.rotation_speed_too_low": "La velocidad de rotación es demasiado baja",
+  "create_mob_spawners.waila.spawner_stalling_reason.recipe_cant_spawn_entity": "La entidad no puede generarse con el fluido contenido",
+  "create_mob_spawners.waila.spawner_title": "%s (%s)",
+  
+  "create_mob_spawners.jei.spawning.title": "Aparición de criaturas",
+  "create_mob_spawners.jei.spawning.duration": "Duración de aparición:",
+  "create_mob_spawners.jei.spawning.at": "a",
+  "create_mob_spawners.jei.spawning.rpm": "RPM",
+  "create_mob_spawners.jei.spawning.additional_spawn_attempts": "Intentos de aparición adicionales: %d",
+  "create_mob_spawners.jei.spawning.question_mark": "Aparición de un tipo de monstruo contenido en el Atrapa almas",
+  "create_mob_spawners.jei.spawning.blacklist": "§lNo §rfunciona con:",
+  "create_mob_spawners.jei.spawning.whitelist": "Funciona §lsolamente §rcon:"
+}

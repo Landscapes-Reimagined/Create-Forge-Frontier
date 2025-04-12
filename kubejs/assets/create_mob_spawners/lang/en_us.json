@@ -1,0 +1,69 @@
+{
+  "item.create_mob_spawners.empty_soul_catcher": "Empty Soul Catcher",
+  "item.create_mob_spawners.empty_soul_catcher.tooltip.summary": "Utilizes the power of condensed souls to capture mobs. Right-clicking a mob that has a _weakness_ potion effect will _capture_ its soul and store it inside. It can later be _released_ by right-clicking the desired position.",
+
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.too_far": "Entity is too far away",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.too_much_health": "Entity has too much health left, it needs to be weakened more",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.dead": "Dead entities are not catchable",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.no_weakness": "Entity is not weakened. Try applying a potion of weakness on it.",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.player": "Players cannot be captured",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.boss": "Bosses cannot be captured",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.blacklisted": "This entity is not catchable",
+  "item.create_mob_spawners.empty_soul_catcher.capturable_status.incompatible": "This entity is not catchable",
+
+  "item.create_mob_spawners.soul_catcher": "Soul Catcher",
+  "item.create_mob_spawners.soul_catcher.tooltip.summary": "Contains a mob's soul. It can either be _released_ by right-clicking the desired position or placed inside a _Mechanical Spawner_.",
+
+  "item.create_mob_spawners.soul_catcher.no_space": "There is not enough room to release this entity here",
+
+  "create_mob_spawners.ponder.soul_catcher.header": "Soul Catcher",
+  "create_mob_spawners.ponder.soul_catcher.text_1": "See this innocent pig? Let's catch it.",
+  "create_mob_spawners.ponder.soul_catcher.text_2": "In order to catch a mob's soul, it needs to be weakened (e.g. with a Splash Potion of Weakness)",
+  "create_mob_spawners.ponder.soul_catcher.text_3": "Now, right-click it with an empty Soul Catcher to start catching its soul",
+  "create_mob_spawners.ponder.soul_catcher.text_4": "Gotcha! The pig was caught.",
+  "create_mob_spawners.ponder.soul_catcher.text_5": "If you want to release it again, just right-click the desired position with the Soul Catcher",
+
+  "block.create_mob_spawners.mechanical_spawner": "Mechanical Spawner",
+  "block.create_mob_spawners.mechanical_spawner.tooltip.summary": "Utilizes the power of regenerative magic to spawn mobs. It needs _rotational force_, a supply of _Builder's Tea_ liquid and a _Soul Catcher_ placed inside to function.",
+  "block.create_mob_spawners.mechanical_spawner.tooltip.stress": "Depends on mob type",
+
+  "create_mob_spawners.ponder.spawner.header": "Mechanical Spawner",
+  "create_mob_spawners.ponder.spawner.text_1": "Right-click the Spawner with a Soul Catcher to place it inside",
+  "create_mob_spawners.ponder.spawner.text_2": "The Spawner needs a supply of Builder's Tea to work",
+  "create_mob_spawners.ponder.spawner.text_3": "The Spawner also needs rotational force. The faster the rotation, the faster the spawning progress will finish.",
+  "create_mob_spawners.ponder.spawner.text_4": "Given some time, the Spawner will spawn the applied mob type on a nearby position",
+  "create_mob_spawners.ponder.spawner.text_5": "The Soul Catcher can be ejected by right-clicking the Spawner while sneaking",
+
+  "create_mob_spawners.gui.spawner.spawning_area": "Spawning Area",
+  "create_mob_spawners.gui.spawner.width": "Width",
+  "create_mob_spawners.gui.spawner.height": "Height",
+  "create_mob_spawners.gui.spawner.height_offset": "Height Offset from Center",
+
+  "creativetab.create_mob_spawners_tab": "Create: Mob Spawners",
+
+  "config.jade.plugin_create_mob_spawners.spawner_progress": "Mechanical Spawner Progress",
+
+  "create_mob_spawners.waila.spawner_progress": "Progress: %s",
+  "create_mob_spawners.waila.spawner_progress.delaying": "Delaying...",
+  "create_mob_spawners.waila.spawner_progress.delay_reason": "Reason: %s",
+  "create_mob_spawners.waila.spawner_delay_reason.unknown": "Unknown",
+  "create_mob_spawners.waila.spawner_delay_reason.invalid_entity": "Invalid entity contained",
+  "create_mob_spawners.waila.spawner_delay_reason.searching_position": "Searching for valid position...",
+  "create_mob_spawners.waila.spawner_delay_reason.entity_creation_error": "Could not create entity",
+  "create_mob_spawners.waila.spawner_delay_reason.too_many_entities": "Too many entities nearby",
+  "create_mob_spawners.waila.spawner_stalling_reason.no_soul": "No soul stored inside",
+  "create_mob_spawners.waila.spawner_stalling_reason.not_enough_fluid": "Not enough fluid",
+  "create_mob_spawners.waila.spawner_stalling_reason.no_rotational_force": "No rotational force",
+  "create_mob_spawners.waila.spawner_stalling_reason.rotation_speed_too_low": "Rotation speed too low",
+  "create_mob_spawners.waila.spawner_stalling_reason.recipe_cant_spawn_entity": "Entity cannot be spawned by contained fluid",
+  "create_mob_spawners.waila.spawner_title": "%s (%s)",
+
+  "create_mob_spawners.jei.spawning.title": "Mob Spawning",
+  "create_mob_spawners.jei.spawning.duration": "Spawning duration:",
+  "create_mob_spawners.jei.spawning.at": "at",
+  "create_mob_spawners.jei.spawning.rpm": "RPM",
+  "create_mob_spawners.jei.spawning.additional_spawn_attempts": "Additional spawn attempts: %d",
+  "create_mob_spawners.jei.spawning.question_mark": "Spawns mob type contained in the Soul Catcher",
+  "create_mob_spawners.jei.spawning.blacklist": "Does §lnot §rwork with:",
+  "create_mob_spawners.jei.spawning.whitelist": "Does §lonly §rwork with:"
+}

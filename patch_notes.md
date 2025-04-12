@@ -155,6 +155,7 @@ Forge 47.3.33 → 47.4.0
 - Switched **Compressed Lead** assets from **TFMG** to **Create Nuclear**
 - Fixed asset locations for **custom compressed blocks**
 - Created **Compressed 1x–9x blocks** for most **Create Compressed blocks**
+- Updated Lang Files for Create - Mob Spawners, to use Builders Tea in Place of Potion of Regeneration
 
 ### 🗂️ Data Adjustments
 - Updated **Azalea Botany Pot** recipes to yield **Azalea logs** instead of Oak
@@ -163,6 +164,7 @@ Forge 47.3.33 → 47.4.0
   - **Vanilla resource vents** are more common
 - Moved **AE2 Meteorites** from **Glacio** to **Mercury**
 - Removed All **Non-Bosses**, except **Snow Golem** and **Soul Vulture** from **Caged Mobs**
+- Changed Required Spawner Fluid, for Create-Mob Spawners, from Potion of Regeneration to Builder's Tea
 
 ### 🚀 Startup Scripts
 - Removed unused **Crushed Redstone** item
