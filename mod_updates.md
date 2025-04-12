@@ -41,7 +41,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create QOL**: v1.2 → v1.3.1  
 - **Create Slice and Dice**: v3.3.0 → v3.4.0  
 - **Create Steam and Rails**: [Temporarily Disabled]   
-- **Create Stuff and Additions**: v2.0.8 → v2.0.9
+- **Create Stuff and Additions**: v2.0.8 → v2.1.0
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
 - **Create Utilities**: v0.3.0 → v0.3.1
 - **Creative Core**: v2.12.31 → v2.12.32 
@@ -85,7 +85,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **PuzzlesLib**: v8.1.25 → v8.1.32
 - **Quark**: v4.0-460 → v4.0-461
 - **Relics**: v0.8.0.7 → v0.8.0.9  
-- **Season HUD**: v1.12.2 → v1.12.7
+- **Season HUD**: v1.12.2 → v1.13.0
 - **Serene Seaons**: v9.1.0.1 → v9.1.0.2
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
