@@ -207,6 +207,8 @@ Forge 47.3.33 → 47.4.0
 - Setup **Default Options.txt**, so options will no longer reset each pack update
 ### AE2
 - Removed **Cascades** from EMI, to improve performance massively
+### Quark
+- Re-enabled Leaf Carpets and Hedges
 ### Other Mods Listed Here 
 - Config Info Here 
 ### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
