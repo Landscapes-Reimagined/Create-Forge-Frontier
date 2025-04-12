@@ -162,6 +162,7 @@ Forge 47.3.33 → 47.4.0
   - **Space vents** are now rarer
   - **Vanilla resource vents** are more common
 - Moved **AE2 Meteorites** from **Glacio** to **Mercury**
+- Removed All **Non-Bosses**, except **Snow Golem** and **Soul Vulture** from **Caged Mobs**
 
 ### 🚀 Startup Scripts
 - Removed unused **Crushed Redstone** item
@@ -203,9 +204,9 @@ Forge 47.3.33 → 47.4.0
 - 🖥️ **Refined Interface:** Upgraded to **version 2.3.0**, to match pack version.
 - Added in New Custom Music Track
 ### YOSBY
-- Setup Default Options.txt, so options will no longer reset each pack update
+- Setup **Default Options.txt**, so options will no longer reset each pack update
 ### AE2
-- Removed Cascades from EMI, to improve performance massively
+- Removed **Cascades** from EMI, to improve performance massively
 ### Other Mods Listed Here 
 - Config Info Here 
 ### These updates refine **gameplay balance, UI performance, and overall stability**—enjoy the adventure! 🚀  
