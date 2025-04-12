@@ -190,6 +190,7 @@ Forge 47.3.33 → 47.4.0
     - **Sophisticated Storage blocks & upgrades**
     - **Sophisticated Backpacks base upgrades**
     - **Pipez**, using new **Create** components
+    - **Create - Mob Spawners** items
   - **Regions Unexplored Ash recipe** to use **Supplementaries Ash**
   - **Ad Astra Rocket recipes** to use new **Rocket Tier Casing**
   - Lowered difficulty of select **End Remastered Eyes**
