@@ -59,6 +59,10 @@ Key highlights include:
   Sophisticated Backpacks Create Integration is a full-featured integration of Sophisticated Backpacks with Create, making it possible to use Sophisticated Backpacks on Create contraptions not only as portable storage, but with all of their powerful inventory management features and upgrades fully functional.
 - **[Create: Mobile Packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages)**
   A Minecraft mod that adds support for delivering Create Mod Packages directly to the player.
+- **[Create: Mob Spawners](https://www.curseforge.com/minecraft/mc-mods/create-mob-spawners)**
+  An addon for the Create mod for Minecraft. It adds a tool that can catch mobs which can then be placed into a spawner. It aims to be "immersive" by making use of the base game magic components.
+- **[Your Options Shall Be Yours ](https://www.curseforge.com/minecraft/mc-mods/yosby)**
+  This mod has one simple function, to provide default options if the corresponding option file doesn't exist.
 ---
 
 ## ❌ Mod Removals
@@ -86,7 +90,7 @@ Key highlights include:
 - **3D Skin Layers** – Caused visual issues; no longer supported.
 ### **Non-Essential Library Mods**  
 The following **library mods** have been removed due to their **non-essential nature**, optimizing performance and reducing unnecessary dependencies:  
-- **Kambrik**, **LibX**, **Lithostitched**, **Necrononicon**, **ObsidianUI**, **Poly Lib**, **Load My Resources**, **JCPlugin**  
+- **Kambrik**, **LibX**, **Lithostitched**, **ObsidianUI**, **Poly Lib**, **Load My Resources**, **JCPlugin**  
 ---
 ### **Why These Changes?**  
 By removing **incompatible, redundant, and non-essential** mods, we are improving **performance, stability, and overall compatibility** with *Create v6.0*. These adjustments ensure a **smoother and more efficient gameplay experience** for all players.
