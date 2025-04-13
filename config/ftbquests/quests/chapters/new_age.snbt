@@ -23,7 +23,7 @@
 			y: -10.0d
 		}
 	]
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [{
 		id: "2DF48F5BF586362E"
