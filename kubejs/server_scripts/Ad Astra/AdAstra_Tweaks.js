@@ -385,64 +385,6 @@ ServerEvents.recipes(event => {
                     heatRequirement: "heated"
                 }).id('forge_frontier:mixing/oil_fuel')                 
 
-                // Tree Bark to Oil Superheated Recipe - Voidmaster
-                event.custom({
-                    type: "create:mixing",
-                    ingredients: [
-                        {
-                            item: 'farmersdelight:tree_bark',
-                            nbt: {},
-                            amount: 1
-                        }
-                    ],
-                    results: [
-                        {
-                            fluid: 'ad_astra:oil',
-                            amount: 5
-                        },
-                        {
-                            fluid: 'minecraft:water',
-                            amount: 2
-                        },
-                        {
-                            item: 'minecraft:charcoal',
-                           nbt: {},
-                            amount: 1
-                        },
-                    ],
-                    processingTime: 100, 
-                    heatRequirement: "superheated"
-                }).id('forge_frontier:mixing/bark_oil_superheated') 
-
-                // Tree Bark to Oil Heated Recipe - Voidmaster
-                event.custom({
-                    type: "create:mixing",
-                    ingredients: [
-                        {
-                            item: 'farmersdelight:tree_bark',
-                            nbt: {},
-                            amount: 1
-                        }
-                    ],
-                    results: [
-                        {
-                            fluid: 'ad_astra:oil',
-                            amount: 5
-                        },
-                        {
-                            fluid: 'minecraft:water',
-                            amount: 2
-                        },
-                        {
-                            item: 'minecraft:charcoal',
-                        nbt: {},
-                            amount: 1
-                        },
-                    ],
-                    processingTime: 500, 
-                    heatRequirement: "heated"
-                }).id('forge_frontier:mixing/bark_oil_heated') 
-
                 // Creates Oil Mixing Recipe
                 event.custom({
                     type: "create:mixing",
