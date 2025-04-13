@@ -63,7 +63,12 @@ Key highlights include:
   An addon for the Create mod for Minecraft. It adds a tool that can catch mobs which can then be placed into a spawner. It aims to be "immersive" by making use of the base game magic components.
 - **[Your Options Shall Be Yours ](https://www.curseforge.com/minecraft/mc-mods/yosby)**
   This mod has one simple function, to provide default options if the corresponding option file doesn't exist.
+- **[Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils)**
+  Mob Grinding Utils is a mod designed to encourage players to create new ways for farming mobs for drops and experience. Contained in the mod is a fully modular system for players to explore and use to get the most out of their mob farms.
 ---
+## 🎨 **Resource Pack Additions**
+- **[Mob Grinding Utils: Vanillafied](https://www.curseforge.com/minecraft/texture-packs/mob-grinding-utils-vanillafied)**
+  Complete, handcrafted 16px retexture of Mob Grinding Utils mod: now it seamlessly integrates into Minecraft world.
 
 ## ❌ Mod Removals
 ### 🔄 Incompatible with Create v6.0
