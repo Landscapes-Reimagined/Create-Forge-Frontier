@@ -120,6 +120,9 @@ Forge 47.3.33 → 47.4.0
 ## 📜 **Quest Updates & Additions**
 ### Overworld
 - Changed Bookshelf Quest to accept any bookshelf type
+### Stress Progression
+- Create Utilites: Quests Completed *
+- Create Diesel Generators: Quests Completed *
 ### Ad Astra Progression
 - Basic Rocket Progression: Condensed all Rocket Quest Pages into one page
 - Final Rocket Progression: Condensed all Forge Rocket Quests into one page
@@ -132,6 +135,7 @@ Forge 47.3.33 → 47.4.0
 - Adjusted Recipe Quests to use new End Remastered Items
 ### Imcomplete Quests
 - Made all incomplete quest pages invisible to make quests less overwhelming
+(* Quests Made by our Quest Architect, CtrlAltDyleted)
 ---
 
 ## ⚙️ KubeJS Updates
