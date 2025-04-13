@@ -12,7 +12,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Balm**: v7.3.18 → v7.3.27  
 - **Blueprint**: v7.1.1 → v7.1.3
 - **Botany Pots**: v13.0.40 → v13.0.41  
-- **Cataclysm**: v2.57 → v2.63  
+- **Cataclysm**: v2.57 → v2.64  
 - **Cognition**: v2.3.0 → v2.3.6.1  
 - **Collective**: v7.93 → v8.1
 - **Corpse Curios Compat**: v2.2.1 → v2.2.2  
@@ -22,7 +22,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Applied Kinetics**: v1.4.0 → v1.5.0  
 - **Create Aquatic Ambitions**: v1.1.1 → v1.1.3  
 - **Create Bells and Whistles**: v0.4.3 → v0.4.5  
-- **Create Better Villagers**: v1.2.7 → v1.2.8  
+- **Create Better Villagers**: v1.2.7 → v1.2.9  
 - **Create Central Kitchen**: v1.3.12 → v1.4.0.d  
 - **Create Compressed**: v1.0.1 → v2.1.0  
 - **Create Connected**: v0.9.4 → v1.0.1
@@ -45,8 +45,9 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
 - **Create Utilities**: v0.3.0 → v0.3.1
 - **Creative Core**: v2.12.31 → v2.12.32 
-- **Curios**: v5.12.1 → v5.40.0 
+- **Curios**: v5.12.1 → v5.14.1 
 - **Disenchanting Table**: v3.1.0 → v4.0.2
+- **Drippy Loading Screen**: v3.0.11 → 3.0.12
 - **Easy Villagers**: v1.1.23 → v1.1.27
 - **EMI**: v1.1.20 → v1.1.21
 - **EMI Schematics**: [Temporarily Disabled]  
@@ -54,6 +55,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Entity Culling**: v1.7.3 → v1.7.4  
 - **Every Compat**: v2.7.19 → v2.7.25  
 - **Extreme Sound Muffler**: v3.48 → v3.49
+- **Fancy Menu**: v3.4.6 → v3.5.0
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.9
@@ -85,7 +87,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **PuzzlesLib**: v8.1.25 → v8.1.32
 - **Quark**: v4.0-460 → v4.0-461
 - **Relics**: v0.8.0.7 → v0.8.0.9  
-- **Season HUD**: v1.12.2 → v1.13.0
+- **Season HUD**: v1.12.2 → v1.13.1
 - **Serene Seaons**: v9.1.0.1 → v9.1.0.2
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
