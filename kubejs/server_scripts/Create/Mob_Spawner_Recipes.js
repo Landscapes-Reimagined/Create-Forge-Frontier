@@ -25,7 +25,7 @@ ServerEvents.recipes(event =>
                 pattern: [
                     'CBSBC',
                     'cIPIc',
-                    'cI Ic',
+                    'cIRIc',
                     'cIPIc',
                     'CBSBC'
                 ],
@@ -36,6 +36,7 @@ ServerEvents.recipes(event =>
                     c: Ingredient.of('minecraft:chain').toJson(),
                     I: Ingredient.of('createdeco:industrial_iron_ingot').toJson(),
                     P: Ingredient.of('create:precision_mechanism').toJson(),
+                    R: Ingredient.of('create:refined_radiance').toJson()
                 },
                 result: Ingredient.of('create_mob_spawners:mechanical_spawner').toJson(),
                 acceptMirrored: false
