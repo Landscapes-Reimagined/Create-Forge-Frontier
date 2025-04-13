@@ -69,6 +69,8 @@ Key highlights include:
 ## 🎨 **Resource Pack Additions**
 - **[Mob Grinding Utils: Vanillafied](https://www.curseforge.com/minecraft/texture-packs/mob-grinding-utils-vanillafied)**
   Complete, handcrafted 16px retexture of Mob Grinding Utils mod: now it seamlessly integrates into Minecraft world.
+- **[Construction Wands Creatifyed](https://www.curseforge.com/minecraft/texture-packs/construction-wands-creatifyed)**
+  Create like textures for the Construction Wand with a slight magical vibe
 
 ## ❌ Mod Removals
 ### 🔄 Incompatible with Create v6.0
@@ -110,6 +112,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Create Easy Village: Replaced with Custom Assets inside KubeJS
 - Create Teleporters Remastered: Original Textures match recipes, so no reason to have custom texture
 - Create Immersive Aircraft Warship Resourepack: Never needed, because mod was removed ages ago
+- Create Construction wands: Incomplete pack and being replaced my new resource pack
 
 ## 🔃 **Mod Loader Updates**
 Forge 47.3.33 → 47.4.0
