@@ -34,7 +34,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Forge Frontier Core**: [Temporarily Disabled]    
 - **Create Goggles**: v0.5.6 → v6.0.0  
 - **Create Interiors**: v0.5.6-build.104 → v0.5.6-local  
-- **Create Mechanical Extruder**: v1.6.3 → v1.6.7
+- **Create Mechanical Extruder**: v1.6.3 → v1.6.8
 - **Create Patern Schematics**: v1.1.19 → v1.2.3   
 - **Create Power Loader**: v1.5.0 → v2.0.0  
 - **Create New Age**: v1.1.2 → v1.1.3  
@@ -59,7 +59,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Friends and Foes**: v3.0.7 → v3.0.9
 - **FTB Mod Compat**: v2.1.2 → v2.1.3
 - **FTB Quests**: v2001.4.11 > v2001.4.12
-- **Fusion**: v1.2.5 → v1.2.6b  
+- **Fusion**: v1.2.5 → v1.2.7  
 - **Fzzy Config**: v0.6.4 → v0.6.9
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
@@ -93,12 +93,13 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Sophisticated Core**: v1.2.20.894 → v1.2.22.943
 - **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1112
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
-- **Structure Credits**: v2.2.1 → v2.3.1 
+- **Structure Credits**: v2.2.1 → v2.3.2 
 - **Structure Essentials**: v4.3 → v4.6  
 - **Supplementaries**: v3.1.18 → v3.1.26
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
-- **TFMG**: v0.9.3 → v0.9.3b  
+- **TFMG**: v0.9.3 → v0.9.3b
+- **Unusual End**: v2.2.3 → v2.3.0   
 - **WATUT**: v1.1.3 → v1.2.3
 - **Xaeros Minimap**: v25.1.0 → v25.2.0  
 - **XaeroPlus**: v2.26.3 → v2.26.5

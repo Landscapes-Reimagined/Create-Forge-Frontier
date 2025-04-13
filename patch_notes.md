@@ -77,7 +77,7 @@ Key highlights include:
 - **Create: Deepslate Processing** – Broken and infrequently maintained.  
 - **Create: Dynamic Light** – Not actively updated or compatible.  
 - **Create Design n' Decor** – No longer updated for 1.20.1.  
-- **Create: Halitosis** – Functionality now handled via KubeJS.
+- **Create: Halitosis** – Broken in v6.0; rarely updated.
 - **Create: Balanced Flight** - Broken in v6.0; rarely updated.
 ### 🛠 Replaced or Redundant
 - **Wooder Wheels** – Now included natively in Create.  
