@@ -7,6 +7,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Ambient Sounds**: v6.1.6 → v6.1.8   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
+- **Apotheosis**: v7.4.6 → v7.4.7
 - **Aquaculture**: v2.5.4 → v2.5.5
 - **Artifacts**: v9.5.13 → v9.5.16
 - **Balm**: v7.3.18 → v7.3.27  
@@ -14,7 +15,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Botany Pots**: v13.0.40 → v13.0.41  
 - **Cataclysm**: v2.57 → v2.64  
 - **Cognition**: v2.3.0 → v2.3.6.1  
-- **Collective**: v7.93 → v8.1
+- **Collective**: v7.93 → v8.3
 - **Corpse Curios Compat**: v2.2.1 → v2.2.2  
 - **Copycat Plus**: [Temporarily Disabled]  
 - **Create**: v0.5.1 → v6.0.4  
@@ -34,7 +35,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Forge Frontier Core**: [Temporarily Disabled]    
 - **Create Goggles**: v0.5.6 → v6.0.0  
 - **Create Interiors**: v0.5.6-build.104 → v0.5.6-local  
-- **Create Mechanical Extruder**: v1.6.3 → v1.6.8
+- **Create Mechanical Extruder**: v1.6.3 → v1.6.9
 - **Create Patern Schematics**: v1.1.19 → v1.2.3   
 - **Create Power Loader**: v1.5.0 → v2.0.0  
 - **Create New Age**: v1.1.2 → v1.1.3  
@@ -49,21 +50,23 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Disenchanting Table**: v3.1.0 → v4.0.2
 - **Drippy Loading Screen**: v3.0.11 → 3.0.12
 - **Easy Villagers**: v1.1.23 → v1.1.27
-- **EMI**: v1.1.20 → v1.1.21
+- **EMI**: v1.1.20 → v1.1.22
 - **EMI Schematics**: [Temporarily Disabled]  
 - **Embeddium Plus → Chloride**: v1.2.13 → v1.5.5
 - **Entity Culling**: v1.7.3 → v1.7.4  
-- **Every Compat**: v2.7.19 → v2.7.25  
+- **Every Compat**: v2.7.19 → v2.7.26  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fancy Menu**: v3.4.6 → v3.5.0
 - **Fast Suite**: 5.0.1 → 5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.9
+= **FTB Chunks**: v2001.3.5 → v2001.3.6
 - **FTB Mod Compat**: v2.1.2 → v2.1.3
-- **FTB Quests**: v2001.4.11 > v2001.4.12
+- **FTB Quests**: v2001.4.11 > v2001.4.13
 - **Fusion**: v1.2.5 → v1.2.7  
 - **Fzzy Config**: v0.6.4 → v0.6.9
 - **Gecko Lib**: v4.7 → v4.7.1.2
+- **GML**: v4.0.9 → v4.0.10
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
 - **Hopo Better Ruined Portals**: v1.3.7 → v1.3.7b
 - **Hopo Better Underwater Ruins**: v1.1.5 → v1.1.5b
@@ -77,26 +80,27 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Loot Integrations**: v4.2 → v4.3
 - **Lootr**: v0.7.35.90 → v0.7.35.91
 - **Modern Fix**: v5.20.2 → 5.21.0  
-- **Moonlight Lib**: v2.13.71 → v2.13.81
+- **Moonlight Lib**: v2.13.71 → v2.13.82
 - **Not Enough Animations**: v1.9.2 → v1.9.3
 - **Octolib**: v0.4.2 → v0.5.0.1
-- **Oculus**: v1.7.0 → v1.8.0 
+- **Oculus**: v1.7.0 → v1.8.0
+- **Particle Core**: v0.2.5 → v0.2.6 
 - **Pipez**: v1.2.16 → v1.2.21
 - **Placebo**: v8.6.2 → v8.6.3
 - **Polymorph**: v0.49.8 → v0.49.9  
 - **PuzzlesLib**: v8.1.25 → v8.1.32
-- **Quark**: v4.0-460 → v4.0-461
+- **Quark**: v4.0-460 → v4.0-462
 - **Relics**: v0.8.0.7 → v0.8.0.9  
-- **Season HUD**: v1.12.2 → v1.13.1
+- **Season HUD**: v1.12.2 → v1.13.2
 - **Serene Seaons**: v9.1.0.1 → v9.1.0.2
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
-- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1220  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.943
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1112
+- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1229  
+- **Sophisticated Core**: v1.2.20.894 → v1.2.22.953
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1124
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
 - **Structure Credits**: v2.2.1 → v2.3.2 
-- **Structure Essentials**: v4.3 → v4.6  
+- **Structure Essentials**: v4.3 → v4.7  
 - **Supplementaries**: v3.1.18 → v3.1.26
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
@@ -105,5 +109,5 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **WATUT**: v1.1.3 → v1.2.3
 - **Xaeros Minimap**: v25.1.0 → v25.2.0  
 - **XaeroPlus**: v2.26.3 → v2.26.5
-- **Zeta**: v1.0-24 → v1.0-29  
+- **Zeta**: v1.0-24 → v1.0-30  
 ---
