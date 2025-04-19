@@ -11,64 +11,65 @@ Key highlights include:
 > **🚨 Reminder:** Before updating, we highly recommend **backing up your world** to preserve your progress.  
 ---
 ## 🆕 **Mod Additions**
+
+- **[Angel Ring 3](https://legacy.curseforge.com/minecraft/mc-mods/angel-ring)**  
+  Grants **creative-mode-style flight**, making building, exploration, and automation far more accessible. A must-have for late-game mobility.
 - **[CarrasconLib](https://www.curseforge.com/minecraft/mc-mods/carrasconlib)**  
-  A modular **library mod** built on Architectury API, used to streamline development and ensure mod compatibility.
+  A modular **library mod** built on Architectury API, designed to streamline development and ensure consistent mod compatibility.
 - **[CapeJS](https://www.curseforge.com/minecraft/mc-mods/capejs)**  
-  Lightweight mod that allows **custom capes** via KubeJS scripts. Also replaces the **elytra texture** for added flair.
+  Enables **custom cape assignment** via KubeJS client scripts. Also replaces **elytra textures** with cape visuals for added flair.
 - **[Create: Curios Backtank](https://www.curseforge.com/minecraft/mc-mods/create-curios-backtank)**  
-  Lets players equip the **Backtank** in a **Curios slot**, saving inventory space while keeping full functionality.
-- **[Create: Fuel & Water Info](https://www.curseforge.com/minecraft/mc-mods/create-fuel-and-water-information)**  
-  Adds a HUD overlay showing **real-time fuel and water levels** for Create automation.
-- **[Create Mechanical Chicken](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-chicken)**  
-  A fun addon that uses **rotation and fluids** to generate eggs. 🐔⚙️
-- **[Create Nuclear](https://www.curseforge.com/minecraft/mc-mods/createnuclear)**  
-  Adds high-tier **nuclear reactors** for generating over **2 million SU** in Create.
-- **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
-  Adds immersive **pipe organ stops** to enhance musical contraptions.
-- **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)**  
-  A vein-mining tool. Hold a key to mine multiple blocks—items drop beneath your feet.
-- **[Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation)**  
-  Replaces the vanilla world creation screen with a **modern interface** featuring smooth animations and full keyboard navigation.
-- **[Vanillin](https://www.curseforge.com/minecraft/mc-mods/vanillin)**  
-  A **performance mod** that uses Flywheel to **instanced render** entities and block entities—massive FPS boost.
-- **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**  
-  Expands the use of **Attribute and List Filters** throughout Create contraptions.
-- **[Sophisticated Storage - Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
-  Enables full Create support for **Sophisticated Storage blocks**—including trains, platforms, and flying machines.
-- **[Tinkers' Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)**  
-  Build fully customizable, **unbreakable tools** with infinite upgrades and modifications.
-- **[Tinkers' Integrations and Tweaks](https://www.curseforge.com/minecraft/mc-mods/tcintegrations)**  
-  Adds **compatibility features** and quality-of-life tweaks for Tinkers across other mods.
-- **[Tinkers' Delight](https://www.curseforge.com/minecraft/mc-mods/tinker-delight)**  
-  Integrates **Tinkers’ Construct** with **Farmer’s Delight** for cross-mod crafting.
-- **[Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)**  
-  A required **core library** for Tinkers, includes shared inventories and systems.
+  Allows the **Create Backtank** to be equipped in a **Curios slot**, preserving inventory space while maintaining functionality.
 - **[Create Deco](https://www.curseforge.com/minecraft/mc-mods/create-deco)**  
-  Adds stylish **industrial and steampunk-themed blocks** like catwalks, cages, and containers.
+  Adds stylish **industrial and steampunk-themed blocks** like catwalks, cages, valves, and reinforced containers.
+- **[Create: Enchantable Machinery](https://www.curseforge.com/minecraft/mc-mods/create-enchantable-machinery)**  
+  Introduces the ability to **enchant blocks** from Create, adding both utility and visual enhancements to your machinery.
+- **[Create: Filters Anywhere](https://www.curseforge.com/minecraft/mc-mods/create-filters-anywhere)**  
+  Expands the usability of **Attribute and List Filters** across more components in Create contraptions.
+- **[Create Mechanical Chicken](https://www.curseforge.com/minecraft/mc-mods/create-mechanical-chicken)**  
+  A humorous addon that produces **eggs using rotational force and fluids**, perfect for quirky contraptions. 🐔⚙️
+- **[Create: Mob Spawners](https://www.curseforge.com/minecraft/mc-mods/create-mob-spawners)**  
+  Adds immersive **mob-catching and spawner placement** mechanics using Create components and vanilla magical elements.
+- **[Create: Mobile Packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages)**  
+  Adds a delivery system that allows **Create packages to be sent directly to players**, supporting automation and logistics.
+- **[Create Nuclear](https://www.curseforge.com/minecraft/mc-mods/createnuclear)**  
+  Introduces a full **nuclear power system** to Create, capable of producing over **2 million SU** through advanced reactors.
+- **[Create: Sound of Steam](https://www.curseforge.com/minecraft/mc-mods/create-sound-of-steam)**  
+  Adds atmospheric **pipe organ sounds** for Create, enabling musical builds and immersive contraptions.
 - **[Create Ultimine](https://www.curseforge.com/minecraft/mc-mods/create-ultimine)**  
-  Adds **FTB Ultimine compatibility** to Create for seamless mining automation.
-- **[Angel Ring 3](https://legacy.curseforge.com/minecraft/mc-mods/angel-ring)**
-  Grants **creative-mode-style flight** for easier building and exploration. A must-have utility for enhanced mobility.
-- **[Sodium/Embeddium Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged)**
-  An unofficial multiloader port of **LambDynamicLights** that integrates with Sodium and Embeddium, which brings in dynamic lighting.
-- **[Sodium/Embeddium Options API](https://www.curseforge.com/minecraft/mc-mods/sodium-options-api)**
-  This mod adds cross-platform events for adding **Sodium/Embeddium options** menu integration.
-- **[Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)**
-  Open Loader is a utility mod that allows data packs and resource packs to be applied globally across all save files in a game instance
-- **[Sophisticated Backpacks Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration)**
-  Sophisticated Backpacks Create Integration is a full-featured integration of Sophisticated Backpacks with Create, making it possible to use Sophisticated Backpacks on Create contraptions not only as portable storage, but with all of their powerful inventory management features and upgrades fully functional.
-- **[Create: Mobile Packages](https://www.curseforge.com/minecraft/mc-mods/create-mobile-packages)**
-  A Minecraft mod that adds support for delivering Create Mod Packages directly to the player.
-- **[Create: Mob Spawners](https://www.curseforge.com/minecraft/mc-mods/create-mob-spawners)**
-  An addon for the Create mod for Minecraft. It adds a tool that can catch mobs which can then be placed into a spawner. It aims to be "immersive" by making use of the base game magic components.
-- **[Your Options Shall Be Yours ](https://www.curseforge.com/minecraft/mc-mods/yosby)**
-  This mod has one simple function, to provide default options if the corresponding option file doesn't exist.
-- **[Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils)**
-  Mob Grinding Utils is a mod designed to encourage players to create new ways for farming mobs for drops and experience. Contained in the mod is a fully modular system for players to explore and use to get the most out of their mob farms.
-- **[EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores)**
-  EMI Ores is a plugin for the recipe viewer EMI that displays information about how ores generate in the world
-- **[Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans)**
-  Trash Cans adds Trash Cans which can be used to void items, fluids and energy!
+  Adds compatibility between **FTB Ultimine** and Create, enabling vein-mining through automated systems.
+- **[EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores)**  
+  A plugin for EMI that displays detailed **ore generation data**, helping players locate and plan mining routes more effectively.
+- **[FTB Ultimine](https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-forge)**  
+  A configurable **vein-mining tool** that allows players to mine multiple blocks at once, with drops appearing at the player’s feet.
+- **[Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)**  
+  A required **core library** for Tinkers' Construct, providing shared systems like inventories and descriptive book logic.
+- **[Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils)**  
+  A modular system designed for **mob farming and automation**, offering utilities for drop collection, XP farming, and more.
+- **[Modern World Creation](https://www.curseforge.com/minecraft/mc-mods/modernworldcreation)**  
+  Overhauls the vanilla world creation screen with a **sleek, modern UI** featuring animation and full keyboard navigation.
+- **[Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)**  
+  Allows **global application** of datapacks and resource packs across all saves, streamlining pack management.
+- **[Sophisticated Backpacks - Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks-create-integration)**  
+  Fully integrates **Sophisticated Backpacks** with Create contraptions, retaining all inventory upgrades and automation tools.
+- **[Sophisticated Storage - Create Integration](https://www.curseforge.com/minecraft/mc-mods/sophisticated-storage-create-integration)**  
+  Enables **Sophisticated Storage blocks** to be used on Create contraptions, maintaining all advanced storage features during movement.
+- **[Sodium/Embeddium Dynamic Lights](https://www.curseforge.com/minecraft/mc-mods/dynamiclights-reforged)**  
+  A performance-friendly port of **LambDynamicLights** with support for **Sodium and Embeddium**, bringing dynamic lighting to modded environments.
+- **[Sodium/Embeddium Options API](https://www.curseforge.com/minecraft/mc-mods/sodium-options-api)**  
+  Adds cross-platform support for integrating custom options into the **Sodium/Embeddium settings menu**.
+- **[Tinkers' Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)**  
+  A full-featured **tool-building mod** where players can create, customize, and modify unbreakable tools using molten metals and modifiers.
+- **[Tinkers' Delight](https://www.curseforge.com/minecraft/mc-mods/tinker-delight)**  
+  Adds **Farmer's Delight compatibility** to Tinkers' Construct, allowing for cross-mod cooking and crafting integrations.
+- **[Tinkers' Integrations and Tweaks](https://www.curseforge.com/minecraft/mc-mods/tcintegrations)**  
+  Provides various **integration patches and enhancements** for Tinkers' Construct across supported mods.
+- **[Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans)**  
+  Adds **item, fluid, and energy trash cans** that void unwanted resources—essential for automation cleanup.
+- **[Vanillin](https://www.curseforge.com/minecraft/mc-mods/vanillin)**  
+  A **performance optimization mod** that uses Flywheel's instanced rendering to greatly improve FPS when rendering entities and block entities.
+- **[Your Options Shall Be Yours](https://www.curseforge.com/minecraft/mc-mods/yosby)**  
+  Ensures a smoother first-time experience by **generating default options** if the game’s option file is missing.
 ---
 ## 🎨 **Resource Pack Additions**
 - **[Mob Grinding Utils: Vanillafied](https://www.curseforge.com/minecraft/texture-packs/mob-grinding-utils-vanillafied)**
