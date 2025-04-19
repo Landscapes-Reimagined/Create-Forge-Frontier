@@ -200,7 +200,8 @@ Forge 47.3.33 → 47.4.0
   - Proper **item tags** for all **Farmer’s Delight knives** and addons
   - New Recipes for Netherite Scrap
   - New Crushing, Washing, Blasting, and Haunting recipes for compressed blocks
-  - New Recipes for new added Trash cans
+  - New Recipes for newly added Trash cans
+  - New Recipes for newly added Mob Grinding Utililities
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
