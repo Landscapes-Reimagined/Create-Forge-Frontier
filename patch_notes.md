@@ -65,6 +65,10 @@ Key highlights include:
   This mod has one simple function, to provide default options if the corresponding option file doesn't exist.
 - **[Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils)**
   Mob Grinding Utils is a mod designed to encourage players to create new ways for farming mobs for drops and experience. Contained in the mod is a fully modular system for players to explore and use to get the most out of their mob farms.
+- **[EMI Ores](https://www.curseforge.com/minecraft/mc-mods/emi-ores)**
+  EMI Ores is a plugin for the recipe viewer EMI that displays information about how ores generate in the world
+- **[Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans)**
+  Trash Cans adds Trash Cans which can be used to void items, fluids and energy!
 ---
 ## 🎨 **Resource Pack Additions**
 - **[Mob Grinding Utils: Vanillafied](https://www.curseforge.com/minecraft/texture-packs/mob-grinding-utils-vanillafied)**
