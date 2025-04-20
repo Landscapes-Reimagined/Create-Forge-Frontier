@@ -3,7 +3,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 ### 🛠 **Updated Mods:**  
 - **Ad Astra**: v1.15.19 → v1.15.20
 - **AE2**: v15.3.3 → v15.3.4  
-- **Alex's Caves Delight**: 1.0.24 → 1.0.25
+- **Alex's Caves Delight**: 1.0.24 → 1.0.26
 - **Ambient Sounds**: v6.1.6 → v6.1.8   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
@@ -66,7 +66,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Fusion**: v1.2.5 → v1.2.7  
 - **Fzzy Config**: v0.6.4 → v0.6.9
 - **Gecko Lib**: v4.7 → v4.7.1.2
-- **GML**: v4.0.9 → v4.0.10
+- **GML**: v4.0.9 → v4.0.11
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
 - **Hopo Better Ruined Portals**: v1.3.7 → v1.3.7b
 - **Hopo Better Underwater Ruins**: v1.1.5 → v1.1.5b
@@ -97,7 +97,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1229  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.22.953
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1124
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1127
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
 - **Structure Credits**: v2.2.1 → v2.3.2 
 - **Structure Essentials**: v4.3 → v4.7  
