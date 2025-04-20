@@ -202,6 +202,7 @@ Forge 47.3.33 → 47.4.0
   - New Crushing, Washing, Blasting, and Haunting recipes for compressed blocks
   - New Recipes for newly added Trash cans
   - New Recipes for newly added Mob Grinding Utililities
+  - New Recipes for newly added Angel Ring
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
