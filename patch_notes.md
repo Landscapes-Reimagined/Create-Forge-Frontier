@@ -216,6 +216,7 @@ Forge 47.3.33 → 47.4.0
   - New Recipes for newly added Mob Grinding Utililities
   - New Recipes for newly added Angel Ring
   - New Recipes for Grout variants for Tinkers Construct
+  - New Recipes for Sand and Red Sand Casts for Tinkers Construct
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
