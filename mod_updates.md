@@ -52,7 +52,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Easy Villagers**: v1.1.23 → v1.1.27
 - **EMI**: v1.1.20 → v1.1.22
 - **EMI Schematics**: [Temporarily Disabled]  
-- **Embeddium Plus → Chloride**: v1.2.13 → v1.5.5
+- **Embeddium Plus → Chloride**: v1.2.13 → v1.6.0
 - **Entity Culling**: v1.7.3 → v1.7.4  
 - **Every Compat**: v2.7.19 → v2.7.26  
 - **Extreme Sound Muffler**: v3.48 → v3.49
@@ -96,8 +96,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1229  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.22.953
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.10.1127
+- **Sophisticated Core**: v1.2.20.894 → v1.2.46.956
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1128
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
 - **Structure Credits**: v2.2.1 → v2.3.2 
 - **Structure Essentials**: v4.3 → v4.7  
