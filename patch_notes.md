@@ -215,6 +215,7 @@ Forge 47.3.33 → 47.4.0
   - New Recipes for newly added Trash cans
   - New Recipes for newly added Mob Grinding Utililities
   - New Recipes for newly added Angel Ring
+  - New Recipes for Grout variants for Tinkers Construct
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
