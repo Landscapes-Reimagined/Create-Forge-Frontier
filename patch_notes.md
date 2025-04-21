@@ -1,13 +1,25 @@
 # **Modpack Patch Notes: Version 2.3.0**  
-**Release Date**: Some Day, 2025  
+**Release Date**: May, 2025  
 
 # **Create Update**  
 
-Description Coming Later
+### 📝 **Description**
 
-Key highlights include:  
-✅ Will Cover Later 
+The **v2.3.0 "Create Update"** is our largest and most impactful update yet—fully embracing *Create v6.0* and reimagining how players interact with storage, automation, progression, and performance. This release introduces dozens of new mods and integrations, from nuclear power and custom capes to overhaul-level asset reworks, quest refinements, and new tools for builders, tech lovers, and adventurers alike.
 
+Whether you're crafting custom contraptions with Create, building high-tier tools with Tinkers' Construct, automating mob drops with Mob Grinding Utils + Create Mob Spawners, or just exploring with new performance optimizations, there's something here for everyone. This update sets the new standard for what *Create - Forge Frontier* offers—more cohesive, powerful, beautiful, and fun than ever.
+---
+### 🌟 **Key Highlights**
+✅ Full Upgrade to **Create v6.0** and rework of all Create-based mechanics  
+✅ Added support for **nuclear power**, **mob automation**, **flight**, and **cross-mod crafting systems**  
+✅ Revamped **AE2 progression**, **storage systems**, and integration with **Ad Astra**, **Alex's Caves**, and more  
+✅ New **custom asset textures**, **music**, and **UI enhancements** for a more immersive experience  
+✅ Introduced **Create-compatible mob spawners** with enchanting-based automation  
+✅ Added over 25 new mods and resource packs—including **Tinkers’ Construct**, **Angel Ring**, **Create Deco**, and more  
+✅ Optimized performance through **mod cleanup**, **resource consolidation**, and **config updates**  
+✅ Updated quests for **rocket progression**, **End Remastered**, and new mod integrations  
+✅ Enhanced support for **Premium Members** with **custom cape features**, **early access**, and more  
+> ✨ This update marks a major milestone in the evolution of *Create - Forge Frontier*. Whether you're returning or diving in for the first time, there's never been a better time to explore.
 > **🚨 Reminder:** Before updating, we highly recommend **backing up your world** to preserve your progress.  
 ---
 ## 🆕 **Mod Additions**
