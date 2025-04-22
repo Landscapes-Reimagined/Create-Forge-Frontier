@@ -207,6 +207,7 @@ Forge 47.3.33 → 47.4.0
   - Excess **Seed Oil recipes**
   - Unused **Crushed Redstone recipes**
   - **Tree Bark** to **Oil** Recipe
+  - Excess Forge Frontier Fluids already covered in Tinkers Construct
 - Added:
   - New **Seed Oil tag** for **Mechanical Chicken** compatibility
   - Proper **item tags** for all **Farmer’s Delight knives** and addons
