@@ -132,7 +132,7 @@ const woodTypes = [
         }).id( 'forge_frontier:shapeless/trumpet_slabs_to_plank' )
 
     // Chip Wood
-    event.custom({
+    /*event.custom({
         type: 'minecraft:crafting_shapeless',
         ingredients: [
             {
@@ -145,6 +145,6 @@ const woodTypes = [
         result: {
             item: 'createdieselgenerators:chip_wood_block'
         }
-        }).id( 'forge_frontier:shapeless/chip_wood_slabs_to_plank' )
+        }).id( 'forge_frontier:shapeless/chip_wood_slabs_to_plank' )*/
   
 })
