@@ -1,4 +1,43 @@
 ServerEvents.recipes(event => {
+      // New Blank Sand Cast Recipes
+      // Sand Cast
+      event.remove({ id: 'tconstruct:smeltery/sand_cast'})
+      event.custom({
+        type:"create:compacting",
+        ingredients: [
+            {
+                item: 'minecraft:sand',
+                amount: 1
+            },
+        ],
+        results: [
+            {
+                item: 'tconstruct:blank_sand_cast',
+                amount: 1
+            },
+        ],
+        heatRequirement: "superheated"
+    }).id('forge_frontier:compacting/blank_sand_cast')
+
+    // Sand Cast
+    event.remove({ id: 'tconstruct:smeltery/red_sand_cast'})
+    event.custom({
+      type:"create:compacting",
+      ingredients: [
+          {
+              item: 'minecraft:red_sand',
+              amount: 1
+          },
+      ],
+      results: [
+          {
+              item: 'tconstruct:blank_red_sand_cast',
+              amount: 1
+          },
+      ],
+      heatRequirement: "superheated"
+  }).id('forge_frontier:compacting/blank_red_sand_cast')
+
       // Remove conflicting or redundant recipes for sand and red sand casts
         const sandTypes = ['sand', 'red_sand'];
 
@@ -73,6 +112,12 @@ ServerEvents.recipes(event => {
             ['forge:armor/maille', 'tconstruct:blank_sand_cast', 'tconstruct:maille_sand_cast', 'tconstruct:maille_sand_cast', 'maille_sand_cast'],
         
             // Red Sand Casts (same as above, replace _sand_cast with _red_sand_cast)
+            ['forge:ingots', 'tconstruct:blank_red_sand_cast', 'tconstruct:ingot_red_sand_cast', 'tconstruct:ingot_red_sand_cast', 'ingot_red_sand_cast'],
+            ['forge:nuggets', 'tconstruct:blank_red_sand_cast', 'tconstruct:nugget_red_sand_cast', 'tconstruct:nugget_red_sand_cast', 'nugget_red_sand_cast'],
+            ['forge:gems', 'tconstruct:blank_red_sand_cast', 'tconstruct:gem_red_sand_cast', 'tconstruct:gem_red_sand_cast', 'gem_red_sand_cast'],
+            ['forge:rods', 'tconstruct:blank_red_sand_cast', 'tconstruct:rod_red_sand_cast', 'tconstruct:rod_red_sand_cast', 'rod_red_sand_cast'],
+            ['forge:plates', 'tconstruct:blank_red_sand_cast', 'tconstruct:plate_red_sand_cast', 'tconstruct:plate_red_sand_cast', 'plate_red_sand_cast'],
+            ['forge:wires', 'tconstruct:blank_red_sand_cast', 'tconstruct:wire_red_sand_cast', 'tconstruct:wire_red_sand_cast', 'wire_red_sand_cast'],
             ['forge:repair_kits', 'tconstruct:blank_red_sand_cast', 'tconstruct:repair_kit_red_sand_cast', 'tconstruct:repair_kit_red_sand_cast', 'repair_kit_red_sand_cast'],
             ['forge:pick_heads', 'tconstruct:blank_red_sand_cast', 'tconstruct:pick_head_red_sand_cast', 'tconstruct:pick_head_red_sand_cast', 'pick_head_red_sand_cast'],
             ['forge:axe_heads/small', 'tconstruct:blank_red_sand_cast', 'tconstruct:small_axe_head_red_sand_cast', 'tconstruct:small_axe_head_red_sand_cast', 'small_axe_head_red_sand_cast'],

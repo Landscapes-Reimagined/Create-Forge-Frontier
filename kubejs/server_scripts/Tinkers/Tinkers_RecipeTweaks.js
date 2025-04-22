@@ -1,5 +1,9 @@
 ServerEvents.recipes(event => 
     {
+        // Removed Non Fitting Recipes
+        event.remove({ id: 'tconstruct:smeltery/casting/scorched/brick_composite' })
+        event.remove({ id: 'tconstruct:smeltery/casting/seared/brick_composite' })
+
         // Shaped Debris Recipe
         event.shaped(
             Item.of('minecraft:netherite_scrap'),
