@@ -4,7 +4,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Ad Astra**: v1.15.19 → v1.15.20
 - **AE2**: v15.3.3 → v15.3.4  
 - **Alex's Caves Delight**: 1.0.24 → 1.0.26
-- **Ambient Sounds**: v6.1.6 → v6.1.8   
+- **Ambient Sounds**: v6.1.6 → v6.1.9   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
 - **Apotheosis**: v7.4.6 → v7.4.7
@@ -52,7 +52,6 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Easy Villagers**: v1.1.23 → v1.1.27
 - **EMI**: v1.1.20 → v1.1.22
 - **EMI: Loot**: v0.7.5 → v0.7.6
-- **EMI Schematics**: [Temporarily Disabled]  
 - **Embeddium Plus → Chloride**: v1.2.13 → v1.6.0
 - **Entity Culling**: v1.7.3 → v1.7.4  
 - **Every Compat**: v2.7.19 → v2.7.26  
@@ -64,7 +63,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 = **FTB Chunks**: v2001.3.5 → v2001.3.6
 - **FTB Mod Compat**: v2.1.2 → v2.1.3
 - **FTB Quests**: v2001.4.11 > v2001.4.13
-- **Fusion**: v1.2.5 → v1.2.7  
+- **Fusion**: v1.2.5 → v1.2.7a  
 - **Fzzy Config**: v0.6.4 → v0.6.9
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **GML**: v4.0.9 → v4.0.11
@@ -88,7 +87,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Particle Core**: v0.2.5 → v0.2.6 
 - **Pipez**: v1.2.16 → v1.2.21
 - **Placebo**: v8.6.2 → v8.6.3
-- **Polymorph**: v0.49.8 → v0.49.9  
+- **Polymorph**: v0.49.8 → v0.49.10  
 - **PuzzlesLib**: v8.1.25 → v8.1.32
 - **Quark**: v4.0-460 → v4.0-462
 - **Relics**: v0.8.0.7 → v0.8.0.9  
@@ -98,11 +97,11 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1229  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.46.958
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1128
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1129
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
 - **Structure Credits**: v2.2.1 → v2.3.2 
 - **Structure Essentials**: v4.3 → v4.7  
-- **Supplementaries**: v3.1.18 → v3.1.26
+- **Supplementaries**: v3.1.18 → v3.1.28
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
 - **TFMG**: v0.9.3 → v0.9.3b
