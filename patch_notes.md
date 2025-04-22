@@ -218,6 +218,8 @@ Forge 47.3.33 → 47.4.0
   - New Recipes for newly added Angel Ring
   - New Recipes for Grout variants for Tinkers Construct
   - New Recipes for Casts for Tinkers Construct
+  - Wrenchable Tags for new create-linked blocks
+  - Missing Item tags for ingots and storage blocks
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:

@@ -35,19 +35,6 @@ ServerEvents.tags('block', event => {
         'chipped:carpenters_table',
         'chipped:glassblower',
         'chipped:botanist_workbench',
-        'toms_storage:ts.level_emitter',
-        'toms_storage:ts.inventory_hopper_basic',
-        'toms_storage:ts.crafting_terminal',
-        'toms_storage:ts.inventory_proxy',
-        'toms_storage:ts.inventory_cable_connector_framed',
-        'toms_storage:ts.inventory_cable_connector_filtered',
-        'toms_storage:ts.inventory_cable_connector',
-        'toms_storage:ts.inventory_cable_framed',
-        'toms_storage:ts.inventory_cable',
-        'toms_storage:ts.open_crate',
-        'toms_storage:ts.trim',
-        'toms_storage:ts.storage_terminal',
-        'toms_storage:ts.inventory_connector',
         'bobberdetector:bobber_detector',
         'hyperbox:hyperbox',
         'pipez:item_pipe',
@@ -88,7 +75,28 @@ ServerEvents.tags('block', event => {
         'create_new_age:redstone_magnet',
         'create_new_age:layered_magnet',
         'create_new_age:fluxuated_magnetite',
-        'create_new_age:netherite_magnet'
+        'create_new_age:netherite_magnet',
+        'mob_grinding_utils:fan',
+        'mob_grinding_utils:saw',
+        'mob_grinding_utils:spikes',
+        'mob_grinding_utils:absorption_hopper',
+        'mob_grinding_utils:tank',
+        'mob_grinding_utils:tank_sink',
+        'mob_grinding_utils:jumbo_tank',
+        'mob_grinding_utils:xp_tap',
+        'mob_grinding_utils:entity_conveyor',
+        'mob_grinding_utils:ender_inhibitor_on',
+        'mob_grinding_utils:ender_inhibitor_off',
+        'mob_grinding_utils:xpsolidifier',
+        'trashcans:item_trash_can',
+        'trashcans:liquid_trash_can',
+        'trashcans:energy_trash_can',
+        'trashcans:ultimate_trash_can',
+        '#tconstruct:smeltery',
+        '#tconstruct:foundry',
+        'tconstruct:foundry_controller',
+        'tconstruct:smeltery_controller',
+        'easy_piglins:barterer'
     ]);
 
 // Create Casing Tag
@@ -105,5 +113,7 @@ event.add("create:casing", [
 // Adds Fan Processing Catalysts
 event.add('create_dd:fan_processing_catalysts_freezing', 'create_connected:fan_freezing_catalyst')
 event.add('create_dd:fan_processing_catalysts_superheating', 'create_connected:fan_seething_catalyst')
+
+
 
 });

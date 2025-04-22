@@ -77,12 +77,6 @@ ServerEvents.tags("item", event => {
         "expatternprovider:wireless_ex_pat"
     ])
 
-    // Tom"s Simple Storage Terminal Tags
-    event.add("toms_storage:terminals", [
-        "toms_storage:ts.wireless_terminal",
-        "toms_storage:ts.adv_wireless_terminal"
-    ])
-
     // Filling Tank Tags
     event.add("create_sa:filling_tanks",[
         "create_sa:small_filling_tank",
@@ -109,7 +103,6 @@ ServerEvents.tags("item", event => {
         "artifacts:obsidian_skull",
         "artifacts:antidote_vessel",
         "artifacts:crystal_heart",
-        "toms_storage:ts.adv_wireless_terminal"
     ])
     
     // Remove Flamingo Belt from Artifact Belt Slot
@@ -152,10 +145,7 @@ ServerEvents.tags("item", event => {
     ])
 
     // New Curious Terminals Tags
-    event.add("curios:terminals",[
-        "#ae2:terminals",
-        "#toms_storage:terminals"
-    ])
+    event.add("curios:terminals", "#ae2:terminals")
 
     // New Curios Oxgyen Cans Tags
     event.add("curios:oxygen_cans", "#ad_astra_gisselle_addon:oxygen_cans")
@@ -337,14 +327,34 @@ ServerEvents.tags("item", event => {
       event.add(tag, knifeItems);
     });
 
-});
+    event.add("forge:ingots",[
+        "create_ethium:ethium_ingot",
+        "createcasing:chorium_ingot",
+        "createdeco:industrial_iron_ingot",
+        "forge_frontier:overcharged_netherite_ingot",
+        "alexscaves:scarlet_neodymium_ingot",
+        "alexscaves:azure_neodymium_ingot",
+        "endreborn:tungsten_ingot",
+        "endreborn:endorium_ingot",
+        "createutilities:void_steel_ingot",
+        "enlightened_end:adamantite_ingot",
+        "enlightened_end:bismuth_ingot",
+        "cataclysm:cursium_ingot",
+        "cataclysm:ignitium_ingot",
+        "cataclysm:black_steel_ingot",
+        "cataclysm:ancient_metal_ingot",
+        "cataclysm:witherite_ingot",
+        "ad_astra:etrium_ingot",
+        "advancednetherite:netherite_diamond_ingot",
+        "advancednetherite:netherite_emerald_ingot",
+        "advancednetherite:netherite_gold_ingot",
+        "advancednetherite:netherite_iron_ingot",
+        "create_new_age:overcharged_gold",
+        "create_new_age:overcharged_iron"
+    ]);
 
-ServerEvents.tags("fluid", event => {
+    event.add("forge:gems", "create_new_age:overcharged_diamond");
 
-    // Fluids
-    event.add("forge:crude_oil", "ad_astra:oil");
-    event.remove("minecraft:water", "createaddition:bioethanol");
-    event.remove("ad_astra:freezes_in_space", "minecraft:water");
-    event.remove("ad_astra:evaporates_in_space", "minecraft:water")
-    event.add("forge:seed_oil", "createdieselgenerators:plant_oil")
+    event.add("forge:storage_blocks", "#advancednetherite:netherite_blocks")
+
 });
