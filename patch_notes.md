@@ -221,6 +221,7 @@ Forge 47.3.33 → 47.4.0
   - Wrenchable Tags for new create-linked blocks
   - Missing Item tags for ingots and storage blocks
   - Melting and Casting Recipes via Tinkers Construct for custom molten fluids
+  - Added Crushed Ore and Ore Stone Compat for Tinkers Construct
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:

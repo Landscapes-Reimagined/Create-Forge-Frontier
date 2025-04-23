@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
   const meltingData = [
+    // General Processing
     ["forge_frontier:molten_redstone", 810, ["minecraft:redstone_block"]],
     ["forge_frontier:molten_redstone", 90, ["minecraft:redstone"]],
     ["forge_frontier:molten_redstone", 540, ["#forge:ores/redstone"]],
@@ -71,7 +72,64 @@ ServerEvents.recipes(event => {
     ["forge_frontier:molten_netherite_emerald", 90, ["advancednetherite:netherite_emerald_ingot"]],
     
     ["forge_frontier:molten_netherite_diamond", 810, ["advancednetherite:netherite_diamond_block"]],
-    ["forge_frontier:molten_netherite_diamond", 90, ["advancednetherite:netherite_diamond_ingot"]]
+    ["forge_frontier:molten_netherite_diamond", 90, ["advancednetherite:netherite_diamond_ingot"]],
+
+    // Crushed Ore
+    ["tconstruct:molten_iron", 225, ["create:crushed_raw_iron"]],
+    ["tconstruct:molten_gold", 225, ["create:crushed_raw_gold"]],
+    ["tconstruct:molten_copper", 225, ["create:crushed_raw_copper"]],
+    ["tconstruct:molten_zinc", 225, ["create:crushed_raw_zinc"]],
+    ["tconstruct:molten_lead", 225, ["create:crushed_raw_lead"]],
+    ["forge_frontier:molten_uranium", 225, ["create:crushed_raw_uranium"]],
+    ["forge_frontier:molten_bismuth", 225, ["forge_frontier:crushed_bismuth"]],
+    ["tcintegrations:molten_calorite", 225, ["forge_frontier:crushed_calorite"]],
+    ["tcintegrations:molten_desh", 225, ["forge_frontier:crushed_desh"]],
+    ["forge_frontier:molten_irradium", 225, ["forge_frontier:crushed_irradium"]],
+    ["forge_frontier:molten_malachite", 225, ["forge_frontier:crushed_malachite"]],
+    ["tcintegrations:molten_ostrum", 225, ["forge_frontier:crushed_ostrum"]],
+    ["tconstruct:molten_debris", 225, ["forge_frontier:crushed_debris"]],
+    ["forge_frontier:molten_malachite", 225, ["forge_frontier:crushed_shale"]],
+    ["forge_frontier:molten_bismuth", 225, ["forge_frontier:crushed_palerock"]],
+    ["tconstruct:molten_emerald", 225, ["forge_frontier:crushed_verdantine"]],
+    ["tconstruct:molten_diamond", 225, ["forge_frontier:crushed_glacium"]],
+    ["forge_frontier:molten_echo_shard", 225, ["forge_frontier:crushed_resonite"]],
+    ["tcintegrations:molten_desh", 225, ["forge_frontier:crushed_aubrum"]],
+    ["tcintegrations:molten_calorite", 225, ["forge_frontier:crushed_pyroclast"]],
+    ["forge_frontier:molten_ice_shard", 225, ["forge_frontier:crushed_frostite"]],
+    ["tcintegrations:molten_ostrum", 225, ["forge_frontier:crushed_stellaris"]],
+    ["forge_frontier:molten_irradium", 225, ["forge_frontier:crushed_radiantite"]],
+    ["forge_frontier:molten_guano", 225, ["forge_frontier:crushed_guanite"]],
+    ["forge_frontier:molten_pearl", 225, ["forge_frontier:crushed_pearlyte"]],
+    ["forge_frontier:molten_amber", 225, ["forge_frontier:crushed_amberlite"]],
+    ["forge_frontier:molten_azure_neodymium", 225, ["forge_frontier:crushed_azurnium"]],
+    ["forge_frontier:molten_scarlet_neodymium", 225, ["forge_frontier:crushed_neodymrium"]],
+    ["forge_frontier:molten_uranium", 225, ["forge_frontier:crushed_uraniumnite"]],
+    ["forge_frontier:molten_sulfur", 225, ["forge_frontier:crushed_sulphite"]],
+
+    // Ore Stones
+    ["tconstruct:molten_iron", 180, ["#create:stone_types/crimsite"]],
+    ["tconstruct:molten_gold", 180, ["#create:stone_types/ochrum"]],
+    ["tconstruct:molten_copper", 180, ["#create:stone_types/veridium"]],
+    ["tconstruct:molten_zinc", 180, ["#create:stone_types/asurine"]],
+    ["forge_frontier:molten_lapis", 180, ["#create:stone_types/scoria"]],
+    ["forge_frontier:molten_carbon", 180, ["#create:stone_types/scorchia"]],
+    ["forge_frontier:molten_malachite", 180, ["enlightened_end:void_shale"]],
+    ["forge_frontier:molten_bismuth", 180, ["enlightened_end:palerock"]],
+    ["tconstruct:molten_emerald", 180, ["forge_frontier:verdantine"]],
+    ["tconstruct:molten_diamond", 180, ["forge_frontier:glacium"]],
+    ["forge_frontier:molten_echo_shard", 180, ["forge_frontier:resonite"]],
+    ["tcintegrations:molten_desh", 180, ["forge_frontier:aubrum"]],
+    ["tcintegrations:molten_calorite", 180, ["forge_frontier:pyroclast"]],
+    ["forge_frontier:molten_ice_shard", 180, ["forge_frontier:frostite"]],
+    ["tcintegrations:molten_ostrum", 180, ["forge_frontier:stellaris"]],
+    ["forge_frontier:molten_irradium", 180, ["forge_frontier:radiantite"]],
+    ["forge_frontier:molten_guano", 180, ["forge_frontier:guanite"]],
+    ["forge_frontier:molten_pearl", 180, ["forge_frontier:pearlyte"]],
+    ["forge_frontier:molten_amber", 180, ["forge_frontier:amberlite"]],
+    ["forge_frontier:molten_azure_neodymium", 180, ["forge_frontier:azurnium"]],
+    ["forge_frontier:molten_scarlet_neodymium", 180, ["forge_frontier:neodymrium"]],
+    ["forge_frontier:molten_uranium", 180, ["forge_frontier:uraniumnite"]],
+    ["forge_frontier:molten_sulfur", 180, ["forge_frontier:sulphite"]]
   ];
 
   meltingData.forEach(([fluid, amount, ingredients], i) => {
