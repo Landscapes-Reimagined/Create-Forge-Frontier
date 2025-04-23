@@ -195,7 +195,7 @@ ServerEvents.tags("item", event => {
         "forge_frontier:pyroclast", "forge_frontier:radiantite", "forge_frontier:stellaris",
         "forge_frontier:sulphite", "forge_frontier:verdantine", "forge_frontier:uraniumnite",
         "enlightened_end:palerock", "create_dd:potassic", "deeperdarker:sculk_grime",
-        "enlightened_end:void_shale"
+        "enlightened_end:void_shale", "minecraft:ancient_debris"
     ];
     createStones.forEach(stone => {
         const stoneName = stone.split(":")[1]; // Extract the name part after the colon

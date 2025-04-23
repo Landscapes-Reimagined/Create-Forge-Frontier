@@ -44,7 +44,8 @@ ServerEvents.recipes(event => {
         { name: 'uraniumnite', input: 'forge_frontier:uraniumnite', output: 'forge_frontier:crushed_uraniumnite', additional: 'alexscaves:uranium_shard', rare: true  },
         { name: 'palerock', input: 'enlightened_end:palerock', output: 'forge_frontier:crushed_palerock', additional: 'enlightened_end:bismuth_nugget' },
         { name: 'resonite', input: 'forge_frontier:resonite', output: 'forge_frontier:crushed_resonite', rare: true  },
-        { name: 'void_shale', input: 'enlightened_end:void_shale', output: 'forge_frontier:crushed_shale' }
+        { name: 'void_shale', input: 'enlightened_end:void_shale', output: 'forge_frontier:crushed_shale' },
+        { name: 'ancient_debris', input: 'minecraft:ancient_debris', output: 'forge_frontier:crushed_debris', rare: true  },
     ];
 
     // Loop through materials and create the crushing recipes
