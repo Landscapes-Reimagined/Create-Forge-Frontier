@@ -33,5 +33,40 @@ ServerEvents.tags('item', event => {
     for (const [item, tag] of Object.entries(tconstructItems)) {
       event.add(tag, item);
     }
+
+    // Added Proper Cast tags for easier recipe implementation
+      // Single Use/Template Tag
+      event.add('tconstruct:casts/single_use/template', [
+        'tconstruct:template_sand_cast',
+        'tconstruct:template_red_sand_cast'
+      ]);
+      
+      // Type of Cast Tag
+      event.add('tconstruct:casts/red_sand', 'tconstruct:template_red_sand_cast');
+      event.add('tconstruct:casts/sand', 'tconstruct:template_sand_cast');
+      event.add('tconstruct:casts/gold', 'tconstruct:template_cast');
+
+      // Single Use Tag
+      event.add('tconstruct:casts/single_use', [
+        'tconstruct:template_sand_cast',
+        'tconstruct:template_red_sand_cast'
+      ]);
+
+      // Cast Tag
+      event.add('tconstruct:casts', [
+        'tconstruct:template_sand_cast',
+        'tconstruct:template_red_sand_cast',
+        'tconstruct:template_cast'
+      ]);
+
+      // Pattern Tag
+      event.add('tconstruct:patterns', [
+        'tconstruct:template_sand_cast',
+        'tconstruct:template_red_sand_cast',
+        'tconstruct:template_cast'
+      ]);
+
+      // Piglins Love Tag
+      event.add('minecraft:piglin_loved', 'tconstruct:template_cast')
   });
   

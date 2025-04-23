@@ -72,6 +72,23 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
+    // Custom Template Casts
+    // Sand Cast
+        event.create('tconstruct:template_sand_cast')
+            .displayName('Template Sand Cast')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/template_sand_cast");
+    // Red Sand Cast
+        event.create('tconstruct:template_red_sand_cast')
+            .displayName('Template Red Sand Cast')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/template_red_sand_cast");
+    // Gold Cast
+        event.create('tconstruct:template_cast')
+            .displayName('Template Gold Cast')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/template_cast");         
+
     // Custom Coin
         event.create('forge_frontier:closed_beta_coin')
             .displayName('Closed Beta Coin')

@@ -260,9 +260,11 @@ ServerEvents.tags("item", event => {
         "minecraft:netherite_upgrade_smithing_template", "forge_frontier:netherite_iron_upgrade",
         "forge_frontier:netherite_gold_upgrade", "forge_frontier:netherite_emerald_upgrade",
         "forge_frontier:netherite_diamond_upgrade", "cataclysm:ignitium_upgrade_smithing_template",
-        "enlightened_end:adamantite_smithing_template", "ethuim:ethium_upgrade_smithing_template",
-        "endreborn:mysterious_upgrade_template", "endreborn:curious_upgrade_template",
-        "deeperdarker:warden_upgrade_smithing_template", "create_additions_synthetics:gilded_upgrade"
+        "enlightened_end:adamantite_smithing_template", "endreborn:mysterious_upgrade_template", 
+        "endreborn:curious_upgrade_template", "deeperdarker:warden_upgrade_smithing_template", 
+        "create_additions_synthetics:gilded_upgrade", "create_ethium:ethium_smithing_template", 
+        "ae2:fluix_upgrade_smithing_template", "cataclysm:cursium_upgrade_smithing_template",
+        "unusualend:pearlescent_upgrade_smithing_template"
     ]);
 
     // Forge Energized Items

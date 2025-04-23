@@ -110,7 +110,8 @@ ServerEvents.recipes(event => {
             ['forge:armor/leggings_plating', 'tconstruct:blank_sand_cast', 'tconstruct:leggings_plating_sand_cast', 'tconstruct:leggings_plating_sand_cast', 'leggings_plating_sand_cast'],
             ['forge:armor/boots_plating', 'tconstruct:blank_sand_cast', 'tconstruct:boots_plating_sand_cast', 'tconstruct:boots_plating_sand_cast', 'boots_plating_sand_cast'],
             ['forge:armor/maille', 'tconstruct:blank_sand_cast', 'tconstruct:maille_sand_cast', 'tconstruct:maille_sand_cast', 'maille_sand_cast'],
-        
+            ['forge:templates/smithing', 'tconstruct:blank_sand_cast', 'tconstruct:template_sand_cast', 'tconstruct:template_sand_cast', 'template_sand_cast'],
+
             // Red Sand Casts (same as above, replace _sand_cast with _red_sand_cast)
             ['forge:ingots', 'tconstruct:blank_red_sand_cast', 'tconstruct:ingot_red_sand_cast', 'tconstruct:ingot_red_sand_cast', 'ingot_red_sand_cast'],
             ['forge:nuggets', 'tconstruct:blank_red_sand_cast', 'tconstruct:nugget_red_sand_cast', 'tconstruct:nugget_red_sand_cast', 'nugget_red_sand_cast'],
@@ -137,7 +138,8 @@ ServerEvents.recipes(event => {
             ['forge:armor/chestplate_plating', 'tconstruct:blank_red_sand_cast', 'tconstruct:chestplate_plating_red_sand_cast', 'tconstruct:chestplate_plating_red_sand_cast', 'chestplate_plating_red_sand_cast'],
             ['forge:armor/leggings_plating', 'tconstruct:blank_red_sand_cast', 'tconstruct:leggings_plating_red_sand_cast', 'tconstruct:leggings_plating_red_sand_cast', 'leggings_plating_red_sand_cast'],
             ['forge:armor/boots_plating', 'tconstruct:blank_red_sand_cast', 'tconstruct:boots_plating_red_sand_cast', 'tconstruct:boots_plating_red_sand_cast', 'boots_plating_red_sand_cast'],
-            ['forge:armor/maille', 'tconstruct:blank_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'maille_red_sand_cast']
+            ['forge:armor/maille', 'tconstruct:blank_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'maille_red_sand_cast'],
+            ['forge:templates/smithing', 'tconstruct:blank_red_sand_cast', 'tconstruct:template_red_sand_cast', 'tconstruct:template_red_sand_cast', 'template_red_sand_cast'],
         ];
         
     sandCastingRecipes.forEach(([inputTag, ingredientItem, transitionalItem, resultItem, idSuffix]) => {

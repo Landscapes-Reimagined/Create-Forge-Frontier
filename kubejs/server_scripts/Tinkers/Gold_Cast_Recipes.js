@@ -43,7 +43,8 @@ ServerEvents.recipes(event => {
       { cast: 'tconstruct:casts/single_use/tool_handle' },
       { cast: 'tconstruct:casts/single_use/tough_binding' },
       { cast: 'tconstruct:casts/single_use/tough_handle' },
-      { cast: 'tconstruct:casts/single_use/wire' }
+      { cast: 'tconstruct:casts/single_use/wire' },
+      { cast: 'tconstruct:casts/single_use/template'}
     ];
   
     const castTypes = [
@@ -52,7 +53,7 @@ ServerEvents.recipes(event => {
       'hammer_head', 'helmet_plating', 'ingot', 'large_plate',
       'leggings_plating', 'maille', 'nugget', 'pick_head', 'plate',
       'repair_kit', 'rod', 'small_axe_head', 'small_blade', 'tool_binding',
-      'tool_handle', 'tough_binding', 'tough_handle', 'wire'
+      'tool_handle', 'tough_binding', 'tough_handle', 'wire', 'template'
     ];
   
     for (const type of castTypes) {

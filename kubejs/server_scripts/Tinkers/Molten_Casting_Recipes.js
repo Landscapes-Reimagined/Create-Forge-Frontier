@@ -1,4 +1,8 @@
 ServerEvents.recipes(event => {
+// Remove Netherite Updgrade Recipe
+  event.remove({ id: 'tconstruct:smeltery/casting/diamond/smithing_template'})
+
+// Molten Casting Recipes
   const moltenCastingData = [
     {
       molten: 'forge_frontier:molten_redstone',
@@ -77,35 +81,44 @@ ServerEvents.recipes(event => {
     },
     {
       molten: 'forge_frontier:molten_echo_shard',
-      ingot: 'minecraft:echo_shard'
+      ingot: 'minecraft:echo_shard',
+      template: 'deeperdarker:warden_upgrade_smithing_template'
     },
     {
       molten: 'forge_frontier:molten_netherite_iron',
       block: 'advancednetherite:netherite_iron_block',
-      ingot: 'advancednetherite:netherite_iron_ingot'
+      ingot: 'advancednetherite:netherite_iron_ingot',
+      template: 'forge_frontier:netherite_iron_upgrade'
     },
     {
       molten: 'forge_frontier:molten_netherite_gold',
       block: 'advancednetherite:netherite_gold_block',
-      ingot: 'advancednetherite:netherite_gold_ingot'
+      ingot: 'advancednetherite:netherite_gold_ingot',
+      template: 'forge_frontier:netherite_gold_upgrade'
     },
     {
       molten: 'forge_frontier:molten_netherite_emerald',
       block: 'advancednetherite:netherite_emerald_block',
-      ingot: 'advancednetherite:netherite_emerald_ingot'
+      ingot: 'advancednetherite:netherite_emerald_ingot',
+      template: 'forge_frontier:netherite_emerald_upgrade'
     },
     {
       molten: 'forge_frontier:molten_netherite_diamond',
       block: 'advancednetherite:netherite_diamond_block',
-      ingot: 'advancednetherite:netherite_diamond_ingot'
-    }
+      ingot: 'advancednetherite:netherite_diamond_ingot',
+      template: 'forge_frontier:netherite_diamond_upgrade'
+    },
+    {
+      molten: 'tconstruct:molten_netherite',
+      template: 'minecraft:netherite_upgrade_smithing_template'
+    },
   ];
 
   moltenCastingData.forEach(entry => {
     if (entry.block) {
       event.custom({
         type: 'tconstruct:casting_basin',
-        fluid: { name: entry.molten, amount: 1296 },
+        fluid: { name: entry.molten, amount: 900 },
         result: { item: entry.block },
         cooling_time: 180
       }).id(`forge_frontier:casting/${entry.block.replace(':', '_')}_from_molten`);
@@ -115,7 +128,7 @@ ServerEvents.recipes(event => {
       // Sand Cast
       event.custom({
         type: 'tconstruct:casting_table',
-        fluid: { name: entry.molten, amount: 144 },
+        fluid: { name: entry.molten, amount: 90 },
         cast: { tag: 'tconstruct:casts/single_use/ingot' },
         cast_consumed: true,
         result: { item: entry.ingot },
@@ -125,7 +138,7 @@ ServerEvents.recipes(event => {
       // Gold Cast
       event.custom({
         type: 'tconstruct:casting_table',
-        fluid: { name: entry.molten, amount: 144 },
+        fluid: { name: entry.molten, amount: 90 },
         cast: { item: 'tconstruct:ingot_cast' },
         result: { item: entry.ingot },
         cooling_time: 57
@@ -136,7 +149,7 @@ ServerEvents.recipes(event => {
       // Sand Cast
       event.custom({
         type: 'tconstruct:casting_table',
-        fluid: { name: entry.molten, amount: 16 },
+        fluid: { name: entry.molten, amount: 10 },
         cast: { tag: 'tconstruct:casts/single_use/nugget' },
         cast_consumed: true,
         result: { item: entry.nugget },
@@ -146,11 +159,32 @@ ServerEvents.recipes(event => {
       // Gold Cast
       event.custom({
         type: 'tconstruct:casting_table',
-        fluid: { name: entry.molten, amount: 16 },
+        fluid: { name: entry.molten, amount: 10 },
         cast: { item: 'tconstruct:nugget_cast' },
         result: { item: entry.nugget },
         cooling_time: 24
       }).id(`forge_frontier:casting/${entry.nugget.replace(':', '_')}_from_molten_gold`);
     }
+
+  if (entry.template) {
+    // Sand Cast
+    event.custom({
+      type: 'tconstruct:casting_table',
+      fluid: { name: entry.molten, amount: 500 },
+      cast: { tag: 'tconstruct:casts/single_use/template' },
+      cast_consumed: true,
+      result: { item: entry.template },
+      cooling_time: 24
+    }).id(`forge_frontier:casting/${entry.template.replace(':', '_')}_from_molten_sand`);
+
+    // Gold Cast
+    event.custom({
+      type: 'tconstruct:casting_table',
+      fluid: { name: entry.molten, amount: 500 },
+      cast: { item: 'tconstruct:template_cast' },
+      result: { item: entry.template },
+      cooling_time: 24
+    }).id(`forge_frontier:casting/${entry.template.replace(':', '_')}_from_molten_gold`);
+  }
   });
 });
