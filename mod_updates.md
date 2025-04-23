@@ -27,7 +27,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Central Kitchen**: v1.3.12 → v1.4.0.d  
 - **Create Compressed**: v1.0.1 → v2.1.0  
 - **Create Connected**: v0.9.4 → v1.0.1
-- **Create Diesel Generators**: v1.2i → v1.3.1
+- **Create Diesel Generators**: v1.2i → v1.3.1 [Temporarily Disabled]
 - **Create Dreams and Desires**: [Temporarily Disabled]    
 - **Create Easy Structures**: v0.1.2 → v0.2  
 - **Create Enchantment Industry**: v1.2.9 → v1.3.2  
@@ -44,7 +44,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Steam and Rails**: [Temporarily Disabled]   
 - **Create Stuff and Additions**: v2.0.8 → v2.1.0
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
-- **Create Utilities**: v0.3.0 → v0.3.1
+- **Create Utilities**: v0.3.0 → v0.3.1 [Temporarily Disabled]
 - **Creative Core**: v2.12.31 → v2.12.32 
 - **Curios**: v5.12.1 → v5.14.1 
 - **Disenchanting Table**: v3.1.0 → v4.0.2
@@ -63,7 +63,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 = **FTB Chunks**: v2001.3.5 → v2001.3.6
 - **FTB Mod Compat**: v2.1.2 → v2.1.3
 - **FTB Quests**: v2001.4.11 > v2001.4.13
-- **Fusion**: v1.2.5 → v1.2.7a  
+- **Fusion**: v1.2.5 → v1.2.7b  
 - **Fzzy Config**: v0.6.4 → v0.6.9
 - **Gecko Lib**: v4.7 → v4.7.1.2
 - **GML**: v4.0.9 → v4.0.11
@@ -95,11 +95,11 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Serene Seaons**: v9.1.0.1 → v9.1.0.2
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
-- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1229  
-- **Sophisticated Core**: v1.2.20.894 → v1.2.46.958
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1129
+- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1230  
+- **Sophisticated Core**: v1.2.20.894 → v1.2.46.962
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1133
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
-- **Structure Credits**: v2.2.1 → v2.3.2 
+- **Structure Credits**: v2.2.1 → v3.0 
 - **Structure Essentials**: v4.3 → v4.7  
 - **Supplementaries**: v3.1.18 → v3.1.28
 - **Tact**: v1.2.3 → v1.3.0  
