@@ -222,6 +222,7 @@ Forge 47.3.33 → 47.4.0
   - Missing Item tags for ingots and storage blocks
   - Melting and Casting Recipes via Tinkers Construct for custom molten fluids
   - Added Crushed Ore and Ore Stone Compat for Tinkers Construct
+  - Added Tinkers Alloying Recipes for Molten Advanced Netherite 
 - Adjusted:
   - **Advanced AE** and **Applied Flux** sequenced assembly recipes
   - Recipes for:
