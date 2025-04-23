@@ -108,6 +108,6 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Unusual End**: v2.2.3 → v2.3.0   
 - **WATUT**: v1.1.3 → v1.2.3
 - **Xaeros Minimap**: v25.1.0 → v25.2.0  
-- **XaeroPlus**: v2.26.3 → v2.26.5
+- **XaeroPlus**: v2.26.3 → v2.26.6
 - **Zeta**: v1.0-24 → v1.0-30  
 ---
