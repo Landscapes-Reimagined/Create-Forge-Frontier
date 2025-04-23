@@ -1,283 +1,110 @@
 ServerEvents.recipes(event => {
-
-	// Remove recipes here
-	event.remove({ id: 'easy_villagers:trader' }) // Removes Recipe
-    event.remove({ id: 'easy_villagers:auto_trader' }) // Removes Recipe
-    event.remove({ id: 'easy_villagers:farmer' }) // Removes Recipe
-    event.remove({ id: 'easy_villagers:breeder' }) // Removes Recipe
-    event.remove({ id: 'easy_villagers:converter' }) // Removes Recipe
-    event.remove({ id: 'easy_villagers:iron_farm' }) // Removes Recipe
-    event.remove({ id: 'easy_villagers:incubator' }) // Removes Recipe
-    event.remove({ id: 'easy_piglins:barterer' }) // Removes Recipe
-
-	// Creates New Trader Recipe
-	event.custom({
+	// === Remove default Easy Villagers & Piglins recipes ===
+	var removedIds = [
+	  'easy_villagers:trader',
+	  'easy_villagers:auto_trader',
+	  'easy_villagers:farmer',
+	  'easy_villagers:breeder',
+	  'easy_villagers:converter',
+	  'easy_villagers:iron_farm',
+	  'easy_villagers:incubator',
+	  'easy_piglins:barterer'
+	];
+	removedIds.forEach(function(id) {
+	  event.remove({ id: id });
+	});
+  
+	// === Helper function for compacting recipes ===
+	function addCompactingRecipe(output, id, ingredients) {
+	  event.custom({
 		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:redstone'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:trader'
-			}
-		]
-	}).id( 'forge_frontier:compacting/trader' )
-
-    // Creates New Auto Trader Recipe
-	event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:redstone'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				item: 'minecraft:netherite_ingot'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:auto_trader'
-			}
-		]
-	}).id( 'forge_frontier:compacting/auto_trader' )
-
-    // Creates New Farmer Recipe
-	event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:water_bucket'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				item: 'minecraft:dirt'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:farmer'
-			}
-		]
-	}).id( 'forge_frontier:compacting/farmer' )
-
-    // Creates New Breeder Recipe
-	event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				tag: 'minecraft:beds'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				tag: 'minecraft:planks'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:breeder'
-			}
-		]
-	}).id( 'forge_frontier:compacting/breeder' )
-
-    // Creates New Converter Recipe
-    event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:rotten_flesh'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				item: 'minecraft:mossy_cobblestone'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:converter'
-			}
-		]
-	}).id( 'forge_frontier:compacting/converter' )
-
-    // Creates New Incubator Recipe
-    event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-				tag: 'minecraft:wool'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_villagers:incubator'
-			}
-		]
-	}).id( 'forge_frontier:compacting/incubator' )
-
-    // New Easy Piglin Barterer Recipe
-    event.custom({
-		type: 'create:compacting',
-		ingredients: [
-			{
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-            {
-				item: 'minecraft:glass_pane'
-			},
-			{
-				item: 'minecraft:iron_ingot'
-			},
-            {
-                item: 'minecraft:gold_block'
-            },
-            {
-				item: 'minecraft:nether_bricks'
-			},
-            {
-				item: 'minecraft:iron_ingot'
-			}
-		],
-		results: [
-			{
-				item: 'easy_piglins:barterer'
-			}
-		]
-	}).id( 'forge_frontier:compacting/barterer' )
-    
-})
+		ingredients: ingredients,
+		results: [{ item: output }]
+	  }).id('forge_frontier:compacting/' + id);
+	}
+  
+	// === Recipe Definitions ===
+	addCompactingRecipe('easy_villagers:trader', 'trader', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:polished_rose_quartz' },
+	  { item: 'create:andesite_alloy' },
+	  { item: 'create:andesite_alloy' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  
+	addCompactingRecipe('easy_villagers:auto_trader', 'auto_trader', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:polished_rose_quartz' },
+	  { item: 'create:andesite_alloy' },
+	  { item: 'create:brass_ingot' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  
+	addCompactingRecipe('easy_villagers:farmer', 'farmer', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'minecraft:water_bucket' },
+	  { item: 'create:andesite_alloy' },
+	  { item: 'farmersdelight:rich_soil' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  
+	addCompactingRecipe('easy_villagers:breeder', 'breeder', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { tag: 'minecraft:beds' },
+	  { item: 'create:andesite_alloy' },
+	  { item: 'create:andesite_casing' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  
+	addCompactingRecipe('easy_villagers:converter', 'converter', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'minecraft:rotten_flesh' },
+	  { item: 'create:andesite_alloy' },
+	  { tag: 'create:stone_types/andesite' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  
+	addCompactingRecipe('easy_villagers:incubator', 'incubator', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:andesite_alloy' },
+	  { tag: 'minecraft:wool' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  
+	addCompactingRecipe('easy_piglins:barterer', 'barterer', [
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:framed_glass_pane' },
+	  { item: 'create:andesite_alloy' },
+	  { item: 'minecraft:gold_block' },
+	  { item: 'minecraft:nether_bricks' },
+	  { item: 'create:andesite_alloy' }
+	]);
+  });
+  
