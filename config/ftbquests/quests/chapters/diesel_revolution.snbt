@@ -215,7 +215,10 @@
 				{
 					count: 3L
 					id: "3A1267EBBE6F895C"
-					item: { Count: 3, id: "createdieselgenerators:distillation_controller" }
+					item: {
+						Count: 3
+						id: "createdieselgenerators:distillation_controller"
+					}
 					type: "item"
 				}
 				{
@@ -783,6 +786,11 @@
 			description: ["Cement is made from mixing water and concrete powder. The color of the cement depends on the color of the concrete powder used."]
 			hide_dependency_lines: true
 			id: "3FDBE5EB3CD31358"
+			rewards: [{
+				id: "0E4AF9F134008661"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Mixing Things Up"
 			tasks: [{
 				id: "108B10DACF8F6455"

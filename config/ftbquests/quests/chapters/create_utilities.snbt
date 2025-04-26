@@ -87,13 +87,19 @@
 				{
 					count: 5L
 					id: "502AC1C7BCAEE9C8"
-					item: { Count: 5, id: "createutilities:void_steel_ingot" }
+					item: {
+						Count: 5
+						id: "createutilities:void_steel_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "3B5BAAE02A3916A9"
-					item: { Count: 5, id: "createutilities:void_steel_sheet" }
+					item: {
+						Count: 5
+						id: "createutilities:void_steel_sheet"
+					}
 					type: "item"
 				}
 			]
@@ -130,13 +136,19 @@
 				{
 					count: 5L
 					id: "1708BDD06C6E4F7E"
-					item: { Count: 5, id: "createutilities:void_steel_ingot" }
+					item: {
+						Count: 5
+						id: "createutilities:void_steel_ingot"
+					}
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "43B64A277ACDF9C2"
-					item: { Count: 5, id: "createutilities:void_casing" }
+					item: {
+						Count: 5
+						id: "createutilities:void_casing"
+					}
 					type: "item"
 				}
 			]
@@ -184,7 +196,10 @@
 				{
 					count: 8L
 					id: "66FC5E663BE34B28"
-					item: { Count: 8, id: "createutilities:polished_amethyst" }
+					item: {
+						Count: 8
+						id: "createutilities:polished_amethyst"
+					}
 					type: "item"
 				}
 			]
@@ -245,13 +260,19 @@
 				{
 					count: 10L
 					id: "378DE84F684724F3"
-					item: { Count: 10, id: "createutilities:graviton_tube" }
+					item: {
+						Count: 10
+						id: "createutilities:graviton_tube"
+					}
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "76BC5A2C7F7A2298"
-					item: { Count: 10, id: "createutilities:void_casing" }
+					item: {
+						Count: 10
+						id: "createutilities:void_casing"
+					}
 					type: "item"
 				}
 			]

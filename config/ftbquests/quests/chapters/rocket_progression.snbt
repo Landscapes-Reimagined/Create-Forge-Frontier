@@ -75,6 +75,7 @@
 			y: 21.5d
 		}
 		{
+			click: "#088C2263FA4E3A27"
 			height: 10.0d
 			image: "ftb:textures/tier_4_title.png"
 			rotation: 0.0d
@@ -93,6 +94,7 @@
 			y: 21.5d
 		}
 		{
+			click: "#7FEE2D38BA934C28"
 			height: 10.0d
 			image: "ftb:textures/tier_5_title.png"
 			rotation: 0.0d
@@ -116,7 +118,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 24.5d
-			y: 14.0d
+			y: 14.5d
 		}
 	]
 	order_index: 5
@@ -137,10 +139,10 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "6C7CC9501FC41143"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				id: "04F41D439A408F6E"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -149,11 +151,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "399949091218CD75"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 2L
 				id: "008D9166B5C0FD26"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -3.5d
@@ -162,11 +164,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "26052FD839B28CEE"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 3L
 				id: "719A8E3C242790C5"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -175,11 +177,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "4E56135CD508CCF7"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 4L
 				id: "7FC56EB70252762C"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -188,11 +190,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "3117CAED67A4CDEF"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 5L
 				id: "27C0CAD4FE168CF4"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -3.5d
@@ -201,11 +203,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "0A85BC6B5C12C34A"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 6L
 				id: "690AE8E3BE7A8BF2"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -214,11 +216,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "3AB35DE3DADF13D6"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 7L
 				id: "30ACCE3827095DDD"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -227,11 +229,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "2F7007EA8DE4BB2C"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 9L
 				id: "29A8252F468847D1"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -240,11 +242,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "638A12069BDB9DCE"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 10L
 				id: "3AB6D975B232EEDE"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -253,11 +255,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "7492AAC79AE93DFD"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 8L
 				id: "07CBF021356A5D94"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -266,11 +268,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "6803A08281F54DFF"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 11L
 				id: "01A2358DA28A2E6A"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -279,11 +281,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "402119CDDDE275AF"
-			subtitle: "Crafted using nine of any of the Steel Ingot variants"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
 			tasks: [{
 				count: 12L
 				id: "6A3EE0F123AD585E"
-				item: "ad_astra:steel_block"
+				item: "forge_frontier:steel_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -392,7 +394,7 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			id: "16927D2B1FE4E236"
-			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
+			subtitle: "Crafted using Sturdy Sheets and a Fluid tank"
 			tasks: [{
 				id: "1775F3EF951060B2"
 				item: {
@@ -522,7 +524,7 @@
 			rewards: [
 				{
 					id: "6E309BAAF0D64DBD"
-					item: "ad_astra:steel_block"
+					item: "ad_astra:steel_ingot"
 					type: "item"
 				}
 				{
@@ -660,11 +662,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "6A0E02AD421C20FD"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 11L
 				id: "3659810B2C689BE8"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -673,11 +675,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "7F190A41CC8AAB3C"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 12L
 				id: "0670E7B9C96785DA"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 10.0d
@@ -686,11 +688,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "2ED8D5705CAECD0D"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 13L
 				id: "3BB2CDBDC3B31160"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -699,11 +701,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "03BF8392FA1DB659"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 9L
 				id: "6D99F6F5BAF53FFC"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -712,11 +714,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "40485D43A150BF7D"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 10L
 				id: "57F8B4773E2E5AA8"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -725,11 +727,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "6C9B6E836D4CA1E6"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 7L
 				id: "357A4848D980301F"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -738,11 +740,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "04F3DC2D584D835B"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 4L
 				id: "74EF20A99DC7BDDE"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -751,11 +753,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "6E960272CA4E3EAB"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 5L
 				id: "1C61E2617C099FD6"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 10.0d
@@ -764,11 +766,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "35F60021F14FC21B"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 6L
 				id: "561250B7FE3FE6ED"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -777,11 +779,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "2A8F2C6438DD0BFF"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 8L
 				id: "6C8B3183FB1E29BD"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -790,10 +792,10 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "0A44CB619FB88528"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				id: "77FFADE7C6903BAD"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -802,11 +804,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "59041FC4E0FEC0A7"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 2L
 				id: "34C0589C15C28443"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 10.0d
@@ -815,11 +817,11 @@
 		{
 			dependencies: ["67026EE366909C22"]
 			id: "0F2B0F16EC602266"
-			subtitle: "Crafted using 9 Desh Ingots"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
 			tasks: [{
 				count: 3L
 				id: "12A3CFF979CB2F76"
-				item: "ad_astra:desh_block"
+				item: "forge_frontier:desh_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -937,7 +939,7 @@
 				}
 			]
 			x: 10.0d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			description: ["Prepare for liftoff to Mars with the powerful Tier 2 Rocket! This advanced vessel opens the path to the Red Planet, where a vast, uncharted world awaits. Touch down on Mars and explore its rugged terrain, packed with mysterious structures, ancient relics, and hidden treasures. As you dig deeper, mine for the precious Ostrom Ore, and keep a keen eye out for the rare Molten Stellaris Ore Vents—pulsing with valuable minerals that, when processed, can yield even more Ostrom. Mars is rich with secrets and powerful resources for those brave enough to explore—strap in, ignite the engines, and embark on an unforgettable adventure beyond the stars!"]
@@ -946,7 +948,7 @@
 			rewards: [
 				{
 					id: "085136CB6EFE916A"
-					item: "ad_astra:desh_block"
+					item: "ad_astra:desh_ingot"
 					type: "item"
 				}
 				{
@@ -1028,7 +1030,7 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4F05B719FF46DED2"]
@@ -1077,11 +1079,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "2341B4348D065CB5"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 11L
 				id: "6C5B94D6067E7F6B"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1090,11 +1092,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "59623C914B8A22BA"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 12L
 				id: "735FA03BB28AC8E4"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 24.5d
@@ -1103,11 +1105,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "40D60656984960DE"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 13L
 				id: "3B7D55A2C43F6C03"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1116,11 +1118,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "2CBB1DC7039C585F"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 9L
 				id: "5D705946DB290E0A"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1129,11 +1131,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "0150EE600ACACF96"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 10L
 				id: "743DF57E6333A6D6"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1142,11 +1144,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "3AFCA5EAF13E883B"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 8L
 				id: "2C1573815C3680F9"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1155,11 +1157,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "28473EAA9352DE55"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 7L
 				id: "6485578AD58CFE79"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1168,11 +1170,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "168B1106541B7827"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 4L
 				id: "5FE6C28B37C55695"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1181,11 +1183,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "631B5125257ADD86"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 5L
 				id: "7671B6A1AEC0B118"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 24.5d
@@ -1194,11 +1196,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "7448E4D7065655B0"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 6L
 				id: "027CA97530968C8C"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1207,10 +1209,10 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "2BA0EF38C1AB4FB9"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				id: "5DEA112D5D246455"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -1219,11 +1221,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "4C8F5F56665EB1DA"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 2L
 				id: "7B3D9710F595DC3F"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 24.5d
@@ -1232,11 +1234,11 @@
 		{
 			dependencies: ["4F05B719FF46DED2"]
 			id: "76ECB0B43AC41040"
-			subtitle: "Crafted using 9 Ostrum Ingots"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
 			tasks: [{
 				count: 3L
 				id: "7B286DF6D0408363"
-				item: "ad_astra:ostrum_block"
+				item: "forge_frontier:ostrum_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1354,7 +1356,7 @@
 				}
 			]
 			x: 24.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			description: ["Prepare for the ultimate lift-off with the Tier 3 Rocket, unlocking the scorching worlds of Mercury and Venus! Strap in and ignite the engines for a journey to Mercury, where hidden structures and rare treasures await beneath the intense solar glare. But the adventure doesn’t stop there—Venus holds even more, with mysterious ruins and loot, along with rare Calorite and Pyroclast Molten Vents, filled with minerals that can later be refined into powerful Calorite. These fiery worlds are brimming with untold riches and challenges for the bold—are you ready to soar into the heart of the solar system?"]
@@ -1363,7 +1365,7 @@
 			rewards: [
 				{
 					id: "36DF50BBD5A3388F"
-					item: "ad_astra:ostrum_block"
+					item: "ad_astra:ostrum_ingot"
 					type: "item"
 				}
 				{
@@ -1494,11 +1496,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "06F29BB41872D89B"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 11L
 				id: "466148B264B32748"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1507,11 +1509,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "0820016566428C09"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 12L
 				id: "40A80E15D52F1009"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1520,11 +1522,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "4F87CA93B18A71EB"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 13L
 				id: "064E9AFCDEACC771"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1533,11 +1535,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "6679964510C3C5D8"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 9L
 				id: "7AB8D97AA0810CAD"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1546,11 +1548,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "35D20D04D7251392"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 10L
 				id: "6544C47B20813139"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1559,11 +1561,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "3EF4CB029173DA22"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 7L
 				id: "0397D292249191CB"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1572,11 +1574,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "17460389DDB00577"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 8L
 				id: "4D09521D56A3F49C"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1585,11 +1587,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "12460FEA4843F343"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 4L
 				id: "030F326443E25651"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1598,11 +1600,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "1F4095035614D1BD"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 5L
 				id: "6B1805AFFFDCF3ED"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1611,11 +1613,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "526072E5CD4532E5"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 6L
 				id: "1A800C39286CFB4B"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1624,10 +1626,10 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "75857FAAC4959D7D"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				id: "79CAB800567A42D0"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1636,11 +1638,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "75FD8483F8BF0E57"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 2L
 				id: "2B23E986E4E30D7B"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1649,11 +1651,11 @@
 		{
 			dependencies: ["088C2263FA4E3A27"]
 			id: "3B625707B71310BC"
-			subtitle: "Crafted using 9 Calorite Ingots"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
 			tasks: [{
 				count: 3L
 				id: "5D3143AC924F7C50"
-				item: "ad_astra:calorite_block"
+				item: "forge_frontier:calorite_rocket_casing"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1780,7 +1782,7 @@
 			rewards: [
 				{
 					id: "1FA64A0057541C0A"
-					item: "ad_astra:calorite_block"
+					item: "ad_astra:calorite_ingot"
 					type: "item"
 				}
 				{
@@ -1799,7 +1801,7 @@
 			}]
 			title: "Tier 4 Rocket Introduction"
 			x: -3.5d
-			y: 16.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["7FEE2D38BA934C28"]
@@ -1915,7 +1917,7 @@
 			tasks: [{
 				count: 11L
 				id: "6FC2B2F2FAE6177B"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1928,7 +1930,7 @@
 			tasks: [{
 				count: 12L
 				id: "07FB81694D1AE942"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 10.0d
@@ -1941,7 +1943,7 @@
 			tasks: [{
 				count: 13L
 				id: "1FC41F61BD08BC68"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1954,7 +1956,7 @@
 			tasks: [{
 				count: 9L
 				id: "0BC748A0C7E430DE"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1967,7 +1969,7 @@
 			tasks: [{
 				count: 10L
 				id: "627772446C70FBB4"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -1980,7 +1982,7 @@
 			tasks: [{
 				count: 7L
 				id: "0CE8A546566F7ACC"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1993,7 +1995,7 @@
 			tasks: [{
 				count: 8L
 				id: "3922415A43996967"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -2002,11 +2004,11 @@
 		{
 			dependencies: ["7FEE2D38BA934C28"]
 			id: "538A110CF1818692"
-			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
 			tasks: [{
 				count: 4L
 				id: "484E3DA31ABF76FB"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -2019,7 +2021,7 @@
 			tasks: [{
 				count: 5L
 				id: "3CE44E80AA7F91CE"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 10.0d
@@ -2032,7 +2034,7 @@
 			tasks: [{
 				count: 6L
 				id: "4A8CE4343556C4E4"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -2041,10 +2043,10 @@
 		{
 			dependencies: ["7FEE2D38BA934C28"]
 			id: "627E4D9CF3433609"
-			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
 			tasks: [{
 				id: "34EF0F1729381F07"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 9.0d
@@ -2053,11 +2055,11 @@
 		{
 			dependencies: ["7FEE2D38BA934C28"]
 			id: "454A87E7C7505626"
-			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
 			tasks: [{
 				count: 2L
 				id: "01F7AF56684C82CA"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 10.0d
@@ -2066,11 +2068,11 @@
 		{
 			dependencies: ["7FEE2D38BA934C28"]
 			id: "7AD0A6836CD51F74"
-			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
 			tasks: [{
 				count: 3L
 				id: "743663C859D43ED2"
-				item: "enlightened_end:malachite_block"
+				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
 			x: 11.0d
@@ -2206,11 +2208,12 @@
 				"Descend into Forlorn Hollows, a pitch-black landscape of Guanostone, where malevolent forces lurk and eerie whispers echo through the darkness. Venture further to the submerged Abyssal Chasm, an oceanic abyss lined with strange ruins and home to the elusive Deep Ones. Finally, step into Primordial Caves, an ancient, glowing world full of massive flora and remnants of life untouched by time. Each planet holds unique resources and rare ores, waiting for those bold enough to unlock their secrets. Prepare for a journey into these dark, foreboding worlds—are you ready for the next level of exploration?"
 			]
 			hide_dependent_lines: true
+			icon: "minecraft:end_stone"
 			id: "7FEE2D38BA934C28"
 			rewards: [
 				{
 					id: "1F324EED60D626ED"
-					item: "enlightened_end:malachite_block"
+					item: "enlightened_end:malachite"
 					type: "item"
 				}
 				{
@@ -2341,11 +2344,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "47EE121EC010E4E8"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 11L
 				id: "687C2E76EB532D6C"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2354,11 +2357,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "717CAD4F1971C767"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 12L
 				id: "2E76AAAF757B380E"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 24.5d
@@ -2367,11 +2370,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "65C4980E9F1C8CC7"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 13L
 				id: "7C42AC527323E35E"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -2380,11 +2383,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "22C332F889205E0C"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 9L
 				id: "0F7952964A527846"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2393,11 +2396,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "279D9CD0D349EC36"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 10L
 				id: "1F4113EB6064254F"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -2406,11 +2409,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "75B02CFC7F41247E"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 7L
 				id: "088CD9465BF8FC40"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2419,11 +2422,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "4C6BC1FF48970321"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 8L
 				id: "185B06EF34A59422"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -2432,11 +2435,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "1B8804433605B911"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 4L
 				id: "582F53063B8D4858"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2445,11 +2448,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "76E55D6D74685192"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 5L
 				id: "2DA0735C7BFBD1E9"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 24.5d
@@ -2458,11 +2461,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "4D6E135BFDB8409F"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 6L
 				id: "03F9FB1AC7028D40"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d
@@ -2471,10 +2474,10 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "4073D86838330B5E"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				id: "115F3719091B104E"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 23.5d
@@ -2483,11 +2486,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "62553737C9CC3159"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 2L
 				id: "08E8B0BC539177A2"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 24.5d
@@ -2496,11 +2499,11 @@
 		{
 			dependencies: ["20BB2E7B405CA851"]
 			id: "1D9C233C73BB45A7"
-			subtitle: "Crafted Using 2 Magma Blocks and Flood Basalt, which is Found in the Primordial Caves"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
 			tasks: [{
 				count: 3L
 				id: "17DC8AD7EFA64254"
-				item: "alexscaves:primal_magma"
+				item: "forge_frontier:primal_magma_rocket_casing"
 				type: "item"
 			}]
 			x: 25.5d

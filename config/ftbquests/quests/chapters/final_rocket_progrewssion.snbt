@@ -12,29 +12,29 @@
 	images: [
 		{
 			click: "#262FF2B00E853521"
-			height: 15.0d
+			height: 25.0d
 			hover: ["Forge Rocket, Click image for more info!"]
 			image: "ftb:textures/forge_rocket.png"
 			rotation: 0.0d
-			width: 7.647058823529411d
+			width: 12.5d
 			x: 2.0d
-			y: -6.25d
+			y: -9.5d
 		}
 		{
-			height: 10.0d
+			height: 20.0d
 			image: "ftb:textures/forge_rocket_title.png"
 			rotation: 0.0d
-			width: 15.0d
+			width: 25.0d
 			x: 2.0d
-			y: -12.5d
+			y: -19.5d
 		}
 		{
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_nose_cone.png"
 			rotation: 0.0d
 			width: 3.075d
-			x: -13.0d
-			y: 13.0d
+			x: -12.5d
+			y: 12.0d
 		}
 		{
 			height: 10.0d
@@ -42,63 +42,39 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -12.5d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: -9.0d
-			y: 9.0d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_alloy.png"
 			rotation: 0.0d
 			width: 2.8444444444444446d
-			x: 0.5d
-			y: 14.5d
-		}
-		{
-			height: 2.5d
-			image: "ftb:textures/_forge_frontier_item_application_rocket_casing.png"
-			rotation: 0.0d
-			width: 6.8d
-			x: 6.5d
-			y: 9.0d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_casing_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 2.5d
-			y: 5.5d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_door.png"
 			rotation: 0.0d
 			width: 3.0120481927710845d
-			x: 19.0d
-			y: 14.0d
+			x: 16.5d
+			y: 12.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_door_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 19.0d
-			y: 6.5d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: 22.0d
-			y: 10.0d
+			x: 16.5d
+			y: 4.0d
 		}
 		{
 			height: 2.0d
@@ -106,7 +82,7 @@
 			rotation: 0.0d
 			width: 2.9761904761904763d
 			x: -13.5d
-			y: 28.5d
+			y: 26.0d
 		}
 		{
 			height: 10.0d
@@ -114,15 +90,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -13.5d
-			y: 22.5d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: -10.5d
-			y: 25.0d
+			y: 19.0d
 		}
 		{
 			height: 2.0d
@@ -130,7 +98,7 @@
 			rotation: 0.0d
 			width: 2.901098901098901d
 			x: 2.5d
-			y: 28.0d
+			y: 25.0d
 		}
 		{
 			height: 10.0d
@@ -138,79 +106,71 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 2.5d
-			y: 22.5d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: 5.0d
-			y: 25.0d
+			y: 19.0d
 		}
 		{
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_core.png"
 			rotation: 0.0d
 			width: 3.3d
-			x: 18.5d
-			y: 29.0d
+			x: 17.5d
+			y: 27.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_core_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 18.5d
-			y: 21.5d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: 21.5d
-			y: 25.0d
+			x: 17.5d
+			y: 19.0d
 		}
 		{
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_fin_left.png"
 			rotation: 0.0d
 			width: 2.898876404494382d
-			x: -14.0d
-			y: 44.5d
+			x: -5.5d
+			y: 39.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/left_fin_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -14.0d
-			y: 37.5d
+			x: -5.5d
+			y: 32.0d
 		}
 		{
 			height: 1.0d
 			image: "ad_astra:textures/gui/sprites/arrow.png"
 			rotation: 0.0d
 			width: 1.6666666666666667d
-			x: -11.0d
-			y: 41.0d
+			x: -2.5d
+			y: 35.5d
 		}
 		{
 			height: 2.0d
 			image: "ftb:textures/_forge_frontier_mechanical_crafting_forge_rocket_fin_right.png"
 			rotation: 0.0d
 			width: 2.9195402298850577d
-			x: 2.5d
-			y: 44.0d
+			x: 9.0d
+			y: 38.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/right_fin_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 2.5d
-			y: 37.5d
+			x: 9.0d
+			y: 32.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 12.0d
+			y: 35.5d
 		}
 		{
 			height: 1.0d
@@ -218,7 +178,7 @@
 			rotation: 0.0d
 			width: 1.6666666666666667d
 			x: 5.5d
-			y: 41.0d
+			y: 8.0d
 		}
 	]
 	order_index: 6
@@ -305,7 +265,7 @@
 				}
 			]
 			x: 2.0d
-			y: -11.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -322,8 +282,8 @@
 				item: "forge_frontier:forge_rocket_fin_left"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.75d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -339,8 +299,8 @@
 				item: "forge_frontier:forge_rocket_fin_left"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.25d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -357,8 +317,8 @@
 				item: "forge_frontier:forge_rocket_fin_right"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.75d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -374,8 +334,8 @@
 				item: "forge_frontier:forge_rocket_fin_right"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.25d
+			x: 5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -392,7 +352,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.25d
+			y: -5.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -410,7 +370,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.25d
+			y: -5.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -427,7 +387,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -3.25d
+			y: -5.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -451,7 +411,7 @@
 				}
 			]
 			x: 2.0d
-			y: -2.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -469,7 +429,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.25d
+			y: -6.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -487,7 +447,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -4.25d
+			y: -6.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -505,7 +465,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -4.25d
+			y: -6.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -523,7 +483,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.25d
+			y: -8.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -541,7 +501,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.25d
+			y: -8.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -559,7 +519,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -6.25d
+			y: -9.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -577,7 +537,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -6.25d
+			y: -9.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -595,7 +555,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -7.25d
+			y: -11.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -613,7 +573,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.25d
+			y: -11.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -631,7 +591,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -7.25d
+			y: -11.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -648,7 +608,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -8.25d
+			y: -12.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -666,7 +626,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.25d
+			y: -12.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -684,7 +644,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -8.25d
+			y: -12.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -708,7 +668,7 @@
 				}
 			]
 			x: 2.0d
-			y: -9.25d
+			y: -15.0d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -725,7 +685,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.25d
+			y: -9.5d
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
@@ -745,7 +705,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.25d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -767,7 +727,7 @@
 			}]
 			title: "Forge Rocket Introduction"
 			x: 2.0d
-			y: -0.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -784,8 +744,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 7.0d
+			x: -12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -802,8 +762,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 7.0d
+			x: -14.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -820,8 +780,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 7.0d
+			x: -13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -838,8 +798,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 7.0d
+			x: -11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -856,8 +816,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 7.0d
+			x: -10.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -874,8 +834,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 8.0d
+			x: -14.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -892,8 +852,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 8.0d
+			x: -10.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -910,8 +870,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 9.0d
+			x: -14.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -928,8 +888,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 9.0d
+			x: -10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -946,8 +906,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 10.0d
+			x: -14.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -964,8 +924,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 10.0d
+			x: -10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -982,8 +942,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 11.0d
+			x: -12.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1000,8 +960,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 8.0d
+			x: -13.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1012,8 +972,8 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 9.0d
+			x: -12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1030,8 +990,8 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 11.0d
+			x: -14.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1048,8 +1008,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 11.0d
+			x: -13.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1066,8 +1026,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 10.0d
+			x: -12.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1084,8 +1044,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 10.0d
+			x: -11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1102,8 +1062,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 10.0d
+			x: -13.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1120,8 +1080,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 9.0d
+			x: -11.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1138,8 +1098,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.0d
-			y: 11.0d
+			x: -10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1150,8 +1110,8 @@
 				item: "cataclysm:soul_render"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 8.0d
+			x: -12.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1162,8 +1122,8 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 8.0d
+			x: -11.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1180,8 +1140,8 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 9.0d
+			x: -13.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66D6C6A425AF48A8"]
@@ -1198,51 +1158,12 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 11.0d
-		}
-		{
-			dependencies: [
-				"10622F361011CB8D"
-				"707BE9E6F479E8AD"
-				"64399941DFB2A700"
-				"07FB3DFAA3D85C95"
-				"2E72579CC7C70527"
-				"65FE0F963EA02086"
-				"3C40155C09BE352D"
-				"20CE801B1C3135B7"
-				"6C1BFD24E98941AD"
-				"629457FD68736CC6"
-				"33036CEFC78CACBD"
-				"469238B1CF3B21C6"
-				"1C93CB7C78223893"
-				"01C6755A2144B2F8"
-				"243D72631150166A"
-				"3343738F7E731B9A"
-				"51FF9610C39CA1D5"
-				"3F35A78827F7CA22"
-				"48EFFFA049A30504"
-				"2AF6BA87B0BC3C64"
-				"3EFA0C835FBE21B7"
-				"1BF2E8B90C3BFA87"
-				"62DC06E6DB52DC11"
-				"4FF96EE047C7D563"
-				"45CE256EDFD2214D"
-			]
-			description: [""]
-			hide_dependency_lines: true
-			id: "1A5DCF6D665473DB"
-			subtitle: "The pointed tip of the Forge Rocket, designed for aerodynamic stability and smoother entry through atmospheres. Essential for completing the rocket build. "
-			tasks: [{
-				id: "1E0923F853BBCFF0"
-				item: "forge_frontier:forge_rocket_nose_cone"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 9.0d
+			x: -11.5d
+			y: 10.0d
 		}
 		{
 			hide_dependent_lines: true
+			icon: "forge_frontier:forge_rocket_nose_cone"
 			id: "66D6C6A425AF48A8"
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
@@ -1250,8 +1171,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: -17.5d
-			y: 9.0d
+			x: -17.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1262,8 +1183,8 @@
 				item: "forge_frontier:compressed_lead_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.5d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1274,8 +1195,8 @@
 				item: "forge_frontier:compressed_aluminum_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1286,8 +1207,8 @@
 				item: "forge_frontier:compressed_malachite_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1298,8 +1219,8 @@
 				item: "forge_frontier:compressed_irradium_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1310,8 +1231,8 @@
 				item: "forge_frontier:compressed_bismuth_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.5d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1322,8 +1243,8 @@
 				item: "forge_frontier:compressed_desh_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.5d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1334,8 +1255,8 @@
 				item: "forge_frontier:compressed_ostrum_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.5d
+			x: 2.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1346,8 +1267,8 @@
 				item: "forge_frontier:compressed_calorite_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.5d
+			x: 3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1358,8 +1279,8 @@
 				item: "forge_frontier:compressed_scarlet_neodymium_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.5d
+			x: 0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1370,8 +1291,8 @@
 				item: "forge_frontier:compressed_azure_neodymium_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.5d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1382,8 +1303,8 @@
 				item: "forge_frontier:compressed_uranium_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.5d
+			x: 2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1394,8 +1315,8 @@
 				item: "forge_frontier:compressed_amber_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.5d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1406,8 +1327,8 @@
 				item: "forge_frontier:compressed_sulfur_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.5d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1418,8 +1339,8 @@
 				item: "forge_frontier:compressed_guano_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 11.5d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1430,8 +1351,8 @@
 				item: "forge_frontier:compressed_pearl_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.5d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1442,8 +1363,8 @@
 				item: "forge_frontier:compressed_mithril_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.5d
+			x: 3.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1454,8 +1375,8 @@
 				item: "forge_frontier:compressed_industrial_iron_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 12.5d
+			x: 0.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1466,8 +1387,8 @@
 				item: "forge_frontier:compressed_void_steel_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.5d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1478,8 +1399,8 @@
 				item: "forge_frontier:compressed_netherite-diamond_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 12.5d
+			x: 2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1490,56 +1411,27 @@
 				item: "forge_frontier:compressed_ethium_1x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.5d
+			x: 3.5d
+			y: 10.0d
 		}
 		{
-			dependencies: [
-				"05B3C1EA21803DF9"
-				"286780F7814926B8"
-				"4579583A3455FFF4"
-				"353E7BD7A9A0F94B"
-				"7AAFF03DB14B563A"
-				"7A49199AD7C67856"
-				"6384135DAEA1989D"
-				"3D492F19757FBF68"
-				"441F7841C05A866D"
-				"2699748D3172F7AA"
-				"596CDD93A165CE36"
-				"102FDF88DD007049"
-				"71DCABE706D3F906"
-				"0E073BDDBE007735"
-				"1A6B742AD4174067"
-				"78A698F4BD970E34"
-				"262FB7030C4331FA"
-				"5FCCB2083412B001"
-				"645095D1F886FAB8"
-				"33D089BFFBB8ACA8"
+			description: [
+				"The forge rocket casing is obtained by applying Forge Alloy to the Primal Magma Rocket Casing"
+				"{image:ftb:textures/_forge_frontier_item_application_forge_rocket_casing_using_deployer.png width:200 height:108 align:center}"
 			]
-			dependency_requirement: "all_started"
-			hide_dependency_lines: true
-			id: "1BD0B917B705AEE1"
-			tasks: [{
-				id: "256871A5B6261311"
-				item: "forge_frontier:forge_alloy"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1BD0B917B705AEE1"]
 			id: "60824E7CD9F212EC"
+			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "5396235F5B56FDE2"
 				item: "forge_frontier:forge_rocket_casing"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			hide_dependent_lines: true
+			icon: "forge_frontier:forge_alloy"
 			id: "5989CA8F6DA5A13D"
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
@@ -1547,8 +1439,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: 10.5d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1559,8 +1451,8 @@
 				item: "ad_astra:mars_stone"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 9.0d
+			x: 18.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1571,8 +1463,8 @@
 				item: "ad_astra:glacio_stone"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 10.0d
+			x: 17.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1583,8 +1475,8 @@
 				item: "ad_astra:venus_stone"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 10.0d
+			x: 16.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1595,8 +1487,8 @@
 				item: "ad_astra:moon_stone"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 9.0d
+			x: 15.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1607,8 +1499,8 @@
 				item: "ad_astra:mercury_stone"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 10.0d
+			x: 15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1619,8 +1511,8 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 8.0d
+			x: 15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1631,8 +1523,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 8.0d
+			x: 16.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1643,8 +1535,8 @@
 				item: "deeperdarker:sculk_stone"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 8.0d
+			x: 17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1655,8 +1547,8 @@
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 8.0d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1667,8 +1559,8 @@
 				item: "alexscaves:muck"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 10.0d
+			x: 18.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1679,8 +1571,8 @@
 				item: "alexscaves:guanostone"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 11.0d
+			x: 15.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1691,8 +1583,8 @@
 				item: "alexscaves:limestone"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 11.0d
+			x: 18.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1703,8 +1595,8 @@
 				item: "alexscaves:cake_layer"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 12.0d
+			x: 15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1715,8 +1607,8 @@
 				item: "alexscaves:radrock"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 12.0d
+			x: 17.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1727,8 +1619,8 @@
 				item: "alexscaves:galena"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 12.0d
+			x: 16.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7EAF87C66A707E09"]
@@ -1739,41 +1631,12 @@
 				item: "createteleporters:custom_portal"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 12.0d
-		}
-		{
-			dependencies: [
-				"0269CE3F9FC98ABE"
-				"3D71B7E1751CDACF"
-				"75EB969258119A0C"
-				"484E734FFCC7AEC3"
-				"3743F593E6D01606"
-				"5C62D6059DEA012A"
-				"07C1FFC3335345FB"
-				"62FCE0C4508928FC"
-				"7076261298C5A0B0"
-				"120690651425F774"
-				"50D04A7D531CB082"
-				"13ED01872525019B"
-				"68D0F65427476975"
-				"446905E1C34D6D52"
-				"3D241AF0CAF1D9BD"
-				"397385400BBFACB3"
-			]
-			hide_dependency_lines: true
-			id: "6A4E5B8651CA1F22"
-			subtitle: "A reinforced access door for entering and exiting the Forge Rocket. Provides a secure seal, ensuring the rocket remains airtight during liftoff and in deep space. "
-			tasks: [{
-				id: "29ADAFB0058A0677"
-				item: "forge_frontier:forge_rocket_door"
-				type: "item"
-			}]
-			x: 23.5d
+			x: 18.0d
 			y: 10.0d
 		}
 		{
 			hide_dependent_lines: true
+			icon: "forge_frontier:forge_rocket_door"
 			id: "7EAF87C66A707E09"
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
@@ -1781,8 +1644,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: 15.0d
-			y: 10.0d
+			x: 12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1798,7 +1661,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 24.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1815,7 +1678,7 @@
 				type: "item"
 			}]
 			x: -14.0d
-			y: 24.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1831,7 +1694,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 24.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1847,7 +1710,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 24.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1859,7 +1722,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 25.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1878,7 +1741,7 @@
 				type: "item"
 			}]
 			x: -14.0d
-			y: 25.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1890,7 +1753,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 25.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1902,7 +1765,7 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 25.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1914,7 +1777,7 @@
 				type: "item"
 			}]
 			x: -15.0d
-			y: 26.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1926,7 +1789,7 @@
 				type: "item"
 			}]
 			x: -14.0d
-			y: 26.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1938,7 +1801,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 26.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["775BA7278045F015"]
@@ -1950,35 +1813,11 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 26.0d
-		}
-		{
-			dependencies: [
-				"0BCF950AB2114854"
-				"7F821A23AF051675"
-				"1EB6902B6FCD4E91"
-				"327FAF70446D6D83"
-				"77DA9830B86C7C65"
-				"49C8BE20F9567EBB"
-				"12AB7D8A9369396D"
-				"0CFB0239CAD5D792"
-				"671DF351351EC625"
-				"719B8F6A771F37B7"
-				"1477301EF24575A1"
-				"7D30F1330720933C"
-			]
-			hide_dependency_lines: true
-			id: "0BF8B19F43CAC526"
-			tasks: [{
-				id: "29E0A9E0F620F1EB"
-				item: "forge_frontier:forge_rocket_tank"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 25.0d
+			y: 23.5d
 		}
 		{
 			hide_dependent_lines: true
+			icon: "forge_frontier:forge_rocket_tank"
 			id: "775BA7278045F015"
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
@@ -1987,7 +1826,7 @@
 				type: "checkmark"
 			}]
 			x: -17.5d
-			y: 25.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -1999,7 +1838,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 25.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2011,7 +1850,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 24.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2029,7 +1868,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 26.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2041,7 +1880,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 26.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2053,7 +1892,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 26.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2071,7 +1910,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 25.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2087,7 +1926,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 25.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2099,7 +1938,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 24.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["3E186F177E7D056E"]
@@ -2117,33 +1956,11 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 24.0d
-		}
-		{
-			dependencies: [
-				"41544A71C2124046"
-				"2B4FC6BF8BD6AFE4"
-				"4B97893867815C4A"
-				"2DB29D279BB0EFA0"
-				"75AB34B8EFD7C6D1"
-				"7641DB332FE13744"
-				"76E818891088F995"
-				"7296521A5EF5F384"
-				"19A777BA8D824CA1"
-			]
-			hide_dependency_lines: true
-			id: "62E3B12BF0527891"
-			subtitle: "The powerhouse of the Forge Rocket, responsible for propelling it into space. Built to endure high thrust and extreme temperatures, this engine is key to reaching new frontiers. "
-			tasks: [{
-				id: "0FDA72DD27C28BD5"
-				item: "forge_frontier:forge_rocket_engine"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 25.0d
+			y: 21.0d
 		}
 		{
 			hide_dependent_lines: true
+			icon: "forge_frontier:forge_rocket_engine"
 			id: "3E186F177E7D056E"
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
@@ -2152,7 +1969,7 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: 25.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2163,8 +1980,8 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 25.0d
+			x: 17.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2175,8 +1992,8 @@
 				item: "create_additions_synthetics:creative_core"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 24.0d
+			x: 17.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2187,8 +2004,8 @@
 				item: "create_power_loader:brass_chunk_loader"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 26.0d
+			x: 17.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2199,8 +2016,8 @@
 				item: "tfmg:steel_mechanism"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 26.0d
+			x: 18.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2211,8 +2028,8 @@
 				item: "create_things_and_misc:vibration_mechanism"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 26.0d
+			x: 16.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2223,8 +2040,8 @@
 				item: "create_dd:integrated_mechanism"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 25.0d
+			x: 18.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2235,8 +2052,8 @@
 				item: "create_dd:sealed_mechanism"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 25.0d
+			x: 16.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2247,8 +2064,8 @@
 				item: "create_dd:inductive_mechanism"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 24.0d
+			x: 16.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2259,8 +2076,8 @@
 				item: "create_dd:infernal_mechanism"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 24.0d
+			x: 18.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2271,8 +2088,8 @@
 				item: "create_dd:calculation_mechanism"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 23.0d
+			x: 18.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2283,8 +2100,8 @@
 				item: "createteleporters:quantum_mechanism"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 23.0d
+			x: 16.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2295,8 +2112,8 @@
 				item: "create_dd:stargaze_singularity"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 23.0d
+			x: 17.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2307,8 +2124,8 @@
 				item: "create_sa:steam_engine"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 27.0d
+			x: 16.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2319,8 +2136,8 @@
 				item: "create_sa:heat_engine"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 27.0d
+			x: 17.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["31DB4D1C003118C7"]
@@ -2331,40 +2148,12 @@
 				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 27.0d
-		}
-		{
-			dependencies: [
-				"0A1D520B2958930F"
-				"15D49D1E45C03B62"
-				"7DF3F851FD7C1413"
-				"0F110958CDECA588"
-				"5FE7F786F8865736"
-				"5C0D60A38483BDFC"
-				"563D5DD3C1D0ADCF"
-				"4439AEAF41FBC359"
-				"2507EA70A1FF821D"
-				"5B08F4C951BE34C9"
-				"7B8042B0097F8BF7"
-				"5510DF2FCBC6B480"
-				"499A2BC61FD612B1"
-				"06EC7D41D031EC62"
-				"67B9076DFB706A9A"
-			]
-			hide_dependency_lines: true
-			id: "2707014306776FEA"
-			subtitle: "The heart of the Forge Rocket, the Core powers and coordinates all essential systems, from navigation to life support. This critical component keeps the rocket stable and on course, making it indispensable for your journey to the final frontier. "
-			tasks: [{
-				id: "2063720A5F79931A"
-				item: "forge_frontier:forge_rocket_core"
-				type: "item"
-			}]
-			x: 23.5d
+			x: 18.5d
 			y: 25.0d
 		}
 		{
 			hide_dependent_lines: true
+			icon: "forge_frontier:forge_rocket_core"
 			id: "31DB4D1C003118C7"
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
@@ -2372,8 +2161,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: 15.0d
-			y: 25.0d
+			x: 14.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2384,8 +2173,8 @@
 				item: "farmersdelight:shepherds_pie_block"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 40.5d
+			x: -6.0d
+			y: 35.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2396,8 +2185,8 @@
 				item: "alexsdelight:kangaroo_pasta"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 40.5d
+			x: -5.0d
+			y: 35.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2408,8 +2197,8 @@
 				item: "ends_delight:dragon_leg_with_sauce_block"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 40.5d
+			x: -4.0d
+			y: 35.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2420,8 +2209,8 @@
 				item: "delightful:smore"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 40.5d
+			x: -7.0d
+			y: 35.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2432,8 +2221,8 @@
 				item: "casualness_delight:donkey_burger"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 41.5d
+			x: -7.0d
+			y: 36.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2444,8 +2233,8 @@
 				item: "nethersdelight:stuffed_hoglin"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 41.5d
+			x: -6.0d
+			y: 36.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2456,8 +2245,8 @@
 				item: "adastradelight:cheeseburger"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 41.5d
+			x: -5.0d
+			y: 36.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2468,8 +2257,8 @@
 				item: "naturalistdelight:duck_soup"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 41.5d
+			x: -4.0d
+			y: 36.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2480,8 +2269,8 @@
 				item: "appliedenergisticsdelight:charged_apple_cider"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 42.5d
+			x: -7.0d
+			y: 37.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2492,8 +2281,8 @@
 				item: "alexscavesdelight:toxic_hamburger"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 42.5d
+			x: -6.0d
+			y: 37.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2504,8 +2293,8 @@
 				item: "alexscavesdelight:heart_of_iron_humburger"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 42.5d
+			x: -5.0d
+			y: 37.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2516,8 +2305,8 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 42.5d
+			x: -4.0d
+			y: 37.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2528,8 +2317,8 @@
 				item: "silentsdelight:plated_warden_heart"
 				type: "item"
 			}]
-			x: -15.5d
-			y: 39.5d
+			x: -7.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2540,8 +2329,8 @@
 				item: "miners_delight:improvised_barbecue_stick"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 39.5d
+			x: -6.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2552,8 +2341,8 @@
 				item: "oceansdelight:cabbage_wrapped_elder_guardian"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 39.5d
+			x: -4.0d
+			y: 34.0d
 		}
 		{
 			dependencies: ["5ACA08F426B26898"]
@@ -2564,8 +2353,8 @@
 				item: "aquaculturedelight:rollmops"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 39.5d
+			x: -5.0d
+			y: 34.0d
 		}
 		{
 			dependencies: [
@@ -2594,8 +2383,8 @@
 				item: "forge_frontier:forge_rocket_fin_left"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 41.0d
+			x: -0.5d
+			y: 35.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -2606,8 +2395,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: -18.0d
-			y: 41.0d
+			x: -9.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2618,8 +2407,8 @@
 				item: "apotheosis:filtering_shelf"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 40.0d
+			x: 8.5d
+			y: 34.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2630,8 +2419,8 @@
 				item: "apotheosis:treasure_shelf"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 40.0d
+			x: 9.5d
+			y: 34.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2642,8 +2431,8 @@
 				item: "apotheosis:extraction_tome"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 40.0d
+			x: 10.5d
+			y: 34.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2654,8 +2443,8 @@
 				item: "apotheosis:rectifier_t3"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 40.0d
+			x: 7.5d
+			y: 34.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2666,8 +2455,8 @@
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 39.0d
+			x: 7.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2678,8 +2467,8 @@
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 39.0d
+			x: 8.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2690,8 +2479,8 @@
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 39.0d
+			x: 9.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2702,8 +2491,8 @@
 				item: "apotheosis:sightshelf_t2"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 39.0d
+			x: 10.5d
+			y: 33.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2714,8 +2503,8 @@
 				item: "create_enchantment_industry:hyper_experience_bottle"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 41.0d
+			x: 7.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2726,8 +2515,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 41.0d
+			x: 8.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2738,8 +2527,8 @@
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 41.0d
+			x: 9.5d
+			y: 35.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2750,8 +2539,8 @@
 				item: "experienceobelisk:nightmare_bottle"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 42.0d
+			x: 8.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2762,8 +2551,8 @@
 				item: "experienceobelisk:daydream_bottle"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 42.0d
+			x: 9.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2774,8 +2563,8 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 42.0d
+			x: 10.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2786,8 +2575,8 @@
 				item: "experienceobelisk:bibliophage"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 42.0d
+			x: 7.5d
+			y: 36.5d
 		}
 		{
 			dependencies: ["12B37EE213109C14"]
@@ -2802,8 +2591,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 41.0d
+			x: 10.5d
+			y: 35.5d
 		}
 		{
 			dependencies: [
@@ -2832,8 +2621,8 @@
 				item: "forge_frontier:forge_rocket_fin_right"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 41.0d
+			x: 13.5d
+			y: 35.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -2844,8 +2633,8 @@
 				title: "Forge Rocket Check"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 41.0d
+			x: 4.5d
+			y: 35.5d
 		}
 	]
 	title: "Final Rocket Progression"

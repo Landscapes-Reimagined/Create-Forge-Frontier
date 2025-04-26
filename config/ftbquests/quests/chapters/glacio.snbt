@@ -224,11 +224,6 @@
 			subtitle: "Click me for more info!"
 			tasks: [
 				{
-					id: "334839DB590B1937"
-					structure: "ae2:meteorite"
-					type: "structure"
-				}
-				{
 					id: "7922B1BB31DD61DB"
 					structure: "incendium:sanctum"
 					type: "structure"
@@ -236,7 +231,6 @@
 				{
 					id: "14E293FB17B73132"
 					structure: "cataclysm:frosted_prison"
-					title: "Frozen Monuments: Exploring Glacio's Structures"
 					type: "structure"
 				}
 			]

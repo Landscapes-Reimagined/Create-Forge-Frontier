@@ -58,7 +58,7 @@
 				value: 100
 			}]
 			title: "FTB Quests"
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -91,7 +91,7 @@
 				type: "advancement"
 			}]
 			title: "FTB Homes"
-			x: -3.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -132,7 +132,7 @@
 				type: "advancement"
 			}]
 			title: "FTB Chunks"
-			x: 1.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -218,7 +218,54 @@
 				type: "advancement"
 			}]
 			title: "FTB Essentials"
-			x: -1.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A0238D4FDD5FF80"]
+			description: [
+				"FTB Ultimine revolutionizes the mining experience by allowing players to break multiple blocks at once with a single action. Whether you're clearing out massive ore veins, flattening terrain, or carving underground bases, Ultimine makes resource gathering faster, smoother, and far more satisfying."
+				""
+				"With a simple key press, you can instantly harvest clusters of blocks based on the tool you're using—saving time and energy as you build and explore."
+				""
+				"{@pagebreak}"
+				""
+				"Here’s how to get the most out of FTB Ultimine:"
+				""
+				"&lConfigurable Mining Shapes&r: Choose from various mining patterns like tunnels, 3x3 areas, veins, and more—tailor your mining style to fit the task at hand."
+				""
+				"&lEfficient Resource Collection&r: No more tedious digging—gather vast amounts of stone, ores, or dirt in moments, with all the drops neatly at your feet."
+				""
+				"&lCreate Compatibility&r: Thanks to a powerful addon, you can now Ultimine Create’s Wrench and Create’s Item Applications! Quickly clear mechanical blocks or adjust complex builds with the same Ultimine convenience."
+				""
+				"{@pagebreak}"
+				""
+				"With FTB Ultimine, mining is no longer a chore—it’s an empowering tool that accelerates your journey, letting you focus on crafting, building, and innovating without getting bogged down. Whether you're digging grand halls or hollowing mountains, Ultimine ensures that your grand visions come to life faster than ever."
+				""
+				"Press, mine, and conquer—FTB Ultimine brings the world to your fingertips! ⛏️✨"
+			]
+			id: "19FA24B07EA17024"
+			rewards: [
+				{
+					id: "6A9B4FB8D6212312"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "247D6CA00B5DBEB8"
+					item: "createcompression:compressed_cobblestone_2x"
+					type: "item"
+				}
+			]
+			subtitle: "FTB Ultimine: Mining Made Efficient and Fun"
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "6C45C8A68D817DEA"
+				type: "advancement"
+			}]
+			title: "FTB Ultimine"
+			x: 4.0d
 			y: 0.0d
 		}
 	]

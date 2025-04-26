@@ -197,11 +197,18 @@
 				type: "item"
 			}]
 			subtitle: "Click me for more info!"
-			tasks: [{
-				id: "438D481D85851815"
-				structure: "cataclysm:burning_arena"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "438D481D85851815"
+					structure: "cataclysm:burning_arena"
+					type: "structure"
+				}
+				{
+					id: "2A2011145D1F9BC1"
+					structure: "ae2:meteorite"
+					type: "structure"
+				}
+			]
 			title: "Exploring the Burning Arena"
 			x: 2.0d
 			y: 0.0d
