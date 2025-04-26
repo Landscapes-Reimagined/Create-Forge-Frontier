@@ -7,17 +7,17 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Ambient Sounds**: v6.1.6 → v6.1.9   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
-- **Apotheosis**: v7.4.6 → v7.4.7
+- **Apotheosis**: v7.4.6 → v7.4.8
 - **Aquaculture**: v2.5.4 → v2.5.5
 - **Artifacts**: v9.5.13 → v9.5.16
 - **Balm**: v7.3.18 → v7.3.27  
 - **Blueprint**: v7.1.1 → v7.1.3
 - **Botany Pots**: v13.0.40 → v13.0.41  
 - **Cataclysm**: v2.57 → v2.64  
-- **Cognition**: v2.3.0 → v2.3.6.1  
+- **Cognition**: v2.3.0 → v2.3.7  
 - **Collective**: v7.93 → v8.3
 - **Corpse Curios Compat**: v2.2.1 → v2.2.2  
-- **Copycat Plus**: [Temporarily Disabled]  
+- **Copycat Plus**: v2.2.2 → v3.0.0
 - **Create**: v0.5.1 → v6.0.4  
 - **Create Additions**: v1.2.5 → v1.3.1  
 - **Create Applied Kinetics**: v1.4.0 → v1.5.0  
@@ -97,17 +97,17 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Smooth Chunk**: v4.0 → v4.1
 - **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1230  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.46.962
-- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1133
+- **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1134
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
 - **Structure Credits**: v2.2.1 → v3.0 
 - **Structure Essentials**: v4.3 → v4.7  
-- **Supplementaries**: v3.1.18 → v3.1.28
+- **Supplementaries**: v3.1.18 → v3.1.30
 - **Tact**: v1.2.3 → v1.3.0  
 - **Terrablender**: v3.0.1.7 → v3.0.1.10 
 - **TFMG**: v0.9.3 → v0.9.3b
 - **Unusual End**: v2.2.3 → v2.3.0   
 - **WATUT**: v1.1.3 → v1.2.3
 - **Xaeros Minimap**: v25.1.0 → v25.2.0  
-- **XaeroPlus**: v2.26.3 → v2.26.6
+- **XaeroPlus**: v2.26.3 → v2.26.7
 - **Zeta**: v1.0-24 → v1.0-30  
 ---
