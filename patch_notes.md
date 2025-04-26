@@ -130,9 +130,6 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 - Create Immersive Aircraft Warship Resourepack: Never needed, because mod was removed ages ago
 - Create Construction wands: Incomplete pack and being replaced my new resource pack
 
-## 🔃 **Mod Loader Updates**
-Forge 47.3.33 → 47.4.0
-
 ## 🔥 **Forge Frontier Core Updates**  
 ---
 
