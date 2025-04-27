@@ -368,8 +368,47 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Old Eye in its dedicated chapter:"
-				"{ \"text\": \"Old Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11351D359F8A3CCB\" } }"
+				"Torn from the grasp of a mighty Sandworm, the &eOld Eye&r carries with it the enduring essence of deserts long buried by time.  "
+				"It glimmers faintly with the sands of legend, waiting for one worthy to rekindle its ancient power.  "
+				"To forge this relic, you must master &lMechanical Crafting&r and reclaim the treasures left behind by civilizations swallowed by shifting dunes.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_old_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The sands hide more than history—they guard relics touched by gods and kings alike.  "
+				"The following pages will guide you on your journey across forgotten deserts and cursed ruins."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Winged Sun&r:  "
+				"  An emblem of forgotten power, once worn by sun-kissed kings who ruled deserts with wisdom and might.  "
+				"  Seek this sacred relic within the ancient &eDesert Pyramid&r structures of &eIntegrated Dungeons and Structures (IDAS)&r.  "
+				"{image:ftb:textures/idas_pyramid.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lRa’s Scepter&r:  "
+				"  A divine weapon bathed in the light of the sun god himself. Its radiant power once seared across battlefields like the midday sun.  "
+				"  Find this artifact hidden deep within the &eDesert Temples&r revamped by &eBetter Desert Temples&r.  "
+				"{image:ftb:textures/better_pyramid.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lNecklace of the Desert&r:  "
+				"  A sacred charm buried within the &eCursed Pyramid&r on Venus, hidden among layers of &eSuspicious Sand&r left by the ancients.  "
+				"  It is said to hold the key to awakening forces long thought lost to legend.  "
+				"{image:ftb:textures/cursed_pyramid.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lRemnant’s Skull&r:  "
+				"  Claimed by defeating the &eAncient Remnant&r, a guardian entombed deep within the Cursed Pyramid’s heart.  "
+				"  It carries the final breath of an empire lost to time, and its defeat is the final test of your resolve.  "
+				"{image:ftb:textures/remnant.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🏜 &nThe desert is timeless, but it does not forgive.&r  "
+				"Only those who endure the heat, unearth the secrets buried in sand and stone, and overcome the ancient curses will restore the &eOld Eye&r and rekindle the fire of legends long past."
 			]
 			icon: {
 				Count: 1
@@ -379,20 +418,54 @@
 				}
 			}
 			id: "73B3517C59793125"
-			rewards: [{
-				id: "7C7F0458B68B4C64"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Torn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend. Click me for more info! "
-			tasks: [{
-				id: "1EA60D8885CD3B3E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:sand"
-				type: "observation"
-			}]
-			title: "Old Eye"
+			rewards: [
+				{
+					id: "0B28FAE6396C9EF5"
+					item: "cataclysm:modern_remnant_bucket"
+					type: "item"
+				}
+				{
+					id: "6C18B3E9F1CBB2B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reclaim the Old Eye and awaken the buried power of ancient kings. Click me for more info! "
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "12EB949A0523D20B"
+					type: "dimension"
+				}
+				{
+					id: "25BC60734F6D9091"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+				{
+					id: "49812CF7CA4B4951"
+					structure: "betterdeserttemples:desert_temple"
+					type: "structure"
+				}
+				{
+					id: "39B3728CC835FABE"
+					structure: "idas:desert_pyramid"
+					type: "structure"
+				}
+				{
+					id: "0B3524C9493ECB27"
+					item: {
+						Count: 1
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sands of Eternity"
 			x: 6.5d
 			y: 4.5d
 		}
