@@ -967,7 +967,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Forge the Corrupted Eye and claim fortune at the risk of your soul.. Click me for more info! "
+			subtitle: "Forge the Corrupted Eye and claim fortune at the risk of your soul. Click me for more info! "
 			tasks: [
 				{
 					icon: "create:ochrum"
@@ -1012,8 +1012,38 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Lost Eye in its dedicated chapter:"
-				"{ \"text\": \"Lost Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53D3EEC1993AF3D6\" } }"
+				"Forged by the first blacksmiths at the dawn of creation, the &6Lost Eye&r stands as a testament to divine craftsmanship—an artifact glowing with the fire of the earth’s very soul.  "
+				"To restore this ancient relic, you must master &lMechanical Crafting&r and gather remnants of a forgotten age.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_lost_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The pieces you seek are scattered between the molten depths of the Nether and the barren ruins of &cAd Astra’s Mars&r, where ancient battles of fire and stone still echo.  "
+				"The next few pages will guide you to reclaim the tools of the ancients."
+				""
+				"{@pagebreak}"
+				""
+				"- &lInfernal Forge&r and &lMonstrous Horn&r:  "
+				"  Both are prized trophies obtained by defeating the fearsome &eNetherite Monstrosity&r, a creature of molten rage found lurking within the &eSoul Blacksmith&r structure on Mars.  "
+				"  Its defeat is no small feat—steel your spirit and prepare for battle against a relic of chaos.  "
+				"{image:ftb:textures/smith.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lChisel of the Deep Forge&r:  "
+				"  Crafted in silence beneath the world’s crust, this legendary chisel shapes not just stone—but destiny itself.  "
+				"  It can be unearthed from the sacred ruins hidden among &eMars Temple&r treasures.  "
+				"{image:ftb:textures/mars_temple.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Debris&r:  "
+				"  Raw fragments of creation’s earliest forges, Ancient Debris can be found deep in the Nether, especially near &eDebris Molten Vents&r located on the Nether Roof, or naturally between &eY-Level 15&r and below.  "
+				"{image:ftb:textures/debris_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🔥 &nOnly those who can endure fire and fury may claim the Lost Eye.&r  "
+				"The path will test your mettle, your will, and your soul. But those who succeed will wield a relic forged by gods—the ember of creation itself, reborn through your triumph."
 			]
 			icon: {
 				Count: 1
@@ -1023,20 +1053,49 @@
 				}
 			}
 			id: "40C0805A32D59455"
-			rewards: [{
-				id: "34DA2991DFC6E0C3"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself. Click me for more info! "
-			tasks: [{
-				id: "1228CA203A8488A8"
-				observe_type: 0
-				timer: 0L
-				to_observe: "ad_astra:mars_sand"
-				type: "observation"
-			}]
-			title: "Lost Eye"
+			rewards: [
+				{
+					id: "79FE5FFEC52429A0"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+				{
+					id: "01E1EE3B008011CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Restore the Lost Eye and awaken the fire of the world's first forge. Click me for more info! "
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "075451F698852015"
+					type: "dimension"
+				}
+				{
+					id: "5DB1C936FA2AD33A"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+				{
+					id: "48DE64588FB199E4"
+					structure: "ad_astra:mars_temple"
+					type: "structure"
+				}
+				{
+					id: "22F794B9058D8166"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ember of Creation"
 			x: 2.0d
 			y: 2.0d
 		}
