@@ -237,7 +237,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
+			subtitle: "Unearth the Cold Eye, last echo of the vanished Iceologers. Click me for more info!"
 			tasks: [
 				{
 					dimension: "ad_astra:glacio"
@@ -261,7 +261,7 @@
 					type: "item"
 				}
 			]
-			title: "Cold Eye"
+			title: "Frozen Legacy"
 			x: -4.5d
 			y: 3.0d
 		}
