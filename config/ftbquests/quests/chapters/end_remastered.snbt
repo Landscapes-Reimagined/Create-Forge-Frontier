@@ -93,6 +93,7 @@
 				"Forging this mythical artifact will require your mastery of &lMechanical Crafting&r, using the ancient recipe shown below.  "
 				"{image:ftb:textures/_forge_frontier_mechancial_crafting_black_eye.png width:200 height:125 align:center}"
 				""
+				"{@pagebreak}"
 				"Each sacred component lies hidden within the cursed pirate ships scattered across the Seven Seas, brought forth by the mod &6When Dungeons Arise: Seven Seas&r.  "
 				"The next few pages will guide you to each relic needed to awaken the Black Eye."
 				""
@@ -191,6 +192,7 @@
 				"To recreate this relic, you must master the art of &lMechanical Crafting&r, using the ancient recipe shown below.  "
 				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cold_eye.png width:200 height:125 align:center}"
 				""
+				"{@pagebreak}"
 				"Each fragment needed to restore the Cold Eye lies hidden deep within the frozen wastelands of &9Ad Astra's Glacio&r—a world of endless ice and peril.  "
 				"The following pages will guide you through where to find each essential component."
 				""
@@ -241,6 +243,7 @@
 			tasks: [
 				{
 					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
 					id: "59B58EB151B1BD54"
 					type: "dimension"
 				}
@@ -904,6 +907,7 @@
 				"To forge this dark relic, you must master &lMechanical Crafting&r and gather treasures torn from the earth itself.  "
 				"{image:ftb:textures/_forge_frontier_mechancial_crafting_corrupted_eye.png width:200 height:125 align:center}"
 				""
+				"{@pagebreak}"
 				"The fragments required to complete the Corrupted Eye are tied to the veins of the world—where molten riches flow beneath the surface.  "
 				"The pages ahead will reveal where to find each gleaming piece of this cursed legacy."
 				""
