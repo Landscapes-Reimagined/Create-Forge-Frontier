@@ -589,6 +589,7 @@
 				"To forge this relic of protection, you must master &lMechanical Crafting&r and gather sacred relics scattered across ancient ruins and forgotten graves.  "
 				"{image:ftb:textures/_forge_frontier_mechancial_crafting_evil_eye.png width:200 height:125 align:center}"
 				""
+				"{@pagebreak}"
 				"The pieces required to complete the Evil Eye are bound to civilizations that once sought divine protection against the darkness.  "
 				"The following pages will guide you on your sacred journey."
 				""
@@ -704,8 +705,41 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Guardian Eye in its dedicated chapter:"
-				"{ \"text\": \"Guardian Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B60299370E1A854\" } }"
+				"Torn from the abyssal depths, the &3Guardian Eye&r is a relic that has borne witness to countless warriors dragged beneath the waves.  "
+				"It glistens with sorrow and power—the eternal memory of the ocean's silent grasp.  "
+				"To forge this watery talisman, you must master &lMechanical Crafting&r and reclaim the treasures guarded fiercely beneath the sea.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_guardian_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The ocean hides more than shipwrecks and ruins—it harbors ancient guardians and treasures untouched by the sun.  "
+				"The following pages will chart your path into the deep."
+				""
+				"{@pagebreak}"
+				""
+				"- &lGuardian Soup&r:  "
+				"  A potent broth crafted from the remains of fallen Guardians, mixed with rare ingredients from the depths.  "
+				"  Slay Guardians and gather the bounty needed at the &eOcean Monuments&r, reimagined by &eBetter Oceans Monuments&r.  "
+				"{image:ftb:textures/guardian.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCabbage Wrapped Elder Guardian&r:  "
+				"  A rare delicacy crafted from slices of Elder Guardians—creatures whose bulk and fury once terrified the seas.  "
+				"  Elder Guardian slices can be obtained only by killing Elder Guardians with a precise &eKnife&r.  "
+				"{image:ftb:textures/elder.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lSponges&r:  "
+				"  Ancient sponges, capable of absorbing the very life of the ocean, can be recovered from the hidden chambers within the &eBetter Oceans Monuments&r.  "
+				"  These natural relics hold the spirit of the drowned and are essential in the Eye's restoration.  "
+				"{image:ftb:textures/sponge.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌊 &nThe ocean remembers.&r  "
+				"To forge the Guardian Eye, you must brave the depths, face down ancient titans, and claim the sorrowful treasures of the abyss.  "
+				"Only those who embrace the ocean’s trials—without fear of its grasp—will awaken the power hidden within its tears."
 			]
 			icon: {
 				Count: 1
@@ -715,18 +749,49 @@
 				}
 			}
 			id: "7BAB96552BE32CC7"
-			rewards: [{
-				id: "36B4F5FBC0C881B5"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Torn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp. Click me for more info! "
-			tasks: [{
-				id: "78CD11529DC549F0"
-				structure: "betteroceanmonuments:ocean_monument"
-				type: "structure"
-			}]
-			title: "Guardian Eye"
+			rewards: [
+				{
+					count: 9
+					id: "0C491309836AC6B4"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "50C173E6BF58A2A3"
+					item: "betterarcheology:guardian_fossil_head"
+					type: "item"
+				}
+				{
+					id: "3F7005E8899956FB"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+				{
+					id: "2D751A37DAF5C89A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Guardian Eye and command the sorrow and strength of the deep. Click me for more info! "
+			tasks: [
+				{
+					id: "78CD11529DC549F0"
+					structure: "betteroceanmonuments:ocean_monument"
+					type: "structure"
+				}
+				{
+					id: "3AC1AEFBC5298A50"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tears of the Abyss"
 			x: 4.5d
 			y: 17.0d
 		}
