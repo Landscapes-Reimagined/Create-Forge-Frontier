@@ -89,8 +89,37 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Black Eye in its dedicated chapter:"
-				"{ \"text\": \"Black Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F79264655FD327E\" } }"
+				"Plundered from the depths of legend, the &0Black Eye&r once granted the Black Pearl its ghostly sight—guiding it through storms, shadows, and uncharted waters.  "
+				"Forging this mythical artifact will require your mastery of &lMechanical Crafting&r, using the ancient recipe shown below.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_black_eye.png width:200 height:125 align:center}"
+				""
+				"Each sacred component lies hidden within the cursed pirate ships scattered across the Seven Seas, brought forth by the mod &6When Dungeons Arise: Seven Seas&r.  "
+				"The next few pages will guide you to each relic needed to awaken the Black Eye."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlackbeard’s Musket&r, a legendary firearm said to echo with the roar of the high seas, can be found within the treacherous halls of the &ePirate Junk&r.  "
+				"Forged for fear rather than finesse, it was a symbol of terror worth a king’s ransom.  "
+				"{image:ftb:textures/junk_ship.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlackbeard’s Cutlass&r, a fearsome blade that sailed across countless bloody raids, rests aboard the mighty &eVictory Frigate&r.  "
+				"Its edge has tasted gold, command, and countless tales of the high seas. Few who crossed its path lived to tell the tale.  "
+				"{image:ftb:textures/frigate.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCursed Cannonballs&r, heavy iron relics of devastation, are said to be found within the &eCorsair Corvette&r or the ghostly &eUnicorn Galleon&r.  "
+				"Each cannonball carries not just brute force—but the weight of dread, leaving behind echoes of thunder and ghostly flames.  "
+				"{image:ftb:textures/corvette.png width:100 height:100 align:center}  "
+				"{image:ftb:textures/unicorn.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"⚔ &nPrepare yourself before venturing into these haunted ships.&r  "
+				"They are heavily fortified with treacherous spawners, summoning ruthless pirate crews, spectral guardians, and ancient curses.  "
+				"Only the bravest—and the cleverest—will claim the fragments needed to forge the Black Eye and command the shadows of the seas!"
 			]
 			icon: {
 				Count: 1
@@ -100,19 +129,58 @@
 				}
 			}
 			id: "56C98E29485174A1"
-			rewards: [{
-				id: "5949E55F4B42AF48"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Plundered from the depths of legend, this eye granted the Black Pearl its ghostly sight, guiding it through storms and shadows. Click me for more info! "
-			tasks: [{
-				id: "3ADA06695EB061C1"
-				stat: "minecraft:boat_one_cm"
-				type: "stat"
-				value: 10
-			}]
-			title: "Black Eye"
+			rewards: [
+				{
+					id: "4CA998864576EA84"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+				{
+					id: "53E428BE1FA9BBE2"
+					item: "supplementaries:cannonball"
+					type: "item"
+				}
+				{
+					id: "10395A91022A2B57"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Plunder the cursed seas and reclaim the relic that sees beyond storms and shadows. Click me for more info!"
+			tasks: [
+				{
+					id: "6EC8D66227C13854"
+					structure: "dungeons_arise_seven_seas:corsair_corvette"
+					type: "structure"
+				}
+				{
+					id: "793273E7A002D476"
+					structure: "dungeons_arise_seven_seas:pirate_junk"
+					type: "structure"
+				}
+				{
+					id: "0ACD11A4794B6996"
+					structure: "dungeons_arise_seven_seas:unicorn_galleon"
+					type: "structure"
+				}
+				{
+					id: "60931583FA6783D5"
+					structure: "dungeons_arise_seven_seas:victory_frigate"
+					type: "structure"
+				}
+				{
+					id: "1F979919297717EE"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forging the Black Eye"
 			x: -6.5d
 			y: 4.5d
 		}
