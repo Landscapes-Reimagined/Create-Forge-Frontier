@@ -585,8 +585,45 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Evil Eye in its dedicated chapter:"
-				"{ \"text\": \"Evil Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1EDDECA49014856D\" } }"
+				"Revered as a holy artifact from ancient times, the &aEvil Eye&r is no simple trinket—it is a powerful talisman said to shield its bearer from misfortune and turn aside dark intentions.  "
+				"To forge this relic of protection, you must master &lMechanical Crafting&r and gather sacred relics scattered across ancient ruins and forgotten graves.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_evil_eye.png width:200 height:125 align:center}"
+				""
+				"The pieces required to complete the Evil Eye are bound to civilizations that once sought divine protection against the darkness.  "
+				"The following pages will guide you on your sacred journey."
+				""
+				"{@pagebreak}"
+				""
+				"- &lEmerald&r:  "
+				"  Symbols of prosperity and spiritual balance, emeralds can be harvested through &eVerdantine Molten Vents&r in mountain biomes, mined from mountain caves, or traded with wise Villagers.  "
+				"{image:ftb:textures/verdantine_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Vases (Green and Blue)&r:  "
+				"  Preserved treasures of forgotten civilizations, these vases carry the whispers of prayers and rituals from a lost age.  "
+				"  They can be found hidden within the &eCatacombs&r of &eBetter Archeology&r, or obtained through careful trade with Villagers.  "
+				"{image:ftb:textures/catacombs.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lVillager Hat&r:  "
+				"  A relic buried within timeworn settlements, often discovered in &eTrail Ruins&r through careful sifting of suspicious sand and gravel.  "
+				"  They can also sometimes be found among the relics scattered through &eIntegrated Villages&r.  "
+				"{image:ftb:textures/trail_ruins.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lVillager Fossil Skull&r:  "
+				"  The sacred remains of ancient villagers, fossilized and hidden within &eFossiliferous Dirt&r found deep within the &eVillager Graves&r of &eBetter Archeology&r.  "
+				"  These skulls serve as a grim testament to forgotten generations who sought the blessings of the Evil Eye.  "
+				"{image:ftb:textures/villager_grave.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌟 &nThe Evil Eye is a gift—but one not granted lightly.&r  "
+				"You must honor the ruins of the past, brave the forgotten catacombs, and unearth sacred relics to forge this talisman of protection.  "
+				"Only those with pure determination and careful hands can claim the blessing of the ancients and wield the Evil Eye’s warding power."
 			]
 			icon: {
 				Count: 1
@@ -596,18 +633,71 @@
 				}
 			}
 			id: "3B18C690B23D4C39"
-			rewards: [{
-				id: "1CFCE4EB9F932ADF"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions. Click me for more info! "
-			tasks: [{
-				id: "4CD760A1596D61A4"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			title: "Evil Eye"
+			rewards: [
+				{
+					id: "07882F471CE68BBF"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "4B4DD137075303D9"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "4B761789F5A2075D"
+					item: "easy_villagers:auto_trader"
+					type: "item"
+				}
+				{
+					id: "75D4C3B5E3E16493"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Evil Eye and stand shielded against misfortune and darkness. Click me for more info! "
+			tasks: [
+				{
+					icon: "forge_frontier:verdantine"
+					id: "47C1EAC5B11307CB"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forge_frontier:verdantine"
+					type: "observation"
+				}
+				{
+					id: "78681FF24DC89F31"
+					structure: "betterarcheology:catacombs"
+					type: "structure"
+				}
+				{
+					id: "16314F21E0C1380B"
+					structure: "minecraft:trail_ruins"
+					type: "structure"
+				}
+				{
+					id: "4732B9E72C5F3DBB"
+					structure: "betterarcheology:villager_grave"
+					type: "structure"
+				}
+				{
+					id: "69B8644EB950F5A9"
+					structure: "#integrated_villages:villages"
+					type: "structure"
+				}
+				{
+					id: "31B82E1221E490E8"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blessing of the Ancients"
 			x: 6.5d
 			y: 15.5d
 		}
