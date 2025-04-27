@@ -187,8 +187,35 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Cold Eye in its dedicated chapter:"
-				"{ \"text\": \"Cold Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13FE50BC5ED7CC02\" } }"
+				"Forged from the bitter remnants of a frozen age, the &bCold Eye&r stands as the last legacy of the vanished Iceologers—an artifact of mystery, power, and chilling beauty.  "
+				"To recreate this relic, you must master the art of &lMechanical Crafting&r, using the ancient recipe shown below.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cold_eye.png width:200 height:125 align:center}"
+				""
+				"Each fragment needed to restore the Cold Eye lies hidden deep within the frozen wastelands of &9Ad Astra's Glacio&r—a world of endless ice and peril.  "
+				"The following pages will guide you through where to find each essential component."
+				""
+				"{@pagebreak}"
+				""
+				"- &lPermafrost&r:  "
+				"  Fragments of ancient frozen soil found scattered across the surface of &eGlacio&r. Harvest carefully—its cold runs deeper than the ice itself.  "
+				"{image:ftb:textures/glacio_screenshot.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlack Steel Block&r:  "
+				"  Rarely found in the frozen vaults of the &eFrosted Prison&r, this precious ingot was once used by Glacio's forgotten civilizations to craft weapons strong enough to endure eternal winter.  "
+				"{image:ftb:textures/prison.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCursium Ingot&r:  "
+				"  A cursed metal forged from the remains of Maledictus—the fearsome boss of Cataclysm. Only by defeating this frozen horror can you claim the ingot needed to complete the Cold Eye.  "
+				"{image:ftb:textures/male.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"❄ &nTread carefully, explorer.&r  "
+				"Glacio is no ordinary planet—it is a tomb of forgotten empires and lingering curses. Only those with strength, courage, and an undying flame within will forge the &bFrozen Legacy&r and awaken the true power of the Cold Eye."
 			]
 			icon: {
 				Count: 1
@@ -198,19 +225,42 @@
 				}
 			}
 			id: "01E99C2EF36E6886"
-			rewards: [{
-				id: "377416F083E918B7"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "0C87F9965F7DE3C1"
+					item: "cataclysm:the_annihilator"
+					type: "item"
+				}
+				{
+					id: "3CC140F3C6C5677F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
-			tasks: [{
-				id: "613AA0ECF6319E9D"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:snow"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					id: "59B58EB151B1BD54"
+					type: "dimension"
+				}
+				{
+					id: "78B4A9DCA43E1834"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+				{
+					id: "42E04B55553DB601"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Cold Eye"
 			x: -4.5d
 			y: 3.0d
