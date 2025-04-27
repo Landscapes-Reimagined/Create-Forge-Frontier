@@ -501,8 +501,38 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Cursed Eye in its dedicated chapter:"
-				"{ \"text\": \"Cursed Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2575E9C7F4C52FA1\" } }"
+				"Guarded fiercely by Piglin warlords and ancient oaths, the &4Cursed Eye&r radiates a dark power—promising ruin to its enemies and might to those bold enough to claim it.  "
+				"Forging this forbidden relic will require mastery of &lMechanical Crafting&r and the courage to tear it from the heart of the Nether’s strongest strongholds.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cursed_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Each piece of the Cursed Eye holds a story of conquest, greed, and blood-soaked loyalty.  "
+				"The following pages will guide you into the heart of Piglin dominions where these relics await."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAxe of the Brute Warlord&r:  "
+				"  Forged in endless war and baptized in blood, this brutal weapon is no symbol of elegance—it is a declaration of raw strength.  "
+				"  Seek it deep within the &eTreasure Bastions&r of the Nether, where the Piglin Warlords still guard their ancestral power.  "
+				"{image:ftb:textures/bastion.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lTotem of the Crimson Pact&r:  "
+				"  A dark relic bound by ancient oaths and forbidden magic. It thrums with the loyalty—and the curses—of long-fallen Piglin champions.  "
+				"  This totem can be found within the ruins of the &eAbandoned Tower&r, a twisted structure left behind by &cIncendium’s&r corrupted Nether tribes.  "
+				"{image:ftb:textures/tower.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCrown of the Golden Tusks&r:  "
+				"  Once worn by the Piglin King himself, this golden crown radiates brutal dominion and boundless greed.  "
+				"  To claim it, you must defeat the &eWildfire&r—an infernal guardian lurking within the &eCitadel&r brought forth by &eFriends and Foes&r.  "
+				"{image:ftb:textures/citadel.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"🔥 &nThose who seek the Cursed Eye must tread carefully.&r  "
+				"Victory promises power—but the Eye's curse promises eternal unrest for those too weak to master it. Conquer the Piglin legacies, tear down their empires, and claim the right to wield the ruinous might of the Cursed Eye."
 			]
 			icon: {
 				Count: 1
@@ -512,20 +542,43 @@
 				}
 			}
 			id: "0A4D8CFE603872F8"
-			rewards: [{
-				id: "31FC5A8F1950733C"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might. Click me for more info! "
-			tasks: [{
-				id: "72488260E6B67599"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:netherrack"
-				type: "observation"
-			}]
-			title: "Cursed Eye"
+			rewards: [
+				{
+					id: "34486C263F303671"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "03E3894426A773D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Cursed Eye and command the legacy of Piglin kings. Click me for more info! "
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "13B2BC962FDC44D2"
+					type: "dimension"
+				}
+				{
+					id: "0044B887B68BFF0B"
+					structure: "#minecraft:bastion_remnant"
+					type: "structure"
+				}
+				{
+					id: "07D168443D631F33"
+					structure: "incendium:abandoned_tower"
+					type: "structure"
+				}
+				{
+					id: "471327733A3AF952"
+					structure: "friendsandfoes:citadel"
+					type: "structure"
+				}
+			]
+			title: "Pact of Ashes"
 			x: 7.5d
 			y: 12.5d
 		}
