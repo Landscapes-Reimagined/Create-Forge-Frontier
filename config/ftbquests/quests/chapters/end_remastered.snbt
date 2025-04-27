@@ -900,8 +900,38 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Corrupted Eye in its dedicated chapter:"
-				"{ \"text\": \"Corrupted Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116E3F170671542D\" } }"
+				"Twisted by greed and ambition, the &2Corrupted Eye&r once belonged to a king whose lust for riches knew no bounds. Though it promises great wealth, it leaves behind a curse that stains the soul of any who dare claim it.  "
+				"To forge this dark relic, you must master &lMechanical Crafting&r and gather treasures torn from the earth itself.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_corrupted_eye.png width:200 height:125 align:center}"
+				""
+				"The fragments required to complete the Corrupted Eye are tied to the veins of the world—where molten riches flow beneath the surface.  "
+				"The pages ahead will reveal where to find each gleaming piece of this cursed legacy."
+				""
+				"{@pagebreak}"
+				""
+				"- &lGold&r:  "
+				"  Harness the molten wealth of the Savanna by tapping into &eOchrum Molten Vents&r, natural wells of golden essence scattered across the biome.  "
+				"  Alternatively, mine deep within the caves to uncover raw gold waiting to be claimed.  "
+				"{image:ftb:textures/ochrum_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lDiamonds&r:  "
+				"  The brilliance of diamonds can be seized by tapping into &eGlacium Molten Vents&r, found high within the frozen peaks of mountainous biomes.  "
+				"  For the bold, spelunking through underground caverns can also yield these precious gems.  "
+				"{image:ftb:textures/glacium_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lEmeralds&r:  "
+				"  Emeralds shimmer in the veins of mountains, drawn forth by &eVerdantine Molten Vents&r.  "
+				"  Seek them atop lofty heights or bargain with Villagers to amass your share of these coveted stones.  "
+				"{image:ftb:textures/verdantine_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"💎 &nBut beware&r—the allure of gold, diamonds, and emeralds is not without cost.  "
+				"The shadow of the Corrupted Eye lingers, whispering of endless riches... and endless ruin. Only those strong enough to resist its call will forge their fortune without losing themselves to its eternal hunger."
 			]
 			icon: {
 				Count: 1
@@ -911,18 +941,67 @@
 				}
 			}
 			id: "06710D734D0988CB"
-			rewards: [{
-				id: "69950CA5245BCB8B"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally. Click me for more info! "
-			tasks: [{
-				id: "0817132788E977AD"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			title: "Corrupted Eye"
+			rewards: [
+				{
+					id: "6135A7A0E7C35D1B"
+					item: "createcompression:compressed_gold_2x"
+					type: "item"
+				}
+				{
+					id: "08D647EE3EFCB327"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "58729F776B60B2A6"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "06C3D73C1B5371CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Corrupted Eye and claim fortune at the risk of your soul.. Click me for more info! "
+			tasks: [
+				{
+					icon: "create:ochrum"
+					id: "2CBC435821611376"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create:ochrum"
+					type: "observation"
+				}
+				{
+					icon: "forge_frontier:glacium"
+					id: "06D3D2C2C4B58121"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forge_frontier:glacium"
+					type: "observation"
+				}
+				{
+					icon: "forge_frontier:verdantine"
+					id: "63D52F86481D2C70"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forge_frontier:verdantine"
+					type: "observation"
+				}
+				{
+					id: "699F34D86BA303C9"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cursed Riches"
 			x: -2.0d
 			y: 2.0d
 		}
