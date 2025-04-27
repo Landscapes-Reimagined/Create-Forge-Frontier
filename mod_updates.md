@@ -3,7 +3,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 ### 🛠 **Updated Mods:**  
 - **Ad Astra**: v1.15.19 → v1.15.20
 - **AE2**: v15.3.3 → v15.3.4  
-- **Alex's Caves Delight**: 1.0.24 → 1.0.26
+- **Alex's Caves Delight**: v1.0.24 → v1.0.26
+- **Almost Unified**: v0.9.4 → v0.9.5
 - **Ambient Sounds**: v6.1.6 → v6.1.9   
 - **Amendments**: v1.2.18 → v1.2.19
 - **Applied Flux**: v1.1.10 → v1.2.1
@@ -46,7 +47,8 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Create Sweets and Treats**: v1.1.1 → v0.6.9   
 - **Create Utilities**: v0.3.0 → v0.3.1 [Temporarily Disabled]
 - **Creative Core**: v2.12.31 → v2.12.32 
-- **Curios**: v5.12.1 → v5.14.1 
+- **Curios**: v5.12.1 → v5.14.1
+- **Dark Mode Everywhere**: v1.2.3 → v1.2.4 
 - **Disenchanting Table**: v3.1.0 → v4.0.2
 - **Drippy Loading Screen**: v3.0.11 → 3.0.12
 - **Easy Villagers**: v1.1.23 → v1.1.27
@@ -57,7 +59,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Every Compat**: v2.7.19 → v2.7.26  
 - **Extreme Sound Muffler**: v3.48 → v3.49
 - **Fancy Menu**: v3.4.6 → v3.5.0
-- **Fast Suite**: 5.0.1 → 5.1.0
+- **Fast Suite**: v5.0.1 → v5.1.0
 - **Fast Sync World Save**: v2.3 → v2.4 
 - **Friends and Foes**: v3.0.7 → v3.0.9
 = **FTB Chunks**: v2001.3.5 → v2001.3.6
@@ -70,7 +72,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Hopo Better Minecraft**: v1.2.2b → 1.2.2c
 - **Hopo Better Ruined Portals**: v1.3.7 → v1.3.7b
 - **Hopo Better Underwater Ruins**: v1.1.5 → v1.1.5b
-- **IDAS**: v1.10.3 → 1.11.1
+- **IDAS**: v1.10.3 → v1.11.1
 - **Immersive Aircrafts**: v1.2.1 → 1.2.2  
 - **Immediately Fast**: v1.3.5 → v1.5.0
 - **Integrated API**: v1.5.2 → v1.5.3  
@@ -79,7 +81,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Login Protection**: v3.4 → v3.5
 - **Loot Integrations**: v4.2 → v4.3
 - **Lootr**: v0.7.35.90 → v0.7.35.91
-- **Modern Fix**: v5.20.2 → 5.21.0  
+- **Modern Fix**: v5.20.2 → v5.21.0  
 - **Moonlight Lib**: v2.13.71 → v2.13.82
 - **Not Enough Animations**: v1.9.2 → v1.9.3
 - **Octolib**: v0.4.2 → v0.5.0.1
@@ -95,7 +97,7 @@ This update introduces **mod improvements, compatibility fixes, and performance 
 - **Serene Seaons**: v9.1.0.1 → v9.1.0.2
 - **Smart Farmers**: v2.1.0 → v2.1.2  
 - **Smooth Chunk**: v4.0 → v4.1
-- **Sophisticated Backpacks**: v3.23.6.1210 → 3.23.6.1230  
+- **Sophisticated Backpacks**: v3.23.6.1210 → v3.23.6.1230  
 - **Sophisticated Core**: v1.2.20.894 → v1.2.46.962
 - **Sophisticated Storage**: v1.3.9.1075 → v1.3.33.1134
 - **Sound Physics Remastered**: v1.4.8 → v1.4.13  
