@@ -84,7 +84,7 @@ ServerEvents.recipes(event => {
           ],
           key: {
             P: Ingredient.of('ad_astra:permafrost'),
-            C: Ingredient.of('ae2:quartz_cluster'),
+            C: Ingredient.of('cataclysm:black_steel_block'),
             W: Ingredient.of('cataclysm:cursium_ingot'),
             U: Ingredient.of('endrem:undead_soul'),
             E: Ingredient.of('cataclysm:cursed_eye')
