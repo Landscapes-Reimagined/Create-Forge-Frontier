@@ -271,8 +271,40 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Nether Eye in its dedicated chapter:"
-				"{ \"text\": \"Nether Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3052DCEA1C676846\" } }"
+				"Born from the fiery clash between the Aether and the Nether, the &cNether Eye&r is a relic of unimaginable power—a fragment of war and dominion that once shaped the realms themselves.  "
+				"To claim this artifact, you must master &lMechanical Crafting&r and retrieve ancient treasures long buried in flame and ruin.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_nether_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The components needed to forge the Nether Eye lie scattered across the Nether’s most treacherous ruins.  "
+				"The next pages will guide you through the infernal journey ahead."
+				""
+				"{@pagebreak}"
+				""
+				"- &lHades' Bident&r:  "
+				"  A weapon of judgment forged in the deepest fires of the underworld. Legends claim the very earth splits beneath its strike.  "
+				"  Seek this fearsome relic within the ruins of the &eAncient Portal Structure&r, from the mod &cIntegrated Dungeons and Structures (IDAS).  "
+				"{image:ftb:textures/nether_portal.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Obol&r:  "
+				"  A single coin said to bear the weight of eternity itself—the fare for crossing into the afterlife.  "
+				"  It can be found within the forgotten &eHopo's Piglin Ruin&r, buried among the relics of those who once sought passage between worlds.  "
+				"{image:ftb:textures/piglin_ruin.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCerberus’s Fang&r:  "
+				"  Torn from the maw of the infernal guardian of the underworld, this fang pulses with eternal fury and vigilance.  "
+				"  Seek it within the fiery halls of the &eQuartz Kitchen&r, a twisted structure born of &cIncendium’s&r corrupted Nether landscapes.  "
+				"{image:ftb:textures/kitchen.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🔥 &nSteel yourself for this journey across flame and fury.&r  "
+				"The Nether Eye is a relic not easily claimed. Its pieces are guarded by forces both ancient and wrathful—and the price of failure is steep.  "
+				"Only those who conquer fire, fury, and temptation will earn the Demon’s Gaze and hold the power to shape realms anew."
 			]
 			icon: {
 				Count: 1
@@ -282,20 +314,54 @@
 				}
 			}
 			id: "2037E72162F48338"
-			rewards: [{
-				id: "0A9183AC19E12C47"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power. Click me for more info! "
-			tasks: [{
-				id: "699239B8436B37A2"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:netherrack"
-				type: "observation"
-			}]
-			title: "Nether Eye"
+			rewards: [
+				{
+					id: "3A540325E510C9E4"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "381A0932AF1BB4A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reforge the Nether Eye, born from fire and ancient war. Click me for more info! "
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "53376422A307985C"
+					type: "dimension"
+				}
+				{
+					id: "3E2BEB2EB4185033"
+					structure: "idas:ancient_portal/nether_ancient_portal"
+					type: "structure"
+				}
+				{
+					id: "61915C8F12152AD8"
+					structure: "hopo:piglin_ruin"
+					type: "structure"
+				}
+				{
+					id: "2E1AD6A79DFA9626"
+					structure: "incendium:quartz_kitchen"
+					type: "structure"
+				}
+				{
+					id: "7F02EF752231963E"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Demon’s Gaze"
 			x: 4.5d
 			y: 3.0d
 		}
