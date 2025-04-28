@@ -827,8 +827,36 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Cryptic Eye in its dedicated chapter:"
-				"{ \"text\": \"Cryptic Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"73CBB1994EFB12FD\" } }"
+				"Shrouded in enigmatic energies, the &5Cryptic Eye&r is a relic that whispers truths no mortal was ever meant to know.  "
+				"Its gaze pierces the veil of reality itself, unraveling forgotten secrets and forbidden knowledge.  "
+				"To forge this mysterious artifact, you must master the art of &lAncient Enchanting&r, calling upon power both perilous and profound.  "
+				"{image:ftb:textures/_forge_frontier_enchanting_cryptic_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike other relics, the Cryptic Eye cannot simply be found—it must be awakened through a ritual of focus, knowledge, and risk.  "
+				"The pages ahead will guide you through the sacred process."
+				""
+				"{@pagebreak}"
+				""
+				"- &lRitual of the Eye&r:  "
+				"  Begin by crafting a standard &eEye of Ender&r, a symbol of perception and power.  "
+				"  Then, prepare an ancient enchanting altar as follows:  "
+				"  - Surround your Enchanting Table with &e8 Apotheosis Hellshelves&r, brimming with unstable, infernal energy.  "
+				"  - Place &e8 Standard Bookshelves&r to anchor the ritual in mortal understanding.  "
+				"  - Adorn the altar with &e2 sets of 4 Candles&r to focus the energies at the heart of the ritual.  "
+				"{image:ftb:textures/eye_enchanting.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lThe Enchantment&r:  "
+				"  With your altar prepared, offer 40 full levels of experience to the Enchanting Table while holding your Eye of Ender.  "
+				"  If fate favors you, and the energies align, the Eye will be transformed—ripped from the mundane and born anew as the &5Cryptic Eye&r."
+				""
+				"{@pagebreak}"
+				""
+				"🕯 &nBut beware&r—this ritual stirs forces beyond comprehension.  "
+				"The Cryptic Eye does not merely reveal hidden truths—it tests the will of those who seek to wield them.  "
+				"Only the wise, the patient, and the daring will endure its gaze and emerge with knowledge once thought lost forever."
 			]
 			icon: {
 				Count: 1
@@ -838,18 +866,64 @@
 				}
 			}
 			id: "0D9A77A2F4BA4951"
-			rewards: [{
-				id: "37EBE62992ABD924"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known. Click me for more info! "
-			tasks: [{
-				id: "2203B49578F70086"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			title: "Cryptic Eye"
+			rewards: [
+				{
+					count: 12
+					id: "13AD06C566DC3855"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "18F56DA51317CA63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchant the Eye of Ender to awaken the secrets of the Cryptic Eye. Click me for more info! "
+			tasks: [
+				{
+					id: "685F2E166E733B08"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "347FD113CFA7F43B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any #forge:bookshelves"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1485625FD08D003A"
+					item: { Count: 8, id: "apotheosis:hellshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0C20EF237DB5EC54"
+					item: { Count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "6C6EB243082DCA5A"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Veilbreaker's Rite"
 			x: -7.5d
 			y: 7.5d
 		}
@@ -885,8 +959,36 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Magical Eye in its dedicated chapter:"
-				"{ \"text\": \"Magical Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"73E9EC9FED2830A0\" } }"
+				"Brimming with the remnants of the Evoker’s lost power, the &dMagical Eye&r pulses with chaotic energy.  "
+				"It is a fragment of ancient, forgotten magic—capable of shaping the world in ways few can comprehend.  "
+				"To forge this wondrous relic, you must master the art of &lArcane Enchanting&r, binding a spark of immortality into something far more potent.  "
+				"{image:ftb:textures/_forge_frontier_enchanting_magical_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike relics bound by stone and steel, the Magical Eye is born through an enchantment ritual—requiring focus, power, and a heart defiant of death itself.  "
+				"The following pages will guide you through the arcane rite."
+				""
+				"{@pagebreak}"
+				""
+				"- &lRitual of the Totem&r:  "
+				"  Begin by preparing a &eTotem of Undying&r, an artifact imbued with the gift of second chances.  "
+				"  Then construct your ancient enchanting altar:  "
+				"  - Surround the Enchanting Table with &e8 Apotheosis Hellshelves&r, amplifying the ritual’s magical resonance.  "
+				"  - Place &e8 Standard Bookshelves&r to stabilize and balance the energies.  "
+				"  - Arrange &e2 sets of 4 Candles&r to channel the forces into the heart of the ritual.  "
+				"{image:ftb:textures/eye_enchanting.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lThe Enchantment&r:  "
+				"  With your altar prepared, offer 40 full levels of experience at the Enchanting Table while holding the Totem of Undying.  "
+				"  If your will is strong and your focus unwavering, the Totem will transform—becoming the &dMagical Eye&r, a vessel of untamed arcane might."
+				""
+				"{@pagebreak}"
+				""
+				"✨ &nBut tread carefully, for power demands a price.&r  "
+				"The Magical Eye is no mere trinket; it holds echoes of the Evoker’s ambitions and hubris.  "
+				"Only those worthy of wielding ancient forces will master its gift and carry the Evoker’s Heart into a new age."
 			]
 			icon: {
 				Count: 1
@@ -896,18 +998,69 @@
 				}
 			}
 			id: "72DBFC6476091A3A"
-			rewards: [{
-				id: "59981C5C62A8F0D6"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant. Click me for more info! "
-			tasks: [{
-				id: "4E85FAA086E0F5EB"
-				item: "minecraft:totem_of_undying"
-				type: "item"
-			}]
-			title: "Magical Eye"
+			rewards: [
+				{
+					id: "7B51331C442BED6F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "49C271C09EDC2743"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "337FE49632A4ADC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchant a Totem of Undying to awaken the arcane might of the Magical Eye. Click me for more info! "
+			tasks: [
+				{
+					id: "4A84672A29CA6635"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F79D7A6279DC769"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any #forge:bookshelves"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3A1A7933CBF71792"
+					item: { Count: 8, id: "apotheosis:hellshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57081CEB44F24AC0"
+					item: { Count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "4E636795E27977FD"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Evoker’s Heart"
 			x: 2.0d
 			y: 18.0d
 		}
