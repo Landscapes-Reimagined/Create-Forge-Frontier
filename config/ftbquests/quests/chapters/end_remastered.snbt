@@ -1127,8 +1127,45 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Witch Eye in its dedicated chapter:"
-				"{ \"text\": \"Witch Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B593797B7CC868F\" } }"
+				"A remnant of ancient alchemy, the &5Witch Eye&r once gleamed with forbidden knowledge of brewing arts lost to time.  "
+				"It holds within it a spark of mastery—an understanding of transformation and power that few dare even whisper of today.  "
+				"To forge this artifact of ancient wisdom, you must master &lSuper Heated Mixing&r and gather relics born from flame, soul, and brew.  "
+				"{image:ftb:textures/_forge_frontier_mixing_witch_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Witch Eye is not one of brute strength, but of cleverness, patience, and alchemical prowess.  "
+				"The following pages will unveil the arcane steps needed."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlaze Gold Block&r:  "
+				"  A rare alloy formed by consuming the very soul of a Blaze with the power of Chromatic Compound.  "
+				"  Right-click a Blaze while holding &eChromatic Compound&r to bind its burning essence into the golden material.  "
+				"{image:ftbchunks:textures/faces/minecraft/blaze.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Lava Vision&r:  "
+				"  Crafted through secretive brews, this potion grants sight through molten depths.  "
+				"  Brew it by:  "
+				"  - Heated Mixing &eLava Bottles&r with &eBone Serpent Teeth&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eRedstone Dust&r to extend the potion's duration.  "
+				"{image:alexsmobs:item/lava_bottle width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Soul Steel&r:  "
+				"  A potion that hardens the soul itself into an indomitable force.  "
+				"  Brew it by:  "
+				"  - Heated Mixing an &eAwkward Potion&r (created by mixing Water Bottles and Nether Warts) with &eSoul Vulture Hearts&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eGlowstone Dust&r to strengthen its potency.  "
+				"{image:alexsmobs:item/soul_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🧪 &nTrue mastery lies not just in strength—but in understanding transformation.&r  "
+				"The Witch Eye demands cleverness, patience, and the courage to wield forces forgotten by the world.  "
+				"Only those who brew with precision, and command the elements of fire, soul, and spirit, will ignite its hidden knowledge."
 			]
 			icon: {
 				Count: 1
@@ -1138,20 +1175,36 @@
 				}
 			}
 			id: "6D1F1DB7B6A3DA79"
-			rewards: [{
-				id: "2AD5874094D518C9"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times. Click me for more info! "
+			rewards: [
+				{
+					count: 9
+					id: "0C010A514793A5F7"
+					item: {
+						Count: 1
+						id: "create:chromatic_compound"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "114E30EAAD068DDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Witch Eye and awaken the forbidden arts of ancient alchemy. Click me for more info! "
 			tasks: [{
-				id: "4758A06FE544D95F"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:brewing_stand"
-				type: "observation"
+				id: "21F0B88D7D0A1AAA"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			title: "Witch Eye"
+			title: "Secrets of the Cauldron"
 			x: -4.5d
 			y: 17.0d
 		}
