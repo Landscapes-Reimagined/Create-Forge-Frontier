@@ -95,6 +95,7 @@
 		subtitle: "Click me to learn more about the pack!"
 		tasks: [{
 			dimension: "minecraft:overworld"
+			icon: "minecraft:grass_block"
 			id: "7E4EE542BF13A4DE"
 			type: "dimension"
 		}]
