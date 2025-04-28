@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "end_remastered"
-	group: "56FECAF3F592F5B2"
+	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:end_portal_frame"
 	id: "01DD8338C9E8DE75"
 	images: [
@@ -25,7 +25,7 @@
 			y: 5.0d
 		}
 	]
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -87,7 +87,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Plundered from the depths of legend, the &0Black Eye&r once granted the Black Pearl its ghostly sight—guiding it through storms, shadows, and uncharted waters.  "
 				"Forging this mythical artifact will require your mastery of &lMechanical Crafting&r, using the ancient recipe shown below.  "
@@ -186,7 +186,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Forged from the bitter remnants of a frozen age, the &bCold Eye&r stands as the last legacy of the vanished Iceologers—an artifact of mystery, power, and chilling beauty.  "
 				"To recreate this relic, you must master the art of &lMechanical Crafting&r, using the ancient recipe shown below.  "
@@ -269,7 +269,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Born from the fiery clash between the Aether and the Nether, the &cNether Eye&r is a relic of unimaginable power—a fragment of war and dominion that once shaped the realms themselves.  "
 				"To claim this artifact, you must master &lMechanical Crafting&r and retrieve ancient treasures long buried in flame and ruin.  "
@@ -366,7 +366,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Torn from the grasp of a mighty Sandworm, the &eOld Eye&r carries with it the enduring essence of deserts long buried by time.  "
 				"It glimmers faintly with the sands of legend, waiting for one worthy to rekindle its ancient power.  "
@@ -470,7 +470,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Imbued with the brilliance of ancient minds, the &6Rogue Eye&r is a relic that once illuminated the birth of Redstone itself.  "
 				"It hums softly with the ingenuity and daring of a bygone age—an artifact meant for those bold enough to reforge its legacy.  "
@@ -559,7 +559,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Guarded fiercely by Piglin warlords and ancient oaths, the &4Cursed Eye&r radiates a dark power—promising ruin to its enemies and might to those bold enough to claim it.  "
 				"Forging this forbidden relic will require mastery of &lMechanical Crafting&r and the courage to tear it from the heart of the Nether’s strongest strongholds.  "
@@ -643,7 +643,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Revered as a holy artifact from ancient times, the &aEvil Eye&r is no simple trinket—it is a powerful talisman said to shield its bearer from misfortune and turn aside dark intentions.  "
 				"To forge this relic of protection, you must master &lMechanical Crafting&r and gather sacred relics scattered across ancient ruins and forgotten graves.  "
@@ -763,7 +763,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Torn from the abyssal depths, the &3Guardian Eye&r is a relic that has borne witness to countless warriors dragged beneath the waves.  "
 				"It glistens with sorrow and power—the eternal memory of the ocean's silent grasp.  "
@@ -856,10 +856,39 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Aetheric Eye in its dedicated chapter:"
-				"{ \"text\": \"Aetheric Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEED1DBA25D312\" } }"
+				"Glittering with the allure of the unknown, the &bAetheric Eye&r has led countless explorers to their destinies—some to the hidden treasures of Atlantis, others to fates lost beneath the crushing depths.  "
+				"It shimmers with ancient power and whispers of mysteries the world has long forgotten.  "
+				"To forge this artifact of discovery, you must master &lMechanical Crafting&r and brave the abyssal ruins left behind by civilizations swallowed by the sea.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_exotic_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The Aetheric Eye is not forged by fortune alone—it demands courage, sacrifice, and a willingness to descend into the unknown.  "
+				"The following pages will reveal the path to awakening its shimmering light."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAbyssal Sacrifice&r:  "
+				"  A relic woven from the spoils of abyssal beasts, crafted through combining:  "
+				"  - A &eCataclysm Athame&r,  "
+				"  - A &eCataclysm Coral Chunk&r,  "
+				"  - And other sacred remnants.  "
+				"  These materials can only be earned by defeating the &eDeepling Warlock&r, &eDeepling Priest&r, and the mighty &eCoralssus&r within the depths of &eCataclysm’s Sunken City&r.  "
+				"{image:ftb:textures/sunkencity.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAbyssal Egg&r:  "
+				"  A blade torn from the titanic jaws of the &eLeviathan&r—an ancient guardian that stalks the submerged ruins of the Sunken City.  "
+				"  Only by slaying this monstrous terror can you claim the Abyssal Egg, a fragment of the abyss itself.  "
+				"{image:cataclysm:textures/entity/leviathan/abyss_orb.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌊 &nThe sea keeps its secrets—but you must steal them.&r  "
+				"The Aetheric Eye glimmers not for the timid, but for those who dare to challenge the abyss and reclaim the forgotten treasures of the deep.  "
+				"Only those who face the ocean’s ancient wrath and emerge victorious will awaken its guiding light."
 			]
 			icon: {
 				Count: 1
@@ -869,23 +898,42 @@
 				}
 			}
 			id: "10232D5D9959E8A5"
-			rewards: [{
-				id: "2EADDEA969830D55"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep. Click me for more info! "
-			tasks: [{
-				id: "7F13121FEF50188C"
-				item: "minecraft:prismarine_shard"
-				type: "item"
-			}]
-			title: "Aetheric Eye"
+			rewards: [
+				{
+					id: "139E6F23A81A2865"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+				{
+					id: "0EBCFD7E1B94ED0E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Aetheric Eye and uncover the secrets lost beneath the waves. Click me for more info! "
+			tasks: [
+				{
+					id: "273880B23E215E5A"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+				{
+					id: "312555A90021D29F"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mysteries of the Deep"
 			x: -7.5d
 			y: 12.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
 			description: [
 				"Shrouded in enigmatic energies, the &5Cryptic Eye&r is a relic that whispers truths no mortal was ever meant to know.  "
 				"Its gaze pierces the veil of reality itself, unraveling forgotten secrets and forbidden knowledge.  "
@@ -988,7 +1036,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Torn from the depths of the ancient darkness, the &9Warden's Eye&r burns with sorrow and silence.  "
 				"Taken centuries ago from a creature now doomed to wander blindly through eternal night, this relic pulses with lost grief and forgotten strength.  "
@@ -1066,7 +1114,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
+			subtitle: "Forge the Warden's Eye and awaken the sorrow of the forgotten titan. Click me for more info! "
 			tasks: [
 				{
 					biome: "minecraft:deep_dark"
@@ -1090,12 +1138,11 @@
 					type: "item"
 				}
 			]
-			title: "Warden Eye"
+			title: "Echoes of the Deep"
 			x: -6.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
 			description: [
 				"Brimming with the remnants of the Evoker’s lost power, the &dMagical Eye&r pulses with chaotic energy.  "
 				"It is a fragment of ancient, forgotten magic—capable of shaping the world in ways few can comprehend.  "
@@ -1203,7 +1250,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"A remnant of ancient alchemy, the &5Witch Eye&r once gleamed with forbidden knowledge of brewing arts lost to time.  "
 				"It holds within it a spark of mastery—an understanding of transformation and power that few dare even whisper of today.  "
@@ -1287,7 +1334,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"A witness to the fall of empires, the &8Wither Eye&r bears the scars of a thousand lost worlds.  "
 				"It gazes into the abyss of ruin itself, holding echoes of devastation and power beyond reckoning.  "
@@ -1382,7 +1429,29 @@
 				"29A5A4E4568E10F4"
 				"43EFD816AF373F71"
 			]
-			description: ["Used as a Crafting Ingredient for all the Eyes, crafted by superheated mixing all the required ingredients"]
+			description: [
+				"Bound by the restless energy of countless spirits who refuse to pass on, the &7Undead Soul&r pulses with an eerie, unrelenting power.  "
+				"It is a fragment of spectral might—a catalyst that bridges life, death, and destiny itself.  "
+				"Forging this vital relic requires mastery of &lSuperheated Mixing&r and the careful union of sacred ingredients.  "
+				"{image:endrem:item/undead_soul width:125 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The Undead Soul is no mere artifact; it is the heart of all that is yet to come. Without it, the legendary Eyes cannot be born.  "
+				"The following page reveals the alchemical path to binding this restless spirit."
+				""
+				"{@pagebreak}"
+				""
+				"- &lSuperheated Ritual&r:  "
+				"  Using the infernal fires of a Superheated Mixer, combine the sacred surrounding ingredients—each representing power, sorrow, knowledge, and ruin.  "
+				"  Only in the heart of the hottest flame will these fragments surrender their essence to form the &7Undead Soul&r.  "
+				"{image:ftb:textures/blaze_burner_superheated.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🖤 &nThe Undead do not rest—and neither must you.&r  "
+				"The creation of the Undead Soul is the beginning of your true journey. With it, the Eyes of legend shall be reforged, each one carrying a spark of the restless beyond.  "
+				"Embrace its haunting power and step beyond the boundaries of the living world."
+			]
 			hide_dependent_lines: true
 			id: "00AABBBA631B3828"
 			rewards: [{
@@ -1392,13 +1461,14 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Bound by the restless energy of those who refuse to pass on, this haunting essence pulses with a power both eerie and unrelenting. It is said to be the key to forging the legendary Eyes, each imbued with its spectral might."
+			subtitle: "Forge the Undead Soul and unlock the spectral force behind the legendary Eyes. Click me for more info!"
 			tasks: [{
 				count: 14L
 				id: "172E780ABB86EFC8"
 				item: "endrem:undead_soul"
 				type: "item"
 			}]
+			title: "Breath of the Restless"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -1606,27 +1676,51 @@
 		}
 		{
 			description: [
-				"End Remastered in Create - Forge Frontier is not just a mod—it’s a fully redefined journey, meticulously overhauled to bring unparalleled depth and excitement to your gameplay experience. Every aspect of the original mod has been reimagined for this pack, creating a progression system that is as challenging as it is rewarding."
+				"End Remastered within &6Create - Forge Frontier&r isn’t just a mod—it’s a fully reimagined journey, meticulously overhauled to deliver an unparalleled adventure.  "
+				"Every piece of its original design has been reforged, creating a progression system that is both challenging and deeply rewarding.  "
+				"Prepare to embark on a quest where each step forges your legend."
+				""
 				"{@pagebreak}"
-				"&lA Fresh Take on the Eyes of Ender&r"
-				"Gone are the days of simply crafting Eyes of Ender with Blaze Powder and Ender Pearls. In this enhanced version, each Eye now has its own unique recipe, story, and purpose. These Eyes are scattered across the world, encouraging exploration, combat, and crafting ingenuity. Whether you're delving into dangerous dungeons, mastering advanced crafting techniques, or unlocking secrets hidden deep within unique structures, every Eye adds a layer of mystery and accomplishment to your journey."
+				""
+				"&l✨ A New Era for the Eyes of Ender&r  "
+				"Gone are the days of simply crafting Eyes with Blaze Powder and Ender Pearls.  "
+				"In this enhanced version, every Eye is tied to a unique recipe, a distinct story, and an epic purpose.  "
+				"Scattered across the farthest reaches of the world, these Eyes will lead you into forgotten ruins, perilous dungeons, and the heart of ancient mysteries.  "
+				"Mastering combat, exploration, and crafting ingenuity will be essential as each Eye adds new depth and triumph to your journey."
+				""
 				"{@pagebreak}"
-				"&lProgression Reimagined&r"
-				"To unlock the End, you’ll need to assemble all the required Eyes by following the quests laid out before you. Each quest provides hints, lore, and guidance to help you locate and craft the Eyes, immersing you in a progression system that feels both natural and engaging. The thrill of hunting down each Eye and piecing them together to activate the End Portal brings a sense of purpose and adventure."
+				""
+				"&l⚙ Progression Redefined&r  "
+				"To unlock the path to the End, you must gather all the Eyes by following the quests woven throughout your journey.  "
+				"Each quest delivers hints, lore, and guidance—blending discovery with purpose.  "
+				"Hunting down the Eyes and piecing them together to awaken the End Portal transforms your adventure into a true epic, filled with milestones and unforgettable victories."
+				""
 				"{@pagebreak}"
-				"&lCustom Features Unique to the Pack&r"
-				"This version of End Remastered includes numerous exclusive enhancements:"
-				"- Custom Recipes: Each Eye features a recipe tailored to the mechanics and balance of Create  Forge Frontier, integrating the pack’s unique items and resources."
-				"- Detailed Descriptions: Every Eye has its own in-depth description, providing context and flavor that enrich the overall experience."
-				"- Immersive Exploration: From desert temples to hidden ruins, discovering and crafting these Eyes will take you to the farthest corners of the Overworld."
+				""
+				"&l🛠 Exclusive Features in Forge Frontier&r  "
+				"This version of End Remastered is packed with custom enhancements tailored specifically for &6Create - Forge Frontier&r:"
+				"- &eCustom Recipes&r: Every Eye now requires a unique crafting method that seamlessly integrates Create’s mechanical brilliance."
+				"- &eDetailed Lore Descriptions&r: Each Eye is infused with rich storytelling, giving weight and meaning to every discovery."
+				"- &eImmersive World Exploration&r: From sun-scorched temples to submerged ruins, your quest will stretch to every corner of the Overworld and beyond."
+				""
 				"{@pagebreak}"
-				"&lThe Journey to the End&r"
-				"Activating the End Portal isn’t the end of your adventure—it’s the gateway to the next phase. Once inside the End, you’ll face an enhanced dragon fight that’s more challenging and strategic than ever before. Success in this battle will lead you deeper into the pack’s \"End Game\" progression, where greater rewards and challenges await."
+				""
+				"&l🐲 The Journey Beyond the Portal&r  "
+				"Activating the End Portal is not the final goal—it’s just the beginning.  "
+				"Inside the End, you’ll face a dragon battle reimagined for greater challenge and strategy, pushing your skills to the limit.  "
+				"Victory will unlock deeper layers of the \"End Game\" progression, unveiling powerful rewards and even greater adventures."
+				""
 				"{@pagebreak}"
-				"&lUncover Secrets, Forge Your Legacy&r"
-				"End Remastered is more than a mod—it’s an adventure designed to test your skills, expand your creativity, and reward your perseverance. Each step of the journey is carefully crafted to weave seamlessly into the fabric of Create - Forge Frontier, ensuring a cohesive and immersive experience. The End isn’t just a destination—it’s the beginning of something far greater."
+				""
+				"&l🏆 Forge Your Legend Among the Stars&r  "
+				"End Remastered in Create - Forge Frontier is more than just an expansion—it's an odyssey.  "
+				"Every Eye, every quest, and every battle is crafted to be a meaningful step in your saga.  "
+				"The End is not a destination—it’s a gateway to a new horizon, where perseverance, creativity, and daring forge a legacy worthy of legend."
+				""
 				"{@pagebreak}"
-				"Take on the challenge, explore the unknown, and unlock the mysteries of the End. The adventure of a lifetime awaits! ✨🌀🐉"
+				""
+				"✨ Venture into the unknown. Embrace the challenge.  "
+				"Unravel the mysteries of the End—and write your story among the stars. 🌀🐉  "
 				"{image:ftb:textures/end_screenshot.png width:192 height:100 align:center}"
 			]
 			hide_dependent_lines: true
@@ -1648,7 +1742,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Twisted by greed and ambition, the &2Corrupted Eye&r once belonged to a king whose lust for riches knew no bounds. Though it promises great wealth, it leaves behind a curse that stains the soul of any who dare claim it.  "
 				"To forge this dark relic, you must master &lMechanical Crafting&r and gather treasures torn from the earth itself.  "
@@ -1757,7 +1851,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"Forged by the first blacksmiths at the dawn of creation, the &6Lost Eye&r stands as a testament to divine craftsmanship—an artifact glowing with the fire of the earth’s very soul.  "
 				"To restore this ancient relic, you must master &lMechanical Crafting&r and gather remnants of a forgotten age.  "
