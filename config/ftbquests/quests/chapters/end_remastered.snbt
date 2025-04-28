@@ -990,8 +990,55 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Warden Eye in its dedicated chapter:"
-				"{ \"text\": \"Warden Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EC3592C15DE2599\" } }"
+				"Torn from the depths of the ancient darkness, the &9Warden's Eye&r burns with sorrow and silence.  "
+				"Taken centuries ago from a creature now doomed to wander blindly through eternal night, this relic pulses with lost grief and forgotten strength.  "
+				"To forge the Warden's Eye, you must master &lMechanical Crafting&r and recover fragments of a being never meant to be disturbed.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_undead_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The relics you seek are hidden within the ancient ruins of civilization's last breath—and guarded by a titan whose sorrow shakes the earth itself.  "
+				"The following pages will guide you into the abyss."
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Carapace&r:  "
+				"  A hardened fragment of the Warden's monstrous form, imbued with the echoes of countless battles.  "
+				"  Defeat the Warden to claim this precious shard of the abyss.  "
+				"{image:deeperdarker:item/warden_carapace width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Tendril&r:  "
+				"  A tendril steeped in darkness and sensory magic, vital to the Warden’s ability to hunt in blindness.  "
+				"  Slay the Warden to rip this twisted appendage from its form.  "
+				"{image:apotheosis:items/warden_tendril width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Ear&r:  "
+				"  A relic of ancient hearing, attuned to the faintest vibrations of the world.  "
+				"  Recovered only by defeating the Warden in its own domain—the silent ruins of the Deep Dark.  "
+				"{image:silentsdelight:item/warden_ear width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lHeart of the Deep&r and &lWarden Heart&r:  "
+				"  The very core of the Warden’s existence, pulsing with sorrow and unspoken rage.  "
+				"  Only through triumph over the Warden’s wrath can these hearts be claimed.  "
+				"{image:silentsdelight:item/warden_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lEcho Shard&r:  "
+				"  Silent fragments of forgotten knowledge, still humming with the faint vibrations of the Deep Dark.  "
+				"  Found within the loot caches of the ancient cities buried beneath the earth.  "
+				"{image:minecraft:item/echo_shard width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🖤 &nTo forge the Warden's Eye is to tread upon sorrow itself.&r  "
+				"The Deep Dark does not forgive intruders lightly—and the Warden remembers.  "
+				"Only those who brave the silence, conquer despair, and honor the forgotten will ignite the Eye’s somber flame."
 			]
 			icon: {
 				Count: 1
@@ -1001,17 +1048,48 @@
 				}
 			}
 			id: "7B7C6A4F2D966F69"
-			rewards: [{
-				id: "7FA04839380C1D7D"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "6748A5D2406AEF89"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					id: "6DBF607D40793020"
+					item: "deeperdarker:warden_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "000683DBC929C190"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
-			tasks: [{
-				biome: "minecraft:deep_dark"
-				id: "5B619F85A78FFAE0"
-				type: "biome"
-			}]
+			tasks: [
+				{
+					biome: "minecraft:deep_dark"
+					id: "5B619F85A78FFAE0"
+					type: "biome"
+				}
+				{
+					id: "399430714DCA261D"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					id: "064CDC8586EF1833"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Warden Eye"
 			x: -6.5d
 			y: 15.5d
