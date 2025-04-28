@@ -1158,8 +1158,45 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Wither Eye in its dedicated chapter:"
-				"{ \"text\": \"Wither Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4605F358C391E792\" } }"
+				"A witness to the fall of empires, the &8Wither Eye&r bears the scars of a thousand lost worlds.  "
+				"It gazes into the abyss of ruin itself, holding echoes of devastation and power beyond reckoning.  "
+				"To forge this relic of destruction, you must master &lMechanical Crafting&r and gather the remnants of battles that shook the realms.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_wither_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Wither Eye is not one of creation—it is one of conquest, sacrifice, and decay.  "
+				"The following pages will guide you into the heart of ruin."
+				""
+				"{@pagebreak}"
+				""
+				"- &lSoul Sand&r:  "
+				"  A cursed earth infused with sorrow, Soul Sand can be unearthed in the depths of the Nether.  "
+				"  Alternatively, you can create it by &eHaunting ordinary Sand&r with the echoes of the spirit realm.  "
+				"{image:minecraft:block/soul_sand width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWither Skeleton Skulls&r:  "
+				"  Remnants of ancient battles fought against death incarnate.  "
+				"  These can be claimed by &eBeheading Wither Skeletons&r, grim trophies from the shadows of fortress ruins.  "
+				"{image:ftbchunks:textures/faces/minecraft/wither_skeleton.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lStar Infused Netherite Nugget&r:  "
+				"  A forbidden alloy, forged from celestial devastation.  "
+				"  Create this ingot by combining:  "
+				"  - &e4 Nether Stars&r  "
+				"  - &e1 Netherite Ingot&r  "
+				"  into a single Star Infused Netherite Nugget.  "
+				"  To harvest Nether Stars efficiently, consider using &eMob Cages&r to capture the Wither’s essence itself and automate its destruction.  "
+				"{image:cagedmobs:item/star_infused_netherite_ingot width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"💀 &nRuin is the price of power—and power the price of ruin.&r  "
+				"The Wither Eye is a relic that remembers what the world has tried to forget.  "
+				"Only those who embrace the cost of devastation and command the ashes of fallen realms will wield its hollow gaze."
 			]
 			icon: {
 				Count: 1
@@ -1169,18 +1206,37 @@
 				}
 			}
 			id: "6B63999D63EA981F"
-			rewards: [{
-				id: "75DD5EEF0437F6C0"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds. Click me for more info! "
+			rewards: [
+				{
+					id: "28A0168020043822"
+					item: {
+						Count: 1
+						id: "cagedmobs:netherite_dna_sampler"
+						tag: {
+							entity: "minecraft:wither"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60ADDF5CDD1098C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Wither Eye and claim the echoes of a thousand fallen worlds. Click me for more info! "
 			tasks: [{
-				id: "27E277AAC11B9CAD"
-				item: "minecraft:wither_skeleton_skull"
+				id: "46AF35CA74B042ED"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "Wither Eye"
+			title: "Ashes of Empires"
 			x: -2.0d
 			y: 18.0d
 		}
