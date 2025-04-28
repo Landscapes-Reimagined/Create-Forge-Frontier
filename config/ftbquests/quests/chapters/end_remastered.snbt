@@ -472,8 +472,50 @@
 		{
 			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Rogue Eye in its dedicated chapter:"
-				"{ \"text\": \"Rogue Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C659D0836CA815B\" } }"
+				"Imbued with the brilliance of ancient minds, the &6Rogue Eye&r is a relic that once illuminated the birth of Redstone itself.  "
+				"It hums softly with the ingenuity and daring of a bygone age—an artifact meant for those bold enough to reforge its legacy.  "
+				"To create this marvel, you must master &lMechanical Crafting&r and gather the finest inventions forged by machine, metal, and mind.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_rogue_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike other relics torn from battle or myth, the Rogue Eye is crafted through the spark of invention and the relentless pursuit of progress.  "
+				"The pages ahead will guide you through the path of innovation."
+				""
+				"{@pagebreak}"
+				""
+				"- &lMechanism Block&r:  "
+				"  Forged through a masterpiece of precision engineering, a Mechanism Block requires crafting &e9 Precision Mechanisms&r.  "
+				"  Each Mechanism is created via Sequenced Assembly, where a Gold Sheet is looped five times through:  "
+				"  - Applying a &eGold Nugget&r  "
+				"  - Applying a &eCogwheel&r  "
+				"  - Applying a &eLarge Cogwheel&r  "
+				"  Precision, patience, and a mastery of automation are key.  "
+				"{image:ftb:textures/mechanism.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBrass Block&r:  "
+				"  A gleaming testament to progress, a Brass Block is formed by gathering &e9 Brass Ingots&r.  "
+				"  Create Brass Ingots through Heated Mixing, combining a &eCopper Ingot&r and a &eZinc Ingot&r to yield two brilliant ingots of brass.  "
+				"{image:ftb:textures/brass.png width:50 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lMithril Ingot&r:  "
+				"  A rare alloy, glowing with inner vitality and strength.  "
+				"  Mithril is obtained by Superheated Mixing, combining:  "
+				"  - &eSteel&r  "
+				"  - &eChromatic Compound&r  "
+				"  - &eGlowberry Milkshake&r  "
+				"  - &eXP Nuggets&r  "
+				"  This fusion of metal, light, and experience yields a material unlike any other.  "
+				"{image:ftb:textures/mithril.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"⚙ &nIngenuity is the beating heart of the Rogue Eye.&r  "
+				"To awaken its brilliance, you must master both machine and mind—welding together the achievements of creation to honor the first sparks that gave rise to Redstone itself.  "
+				"Only true inventors will succeed in forging this symbol of progress and legacy."
 			]
 			icon: {
 				Count: 1
@@ -483,18 +525,36 @@
 				}
 			}
 			id: "5094745CE014E74E"
-			rewards: [{
-				id: "570DA45BACC69ABE"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age. Click me for more info! "
+			rewards: [
+				{
+					id: "5C1D466E98423488"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "493E7A348E8B54C7"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "0BD35C7AF84433DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Rogue Eye and reignite the brilliance of ancient innovation. Click me for more info! "
 			tasks: [{
-				id: "285406B696FD873D"
-				item: "create:brass_ingot"
+				id: "1240B40B2BDB0A70"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "Rogue Eye"
+			title: "Spark of Ingenuity"
 			x: 7.5d
 			y: 7.5d
 		}
