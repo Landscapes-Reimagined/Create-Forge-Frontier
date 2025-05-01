@@ -134,21 +134,25 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
 ---
 
 ## 📜 **Quest Updates & Additions**
-### Overworld
-- Changed Bookshelf Quest to accept any bookshelf type
-### Stress Progression
-- Create Utilites: Quests Completed *
-- Create Diesel Generators: Quests Completed *
+### Non-Chapter
+- Revamped All Quests
+- Pack Info: Added Dev Team info to Pack Intro
+- FTB Info: Add Ultimine Quest
+### General Progression
+- Revamped All Quests
+- Moved End Remastered to this Chapter
+- Overworld: Changed Bookshelf quest to use bookshelf tag
+- End Remastered: Condensed All Quests to one Page
+- Nether Remastered: Reworked Design to be similar to the rest of the Quest Pages
 ### Ad Astra Progression
 - Basic Rocket Progression: Condensed all Rocket Quest Pages into one page
 - Final Rocket Progression: Condensed all Forge Rocket Quests into one page
 - Updated Recipes Quests to match new Rocket Recipes
-### Rocket Progression
-- Moved all Quests into Ad Astra Progression
-### Forge Rocket
-- Moved all Quests into Ad Astra Progression
-### End Remastered
-- Adjusted Recipe Quests to use new End Remastered Items
+### Stress Progression *
+- Create Utilites: Quests Completed 
+- Create Diesel Generators: Quests Completed 
+### Automated Resource Generation (Previously Known as Factory Progression)
+- Condensed to 2 Quest Pages
 ### Imcomplete Quests
 - Made all incomplete quest pages invisible to make quests less overwhelming
 (* Quests Made by our Quest Architect, CtrlAltDyleted)
@@ -228,6 +232,7 @@ By removing **incompatible, redundant, and non-essential** mods, we are improvin
     - **Sophisticated Backpacks base upgrades**
     - **Pipez**, using new **Create** components
     - **Create - Mob Spawners** items
+    - **Easy Villagers and Piglins** blocks
   - **Regions Unexplored Ash recipe** to use **Supplementaries Ash**
   - **Ad Astra Rocket recipes** to use new **Rocket Tier Casing**
   - Lowered difficulty of select **End Remastered Eyes**
