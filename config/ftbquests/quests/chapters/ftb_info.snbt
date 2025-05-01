@@ -303,25 +303,30 @@
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
 			description: [
-				"FTB Ultimine revolutionizes the mining experience by allowing players to break multiple blocks at once with a single action. Whether you're clearing out massive ore veins, flattening terrain, or carving underground bases, Ultimine makes resource gathering faster, smoother, and far more satisfying."
+				"&6FTB Ultimine&r revolutionizes the way you mine, build, and explore in &6Create - Forge Frontier&r.  "
+				"Gone are the days of slow, block-by-block excavation—Ultimine empowers you to carve through the world with unprecedented speed and precision."
 				""
-				"With a simple key press, you can instantly harvest clusters of blocks based on the tool you're using—saving time and energy as you build and explore."
-				""
-				"{@pagebreak}"
-				""
-				"Here’s how to get the most out of FTB Ultimine:"
-				""
-				"&lConfigurable Mining Shapes&r: Choose from various mining patterns like tunnels, 3x3 areas, veins, and more—tailor your mining style to fit the task at hand."
-				""
-				"&lEfficient Resource Collection&r: No more tedious digging—gather vast amounts of stone, ores, or dirt in moments, with all the drops neatly at your feet."
-				""
-				"&lCreate Compatibility&r: Thanks to a powerful addon, you can now Ultimine Create’s Wrench and Create’s Item Applications! Quickly clear mechanical blocks or adjust complex builds with the same Ultimine convenience."
+				"With a single key press, you can harvest massive swaths of terrain, unveil hidden ores, and shape the landscape to match your vision.  "
+				"From intricate underground bases to towering resource operations, Ultimine ensures your tools work as fast as your imagination."
 				""
 				"{@pagebreak}"
 				""
-				"With FTB Ultimine, mining is no longer a chore—it’s an empowering tool that accelerates your journey, letting you focus on crafting, building, and innovating without getting bogged down. Whether you're digging grand halls or hollowing mountains, Ultimine ensures that your grand visions come to life faster than ever."
+				"&l⛏ Efficiency Meets Customization&r  "
+				"FTB Ultimine puts the power in your hands with a suite of customizable options:"
 				""
-				"Press, mine, and conquer—FTB Ultimine brings the world to your fingertips! ⛏️✨"
+				"- &eConfigurable Mining Shapes&r: Tunnel through caves, mine in 3x3 patterns, strip ores with vein mining, and more. Select the perfect shape for the task and let Ultimine handle the heavy lifting.  "
+				"- &eAccelerated Resource Collection&r: No more tedious digging. Gather stone, ores, and materials in moments—all dropped neatly at your feet.  "
+				"- &eCreate Compatibility&r: Thanks to a dedicated addon, Ultimine now supports the &bCreate Wrench&r and &bItem Application&r tools—perfect for clearing complex builds or dismantling contraptions with ease."
+				""
+				"{@pagebreak}"
+				""
+				"&l💎 Dig Deeper, Build Bigger&r  "
+				"FTB Ultimine transforms mining into a creative force—removing the grind so you can focus on what truly matters: crafting masterpieces, exploring new horizons, and expanding your frontier."
+				""
+				"Whether you’re hollowing out mountain halls, harvesting massive ore veins, or fine-tuning mechanical structures, Ultimine ensures every strike counts."
+				""
+				"&nOne press. A hundred blocks. Infinite possibilities.&r  "
+				"With FTB Ultimine, the world bends to your will. ⛏✨"
 			]
 			id: "19FA24B07EA17024"
 			rewards: [
@@ -336,14 +341,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "FTB Ultimine: Mining Made Efficient and Fun"
+			subtitle: "Unlock the power of FTB Ultimine and reshape the world with speed and precision. Click me for more info!"
 			tasks: [{
 				advancement: "minecraft:story/mine_stone"
 				criterion: ""
 				id: "6C45C8A68D817DEA"
 				type: "advancement"
 			}]
-			title: "FTB Ultimine"
+			title: "Mines of Innovation"
 			x: 4.0d
 			y: 0.0d
 		}
