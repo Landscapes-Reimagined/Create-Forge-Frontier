@@ -11,9 +11,7 @@
 	id: "102F526989610441"
 	images: [
 		{
-			click: "#0A1C7563FC03C5F6"
 			height: 15.0d
-			hover: ["Tier 1 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_1.png"
 			rotation: 0.0d
 			width: 11.081586826347305d
@@ -29,9 +27,7 @@
 			y: -4.0d
 		}
 		{
-			click: "#67026EE366909C22"
 			height: 15.0d
-			hover: ["Tier 2 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_2.png"
 			rotation: 0.0d
 			width: 10.364854802680567d
@@ -47,9 +43,7 @@
 			y: -4.0d
 		}
 		{
-			click: "#4F05B719FF46DED2"
 			height: 15.0d
-			hover: ["Tier 3 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_3.png"
 			rotation: 0.0d
 			width: 10.12667660208644d
@@ -65,9 +59,7 @@
 			y: -4.0d
 		}
 		{
-			click: "#088C2263FA4E3A27"
 			height: 15.0d
-			hover: ["Tier 4 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_4.png"
 			rotation: 0.0d
 			width: 8.206018518518519d
@@ -84,9 +76,7 @@
 			y: 14.5d
 		}
 		{
-			click: "#7FEE2D38BA934C28"
 			height: 15.0d
-			hover: ["Tier 5 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_5.png"
 			rotation: 0.0d
 			width: 8.131392604248623d
@@ -103,9 +93,7 @@
 			y: 14.5d
 		}
 		{
-			click: "#20BB2E7B405CA851"
 			height: 15.0d
-			hover: ["Tier 6 Rocket, Click image for more info!"]
 			image: "ftb:textures/tier_6.png"
 			rotation: 0.0d
 			width: 7.618332081141999d
@@ -450,7 +438,20 @@
 				"4E4C1C5026B92B6E"
 			]
 			description: [
-				"Congratulations, astronaut! You’ve crafted the Tier 1 Rocket, and now it's time to prepare for your first journey into the stars! To fuel your rocket for the ultimate lunar adventure, grab a bucket of fuel and pour it into the tank while your rocket is stationed on the launch pad. Once you're strapped in, hold down the spacebar and feel the power as you blast off, rocketing through the atmosphere and into the boundless depths of space. The moon awaits—let the countdown begin! Click here to learn how to get "
+				"&7Fuel your rocket and prepare for the ultimate lunar adventure.&r"
+				""
+				"Congratulations, astronaut—you’ve built the &fTier 1 Rocket&r, and your path to the stars is finally clear! Now it’s time to bring that rocket to life and &lignite your first launch&r."
+				""
+				"{@pagebreak}"
+				""
+				"🧪 &lFueling the Dream&r:  "
+				"Before liftoff, you’ll need to fuel your rocket. Grab a bucket of &eFuel&r and right-click the rocket’s tank while it’s sitting on the launch pad. Once your ship is full and your gear is secured, climb in, look to the stars, and &lhold down the spacebar&r."
+				""
+				"🔥 As the engines roar to life, you’ll feel the power of your creation carrying you through the atmosphere and into the great beyond."
+				""
+				"🌕 The Moon awaits—but it’s only the beginning."
+				""
+				"Click here to learn how to get  "
 				"{ \"text\": \"Fuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A9A03DC67D025B1\" } }"
 			]
 			hide_dependency_lines: true
@@ -479,7 +480,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me for more info!"
+			subtitle: "Fuel your rocket, strap in, and break free from the Overworld! Click me for more info!"
 			tasks: [
 				{
 					id: "4416E9F47934E8B8"
@@ -501,6 +502,7 @@
 					type: "item"
 				}
 			]
+			title: "🎉 Tier 1 Launch Sequence: Liftoff"
 			x: -3.5d
 			y: 9.0d
 		}
@@ -517,7 +519,23 @@
 			y: 3.25d
 		}
 		{
-			description: ["Get ready for liftoff! The Tier 1 Rocket from Ad Astra will be your ticket to the moon, where an otherworldly adventure awaits! Brace yourself to explore mysterious lunar structures, uncover hidden treasures, and mine rare Desh Ore amidst the lunar dust. Keep an eye out for the elusive Aubrum Molten Ore Vents, bubbling with precious resources—process these vents to unlock the true power of Desh! The moon is filled with secrets, so suit up and prepare for a cosmic journey like no other!"]
+			description: [
+				"&7Launch into the cosmos and uncover the secrets of the Moon.&r"
+				""
+				"Get ready for liftoff! The &fTier 1 Rocket&r from &bAd Astra&r marks the beginning of your interstellar journey. Your first destination: the Moon—a barren yet mysterious world brimming with ancient ruins, hidden treasures, and untapped resources."
+				""
+				"{@pagebreak}"
+				""
+				"🌕 &lWhat Awaits on the Moon&r:"
+				""
+				"- Explore strange &dLunar Structures&r long abandoned by those who came before."
+				"- Unearth &6Desh Ore&r buried beneath the surface and begin crafting with celestial materials."
+				"- Seek out bubbling &eAubrum Molten Ore Vents&r—rare and powerful nodes of energy needed to &lrefine Desh&r and unlock its full potential."
+				""
+				"With low gravity, no oxygen, and dangers lurking beneath the dust, the Moon is as perilous as it is rewarding. Strap in, power up your engines, and prepare for the next chapter of your cosmic conquest!"
+				""
+				"🛰 Will you survive the void—or claim its forgotten power?"
+			]
 			hide_dependent_lines: true
 			icon: "ad_astra:steel_ingot"
 			id: "0A1C7563FC03C5F6"
@@ -535,7 +553,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Click me for more info!"
+			subtitle: "Touch down on the Moon and uncover its lunar mysteries. Click me for more info!"
 			tasks: [
 				{
 					id: "5C77D6502E4258A9"
@@ -548,7 +566,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 1 Rocket Introduction"
+			title: "🚀 Tier 1 Rocket: One Small Step"
 			x: -3.5d
 			y: -2.0d
 		}
@@ -893,7 +911,24 @@
 				"0F2B0F16EC602266"
 				"74EA20A5473C95EC"
 			]
-			description: ["Congratulations, space pioneer! You’ve crafted the mighty Tier 2 Rocket, and now Mars awaits! Fuel up, strap in, and prepare for a journey to the Red Planet, where wonders beyond Earth beckon. Once you land, a world of exploration unfolds—venture through ancient structures, uncover hidden relics, and seek out valuable caches. This is Mars, a world of mystery and treasure. Ready for your next great leap into the cosmos?"]
+			description: [
+				"&7Begin your next great leap into the cosmos as Mars opens its ancient gates.&r"
+				""
+				"🎉 Congratulations, &ospace pioneer&r! You’ve crafted the mighty &cTier 2 Rocket&r, and now it’s time to set your course for &4Mars&r—a world veiled in dust, mystery, and untold riches."
+				""
+				"{@pagebreak}"
+				""
+				"🪐 &lTouch Down and Explore&r:  "
+				"Fuel up, strap in, and ignite your thrusters—your journey to the &cRed Planet&r begins now. Upon arrival, a realm of adventure unfolds:"
+				""
+				"- 🏛 &oAncient Structures&r hide forgotten lore.  "
+				"- 💎 &oHidden Relics&r await beneath the sands.  "
+				"- 🎒 &oTreasure Caches&r lie in wait for the bold."
+				""
+				"Mars is not just another step—it’s a leap into a frontier shaped by time, danger, and discovery."
+				""
+				"🧭 Will you claim its secrets or vanish into the crimson dust?"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -916,7 +951,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me to read more"
+			subtitle: "Land, explore, and uncover relics of a lost world! Click me for more info!"
 			tasks: [
 				{
 					id: "447EA71C3E876E28"
@@ -938,11 +973,31 @@
 					type: "item"
 				}
 			]
+			title: "🛸 Marsbound: First Steps on the Red Planet"
 			x: 10.0d
 			y: 8.5d
 		}
 		{
-			description: ["Prepare for liftoff to Mars with the powerful Tier 2 Rocket! This advanced vessel opens the path to the Red Planet, where a vast, uncharted world awaits. Touch down on Mars and explore its rugged terrain, packed with mysterious structures, ancient relics, and hidden treasures. As you dig deeper, mine for the precious Ostrom Ore, and keep a keen eye out for the rare Molten Stellaris Ore Vents—pulsing with valuable minerals that, when processed, can yield even more Ostrom. Mars is rich with secrets and powerful resources for those brave enough to explore—strap in, ignite the engines, and embark on an unforgettable adventure beyond the stars!"]
+			description: [
+				"&7Unlock the mysteries of the Red Planet and harness its celestial power.&r"
+				""
+				"Prepare for liftoff once more—this time, with the mighty &cTier 2 Rocket&r! Designed for deep-space travel, this upgraded vessel paves the way to &4Mars&r, a planet of &orugged terrain&r, &4ancient ruins&r, and &cpowerful resources&r waiting beneath its crimson sands."
+				""
+				"{@pagebreak}"
+				""
+				"🌄 &lExplore the Red Frontier&r:  "
+				"Mars is more than just red rock and dust. Hidden throughout its vast landscapes are &ostructures filled with secrets&r, relics of civilizations long gone, and challenges unlike anything you've seen before."
+				""
+				"As you dig deeper, seek out:"
+				"- &cOstrom Ore&r: a core component of advanced machinery.  "
+				"- &6Molten Stellaris Ore Vents&r: radiant nodes that pulse with potential—process them to extract even more Ostrom!"
+				""
+				"{@pagebreak}"
+				""
+				"Your journey has just begun. Mars is rich with &osecrets, strength, and scientific wonder&r for those bold enough to venture beyond Earth’s grasp."
+				""
+				"🛰 Are you ready to command the skies and conquer the stars?"
+			]
 			hide_dependent_lines: true
 			id: "67026EE366909C22"
 			rewards: [
@@ -959,13 +1014,13 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Click me for more info!"
+			subtitle: "Unleash the power of Mars and uncover its celestial riches! Click me for more info!"
 			tasks: [{
 				id: "51F1585544E2A8A4"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			title: "Tier 2 Rocket Introduction"
+			title: "🚀 Tier 2 Rocket: Marsbound Mission"
 			x: 10.0d
 			y: -2.0d
 		}
@@ -1310,7 +1365,29 @@
 				"7F3A51F0F5059CB1"
 				"2CBB1DC7039C585F"
 			]
-			description: ["Congratulations, fearless adventurer! With the Tier 3 Rocket, you’re set to explore the intense and mysterious worlds of Mercury and Venus! Buckle up and get ready to launch toward Mercury’s blistering surface, where hidden structures and rare treasures lie waiting under the fierce solar glow. Then, continue your journey to Venus, a planet filled with ancient ruins and valuable loot, shrouded in its fiery atmosphere. These blazing worlds are ripe for discovery, promising rare finds and untold secrets for those brave enough to uncover them. Are you ready to push the boundaries of exploration?"]
+			description: [
+				"&7With flame at your feet and stars overhead, it’s time to enter the crucible of space.&r"
+				""
+				"🎉 &eCongratulations, fearless adventurer!&r With your &lTier 3 Rocket&r complete, you’re prepared to journey into the most extreme and enigmatic worlds yet."
+				""
+				"{@pagebreak}"
+				""
+				"☀ &lMercury&r  "
+				"Buckle up and &6launch toward Mercury&r—its &cblistering surface&r hides &otreacherous ruins&r and &6rare treasures&r, buried beneath the relentless glare of the sun."
+				""
+				"🔥 &lVenus&r  "
+				"Continue your voyage to the &ofiery atmosphere&r of Venus, a planet teeming with:"
+				""
+				"- 🏛 &oAncient ruins&r pulsing with forgotten energy  "
+				"- 💰 Valuable loot scattered across scorched landscapes  "
+				"- 🌋 &cDangerous challenges&r for only the most daring explorers"
+				""
+				"{@pagebreak}"
+				""
+				"These planets are not for the faint of heart—but for those who dare, they offer &orare finds&r and &6untold secrets&r. Will you rise above the heat and uncover their mysteries?"
+				""
+				"🔥 &lThe stars are watching—are you ready to push the boundaries of exploration?&r"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1333,7 +1410,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me to read more"
+			subtitle: "Mercury and Venus await—heat, history, and hidden riches lie beyond the flame. Click me for more info!"
 			tasks: [
 				{
 					id: "24C9487D8333CE87"
@@ -1355,11 +1432,35 @@
 					type: "item"
 				}
 			]
+			title: "🚀 Tier 3 Rocket: Blazing the Path Forward"
 			x: 24.5d
 			y: 8.5d
 		}
 		{
-			description: ["Prepare for the ultimate lift-off with the Tier 3 Rocket, unlocking the scorching worlds of Mercury and Venus! Strap in and ignite the engines for a journey to Mercury, where hidden structures and rare treasures await beneath the intense solar glare. But the adventure doesn’t stop there—Venus holds even more, with mysterious ruins and loot, along with rare Calorite and Pyroclast Molten Vents, filled with minerals that can later be refined into powerful Calorite. These fiery worlds are brimming with untold riches and challenges for the bold—are you ready to soar into the heart of the solar system?"]
+			description: [
+				"🚀 &6Tier 3 Rocket: Into the Heart of the Solar System&r  "
+				"&7Blaze a trail through fire and fury as Mercury and Venus await your arrival.&r"
+				""
+				"Prepare for the &6ultimate lift-off&r with the powerful &lTier 3 Rocket&r—your gateway to the most unforgiving worlds in the galaxy."
+				""
+				"{@pagebreak}"
+				""
+				"☀ &lMercury&r  "
+				"Face &cintense solar glare&r and &4blistering terrain&r as you descend upon Mercury. Explore &oancient structures&r buried beneath its scorched crust and uncover &6rare treasures&r hidden in the heat."
+				""
+				"🔥 &lVenus&r  "
+				"Venture deeper into the inferno as you land on Venus, a planet of &cviolent storms&r and &oerupting terrain&r. Discover:"
+				""
+				"- 🏛 &oMysterious ruins&r filled with loot  "
+				"- 💎 &6Molten Vents&r brimming with &cCalorite&r and &4Pyroclast&r  "
+				"- 🛠 Minerals that can be refined into &opowerful Calorite&r"
+				""
+				"{@pagebreak}"
+				""
+				"These &cfire-forged worlds&r offer challenges and riches like no other—only the bold will survive their trials. Suit up, fuel up, and prepare to &lsoar into the burning core&r of the solar system."
+				""
+				"🔥 Will you master the flame—or be consumed by it?"
+			]
 			hide_dependent_lines: true
 			id: "4F05B719FF46DED2"
 			rewards: [
@@ -1376,13 +1477,13 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Click me for more info!"
+			subtitle: "Unlock Mercury and Venus—two fiery worlds of ruin, riches, and resilience. Click me for more info!"
 			tasks: [{
 				id: "10FFA06106EC95E6"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			title: "Tier 3 Rocket Introduction"
+			title: "🚀 Tier 3 Rocket: Into the Heart of the Solar System"
 			x: 24.5d
 			y: -2.0d
 		}
@@ -1700,7 +1801,28 @@
 				"0FBC0782EC837F0A"
 				"4D8BC31C27E6392D"
 			]
-			description: ["Congratulations, daring adventurer! With the powerful Tier 4 Rocket at your command, you’re ready to launch into the frozen realm of Glacio! Fuel up, secure your supplies, and prepare for an unforgettable journey. Upon landing, ancient structures and hidden treasures await discovery across the icy landscape, along with rare AE2 meteorites containing advanced technologies. This glacial world promises untold secrets and valuable loot for those brave enough to face its frigid depths. Ready to conquer the frozen frontier and claim its hidden riches? The adventure awaits!"]
+			description: [
+				"&7The ice calls to those bold enough to brave its silence and storms.&r"
+				""
+				"🎉 &bCongratulations, daring adventurer!&r  "
+				"With the &lTier 4 Rocket&r now at your command, the &ofrozen realm of Glacio&r awaits your arrival! Fuel up, strap in, and prepare to break through the stratosphere into a world of snow, silence, and ancient power."
+				""
+				"{@pagebreak}"
+				""
+				"🌨 Upon landing, you’ll face a landscape of &bglacial beauty&r and &ohidden peril&r. Scattered across the terrain are:"
+				""
+				"- 🏛 &3Ancient structures&r steeped in mystery  "
+				"- 💠 Rare &oAE2 meteorites&r containing lost technologies  "
+				"- ❄ Secrets frozen in time, waiting for the brave"
+				""
+				"{@pagebreak}"
+				""
+				"With every step across this icy world, you’ll uncover rare resources, powerful artifacts, and forgotten knowledge buried beneath the frost."
+				""
+				"🌌 &lThe Frozen Frontier&r beckons—will you seize its secrets or succumb to the cold?"
+				""
+				"🧊 &bGlacio awaits—ignite the engines and conquer the cold.&r"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1723,7 +1845,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me to read more"
+			subtitle: "Glacio's icy expanse holds ancient ruins, hidden tech, and chilling rewards. Click me for more info!"
 			tasks: [
 				{
 					id: "056CCC1327668AB9"
@@ -1745,6 +1867,7 @@
 					type: "item"
 				}
 			]
+			title: "❄ Tier 4 Rocket: Into the Frost"
 			x: -3.5d
 			y: 27.375d
 		}
@@ -1776,7 +1899,27 @@
 			y: 22.0d
 		}
 		{
-			description: ["Prepare for the ultimate icy adventure with the Tier 4 Rocket! This powerful vessel is your gateway to Glacio, a frozen world teeming with wonders. Strap in and ignite the engines as you launch toward a planet blanketed in snow and mystery. Touch down on Glacio and explore its expansive landscape, filled with ancient structures, valuable loot, and rare AE2 meteorites that hide technological secrets. Brave the cold to mine for Ice Shard Ore, and search for the elusive Frostite Molten Ore Vents, which can be processed into valuable ice shards and pure ice. Glacio promises riches and hidden knowledge for the bold—are you ready to dive into this frosty frontier?"]
+			description: [
+				" &7Prepare your systems—it’s time to brave the bitter void of ice and secrets.&r"
+				""
+				"🚀 &bPrepare for the ultimate icy adventure&r with the &lTier 4 Rocket&r! This powerful spacecraft is your key to unlocking the glacial world of &bGlacio&r, a planet of mystery, silence, and frozen riches."
+				""
+				"{@pagebreak}"
+				""
+				"🌨 &lTouch down&r on Glacio and explore a realm wrapped in endless winter. From frostbitten cliffs to ancient ruins buried beneath the snow, this planet offers:"
+				""
+				"- 🏛 &3Ancient structures&r echoing with forgotten power  "
+				"- 💎 Rare AE2 meteorites hiding &otechnology&r  "
+				"- ❄ Treacherous terrain hiding rewards for the brave"
+				""
+				"{@pagebreak}"
+				""
+				"🔍 Begin mining for &bIce Shard Ore&r, vital for high-tier crafting. Seek out &lFrostite Molten Ore Vents&r—&othese frozen veins&r can be processed into &bIce Shards&r and &7Pure Ice&r, invaluable for survival and progression."
+				""
+				"Glacio is more than snow—it’s a &llabyrinth of hidden knowledge&r, waiting to be unearthed. Are you ready to &osurvive the frost&r and uncover its crystalline secrets?"
+				""
+				"🌌 &bSuit up—the &oFrozen Frontier&r awaits.&r"
+			]
 			hide_dependent_lines: true
 			id: "088C2263FA4E3A27"
 			rewards: [
@@ -1793,13 +1936,13 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Click me for more info!"
+			subtitle: "Launch into Glacio’s icy depths and uncover rare relics and frozen power. Click me for more info!"
 			tasks: [{
 				id: "00EE61918468D602"
 				item: "ad_astra:calorite_ingot"
 				type: "item"
 			}]
-			title: "Tier 4 Rocket Introduction"
+			title: "❄ Tier 4 Rocket: The Frozen Frontier"
 			x: -3.5d
 			y: 16.0d
 		}
@@ -2117,7 +2260,25 @@
 				"5E986FA30E7AC4DD"
 				"7210FF0C34695748"
 			]
-			description: ["Congratulations, fearless explorer! With the powerful Tier 5 Rocket, you’re prepared to journey to the shadowed worlds of the Alex Caves Planets! Fuel up, gather your supplies, and prepare for a descent into the unknown. As you touch down on Forlorn Hollows, Abyssal Chasm, and Primordial Caves, eerie landscapes and ancient mysteries await discovery. Traverse the ominous caverns of Forlorn Hollows, dive into the depths of the Abyssal Chasm, and explore the ancient, overgrown realms of Primordial Caves. Each planet holds rare resources, secrets, and dark histories for those daring enough to explore their depths. Ready to brave these shadowed frontiers and claim the treasures within? Your adventure awaits!"]
+			description: [
+				"&7Explore the forgotten worlds that lurk beneath light and reason.&r"
+				""
+				"🎉 &lCongratulations, fearless explorer!&r With the power of the &5Tier 5 Rocket&r, you now have access to the &oAlex’s Caves Planets&r — mysterious realms veiled in &8shadow&8, &3depth&3, and &2ancient life&2."
+				""
+				"{@pagebreak}"
+				""
+				"☠ &8Forlorn Hollows&r – A land of &oGuanostone ruins&r and ominous silence. Malevolent creatures stalk the caverns, and forgotten whispers echo through the darkness."
+				""
+				"🌊 &1Abyssal Chasm&r – Dive into an endless ocean abyss lined with sunken ruins, where the &9Deep Ones&r prowl and lost relics of a drowned age await the brave."
+				""
+				"🌿 &2Primordial Caves&r – Step into a prehistoric underworld, overgrown with massive flora and inhabited by creatures untouched by time. It’s a living vault of Earth’s earliest secrets."
+				""
+				"{@pagebreak}"
+				""
+				"Each of these worlds is rich with &6rare materials&r, &crelics&r, and &odark histories&r. Only those bold enough to brave their depths will unlock their true potential."
+				""
+				"🗝 &lFuel up. Descend. Discover the legacy left in the dark.&r"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2149,7 +2310,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me to read more"
+			subtitle: "Brave the forgotten planets of shadow and time—Forlorn Hollows, Abyssal Chasm, and Primordial Caves. Click me for more info!"
 			tasks: [
 				{
 					id: "082CA5032E117713"
@@ -2171,6 +2332,7 @@
 					type: "item"
 				}
 			]
+			title: "🌌 Tier 5 Rocket: Descent into Darkness"
 			x: 10.5d
 			y: 27.375d
 		}
@@ -2203,9 +2365,25 @@
 		}
 		{
 			description: [
-				"Prepare for the darkest, most enigmatic adventure yet with the Tier 5 Rocket! After conquering the End Dimension, you’re ready to launch into the unknown, accessing three mysterious Alex Caves Planets: Forlorn Hollows, Abyssal Chasm, and Primordial Caves. Each planet harbors its own haunting secrets, and more detailed information about them can be found in the Planet Progression Quests."
+				"&7Unlock the forgotten worlds sealed beneath shadow and time.&r"
+				""
+				"Prepare for your &l&0darkest, most enigmatic adventure yet&r with the &lTier 5 Rocket&r! After conquering the &5End Dimension&r, you now hold the key to &oAlex’s Caves Planets&r — &8Forlorn Hollows&8, &1Abyssal Chasm&1, and &2Primordial Caves&2. "
+				""
+				"These shadowed realms offer a progression unlike any other."
+				""
 				"{@pagebreak}"
-				"Descend into Forlorn Hollows, a pitch-black landscape of Guanostone, where malevolent forces lurk and eerie whispers echo through the darkness. Venture further to the submerged Abyssal Chasm, an oceanic abyss lined with strange ruins and home to the elusive Deep Ones. Finally, step into Primordial Caves, an ancient, glowing world full of massive flora and remnants of life untouched by time. Each planet holds unique resources and rare ores, waiting for those bold enough to unlock their secrets. Prepare for a journey into these dark, foreboding worlds—are you ready for the next level of exploration?"
+				""
+				"&8⬛ Forlorn Hollows&r – Descend into the void of &oGuanostone&r, where cursed echoes and malevolent forces await. Navigate its claustrophobic tunnels and unravel secrets best left buried."
+				""
+				"🌊 &1Abyssal Chasm&r – Plunge into a &odeep oceanic rift&r lined with ancient ruins and haunted by the elusive &9Deep Ones&r. Strange relics and abyssal creatures patrol its depths."
+				""
+				"🌿 &2Primordial Caves&r – Wander an untouched realm of &oglowing flora&r and prehistoric giants. Here, time has stood still—yet power pulses beneath the roots of ancient trees."
+				""
+				"{@pagebreak}"
+				""
+				"Each planet holds &6rare ores&r, &7powerful mobs&r, and &omysteries that defy understanding&r. For full details, dive into the &oPlanet Progression Quests&r and uncover the path that lies ahead."
+				""
+				"🕳 &lThe shadows call—will you answer?&r"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:end_stone"
@@ -2224,13 +2402,13 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Click me for more info!"
+			subtitle: "Unlock the twisted secrets of Alex’s Caves Planets—where danger and discovery intertwine. Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "486CA6A5B434776C"
 				type: "dimension"
 			}]
-			title: "Tier 5 Rocket Introduction"
+			title: "🌑 Tier 5 Rocket: Into the Depths of Darkness"
 			x: 10.5d
 			y: 16.0d
 		}
@@ -2550,11 +2728,23 @@
 		}
 		{
 			description: [
-				"Prepare to enter the most bizarre and hazardous realms yet with the Tier 6 Rocket! This cutting-edge vessel grants you access to the final trio of Alex Caves Planets: Magnetic Caves, Toxic Caves, and the surreal Candy Cavity. These strange and treacherous worlds hold secrets unlike anything you've seen before. For more details, check out the Planet Progression Quests."
-				"{@pagebreak}"
-				"Venture into the Magnetic Caves, a planet where magnetic fields distort and pull at every step, with strange, metallic structures and magnetic anomalies that make exploration a constant challenge. Next, brave the Toxic Caves, a poisonous, swamp-like landscape blanketed in dense, toxic mists and strange flora, where even the ground seems hostile. Finally, uncover the peculiar world of Candy Cavity, a vivid, candy-colored realm filled with sweet yet eerie caverns, where strange creatures and unnatural formations create an otherworldly experience."
+				"&7Unlock the final, strangest corners of the cosmos—if you dare.&r"
 				""
-				"Each of these planets holds unique resources and bizarre features for those courageous enough to explore their depths. Are you ready to embark on this journey through alien biomes, where danger and wonder lie around every corner? The universe awaits!"
+				"The &5Tier 6 Rocket&r launches you into the most &osurreal&r and &6hazardous&r worlds yet. These aren’t just planets—they are twisted biomes forged by chaos, teeming with &cbizarre lifeforms&r, &etoxic air&r, and &dcandy-colored nightmares&r. Welcome to the final frontier of Alex’s Caves Planets."
+				""
+				"{@pagebreak}"
+				""
+				"🧲 &bMagnetic Caves&r – Gravity bends and magnetism distorts reality here. Every step is a struggle as metallic storms swirl, structures float, and magnetic anomalies twist the laws of physics."
+				""
+				"☠ &2Toxic Caves&r – A world of bubbling &aacid lakes&r, glowing mists, and venomous flora. The air itself is a weapon, and the ground beneath you resents your presence."
+				""
+				"🍬 &dCandy Cavity&r – Don’t be fooled by its sugar-sweet surface. This planet’s &opastel horror&r conceals eerie creatures, &ounnatural formations&r, and a biome as beautiful as it is unsettling."
+				""
+				"{@pagebreak}"
+				""
+				"Each of these worlds holds &6exotic materials&r, &5unseen loot&r, and &ostrange phenomena&r that test both your survival skills and your sanity."
+				""
+				"🎢 &lStrap in—your journey into the cosmic unknown has only just begun.&r"
 			]
 			hide_dependent_lines: true
 			id: "20BB2E7B405CA851"
@@ -2572,13 +2762,14 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Click me for more info!"
+			subtitle: "Explore the final three twisted planets—Magnetic Caves, Toxic Caves, and Candy Cavity—and uncover secrets beyond imagination. Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:abyssal_chasm"
+				icon: "alexscaves:submarine"
 				id: "12EF557C6123BA72"
 				type: "dimension"
 			}]
-			title: "Tier 6 Rocket Introduction"
+			title: "🚀 Tier 6 Rocket: Descent into the Absurd"
 			x: 24.5d
 			y: 16.0d
 		}
@@ -2609,7 +2800,26 @@
 				"1F4DE7516F25ABA7"
 				"1B8804433605B911"
 			]
-			description: ["Congratulations, fearless explorer! With the powerful Tier 6 Rocket in hand, you’re set to journey into the strangest realms of the Alex Caves Planets! Fuel up, gather your gear, and prepare for an expedition into the extraordinary. As you arrive on Magnetic Caves, Toxic Caves, and Candy Cavity, brace yourself for bizarre and perilous landscapes. Traverse the magnetic anomalies of Magnetic Caves, navigate the noxious swamps of Toxic Caves, and wander through the surreal, candy-colored caverns of Candy Cavity. Each of these worlds holds rare treasures, strange lifeforms, and mysteries beyond imagination for those brave enough to uncover them. Are you ready to conquer these alien frontiers and claim their hidden wonders? Your adventure awaits!"]
+			description: [
+				"&7Your expedition into the bizarre begins now.&r"
+				""
+				"🎉 Congratulations, fearless explorer! With the &5Tier 6 Rocket&r crafted and fueled, you're ready to brave the most &osurreally dangerous&r planets of the Alex’s Caves system. These aren’t ordinary frontiers—they’re the &cmad fringes of the galaxy&r, where science blurs into imagination."
+				""
+				"{@pagebreak}"
+				""
+				"🧲 &bMagnetic Caves&r – A realm of gravitational oddities and &oelectromagnetic chaos&r. Navigate floating terrain, twisting tunnels, and magnetic creatures that pull at your gear and your sanity."
+				""
+				"☣ &2Toxic Caves&r – Thick, acidic fog clouds every step, while &nradioactive flora&r and mutant beasts turn survival into a constant battle. One breath too deep could be your last."
+				""
+				"🍭 &dCandy Cavity&r – A saccharine nightmare with &opsychotropic caverns&r and &ounnatural colors&r. It's sweet—until it isn’t. Licowitches and twisted candy beasts guard this planet's unnatural beauty."
+				""
+				"{@pagebreak}"
+				""
+				"Each of these planets offers &6rare resources&r, &5exotic loot&r, and &5secrets waiting to be unraveled&r. But beware: what you find may change how you see the universe."
+				""
+				"🌌 &lStrange. Hostile. Unforgettable.&r  "
+				"🛠 The final leg of your journey begins now—&owill you endure the madness and master the unknown?&r"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2646,7 +2856,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Click me to read more"
+			subtitle: "Step beyond reality into magnetic chaos, toxic nightmares, and saccharine horrors. Click me for more info!"
 			tasks: [
 				{
 					id: "75947DE12A047061"
@@ -2668,6 +2878,7 @@
 					type: "item"
 				}
 			]
+			title: "🎯 Tier 6 Rocket Unlocked: Welcome to the Weird"
 			x: 24.5d
 			y: 27.0d
 		}

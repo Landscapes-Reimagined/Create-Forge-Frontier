@@ -11,9 +11,7 @@
 	id: "0EE8A99BA594EAF8"
 	images: [
 		{
-			click: "#262FF2B00E853521"
 			height: 25.0d
-			hover: ["Forge Rocket, Click image for more info!"]
 			image: "ftb:textures/forge_rocket.png"
 			rotation: 0.0d
 			width: 12.5d
@@ -269,10 +267,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Left Fin\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61C456C8F86FE38A\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_fin_left"
 			id: "45896323D20A614F"
 			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
@@ -287,10 +281,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Left Fin\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61C456C8F86FE38A\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_fin_left"
 			id: "2440BFE4B5131CBC"
 			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
@@ -304,10 +294,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Fin Right\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"742FFA43ACCE7C7D\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_fin_right"
 			id: "3613ED84D9018B60"
 			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
@@ -322,10 +308,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Fin Right\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"742FFA43ACCE7C7D\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_fin_right"
 			id: "3BAA143D8FC45CBC"
 			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
@@ -339,10 +321,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Tank\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0BF8B19F43CAC526\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_tank"
 			id: "40E4A50EA66F1B39"
 			subtitle: "The fuel tank of the Forge Rocket, providing the energy needed to ignite the engine and power the journey to the final frontier. "
@@ -356,10 +334,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Tank\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0BF8B19F43CAC526\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_tank"
 			id: "6AC7B8878F6A4865"
 			subtitle: "The fuel tank of the Forge Rocket, providing the energy needed to ignite the engine and power the journey to the final frontier. "
@@ -374,10 +348,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Core\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2707014306776FEA\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_core"
 			id: "5E5285009F4E0981"
 			subtitle: "The heart of the Forge Rocket, the Core powers and coordinates all essential systems, from navigation to life support. This critical component keeps the rocket stable and on course, making it indispensable for your journey to the final frontier. "
@@ -391,10 +361,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Engine\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"62E3B12BF0527891\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_engine"
 			id: "4F69B98546F521BE"
 			subtitle: "The powerhouse of the Forge Rocket, responsible for propelling it into space. Built to endure high thrust and extreme temperatures, this engine is key to reaching new frontiers. "
@@ -415,10 +381,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "6BF5F6F5E9B0F6B7"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -433,10 +395,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "0F323F6B149201ED"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -451,10 +409,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "115EAB268DA26FC2"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -469,10 +423,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "01C5A24BC7CC2BE7"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -487,10 +437,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "6E746C30A1D5F1A5"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -505,10 +451,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "0DD3EE62AAC15828"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -523,10 +465,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "36AF8CB1CFDC0032"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -541,10 +479,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "4BB54E651BBB1FC9"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -559,10 +493,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "5A35F91B01CEBE2A"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -577,10 +507,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "2A09E2154B6C0CB3"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -595,10 +521,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "05ED4FAADAE24126"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -612,10 +534,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "0449EAD19A4F22FE"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -630,10 +548,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Casing\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60824E7CD9F212EC\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "4A72FA334E1FF90B"
 			subtitle: "Durable, reinforced casing that forms the main body of the Forge Rocket. Built to withstand extreme conditions and protect the rocket’s cargo and crew. "
@@ -648,10 +562,7 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Nose Cone\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A5DCF6D665473DB\" } }"
-			]
+			description: [""]
 			icon: "forge_frontier:forge_rocket_nose_cone"
 			id: "7584AB93EB7D37EB"
 			subtitle: "The pointed tip of the Forge Rocket, designed for aerodynamic stability and smoother entry through atmospheres. Essential for completing the rocket build. "
@@ -672,10 +583,6 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
-			description: [
-				"To see how you craft it check out this quest chapter: "
-				"{ \"text\": \"Forge Rocket Door\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A4E5B8651CA1F22\" } }"
-			]
 			icon: "forge_frontier:forge_rocket_door"
 			id: "68E19B88A3FC363D"
 			subtitle: "A reinforced access door for entering and exiting the Forge Rocket. Provides a secure seal, ensuring the rocket remains airtight during liftoff and in deep space. "
