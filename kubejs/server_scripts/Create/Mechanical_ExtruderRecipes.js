@@ -620,7 +620,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'createdieselgenerators:biodiesel',
+            fluid: 'createdieselgenerators:biodiesel', // Switch to different Fluid
             amount: 1000
           },
           {
