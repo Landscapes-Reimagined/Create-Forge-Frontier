@@ -90,7 +90,7 @@
 			image: "ftb:textures/tier_5.png"
 			rotation: 0.0d
 			width: 8.131392604248623d
-			x: 10.0d
+			x: 10.5d
 			y: 21.5d
 		}
 		{
@@ -1813,7 +1813,7 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 25.5d
 		}
 		{
@@ -1826,7 +1826,7 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 25.5d
 		}
 		{
@@ -1838,7 +1838,7 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 24.5d
 		}
 		{
@@ -1851,7 +1851,7 @@
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 12.5d
 			y: 24.5d
 		}
 		{
@@ -1863,7 +1863,7 @@
 				item: "forge_frontier:tier_5_engine"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 25.0d
 		}
 		{
@@ -1882,7 +1882,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 24.0d
 		}
 		{
@@ -1894,7 +1894,7 @@
 				item: "forge_frontier:tier_5_tank"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 24.0d
 		}
 		{
@@ -1907,7 +1907,7 @@
 				item: "forge_frontier:tier_5_tank"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 24.0d
 		}
 		{
@@ -1920,7 +1920,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 23.0d
 		}
 		{
@@ -1933,7 +1933,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 23.0d
 		}
 		{
@@ -1946,7 +1946,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 23.0d
 		}
 		{
@@ -1959,7 +1959,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 22.0d
 		}
 		{
@@ -1972,7 +1972,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 22.0d
 		}
 		{
@@ -1985,7 +1985,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 21.0d
 		}
 		{
@@ -1998,7 +1998,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 21.0d
 		}
 		{
@@ -2011,7 +2011,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 20.0d
 		}
 		{
@@ -2024,7 +2024,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 20.0d
 		}
 		{
@@ -2037,7 +2037,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 20.0d
 		}
 		{
@@ -2049,7 +2049,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 9.5d
 			y: 19.0d
 		}
 		{
@@ -2062,7 +2062,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 19.0d
 		}
 		{
@@ -2075,7 +2075,7 @@
 				item: "forge_frontier:malachite_rocket_casing"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 19.0d
 		}
 		{
@@ -2087,7 +2087,7 @@
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 18.0d
 		}
 		{
@@ -2171,7 +2171,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 10.5d
 			y: 27.375d
 		}
 		{
@@ -2183,7 +2183,7 @@
 				item: "ad_astra:steel_door"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 21.0d
 		}
 		{
@@ -2198,7 +2198,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 22.0d
 		}
 		{
@@ -2231,7 +2231,7 @@
 				type: "dimension"
 			}]
 			title: "Tier 5 Rocket Introduction"
-			x: 10.0d
+			x: 10.5d
 			y: 16.0d
 		}
 		{

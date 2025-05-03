@@ -18,7 +18,19 @@
 	quests: [
 		{
 			dependencies: ["4AD1CCF2DA9C58B2"]
-			description: ["Mercury is a planet of extremes—scorching heat, barren landscapes, and intense solar radiation. Unlike the previous celestial bodies, Mercury holds no natural ores, making survival a true test of endurance. However, hidden within the planet’s fiery terrain lies a single structure of great significance: the Burning Arena, where untold dangers and rewards await. Prepare well before venturing forth, as the journey to Mercury is not for the faint of heart."]
+			description: [
+				"☀ &cMercury: Trial by Fire&r"
+				""
+				"Mercury is not a land of welcome—it is a crucible of &cscorching heat&r, &obarren terrain&r, and &6relentless solar fury&r. With no natural ores to harvest, every moment spent here is a trial of endurance and resilience."
+				""
+				"{@pagebreak}"
+				""
+				"Yet, amid the &oblighted surface&r lies a structure of immense significance: &lthe Burning Arena&r—&oa fiery coliseum of chaos, mystery, and rare spoils&r. It is the planet’s only landmark, and it holds challenges that few return from unscathed."
+				""
+				"Before you descend into the inferno, ensure you’ve &lprepared for the worst&r. &cHeat resistance, oxygen, and powerful gear&r are your only allies here. Mercury does not forgive mistakes."
+				""
+				"🔥 Will you endure the flame—or be consumed by it?"
+			]
 			hide_dependent_lines: true
 			icon: "ad_astra:mercury_globe"
 			id: "6B54577F45BDF5E7"
@@ -29,24 +41,32 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "A Scorched Frontier, Click me for more info!"
+			subtitle: "Endure the extremes. Conquer the arena. Prove your worth in the heart of the solar flame. Click me for more info!"
 			tasks: [{
 				id: "42455C9E0B92FBD0"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			title: "Mercury"
+			title: "Mercury: Trial by Fire"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["6B54577F45BDF5E7"]
 			description: [
-				"Your journey through the stars has led you to Mercury—a planet of relentless heat and hostile conditions. Unlike Mars or the Moon, Mercury holds no mineable resources, making it a place of pure survival and challenge. However, the planet is not without secrets. Deep within its surface lies the Burning Arena, a structure filled with powerful foes and valuable loot."
-				"Before stepping onto its scorching surface, make sure you are prepared!"
+				"🔥 &6Mercury Arrival: Enter the Inferno&r"
 				""
+				"Your journey across the stars has brought you to &6Mercury&r—a planet where &cblistering heat&r and &ohostile conditions&r rule without mercy. Unlike the rich veins of Mars or the frozen secrets of the Moon, Mercury offers no mineable resources—only &oa battle for survival&r."
 				""
-				"Learn how to craft the Tier 3 Rocket in its      "
+				"{@pagebreak}"
+				""
+				"But this planet is not without purpose. Beneath the scorched surface lies the &lBurning Arena&r—&oa treacherous structure filled with powerful adversaries and coveted treasures&r. It is a proving ground for only the boldest of explorers."
+				""
+				"Before touching down, ensure your &lTier 3 Rocket&r is ready, and your gear is prepared for the intense heat. Mercury will test every ounce of your strength, strategy, and determination."
+				""
+				"☀ *Can you survive the blaze and uncover the secrets of the flame?*"
+				""
+				"Learn how to craft the Tier 3 Rocket in its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4F05B719FF46DED2\" } }"
 			]
 			id: "767ED8F286B517B6"
@@ -55,7 +75,7 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Step onto the sun-scorched surface of Mercury—where survival is the only treasure you begin with. Click me for more info!"
 			tasks: [{
 				id: "148326B2EA153CFB"
 				item: {
@@ -65,13 +85,25 @@
 				}
 				type: "item"
 			}]
-			title: "A Fiery Destination"
+			title: "Mercury Arrival: Enter the Inferno"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["767ED8F286B517B6"]
-			description: ["Mercury’s extreme temperatures make it one of the most dangerous places in the solar system. Without proper protection, you’ll burn up before even setting foot on its surface! The Netherite Space Suit is your best defense against the blazing heat and ensures you can explore without taking damage. If you haven’t crafted one yet, now is the time!"]
+			description: [
+				"🧱 &6Forge the Flameproof Suit&r"
+				""
+				"Mercury’s searing heat makes it one of the most unforgiving worlds in the entire solar system. The moment you leave your rocket, the planet's atmosphere will try to cook you alive. &cWithout the right protection, you won’t survive long enough to take a step!&r"
+				""
+				"{@pagebreak}"
+				""
+				"To endure this &ohellish environment&r, you’ll need the &lNetherite Space Suit&r—a reinforced upgrade designed to withstand the sun-scorched landscape. This suit isn't just an armor piece—it’s your lifeline."
+				""
+				"Crafting the Netherite Space Suit is not optional—it’s your &cfinal barrier between survival and ash&r."
+				""
+				"🔥 *Forge the flameshield, face the heat, and claim Mercury’s challenge head-on!*"
+			]
 			icon: {
 				Count: 1
 				id: "ad_astra:netherite_space_helmet"
@@ -102,7 +134,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Only the well-armored survive Mercury’s wrath—suit up or burn out. Click me for more info!"
 			tasks: [
 				{
 					id: "25B298539D4C71F1"
@@ -149,16 +181,26 @@
 					type: "item"
 				}
 			]
-			title: "Suit Up for the Heat"
+			title: "Forge the Flameproof Suit"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2F4C788DE0133300"]
 			description: [
-				"You've braved the journey through space, equipped yourself with the Netherite Space Suit, and finally touched down on Mercury’s scorched surface. This planet is unlike anything you've encountered before—blistering heat, a barren landscape, and a sky dominated by the blinding sun."
+				"☀ &cWelcome to Mercury&r"
+				""
+				"You’ve conquered space, donned the &lNetherite Space Suit&r, and now stand upon the sun-scorched soil of Mercury. This world is a relentless furnace—&cthere is no shade, no softness, only fire and stone&r. The blazing sun dominates the sky, and the landscape offers no comfort."
+				""
 				"{@pagebreak}"
-				"Unlike the Moon or Mars, there are no natural ores to mine here, meaning your survival depends on preparation and resilience. Before venturing too far, take a moment to survey your surroundings, ensure your oxygen supply is stable, and get ready for the next challenge—the Burning Arena."
+				""
+				"Unlike the Moon or Mars, Mercury yields no ores—&oit gives nothing for free&r. Every step forward here is earned through resilience and preparation."
+				""
+				"Before venturing into the planet’s infernal heart, check your &boxygen supply&r, &ffortify your gear&r, and &esurvey the terrain&r. Because ahead lies your next trial:"
+				""
+				"🔥 &lThe Burning Arena&r—where only the strongest emerge victorious."
+				""
+				"Are you ready to step into the flame?"
 			]
 			id: "4854DCBA109D4460"
 			rewards: [{
@@ -166,26 +208,39 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "This scorched world shows no mercy—only the prepared survive. Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
 				id: "3D9B8268396970D8"
 				type: "dimension"
 			}]
-			title: "First Steps on Mercury"
+			title: "Welcome to Mercury"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4854DCBA109D4460"]
-			description: ["Deep within Mercury’s surface lies the Burning Arena, a structure unlike any other you’ve encountered. This ancient battleground is home to powerful foes and rare treasures. If you’re looking to test your strength and claim valuable loot, you’ll need to fight your way through. But beware—only the strongest adventurers will leave victorious."]
+			description: [
+				"🔥 &6Enter the Burning Arena&r"
+				""
+				"Beneath Mercury’s scorched surface lies an ancient battleground shrouded in mystery—the &lBurning Arena&r. Carved from fire and fury, this brutal arena challenges only the most fearless adventurers."
+				""
+				"{@pagebreak}"
+				""
+				"Inside, you’ll face &cmerciless foes&r and &6rare guardians&r, each standing between you and the legendary treasures sealed within. Victory is not guaranteed—but those who triumph will walk away with more than just loot."
+				""
+				"Among the spoils lies something extraordinary: the &3AE2 Meteorite&r—an alien remnant that unlocks access to a long-lost &9technological storage system&r. With it, you’ll gain the ability to harness &oancient, advanced automation&r through Applied Energistics 2."
+				""
+				"Are you ready to step into the flames, face your destiny, and emerge a legend?"
+			]
 			id: "36EE0ABAB607D1F3"
 			rewards: [{
 				id: "01B68D579C8C4304"
 				item: "cataclysm:ignitium_ingot"
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Face Mercury’s ultimate trial and unlock ancient alien secrets. Click me for more info!"
 			tasks: [
 				{
 					id: "438D481D85851815"
@@ -198,16 +253,26 @@
 					type: "structure"
 				}
 			]
-			title: "Exploring the Burning Arena"
+			title: "Enter the Burning Arena"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["36EE0ABAB607D1F3"]
 			description: [
-				"You have survived Mercury’s wrath, conquered the Burning Arena, and proven yourself among the toughest space explorers. While the planet holds no traditional resources, the artifacts and knowledge you’ve gained here will help push your journey further."
+				"🌋 &6Mercury Mastered&r"
 				""
-				"But your adventure is far from over... Venus awaits! Discover more in its"
+				"You have survived the searing heat of Mercury, conquered the trials of the &lBurning Arena&r, and carved your name among the stars. Though this scorched world offers no traditional ores, it has rewarded you with &6rare artifacts&r and &eancient knowledge&r that will shape the rest of your journey."
+				""
+				"{@pagebreak}"
+				""
+				"Your time here has tested not just your survival—but your strength, your strategy, and your will to overcome. Few can say they’ve endured Mercury’s wrath and emerged victorious."
+				""
+				"But your odyssey is far from complete..."
+				""
+				"&lVenus awaits&r—shrouded in poison, mystery, and unimaginable danger. Are you ready to face what lies ahead?"
+				""
+				"Learn more about your next destination in the  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25721A33E1238EBD\" } }"
 			]
 			id: "08573BBF32BBB660"
@@ -225,13 +290,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "You’ve endured the heat—now brave the storms of Venus. Click me for more info!"
 			tasks: [{
 				id: "2940BC82B0A1562C"
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: "Claiming Victory on Mercury"
+			title: "Mercury Mastered"
 			x: 4.0d
 			y: 0.0d
 		}
