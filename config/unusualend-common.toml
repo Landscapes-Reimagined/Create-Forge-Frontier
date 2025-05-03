@@ -42,6 +42,8 @@
 	"Podium Block Size" = 0.4
 	#Whether the player will be able to obtain Everlasting (makes items never despawn)
 	"Can Everlasting be obtained" = true
+	#Probability in % for Orbs to trigger
+	"Orb Activation" = 5.0
 
 ["Cooldowns (in tick)"]
 	"Prismatic Mirror" = 6000.0
@@ -65,7 +67,6 @@
 [Biomes]
 	"Fog inside of the Gloopstone Biomes" = false
 	"Fog inside of the Warped Reef" = false
-	"Biomes size factor" = 1.0
 
 [Generation]
 	"End Highlands Vegetation" = true

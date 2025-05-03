@@ -186,9 +186,6 @@
 		[types.wood_type.unusualend]
 			chorus_nest = true
 
-		[types.wood_type.createdieselgenerators]
-			chip_wood = true
-
 		[types.wood_type.ad_astra]
 			aeronos = true
 			strophar = true
@@ -358,6 +355,22 @@
 			damaged_log = true
 			golden_barred_trapdoor = true
 			nailed_log = true
+			edged_stripped_log = true
+			f_sign_stripped_log = true
+			wise_stripped_log = true
+			layered_stripped_log = true
+			lumpy_stripped_log = true
+			chipped_stripped_log = true
+			patient_stripped_log = true
+			k_sign_stripped_log = true
+			sign_stripped_log = true
+			knotted_stripped_log = true
+			l_sign_stripped_log = true
+			reinforced_stripped_log = true
+			stern_stripped_log = true
+			carved_stripped_log = true
+			i_sign_stripped_log = true
+			d_sign_stripped_log = true
 
 		[entries.wood_type.quark]
 			vertical_planks = true

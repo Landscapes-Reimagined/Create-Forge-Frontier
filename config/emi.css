@@ -34,7 +34,7 @@
 	/**
 	 * Whether normal search queries should include the mod name.
 	 */
-	search-mod-name-by-default: false;
+	search-mod-name-by-default: true;
 
 	/**
 	 * Whether normal search queries should include the stack's tags.

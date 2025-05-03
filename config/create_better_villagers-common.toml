@@ -1,9 +1,0 @@
-
-[welcome_message]
-	#Enable or disable the welcome message
-	enabled = false
-	#The message to be displayed when a player joins the game for the first time
-	text = "THANKS TO OUR SPONSORS, ZAP-HOSTING! Support Reggarf And Save BIG - USE CODE Reggarf-1047 FOR 20% OFF Your ORDER!"
-	#The URL to be opened when the player clicks the link
-	url = "https://zap-hosting.com/reggarf"
-

@@ -1,0 +1,12 @@
+{
+  "active": true,
+  "showOnlyOneTime": true,
+  "chatMessage": true,
+  "showCreator": true,
+  "customStructureName": {
+    "minecraft:swamp_hut": "a_cat:cat_hut"
+  },
+  "dontShowAll": [],
+  "dontShow": [
+  ]
+}

@@ -9,7 +9,7 @@
     "sculk_sensor": true
   },
   "particle_settings": {
-    "particles": false,
+    "particles": true,
     "rain_splash": true,
     "block_break": true,
     "block_breaking": true,
@@ -31,7 +31,7 @@
   },
   "render_settings": {
     "fog_type": "MOD_COMPAT",
-    "fog_distance": 33,
+    "fog_distance": 32,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
@@ -42,7 +42,8 @@
       "ad_astra:mars": 0,
       "ad_astra:venus": 0,
       "ad_astra:glacio": 0,
-      "minecraft:the_end": 0
+      "minecraft:the_end": 0,
+      "ad_astra:earth_orbit": 0
     },
     "light_updates": true,
     "item_frame": true,
@@ -61,7 +62,7 @@
     "show_f_p_s_extended": true,
     "show_coords": false,
     "reduce_resolution_on_mac": false,
-    "use_adaptive_sync": true,
+    "use_adaptive_sync": false,
     "cloud_height": 192,
     "cloud_distance": 100,
     "toasts": true,

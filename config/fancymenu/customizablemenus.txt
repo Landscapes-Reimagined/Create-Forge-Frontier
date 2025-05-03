@@ -72,3 +72,6 @@ net.minecraft.client.gui.screens.worldselection.EditGameRulesScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+dev.emi.emi.screen.BoMScreen {
+}
+

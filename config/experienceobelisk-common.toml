@@ -9,11 +9,6 @@
 	#Range: 1000 ~ 2147483640
 	Capacity = 100000000
 
-["Enlightened Amulet Range"]
-	#The range of the enlightened amulet in blocks. Accepts decimals. Default = 8.0.
-	#Range: 1.0 ~ 16.0
-	Range = 8.0
-
 ["Staff of Attunement Range"]
 	#The binding range of the Staff of Attunement in blocks. Accepts decimals. Default = 48.0.
 	#Lower this if you experience issues with bound blocks not working correctly.
@@ -70,10 +65,6 @@
 		#Range: 1 ~ 10000
 		Spawns = 200
 
-["Enable Name Formatting Recipes"]
-	#Whether custom recipes that allow for the changing of item name color & formatting are enabled. Default = true
-	Formatting = true
-
 ["Agar Settings"]
 	#The bonus that Insightful & Extravagant Agar apply to bookshelves sharing a face. Default = 1.35
 	#Range: 0.0 ~ 4.0
@@ -95,4 +86,15 @@
 	Nutrition = 2
 	#How much saturation Fluorescent Jelly gives the player. Default = 1.0
 	Saturation = 1.0
+
+["Enlightened Amulet"]
+	#The range of the enlightened amulet in blocks. Accepts decimals. Default = 8.0.
+	#Range: 1.0 ~ 16.0
+	Range = 8.0
+	#Whether the enlightened amulet ignores orbs spawned by Experience Fountains. Default = true
+	Ignores = true
+
+["Metamorpher Name Formatting Recipes"]
+	#Whether custom recipes that allow for the changing of item name color & formatting are enabled. Default = true
+	Formatting = true
 

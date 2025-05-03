@@ -82,6 +82,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "create_mob_spawners": {
+    "spawner_progress": true
+  },
   "apotheosis": {
     "ench": true
   },
