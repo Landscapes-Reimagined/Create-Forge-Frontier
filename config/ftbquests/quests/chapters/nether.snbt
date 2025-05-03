@@ -23,15 +23,6 @@
 			x: 0.0d
 			y: -9.5d
 		}
-		{
-			height: 25.0d
-			image: "ftb:textures/nether_rem_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 47.0d
-			x: 0.0d
-			y: -2.0d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]

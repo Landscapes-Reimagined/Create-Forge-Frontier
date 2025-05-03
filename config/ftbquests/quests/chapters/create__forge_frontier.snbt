@@ -8,22 +8,14 @@
 	id: "7FDAAF267EECFF92"
 	images: [
 		{
-			height: 17.7d
-			image: "ftb:textures/title_background.png"
-			rotation: 0.0d
-			width: 32.0d
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			click: "https://discord.gg/quenZthXgy"
-			height: 1.0d
+			height: 2.0d
 			hover: ["Need Support or want to join our community, click me to join the Discord!"]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
-			width: 1.0d
+			width: 2.0d
 			x: 0.0d
-			y: 7.2d
+			y: 11.0d
 		}
 		{
 			click: "#0DAD6C803C532FAC"
@@ -32,7 +24,7 @@
 			rotation: 0.0d
 			width: 22.5d
 			x: 0.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			click: "#0DAD6C803C532FAC"
@@ -41,7 +33,7 @@
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.0d
-			y: 2.5d
+			y: 1.0d
 		}
 	]
 	order_index: 0
@@ -91,7 +83,7 @@
 			}
 		]
 		shape: "gear"
-		size: 1.5d
+		size: 3.0d
 		subtitle: "Click me to learn more about the pack!"
 		tasks: [{
 			dimension: "minecraft:overworld"
@@ -101,7 +93,7 @@
 		}]
 		title: "Pack Introduction"
 		x: 0.0d
-		y: 6.0d
+		y: 7.5d
 	}]
 	title: "Create - Forge Frontier"
 }

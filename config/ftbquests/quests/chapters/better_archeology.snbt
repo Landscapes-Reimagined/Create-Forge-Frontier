@@ -11,25 +11,14 @@
 		}
 	}
 	id: "59D4894CD3E8DEB5"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/archeology_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 20.0d
-			image: "betterarcheology:block/archeology_table/archeology_table_top"
-			order: -1
-			rotation: 0.0d
-			width: 30.0d
-			x: 0.0d
-			y: -3.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/archeology_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

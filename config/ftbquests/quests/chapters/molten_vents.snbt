@@ -6,36 +6,14 @@
 	group: "72C8A595982548D5"
 	icon: "molten_vents:dormant_molten_asurine"
 	id: "4E4AA685A681F1B0"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/molten_vents_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.0d
-		}
-		{
-			click: "#58E37D66B86362FD"
-			height: 4.0d
-			hover: ["Asurine Vent"]
-			image: "ftb:textures/asurine_vent.png"
-			rotation: 0.0d
-			width: 5.8962536023054755d
-			x: -9.5d
-			y: -6.0d
-		}
-		{
-			click: "#6C99623FD144B074"
-			height: 4.0d
-			hover: ["Ancient Debris Vent"]
-			image: "ftb:textures/debris_vent.png"
-			rotation: 0.0d
-			width: 6.928853754940712d
-			x: 9.5d
-			y: -6.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/molten_vents_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

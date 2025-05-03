@@ -5,25 +5,14 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "0048E3ACE80E27CF"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/otherside_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/ancient_city_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/otherside_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

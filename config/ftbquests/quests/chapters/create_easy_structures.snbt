@@ -5,25 +5,14 @@
 	group: "4FAD6EACDA300DDE"
 	icon: "create:cogwheel"
 	id: "4987F30DFAF2A99F"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/easy_structures_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/big_1.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.25d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/easy_structures_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

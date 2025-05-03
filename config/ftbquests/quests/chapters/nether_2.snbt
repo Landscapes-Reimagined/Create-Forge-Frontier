@@ -5,25 +5,14 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:netherrack"
 	id: "2D54D010D189F192"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/nether_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/nether_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/nether_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

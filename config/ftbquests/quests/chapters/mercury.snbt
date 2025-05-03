@@ -5,25 +5,14 @@
 	group: "522267C8B93A6C20"
 	icon: "ad_astra:mercury_globe"
 	id: "4DDC5E56B7809EBF"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/mercury_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/mercury_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.25d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/mercury_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

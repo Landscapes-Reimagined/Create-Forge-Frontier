@@ -141,15 +141,6 @@
 			x: -10.5d
 			y: -3.0d
 		}
-		{
-			height: 15.0d
-			image: "ftb:textures/artifact_screenshot.png"
-			order: -2
-			rotation: 0.0d
-			width: 28.25d
-			x: 0.0d
-			y: -5.0d
-		}
 	]
 	order_index: 1
 	quest_links: [ ]

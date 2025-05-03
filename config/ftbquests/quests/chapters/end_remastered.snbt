@@ -6,25 +6,14 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:end_portal_frame"
 	id: "01DD8338C9E8DE75"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/end_remastered_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 38.0d
-			image: "ftb:textures/endportalframe.png"
-			order: -1
-			rotation: 0.0d
-			width: 68.7d
-			x: 0.0d
-			y: 5.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/end_remastered_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -636,6 +625,17 @@
 					id: "471327733A3AF952"
 					structure: "friendsandfoes:citadel"
 					type: "structure"
+				}
+				{
+					id: "5092501A213675FE"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
 			title: "Pact of Ashes"

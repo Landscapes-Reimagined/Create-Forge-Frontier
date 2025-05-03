@@ -5,25 +5,14 @@
 	group: ""
 	icon: "ad_astra:earth_globe"
 	id: "430DE687E9BB5176"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/dim_travel_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.0d
-		}
-		{
-			height: 18.0d
-			image: "ad_astra:textures/painting/the_milky_way.png"
-			order: -1
-			rotation: 0.0d
-			width: 24.0d
-			x: 0.0d
-			y: -6.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/dim_travel_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

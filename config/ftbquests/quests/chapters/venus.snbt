@@ -5,25 +5,14 @@
 	group: "522267C8B93A6C20"
 	icon: "ad_astra:venus_globe"
 	id: "1AA059F87410AD03"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/venus_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/venus_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.25d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/venus_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
