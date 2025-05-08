@@ -75,3 +75,27 @@ net.minecraft.client.gui.screens.TitleScreen {
 dev.emi.emi.screen.BoMScreen {
 }
 
+net.minecraft.client.gui.screens.packs.PackSelectionScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.client.gui.screens.MouseSettingsScreen {
+}
+
+net.minecraftforge.client.gui.ModListScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+betteradvancements.common.gui.BetterAdvancementsScreen {
+}
+
+net.minecraft.client.gui.screens.ConfirmLinkScreen {
+}
+
+net.minecraft.client.gui.screens.ShareToLanScreen {
+}
+
