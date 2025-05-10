@@ -215,6 +215,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
+			subtitle: "Water Power!"
 			tasks: [{
 				id: "1A2EAE545FBBB1CA"
 				item: "create:water_wheel"
@@ -233,6 +234,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
+			subtitle: "Water Power... Again"
 			tasks: [{
 				id: "2626A3C261BB9FE0"
 				item: "create:large_water_wheel"
@@ -286,7 +288,7 @@
 				{
 					count: 8L
 					id: "0CA177215EA87303"
-					item: { Count: 8, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					type: "item"
 				}
 			]
@@ -296,7 +298,7 @@
 		}
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
-			description: ["The millstone allows you to make simple grinding recipies, such as flour. You're going to need more power for ore processing, though!"]
+			description: ["The millstone allows you to make simple grinding recipes, such as flour. You're going to need more power for ore processing, though!"]
 			id: "797B7A3B53705435"
 			rewards: [
 				{
@@ -366,6 +368,7 @@
 				item: "create_dd:industrial_iron_ingot"
 				type: "item"
 			}]
+			subtitle: "Mixing Time"
 			tasks: [{
 				id: "6B381786878F6202"
 				item: "create:basin"
@@ -379,6 +382,7 @@
 				"39CF5A761AFB33F5"
 				"355B6F03D9BC90EB"
 			]
+			description: ["The Mechanical Mixer can be used for many things! Some of these are detailed in the following quests! Ponder to find out more!"]
 			icon: "create:mechanical_mixer"
 			id: "7A9D080E21CD57F2"
 			rewards: [
@@ -397,6 +401,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
+			subtitle: "Mixing Mastery"
 			tasks: [
 				{
 					id: "2E675FCFBC43AC5B"
@@ -415,12 +420,12 @@
 		{
 			dependencies: ["689AB7CC0541BC51"]
 			description: [
-				"Mechanical saws, like many components, have two functions. The first is to create certain Stonecutter recipies, and the other is to cut down trees."
+				"Mechanical saws, like many components, have two functions. The first is to create certain Stonecutter recipes, and the other is to cut down trees."
 				""
 				"{@pagebreak}"
-				"&l&nUses on Contraptions&r&r"
+				"&l&nUses in Contraptions&r&r"
 				""
-				"When used on a contraption, Mechanical Saws will cut down trees if they are pushed against them. This includes most tree types, and the blocks that are broken will automatically get added to the contraption's inventory."
+				"When used in a contraption, Mechanical Saws will cut down trees if they are pushed against them. This includes most tree types, and the blocks that are broken will automatically get added to the contraption's inventory."
 				""
 				"See the ponder menu for more information!"
 			]
@@ -443,7 +448,7 @@
 				"{@pagebreak}"
 				"&n&lEntity Interactions&r&r"
 				""
-				"Encased Fans will push or pull entites away from them depending on their direction of rotation. "
+				"Encased Fans will push or pull entities away from them depending on their direction of rotation. "
 				""
 				"{@pagebreak}"
 				"&l&nChutes&r&r"
@@ -515,6 +520,7 @@
 				item: "create_compressed:iron_sheet_block"
 				type: "item"
 			}]
+			subtitle: "Mix it UP"
 			tasks: [{
 				id: "0F02894D3810AFC4"
 				item: "create:whisk"
@@ -536,7 +542,7 @@
 			tasks: [{
 				count: 64L
 				id: "70EF7F35E0816F0C"
-				item: { Count: 64, id: "create:andesite_alloy" }
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			title: "Stress Progression: More Andesite Alloy"
@@ -553,6 +559,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
+			subtitle: "Farming Time"
 			tasks: [{
 				id: "2B7A2B340626D90D"
 				item: "create:mechanical_plough"
@@ -564,7 +571,7 @@
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
-			description: ["Mechanical Harverters are similar to ploughs, but they work on crops like wheat and carrots. Check the ponder menu for more information."]
+			description: ["Mechanical Harvesters are similar to ploughs, but they work on crops like wheat and carrots. Check the ponder menu for more information."]
 			id: "110F0A98C9078175"
 			rewards: [
 				{
@@ -593,7 +600,7 @@
 		{
 			dependencies: ["689AB7CC0541BC51"]
 			description: [
-				"[\"\",{\"text\":\"Mysteroius Conversion is Create's way of obfuscating some in-world interaction recipes, and how you get a blaze burner. \"},{\"text\":\"After getting to the Nether\",\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" }, \"color\": \"blue\", \"underlined\": \"true\"},{\"text\":\" and finding a Nether Fortress, using an Empty Blaze Burner on a Blaze Spawner will give you your Blaze Burner.\\\"\"}]"
+				"[\"\",{\"text\":\"Mysterious Conversion is Create's way of obfuscating some in-world interaction recipes, and how you get a blaze burner. \"},{\"text\":\"After getting to the Nether\",\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" }, \"color\": \"blue\", \"underlined\": \"true\"},{\"text\":\" and finding a Nether Fortress, using an Empty Blaze Burner on a Blaze Spawner will give you your Blaze Burner.\\\"\"}]"
 				""
 				"See the Ponder Menu for more information."
 				""
@@ -602,7 +609,7 @@
 				""
 				"By using furnace fuel like coal or lava buckets on your blaze burner, you can make them produce more heat for things like mixing or boilers. "
 				""
-				"By using a Blaze Cake on a blaze, you can move past just \"heated\" and into \"Superheated\", allowing you to do things like melt metal or make the highest teir Boiler. "
+				"By using a Blaze Cake on a blaze, you can move past just \"heated\" and into \"Superheated\", allowing you to do things like melt metal or make the highest tier Boiler. "
 			]
 			hide_dependency_lines: true
 			icon: "create:blaze_burner"
@@ -633,14 +640,14 @@
 			]
 			title: "Stress Progression: Mysterious Conversion, Pt. 1"
 			x: 1.0d
-			y: 6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"52994525D9DF88FA"
 				"7A9D080E21CD57F2"
 			]
-			description: ["Brass! Your first foray into Heated Mixing. After getting your Blaze Burner, you can place it under your basin. When provided with fuel, that Blaze Burner will heat the basin, allowing you to craft recipies that require that heat, like the Brass required here."]
+			description: ["Brass! Your first foray into Heated Mixing. After getting your Blaze Burner, you can place it under your basin. When provided with fuel, that Blaze Burner will heat the basin, allowing you to craft recipes that require that heat, like the Brass required here."]
 			id: "17BABE8F2B2BD008"
 			rewards: [{
 				id: "2BCFDB9558006FBA"
@@ -700,7 +707,7 @@
 		}
 		{
 			dependencies: ["17BABE8F2B2BD008"]
-			description: ["Brass Casings are the basis of the highest teir Vanilla Create machines."]
+			description: ["Brass Casings are the basis of the highest tier Vanilla Create machines."]
 			id: "1ED1CE0829BE04A5"
 			rewards: [{
 				id: "17E01FCD646B121D"
@@ -720,7 +727,7 @@
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
 			description: [
-				"Contraptions. Create's genious invention, these allow you to create moving groups of blocks, with many of Create's fundamental machines having special effects as a part of a contraption. These are explained through our quests, but you can always check the ponder menu to learn more!"
+				"Contraptions. Create's genius invention, these allow you to create moving groups of blocks, with many of Create's fundamental machines having special effects as a part of a contraption. These are explained through our quests, but you can always check the ponder menu to learn more!"
 				""
 				"One of the most important notes about contraptions is how to construct them. You generally right click on, or use, the contraption block to assemble, or \"construct\" the contraption. When you do, it will assemble all the blocks connected with super glue(use the super glue on blocks to select some, it will stick everything inside of your selection together, but make sure they're all connected!"
 			]
@@ -740,6 +747,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Let's Get Moving"
 			tasks: [
 				{
 					id: "6AEE21575554D4EF"
@@ -758,7 +766,7 @@
 		}
 		{
 			dependencies: ["3539BDF9D557BB9E"]
-			description: ["Pistons and Pulles work much the same way as the first two contraptions, however, these both only provide linear movement instead of horizontal. Pullies are best for up/down movement, and pistons for horizontal, but don't let that stop your imagination! Check the ponder for more information."]
+			description: ["Pistons and Pulleys work much the same way as the first two contraptions, however, these both only provide linear movement instead of horizontal. Pullies are best for up/down movement, and pistons for horizontal, but don't let that stop your imagination! Check the ponder for more information."]
 			icon: "create:mechanical_piston"
 			id: "7E496DA1FB700F2C"
 			rewards: [
@@ -820,6 +828,7 @@
 				item: "create_dd:bronze_sheet"
 				type: "item"
 			}]
+			subtitle: "Pressure Makes Progress"
 			tasks: [{
 				id: "5D705E4818171870"
 				item: "create:copper_sheet"
@@ -894,7 +903,7 @@
 				"66E9DB5E9D5CD5EC"
 			]
 			description: [
-				"Andesite funnels and tunnels allow for simple extraction from and insertion into attached inventories, while andesite tunnels allow for splitting item stacks on belts and prevening any unwanted items from getting in the mix of your all-important factory outputs. "
+				"Andesite funnels allow for simple extraction from and insertion into attached inventories, while andesite tunnels allow for splitting item stacks on belts and preventing any unwanted items from getting in the mix of your all-important factory outputs. "
 				""
 				"See their ponder menus for more information!"
 			]
@@ -906,7 +915,7 @@
 				item: "create:andesite_alloy_block"
 				type: "item"
 			}]
-			subtitle: "Basic Funnling"
+			subtitle: "Basic Funneling"
 			tasks: [
 				{
 					id: "778AB8F9912232BA"
@@ -920,12 +929,12 @@
 				}
 			]
 			title: "Stress Progression: Andesite Logistics"
-			x: 4.0d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["2D02B7B7507AF99D"]
-			description: ["Belts allow you to move items and transmit stress horizontally for long distances. They also maintain the direction of rotation on any components attached to the belt, and they do not take any stress."]
+			description: ["Belts allow you to move items and transmit stress horizontally for long distances. They also maintain the direction of rotation on any components attached to the belt, and they do not use any stress."]
 			id: "2090AE942CFAEBE9"
 			rewards: [{
 				count: 2
@@ -933,16 +942,17 @@
 				item: "create_compressed:belt_block"
 				type: "item"
 			}]
+			subtitle: "Basically a Treadmill"
 			tasks: [{
 				id: "6C93DC3282DD3447"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
-			description: ["Kelp, particularly Dried Kelp, is the foundation of Create's item transportation and sorting utility. Beyond "]
+			description: ["Kelp, particularly Dried Kelp, is the foundation of Create's item transportation and sorting utility."]
 			icon: "minecraft:dried_kelp"
 			id: "2D02B7B7507AF99D"
 			rewards: [{
@@ -951,23 +961,24 @@
 				item: "minecraft:dried_kelp_block"
 				type: "item"
 			}]
+			subtitle: "Belt Beginnings"
 			tasks: [
 				{
 					count: 8L
 					id: "725797BE1A98C1A0"
-					item: { Count: 8, id: "minecraft:kelp" }
+					item: "minecraft:kelp"
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "40E293E6B511CDE0"
-					item: { Count: 8, id: "minecraft:dried_kelp" }
+					item: "minecraft:dried_kelp"
 					type: "item"
 				}
 			]
 			title: "Stress Progression: Dried Kelp"
 			x: 4.0d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
@@ -1082,7 +1093,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["Rose Quars is integral to the development of Electron Tubes, providing a simplistic computer allowing for machines and components far smarter than metal alone."]
+			description: ["Rose Quartz is integral to the development of Electron Tubes, providing a simplistic computer allowing for machines and components far smarter than metal alone."]
 			icon: "create:rose_quartz"
 			id: "7F7EB3A77A07CE9E"
 			rewards: [{
@@ -1115,8 +1126,8 @@
 				}
 			]
 			title: "Stress Progression: Rose Quartz"
-			x: 1.0d
-			y: 8.5d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7F7EB3A77A07CE9E"]
@@ -1133,7 +1144,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			title: "Stress Progresson: Electron Tube"
+			title: "Stress Progression: Electron Tube"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -1204,7 +1215,7 @@
 		}
 		{
 			dependencies: ["4AEB10D458279F94"]
-			description: ["Deployers allow you to mechanically manipulate the world in the way that you, the player, does! From killing mobs to using items, they can do it all. Use an itme on the filter slot to set an item filter, and use an item stack on the hand to give the deployer that stack. Right click the hand with a wrench to toggle using and hitting. You can also supply the deployer with items just like any other inventory. Check the ponder for more infromation!"]
+			description: ["Deployers allow you to mechanically manipulate the world in the way that you, the player, does! From killing mobs to using items, they can do it all. Use an item on the filter slot to set an item filter, and use an item stack on the hand to give the deployer that stack. Right click the hand with a wrench to toggle using and hitting. You can also supply the deployer with items just like any other inventory. Check the ponder for more information!"]
 			id: "12F1FC3A500AF584"
 			rewards: [{
 				count: 4
@@ -1235,7 +1246,7 @@
 			tasks: [{
 				count: 2L
 				id: "04CB3FF6145B18E3"
-				item: { Count: 2, id: "create:crushing_wheel" }
+				item: "create:crushing_wheel"
 				type: "item"
 			}]
 			title: "Stress Progression: Crushing Wheels"
@@ -1361,7 +1372,7 @@
 			description: [
 				"Elevators! The long-awaited elevator! These work like any other contraption, put the elevator pulley at the top of your elevator car and right click it to assemble. Don't forget to link everything together with superglue! "
 				""
-				"To configure floors, place a Redstone Contact behind a contraption controls in your car, and place Redstone Contacts on the vertical pillar(facing your elevator) that the Restone Contact on your elevator is in. You can Use the redstone contact to open up a floor name configuration screen. Finally, when you supply the contact with redstone power, it will call the elevator to the floor."
+				"To configure floors, place a Redstone Contact behind a contraption controls in your car, and place Redstone Contacts on the vertical pillar(facing your elevator) that the Redstone Contact on your elevator is in. You can Use the redstone contact to open up a floor name configuration screen. Finally, when you supply the contact with redstone power, it will call the elevator to the floor."
 				""
 				"Make sure to check the ponder for more information!"
 			]
@@ -1502,6 +1513,11 @@
 					item: "create:pulse_extender"
 					type: "item"
 				}
+				{
+					id: "786032E1067C6F6E"
+					item: "create:pulse_timer"
+					type: "item"
+				}
 			]
 			title: "Stress Progression: Advanced Redstone"
 			x: -2.0d
@@ -1545,7 +1561,7 @@
 				{
 					count: 3L
 					id: "37C1A5930CE6405C"
-					item: { Count: 3, id: "create:deployer" }
+					item: "create:deployer"
 					type: "item"
 				}
 				{
@@ -1593,19 +1609,19 @@
 				{
 					count: 2L
 					id: "036C1B6AD70EAA38"
-					item: { Count: 2, id: "create:golden_sheet" }
+					item: "create:golden_sheet"
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "64661AF7A7E085B7"
-					item: { Count: 10, id: "create:cogwheel" }
+					item: "create:cogwheel"
 					type: "item"
 				}
 				{
 					count: 10L
 					id: "5F953F3514E9940A"
-					item: { Count: 10, id: "create:large_cogwheel" }
+					item: "create:large_cogwheel"
 					type: "item"
 				}
 				{
@@ -1660,7 +1676,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 20.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["1BBD2EE82A1AF187"]
@@ -1679,9 +1695,9 @@
 				item: "create:controls"
 				type: "item"
 			}]
-			title: "Stress Progression: Tran Controlling"
+			title: "Stress Progression: Train Controlling"
 			x: 1.0d
-			y: 22.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["1BBD2EE82A1AF187"]
@@ -1697,8 +1713,8 @@
 			id: "7252AC35321A4F70"
 			rewards: [{
 				count: 64
-				id: "642C9621A5EB5CDE"
-				item: "railways:track_phantom"
+				id: "46205E88713404F7"
+				item: "create:track"
 				type: "item"
 			}]
 			tasks: [{
@@ -1708,7 +1724,7 @@
 			}]
 			title: "Rail Transportation!"
 			x: 0.0d
-			y: 22.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["477EF84B4DD97BF9"]
@@ -1749,7 +1765,7 @@
 		}
 		{
 			dependencies: ["24679CC3DFE86054"]
-			description: ["Train tracks, as mildly annoying as they are to make, are suprisingly easy and entertaining to place along large distances. Simply right click an origin rail, and Create will tell you where you can and can't continue your rail! See the ponder for more information."]
+			description: ["Train tracks, as mildly annoying as they are to make, are surprisingly easy and entertaining to place along large distances. Simply right click an origin rail, and Create will tell you where you can and can't continue your rail! See the ponder for more information."]
 			id: "3A3555D47FCD8B3B"
 			rewards: [{
 				count: 128
@@ -1811,7 +1827,7 @@
 			]
 			title: "Train Utilities"
 			x: 2.0d
-			y: 22.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
@@ -1858,7 +1874,7 @@
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
 			id: "65689AF3CE427A0D"
-			subtitle: "\"Gold Sheet\""
+			subtitle: "Pressed Perfection"
 			tasks: [{
 				id: "0894A19FE96F0CBE"
 				item: "create:golden_sheet"
@@ -1869,7 +1885,7 @@
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
-			description: ["Chutes function as an upgrade to hoppers, able to transfer items faster and in higher quantities while causing less lag. However, they cannot tranfer items horizontally and will drop items as item entities if there is no container below them. See their ponder entry for more information."]
+			description: ["Chutes function as an upgrade to hoppers, able to transfer items faster and in higher quantities while causing less lag. However, they cannot transfer items horizontally and will drop items as item entities if there is no container below them. See their ponder entry for more information."]
 			id: "2199CA39A845A583"
 			rewards: [{
 				count: 16
@@ -1881,7 +1897,7 @@
 			tasks: [{
 				count: 4L
 				id: "4E12FA2E499103A1"
-				item: { Count: 4, id: "create:chute" }
+				item: "create:chute"
 				type: "item"
 			}]
 			title: "Faster Hoppers"
@@ -1897,7 +1913,7 @@
 				""
 				"Create's wrench allows you to easily break Create's blocks, as well as other wrenchable blocks, by simply Crouching and Using with the wrench. "
 				""
-				"The wrench can also be used to configure certian components by scrolling such as the rotational speed controller."
+				"The wrench can also be used to configure certain components by scrolling such as the rotational speed controller."
 				""
 				"{@pagebreak}"
 				"&l&nGoggles&r&r"
@@ -1906,7 +1922,7 @@
 				""
 				"When looking at your machines, you can see their total stress consumption at the speed they are spinning at. When looking at stressometers or speedomers, they show you the exact speed and stress in your network."
 				""
-				"They also allow you to see the amount of fluid in your tank as well as it's remaning capacity."
+				"They also allow you to see the amount of fluid in your tank as well as its remaining capacity."
 			]
 			id: "5DA6EB383B731634"
 			rewards: [{
@@ -1915,6 +1931,7 @@
 				item: "create_compressed:gold_sheet_block"
 				type: "item"
 			}]
+			subtitle: "The Engineer's Kit"
 			tasks: [
 				{
 					id: "1ABA8487CCE6E165"
@@ -1999,9 +2016,7 @@
 		{
 			dependencies: ["591E0AAB1FE58D9E"]
 			description: [
-				"Fluid tanks allow you to, well, store fluid. A single tank has a capicty of 4 buckets, but multiple can be merged together in 2x2 and 3x3 slices that stack vertically"
-				""
-				""
+				"Fluid tanks allow you to, well, store fluid. A single tank has a capacity of 4 buckets, but multiple can be merged together in 2x2 and 3x3 slices that stack vertically"
 				"{@pagebreak}"
 				"&n&lFluid Storage&r&r"
 				""
@@ -2021,6 +2036,7 @@
 				item: "minecraft:copper_block"
 				type: "item"
 			}]
+			subtitle: "Boiler Time"
 			tasks: [{
 				id: "7B797DD770D5F6C1"
 				item: "create:fluid_tank"
@@ -2032,7 +2048,7 @@
 		{
 			dependencies: ["52994525D9DF88FA"]
 			description: [
-				"Steam Engines and Boilers are the most powerful way of generating stress in Create. A top teir Boiler can produce almost 300,000 stress units, but requires Superheated Blaze Burners to function."
+				"Steam Engines and Boilers are the most powerful way of generating stress in Create. A top tier Boiler can produce almost 300,000 stress units, but requires Superheated Blaze Burners to function."
 				""
 				"Read more about steam engines and Boilers here:"
 				"{\"text\":\"Boilers on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Steam_Engine\"}}"
@@ -2058,12 +2074,12 @@
 				type: "item"
 			}]
 			title: "Steam Power"
-			x: 1.0d
-			y: 7.5d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
-			description: ["Item vaults are very similar to chests, but instead of storing stacks, they store a set amount of items. Unfortunatly, they do not have a GUI making them best suited for factory applications such as contraptions."]
+			description: ["Item vaults are very similar to chests, but instead of storing stacks, they store a set amount of items. Unfortunately, they do not have a GUI making them best suited for factory applications such as contraptions."]
 			id: "0D4BB30447AEFC1B"
 			rewards: [{
 				count: 16
@@ -2071,6 +2087,7 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
+			subtitle: "Storage!"
 			tasks: [{
 				id: "4298098E978EEC7D"
 				item: "create:item_vault"
@@ -2078,6 +2095,604 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4BD39CC8E17CA1A9"]
+			description: ["The depot allows for an easy way to keep items still for sequenced assembly recipes and pressing!"]
+			id: "377B33B4D1F30A7B"
+			rewards: [
+				{
+					count: 4
+					id: "57E8FF544C925BE2"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2BBB9A6E22BE2B67"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			subtitle: "The Processing Platform!"
+			tasks: [{
+				id: "66EBC4E58338BCB2"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A9D080E21CD57F2"]
+			description: [
+				""
+				"The humble beginnings of cardboard start here — with Pulp. Created by mixing plant matter and water, pulp is the base ingredient for a whole line of cardboard-related machines and items."
+				""
+				"To get it, toss common materials like saplings, bamboo, or sugarcane into a Mechanical Mixer with water, and let it churn!"
+				""
+				"Pulp is your first step toward crafting cardboard blocks, packages, armor, and more."
+			]
+			id: "7AAD7E11CDAD2D2E"
+			rewards: [
+				{
+					count: 8
+					id: "4565EF455D68E20B"
+					item: "create:pulp"
+					type: "item"
+				}
+				{
+					id: "7CE2BF03444F73F2"
+					type: "xp"
+					xp: 15
+				}
+			]
+			subtitle: "From Pulp to Package"
+			tasks: [{
+				count: 4L
+				id: "0C542BB43D3B8A2A"
+				item: "create:pulp"
+				type: "item"
+			}]
+			title: "Pulp"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7AAD7E11CDAD2D2E"]
+			description: [
+				"Feed pulp onto a depot with a Mechanical Press above to flatten it into Cardboard, then craft 4 cardboard into a cardboard block-a foundational material for Create’s packaging and logistics system."
+				""
+				"Once you’ve got a few, you’re ready to start crafting:"
+				""
+				"📦 Cardboard Packages"
+				""
+				"🪖 Cardboard Armor"
+				""
+				"Cardboard Blocks may look simple, but they’re key to building smarter factories — and they’re renewable, cheap, and stylishly industrial."
+			]
+			id: "4020155EAE2645DA"
+			rewards: [
+				{
+					count: 8
+					id: "5D9F983FCA9B56C5"
+					item: "create:cardboard"
+					type: "item"
+				}
+				{
+					id: "26E990954E2427C0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Pressing Pulp!"
+			tasks: [
+				{
+					count: 12L
+					id: "392284386F4CEEE1"
+					item: "create:cardboard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5ADFA55FF0D83A51"
+					item: "create:cardboard_block"
+					type: "item"
+				}
+			]
+			title: "Cardboard"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4020155EAE2645DA"]
+			description: [
+				"Time to put those Cardboard Blocks to work."
+				""
+				"The Packager takes items from a connected inventory and wraps them into a Cardboard Package — a 9-slot container used across the logistics system. When powered by redstone, the Packager fills the package as much as possible from the inventory it’s touching."
+				""
+				"{@pagebreak}"
+				"Want automated sorting and delivery? Add a Stock Link to the Packager and it can begin fulfilling item requests from your Logistics Network, complete with addresses, item filters, and specific counts."
+				""
+				"Place a sign on the Packager to label outgoing packages — essential for routing them via Package Frogports."
+				""
+				"📘 Ponder Tip: Ponder the Packager to see package creation, labeling, and redstone interaction in action."
+			]
+			id: "5876B821FE5D9B15"
+			rewards: [
+				{
+					id: "2B9F3AC62BC0C74A"
+					item: "create:package_filter"
+					type: "item"
+				}
+				{
+					id: "0BD965941B4CC755"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Let your machines do the packing."
+			tasks: [{
+				id: "6DDC8E6462422CD9"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D4BB30447AEFC1B"]
+			description: [
+				"The Package Frogport is your gateway to automated delivery! It works alongside Chain Conveyors and Packagers to send and receive cardboard packages — no belts, no hands, just frogs."
+				""
+				"To get started, place a Chain Conveyor, right-click the chain, and follow the on-screen placement guide to properly set the Frogport. It must be positioned correctly to dock with the chain and enable transfers."
+				""
+				"🚨 Important: Every sent package must have a destination Frogport! Without a receiving port at the other end of the conveyor, the package will have nowhere to go and delivery will fail."
+			]
+			id: "13232A19D4478546"
+			rewards: [
+				{
+					count: 2
+					id: "0940455E78C75EC2"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "16C3372F3E44752D"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			subtitle: "I Eat Packages"
+			tasks: [{
+				id: "41144C026E32C7CB"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4020155EAE2645DA"]
+			description: [
+				"This silly armor set allows you to become a package!"
+				""
+				"The sword also does no damage, but applies a knockback effect! Great for moving entities around."
+			]
+			id: "7BB905D96305FAA9"
+			rewards: [
+				{
+					count: 8
+					id: "034F7C258EDB70E2"
+					item: "create:cardboard_block"
+					type: "item"
+				}
+				{
+					id: "7A3926C44A00CF6C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Become The Box"
+			tasks: [
+				{
+					id: "0AC5D1B69EC1AF01"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1352DE2C93D9095C"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D6540D82DF3A337"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "698A2235CCE5F3FE"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "039721A6D529ADF7"
+					item: "create:cardboard_sword"
+					type: "item"
+				}
+			]
+			title: "Cardboard Costume!"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: ["The item hatch allows for easy emptying of your inventory into any chest, vault, or other inventory!"]
+			id: "4A7401194C9BFCB4"
+			rewards: [{
+				id: "55797ECA5A7CE493"
+				item: "create:andesite_alloy_block"
+				type: "item"
+			}]
+			subtitle: "Easy Emptying"
+			tasks: [{
+				id: "13D9A0BB26D0C4B1"
+				item: "create:item_hatch"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5876B821FE5D9B15"]
+			description: [
+				"Sometimes, your logistics network is just too fast — and your Mechanical Crafter ends up with mismatched inputs. That’s where the Re-Packager comes in."
+				""
+				"The Re-Packager collects multiple Cardboard Packages (usually from different senders), waits for a full set to arrive in an adjacent inventory, and merges them into a single package. This guarantees all components of a recipe reach the crafter together, avoiding crafting failures caused by desync."
+				""
+				"{@pagebreak}"
+				"Think of it like a package sorter and combiner — it buffers multi-package orders until they’re complete, then sends them out as one unified bundle."
+				""
+				"It's the missing link between remote logistics and reliable automation — especially for large or distributed crafting setups."
+				""
+				"📘 Ponder Tip: Ponder the Re-Packager to see how it buffers, waits for full delivery, and merges for consistent mechanical crafting."
+			]
+			id: "6AE1EA76489B5629"
+			rewards: [
+				{
+					id: "28009FF2A0F80371"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "012F557DAEEF7B00"
+					item: "createcompression:compressed_andesite_alloy_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical Crafting Not Working? Use ME!"
+			tasks: [{
+				id: "18EE676459AC12B2"
+				item: "create:repackager"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A3555D47FCD8B3B"]
+			description: [
+				"Postboxes can have packages sent to them via trains! "
+				""
+				"Check the Ponder for more information."
+			]
+			icon: "create:white_postbox"
+			id: "7401248CBCA27C28"
+			rewards: [{
+				count: 16
+				id: "594907DADE00149C"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "You've Got Mail!"
+			tasks: [{
+				id: "00EA9D1A40122D1B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:postboxes"
+					}
+				}
+				title: "Any #create:postboxes"
+				type: "item"
+			}]
+			title: "Postboxes"
+			x: 3.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: [
+				""
+				"Bring commerce to your factory floor! The Table Cloth lets you sell items to other players (or yourself!) using the Stock Keeper interface. Think of it as a vending machine, dressed up."
+				""
+				"To begin:"
+				""
+				"Right-click a Stock Keeper with a Table Cloth to open its shop setup menu."
+				""
+				"Choose up to 9 items to sell."
+				""
+				"Place the Table Cloth and set prices using any item (diamonds, emeralds, bread — your choice)."
+				""
+				"{@pagebreak}"
+				"Other players (or you in solo) can:"
+				""
+				"Hover to view prices"
+				""
+				"Right-click to build a Shopping List"
+				""
+				"Purchase the items by right-clicking the Stock Keeper with the list"
+				""
+				"They also double as decorative displays — place up to 4 visible items for show by right-clicking the cloth."
+				""
+				"🛒 Ponder Tip: Ponder the Table Cloth or Stock Keeper for a visual guide on how shopping and pricing work!"
+			]
+			id: "3FF1B6F85DA75E2B"
+			rewards: [
+				{
+					count: 16
+					id: "5159D5EF8A77A06E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7344E7E0F1C4F63A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "A Market-Keeper's Best Friend"
+			tasks: [{
+				icon: "create:white_table_cloth"
+				id: "0DED6936FA733D98"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:table_cloths"
+					}
+				}
+				title: "Any #create:table_cloths"
+				type: "item"
+			}]
+			title: "Table Cloth"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["09461F76EF6B0CC3"]
+			description: ["Add me to an elevator to make a ding upon reaching the selected floor!"]
+			icon: "create:desk_bell"
+			id: "11060EF7664EFE5E"
+			rewards: [{
+				id: "7FACD2E684CCB968"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "DING!"
+			tasks: [{
+				id: "464BEB5122227430"
+				item: "create:desk_bell"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1BADBAE5DC3CCEFC"]
+			description: [
+				"The Chain Conveyor is your go-to for long-range Cardboard Package transportation — connecting distant parts of your factory, even across awkward terrain where belts just won’t work."
+				""
+				"To set one up:"
+				""
+				"Place two Chain Conveyors at the desired start and end points"
+				""
+				"Right-click one with a Chain to connect them"
+				""
+				"Packages placed on the conveyor (or delivered via Frogport) will now travel automatically"
+				""
+				"{@pagebreak}"
+				"Chain Conveyors also serve a secondary purpose: they can transmit rotational force over open gaps — great for creative machine layouts without clutter."
+				""
+				"Players can even ride the chains for fast travel! Just right-click with a wrench and enjoy the ride — just don’t hit a wall."
+				""
+				"📘 Ponder Tip: Ponder the Chain Conveyor for a clear demo of package sorting, chaining distance, and Frogport interaction."
+			]
+			id: "63EA3061E9587925"
+			rewards: [{
+				count: 64
+				id: "5133468362E36F2B"
+				item: "minecraft:chain"
+				type: "item"
+			}]
+			subtitle: "Advanced Package Transportation"
+			tasks: [{
+				count: 2L
+				id: "4B62F0037634E922"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			title: "Stress Progression: Chain Conveyor"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D4BB30447AEFC1B"]
+			description: [
+				"The Stock Link is the backbone of the Logistics Network — a system that lets Packagers, Stock Tickers, and other logistic blocks communicate across your factory."
+				""
+				"When you place a Stock Link, it creates a new network. Right-clicking another Stock Link before placing it will link them together, forming one shared system. There’s no range limit — as long as the chunk is loaded, the network stays connected."
+				""
+				"Attach a Stock Link to a Packager, and it will automatically expose that inventory to the network. Any Ticker, Requester, or Keeper on the same network can now access that inventory — no mechanical belts, funnels, or tunnels required."
+			]
+			id: "2EDAEA1566841D97"
+			rewards: [{
+				count: 3
+				id: "3C9FF307AEEEC2E2"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			subtitle: "Keeping Stock"
+			tasks: [{
+				id: "00FC62D495672471"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EDAEA1566841D97"]
+			description: [
+				"Welcome to the age of logistics. The Stock Ticker lets you create smart, redstone-controlled automation based on your inventory levels — and it’s a crucial piece of the Logistics Network puzzle."
+				""
+				"Once connected to a Stock Link, the Ticker monitors a specific item and emits a configurable redstone signal based on how many of that item exist across connected inventories."
+				"{@pagebreak}"
+				"But its power doesn’t stop there — when paired with a Seat or Blaze Burner, the Mob on the seat or the Blaze Burner becomes a Stock Keeper with a full network UI. "
+				""
+				"This interface lets you:"
+				""
+				"View all linked items"
+				""
+				"Categorize items via filters"
+				""
+				"Share inventories with others"
+				""
+				"And even sell items using Table Cloths"
+				""
+				"With the Ticker at the center of your factory floor, you can trigger crafting, send alerts, control machines, or even set up a fully automated shop."
+			]
+			id: "3C7A3E5D5E7D9110"
+			rewards: [{
+				count: 4
+				id: "4DF30B1E5029245F"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			subtitle: "Use me with your favorite mob!"
+			tasks: [{
+				id: "7180E8D36807740D"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["477EF84B4DD97BF9"]
+			description: [
+				"The Factory Gauge is your command center for logistics-level inventory control. With this powerful tool, you can maintain exact item counts, coordinate network-wide requests, and synchronize crafting chains across your entire factory."
+				""
+				"When placed and linked to a Stock Link, the gauge can:"
+				""
+				"🔵 Operate in Restocker Mode, keeping a specific item stocked in an inventory (like a Packager)"
+				""
+				"🟡 Operate in Recipe Mode, managing complex input chains between other Factory Gauges"
+				""
+				"{@pagebreak}"
+				"Factory Gauges monitor stock, send requests, and even wait for promises to ensure no items are sent twice or prematurely. You can fine-tune their thresholds, link them with Redstone Links for signal control, and connect Display Links to show system status at a glance."
+				""
+				"Whether you're keeping 128 logs on hand or coordinating a 9-item mechanical crafting recipe, the Factory Gauge ensures your logistics network stays precise and intelligent."
+				""
+				"📘 Ponder Tip: Use Ponder on the Factory Gauge to understand stock monitoring, promises, and how to link multiple gauges in a recipe chain."
+			]
+			id: "30A6D792C4102B6C"
+			rewards: [
+				{
+					count: 2
+					id: "22336AF003790C70"
+					item: "create:factory_gauge"
+					type: "item"
+				}
+				{
+					id: "56C0895279CBE881"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "The Brain of the Logistics Network"
+			tasks: [{
+				count: 2L
+				id: "5893757911E9BD83"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			title: "Factory Gauge"
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2EDAEA1566841D97"]
+			description: [
+				"The Redstone Requester bridges the gap between redstone logic and logistics automation."
+				""
+				"Once connected to a Stock Link or Stock Ticker, the Requester lets you configure a shopping list of up to 9 items, each up to 256 units. When it receives a redstone signal, it sends a request to the network — delivering items in Cardboard Packages to the target address you specify."
+				""
+				"{@pagebreak}"
+				"It’s perfect for:"
+				""
+				"Button-controlled restocks"
+				""
+				"Detector-based refills"
+				""
+				"Redstone-triggered automation events"
+				""
+				"Manual override systems"
+				""
+				"No redstone signal = no request. This makes it a powerful on-demand item fetcher for your factory."
+				""
+				"📘 Ponder Tip: Use Ponder on the Redstone Requester to see how to configure and trigger it using redstone signals."
+			]
+			id: "1FA87B67695E65A0"
+			rewards: [{
+				id: "3AFF36EFD53CC761"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Signal to Ship"
+			tasks: [{
+				id: "5F15937197362F08"
+				item: "create:redstone_requester"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
