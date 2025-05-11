@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
 	).id( 'forge_frontier:shaped/basic_motor' )
 
     // Strong Motor Recipe
-    event.remove ({ id: 'create_new_age:shaped/strong_motor'})
+    event.remove ({ id: 'create_new_age:shaped/advanced_motor'})
     	event.shaped(
 		Item.of('create_new_age:advanced_motor'),
 		[
