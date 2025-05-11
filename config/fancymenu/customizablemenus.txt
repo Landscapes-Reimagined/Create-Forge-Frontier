@@ -54,9 +54,6 @@ net.minecraft.client.gui.screens.telemetry.TelemetryInfoScreen {
 net.minecraft.client.gui.screens.CreditsAndAttributionScreen {
 }
 
-net.minecraft.client.gui.screens.achievement.StatsScreen {
-}
-
 net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
@@ -75,19 +72,7 @@ dev.emi.emi.screen.BoMScreen {
 net.minecraft.client.gui.screens.packs.PackSelectionScreen {
 }
 
-com.blamejared.controlling.client.NewKeyBindsScreen {
-}
-
 net.minecraft.client.gui.screens.MouseSettingsScreen {
-}
-
-net.minecraftforge.client.gui.ModListScreen {
-}
-
-net.minecraft.client.gui.screens.PauseScreen {
-}
-
-betteradvancements.common.gui.BetterAdvancementsScreen {
 }
 
 net.minecraft.client.gui.screens.ConfirmLinkScreen {
@@ -100,5 +85,17 @@ net.irisshaders.iris.gui.screen.ShaderPackScreen {
 }
 
 org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen {
+}
+
+com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHOrderScreen {
+}
+
+net.minecraft.client.gui.screens.achievement.StatsScreen {
 }
 

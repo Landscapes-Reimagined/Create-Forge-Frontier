@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1746935508855
+  last_edited_time = 1747006107688
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  universal_layout_blacklist = org.embeddedt.embeddium.gui.embeddiumvideooptionsscreen_layout;org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen;net.irisshaders.iris.gui.screen.ShaderPackScreen;
-  [loading_requirement_container_meta:240c96f5-8ceb-48be-a740-d5ed330c9a1d-1746935502522] = [groups:][instances:]
+  universal_layout_blacklist = org.embeddedt.embeddium.gui.embeddiumvideooptionsscreen_layout;org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen;net.irisshaders.iris.gui.screen.ShaderPackScreen;options_screen;skin_customization_screen;sound_options_screen;controls_screen;mouse_settings_screen;language_select_screen;chat_options_screen;pack_selection_screen;accessibility_options_screen;telemetry_info_screen;credits_and_attribution_screen;confirm_link_screen;confirm_link_screen;com.blamejared.controlling.client.NewKeyBindsScreen;com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen;online_options_screen;net.minecraftforge.client.gui.ModListScreen;stats_screen;share_to_lan_screen;
+  [loading_requirement_container_meta:efc30232-dc25-4631-9ab3-3cd769b78d41-1747006100980] = [groups:][instances:]
 }
 
 customization {
