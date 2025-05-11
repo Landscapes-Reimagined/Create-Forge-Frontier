@@ -3,13 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1746738968330
+  last_edited_time = 1746935508855
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:ae6c5703-506a-4347-be97-1b628656edc1-1746738793045] = [groups:][instances:]
+  universal_layout_blacklist = org.embeddedt.embeddium.gui.embeddiumvideooptionsscreen_layout;org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen;net.irisshaders.iris.gui.screen.ShaderPackScreen;
+  [loading_requirement_container_meta:240c96f5-8ceb-48be-a740-d5ed330c9a1d-1746935502522] = [groups:][instances:]
 }
 
 customization {

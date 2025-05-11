@@ -36,9 +36,6 @@ net.minecraft.client.gui.screens.OnlineOptionsScreen {
 net.minecraft.client.gui.screens.controls.ControlsScreen {
 }
 
-org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
-}
-
 net.minecraft.client.gui.screens.LanguageSelectScreen {
 }
 
@@ -97,5 +94,11 @@ net.minecraft.client.gui.screens.ConfirmLinkScreen {
 }
 
 net.minecraft.client.gui.screens.ShareToLanScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
 }
 
