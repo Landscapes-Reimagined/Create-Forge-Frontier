@@ -1,0 +1,780 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimentional_progression"
+	group: ""
+	icon: "ad_astra:earth_globe"
+	id: "430DE687E9BB5176"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/dim_travel_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4FA0AF313BCCF95C"]
+			description: [
+				"The &aOverworld&r is where your legend begins—a sprawling, vibrant realm of endless possibility.  "
+				"From rolling hills to shadowed forests, vast oceans to treacherous caves, this dimension overflows with resources, biomes, and secrets waiting to be uncovered."
+				""
+				"Here, you’ll gather the essentials, carve your first shelter, and lay the foundation for your future masterpieces.  "
+				"Unearth valuable ores, encounter rare creatures, and shape breathtaking landscapes as you forge your story from the ground up."
+				""
+				"The Overworld is your canvas—&nshape it, build upon it, and let your dreams soar across the horizon.&r 🗺✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/overworld_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about the Overworld in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DA842A1588FB8BE\" } }"
+			]
+			icon: "minecraft:grass_block"
+			id: "5EDC9934E7D346D8"
+			rewards: [
+				{
+					id: "2A8D0644CF360EFD"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "6F18DD41F5BDD8D9"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "6A29CA89965AFE8A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Begin your adventure in the Overworld and carve your legend into the land. Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "5CF9F9D9EE1AA90A"
+				type: "dimension"
+			}]
+			title: "A World of Endless Horizons"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["391748CCFCB25D1A"]
+			description: [
+				"The &cNether Dimension&r is a realm of searing heat, twisted landscapes, and unimaginable treasures waiting to be uncovered.  "
+				""
+				"Navigate the chaotic beauty of &eCrimson Forests&r, &eBasalt Deltas&r, &eSoul-Sand Valleys&r, and newly forged realms teeming with danger and discovery.  "
+				"Each biome holds rare resources, hidden secrets, and perilous threats lurking just beyond the next corner."
+				""
+				"{@pagebreak}"
+				""
+				"&l🏰 Brave the Strongholds of the Nether&r  "
+				"Face the dangers of mighty fortress strongholds and treasure-laden bastions.  "
+				"These revamped structures are more than mere battlegrounds—they are essential stages in your progression, brimming with powerful loot, hidden lore, and the materials needed to advance your journey."
+				""
+				"The Nether is no longer just a waypoint—it’s a pivotal and unforgettable chapter in your conquest of &6Create - Forge Frontier&r."
+				""
+				"{@pagebreak}"
+				""
+				"&l🔥 Will You Rise Above the Flames?&r  "
+				"Explore the infernal depths, harvest rare materials, and prepare yourself for the greater challenges that lie ahead.  "
+				"The Nether has been reborn into an immersive, treacherous frontier—perfect for those who seek adventure, mastery, and glory."
+				""
+				"Conquer the inferno, or be consumed by it—the choice is yours. 🔥✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/nether_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about the Nether in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
+			]
+			icon: "minecraft:netherrack"
+			id: "0B3F87B20695A777"
+			rewards: [
+				{
+					id: "6EA46BE59E9A7BA1"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "780D22E5DC99DAB3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Master the remastered Nether and uncover the secrets within the fire. Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "34938F192D4ABC3F"
+				type: "dimension"
+			}]
+			title: "Forged in Flame"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09EEADB48E883801"]
+			description: [
+				"The &5End Dimension&r in &6Create - Forge Frontier&r has been completely reimagined to deliver an awe-inspiring and unforgettable adventure.  "
+				"Gone are the days of a barren void—this realm now boasts enhanced, breathtaking terrain, filled with towering spires, sprawling islands, and alien landscapes that beckon you to explore."
+				""
+				"The End is no longer a final stop—it is a vibrant, living frontier crafted to test your spirit of adventure and mastery."
+				""
+				"{@pagebreak}"
+				""
+				"&l🐲 The Battle for Destiny&r  "
+				"Prepare for the ultimate test: the &eEnder Dragon&r fight, now fiercer and more thrilling than ever before.  "
+				"The dragon boasts new strategies, heightened aggression, and punishing difficulty.  "
+				"You’ll need the finest gear, sharp tactics, and unyielding courage to overcome this iconic foe and claim victory over the skies."
+				""
+				"Slaying the dragon is no small feat—but it paves the way to even greater opportunities beyond."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌌 Beyond the Portal Lies Opportunity&r  "
+				"The End is no longer the end—it’s the gateway to &nEnd Game progression&r.  "
+				"Beyond the dragon’s lair, the sprawling islands await, filled with hidden treasures, new adversaries, and secrets shrouded in the mists of this alien world."
+				""
+				"Unlock exclusive late-game content, challenge your ingenuity, and push your ambitions to their very limits as you explore deeper into the End’s mysterious expanses."
+				""
+				"{@pagebreak}"
+				""
+				"&l🏆 Rise Among the Stars&r  "
+				"The End Dimension has been reborn into a dynamic battleground, a mystical frontier, and a gateway to your ultimate destiny.  "
+				"Seize the challenge. Embrace the unknown.  "
+				"Forge your name into legend in a world where only the brave dare tread."
+				""
+				"This is not your end—this is the beginning of your greatness! 🌠✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/end_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about the End in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
+			]
+			icon: "minecraft:end_stone"
+			id: "58F4190183C467EE"
+			rewards: [
+				{
+					id: "1AECA3DBC6993A37"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "6B4409CC18096647"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Conquer the End Dimension and unlock your true destiny. Click me for more info!"
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_stone"
+					id: "0357A476C4643EA3"
+					type: "dimension"
+				}
+				{
+					advancement: "minecraft:end/enter_end_gateway"
+					criterion: ""
+					id: "25DF331A68B4B048"
+					type: "advancement"
+				}
+			]
+			title: "Ascend Beyond the End"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0428643E0C764D8B"]
+			description: [
+				"Step beyond the veil into the &5Otherside&r—an enigmatic dimension cloaked in eternal darkness and boundless mystery.  "
+				"Brought to life by the &5Deeper and Darker&r mod, this shadowed world can only be reached by those who have claimed the &eHeart of the Warden&r and triumphed over the ancient guardian of the Deep Dark."
+				""
+				"In the Otherside, haunting beauty and perilous secrets intertwine.  "
+				"Bioluminescent flora glows faintly against the abyss, while colossal &eSculk Constructs&r and forgotten treasures rise from the mist.  "
+				"Rare materials like &eWardenite&r and Otherside-exclusive ores offer the chance to craft weapons and tools that rival anything forged in the Overworld or Nether."
+				""
+				"{@pagebreak}"
+				""
+				"&l🖤 A Realm of Shadows and Wonders&r  "
+				"Yet beauty is not without danger.  "
+				"New, relentless foes prowl the gloom—guardians of secrets lost to time.  "
+				"Every step you take in the Otherside could lead to priceless rewards—or to a swift and silent end."
+				""
+				"Only those with courage, cunning, and resilience will uncover the true power hidden within these forgotten halls."
+				""
+				"{@pagebreak}"
+				""
+				"&l⚔ Will You Master the Darkness?&r  "
+				"The Otherside is more than a place to explore—it is a &ntrial&r to conquer, a mystery to unravel, and a proving ground to elevate your legend."
+				""
+				"Dare to tread the paths where few have survived.  "
+				"Unlock the secrets that echo through the darkness.  "
+				"Shape your destiny in a world where light is fleeting—and only the brave prevail. 🖤✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/otherside_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about Deeper Darker in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+			]
+			icon: "minecraft:reinforced_deepslate"
+			id: "090A156A3CB027A3"
+			shape: "hexagon"
+			subtitle: "Conquer the mysteries of the Otherside and forge your legend in darkness. Click me for more info!"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				id: "09160BE9EBA13AB9"
+				type: "dimension"
+			}]
+			title: "Beyond the Shadows"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A09B8EFE2811CB9"]
+			description: [
+				"Embark on an extraordinary journey across the &6Ad Astra Planets&r—a breathtaking collection of celestial worlds teeming with opportunities for exploration, discovery, and triumph.  "
+				"From the desolate craters of the Moon to the fiery depths of Venus and the rust-colored sands of Mars, each planet presents unique terrains, challenges, and secrets waiting to be uncovered."
+				""
+				"These distant worlds are rich with rare materials, hidden relics, and untold stories.  "
+				"Every voyage into the stars offers a thrilling new frontier to conquer."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌍 Thrive Among the Stars&r  "
+				"Establish thriving colonies, mine exotic resources, and unlock the technologies needed to survive against overwhelming odds.  "
+				"Each environment will test your ingenuity and resilience—demanding creativity, courage, and the spirit of a true pioneer."
+				""
+				"The Ad Astra Planets are more than mere destinations—they are canvases for your ambition and stepping stones toward mastering the cosmos."
+				""
+				"{@pagebreak}"
+				""
+				"&l🚀 Claim the Final Frontier&r  "
+				"With every rocket launch, a new horizon opens before you.  "
+				"The universe isn’t just something to gaze at—it’s yours to explore, to shape, and to conquer."
+				""
+				"Ad Astra invites you to forge your legacy among the stars.  "
+				"Venture forth, brave explorer, and claim your place in the ever-expanding tapestry of the universe! 🚀✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/moon_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about Ad Astra in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7187AADA58DBAAC6\" } }"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "43160A0A3268A07D"
+			shape: "hexagon"
+			subtitle: "Explore the Ad Astra Planets and forge your destiny among the stars. Click me for more info!"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "3CEF90C695890536"
+				type: "dimension"
+			}]
+			title: "Pioneers of the Cosmos"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58AF77D0696B9822"]
+			description: [
+				"Set course for the &bAlex’s Caves Planets&r—celestial worlds unlike anything you've encountered before.  "
+				"Each planet is a breathtaking fusion of distinct surface terrains and rare subterranean biomes, offering extraordinary opportunities for exploration, discovery, and survival."
+				""
+				"These worlds are crafted to showcase the exotic biomes introduced by Alex’s Caves, blending alien beauty with hidden dangers that will test your skills and ingenuity."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌌 Planetary Expeditions&r  "
+				""
+				"- &3Abyssal Chasm Planet&r: Endless oceans conceal Tube Worms, Deep Ones, and the monstrous Hullbreaker in the crushing dark."
+				""
+				"- &5Forlorn Hollows Planet&r: A cursed land of Guanostone, where Underzealots, Watchers, and Forsaken roam amidst shadows and sorrow."
+				""
+				"- &2Primordial Caves Planet&r: Ancient, lush landscapes lit by glowing Ambersol, teeming with prehistoric beasts like Grottoceratops and Tremorsaurus."
+				""
+				"{@pagebreak}"
+				""
+				"- &dMagnetic Caves Planet&r: Glimmering Neodymium crystals and rich Galena deposits dominate the surface, while magnetic creatures like Teletors and Magnetrons lurk below."
+				""
+				"- &2Toxic Caves Planet&r: Wastelands of Uranium and bubbling Acid lakes, where mutants like Brainiacs and Nucleepers prowl the deadly haze."
+				""
+				"- &dCandy Cavity Planet&r: A whimsical land above hides formidable Licowitches below, guarding sweet yet sinister secrets."
+				""
+				"{@pagebreak}"
+				""
+				"&l🛠 Adventure Beyond the Stars&r  "
+				"Each planet holds unique resources, rare materials, and critical challenges essential for your late-game progression.  "
+				"Reaching these distant worlds demands the &6Tier 5 Rocket&r—crafted from treasures and materials wrested from the End Dimension."
+				""
+				"Embark on an interstellar adventure, master extraordinary biomes, and uncover the hidden legacies of the Alex’s Caves Planets—where every step is a bold leap into the unknown. 🚀✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/alexscaves_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about Alex's Caves in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"308B363D1029D44E\" } }"
+			]
+			icon: "alexscaves:spelunkery_table"
+			id: "2E5C57802F26496D"
+			rewards: [
+				{
+					id: "6A43BD2792147AD3"
+					item: "alexscaves:raygun"
+					type: "item"
+				}
+				{
+					id: "350892F53A7E688F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Explore the exotic biomes of Alex’s Caves Planets and uncover their secrets. Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:abyssal_chasm"
+				icon: "alexscaves:submarine"
+				id: "7BBBCF8A23D903C6"
+				type: "dimension"
+			}]
+			title: "Worlds Beneath the Stars"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F95771279F2C700"]
+			description: [
+				""
+				"{image:ftb:textures/createforgefrontier_bannerimage.png width:192 height:100 align:center}"
+			]
+			icon: "forge_frontier:trophy_block"
+			id: "65764771C8DA0EF1"
+			shape: "hexagon"
+			subtitle: "The Forge, will be coming in v3.0.0"
+			tasks: [{
+				id: "3C6583D0D04AB9CB"
+				title: "The Forge (Future Final Planet)"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B3F87B20695A777"]
+			description: [
+				"The &6Tier 1 Rocket&r marks your first triumphant step beyond the skies, breaking free from the Overworld and launching you into the vast expanse of &6Ad Astra&r.  "
+				"As the foundation of your interstellar journey, this rocket unlocks the Moon and Mars—worlds brimming with new resources, hidden challenges, and breathtaking landscapes."
+				""
+				"Crafting the Tier 1 Rocket demands &ninnovation and determination&r, as you piece together advanced components and master the art of space engineering.  "
+				"When your rocket stands ready on the launchpad, all that remains is to ignite the engines and soar into the unknown."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌑 The First Frontier Awaits&r  "
+				"The Moon and Mars are just the beginning of your cosmic odyssey.  "
+				"Harvest critical resources, establish footholds across alien worlds, and prepare for the next leap toward even greater destinations.  "
+				"Each step across these new frontiers lays the groundwork for future rocket tiers—and for forging a legacy among the stars."
+				""
+				"{@pagebreak}"
+				""
+				"&l🚀 Ignite the Engines of Destiny&r  "
+				"With the Tier 1 Rocket, the universe opens before you.  "
+				"Take the leap, leave behind the familiar, and carve your path through the heavens.  "
+				"The stars are no longer distant dreams—they are destinations waiting for your courage to reach them. 🌌✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/tier_1.png width:130 height:190 align:center}"
+				""
+				"Read more about the Tier 1 Rocket in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"102F526989610441\" } }"
+			]
+			id: "3A09B8EFE2811CB9"
+			rewards: [
+				{
+					id: "3B173E3B8C0FFBBF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0269C27F500A4BAC"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the Tier 1 Rocket and begin your interstellar adventure. Click me for more info!"
+			tasks: [{
+				id: "55F22A8D2A9B213B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "First Steps Beyond Earth"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43160A0A3268A07D"]
+			description: [
+				"Descend into the foreboding depths of the &8Ancient Cities&r—vast, crumbling ruins buried within the shadows of the &8Deep Dark&r.  "
+				"These eerie strongholds whisper of a forgotten age, housing treasures beyond imagination and dangers beyond compare."
+				""
+				"Silent yet unstoppable, the &9Warden&r prowls these ruins, punishing all who dare to disturb the darkness with devastating fury.  "
+				"To survive here is a feat in itself—but true glory lies in &nconquering&r the Warden and seizing the prize it guards."
+				""
+				"{@pagebreak}"
+				""
+				"&l🖤 The Path to the Otherside&r  "
+				"Defeating the Warden grants you the elusive &eHeart of the Warden&r—a relic of immense power, and the key to unlocking a portal to another world: the mysterious &5Otherside&r."
+				""
+				"This is no ordinary victory; it is a transformation.  "
+				"Beyond the shattered ruins lies a realm of untold wonders, unique biomes, and unparalleled resources—waiting only for those bold enough to master the darkness."
+				""
+				"{@pagebreak}"
+				""
+				"&l⚔️ Will You Brave the Abyss?&r  "
+				"The journey into the Deep Dark is not just about survival—it’s a trial of courage, ingenuity, and strength.  "
+				"Step into the shadows. Face the ancient terror.  "
+				"And if you prevail, step through the veil into a world reborn beyond the darkness."
+				""
+				"The &5Otherside&r awaits—&nclaim your destiny in the realm where few dare to tread.&r ⚔"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/deepdark_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about Deeper Darker in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+			]
+			id: "0428643E0C764D8B"
+			rewards: [
+				{
+					id: "0367270B60DDFD03"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "54A90800581598D9"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Warden and unlock the mysteries of the Otherside. Click me for more info!"
+			tasks: [{
+				id: "310BD6F382F22641"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			title: "Conqueror of the Deep"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["090A156A3CB027A3"]
+			description: [
+				"In &5Create - Forge Frontier&r, &5End Remastered&r has been completely reforged into a bold new adventure—transforming every element of the beloved mod into a uniquely crafted journey.  "
+				"From reimagined Eye recipes to enhanced lore and mechanics, every piece has been meticulously redesigned to challenge your ingenuity and captivate your spirit of discovery."
+				""
+				"The road to the End is no longer a simple search for strongholds—it is an expedition demanding courage, exploration, and mastery of custom-crafted relics."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌌 Fifteen Eyes, Fifteen Legends&r  "
+				"To awaken the End Portal, you must gather &e15 unique Ender Eyes&r, each with its own story, lore, and hidden trials.  "
+				"Crafting each Eye requires venturing into dangerous biomes, overcoming powerful foes, and unlocking creative new crafting techniques."
+				""
+				"Every Eye tells a tale—adding depth, mystery, and rich progression to your quest for the End.  "
+				"Prepare for a journey where each discovery is a victory, and each crafted Eye is a chapter of your legend."
+				""
+				"{@pagebreak}"
+				""
+				"&l🏰 A Portal Reborn&r  "
+				"Strongholds have been transformed, their ancient halls reshaped to reflect your epic journey.  "
+				"New mechanics and revamped layouts ensure that no two adventures will ever feel the same.  "
+				"The path to the End Portal is now an achievement to be earned—a testament to your perseverance, wit, and bravery."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌀 Rise to the Endgame&r  "
+				"The Forge Frontier edition of End Remastered is not just an overhaul—it is a celebration of the journey itself.  "
+				"Gather your strength. Forge your destiny.  "
+				"Step boldly toward an Endgame adventure unlike anything you’ve faced before."
+				""
+				"The path awaits—&nwill you rise to the occasion?&r 🌀"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/endframe_screenshot.png width:192 height:100 align:center}"
+				""
+				"Read more about End Remastered in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55E1F170D9933E8F\" } }"
+			]
+			icon: "minecraft:end_portal_frame"
+			id: "09EEADB48E883801"
+			rewards: [{
+				id: "38BE604092AB7681"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Conquer the reimagined journey to the End and forge your legend. Click me for more info!"
+			tasks: [{
+				id: "7239EA06CCC9AF48"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Eyes of Destiny"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58F4190183C467EE"]
+			description: [
+				"The &6Tier 5 Rocket&r, exclusive to &6Create - Forge Frontier&r, marks the next great leap in your journey—a triumph of engineering, exploration, and perseverance.  "
+				"This is not merely a rocket—it is the culmination of your mastery over the End and beyond, forged through rare resources, strategic progression, and the innovative power of the Create ecosystem."
+				""
+				"Unlocking this marvel requires more than skill; it demands &ncourage and ingenuity&r.  "
+				"Only by conquering the End Dimension, defeating the Ender Dragon, and securing the treasures hidden within the vast, reshaped End can you begin crafting this masterpiece of technology."
+				""
+				"{@pagebreak}"
+				""
+				"&l🚀 The Gateway to Alien Worlds&r  "
+				"The &6Tier 5 Rocket&r unlocks the &bAlex’s Caves Biome Planets&r—uncharted alien worlds teeming with life, mystery, and opportunity.  "
+				"Explore lush underground forests, shimmering crystalline caverns, dynamic biomes, and unearth forgotten treasures scattered among the stars."
+				""
+				"Each planet offers unique challenges, breathtaking landscapes, and rare resources, making your achievement of the Tier 5 Rocket truly legendary."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌌 More Than a Rocket—A Legacy&r  "
+				"This rocket is more than a vessel; it is a &nsymbol of your progress&r, a testament to the adventures you've conquered, and a key to unlocking the next era of interplanetary discovery."
+				""
+				"The Tier 5 Rocket fuses exploration, creativity, and engineering into one awe-inspiring achievement.  "
+				"Prepare to soar beyond familiar skies, carve your mark across alien worlds, and set your legend among the stars."
+				""
+				"Gear up. Launch forth. &nThe next chapter of your adventure awaits in the boundless cosmos!&r 🚀✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/tier_5.png width:130 height:190 align:center}"
+				""
+				"Read more about the Tier 5 Rocket in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7FEE2D38BA934C28\" } }"
+			]
+			id: "58AF77D0696B9822"
+			rewards: [
+				{
+					id: "6DF8F2EF04DD38CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "07C030A0B1DB4706"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Craft the Tier 5 Rocket and unlock the wonders of distant alien worlds. Click me for more info!"
+			tasks: [{
+				id: "32A8E231B0798A84"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Forging the Cosmic Frontier"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E5C57802F26496D"]
+			description: [
+				"The &6Forge Rocket&r stands as the pinnacle of innovation, mastery, and ambition within &6Create - Forge Frontier&r.  "
+				"Painstakingly crafted from elements across the entire modpack, this completely custom rocket is a testament to your journey—the culmination of every challenge you’ve conquered and every skill you’ve honed."
+				""
+				"Built through the synergy of multiple mods, resources, and complex mechanics, the Forge Rocket demands automation, exploration, and resource refinement at the highest level.  "
+				"Every intricate component, every roaring booster, is a reflection of your relentless pursuit of the skies."
+				""
+				"{@pagebreak}"
+				""
+				"&l🚀 A Gateway to New Frontiers&r  "
+				"The Forge Rocket is not just a marvel of engineering—it is the key to unlocking an entirely new world: the mysterious planet known as &6The Forge&r.  "
+				"While currently inaccessible, this realm promises to offer unparalleled challenges, rare resources, and the grand culmination of your adventure across the stars."
+				""
+				"The journey does not end with liftoff—it is only just beginning."
+				""
+				"{@pagebreak}"
+				""
+				"&l🛠 Prepare for Greatness&r  "
+				""
+				"- Gather rare materials scattered across the Overworld, Nether, and End Dimensions."
+				"- Master the most advanced crafting systems using &eCreate&r and its powerful addons."
+				"- Assemble the mighty Forge Rocket—the vessel that will propel you toward your ultimate destiny."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌌 More Than a Rocket—A Legend Forged&r  "
+				"The Forge Rocket is more than a tool of exploration—it is the embodiment of your adventure, your resilience, and your limitless creativity."
+				""
+				"Build it. Launch it.  "
+				"And prepare yourself for the wonders—and challenges—that await beyond the stars. 🌌✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/forge_rocket.png width:130 height:190 align:center}"
+				""
+				"Read more about the Forge Rocket in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262FF2B00E853521\" } }"
+			]
+			id: "7F95771279F2C700"
+			rewards: [{
+				id: "5A5417D1E23C6582"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Assemble the ultimate rocket and prepare to conquer the stars. Click me for more info!"
+			tasks: [{
+				id: "3F4794BFDCC200A7"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_7_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Forging the Final Frontier"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Your journey begins in the &aOverworld&r—a vibrant, living world brimming with resources, custom biomes, and ancient structures waiting to be uncovered.  "
+				"As you master this land, you’ll unlock the mysteries of &cNether Remastered&r, where powerful Overworld artifacts open the gateway to a dimension of fire, danger, and unimaginable reward."
+				""
+				"Each step forward brings new challenges, new discoveries, and new horizons to chase."
+				""
+				"{@pagebreak}"
+				""
+				"&l🚀 Journey Beyond the Sky&r  "
+				"With the construction of your first &eTier 1 Rocket&r, the stars themselves become your next frontier.  "
+				"Travel to the planets of &6Ad Astra&r, where every world brings its own challenges, dangers, and opportunities for rare resource gathering."
+				""
+				"Venture even deeper into the unknown by braving the darkness and defeating the &9Warden&r—unlocking the portal to the &5Otherside&r, an eerie, spectral dimension brimming with forbidden secrets and ancient mysteries."
+				""
+				"{@pagebreak}"
+				""
+				"&l🐲 Conquer the End—and Beyond&r  "
+				"Enter the reimagined &5End Remastered&r, where new progression mechanics and an intense Dragon Fight await.  "
+				"Face revamped terrain, hidden dangers, and breathtaking exploration as you claim rare treasures from this unforgiving realm."
+				""
+				"Craft the mighty &eTier 5 Rocket&r from the spoils of the End, and prepare to pierce the veil once again—this time journeying to the worlds hidden within &bAlex’s Caves&r, where each planet houses extraordinary biomes and untapped wonders."
+				""
+				"{@pagebreak}"
+				""
+				"&l🔥 Forge Your Ultimate Legacy&r  "
+				"Finally, ascend to your greatest challenge yet—constructing the &6Forge Rocket&r, a masterpiece of engineering that draws upon the strength, creativity, and perseverance forged across your entire journey."
+				""
+				"The &6Forge Planet&r awaits—a mysterious world shaped by the ambitions of adventurers like you, setting the stage for a future filled with limitless exploration and new adventures."
+				""
+				"{@pagebreak}"
+				""
+				"🌌 &nYour journey is only just beginning.&r  "
+				"Conquer dimensions. Claim the stars.  "
+				"Forge your destiny and carve your legacy among the worlds—this chapter is your guide to mastering the frontier and beyond! 🚀✨"
+			]
+			hide_dependent_lines: true
+			icon: "ad_astra:earth_globe"
+			id: "4FA0AF313BCCF95C"
+			rewards: [{
+				id: "3F55AEEEC97DE53A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Master the dimensions, conquer the skies, and forge your legacy. Click me to learn more!"
+			tasks: [{
+				id: "6C2D675A19C834AB"
+				secret: true
+				stat: "minecraft:total_world_time"
+				type: "stat"
+				value: 1
+			}]
+			title: "Beyond Worlds, Beyond Stars"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5EDC9934E7D346D8"]
+			description: [
+				"In &cNether Remastered&r, the path to unlocking the Nether becomes an epic adventure all its own.  "
+				"Before you can step into the fiery depths, you must first explore key structures scattered across the Overworld—each one hiding treasures crucial to your progression."
+				""
+				"Seek out these hidden relics, uncover ancient secrets, and gather rare resources as you prepare for the final step: consuming the &eSeal of the Underworld&r—a powerful artifact that shatters the boundary between worlds and unlocks the gateway to the Nether."
+				""
+				"This carefully crafted journey transforms the Nether from a simple destination into a &ntrue milestone&r—one earned through exploration, challenge, and perseverance.  "
+				"Will you rise to the challenge and claim your place in the heart of the underworld? 🌋✨"
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
+				""
+				"Read more about Nether Remastered in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
+			]
+			icon: "nether_remastered:seal_of_the_underworld_item"
+			id: "391748CCFCB25D1A"
+			rewards: [
+				{
+					id: "626DB3C5681FCCBC"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "495312D573F2BD39"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Embark on an epic journey to break the seal and claim the power of the Nether. Click me for more info!"
+			tasks: [{
+				id: "747844B5BB8915E0"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Unlocking the Depths"
+			x: -7.5d
+			y: 0.0d
+		}
+	]
+	title: "Dimensional Progression"
+}

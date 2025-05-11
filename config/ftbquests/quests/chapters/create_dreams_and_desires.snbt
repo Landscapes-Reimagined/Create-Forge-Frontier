@@ -1,10 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "new_age"
+	filename: "dreams_realized"
 	group: "3D5393E3938A9DF4"
-	icon: "create_new_age:generator_coil"
-	id: "46C69FF4CAC549E4"
+	icon: "create_dd:spectral_ruby"
+	id: "4AE33E17677F1FB8"
 	images: [
 		{
 			height: 10.0d
@@ -16,26 +16,26 @@
 		}
 		{
 			height: 10.0d
-			image: "ftb:textures/new_age_title.png"
+			image: "ftb:textures/dreams_desires_title.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -10.0d
+			y: -11.0d
 		}
 	]
-	order_index: 7
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
-		id: "2DF48F5BF586362E"
+		id: "0157A9E38B635A46"
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "734D6BEDC354E53C"
-			item: "create_new_age:generator_coil"
+			id: "303231279144A9EC"
+			item: "create_dd:spectral_ruby"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -7.0d
+		y: -6.0d
 	}]
-	title: "Dawn of a New Era (Create New Age)"
+	title: "Dreams of Innovation (Create Dreams and Desires)"
 }

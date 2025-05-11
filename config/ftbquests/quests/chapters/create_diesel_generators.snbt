@@ -215,10 +215,7 @@
 				{
 					count: 3L
 					id: "3A1267EBBE6F895C"
-					item: {
-						Count: 3
-						id: "createdieselgenerators:distillation_controller"
-					}
+					item: { Count: 3, id: "createdieselgenerators:distillation_controller" }
 					type: "item"
 				}
 				{

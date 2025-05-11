@@ -1,10 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "miscellaneous"
+	filename: "connections"
 	group: "3D5393E3938A9DF4"
-	icon: "create_mechanical_extruder:mechanical_extruder"
-	id: "37D4B189E01FBB93"
+	icon: "create_connected:brass_gearbox"
+	id: "16920DFB6C8BDE8E"
 	images: [
 		{
 			height: 10.0d
@@ -16,26 +16,26 @@
 		}
 		{
 			height: 10.0d
-			image: "ftb:textures/create_misc_title.png"
+			image: "ftb:textures/connected_title.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -10.5d
+			y: -12.0d
 		}
 	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [{
-		id: "610FD2C783821A4E"
+		id: "769D1D5B36D849D2"
 		shape: "gear"
 		size: 3.0d
 		tasks: [{
-			id: "3B5F306A9A4F4F28"
-			item: "create_mechanical_extruder:mechanical_extruder"
+			id: "63161C1E2A066AC7"
+			item: "create_connected:brass_gearbox"
 			type: "item"
 		}]
 		x: 0.0d
-		y: -6.0d
+		y: -7.0d
 	}]
-	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"
+	title: "Web of Connections (Create Connected)"
 }
