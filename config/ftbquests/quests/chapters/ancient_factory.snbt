@@ -2,7 +2,7 @@
 	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ancienty_factory"
+	filename: "ancient_factory"
 	group: "658CB7FD6582B3E9"
 	icon: "cataclysm:emp"
 	id: "1A22581D94743985"
