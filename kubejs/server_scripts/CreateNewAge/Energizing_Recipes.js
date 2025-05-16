@@ -59,4 +59,75 @@ ServerEvents.recipes(event => {
             }).id(`forge_frontier:energising/${id}`);
         });
 
+        // Enchanted Golden Apple Recipe
+        event.remove({ id: 'create_new_age:enchanted_golden_apple'})
+        event.custom({
+            type: "create:sequenced_assembly",
+
+            ingredient: {
+                item: "minecraft:apple"
+            },
+
+            transitionalItem: {
+                item: "create_new_age:incomplete_enchanted_golden_apple"
+            },
+
+            sequence: [
+                {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                    item: "create_new_age:incomplete_enchanted_golden_apple"
+                    },
+                    {
+                    item: "forge_frontier:overcharged_gold_block"
+                    }
+                ],
+                results: [
+                    {
+                    item: "create_new_age:incomplete_enchanted_golden_apple"
+                    }
+                ]
+                },
+
+                {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                    item: "create_new_age:incomplete_enchanted_golden_apple"
+                    },
+                    {
+                    item: "forge_frontier:overcharged_gold_block"
+                    }
+                ],
+                results: [
+                    {
+                    item: "create_new_age:incomplete_enchanted_golden_apple"
+                    }
+                ]
+                },
+
+                {
+                type: "create_new_age:energising",
+                energy_needed: 500000,
+                ingredients: [
+                    {
+                    item: "create_new_age:incomplete_enchanted_golden_apple"
+                    }
+                ],
+                results: [
+                    {
+                    item: "create_new_age:incomplete_enchanted_golden_apple"
+                    }
+                ]
+                }
+            ],
+            results: [
+                {
+                item: "minecraft:enchanted_golden_apple"
+                }
+            ],
+            loops: 4
+        }).id('forge_frontier:energizing/enchanted_golden_apple')
+
 });
