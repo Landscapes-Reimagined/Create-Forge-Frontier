@@ -98,11 +98,23 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Basic Beginnings of Create"
-			tasks: [{
-				id: "78D15B79DF589551"
-				title: "Click me!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3690C946EDC458FD"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "0D3356B0D6DE1DDE"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "18CFE9A5D4DFEBD8"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
 			title: "Stress Progression: Create Beginnings"
 			x: 0.0d
 			y: -7.0d
@@ -1181,6 +1193,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Kelp, particularly Dried Kelp, is the foundation of Create's item transportation and sorting utility."]
 			icon: "minecraft:dried_kelp"
 			id: "2D02B7B7507AF99D"
@@ -1353,7 +1366,9 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Rose Quartz is integral to the development of Electron Tubes, providing a simplistic computer allowing for machines and components far smarter than metal alone."]
+			hide_dependency_lines: true
 			icon: "create:rose_quartz"
 			id: "7F7EB3A77A07CE9E"
 			rewards: [{
