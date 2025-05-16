@@ -13,7 +13,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			height: 10.0d
@@ -52,6 +52,11 @@
 					item: "create_compressed:large_cogwheel_block"
 					type: "item"
 				}
+				{
+					id: "34B5CF465FEFAF09"
+					type: "xp"
+					xp: 10
+				}
 			]
 			subtitle: "Rotation Transportation Elevation"
 			tasks: [
@@ -78,33 +83,47 @@
 			]
 			icon: "create:andesite_alloy"
 			id: "66E9DB5E9D5CD5EC"
-			rewards: [{
-				id: "270C970CF9306939"
-				item: "createcompression:compressed_andesite_alloy_2x"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3EF1E52A4C9D387E"
+					item: "createcompression:compressed_andesite_alloy_1x"
+					type: "item"
+				}
+				{
+					id: "458C0F8C8E8FC7E1"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "gear"
-			size: 3.0d
+			size: 2.0d
 			subtitle: "Basic Beginnings of Create"
 			tasks: [{
-				id: "00679C84096B5E5B"
-				item: "create:andesite_alloy"
-				type: "item"
+				id: "78D15B79DF589551"
+				title: "Click me!"
+				type: "checkmark"
 			}]
 			title: "Stress Progression: Create Beginnings"
 			x: 0.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["66E9DB5E9D5CD5EC"]
+			dependencies: ["6AE92109DA4B2A76"]
 			description: ["Shafts are the most basic way you will transport Rotation and Stress, the \"energy\" units of Create. Just like Andesite Alloy, these will form the backbone of your factory."]
 			id: "0051FC2DA1337C65"
-			rewards: [{
-				count: 9
-				id: "17909E51395F684B"
-				item: "create_compressed:shaft_bundle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "17909E51395F684B"
+					item: "create_compressed:shaft_bundle"
+					type: "item"
+				}
+				{
+					id: "56E555F6C41092C0"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Foundation of Rotation Transportation "
 			tasks: [{
 				id: "78ACCAFEB5C8FAB0"
@@ -116,15 +135,22 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["66E9DB5E9D5CD5EC"]
+			dependencies: ["6AE92109DA4B2A76"]
 			description: ["Andesite Casings are made by using or deploying andesite alloy onto stripped logs. These casings form the structure of your first Create machines, and you are well on your way to your first factory! "]
 			id: "4BD39CC8E17CA1A9"
-			rewards: [{
-				count: 9
-				id: "6C8DAE26BC06199D"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "6C8DAE26BC06199D"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "4C669589458CBE5F"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "diamond"
 			size: 1.2d
 			subtitle: "Into The Age of Andesite"
@@ -153,6 +179,11 @@
 					item: "createcompression:compressed_andesite_alloy_1x"
 					type: "item"
 				}
+				{
+					id: "22A5D81DB19737D6"
+					type: "xp"
+					xp: 50
+				}
 			]
 			shape: "diamond"
 			size: 1.25d
@@ -170,11 +201,18 @@
 			dependencies: ["0051FC2DA1337C65"]
 			description: ["This is a very good first source of stress units and rotation, before windmills and waterwheels. Use to turn, and Crouch+Use to reverse the rotation direction."]
 			id: "3194DBB424ACA257"
-			rewards: [{
-				id: "2DAE60B6EF9FC3C6"
-				item: "create:andesite_alloy_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2DAE60B6EF9FC3C6"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+				{
+					id: "357130DA2239E4EC"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Manual Stress!"
 			tasks: [{
 				id: "40F72CDF76D8262E"
@@ -189,12 +227,19 @@
 			dependencies: ["0051FC2DA1337C65"]
 			description: ["[\"\",{\"text\":\"These are excellent sources of stress for midgame, and can carry you a long way. To set one up, you need to connect windmill sail blocks, and the windmill will generate varying amounts of stress depending on how many you have connected. The different tiers of windmills can be confusing, the Create wiki page has more information about the stress capacity of the Windmill Bearing: \"},{\"text\":\"Windmills on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Windmill\"}},{\"text\":\".\"}]"]
 			id: "0978BA99255B5D65"
-			rewards: [{
-				count: 16
-				id: "52D688973DD92F8A"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "52D688973DD92F8A"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "6706CBB839F454AF"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Netherlands Moment"
 			tasks: [{
 				id: "7A4E69CE7A662487"
@@ -209,12 +254,19 @@
 			dependencies: ["0051FC2DA1337C65"]
 			description: ["Water Wheels are excellent sources of SU to provide a constant supply of rotation and stress, but they don't provide very much. If you surround them with flowing water, they will start producing stress. See the Ponder Menu for more information."]
 			id: "77F6C51EB12B6075"
-			rewards: [{
-				count: 4
-				id: "1B20BF3247BEF8D8"
-				item: "create:water_wheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1B20BF3247BEF8D8"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "4565F63F50C9C763"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Water Power!"
 			tasks: [{
 				id: "1A2EAE545FBBB1CA"
@@ -229,11 +281,18 @@
 			dependencies: ["77F6C51EB12B6075"]
 			description: ["Large water wheels are just like normal water wheels, but they are larger and produce more stress, but rotate more slowly."]
 			id: "159659B4B2855DCB"
-			rewards: [{
-				id: "12CC401DB224D2DB"
-				item: "create:large_water_wheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "12CC401DB224D2DB"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "035D7541FAD399F3"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Water Power... Again"
 			tasks: [{
 				id: "2626A3C261BB9FE0"
@@ -247,12 +306,19 @@
 		{
 			dependencies: ["0978BA99255B5D65"]
 			id: "7E0A66ADA42FE307"
-			rewards: [{
-				count: 32
-				id: "6EEE63BEA3AC2AD0"
-				item: "create:white_sail"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "6EEE63BEA3AC2AD0"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "314F2D05A6DA9978"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "You Spin Me Right Round Baby"
 			tasks: [{
 				count: 32L
@@ -269,12 +335,19 @@
 			description: ["To produce Iron Plates, throw Iron Ingots or place Iron Ingots on a depot under a mechanical press and supply it with Rotational Force."]
 			icon: "create:iron_sheet"
 			id: "689AB7CC0541BC51"
-			rewards: [{
-				count: 2
-				id: "77C8F58DF74B8F40"
-				item: "create_compressed:iron_sheet_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "77C8F58DF74B8F40"
+					item: "create_compressed:iron_sheet_block"
+					type: "item"
+				}
+				{
+					id: "7E6C2926DAF76B90"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "Basic Material Processing"
@@ -313,6 +386,11 @@
 					item: "create:andesite_alloy"
 					type: "item"
 				}
+				{
+					id: "4CFA51EF40677448"
+					type: "xp"
+					xp: 10
+				}
 			]
 			subtitle: "Basic Grinding"
 			tasks: [{
@@ -345,6 +423,11 @@
 					id: "523F8E79D1B8B717"
 					item: "create:andesite_alloy_block"
 					type: "item"
+				}
+				{
+					id: "6E06EC2C65C97E3A"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Basic Block Breaking"
@@ -398,6 +481,11 @@
 					item: "create_compressed:large_cogwheel_block"
 					type: "item"
 				}
+				{
+					id: "7EEC86D6C8A758C6"
+					type: "xp"
+					xp: 50
+				}
 			]
 			shape: "diamond"
 			size: 1.25d
@@ -430,6 +518,19 @@
 				"See the ponder menu for more information!"
 			]
 			id: "162904A6F261A438"
+			rewards: [
+				{
+					count: 32
+					id: "4ED9D154C68D63BC"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "4351D316B6BF39B8"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Tree Farms!"
 			tasks: [{
 				id: "1040D5AC21B7102B"
@@ -483,6 +584,11 @@
 					item: "minecraft:campfire"
 					type: "item"
 				}
+				{
+					id: "673AFB13D49C3379"
+					type: "xp"
+					xp: 25
+				}
 			]
 			subtitle: "Bulk Cooking"
 			tasks: [{
@@ -496,12 +602,20 @@
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
+			description: ["                Whoooooooosh"]
 			id: "0A80CAA47C75F28D"
-			rewards: [{
-				id: "13E87EC29AD2325E"
-				item: "create:propeller"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "13E87EC29AD2325E"
+					item: "create:propeller"
+					type: "item"
+				}
+				{
+					id: "6B6F4B78D4C060A3"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "I'm a Fan"
 			tasks: [{
 				id: "0CF0CBB4628034D8"
@@ -514,12 +628,20 @@
 		}
 		{
 			dependencies: ["689AB7CC0541BC51"]
+			description: ["Used to make Mechanical Mixers! "]
 			id: "355B6F03D9BC90EB"
-			rewards: [{
-				id: "3E937E5A8698FBCB"
-				item: "create_compressed:iron_sheet_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3E937E5A8698FBCB"
+					item: "create_compressed:iron_sheet_block"
+					type: "item"
+				}
+				{
+					id: "5FFA055449B30B4D"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Mix it UP"
 			tasks: [{
 				id: "0F02894D3810AFC4"
@@ -533,11 +655,18 @@
 			dependencies: ["7A9D080E21CD57F2"]
 			description: ["Using the Mechanical Mixer, you can now mix one Iron Nugget and one Andesite into an Andesite Alloy, enabling much more Alloy for input! Since you are going to need more and more Alloy going forward, it is a very good idea to get a lot now."]
 			id: "063AA39DFE335679"
-			rewards: [{
-				id: "6B99943DCDA7E072"
-				item: "createcompression:compressed_andesite_alloy_2x"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6B99943DCDA7E072"
+					item: "createcompression:compressed_andesite_alloy_2x"
+					type: "item"
+				}
+				{
+					id: "5D973BDD26EFC2D1"
+					type: "xp"
+					xp: 50
+				}
+			]
 			subtitle: "Mixing it up!"
 			tasks: [{
 				count: 64L
@@ -553,12 +682,19 @@
 			dependencies: ["689AB7CC0541BC51"]
 			description: ["On a contraption, Ploughs can automatically pick up blocks like snow layers, rails, and torches that Mechanical Drills will ignore. See the Ponder Menu for more information."]
 			id: "654DC97ABFA2258C"
-			rewards: [{
-				count: 8
-				id: "229BCF843083EC7F"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "229BCF843083EC7F"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "3C085A59252821B8"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Farming Time"
 			tasks: [{
 				id: "2B7A2B340626D90D"
@@ -586,6 +722,11 @@
 					item: "create:andesite_alloy_block"
 					type: "item"
 				}
+				{
+					id: "15C8D27C0677D0A8"
+					type: "xp"
+					xp: 10
+				}
 			]
 			subtitle: "Crop Farming"
 			tasks: [{
@@ -598,7 +739,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["689AB7CC0541BC51"]
+			dependencies: ["3F3994EDD215FC99"]
 			description: [
 				"[\"\",{\"text\":\"Mysterious Conversion is Create's way of obfuscating some in-world interaction recipes, and how you get a blaze burner. \"},{\"text\":\"After getting to the Nether\",\"clickEvent\":{ \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" }, \"color\": \"blue\", \"underlined\": \"true\"},{\"text\":\" and finding a Nether Fortress, using an Empty Blaze Burner on a Blaze Spawner will give you your Blaze Burner.\\\"\"}]"
 				""
@@ -614,12 +755,19 @@
 			hide_dependency_lines: true
 			icon: "create:blaze_burner"
 			id: "52994525D9DF88FA"
-			rewards: [{
-				count: 4
-				id: "39D2F47DA8687129"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "39D2F47DA8687129"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "2EA19249374F785D"
+					type: "xp"
+					xp: 50
+				}
+			]
 			subtitle: "There's more coming..."
 			tasks: [
 				{
@@ -639,7 +787,7 @@
 				}
 			]
 			title: "Stress Progression: Mysterious Conversion, Pt. 1"
-			x: 1.0d
+			x: 1.5d
 			y: 8.5d
 		}
 		{
@@ -649,11 +797,18 @@
 			]
 			description: ["Brass! Your first foray into Heated Mixing. After getting your Blaze Burner, you can place it under your basin. When provided with fuel, that Blaze Burner will heat the basin, allowing you to craft recipes that require that heat, like the Brass required here."]
 			id: "17BABE8F2B2BD008"
-			rewards: [{
-				id: "2BCFDB9558006FBA"
-				item: "createcompression:compressed_brass_1x"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2BCFDB9558006FBA"
+					item: "createcompression:compressed_brass_1x"
+					type: "item"
+				}
+				{
+					id: "3FA261195F54FC03"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "Brass! How brash!"
@@ -687,6 +842,11 @@
 					item: "create_compressed:large_cogwheel_block"
 					type: "item"
 				}
+				{
+					id: "41D8D340256EACB0"
+					type: "xp"
+					xp: 10
+				}
 			]
 			subtitle: "How stressed is your network?"
 			tasks: [
@@ -709,11 +869,18 @@
 			dependencies: ["17BABE8F2B2BD008"]
 			description: ["Brass Casings are the basis of the highest tier Vanilla Create machines."]
 			id: "1ED1CE0829BE04A5"
-			rewards: [{
-				id: "17E01FCD646B121D"
-				item: "createcompression:compressed_brass_1x"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "17E01FCD646B121D"
+					item: "createcompression:compressed_brass_1x"
+					type: "item"
+				}
+				{
+					id: "550F66A30AB2168F"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Like Andesite, but better"
 			tasks: [{
 				id: "684F85FA2202CA06"
@@ -745,6 +912,11 @@
 					id: "5DA854CD9ECE6674"
 					item: "minecraft:slime_ball"
 					type: "item"
+				}
+				{
+					id: "6208E1094E58F6F0"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "Let's Get Moving"
@@ -782,6 +954,11 @@
 					item: "create:piston_extension_pole"
 					type: "item"
 				}
+				{
+					id: "10D99DB97FC09ADC"
+					type: "xp"
+					xp: 25
+				}
 			]
 			subtitle: "Pushing and pulling"
 			tasks: [
@@ -801,13 +978,22 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			hide_dependency_lines: true
 			id: "5E955070872C95FC"
-			rewards: [{
-				count: 32
-				id: "5BD831BEEC9D6CB8"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 32
+					id: "5BD831BEEC9D6CB8"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "006F228C8607C98F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Foundations of Fluid"
 			tasks: [{
 				id: "1DC88706C902F903"
@@ -822,12 +1008,19 @@
 			dependencies: ["71D00FF2BEBD3FEA"]
 			description: ["Copper and Copper Sheets allow you to craft components like Fluid Tanks, Pipes, and Spouts."]
 			id: "591E0AAB1FE58D9E"
-			rewards: [{
-				count: 8
-				id: "2814E1832C31B6E8"
-				item: "create_dd:bronze_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "6ACED2BECCE8F143"
+					item: "create:copper_sheet"
+					type: "item"
+				}
+				{
+					id: "69AFB3A470450FCE"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Pressure Makes Progress"
 			tasks: [{
 				id: "5D705E4818171870"
@@ -842,12 +1035,19 @@
 			dependencies: ["591E0AAB1FE58D9E"]
 			description: ["Fluid Pipes allow for the transportation of fluids when pressurized through Mechanical Pumps. Right Click with the Wrench to make them clear. See the Ponder Menu for more information."]
 			id: "1CE141F1163EC938"
-			rewards: [{
-				count: 16
-				id: "25CD6ED48E0E4151"
-				item: "create:fluid_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "25CD6ED48E0E4151"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4A745DDE55A45CC4"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Basic Fluid Transportation"
 			tasks: [{
 				count: 8L
@@ -863,12 +1063,19 @@
 			dependencies: ["5E955070872C95FC"]
 			description: ["These serve as the base for many fluid machines."]
 			id: "7CEA168D6E09EFEE"
-			rewards: [{
-				count: 8
-				id: "1E3C41B465134225"
-				item: "create:copper_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1E3C41B465134225"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "329FC676FA848DAD"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Fluid Machines"
 			tasks: [{
 				id: "4DD35F63DBDDE1AB"
@@ -883,12 +1090,20 @@
 			dependencies: ["7CEA168D6E09EFEE"]
 			description: ["Spouts are the block Create uses to fill buckets and other items with fluid. Like Create's other fluid blocks, you cannot directly fill a Spout's internal fluid buffer, instead requiring fluid to be pumped in. See the ponder menu for more information!"]
 			id: "40419BA3D8AE8C66"
-			rewards: [{
-				count: 4
-				id: "05B6A0A239CCE1A4"
-				item: "create:copper_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "05B6A0A239CCE1A4"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "633F1DA36229C7B7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sploosh"
 			tasks: [{
 				id: "30CDEF4215D94BA3"
 				item: "create:spout"
@@ -900,7 +1115,7 @@
 		{
 			dependencies: [
 				"2D02B7B7507AF99D"
-				"66E9DB5E9D5CD5EC"
+				"6AE92109DA4B2A76"
 			]
 			description: [
 				"Andesite funnels allow for simple extraction from and insertion into attached inventories, while andesite tunnels allow for splitting item stacks on belts and preventing any unwanted items from getting in the mix of your all-important factory outputs. "
@@ -909,12 +1124,19 @@
 			]
 			icon: "create:andesite_funnel"
 			id: "6A90B1DCEF49DA70"
-			rewards: [{
-				count: 4
-				id: "08BCC5633F894E91"
-				item: "create:andesite_alloy_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "08BCC5633F894E91"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+				{
+					id: "01F0DCA6C19D89BE"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Basic Funneling"
 			tasks: [
 				{
@@ -936,12 +1158,19 @@
 			dependencies: ["2D02B7B7507AF99D"]
 			description: ["Belts allow you to move items and transmit stress horizontally for long distances. They also maintain the direction of rotation on any components attached to the belt, and they do not use any stress."]
 			id: "2090AE942CFAEBE9"
-			rewards: [{
-				count: 2
-				id: "290099F285335C5F"
-				item: "create_compressed:belt_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "290099F285335C5F"
+					item: "create_compressed:belt_block"
+					type: "item"
+				}
+				{
+					id: "57ADAE592162B258"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Basically a Treadmill"
 			tasks: [{
 				id: "6C93DC3282DD3447"
@@ -955,12 +1184,19 @@
 			description: ["Kelp, particularly Dried Kelp, is the foundation of Create's item transportation and sorting utility."]
 			icon: "minecraft:dried_kelp"
 			id: "2D02B7B7507AF99D"
-			rewards: [{
-				count: 8
-				id: "07C017402624B5E1"
-				item: "minecraft:dried_kelp_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "07C017402624B5E1"
+					item: "minecraft:dried_kelp_block"
+					type: "item"
+				}
+				{
+					id: "3CFDDBC04BD73EAD"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Belt Beginnings"
 			tasks: [
 				{
@@ -997,7 +1233,13 @@
 					item: "minecraft:copper_block"
 					type: "item"
 				}
+				{
+					id: "725B62E3FC25DA62"
+					type: "xp"
+					xp: 20
+				}
 			]
+			subtitle: "Use Me Wisely!"
 			tasks: [{
 				id: "0D6D36D4C15D5286"
 				item: "create:hose_pulley"
@@ -1023,7 +1265,13 @@
 					item: "create:fluid_pipe"
 					type: "item"
 				}
+				{
+					id: "1DF8252AED5D48C9"
+					type: "xp"
+					xp: 20
+				}
 			]
+			subtitle: "I Drain Things"
 			tasks: [{
 				id: "7ABAA0BB27E4F67F"
 				item: "create:item_drain"
@@ -1054,6 +1302,11 @@
 					item: "create:fluid_pipe"
 					type: "item"
 				}
+				{
+					id: "38FD07156D361934"
+					type: "xp"
+					xp: 10
+				}
 			]
 			subtitle: "Water Pressure"
 			tasks: [{
@@ -1070,11 +1323,18 @@
 			description: ["Fluid Valves allow you to restrict the flow of fluids through pipes, useful for toggling the flow of a fluid to a machine. They can also act like Cranks, providing 256 SU when used."]
 			icon: "create:copper_valve_handle"
 			id: "384F8AD4B5DF3DE9"
-			rewards: [{
-				id: "08CFB4B26A6F8E7B"
-				item: "minecraft:copper_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "08CFB4B26A6F8E7B"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "22EEA20BB1D683F9"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "The Spice (may not) flow!"
 			tasks: [
 				{
@@ -1160,6 +1420,20 @@
 			]
 			icon: "create:brass_funnel"
 			id: "67ED61C8B76E1F7F"
+			rewards: [
+				{
+					count: 16
+					id: "2ACB984676D69E97"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "420803A733A98B6E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Logistical Improvements"
 			tasks: [
 				{
 					id: "0B506EF68E142B6F"
@@ -1201,6 +1475,11 @@
 					item: "create:brass_casing"
 					type: "item"
 				}
+				{
+					id: "01A33357F12399AE"
+					type: "xp"
+					xp: 50
+				}
 			]
 			shape: "diamond"
 			size: 1.25d
@@ -1217,12 +1496,19 @@
 			dependencies: ["4AEB10D458279F94"]
 			description: ["Deployers allow you to mechanically manipulate the world in the way that you, the player, does! From killing mobs to using items, they can do it all. Use an item on the filter slot to set an item filter, and use an item stack on the hand to give the deployer that stack. Right click the hand with a wrench to toggle using and hitting. You can also supply the deployer with items just like any other inventory. Check the ponder for more information!"]
 			id: "12F1FC3A500AF584"
-			rewards: [{
-				count: 4
-				id: "6C69B37C525AA19C"
-				item: "create:deployer"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6C69B37C525AA19C"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "5A15CA7A38A8D4FA"
+					type: "xp"
+					xp: 50
+				}
+			]
 			subtitle: "Mechanical Hands"
 			tasks: [{
 				id: "0C07B7A0882517D0"
@@ -1237,12 +1523,19 @@
 			dependencies: ["4AEB10D458279F94"]
 			description: ["Placing two crushing wheels one block apart and supplying them with opposite rotation directions will form a powerful pair of wheels able to crush almost anything that comes between them — including you! See the ponder for more information."]
 			id: "33C7B0F119511D14"
-			rewards: [{
-				count: 2
-				id: "15985A80CDBD91EB"
-				item: "create:crushing_wheel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "15985A80CDBD91EB"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					id: "11A402B476A9983D"
+					type: "xp"
+					xp: 25
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "04CB3FF6145B18E3"
@@ -1269,6 +1562,11 @@
 					id: "757AF7D3F419FFC3"
 					item: "create:track"
 					type: "item"
+				}
+				{
+					id: "332F6398FABC5E3F"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1297,6 +1595,11 @@
 					item: "create:mechanical_pump"
 					type: "item"
 				}
+				{
+					id: "2C586A128B3721DB"
+					type: "xp"
+					xp: 20
+				}
 			]
 			subtitle: "Fluid Filtering"
 			tasks: [{
@@ -1311,12 +1614,20 @@
 		{
 			dependencies: ["1ED1CE0829BE04A5"]
 			id: "604DA8E5587FFA3A"
-			rewards: [{
-				count: 4
-				id: "6DAE503C646754AB"
-				item: "create:brass_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6DAE503C646754AB"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "11B34F131E2F23AE"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Classy"
 			tasks: [{
 				id: "65B0ACC5D060ACD2"
 				item: "create:brass_door"
@@ -1349,6 +1660,11 @@
 					id: "7C805549ED18DE06"
 					item: "create_compressed:shaft_bundle"
 					type: "item"
+				}
+				{
+					id: "2DBA537DB25BD350"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [
@@ -1396,6 +1712,11 @@
 					id: "7D005C9DB8065CD2"
 					item: "create:andesite_casing"
 					type: "item"
+				}
+				{
+					id: "30C1EDB748E79705"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [
@@ -1457,6 +1778,11 @@
 					item: "minecraft:repeater"
 					type: "item"
 				}
+				{
+					id: "373F1F97CD5AE09F"
+					type: "xp"
+					xp: 25
+				}
 			]
 			tasks: [
 				{
@@ -1500,6 +1826,11 @@
 					id: "4F4C8EC0BE1C90EE"
 					item: "minecraft:redstone_block"
 					type: "item"
+				}
+				{
+					id: "772935FCFFCE1E00"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [
@@ -1553,6 +1884,11 @@
 					item: "create:brass_casing"
 					type: "item"
 				}
+				{
+					id: "42965F4F549B6CBF"
+					type: "xp"
+					xp: 25
+				}
 			]
 			shape: "diamond"
 			size: 1.25d
@@ -1577,12 +1913,19 @@
 		{
 			dependencies: ["4BD39CC8E17CA1A9"]
 			id: "1B73DE39098D6A97"
-			rewards: [{
-				count: 8
-				id: "7DBF3130697A84B0"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7DBF3130697A84B0"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "0195A529A2B5F326"
+					type: "xp"
+					xp: 5
+				}
+			]
 			subtitle: "Decoration has a place here"
 			tasks: [{
 				id: "5129BC3212DA16D5"
@@ -1599,11 +1942,18 @@
 			hide_dependency_lines: true
 			icon: "create:precision_mechanism"
 			id: "477EF84B4DD97BF9"
-			rewards: [{
-				id: "186634156AABACEE"
-				item: "create_compressed:mechanism_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "186634156AABACEE"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "2144CEB5A42EBABB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			subtitle: "See Diagram Above"
 			tasks: [
 				{
@@ -1645,12 +1995,20 @@
 			description: ["Sturdy Sheets are made by spouting lava and pressing powdered obsidian. They open up the train age!"]
 			hide_dependency_lines: true
 			id: "24679CC3DFE86054"
-			rewards: [{
-				count: 8
-				id: "1B523A787C43F79B"
-				item: "create:sturdy_sheet"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1B523A787C43F79B"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "05F24899BAEF5350"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Pressure Makes Power"
 			tasks: [{
 				id: "4F70A633117CA1C6"
 				item: "create:sturdy_sheet"
@@ -1663,12 +2021,19 @@
 			dependencies: ["24679CC3DFE86054"]
 			description: ["Trains! The Final Frontier of Vanilla Create! To start making a train, place a Train Casing on a rail near a Train Station."]
 			id: "1BBD2EE82A1AF187"
-			rewards: [{
-				count: 8
-				id: "718A2C73CA12118F"
-				item: "create:railway_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "718A2C73CA12118F"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "11F9C7823771B6E4"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "I like &otrains&r"
 			tasks: [{
 				id: "2D18F231342AD58C"
@@ -1683,12 +2048,19 @@
 			description: ["Use the Train Controls on an assembled train to get your train going! Have fun out there! Check the ponder for more information."]
 			icon: "create:controls"
 			id: "339B705BCCB6F736"
-			rewards: [{
-				count: 128
-				id: "04B52DFE17C8C589"
-				item: "create:track"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 128
+					id: "04B52DFE17C8C589"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "4CC7A1FFC77B15DC"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Run your Trains!"
 			tasks: [{
 				id: "5EAB27263950798D"
@@ -1711,12 +2083,19 @@
 				"Like any other contraption, you link the blocks together using super glue or slime. Check the ponder for more information!"
 			]
 			id: "7252AC35321A4F70"
-			rewards: [{
-				count: 64
-				id: "46205E88713404F7"
-				item: "create:track"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "46205E88713404F7"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "271E3789C00FABF6"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "32BA699FEAFF7F8F"
 				item: "create:track_station"
@@ -1730,12 +2109,20 @@
 			dependencies: ["477EF84B4DD97BF9"]
 			description: ["Mechanical Arms are not, in fact, an upgrade for deployers. Instead, they are mostly for item transportation. To set them up, right click on one of their targets (listed in the \"Mechanical Arm Targets\" ponder page) and place them in a couple blocks away. Once you supply them with input items and stress, they will get to work doing your bidding. See the ponder menu for more information!"]
 			id: "11B08625A7B35BFE"
-			rewards: [{
-				count: 8
-				id: "29E8494282E3C9F6"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "29E8494282E3C9F6"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "29F2584B6C33D302"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Robotic Help"
 			tasks: [{
 				id: "2E1DE7889CDC8B11"
 				item: "create:mechanical_arm"
@@ -1748,12 +2135,19 @@
 			dependencies: ["477EF84B4DD97BF9"]
 			description: ["Rotational Speed Controllers allow you to control the speed of your network with never before seen precision! Scroll over their filter slot or hold use on their filter slot to adjust their speed. Check the ponder for more information."]
 			id: "3B291AFCCF6200D1"
-			rewards: [{
-				count: 8
-				id: "414081C43CCE9D40"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "414081C43CCE9D40"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "11031E31BC3048BE"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				id: "6930D42CF4660282"
 				item: "create:rotation_speed_controller"
@@ -1767,12 +2161,20 @@
 			dependencies: ["24679CC3DFE86054"]
 			description: ["Train tracks, as mildly annoying as they are to make, are surprisingly easy and entertaining to place along large distances. Simply right click an origin rail, and Create will tell you where you can and can't continue your rail! See the ponder for more information."]
 			id: "3A3555D47FCD8B3B"
-			rewards: [{
-				count: 128
-				id: "4A2411A3EBA4176B"
-				item: "create:track"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 128
+					id: "4A2411A3EBA4176B"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "22F756060387C390"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Choo Choo!"
 			tasks: [{
 				id: "5BE952D806457DCE"
 				item: "create:track"
@@ -1800,6 +2202,11 @@
 					item: "minecraft:parrot_spawn_egg"
 					title: "A Conductor"
 					type: "item"
+				}
+				{
+					id: "2253BFCF62B25772"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [
@@ -1832,12 +2239,20 @@
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
 			id: "4F0504E67CEC97E5"
-			rewards: [{
-				count: 8
-				id: "4EB8B12EB3EA425D"
-				item: "create:copper_casing"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "4EB8B12EB3EA425D"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "3EB423049DD88CD5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Stylish"
 			tasks: [{
 				id: "19AC52B896009009"
 				item: "create:copper_door"
@@ -1850,12 +2265,20 @@
 			dependencies: ["5E955070872C95FC"]
 			description: ["The Copper Backtank allows you to breath underwater when charged up with kinetics(Crouch + Use to place) and you are wearing a Diving Helmet."]
 			id: "278D50869BCDD4C6"
-			rewards: [{
-				count: 8
-				id: "1A5CD8B031FCB39C"
-				item: "minecraft:copper_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "1A5CD8B031FCB39C"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "59125D4FAB06BC95"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Deep Sea Diving"
 			tasks: [{
 				id: "7C05F30F5D908BC1"
 				item: {
@@ -1873,7 +2296,20 @@
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
+			description: ["Used to make many things! But first, use them to make a Wrench!"]
 			id: "65689AF3CE427A0D"
+			rewards: [
+				{
+					id: "334D16CD7EC9563B"
+					item: "create_compressed:gold_sheet_block"
+					type: "item"
+				}
+				{
+					id: "24AEE359D96DD25E"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Pressed Perfection"
 			tasks: [{
 				id: "0894A19FE96F0CBE"
@@ -1887,12 +2323,19 @@
 			dependencies: ["689AB7CC0541BC51"]
 			description: ["Chutes function as an upgrade to hoppers, able to transfer items faster and in higher quantities while causing less lag. However, they cannot transfer items horizontally and will drop items as item entities if there is no container below them. See their ponder entry for more information."]
 			id: "2199CA39A845A583"
-			rewards: [{
-				count: 16
-				id: "6858BD2E7D1E96A5"
-				item: "create:chute"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "6858BD2E7D1E96A5"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					id: "6D7F6E0F86BA3F6A"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Chute!"
 			tasks: [{
 				count: 4L
@@ -1925,12 +2368,19 @@
 				"They also allow you to see the amount of fluid in your tank as well as its remaining capacity."
 			]
 			id: "5DA6EB383B731634"
-			rewards: [{
-				count: 4
-				id: "6FF282710EF1CBFD"
-				item: "create_compressed:gold_sheet_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6FF282710EF1CBFD"
+					item: "create_compressed:gold_sheet_block"
+					type: "item"
+				}
+				{
+					id: "18D9921DC80078DD"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "The Engineer's Kit"
 			tasks: [
 				{
@@ -1965,7 +2415,13 @@
 					item: "create:electron_tube"
 					type: "item"
 				}
+				{
+					id: "60E25B8AF2B4BED9"
+					type: "xp"
+					xp: 10
+				}
 			]
+			subtitle: "Screens and Tubes"
 			tasks: [
 				{
 					id: "35C0F880DE35AA12"
@@ -2004,7 +2460,13 @@
 					item: "create:copper_casing"
 					type: "item"
 				}
+				{
+					id: "2EF6114134A58899"
+					type: "xp"
+					xp: 10
+				}
 			]
+			subtitle: "Maximum Flow"
 			tasks: [{
 				id: "60EDD9508DF0CC89"
 				item: "create:portable_fluid_interface"
@@ -2030,12 +2492,19 @@
 				"{\"text\":\"Boilers on the Create Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://create.fandom.com/wiki/Steam_Engine\"}}"
 			]
 			id: "77307907B8215388"
-			rewards: [{
-				count: 8
-				id: "7D843070A9A5D1BC"
-				item: "minecraft:copper_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "7D843070A9A5D1BC"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "0FFD5E4012C5E1F9"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Boiler Time"
 			tasks: [{
 				id: "7B797DD770D5F6C1"
@@ -2067,6 +2536,11 @@
 					item: "create:blaze_burner"
 					type: "item"
 				}
+				{
+					id: "75BD5DC9B242C490"
+					type: "xp"
+					xp: 25
+				}
 			]
 			tasks: [{
 				id: "0B7B1FB7C1229A63"
@@ -2081,12 +2555,19 @@
 			dependencies: ["689AB7CC0541BC51"]
 			description: ["Item vaults are very similar to chests, but instead of storing stacks, they store a set amount of items. Unfortunately, they do not have a GUI making them best suited for factory applications such as contraptions."]
 			id: "0D4BB30447AEFC1B"
-			rewards: [{
-				count: 16
-				id: "3129F430B796EC18"
-				item: "create:item_vault"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "3129F430B796EC18"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "79860468B4C24D1F"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Storage!"
 			tasks: [{
 				id: "4298098E978EEC7D"
@@ -2112,6 +2593,11 @@
 					id: "2BBB9A6E22BE2B67"
 					item: "create:andesite_alloy"
 					type: "item"
+				}
+				{
+					id: "50E65F869B3C2F35"
+					type: "xp"
+					xp: 10
 				}
 			]
 			subtitle: "The Processing Platform!"
@@ -2263,6 +2749,11 @@
 					item: "minecraft:chain"
 					type: "item"
 				}
+				{
+					id: "08866857810DBA91"
+					type: "xp"
+					xp: 20
+				}
 			]
 			subtitle: "I Eat Packages"
 			tasks: [{
@@ -2351,14 +2842,21 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["66E9DB5E9D5CD5EC"]
+			dependencies: ["6AE92109DA4B2A76"]
 			description: ["The item hatch allows for easy emptying of your inventory into any chest, vault, or other inventory!"]
 			id: "4A7401194C9BFCB4"
-			rewards: [{
-				id: "55797ECA5A7CE493"
-				item: "create:andesite_alloy_block"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "55797ECA5A7CE493"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+				{
+					id: "731426903DEA5A75"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Easy Emptying"
 			tasks: [{
 				id: "13D9A0BB26D0C4B1"
@@ -2413,12 +2911,19 @@
 			]
 			icon: "create:white_postbox"
 			id: "7401248CBCA27C28"
-			rewards: [{
-				count: 16
-				id: "594907DADE00149C"
-				item: "create:track"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "594907DADE00149C"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "345BE0136D73CD1B"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "You've Got Mail!"
 			tasks: [{
 				id: "00EA9D1A40122D1B"
@@ -2437,7 +2942,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["66E9DB5E9D5CD5EC"]
+			dependencies: ["6AE92109DA4B2A76"]
 			description: [
 				""
 				"Bring commerce to your factory floor! The Table Cloth lets you sell items to other players (or yourself!) using the Stock Keeper interface. Think of it as a vending machine, dressed up."
@@ -2535,12 +3040,19 @@
 				"📘 Ponder Tip: Ponder the Chain Conveyor for a clear demo of package sorting, chaining distance, and Frogport interaction."
 			]
 			id: "63EA3061E9587925"
-			rewards: [{
-				count: 64
-				id: "5133468362E36F2B"
-				item: "minecraft:chain"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 64
+					id: "5133468362E36F2B"
+					item: "minecraft:chain"
+					type: "item"
+				}
+				{
+					id: "6403AA52289C1DF6"
+					type: "xp"
+					xp: 20
+				}
+			]
 			subtitle: "Advanced Package Transportation"
 			tasks: [{
 				count: 2L
@@ -2562,12 +3074,19 @@
 				"Attach a Stock Link to a Packager, and it will automatically expose that inventory to the network. Any Ticker, Requester, or Keeper on the same network can now access that inventory — no mechanical belts, funnels, or tunnels required."
 			]
 			id: "2EDAEA1566841D97"
-			rewards: [{
-				count: 3
-				id: "3C9FF307AEEEC2E2"
-				item: "create:stock_link"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3C9FF307AEEEC2E2"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "17E8D04B2D65CB52"
+					type: "xp"
+					xp: 10
+				}
+			]
 			subtitle: "Keeping Stock"
 			tasks: [{
 				id: "00FC62D495672471"
@@ -2599,12 +3118,19 @@
 				"With the Ticker at the center of your factory floor, you can trigger crafting, send alerts, control machines, or even set up a fully automated shop."
 			]
 			id: "3C7A3E5D5E7D9110"
-			rewards: [{
-				count: 4
-				id: "4DF30B1E5029245F"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4DF30B1E5029245F"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "58980F5A1138CDC8"
+					type: "xp"
+					xp: 25
+				}
+			]
 			subtitle: "Use me with your favorite mob!"
 			tasks: [{
 				id: "7180E8D36807740D"
@@ -2693,6 +3219,43 @@
 			}]
 			x: 5.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["66E9DB5E9D5CD5EC"]
+			description: [
+				"The Biome Compass is an item that allows you to search for different biomes!"
+				""
+				"Even though it is not a part of Create itself, the Biome Compass is still useful for applications in Create."
+				""
+				"You may find yourself wondering, \"Where is the ANDESITE?!\" And the Biome Compass is the answer. Simply craft it, search for \"Andesite Caves,\" and mine to your heart's content."
+			]
+			id: "6AE92109DA4B2A76"
+			rewards: [
+				{
+					count: 8
+					id: "3F012C43CEAA634B"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "3D3192DE0562477E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "O where art thou fair Andesite Cave"
+			tasks: [{
+				id: "4ED3B53840EA348F"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Where to find Andesite? "
+			x: 0.0d
+			y: -5.5d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
