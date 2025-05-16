@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "dimentional_progression"
+	filename: "dimensional_progression"
 	group: ""
 	icon: "ad_astra:earth_globe"
 	id: "430DE687E9BB5176"
