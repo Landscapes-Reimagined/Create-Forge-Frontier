@@ -53,7 +53,39 @@ ServerEvents.recipes(event => {
             M: 'create_new_age:basic_motor',
             S: 'create:shaft'
 		}
-	).id( 'forge_frontier:shaped/advanced_motor' )    
+	).id( 'forge_frontier:shaped/advanced_motor' )
+    
+    // Basic Solar Heating Plate Recipe
+    event.remove ({ id: 'create_new_age:shaped/basic_solar_plate'})
+    	event.shaped(
+		Item.of('create_new_age:basic_solar_heating_plate'),
+		[
+			'GGG',
+			'ISI',
+			'III'
+		],
+		{
+			G: '#forge:glass',
+            I: 'create_new_age:overcharged_iron',
+            S: 'create_new_age:stirling_engine'
+		}
+	).id( 'forge_frontier:shaped/basic_solar_heating_plate' )
+    
+    // Advanced Solar Heating Plate Recipe
+    event.remove ({ id: 'create_new_age:shaped/advanced_solar_plate'})
+    	event.shaped(
+		Item.of('create_new_age:advanced_solar_heating_plate'),
+		[
+			'GGG',
+			'DSD',
+			'DDD'
+		],
+		{
+			G: '#forge:glass',
+            D: 'create_new_age:overcharged_diamond',
+            S: 'create_new_age:basic_solar_heating_plate'
+		}
+	).id( 'forge_frontier:shaped/advanced_solar_heating_plate' )   
 
     // Reinforced Motor Recipe
     event.remove ({ id: 'create_new_age:reinforced_motor'})
@@ -77,6 +109,28 @@ ServerEvents.recipes(event => {
         },
         acceptMirrored: false
         }).id('forge_frontier:mechanical_crafting/reinforced_motor');
+
+    // Strong Motor Extension
+        event.remove ({ id: 'create_new_age:advanced_motor_extension'})
+        event.custom({
+        type: "create:mechanical_crafting",
+        pattern: [
+            'SSSSS',
+            'DCMCD',
+            'SSSSS'
+        ],
+        key: {
+            S: Ingredient.of('create_new_age:overcharged_golden_sheet').toJson(),
+            D: Ingredient.of('create_new_age:overcharged_diamond').toJson(),
+            C: Ingredient.of('create_new_age:copper_circuit').toJson(),
+            M: Ingredient.of('create_new_age:advanced_motor').toJson()
+        },
+        result: {
+            item: 'create_new_age:advanced_motor_extension',
+            count: 2
+        },
+        acceptMirrored: false
+        }).id('forge_frontier:mechanical_crafting/advanced_motor_extension');
 
 
 });
