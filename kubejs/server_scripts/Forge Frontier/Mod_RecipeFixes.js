@@ -18,7 +18,6 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'iammusicplayer:manual'})
 
     // Removes Excess Recipes for Seed Oil
-    event.remove({ id: 'createaddition:compacting/seed_oil'})
     event.remove({ id: 'create_mechanical_chicken:compacting/compacting_seed_oil'})
 
     // Removes Fan Sanding Catalyst Recipes
