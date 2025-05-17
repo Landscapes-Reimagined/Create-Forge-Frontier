@@ -1,0 +1,42 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quark_delight"
+	group: "47881FC157552E6E"
+	icon: "quarkdelight:cavern_explorer_stew"
+	id: "0B64E3FAF4853A34"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/quark_delight_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 16
+	quest_links: [ ]
+	quests: [{
+		id: "3BD6D36470089C09"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "6166E7AC3B52BA3E"
+			item: "quarkdelight:cavern_explorer_stew"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Quark Delight"
+}

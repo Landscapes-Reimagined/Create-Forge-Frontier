@@ -1,0 +1,42 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dungeons_and_structures"
+	group: "4FAD6EACDA300DDE"
+	icon: "minecraft:compass"
+	id: "3DD28C0A059FAE3E"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/idas_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "4C3A778B5ECB1EE1"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "2B1649A9F024169B"
+			item: "minecraft:compass"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Integrated Dungeons and Structures"
+}

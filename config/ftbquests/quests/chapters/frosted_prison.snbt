@@ -1,0 +1,43 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "frosted_prison"
+	group: "658CB7FD6582B3E9"
+	icon: "cataclysm:cursed_tombstone"
+	id: "70B02CBBAFA47A35"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_prison_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: "cataclysm:cursed_tombstone"
+		id: "659C5018DD271450"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "58D898D7B3C1316F"
+			structure: "cataclysm:frosted_prison"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Frosted Prison"
+}

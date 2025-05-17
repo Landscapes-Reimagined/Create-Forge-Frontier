@@ -1,0 +1,1660 @@
+{
+	autofocus_id: "399D8D32A4F3FE3E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifacts"
+	group: "37A1080736831E36"
+	icon: "artifacts:mimic_spawn_egg"
+	id: "610BFEF0F735DD2C"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/artifacts_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Charm Slot Artifacts"]
+			image: "curios:slot/empty_charm_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Necklace Slot Artifacts"]
+			image: "curios:slot/empty_necklace_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Head Slot Artifacts"]
+			image: "curios:slot/empty_head_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Hand Slot Artifacts"]
+			image: "curios:slot/empty_hands_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Feet Slot Artifacts"]
+			image: "relics:slot/empty_feet_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Belt Slot Artifacts"]
+			image: "curios:slot/empty_belt_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/slot_large.png"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Item Artifacts"]
+			image: "curios:slot/empty_ring_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In the world of &lForge Frontier&r, hidden across the lands are powerful relics— &lArtifacts&r, each imbued with magical properties that enhance your abilities in unique ways. These rare items are scattered throughout dungeons, ruins, and secret vaults, waiting for an adventurer worthy enough to uncover them."
+				""
+				"From boots that let you walk on water to rings that grant you unparalleled speed, each artifact is a game-changer in your journey. Unlike ordinary gear, artifacts don't require armor slots and can be worn alongside your usual equipment, making them invaluable tools for any explorer."
+				"{@pagebreak}"
+				"Your quest? &lSeek out these legendary items&r, test their abilities, and harness their power to push the boundaries of what you thought possible. Will you stumble upon a fire-resistant pendant in a Nether fortress? Or perhaps a lucky scarf buried deep within a forgotten ruin?"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			hide_until_deps_visible: false
+			id: "3CE72BF099174999"
+			rewards: [
+				{
+					icon: "artifacts:mimic_spawn_egg"
+					id: "75BCE9FA7FF50E57"
+					table_id: 3902646239047479605L
+					type: "random"
+				}
+				{
+					id: "38EEF5625CE1E7D9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Unlocking Hidden Treasures: The Power of Artifacts, Click me to learn more!"
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "4A2E530015E86C2B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Artifacts"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Acts as a shield without durability, and slows your fall when held. Can be found in buried treasure chests, desert pyramids and village tanneries. Can be found through archaeology in desert wells."]
+			id: "551F7FBE16A5CDDF"
+			rewards: [
+				{
+					id: "2B02DC1C3DBF81F2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "32F8B47BCFEBC42C"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DE04B5052CB59F4"
+					item: "supplementaries:feather_block"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "106DDBA2BB51F18C"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["A food item that does not get consumed when you eat it, with a 15 second cooldown. Everlasting beef drops from cows killed by players with a 1/500 drop rate, not affected by Looting. Can rarely also be found in bastion stables and village butchers."]
+			id: "304AF5F8562E4A5C"
+			rewards: [
+				{
+					id: "2C4B4633D9F02EAE"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "79D037C0EADE6474"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "5A1A6F17B2A706D7"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [
+				{
+					id: "076BC2B2C007C355"
+					item: "artifacts:everlasting_beef"
+					type: "item"
+				}
+				{
+					id: "60146246EE772976"
+					item: "artifacts:eternal_steak"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Reduces the time it takes to drink drinkable items by 70%, and reduces the time it takes to eat items by 40%. Can be found in abandoned mineshafts, buried treasure chests and nether fortresses. Very rarely worn by naturally spawned skeletons. Can be found through archaeology in desert wells."]
+			id: "4AFB48769D3E1EB9"
+			rewards: [
+				{
+					id: "47D5592806A90701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7BEA03A0E0CAC01A"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "71D3B60E4E4824A1"
+					item: "createcompression:compressed_honey_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "07EAA6F92BEE9C37"
+				item: {
+					Count: 1
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34533d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 1.0313d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Gives the player a 15 second water breathing effect. Can be found in buried treasure chests, shipwrecks and large underwater ruins. Very rarely worn by naturally spawned drowned. Can be found through archaeology in desert pyramids."]
+			id: "0556FA9731E38AF1"
+			rewards: [
+				{
+					id: "423274DDF8E4E98D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "4CE85D5F1AF17888"
+					item: "minecraft:turtle_egg"
+					type: "item"
+				}
+				{
+					id: "18532B2F2F6F72F8"
+					item: "minecraft:dried_kelp_block"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "70AF155C793A167C"
+				item: {
+					Count: 1
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 8.63115d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Grants a small amount of night vision when worn. Can be found in abandoned mineshafts, shipwrecks and ruined portals. Very rarely worn by naturally spawned skeletons. Can be found through archaeology in desert pyramids."]
+			id: "084957F68D52D6A7"
+			rewards: [
+				{
+					id: "37BAA591A1E8F17C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6B25F3EDA267153D"
+					item: "createcompression:compressed_glowstone_1x"
+					type: "item"
+				}
+				{
+					id: "2900ABB4822EC554"
+					item: "quark:glowberry_sack"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "3C37758007BCA486"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Decreases trading prices with villagers. Can be found in villages and igloos. Can be found through archaeology in trail ruins."]
+			id: "2BC238F3FDD58DDB"
+			rewards: [
+				{
+					id: "5425EB94E23DF2BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "37EA5AA21283428E"
+					item: "createcompression:compressed_emerald_1x"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "78A13621CEA5AACA"
+					item: "create_confectionery:gingerbread"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "2DF676F5F25E72A7"
+				item: {
+					Count: 1
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 14.06291d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Applies an extra level of looting to killed entities. Can be found in pillager outposts, strongholds, large underwater ruins and abandoned mineshafts. Can be found through archaeology in desert wells."]
+			id: "7EEBEE5ADECCC5CB"
+			rewards: [
+				{
+					id: "376579A967C766E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7255350E9185923A"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0FC42E3C5E57876A"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "03BA7A46686F077A"
+				item: {
+					Count: 1
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.17021d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the speed of ridden mounts. Can be found in nether fortresses, bastion stables and ruined portals. Very rarely worn by naturally spawned zombies. Can be found through archaeology in desert pyramids."]
+			id: "516D480B3D1E4232"
+			rewards: [
+				{
+					id: "5930E5CAAB136301"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5D5C4AEF08A55FB3"
+					item: "createcompression:compressed_hay_1x"
+					type: "item"
+				}
+				{
+					id: "6ECC11F3D0BC27DD"
+					item: "alexsmobs:straddle_saddle"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "0EE686322DB74A90"
+				item: "artifacts:cowboy_hat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Applies an extra level of Lure and Luck of the Sea when fishing. Can be found in village tanneries, buried treasure chests, jungle temples and large underwater ruins. Can be found through archaeology in cold ocean ruins."]
+			id: "2AC644E3091C6EEB"
+			rewards: [
+				{
+					id: "7735EA25C3CCAAFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7FAF011A22A001F5"
+					item: {
+						Count: 1
+						id: "aquaculture:diamond_fishing_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:luck_of_the_sea"
+									lvl: 8s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A5B2013AE703735"
+					item: "cratedelight:cod_crate"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "6A4D323877D24DF1"
+				item: {
+					Count: 1
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.14439d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Applies an extra level of fortune to mined blocks. Can be found in treasure chests, ruined portals, strongholds, igloos and underwater ruins. Can be found through archaeology in cold ocean ruins."]
+			id: "651C17AD95CCA5BD"
+			rewards: [
+				{
+					id: "275209510DB68417"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A893C9590FB31D1"
+					item: "createcompression:compressed_lapis_1x"
+					type: "item"
+				}
+				{
+					id: "734BCC93231864BA"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "34F7865E6A414D11"
+				item: {
+					Count: 1
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.1172d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Turns the player invisible. Can be found in desert pyramids, pillager outposts, shipwrecks and village tanneries. Very rarely worn by naturally spawned zombies."]
+			id: "363154F272ECBCFD"
+			rewards: [
+				{
+					id: "6A5BAC37CB4FF6DF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "53737522396707B7"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "437D78B93CF662C0"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "23C29CA00F705EB4"
+				item: {
+					Count: 1
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									radius: 5.89417d
+									threshold: 0.07044d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the length of invincibility after taking damage. Can be found in bastion treasure chests, nether fortresses, pillager outposts and large underwater ruins."]
+			id: "07535567CA8B5C62"
+			rewards: [
+				{
+					id: "546CF3E467D98970"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "481107E621EAE74D"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "3B027BD811AA23C5"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "2CE64FF923888914"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Gives the player a short speed status effect after taking damage. Can be found in abandoned mineshafts, bastion treasure chests and pillager outposts."]
+			id: "72717A659397B964"
+			rewards: [
+				{
+					id: "2A7C8C57DBC50FF4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "32EF7784610FCC38"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "679477C50DD5F4BE"
+					item: "createcompression:compressed_redstone_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "2AEFE41D50A13ECC"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Has a chance to strike attacking entities with lightning. Can be found in desert pyramids and ancient cities. Can be found through archaeology in desert pyramids."]
+			id: "7DD3EB098362A2CC"
+			rewards: [
+				{
+					id: "7106395A7D1BB2F4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "342E0766170A01EC"
+					item: {
+						Count: 1
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51D2C74F9AFF1E5A"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "156CCD6D5249DCCE"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Has a chance to light attacking entities on fire. Can be found in desert pyramids and bastion stables. Very rarely worn by naturally spawned skeletons. Can be found through archaeology in trail ruins."]
+			id: "089B63519CD22E49"
+			rewards: [
+				{
+					id: "629B00E921EA48BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "4FB329560E951937"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "349EB65775592E57"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "06290B923F0B4F26"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Has a chance to damage attacking entities. Can be found in desert pyramids and ruined portals. Very rarely worn by naturally spawned husks. Can be found through archaeology in trail ruins."]
+			id: "2435737159CE92D3"
+			rewards: [
+				{
+					id: "5C9B601F2B60BB59"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "18099B98EDC0B542"
+					item: "supplementaries:bamboo_spikes"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "53A0E8932B319019"
+					item: "neapolitan:beanstalk_thorns"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "47BE53798147F320"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Allows the player to move freely in fluids. Can be found in desert pyramids, shipwrecks, ancient cities and village temples. Can be found through archaeology in desert wells."]
+			id: "23FECF2363C2523D"
+			rewards: [
+				{
+					id: "6CB83E5F0C6AF0AE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4496A449F2BD9D5B"
+					item: "quark:bonded_rabbit_hide"
+					type: "item"
+				}
+				{
+					id: "240A62002F9AF086"
+					item: {
+						Count: 1
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "714A8626EA1A6102"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Allows the player to double jump. Can be found in pillager outposts, large underwater ruins, end cities and abandoned mineshafts. Can be found through archaeology in trail ruins."]
+			id: "3BC08394D7BD5DE6"
+			rewards: [
+				{
+					id: "266B431CBC63D92F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "607A042E1ED34A02"
+					item: "supplementaries:feather_block"
+					type: "item"
+				}
+				{
+					id: "32D07C84FEB4BD33"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "54AB4A749A8E7348"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Applies a 30 second fire resistance effect to the player after taking fire damage, with a 60 second cooldown. Can be found in ruined portals, shipwrecks and abandoned mineshafts. Very rarely worn by naturally spawned piglins. Can be found through archaeology in desert pyramids."]
+			id: "1F62F933D3D69A35"
+			rewards: [
+				{
+					id: "3ECA652CA699590B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "12CE717533304A85"
+					item: "createcompression:compressed_obsidian_1x"
+					type: "item"
+				}
+				{
+					id: "0873582284FCC185"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "7DC73A063006B37D"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Greatly reduces the duration of negative status effects. Can be found in strongholds, bastion treasure chests and village temples. Very rarely worn by naturally spawned wither skeletons. Can be found through archaeology in cold ocean ruins."]
+			id: "10975C51192EBF6A"
+			rewards: [
+				{
+					id: "6E6F979802737642"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "69DFAD6AE80B28A4"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "5BAB2F8D454890A4"
+					item: "quark:golden_carrot_crate"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "27511EBE5E030C10"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Attracts nearby items. Can be found in desert pyramids, ruined portals and shipwrecks. Very rarely worn by naturally spawned piglins. Can be found through archaeology in desert wells."]
+			id: "7A2B21D760F85D2A"
+			rewards: [
+				{
+					id: "47D15A1FC31DEAFB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3FA2B23FE685E8E0"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					id: "0CF9602DC890101E"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "2A80C4627439AF58"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the player's maximum health with 5 hearts. Can be found in bastion treasure chests, end cities and pillager outposts."]
+			id: "236549855FD2818F"
+			rewards: [
+				{
+					id: "70F8B1A283941DD9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0040888079FF1250"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "4F3F1A8562229844"
+					item: "createcompression:compressed_redstone_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "31C6CFDE9B1E346C"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["A fatal hit teleports the player somewhere else, consuming the item. Can be found in end cities and woodland mansions."]
+			id: "0B2F5DB2E8CF0A32"
+			rewards: [
+				{
+					id: "7382F739F6575865"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "43879A4748025FBF"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "332E888021156B23"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "7C0A2DDB90E807FA"
+				item: "artifacts:chorus_totem"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the players mining speed, and increases the players base mining level to stone. Can be found in abandoned mineshafts, buried treasure chests and village toolsmiths. Can be found through archaeology in cold ocean ruins."]
+			id: "1F16C54999AD56A1"
+			rewards: [
+				{
+					id: "58A14AA11AB81905"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "696343FB84BAD5EE"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52600B5196A1555F"
+					item: "createcompression:compressed_diamond_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "11176A58AB256962"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the players attack speed. Can be found in shipwrecks, buried treasure chests and village weaponsmiths. Can be found through archaeology in trail ruins."]
+			id: "50F6CD93C229C356"
+			rewards: [
+				{
+					id: "05FCCAE85A9FDB5C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6310EAD10C433B87"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9EBC30ABB786AA"
+					item: "quark:bonded_rabbit_hide"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "666C73F2F5EF26EE"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["The player's attacks deal 4 additional damage. Can be found in pillager outposts, ruined portals, strongholds and large underwater ruins. Can be found through archaeology in desert pyramids."]
+			id: "28556125D00A894D"
+			rewards: [
+				{
+					id: "74B4C101E1A59B12"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5CE300C04A0CF9F3"
+					item: "createcompression:compressed_iron_1x"
+					type: "item"
+				}
+				{
+					id: "0B499E3B20005667"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "3E8D454F6216C844"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Causes the player's melee attacks to set entities on fire. Can be found in ruined portals, large underwater ruins and bastion treasure chests. Very rarely worn by naturally spawned wither skeletons. Can be found through archaeology in cold ocean ruins."]
+			id: "4C233BEEF78A4911"
+			rewards: [
+				{
+					id: "76F11CFAC432FA0C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "0874CF61CD832E14"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "4DD0EEE07DD096C4"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "47999C698048E249"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases knockback dealt by the player. Can be be found in pillager outposts, nether fortresses and village toolsmiths. Can be found through archaeology in trail ruins."]
+			id: "728434AC176C4EF4"
+			rewards: [
+				{
+					id: "1C3DBD9BF1BCD68F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "4E43455263480E72"
+					item: "minecraft:sticky_piston"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "73032AFCA0043513"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "4FE1D00912CFB146"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["The player is healed 20% of the damage dealt by melee attacks. Can be found in abandoned mineshafts, desert pyramids and village armorers. Very rarely worn by naturally spawned husks. Can be found through archaeology in warm ocean ruins."]
+			id: "39C4D7FA7620C375"
+			rewards: [
+				{
+					id: "3F9BA428392DAA10"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "637DC798DD22B1A2"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "30BA1A415051FCCA"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "5611F33C2E7344D6"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases experience dropped from creatures by 75%. Can be found in buried treasure chests, shipwrecks and bastion treasure chests. Very rarely worn by naturally spawned piglins."]
+			id: "4A2EB1CE90E85E58"
+			rewards: [
+				{
+					id: "193437DF6DE13713"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03A96F2EED1A5BA8"
+					item: "createcompression:compressed_gold_1x"
+					type: "item"
+				}
+				{
+					id: "07329231DA220FFD"
+					item: "createcompression:compressed_experience_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "7D1E45BBFD9DB33D"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Grants a temporary haste effect after eating food. Can be found in abandoned mineshafts, ancient cities and desert pyramids. Very rarely worn by naturally spawned piglin brutes. Can be found through archaeology in warm ocean ruins."]
+			id: "406D98F95463C7E0"
+			rewards: [
+				{
+					id: "6741D36C3A4CF0F5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "6D9E112563263B5A"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0DBC9A1013645553"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "miners_delight:long_haste"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "78D033966D85FA7D"
+				item: "artifacts:onion_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Automatically smelts mined ores. Can be found in abandoned mineshafts, bastion stables, strongholds and ancient cities. Can be found through archaeology in trail ruins."]
+			id: "10D0EC683BD0AEFA"
+			rewards: [
+				{
+					id: "739DB1298E40D8D6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0E2E4BE8282948B3"
+					item: "create_connected:fan_blasting_catalyst"
+					type: "item"
+				}
+				{
+					id: "60E455873F9259EB"
+					item: "minecraft:soul_campfire"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "522F7133BED2ADC8"
+				item: "artifacts:pickaxe_heater"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Allows the player to sprint on water and lava. Can be found in abandoned mineshafts, buried treasure chests, ancient cities and strongholds. Can be found through archaeology in warm ocean ruins and trail ruins."]
+			id: "5A6F33FA75FCEBF6"
+			rewards: [
+				{
+					id: "103574EEDF413D36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "7F89A28A4B888CBE"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73C2BD0F58C7CF00"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "5B06841E6182CA75"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the player's jump height and prevents fall damage. Can be found in jungle temples, buried treasure chests, bastion stables and village tanneries. Very rarely worn by naturally spawned zombies. Can be found through archaeology in warm ocean ruins."]
+			id: "6AB6F1516D6BEC66"
+			rewards: [
+				{
+					id: "70808F8F7C50D16F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4B3C05C5E7FF9FD1"
+					item: "quark:bonded_rabbit_hide"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A30CDA9063FB5A5"
+					item: "minecraft:rabbit_foot"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "6B7091A83489DB5F"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Creepers don't target and run away from the player. Can be found in jungle temples, buried treasure chests and village tanneries. Can be found through archaeology in desert pyramids."]
+			id: "1ED05F2E1E550B23"
+			rewards: [
+				{
+					id: "3677FC9EE9A90CFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2BA03A080D815E75"
+					item: "quark:gunpowder_sack"
+					type: "item"
+				}
+				{
+					id: "2F31B1E3C060074A"
+					item: "minecraft:creeper_head"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "1651C6EF70956E71"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the player's movement speed by 40%, and increases the players step height, both while sprinting. Can be found in shipwrecks, nether fortresses and village armorers. Can be found through archaeology in warm ocean ruins."]
+			id: "7FA44BFC7DC01A17"
+			rewards: [
+				{
+					id: "0D173C018B33D9F9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1FF9B61280D1231E"
+					item: "createcompression:compressed_redstone_1x"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5CF049D8D0923383"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "70751A3E59124CFF"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Allows the player to walk on powdered snow, and increases the player's movement speed on snow. Can be found in snowy and taiga villages, igloos and ancient cities. Very rarely worn by naturally spawned strays. Can be found through archaeology in trail ruins."]
+			id: "4AE89A74B46FDF1B"
+			rewards: [
+				{
+					id: "40974DB4DC0D0B70"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1EB4253DB6BEC9D9"
+					item: "minecraft:powder_snow_bucket"
+					type: "item"
+				}
+				{
+					id: "583D974BFBB82D9C"
+					item: "createcompression:compressed_snow_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "135D759316A0B771"
+				item: "artifacts:snowshoes"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the player's knockback resistance to 100%, and makes ice less slippery. Can be found in pillager outposts, shipwrecks, bastion treasure chests and village armorers. Very rarely worn by naturally spawned strays. Can be found through archaeology in trail ruins."]
+			id: "2F72CB515C4AF0DF"
+			rewards: [
+				{
+					id: "17472FA63F474D6C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1F2BC1EDA885A289"
+					item: "createcompression:compressed_iron_1x"
+					type: "item"
+				}
+				{
+					id: "2F531E83503DC802"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "75BE8BC65F45F3FB"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Slowly restores the player's hunger bar when walking on grass. Can be found in jungle temples, pillager outposts, strongholds and ancient cities. Can be found through archaeology in trail ruins."]
+			id: "6EB889CEDFBD05C7"
+			rewards: [
+				{
+					id: "784D053CE66FAF74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "795DDD5BED3BB976"
+					item: "quark:golden_carrot_crate"
+					type: "item"
+				}
+				{
+					id: "5C53295BE168C74E"
+					item: "createcompression:compressed_bone_block_1x"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "52ACE4051E2A5865"
+				item: "artifacts:rooted_boots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Occasionally plays a fart noise when worn. Equipable in the charm slot. Can be found in desert pyramids, village tanneries and the spawn bonus chest. Can be found through archaeology in trail ruins."]
+			id: "3959426A63A0F441"
+			rewards: [
+				{
+					id: "7673CC25D8C2E0B3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "23303A976FFC17F3"
+					item: "minecraft:slime_block"
+					type: "item"
+				}
+				{
+					id: "2F8252F45A85EE58"
+					item: "minecraft:music_disc_pigstep"
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "2712591D68263532"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["Increases the player's swimming speed by 100%. Can be found in buried treasure chests, shipwrecks and large underwater ruins. Very rarely worn by naturally spawned drowned."]
+			id: "34F551A0011C6DD5"
+			rewards: [
+				{
+					id: "41BDD9A054513E38"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 9
+					id: "1AA130D7ADF7D0B3"
+					item: "create_aquatic_ambitions:prismarine_alloy_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3591355B6894D4DC"
+					item: {
+						Count: 1
+						id: "alexscaves:jelly_bean"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me to learn about this artifact!"
+			tasks: [{
+				id: "2796E48443C72999"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+	]
+	title: "Artifacts"
+}

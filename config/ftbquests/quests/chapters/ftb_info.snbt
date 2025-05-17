@@ -1,0 +1,357 @@
+{
+	autofocus_id: "2A0238D4FDD5FF80"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ftb_info"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "28ADD89A922E5DC8"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/ftb_info_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A0238D4FDD5FF80"]
+			description: [
+				"&6FTB Quests&r provides a powerful, dynamic framework to guide you through every step of your journey across &6Create - Forge Frontier&r.  "
+				"Whether you're a seasoned explorer, a master builder, or a brave new adventurer, FTB Quests keeps your goals clear, your progress organized, and your efforts richly rewarded."
+				""
+				"Prepare to forge your legacy one milestone at a time!"
+				""
+				"{@pagebreak}"
+				""
+				"&l⚙ Navigating Your Adventure&r  "
+				""
+				"- &eGear Icons&r: Quests marked with gear icons represent the starting points of each chapter and critical progression paths.  "
+				"  Follow these first—they unlock the core objectives and challenges you’ll need to master."
+				""
+				"- &eInteractive Layout&r: Navigate through beautifully structured quest trees, designed for clarity and momentum.  "
+				"  Track your achievements, chart your next goals, and watch your story unfold with every step."
+				""
+				"- &eTeam-Friendly Progression&r: Play solo or with friends!  "
+				"  FTB Quests fully supports team play, allowing every member to contribute to shared progress and reap the rewards of collective success."
+				""
+				"{@pagebreak}"
+				""
+				"&l🏆 Master the Journey&r  "
+				"With FTB Quests, every achievement is meaningful, every chapter brings new purpose, and every challenge sharpens your skills.  "
+				"Storytelling, rewards, and visual progression come together to create an immersive adventure that keeps you engaged from your first build to your greatest triumph."
+				""
+				"Follow the gears. Blaze your trail.  "
+				"Forge your path to greatness—&6FTB Quests&r transforms your journey into a true epic! ✨📜"
+			]
+			icon: "ftbquests:book"
+			id: "6F8E433E11AB988B"
+			rewards: [
+				{
+					id: "00F51B51F7F587AD"
+					item: "ftbquests:book"
+					type: "item"
+				}
+				{
+					id: "4AFB644A079E1FE9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Master FTB Quests and turn your journey into a legendary adventure. Click me to learn more!"
+			tasks: [{
+				id: "6764FBD81806FBBD"
+				stat: "minecraft:sprint_one_cm"
+				type: "stat"
+				value: 100
+			}]
+			title: "Forging Your Path"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A0238D4FDD5FF80"]
+			description: [
+				"&6FTB Homes&r empowers you to forge your own network of safe havens, resource hubs, and exploration outposts across the world.  "
+				"With up to &e4 homes available by default&r, your adventure becomes more flexible, efficient, and expansive than ever before."
+				""
+				"Whether you're tunneling deep into the mines, building a mechanical empire, or braving the wild frontiers, FTB Homes ensures you’re always just a command away from safety."
+				""
+				"{@pagebreak}"
+				""
+				"&l🏠 Using FTB Homes&r  "
+				"FTB Homes is simple, intuitive, and incredibly powerful:"
+				""
+				"- &e/sethome [name]&r: Save your current location as a home. Assign it a meaningful name like “base,” “mine,” or “outpost” for quick reference."
+				"- &e/home [name]&r: Instantly teleport to any of your saved homes by entering its assigned name."
+				""
+				"No matter where your journey takes you, returning home has never been easier."
+				""
+				"{@pagebreak}"
+				""
+				"✨ &nTake command of your adventure.&r  "
+				"Design a world where you can always find your footing, where every major location becomes a simple heartbeat away.  "
+				"With FTB Homes, your world becomes truly yours to master—one home at a time."
+				""
+				"Build your legacy, explore fearlessly, and make every corner of the world your own! 🗺🚀"
+			]
+			icon: "handcrafted:oak_fancy_bed"
+			id: "0152665A72057299"
+			rewards: [{
+				id: "626F3B3A4B320CEB"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Master FTB Homes and unlock the freedom to roam, build, and thrive. Click me to learn more!"
+			tasks: [{
+				advancement: "minecraft:adventure/sleep_in_bed"
+				criterion: ""
+				id: "16F8B441C6369F1D"
+				type: "advancement"
+			}]
+			title: "Forge Your Network"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A0238D4FDD5FF80"]
+			description: [
+				"&6FTB Chunks&r grants you full control over your world—empowering you to claim, protect, and manage your space with confidence.  "
+				"Whether you're building sprawling factories, cozy bases, or thriving villages, FTB Chunks ensures your creations are safe, organized, and truly yours."
+				""
+				"From protection to powerful mapping tools, FTB Chunks is the key to mastering your domain!"
+				""
+				"{@pagebreak}"
+				""
+				"&l🛡 Claiming Your Territory&r  "
+				""
+				"- &eClaim Chunks&r: Safeguard your builds and resources by claiming chunks.  "
+				"  Protect your area from unauthorized block breaking, container access, or interference from others."
+				""
+				"- &eMap Interface&r: Navigate and manage your claimed territory easily using an intuitive map.  "
+				"  View your claimed zones, organize your space, and expand your empire with just a few clicks."
+				""
+				"{@pagebreak}"
+				""
+				"&l🤝 Build Together, Stronger&r  "
+				""
+				"- &eTeam Collaboration&r: Form alliances and share your claimed chunks with teammates.  "
+				"  Collaborate on grand projects, tackle dungeons together, or establish bustling communities—all while keeping your work protected."
+				""
+				"- &eWaypoint Management&r: Mark critical locations like mines, resource hubs, and exploration points directly on your map, making navigation and organization effortless."
+				""
+				"{@pagebreak}"
+				""
+				"&l⚙ Important Note: Chunk Loading&r  "
+				"- Chunk loading via FTB Chunks is &cdisabled&r in this pack to preserve performance.  "
+				"- If you need continuous operation for your contraptions, explore alternative options such as the &eCreate Power Loaders&r to maintain chunk activity."
+				""
+				"{@pagebreak}"
+				""
+				"✨ &nTake command of your frontier.&r  "
+				"FTB Chunks gives you the power to claim your space, protect your progress, and collaborate without limits.  "
+				"Whether you’re forging your path alone or building a kingdom with allies, these tools ensure that your world remains firmly under your control."
+				""
+				"Secure your legacy, manage your empire, and explore fearlessly—&6FTB Chunks&r is your ultimate ally in building the future! 🗺🏰"
+			]
+			icon: "minecraft:map"
+			id: "484FC6F80FEDC87E"
+			rewards: [{
+				id: "7BEF266E0B9A2720"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Master land protection and team collaboration with FTB Chunks. Click me for more info!"
+			tasks: [{
+				advancement: "lootr:1barrel"
+				criterion: ""
+				id: "438746993C0538B9"
+				type: "advancement"
+			}]
+			title: "Claim Your Legacy"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This chapter is your gateway to mastering the powerful features that will elevate your experience in &6Create - Forge Frontier&r.  "
+				"Whether you're building sprawling bases, managing resources, or charting vast, uncharted lands, the tools introduced here will make your journey smoother, more efficient, and infinitely more rewarding."
+				""
+				"Prepare to take control of your adventure like never before!"
+				""
+				"{@pagebreak}"
+				""
+				"&l🏠 FTB Homes&r  "
+				"Unlock the freedom to explore without fear of losing your way.  "
+				"Master the use of &e/sethome&r and &e/home&r commands to set personal waypoints—whether it’s your main base, a hidden mine, or a trading outpost.  "
+				"With up to four homes available by default, your empire can span continents with ease."
+				""
+				"{@pagebreak}"
+				""
+				"&l✨ FTB Essentials&r  "
+				"Empower your survival with critical utility commands:  "
+				"- &e/tpa&r and &e/tpahere&r to teleport to friends and allies.  "
+				"- &e/spawn&r to return to the safety of civilization.  "
+				"- &e/rtp&r to journey into the unknown and discover new lands.  "
+				"FTB Essentials ensures you're never stranded, always connected, and ready for anything the world throws at you."
+				""
+				"{@pagebreak}"
+				""
+				"&l🗺 FTB Chunks&r  "
+				"Secure your territory with ease.  "
+				"Learn how to claim land using the intuitive chunk map system, organizing your domain for safety and expansion.  "
+				"Note: Chunk loading is disabled by default—you’ll need to explore other options like Chunk Loaders if you seek automated setups and remote operations."
+				""
+				"{@pagebreak}"
+				""
+				"&l📜 FTB Quests&r  "
+				"Follow a guided path through the modpack’s progression with FTB Quests.  "
+				"- &eGear Icons&r mark the start of new chapters and adventures.  "
+				"- &eStar and Chest Icons&r highlight key milestone quests and rewards.  "
+				"Quests provide structure, lore, and rewards—turning every achievement into a celebrated moment on your journey."
+				""
+				"{@pagebreak}"
+				""
+				"⚡ &nMastering these essential tools transforms survival into triumph.&r  "
+				"Whether you're forging your path alone or rising as part of a great team, these features are designed to empower you at every step.  "
+				"Navigate smarter. Build bigger. Conquer faster. This chapter is your first step toward complete mastery of your world."
+				""
+				"✨ Prepare to claim your legacy—and revolutionize your journey across Forge Frontier! 🚀"
+			]
+			icon: "minecraft:writable_book"
+			id: "2A0238D4FDD5FF80"
+			rewards: [
+				{
+					id: "36D05BAD2C51D799"
+					item: "quark:stick_block"
+					type: "item"
+				}
+				{
+					id: "1211A6B69BD651DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Learn the powerful features that will guide, protect, and elevate your journey. Click me to learn more!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "569E10C16812CA8B"
+				type: "dimension"
+			}]
+			title: "Mastering Essential Tools"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A0238D4FDD5FF80"]
+			description: [
+				"&6FTB Essentials&r brings a powerful suite of survival-focused commands designed to streamline your journey and amplify your adventures across &6Create - Forge Frontier&r.  "
+				"Whether you're exploring new frontiers, recovering lost ground, or rallying your allies, these tools help you focus on what truly matters—building, thriving, and conquering the unknown."
+				""
+				"Unlock the full potential of your survival experience with FTB Essentials!"
+				""
+				"{@pagebreak}"
+				""
+				"&l🔙 Essential Travel Commands&r  "
+				""
+				"- &e/back&r: Instantly return to your last location—whether after an untimely death or a quick teleport. Never lose track of your progress again."
+				""
+				"- &e/rtp&r: Randomly teleport to an unexplored region of the world, perfect for gathering new resources, establishing distant outposts, or discovering hidden wonders."
+				""
+				"- &e/spawn&r: Safely return to your world’s central spawn point whenever you need a reset, a rallying point, or a moment to regroup."
+				""
+				"{@pagebreak}"
+				""
+				"&l🤝 Team Up with Ease&r  "
+				""
+				"- &e/tpa [player]&r: Send a request to teleport directly to another player—ideal for quick meet-ups, rescue missions, or coordinated adventures."
+				""
+				"- &e/tpahere [player]&r: Invite another player to teleport to your location. Share your latest discovery, summon your allies to battle, or simply bring friends closer to your adventures."
+				""
+				"{@pagebreak}"
+				""
+				"✨ &nMastering Essentials empowers you to survive smarter—and thrive faster.&r  "
+				"These survival tools are crafted to enhance your freedom while preserving the creativity and challenge at the heart of Minecraft.  "
+				"With FTB Essentials by your side, the world becomes more accessible, exploration becomes second nature, and teamwork becomes effortless."
+				""
+				"Seize the tools of mastery. Explore with confidence. Adventure without limits! 🚀🌍"
+			]
+			icon: "minecraft:oak_sign"
+			id: "3459B4FBA6296581"
+			rewards: [{
+				id: "5BA5A3E1330AFCA2"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Unlock powerful survival tools and thrive across every frontier. Click me to learn more!"
+			tasks: [{
+				advancement: "lootr:1barrel"
+				criterion: ""
+				id: "07235051A143B2D6"
+				type: "advancement"
+			}]
+			title: "Mastering the Essentials"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A0238D4FDD5FF80"]
+			description: [
+				"&6FTB Ultimine&r revolutionizes the way you mine, build, and explore in &6Create - Forge Frontier&r.  "
+				"Gone are the days of slow, block-by-block excavation—Ultimine empowers you to carve through the world with unprecedented speed and precision."
+				""
+				"With a single key press, you can harvest massive swaths of terrain, unveil hidden ores, and shape the landscape to match your vision.  "
+				"From intricate underground bases to towering resource operations, Ultimine ensures your tools work as fast as your imagination."
+				""
+				"{@pagebreak}"
+				""
+				"&l⛏ Efficiency Meets Customization&r  "
+				"FTB Ultimine puts the power in your hands with a suite of customizable options:"
+				""
+				"- &eConfigurable Mining Shapes&r: Tunnel through caves, mine in 3x3 patterns, strip ores with vein mining, and more. Select the perfect shape for the task and let Ultimine handle the heavy lifting.  "
+				"- &eAccelerated Resource Collection&r: No more tedious digging. Gather stone, ores, and materials in moments—all dropped neatly at your feet.  "
+				"- &eCreate Compatibility&r: Thanks to a dedicated addon, Ultimine now supports the &bCreate Wrench&r and &bItem Application&r tools—perfect for clearing complex builds or dismantling contraptions with ease."
+				""
+				"{@pagebreak}"
+				""
+				"&l💎 Dig Deeper, Build Bigger&r  "
+				"FTB Ultimine transforms mining into a creative force—removing the grind so you can focus on what truly matters: crafting masterpieces, exploring new horizons, and expanding your frontier."
+				""
+				"Whether you’re hollowing out mountain halls, harvesting massive ore veins, or fine-tuning mechanical structures, Ultimine ensures every strike counts."
+				""
+				"&nOne press. A hundred blocks. Infinite possibilities.&r  "
+				"With FTB Ultimine, the world bends to your will. ⛏✨"
+			]
+			id: "19FA24B07EA17024"
+			rewards: [
+				{
+					id: "6A9B4FB8D6212312"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "247D6CA00B5DBEB8"
+					item: "createcompression:compressed_cobblestone_2x"
+					type: "item"
+				}
+			]
+			subtitle: "Unlock the power of FTB Ultimine and reshape the world with speed and precision. Click me for more info!"
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "6C45C8A68D817DEA"
+				type: "advancement"
+			}]
+			title: "Mines of Innovation"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "FTB Info"
+}

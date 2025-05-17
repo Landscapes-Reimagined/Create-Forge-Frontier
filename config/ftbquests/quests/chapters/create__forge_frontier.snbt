@@ -1,0 +1,99 @@
+{
+	autofocus_id: "0DAD6C803C532FAC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create__forge_frontier"
+	group: ""
+	icon: "forge_frontier:modpack_logo"
+	id: "7FDAAF267EECFF92"
+	images: [
+		{
+			click: "https://discord.gg/quenZthXgy"
+			height: 2.0d
+			hover: ["Need Support or want to join our community, click me to join the Discord!"]
+			image: "supplementaries:textures/gui/book/icon/discord.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			click: "#0DAD6C803C532FAC"
+			height: 15.0d
+			image: "ftb:textures/pack_title.png"
+			rotation: 0.0d
+			width: 22.5d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			click: "#0DAD6C803C532FAC"
+			height: 10.0d
+			image: "forge_frontier:item/forgefrontier"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"&nWelcome to Create: Forge Frontier!&r"
+			""
+			"Embark on an extraordinary adventure in &6Create: Forge Frontier&r, a modpack crafted to ignite your creativity and curiosity. This world is your canvas—brimming with uncharted lands to explore, ingenious factory automation to design, mouthwatering recipes to master, and endless fun to uncover."
+			""
+			"The &3Create&r mod is your gateway to innovation. From crafting intricate contraptions to setting up awe-inspiring automation, you'll discover the limitless potential of gears, shafts, and creativity. But that's just the beginning—your journey will take you across diverse landscapes, testing your skills and inspiring your imagination."
+			""
+			"{@pagebreak}"
+			"This modpack is packed with custom content and extensive overhauls to ensure everything fits seamlessly within the &3Create&r ecosystem. Recipes and resources have been meticulously reworked to provide a cohesive and immersive experience, where every step of progression feels natural and rewarding. From resource gathering to advanced contraptions, everything has been designed to align with the spirit of Create."
+			""
+			"As you dive in, you may notice that the quests are still growing. Our passionate but small development team is tirelessly working to bring you the most engaging and immersive questlines possible. Your patience and feedback mean the world to us as we continue to expand this adventure, one step at a time."
+			""
+			"So, gear up, adventurer! The &6Forge Frontier&r awaits, and it’s calling you to explore, build, cook, and most importantly—have fun!"
+			""
+			"{@pagebreak}"
+			"If you need support or want to meet fellow adventurers, join our community on &1Discord&r by clicking the image below this quest!"
+			""
+			"{@pagebreak}"
+			"&nMeet the Forge Frontier Dev Team&r"
+			""
+			"- &eM0nkeyPr0grammer&r – &lLead Developer\\& Visionary&r"
+			"  "
+			"- &eGamma02&r – &lFeature Engineer\\& Systems Integrator&r"
+			"  "
+			"- &eCtrlAltDyleted&r – &lQuest Architect\\& Narrative Designer&r"
+			"  "
+			"- &eSSZNBEATS&r – &lMusic Composer\\& Soundtrack Producer&r  "
+			""
+			"Together, we're building a frontier where creativity, exploration, and imagination thrive. Thank you for joining us on this incredible journey!"
+		]
+		id: "0DAD6C803C532FAC"
+		rewards: [
+			{
+				id: "3B3AAC145FE6C629"
+				item: "forge_frontier:modpack_logo"
+				type: "item"
+			}
+			{
+				id: "1AE56F1A76AEC9D0"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+		]
+		shape: "gear"
+		size: 3.0d
+		subtitle: "Click me to learn more about the pack!"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "minecraft:grass_block"
+			id: "7E4EE542BF13A4DE"
+			type: "dimension"
+		}]
+		title: "Pack Introduction"
+		x: 0.0d
+		y: 7.5d
+	}]
+	title: "Create - Forge Frontier"
+}

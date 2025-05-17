@@ -1,0 +1,42 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_delight"
+	group: "47881FC157552E6E"
+	icon: "alexsdelight:raw_bunfungus_drumstick"
+	id: "4799E1AA0C99798E"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/alexs_delight_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "09F074C76D09DD6C"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "56EEBA76486DEDED"
+			item: "alexsdelight:raw_bunfungus_drumstick"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Alex's Delight"
+}

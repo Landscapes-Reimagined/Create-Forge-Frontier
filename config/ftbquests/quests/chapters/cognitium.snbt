@@ -1,0 +1,46 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cognitium"
+	group: "4CF6B0D92A681E0C"
+	icon: {
+		Count: 1
+		id: "experienceobelisk:experience_obelisk"
+		tag: { }
+	}
+	id: "572135E18D76F17A"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/cognitium_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "6141BAD50E3492BE"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "320A7171A6444E9E"
+			item: "experienceobelisk:cognitive_flux"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Cognitium"
+}

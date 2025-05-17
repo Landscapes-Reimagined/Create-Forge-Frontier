@@ -1,0 +1,309 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "glacio"
+	group: "522267C8B93A6C20"
+	icon: "ad_astra:glacio_globe"
+	id: "445663AD777BD47B"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/glacio_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["094EA96520B42095"]
+			description: [
+				"The instant your ship touches down, you feel it—&9Glacio&r is no ordinary world. It is a realm of &bfrostbitten silence&r, where &ojagged ice peaks&r loom and &obiting winds&r carve through ancient stone."
+				""
+				"Armed with your &lTier 4 Rocket&r and &lcutting-edge survival gear&r, you are among the elite few who dare to set foot here. But survival is only the beginning."
+				""
+				"{@pagebreak}"
+				"Beneath the shimmering ice and glacial cliffs lie:"
+				""
+				"- &bFrostite&r – a rare mineral hidden deep in the frost.  "
+				"- &bGlacio Ice Shards&r – essential for advanced crafting.  "
+				"- &7Ancient, frozen ruins&r – brimming with forgotten power and secrets."
+				""
+				"{@pagebreak}"
+				""
+				"Yet, danger lurks in the cold. The &oguardians of Glacio&r are as merciless as the weather, and only those with &lresilience and preparation&r will uncover the truth buried beneath the snow."
+				""
+				"🧊 &oWill you forge ahead—or be frozen in time?&r"
+			]
+			hide_dependent_lines: true
+			icon: "ad_astra:glacio_globe"
+			id: "05B5C7A592D2E3DA"
+			rewards: [{
+				id: "3F8A09033C8C274B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Endure the cold. Discover what sleeps beneath the ice. Click me for more info!"
+			tasks: [{
+				id: "3074F6246F1E821A"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "Glacio: Frozen Frontier"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["05B5C7A592D2E3DA"]
+			description: [
+				"You’ve conquered the &cscorching fury of Venus&r—now brace yourself for the &bglacial silence of Glacio&r. This frozen world is both breathtaking and brutal, where every step across its icy surface tests your resolve."
+				""
+				"To set foot on this frigid frontier, you’ll need a &lTier 4 Rocket&r—crafted from the &rrare ores of &6Venus&r and &4Mars&r. But even the finest technology offers no comfort from the biting winds and hidden dangers that await."
+				""
+				"{@pagebreak}"
+				"Prepare for a new era of exploration as you uncover:"
+				""
+				"- &bFrostite Ore&r – a frost-hardened material found only on Glacio  "
+				"- &bGlacio Ice Shards&r – crystalline remnants infused with chilling energy  "
+				"- &7Ancient structures&r buried beneath the snow, guarding powerful secrets"
+				""
+				"🧊 &oThe cold does not forgive the unprepared. Will you master the frost—or fall to its silence?&r"
+			]
+			id: "324219AF4569EA85"
+			rewards: [
+				{
+					id: "57CE41BE4608F32D"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					id: "729A02690EC6D559"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "From burning storms to frozen silence—your next trial begins. Click me for more info!"
+			tasks: [{
+				id: "270EB929D00ED077"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Glacio: Into the Icebound Unknown"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["324219AF4569EA85"]
+			description: [
+				"The surface of Glacio is a relentless expanse of &bsolid ice and stone&r—&oGlacio Stone&r, to be precise. This brittle yet resilient material forms the &lbedrock of survival&r on this planet, offering both protection and opportunity."
+				""
+				"While it may seem unassuming at first, Glacio Stone is &lkey to future construction&r. From durable bases to reinforced machinery foundations, this frost-hardened rock will support your endeavors on this icy world."
+				""
+				"&7Chip away at the cold crust and gather what you can&r—&oit’s time to build a stronghold in the snow.&r ❄🔨"
+			]
+			icon: "ad_astra:glacio_stone"
+			id: "417ACFE42707F7EF"
+			rewards: [
+				{
+					count: 16
+					id: "16A9F2F74FD54A95"
+					item: "ad_astra:glacio_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "0615420935E1BF25"
+					item: "adastradelight:ice_pie"
+					type: "item"
+				}
+				{
+					id: "5B25A396BFD33F74"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Begin your survival with the stone beneath the snow. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "3AB2D041111CBCF4"
+					type: "dimension"
+				}
+				{
+					block: "ad_astra:glacio_stone"
+					block_type: 0
+					checkItem: false
+					id: "2CA0F213B263E100"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Glacio Stone: Shaping the Frozen Foundation"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AFEDCD0BAB4CCE9"]
+			description: [
+				"Beneath Glacio’s &ofrostbitten crust&r lies more than stone and snow—&lancient power&r pulses within the planet’s veins. Brave the cold, dig deep, and &ldiscover the rare resources&r hidden below the surface."
+				""
+				"{@pagebreak}"
+				"❄ &lValuable Resources&r:"
+				""
+				"- &bFrostite Ore&r — A resilient, high-tier material used in &ladvanced machinery and specialized gear&r. Durable as it is rare."
+				""
+				"- &bGlacio Ice Shard Ore&r — A shimmering fuel component with ties to &lend-game enhancements&r and &lCryo Fuel production&r. Handle with care—its chill cuts to the core."
+				""
+				"&7As the wind howls above, only the brave descend into the ice. Will you be the one to &lunearth Glacio’s buried power&r? ⚒❄"
+			]
+			icon: "ad_astra:glacio_ice_shard_ore"
+			id: "58CFB703A2216D9F"
+			rewards: [
+				{
+					count: 16
+					id: "5377246C64BAFD90"
+					item: "ad_astra:ice_shard"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "30D009130FDE6421"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "197569BE5A345ADA"
+					item: "adastradelight:ice_cookie"
+					type: "item"
+				}
+				{
+					id: "4013971432C456FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine rare ores hidden deep beneath the ice—if you can survive the cold. Click me for more info!"
+			tasks: [
+				{
+					block: "ad_astra:glacio_ice_shard_ore"
+					block_type: 0
+					checkItem: false
+					id: "306C16F005CC0EF0"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "forge_frontier:frostite"
+					block_type: 0
+					checkItem: false
+					id: "067125685FF2D0D8"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Glacio's Frozen Core"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["417ACFE42707F7EF"]
+			description: [
+				"Beneath the snow-laden skies of Glacio lie the &oburied echoes of civilizations long lost&r. Their structures—entombed in frost and mystery—await those bold enough to uncover their secrets. But beware—these frozen ruins are &lnot unguarded&r."
+				""
+				"{@pagebreak}"
+				""
+				"❄ &lStructures to Brave&r:"
+				""
+				"- &bIncendium Sanctum&r: A towering &ochilling fortress&r veiled in snow, protecting &opowerful treasures&r deep within its icy halls."
+				""
+				"- &bCataclysm Frosted Prison&r: A forsaken dungeon where &cfrozen horrors&r prowl the shadows. Inside await &rare loot&r, &oblueprints&r, and &ldangers that bite deeper than the cold&r."
+				""
+				"&7Steel your nerves, adventurer—these icy tombs are not for the faint of heart. But those who endure the frost will emerge with &lknowledge, power, and the keys to the stars.&r 🌨🗝"
+			]
+			id: "0AFEDCD0BAB4CCE9"
+			rewards: [
+				{
+					id: "20B3C30C25190E85"
+					item: "friendsandfoes:totem_of_freezing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "491D89DAE3B0E2DB"
+					item: "quark:permafrost"
+					type: "item"
+				}
+				{
+					id: "751B70DC51D46E76"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Explore ancient ruins locked in ice and guarded by frostbitten foes. Click me for more info!"
+			tasks: [
+				{
+					id: "7922B1BB31DD61DB"
+					structure: "incendium:sanctum"
+					type: "structure"
+				}
+				{
+					id: "14E293FB17B73132"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+			]
+			title: "Frozen Relics: Glacio's Icy Bastions"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58CFB703A2216D9F"]
+			description: [
+				"&7Prepare for your descent into darkness—and your rise to the End.&r"
+				""
+				"With &bGlacio’s frozen frontier&r behind you, a new challenge begins. The path forward leads not into the stars, but deep below—to the realm of shadows and silence. It’s time to descend into the &8Deep Dark&r, face the &cWarden&r, and uncover the secret to unlocking the End."
+				""
+				"{@pagebreak}"
+				""
+				"⚔ &lYour Objective&r:"
+				""
+				"- Gather your best equipment, sharpen your wits, and &lbrace yourself for the Warden&r."
+				"- Defeat it and claim the &dHeart of the Warden&r—your key to breaching reality itself."
+				"- Prepare for the trials that await in the &5End Dimension&r."
+				""
+				"&7From frozen peaks to abyssal depths, your journey now shifts toward a realm of ancient magic, forgotten ruins, and a final confrontation. Are you ready to &lunlock the End&r? 🌑🗝"
+			]
+			id: "65D12057D044A1DB"
+			rewards: [
+				{
+					id: "4E8024BDEEAF5F37"
+					item: "silentsdelight:sculk_catalyst_pie"
+					type: "item"
+				}
+				{
+					id: "36AB51B4104352A5"
+					item: "unusualend:ender_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Face the Warden, unlock the portal, and step into the final frontier. Click me for more info!"
+			tasks: [{
+				id: "6AE63DA15B79AA64"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Toward the End"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Glacio"
+}

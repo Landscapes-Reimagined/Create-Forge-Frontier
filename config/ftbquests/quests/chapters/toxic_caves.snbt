@@ -1,0 +1,55 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toxic_caves"
+	group: "4BDF92F640B2C9B4"
+	icon: {
+		Count: 1
+		id: "alexscaves:hazmat_mask"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1EEEF43EA0AD7160"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/toxic_caves_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "1A2C4E8DD4FA3A3A"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			dimension: "forge_frontier:toxic_caves"
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "103BCC114B56BEF8"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Toxic Caves"
+}

@@ -1,0 +1,54 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "delightful"
+	group: "47881FC157552E6E"
+	icon: {
+		Count: 1
+		id: "delightful:bone_knife"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "093E37287116F1F0"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/delightful_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "009F937A342007B5"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "6D012884230C5A02"
+			item: {
+				Count: 1
+				id: "delightful:bone_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Delightful"
+}

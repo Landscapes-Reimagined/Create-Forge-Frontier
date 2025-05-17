@@ -1,0 +1,329 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mars"
+	group: "522267C8B93A6C20"
+	icon: "ad_astra:mars_globe"
+	id: "45D879B35BC0F7D0"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/mars_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2DC61E3DC8AF2A42"]
+			description: [
+				"&f🪐 Welcome to Mars: The Crimson Frontier&r"
+				""
+				"After conquering the Moon, your next destination lies farther and more forbidding—&cMars&r. A planet of &4red sands&r, jagged canyons, and windswept mountains, it holds the remnants of forgotten civilizations and the promise of untapped power."
+				""
+				"Beneath its desolate surface lie &6ancient secrets&r and &eexclusive resources&r essential for your interstellar progression. But be warned—Mars is no place for the unprepared."
+				""
+				"{@pagebreak}"
+				""
+				"The &catmosphere is thin&r, the &cenvironment is brutal&r, and the dangers are far deadlier than anything you’ve faced before. You’ll need your best armor, oxygen supplies, and unwavering resolve to survive."
+				""
+				"&lReady your gear, fuel your rocket, and prepare to step into the unknown—the red frontier awaits.&r"
+			]
+			hide_dependent_lines: true
+			icon: "ad_astra:mars_globe"
+			id: "6169F8EB0E600750"
+			rewards: [{
+				id: "4F14F474001409EB"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Explore, adapt, and uncover ancient secrets beneath the red sands. Click me for more info!"
+			tasks: [{
+				id: "4C252279091771C2"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Mars: The Crimson Frontier"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			description: [
+				"🚀 &cTier 2 Rocket: Breaking Mars’ Orbit&r"
+				""
+				"Mars lies farther across the void than the Moon—and reaching it demands more than just ambition. Your &7Tier 1 Rocket&r served you well, but it lacks the &cfuel capacity&r and &cengine power&r to brave the longer journey."
+				""
+				"To pierce the Martian skies, you’ll need to &lupgrade&r to a &cTier 2 Rocket&r—engineered for deeper space, tougher conditions, and greater resilience. This next step in your &ointerstellar journey&r marks a turning point in your cosmic legacy."
+				""
+				"{@pagebreak}"
+				""
+				"&lGather rare materials, refine your designs, and prepare for the power of a true planetary vessel.&r  "
+				"The stars are calling once again."
+				""
+				"Learn how to craft the &cTier 2 Rocket&r in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"67026EE366909C22\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "2D130C99B5D7C5FF"
+			rewards: [{
+				id: "737B61DE7499688A"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "Upgrade your ship, boost your range, and prepare for a world of red sand and ancient secrets. Click me for more info!"
+			tasks: [
+				{
+					id: "777183747D4C8E89"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "669F615F29AB50E8"
+					title: "Fuel your Rocket!"
+					type: "checkmark"
+				}
+			]
+			title: "Tier 2 Rocket: Powering Toward Mars"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D130C99B5D7C5FF"]
+			description: [
+				"🪓 &4Digging Deeper: Martian Foundations&r"
+				""
+				"Before you build among the stars, you must carve your place into the Martian dust. Mars may appear lifeless, but its crimson crust is rich with &cMartian Stone&r—an essential material for constructing outposts and unlocking advanced planetary tech."
+				""
+				"This versatile resource is not just for walls—it’s the key to &lreinforced builds&r, &odecorative architecture&r, and the foundations of your future Martian empire."
+				""
+				"{@pagebreak}"
+				""
+				"Begin your excavation and gather what you need to &orest&r, &odevelop&r, and &ouncover the secrets&r buried beneath the red sands. Some of the &6rare minerals&r that lie beneath may change your journey forever."
+				""
+				"📦 &lYour Martian colony begins with a single stone.&r"
+			]
+			icon: "ad_astra:mars_stone"
+			id: "11B8EF9631422774"
+			rewards: [
+				{
+					count: 16
+					id: "381E67749D0F09D1"
+					item: "ad_astra:mars_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "17600605596EA6D1"
+					item: {
+						Count: 1
+						id: "ad_astra:energizer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F18D779556C4379"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine the stone, build your base, and prepare for the buried wonders of the Red Planet. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "5D7C7953A26FF5E2"
+					type: "dimension"
+				}
+				{
+					block: "ad_astra:mars_stone"
+					block_type: 0
+					checkItem: false
+					id: "019290B4E28E0C6A"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Digging Deeper: Martian Foundations"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B8EF9631422774"]
+			description: [
+				"🔥 &cSoul Blacksmith: Relics of a Forgotten Forge&r"
+				""
+				"Ancient ruins, scorched stone, and whispers of Martian legends—&lwelcome to the Soul Blacksmith&r."
+				""
+				"Scattered across Mars lie the crumbling remains of a lost civilization, their secrets buried beneath red dust and molten echoes. The &4Soul Blacksmith&r stands as the greatest of these ruins, a towering structure &lforged in flame&r and guarded by ruthless defenders."
+				""
+				"Within its depths, &opowerful relics&r and &crare artifacts&r await—but only for those brave enough to face the heat."
+				""
+				"{@pagebreak}"
+				""
+				"⚠ &lPrepare carefully&r: the forge is alive with traps, guardians, and echoes of war. Each step deeper pulls you closer to treasures of immense value—and dangers to match."
+				""
+				"Don’t overlook the &oMartian Temples&r scattered across the planet. These forgotten sanctuaries may hold &6clues and keys&r to unraveling the true purpose of the Soul Blacksmith."
+				""
+				"&lWill you tame the forge, or be consumed by its fire?&r"
+			]
+			id: "598BD03BE0D0347B"
+			rewards: [
+				{
+					count: 3
+					id: "3309A6E6D0F4800D"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4438ACDDBC99BB1E"
+					item: "ad_astra:mars_sand"
+					type: "item"
+				}
+				{
+					id: "7A6CB150FA9E6464"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Uncover the secrets of a lost Martian civilization—and claim the fire-forged relics hidden within. Click me for more info!"
+			tasks: [
+				{
+					id: "65A8BB675F2C805C"
+					structure: "ad_astra:mars_temple"
+					type: "structure"
+				}
+				{
+					id: "1E84DED28051B3B3"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+			]
+			title: "Soul Blacksmith: Relics of a Forgotten Forge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["598BD03BE0D0347B"]
+			description: [
+				"⛏ &cRedstone Riches: Mining the Depths of Mars&r"
+				""
+				"Mars is far more than a lifeless desert—&lit’s a planet of hidden potential&r, waiting to be unearthed by those bold enough to dig deep."
+				""
+				"Beneath its crimson surface lies a cache of &6rare materials&r, each vital to your continued progression. Discover &fStellaris&r, a mysterious celestial metal with untapped power. Mine &dMars Ostrum Ore&r, a crucial ingredient for crafting high-tier components. Unearth &bMars Ice Shard Ore&r, a frozen enigma that could hold the key to survival in extreme environments."
+				""
+				"{@pagebreak}"
+				""
+				"&lGear up&r and establish a forward mining base—&oyou'll need it&r. Mars is as hostile as it is rich, and the creatures lurking in its caves don’t take kindly to trespassers."
+				""
+				"&lWill you brave the depths and emerge with riches—or be buried beneath the red dust?&r"
+			]
+			id: "75F33C79A51D73A7"
+			rewards: [
+				{
+					count: 4
+					id: "1D0943A7D0088DD4"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					id: "4DC961347C03020E"
+					item: "adastradelight:mix_astra"
+					type: "item"
+				}
+				{
+					id: "6EDB15A6FCA0B727"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Dig deep, uncover powerful ores, and forge the future beneath the Martian crust. Click me for more info!"
+			tasks: [
+				{
+					block: "forge_frontier:stellaris"
+					block_type: 0
+					checkItem: false
+					id: "42CFB1D514B88587"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:mars_ostrum_ore"
+					block_type: 0
+					checkItem: false
+					id: "400EBB867E219409"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:mars_ice_shard_ore"
+					block_type: 0
+					checkItem: false
+					id: "0FA4D2C98651BA6F"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Redstone Riches: Mining the Depths of Mars"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75F33C79A51D73A7"]
+			description: [
+				"🚀 &6Forward to Fire: Mercury Awaits&r"
+				""
+				"Your mission on Mars has tested your resolve and rewarded your ambition. But in the grand expanse of the cosmos, &othis is only the beginning&r."
+				""
+				"Armed with &6rare Martian resources&r and the wisdom of ancient ruins, it’s time to set your sights on the next frontier: &cMercury&r—&la world of blazing heat, volatile terrain, and secrets long buried beneath scorched stone&r."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe path forward will not be easy.&r Mercury offers &ounique opportunities and lethal hazards&r in equal measure. You’ll need upgraded tech, advanced protection, and an unshakable will to thrive."
+				""
+				"Ready your rocket and steel your spirit—the next phase of your cosmic journey lies beyond the sunlit horizon."
+				""
+				"🌑 To learn more, explore the  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B54577F45BDF5E7\" } }"
+			]
+			id: "4AD1CCF2DA9C58B2"
+			rewards: [{
+				id: "0DE9D92CE9BA4BC8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:gravity_normalizing"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Your Martian legacy leads to a new world of blazing challenges and cosmic opportunity. Click me for more info!"
+			tasks: [{
+				id: "6605C2E4245717B9"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Forward to Fire: Mercury Awaits"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Mars"
+}

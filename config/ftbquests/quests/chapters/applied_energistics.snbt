@@ -1,0 +1,42 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "0988E75337218F69"
+	icon: "ae2:certus_quartz_dust"
+	id: "09122EB4ABF3FEBA"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/ae2_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "3C1A865BF6781409"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "53CEF33ECD6D716C"
+			item: "ae2:certus_quartz_dust"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Applied Energistics"
+}

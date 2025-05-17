@@ -1,0 +1,43 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ruined_citadel"
+	group: "658CB7FD6582B3E9"
+	icon: "cataclysm:void_infused_end_stone_bricks"
+	id: "6DC9F8EBD0B98B8C"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_ruin_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		id: "3E84B33812C4BCF1"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			icon: "cataclysm:void_infused_end_stone_bricks"
+			id: "76FE7E81E76C4DE5"
+			structure: "cataclysm:ruined_citadel"
+			type: "structure"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Ruined Citadel"
+}

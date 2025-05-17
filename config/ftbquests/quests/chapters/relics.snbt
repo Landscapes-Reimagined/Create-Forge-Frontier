@@ -1,0 +1,43 @@
+{
+	always_invisible: true
+	autofocus_id: "6797E17E89B470F8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "37A1080736831E36"
+	icon: "relics:relic_experience_bottle"
+	id: "2D97873BF8052535"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/relics_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "6797E17E89B470F8"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "72B8794AD9FCEBAC"
+			item: "relics:relic_experience_bottle"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Relics"
+}

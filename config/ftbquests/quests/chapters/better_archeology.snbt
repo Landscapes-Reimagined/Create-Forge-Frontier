@@ -1,0 +1,951 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better_archeology"
+	group: "4FAD6EACDA300DDE"
+	icon: {
+		Count: 1
+		id: "minecraft:brush"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "59D4894CD3E8DEB5"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/archeology_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Beneath the sands, within ancient ruins, and scattered across the Overworld lie remnants of forgotten civilizations. Better Archaeology brings history to life, offering rare structures, hidden treasures, and the thrill of discovery."
+				""
+				"Venture into the wild, uncover fossils, ruins, and temples, and collect artifacts that whisper tales of the past. Each find brings you one step closer to unraveling the world's ancient mysteries."
+			]
+			hide_dependent_lines: true
+			id: "69838A6C4306E75E"
+			rewards: [{
+				id: "650FE02F12E67276"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Click me for more info!"
+			tasks: [{
+				id: "6E652554A43E7089"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Echoes of the Past: Better Archaeology Awaits!"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"Scattered across the Overworld, archaeologists have set up camps in grassy plains, red sands, and deserts, eager to uncover ancient secrets. These camps hold supplies, tools, and early clues about the civilizations long gone."
+				""
+				"Begin your archaeological journey by visiting these camps and gathering useful resources for the quests ahead."
+			]
+			icon: "minecraft:campfire"
+			id: "6C41F1F50F2083A3"
+			subtitle: "First Camps of Discovery, Click me for more info!"
+			tasks: [{
+				id: "709D8EE5F15A3361"
+				title: "Archaeologist Camps"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6C41F1F50F2083A3"]
+			description: [
+				""
+				"{image:ftb:textures/grassy_camp.png width:250 height:150 align:center}"
+			]
+			id: "18BA76C9AB39F9F2"
+			rewards: [
+				{
+					id: "652B0B5608C0EC34"
+					item: "minecraft:shelter_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4F0F8AE7F95F4C16"
+					item: "createcompression:compressed_grass_2x"
+					type: "item"
+				}
+				{
+					id: "18C63BE88E9EED4E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Among the green hills lies a humble camp, filled with tools, tents, and the promise of discovery."
+			tasks: [{
+				id: "4A0440F54AB4A0DE"
+				structure: "betterarcheology:archeologist_camp_grassy"
+				type: "structure"
+			}]
+			title: "Grassy Camp Expedition"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C41F1F50F2083A3"]
+			description: [
+				""
+				"{image:ftb:textures/redsand_camp.png width:250 height:150 align:center}"
+			]
+			id: "4A96C273875C91F9"
+			rewards: [
+				{
+					id: "094D9FA0DE4AEC5B"
+					item: "minecraft:explorer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "15E67E49B4215B8F"
+					item: "createcompression:compressed_red_sand_2x"
+					type: "item"
+				}
+				{
+					id: "31AA7D9705FBFC34"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "The red sands hold stories waiting to be uncovered. The desert heat won’t stop a determined archaeologist!"
+			tasks: [{
+				id: "67DF56DCCFEC534B"
+				structure: "betterarcheology:archeologist_camp_redsand"
+				type: "structure"
+			}]
+			title: "Red Sands Expedition"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C41F1F50F2083A3"]
+			description: [
+				""
+				"{image:ftb:textures/sand_camp.png width:250 height:150 align:center}"
+			]
+			id: "3C7B5DFA5502B5B7"
+			rewards: [
+				{
+					id: "5851F795B697DA0A"
+					item: "minecraft:burn_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "1D2BBE7E3C7021AF"
+					item: "createcompression:compressed_sand_2x"
+					type: "item"
+				}
+				{
+					id: "7F3DA3433AA466B2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "In the golden dunes, archaeologists have pitched their tents, eager to unearth buried secrets."
+			tasks: [{
+				id: "587999C5D737520D"
+				structure: "betterarcheology:archeologist_camp_sand"
+				type: "structure"
+			}]
+			title: "Sands of Time Camp"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"Crumbling walls, buried pathways, and ancient obelisks lie scattered across the world. These ruins are remnants of once-thriving civilizations, now silent and waiting to be rediscovered."
+				""
+				"Explore these ancient sites to find rare artifacts and uncover the stories they hold."
+			]
+			icon: "betterarcheology:ocelot_fossil_head"
+			id: "1A07BBBA7A7163D8"
+			subtitle: "Echoes of Forgotten Walls, Click me for more info!"
+			tasks: [{
+				id: "392A9FB84D10EF49"
+				title: "Ruins and Tombs"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1A07BBBA7A7163D8"]
+			description: [
+				""
+				"{image:ftb:textures/buried_ruins_sand.png width:250 height:150 align:center}"
+			]
+			id: "45D43D8771DF947D"
+			rewards: [
+				{
+					id: "6FC63A99A25D40B8"
+					item: "minecraft:skull_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "421C2CE8EC7E2239"
+					item: "createcompression:compressed_clay_2x"
+					type: "item"
+				}
+				{
+					id: "64C5B39340F5D835"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Time has buried these ruins beneath shifting sands, but determined explorers will find the truth."
+			tasks: [{
+				id: "672C6890DA66E07E"
+				structure: "betterarcheology:buried_ruins_sand"
+				type: "structure"
+			}]
+			title: "Buried Ruins (Sand)"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A07BBBA7A7163D8"]
+			description: [
+				""
+				"{image:ftb:textures/ruins_sand.png width:250 height:150 align:center}"
+			]
+			id: "1CD2DB27A3433535"
+			rewards: [
+				{
+					id: "427B6D565B256A9C"
+					item: "minecraft:prize_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "122CCF090C2350BA"
+					item: "createcompression:compressed_sand_2x"
+					type: "item"
+				}
+				{
+					id: "0AE767717764EB2D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Scattered walls and broken paths tell the story of a long-forgotten settlement."
+			tasks: [{
+				id: "14ACE942C132E71F"
+				structure: "betterarcheology:ruins_sand"
+				type: "structure"
+			}]
+			title: "Ruins in the Sand"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A07BBBA7A7163D8"]
+			description: [
+				""
+				"{image:ftb:textures/mesa_ruins.png width:250 height:150 align:center}"
+			]
+			id: "464C6CC633D482AE"
+			rewards: [
+				{
+					id: "139195E5986B190C"
+					item: "neapolitan:reflection_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5FC57BD4838D13AE"
+					item: "createcompression:compressed_red_sand_2x"
+					type: "item"
+				}
+				{
+					id: "15BB529817AF1E76"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "The cracked stones of these ruins stand as silent guardians over ancient treasures."
+			tasks: [{
+				id: "455F3F8CE5BCBACA"
+				structure: "betterarcheology:mesa_ruins"
+				type: "structure"
+			}]
+			title: "Mesa Ruins Adventure"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"Beneath the surface lie catacombs and temples, where ancient guardians once stood watch. While time has worn down the walls, the secrets within remain untouched by daylight."
+				""
+				"Venture into these darkened chambers, but tread carefully—danger often lurks alongside treasure."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "6A9B41AD0D004575"
+			subtitle: "Descent into Darkness, Click me for more info!"
+			tasks: [{
+				id: "75A09FFA67D77066"
+				title: "Catacombs and Tombs"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/catacombs.png width:250 height:150 align:center}"
+			]
+			id: "3025F91757F08C0C"
+			rewards: [
+				{
+					id: "55660B05DCCB6F32"
+					item: "alexscaves:footprint_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4FC127ADC087CFCF"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "1A997641B390441F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Deep underground lies a network of catacombs, where the brave may find ancient treasures—or curses."
+			tasks: [{
+				id: "428222B34BB79161"
+				structure: "betterarcheology:catacombs"
+				type: "structure"
+			}]
+			title: "Descent into the Catacombs"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/desert_obelisk.png width:250 height:150 align:center}"
+			]
+			id: "763E8CE42C5F8E65"
+			rewards: [
+				{
+					id: "28EEA9CCEDE0B003"
+					item: "minecraft:archer_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "64906DC10F823774"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "5F6ECC2EED4EEA48"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Rising from the sands, this towering obelisk marks the resting place of ancient knowledge."
+			tasks: [{
+				id: "4DBF77BDD308FE4B"
+				structure: "betterarcheology:desert_obelisk"
+				type: "structure"
+			}]
+			title: "Desert Obelisk Discovery"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/light_temple.png width:250 height:150 align:center}"
+			]
+			id: "178A10677126726B"
+			rewards: [
+				{
+					id: "6B31A2C77F6F78A9"
+					item: "minecraft:heartbreak_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "57CD9F20145F7543"
+					item: "createcompression:compressed_glowstone_2x"
+					type: "item"
+				}
+				{
+					id: "3391FD363DA426DF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This temple radiates an ancient light, guiding explorers to its hidden chambers."
+			tasks: [{
+				id: "00B6DEA2CC30B7AC"
+				structure: "betterarcheology:light_temple"
+				type: "structure"
+			}]
+			title: "Light Temple Expedition"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A9B41AD0D004575"]
+			description: [
+				""
+				"{image:ftb:textures/temple_jungle.png width:250 height:150 align:center}"
+			]
+			id: "2C82F9551BEF8539"
+			rewards: [
+				{
+					id: "08A3EAF6CA350EC5"
+					item: "neapolitan:spider_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "22089A4CE3162E86"
+					item: "createcompression:compressed_oak_log_2x"
+					type: "item"
+				}
+				{
+					id: "6F3BD86A6BD912E6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Vines and moss conceal a temple lost to time—what secrets lie within?"
+			tasks: [{
+				id: "4FF674524FA1E011"
+				structure: "betterarcheology:temple_jungle"
+				type: "structure"
+			}]
+			title: "Jungle Temple Discovery"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"Long before the rise of modern creatures, ancient beasts roamed the world. Their remains now lie fossilized in the earth, waiting for a skilled archaeologist to unearth them."
+				""
+				"Embark on a fossil expedition and uncover the skeletal remains of creatures long extinct."
+			]
+			icon: "betterarcheology:unidentified_artifact"
+			id: "64A484FDC24E9972"
+			subtitle: "Bones of the Past, Click me for more info!"
+			tasks: [{
+				id: "794A04BD7A47B498"
+				title: "Fossil Expeditions"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_chicken.png width:250 height:150 align:center}"
+			]
+			id: "3E2169A7713490CE"
+			rewards: [
+				{
+					id: "3636526CAF8A0C66"
+					item: "neapolitan:snack_pottery_sherd"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "63666E7D34B2D026"
+					item: "cratedelight:egg_crate"
+					type: "item"
+				}
+				{
+					id: "01363BD5B2350F19"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "The remains of a long-forgotten creature await excavation."
+			tasks: [{
+				id: "1D6281DE93DC2F8D"
+				structure: "betterarcheology:fossil_chicken"
+				type: "structure"
+			}]
+			title: "Chicken Fossil Hunt"
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_chicken_birch.png width:250 height:150 align:center}"
+			]
+			id: "5FABD907263D5F7D"
+			rewards: [
+				{
+					id: "631E416C96B79873"
+					item: "minecraft:arms_up_pottery_sherd"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "752109CB1119071E"
+					item: "cratedelight:duck_egg_crate"
+					type: "item"
+				}
+				{
+					id: "7DB9A36589D87C12"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Hidden within birch forests, these fossils lie undisturbed."
+			tasks: [{
+				id: "1F2C74E2402835DC"
+				structure: "betterarcheology:fossil_chicken_birch"
+				type: "structure"
+			}]
+			title: " Fossil Chicken (Birch Biome)"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_creeper.png width:250 height:150 align:center}"
+			]
+			id: "1FACB5BE9C73ECA3"
+			rewards: [
+				{
+					id: "2F6BDE95FC6D2B24"
+					item: "minecraft:brewer_pottery_sherd"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "14DAE32CAD711DC0"
+					item: "quark:gunpowder_sack"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5672CDD1D1BF4A84"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "4099C262AD6F78E5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "The remains of an ancient predator—what power did it once hold?"
+			tasks: [{
+				id: "7F179D6F9D810FA9"
+				structure: "betterarcheology:fossil_creeper"
+				type: "structure"
+			}]
+			title: "Creeper Fossil Dig"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/jungle_fossil.png width:250 height:150 align:center}"
+			]
+			id: "47A618C5242E14DA"
+			rewards: [
+				{
+					id: "78710F43CCE1664D"
+					item: "minecraft:blade_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "6AE3A50D61AB70E5"
+					item: {
+						Count: 1
+						id: "betterarcheology:netherite_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BFC4C6430C59496"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Deep in the jungle, ancient remains rest beneath the canopy."
+			tasks: [
+				{
+					id: "55405BE17266B7C4"
+					structure: "betterarcheology:fossil_jungle_0"
+					type: "structure"
+				}
+				{
+					id: "4607EB6305C9751C"
+					structure: "betterarcheology:fossil_jungle_1"
+					type: "structure"
+				}
+			]
+			title: "Jungle Fossils"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_sheep.png width:250 height:150 align:center}"
+			]
+			id: "1A8B7288C9AEC51F"
+			rewards: [
+				{
+					id: "2C1B871A30EA2C4C"
+					item: "minecraft:sheaf_pottery_sherd"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "21C72A2CD54300D0"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "1DF473FB3A064471"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Even the humble sheep leaves its mark in history."
+			tasks: [{
+				id: "65C61F9F2C825C3E"
+				structure: "betterarcheology:fossil_sheep_0"
+				type: "structure"
+			}]
+			title: "Sheep Fossil Discovery"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64A484FDC24E9972"]
+			description: [
+				""
+				"{image:ftb:textures/fossil_wolf.png width:250 height:150 align:center}"
+			]
+			id: "2010B6DDDB5D9500"
+			rewards: [
+				{
+					id: "797B3E56EFF95240"
+					item: "minecraft:howl_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "5E1FF289DA6E57E3"
+					item: "createcompression:compressed_bone_block_2x"
+					type: "item"
+				}
+				{
+					id: "6B076C576280A4AE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Bones of an ancient predator rest quietly beneath the earth."
+			tasks: [{
+				id: "468131CEF4339CE0"
+				structure: "betterarcheology:fossil_wolf"
+				type: "structure"
+			}]
+			title: "Wolf Fossil Expedition"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"The most remarkable remnants of ancient civilizations stand tall as legendary structures. From Stonehenge-like formations to ancient fortresses, these sites hold the most valuable treasures—and the deepest mysteries."
+				""
+				"Only the most determined explorers will unlock their secrets."
+			]
+			icon: "betterarcheology:radiance_totem"
+			id: "03FAD5B9F17F1E37"
+			subtitle: "Monuments of Time, Click me for more info!"
+			tasks: [{
+				id: "138F3F46DD2912A9"
+				title: "Legendary Structures"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03FAD5B9F17F1E37"]
+			description: [
+				""
+				"{image:ftb:textures/mott.png width:250 height:150 align:center}"
+			]
+			id: "342AB18BF6A125E2"
+			rewards: [
+				{
+					id: "64D670FD2E3E0FDB"
+					item: "minecraft:plenty_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "217285A02DB96662"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:corrupted_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7039571C87929459"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "An ancient stronghold, its crumbling walls still echo with forgotten stories."
+			tasks: [{
+				id: "29BDB2D33D71ADA4"
+				structure: "betterarcheology:mott"
+				type: "structure"
+			}]
+			title: "Mott Ruins"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03FAD5B9F17F1E37"]
+			description: [
+				""
+				"{image:ftb:textures/stonehenge_grassy.png width:250 height:150 align:center}"
+			]
+			id: "3F353696BE60D985"
+			rewards: [
+				{
+					id: "0DD044F74EC82A57"
+					item: "minecraft:snort_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "698C79B10D4BA0EA"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "02249B914C59972F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "These ancient stones stand silent, guarding the secrets of the past."
+			tasks: [{
+				id: "0A5B86843A391CCA"
+				structure: "betterarcheology:stonehenge_grassy"
+				type: "structure"
+			}]
+			title: "Stonehenge Grassy Discovery"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03FAD5B9F17F1E37"]
+			description: [
+				""
+				"{image:ftb:textures/tumulus_grassy.png width:250 height:150 align:center}"
+			]
+			id: "407E0E03E080084C"
+			rewards: [
+				{
+					id: "0E9D3FF84584B49F"
+					item: "alexscaves:guardian_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "4C9880D89738683F"
+					item: "createcompression:compressed_clay_2x"
+					type: "item"
+				}
+				{
+					id: "0030BAC0C3D4E14B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Beneath this grassy mound lies an ancient burial site."
+			tasks: [{
+				id: "567A33893D41D591"
+				structure: "betterarcheology:tumulus_grassy"
+				type: "structure"
+			}]
+			title: "Tumulus Grassy Adventure"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["399D790DDDC2CEAA"]
+			description: [
+				""
+				"{image:ftb:textures/underwater_ruins.png width:250 height:150 align:center}"
+			]
+			id: "2755C805498F1A4F"
+			rewards: [
+				{
+					id: "71CDC4B203A6E952"
+					item: "minecraft:angler_pottery_sherd"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "3187235142BB2263"
+					item: "create_aquatic_ambitions:prismarine_alloy_block"
+					type: "item"
+				}
+				{
+					id: "7A1466F208100BA8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Sunken beneath the waves, these ruins hold secrets lost to time."
+			tasks: [
+				{
+					id: "0327AB85C8DC9A70"
+					structure: "betterarcheology:underwater_0"
+					type: "structure"
+				}
+				{
+					id: "457D810068B66BD5"
+					structure: "betterarcheology:underwater_1"
+					type: "structure"
+				}
+				{
+					id: "5548C06F10B7720C"
+					structure: "betterarcheology:underwater_2"
+					type: "structure"
+				}
+				{
+					id: "5C42C71FAEE5B693"
+					structure: "betterarcheology:underwater_3"
+					type: "structure"
+				}
+			]
+			title: "Deep Dive: Underwater Ruins"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"Not all ruins lie on dry land—many have sunken beneath the sea, preserved in watery silence. Ancient buildings, scattered across the ocean floor, promise rare finds to those brave enough to dive deep."
+				""
+				"Prepare your gear, hold your breath, and explore the underwater ruins."
+			]
+			icon: {
+				Count: 1
+				id: "betterarcheology:torrent_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "399D790DDDC2CEAA"
+			subtitle: "Beneath the Waves, Click me for more info!"
+			tasks: [{
+				id: "6A46426DB7934575"
+				type: "checkmark"
+			}]
+			title: "Underwater Expeditions"
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69838A6C4306E75E"]
+			description: [
+				"Even the simplest of graves can hold powerful relics and stories of the past. Some sites, like the Villager Graves, mark the end of one journey and the beginning of another."
+				""
+				"Respect the dead, but don't hesitate to uncover their secrets."
+			]
+			icon: "betterarcheology:villager_fossil_head"
+			id: "71262DE2D349D1A9"
+			subtitle: "Graves and Secrets, Click me for more info!"
+			tasks: [{
+				id: "2753091DE652A750"
+				title: "Final Reseting Place"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71262DE2D349D1A9"]
+			description: [
+				""
+				"{image:ftb:textures/villager_grave.png width:250 height:150 align:center}"
+			]
+			id: "4297B4AFDAC360A7"
+			rewards: [
+				{
+					id: "2AFB63CB4B0F49A4"
+					item: "minecraft:heart_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "452941D0C37468A2"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "542E3CCACDA7C848"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Even the simplest graves hold stories—will you uncover theirs?"
+			tasks: [{
+				id: "63BEADFF1CC0DB7A"
+				structure: "betterarcheology:villager_grave"
+				type: "structure"
+			}]
+			title: "Villager Grave Expedition"
+			x: 7.5d
+			y: 3.5d
+		}
+	]
+	title: "Better Archeology"
+}

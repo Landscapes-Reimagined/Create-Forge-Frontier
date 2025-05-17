@@ -1,0 +1,43 @@
+{
+	always_invisible: true
+	autofocus_id: "524AB2AB34C92E0E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decorational_needs"
+	group: "37A1080736831E36"
+	icon: "handcrafted:mangrove_chair"
+	id: "31D778BCE8EAFE37"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/coming_soon.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/decoration_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		id: "524AB2AB34C92E0E"
+		shape: "gear"
+		size: 3.0d
+		tasks: [{
+			id: "1060D34878DF1E78"
+			item: "handcrafted:mangrove_chair"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -6.5d
+	}]
+	title: "Decorational Needs"
+}
