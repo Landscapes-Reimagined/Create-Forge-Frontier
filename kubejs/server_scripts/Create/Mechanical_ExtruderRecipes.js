@@ -2,7 +2,6 @@ ServerEvents.recipes(event => {
 event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
 
 // Creates Sequenced Assembly Recipe for Mechanical Extruder
-/*
     event.custom({
       type: 'create:sequenced_assembly',
       ingredient: {
@@ -514,7 +513,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -536,7 +535,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -554,11 +553,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'createaddition:bioethanol',
+            fluid: 'forge_frontier:neapolitan_milkshake',
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -580,7 +579,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -598,11 +597,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'createdieselgenerators:plant_oil',
+            fluid: 'forge_frontier:cheese',
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -620,11 +619,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'createdieselgenerators:biodiesel', // Switch to different Fluid
+            fluid: 'forge_frontier:adzuki_milkshake', 
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -664,11 +663,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'createdieselgenerators:ethanol',
+            fluid: 'forge_frontier:pomegranate_milkshake',
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -690,7 +689,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -712,7 +711,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -734,7 +733,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -756,7 +755,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -818,11 +817,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'forge_frontier:molten_iron',
+            fluid: 'tconstruct:molten_iron',
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -840,11 +839,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'forge_frontier:molten_iron',
+            fluid: 'tconstruct:molten_iron',
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -866,7 +865,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -888,7 +887,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
@@ -900,5 +899,4 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         },
         
       }).id('forge_frontier:extruding/sulphite')  
-*/
   })
