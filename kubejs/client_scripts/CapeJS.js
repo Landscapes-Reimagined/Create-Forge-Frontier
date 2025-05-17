@@ -1,7 +1,7 @@
 CapeJS.addCapes(event => 
-    {
+    { 
             const capes = 
-            {
+            { /*
             dev_team: 
               [
                 '3230493c-a1c6-4005-885c-033dbc72681b', // M0nkeyPr0grammer - Modpack Director
@@ -28,7 +28,7 @@ CapeJS.addCapes(event =>
                 for (const player of players) 
                 {
                     event.register(player, cape);
-                }
+                } 
             }
 
     }
