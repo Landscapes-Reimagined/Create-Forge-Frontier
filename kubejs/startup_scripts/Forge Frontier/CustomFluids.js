@@ -23,7 +23,7 @@ StartupEvents.registry('fluid', event => {
         { name: 'pearl', color: 0xf2bbd6 },
         { name: 'amber', color: 0xc67513 },
         { name: 'sulfur', color: 0xfcf689 },
-        { name: 'echo_shard', color: 0x03404f }
+        { name: 'echo_shard', color: 0x03404f },
     ];
 
     // Function to create molten fluids
@@ -47,5 +47,82 @@ StartupEvents.registry('fluid', event => {
 
     // Create all molten fluids
     moltenFluids.forEach(fluid => createMoltenFluid(event, fluid.name, fluid.color));
+
+    event.create('forge_frontier:cheese')
+        .displayName('Cheese')
+        .color(0xfac424) 
+        .bucketColor(0xfac424)
+        .thinTexture(0xfac424) 
+        .viscosity(1000) 
+        .temperature(300) 
+        .bucketItem;
+
+    event.create('forge_frontier:lime_juice')
+        .displayName('Lime Juice')
+        .color(0xd6f687)
+        .bucketColor(0xd6f687)
+        .thinTexture(0xd6f687) 
+        .viscosity(1000) 
+        .temperature(300) 
+        .bucketItem;
+
+    event.create('forge_frontier:pomegranate_milk')
+        .displayName('Pomegranate Milk')
+        .color(0xbb5958) 
+        .bucketColor(0xbb5958)
+        .thinTexture(0xbb5958) 
+        .viscosity(1000) 
+        .temperature(300) 
+        .bucketItem;
+
+    event.create('forge_frontier:adzuki_milk')
+        .displayName('Adzuki Milk')
+        .color(0xe59282)        
+        .bucketColor(0xe59282)
+        .thinTexture(0xe59282)  
+        .viscosity(1000)        
+        .temperature(300)       
+        .bucketItem;
+
+// === Shared Settings ===
+    const milkshakeViscosity = 1200;
+    const milkshakeDensity = 1100;
+    const milkshakeTemp = 290;
+
+    // === Neapolitan Milkshake ===
+    event.create('forge_frontier:neapolitan_milkshake')
+        .displayName('Neapolitan Milkshake')
+        .color(0xf2b8a0) // Light pink/vanilla/strawberry tone
+        .bucketColor(0xf2b8a0)
+        .stillTexture('forge_frontier:block/fluid/neapolitan_milkshake_still')
+        .flowingTexture('forge_frontier:block/fluid/neapolitan_milkshake_flow')
+        .thickTexture(0xf2b8a0)
+        .viscosity(milkshakeViscosity)
+        .density(milkshakeDensity)
+        .temperature(milkshakeTemp);
+
+    // === Pomegranate Milkshake ===
+    event.create('forge_frontier:pomegranate_milkshake')
+        .displayName('Pomegranate Milkshake')
+        .color(0xbb5958)
+        .bucketColor(0xbb5958)
+        .stillTexture('create_central_kitchen:block/fluid/pomegranate_milkshake_still')
+        .flowingTexture('create_central_kitchen:block/fluid/pomegranate_milkshake_flow')
+        .thickTexture(0xbb5958)
+        .viscosity(milkshakeViscosity)
+        .density(milkshakeDensity)
+        .temperature(milkshakeTemp);
+
+    // === Adzuki Milkshake ===
+    event.create('forge_frontier:adzuki_milkshake')
+        .displayName('Adzuki Milkshake')
+        .color(0xe59282)
+        .bucketColor(0xe59282)
+        .stillTexture('create_central_kitchen:block/fluid/adzuki_milkshake_still')
+        .flowingTexture('create_central_kitchen:block/fluid/adzuki_milkshake_flow')
+        .thickTexture(0xe59282)
+        .viscosity(milkshakeViscosity)
+        .density(milkshakeDensity)
+        .temperature(milkshakeTemp);
 
 });
