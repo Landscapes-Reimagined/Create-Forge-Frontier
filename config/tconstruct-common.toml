@@ -2,7 +2,7 @@
 #Everything to do with gameplay
 [gameplay]
 	#Set this to false to disable new players spawning with the Tinkers' Book.
-	shouldSpawnWithTinkersBook = true
+	shouldSpawnWithTinkersBook = false
 	#If true, extends the applicable slots for the fire protection enchantment to work better with shields. Will not impact gameplay with the vanilla enchantment.
 	#If false, fire protection on a shield will not reduce fire tick time.
 	extendFireProtectionSlots = true
@@ -82,7 +82,7 @@
 #If your modpack makes extensive loot table changes, many of these may be automatically disabled. You can also manually set up tables for more control.
 [loot]
 	#Adds slimy saplings and seeds into various loot chests. Helps for worlds without slime islands
-	slimy_loot = true
+	slimy_loot = false
 	#If true, ender dragons will drop scales when damaged by explosions
 	drop_dragon_Scales = true
 	#Weight of the ancient tool trade for the wandering trader. All traders randomly choose 1 rare trade, so this is roughly the chance the trade occurs compared to the vanilla options (of which there are 6).
