@@ -207,7 +207,6 @@ ServerEvents.recipes(event => {
 		]
 	  }).id('forge_frontier:item_application/advanced_collector');
 
-	/*
 	  // Creates New Hyperbox Recipe
 	event.custom({
 		type: 'create:item_application',
@@ -225,7 +224,6 @@ ServerEvents.recipes(event => {
 		  }
 		]
 	  }).id('forge_frontier:item_application/hyperbox');
-	  */
 
 	// Strophar Mushroom to Quantum Fluid Mixing Recipe
 	event.custom({

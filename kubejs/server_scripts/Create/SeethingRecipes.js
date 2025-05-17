@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-/*
     // Polished Items Seething Recipes
     const seethingRecipes = [
         {
@@ -298,5 +297,4 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('forge_frontier:seething/crushed_zinc_pile')
-*/
 })

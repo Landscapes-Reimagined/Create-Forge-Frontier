@@ -1,5 +1,16 @@
 ServerEvents.recipes(event => {
     // Ore Blasting Recipes
+        // Crushed Tin Pile
+        event.custom({
+            type: "minecraft:smelting",
+            cookingtime: 200,
+            experience: 0.1,
+            ingredient: {
+                item: 'create_compressed:crushed_tin_pile'
+            },
+            result: 'create_dd:tin_block'
+        }).id('forge_frontier:blasting/crushed_tin_pile')
+    
         // Crushed Irradium 
         event.custom({
             type: 'minecraft:blasting',

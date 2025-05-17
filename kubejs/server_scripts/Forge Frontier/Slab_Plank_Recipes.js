@@ -16,10 +16,10 @@ const woodTypes = [
     { type: 'aeronos', mod: 'ad_astra'},
     { type: 'strophar', mod: 'ad_astra'},
     { type: 'glacian', mod: 'ad_astra'},
-    // { type: 'rose', mod: 'create_dd'},
-    // { type: 'smoked', mod: 'create_dd'},
-    // { type: 'spirit', mod: 'create_dd'},
-    // { type: 'rubber', mod: 'create_dd'},
+    { type: 'rose', mod: 'create_dd'},
+    { type: 'smoked', mod: 'create_dd'},
+    { type: 'spirit', mod: 'create_dd'},
+    { type: 'rubber', mod: 'create_dd'},
     { type: 'chorus', mod: 'cataclysm'},
     { type: 'indigo', mod: 'enlightened_end'},
     { type: 'cerulean', mod: 'enlightened_end'},
@@ -130,21 +130,5 @@ const woodTypes = [
             item: 'quark:blossom_planks'
         }
         }).id( 'forge_frontier:shapeless/trumpet_slabs_to_plank' )
-
-    // Chip Wood
-    /*event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'createdieselgenerators:chip_wood_slab'
-            },
-            {
-                item: 'createdieselgenerators:chip_wood_slab'
-            }
-        ],
-        result: {
-            item: 'createdieselgenerators:chip_wood_block'
-        }
-        }).id( 'forge_frontier:shapeless/chip_wood_slabs_to_plank' )*/
-  
+ 
 })

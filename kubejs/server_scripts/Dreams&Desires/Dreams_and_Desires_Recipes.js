@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-/*
+
 	// New Infernal Mechanism Recipe
 	event.remove({ id: 'create_dd:sequenced_assembly/infernal_mechanism'})
     event.custom({
@@ -169,6 +169,5 @@ ServerEvents.recipes(event => {
 		}
 	).id( 'forge_frontier:shaped/radiant_drill' )
 
-*/
 
 })

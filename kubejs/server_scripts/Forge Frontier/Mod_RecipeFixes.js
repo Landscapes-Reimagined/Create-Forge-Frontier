@@ -173,43 +173,6 @@ ServerEvents.recipes(event => {
         growthModifier:1
     }).id('botanypots:enlightend/soil/chorloam')
 
-    /*
-    // Fixes Aluminum Boiler Recipe
-    event.remove({ id: 'design_decor:stonecutting/cyllinder/aluminum_cyllinder' })
-    event.custom({
-        type:'minecraft:stonecutting',
-        ingredient: 
-        {
-            tag: 'forge:storage_blocks/aluminum'
-        },
-        result: 'design_decor:aluminium_boiler',
-        count: 4
-    }).id( 'forge_frontier:stonecutting/aluminium_boiler' )
-
-    // Fixes Large Aluminium Boiler
-    event.remove({ id: 'design_decor:stonecutting/cyllinder/aluminium_boiler_large' })
-    event.custom({
-        type:'minecraft:stonecutting',
-        ingredient: 
-        {
-            tag: 'forge:storage_blocks/aluminum'
-        },
-        result: 'design_decor:aluminium_boiler_large',
-        count: 1
-    }).id( 'forge_frontier:stonecutting/aluminium_boiler_large' )
-
-    // Fixes Large Aluminium Chain
-    event.remove({ id: 'design_decor:stonecutting/chain/aluminium_large_chain' })
-    event.custom({
-        type: 'minecraft:stonecutting',
-        ingredient: {
-          tag: 'forge:ingots/aluminum'
-        },
-        result: 'design_decor:aluminium_large_chain',
-        count: 4
-      }).id( 'forge_frontier:stonecutting/aluminium_large_chain' )
-      */
-
     // Removes Conflicting Recipes
     event.remove({ id: 'cratedelight:minecraft/crafting/wheat_flour_bag'})
     event.remove({ id: 'cratedelight:minecraft/crafting/cinder_flour_bag'})
