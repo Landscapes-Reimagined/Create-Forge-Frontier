@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "diesel_revolution"
+	group: "3D5393E3938A9DF4"
+	icon: "createdieselgenerators:diesel_engine"
+	id: "2EB37ADC408DC853"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/diesel_gen_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.5d
+		y: -9.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To get started with Create Diesel Generators, you should use an Oil Detector to locate an Oil Chunk. Don't forget about F3 + G, which toggles chunk borders!"
+				""
+				"The main feature of the Create Diesel Generators is... you guessed it! Creating Diesel Generators which use many of the mod's different fuels to produce stress units. "
+				""
+				"The different fuel types produce differing amounts of Stress Units, but one of the easiest ways to get started with Create Diesel Generators is to pump Crude Oil using a Pumpjack Contraption and distill the Oil into Gasoline and Diesel! This questline will take you through the process of setting up a Pumpjack, setting up a Distillation of Crude Oil into Gasoline and Diesel, and teach you a few practical uses of the fuels."
+			]
+			id: "29D1C8975264C1E4"
+			rewards: [{
+				id: "4595B489D9769F75"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "First, Find An Oil Chunk!"
+			tasks: [{
+				id: "062FD2613A46ECAE"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			title: "Humble Beginnings"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["29D1C8975264C1E4"]
+			description: ["When you find an Oil Chunk, click the checkmark to signify you have found some oil! "]
+			icon: "createdieselgenerators:crude_oil_bucket"
+			id: "5830B9F3B2CE1975"
+			rewards: [{
+				id: "3168F9D94BCD7F0C"
+				type: "xp"
+				xp: 100
+			}]
+			size: 1.5d
+			subtitle: "Found it!"
+			tasks: [{
+				id: "0E14AE18CEEB903F"
+				title: "Find an Oil Chunk!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5830B9F3B2CE1975"]
+			description: [
+				"Once you have found your Oil Chunk, you must dig to bedrock, and then place a vertical pipeline going back to the surface, and then place the Pumpjack Hole on top of the pipeline."
+				""
+				"An easy way to mine to bedrock is is with a rope pulley and a mechanical drill! Check their ponders for more information!"
+				"{image:ftb:textures/pump.png width:100 height:150 align:center}"
+			]
+			icon: "createdieselgenerators:pumpjack_hole"
+			id: "7E94C9323106BC37"
+			rewards: [{
+				count: 64
+				id: "4CB0AD37E5A5A550"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Rope Pulley Recommended"
+			tasks: [
+				{
+					id: "01CFD6BF4709F722"
+					item: "createdieselgenerators:pumpjack_hole"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "321A2691794DCBD7"
+					item: { Count: 128, id: "create:fluid_pipe" }
+					type: "item"
+				}
+			]
+			title: "Time to DRILL"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E94C9323106BC37"]
+			description: [
+				"Construct a pumpjack following the ponder menu's guidance. You will need two Pumpjack Bearings and one Pumpjack Head, and some building blocks. "
+				""
+				"Don't forget to super glue the contraption together, and right click the back pumpjack bearing with a wrench! The gap between the Pumpjack Head and Pumpjack Hole should be two blocks. When properly built, right click the side Pumpjack Bearing to assemble the contraption."
+				""
+				"We will go over powering the contraption in the next quest. See an example pumpjack on the second page of this quest."
+				""
+				"{@pagebreak}"
+				"{image:ftb:textures/pumpjack.png width:150 height:150 align:center fit:true}"
+			]
+			icon: "createdieselgenerators:pumpjack_head"
+			id: "4E547102F4136AE6"
+			rewards: [{
+				id: "04D9F14074EBA19F"
+				item: "createcompression:compressed_brass_1x"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Don't Forget to Ponder!"
+			tasks: [
+				{
+					count: 2L
+					id: "3AEA3F285A203E85"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "2FECC1BC788C066D"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			title: "Create Your First Pumpjack!"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4E547102F4136AE6"]
+			description: [
+				"It's time to get pumping! Place a Pumpjack Crank below the Pumpjack Bearing on the rear of the contraption. Then, give it rotational power."
+				""
+				"If the gap between your Pumpjack Crank and the Pumpjack Bearing is two blocks, it will pull 100mb of Crude Oil from the Pumpjack Hole every time the Contraption visibly goes up and down. "
+				""
+				"If the gap is three blocks, however, you will see the Pumpjack Crank does not connect to the contraption. This is because you must toggle the Pumpjack Crank's size on the side of the block. A Pumpjack Contraption powered by a large Pumpjack Crank will produce 200mb of Crude Oil every time the Contraption visibly goes up and down. "
+				""
+				"See an example of each on the following pages. "
+				"P.S. It is almost always better to use the large Pumpjack Crank size. "
+				"{@pagebreak}"
+				"    Small Pumpjack Crank (2 Block Gap) "
+				"            100mb per Operation"
+				"{image:ftb:textures/smallcrank.png width:100 height:150 align:center fit:false}"
+				"{@pagebreak}"
+				"  Large Pumpjack Crank (3 Block Gap)"
+				"            200mb per Operation"
+				"{image:ftb:textures/largecrank.png width:100 height:150 align:center fit:false}"
+			]
+			id: "37FD739FABEC6136"
+			rewards: [{
+				id: "318B4C876609C255"
+				item: "createcompression:compressed_brass_1x"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Fossil Fuel?"
+			tasks: [{
+				id: "06CBE9D90FBD2E29"
+				item: "createdieselgenerators:pumpjack_crank"
+				type: "item"
+			}]
+			title: "Pump it UP!"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37FD739FABEC6136"]
+			description: [
+				"By Default, the amount of Oil in a chunk is not infinite, however this can be changed via configs."
+				""
+				"To begin producing Gasoline and Diesel, you must pipe the Crude Oil from the Pumpjack Hole to a Distillation Tower, and heat that Distillation Tower with a Blaze Burner. An example is shown on the following page."
+				""
+				"For more information about setting up a Distillation Tower, check the ponder for the Distillation Controller. "
+				""
+				"                  -- NOTE --"
+				"Gasoline is better used for super heating blaze burners, whereas diesel is the best fuel for generators as it produces the most stress units. "
+				"{@pagebreak}"
+				"        An explanation of this image"
+				"      can be found on the next page."
+				"{image:ftb:textures/distillation_tower.png width:100 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				"Pictured on the left is the Pumpjack Hole supplying Crude Oil to the Bottom Tank of the Distillation Tower (3 Fluid Tanks, Right Click with the Distillation Controller). It is heated by a Blaze Burner with Straw supplied with infinite Lava via a Creative Fluid Tank, but this can be achieved with a Chunkloaded Hose Pulley in the Nether piping into a Void Tank."
+				""
+				"Taking a closer look at the tower itself, Diesel and Gasoline are produced in the middle and top tanks respectively. Then, those fluids can be piped out to separate tanks for holding. "
+				""
+				"NOTE: If either Gasoline or Diesel is full, the other fuel will not be distilled."
+			]
+			icon: "createdieselgenerators:distillation_controller"
+			id: "77BDD0DB96F69AB7"
+			rewards: [{
+				count: 16
+				id: "4C64F78BF509AD00"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Time to Get Gassy"
+			tasks: [
+				{
+					count: 3L
+					id: "15AD767305EC95B5"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3A1267EBBE6F895C"
+					item: {
+						Count: 3
+						id: "createdieselgenerators:distillation_controller"
+					}
+					type: "item"
+				}
+				{
+					id: "06EA94CAA559E424"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Distillation"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["77BDD0DB96F69AB7"]
+			description: [
+				"It’s finally time to start producing Stress Units (SU)! Hopefully you’ve been saving the brass from earlier quests — you’re going to need it. A single Diesel Generator, when powered with diesel fuel, can produce 6,144 SU. To power it, simply pump fuel into the bottom of the generator, or into the side if placed vertically. "
+				""
+				"While SU output varies depending on the fuel type, this questline assumes you’ll be using diesel, as it provides the highest efficiency."
+			]
+			id: "0EB44CD793018721"
+			rewards: [{
+				id: "7F00E0946DCEA740"
+				item: "createcompression:compressed_brass_1x"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Time for POWER!"
+			tasks: [{
+				id: "23DBDE9568EF99E3"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			title: "Four Cylinders and a Dream"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0EB44CD793018721"]
+			description: ["Modular Diesel Engines can be placed in a row, one directly in front of the other, and their Stress Unit (SU) output will combine automatically. One major advantage of this setup is pumping efficiency — you only need to pump fuel into a single engine in the line, and the others will draw fuel from it as needed. It also produces more SU at 8192 SU! That's as strong as a full windmill!"]
+			id: "23B60841FC919BF6"
+			rewards: [{
+				count: 2
+				id: "5BF7DFCB8B431A31"
+				item: "create_compressed:brass_sheet_block"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Modularity!"
+			tasks: [{
+				id: "64A3B477A54283BA"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			title: "Combining The Power"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23B60841FC919BF6"]
+			description: [
+				"The Huge Diesel Engine is a significant upgrade over traditional steam engine setups. When fueled with diesel, each engine produces an impressive 16,384 SU, making it ideal for powering large, complex machinery in a compact space."
+				""
+				"Multiple engines can be placed around a shaft to quickly scale up your SU output. Pump the fuel into the sides, and note that you can pump fuel from one engine to the next. Just be sure your fuel production can keep up — you may need additional Distillation Towers to support the increased consumption. "
+				""
+				"An example setup can be found on the following page. "
+				""
+				"{@pagebreak}"
+				"            This setup produces"
+				"                    196,608SU"
+				"{image:ftb:textures/huge_diesel_engine.png width:100 height:150 align:center}"
+			]
+			id: "24AFCEFF265E8B95"
+			rewards: [{
+				count: 3
+				id: "1264FD495C760337"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Steam Engine Who? "
+			tasks: [{
+				id: "00C3774B1DED5A80"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			title: "Diesel Is the New Steam"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			description: ["Check me to gain access to the quests for all of Create Diesel Generator's Useful Items!"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "createdieselgenerators:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2BA6D9D0B69234F0"
+			rewards: [{
+				id: "5C2B2D62429A8FD8"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Many Good Things Here!"
+			tasks: [{
+				id: "49D5C3FD8AD01B4F"
+				title: "Gear"
+				type: "checkmark"
+			}]
+			title: "Useful Items"
+			x: 6.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Wire Cutters allow you to produce rods and wires without needing a rolling mill or saw! Just hold the item in your off hand and the cutters in your main hand and get cutting!"]
+			hide_dependency_lines: true
+			id: "05413BAD9F2791F5"
+			rewards: [{
+				id: "2E86C17FB8BBD8ED"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Snip Snip"
+			tasks: [{
+				id: "7A793FE257B33F4D"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:wire_cutters"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Hammer allows you to produce sheets! Hold the hammer in your main hand and your ingot in the off hand and get pressing!"]
+			hide_dependency_lines: true
+			id: "3907E48DCE7DFB77"
+			rewards: [{
+				id: "33049429698A4264"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "BONK!"
+			tasks: [{
+				id: "3EDEB6FEA783A2DA"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Engine Silencer silences those loud Diesel Engines! "]
+			hide_dependency_lines: true
+			id: "15B2EC09599797A8"
+			rewards: [{
+				id: "6AFA459F1354EDBF"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Quiet Machines!"
+			tasks: [{
+				id: "50E36B1A3B0BE390"
+				item: "createdieselgenerators:engine_silencer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Engine Turbocharger speeds up the RPM output of your Diesel Engines!"]
+			hide_dependency_lines: true
+			id: "6FB9E8BA21F5EDF6"
+			rewards: [{
+				id: "04996E49D42CEBE4"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Faster, Faster!"
+			tasks: [{
+				id: "2C0A1BC380A1879B"
+				item: "createdieselgenerators:engine_turbocharger"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Burner takes fuel as an input and allows you to perform Heated recipes using a basin. "]
+			hide_dependency_lines: true
+			id: "78503BBEA4CC6D28"
+			rewards: [{
+				id: "0F3D76309E8A0734"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "No Blaze Necessary"
+			tasks: [{
+				id: "4283E5888EB46FF6"
+				item: "createdieselgenerators:burner"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Pop a Basin Lid onto a basin, add the proper ingredients, then close the Basin Lid to begin fermenting! There are a variety of fermenting recipes, check EMI for more information. "]
+			hide_dependency_lines: true
+			id: "1AC6B1F2F4122C4A"
+			rewards: [{
+				id: "5317323D1E9E5DDA"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Basics of Fermenting"
+			tasks: [{
+				id: "76CE33EDAF50BAE1"
+				item: "createdieselgenerators:basin_lid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Canister transports fluids and keeps its fluid contents when broken. "]
+			hide_dependency_lines: true
+			id: "4FC060DD3C54012C"
+			rewards: [{
+				id: "6CEF855C0EBD0378"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Fluid Mobility"
+			tasks: [{
+				id: "218243475B164790"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:canister"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Oil Canister is a decorative fluid tank that can be placed horizontally and vertically. "]
+			hide_dependency_lines: true
+			id: "2D7E938E6E314605"
+			rewards: [{
+				id: "255A65307E4F9668"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Horizontal Fluids!"
+			tasks: [{
+				id: "746A763F1811CFA6"
+				item: "createdieselgenerators:oil_barrel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Lighter is an alternative to flint and steel, fill it with any fuel and it will light things on fire! It can be combined with the Chemical Sprayer and Chemical Turret to light their fuels on fire!"]
+			hide_dependency_lines: true
+			id: "07162A415EBFC65E"
+			rewards: [{
+				id: "051B35F7D5FBF900"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Flint and... Fuel? "
+			tasks: [{
+				id: "486428298E1C39E2"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:lighter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Fill the Chemical Sprayer with Fuel, add a lighter using a deployer, and BOOM, FLAMETHROWER!"]
+			hide_dependency_lines: true
+			id: "34062B40D31B4F4D"
+			rewards: [{
+				id: "2032A85C2E309048"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Basically a Flamethrower"
+			tasks: [{
+				id: "56673B840DA57E67"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:chemical_sprayer_lighter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Place the Chemical Sprayer, power it with a cogwheel, and supply it with fuel from the bottom, then power it with redstone and it will begin spraying similarly to the Chemical Sprayer. If you add a lighter to the Chemical Sprayer used in the crafting recipe, it will ignite the sprayed fuel. Sit a mob on a Create Seat next to the sprayer and it will auto target hostile mobs and spray them!"]
+			hide_dependency_lines: true
+			id: "5AD39276BAEE50B1"
+			rewards: [{
+				id: "5A044445447C1E7D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Tower Defense Time"
+			tasks: [{
+				id: "1B18CCD2F826B845"
+				item: "createdieselgenerators:chemical_turret"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["This allows you to hold 1024 track pieces in a single slot!"]
+			hide_dependency_lines: true
+			id: "2487C9AA4AEE5F5B"
+			rewards: [{
+				id: "6FEAF72E322443AD"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Bundle on Steroids!"
+			tasks: [{
+				id: "4A19B811E6796864"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:track_layers_bag"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Crush some wood materials down into wood chips that can be used to craft wood chip blocks, stairs, or slabs. They can also be used in molds. See more uses in EMI. "]
+			hide_dependency_lines: true
+			id: "0471F4F16B2F2933"
+			rewards: [{
+				id: "35B72622B9C716AA"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Crushing Wood!"
+			tasks: [{
+				id: "3840F49115BCFDFB"
+				item: "createdieselgenerators:wood_chip"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["This allows you to filter things by entities. Maybe you can find some use for it!"]
+			hide_dependency_lines: true
+			id: "5F0695382853A104"
+			rewards: [{
+				id: "0DDCB53C91196DDE"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Entity Management"
+			tasks: [{
+				id: "399B5DE255129647"
+				item: "createdieselgenerators:entity_filter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["A dedicated fermenting tower. Add in your items using a hopper, chute, or item pipe, and they will begin to ferment!"]
+			hide_dependency_lines: true
+			id: "1259F7A3DEAB87EF"
+			rewards: [{
+				id: "715BB5F68A38B940"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Fermenting in Style"
+			tasks: [{
+				id: "10E634FC872D4A83"
+				item: "createdieselgenerators:bulk_fermenter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Biodiesel is made from Ethanol and Plant oil in a mixer. Ethanol is made via Fermenting, and Plant Oil is made by pressing seeds in a basin. These fuels can be used in generators, but deliver less power than Diesel or Gasoline."]
+			hide_dependency_lines: true
+			id: "7EC4DAFD5DA02863"
+			rewards: [{
+				id: "23CE30898975AD03"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "\"Enviromentally Friendly\""
+			tasks: [
+				{
+					id: "02F5482AEC58F5D6"
+					item: "createdieselgenerators:biodiesel_bucket"
+					type: "item"
+				}
+				{
+					id: "2F727A3A8B2EE225"
+					item: "createdieselgenerators:ethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "7EC26758CA39F5CD"
+					item: "createdieselgenerators:plant_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "Other Fuels!"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["These molds allow you to produce a variety of items! First, cut a iron sheet on a saw into the mold you want using a List Filter in the filter slot. Then, place the mold into the basin, and add the proper materials, and it will press the items into the mold to make your desired output. The mold is not consumed in this process. "]
+			hide_dependency_lines: true
+			id: "68198F6F06FFCE2F"
+			rewards: [{
+				id: "241F7FC5858892B2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Even MORE Basin Pressing"
+			tasks: [
+				{
+					id: "4E453752D6D07792"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:bowl"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EB9AAA85FFCAC86"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:lines"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74F56248EAD63C35"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:chain"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "580DAE8A3C47E814"
+					item: {
+						Count: 1
+						id: "createdieselgenerators:mold"
+						tag: {
+							Mold: "createdieselgenerators:bar"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mold Templates"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["The Andesite Girder is a decorative item and is similar to the existing Metal Girder."]
+			hide_dependency_lines: true
+			id: "134494CD251F0F4A"
+			rewards: [{
+				id: "09D73156D908AF6C"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Decor!"
+			tasks: [{
+				id: "305820B321630359"
+				item: "createdieselgenerators:andesite_girder"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Asphalt is made from Crude Oil, gravel, and sand. It is a decorative block. You can make stairs and slabs with it. "]
+			hide_dependency_lines: true
+			id: "7C922B2B6A263E68"
+			rewards: [{
+				id: "72D964D1E134D97F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Road Work Ahead"
+			tasks: [{
+				id: "6AEA97537D139CC8"
+				item: "createdieselgenerators:asphalt_block"
+				type: "item"
+			}]
+			title: "Asphalt"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BA6D9D0B69234F0"]
+			description: ["Cement is made from mixing water and concrete powder. The color of the cement depends on the color of the concrete powder used."]
+			hide_dependency_lines: true
+			id: "3FDBE5EB3CD31358"
+			rewards: [{
+				id: "19DF91B9486567C9"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Mixing Things Up"
+			tasks: [{
+				id: "108B10DACF8F6455"
+				item: "createdieselgenerators:gray_cement_bucket"
+				type: "item"
+			}]
+			title: "Cement"
+			x: 9.0d
+			y: 2.5d
+		}
+	]
+	title: "Powering the Revolutions (Create Diesel Generators)"
+}
