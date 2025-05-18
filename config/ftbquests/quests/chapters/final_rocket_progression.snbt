@@ -31,104 +31,80 @@
 			image: "ftb:textures/rocket_cone_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -12.5d
-			y: 4.0d
+			x: -12.0d
+			y: 4.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_casing_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 2.0d
-			y: 4.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_door_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 16.5d
-			y: 4.0d
+			x: 17.0d
+			y: 4.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_tank_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -13.5d
-			y: 19.0d
+			x: -14.0d
+			y: 14.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_engine_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 2.5d
-			y: 19.0d
+			x: 2.0d
+			y: 14.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/rocket_core_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 17.5d
-			y: 19.0d
+			x: 17.0d
+			y: 14.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/left_fin_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -5.5d
-			y: 32.0d
+			x: -6.5d
+			y: 23.5d
 		}
 		{
 			height: 1.0d
 			image: "ad_astra:textures/gui/sprites/arrow.png"
 			rotation: 0.0d
 			width: 1.6666666666666667d
-			x: -2.5d
-			y: 35.5d
+			x: -3.5d
+			y: 27.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/right_fin_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 9.0d
-			y: 32.0d
+			x: 8.0d
+			y: 23.5d
 		}
 		{
 			height: 1.0d
 			image: "ad_astra:textures/gui/sprites/arrow.png"
 			rotation: 0.0d
 			width: 1.6666666666666667d
-			x: 10.5d
-			y: 35.5d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: 18.5d
-			y: 23.0d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: 4.0d
-			y: 22.0d
-		}
-		{
-			height: 1.0d
-			image: "ad_astra:textures/gui/sprites/arrow.png"
-			rotation: 0.0d
-			width: 1.6666666666666667d
-			x: -10.5d
-			y: 22.5d
+			x: 9.5d
+			y: 27.0d
 		}
 		{
 			height: 1.0d
@@ -136,7 +112,7 @@
 			rotation: 0.0d
 			width: 1.6666666666666667d
 			x: 18.0d
-			y: 8.0d
+			y: 18.5d
 		}
 		{
 			height: 1.0d
@@ -144,15 +120,39 @@
 			rotation: 0.0d
 			width: 1.6666666666666667d
 			x: 3.5d
-			y: 8.0d
+			y: 17.5d
 		}
 		{
 			height: 1.0d
 			image: "ad_astra:textures/gui/sprites/arrow.png"
 			rotation: 0.0d
 			width: 1.6666666666666667d
-			x: -9.0d
-			y: 8.0d
+			x: -11.0d
+			y: 18.0d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 18.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "ad_astra:textures/gui/sprites/arrow.png"
+			rotation: 0.0d
+			width: 1.6666666666666667d
+			x: -8.5d
+			y: 8.5d
 		}
 	]
 	order_index: 6
@@ -271,6 +271,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_fin_left"
 			id: "45896323D20A614F"
+			rewards: [{
+				id: "2760340728EBFBFE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Balance Forged in Flight. Click me for more info!"
 			tasks: [{
 				count: 2L
@@ -297,6 +302,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_fin_left"
 			id: "2440BFE4B5131CBC"
+			rewards: [{
+				id: "387DD877E3F9E627"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Balance Forged in Flight. Click me for more info!"
 			tasks: [{
 				id: "2B8CFD38442AF465"
@@ -322,6 +332,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_fin_right"
 			id: "3613ED84D9018B60"
+			rewards: [{
+				id: "304CC24A679DBF9D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Symmetry in Motion, Click me for more info!"
 			tasks: [{
 				count: 2L
@@ -348,6 +363,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_fin_right"
 			id: "3BAA143D8FC45CBC"
+			rewards: [{
+				id: "76CF759AA1793548"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Symmetry in Motion, Click me for more info!"
 			tasks: [{
 				id: "3BAB4690E4BDBF8E"
@@ -373,6 +393,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_tank"
 			id: "40E4A50EA66F1B39"
+			rewards: [{
+				id: "64E5B7B988C25967"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Fueling the Flames of the Final Frontier. Click me for more info!"
 			tasks: [{
 				id: "25F18022F79620A8"
@@ -398,6 +423,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_tank"
 			id: "6AC7B8878F6A4865"
+			rewards: [{
+				id: "5AF57E5E3206944F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Fueling the Flames of the Final Frontier. Click me for more info!"
 			tasks: [{
 				count: 2L
@@ -424,6 +454,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_core"
 			id: "5E5285009F4E0981"
+			rewards: [{
+				id: "5B86681A67ED5CF4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Mind That Guides the Flame. Click me for more info!"
 			tasks: [{
 				id: "6F8FF514C5026DC0"
@@ -449,6 +484,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_engine"
 			id: "4F69B98546F521BE"
+			rewards: [{
+				id: "02707C358174B6F7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Fire That Breaks the Sky. Click me for more info!"
 			tasks: [
 				{
@@ -481,6 +521,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "6BF5F6F5E9B0F6B7"
+			rewards: [{
+				id: "542985639E82501D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 11L
@@ -507,6 +552,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "0F323F6B149201ED"
+			rewards: [{
+				id: "74B503E0219D4791"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 12L
@@ -533,6 +583,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "115EAB268DA26FC2"
+			rewards: [{
+				id: "3EFB126C058C24C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 13L
@@ -559,6 +614,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "01C5A24BC7CC2BE7"
+			rewards: [{
+				id: "4C3AE5E3FB00E0A3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 9L
@@ -585,6 +645,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "6E746C30A1D5F1A5"
+			rewards: [{
+				id: "0D29E4C5AA024605"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 10L
@@ -611,6 +676,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "0DD3EE62AAC15828"
+			rewards: [{
+				id: "02779A15A247D1D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 7L
@@ -715,6 +785,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "2A09E2154B6C0CB3"
+			rewards: [{
+				id: "78C8AE95B4BB10BE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 6L
@@ -741,6 +816,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "05ED4FAADAE24126"
+			rewards: [{
+				id: "7095E5E65723D633"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				id: "0A1EDAF1CE5757EB"
@@ -766,6 +846,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "0449EAD19A4F22FE"
+			rewards: [{
+				id: "4F39166B63DF0A28"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 2L
@@ -792,6 +877,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "4A72FA334E1FF90B"
+			rewards: [{
+				id: "16E054AFF5C08CC9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 3L
@@ -838,6 +928,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_door"
 			id: "68E19B88A3FC363D"
+			rewards: [{
+				id: "6C7342B3A05122B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "A reinforced access door for entering and exiting the Forge Rocket. Provides a secure seal, ensuring the rocket remains airtight during liftoff and in deep space. "
 			tasks: [{
 				id: "756E732DE490D6C8"
@@ -854,6 +949,11 @@
 				"{ \"text\": \"Tier 6 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"02DAAC2A8AE50C94\" } }"
 			]
 			id: "397DCD619B732A44"
+			rewards: [{
+				id: "2F03F1B052E56D60"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "7DEC3AB1A2032B67"
@@ -887,6 +987,18 @@
 			]
 			hide_dependent_lines: true
 			id: "262FF2B00E853521"
+			rewards: [
+				{
+					id: "00F1861ABC6FF80E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "01B911DEBC4A7B75"
+					item: "forge_frontier:forge_alloy"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Unlock the Power of Creation. Click me for more info!"
@@ -901,6 +1013,19 @@
 		}
 		{
 			id: "45CE256EDFD2214D"
+			rewards: [
+				{
+					count: 2
+					id: "735879927DED4E7D"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "55B14EF2B9B3C0BE"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Kobolediator found on Mars"
 			tasks: [{
@@ -914,11 +1039,24 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 6.0d
+			x: -12.0d
+			y: 6.5d
 		}
 		{
 			id: "469238B1CF3B21C6"
+			rewards: [
+				{
+					count: 2
+					id: "14B71D282A287D12"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "6112B194E92B3030"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Maledictus found on Glacio"
 			tasks: [{
@@ -932,11 +1070,24 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.0d
+			x: -14.0d
+			y: 6.5d
 		}
 		{
 			id: "2E72579CC7C70527"
+			rewards: [
+				{
+					count: 2
+					id: "706292E5CB34ECA5"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "27D6B06BFD66C4D7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Ignis is found on Mercury"
 			tasks: [{
@@ -950,11 +1101,24 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 6.0d
+			x: -13.0d
+			y: 6.5d
 		}
 		{
 			id: "51FF9610C39CA1D5"
+			rewards: [
+				{
+					count: 2
+					id: "3D75CFC60761A733"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					id: "086B1F9BB293A45B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Netherite Monstrosity found on the Moon"
 			tasks: [{
@@ -968,11 +1132,24 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 6.0d
+			x: -11.0d
+			y: 6.5d
 		}
 		{
 			id: "6C1BFD24E98941AD"
+			rewards: [
+				{
+					count: 2
+					id: "35F47F688EC72DB6"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+				{
+					id: "789AE7BF3B492ACA"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by fishing, recommend using Aquaculture fishing tools"
 			tasks: [{
@@ -986,11 +1163,24 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 6.0d
+			x: -10.0d
+			y: 6.5d
 		}
 		{
 			id: "3EFA0C835FBE21B7"
+			rewards: [
+				{
+					count: 2
+					id: "5A09A7D4D2CF48DD"
+					item: "advancednetherite:netherite_diamond_ingot"
+					type: "item"
+				}
+				{
+					id: "7A56DFE33532C64B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by going through the different tiers of Netherite"
 			tasks: [{
@@ -1004,11 +1194,24 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 7.0d
+			x: -14.0d
+			y: 7.5d
 		}
 		{
 			id: "10622F361011CB8D"
+			rewards: [
+				{
+					count: 2
+					id: "67927B410515FD00"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					id: "633688007FA137F0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by Looting Ancient Cities or Deeper Darker's Otherside"
 			tasks: [{
@@ -1022,11 +1225,24 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 7.0d
+			x: -10.0d
+			y: 7.5d
 		}
 		{
 			id: "65FE0F963EA02086"
+			rewards: [
+				{
+					count: 2
+					id: "225CEDBF5CEF0A24"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					id: "7D9A39821116BD1A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by Killing Alex's Caves' Forsaken and Watcher, found on the Forlorn Hollows Planet"
 			tasks: [{
@@ -1040,11 +1256,23 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 8.0d
+			x: -14.0d
+			y: 8.5d
 		}
 		{
 			id: "2AF6BA87B0BC3C64"
+			rewards: [
+				{
+					id: "3E6ACFC06C0939BD"
+					item: "alexscaves:sack_of_sating"
+					type: "item"
+				}
+				{
+					id: "45FC5F85F807E948"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by allowing Alex's Caves' Gingerbread men to steal candy from your inventory , then there's a chance to get the armor in a nearby barrel found on the Candy Cavity Planet"
 			tasks: [{
@@ -1058,11 +1286,28 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 8.0d
+			x: -10.0d
+			y: 8.5d
 		}
 		{
 			id: "707BE9E6F479E8AD"
+			rewards: [
+				{
+					id: "0F4F53537946000F"
+					item: "alexscaves:tough_hide"
+					type: "item"
+				}
+				{
+					id: "1F5C18AB69032231"
+					item: "alexscaves:heavy_bone"
+					type: "item"
+				}
+				{
+					id: "10DD0B3DEF2485CE"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by killing Alex's Caves' Grottoceratops found on the Primordial Caves Planet"
 			tasks: [{
@@ -1076,11 +1321,24 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 9.0d
+			x: -14.0d
+			y: 9.5d
 		}
 		{
 			id: "3C40155C09BE352D"
+			rewards: [
+				{
+					count: 2
+					id: "7B9B93DF01D49E9E"
+					item: "createqol:shadow_radiance"
+					type: "item"
+				}
+				{
+					id: "70D75BF4541AD43B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by combining Shadow Radiance with a Netherite Diving Helmet, check EMI for Recipes"
 			tasks: [{
@@ -1094,11 +1352,24 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 9.0d
+			x: -10.0d
+			y: 9.5d
 		}
 		{
 			id: "07FB3DFAA3D85C95"
+			rewards: [
+				{
+					count: 2
+					id: "113D14325BB12453"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "3BB3F56F167E68EC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft the helmet is obtained by crafting through the Ad Astra space suit tiers"
 			tasks: [{
@@ -1112,11 +1383,23 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 10.0d
+			x: -12.0d
+			y: 10.5d
 		}
 		{
 			id: "1C93CB7C78223893"
+			rewards: [
+				{
+					id: "47808FF0D5B082EA"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+				{
+					id: "4555A67E0EAB74A1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Netherite Monstrosity and Ender Golem found on the Moon and the End"
 			tasks: [{
@@ -1130,22 +1413,48 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 7.0d
+			x: -13.0d
+			y: 7.5d
 		}
 		{
 			id: "20CE801B1C3135B7"
+			rewards: [
+				{
+					count: 2
+					id: "612359FD2FD9EC14"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "33599073B28F9FCD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "5A3834F7DB3D5C21"
 				item: "ad_astra:rocket_nose_cone"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 8.0d
+			x: -12.0d
+			y: 8.5d
 		}
 		{
 			id: "629457FD68736CC6"
+			rewards: [
+				{
+					count: 2
+					id: "285052362BD613B9"
+					item: "ae2:fluix_block"
+					type: "item"
+				}
+				{
+					id: "3D3AD0C5DCFCCD28"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by combing a Fluix block with a Quartz sword"
 			tasks: [{
@@ -1159,11 +1468,24 @@
 				}
 				type: "item"
 			}]
-			x: -14.5d
-			y: 10.0d
+			x: -14.0d
+			y: 10.5d
 		}
 		{
 			id: "1BF2E8B90C3BFA87"
+			rewards: [
+				{
+					count: 2
+					id: "780A58CC7815218C"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+				{
+					id: "52D56ED2949B5FD0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by fishing, recommend using Aquaculture fishing tools"
 			tasks: [{
@@ -1177,11 +1499,24 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 10.0d
+			x: -13.0d
+			y: 10.5d
 		}
 		{
 			id: "4FF96EE047C7D563"
+			rewards: [
+				{
+					count: 2
+					id: "7476368C865F2B22"
+					item: "enlightened_end:adamantite_ingot"
+					type: "item"
+				}
+				{
+					id: "69750FCEA68157B4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by mining adamantium, which is found in the End"
 			tasks: [{
@@ -1195,11 +1530,24 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: 9.0d
+			x: -12.0d
+			y: 9.5d
 		}
 		{
 			id: "33036CEFC78CACBD"
+			rewards: [
+				{
+					count: 2
+					id: "325DADEABD5FD17D"
+					item: "advancednetherite:netherite_diamond_ingot"
+					type: "item"
+				}
+				{
+					id: "1EA5BAB30CD83DD2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by going through the different tiers of Netherite"
 			tasks: [{
@@ -1213,11 +1561,24 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 9.0d
+			x: -11.0d
+			y: 9.5d
 		}
 		{
 			id: "62DC06E6DB52DC11"
+			rewards: [
+				{
+					count: 2
+					id: "2DDA69CF2F1EC313"
+					item: "create_ethium:ethium_ingot"
+					type: "item"
+				}
+				{
+					id: "20682F46D1636B34"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by crafting Ethium, check EMI for crafting recipe"
 			tasks: [{
@@ -1231,11 +1592,24 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 9.0d
+			x: -13.0d
+			y: 9.5d
 		}
 		{
 			id: "3F35A78827F7CA22"
+			rewards: [
+				{
+					count: 2
+					id: "38D8EB4C1F172BBE"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					id: "2FC1519360C55DA5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by Looting Ancient Cities or Deeper Darker's Otherside"
 			tasks: [{
@@ -1249,11 +1623,32 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 8.0d
+			x: -11.0d
+			y: 8.5d
 		}
 		{
 			id: "01C6755A2144B2F8"
+			rewards: [
+				{
+					id: "4179A2BF4AE822E9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:channeling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "228BEBCA433E9BF9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by crafting Prismarine Rods with Polished Quartz Tine"
 			tasks: [{
@@ -1267,11 +1662,24 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 10.0d
+			x: -10.0d
+			y: 10.5d
 		}
 		{
 			id: "64399941DFB2A700"
+			rewards: [
+				{
+					count: 2
+					id: "43DD66930278889C"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "7C5A95E375D73C12"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Maledictus and Draugrs found on Glacio"
 			tasks: [{
@@ -1279,11 +1687,23 @@
 				item: "cataclysm:soul_render"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 7.0d
+			x: -12.0d
+			y: 7.5d
 		}
 		{
 			id: "3343738F7E731B9A"
+			rewards: [
+				{
+					id: "1D59403799CB0206"
+					item: "cataclysm:bulwark_of_the_flame"
+					type: "item"
+				}
+				{
+					id: "48F2FE94F510281D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Ignis and Ender Guardian found on Mercury and the End"
 			tasks: [{
@@ -1291,11 +1711,24 @@
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 7.0d
+			x: -11.0d
+			y: 7.5d
 		}
 		{
 			id: "243D72631150166A"
+			rewards: [
+				{
+					count: 2
+					id: "3A55B0CBC3C09F3A"
+					item: "alexscaves:tectonic_shard"
+					type: "item"
+				}
+				{
+					id: "7D9D4E8B545C106E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by Killing Alex's Caves' Luxtructosaurus and Atlatitan found on the Primordial Caves Planet"
 			tasks: [{
@@ -1309,11 +1742,24 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 8.0d
+			x: -13.0d
+			y: 8.5d
 		}
 		{
 			id: "48EFFFA049A30504"
+			rewards: [
+				{
+					count: 2
+					id: "00695B013EDC0514"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "462ACF7529C76606"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Kobolediator found on Mars"
 			tasks: [{
@@ -1327,8 +1773,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 10.0d
+			x: -11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1362,17 +1808,34 @@
 			hide_dependent_lines: true
 			icon: "forge_frontier:forge_rocket_nose_cone"
 			id: "66D6C6A425AF48A8"
+			rewards: [
+				{
+					id: "7DFC0462633A2262"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1D5AE18731E5A272"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+			]
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "30C7B705892365E5"
 				item: "forge_frontier:forge_rocket_nose_cone"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			id: "645095D1F886FAB8"
+			rewards: [{
+				id: "15E3664815B319FA"
+				item: "forge_frontier:compressed_lead_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1380,11 +1843,16 @@
 				item: "forge_frontier:compressed_lead_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			id: "7AAFF03DB14B563A"
+			rewards: [{
+				id: "24D8AFA06437AADC"
+				item: "forge_frontier:compressed_shaft_bundle_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -1392,11 +1860,16 @@
 				item: "forge_frontier:compressed_shaft_bundle_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			id: "102FDF88DD007049"
+			rewards: [{
+				id: "375A6EB0BC4BE3A9"
+				item: "forge_frontier:compressed_malachite_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1404,11 +1877,16 @@
 				item: "forge_frontier:compressed_malachite_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			id: "3D492F19757FBF68"
+			rewards: [{
+				id: "7071F652799BBB54"
+				item: "forge_frontier:compressed_irradium_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1416,11 +1894,16 @@
 				item: "forge_frontier:compressed_irradium_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 6.0d
+			x: 2.5d
+			y: 6.5d
 		}
 		{
 			id: "33D089BFFBB8ACA8"
+			rewards: [{
+				id: "22416CB1AF0AB7E1"
+				item: "forge_frontier:compressed_bismuth_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1428,11 +1911,16 @@
 				item: "forge_frontier:compressed_bismuth_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.0d
+			x: -0.5d
+			y: 7.5d
 		}
 		{
 			id: "05B3C1EA21803DF9"
+			rewards: [{
+				id: "6207A2A7F79AF25A"
+				item: "forge_frontier:compressed_desh_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1440,11 +1928,16 @@
 				item: "forge_frontier:compressed_desh_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			id: "4579583A3455FFF4"
+			rewards: [{
+				id: "10A738176369ADB4"
+				item: "forge_frontier:compressed_ostrum_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1452,11 +1945,16 @@
 				item: "forge_frontier:compressed_ostrum_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.0d
+			x: 1.5d
+			y: 7.5d
 		}
 		{
 			id: "71DCABE706D3F906"
+			rewards: [{
+				id: "2B577D1DB1F6146B"
+				item: "forge_frontier:compressed_calorite_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1464,11 +1962,16 @@
 				item: "forge_frontier:compressed_calorite_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.0d
+			x: 2.5d
+			y: 7.5d
 		}
 		{
 			id: "1A6B742AD4174067"
+			rewards: [{
+				id: "29AB5D5436967832"
+				item: "forge_frontier:compressed_scarlet_neodymium_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1476,11 +1979,16 @@
 				item: "forge_frontier:compressed_scarlet_neodymium_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			id: "6384135DAEA1989D"
+			rewards: [{
+				id: "3C6C0F06A8679834"
+				item: "forge_frontier:compressed_azure_neodymium_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1488,11 +1996,16 @@
 				item: "forge_frontier:compressed_azure_neodymium_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 0.5d
+			y: 8.5d
 		}
 		{
 			id: "7A49199AD7C67856"
+			rewards: [{
+				id: "55FD3003571A0AEB"
+				item: "forge_frontier:compressed_uranium_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1500,11 +2013,16 @@
 				item: "forge_frontier:compressed_uranium_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.0d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			id: "2699748D3172F7AA"
+			rewards: [{
+				id: "0998C5A6431305B4"
+				item: "forge_frontier:compressed_amber_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1512,11 +2030,16 @@
 				item: "forge_frontier:compressed_amber_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			id: "0E073BDDBE007735"
+			rewards: [{
+				id: "0F5D05742CACC788"
+				item: "forge_frontier:compressed_sulfur_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1524,11 +2047,16 @@
 				item: "forge_frontier:compressed_sulfur_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: -0.5d
+			y: 9.5d
 		}
 		{
 			id: "441F7841C05A866D"
+			rewards: [{
+				id: "3808A99B3681B523"
+				item: "forge_frontier:compressed_guano_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1536,11 +2064,16 @@
 				item: "forge_frontier:compressed_guano_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			id: "353E7BD7A9A0F94B"
+			rewards: [{
+				id: "7C894C93FA867C4D"
+				item: "forge_frontier:compressed_pearl_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1548,11 +2081,16 @@
 				item: "forge_frontier:compressed_pearl_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: 0.5d
+			y: 9.5d
 		}
 		{
 			id: "262FB7030C4331FA"
+			rewards: [{
+				id: "39010EF3BC385241"
+				item: "forge_frontier:compressed_mithril_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation or washing byproducts of Mechanical Extruders"
 			tasks: [{
@@ -1560,11 +2098,16 @@
 				item: "forge_frontier:compressed_mithril_4x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 2.5d
+			y: 9.5d
 		}
 		{
 			id: "286780F7814926B8"
+			rewards: [{
+				id: "5E672F35AF3314F7"
+				item: "forge_frontier:compressed_industrial_iron_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation or washing byproducts of Mechanical Extruders"
 			tasks: [{
@@ -1572,11 +2115,16 @@
 				item: "forge_frontier:compressed_industrial_iron_4x"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -0.5d
+			y: 10.5d
 		}
 		{
 			id: "596CDD93A165CE36"
+			rewards: [{
+				id: "77A07D9F911AA736"
+				item: "forge_frontier:compressed_mechanism_block_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -1584,11 +2132,16 @@
 				item: "forge_frontier:compressed_mechanism_block_4x"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 0.5d
+			y: 10.5d
 		}
 		{
 			id: "78A698F4BD970E34"
+			rewards: [{
+				id: "01F5CDEF3493A28F"
+				item: "forge_frontier:compressed_netherite-diamond_4x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
@@ -1596,11 +2149,16 @@
 				item: "forge_frontier:compressed_netherite-diamond_4x"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: 1.5d
+			y: 10.5d
 		}
 		{
 			id: "5FCCB2083412B001"
+			rewards: [{
+				id: "2BA9667D375D419D"
+				item: "forge_frontier:compressed_ethium_1x"
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -1608,8 +2166,8 @@
 				item: "forge_frontier:compressed_ethium_1x"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5989CA8F6DA5A13D"]
@@ -1619,14 +2177,26 @@
 			]
 			hide_dependent_lines: true
 			id: "60824E7CD9F212EC"
+			rewards: [
+				{
+					id: "330DC1C8931AE19A"
+					item: "forge_frontier:forge_rocket_casing"
+					type: "item"
+				}
+				{
+					id: "23AAF2EF6CB35A53"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			subtitle: "Click me for more info!"
 			tasks: [{
 				id: "5396235F5B56FDE2"
 				item: "forge_frontier:forge_rocket_casing"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.0d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1654,14 +2224,19 @@
 			hide_dependency_lines: true
 			icon: "forge_frontier:forge_alloy"
 			id: "5989CA8F6DA5A13D"
+			rewards: [{
+				id: "25F44B746972AF01"
+				item: "forge_frontier:forge_alloy"
+				type: "item"
+			}]
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "38363ADD823A1FE1"
 				item: "forge_frontier:forge_alloy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.0d
+			x: 5.5d
+			y: 8.5d
 		}
 		{
 			id: "50D04A7D531CB082"
@@ -1672,8 +2247,8 @@
 				item: "ad_astra:mars_stone"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 7.0d
+			x: 17.0d
+			y: 7.5d
 		}
 		{
 			id: "68D0F65427476975"
@@ -1684,8 +2259,8 @@
 				item: "ad_astra:glacio_stone"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 8.0d
+			x: 16.0d
+			y: 8.5d
 		}
 		{
 			id: "62FCE0C4508928FC"
@@ -1696,8 +2271,8 @@
 				item: "ad_astra:venus_stone"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 8.0d
+			x: 15.0d
+			y: 8.5d
 		}
 		{
 			id: "3743F593E6D01606"
@@ -1708,8 +2283,8 @@
 				item: "ad_astra:moon_stone"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 7.0d
+			x: 14.0d
+			y: 7.5d
 		}
 		{
 			id: "484E734FFCC7AEC3"
@@ -1720,8 +2295,8 @@
 				item: "ad_astra:mercury_stone"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 8.0d
+			x: 14.0d
+			y: 8.5d
 		}
 		{
 			id: "3D71B7E1751CDACF"
@@ -1732,8 +2307,8 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 6.0d
+			x: 14.0d
+			y: 6.5d
 		}
 		{
 			id: "120690651425F774"
@@ -1744,8 +2319,8 @@
 				item: "minecraft:netherrack"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 6.0d
+			x: 15.0d
+			y: 6.5d
 		}
 		{
 			id: "75EB969258119A0C"
@@ -1756,8 +2331,8 @@
 				item: "deeperdarker:sculk_stone"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 6.0d
+			x: 16.0d
+			y: 6.5d
 		}
 		{
 			id: "0269CE3F9FC98ABE"
@@ -1768,8 +2343,8 @@
 				item: "minecraft:end_stone"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 6.0d
+			x: 17.0d
+			y: 6.5d
 		}
 		{
 			id: "3D241AF0CAF1D9BD"
@@ -1780,8 +2355,8 @@
 				item: "alexscaves:muck"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 8.0d
+			x: 17.0d
+			y: 8.5d
 		}
 		{
 			id: "397385400BBFACB3"
@@ -1792,8 +2367,8 @@
 				item: "alexscaves:guanostone"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 9.0d
+			x: 14.0d
+			y: 9.5d
 		}
 		{
 			id: "7076261298C5A0B0"
@@ -1804,8 +2379,8 @@
 				item: "alexscaves:limestone"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 9.0d
+			x: 17.0d
+			y: 9.5d
 		}
 		{
 			id: "446905E1C34D6D52"
@@ -1816,8 +2391,8 @@
 				item: "alexscaves:cake_layer"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 10.0d
+			x: 14.0d
+			y: 10.5d
 		}
 		{
 			id: "5C62D6059DEA012A"
@@ -1828,8 +2403,8 @@
 				item: "alexscaves:radrock"
 				type: "item"
 			}]
-			x: 15.5d
-			y: 10.0d
+			x: 16.0d
+			y: 10.5d
 		}
 		{
 			id: "07C1FFC3335345FB"
@@ -1840,11 +2415,30 @@
 				item: "alexscaves:galena"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 10.0d
+			x: 15.0d
+			y: 10.5d
 		}
 		{
 			id: "13ED01872525019B"
+			rewards: [{
+				id: "05ADF0991EF6E6FA"
+				item: {
+					Count: 1
+					id: "ae2:sky_stone_tank"
+					tag: {
+						BlockEntityTag: {
+							Amount: 16000
+							FluidName: "createteleporters:quantum_fluid"
+							ForgeCaps: { }
+							id: "ae2:sky_tank"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
 			shape: "square"
 			subtitle: "Crafted via Mechancical Crafters, Check EMI for Recipe"
 			tasks: [{
@@ -1852,8 +2446,8 @@
 				item: "createteleporters:custom_portal"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 10.0d
+			x: 17.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1878,17 +2472,41 @@
 			hide_dependent_lines: true
 			icon: "forge_frontier:forge_rocket_door"
 			id: "7EAF87C66A707E09"
+			rewards: [
+				{
+					id: "43C95C4458D404B0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7500D258DB6BFCBE"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+			]
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "62C55F11BFA627C3"
 				item: "forge_frontier:forge_rocket_door"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 8.0d
+			x: 20.5d
+			y: 8.5d
 		}
 		{
 			id: "49C8BE20F9567EBB"
+			rewards: [
+				{
+					id: "12EB659650A4D80F"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "40FAA38CEA98E0A4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1900,12 +2518,24 @@
 				}
 				type: "item"
 			}]
-			x: -15.0d
-			y: 21.5d
+			x: -15.5d
+			y: 17.0d
 		}
 		{
 			hide_details_until_startable: false
 			id: "12AB7D8A9369396D"
+			rewards: [
+				{
+					id: "2BF8741E7E75178A"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "373583E4E8B03A5A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1917,11 +2547,23 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 21.5d
+			x: -14.5d
+			y: 17.0d
 		}
 		{
 			id: "1477301EF24575A1"
+			rewards: [
+				{
+					id: "385A0BC85B4AD821"
+					item: "appflux:core_256k"
+					type: "item"
+				}
+				{
+					id: "00DB115E3FD85BA4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1933,11 +2575,23 @@
 				}
 				type: "item"
 			}]
-			x: -13.0d
-			y: 21.5d
+			x: -13.5d
+			y: 17.0d
 		}
 		{
 			id: "0CFB0239CAD5D792"
+			rewards: [
+				{
+					id: "4E3DDBECB46A958F"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "664B6DBC493151D6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1949,11 +2603,23 @@
 				}
 				type: "item"
 			}]
-			x: -12.0d
-			y: 21.5d
+			x: -12.5d
+			y: 17.0d
 		}
 		{
 			id: "1EB6902B6FCD4E91"
+			rewards: [
+				{
+					id: "06E2175F68483EC5"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "4F69504CCA5374FD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1961,11 +2627,23 @@
 				item: "sophisticatedstorage:netherite_shulker_box"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 22.5d
+			x: -15.5d
+			y: 18.0d
 		}
 		{
 			id: "7D30F1330720933C"
+			rewards: [
+				{
+					id: "0170618248CD4760"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "29C3452C3AD7619A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1980,11 +2658,23 @@
 				}
 				type: "item"
 			}]
-			x: -14.0d
-			y: 22.5d
+			x: -14.5d
+			y: 18.0d
 		}
 		{
 			id: "7F821A23AF051675"
+			rewards: [
+				{
+					id: "26964A42858A38E8"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "035B66B1CB43E56F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -1992,11 +2682,24 @@
 				item: "sophisticatedbackpacks:netherite_backpack"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 22.5d
+			x: -13.5d
+			y: 18.0d
 		}
 		{
 			id: "719B8F6A771F37B7"
+			rewards: [
+				{
+					count: 2
+					id: "211BC6D94FB6A388"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "59C05D973E7BEABC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2004,11 +2707,23 @@
 				item: "create:stock_ticker"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 22.5d
+			x: -12.5d
+			y: 18.0d
 		}
 		{
 			id: "0BCF950AB2114854"
+			rewards: [
+				{
+					id: "60FE95A3A214BBBB"
+					item: "createenderlink:ender_tank"
+					type: "item"
+				}
+				{
+					id: "35FB148E53E3B094"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2016,11 +2731,23 @@
 				item: "createenderlink:ender_tank"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 23.5d
+			x: -15.5d
+			y: 19.0d
 		}
 		{
 			id: "77DA9830B86C7C65"
+			rewards: [
+				{
+					id: "7D5075867A8C01EE"
+					item: "createenderlink:ender_vault"
+					type: "item"
+				}
+				{
+					id: "765FB9BACC7D331F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2028,11 +2755,23 @@
 				item: "createenderlink:ender_vault"
 				type: "item"
 			}]
-			x: -14.0d
-			y: 23.5d
+			x: -14.5d
+			y: 19.0d
 		}
 		{
 			id: "671DF351351EC625"
+			rewards: [
+				{
+					id: "052571A81E91E21C"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "74E9780377CB5BB2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2040,11 +2779,23 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 23.5d
+			x: -13.5d
+			y: 19.0d
 		}
 		{
 			id: "327FAF70446D6D83"
+			rewards: [
+				{
+					id: "76D9EBAA18410246"
+					item: "mob_grinding_utils:jumbo_tank"
+					type: "item"
+				}
+				{
+					id: "6A50E43C951C479F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2052,8 +2803,8 @@
 				item: "mob_grinding_utils:jumbo_tank"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 23.5d
+			x: -12.5d
+			y: 19.0d
 		}
 		{
 			dependencies: [
@@ -2074,17 +2825,41 @@
 			hide_dependent_lines: true
 			icon: "forge_frontier:forge_rocket_tank"
 			id: "775BA7278045F015"
+			rewards: [
+				{
+					id: "0523CB9C01F170B8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7E1ACB647F3BEB27"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+			]
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "691B1169C35A88FC"
 				item: "forge_frontier:forge_rocket_tank"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 22.5d
+			x: -9.0d
+			y: 18.0d
 		}
 		{
 			id: "41544A71C2124046"
+			rewards: [
+				{
+					id: "76168C9D571BEB4D"
+					item: "angelring:angel_ring"
+					type: "item"
+				}
+				{
+					id: "55A66469CB862567"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2092,11 +2867,23 @@
 				item: "angelring:energetic_angel_ring"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 22.0d
+			x: 1.0d
+			y: 17.5d
 		}
 		{
 			id: "4B97893867815C4A"
+			rewards: [
+				{
+					id: "10989C83D8CF6199"
+					item: "advanced_ae:flight_drift_card"
+					type: "item"
+				}
+				{
+					id: "35487A670E26C4F8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2104,11 +2891,24 @@
 				item: "advanced_ae:flight_card"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 21.0d
+			x: 1.0d
+			y: 16.5d
 		}
 		{
 			id: "2DB29D279BB0EFA0"
+			rewards: [
+				{
+					count: 2
+					id: "74D2DB649E754000"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "1679F8E3A6FAC20F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2122,11 +2922,24 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 23.0d
+			x: 1.0d
+			y: 18.5d
 		}
 		{
 			id: "75AB34B8EFD7C6D1"
+			rewards: [
+				{
+					count: 2
+					id: "15855F56EAEA09A5"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "54A457AFCA6C548D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2134,11 +2947,24 @@
 				item: "create:controls"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 23.0d
+			x: 2.0d
+			y: 18.5d
 		}
 		{
 			id: "7296521A5EF5F384"
+			rewards: [
+				{
+					count: 2
+					id: "6DE74F9A36C42242"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "0A3F6AC05A4F6A2D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2146,11 +2972,23 @@
 				item: "create:track_station"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 23.0d
+			x: 0.0d
+			y: 18.5d
 		}
 		{
 			id: "76E818891088F995"
+			rewards: [
+				{
+					id: "381067AFAFBD41CF"
+					item: "quark:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "16C02D2456BB6B8B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Killing the Ender Dragon or in and End City Ship"
 			tasks: [{
@@ -2164,27 +3002,55 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 22.0d
+			x: 2.0d
+			y: 17.5d
 		}
 		{
 			id: "19A777BA8D824CA1"
+			rewards: [
+				{
+					id: "4ADFD574663D01C3"
+					item: {
+						Count: 1
+						id: "create_sa:netherite_jetpack_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "67FE38F17F61EE27"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "7FD5386E25094C05"
 				item: {
 					Count: 1
-					id: "create_sa:brass_jetpack_chestplate"
+					id: "create_sa:netherite_jetpack_chestplate"
 					tag: { }
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 22.0d
+			x: 0.0d
+			y: 17.5d
 		}
 		{
 			id: "7641DB332FE13744"
+			rewards: [
+				{
+					id: "22EED41A447E6A9F"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+				{
+					id: "29BE48BDD3070F76"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2192,11 +3058,23 @@
 				item: "immersive_aircraft:biplane"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 21.0d
+			x: 0.0d
+			y: 16.5d
 		}
 		{
 			id: "2B4FC6BF8BD6AFE4"
+			rewards: [
+				{
+					id: "7C89E18AE8B11678"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5755DF645C288673"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2210,8 +3088,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 21.0d
+			x: 2.0d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -2229,17 +3107,41 @@
 			hide_dependent_lines: true
 			icon: "forge_frontier:forge_rocket_engine"
 			id: "3E186F177E7D056E"
+			rewards: [
+				{
+					id: "6907EBE1B586FACB"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "0325F9EBB8F08610"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "6219BDC5D3912B08"
 				item: "forge_frontier:forge_rocket_engine"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 22.0d
+			x: 5.5d
+			y: 17.5d
 		}
 		{
 			id: "5B08F4C951BE34C9"
+			rewards: [
+				{
+					id: "059D982405876734"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "4B14273FAB531585"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2247,11 +3149,23 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 23.0d
+			x: 15.5d
+			y: 18.5d
 		}
 		{
 			id: "5510DF2FCBC6B480"
+			rewards: [
+				{
+					id: "02B8BFD0EE784FDD"
+					item: "create_additions_synthetics:creative_core"
+					type: "item"
+				}
+				{
+					id: "316EACE3D87E1474"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2259,11 +3173,23 @@
 				item: "create_additions_synthetics:creative_core"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 22.0d
+			x: 15.5d
+			y: 17.5d
 		}
 		{
 			id: "67B9076DFB706A9A"
+			rewards: [
+				{
+					id: "57CD320222F3A81E"
+					item: "create_power_loader:brass_chunk_loader"
+					type: "item"
+				}
+				{
+					id: "1E85674DEA413840"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2271,11 +3197,23 @@
 				item: "create_power_loader:brass_chunk_loader"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 24.0d
+			x: 15.5d
+			y: 19.5d
 		}
 		{
 			id: "563D5DD3C1D0ADCF"
+			rewards: [
+				{
+					id: "1EA6007C2F2BB8F0"
+					item: "createnuclear:uranium_rod"
+					type: "item"
+				}
+				{
+					id: "3CED1054E2F4D28C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2283,11 +3221,23 @@
 				item: "createnuclear:uranium_rod"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 24.0d
+			x: 16.5d
+			y: 19.5d
 		}
 		{
 			id: "2507EA70A1FF821D"
+			rewards: [
+				{
+					id: "7D06993E0D37CD2A"
+					item: "create_things_and_misc:vibration_mechanism"
+					type: "item"
+				}
+				{
+					id: "7573C346D95C618C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2295,11 +3245,23 @@
 				item: "create_things_and_misc:vibration_mechanism"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 24.0d
+			x: 14.5d
+			y: 19.5d
 		}
 		{
 			id: "7DF3F851FD7C1413"
+			rewards: [
+				{
+					id: "57868C3AC77ED295"
+					item: "create_dd:integrated_mechanism"
+					type: "item"
+				}
+				{
+					id: "7D181CAABF3F44A4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2307,11 +3269,23 @@
 				item: "create_dd:integrated_mechanism"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 23.0d
+			x: 16.5d
+			y: 18.5d
 		}
 		{
 			id: "5C0D60A38483BDFC"
+			rewards: [
+				{
+					id: "0405AF3100545B08"
+					item: "create_dd:sealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "4E1205C8D5A110FE"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2319,11 +3293,23 @@
 				item: "create_dd:sealed_mechanism"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 23.0d
+			x: 14.5d
+			y: 18.5d
 		}
 		{
 			id: "7B8042B0097F8BF7"
+			rewards: [
+				{
+					id: "6C4AC175DF8135A8"
+					item: "create_dd:inductive_mechanism"
+					type: "item"
+				}
+				{
+					id: "2551EBF0899E632B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2331,11 +3317,23 @@
 				item: "create_dd:inductive_mechanism"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 22.0d
+			x: 14.5d
+			y: 17.5d
 		}
 		{
 			id: "15D49D1E45C03B62"
+			rewards: [
+				{
+					id: "6168853D8F11A713"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+				{
+					id: "474E38F8DF2C3A0C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2343,11 +3341,23 @@
 				item: "create_dd:infernal_mechanism"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 22.0d
+			x: 16.5d
+			y: 17.5d
 		}
 		{
 			id: "5FE7F786F8865736"
+			rewards: [
+				{
+					id: "658B3980773A7A60"
+					item: "create_dd:calculation_mechanism"
+					type: "item"
+				}
+				{
+					id: "1BA3C240B0BFEDFA"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2355,11 +3365,23 @@
 				item: "create_dd:calculation_mechanism"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 21.0d
+			x: 16.5d
+			y: 16.5d
 		}
 		{
 			id: "4439AEAF41FBC359"
+			rewards: [
+				{
+					id: "3BA5048AA6F1C69C"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					id: "4832D0D11553EAFF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2367,11 +3389,23 @@
 				item: "createteleporters:quantum_mechanism"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 21.0d
+			x: 14.5d
+			y: 16.5d
 		}
 		{
 			id: "06EC7D41D031EC62"
+			rewards: [
+				{
+					id: "2B80E4C311DC7B53"
+					item: "create_dd:stargaze_singularity"
+					type: "item"
+				}
+				{
+					id: "22C5A4E3C9176790"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
@@ -2379,11 +3413,23 @@
 				item: "create_dd:stargaze_singularity"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 21.0d
+			x: 15.5d
+			y: 16.5d
 		}
 		{
 			id: "0A1D520B2958930F"
+			rewards: [
+				{
+					id: "655167A839FB0594"
+					item: "create_sa:steam_engine"
+					type: "item"
+				}
+				{
+					id: "19D33DC4F845EB7B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2391,11 +3437,23 @@
 				item: "create_sa:steam_engine"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 25.0d
+			x: 14.5d
+			y: 20.5d
 		}
 		{
 			id: "499A2BC61FD612B1"
+			rewards: [
+				{
+					id: "4CB39172D5A1FAA3"
+					item: "create_sa:heat_engine"
+					type: "item"
+				}
+				{
+					id: "42B04F6ED023986D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2403,11 +3461,23 @@
 				item: "create_sa:heat_engine"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 25.0d
+			x: 15.5d
+			y: 20.5d
 		}
 		{
 			id: "0F110958CDECA588"
+			rewards: [
+				{
+					id: "13D2E30CA45006B4"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+				{
+					id: "67627EC7CC9BF134"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
@@ -2415,8 +3485,8 @@
 				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 25.0d
+			x: 16.5d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -2440,190 +3510,419 @@
 			hide_dependent_lines: true
 			icon: "forge_frontier:forge_rocket_core"
 			id: "31DB4D1C003118C7"
+			rewards: [
+				{
+					id: "479FC0CC7A52A6F1"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "2B0B76A9BCB657EF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "679D02C9A806ACB6"
 				item: "forge_frontier:forge_rocket_core"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 23.0d
+			x: 20.0d
+			y: 18.5d
 		}
 		{
 			id: "4B38859A5812BAF5"
+			rewards: [
+				{
+					count: 2
+					id: "192E4876BCEBA87F"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					id: "539AE8F02447B2E8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "483FD3ECFA03350D"
 				item: "farmersdelight:shepherds_pie_block"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 35.0d
+			x: -7.0d
+			y: 26.5d
 		}
 		{
 			id: "16F537656A8BF0EA"
+			rewards: [
+				{
+					count: 2
+					id: "750E22531B5EAC81"
+					item: "farmersdelight:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "075B5EA4F42D4F82"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "22C3C31F5F0BAEC8"
 				item: "alexsdelight:kangaroo_pasta"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 35.0d
+			x: -6.0d
+			y: 26.5d
 		}
 		{
 			id: "6737E3EA69C4C374"
+			rewards: [
+				{
+					id: "75861ABF15AA7B08"
+					item: "ends_delight:chorus_sauce"
+					type: "item"
+				}
+				{
+					id: "3FE2C619C5C9A796"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "7D5194E153B00AF0"
 				item: "ends_delight:dragon_leg_with_sauce_block"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 35.0d
+			x: -5.0d
+			y: 26.5d
 		}
 		{
 			id: "1FF8452C38C0C771"
+			rewards: [
+				{
+					count: 2
+					id: "2EE386D4636FC654"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+				{
+					id: "74065443F1B3FEF6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "55C7B9950AD092F5"
 				item: "delightful:smore"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 35.0d
+			x: -8.0d
+			y: 26.5d
 		}
 		{
 			id: "6C8D6B004D9E8F70"
+			rewards: [
+				{
+					id: "299E11A2CE396F70"
+					item: "casualness_delight:cooked_donkey_meat"
+					type: "item"
+				}
+				{
+					id: "793321C1A6C9035A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "163A551095E87BEB"
 				item: "casualness_delight:donkey_burger"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 36.0d
+			x: -8.0d
+			y: 27.5d
 		}
 		{
 			id: "75D49F97DC444885"
+			rewards: [
+				{
+					count: 2
+					id: "637D76B1ED936C17"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+				{
+					id: "46A93F5B1A9095BF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "3C27049FB02C3ACB"
 				item: "nethersdelight:stuffed_hoglin"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 36.0d
+			x: -7.0d
+			y: 27.5d
 		}
 		{
 			id: "4E6FB4B0380276C0"
+			rewards: [
+				{
+					id: "28DDDBA6439B108B"
+					item: "ad_astra:cheese_block"
+					type: "item"
+				}
+				{
+					id: "288FDBF98915E424"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "67A7BD96DFB79215"
 				item: "delightful:deluxe_cheeseburger"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 36.0d
+			x: -6.0d
+			y: 27.5d
 		}
 		{
 			id: "3A9A7DB5B7DDD57C"
+			rewards: [
+				{
+					id: "36D96B82C3B47CC0"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "2D63C057A29C1124"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "5C249FB60A05DA3C"
 				item: "ends_delight:dragon_breath_and_chorus_soup"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 36.0d
+			x: -5.0d
+			y: 27.5d
 		}
 		{
 			id: "6FA1D16A55C97EE6"
+			rewards: [
+				{
+					id: "1396101CD088077E"
+					item: "tconstruct:ender_slime_bucket"
+					type: "item"
+				}
+				{
+					id: "0E859B1A0B507207"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "0BF7023482C51856"
 				item: "tconstruct:ender_cake"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 37.0d
+			x: -8.0d
+			y: 28.5d
 		}
 		{
 			id: "4087DB9F6D9B26CC"
+			rewards: [
+				{
+					id: "6B65A772C601A339"
+					item: "createnuclear:raw_uranium"
+					type: "item"
+				}
+				{
+					id: "6DC0215C5D9BB0F7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "1A8F7D9E06D29C2B"
 				item: "alexscavesdelight:toxic_hamburger"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 37.0d
+			x: -7.0d
+			y: 28.5d
 		}
 		{
 			id: "0A6FDC464AB63830"
+			rewards: [
+				{
+					id: "5FD9D67B1C73EC92"
+					item: "alexscaves:heart_of_iron"
+					type: "item"
+				}
+				{
+					id: "60F0F790D1B266F4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "64EC2F54A37CBB8B"
 				item: "alexscavesdelight:heart_of_iron_humburger"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 37.0d
+			x: -6.0d
+			y: 28.5d
 		}
 		{
 			id: "157B8FE93C4DFB20"
+			rewards: [
+				{
+					count: 2
+					id: "3072E25922EAF7EF"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "4B73701D01522167"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "742C427D7BC3680A"
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 37.0d
+			x: -5.0d
+			y: 28.5d
 		}
 		{
 			id: "47E0CA38180B8848"
+			rewards: [
+				{
+					count: 2
+					id: "5477047FC3BE7BFF"
+					item: "silentsdelight:warden_heart"
+					type: "item"
+				}
+				{
+					id: "09ECA87B79B6CD44"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "3D9810220758DF42"
 				item: "silentsdelight:plated_warden_heart"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 34.0d
+			x: -8.0d
+			y: 25.5d
 		}
 		{
 			id: "53F6DE3056656108"
+			rewards: [
+				{
+					count: 2
+					id: "68608B889D53569D"
+					item: "miners_delight:smoked_bat_wing"
+					type: "item"
+				}
+				{
+					id: "2C39C70D72DDA5D8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "26255CB025788EFE"
 				item: "miners_delight:improvised_barbecue_stick"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 34.0d
+			x: -7.0d
+			y: 25.5d
 		}
 		{
 			id: "3976FAD7BC2D9DC6"
+			rewards: [
+				{
+					count: 2
+					id: "1DDBBBCA29ADB4DC"
+					item: "oceansdelight:elder_guardian_slice"
+					type: "item"
+				}
+				{
+					id: "524B0C9E9636A906"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "62E40DC9E255094C"
 				item: "oceansdelight:cabbage_wrapped_elder_guardian"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 34.0d
+			x: -5.0d
+			y: 25.5d
 		}
 		{
 			id: "7087464FB1FBACD9"
+			rewards: [
+				{
+					count: 2
+					id: "410C878316A88F53"
+					item: "aquaculture:atlantic_herring"
+					type: "item"
+				}
+				{
+					id: "3F767BB1BE672146"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "3F540CD6C086B3BB"
 				item: "aquaculturedelight:rollmops"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 34.0d
+			x: -6.0d
+			y: 25.5d
 		}
 		{
 			dependencies: [
@@ -2647,183 +3946,406 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "61C456C8F86FE38A"
+			rewards: [
+				{
+					id: "54A2C4E6DE8168BF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7F4B346A908FF50C"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+			]
 			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
 			tasks: [{
 				id: "526BA222163B818F"
 				item: "forge_frontier:forge_rocket_fin_left"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 35.5d
+			x: -1.5d
+			y: 27.0d
 		}
 		{
 			id: "2F5B5E73D94FFCAB"
+			rewards: [
+				{
+					id: "6E81AE69CE45AC0E"
+					item: "apotheosis:infused_seashelf"
+					type: "item"
+				}
+				{
+					id: "174425B6C427D3D1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "6F70C311CDA30A44"
 				item: "apotheosis:filtering_shelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 35.0d
+			x: 6.0d
+			y: 26.5d
 		}
 		{
 			id: "042BEA68325B117B"
+			rewards: [
+				{
+					id: "4240ACE6CC87BB04"
+					item: "apotheosis:deepshelf"
+					type: "item"
+				}
+				{
+					id: "40E5F962EE230CB8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "1C6B7E91C728F0B9"
 				item: "apotheosis:treasure_shelf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 35.0d
+			x: 7.0d
+			y: 26.5d
 		}
 		{
 			id: "33D65589EF574C7D"
+			rewards: [
+				{
+					id: "17169A9D4E1C9F1F"
+					item: "apotheosis:improved_scrap_tome"
+					type: "item"
+				}
+				{
+					id: "3752D6F830C220F1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "7444E84256ECCA0D"
 				item: "apotheosis:extraction_tome"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 35.0d
+			x: 8.0d
+			y: 26.5d
 		}
 		{
 			id: "4A4552DC1098719F"
+			rewards: [
+				{
+					id: "708EBEBB425B36F7"
+					item: "apotheosis:rectifier_t3"
+					type: "item"
+				}
+				{
+					id: "551BC29AD0F142B2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "4E51477B1085BA50"
 				item: "apotheosis:rectifier_t3"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 35.0d
+			x: 5.0d
+			y: 26.5d
 		}
 		{
 			id: "4A0524751C25D370"
+			rewards: [
+				{
+					id: "76B81E1659B38192"
+					item: "apotheosis:library"
+					type: "item"
+				}
+				{
+					id: "4A1F728097A3081C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "169FB2908116A87D"
 				item: "apotheosis:ender_library"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 34.0d
+			x: 5.0d
+			y: 25.5d
 		}
 		{
 			id: "06D1514A212BEEB0"
+			rewards: [
+				{
+					id: "375DFBB7B4331FAB"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					id: "08F3F4C3F77BC090"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "01919A5763DD3DA8"
 				item: "apotheosis:pearl_endshelf"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 34.0d
+			x: 6.0d
+			y: 25.5d
 		}
 		{
 			id: "4A186039887AEB51"
+			rewards: [
+				{
+					id: "5FCF9014CC872C22"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					id: "04D59A0FE85E63C4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "0C6109E739552373"
 				item: "apotheosis:draconic_endshelf"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 34.0d
+			x: 7.0d
+			y: 25.5d
 		}
 		{
 			id: "71193DCFAB4ED806"
+			rewards: [
+				{
+					id: "14240F4046481082"
+					item: "apotheosis:infused_hellshelf"
+					type: "item"
+				}
+				{
+					id: "1FFC7897147B9802"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "169B615DF353CA3A"
 				item: "apotheosis:sightshelf_t2"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 34.0d
+			x: 8.0d
+			y: 25.5d
 		}
 		{
 			id: "4EF0E1952B3673E8"
+			rewards: [
+				{
+					count: 2
+					id: "3033B2AFBE45307B"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "2A9FCC75B286721E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "664C7C74E5DB9BBE"
 				item: "create_enchantment_industry:hyper_experience_bottle"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 36.0d
+			x: 5.0d
+			y: 27.5d
 		}
 		{
 			id: "15698305406EBE56"
+			rewards: [
+				{
+					id: "19FC3C9DCC0481E2"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "5387C48A793FDCF6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "6C83C25E6384FBE5"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 36.0d
+			x: 6.0d
+			y: 27.5d
 		}
 		{
 			id: "15D0774144EF66F1"
+			rewards: [
+				{
+					id: "7B9C7EE116451229"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "38601677B0F7A019"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "6B69BCD1D20DC05C"
 				item: "create_enchantment_industry:disenchanter"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 36.0d
+			x: 7.0d
+			y: 27.5d
 		}
 		{
 			id: "4370594BA6D96CA3"
+			rewards: [
+				{
+					id: "246FF3A2C9C38D66"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "05487BD862BF572D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "72CD796FF876660B"
 				item: "experienceobelisk:nightmare_bottle"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 37.0d
+			x: 6.0d
+			y: 28.5d
 		}
 		{
 			id: "7D60426FA95A88A9"
+			rewards: [
+				{
+					id: "4C24498A9F753915"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "6099C77CCC34F87E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "46A3A9B73A113AA4"
 				item: "experienceobelisk:daydream_bottle"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 37.0d
+			x: 7.0d
+			y: 28.5d
 		}
 		{
 			id: "03A9497CAB6F2997"
+			rewards: [
+				{
+					count: 2
+					id: "792196C99B8A22EE"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "3C242B96CD41FF23"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "57E45BC04525AD17"
 				item: "ad_astra:rocket_fin"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 37.0d
+			x: 8.0d
+			y: 28.5d
 		}
 		{
 			id: "49F5BFA486B50B9C"
+			rewards: [
+				{
+					id: "7189DA4E86D4F45B"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "38E085136D49846E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "0B826E3F55660A6C"
 				item: "experienceobelisk:bibliophage"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 37.0d
+			x: 5.0d
+			y: 28.5d
 		}
 		{
 			id: "17C8A3EA710208B5"
+			rewards: [
+				{
+					count: 2
+					id: "148F1D2BC1B510DD"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "02A6AB79F3B108DB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
+			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "76EE7182FBCDE7DE"
 				item: {
@@ -2833,8 +4355,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 36.0d
+			x: 8.0d
+			y: 27.5d
 		}
 		{
 			dependencies: [
@@ -2858,14 +4380,26 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "742FFA43ACCE7C7D"
+			rewards: [
+				{
+					id: "18C70F5F82D930F3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7DEF16D58BCA6669"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+			]
 			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
 			tasks: [{
 				id: "6F7F162AA133FA15"
 				item: "forge_frontier:forge_rocket_fin_right"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 35.5d
+			x: 11.5d
+			y: 27.0d
 		}
 	]
 	title: "Final Rocket Progression"
