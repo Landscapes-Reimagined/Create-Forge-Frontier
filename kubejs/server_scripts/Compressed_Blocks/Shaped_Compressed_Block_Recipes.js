@@ -508,7 +508,6 @@ ServerEvents.recipes(event => {
             }
         ).id( 'forge_frontier:shaped/guano_block_1x' )      
 
-    /*
         // Methril
          // Creates New Compressed Recipes for Mithril Compressed Blocks 1x
          event.shaped(
@@ -550,7 +549,6 @@ ServerEvents.recipes(event => {
                 A: 'create_dd:industrial_iron_block', 
             }
         ).id( 'forge_frontier:shaped/industrial_iron_block_1x' )     
-    */
 
     // Ethium
         // Creates New Compressed Recipes for Ethium Compressed Blocks 1x
