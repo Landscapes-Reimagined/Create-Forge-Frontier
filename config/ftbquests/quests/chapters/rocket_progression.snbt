@@ -858,7 +858,15 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["67026EE366909C22"]
+			dependencies: [
+				"67026EE366909C22"
+				"08F62016A6F246E4"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 1 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08F62016A6F246E4\" } }"
+			]
+			hide_dependency_lines: true
 			id: "5ECDD5307434F89F"
 			tasks: [{
 				id: "1D5AFE882C35470F"
@@ -1324,7 +1332,15 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4F05B719FF46DED2"]
+			dependencies: [
+				"4F05B719FF46DED2"
+				"5B64CE917218050A"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 2 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5B64CE917218050A\" } }"
+			]
+			hide_dependency_lines: true
 			id: "010D1C1FD61F955B"
 			tasks: [{
 				id: "0047EF0CC0CB7B24"
@@ -1884,7 +1900,15 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["088C2263FA4E3A27"]
+			dependencies: [
+				"088C2263FA4E3A27"
+				"5930A1E4723BBE2A"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 3 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5930A1E4723BBE2A\" } }"
+			]
+			hide_dependency_lines: true
 			id: "2FE683D4C7A00AC4"
 			tasks: [{
 				id: "7F21AE72C1994FE5"
@@ -2349,7 +2373,15 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["7FEE2D38BA934C28"]
+			dependencies: [
+				"7FEE2D38BA934C28"
+				"196AF2DC09A4C1FE"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 4 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196AF2DC09A4C1FE\" } }"
+			]
+			hide_dependency_lines: true
 			id: "7684EE58B61BEC44"
 			tasks: [{
 				id: "744FC99A19863457"
@@ -2712,7 +2744,15 @@
 			y: 21.25d
 		}
 		{
-			dependencies: ["20BB2E7B405CA851"]
+			dependencies: [
+				"20BB2E7B405CA851"
+				"49ED8F8E435F35FB"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 5 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49ED8F8E435F35FB\" } }"
+			]
+			hide_dependency_lines: true
 			id: "46FECDBE935E012A"
 			tasks: [{
 				id: "3E88B0BB4D890599"
