@@ -312,7 +312,7 @@ ServerEvents.recipes(event => {
                 ],
                 key: {
                     B: Ingredient.of("immersive_aircraft:biplane"),
-                    F: Ingredient.of("advanced_ae:flight_drift_card"),
+                    F: Ingredient.of("advanced_ae:flight_card"),
                     G: Ingredient.of("hangglider:reinforced_hang_glider"),
                     j: Ingredient.of("create_sa:netherite_jetpack_chestplate"),
                     R: Ingredient.of("angelring:energetic_angel_ring"),
