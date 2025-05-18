@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 		type: 'create:item_application',
 		ingredients: [
 		  {
-			item: 'tconstruct:cobalt_ingot'
+			item: 'create:content_observer'
 		  },
 		  {
 			item: 'create_dd:blaze_gold_casing'
