@@ -312,10 +312,10 @@ ServerEvents.recipes(event => {
                 ],
                 key: {
                     B: Ingredient.of("immersive_aircraft:biplane"),
-                    F: Ingredient.of("balancedflight:flight_anchor"),
+                    F: Ingredient.of("advanced_ae:flight_drift_card"),
                     G: Ingredient.of("hangglider:reinforced_hang_glider"),
                     j: Ingredient.of("create_sa:netherite_jetpack_chestplate"),
-                    R: Ingredient.of("balancedflight:ascended_flight_ring"),
+                    R: Ingredient.of("angelring:energetic_angel_ring"),
                     E: Ingredient.of("minecraft:elytra"),
                     S: Ingredient.of("create:track_station"),
                     J: Ingredient.of("ad_astra:jet_suit"),
@@ -378,9 +378,9 @@ ServerEvents.recipes(event => {
                     D: Ingredient.of("ends_delight:dragon_leg_with_sauce_block"),
                     b: Ingredient.of("casualness_delight:donkey_burger"),
                     H: Ingredient.of("nethersdelight:stuffed_hoglin"),
-                    C: Ingredient.of("adastradelight:cheeseburger"),
-                    d: Ingredient.of("naturalistdelight:duck_soup"),
-                    A: Ingredient.of("appliedenergisticsdelight:charged_apple_cider"),
+                    C: Ingredient.of("delightful:deluxe_cheeseburger"),
+                    d: Ingredient.of("ends_delight:dragon_breath_and_chorus_soup"),
+                    A: Ingredient.of("tconstruct:ender_cake"),
                     T: Ingredient.of("alexscavesdelight:toxic_hamburger"),
                     I: Ingredient.of("alexscavesdelight:heart_of_iron_humburger"),
                     r: Ingredient.of("ad_astra:rocket_fin"),
@@ -467,7 +467,7 @@ ServerEvents.recipes(event => {
             pattern: [
                 "FIfD",
                 "SBbC",
-                "Vcv"
+                "VcvT"
             ],
             key: {
                 F: Ingredient.of("ae2:fluid_storage_cell_256k"),
@@ -478,10 +478,10 @@ ServerEvents.recipes(event => {
                 B: Ingredient.of("sophisticatedstorage:netherite_barrel"),
                 b: Ingredient.of("sophisticatedbackpacks:netherite_backpack"),
                 C: Ingredient.of("create:stock_ticker"),
-                V: Ingredient.of("createutilities:void_tank"),
-                c: Ingredient.of("createutilities:void_chest"),
+                V: Ingredient.of("createenderlink:ender_tank"),
+                c: Ingredient.of("createenderlink:ender_vault"),
                 v: Ingredient.of("create:item_vault"),
-                // T: Ingredient.of("railways:fuel_tank")
+                T: Ingredient.of("mob_grinding_utils:jumbo_tank")
             },
             result: Ingredient.of("forge_frontier:forge_rocket_tank"),
             acceptMirrored: false
@@ -494,7 +494,7 @@ ServerEvents.recipes(event => {
                 "QSC",
                 "Ici",
                 "sPT",
-                "VL",
+                "VLU",
                 "AHY"
             ],
             key: {
@@ -509,6 +509,7 @@ ServerEvents.recipes(event => {
                 T: Ingredient.of("create_dd:integrated_mechanism"),
                 V: Ingredient.of("create_things_and_misc:vibration_mechanism"),
                 L: Ingredient.of("create_power_loader:brass_chunk_loader"),
+                U: Ingredient.of("createnuclear:uranium_rod"),
                 A: Ingredient.of("create_sa:steam_engine"),
                 H: Ingredient.of("create_sa:heat_engine"),
                 Y: Ingredient.of("create_sa:hydraulic_engine"),
@@ -561,7 +562,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 L: Ingredient.of("forge_frontier:compressed_lead_4x"),
-                A: Ingredient.of("forge_frontier:compressed_aluminum_4x"),
+                A: Ingredient.of("forge_frontier:compressed_shaft_bundle_4x"),
                 M: Ingredient.of("forge_frontier:compressed_malachite_4x"),
                 I: Ingredient.of("forge_frontier:compressed_irradium_4x"),
                 B: Ingredient.of("forge_frontier:compressed_bismuth_4x"),
@@ -577,7 +578,7 @@ ServerEvents.recipes(event => {
                 G: Ingredient.of("forge_frontier:compressed_guano_4x"),
                 m: Ingredient.of("forge_frontier:compressed_mithril_4x"),
                 i: Ingredient.of("forge_frontier:compressed_industrial_iron_4x"),
-                V: Ingredient.of("forge_frontier:compressed_void_steel_4x"),
+                V: Ingredient.of("forge_frontier:compressed_mechanism_block_4x"),
                 n: Ingredient.of("forge_frontier:compressed_netherite-diamond_4x"),
                 E: Ingredient.of("forge_frontier:compressed_ethium_1x"),
             },

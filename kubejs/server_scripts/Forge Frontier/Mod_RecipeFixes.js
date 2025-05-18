@@ -192,15 +192,10 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'collectorsreap:food/lime_green_tea'})
     event.remove({ id: 'collectorsreap:food/pomegranate_black_tea'})
     event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_log' });
-    event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_narrow' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/stripped_cherry_wood' });
-    event.remove({ id: 'design_decor:item_application/crushing_wheels/special_aluminum_cylinder' }); 
-    event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry' });
     event.remove({ id: 'create:cutting/compat/biomesoplenty/cherry_wood' });
     event.remove({ id: 'create:filling/chocolate_bagutte' }); 
     event.remove({ id: 'create:cutting/compat/biomesoplenty/stripped_cherry_log' });
-    event.remove({ id: 'design_decor:item_application/millstones/special_aluminum_cylinder' });
-    event.remove({ id: 'railways:sequenced_assembly/track_biomesoplenty_cherry_wide' });
 
     // Broken Recipe Removals
     event.remove({ id:'create:crushing/sandstone/2x_to_2x_sand' });
@@ -228,75 +223,4 @@ ServerEvents.recipes(event => {
     event.remove({ id:'create:crushing/sandstone/7x_to_7x_sand' });
     event.remove({ id:'create:milling/sandstone/9x_to_9x_sand'});
     
-
-    // Removes Failed Compatibility Related Recipes
-    event.remove({ id: 'railways:sequenced_assembly/track_tieless_narrow'});
-
-    // Replaces Recipe for Narrow Tieless Tracks
-        event.custom({
-            type:'create:sequenced_assembly',
-            ingredient: {
-                item: 'railways:track_tieless'
-            },
-            loops: 1,
-            results: [
-                {
-                    item: 'railways:track_tieless_narrow'
-                }
-            ],
-            sequence: [
-                {
-                    type:'create:cutting',
-                    ingredients: [
-                        {
-                            item: 'railways:track_incomplete_tieless_narrow'
-                        },
-                    ],
-                    results: [
-                        {
-                            item: 'railways:track_incomplete_tieless_narrow'
-                        }
-                    ]
-                },
-                {
-                    type: 'create:deploying',
-                    ingredients: [
-                        {
-                            item: 'railways:track_incomplete_tieless_narrow'
-                        },
-                        [                
-                            {
-                            tag: 'railways:internal/nuggets/iron_nuggets'
-                            },
-                            {
-                            tag: 'railways:internal/nuggets/zinc_nuggets'
-                            }
-                        ]
-                    ],
-                    results: [
-                        {
-                            item: 'railways:track_incomplete_tieless_narrow'
-                        }
-                    ]
-                },
-                {
-                    type: 'create:pressing',
-                    ingredients: [
-                        {
-                            item: 'railways:track_incomplete_tieless_narrow'
-                        }
-                    ],
-                    results: [
-                        {
-                            item: 'railways:track_incomplete_tieless_narrow'
-                        }
-                    ]
-                }
-            ],
-            transitionalItem: {
-                item: 'railways:track_incomplete_tieless_narrow'
-            }
-        }).id( 'forge_frontier:sequenced_assembly/tieless_narrow_track' );
-  
-
     })

@@ -2,6 +2,11 @@ ServerEvents.recipes(event => {
     // Polished Items Seething Recipes
     const seethingRecipes = [
         {
+            name: "irradium_bar",
+            input: "enlightened_end:depleted_irradium_bar",
+            output: "enlightened_end:irradium_bar"
+        },
+        {
             name: "polished_amethyst",
             input: "minecraft:amethyst_shard",
             output: "createutilities:polished_amethyst"
@@ -56,7 +61,7 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_lead_pile'
+                item: 'create_compressed:crushed_lead_pile'
             }
         ],
         results: [
@@ -189,7 +194,7 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_tin_pile'
+                item: 'create_compressed:crushed_tin_pile'
             }
         ],
         results: [
@@ -208,7 +213,7 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_uranium_pile'
+                item: 'create_compressed:crushed_uranium_pile'
             }
         ],
         results: [

@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
                 key: {
                     A: Ingredient.of('#ad_astra:steel_plates').toJson(),
                     B: Ingredient.of('create:fluid_pipe').toJson(),
-                    C: Ingredient.of('createdieselgenerators:diesel_engine').toJson()
+                    C: Ingredient.of('create_new_age:stirling_engine').toJson()
                 },
                 result: Ingredient.of('ad_astra:fuel_refinery').toJson(),
                 acceptMirrored: false

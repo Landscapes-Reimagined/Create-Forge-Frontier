@@ -129,7 +129,7 @@ ServerEvents.recipes(event =>
             ],
             {
                 B: 'create:brass_nugget',
-                L: 'create:andesite_alloy', // Placeholder for Lapis Alloy
+                L: 'create_dd:lapis_alloy', 
                 R: 'create:polished_rose_quartz'
             }
         ).id( 'forge_frontier:shaped/saw_upgrade_looting' )         

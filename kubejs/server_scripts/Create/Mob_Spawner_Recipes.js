@@ -34,7 +34,7 @@ ServerEvents.recipes(event =>
                     B: Ingredient.of('create:brass_sheet').toJson(),
                     S: Ingredient.of('create:shaft').toJson(),
                     c: Ingredient.of('minecraft:chain').toJson(),
-                    I: Ingredient.of('createdeco:industrial_iron_ingot').toJson(),
+                    I: Ingredient.of('create_dd:industrial_iron_ingot').toJson(),
                     P: Ingredient.of('create:precision_mechanism').toJson(),
                     R: Ingredient.of('create:refined_radiance').toJson()
                 },

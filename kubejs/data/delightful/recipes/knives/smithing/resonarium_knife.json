@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "delightful:enabled",
+          "value": "resonarium_knife"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "deeperdarker"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "deeperdarker:resonarium_plate"
+        },
+        "base": {
+          "item": "farmersdelight:iron_knife"
+        },
+        "result": {
+          "item": "delightful:resonarium_knife"
+        },
+        "template": {
+          "item": "deeperdarker:warden_upgrade_smithing_template"
+        }
+      }
+    }
+  ]
+}

@@ -309,7 +309,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'forge_frontier:crushed_uranium_pile'
+            item: 'create_compressed:crushed_uranium_pile'
           }
         ],
         results: [
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'forge_frontier:crushed_tin_pile'
+            item: 'create_compressed:crushed_tin_pile'
           }
         ],
         results: [
