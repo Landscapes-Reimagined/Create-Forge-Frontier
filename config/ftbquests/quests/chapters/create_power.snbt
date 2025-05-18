@@ -39,10 +39,13 @@
 			}]
 			title: "Welcome To Create Crafts and Additions!"
 			x: -1.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["189649B54A50F311"]
+			dependencies: [
+				"189649B54A50F311"
+				"005CAAA3685B5927"
+			]
 			description: [
 				"To begin, place 12 Magnetite blocks around a generator coil, following the setup shown in the Ponder menu. "
 				""
@@ -50,7 +53,7 @@
 				""
 				"Lastly, feed rotational power to the Generator Coil to generate electricity. "
 			]
-			icon: "create_new_age:generator_coil"
+			icon: "create_new_age:carbon_brushes"
 			id: "551C411AF42EB74A"
 			rewards: [
 				{
@@ -65,8 +68,8 @@
 					xp: 50
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "circle"
+			size: 1.0d
 			subtitle: "Magnetic Machinations"
 			tasks: [
 				{
@@ -88,7 +91,7 @@
 			]
 			title: "Create New Age"
 			x: 7.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			description: ["Magnetite is the cornerstone of magnetic energy. Found deep within caves or crafted by energizing Compressed Stone, this block forms the base of all future magnetic components."]
@@ -106,8 +109,8 @@
 					xp_levels: 1
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "pentagon"
+			size: 1.0d
 			subtitle: "Stone to Power"
 			tasks: [{
 				count: 6L
@@ -117,7 +120,7 @@
 			}]
 			title: "Magnetite - Tier 1"
 			x: 13.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["189649B54A50F311"]
@@ -273,7 +276,7 @@
 					type: "item"
 				}
 			]
-			title: "Electrifying Foundations"
+			title: "Basic Energizer - Tier 1"
 			x: 7.0d
 			y: 2.5d
 		}
@@ -303,6 +306,7 @@
 				item: "create_new_age:energiser_t2"
 				type: "item"
 			}]
+			title: "Advanced Energizer - Tier 2"
 			x: 9.0d
 			y: 2.5d
 		}
@@ -335,6 +339,7 @@
 				item: "create_new_age:energiser_t3"
 				type: "item"
 			}]
+			title: "Reinforced Energizer - Tier 3"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -388,7 +393,7 @@
 					xp: 30
 				}
 			]
-			subtitle: "Golden Conduction"
+			subtitle: "Golden Age"
 			tasks: [{
 				id: "2D78B518F6EC8208"
 				item: "create_new_age:overcharged_gold"
@@ -1205,7 +1210,13 @@
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
-			description: ["The Diamond Grit Sandpaper has 1024 durability, making it the superior way to sand gemstones!"]
+			description: [
+				"While not related to power, the Diamond Grit Sandpaper is still very useful. "
+				""
+				"The Diamond Grit Sandpaper is cheap and has 1024 durability, making it the superior way to sand gemstones!"
+				""
+				"It can also be Enchanted."
+			]
 			hide_dependency_lines: true
 			id: "5F8347535AA3686C"
 			rewards: [
@@ -1221,7 +1232,7 @@
 					xp: 10
 				}
 			]
-			size: 0.75d
+			size: 1.0d
 			subtitle: "Superior Sanding"
 			tasks: [{
 				id: "6A7D453B0B6886A9"
@@ -1234,8 +1245,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
@@ -1261,12 +1272,16 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
-			description: ["The electrical motor is similar to New Age's motors, using FE to make SU. However, they are less powerful. "]
+			description: [
+				"The electrical motor is similar to New Age's motors, using FE to make SU. "
+				""
+				"However, they are less powerful, only capable of producing 2048 SU at 256 RPM while consuming 240 FE/tick. "
+			]
 			hide_dependency_lines: true
 			id: "271F476EA9516406"
 			rewards: [
@@ -1289,7 +1304,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
@@ -1315,7 +1330,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
@@ -1346,7 +1361,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 2.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
@@ -1370,7 +1385,7 @@
 					xp: 10
 				}
 			]
-			size: 0.75d
+			size: 1.0d
 			subtitle: "Contraption Connection"
 			tasks: [{
 				id: "6425B59B093817D7"
@@ -1378,11 +1393,11 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F8D724244463BFF"]
-			description: ["The rolling mill allows you to create rods and wire. It takes a ton of SU to run, so be sure to slow it down early game. "]
+			description: ["The rolling mill allows you to create rods and wire. It requires a lot of SU, so be sure to slow it down early game. "]
 			hide_dependency_lines: true
 			id: "7AD9BF0F1C3E3E56"
 			rewards: [
@@ -1415,13 +1430,13 @@
 			id: "2596B66F248D5230"
 			rewards: [
 				{
-					count: 8
-					id: "311E0AEB5623C135"
-					item: "minecraft:stick"
+					count: 4
+					id: "39D3DD9B058312AD"
+					item: "quark:stick_block"
 					type: "item"
 				}
 				{
-					id: "782D281B1125E4D9"
+					id: "09E7E77D4FD06FE2"
 					type: "xp"
 					xp: 25
 				}
@@ -1504,14 +1519,21 @@
 		}
 		{
 			dependencies: ["7AD9BF0F1C3E3E56"]
-			description: ["Allows a blaze burner to accept liquids as fuel! This is very powerful!"]
+			description: ["Allows a blaze burner to accept liquids as fuel! This is very powerful! Right Click a Blaze Burner to give it a straw, then feed it some fluids with a pipe!"]
 			id: "4302EB82E6B92BCF"
-			rewards: [{
-				count: 8
-				id: "462F4DE2B0CB6EBB"
-				item: "createaddition:straw"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "462F4DE2B0CB6EBB"
+					item: "createaddition:straw"
+					type: "item"
+				}
+				{
+					id: "05FAF6207DAD2AB7"
+					type: "xp"
+					xp: 10
+				}
+			]
 			size: 1.0d
 			subtitle: "Drink it UP!"
 			tasks: [{
@@ -1532,7 +1554,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			size: 0.75d
+			size: 1.0d
 			subtitle: "Logical Energy"
 			tasks: [{
 				id: "5E978660BF95B488"
@@ -1540,7 +1562,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7D18E7607D0A105A"]
@@ -1576,6 +1598,39 @@
 			title: "Biomass as Fuel"
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			description: [
+				"Create has always been about motion - shafts, cogs, and windmills. But now, things are evolving. Create: New Age brings electricity into the mix, letting you build real-world inspired machines like generators and nuclear reactors."
+				""
+				"The steam age was fun. Now it's time to get electric."
+			]
+			icon: "create_new_age:generator_coil"
+			id: "005CAAA3685B5927"
+			rewards: [
+				{
+					count: 8
+					id: "039936E074DFAB83"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "4809B8F4D57EA8C1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Electricity and Heat"
+			tasks: [{
+				id: "623C763F2EDF3AB5"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Create New Age"
+			x: 7.0d
+			y: -1.0d
 		}
 	]
 	title: "Powering the Future (Create Power Addons)"
