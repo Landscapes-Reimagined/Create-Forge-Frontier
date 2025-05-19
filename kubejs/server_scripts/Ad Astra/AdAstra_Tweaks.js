@@ -366,6 +366,51 @@ ServerEvents.recipes(event => {
 
             // Mixing Recipes
 
+                // Cryo Fuel Mixing Recipe
+                event.custom({
+                    type: "create:mixing",
+                    ingredients: [
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        },
+                        {
+                            item: 'ad_astra:ice_shard',
+                        }
+                    ],
+                    results: [
+                        {
+                            fluid: 'ad_astra:cryo_fuel',
+                            amount: 1000
+                        }
+                    ],
+                    processingTime: 100, 
+                    heatRequirement: "superheated"
+                }).id('forge_frontier:mixing/cryo_fuel')                 
+
                 // Oil to Fuel Mixing Recipe
                 event.custom({
                     type: "create:mixing",
