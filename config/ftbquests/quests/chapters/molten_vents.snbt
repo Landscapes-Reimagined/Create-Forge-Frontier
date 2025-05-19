@@ -17,6 +17,7 @@
 		}
 		{
 			height: 1.0d
+			hover: ["Calcite"]
 			image: "minecraft:block/calcite"
 			rotation: 0.0d
 			width: 1.0d
@@ -106,15 +107,30 @@
 				type: "dimension"
 			}]
 			title: " Molten Vents of the Nether"
-			x: -5.0d
+			x: -5.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Hidden within the mysterious depths of the Otherside lies the Resonite Vent, a unique molten vent found exclusively on the roof of this enigmatic dimension. Resonating with untapped potential, the Resonite Vent provides essential materials crucial for advanced crafting and progression. Its placement high above the perilous terrain underscores the dimension's challenges and rewards."
+				"Hidden high above the shadowed terrain of the &5Otherside&r lies a marvel unlike any other—&lthe Resonite Vent&r. Perched on the roof of this mysterious dimension, this rare molten vent thrums with &omysterious energy&r and &buntapped potential&r."
 				""
-				"Uncover the secrets of the Resonite Vent, and let its power guide you deeper into the wonders of the Otherside!"
+				"&lResonite&r is a resource like no other, vital for &ladvanced crafting&r and &6late-game progression&r. But claiming it won’t be easy. Navigating the Otherside's eerie depths is dangerous enough—but scaling to its uppermost reaches? That’s a challenge worthy of only the boldest adventurers."
+				""
+				"{@pagebreak}"
+				""
+				"🗺 Locating the Vent"
+				"The Resonite Vent doesn’t appear in the open. You'll need to explore &5ancient ruins&r, brave the dimension’s warped geometry, and ascend its obsidian canopy to find this molten marvel."
+				""
+				"🔥 Activating the Pulse"
+				"As with all molten vents, activate it by igniting &lTNT&r atop its dormant form. Once awakened, feed it the required fluid—&oto be discovered on your journey&r—and unlock a renewable stream of Resonite materials."
+				""
+				"{@pagebreak}"
+				""
+				"Unravel the secrets. Claim the rewards."
+				"Let the &mheartbeat of the Otherside&r guide your way into the arcane unknown."
+				""
+				"💎 &oThe Resonite Vent awaits—do you have the resolve to reach it?&r"
 			]
 			icon: "deeperdarker:heart_of_the_deep"
 			id: "4D23ABB810220050"
@@ -132,21 +148,37 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Otherside’s Resonant Treasures: The Resonite Vent, Click me for more info!"
+			subtitle: "The Pulse of the Otherside. Click me for more info!"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				id: "7DBA6B0F06569E5F"
 				type: "dimension"
 			}]
+			title: "Molten Vent of the Otherside"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"The barren surface of the Moon holds a shimmering secret—the Aubrum Vent. Found exclusively on the Moon’s rugged surface, this molten vent offers an invaluable resource for those daring enough to venture beyond Earth’s atmosphere. The vent’s glowing deposits pulse with energy, providing essential materials to fuel advanced technologies and interstellar ambitions."
+				"Amid the Moon’s &7desolate craters&r and &7silent plains&r lies a rare celestial anomaly—the &lAubrum Vent&r. Embedded within the rugged lunar surface, this molten vent pulses with a faint &dcosmic shimmer&r, hinting at the powerful resource it contains."
 				""
-				"Explore the Moon’s desolate expanse, uncover the Aubrum Vent, and harness its celestial power to propel your journey to the stars! 🌌"
+				"&6Aubrum&r is a crucial component in &lspace-age machinery&r and &6high-tier automation&r, making this vent an essential milestone in your interstellar progression. Only those bold enough to pierce the heavens and step onto the Moon will be able to harness its power."
+				""
+				"{@pagebreak}"
+				""
+				"🌑 Finding the Vent"
+				"The Aubrum Vent is unique to the Moon and can be found nestled among the craters and &7regolith dust&r. Its glowing hue makes it easy to spot—if you're paying attention."
+				""
+				"💥 Ignite the Process"
+				"Activate the dormant vent by lighting &lTNT&r atop it. Once it erupts into its awakened state, it will require a &ospecial liquid&r to begin producing the coveted Aubrum ore through your &lmechanical extruder&r setups."
+				""
+				"{@pagebreak}"
+				""
+				"🛰 Conquer the void, claim the shimmer."
+				"Let &6Aubrum&r fuel your ascent into the stars!"
+				""
+				"🚀 &oThe Moon holds more than dust—it holds your future.&r"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "470D358D9308FA68"
@@ -164,21 +196,37 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Lunar Riches: The Aubrum Vent, Click me for more info!"
+			subtitle: "The Moon’s Shimmering Secret. Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "56EE4C23722F5397"
 				type: "dimension"
 			}]
+			title: "Molten Vent of the Moon"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Beneath the iconic red sands of Mars lies the extraordinary Stellaris Vent, a molten vent brimming with rare and valuable resources. Found exclusively on the Martian surface, these vents serve as a key to unlocking advanced technologies and interplanetary progress."
+				"Beneath the &4crimson dunes&r and jagged cliffs of Mars lies a discovery that redefines space-age engineering—the &lStellaris Vent&r. This molten fissure radiates with &dinterstellar energy&r, its glowing core a gateway to &6rare resources&r essential for your most advanced machines."
 				""
-				"Mars, with its rugged terrain and mysterious allure, offers a challenging yet rewarding destination for pioneers. Locate the Stellaris Vent, harness its rich deposits, and take your exploration and engineering to new cosmic heights! 🚀✨"
+				"Found only on the &4Martian surface&r, Stellaris Vents are your ticket to unlocking powerful components like &6Ostrum&r, pushing your technological frontier further than ever before."
+				""
+				"{@pagebreak}"
+				""
+				"🪐 Venture Across the Red World"
+				"To locate a Stellaris Vent, you’ll need to brave Mars’s &cdust-choked plains&r and &7hostile terrain&r. Once discovered, ignite TNT atop the vent to activate it, transforming it into a pulsing source of molten energy."
+				""
+				"⚙ Refined Power, Endless Potential"
+				"Feed the awakened vent its &oliquid catalyst&r—crafted through resourceful engineering—and you’ll be able to automate &6Ostrum&r production using &lmechanical extruders&r."
+				""
+				"{@pagebreak}"
+				""
+				"🚀 Mars holds the keys to your next great leap."
+				"Unleash the power of &dStellaris&r and fuel your rise through the cosmos."
+				""
+				"&4The Red Planet awaits—are you ready to claim its molten legacy?&r"
 			]
 			icon: "ad_astra:mars_globe"
 			id: "7339FE49A994B794"
@@ -202,15 +250,29 @@
 				id: "1EEB22ACE1F951D6"
 				type: "dimension"
 			}]
+			title: "Molten Vent of Mars"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Amid the scorching heat and toxic skies of Venus lies the Pyroclast Vent, a molten vent exuding fiery potential and rare resources. Found exclusively on the planet’s hostile surface, these vents are a testament to Venus's volatile yet resource-rich environment."
+				"Amid the &cscorching storms&r and &6volcanic terrain&r of Venus lies a molten marvel—the &lPyroclast Vent&r. This superheated fissure pulses with &cfire-infused energy&r, radiating with volatile power and the promise of &6rare progression materials&r."
 				""
-				"Venus, with its extreme conditions and breathtaking volcanic terrain, offers bold adventurers the chance to extract valuable materials from the Pyroclast Vent. Brave the heat, harvest its fiery riches, and advance your journey through the stars! 🔥🌋✨"
+				"Found exclusively on the &6surface of Venus&r, the Pyroclast Vent is not just a resource node—it’s a &ltrial by fire&r, offering &dCalorite potential&r to those resilient enough to endure the planet’s wrath."
+				""
+				"{@pagebreak}"
+				""
+				"🌋 Survive the Inferno"
+				"Venus offers no mercy. With &4toxic skies&r and &corrosive heat&r, locating a Pyroclast Vent is only the beginning. Once uncovered, ignite TNT atop the vent to activate it, converting it from dormant stone to a living conduit of molten power."
+				""
+				"🔥 Ignite Progression"
+				"Provide the required &odesert milkshake fluid&r—crafted with precision—and begin automating &dCalorite&r using &lmechanical extruders&r. The vent’s yield will fuel your path toward endgame technologies."
+				""
+				"{@pagebreak}"
+				""
+				"&cOnly the bold will tame the flame.&r"
+				"&6Harness the fury of Venus, and let the Pyroclast Vent blaze your trail to the stars.&r"
 			]
 			icon: "ad_astra:venus_globe"
 			id: "6B619A2EB40D34C9"
@@ -234,12 +296,30 @@
 				id: "323ADE366797631D"
 				type: "dimension"
 			}]
+			title: "Molten Vent of Venus"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["On the icy surface of Glacio, the Frostite Vent emerges as a beacon of frozen treasures. Encased within glacial terrain and crystalline beauty, these vents are a vital source of rare resources for daring spacefarers. Navigate the planet's frostbitten landscapes to uncover this vent’s wealth and unlock its frozen potential. ❄🧊✨"]
+			description: [
+				"Amid the &3glacial stillness&r of Glacio’s frozen surface lies a &bcrystalline wonder&r—the &lFrostite Vent&r. Nestled in the &9ice-locked terrain&r, this shimmering vent radiates with &owintry energy&r, offering an essential resource for those who brave the frost-covered frontiers."
+				""
+				"Found only in the &frozen heart of Glacio&r, the Frostite Vent is a &lcore component&r in the automation of powerful &bice-based alloys&r and high-tier machinery."
+				""
+				"{@pagebreak}"
+				""
+				"🧊 Awaken the Frozen Core"
+				"Track its jagged, frost-lined spires among Glacio’s icy valleys. To activate the vent, ignite TNT on its surface, shattering its dormant crust and awakening the &lflow of sub-zero energy&r beneath."
+				""
+				"❄ Fuel the Chill"
+				"Supply the vent with &bGlacio Ice Shard Milkshake&r, crafted from frigid shards found deep beneath the planet’s crust. Once activated, the &lMechanical Extruder&r will begin transforming fluid into &lvaluable Frostite Orestone&r."
+				""
+				"{@pagebreak}"
+				""
+				"&bWill you endure the frost and harness the cold?&r"
+				"&3The Frostite Vent awaits—frozen, fierce, and full of promise.&r"
+			]
 			icon: "ad_astra:glacio_globe"
 			id: "744904CCFAFB6BB0"
 			rewards: [
@@ -256,18 +336,40 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Frozen Wonders: The Frostite Vent (Glacio), Click me for more info!"
+			subtitle: "Forged in Ice, Hidden in Silence, Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:glacio"
 				id: "7616F73D69F93929"
 				type: "dimension"
 			}]
+			title: "Molten Vent of Glacio"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["The End dimension holds more than its legendary dragon—it is also home to three unique molten vents. The Radiantite Vent, glowing with an otherworldly light, offers unparalleled resources to those who seek it. The Void Shale Vent, dark and mysterious, exudes fragments of the infinite void, while the Palerock Vent, pale and smooth, adds another layer to the End’s hidden depths. Venture through this enigmatic realm to harness these exceptional vents and expand your industrial empire. ✨🐉🌌"]
+			description: [
+				"The &5End Dimension&r holds more than the &odragon’s roar&r—it conceals &lthree mystical molten vents&r, each pulsing with energy beyond comprehension. These ancient fissures, embedded within the alien stone of the End, offer resources as rare as they are powerful."
+				""
+				"{@pagebreak}"
+				""
+				"✨ Radiantite Vent"
+				"Glowing with &emystic brilliance&r, the Radiantite Vent is a &lbeacon of celestial energy&r. Found among the tall spires and windswept void islands, it fuels the most &radvanced crafting systems&r in the known universe."
+				""
+				"🌑 Void Shale Vent"
+				"Dark and &koblivion-bound&r, this vent bleeds fragments of the &oinfinite void&r itself. Handle with caution—the &8Void Shale Vent&r pulses with power drawn from the edge of nothingness."
+				""
+				"🪨 Palerock Vent"
+				"Smooth, pale, and deceptively silent, the Palerock Vent reflects the &7enigmatic stillness&r of the End. While less volatile than its counterparts, it provides &lessential resources&r for those seeking mastery over the End’s deeper secrets."
+				""
+				"{@pagebreak}"
+				""
+				"🎯 How to Harness Their Power"
+				"As with other molten vents, use TNT to awaken them from dormancy. Once activated, each requires a &lspecific custom milkshake&r fluid to begin automation via &lMechanical Extruders&r."
+				""
+				"&5Will you tame the void and command its power—or be lost to its depths?&r"
+				"&dThe secrets of the End await those who dare to seek them.&r"
+			]
 			icon: "minecraft:end_stone"
 			id: "15DD51BFD4480F8D"
 			rewards: [
@@ -289,12 +391,31 @@
 				id: "05A4F792DF06B32F"
 				type: "dimension"
 			}]
+			title: "Molten Vents of the End"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["Deep beneath the ocean in the Abyssal Chasm, the Pearlyte Vent glimmers among tube worms and ruins, emanating its marine riches. Accessible only to the bravest, these vents provide rare resources essential for advanced crafting. Dive into the depths, confront the perils of the chasm, and unearth the treasures of the Pearlyte Vent. 🌊🐚✨"]
+			description: [
+				"Deep beneath the crushing pressure of the Abyssal Chasm, where &9tube worms writhe&r and &omysterious ruins slumber&r, the &bPearlyte Vent&r glimmers with &ltreasures of the sea&r. This &luncommon molten vent&r is shrouded in bioluminescent glow and guarded by the perils of the deep."
+				""
+				"{@pagebreak}"
+				""
+				"🌀 Abyssal Location"
+				"Accessible only to the &lbravest divers&r and most prepared explorers, this vent lies at the heart of &lAlex’s Caves: Abyssal Chasm&r. There, the ocean’s depth &odistorts sound and light&r, making orientation—and survival—a true challenge."
+				""
+				"🧪 Unlocking Its Power"
+				"As with all molten vents, ignite TNT atop the &odormant Pearlyte&r to activate its core. Once awakened, it will accept a specific &aMilkshake Fluid&r, initiating a powerful resource generation process through your &lMechanical Extruder&r system."
+				""
+				"{@pagebreak}"
+				""
+				"💎 Why It Matters"
+				"Pearlyte fuels &ladvanced crafting recipes&r required for late-game engineering, machinery, and interdimensional travel. It’s a cornerstone of deep-sea industry and a prize for those bold enough to venture below."
+				""
+				"🌊 Will you master the tides—or vanish into the abyss?"
+				"🦑 The ocean whispers secrets meant only for the daring…"
+			]
 			icon: "alexscaves:submarine"
 			id: "6CDC2B37D835F804"
 			rewards: [
@@ -317,12 +438,30 @@
 				id: "1A839FCD59353FDF"
 				type: "dimension"
 			}]
+			title: "Molten Vent of the Abyssal Chasm"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["Within the lush and prehistoric Primordial Caves, the Amberlite Vent stands as a glowing marvel. Radiating warmth and light, these vents symbolize the ancient energy of the caves. Explore this verdant, dinosaur-filled biome to harvest the vent’s unique offerings and advance your journey through technological eras. 🦖🌳✨"]
+			description: [
+				"Hidden deep within the &2lush overgrowth&r and &oprehistoric wonder&r of the &lPrimordial Caves&r, the &6Amberlite Vent&r glows like a relic of ancient times. It pulses with &oorange warmth&r and &lancestral energy&r—remnants of a world before time."
+				""
+				"{@pagebreak}"
+				""
+				"🌿 Primeval Placement"
+				"Found only in the depths of the &lAlex's Caves: Primordial Caves&r, this molten vent is guarded by the &odinosaurian denizens&r of the biome—&lGrottoceratops&r, &oTremorsaurus&r, and more. Tread carefully among the vines and vines of ancient growth."
+				""
+				"🔥 Vent Activation"
+				"As with all molten vents, &6ignite TNT&r atop a dormant Amberlite Vent to awaken its core. Once active, &osupply it with its corresponding milkshake fluid&r to begin generating precious resources through &lMechanical Extruders&r."
+				""
+				"{@pagebreak}"
+				""
+				"🛠 Crafting Through Time"
+				"Amberlite provides materials necessary to &lbridge the ancient and the futuristic&r. Its outputs are essential to &ltech-era crafting&r, giving your builds the power of evolution itself."
+				""
+				"🌟 Will you harness the flame of the first age—or be lost to the jungle’s roots?"
+			]
 			icon: {
 				Count: 1
 				id: "alexscaves:primordial_helmet"
@@ -351,12 +490,30 @@
 				id: "54AF1FBD3322EBAC"
 				type: "dimension"
 			}]
+			title: "Molten Vent of the Primordial Caves"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["In the shadowy depths of the Forlorn Hollows, the Guanite Vent thrives amid ominous forces. Found among the haunting Guanostone, these vents provide valuable yet sinister resources. Traverse this dark, evil-infested biome to harness the power of the Guanite Vent—if you dare. 🌌🕯✨"]
+			description: [
+				"In the &0shadow-choked crevices&r of the &lForlorn Hollows&r, the &8Guanite Vent&r bubbles ominously from beneath the cursed &7Guanostone&r. Surrounded by the whispers of the &nforgotten dead&r and patrolled by the &cForsaken&r, this molten vent pulses with a &odark, forbidden energy&r."
+				""
+				"{@pagebreak}"
+				""
+				"🪦 A Sinister Discovery"
+				"This vent is found only in the depths of the &lAlex’s Caves: Forlorn Hollows&r—a biome steeped in &omalevolent energy&r and echoing with the cries of the &cUnderzealots&r. It is a realm not meant for the faint of heart."
+				""
+				"💀 Activation Amid Shadows"
+				"As with all molten vents, &6ignite TNT&r on a dormant Guanite Vent to awaken its ancient force. Then, &oprovide it with the correct milkshake fluid&r to begin its extraction process via &lMechanical Extruders&r."
+				""
+				"{@pagebreak}"
+				""
+				"⚔ Power in the Darkness"
+				"The resources drawn from Guanite are potent—and &odrenched in peril&r. Whether used for dark crafting, alchemical experiments, or fueling forbidden technology, they offer power at a price."
+				""
+				"🌑 Will you brave the hollows and master their secrets—or be consumed by the shadows?"
+			]
 			icon: "alexscaves:pure_darkness"
 			id: "0988690A536B7D19"
 			rewards: [
@@ -379,12 +536,33 @@
 				id: "4A03EBCDD5110DBB"
 				type: "dimension"
 			}]
+			title: "Molten Vent of the Forlorn Hollows"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["Within the perilous Toxic Caves, two molten vents await the bold: the Uraniumnite Vent, glowing with radioactive energy, and the Sulphite Vent, bubbling with acidic fumes. Brave the apocalyptic ruins and hostile creatures to harness these vents and gain access to powerful, rare materials. ☣🛠✨"]
+			description: [
+				"In the heart of the &2Toxic Caves&r, where the air stings with radiation and every breath carries risk, two volatile molten vents await those with the resolve to survive: the &eSulphite Vent&r and the &aUraniumnite Vent&r."
+				""
+				"{@pagebreak}"
+				""
+				"🧪 The Sulphite Vent"
+				"&lBubbling with acidic fumes&r, this vent releases noxious materials that corrode unprotected tools and armor. Yet for the bold, its yield is vital for crafting chemical catalysts and energy-rich components."
+				""
+				"☢ The Uraniumnite Vent"
+				"&lPulsing with radioactive energy&r, this vent glows ominously beneath the surface, promising powerful—but dangerous—rewards. Handle with care, as extended exposure could mean disaster without the right gear."
+				""
+				"{@pagebreak}"
+				""
+				"💀 A World of Rot and Ruin"
+				"These vents lie hidden among &lapocalyptic ruins&r and &ltoxic swamplands&r, surrounded by grotesque creatures twisted by radiation. Navigating this biome will test your endurance, preparation, and sanity."
+				""
+				"⚠ Activate and Automate"
+				"As with all vents, ignite TNT atop a dormant vent to awaken it. Then supply its &ldesignated milkshake fluid&r to begin extraction using &lMechanical Extruders&r. These vents are key to unlocking powerful recipes and technologies later in your journey."
+				""
+				"🧬 Will you brave the toxic storm and claim these corrosive riches—or become part of the wasteland?"
+			]
 			icon: {
 				Count: 1
 				id: "alexscaves:hazmat_mask"
@@ -413,12 +591,33 @@
 				id: "001E6A2B41C27264"
 				type: "dimension"
 			}]
-			x: 17.5d
+			title: "Molten Vents of the Toxic Caves"
+			x: 17.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["The Magnetic Caves boast two extraordinary molten vents: the Neodyrium Vent, crackling with magnetic energy, and the Azurnium Vent, shimmering with mechanical brilliance. These vents hold the key to unlocking advanced crafting and automation, but beware of the powerful mechanical creatures that patrol the caves. ⚡🔧✨"]
+			description: [
+				"Deep within the &9Magnetic Caves&r, where polarity distorts reality and metal hums with unnatural energy, lie two of the most advanced molten vents in existence: the &3Azurnium Vent&r and the &dNeodyrium Vent&r."
+				""
+				"{@pagebreak}"
+				""
+				"🔩 The Azurnium Vent"
+				"Gleaming with &lmechanical brilliance&r, this vent pulses with the &obrainpower of automation&r. It is said that Azurnium once powered lost machines of an ancient civilization—machines that could build themselves."
+				""
+				"⚡ The Neodyrium Vent"
+				"Crackling with &omagnetic current&r, the Neodyrium Vent distorts compasses and draws metals to itself. Its rare energy signature is perfect for &lconductive alloys&r and &ltech-based contraptions&r."
+				""
+				"{@pagebreak}"
+				""
+				"🛠 Harnessing Their Potential"
+				"To awaken either vent, &6ignite TNT&r atop a dormant version found in this volatile biome. Supply it with the &odesignated milkshake fluid&r and channel the output using &lMechanical Extruders&r to automate resource production."
+				""
+				"🤖 But Beware…"
+				"The &cMagnetic Caves&r are home to &lTeletors&r, &lMagnetrons&r, and other magnetic horrors that will stop at nothing to defend the vents. Approach with caution—and a well-armored mech suit."
+				""
+				"⚙ Will you master the forces of magnetism, or fall victim to its pull?"
+			]
 			icon: "alexscaves:telecore"
 			id: "42CE6455938E37CF"
 			rewards: [
@@ -441,7 +640,8 @@
 				id: "43CBDB5891078EB5"
 				type: "dimension"
 			}]
-			x: 14.5d
+			title: "Molten Vents of the Magnetic Caves"
+			x: 14.25d
 			y: 0.0d
 		}
 		{
@@ -1021,7 +1221,7 @@
 				id: "6FD8F60FF72264DF"
 				type: "biome"
 			}]
-			x: -5.0d
+			x: -5.25d
 			y: 1.5d
 		}
 		{
@@ -2107,7 +2307,23 @@
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
-			description: ["The Candy Cavity hides a tantalizing mystery—a Lost Debris Vent, a feature planned for future exploration. This vent, crafted from sweet ingenuity, will unlock rare and exciting resources, expanding your capabilities and reshaping the boundaries of your adventures. 🍬🔮✨"]
+			description: [
+				"Deep within the whimsical yet unsettling realm of the &dCandy Cavity&r lies a mystery unlike any other: the &lLost Debris Vent&r—a future feature designed to redefine the limits of your adventure."
+				""
+				"{@pagebreak}"
+				""
+				"Crafted from &omolten sugar and ancient ingenuity&r, this vent radiates with potential, waiting for the day it can be awakened. Though currently dormant, it promises access to &lrare materials&r and &lenchanting technologies&r that will reshape your journey across the stars."
+				""
+				"✨ What Lies Ahead"
+				"This vent is a &lplaceholder for future updates&r, a teaser of the power and mystery yet to come. It will eventually play a critical role in resource generation and progression beyond anything currently available."
+				""
+				"{@pagebreak}"
+				""
+				"🧁 Prepare for Sweet Discovery"
+				"Keep your eyes peeled and your candy blades sharp—the Candy Cavity may be lighthearted in appearance, but its secrets run deep."
+				""
+				"Will you be ready when the Lost Debris Vent finally awakens?"
+			]
 			icon: "alexscaves:small_peppermint"
 			id: "77EB3AE60F0E8FEA"
 			rewards: [
@@ -2130,6 +2346,7 @@
 				id: "719C8CDFA8E1BAF6"
 				type: "dimension"
 			}]
+			title: "Molten Vent of the Candy Cavity Caves"
 			x: 20.0d
 			y: 0.0d
 		}
@@ -2147,7 +2364,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6BF481A48C136085"]
+			dependencies: [
+				"6BF481A48C136085"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&6Caramel Milkshake&r serves as the &oluxurious source fluid&r for activating &eVeridium Molten Vents&r and driving &6copper automation&r via Mechanical Extruders. This sweet and essential liquid starts with a rich base: &oCaramel Milk&r."
 				""
@@ -2163,6 +2383,7 @@
 				""
 				"&lFrom sweetness comes strength&r—power your machines and copper automation the tastiest way possible. 🥤⚙"
 			]
+			hide_dependency_lines: true
 			id: "571CE6F8667DA48F"
 			rewards: [{
 				id: "42826BA5286F97D2"
@@ -2180,7 +2401,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["1091314A5D575D4B"]
+			dependencies: [
+				"1091314A5D575D4B"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&dStrawberry Milkshake&r isn’t just a tasty treat—it’s the &lkey fluid&r for activating &cCrimsite Molten Vents&r and automating &oiron production&r via Mechanical Extruders. Its creation is a multi-step process, blending &omachine precision&r with &7delicious chemistry&r."
 				""
@@ -2196,6 +2420,7 @@
 				""
 				"&lFrom berry to blast furnace&r, this milkshake is more than a fluid—it’s the foundation of automation. Get mixing, and let the sweetness of progress flow!"
 			]
+			hide_dependency_lines: true
 			id: "38367FF1F1438DED"
 			rewards: [{
 				id: "4EFC0A71251BE59E"
@@ -2213,7 +2438,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["070BAAF36335CB39"]
+			dependencies: [
+				"070BAAF36335CB39"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&6Glowberry Milkshake&r is more than just a glowing drink—it’s the &lessential fluid&r for powering &eOchrum Molten Vents&r and automating &6gold production&r via Mechanical Extruders. Its creation begins with crafting a radiant base: &oGlowberry Milk&r."
 				""
@@ -2229,6 +2457,7 @@
 				""
 				"&lLet the golden glow guide your automation&r—this milkshake fuels more than machines. It fuels innovation. 🥤✨"
 			]
+			hide_dependency_lines: true
 			id: "1F22F9F9B3D393E1"
 			rewards: [{
 				id: "6E93D9069E278565"
@@ -2246,7 +2475,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["79632EC457A3A88D"]
+			dependencies: [
+				"79632EC457A3A88D"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&fVanilla Milkshake&r is the &oessential fuel source&r for activating &7Potassic Molten Vents&r and automating &ftin production&r through Mechanical Extruders. This classic blend begins with the creation of smooth &oVanilla Milk&r—simple, yet powerful."
 				""
@@ -2262,6 +2494,7 @@
 				""
 				"&lA timeless classic with mechanical might&r—fuel your tin automation the tastiest way possible. ⚙✨"
 			]
+			hide_dependency_lines: true
 			id: "2E99FE44436A381C"
 			rewards: [{
 				id: "329ED9BD18A26718"
@@ -2279,7 +2512,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["58E37D66B86362FD"]
+			dependencies: [
+				"58E37D66B86362FD"
+				"5C42B9D85F62A1F2"
+			]
 			description: [
 				"&fCream&r is the luxurious middle step in your milkshake crafting process—&oa smooth, rich fluid&r created by mixing condensed milk with other ingredients. Beyond its dessert-like role, it serves a crucial function in &3mechanical extruder&r setups."
 				""
@@ -2293,6 +2529,7 @@
 				""
 				"From creamy delight to industrial might, &fCream&r bridges the world of flavor and function. 🧁⚙"
 			]
+			hide_dependency_lines: true
 			id: "061D64DE3F96B2F8"
 			subtitle: "Essential for Milkshakes and Zinc Automation. Click me for more info!"
 			tasks: [{
@@ -2320,6 +2557,7 @@
 				"&lFrom dessert to dynamic block generation&r, condensed milk is more than just sweet—it’s strategic. 🍶"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5C42B9D85F62A1F2"
 			shape: "hexagon"
 			subtitle: "Foundational Fluid for Milkshakes and Automation. Click me for more info!"
@@ -2333,7 +2571,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["20EDD6DD2BDC5F24"]
+			dependencies: [
+				"20EDD6DD2BDC5F24"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&dChocolate Milkshake&r is the &oessential fluid&r for activating &9Scoria Molten Vents&r and powering the &3mechanical extruders&r used in automated &9lapis production&r. Smooth and decadent, this milkshake begins its journey with melted chocolate—crafted through the alchemy of &oHeated Mixing&r."
 				""
@@ -2349,6 +2590,7 @@
 				""
 				"&lFrom confection to contraption&r—this milkshake is the secret ingredient for lapis mastery! ⚙🔵"
 			]
+			hide_dependency_lines: true
 			id: "2BE12AF20FA6DC0D"
 			rewards: [{
 				id: "6E537EB297724944"
@@ -2433,7 +2675,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["0526FF8AE3C0EA67"]
+			dependencies: [
+				"0526FF8AE3C0EA67"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&cAdzuki Milkshake&r is the core ingredient for activating &4Pyroclast Molten Vents&r and fueling the &3mechanical extruder systems&r vital to the automation of &6Calorite&r. This rich, earthy shake begins with the careful preparation of &oadzuki milk&r—made through &lHeated Mixing&r."
 				""
@@ -2449,6 +2694,7 @@
 				""
 				"&lBold, powerful, and essential&r—Adzuki Milkshake is the molten key to mastering one of the most advanced alloys in the galaxy. 🔥🛠"
 			]
+			hide_dependency_lines: true
 			id: "5B45F6B48A81E380"
 			subtitle: "Molten Power for Pyroclast Automation. Click me for more info!"
 			tasks: [{
@@ -2461,7 +2707,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3C81772B0834E434"]
+			dependencies: [
+				"3C81772B0834E434"
+				"061D64DE3F96B2F8"
+			]
 			description: [
 				"&dPomegranate Milkshake&r is the vital fluid used to activate &5Stellaris Molten Vents&r, powering the &3mechanical extruders&r responsible for automating the production of &eOstrum&r. This vibrant and tart infusion begins with a heated blend of fresh ingredients to produce &opomegranate milk&r."
 				""
@@ -2477,6 +2726,7 @@
 				""
 				"&lRefined, radiant, and reactor-ready&r—Pomegranate Milkshake delivers the power needed to push your automation further than ever before. ✨🛠"
 			]
+			hide_dependency_lines: true
 			id: "1B5FB4BFC3366093"
 			subtitle: "Igniting the Path to Ostrum"
 			tasks: [{
@@ -2564,7 +2814,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6C99623FD144B074"]
+			dependencies: [
+				"6C99623FD144B074"
+				"2BE12AF20FA6DC0D"
+				"38367FF1F1438DED"
+				"2E99FE44436A381C"
+			]
 			description: [
 				"&fNeapolitan Milkshake&r isn’t just a dessert—it’s a &dtriple-tiered engineering marvel&r. Crafted by mixing three distinct milkshakes into one harmonious blend, this &oswirled fusion&r becomes the &bsource fluid&r for activating &8Ancient Debris Molten Vents&r."
 				""
@@ -2577,6 +2832,7 @@
 				""
 				"From sweet treat to endgame feat, &fNeapolitan Milkshake&r is your key to streamlined &cNetherite&r production. 🍓🍫🍦"
 			]
+			hide_dependency_lines: true
 			id: "24958E87D1B6893F"
 			subtitle: "Key to Ancient Debris Automation. Click me for more info!"
 			tasks: [{
