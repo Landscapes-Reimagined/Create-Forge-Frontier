@@ -451,8 +451,10 @@
 				""
 				"🌕 The Moon awaits—but it’s only the beginning."
 				""
-				"Click here to learn how to get  "
-				"{ \"text\": \"Fuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4A9A03DC67D025B1\" } }"
+				"{@pagebreak}"
+				"Fuel is crafted by heated mixing the below ingredients:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_oil_fuel.png width:200 height:120 align:center}"
 			]
 			hide_dependency_lines: true
 			icon: {
