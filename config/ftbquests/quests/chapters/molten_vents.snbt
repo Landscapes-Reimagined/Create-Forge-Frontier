@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "molten_vents"
-	group: "37A1080736831E36"
+	group: "3D5393E3938A9DF4"
 	icon: "molten_vents:dormant_molten_asurine"
 	id: "4E4AA685A681F1B0"
 	images: [
@@ -25,7 +25,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 4
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +41,7 @@
 				""
 				"⚒ &oVenture forth, ignite the stone, and master the molten veins of the Overworld. Your factory’s future begins in the earth below.&r"
 			]
-			icon: "minecraft:grass_block"
+			icon: "ad_astra:earth_globe"
 			id: "69CE3113324ED800"
 			rewards: [
 				{
@@ -787,8 +787,19 @@
 		{
 			dependencies: ["2AE42496027E453C"]
 			description: [
+				"Hidden within select biomes lies the &6Ochrum Vent&r—one of the most precious molten ore stones, essential for unlocking &eyour gold automation pipeline&r. While it may appear dormant at first glance, within it simmers the molten potential of &lwealth and industry&r."
 				""
 				"{image:ftb:textures/ochrum_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its golden promise, you must &lignite the vent with TNT&r, transforming it from a silent stone into a blazing source of automation."
+				""
+				"💥 &oChoose your biome wisely and be prepared—the awakening is volatile, but rewarding.&r"
+				""
+				"Once activated, the vent will begin accepting its designated &dsource fluid&r (revealed in the next quest), powering &lMechanical Extruders&r to produce a steady flow of valuable resources."
+				""
+				"⚙ &6Strike the spark. Feed the flame. And let gold pour from the heart of Ochrum.&r"
 			]
 			icon: "molten_vents:dormant_molten_ochrum"
 			id: "070BAAF36335CB39"
@@ -797,7 +808,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ochrum Vents are found anywhere in the overworld, specically in Savanna Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "7E9F73B48C50234A"
 				observe_type: 0
@@ -806,6 +817,7 @@
 				to_observe: "molten_vents:dormant_molten_ochrum"
 				type: "observation"
 			}]
+			title: "Ochrum Awakening: The Gilded Flame"
 			x: -12.0d
 			y: 3.0d
 		}
@@ -840,6 +852,7 @@
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
+			icon: "regions_unexplored:blue_magnolia_sapling"
 			id: "2913B79A0D9AE74E"
 			rewards: [{
 				id: "22A7C04F9260D57E"
@@ -857,8 +870,19 @@
 		{
 			dependencies: ["2913B79A0D9AE74E"]
 			description: [
+				"Hidden within the correct biome lies the &9Asurine Vent&r—one of the precious ore stones essential to &fZinc&r automation. Though it may appear dormant at first glance, it holds the &omineral potential to jumpstart your production line&r."
 				""
 				"{image:ftb:textures/asurine_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unlock its power, you must &lignite the dormant vent using TNT&r. This fiery activation awakens the Asurine Vent, transforming it into a functioning source ready to receive molten fluid."
+				""
+				"💥 &oActivation requires the proper biome placement and a well-placed explosion—handle with care!&r"
+				""
+				"Once activated, supplying &dcream&r (covered in the next quest) will enable full zinc automation using &lMechanical Extruders&r."
+				""
+				"⚙ The frost runs deep—but with fire, you awaken the ore. Will you rise to command the might of Asurine?"
 			]
 			icon: "molten_vents:dormant_molten_asurine"
 			id: "58E37D66B86362FD"
@@ -867,7 +891,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Asurine Vents are found anywhere in the overworld, specically in Forest Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "5A45884CDA0E6655"
 				observe_type: 0
@@ -875,7 +899,7 @@
 				to_observe: "molten_vents:dormant_molten_asurine"
 				type: "observation"
 			}]
-			title: "Find a Asurine Vent"
+			title: "Asurine Surge: The Path to Zinc"
 			x: -18.0d
 			y: 3.0d
 		}
@@ -984,8 +1008,19 @@
 		{
 			dependencies: ["2913B79A0D9AE74E"]
 			description: [
+				"Hidden within the correct biome lies the &6Potassic Vent&r—one of the rare &dore stones&r crucial for automating &7Tin&r production. Though dormant at first glance, within it flows the &oessence of subterranean power&r waiting to be unleashed."
 				""
 				"{image:ftb:textures/potassic_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this dormant vent, you'll need to &lignite its surface with TNT&r. This fiery catalyst transforms the vent into an active node, ready to accept molten fluids for automation."
+				""
+				"💥 &oOnly the right biome, the right blast, and a little courage will set its power free.&r"
+				""
+				"Once activated, providing the proper &bsource fluid&r (explained in the next quest) allows you to begin your &ltin automation&r pipeline using &lMechanical Extruders&r."
+				""
+				"⚙ A volatile spark. A precious resource. Are you ready to unlock the full potential of Potassic?"
 			]
 			icon: "molten_vents:dormant_molten_potassic"
 			id: "79632EC457A3A88D"
@@ -994,7 +1029,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Potassic Vents are found anywhere in the overworld, specically in Forest Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "297A3F832F65C94D"
 				observe_type: 0
@@ -1003,6 +1038,7 @@
 				to_observe: "molten_vents:dormant_molten_potassic"
 				type: "observation"
 			}]
+			title: "Potassic Power: Tin from the Earth"
 			x: -16.5d
 			y: 3.0d
 		}
@@ -1037,6 +1073,7 @@
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:snow_block"
 			id: "3BBEFEE675F39759"
 			rewards: [{
 				id: "6C49BBB9E45FDAE8"
@@ -1054,8 +1091,19 @@
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			description: [
+				"Hidden in the lush biomes of the Overworld, the &aVerdantine Vent&r lies buried—an essential molten stone used in &aEmerald&r automation. Though quiet in its dormant form, it hums faintly with the promise of riches and trade."
 				""
 				"{image:ftb:textures/verdantine_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To bring this vent to life, you’ll need to &lignite it with TNT&r. The blast shatters the surface shell, activating the vent and preparing it for molten infusion."
+				""
+				"💥 &oOnly when found in its proper biome will the vent yield its true power.&r"
+				""
+				"Once active, channel the correct &dsource fluid&r (outlined in the next quest) into the vent, and with the help of &lMechanical Extruders&r, you’ll begin generating emerald orestones—automatically and efficiently."
+				""
+				"💎 &2Let the green spark flow. Trade, build, and automate with the wealth of the wilds.&r"
 			]
 			icon: "molten_vents:dormant_molten_verdantine"
 			id: "12C001857356FF60"
@@ -1064,7 +1112,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Verdantine Vents are found anywhere in the overworld, specically in Mountain Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "4B3EE39DAE300EF8"
 				observe_type: 0
@@ -1072,7 +1120,7 @@
 				to_observe: "molten_vents:dormant_molten_verdantine"
 				type: "observation"
 			}]
-			title: "Find a Verdantine Vent"
+			title: "Verdantine Ignition: The Emerald Pulse"
 			x: -9.0d
 			y: 3.0d
 		}
@@ -1108,8 +1156,19 @@
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			description: [
+				"In the most frigid corners of the Overworld, the &bGlacium Vent&r slumbers—an icy ore stone vital to &bDiamond&r automation. Encased in permafrost and silence, this frozen vent holds the potential to fuel your most powerful machines with shimmering crystal."
 				""
 				"{image:ftb:textures/glacium_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin harnessing its potential, locate a &lGlacium Vent in a cold biome&r and &lignite it with TNT&r. The eruption breaks the icy seal, awakening the vent and preparing it for molten channeling."
+				""
+				"💥 &oThe cold conceals it—but the right blast will reveal its true worth.&r"
+				""
+				"Once activated, feed the vent with the appropriate &dsource fluid&r (explained in the next quest). With the help of &lMechanical Extruders&r, this glacial marvel will begin automating diamonds—transforming frost into fortune."
+				""
+				"💎 &bLet the ice crack, the diamonds flow, and your empire rise from the cold.&r"
 			]
 			icon: "molten_vents:dormant_molten_glacium"
 			id: "0037549384F9FCCF"
@@ -1118,7 +1177,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Glacium Vents are found anywhere in the overworld, specically in Mountain Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "02E1DD773E40DFAF"
 				observe_type: 0
@@ -1126,7 +1185,7 @@
 				to_observe: "molten_vents:dormant_molten_glacium"
 				type: "observation"
 			}]
-			title: "Find a Glacium Vent"
+			title: "Glacium Awakening: Diamond in the Frost"
 			x: -7.5d
 			y: 3.0d
 		}
@@ -1162,8 +1221,19 @@
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			description: [
+				"Buried within the searing depths of volcanic biomes lies the &9Scoria Vent&r—a rare molten ore stone crucial for automating &9Lapis Lazuli&r. Though silent in its dormant form, it holds within it the &oinfernal energy to fuel your progression&r."
 				""
 				"{image:ftb:textures/scoria_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its potential, you must &lignite a dormant vent with TNT&r. The explosion will convert the silent stone into an active vent, ready to receive molten fluid and begin its cycle of production."
+				""
+				"💥 &oBeware—the vent must rest in the right biome, or its potential will remain sealed.&r"
+				""
+				"Once active, the vent will require its specific &dsource fluid&r (covered in the next quest) to drive the &lMechanical Extruder&r and begin generating lapis automatically."
+				""
+				"⚙ &9Strike the spark. Illuminate the depths. Let the blue flame of Scoria power your factory of wisdom.&r"
 			]
 			icon: "molten_vents:dormant_molten_scoria"
 			id: "20EDD6DD2BDC5F24"
@@ -1172,7 +1242,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Scoria Vents are found anywhere in the overworld, specically in Mountain Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "6652F4098EB5E691"
 				observe_type: 0
@@ -1180,7 +1250,7 @@
 				to_observe: "molten_vents:dormant_molten_scoria"
 				type: "observation"
 			}]
-			title: "Find a Scoria Vent"
+			title: "Scoria Ignition: The Lapis Flame"
 			x: -10.5d
 			y: 3.0d
 		}
@@ -1210,6 +1280,7 @@
 		}
 		{
 			dependencies: ["0B070C4D8A55E5A8"]
+			icon: "minecraft:blaze_powder"
 			id: "0BE45E37D29D38DC"
 			rewards: [{
 				id: "5D5356304B0F9FB1"
@@ -1227,8 +1298,19 @@
 		{
 			dependencies: ["0BE45E37D29D38DC"]
 			description: [
+				"Hidden in the blazing depths of the Nether, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
 				""
 				"{image:ftb:textures/scorchia_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this fiery titan, locate a &lScorchia Vent&r on the Nether roof and &lignite it with TNT&r. The resulting blast tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
+				""
+				"💥 &oLet fire awaken fire—only TNT can unleash the vent’s smoldering core.&r"
+				""
+				"Once activated, channel the correct &dsource fluid&r (covered in the next quest) into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal—fueled by the Nether’s own wrath."
+				""
+				"🪨 &8Coal, reborn from magma—forge your fuel empire from the flames.&r"
 			]
 			icon: "molten_vents:dormant_molten_scorchia"
 			id: "10D2ED18910A5579"
@@ -1237,7 +1319,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Scorchia Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "4C600B94BF8D1FF4"
 				observe_type: 0
@@ -1245,7 +1327,7 @@
 				to_observe: "molten_vents:dormant_molten_scorchia"
 				type: "observation"
 			}]
-			title: "Find a Scorchia Vent"
+			title: "Scorchia Ignition: Flame-Forged Fuel"
 			x: -6.0d
 			y: 3.0d
 		}
@@ -1280,6 +1362,7 @@
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:dead_bush"
 			id: "2AE42496027E453C"
 			rewards: [{
 				id: "47812B6C26165297"
@@ -1297,8 +1380,19 @@
 		{
 			dependencies: ["0BE45E37D29D38DC"]
 			description: [
+				"Deep within the Nether’s forgotten reaches lies the &8Debris Vent&r—a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
 				""
 				"{image:ftb:textures/debris_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin, seek out a &lDebris Vent&r on the Nether roof—its dormant core still untouched by time. Place &lTNT&r atop its surface and detonate to shatter the vent's seal, awakening it for automation."
+				""
+				"💥 &oOnly fire and force can rouse the ancient might within.&r"
+				""
+				"Once activated, it’s time to channel the correct &dsource fluid&r (revealed in the next quest) into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris—crafted not by pickaxe, but by innovation."
+				""
+				"🛠 &cThe Nether remembers. Now, so will your machines.&r"
 			]
 			icon: "molten_vents:dormant_molten_ancient_debris"
 			id: "6C99623FD144B074"
@@ -1307,7 +1401,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ancient Debris Vents are found anywhere on the Nether Roof, specically in Incendium Biomes"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "40D7EB41C2BAD58F"
 				observe_type: 0
@@ -1315,7 +1409,7 @@
 				to_observe: "molten_vents:dormant_molten_ancient_debris"
 				type: "observation"
 			}]
-			title: "Find an Ancient Debris Vent"
+			title: "Debris Ignition: Legacy of the Netherite Deep"
 			x: -4.5d
 			y: 3.0d
 		}
@@ -1360,6 +1454,7 @@
 		}
 		{
 			dependencies: ["4D23ABB810220050"]
+			icon: "deeperdarker:sculk_stone"
 			id: "3F3C7C3F33BB9E64"
 			rewards: [{
 				id: "33759C0DCE97C9A1"
@@ -1387,7 +1482,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Resonite Vents are found anywhere in the Deeper Darker Otherside Bedrock Roof, specically in the Deeplands"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "68F38195DCD117B9"
 				observe_type: 0
@@ -1442,7 +1537,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Aubrum Vents are found anywhere on the Moon, specically in the Lunar Wastelands"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "432B7C8A59D5BF05"
 				observe_type: 0
@@ -1456,6 +1551,7 @@
 		}
 		{
 			dependencies: ["470D358D9308FA68"]
+			icon: "ad_astra:moon_sand"
 			id: "705EE64085E20FA2"
 			rewards: [{
 				id: "31488F0F0C6074DC"
@@ -1501,6 +1597,7 @@
 		}
 		{
 			dependencies: ["7339FE49A994B794"]
+			icon: "ad_astra:mars_sand"
 			id: "02912A82870B46F7"
 			rewards: [{
 				id: "15F7BC52B44DC35E"
@@ -1528,7 +1625,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Stellaris Vents are found anywhere on Mars, specically anywhere a Mars Temple can generate"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "313920FA593F382C"
 				observe_type: 0
@@ -1572,6 +1669,7 @@
 		{
 			dependencies: ["6B619A2EB40D34C9"]
 			description: [""]
+			icon: "ad_astra:venus_sand"
 			id: "144708074CDF64FA"
 			rewards: [{
 				id: "69C3AAE4ADE85B7B"
@@ -1599,7 +1697,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pyroclast Vents are found anywhere on Venus, specically in the Venus Wastelands"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "7EDD1A3E4785C1B9"
 				observe_type: 0
@@ -1643,6 +1741,7 @@
 		{
 			dependencies: ["744904CCFAFB6BB0"]
 			description: [""]
+			icon: "ad_astra:permafrost"
 			id: "12C5A144E9E919A0"
 			rewards: [{
 				id: "58DFDB3FDFCD6343"
@@ -1670,7 +1769,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Frostite Vents are found anywhere on Glacio, specically in the Snowy Barrens"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "053E3ED6876D9635"
 				observe_type: 0
@@ -1724,7 +1823,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Radiantite Vents are found anywhere in the End"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "3E922327B6F978BA"
 				observe_type: 0
@@ -1767,6 +1866,7 @@
 		}
 		{
 			dependencies: ["15DD51BFD4480F8D"]
+			icon: "enlightened_end:indigo_eylium"
 			id: "4770A2BCE4F356A2"
 			rewards: [{
 				id: "4A00BFFCA38BA419"
@@ -1794,7 +1894,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Void Shale Vents are found anywhere in the End"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "5993EC5234DA3722"
 				observe_type: 0
@@ -1848,7 +1948,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Palerock Vents are found anywhere in the End"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "37B1D1C7B27E941B"
 				observe_type: 0
@@ -1890,7 +1990,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6CA23EC46D870FBD"]
+			dependencies: ["6CDC2B37D835F804"]
 			description: [
 				""
 				"{image:ftb:textures/pearlyte_vent.png width:226 height:150 align:center}"
@@ -1902,7 +2002,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Pearlyte Vents are found anywhere on the Abyssal Chasm Planet, on the ocean floor"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "01D19050FCD28992"
 				observe_type: 0
@@ -1944,22 +2044,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6CDC2B37D835F804"]
-			id: "6CA23EC46D870FBD"
-			rewards: [{
-				id: "0768EF58E5D235DE"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				biome: "alexscaves:abyssal_chasm"
-				id: "25042AD01AB92C8B"
-				type: "biome"
-			}]
-			x: 9.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["40DB7FDC0CC426FF"]
 			description: [
 				""
@@ -1972,7 +2056,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Amberlite Vents are found anywhere on the Primordial Caves Planet"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "7A5864AB8EEF58FE"
 				observe_type: 0
@@ -2026,7 +2110,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Guanite Vents are found anywhere on the Forlorn Hollows Planet"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "725B31416BC3165D"
 				observe_type: 0
@@ -2080,7 +2164,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Uraniumnite Vents are found anywhere on the Toxic Caves Planet"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "6000D0FCF2A4250B"
 				observe_type: 0
@@ -2134,7 +2218,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Sulphite Vents are found anywhere on the Toxic Caves Planet"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "6D4C4B54FEA5675A"
 				observe_type: 0
@@ -2188,7 +2272,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Neodyrium Vents are found anywhere on the Magnetic Caves Planet"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "1461FFEDE382BC3A"
 				observe_type: 0
@@ -2242,7 +2326,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Azurnium Vents are found anywhere on the Magnetic Caves Planet"
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "0CAB7BA29B5E946A"
 				observe_type: 0
@@ -2285,6 +2369,7 @@
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:grass_block"
 			id: "3217A6300D17E470"
 			tasks: [{
 				biome: "#forge:is_plains"
@@ -2296,6 +2381,7 @@
 		}
 		{
 			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:sand"
 			id: "7AE2B54E9ABE8172"
 			tasks: [{
 				biome: "#forge:is_desert"
@@ -2955,5 +3041,5 @@
 			y: 4.5d
 		}
 	]
-	title: "Molten Vents - Resource Automation"
+	title: "Create: Molten Vents (Resource Gen)"
 }
