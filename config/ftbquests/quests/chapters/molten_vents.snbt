@@ -3,26 +3,42 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "molten_vents"
-	group: "72C8A595982548D5"
+	group: "37A1080736831E36"
 	icon: "molten_vents:dormant_molten_asurine"
 	id: "4E4AA685A681F1B0"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/molten_vents_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.0d
-	}]
-	order_index: 0
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/molten_vents_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/calcite"
+			rotation: 0.0d
+			width: 1.0d
+			x: -21.0d
+			y: 3.0d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Scattered across the Overworld, eight distinct Molten Vents offer a specialized approach to resource collection and processing. Each vent—Veridium, Crimsite, Ochrum, Asurine, Potassic, Scoria, Verdantine, and Glacium—can be found in specific biomes, encouraging exploration and discovery. "
+				"Scattered across the wilds of the Overworld lie eight ancient geological marvels—&lMolten Vents&r. Each one channels elemental energy from deep within the earth, offering &ospecialized automation pathways&r for the rarest resources."
 				""
-				"For instance, Veridium thrives in the arid deserts, while Glacium emerges in the frozen tundras, and Crimsite can be unearthed in the rolling plains. These vents are not just biome-themed wonders but essential tools for automation and crafting, allowing players to strategically harness their unique properties for maximizing resource yields and expanding their industrial empires."
+				"Veridium, Crimsite, Ochrum, Asurine, Potassic, Scoria, Verdantine, and Glacium—these &lore-bound vents&r await discovery in the biomes they call home. But only the worthy can awaken their dormant power."
+				""
+				"{@pagebreak}"
+				""
+				"These vents are far more than simple curiosities—they’re the beating hearts of &lCreate-based automation&r. When activated, each one becomes a reliable source of molten ore, ready to be harvested by &omechanical extruders&r and converted into precious ingots."
+				""
+				"⚒ &oVenture forth, ignite the stone, and master the molten veins of the Overworld. Your factory’s future begins in the earth below.&r"
 			]
 			icon: "minecraft:grass_block"
 			id: "69CE3113324ED800"
@@ -45,15 +61,28 @@
 				id: "32D2B9D5FBAE7A12"
 				type: "dimension"
 			}]
+			title: "Molten Vents of the Overworld"
 			x: -13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Deep within the fiery depths of the Nether, resource-rich molten vents stand as beacons of opportunity. The Scorchia and Ancient Debris vents, while found uniquely on the Nether roof due to programming constraints, offer unparalleled access to vital resources. These vents are pivotal for those daring enough to venture into the Nether, providing the raw materials needed for advanced progression and crafting."
+				"Beneath the Nether’s scorched skies and crimson stone lies an ancient secret—&lMolten Vents&r of unimaginable power. Two such marvels—&4Scorchia&r and &8Ancient Debris&r vents—await discovery by those brave enough to tread the Nether’s perilous heights."
 				""
-				"Explore these molten treasures and harness their potential to fuel your journey through the challenges of the Nether!"
+				"These vents don’t follow the rules of the Overworld. Due to the volatile nature of this dimension, they &lspawn exclusively on the Nether Roof&r—a compromise made to stabilize their immense energy within the world’s limits."
+				""
+				"{@pagebreak}"
+				""
+				"Once found, these vents hold the key to automating two of the most valuable resources:"
+				""
+				"When activated, these volcanic veins unleash a molten core ready to be tapped by &lCreate's mechanical extruders&r. Feed them the correct milkshake or molten fluid, and you’ll gain a constant supply of some of Minecraft’s most coveted materials."
+				""
+				"{@pagebreak}"
+				""
+				"&c⚠ Caution: The Nether is a volatile realm. You’ll need careful planning, heat protection, and sharp reflexes to tame these lava-forged giants.&r"
+				""
+				"🔥 &oHarness the inferno, channel the molten flow, and rise as the master of Nether-bound automation.&r"
 			]
 			icon: "minecraft:netherrack"
 			id: "0B070C4D8A55E5A8"
@@ -76,6 +105,7 @@
 				id: "5D645E7B057EDD96"
 				type: "dimension"
 			}]
+			title: " Molten Vents of the Nether"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -416,15 +446,31 @@
 		}
 		{
 			description: [
-				"Molten Vents is an innovative mod that introduces a renewable source of the orestones found in the Create mod, unlocking endless potential for resource processing. While the base mod focuses on Basic Create Ore Stones, I’ve expanded its capabilities to include molten vents for many high-value resources, offering new opportunities for advanced gameplay."
+				"&lMolten Vents&r is more than just a feature—it's a revolution in resource automation. This innovative system introduces a renewable method for generating the rare &oore stones&r of the &3Create&r mod, giving you the tools to industrialize your resource pipeline like never before."
 				""
-				"Each molten vent is biome and dimension-specific, meaning you’ll need to explore and uncover their hidden locations. Use the guide below to find the molten vent that suits your needs. Once located, activation is simple: ignite TNT on a dormant ore vent to transform it into an active state. Once activated, supply the vent with a steady flow of its designated liquid to begin producing the desired orestone—seamlessly converting liquid into valuable materials."
+				"While the base mod focuses on &oBasic Ore Stones&r, this expanded integration unlocks &ohigh-tier molten vents&r—letting you automate everything from &7Tin&r to &dCalorite&r. Whether you’re building megastructures or refining rare alloys, &lMolten Vents are the key to sustainable progress&r."
+				""
 				"{@pagebreak}"
-				"Helpful Features:"
-				"- Portable Molten Vents: Organize your molten vent factories effortlessly by moving vents with Carry One, only when the vent is activated"
-				"- Mechanical Extruders: Late-game automation becomes a breeze with Mechanical Extruders, which simplify stone generation by requiring only a single fluid source block."
 				""
-				"Dive into the world of Molten Vents and elevate your resource management to new heights!"
+				"🗺 Biome and Dimension Specificity"
+				"Each molten vent is tightly bound to the environment—&oVeridium&r blooms in deserts, &oGlacium&r chills in frozen peaks, and &oAncient Debris&r erupts from the Nether roof. Your challenge is to scour the world for these elemental veins of power."
+				""
+				"🔥 Activation Ritual"
+				"Once found, transform a dormant vent into an active one by igniting &lTNT&r directly atop it. When the smoke clears, feed it its unique liquid fuel—be it a milkshake or molten blend—and watch as it begins converting &oessence into ore&r."
+				""
+				"{@pagebreak}"
+				""
+				"🧰 Helpful Tools and Features"
+				""
+				"Portable Vents – Thanks to &6Carry On&r, activated vents can be moved, enabling the construction of centralized molten factories."
+				""
+				"Mechanical Extruders – Designed for late-game automation, these machines pull &oorestones&r from a single fluid source block, removing the need for complex setups."
+				""
+				"{@pagebreak}"
+				""
+				"With Molten Vents, your world becomes a living forge—&lwhere lava flows into iron, milkshakes into gold, and ambition into industry&r."
+				""
+				"🔩 &oThe stone beneath your feet is no longer a limit—it’s a launchpad. Ready to reshape your world?&r"
 			]
 			hide_dependent_lines: true
 			icon: "molten_vents:active_molten_asurine"
@@ -461,24 +507,43 @@
 					type: "item"
 				}
 			]
-			title: "Molten Vents"
+			title: "Molten Vents Overview"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["3217A6300D17E470"]
 			description: [
+				"Beneath rugged biomes lies the &cCrimsite Vent&r—one of the ancient ore stones essential for automating &cIron&r production. These silent vents pulse with potential, just waiting to be brought to life by an adventurer brave enough to harness their power."
 				""
 				"{image:ftb:textures/crimsite_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unlock the full potential of a Crimsite Vent, you must &lignite TNT directly on its surface&r. This fiery ignition transforms the dormant vent into an &oactive source of molten power&r."
+				""
+				"💥 &oBe sure you're in the correct biome before triggering the reaction—only then will the vent respond.&r"
+				""
+				"Once activated, all that remains is to provide the correct &dsource fluid&r (revealed in the next quest). With the right setup, you’ll be able to channel its molten flow through &lmechanical extruders&r to fully automate iron."
+				""
+				"⚙ Strike the stone. Spark the forge. &lIron automation begins here.&r"
 			]
 			icon: "molten_vents:dormant_molten_crimsite"
 			id: "1091314A5D575D4B"
-			rewards: [{
-				id: "0C1B7E02D08E4326"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Crimsite Vents are found anywhere in the overworld, especially in Plains Biomes"
+			rewards: [
+				{
+					id: "0C1B7E02D08E4326"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6CDB2CA16A0EFDF4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Ignite the Stone, Awaken the Forge. Click me for more info!"
 			tasks: [{
 				id: "4EA85341DAED5477"
 				observe_type: 0
@@ -486,52 +551,12 @@
 				to_observe: "molten_vents:dormant_molten_crimsite"
 				type: "observation"
 			}]
-			title: "Find a Crimsite Vent"
+			title: "Crimsite Vent: Heart of Iron"
 			x: -16.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1091314A5D575D4B"]
-			description: [
-				"In Order to generate Crimsite you will need a source block of"
-				"{ \"text\": \"Strawberry Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0998CA8B44BA0EB7\" } }"
-			]
-			icon: "molten_vents:active_molten_crimsite"
-			id: "55E502A5614E6AC7"
-			rewards: [
-				{
-					id: "3AD4D4B148424A96"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "00A20357D7D4133D"
-					item: "create:crimsite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "0E8531CC4170D8FE"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_crimsite"
-					type: "observation"
-				}
-				{
-					id: "532E28D4A1EEDC46"
-					item: "create_dd:strawberry_milkshake_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Crimsite Vent"
-			x: -16.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["55E502A5614E6AC7"]
+			dependencies: ["38367FF1F1438DED"]
 			id: "4FFBE9F8BC52BAE5"
 			rewards: [{
 				id: "7A6F551CA1685074"
@@ -585,47 +610,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["070BAAF36335CB39"]
-			description: [
-				"In Order to generate Ochrum you will need a source block of "
-				"{ \"text\": \"Glow Berry Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F22F9F9B3D393E1\" } }"
-			]
-			icon: "molten_vents:active_molten_ochrum"
-			id: "1107E04D2BA51211"
-			rewards: [
-				{
-					id: "39D9A9D99E731E38"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "75E4CC5B6941E1CB"
-					item: "create:ochrum"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "2614EEE65F6B8560"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_ochrum"
-					type: "observation"
-				}
-				{
-					id: "068E20D9D7EC5C91"
-					item: "create_dd:glowberry_milkshake_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Ochrum Vent"
-			x: -15.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1107E04D2BA51211"]
+			dependencies: ["1F22F9F9B3D393E1"]
 			id: "4A8DBEF17C064273"
 			rewards: [{
 				id: "7536E3269ED3BBF3"
@@ -695,47 +680,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["58E37D66B86362FD"]
-			description: [
-				"In Order to generate Asurine you will need a source block of "
-				"{ \"text\": \"Cream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FFE2F9EA4FCFE3D\" } }"
-			]
-			icon: "molten_vents:active_molten_asurine"
-			id: "3221CD79AB202BD6"
-			rewards: [
-				{
-					id: "17F5907CE934102D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "2C3930F85B2646CC"
-					item: "create:asurine"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "6469AF29CA677B8C"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_asurine"
-					type: "observation"
-				}
-				{
-					id: "2E5C0AB045760243"
-					item: "create_dd:cream_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Asurine Vent"
-			x: -13.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3221CD79AB202BD6"]
+			dependencies: ["061D64DE3F96B2F8"]
 			id: "22F1724ED1FA487D"
 			rewards: [{
 				id: "15E2706642F6C3D0"
@@ -766,17 +711,36 @@
 		{
 			dependencies: ["7AE2B54E9ABE8172"]
 			description: [
+				"Hidden beneath the right biome lies the &aVeridium Vent&r—one of the precious ore stones vital to &6Copper&r automation. These dormant geysers may seem inert at first, but within them stirs the &opower to fuel your machinery&r."
 				""
 				"{image:ftb:textures/veridium_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin your journey toward copper automation, you'll need to &lignite a dormant vent with TNT&r. This explosive activation awakens the vent, transforming it into a functional node capable of accepting molten fluids."
+				""
+				"💥 &oBut be warned—only the right biome and proper ignition will awaken its potential.&r"
+				""
+				"Once activated, providing the correct &dsource fluid&r (explained in the next quest) will bring your copper pipeline to life using &lmechanical extruders&r."
+				""
+				"⚙ The stone is set. The fuse is lit. Are you ready to harness the power of Veridium?"
 			]
 			icon: "molten_vents:dormant_molten_veridium"
 			id: "6BF481A48C136085"
-			rewards: [{
-				id: "215475D4E10EEC4B"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Veridium Vents are found anywhere in the overworld, especially in Desert Biomes"
+			rewards: [
+				{
+					id: "215475D4E10EEC4B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "221733B826EBAFF6"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "7F552CF0B2FEDCDC"
 				observe_type: 0
@@ -784,52 +748,12 @@
 				to_observe: "molten_vents:dormant_molten_veridium"
 				type: "observation"
 			}]
-			title: "Find a Veridium Vent"
+			title: "Veridium Vent: The Copper Core"
 			x: -18.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["6BF481A48C136085"]
-			description: [
-				"In Order to generate Veridium you will need a source block of "
-				"{ \"text\": \"Caramel Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"571CE6F8667DA48F\" } }"
-			]
-			icon: "molten_vents:active_molten_veridium"
-			id: "2D5E52CE4653E96C"
-			rewards: [
-				{
-					id: "206E1C292D2BD532"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "27C556E340D11AE5"
-					item: "create:veridium"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "693945CF2684C424"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_veridium"
-					type: "observation"
-				}
-				{
-					id: "2B435641613A9242"
-					item: "create_dd:caramel_milkshake_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Veridium Vent"
-			x: -18.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2D5E52CE4653E96C"]
+			dependencies: ["571CE6F8667DA48F"]
 			id: "09E03BBF9953EF63"
 			rewards: [{
 				id: "0B7735B8A06CCCD5"
@@ -883,47 +807,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["79632EC457A3A88D"]
-			description: [
-				"In Order to generate Potassic you will need a source block of "
-				"{ \"text\": \"Vanilla Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E99FE44436A381C\" } }"
-			]
-			icon: "molten_vents:active_molten_potassic"
-			id: "0079BEE03A3285FB"
-			rewards: [
-				{
-					id: "3A78A90AD3A4D2F5"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "5372988F369BFDC0"
-					item: "create_dd:potassic"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "2502872F486242F0"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_potassic"
-					type: "observation"
-				}
-				{
-					id: "59B57A0B35F87DC3"
-					item: "create_dd:vanilla_milkshake_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Potassic Vent"
-			x: -12.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0079BEE03A3285FB"]
+			dependencies: ["2E99FE44436A381C"]
 			id: "0CCC86AB0D5DFDF2"
 			rewards: [{
 				id: "1DDF93F84E68E952"
@@ -993,47 +877,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["12C001857356FF60"]
-			description: [
-				"In Order to generate Verdantine you will need a source block of  "
-				"{ \"text\": \"White Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31FBC673B1E527F6\" } }"
-			]
-			icon: "molten_vents:active_molten_verdantine"
-			id: "3B0C428AB2EDDA57"
-			rewards: [
-				{
-					id: "568CDF997BD8FCC8"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "4EC2C4F3640A7EEF"
-					item: "forge_frontier:verdantine"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "1A8A39D7B29AB4B5"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_verdantine"
-					type: "observation"
-				}
-				{
-					id: "579D3097664441A4"
-					item: "create_confectionery:white_chocolate_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Verdantine Vent"
-			x: -9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3B0C428AB2EDDA57"]
+			dependencies: ["31FBC673B1E527F6"]
 			id: "02FEFDD7F4DD0C1B"
 			rewards: [{
 				id: "393373E7C248F7E6"
@@ -1087,47 +931,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0037549384F9FCCF"]
-			description: [
-				"In Order to generate Glacium you will need a source block of   "
-				"{ \"text\": \"Dark Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13576F3698C89AE7\" } }"
-			]
-			icon: "molten_vents:active_molten_glacium"
-			id: "648ADE5DD685988B"
-			rewards: [
-				{
-					id: "3E78B19748042407"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "7EAA0692E655BF01"
-					item: "forge_frontier:glacium"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "1840911CBD4F55D0"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_glacium"
-					type: "observation"
-				}
-				{
-					id: "44F6CBA3EE71F59A"
-					item: "create_confectionery:black_chocolate_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Glacium Vent"
-			x: -7.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["648ADE5DD685988B"]
+			dependencies: ["13576F3698C89AE7"]
 			id: "589FC9F5A6B51B4E"
 			rewards: [{
 				id: "73C77115E925523A"
@@ -1181,47 +985,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["20EDD6DD2BDC5F24"]
-			description: [
-				"In Order to generate Scoria you will need a source block of "
-				"{ \"text\": \"Chocolate Milkshake\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BE12AF20FA6DC0D\" } }"
-			]
-			icon: "molten_vents:active_molten_scoria"
-			id: "209E1E05BC1E3B6C"
-			rewards: [
-				{
-					id: "7CDBC14DDA3ACD84"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "5CA641AB244C463C"
-					item: "create:scoria"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "6045436CC30698AD"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_scoria"
-					type: "observation"
-				}
-				{
-					id: "77F6FFE5FC67F781"
-					item: "create_dd:chocolate_milkshake_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Scoria Vent"
-			x: -10.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["209E1E05BC1E3B6C"]
+			dependencies: ["2BE12AF20FA6DC0D"]
 			id: "258ED4CCAF8A61A6"
 			rewards: [{
 				id: "0726456B85A453CF"
@@ -1286,47 +1050,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["10D2ED18910A5579"]
-			description: [
-				"In Order to generate Scorchia you will need a source block of   "
-				"{ \"text\": \"Hot Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D40BCB5E0BF8836\" } }"
-			]
-			icon: "molten_vents:active_molten_scorchia"
-			id: "2F2166D0D6AE208F"
-			rewards: [
-				{
-					id: "032DF0EE19643E8B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "74F25E47F449307D"
-					item: "create:scorchia"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "0CA5CC3437F7D216"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_scorchia"
-					type: "observation"
-				}
-				{
-					id: "64CD6F20C416B3AB"
-					item: "create_dd:hot_chocolate_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Scorchia Vent"
-			x: -6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2F2166D0D6AE208F"]
+			dependencies: ["1D40BCB5E0BF8836"]
 			id: "1C6456024AC2DC69"
 			rewards: [{
 				id: "181C7B180D14E312"
@@ -1396,47 +1120,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6C99623FD144B074"]
-			description: [
-				"In Order to generate Ancient Debris you will need a source block of     "
-				"{ \"text\": \"Biofuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"59BB6125B5A87258\" } }"
-			]
-			icon: "molten_vents:active_molten_ancient_debris"
-			id: "572F7FE82A4367BE"
-			rewards: [
-				{
-					id: "6A8982C5AC423141"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "6AB2989FAA411B98"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "10EBF6CDC3D10085"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_ancient_debris"
-					type: "observation"
-				}
-				{
-					id: "44A8D7CB83F29513"
-					item: "createaddition:bioethanol_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Ancient Debris Vent"
-			x: -4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["572F7FE82A4367BE"]
+			dependencies: ["24958E87D1B6893F"]
 			id: "5D006DFD57BAE44F"
 			rewards: [{
 				id: "1236940D6D363910"
@@ -1516,47 +1200,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["66C50363340B22B0"]
-			description: [
-				"In Order to generate Resonite you will need a source block of     "
-				"{ \"text\": \"Cryo Fuel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51E1682DBF0062D2\" } }"
-			]
-			icon: "molten_vents:active_molten_resonite"
-			id: "509AE3462D404452"
-			rewards: [
-				{
-					id: "27D8E8A8B4295E00"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "3B6BB0F371762D6F"
-					item: "deeperdarker:sculk_grime"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "63414EBC008D64C8"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_resonite"
-					type: "observation"
-				}
-				{
-					id: "3F590DC8D91FA10D"
-					item: "ad_astra:cryo_fuel_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Resonite Vent"
-			x: -3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["509AE3462D404452"]
+			dependencies: ["51E1682DBF0062D2"]
 			id: "2243EE61FE9DF289"
 			rewards: [{
 				count: 3
@@ -1627,47 +1271,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["3B0CEEDC47C9AFAE"]
-			description: [
-				"In Order to generate Aubrum you will need a source block of     "
-				"{ \"text\": \"Plant Oil\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"509FE4926FDB28FA\" } }"
-			]
-			icon: "molten_vents:active_molten_aubrum"
-			id: "77D3E082EA1F764F"
-			rewards: [
-				{
-					id: "20B7614B8B2AD70B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "4C989CAA43543C57"
-					item: "forge_frontier:aubrum"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "4B12FF294B5E3C11"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_aubrum"
-					type: "observation"
-				}
-				{
-					id: "23DFBE28A817BBC4"
-					item: "createdieselgenerators:plant_oil_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Aubrum Vent"
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["77D3E082EA1F764F"]
+			dependencies: ["4DA4B3B5EC216D1B"]
 			id: "7152ADB146499A96"
 			rewards: [{
 				id: "7CA578E9FD24EB11"
@@ -1737,47 +1341,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3C81772B0834E434"]
-			description: [
-				"In Order to generate Stellaris you will need a source block of     "
-				"{ \"text\": \"Ethanol\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E766060648F8B43\" } }"
-			]
-			icon: "molten_vents:active_molten_stellaris"
-			id: "663B98AD6EFF295F"
-			rewards: [
-				{
-					id: "66A25E6C3505BB0E"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "01A1FCCCE6515061"
-					item: "forge_frontier:stellaris"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "51ECC68D118AFD5C"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_stellaris"
-					type: "observation"
-				}
-				{
-					id: "40CC44C3898B9C85"
-					item: "createdieselgenerators:ethanol_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Stellaris Vent"
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["663B98AD6EFF295F"]
+			dependencies: ["1B5FB4BFC3366093"]
 			id: "01B665D8F9A316F5"
 			rewards: [{
 				id: "303CB47A1C4B7F06"
@@ -1848,47 +1412,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0526FF8AE3C0EA67"]
-			description: [
-				"In Order to generate Pyroclast you will need a source block of    "
-				"{ \"text\": \"Biodiesel\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1480FBF5D5C2DE2C\" } }"
-			]
-			icon: "molten_vents:active_molten_pyroclast"
-			id: "5B4BAD7A02DA1E85"
-			rewards: [
-				{
-					id: "19566B77B4EFEC8D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "25C8546B6798A36C"
-					item: "forge_frontier:pyroclast"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "44965B7AFD9A8E11"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_pyroclast"
-					type: "observation"
-				}
-				{
-					id: "7C96E2A93185C1B9"
-					item: "createdieselgenerators:biodiesel_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Pyroclast Vent"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5B4BAD7A02DA1E85"]
+			dependencies: ["5B45F6B48A81E380"]
 			id: "5D34AB7D53702E87"
 			rewards: [{
 				id: "42C842493E529CE9"
@@ -1959,47 +1483,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["350F1E84CF8BB524"]
-			description: [
-				"In Order to generate Frostite you will need a source block of   "
-				"{ \"text\": \"Water\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21F9AC15E29F0D6C\" } }"
-			]
-			icon: "molten_vents:active_molten_frostite"
-			id: "7C071BD93B73B9E9"
-			rewards: [
-				{
-					id: "6D4F9CB37B025741"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "1F80FAA18E61A97D"
-					item: "forge_frontier:frostite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "3CA344D62685964D"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_frostite"
-					type: "observation"
-				}
-				{
-					id: "6D4E6CBF0FC9A182"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Frostite Vent"
-			x: 3.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7C071BD93B73B9E9"]
+			dependencies: ["75BE9DB6CC095B88"]
 			id: "0C8299F0C1FDF0E5"
 			rewards: [{
 				id: "1B716908B10210C2"
@@ -2053,47 +1537,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0886729EE4407B1B"]
-			description: [
-				"In Order to generate Radiantite you will need a source block of   "
-				"{ \"text\": \"Ruby Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17559ED0B5B300D9\" } }"
-			]
-			icon: "molten_vents:active_molten_radiantite"
-			id: "3E23818C313CE507"
-			rewards: [
-				{
-					id: "2FE9B7A3D644089F"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "5D9BFE773457270C"
-					item: "forge_frontier:radiantite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "4AB892918C4AEFC8"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_radiantite"
-					type: "observation"
-				}
-				{
-					id: "5A5646CE930A9C29"
-					item: "create_confectionery:ruby_chocolate_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Radiantite Vent"
-			x: 4.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3E23818C313CE507"]
+			dependencies: ["17559ED0B5B300D9"]
 			id: "1831C70E0A4B9875"
 			rewards: [{
 				id: "5CF687C3FF9D8481"
@@ -2163,47 +1607,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["177FD83E945AE2BE"]
-			description: [
-				"In Order to generate Void Shale you will need a source block of    "
-				"{ \"text\": \"Ruby Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17559ED0B5B300D9\" } }"
-			]
-			icon: "molten_vents:active_molten_void_shale"
-			id: "01C54F69AC1A05BF"
-			rewards: [
-				{
-					id: "62D39E374B1452A1"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "5C7E50FB12E061FC"
-					item: "enlightened_end:void_shale"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "476609A8F8D6DE07"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_void_shale"
-					type: "observation"
-				}
-				{
-					id: "65D332AF70AF50F3"
-					item: "create_confectionery:ruby_chocolate_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Void Shale Vent"
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["01C54F69AC1A05BF"]
+			dependencies: ["17559ED0B5B300D9"]
 			id: "4BA4F5D20D29BDF5"
 			rewards: [{
 				id: "6905F8194EC931D8"
@@ -2257,47 +1661,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0F87A00F314DD547"]
-			description: [
-				"In Order to generate Palerock you will need a source block of    "
-				"{ \"text\": \"Ruby Chocolate\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17559ED0B5B300D9\" } }"
-			]
-			icon: "molten_vents:active_molten_palerock"
-			id: "1A9E7670491FAD6C"
-			rewards: [
-				{
-					id: "0A812E4558147F41"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "34AFB1C038D3AF2F"
-					item: "enlightened_end:palerock"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "02DF6927766FD305"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_palerock"
-					type: "observation"
-				}
-				{
-					id: "39ECAB339982D9C1"
-					item: "create_confectionery:ruby_chocolate_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Palerock Vent"
-			x: 7.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["1A9E7670491FAD6C"]
+			dependencies: ["17559ED0B5B300D9"]
 			id: "726D2E537567B30E"
 			rewards: [{
 				id: "73170DAF75556EC7"
@@ -2351,47 +1715,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6AE156D8DE1D619A"]
-			description: [
-				"In Order to generate Pearlyte you will need a source block of    "
-				"{ \"text\": \"Water\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21F9AC15E29F0D6C\" } }"
-			]
-			icon: "molten_vents:active_molten_pearlyte"
-			id: "7A93C8B2FBEAE376"
-			rewards: [
-				{
-					id: "75E087AD48C7231C"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "473C6DCB8378958B"
-					item: "forge_frontier:pearlyte"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "69EDE13D94B7F100"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_pearlyte"
-					type: "observation"
-				}
-				{
-					id: "1F0087FB07FBAB90"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Pearlyte Vent"
-			x: 9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["7A93C8B2FBEAE376"]
+			dependencies: ["7A3720167DCAF9EB"]
 			id: "0FA3746C38F794B8"
 			rewards: [{
 				id: "07819F5D3924AD18"
@@ -2461,47 +1785,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2589CF5251858E63"]
-			description: [
-				"In Order to generate Amberlite you will need a source block of     "
-				"{ \"text\": \"Honey\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DE53E1FE2154194\" } }"
-			]
-			icon: "molten_vents:active_molten_aubrum"
-			id: "6950232D17577FEC"
-			rewards: [
-				{
-					id: "20F971686E6894EF"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "53F3E3C1B834A640"
-					item: "forge_frontier:amberlite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "7536AB54412250F2"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_amberlite"
-					type: "observation"
-				}
-				{
-					id: "0918CA695419F522"
-					item: "create:honey_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Amberlite Vent"
-			x: 10.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["6950232D17577FEC"]
+			dependencies: ["5DE53E1FE2154194"]
 			id: "76692DFB8834258D"
 			rewards: [{
 				id: "24FCA09BC348325D"
@@ -2555,47 +1839,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["229D3F7596608800"]
-			description: [
-				"In Order to generate Guanite you will need a source block of     "
-				"{ \"text\": \"Liquid Fertilizer\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"21F9AC15E29F0D6C\" } }"
-			]
-			icon: "molten_vents:active_molten_guanite"
-			id: "3E22E4007D8C1979"
-			rewards: [
-				{
-					id: "75418F1A3D5F8D53"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "659A61078E772040"
-					item: "forge_frontier:guanite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "2003C89E7D2DD482"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_guanite"
-					type: "observation"
-				}
-				{
-					id: "52287A06A9D6EE0E"
-					item: "sliceanddice:fertilizer_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Guanite Vent"
-			x: 12.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3E22E4007D8C1979"]
+			dependencies: ["2A36712104221BA5"]
 			id: "7AB6B28F0171651B"
 			rewards: [{
 				id: "7B659633EFA35D2B"
@@ -2649,47 +1893,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["70DF75B6AEEF8D39"]
-			description: [
-				"In Order to generate Uraniumnite you will need a source block of     "
-				"{ \"text\": \"Acid\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79182D6BE9E5DE0D\" } }"
-			]
-			icon: "molten_vents:active_molten_uraniumnite"
-			id: "29FE8FE2DE79D7EB"
-			rewards: [
-				{
-					id: "63DBDC738FFCB8FE"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "0904223323759657"
-					item: "forge_frontier:uraniumnite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "75E642E557765EEC"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_uraniumnite"
-					type: "observation"
-				}
-				{
-					id: "4CB34A0C8DE5F465"
-					item: "alexscaves:acid_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Uraniumnite Vent"
-			x: 16.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["29FE8FE2DE79D7EB"]
+			dependencies: ["79182D6BE9E5DE0D"]
 			id: "2C5F9A3210357A54"
 			rewards: [{
 				id: "175A2F4866238DAD"
@@ -2743,47 +1947,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["19D60673B8DCB77D"]
-			description: [
-				"In Order to generate Sulphite you will need a source block of     "
-				"{ \"text\": \"Acid\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79182D6BE9E5DE0D\" } }"
-			]
-			icon: "molten_vents:active_molten_sulphite"
-			id: "5D438DEA0BB292B8"
-			rewards: [
-				{
-					id: "086190CC63D53284"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "22D0E4DE97DD081E"
-					item: "forge_frontier:sulphite"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "2DC569213340ECB8"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_sulphite"
-					type: "observation"
-				}
-				{
-					id: "16AAB8403800A831"
-					item: "alexscaves:acid_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Sulphite Vent"
-			x: 18.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5D438DEA0BB292B8"]
+			dependencies: ["79182D6BE9E5DE0D"]
 			id: "5A5234A74B3FCB66"
 			rewards: [{
 				id: "42316BD26ECFF53D"
@@ -2837,47 +2001,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["08A5AEA1CB0268D8"]
-			description: [
-				"In Order to generate Neodyrium you will need a source block of      "
-				"{ \"text\": \"Molten Iron\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D5E294ADE3522C1\" } }"
-			]
-			icon: "molten_vents:active_molten_neodymrium"
-			id: "0A4C2780B6C139D7"
-			rewards: [
-				{
-					id: "22674904D1DA9918"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "0D5122C97D62A4C7"
-					item: "forge_frontier:neodymrium"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "01E049AC29960F26"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_neodymrium"
-					type: "observation"
-				}
-				{
-					id: "2EFA07CC2494FAF0"
-					item: "forge_frontier:molten_iron_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Neodyrium Vent"
-			x: 13.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0A4C2780B6C139D7"]
+			dependencies: ["541F6EDFBB45521D"]
 			id: "5125C4BB0C5CD5F2"
 			rewards: [{
 				id: "2B3BE1490431ADC0"
@@ -2931,47 +2055,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1F8D8293900A159B"]
-			description: [
-				"In Order to generate Azurnium you will need a source block of       "
-				"{ \"text\": \"Molten Iron\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6D5E294ADE3522C1\" } }"
-			]
-			icon: "molten_vents:active_molten_azurnium"
-			id: "171FB4C4C4584414"
-			rewards: [
-				{
-					id: "0A5FE97BA4DCC29C"
-					type: "xp"
-					xp: 25
-				}
-				{
-					count: 9
-					id: "4C41D247B12C8C98"
-					item: "forge_frontier:azurnium"
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [
-				{
-					id: "7F71E84803A69C09"
-					observe_type: 0
-					timer: 0L
-					to_observe: "molten_vents:active_molten_azurnium"
-					type: "observation"
-				}
-				{
-					id: "2A3CF9337502EC11"
-					item: "forge_frontier:molten_iron_bucket"
-					type: "item"
-				}
-			]
-			title: "Observe an Active Azurnium Vent"
-			x: 15.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["171FB4C4C4584414"]
+			dependencies: ["541F6EDFBB45521D"]
 			id: "01AAA3C731162AB6"
 			rewards: [{
 				id: "70C9BBCDD3D57A12"
@@ -3062,6 +2146,535 @@
 			x: 20.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["6BF481A48C136085"]
+			description: [
+				"&6Caramel Milkshake&r serves as the &oluxurious source fluid&r for activating &eVeridium Molten Vents&r and driving &6copper automation&r via Mechanical Extruders. This sweet and essential liquid starts with a rich base: &oCaramel Milk&r."
+				""
+				"To begin, combine the ingredients below using &lHeated Mixing&r:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_caramel.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your caramel milk ready, take it to the next level! Add the final ingredients and complete the mix to create a smooth, copper-powered &6Caramel Milkshake&r:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_caramel_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lFrom sweetness comes strength&r—power your machines and copper automation the tastiest way possible. 🥤⚙"
+			]
+			id: "571CE6F8667DA48F"
+			rewards: [{
+				id: "42826BA5286F97D2"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			subtitle: "Smooth Fuel for Veridium Vents. Click me for more info!"
+			tasks: [{
+				id: "07350188728CDEAC"
+				item: "create_dd:caramel_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Caramel Milkshake: Copper-Crafted Delight"
+			x: -18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1091314A5D575D4B"]
+			description: [
+				"&dStrawberry Milkshake&r isn’t just a tasty treat—it’s the &lkey fluid&r for activating &cCrimsite Molten Vents&r and automating &oiron production&r via Mechanical Extruders. Its creation is a multi-step process, blending &omachine precision&r with &7delicious chemistry&r."
+				""
+				"To begin, create &dStrawberry Milk&r using the following heated mixing recipe:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_strawberry_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your milk prepared, it’s time to turn it into a milkshake! Combine &dStrawberry Milk&r with the following ingredients to complete the transformation:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_strawberry_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lFrom berry to blast furnace&r, this milkshake is more than a fluid—it’s the foundation of automation. Get mixing, and let the sweetness of progress flow!"
+			]
+			id: "38367FF1F1438DED"
+			rewards: [{
+				id: "4EFC0A71251BE59E"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Sweet Science for Crimsite Automation. Click me for more info!"
+			tasks: [{
+				id: "0EC7C41FDA39DA0C"
+				item: "create_dd:strawberry_milkshake_bucket"
+				type: "item"
+			}]
+			title: " Strawberry Milkshake: Fueling Iron Innovation"
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["070BAAF36335CB39"]
+			description: [
+				"&6Glowberry Milkshake&r is more than just a glowing drink—it’s the &lessential fluid&r for powering &eOchrum Molten Vents&r and automating &6gold production&r via Mechanical Extruders. Its creation begins with crafting a radiant base: &oGlowberry Milk&r."
+				""
+				"Use &lHeated Mixing&r to combine the ingredients shown below:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_glowberry.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once your milk base is ready, it's time to transform it into the &6Glowberry Milkshake&r. Mix it with the ingredients shown here to complete this golden concoction:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_glowberry_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lLet the golden glow guide your automation&r—this milkshake fuels more than machines. It fuels innovation. 🥤✨"
+			]
+			id: "1F22F9F9B3D393E1"
+			rewards: [{
+				id: "6E93D9069E278565"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			subtitle: "Sweet Radiance for Ochrum Automation. Click me for more info!"
+			tasks: [{
+				id: "70148D254B508BFE"
+				item: "create_dd:glowberry_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Glowberry Milkshake: Gold-Fueled Goodness"
+			x: -15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["79632EC457A3A88D"]
+			description: [
+				"&fVanilla Milkshake&r is the &oessential fuel source&r for activating &7Potassic Molten Vents&r and automating &ftin production&r through Mechanical Extruders. This classic blend begins with the creation of smooth &oVanilla Milk&r—simple, yet powerful."
+				""
+				"Start by &lHeated Mixing&r the following ingredients:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_vanilla_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once your vanilla milk is complete, it’s time to whip it into a milkshake! Add the finishing ingredients and mix to perfection:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_vanilla_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lA timeless classic with mechanical might&r—fuel your tin automation the tastiest way possible. ⚙✨"
+			]
+			id: "2E99FE44436A381C"
+			rewards: [{
+				id: "329ED9BD18A26718"
+				item: "create_dd:tin_block"
+				type: "item"
+			}]
+			subtitle: "Sweet Simplicity for Potassic Power. Click me for more info!"
+			tasks: [{
+				id: "579E35A18E6D68E6"
+				item: "create_dd:vanilla_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Vanilla Milkshake: Tin-Touched Tradition"
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58E37D66B86362FD"]
+			description: [
+				"&fCream&r is the luxurious middle step in your milkshake crafting process—&oa smooth, rich fluid&r created by mixing condensed milk with other ingredients. Beyond its dessert-like role, it serves a crucial function in &3mechanical extruder&r setups."
+				""
+				"To begin, craft cream using the recipe below:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_cream.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"But cream isn't just for sweet treats. It also acts as the &bsource fluid&r for activating &3Assurine Molten Vents&r, an essential step in automating &7Zinc&r production through the &lmechanical extruder&r."
+				""
+				"From creamy delight to industrial might, &fCream&r bridges the world of flavor and function. 🧁⚙"
+			]
+			id: "061D64DE3F96B2F8"
+			subtitle: "Essential for Milkshakes and Zinc Automation. Click me for more info!"
+			tasks: [{
+				id: "260A74E590207397"
+				item: "create_dd:cream_bucket"
+				type: "item"
+			}]
+			title: "Cream: The Silken Catalyst"
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			description: [
+				"&fCondensed Milk&r marks the beginning of your milkshake-making journey. Essential for producing &lcream&r, this rich base fluid is created through &lHeated Mixing&r and plays a central role in various fluid crafting processes."
+				""
+				"Begin by preparing condensed milk using the recipe below:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_condense_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Beyond its culinary origins, &fCondensed Milk&r also has industrial applications—it can be used as a source fluid to automate the generation of &fCalcite&r via &3mechanical extruders&r."
+				""
+				"&lFrom dessert to dynamic block generation&r, condensed milk is more than just sweet—it’s strategic. 🍶"
+			]
+			hide_dependency_lines: true
+			id: "5C42B9D85F62A1F2"
+			shape: "hexagon"
+			subtitle: "Foundational Fluid for Milkshakes and Automation. Click me for more info!"
+			tasks: [{
+				id: "5BF44609FFE44C75"
+				item: "create_dd:condense_milk_bucket"
+				type: "item"
+			}]
+			title: "Condensed Milk: The Cream Core"
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["20EDD6DD2BDC5F24"]
+			description: [
+				"&dChocolate Milkshake&r is the &oessential fluid&r for activating &9Scoria Molten Vents&r and powering the &3mechanical extruders&r used in automated &9lapis production&r. Smooth and decadent, this milkshake begins its journey with melted chocolate—crafted through the alchemy of &oHeated Mixing&r."
+				""
+				"Start by combining these ingredients over heat to create &lChocolate&r:"
+				""
+				"{image:ftb:textures/_create_mixing_chocolate.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your chocolate ready, elevate it into a milkshake by mixing in the final components. The result: a sweet and powerful automation fuel."
+				""
+				"{image:ftb:textures/_create_dd_mixing_chocolate_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lFrom confection to contraption&r—this milkshake is the secret ingredient for lapis mastery! ⚙🔵"
+			]
+			id: "2BE12AF20FA6DC0D"
+			rewards: [{
+				id: "6E537EB297724944"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			subtitle: "Rich Fuel for Scoria Vent Automation. Click me for more info!"
+			tasks: [{
+				id: "1A68432CDF382D89"
+				item: "create_dd:chocolate_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Chocolate Milkshake: The Lapis Lifeblood"
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12C001857356FF60"]
+			description: [
+				"The White Chocolate is later used in automating Emeralds via a"
+				"{ \"text\": \"Verdantine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B0C428AB2EDDA57\" } }"
+			]
+			id: "31FBC673B1E527F6"
+			rewards: [{
+				id: "24270ACD10326936"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "65741235B128968B"
+				item: "create_confectionery:white_chocolate_bucket"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0037549384F9FCCF"]
+			description: [
+				"The Dark Chocolate is later used in automating Diamond via a"
+				"{ \"text\": \"Glacium Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"648ADE5DD685988B\" } }"
+			]
+			id: "13576F3698C89AE7"
+			rewards: [{
+				id: "66780161B73FB2A6"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "6186A451E1089054"
+				item: "create_confectionery:black_chocolate_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0F87A00F314DD547"
+				"0886729EE4407B1B"
+				"177FD83E945AE2BE"
+			]
+			description: [
+				"The Ruby Chocolate is later used in automating End Ores via the"
+				"{ \"text\": \"End Molten Vents\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15DD51BFD4480F8D\" } }"
+			]
+			id: "17559ED0B5B300D9"
+			rewards: [{
+				id: "3FC8DA31FE49E3B3"
+				item: "endertrigon:baby_dragon_egg"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "2D4599EE7E6BF3E8"
+				item: "create_confectionery:ruby_chocolate_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0526FF8AE3C0EA67"]
+			description: [
+				"&cAdzuki Milkshake&r is the core ingredient for activating &4Pyroclast Molten Vents&r and fueling the &3mechanical extruder systems&r vital to the automation of &6Calorite&r. This rich, earthy shake begins with the careful preparation of &oadzuki milk&r—made through &lHeated Mixing&r."
+				""
+				"Start your recipe by heating the following ingredients to craft your base milk:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_adzuki_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once your adzuki milk is ready, mix in the final ingredients to blend the milkshake. This fluid serves as a crucial automation component in your Calorite production line."
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_adzuki_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lBold, powerful, and essential&r—Adzuki Milkshake is the molten key to mastering one of the most advanced alloys in the galaxy. 🔥🛠"
+			]
+			id: "5B45F6B48A81E380"
+			subtitle: "Molten Power for Pyroclast Automation. Click me for more info!"
+			tasks: [{
+				id: "3B1D40C533799EDB"
+				item: "forge_frontier:adzuki_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Adzuki Milkshake: Calorite Catalyst"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C81772B0834E434"]
+			description: [
+				"&dPomegranate Milkshake&r is the vital fluid used to activate &5Stellaris Molten Vents&r, powering the &3mechanical extruders&r responsible for automating the production of &eOstrum&r. This vibrant and tart infusion begins with a heated blend of fresh ingredients to produce &opomegranate milk&r."
+				""
+				"Begin by crafting the base milk through &lHeated Mixing&r using the recipe below:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_pomegranate_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your pomegranate milk prepared, continue the process by mixing in the final ingredients to create the completed milkshake—an essential fluid in Ostrum’s high-tech automation."
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_pomegranate_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lRefined, radiant, and reactor-ready&r—Pomegranate Milkshake delivers the power needed to push your automation further than ever before. ✨🛠"
+			]
+			id: "1B5FB4BFC3366093"
+			subtitle: "Igniting the Path to Ostrum"
+			tasks: [{
+				id: "7AC498FDC5FAD53D"
+				item: "forge_frontier:pomegranate_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Pomegranate Milkshake: Ostrum Goodness"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B0CEEDC47C9AFAE"]
+			id: "4DA4B3B5EC216D1B"
+			tasks: [{
+				id: "694CD9FA6E894B02"
+				item: "forge_frontier:cheese_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["350F1E84CF8BB524"]
+			id: "75BE9DB6CC095B88"
+			tasks: [{
+				id: "5961755503AC040E"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6AE156D8DE1D619A"]
+			id: "7A3720167DCAF9EB"
+			tasks: [{
+				id: "41383546A1EC4B14"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2589CF5251858E63"]
+			description: [
+				"The Honey is later used in automating Amber via a"
+				"{ \"text\": \"Amberlite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6950232D17577FEC\" } }"
+			]
+			id: "5DE53E1FE2154194"
+			rewards: [{
+				id: "37A89F67D9CCA1DA"
+				item: "alexscaves:amber"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "5B7EDE7BC728CD3A"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10D2ED18910A5579"]
+			description: [
+				"The Hot Chocolate is later used in automating Coal and Cinder Flour via a"
+				"{ \"text\": \"Scorchia Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F2166D0D6AE208F\" } }"
+			]
+			id: "1D40BCB5E0BF8836"
+			rewards: [{
+				id: "62BF313BF50E33DD"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "3FDD02F8681243AF"
+				item: "create_dd:hot_chocolate_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C99623FD144B074"]
+			description: [
+				"&fNeapolitan Milkshake&r isn’t just a dessert—it’s a &dtriple-tiered engineering marvel&r. Crafted by mixing three distinct milkshakes into one harmonious blend, this &oswirled fusion&r becomes the &bsource fluid&r for activating &8Ancient Debris Molten Vents&r."
+				""
+				"These vents, when connected to a &lmechanical extruder&r, unlock the automation of &cAncient Debris&r—one of the most valuable resources in the entire pack."
+				""
+				"{@pagebreak}"
+				"Mix the three essential milkshakes below to form this powerful concoction:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_neapolitan_milkshake.png width:200 height:120 align:center}"
+				""
+				"From sweet treat to endgame feat, &fNeapolitan Milkshake&r is your key to streamlined &cNetherite&r production. 🍓🍫🍦"
+			]
+			id: "24958E87D1B6893F"
+			subtitle: "Key to Ancient Debris Automation. Click me for more info!"
+			tasks: [{
+				id: "7A7E9537695BEDD1"
+				item: "forge_frontier:neapolitan_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Neapolitan Milkshake: Triple Fusion Treat"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66C50363340B22B0"]
+			description: [
+				"The Cryo Fuel is later used in automating Echo Shards via a"
+				"{ \"text\": \"Resinite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"509AE3462D404452\" } }"
+			]
+			id: "51E1682DBF0062D2"
+			rewards: [{
+				id: "0427B3EC9A38A1DD"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			subtitle: "Obtained by processing the below ingredients in a cryofreezer, Click me for more info!"
+			tasks: [{
+				id: "746940CFCDB225E3"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["229D3F7596608800"]
+			description: [
+				"The Liquid Fertilizer is later used in automating Guano via a"
+				"{ \"text\": \"Guanite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E22E4007D8C1979\" } }"
+			]
+			id: "2A36712104221BA5"
+			rewards: [{
+				id: "34B90017511C94AD"
+				item: "alexscaves:guano_block"
+				type: "item"
+			}]
+			subtitle: "Obtained by mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "6F2CED076889FF33"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"08A5AEA1CB0268D8"
+				"1F8D8293900A159B"
+			]
+			id: "541F6EDFBB45521D"
+			tasks: [{
+				id: "1A7336B66936C8E1"
+				item: "tconstruct:molten_iron_bucket"
+				type: "item"
+			}]
+			x: 14.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"19D60673B8DCB77D"
+				"70DF75B6AEEF8D39"
+			]
+			description: [
+				"The Acid is later used in automating Uranium and Sulfur via a"
+				"{ \"text\": \"Uraniumnite and Sulphite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"434A80C989CFB176\" } }"
+			]
+			id: "79182D6BE9E5DE0D"
+			rewards: [
+				{
+					id: "26A3A5E739F4D230"
+					item: "alexscaves:block_of_uranium"
+					type: "item"
+				}
+				{
+					id: "3721D530B5339BDE"
+					item: "alexscaves:sulfur"
+					type: "item"
+				}
+			]
+			subtitle: "Obtained by heated mixing the below ingredients, Click me for more info!"
+			tasks: [{
+				id: "30E38259D8FDB777"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: 17.25d
+			y: 4.5d
+		}
 	]
-	title: "Molten Vents"
+	title: "Molten Vents - Resource Automation"
 }
