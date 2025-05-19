@@ -383,22 +383,8 @@ ServerEvents.recipes(event => {
                             item: 'ad_astra:ice_shard',
                         },
                         {
-                            item: 'ad_astra:ice_shard',
-                        },
-                        {
-                            item: 'ad_astra:ice_shard',
-                        },
-                        {
-                            item: 'ad_astra:ice_shard',
-                        },
-                        {
-                            item: 'ad_astra:ice_shard',
-                        },
-                        {
-                            item: 'ad_astra:ice_shard',
-                        },
-                        {
-                            item: 'ad_astra:ice_shard',
+                            fluid: 'ad_astra:fuel',
+                            amount: 1000
                         }
                     ],
                     results: [
