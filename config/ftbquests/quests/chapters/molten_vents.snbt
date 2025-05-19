@@ -21,7 +21,7 @@
 			image: "minecraft:block/calcite"
 			rotation: 0.0d
 			width: 1.0d
-			x: -21.0d
+			x: -20.0d
 			y: 3.0d
 		}
 	]
@@ -752,7 +752,7 @@
 				type: "observation"
 			}]
 			title: "Crimsite Vent: Heart of Iron"
-			x: -16.5d
+			x: -13.5d
 			y: 3.0d
 		}
 		{
@@ -781,7 +781,7 @@
 					type: "item"
 				}
 			]
-			x: -16.5d
+			x: -13.5d
 			y: 6.0d
 		}
 		{
@@ -806,7 +806,7 @@
 				to_observe: "molten_vents:dormant_molten_ochrum"
 				type: "observation"
 			}]
-			x: -15.0d
+			x: -12.0d
 			y: 3.0d
 		}
 		{
@@ -835,7 +835,7 @@
 					type: "item"
 				}
 			]
-			x: -15.0d
+			x: -12.0d
 			y: 6.0d
 		}
 		{
@@ -851,7 +851,7 @@
 				id: "363706F90B7CA208"
 				type: "biome"
 			}]
-			x: -13.5d
+			x: -17.25d
 			y: 1.5d
 		}
 		{
@@ -876,7 +876,7 @@
 				type: "observation"
 			}]
 			title: "Find a Asurine Vent"
-			x: -13.5d
+			x: -18.0d
 			y: 3.0d
 		}
 		{
@@ -905,7 +905,7 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
+			x: -18.0d
 			y: 6.0d
 		}
 		{
@@ -949,7 +949,7 @@
 				type: "observation"
 			}]
 			title: "Veridium Vent: The Copper Core"
-			x: -18.0d
+			x: -15.0d
 			y: 3.0d
 		}
 		{
@@ -978,7 +978,7 @@
 					type: "item"
 				}
 			]
-			x: -18.0d
+			x: -15.0d
 			y: 6.0d
 		}
 		{
@@ -1003,7 +1003,7 @@
 				to_observe: "molten_vents:dormant_molten_potassic"
 				type: "observation"
 			}]
-			x: -12.0d
+			x: -16.5d
 			y: 3.0d
 		}
 		{
@@ -1032,7 +1032,7 @@
 					type: "item"
 				}
 			]
-			x: -12.0d
+			x: -16.5d
 			y: 6.0d
 		}
 		{
@@ -1291,7 +1291,7 @@
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
-			x: -15.0d
+			x: -12.0d
 			y: 1.5d
 		}
 		{
@@ -2291,7 +2291,7 @@
 				id: "7ED2A335BB4388AD"
 				type: "biome"
 			}]
-			x: -16.5d
+			x: -13.5d
 			y: 1.5d
 		}
 		{
@@ -2302,7 +2302,7 @@
 				id: "7618865C4EE22237"
 				type: "biome"
 			}]
-			x: -18.0d
+			x: -15.0d
 			y: 1.5d
 		}
 		{
@@ -2397,7 +2397,7 @@
 				type: "item"
 			}]
 			title: "Caramel Milkshake: Copper-Crafted Delight"
-			x: -18.0d
+			x: -15.0d
 			y: 4.5d
 		}
 		{
@@ -2434,7 +2434,7 @@
 				type: "item"
 			}]
 			title: " Strawberry Milkshake: Fueling Iron Innovation"
-			x: -16.5d
+			x: -13.5d
 			y: 4.5d
 		}
 		{
@@ -2471,7 +2471,7 @@
 				type: "item"
 			}]
 			title: "Glowberry Milkshake: Gold-Fueled Goodness"
-			x: -15.0d
+			x: -12.0d
 			y: 4.5d
 		}
 		{
@@ -2508,7 +2508,7 @@
 				type: "item"
 			}]
 			title: "Vanilla Milkshake: Tin-Touched Tradition"
-			x: -12.0d
+			x: -16.5d
 			y: 4.5d
 		}
 		{
@@ -2529,7 +2529,6 @@
 				""
 				"From creamy delight to industrial might, &fCream&r bridges the world of flavor and function. 🧁⚙"
 			]
-			hide_dependency_lines: true
 			id: "061D64DE3F96B2F8"
 			subtitle: "Essential for Milkshakes and Zinc Automation. Click me for more info!"
 			tasks: [{
@@ -2538,7 +2537,7 @@
 				type: "item"
 			}]
 			title: "Cream: The Silken Catalyst"
-			x: -13.5d
+			x: -18.0d
 			y: 4.5d
 		}
 		{
@@ -2567,7 +2566,7 @@
 				type: "item"
 			}]
 			title: "Condensed Milk: The Cream Core"
-			x: -21.0d
+			x: -20.0d
 			y: 4.5d
 		}
 		{
@@ -2610,8 +2609,11 @@
 		{
 			dependencies: ["12C001857356FF60"]
 			description: [
-				"The White Chocolate is later used in automating Emeralds via a"
-				"{ \"text\": \"Verdantine Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B0C428AB2EDDA57\" } }"
+				"{image:ftb:textures/_create_confectionery_crushed_cocoa_recipe.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_create_confectionery_cocoa_powder_and_butter_recipe.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_create_confectionery_white_chocolate_recipe.png width:200 height:120 align:center}"
 			]
 			id: "31FBC673B1E527F6"
 			rewards: [{
@@ -2631,8 +2633,11 @@
 		{
 			dependencies: ["0037549384F9FCCF"]
 			description: [
-				"The Dark Chocolate is later used in automating Diamond via a"
-				"{ \"text\": \"Glacium Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"648ADE5DD685988B\" } }"
+				"{image:ftb:textures/_create_confectionery_crushed_cocoa_recipe.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_create_confectionery_cocoa_powder_and_butter_recipe.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_create_confectionery_black_chocolate_recipe.png width:200 height:120 align:center}"
 			]
 			id: "13576F3698C89AE7"
 			rewards: [{
@@ -2656,8 +2661,8 @@
 				"177FD83E945AE2BE"
 			]
 			description: [
-				"The Ruby Chocolate is later used in automating End Ores via the"
-				"{ \"text\": \"End Molten Vents\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"15DD51BFD4480F8D\" } }"
+				""
+				"{image:ftb:textures/_create_confectionery_ruby_chocolate_recipe.png width:200 height:120 align:center}"
 			]
 			id: "17559ED0B5B300D9"
 			rewards: [{
@@ -2740,6 +2745,13 @@
 		}
 		{
 			dependencies: ["3B0CEEDC47C9AFAE"]
+			description: [
+				"{image:ftb:textures/_collectorsreap_cutting_lime.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_forge_frontier_compacting_lime_juice.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_forge_frontier_mixing_cheese.png width:200 height:120 align:center}"
+			]
 			id: "4DA4B3B5EC216D1B"
 			tasks: [{
 				id: "694CD9FA6E894B02"
@@ -2794,10 +2806,7 @@
 		}
 		{
 			dependencies: ["10D2ED18910A5579"]
-			description: [
-				"The Hot Chocolate is later used in automating Coal and Cinder Flour via a"
-				"{ \"text\": \"Scorchia Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F2166D0D6AE208F\" } }"
-			]
+			description: ["{image:ftb:textures/_create_dd_mixing_hot_chocolate.png width:200 height:120 align:center}"]
 			id: "1D40BCB5E0BF8836"
 			rewards: [{
 				id: "62BF313BF50E33DD"
@@ -2847,8 +2856,20 @@
 		{
 			dependencies: ["66C50363340B22B0"]
 			description: [
-				"The Cryo Fuel is later used in automating Echo Shards via a"
-				"{ \"text\": \"Resinite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"509AE3462D404452\" } }"
+				""
+				"{image:ftb:textures/_createaddition_compacting_seed_oil.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_createaddition_mixing_biomass_from_sticks.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_createaddition_mixing_bioethanol.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_forge_frontier_melting_molten_carbon_4_0.png width:200 height:80 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_forge_frontier_mixing_oil.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_forge_frontier_mixing_oil_fuel.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_forge_frontier_mixing_cryo_fuel.png width:200 height:120 align:center}"
 			]
 			id: "51E1682DBF0062D2"
 			rewards: [{
@@ -2868,8 +2889,9 @@
 		{
 			dependencies: ["229D3F7596608800"]
 			description: [
-				"The Liquid Fertilizer is later used in automating Guano via a"
-				"{ \"text\": \"Guanite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E22E4007D8C1979\" } }"
+				"{image:ftb:textures/crafting_appliances_tree_fertilizer.png width:200 height:100 align:center}"
+				"{@pagebreak}"
+				"{image:ftb:textures/_sliceanddice_mixing_fertilizer_from_tree_fertilizer.png width:200 height:120 align:center}"
 			]
 			id: "2A36712104221BA5"
 			rewards: [{
@@ -2891,6 +2913,7 @@
 				"08A5AEA1CB0268D8"
 				"1F8D8293900A159B"
 			]
+			description: ["{image:ftb:textures/_tconstruct_smeltery_melting_metal_iron_raw.png width:200 height:80 align:center}"]
 			id: "541F6EDFBB45521D"
 			tasks: [{
 				id: "1A7336B66936C8E1"
@@ -2906,8 +2929,8 @@
 				"70DF75B6AEEF8D39"
 			]
 			description: [
-				"The Acid is later used in automating Uranium and Sulfur via a"
-				"{ \"text\": \"Uraniumnite and Sulphite Molten Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"434A80C989CFB176\" } }"
+				""
+				"{image:ftb:textures/_create_oppenheimered_mixing_sulfuric_acid.png width:200 height:120 align:center}"
 			]
 			id: "79182D6BE9E5DE0D"
 			rewards: [
