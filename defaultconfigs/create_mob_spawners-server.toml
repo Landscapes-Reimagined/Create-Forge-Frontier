@@ -1,0 +1,55 @@
+
+[soul_catcher]
+	#Entity ids that should not be capturable
+	entity_blacklist = ["minecraft:snow_golem"]
+	#Maximum distance at which entities can be captured
+	#Range: 5.0 ~ 50.0
+	max_distance = 15.0
+	#Entity health needs to be at or below this percentage to be able to be caught
+	#1.0 = 100% -> Entities can be caught at full health
+	#0.0 = Entities can only be caught at half a heart
+	#Range: 0.0 ~ 1.0
+	max_health_percentage = 1.0
+
+[mechanical_spawner]
+	#Maximum stress impact (impact scales with entity health)
+	#Range: 1.0 ~ 1.7976931348623157E308
+	max_stress_impact = 80.0
+	#Minimum RPM required to progress
+	#Range: 1.0 ~ 1.7976931348623157E308
+	min_rpm = 128.0
+	#Maximum number of nearby spawned entities
+	#If exceeded, the spawner will stall
+	#Range: > 1
+	max_nearby_entities = 6
+	#Whether the configuration of the spawning area by players is allowed or not
+	#true = allowed
+	player_configuration_allowed = true
+	#Minimum square width of the spawning area
+	#Range: > 3
+	spawn_area_min_width = 3
+	#Maximum square width of the spawning area
+	#Range: > 3
+	spawn_area_max_width = 11
+	#Default square width of the spawning area
+	#Range: > 3
+	spawn_area_default_width = 9
+	#Minimum height of the spawning area
+	#Range: > 1
+	spawn_area_min_height = 1
+	#Maximum height of the spawning area
+	#Range: > 1
+	spawn_area_max_height = 7
+	#Default height of the spawning area
+	#Range: > 1
+	spawn_area_default_height = 3
+	#Minimum height offset of the spawning area
+	#Range: > -2147483648
+	spawn_area_min_height_offset = -4
+	#Maximum height offset of the spawning area
+	#Range: > -2147483648
+	spawn_area_max_height_offset = 4
+	#Default height offset of the spawning area
+	#Range: > -2147483648
+	spawn_area_default_height_offset = 0
+

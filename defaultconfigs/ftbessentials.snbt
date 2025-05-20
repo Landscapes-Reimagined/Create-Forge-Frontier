@@ -207,7 +207,7 @@
 			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
 			# Default: 600
 			# Range: 0 ~ 604800
-			cooldown: 600
+			cooldown: 300
 			
 			# Blacklisted dimension ID's for /rtp (player *must not* be in any of these dimensions)
 			# Wildcarded dimensions (e.g. 'somemod:*') are supported
@@ -225,7 +225,7 @@
 			# /rtp max distance from spawn point
 			# Default: 25000
 			# Range: 0 ~ 30000000
-			max_distance: 25000
+			max_distance: 3500
 			
 			# Number of tries before /rtp gives up
 			# Default: 100
@@ -235,7 +235,7 @@
 			# /rtp min distance from spawn point
 			# Default: 500
 			# Range: 0 ~ 30000000
-			min_distance: 500
+			min_distance: 1000
 			
 			# Warm-up time before /rtp command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.rtp.warmup
