@@ -21,6 +21,14 @@ ServerEvents.tags("item", event => {
         "advanced_ae:quantum_boots",
     ])
 
+    // Create Nuclear Anti Radiation Tag
+    event.add("createnuclear:all_anti_radiation_armors",[
+        "advanced_ae:quantum_helmet",
+        "advanced_ae:quantum_chestplate",
+        "advanced_ae:quantum_leggings",
+        "advanced_ae:quantum_boots",
+    ])
+
     // Hazmat Protection Tag
     event.add("create_new_age:nuclear/hazmat_suit",
         "#ad_astra:freeze_resistant_armor"
