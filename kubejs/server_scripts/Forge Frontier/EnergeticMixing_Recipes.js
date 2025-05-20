@@ -1,8 +1,7 @@
 ServerEvents.recipes(event => 
     {
-        /*
         // Remove Recipes
-        event.remove({ id: 'forgefrontier:test_recipe'})
+        event.remove({ id: 'forgefrontiercore:test_recipe'})
         event.remove({ id: 'create:mixing/compat/ae2/fluix_crystal'})
 
         // Forge Frontier - Energetic Mixing Recipes
@@ -41,7 +40,7 @@ ServerEvents.recipes(event =>
                 {
                     id: "fluix_crystals",
                     energy: 200000,
-                    remove: "forgefrontier:fluix_quartz",
+                    remove: "forgefrontiercore:fluix_quartz",
                     ingredients: [
                         { item: "ae2:charged_certus_quartz_crystal", count: 16 },
                         { item: "minecraft:redstone", count: 16 },
@@ -53,7 +52,7 @@ ServerEvents.recipes(event =>
                 {
                     id: "fluix_crystals_from_dust",
                     energy: 100000,
-                    remove: "forgefrontier:fluix_quartz_duplication",
+                    remove: "forgefrontiercore:fluix_quartz_duplication",
                     ingredients: [
                         { item: "ae2:charged_certus_quartz_crystal", count: 32 },
                         { item: "ae2:fluix_dust", count: 32 },
@@ -127,7 +126,7 @@ ServerEvents.recipes(event =>
                 {
                     id: "certus_quartz_crystal",
                     energy: 50000,
-                    remove: "forgefrontier:certus_quartz_duplication",
+                    remove: "forgefrontiercore:certus_quartz_duplication",
                     ingredients: [
                         { item: "ae2:charged_certus_quartz_crystal", count: 16 },
                         { item: "ae2:certus_quartz_dust", count: 16 },
@@ -176,7 +175,7 @@ ServerEvents.recipes(event =>
                 }
 
                 event.custom({
-                    type: "forgefrontier:energetic_mixing",
+                    type: "forgefrontiercore:energetic_mixing",
                     heatRequirement: "heated",
                     requiredEnergy: recipe.energy,
                     requiredEnergyLevel: "crystallize",
@@ -189,7 +188,7 @@ ServerEvents.recipes(event =>
         const energeticInfusionRecipes = [
             {
                 id: "charged_certus_quartz_crystal",
-                remove: "forgefrontier:certus_quartz_charging",
+                remove: "forgefrontiercore:certus_quartz_charging",
                 energy: 1300000,
                 ingredients: [
                     { item: "ae2:certus_quartz_crystal", count: 64 },
@@ -234,7 +233,7 @@ ServerEvents.recipes(event =>
             }
     
             event.custom({
-                type: "forgefrontier:energetic_mixing",
+                type: "forgefrontiercore:energetic_mixing",
                 heatRequirement: "superheated",
                 requiredEnergy: recipe.energy,
                 requiredEnergyLevel: "infuse",
@@ -242,6 +241,5 @@ ServerEvents.recipes(event =>
                 results: recipe.results
             }).id(`forge_frontier:energetic_mixing/${recipe.id}`);
         });
-        */
     }
 )

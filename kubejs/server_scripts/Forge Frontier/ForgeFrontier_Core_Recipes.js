@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
         results: [
             {
                 chance: 100,
-                item: 'forgefrontier:energetic_blaze_burner'
+                item: 'forgefrontiercore:energetic_blaze_burner'
             }
         ],
         sequence: [
