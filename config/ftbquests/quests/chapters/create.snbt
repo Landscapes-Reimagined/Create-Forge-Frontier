@@ -25,7 +25,7 @@
 		}
 		{
 			height: 3.13125d
-			image: "forgefrontier:item/test_output"
+			image: "forgefrontiercore:item/test_output"
 			rotation: 0.0d
 			width: 5.0d
 			x: 0.0d
