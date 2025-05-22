@@ -1,0 +1,1753 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_misc"
+	group: "3D5393E3938A9DF4"
+	icon: {
+		Count: 1
+		id: "create:rare_jinx_package"
+		tag: { }
+	}
+	id: "37D4B189E01FBB93"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/create_misc_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -0.75d
+		y: -10.0d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This chapter covers all the odds and ends!"
+				""
+				"If it's made for Create and makes your life easier (or weirder), it’s probably in here."
+				""
+				"From Mob Spawners to Mechanical Extruders, from Slicers to "
+				"Teleporters - get ready to dive into the extras."
+			]
+			icon: {
+				Count: 1
+				id: "create:rare_jinx_package"
+				tag: { }
+			}
+			id: "610FD2C783821A4E"
+			rewards: [{
+				id: "29CA5E3C655527D7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Expanded Toolkit"
+			tasks: [{
+				id: "29BBA93C216DFF16"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "The Addon Arsenal"
+			x: -0.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"Create Mechanical Extruder is introduced as a post-End addon in Create - Forge Frontier."
+				""
+				"To craft a Mechanical Extruder, you'll first need to produce a Stargaze Singularity Casing."
+				""
+				"You can learn more about crafting the Stargaze Singularity on the following page."
+				"{@pagebreak}"
+				"&l&nComponents Overview&r&r"
+				""
+				"EMI doesn't tell you everything about how to craft some of the components of the Stargaze Singularity. Here is a guide to all of these components!"
+				""
+				"&n&oRefined Radiance&r&r"
+				""
+				"Toss a Chromatic Compound into an active beacon beam."
+				""
+				"&n&oShadow Steel&r&r"
+				""
+				"Throw a Chromatic Compound into the void in the End Dimension-don’t worry, it will float back up to you!"
+				""
+				"&n&oBlaze Brass&r&r"
+				""
+				"Right-click a Blaze with a Chromatic Compound."
+				"{@pagebreak}"
+				"&n&lAnother helpful Tip!&r&r "
+				""
+				"For efficient production of the Mass of Experience, use bulk freezing with a Freezing Sail and an Industrial Fan from Create: Dreams and Desires to freeze Bottles of Experience!"
+				""
+				"Learn more about using your Mechanical Extruder on the next page!"
+				"{@pagebreak}"
+				"You've made it, now how do you use it?"
+				""
+				"First, place the proper vent/block underneath the Extruder and add a bucket of proper fluid (refer to EMI) to both sides of the Extruder."
+				""
+				"Then, power it with a shaft at the back and pull items from the front with a belt and funnel or with an item pipe. "
+			]
+			hide_dependency_lines: true
+			id: "6B0EFB5F45658146"
+			rewards: [
+				{
+					id: "01FF0820975F5F04"
+					item: "create_dd:stargaze_singularity"
+					type: "item"
+				}
+				{
+					id: "1F42063A131736A3"
+					item: "create_dd:shimmer_bucket"
+					type: "item"
+				}
+				{
+					id: "3277EB3D8A970FD8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Infinite Resource Generation"
+			tasks: [{
+				id: "478B83B647DFB4C2"
+				item: "create_mechanical_extruder:mechanical_extruder"
+				type: "item"
+			}]
+			title: "The Mechanical Extruder"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Mechanical Chicken is a machine that can be used to automate eggs! "
+				""
+				"To use it, feed Seed Oil into the fluid pipe on the Mechanical Chicken, and then power it via the shaft located on the bottom. "
+				""
+				"The Mechanical Chicken will produce 1 egg for every 100mb of Seed Oil!"
+				""
+				"The eggs must be removed via a Create Funnel or an Item Pipe!"
+			]
+			hide_dependency_lines: true
+			icon: "create_mechanical_chicken:mechanical_chicken"
+			id: "7D399C27891D46FC"
+			rewards: [
+				{
+					count: 4
+					id: "681293A9D6A84DB5"
+					item: "cratedelight:egg_crate"
+					type: "item"
+				}
+				{
+					id: "50EE3AF73FE0D2F0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Bawk Bawk"
+			tasks: [
+				{
+					id: "54FE82077FB95ADD"
+					item: "create_mechanical_chicken:mechanical_chicken"
+					type: "item"
+				}
+				{
+					id: "25476B9113F10301"
+					item: "createaddition:seed_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "The Mechanical Chicken"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Drone Port allows you to send packages to yourself wirelessly! "
+				""
+				"To use it, address a package to your username using a sign, and then send it into the Drone Port using a Funnel or Item Pipe. "
+				""
+				"[\"\",{\"text\":\"If your name is longer than one line on a sign, you must use the \"},{\"text\":\"Drone Controller.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"64FDF55307789B8B\"},\"color\":\"blue\",\"underlined\":true}]"
+			]
+			hide_dependency_lines: true
+			icon: "create_mobile_packages:drone_port"
+			id: "0B1AAE6530D495A3"
+			rewards: [
+				{
+					count: 2
+					id: "326326D44E11590D"
+					item: "create:cardboard_block"
+					type: "item"
+				}
+				{
+					id: "0B1B655C4780C686"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Wireless Packages!"
+			tasks: [
+				{
+					id: "0F24DCE4C2DBC277"
+					item: "create_mobile_packages:drone_port"
+					type: "item"
+				}
+				{
+					id: "5121747A50C988E8"
+					item: "create:packager"
+					type: "item"
+				}
+			]
+			title: "The Drone Port"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B1AAE6530D495A3"]
+			description: [
+				"The Drone Controller acts a Wireless Stock Keeper when tuned to a frequency by right clicking a Stock Link with the item in your hand."
+				""
+				"To use it, right click, select the items you want to be sent to you, address them to your username in the bottom of the interface, then send the addressed package to the Drone Port. "
+				""
+				"Your package will then be delivered to you!"
+			]
+			id: "64FDF55307789B8B"
+			rewards: [
+				{
+					count: 8
+					id: "65A5381F15D5B65A"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					id: "5CAA7B5E29C80804"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Applied Packages 2"
+			tasks: [{
+				id: "51BD3196E1982973"
+				item: "create_mobile_packages:drone_controller"
+				type: "item"
+			}]
+			title: "The Drone Controller"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Andesite Chunk Loader is your entry-level solution for keeping machines running while you're away. It keeps a 1-chunk radius (a single 16×16 area) constantly loaded, perfect for basic farms or starter contraptions."
+				""
+				"After you craft it, you'll need to capture a Ghast by right clicking on it with the Chunk Loader in your hand. "
+				""
+				"Power Requirements:"
+				""
+				"Speed: 64 RPM"
+				""
+				"Stress: 1,024 SU"
+				""
+				"Make sure your system can supply consistent power-if it drops, so does your loaded chunk."
+			]
+			hide_dependency_lines: true
+			icon: "create_power_loader:andesite_chunk_loader"
+			id: "53FCF5F16D2BB329"
+			rewards: [
+				{
+					count: 2
+					id: "2822922D2E294A7F"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3EC75C382AEB63A2"
+					item: "create_dd:netherite_casing"
+					type: "item"
+				}
+				{
+					id: "44BD08D8CE17A442"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Single Zone Support"
+			tasks: [{
+				id: "7DA3A186A0582CC5"
+				item: "create_power_loader:andesite_chunk_loader"
+				type: "item"
+			}]
+			title: "Andesite Chunk Loader - Tier 1"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["53FCF5F16D2BB329"]
+			description: [
+				"The Brass Chunk Loader is a serious upgrade. With a configurable range of 1×1, 3×3, or 5×5 chunks, it ensures large-scale automation stays alive across your base, no matter where you are."
+				""
+				"Power Requirements:"
+				""
+				"Speed: 256 RPM"
+				""
+				"Stress: 4,096 SU"
+				""
+				"A clear upgrade over its Andesite counterpart-this loader keeps much more of your chunks loaded!"
+			]
+			id: "5FAE48E66E9E033C"
+			rewards: [
+				{
+					count: 5
+					id: "55B625BA074822E2"
+					item: "create_dd:chromatic_compound"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5BADA631171C9042"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					id: "595CBA600546809B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Multi-Chunk Mastery"
+			tasks: [{
+				id: "76D89C119CBA5543"
+				item: "create_power_loader:brass_chunk_loader"
+				type: "item"
+			}]
+			title: "Brass Chunk Loader - Tier 2"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"Tired of chopping by hand? The Slicer automates cutting board recipes using mechanical motion."
+				""
+				"It performs slicing actions on items placed in a basin or on a depot, mimicking the knife or axe recipes you’d normally do manually."
+				""
+				"Just make sure it’s rotating clockwise-that blade won’t cut going backwards."
+			]
+			hide_dependency_lines: true
+			id: "75B2F926E5A10141"
+			rewards: [
+				{
+					id: "6A4A3A918D599B2C"
+					item: {
+						Count: 1
+						id: "delightful:brass_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56F8AA8A5DA14FC5"
+					item: {
+						Count: 1
+						id: "create_sa:brass_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C861B3EAA315F8B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Hands-Free Chopping"
+			tasks: [{
+				id: "394E8D190BAC5A81"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			title: "The Slicer"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Sprinkler is more than just a fancy way to water crops."
+				""
+				"Fill it with water to keep farmland moist automatically."
+				""
+				"Insert lava to burn nearby mobs—or yourself."
+				""
+				"Feed it liquid fertilizer to accelerate crop growth."
+				""
+				"Insert a potion to apply its effect to nearby entities."
+				""
+				"And if you're ever on fire? Just walk under it-water flow extinguishes flames."
+			]
+			hide_dependency_lines: true
+			id: "692CE117F3798494"
+			rewards: [
+				{
+					count: 2
+					id: "2FCF0A9930292BC4"
+					item: "sliceanddice:fertilizer_bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B8F186AE9790B78"
+					item: "farmersdelight:organic_compost"
+					type: "item"
+				}
+				{
+					id: "7BDB6F50F890EEC1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Irrigation Innovation"
+			tasks: [{
+				count: 3L
+				id: "00BA9387F50A9E9D"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			title: "The Sprinkler"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Soul Catcher lets you capture mobs for transport and use in the Create Mechanical Spawner."
+				""
+				"First, weaken the mob with a Potion of Weakness, then right-click it to trap its soul inside the device."
+				""
+				"{\"text\":\"Then, place the Soul Catcher inside a \",\"extra\":[{\"text\":\"Mechanical Spawner\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DC29EE22186BDB7\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\"-it's the first step toward fully automating mob farms with Create.\"}]}"
+			]
+			hide_dependency_lines: true
+			id: "1E7318B244F927D2"
+			rewards: [
+				{
+					id: "61E62E6DB80F96F9"
+					item: "create_mob_spawners:empty_soul_catcher"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3C2479C984596471"
+					item: "mob_grinding_utils:entity_conveyor"
+					type: "item"
+				}
+				{
+					id: "7521964105A265F1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Captured Critters"
+			tasks: [{
+				id: "6AB2FCB0BDD1CB39"
+				item: "create_mob_spawners:empty_soul_catcher"
+				type: "item"
+			}]
+			title: "The Soul Catcher"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1E7318B244F927D2"]
+			description: [
+				"The Mechanical Spawner lets you generate mobs on demand using SU and a bit of fluid automation."
+				""
+				"Insert a Soul Catcher to define which mob will be spawned. It requires a minimum of 128 RPM to function and consumes 50 mB of Builder’s Tea per mob spawned."
+				""
+				"The Builder’s Tea must be piped into the pipe face on the side of the spawner. It also includes a configurable spawning area-adjusted by right clicking the spawner-to control where mobs spawn."
+				""
+				"With the right setup, you can create efficient, automated mob farms-no natural spawning needed."
+			]
+			icon: "create_mob_spawners:mechanical_spawner"
+			id: "2DC29EE22186BDB7"
+			rewards: [
+				{
+					count: 4
+					id: "74316613431872A4"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					id: "36477F5A97772BC5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Engineered Entities"
+			tasks: [
+				{
+					id: "0E65BEFECE429872"
+					item: "create_mob_spawners:mechanical_spawner"
+					type: "item"
+				}
+				{
+					id: "564B7DD27CD78F22"
+					item: { Count: 4, id: "create:builders_tea" }
+					type: "item"
+				}
+			]
+			title: "The Mechanical Spawner"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: ["{\"text\":\"This small drone can assist with many tasks-check out the \",\"extra\":[{\"text\":\"video guide\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/uR20-AXihN8\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" by the Quest Architect himself for a full explanation and demonstration.\"}]}"]
+			hide_dependency_lines: true
+			icon: "create_sa:brass_drone_item"
+			id: "18C63836D582CFF6"
+			rewards: [
+				{
+					count: 4
+					id: "5BCF3855D807805A"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "7B257BCA829A0B61"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Helpful Hoverbot"
+			tasks: [
+				{
+					id: "61E12E487F332E40"
+					item: "create_sa:brass_drone_item"
+					type: "item"
+				}
+				{
+					id: "59EB4EF464A11C34"
+					item: "create_sa:drone_controller"
+					type: "item"
+				}
+			]
+			title: "The Brass Drone"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["18C63836D582CFF6"]
+			description: ["{\"text\":\"If you missed the link to the video guide in the previous quest, click \",\"extra\":[{\"text\":\"here\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/uR20-AXihN8\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to be taken to it!\"}]}"]
+			icon: "create_sa:brass_drill_head"
+			id: "01837504F494A17C"
+			rewards: [
+				{
+					id: "4EF11304879A67D1"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "1ED8EDABA4C002F1"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "29EDC738E0926955"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "4230854C2C42EDD2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Modular Programming"
+			tasks: [
+				{
+					id: "71F7B9F81566FA64"
+					item: "create_sa:copper_magnet"
+					type: "item"
+				}
+				{
+					id: "24729C7B6833A9A7"
+					item: "create_sa:brass_drill_head"
+					type: "item"
+				}
+				{
+					id: "4D66050F26EB851A"
+					item: "create_sa:fan_component"
+					type: "item"
+				}
+				{
+					id: "5ECCAD19DAD1C31D"
+					item: "create_sa:vault_component"
+					type: "item"
+				}
+			]
+			title: "Brass Drone Upgrades"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: ["The Hydraulic Engine is a key low tier crafting component used in gear and tools from Create Stuff \\& Additions. "]
+			hide_dependency_lines: true
+			id: "2839F9B81949DDF4"
+			rewards: [
+				{
+					id: "1382566FFBC01195"
+					item: "create_compressed:copper_sheet_block"
+					type: "item"
+				}
+				{
+					id: "3A9A2C491217E58E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Fluid Force"
+			tasks: [{
+				id: "7184ACB10AD9262A"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: ["The Heat Engine is a key mid tier crafting component used in gear and tools from Create Stuff \\& Additions. "]
+			hide_dependency_lines: true
+			id: "1159D5E78DA10D4F"
+			rewards: [
+				{
+					count: 2
+					id: "7D62D51B0B8EC1EB"
+					item: "create:andesite_alloy_block"
+					type: "item"
+				}
+				{
+					id: "47C363A48F5A1F89"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Thermal Torque"
+			tasks: [{
+				id: "325F50045D0C857F"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: ["The Steam Engine is a key high tier crafting component used in gear and tools from Create Stuff \\& Additions. "]
+			hide_dependency_lines: true
+			id: "6B10B08196FEC70B"
+			rewards: [
+				{
+					id: "5D6EB32BEBD2692B"
+					item: "create_compressed:brass_sheet_block"
+					type: "item"
+				}
+				{
+					id: "615A502CF995AAF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Pressure to Power"
+			tasks: [{
+				id: "2C3DC03DD7439D8C"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2839F9B81949DDF4"]
+			description: [
+				"The Bronze Jetpack is your first taste of personal flight."
+				""
+				"Uses water as fuel and lets you fly up to 20 blocks high,"
+				""
+				"Great for hopping over obstacles or reaching rooftops - and all jetpacks also enhance your swim speed when activated!"
+				""
+				"Up isn’t just a direction-it’s progress."
+			]
+			id: "34F1AC9001E6E1A1"
+			rewards: [
+				{
+					count: 8
+					id: "5B9081365809739C"
+					item: "create_dd:bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03809B4A77A9A81A"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "7F010972229A8969"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Waterborne Wings"
+			tasks: [{
+				id: "4EDB8D7CA6656523"
+				item: {
+					Count: 1
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"34F1AC9001E6E1A1"
+				"1159D5E78DA10D4F"
+			]
+			description: [
+				"The Mithril Jetpack is a refined and powerful upgrade over the bronze model."
+				""
+				"Uses lava as fuel and is capable of flying up to 25 blocks high."
+				""
+				"Faster and smoother than the Bronze Jetpack."
+				""
+				"Lightweight, high-performance, and forged for flight."
+			]
+			id: "5D2909F9B32CE45B"
+			rewards: [
+				{
+					count: 8
+					id: "2BE1416F655A26E4"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0EF9433E8FF93618"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "7DB284D5213570D7"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Arcane Altitude"
+			tasks: [{
+				id: "5C3648DDC2EA6CC3"
+				item: {
+					Count: 1
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"5D2909F9B32CE45B"
+				"6B10B08196FEC70B"
+			]
+			description: [
+				"The Bismuth Jetpack trades a bit of speed for greater vertical range."
+				""
+				"It is fueled by lava and water, refilled using Tanks or Buckets, to create steam for propulsion. "
+				""
+				"Can reach up to 30 blocks high."
+				""
+				"Slightly slower than the Mithril Jetpack, but perfect for vertical mobility."
+				""
+				"For when you want to go higher, not faster."
+			]
+			id: "3DD2A16629803F49"
+			rewards: [
+				{
+					count: 2
+					id: "32D966C2F95AAE86"
+					item: "create_compressed:sturdy_sheet_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FBB5265DB4A122E"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "0AB443F2DA56AB35"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Altitude Over Agility"
+			tasks: [{
+				id: "036FFF8C7A5FEF17"
+				item: {
+					Count: 1
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3DD2A16629803F49"]
+			description: [
+				"The Netherite Jetpack is the best jetpack in the modpack-no compromises."
+				""
+				"It is fueled by lava and water, refilled using Tanks or Buckets, to create steam for propulsion."
+				""
+				"Can reach up to 50 blocks high."
+				""
+				"Outperforms every other jetpack in height."
+				""
+				"The Mithril Jetpack is still slightly faster, however - That’s just the price of progress."
+			]
+			id: "42284DADADCD5F16"
+			rewards: [
+				{
+					id: "2461B9C2EB2E82EB"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0D0D30656F65F234"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "2615AD76776F37D3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Ultimate Uplift"
+			tasks: [{
+				id: "71EBFF03F159051C"
+				item: {
+					Count: 1
+					id: "create_sa:netherite_jetpack_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77307907B8215388"]
+			description: [
+				"The Small Filling tank holds Ten Buckets of Water. Fill it using a spout or by right clicking a water source block. "
+				""
+				"The Small Fueling tank holds Ten Buckets of Lava and its function is identical to the filling tank. "
+				""
+				"These are used to fuel the items added by Create Stuff \\& Additions like the Jetpacks and Portable Drill!"
+				""
+				"It's enough to get your first jetpack humming and make your tools function-just don’t expect to stay airborne for long or plan any long mining trips!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "create_sa:small_filling_tank"
+				tag: { }
+			}
+			id: "621DE859C2F26106"
+			rewards: [{
+				id: "4A1F3B75B60500B2"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Getting Off the Ground"
+			tasks: [
+				{
+					id: "26CE4B85955003B7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_sa:small_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "21FCCD512DEBB4B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_sa:small_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Fuel Tanks - Tier 1"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["621DE859C2F26106"]
+			description: ["The Medium Tanks are a solid midrange upgrade-great for extended flights and reliable tool uptime."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "create_sa:medium_filling_tank"
+				tag: { }
+			}
+			id: "396DDBA3BFFDD18B"
+			rewards: [{
+				id: "4D48E910B7F4F44A"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Midair Momentum"
+			tasks: [
+				{
+					id: "1A0ABFF6BE358B6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_sa:medium_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0533724F95936BBE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_sa:medium_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Fuel Tanks - Tier 2"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["396DDBA3BFFDD18B"]
+			description: ["A tank for a true engineer. Mine Deep, Fly Far, and never look back."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "create_sa:large_filling_tank"
+				tag: { }
+			}
+			id: "0064CE47E43136F5"
+			rewards: [{
+				id: "4E9CBBA6BCEEAF47"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Skybound Supply"
+			tasks: [
+				{
+					id: "735510B057D8334C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_sa:large_filling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5B56FBE15DD677B6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "create_sa:large_fueling_tank"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Fuel Tanks - Tier 3"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2839F9B81949DDF4"]
+			description: [
+				"The Copper Exoskeleton enhances your physical power—but not without a cost."
+				""
+				"Grants Strength II for boosted melee damage"
+				""
+				"Applies Mining Fatigue as a trade-off"
+				""
+				"Consumes water as fuel, recharged via a Filling Tank or water buckets"
+				""
+				"Sometimes you just need to hit harder!"
+			]
+			id: "014383179F3E3804"
+			rewards: [
+				{
+					id: "09AB293DD5C20CBE"
+					item: "create_compressed:copper_sheet_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55601CABE074BA68"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "7E88603CE14ED1BC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Strength in Steam"
+			tasks: [{
+				id: "68C314A5CB9FDC99"
+				item: {
+					Count: 1
+					id: "create_sa:copper_exoskeleton_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1159D5E78DA10D4F"]
+			description: [
+				"The Andesite Exoskeleton trades brute force for pure speed."
+				""
+				"Grants Haste II for faster block breaking and tool use and inflicts Weakness as a drawback. "
+				""
+				"It is fueled by lava, refilled using a Fueling Tank or lava bucket."
+				""
+				"When speed matters more than strength, this is your go-to exo-frame."
+			]
+			id: "2712E682DCE5D54C"
+			rewards: [
+				{
+					id: "338B0B96FA1803E5"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "022ADCD9024FABF8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Forged for Efficiency"
+			tasks: [{
+				id: "2D3971845E443C5E"
+				item: {
+					Count: 1
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6B10B08196FEC70B"]
+			description: [
+				"Grants Strength I and Haste I, offering a balanced enhancement to both combat and work speed."
+				""
+				"Consumes lava and water to generate steam, which powers the suit."
+				""
+				"Refill using Fueling and Filling Tanks, or manually with buckets."
+				""
+				"Where brute force meets steam-era engineering."
+			]
+			id: "1D83F49ED2BF4A47"
+			rewards: [
+				{
+					count: 4
+					id: "16C43D7853E2F304"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "1C46CECBEB7F0613"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Steam-Forged Strength"
+			tasks: [{
+				id: "240276FD06B12522"
+				item: {
+					Count: 1
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"610FD2C783821A4E"
+				"1159D5E78DA10D4F"
+			]
+			description: [
+				"The Grapplin' Whisk is a lava-powered grappling tool that flings you through the air!"
+				""
+				"[\"\",{\"text\":\"Must be fueled with lava via any \"},{\"text\":\"Fueling Tank.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"621DE859C2F26106\"},\"color\":\"blue\",\"underlined\":true}]"
+				""
+				"Once powered, it acts as a grappling hook, letting you zip to surfaces and scale structures with style. Enchant it with Impact to deal damage when unhooking!"
+				""
+				"Great for fast travel, evasive maneuvers, or just looking cool."
+			]
+			hide_dependency_lines: true
+			id: "28CC2C57749674BE"
+			rewards: [
+				{
+					id: "7B1ECF65A89C7119"
+					item: "create_sa:heat_engine"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "41BEFE1E7FCDAE06"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "6ED29092E4BEA50B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Create's Hookshot"
+			tasks: [{
+				id: "076F418A2CE97774"
+				item: {
+					Count: 1
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Grapplin' Whisk"
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"610FD2C783821A4E"
+				"6B10B08196FEC70B"
+			]
+			description: [
+				"The Portable Drill is a handheld excavation tool powered by lava and water."
+				""
+				"Hold left click to mine, carving through blocks with mechanical force."
+				""
+				"Enchant it with Digging to expand its reach to a 3×3 block area. If enchanted, hold shift to mine a single block. "
+			]
+			hide_dependency_lines: true
+			id: "30E126B596EB11F5"
+			rewards: [
+				{
+					id: "300926104A81F3CA"
+					item: "create_sa:steam_engine"
+					type: "item"
+				}
+				{
+					id: "7C69746BD15A76B4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Digging Dynamo"
+			tasks: [{
+				id: "1218D6610E53E321"
+				item: {
+					Count: 1
+					id: "create_sa:portable_drill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Portable Drill"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"610FD2C783821A4E"
+				"1159D5E78DA10D4F"
+			]
+			description: [
+				"The Flamethrower turns lava into a stream of fiery destruction."
+				""
+				"Right-click to activate, unleashing a continuous flame. It must be fueled with lava to function."
+				""
+				"Smelts dropped items instantly, making it great for processing. "
+				""
+				"Enchant it with Hellfire to boost damage and ignite blocks, but be careful: the extra flames can burn up any smelted items before they’re able to be picked up."
+				""
+				"Use responsibly… or set everything on fire. Your choice."
+			]
+			hide_dependency_lines: true
+			id: "04684596A27A9BED"
+			rewards: [
+				{
+					id: "25735C4CF73FFA03"
+					item: "create_sa:heat_engine"
+					type: "item"
+				}
+				{
+					id: "032574508A1231FF"
+					item: "create_dd:inductive_mechanism"
+					type: "item"
+				}
+				{
+					id: "5A06868416E02A26"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Blazing Barrage"
+			tasks: [{
+				id: "14DD9F6259BFFB29"
+				item: {
+					Count: 1
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"610FD2C783821A4E"
+				"2839F9B81949DDF4"
+			]
+			description: [
+				"Gmod called. It wants its Gravity Gun back!"
+				""
+				"The Block Picker lets you pick up blocks-or even entities. It must be fueled with water to function."
+				""
+				"By default, it can pull blocks toward you for fast collection or creative building."
+				"When enchanted with Gravity Gun, it can also grab living entities-perfect for relocation, or pure chaos."
+			]
+			hide_dependency_lines: true
+			id: "25D2CED2C77A8CAC"
+			rewards: [
+				{
+					id: "2F2FFFB5E60DF776"
+					item: "create_sa:hydraulic_engine"
+					type: "item"
+				}
+				{
+					id: "5A3BEB27F9E002B5"
+					item: "create_dd:integrated_mechanism"
+					type: "item"
+				}
+				{
+					id: "0314BE0480CE98ED"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Half-Life"
+			tasks: [{
+				id: "71A2331DDF4C4EE7"
+				item: {
+					Count: 1
+					id: "create_sa:block_picker"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Block Picker"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["42284DADADCD5F16"]
+			description: [
+				"Thank you for completing all of the Jetpack Quests!"
+				""
+				"Please accept these Ethium Blocks as a reward!"
+			]
+			icon: "create_ethium:ethium_block"
+			id: "60D572EDD957919B"
+			rewards: [
+				{
+					count: 2
+					id: "77B7501235E6EEC1"
+					item: "create_ethium:ethium_block"
+					type: "item"
+				}
+				{
+					id: "0FEB93C011FCC41F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Extra Ethium"
+			tasks: [{
+				id: "2131D7685AD74234"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "A Small Reward!"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"      One Giant Leap For Mine-Kind!"
+				""
+				"Collecting a Strophar Mushroom begins your journey with Create Teleporters."
+				""
+				"{\"text\":\"Purchase a Strophar Mushroom from the Market using 8 pieces of \",\"extra\":[{\"text\":\"Cheese.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"24C986F9BAF0896B\"},\"color\":\"blue\",\"underlined\":true}]}"
+			]
+			hide_dependency_lines: true
+			id: "4D7F40A185C13F17"
+			rewards: [
+				{
+					count: 8
+					id: "4D326E91D41BF22D"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "7191E0DA175C6718"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "One Small Shroom For Man..."
+			tasks: [{
+				id: "1E8CBEE5C5D32655"
+				item: "ad_astra:strophar_mushroom"
+				type: "item"
+			}]
+			title: "Strophar Mushrooms"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D7F40A185C13F17"]
+			description: [
+				"Make Telejuice by either dropping a Strophar Mushroom onto an Item Drain or by mixing a Strophar Mushroom with water to produce a full bucket at once."
+				""
+				"Telejuice is essential for powering advanced Create Teleporters machines and is also used in crafting the components that make those machines possible."
+			]
+			id: "6C7CFED90BB69C06"
+			rewards: [
+				{
+					count: 8
+					id: "739E11544CF4BB85"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "07A90835CD3ED65A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Warp-Ready Brew"
+			tasks: [{
+				id: "35254703829AC235"
+				item: "createteleporters:quantum_fluid_bucket"
+				type: "item"
+			}]
+			title: "Telejuice"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: ["The Redstone Pearl and Advanced Component are used to Craft many items in Create Teleporters! Make sure to keep some handy!"]
+			hide_dependency_lines: true
+			icon: "createteleporters:advanced_part"
+			id: "0F1CDA02A7F5E0D8"
+			rewards: [
+				{
+					count: 2
+					id: "120E70E4274225D6"
+					item: "createteleporters:redstone_pearl"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "504CC5E8BE495403"
+					item: "createteleporters:advanced_part"
+					type: "item"
+				}
+				{
+					id: "292CEEAD3F6E616B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "One Step at a Time"
+			tasks: [
+				{
+					count: 2L
+					id: "3CF09435FD9BCB94"
+					item: "createteleporters:redstone_pearl"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4A8419CB9B82C762"
+					item: "createteleporters:advanced_part"
+					type: "item"
+				}
+			]
+			title: "Teleportation Components"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0F1CDA02A7F5E0D8"
+				"6C7CFED90BB69C06"
+			]
+			description: [
+				"These items are the heart of Create Teleporters' technology."
+				""
+				"Quantum Mechanism: Crafted component used in nearly every teleportation-related recipe."
+				""
+				"{\"text\":\"Teleportation Link: Used to link \",\"extra\":[{\"text\":\"Entity Teleporters\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"770F769055E7605D\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" and \"},{\"text\":\"Item Teleporters\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"182E3645519FC40E\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" together.\"}]}"
+				""
+				"{\"text\":\"Advanced Teleportation Link: Allows you to set exact coordinates, enabling use of \",\"extra\":[{\"text\":\"Custom Portals\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"44F0C841699000CB\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" and \"},{\"text\":\"Block Teleporters\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6DAD0133190DB34A\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"
+				""
+				"Before you can warp across the world, you’ll need to understand the quantum logic that makes it all possible."
+			]
+			icon: "createteleporters:quantum_mechanism"
+			id: "674E786854612FB7"
+			rewards: [
+				{
+					count: 8
+					id: "7ACD38484F0ECDE3"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2C2655063EFDA357"
+					item: "createteleporters:quantum_casing"
+					type: "item"
+				}
+				{
+					id: "6C745567D5ADB747"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Entangled Engineering"
+			tasks: [
+				{
+					id: "45D73198682ACA19"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					id: "1063DA74880CCBCE"
+					item: "createteleporters:tp_link"
+					type: "item"
+				}
+				{
+					id: "6293815DA796FD84"
+					item: "createteleporters:adv_tplink"
+					type: "item"
+				}
+			]
+			title: "Quantum Computing"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6C7CFED90BB69C06"
+				"674E786854612FB7"
+			]
+			description: [
+				"The Entity Teleporter instantly teleports any entity that stands on it."
+				""
+				"It requires Telejuice to function, and sends entities to a paired Entity Teleporter Receiver."
+				""
+				"To link them, use a Teleportation Link by right-clicking the top of the receiver while looking straight down with the link in hand. Then, place the paired Teleportation Link into the Entity Teleporter. "
+				""
+				"Only works in the same dimension. "
+			]
+			hide_dependency_lines: true
+			icon: "createteleporters:teleporter"
+			id: "770F769055E7605D"
+			rewards: [
+				{
+					count: 2
+					id: "72C91809D96ECE7C"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A2940A37E11E7DD"
+					item: "createteleporters:quantum_casing"
+					type: "item"
+				}
+				{
+					id: "1B03AA77A063CB96"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Entity Express"
+			tasks: [
+				{
+					id: "0F86DD2FB3A16905"
+					item: "createteleporters:teleporter"
+					type: "item"
+				}
+				{
+					id: "5C1BA82D27478CE8"
+					item: "createteleporters:tp_rec"
+					type: "item"
+				}
+				{
+					id: "4D6E354956B33056"
+					item: "createteleporters:tp_link"
+					type: "item"
+				}
+			]
+			title: "The Entity Teleporter"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6C7CFED90BB69C06"
+				"674E786854612FB7"
+			]
+			description: [
+				"The Item Teleporter instantly teleports any item that is placed inside it when activated via a redstone signal."
+				""
+				"It requires Telejuice to function and sends items to a paired Item Teleporter Receiver."
+				""
+				"To link them, use a Teleportation Link by right-clicking the top of the receiver while looking straight down with the link in hand. Then, place the paired Teleportation Link into the Item Teleporter."
+				""
+				"Ensure that you have a proper setup to catch the item as it comes hurtling out of the reciever!"
+				""
+				"Only works in the same dimension. "
+			]
+			hide_dependency_lines: true
+			icon: "createteleporters:item_tp"
+			id: "182E3645519FC40E"
+			rewards: [
+				{
+					count: 4
+					id: "5260F07A949D6FDB"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C71B776D7D65D90"
+					item: "createteleporters:quantum_casing"
+					type: "item"
+				}
+				{
+					id: "6DA5C8DD11C67047"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Cargo Carrier"
+			tasks: [
+				{
+					id: "36251FC43D2D1109"
+					item: "createteleporters:item_tp"
+					type: "item"
+				}
+				{
+					id: "641AB5500FEEB824"
+					item: "createteleporters:item_tp_rec"
+					type: "item"
+				}
+				{
+					id: "7B3FC40FC1948923"
+					item: "createteleporters:tp_link"
+					type: "item"
+				}
+			]
+			title: "The Item Teleporter"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6C7CFED90BB69C06"
+				"674E786854612FB7"
+			]
+			description: [
+				"The Block Teleporter sends any block placed on top of it to a specific set of coordinates."
+				""
+				"It requires Telejuice to operate and uses an Advanced Teleportation Link to store and target exact coordinates."
+				""
+				"To set the coordinates, hold the Advanced Teleportation Link in your hand and look straight down, and while standing in the middle of the block, right click. Then place the link in the Block Teleporter."
+			]
+			hide_dependency_lines: true
+			icon: "createteleporters:block_tp"
+			id: "6DAD0133190DB34A"
+			rewards: [
+				{
+					count: 4
+					id: "09F54D8C2BCD6F5E"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25C7C80E612E1037"
+					item: "createteleporters:quantum_casing"
+					type: "item"
+				}
+				{
+					id: "45DBD0C93A0D39E0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Remote Relocation"
+			tasks: [
+				{
+					id: "4550BCF455BD423D"
+					item: "createteleporters:block_tp"
+					type: "item"
+				}
+				{
+					id: "03D755C884D3D891"
+					item: "createteleporters:adv_tplink"
+					type: "item"
+				}
+			]
+			title: "The Block Teleporter"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6C7CFED90BB69C06"
+				"674E786854612FB7"
+			]
+			description: [
+				"The Custom Portal allows players and items to teleport to exact coordinates, even across dimensions."
+				""
+				"It requires Telejuice to function, and a Gravity Stabilizer must be placed nearby to keep the portal active and stable."
+				""
+				"To set the coordinates the portal will send you to, hold the Advanced Teleportation Link in your hand, stand at your desired destination, look straight down, and right-click. Then, place the link into the Custom Portal to complete the connection."
+				""
+				"It also works &5&n&oCross-Dimensionally!&r&r&r"
+			]
+			hide_dependency_lines: true
+			icon: "createteleporters:custom_portal"
+			id: "44F0C841699000CB"
+			rewards: [
+				{
+					count: 2
+					id: "3A9C82C1B1C796A4"
+					item: "createteleporters:adv_tplink"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DE95543003AB09E"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "29D116F11A58795C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Stabilized Slipstream"
+			tasks: [
+				{
+					count: 2L
+					id: "25FBDAF49670938C"
+					item: "createteleporters:custom_portal"
+					type: "item"
+				}
+				{
+					id: "38C9608FB74F4015"
+					item: "createteleporters:adv_tplink"
+					type: "item"
+				}
+			]
+			title: "The Custom Portal"
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"
+}
