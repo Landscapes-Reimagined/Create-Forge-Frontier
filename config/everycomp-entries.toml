@@ -130,6 +130,9 @@
 			sky_slime = true
 			ender_slime = true
 
+		[types.leaves_type.create_dd]
+			rubber = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -197,10 +200,13 @@
 			bloodshroom = true
 			enderbark = true
 
-	[types.cake]
+		[types.wood_type.create_dd]
+			rose = true
+			smoked = true
+			spirit = true
+			rubber = true
 
-		[types.cake.deeperdarkerdelight]
-			bloom_berries_cake = true
+	[types.cake]
 
 		[types.cake.farmersrespite]
 			coffee_cake = true

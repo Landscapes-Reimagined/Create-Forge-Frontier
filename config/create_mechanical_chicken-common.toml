@@ -17,6 +17,6 @@
 	#Range: > 1
 	outputAmount = 1
 	#Required fluid
-	requiredFluid = "#forge:seed_oil"
+	requiredFluid = "createaddition:seed_oil"
 	seedOilEnabled = true
 
