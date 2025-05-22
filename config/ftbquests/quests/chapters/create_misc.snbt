@@ -701,6 +701,11 @@
 					item: "create:encased_fan"
 					type: "item"
 				}
+				{
+					id: "7F010972229A8969"
+					type: "xp"
+					xp: 50
+				}
 			]
 			subtitle: "Waterborne Wings"
 			tasks: [{
