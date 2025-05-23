@@ -5,8 +5,8 @@
 		"5": "create:block/fluid_tank_inner_connected",
 		"6": "create:block/fluid_tank",
 		"7": "create:block/copper_underside",
-		"8": "create:block/copper_casing",
-		"particle": "create:block/copper_casing"
+		"8": "create:block/copper_underside",
+		"particle": "create:block/copper_underside"
 	},
 	"elements": [
 		{

@@ -6,9 +6,9 @@
 		"4": "createcasing:block/copper_gearbox",
 		"6": "create:block/fluid_tank",
 		"7": "create:block/copper_underside",
-		"8": "create:block/copper_casing",
+		"8": "create:block/copper_underside",
 		"9": "create:block/fluid_tank_window_single",
-		"particle": "create:block/copper_casing"
+		"particle": "create:block/copper_underside"
 	},
 	"elements": [
 		{
