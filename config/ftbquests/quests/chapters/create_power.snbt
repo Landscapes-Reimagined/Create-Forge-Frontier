@@ -5,6 +5,14 @@
 	group: "3D5393E3938A9DF4"
 	icon: "create_new_age:generator_coil"
 	id: "1D6D8AAB15F85097"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/create_power_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.5d
+		y: -4.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
