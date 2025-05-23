@@ -140,3 +140,24 @@ background: ftb:textures/create_easy_background.png
 
 [59D4894CD3E8DEB5]
 background: ftb:textures/temple_jungle.png
+
+[75A130608EB16D0F]
+background: ftb:textures/create_background.png
+
+[14818C2771B281C5]
+background: ftb:textures/create_background.png
+
+[2EB37ADC408DC853]
+background: ftb:textures/create_background.png
+
+[4AE33E17677F1FB8]
+background: ftb:textures/create_background.png
+
+[1D6D8AAB15F85097]
+background: ftb:textures/create_background.png
+
+[16920DFB6C8BDE8E]
+background: ftb:textures/create_background.png
+
+[37D4B189E01FBB93]
+background: ftb:textures/create_background.png
