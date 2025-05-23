@@ -1833,14 +1833,14 @@
 			id: "645095D1F886FAB8"
 			rewards: [{
 				id: "15E3664815B319FA"
-				item: "forge_frontier:compressed_lead_4x"
+				item: "createcompression:compressed_experience_4x"
 				type: "item"
 			}]
 			shape: "square"
 			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
 				id: "3339CE7F258A0A5B"
-				item: "forge_frontier:compressed_lead_4x"
+				item: "createcompression:compressed_experience_4x"
 				type: "item"
 			}]
 			x: -0.5d
@@ -3205,7 +3205,7 @@
 			rewards: [
 				{
 					id: "1EA6007C2F2BB8F0"
-					item: "createnuclear:uranium_rod"
+					item: "advanced_ae:quantum_core"
 					type: "item"
 				}
 				{
@@ -3218,7 +3218,7 @@
 			subtitle: "Obtained by Factory Automation"
 			tasks: [{
 				id: "7E1D713F824EB8F0"
-				item: "createnuclear:uranium_rod"
+				item: "advanced_ae:quantum_core"
 				type: "item"
 			}]
 			x: 16.5d
