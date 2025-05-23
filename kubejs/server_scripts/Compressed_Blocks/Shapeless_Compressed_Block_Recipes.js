@@ -16,7 +16,6 @@ ServerEvents.recipes(event => {
     }
     
     const materials = [
-        'lead',
         'malachite',
         'irradium',
         'bismuth',
@@ -303,20 +302,6 @@ ServerEvents.recipes(event => {
         }
     }).id('forge_frontier:shapeless/compressed_powdered_obsidian_pile_block_1x')    
 
-    // Lead
-    event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'forge_frontier:compressed_lead_1x'
-            }
-        ],
-        result: {
-            item: 'createnuclear:lead_block',
-            count: 9
-        }
-    }).id( 'forge_frontier:shapeless/compressed_lead_block_1x' )
- 
     // Malachite
         // Malachite Block to Malchite Shapeless Recipe
         event.custom({

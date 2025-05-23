@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
 		type: 'create:item_application',
 		ingredients: [
 		  {
-			item: 'createnuclear:graphite_rod'
+			item: 'ad_astra:steel_cable'
 		  },
 		  {
 			item: 'create_dd:steel_casing'

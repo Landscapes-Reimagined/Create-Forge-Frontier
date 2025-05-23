@@ -494,7 +494,7 @@ ServerEvents.recipes(event => {
                 "QSC",
                 "Ici",
                 "sPT",
-                "VLU",
+                "VLq",
                 "AHY"
             ],
             key: {
@@ -509,7 +509,7 @@ ServerEvents.recipes(event => {
                 T: Ingredient.of("create_dd:integrated_mechanism"),
                 V: Ingredient.of("create_things_and_misc:vibration_mechanism"),
                 L: Ingredient.of("create_power_loader:brass_chunk_loader"),
-                U: Ingredient.of("createnuclear:uranium_rod"),
+                q: Ingredient.of("advanced_ae:quantum_core"),
                 A: Ingredient.of("create_sa:steam_engine"),
                 H: Ingredient.of("create_sa:heat_engine"),
                 Y: Ingredient.of("create_sa:hydraulic_engine"),
@@ -554,14 +554,14 @@ ServerEvents.recipes(event => {
         event.custom({
             type: "create:mechanical_crafting",
             pattern: [
-                "LAMI",
+                "XAMI",
                 "BDOC",
                 "SNUa",
                 "sPGm",
                 "iVnE"
             ],
             key: {
-                L: Ingredient.of("forge_frontier:compressed_lead_4x"),
+                X: Ingredient.of("createcompression:compressed_experience_4x"),
                 A: Ingredient.of("forge_frontier:compressed_shaft_bundle_4x"),
                 M: Ingredient.of("forge_frontier:compressed_malachite_4x"),
                 I: Ingredient.of("forge_frontier:compressed_irradium_4x"),

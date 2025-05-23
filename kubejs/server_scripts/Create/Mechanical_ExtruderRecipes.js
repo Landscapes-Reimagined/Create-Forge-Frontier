@@ -70,28 +70,6 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
     }).id('forge_frontier:sequenced_assembly/mechanical_extruder');
 
     // Extruding Recipes
-
-      // Lead
-      event.custom({
-        type: 'create_mechanical_extruder:extruding',
-        ingredients: [
-          {
-            fluid: 'createnuclear:uranium',
-            amount: 1000
-          },
-          {
-            fluid: 'minecraft:lava',
-            amount: 1000
-          }
-        ],
-        catalyst: {
-          item: 'createnuclear:lead_block'
-        },
-        result: {
-          item: 'createnuclear:deepslate_lead_ore'
-        }
-      }).id('forge_frontier:extruding/lead_ore') 
-
       // Sky Stone
       event.custom({
         type: 'create_mechanical_extruder:extruding',

@@ -14,7 +14,7 @@
     "east": "forge_frontier:block/rocket_casing/forge_rocket_casing",
     "south": "forge_frontier:block/rocket_casing/forge_rocket_casing",
     "west": "forge_frontier:block/rocket_casing/forge_rocket_casing",
-    "particle": "forge_frontier:block/rocket_casingforge_rocket_casing"
+    "particle": "forge_frontier:block/rocket_casing/forge_rocket_casing"
   },
   "render_type": "solid"
 }

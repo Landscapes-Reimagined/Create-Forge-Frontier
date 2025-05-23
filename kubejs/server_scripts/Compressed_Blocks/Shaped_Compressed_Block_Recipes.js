@@ -15,7 +15,6 @@ ServerEvents.recipes(event => {
     }
     
     const materials = [
-        'lead',
         'malachite',
         'irradium',
         'bismuth',
@@ -284,19 +283,6 @@ ServerEvents.recipes(event => {
             A : 'create_compressed:powdered_obsidian_pile'
         }
     ).id('forge_frontier:shaped/powdered_obsidian_pile_1x');
-
-    // Lead
-    event.shaped(
-        Item.of('forge_frontier:compressed_lead_1x'),
-        [
-            'AAA',
-            'AAA',
-            'AAA'
-        ],
-        {
-            A: 'createnuclear:lead_block', 
-        }
-    ).id( 'forge_frontier:shaped/lead_block_1x' )
 
     // Malachite
         // Creates New Shaped Recipe for Malachite
