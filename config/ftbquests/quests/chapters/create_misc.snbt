@@ -17,7 +17,7 @@
 		x: -0.75d
 		y: -10.0d
 	}]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -498,7 +498,7 @@
 				}
 				{
 					id: "564B7DD27CD78F22"
-					item: { Count: 4, id: "create:builders_tea" }
+					item: "create:builders_tea"
 					type: "item"
 				}
 			]
@@ -827,7 +827,7 @@
 				""
 				"Outperforms every other jetpack in height."
 				""
-				"The Mithril Jetpack is still slightly faster, however - That’s just the price of progress."
+				"The Mithril Jetpack is still slightly faster (vertically, not horizontally), however - That’s just the price of progress."
 			]
 			id: "42284DADADCD5F16"
 			rewards: [

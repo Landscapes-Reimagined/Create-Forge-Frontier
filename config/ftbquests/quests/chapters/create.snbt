@@ -442,6 +442,7 @@
 					xp: 10
 				}
 			]
+			size: 0.85d
 			subtitle: "Basic Block Breaking"
 			tasks: [{
 				id: "63B6C58D01E18519"
@@ -449,8 +450,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Mechanical Drill"
-			x: -1.0d
-			y: -0.5d
+			x: -0.8d
+			y: -0.4d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -1377,6 +1378,7 @@
 				item: "create:rose_quartz_block"
 				type: "item"
 			}]
+			subtitle: "Shiny!"
 			tasks: [
 				{
 					id: "08534D9FE1CF7E70"
@@ -1551,6 +1553,7 @@
 					xp: 25
 				}
 			]
+			subtitle: "CRUUUUSH IT"
 			tasks: [{
 				count: 2L
 				id: "04CB3FF6145B18E3"
@@ -1584,6 +1587,7 @@
 					xp: 10
 				}
 			]
+			subtitle: "Squished"
 			tasks: [{
 				id: "084C7F90483BB994"
 				item: "create:mechanical_roller"
@@ -1734,6 +1738,7 @@
 					xp: 25
 				}
 			]
+			subtitle: "Elevated and Descended"
 			tasks: [
 				{
 					id: "3E301901C11ACAD3"
@@ -1799,12 +1804,8 @@
 					xp: 25
 				}
 			]
+			subtitle: "Redstone, Reconfigured"
 			tasks: [
-				{
-					id: "46AF27B1931B2CB1"
-					item: "create:redstone_link"
-					type: "item"
-				}
 				{
 					id: "4A110D30DC6A4BD0"
 					item: "create:stockpile_switch"
@@ -1813,11 +1814,6 @@
 				{
 					id: "631AB9E781CBFF4A"
 					item: "create:content_observer"
-					type: "item"
-				}
-				{
-					id: "0F087B342AD956E8"
-					item: "create_connected:linked_transmitter"
 					type: "item"
 				}
 			]
@@ -1848,6 +1844,7 @@
 					xp: 50
 				}
 			]
+			subtitle: "For the Smart Ones"
 			tasks: [
 				{
 					id: "29FAC59C1D7225D4"
@@ -2111,6 +2108,7 @@
 					xp: 10
 				}
 			]
+			subtitle: "Assembly Starts Here"
 			tasks: [{
 				id: "32BA699FEAFF7F8F"
 				item: "create:track_station"
@@ -2163,6 +2161,7 @@
 					xp: 20
 				}
 			]
+			subtitle: "Control the Speed!"
 			tasks: [{
 				id: "6930D42CF4660282"
 				item: "create:rotation_speed_controller"
@@ -2224,6 +2223,7 @@
 					xp: 10
 				}
 			]
+			subtitle: "Conductor Time"
 			tasks: [
 				{
 					id: "6A6B5FB6C9E32E28"
@@ -2557,6 +2557,7 @@
 					xp: 25
 				}
 			]
+			subtitle: "Boiler Bonanza"
 			tasks: [{
 				id: "0B7B1FB7C1229A63"
 				item: "create:steam_engine"
@@ -2732,7 +2733,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Let your machines do the packing."
+			subtitle: "Let your machines do the packing"
 			tasks: [{
 				id: "6DDC8E6462422CD9"
 				item: "create:packager"
@@ -3271,6 +3272,47 @@
 			title: "Where to find Andesite? "
 			x: 0.0d
 			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4BD39CC8E17CA1A9"
+				"591E0AAB1FE58D9E"
+			]
+			description: [
+				"The Redstone Link lets you send redstone signals wirelessly between two points using matching frequencies. Place two links and set their frequencies by inserting identical items in each slot."
+				""
+				"To make a link receive the signal, right-click it with a wrench. The sending link will then control it from afar-no wires required. "
+				""
+				"Perfect for clean, distant automation setups."
+			]
+			id: "1FC55FA8C1C417CB"
+			rewards: [
+				{
+					count: 4
+					id: "5595D92FE62C24F0"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0EF0B344491CAE08"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "6C46E1C0A2E8C503"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Invisible Logic"
+			tasks: [{
+				id: "147CB2D730784F03"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"
