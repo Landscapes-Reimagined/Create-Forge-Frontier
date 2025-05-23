@@ -1,5 +1,4 @@
 {
-	autofocus_id: "66E9DB5E9D5CD5EC"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
@@ -120,7 +119,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Shafts are the most basic way you will transport Rotation and Stress, the \"energy\" units of Create. Just like Andesite Alloy, these will form the backbone of your factory."]
 			id: "0051FC2DA1337C65"
 			rewards: [
@@ -147,7 +146,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Andesite Casings are made by using or deploying andesite alloy onto stripped logs. These casings form the structure of your first Create machines, and you are well on your way to your first factory! "]
 			id: "4BD39CC8E17CA1A9"
 			rewards: [
@@ -1126,10 +1125,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"2D02B7B7507AF99D"
-				"6AE92109DA4B2A76"
-			]
+			dependencies: ["2D02B7B7507AF99D"]
 			description: [
 				"Andesite funnels allow for simple extraction from and insertion into attached inventories, while andesite tunnels allow for splitting item stacks on belts and preventing any unwanted items from getting in the mix of your all-important factory outputs. "
 				""
@@ -2858,7 +2854,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["The item hatch allows for easy emptying of your inventory into any chest, vault, or other inventory!"]
 			id: "4A7401194C9BFCB4"
 			rewards: [
@@ -2958,7 +2954,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: [
 				""
 				"Bring commerce to your factory floor! The Table Cloth lets you sell items to other players (or yourself!) using the Stock Keeper interface. Think of it as a vending machine, dressed up."
@@ -3270,8 +3266,8 @@
 				type: "item"
 			}]
 			title: "Where to find Andesite? "
-			x: 0.0d
-			y: -5.5d
+			x: 2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -3285,6 +3281,7 @@
 				""
 				"Perfect for clean, distant automation setups."
 			]
+			icon: "create:redstone_link"
 			id: "1FC55FA8C1C417CB"
 			rewards: [
 				{
@@ -3306,11 +3303,19 @@
 				}
 			]
 			subtitle: "Invisible Logic"
-			tasks: [{
-				id: "147CB2D730784F03"
-				item: "create:redstone_link"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "147CB2D730784F03"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					id: "20E621FBEB626305"
+					item: "create:linked_controller"
+					type: "item"
+				}
+			]
+			title: "Basic Wireless Redstone"
 			x: -2.0d
 			y: 0.0d
 		}
