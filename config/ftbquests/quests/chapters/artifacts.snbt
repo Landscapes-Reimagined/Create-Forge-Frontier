@@ -71,7 +71,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
@@ -80,7 +80,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/slot.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
@@ -89,7 +89,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
@@ -98,7 +98,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
@@ -107,7 +107,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
@@ -116,7 +116,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
@@ -125,7 +125,7 @@
 		}
 		{
 			height: 1.0d
-			image: "polylib:textures/gui/widgets/slot_large.png"
+			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
 			order: -1
 			rotation: 0.0d
 			width: 1.0d
