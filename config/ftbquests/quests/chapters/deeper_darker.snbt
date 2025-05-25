@@ -5,35 +5,37 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "deeperdarker:heart_of_the_deep"
 	id: "0048E3ACE80E27CF"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/otherside_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/ancient_city_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.0d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/otherside_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"The Deep Dark is a realm of silence, shadows, and secrets, where the bravest adventurers risk everything in search of forbidden knowledge and powerful artifacts. Beneath the Overworld, hidden among the lowest caverns, lie the remnants of the Ancient Cities—once-great strongholds now overrun by the terrifying Warden."
+				"&8The Deep Dark is no ordinary biome—it is a place of silence, shadows, and secrets best left buried.&r  "
+				"Here, only the &nbravest&r dare tread, drawn by whispers of forbidden relics and ancient power."
 				""
-				"Survival here means staying in the shadows, avoiding sound, and outwitting the Warden’s terrifying wrath. But for those daring enough to challenge this horror, the rewards are beyond measure. Deep within the Ancient Cities, you’ll find the key to an even darker, more mysterious realm—the Otherside. By defeating the Warden and claiming its heart, you’ll unlock the path to a dimension teeming with corrupted magic, eerie landscapes, and challenges unlike anything you’ve ever faced."
+				"Far beneath the Overworld, tucked among the &0lowest caverns&r, lie the &8Ancient Cities&r—once-mighty strongholds now shattered and stalked by the &cWarden&r."
+				""
+				"To survive here, you must become a shadow.  "
+				"Make no sound. Leave no trace. For the Warden does not see—&nbut it hears&r."
+				""
 				"{@pagebreak}"
-				"Venture forth with caution, embrace the darkness, and uncover secrets long lost to time. The abyss calls—will you survive its horrors, or become one with the shadows? 🌑👁"
+				""
+				"But those who face this monstrosity head-on, those who &nslay the Warden and claim its heart&r, will unlock something far more sinister…"
+				""
+				"A gateway to the &5Otherside&r—a realm of warped magic, hollow echoes, and dangers that defy logic."
+				""
+				"This is not just another dimension.  "
+				"It is a &nnightmare reborn&r."
+				""
+				"🌑 &nWill you embrace the dark, or be swallowed by it?&r 👁"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:sculk_sensor"
@@ -45,19 +47,30 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Into the Abyss: Conquering the Deep Dark and Otherside, Click me to learn more!"
+			subtitle: "Descend into the Deep Dark and face the Warden to unlock the path to the Otherside. Click me for more info!"
 			tasks: [{
 				biome: "minecraft:deep_dark"
 				id: "15BC7C1F753B1EBB"
 				type: "biome"
 			}]
-			title: "Deeper Darker"
+			title: "Beneath Silence"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["638EF7DB16108237"]
-			description: ["The Deep Dark is unlike any cave you’ve explored before. Sculk spreads like a disease, muffling sound, and concealing terrors in the shadows. Your first challenge is simply finding your way in—and surviving the eerie silence."]
+			description: [
+				"&8This is no ordinary cave.&r  "
+				"You stand at the edge of the &0Deep Dark&r—a realm where light falters and &3Sculk&r spreads like an infection, devouring sound and swallowing the unwary."
+				""
+				"Every step echoes with risk.  "
+				"Every breath could summon what lurks beyond the veil."
+				""
+				"Your first task is not to conquer… but to &nsurvive&r.  "
+				"Navigate the shadows, suppress your movements, and find your footing in a world where silence is your only ally."
+				""
+				"&nThe descent begins now.&r Will you make it back… or vanish like those who came before?"
+			]
 			id: "516EFC067D776C8A"
 			rewards: [
 				{
@@ -83,7 +96,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Enter the Deep Dark and survive its chilling silence. Click me for more info!"
 			tasks: [
 				{
 					block: "minecraft:sculk_sensor"
@@ -108,14 +121,24 @@
 					type: "advancement"
 				}
 			]
-			title: " Descent into Darkness"
+			title: "The Descent"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["516EFC067D776C8A"]
 			description: [
-				"At the heart of the Deep Dark lies the Ancient City, a vast underground ruin filled with treasure, mystery, and the ever-present danger of the Warden. One wrong move, one careless sound, and the nightmare awakens."
+				"&0Deep beneath the world lies the &8Ancient City&r—a shattered monument to forgotten power.&r  "
+				"Buried in silence, it stretches across the darkness like the bones of a lost civilization."
+				""
+				"Its halls are lined with &6treasures&r and &5mysteries&r… but also one terrible truth:"
+				""
+				"{@pagebreak}"
+				"&cThe Warden hears everything.&r"
+				""
+				"One misstep, one echo too loud, and the guardian of this ruin will awaken in a fury few survive."
+				""
+				"Will you sneak through its shadows, plunder its secrets, or become part of the ruin itself?"
 				""
 				"{image:ftb:textures/ancientcity.png width:192 height:150 align:center}"
 			]
@@ -163,7 +186,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Enter the Ancient City and uncover its secrets—if you can survive the Warden’s wrath. Click me for more info!"
 			tasks: [
 				{
 					id: "25BF5C4FA5E7E1A3"
@@ -183,13 +206,30 @@
 					type: "checkmark"
 				}
 			]
-			title: "Silent Ruins of the Lost"
+			title: "Ruins Beneath Silence"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14894ADF77BC554B"]
-			description: ["The Warden is unstoppable, blind, and fueled by rage. Its heartbeat alone is enough to strike fear into even the bravest adventurers. There is no fighting it—only escaping. But for those determined to stand their ground, defeating this behemoth will grant you access to a power beyond imagination."]
+			description: [
+				"&0It does not see you.&r  "
+				"It feels you.  "
+				"It hears you.  "
+				"It hunts you."
+				""
+				"The &cWarden&r is not just a monster—it is &nan ancient force of rage and ruin&r, blind to light but drawn to the slightest sound.  "
+				"Its &4heartbeat&r alone sends tremors through the stone… and through your soul."
+				""
+				"{@pagebreak}"
+				"There is no outrunning the tension. No outlasting the silence.  "
+				"&nMost will flee.&r Few will survive."
+				""
+				"But for the bold who &dstand their ground&r and fell the beast, a reward awaits—  "
+				"&5a relic of immense power, and the key to another realm.&r"
+				""
+				"Will you escape the darkness… or &nconquer it?&r"
+			]
 			id: "172253D6E25BB385"
 			rewards: [
 				{
@@ -208,7 +248,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Face the Warden—and claim the heart of the shadows. Click me for more info!"
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:warden"
@@ -217,13 +257,28 @@
 				type: "questsadditions:killnbt"
 				value: 1L
 			}]
-			title: "The Warden’s Wrath"
+			title: "The Silence That Hunts"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["172253D6E25BB385"]
-			description: ["The Warden’s Heart pulses with an otherworldly power, a remnant of something far older and darker than the Deep Dark itself. Clicking it on Reinforced, will shatter reality, opening the gateway to the Otherside—a place of unnatural stone, twisting roots, and eerie, otherworldly entities."]
+			description: [
+				"&5The Warden’s Heart&r pulses with more than life—it carries the weight of &nforgotten realms&r and &cursed memory&r."
+				""
+				"This relic is no mere trophy. It is a &nkey&r."
+				""
+				"Use it upon &8Reinforced Deepslate&r, and you won’t just open a passage…  "
+				"You’ll &nshatter the veil between dimensions&r."
+				""
+				"{@pagebreak}"
+				"The &5Otherside&r awaits—a world carved from unnatural stone, crawling with twisting roots, flickering lights, and the silent gaze of &dotherworldly entities&r."
+				""
+				"This is no longer survival.  "
+				"This is descent."
+				""
+				"&nAre you ready to cross into the unknown?&r"
+			]
 			id: "6EA9BDB19D85D796"
 			rewards: [
 				{
@@ -249,7 +304,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Use the Warden’s Heart to open the gateway to the Otherside. Click me for more info!"
 			tasks: [
 				{
 					id: "0238DC307F972017"
@@ -264,16 +319,30 @@
 					type: "dimension"
 				}
 			]
-			title: "The Otherside Beckons"
+			title: "The Key Between Worlds"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6EA9BDB19D85D796"]
 			description: [
-				"The Otherside is unlike any dimension before it. Here, the ground pulses with Sculk-infested stone, and strange creatures lurk in the darkness. If the Deep Dark was terrifying, the Otherside is pure nightmare fuel. But with great danger comes unparalleled power."
+				"&5The Otherside&r is not a dimension—&nit is a descent into madness.&r"
+				""
+				"Here, the &8stone itself pulses with Sculk&r, whispering secrets too ancient to understand.  "
+				"&dUnnatural lifeforms&r roam the shadows, born of void and memory.  "
+				"The rules of the world twist. The silence screams."
+				""
+				"If the Deep Dark was terror…  "
+				"&nthis is what lies beyond terror&r."
+				""
+				"{@pagebreak}"
+				"But buried within the gloom are &5relics of impossible power&r—  "
+				"tools, resources, and knowledge not meant for mortal hands."
 				""
 				"{image:ftb:textures/otherside_screenshot.png width:192 height:150 align:center}"
+				""
+				"&nStep carefully.&r Breathe slowly.  "
+				"And whatever you do—don’t listen too closely."
 			]
 			id: "0BDAF6E0DAA27F56"
 			rewards: [
@@ -322,7 +391,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Enter the Otherside and survive its twisted, alien depths. Click me for more info!"
 			tasks: [
 				{
 					biome: "deeperdarker:deeplands"
@@ -347,13 +416,28 @@
 					type: "structure"
 				}
 			]
-			title: "The Secrets of the Otherside"
+			title: "Echoes Beyond"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0BDAF6E0DAA27F56"]
-			description: ["You have braved the Deep Dark, conquered the Warden, and now walk among the nightmares of the Otherside. You are no longer an intruder—you are a master of the abyss. Now, use what you have learned to forge a legacy beyond the darkness."]
+			description: [
+				"&5You have braved the Deep Dark.&r  "
+				"&cYou have conquered the Warden.&r  "
+				"&8And now, you walk freely through the nightmare that is the Otherside.&r"
+				""
+				"No longer a trespasser—you are its &nmaster&r."
+				""
+				"{@pagebreak}"
+				"You have faced &4fear incarnate&r, harnessed ancient relics, and unearthed secrets never meant to be known.  "
+				"Now, with knowledge forged in silence and power claimed from shadows…"
+				""
+				"&nIt is time to build a legacy that will outlive the darkness.&r  "
+				"Not just to survive—but to shape what comes next."
+				""
+				"🖤 &nFrom the abyss, rise anew.&r"
+			]
 			id: "6AD897F8D2F82187"
 			rewards: [
 				{
@@ -379,7 +463,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Turn your journey through darkness into a legacy of power and purpose. Click me for more info!"
 			tasks: [
 				{
 					id: "7EF7E964BC5F9225"
@@ -426,17 +510,31 @@
 					type: "item"
 				}
 			]
-			title: " Claiming the Abyss"
+			title: "Master of the Abyss"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6AD897F8D2F82187"]
 			description: [
-				"The Deep Dark and the Otherside are realms beyond fear, beyond reason, and beyond imagination. You have faced the unstoppable, walked in the shadows, and claimed the secrets long buried. But this is not the end—only the beginning."
+				"&8The Deep Dark.&r  "
+				"&5The Otherside.&r  "
+				"Realms that defy logic, drown out light, and whisper truths no mind should bear."
 				""
-				"With the power of the Otherside in your hands, the question remains: Are you ready to fight the Dragon, learn more about unlocking the end in the  "
-				"{ \"text\": \"End Remastered Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"09EEADB48E883801\" } }"
+				"You have endured them.  "
+				"You have &nconquered&r them.  "
+				"You now hold the &5power of forgotten worlds&r in your hands."
+				""
+				"But this is not the end—&nit is the threshold.&r"
+				""
+				"{@pagebreak}"
+				"The skies stir. The End calls.  "
+				"And a final battle looms on the horizon—one that will test all you’ve become."
+				""
+				"Are you ready to face the &dDragon&r?"
+				""
+				"Learn how to unlock the End in the  "
+				"{ \"text\": \"End Remastered Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"01DD8338C9E8DE75\" } }"
 			]
 			id: "5C36A2466A3B6973"
 			rewards: [
@@ -451,13 +549,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Wield the power of the Otherside—and prepare for the final challenge. Click me for more info!"
 			tasks: [{
 				id: "7505C3925F18A12D"
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: "Embrace the Darkness, Shape the Future"
+			title: "Beyond Darkness"
 			x: 4.5d
 			y: 0.0d
 		}

@@ -22,6 +22,35 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_oppenheimered/compacting/amber_from_honey'})
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
+	event.remove({ id: 'createqol:mixing/chromatic_compound'})
+
+		// DD Compound to Create Compound
+		event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'create_dd:chromatic_compound'
+			}
+		],
+		result: {
+			item: 'create:chromatic_compound',
+		  }
+
+		}).id( 'forge_frontier:shapeless/dd_create_compound' )
+
+		// DD Compound to Create Compound
+		event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'create:chromatic_compound'
+			}
+		],
+		result: {
+			item: 'create_dd:chromatic_compound',
+		  }
+
+	}).id( 'forge_frontier:shapeless/create__dd_compound' )
 
 	// Disenchanting Table Recipe
 	event.remove({ id: 'disenchanting_table:disenchanting_table'})
@@ -207,7 +236,7 @@ ServerEvents.recipes(event => {
 		]
 	  }).id('forge_frontier:item_application/advanced_collector');
 
-	// Creates New Hyperbox Recipe
+	  // Creates New Hyperbox Recipe
 	event.custom({
 		type: 'create:item_application',
 		ingredients: [
@@ -224,7 +253,6 @@ ServerEvents.recipes(event => {
 		  }
 		]
 	  }).id('forge_frontier:item_application/hyperbox');
-
 
 	// Strophar Mushroom to Quantum Fluid Mixing Recipe
 	event.custom({
@@ -404,7 +432,7 @@ ServerEvents.recipes(event => {
 		  }
 
 	}).id( 'forge_frontier:shapeless/coal_piece_coal' )
-
+	  
 	// Creates Modded Crafting Table Recipe
 	event.shapeless(
 		Item.of('minecraft:crafting_table'),
@@ -536,14 +564,17 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: 'create:mixing',
 		ingredients: [
-			Ingredient.of('minecraft:glowstone_dust').toJson(),
 			Ingredient.of('create:powdered_obsidian').toJson(),
-			Ingredient.of('create:polished_rose_quartz').toJson()
+			Ingredient.of('create:powdered_obsidian').toJson(),
+			Ingredient.of('create:powdered_obsidian').toJson(),
+			Ingredient.of('create:powdered_obsidian').toJson(),
+			Ingredient.of('create:polished_rose_quartz').toJson(),
+			Ingredient.of('create_dd:polished_spectral_ruby').toJson()
 		],
 		results: [
-			Ingredient.of('create:chromatic_compound').toJson()
+			{ item: 'create:chromatic_compound', count: 2 }
 		],
-		conditions: ['superheated']
+		heatRequirement: "superheated"
 	}).id('forge_frontier:mixing/chromatic_compound');
 
 	// Fixes Chipped Tinkering Table Recipe

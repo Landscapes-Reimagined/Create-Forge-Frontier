@@ -2,7 +2,7 @@
 function createCompressedBlock(event, material, level) {
     const id = `compressed_${material.toLowerCase()}_${level}x`;
     event.create(`forge_frontier:${id}`)
-        .displayName(`Compressed ${material} ${level}x`)
+        .displayName(`Compressed ${material.replace(/_/g, ' ')} ${level}x`)
         .soundType('metal')
         .mapColor('stone')
         .hardness(2.0)
@@ -16,8 +16,6 @@ function createCompressedBlock(event, material, level) {
 
 // List of materials
 const materials = [
-    'Lead',
-    'Aluminum',
     'Malachite',
     'Irradium',
     'Bismuth',
@@ -34,13 +32,31 @@ const materials = [
     'Mithril',
     'Bronze',
     'Industrial_Iron',
-    'Void_Steel',
     'Ethium',
     'Netherite-Iron',
     'Netherite-Gold',
     'Netherite-Emerald',
     'Netherite-Diamond',
     'Star_Infused_Netherite',
+
+    // New Compressed Create Blocks
+    'Cogwheel_Block',
+    'Large_Cogwheel_Block',
+    'Belt_Block',
+    'Shaft_Bundle',
+    'Mechanism_Block',
+    'Rose_Quartz_Crystal_Block',
+    'Rose_Quartz_Polished_Block',
+    'Copper_Sheet_Block',
+    'Iron_Sheet_Block',
+    'Golden_Sheet_Block',
+    'Brass_Sheet_Block',
+    'Sturdy_Sheet_Block',
+    'Pulp_Block',
+    'Wheat_Flour_Pile',
+    'Dough_Block',
+    'Cinder_Flour_Pile',
+    'Powdered_Obsidian_Pile',
 ];
 
 // Register blocks

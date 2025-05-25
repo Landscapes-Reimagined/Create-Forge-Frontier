@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create_dd:block/palettes/horizontal_framed_split_glass"
+  }
+}

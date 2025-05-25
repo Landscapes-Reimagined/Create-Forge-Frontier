@@ -5,37 +5,32 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:netherrack"
 	id: "2D54D010D189F192"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/nether_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/nether_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/nether_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["486542BF23253839"]
 			description: [
-				"The Nether is no ordinary realm—it is a land of fire, brimstone, and ancient secrets. Once unlocked through Nether Remastered, stepping into this volatile dimension will test your survival skills like never before. Here, lava flows like rivers, ghasts patrol the skies, and fortresses hide both danger and rewards."
+				"&cThe Nether is no ordinary realm—it is a crucible of fire, fury, and forgotten power.&r"
 				""
-				"Your goal in the Nether is more than just survival—it’s about conquering the chaos. You’ll need to gather powerful resources, explore treacherous landscapes, and overcome hostile creatures that lurk in the shadows. Every decision counts, and only those truly prepared will harness the Nether’s raw power."
+				"Unlocked through &cNether Remastered&r, this volatile dimension will challenge your survival instincts at every turn.  "
+				"Here, rivers of &6lava&r carve through blackened stone, &fghasts&r roam the crimson skies, and ancient &5fortresses&r conceal both peril and prize."
+				""
+				"But your purpose is greater than survival—&nthis is a conquest of chaos&r.  "
+				"Harvest powerful resources, brave brutal landscapes, and triumph over the monsters that thrive in the flames."
+				""
 				"{@pagebreak}"
-				"Steel yourself against the heat, sharpen your blades, and embrace the challenge—the Nether is waiting. Will you survive the flames or be consumed by them? 🔥💀"
 				""
+				"Sharpen your blades, fortify your resolve, and embrace the fire.  "
+				"&nThe Nether awaits—will you master it, or be consumed by it?&r 🔥💀"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:netherrack"
@@ -47,19 +42,30 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "🔥 Into the Inferno: Conquering the Nether, Click me to learn more!"
+			subtitle: "Enter the Nether and begin your battle to conquer its chaos. Click me to learn more!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
 				id: "21AF3C45D5058473"
 				type: "dimension"
 			}]
-			title: "The Nether"
+			title: "Into the Inferno"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3F3994EDD215FC99"]
-			description: ["You have finally unlocked the Nether, but survival here is unlike anything you’ve faced before. Your first objective is simple—get your bearings and establish a foothold. Secure a safe area, mark your portal’s location, and gather some Nether basics to ensure you don’t get lost or overwhelmed. Use the Lodestone and Compass rewards to remember where your portal is!"]
+			description: [
+				"&cYou’ve broken the seal and crossed into the Nether&r—  "
+				"but this realm of flame is unforgiving, and survival begins the moment you arrive."
+				""
+				"Your first task is not conquest—it’s &6stability&r.  "
+				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin collecting the &cNether’s essential resources&r to avoid becoming another lost soul in the lava-soaked dark."
+				""
+				"Use the &bLodestone&r and &bCompass&r rewards to anchor your journey and find your way home when the heat closes in."
+				""
+				"&nThis is your foothold in the inferno. Hold it, or be consumed by it.&r"
+			]
 			id: "79796694A2D1F0DE"
 			rewards: [
 				{
@@ -85,7 +91,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Establish your first stronghold in the Nether and prepare for what lies beyond. Click me for more info!"
 			tasks: [
 				{
 					id: "277AEF0B736D28BF"
@@ -111,13 +117,24 @@
 					type: "item"
 				}
 			]
-			title: " First Steps into the Unknown"
+			title: "Claim the Heat"
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["79796694A2D1F0DE"]
-			description: ["The Nether is harsh, and to survive, you need resources. Blackstone can replace stone, Nether wood won’t burn, and Gold will be useful for keeping Piglins at bay. Gather what you need to make the Nether your second home."]
+			description: [
+				"&cThe Nether does not forgive the unprepared&r—&nbut it does reward those who adapt.&r"
+				""
+				"To survive its harsh terrain, you must gather &6essential materials&r native to this molten realm.  "
+				"&8Blackstone&r can stand in for traditional stone.  "
+				"&4Crimson&r and &2Warped wood&r won’t burn in fire.  "
+				"&6Gold&r may spare you from a Piglin’s wrath."
+				""
+				"These resources are your lifeline. Stock up, strategize, and reshape this hostile land into your &nsecond home&r."
+				""
+				"&nIn the Nether, your survival depends on what you take—and how you use it.&r"
+			]
 			id: "4927BD8DBED4A962"
 			rewards: [
 				{
@@ -159,7 +176,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Gather the key resources that will help you survive and thrive in the Nether. Click me for more info!"
 			tasks: [
 				{
 					count: 32L
@@ -187,14 +204,21 @@
 					type: "item"
 				}
 			]
-			title: "Nether Survival: The Essentials"
+			title: "The Essentials of Flame"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4927BD8DBED4A962"]
 			description: [
-				"The most valuable loot in the Nether is hidden within Nether Fortresses, but these structures are also home to Blazes, Wither Skeletons, and swarms of Zombie Piglins. Only the bravest adventurers dare step inside."
+				"&8Within the charred stone of &cNether Fortresses&r lie treasures beyond measure—&nbut they are fiercely protected.&r"
+				""
+				"These towering structures are home to &6Blazes&r, &8Wither Skeletons&r, and swarms of &eZombie Piglins&r, all ready to defend the fortress halls with fire and fury."
+				""
+				"{@pagebreak}"
+				"Yet for those who dare enter, these fortresses hold the &6keys to progression&r: blaze rods, nether wart, and ancient relics hidden in shadowed corridors."
+				""
+				"Do you have the strength to brave the heat, dodge the withering strikes, and claim the prize?"
 				""
 				"{image:ftb:textures/fortress.png width:200 height:120 align:center}"
 			]
@@ -223,7 +247,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Conquer a Nether Fortress and claim the treasures guarded by fire and bone. Click me for more info!"
 			tasks: [
 				{
 					id: "39D03DC70B2598BB"
@@ -243,14 +267,22 @@
 					value: 3L
 				}
 			]
-			title: "Fortresses of Power"
+			title: "Into the Ember Keep"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1D6068D3F034486B"]
 			description: [
-				"Piglins are not just mindless brutes—they are treasure hoarders, and Bastions hide gold, weapons, and powerful enchantments. But be warned—Piglin Brutes do not take kindly to intruders."
+				"&6Piglins&r are more than just snarling scavengers—they are &ntreasure keepers&r, and their &8Bastion Remnants&r are vaults of unimaginable wealth."
+				""
+				"Hidden deep within these shattered strongholds are caches of &6gold&r, rare &dweapons&r, and powerful &benchanted gear&r. But this fortune is fiercely protected."
+				""
+				"{@pagebreak}"
+				"&cPiglin Brutes&r show no mercy to intruders. They fight not for survival—but for dominance."
+				""
+				"Will you sneak, strike, or storm your way through?  "
+				"Only the bold leave a Bastion standing behind them."
 				""
 				"{image:ftb:textures/bastion_rem.png width:192 height:150 align:center}"
 			]
@@ -282,7 +314,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Raid a Bastion Remnant and outwit the Piglins who guard its treasures. Click me for more info!"
 			tasks: [
 				{
 					id: "30840877FC473F29"
@@ -310,13 +342,22 @@
 					type: "checkmark"
 				}
 			]
-			title: "Bastions and Treasure Hoards"
+			title: "Gold and Fury"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1665A6E78A71E6F5"]
-			description: ["The Nether contains some of the most valuable resources for crafting potions, powerful gear, and special materials. Learn how to take full advantage of what the Nether has to offer."]
+			description: [
+				"&cThe Nether&r is more than a realm of fire and fury—it is a crucible of &6rare materials&r and &darcane reagents&r."
+				""
+				"From &eNether Wart&r for potions, to &8Netherite scraps&r for armor, to &6glowstone dust&r for amplifying enchantments, this dimension is filled with resources that can tip the scales of power in your favor."
+				""
+				"But these treasures will not come easy.  "
+				"You must &nlearn what to harvest, what to hoard, and how to survive long enough to use it all&r."
+				""
+				"🔮 &nMaster the riches of the Nether—and turn chaos into strength.&r"
+			]
 			id: "7BAE261166502E1D"
 			rewards: [
 				{
@@ -359,7 +400,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Gather and master the rare materials only found in the Nether. Click me for more info!"
 			tasks: [
 				{
 					count: 32L
@@ -398,15 +439,24 @@
 					type: "item"
 				}
 			]
-			title: "Harvesting the Nether’s Power"
+			title: "Harness the Heat"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7BAE261166502E1D"]
 			description: [
-				"Beneath the Nether’s fiery surface lies Ancient Debris, the key to forging Netherite, the strongest material in the game. But mining for it is no easy task—you’ll need explosives, strategy, and patience. Ancient Debris is best found at Y-Level 15 or at an    "
-				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }"
+				"&8Buried deep beneath the Nether’s molten crust lies one of the rarest and most powerful materials in existence—&6Ancient Debris&r."
+				""
+				"Used to forge &8Netherite&r, the strongest gear known to adventurers, this resource is no ordinary ore.  "
+				"Its discovery demands &cexplosives&r, &9strategy&r, and &7patience&r."
+				""
+				"The most effective layer to find Ancient Debris is around &eY-Level 15&r—  "
+				"or, if you dare to venture further, through a  "
+				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }  "
+				"—a geological marvel formed by molten force and rare fortune."
+				""
+				"&nOnly those willing to dig deep and risk everything will wield what lies below.&r"
 			]
 			id: "127DD18CE2DA41ED"
 			rewards: [
@@ -427,7 +477,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Mine Ancient Debris and unlock the strength of Netherite. Click me for more info!"
 			tasks: [
 				{
 					count: 4L
@@ -447,13 +497,22 @@
 					type: "item"
 				}
 			]
-			title: "Ancient Remnants of Power"
+			title: "Buried Power"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["127DD18CE2DA41ED"]
-			description: ["The Nether is home to some of the toughest creatures you’ll ever face. Defeating them isn’t just about survival—it’s about proving your strength. Face off against the worst the Nether has to offer and emerge victorious."]
+			description: [
+				"&cThe Nether breeds monsters unlike any seen on the surface.&r  "
+				"Here, fire-forged beasts test not just your strength—but your will to survive."
+				""
+				"From the &6relentless Brutes&r to the &8Wither Skeletons&r lurking in fortress shadows, these enemies won’t fall easily.  "
+				"But defeating them is more than survival—it’s a &ndeclaration of dominance&r in a realm ruled by chaos."
+				""
+				"Sharpen your blades, ready your gear, and step boldly into battle.  "
+				"&nOnly those who face the fire head-on will rise as true champions of the Nether.&r"
+			]
 			id: "3E8BB2ABA5F04447"
 			rewards: [
 				{
@@ -494,7 +553,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Defeat the Nether’s deadliest foes and rise above the flames. Click me for more info!"
 			tasks: [
 				{
 					entity: "minecraft:ghast"
@@ -521,18 +580,27 @@
 					value: 1L
 				}
 			]
-			title: "Challenge the Nether’s Beasts"
+			title: "Prove Your Might"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E8BB2ABA5F04447"]
 			description: [
-				"You have survived the Nether’s dangers, braved its fortresses and bastions, and harvested its powerful resources. You are now ready to move forward. The Nether is no longer an obstacle—it is a resource you have mastered."
+				"&cYou have survived the inferno.&r"
 				""
-				"Your next challenge? Look to the stars—your journey beyond the Overworld is just beginning!"
-				"Learn more about getting to space in the     "
-				"{ \"text\": \"Ad Astra Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A09B8EFE2811CB9\" } } "
+				"The &4Nether’s horrors&r—its fortresses, bastions, and blazing depths—no longer stand in your way.  "
+				"You’ve carved a path through fire, tamed volatile resources, and emerged not just alive… but &nvictorious&r."
+				""
+				"The Nether is no longer an obstacle—it is &nyour arsenal&r."
+				""
+				"But your greatest journey still lies ahead."
+				""
+				"&nLook to the stars.&r  "
+				"The age of survival is behind you. The era of exploration begins now."
+				""
+				"Learn more about getting to space in the  "
+				"{ \"text\": \"Ad Astra Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A09B8EFE2811CB9\" } }"
 			]
 			id: "4C84AE74FCD29D66"
 			rewards: [
@@ -553,48 +621,7 @@
 				}
 				{
 					id: "10EE50D3D1DFDF26"
-					item: {
-						Count: 1
-						id: "cagedmobs:hopping_mob_cage"
-						tag: {
-							BlockEntityTag: {
-								ForgeCaps: { }
-								Inventory: {
-									Items: [
-										{
-											Count: 1b
-											Slot: 0
-											id: "minecraft:gilded_blackstone"
-										}
-										{
-											Count: 1b
-											Slot: 1
-											id: "cagedmobs:speed_i_upgrade"
-										}
-										{
-											Count: 1b
-											Slot: 2
-											id: "cagedmobs:speed_i_upgrade"
-										}
-										{
-											Count: 1b
-											Slot: 3
-											id: "cagedmobs:looting_upgrade"
-										}
-									]
-									Size: 4
-								}
-								color: 0
-								currentGrowTicks: 99
-								entity: "minecraft:blaze"
-								id: "cagedmobs:mob_cage"
-								waitingForHarvest: 0b
-							}
-							display: {
-								Lore: ["\"(+NBT)\""]
-							}
-						}
-					}
+					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
@@ -603,7 +630,7 @@
 					xp_levels: 15
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Master the Nether, and set your sights on the stars. Click me for more info!"
 			tasks: [
 				{
 					id: "4769E3C8EC817DBE"
@@ -650,7 +677,7 @@
 					type: "item"
 				}
 			]
-			title: " Conquer the Flames, Claim the Power"
+			title: "From Fire to Flight"
 			x: 5.5d
 			y: 0.0d
 		}

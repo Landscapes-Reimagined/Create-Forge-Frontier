@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "Permutador",
+  "itemGroup.easy_piglins": "Easy Piglins",
+  "gui.easy_piglins.input_items": "Entrada de Itens",
+  "gui.easy_piglins.output_items": "Saída de Itens ",
+  "message.easy_piglins.cant_pick_up": "Não é possível pegar piglins agressivos ou ocupados"
+}

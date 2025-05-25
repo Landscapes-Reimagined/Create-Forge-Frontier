@@ -2,16 +2,12 @@ StartupEvents.registry('block', event => {
 
 // List of materials
 const materials = [
-    'Aluminum',
     'Bismuth',
     'Calorite',
     'Desh',
     'Irradium',
-    'Lead',
     'Malachite',
     'Ostrum',
-    'Tin',
-    'Uranium',
     'Verdantine', 
     'Glacium',
     'Debris', 

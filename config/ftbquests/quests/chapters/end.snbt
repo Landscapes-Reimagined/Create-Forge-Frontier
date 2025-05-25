@@ -5,37 +5,39 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:end_stone"
 	id: "1432839292A29F32"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/end_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/end_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
-	order_index: 4
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/end_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["0135EFA96E7A28A2"]
 			description: [
-				"The End is no ordinary destination—it is a realm of vast emptiness, floating islands, and cosmic secrets waiting to be uncovered. Guarded by the mighty Ender Dragon, this desolate world is the final test of your strength, skill, and determination."
+				"&5The End&r is not a destination—&nit is a crucible.&r"
 				""
-				"Here, the void stretches endlessly, and the air crackles with energy from ancient relics and forgotten structures. End Cities, hidden among the islands, hold treasures of unimaginable power, while strange resources like Radiantite, Void Shale, and Palerock offer new possibilities for those daring enough to claim them. But beware—the creatures of this realm, from levitating Shulkers to the shadowy Endermen, will stop at nothing to defend their domain."
+				"A realm of &8floating islands&r, &dendless void&r, and &5cosmic secrets&r suspended in silence.  "
+				"Here, the &cEnder Dragon&r waits—your final test of strength, skill, and resolve."
+				""
+				"As the void hums with forgotten power, ancient cities rise from the abyss.  "
+				"Hidden within are &6unimaginable treasures&r—&3Radiantite&r, &7Void Shale&r, and &fPalerock&r—each offering new potential for those bold enough to claim them."
+				""
+				"But this place is no sanctuary.  "
+				"From levitating &dShulkers&r to watchful &8Endermen&r, every step forward is contested by creatures of shadow and fury."
 				""
 				"{@pagebreak}"
-				"Your journey does not end here—it evolves. The End is just the beginning of Endgame Progression, paving the way for new technologies, powerful creations, and interdimensional travel. Will you emerge victorious, or will the void claim another lost soul? The answers lie beyond the portal… 🌌🔮"
+				""
+				"Yet this is not the end of your journey—&nit is the evolution of your legacy.&r  "
+				"&5Endgame Progression&r begins here, unlocking powerful technologies, forgotten rituals, and the path to interdimensional mastery."
+				""
+				"🌌 Will you conquer the void—or be swallowed by it?"
+				""
+				"The answers lie beyond the portal…"
 			]
 			hide_dependent_lines: true
 			id: "7964AB0D39902EFA"
@@ -55,19 +57,34 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "The End: A Realm of Mystery and Power, Click me for more info!"
+			subtitle: "Enter the End and forge your path through power, peril, and purpose. Click me for more info!"
 			tasks: [{
 				id: "28FEAB937642EDAC"
 				structure: "integrated_stronghold:stronghold"
 				type: "structure"
 			}]
-			title: "The End"
+			title: "Whispers of the Void"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["7964AB0D39902EFA"]
-			description: ["The End Portal stands before you, an ancient construct leading to the most dangerous realm yet. But before you enter, remember—this is no ordinary dragon fight. The Ender Dragon has been enhanced, making this battle more intense than ever. Ensure you are fully prepared before taking the plunge!"]
+			description: [
+				"&8The End Portal stands before you—silent, ancient, and waiting.&r  "
+				"It is more than a gateway. It is a test. A reckoning."
+				""
+				"Beyond its shimmering frame lies &5the most dangerous realm yet&r.  "
+				"But beware—this is &nno ordinary dragon fight&r."
+				""
+				"The &cEnder Dragon&r has been enhanced.  "
+				"Its wrath is swift. Its strength is overwhelming.  "
+				"This battle will push you beyond your limits."
+				""
+				"You stand at the edge of destiny.  "
+				"Make sure you are armed, armored, and prepared to face &nyour greatest challenge yet&r."
+				""
+				"&nWhen you leap into the void, there is no turning back.&r"
+			]
 			id: "59AB4308055958B4"
 			rewards: [
 				{
@@ -81,9 +98,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Prepare for the enhanced Ender Dragon and step into the End. Click me for more info!"
 			tasks: [{
 				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
 				id: "415D920F9756087C"
 				type: "dimension"
 			}]
@@ -93,7 +111,21 @@
 		}
 		{
 			dependencies: ["59AB4308055958B4"]
-			description: ["The mighty Ender Dragon rules the skies with newfound strength. It will take strategy, skill, and resilience to bring it down. Use your Totem of Undying from the previous quest wisely, and don’t forget to destroy the End Crystals first!"]
+			description: [
+				"&cThe Ender Dragon&r soars above with &nrenewed fury&r—more powerful, more aggressive, and more dangerous than ever before."
+				""
+				"This is not a fight of brute force alone.  "
+				"It demands &estrategy&r, &9precision&r, and &7unyielding resolve&r."
+				""
+				"{@pagebreak}"
+				"Begin by destroying the &dEnd Crystals&r atop obsidian towers—they fuel the dragon’s regeneration.  "
+				"Only once they’re gone can the true battle begin."
+				""
+				"Wield your &6Totem of Undying&r with wisdom.  "
+				"It may be the only thing standing between you and the void."
+				""
+				"&nThis is your moment.&r Rise, strike, and prove yourself against the apex of all foes."
+			]
 			id: "6720A599B8A32D97"
 			rewards: [
 				{
@@ -133,7 +165,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Defeat the enhanced Ender Dragon and bring an end to the storm. Click me for more info!"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "77C29B2176052A23"
@@ -147,9 +179,20 @@
 		{
 			dependencies: ["6720A599B8A32D97"]
 			description: [
-				"With the Ender Dragon defeated, a strange portal has appeared, suspended in the air beyond the central End island. This End Gateway is your key to venturing deeper into the End’s mysteries. Beyond it lies the vast expanse of the Outer End Islands, where hidden treasures, ancient cities, and powerful new resources await."
+				"&5The Ender Dragon has fallen—but your journey is far from over.&r"
 				""
-				"To pass through, you’ll need an Ender Pearl—simply throw it into the shimmering portal to teleport beyond the central island. What awaits you on the other side? Only the bold will find out."
+				"Floating high above the central island, a new portal shimmers in the void—an &dEnd Gateway&r, pulsing with ancient energy."
+				""
+				"This is your passage to the &nOuter End&r, a region untouched by time, filled with drifting islands, ancient cities, and &6treasures of forgotten power&r."
+				""
+				"{@pagebreak}"
+				"To enter, you’ll need only a single &eEnder Pearl&r.  "
+				"Cast it into the portal—and step beyond the known."
+				""
+				"But beware…  "
+				"What lies past the veil is &nboth wondrous and perilous&r."
+				""
+				"Only the bold will claim what waits among the stars."
 			]
 			id: "75E010388EA41A77"
 			rewards: [
@@ -171,7 +214,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Use an Ender Pearl to enter the Outer End and uncover its secrets. Click me for more info!"
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
@@ -185,9 +228,20 @@
 		{
 			dependencies: ["75E010388EA41A77"]
 			description: [
-				"With the Dragon defeated, the End is far from empty. Scattered across the void are End Cities—mystical structures filled with treasures, including the legendary Elytra. However, beware the Shulkers guarding these ancient ruins!"
+				"&dThe Ender Dragon may have fallen… but the End is far from silent.&r"
+				""
+				"Across the void, rising from the abyss, stand the &5End Cities&r—towering remnants of a forgotten civilization."
+				""
+				"Within their levitating halls lie &6treasures of immense power&r: enchanted loot, rare materials, and the &blegendary Elytra&r—your wings to explore the world like never before."
+				""
+				"{@pagebreak}"
+				"But glory comes at a price."
+				""
+				"&5Shulkers&r, cunning and relentless, guard these cities with eerie precision. Their levitation curse may leave you helpless in the skies if you're not prepared."
 				""
 				"{image:ftb:textures/end_city.png width:192 height:150 align:center}"
+				""
+				"&nStep carefully, fight wisely—and let the End reward your courage.&r"
 			]
 			id: "2C9F0702A802DBE0"
 			rewards: [
@@ -213,7 +267,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Explore the End Cities and claim the Elytra—if you can survive the Shulkers' wrath. Click me for more info!"
 			tasks: [
 				{
 					id: "18EA67C756E991CA"
@@ -227,12 +281,27 @@
 					value: 1L
 				}
 			]
+			title: "Skies of the Forgotten"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2C9F0702A802DBE0"]
-			description: ["While the Overworld has diamonds, the End is home to Radiantite, Void Shale, and Palerock Vents—essential resources for high-tier crafting and progression. Seek out these unique materials and start unlocking their full potential!"]
+			description: [
+				"&bThe Overworld has diamonds… but the End holds something far more powerful.&r"
+				""
+				"Scattered across the islands lie rare and &5alien materials&r—each vital to your next stage of progression."
+				""
+				"- &dRadiantite&r: A crystalized source of raw End energy, perfect for advanced tools and upgrades.  "
+				"- &7Void Shale&r: Hardened by the vacuum of space, this material is key to structural durability.  "
+				"- &fPalerock Vents&r: Strange geological formations that pulse with dimensional residue—&nnatural generators of exotic elements&r."
+				""
+				"{@pagebreak}"
+				"These are not ordinary resources. They are the &nfoundation of high-tier crafting&r in Forge Frontier."
+				""
+				"&nTrack them down. Study their secrets. Unlock their potential.&r  "
+				"The End has more to offer than danger—it holds the keys to your future."
+			]
 			id: "4DAE1B438A323AFC"
 			rewards: [
 				{
@@ -252,7 +321,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Discover and collect the rare materials hidden among the End Islands. Click me for more info!"
 			tasks: [
 				{
 					count: 8L
@@ -280,7 +349,22 @@
 		{
 			dependencies: ["4DAE1B438A323AFC"]
 			description: [
-				"The End dimension is not where your journey ends—it is where the Endgame begins! With powerful resources and elite crafting materials now in your grasp, your next mission is to unlock the Tier 5 Rocket, taking you to Alex’s Caves Planets and beyond! Read more about crafting the Tier 5 here in its  "
+				"&5The End was never the end—it was only the beginning.&r"
+				""
+				"With the &dEnder Dragon defeated&r and &bRadiantite&r, &7Void Shale&r, and &fPalerock&r in your hands, you've unlocked the keys to &ntrue Endgame progression&r."
+				""
+				"Now, the stars call once more."
+				""
+				"{@pagebreak}"
+				"Your next mission: forge the &6Tier 5 Rocket&r—a marvel of engineering built from the rarest resources the End has to offer."
+				""
+				"This rocket isn’t just a vehicle—it’s a symbol of your mastery, your ingenuity, and your readiness to leave the void behind."
+				""
+				"&nThe Alex’s Caves Planets await.&r  "
+				"Strange worlds. New biomes. Greater challenges.  "
+				"Will you rise?"
+				""
+				"Read more about crafting the Tier 5 in its  "
 				"{ \"text\": \"Rocket Introduction Quest \", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58AF77D0696B9822\" } }"
 			]
 			id: "0F51715DD2602DD1"
@@ -296,7 +380,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Begin crafting the Tier 5 Rocket and prepare to explore the Alex’s Caves Planets. Click me for more info!"
 			tasks: [{
 				id: "29C59BD590EF3E33"
 				title: "Check"

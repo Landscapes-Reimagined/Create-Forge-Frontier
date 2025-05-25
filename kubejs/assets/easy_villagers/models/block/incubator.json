@@ -1,0 +1,7 @@
+{
+  "parent": "easy_villagers:block/farm",
+  "textures": {
+    "front": "chipped:block/white_wool/crafted_white_wool",
+    "back": "chipped:block/white_wool/crafted_white_wool"
+  }
+}

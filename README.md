@@ -114,7 +114,7 @@ These visuals highlight the breathtaking world generation, enhanced structures, 
 
 Set up a **Create - Forge Frontier** server effortlessly with our official partner, **BisectHosting**. Click the banner below to get started!
 
-[![BisectHosting Code](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge changelog)
+[![BisectHosting Code](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
 
 ***
 

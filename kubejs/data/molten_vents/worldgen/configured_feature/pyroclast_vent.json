@@ -32,14 +32,14 @@
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "createdieselgenerators:biodiesel"
+        "Name": "forge_frontier:adzuki_milkshake"
       }
     },
     "depth": {
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 10,
-        "max_inclusive": 15
+        "max_inclusive": 11
       }
     },
     "underwater": false

@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 		type: 'create:item_application',
 		ingredients: [
 		  {
-			item: 'tfmg:brass_pipe'
+			item: 'create:content_observer'
 		  },
 		  {
 			item: 'create_dd:blaze_gold_casing'
@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
 		type: 'create:item_application',
 		ingredients: [
 		  {
-			item: 'tfmg:steel_pipe'
+			item: 'ad_astra:steel_cable'
 		  },
 		  {
 			item: 'create_dd:steel_casing'

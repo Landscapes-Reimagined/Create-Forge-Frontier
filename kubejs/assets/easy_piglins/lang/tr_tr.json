@@ -1,0 +1,7 @@
+{
+  "block.easy_piglins.barterer": "Takasçı",
+  "itemGroup.easy_piglins": "Easy Piglins",
+  "gui.easy_piglins.input_items": "Girdi Nesneleri",
+  "gui.easy_piglins.output_items": "Çıktı Nesneleri",
+  "message.easy_piglins.cant_pick_up": "Agresif veya meşgul piglinleri alamazsın"
+}

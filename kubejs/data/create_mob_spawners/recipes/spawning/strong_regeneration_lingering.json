@@ -1,0 +1,13 @@
+{
+  "type": "create_mob_spawners:spawning",
+  "input": {
+    "amount": 100,
+    "fluid": "create:potion",
+    "nbt": {
+      "Potion": "minecraft:strong_regeneration",
+      "Bottle": "LINGERING"
+    }
+  },
+  "spawn_ticks_at_max_speed": 60,
+  "additional_spawn_attempts": 3
+}

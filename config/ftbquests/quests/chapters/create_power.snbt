@@ -1,0 +1,1655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_power"
+	group: "3D5393E3938A9DF4"
+	icon: "create_new_age:generator_coil"
+	id: "1D6D8AAB15F85097"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/create_power_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.5d
+		y: -4.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Create Crafts and Additions introduces a powerful suite of new components. "
+				""
+				"Store energy in Accumulators, energize faster with the Tesla Coil, and fuel your superheating needs using renewable Biofuel!"
+			]
+			icon: "createaddition:small_light_connector"
+			id: "6F8D724244463BFF"
+			rewards: [
+				{
+					count: 4
+					id: "09E4B381B15AF716"
+					item: "createaddition:capacitor"
+					type: "item"
+				}
+				{
+					id: "7B9B714CCACB2763"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Useful Power Additions"
+			tasks: [{
+				id: "5C47662063AF3A86"
+				title: "Check Me after Reading!"
+				type: "checkmark"
+			}]
+			title: "Welcome To Create Crafts and Additions!"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"189649B54A50F311"
+				"005CAAA3685B5927"
+			]
+			description: [
+				"To begin, place 12 Magnetite blocks around a generator coil, following the setup shown in the Ponder menu. "
+				""
+				"Then place a single Carbon Brushes Block - this is where power will be generated. "
+				""
+				"Lastly, feed rotational power to the Generator Coil to generate electricity. "
+			]
+			icon: "create_new_age:carbon_brushes"
+			id: "551C411AF42EB74A"
+			rewards: [
+				{
+					count: 3
+					id: "65AF1EA061854DF1"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+				{
+					id: "41CEC941C9FE52EB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Magnetic Machinations"
+			tasks: [
+				{
+					id: "767A19C407967F2C"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "73535350F32B24CF"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "7BCBC66AAD1CB10F"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+			]
+			title: "Create New Age"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			description: ["Magnetite is the cornerstone of magnetic energy. Found deep within caves or crafted by energizing Compressed Stone, this block forms the base of all future magnetic components."]
+			id: "189649B54A50F311"
+			rewards: [
+				{
+					count: 6
+					id: "1FAEDDFFAEB5750D"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					id: "252648D21FA6ACDF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "Stone to Power"
+			tasks: [{
+				count: 6L
+				id: "0D8BCB0504FF47AE"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			title: "Magnetite - Tier 1"
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["189649B54A50F311"]
+			description: ["Once you’ve energized an Iron Block, use a Deployer to place the Overcharged Iron Block onto your Magnetite. Doing so will form the Redstone Magnet, the first step in channeling focused magnetic power."]
+			id: "14786991259A140A"
+			rewards: [
+				{
+					count: 3
+					id: "359497F964292E04"
+					item: "create_new_age:redstone_magnet"
+					type: "item"
+				}
+				{
+					id: "099DDB219F686721"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "First Sparks"
+			tasks: [{
+				count: 12L
+				id: "1619E366144848A4"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			title: "Redstone Magnet - Tier 2"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14786991259A140A"]
+			description: ["Progression demands power. Energize a Gold Block, then deploy it onto a Redstone Magnet to create a Layered Magnet. Gold is better at conducting power - expect stronger results and a higher SU cost."]
+			id: "3FF4A1959A7A6B86"
+			rewards: [
+				{
+					count: 3
+					id: "526677CABA3D7A4D"
+					item: "create_new_age:layered_magnet"
+					type: "item"
+				}
+				{
+					id: "45959C434967E57D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Gold Rush"
+			tasks: [{
+				count: 12L
+				id: "023145B68FC6764A"
+				item: "create_new_age:layered_magnet"
+				type: "item"
+			}]
+			title: "Layered Magnet - Tier 3"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3FF4A1959A7A6B86"]
+			description: ["Next, energize a Diamond Block and deploy it onto the Layered Magnet. The result is a Fluxuated Magnet, with the ability to handle more dynamic energy systems."]
+			id: "4415E5FE7E49E1EE"
+			rewards: [
+				{
+					count: 3
+					id: "52B984111C2CCEF4"
+					item: "create_new_age:fluxuated_magnetite"
+					type: "item"
+				}
+				{
+					id: "5592F9684549FF63"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			subtitle: "Gem-Cracked Potential"
+			tasks: [{
+				count: 12L
+				id: "43D2E22803997416"
+				item: "create_new_age:fluxuated_magnetite"
+				type: "item"
+			}]
+			title: "Fluxuated Magnet - Tier 4"
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4415E5FE7E49E1EE"]
+			description: ["The final magnetic evolution requires a Netherite Block. After energizing it, use a Deployer to mount it onto a Fluxuated Magnet, resulting in the Netherite Magnet. This block holds the highest magnetic charge known."]
+			id: "6DF733C7DFC40BC1"
+			rewards: [
+				{
+					count: 3
+					id: "38368ACC0BB2670A"
+					item: "create_new_age:netherite_magnet"
+					type: "item"
+				}
+				{
+					id: "349ABFB5CB006DD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "Ultimate Polarity"
+			tasks: [{
+				count: 12L
+				id: "1A8EED1AB0487A31"
+				item: "create_new_age:netherite_magnet"
+				type: "item"
+			}]
+			title: "Netherite Magnet - Tier 5"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"551C411AF42EB74A"
+				"6A8DA61B15FB4C3C"
+			]
+			description: [
+				"To get started with energizing, craft a Basic Energizer — the machine responsible for infusing blocks with magnetic potential. Use an Andesite Casing and a Lightning Rod to make it. Once placed, provide it with rotational force and energy."
+				""
+				"Attach an Electrical Connector to the Carbon Brushes and set it to Pull by right clicking with the Wrench. Then, place another connector on the side or top of the Energizer and set it to Push. Connect them with any wire to complete the circuit and begin energizing."
+				""
+				"Use the Ponder menu if you get stuck!"
+			]
+			icon: "create_new_age:energiser_t1"
+			id: "472F303E962BE330"
+			rewards: [
+				{
+					count: 2
+					id: "6F91D94FE51DB22D"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "3EDE11A219AA148F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Kickstart the Current"
+			tasks: [
+				{
+					id: "0582B934B8822414"
+					item: "create_new_age:energiser_t1"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "629F464EFB34CC9D"
+					item: "create_new_age:electrical_connector"
+					type: "item"
+				}
+			]
+			title: "Basic Energizer - Tier 1"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"472F303E962BE330"
+				"5523E65D4FDFDC65"
+			]
+			description: ["The Advanced Energizer is a major upgrade, offering significantly faster energizing and a tenfold increase in internal energy storage. With a speed increase of 4x over the previous energizer and a 100k FE buffer, it’s built to keep up with mid-game demands."]
+			id: "7F83D0A86C6A2630"
+			rewards: [
+				{
+					count: 2
+					id: "078084371C636BE2"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "4D6F676002458ACD"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Supercharged Solutions"
+			tasks: [{
+				id: "1B616EF7B1E56371"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			title: "Advanced Energizer - Tier 2"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7F83D0A86C6A2630"
+				"0A97CA02BB7E91FB"
+			]
+			description: [
+				"The Reinforced Energizer kicks production into overdrive — boasting a blazing 4x speed increase over the Advanced Energizer, and a massive 1M SU internal buffer. "
+				""
+				"This beast is built for high-throughput energizing and will energize materials faster than anything before it."
+			]
+			id: "6802CDE4060B7C01"
+			rewards: [
+				{
+					id: "12057970C6742BC2"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "79BDE4C621C85781"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Industrial Infusion"
+			tasks: [{
+				id: "2B3AE69388180F95"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			title: "Reinforced Energizer - Tier 3"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["472F303E962BE330"]
+			description: [
+				"Overcharged Iron is a key crafting material in Create New Age. Simply energize iron-blocks or ingots-to obtain it."
+				""
+				"You’ll be using this in a wide range of energized components moving forward."
+			]
+			id: "627D6929B6E6E721"
+			rewards: [
+				{
+					id: "6DE98AAB6755A8EC"
+					item: "forge_frontier:overcharged_iron_block"
+					type: "item"
+				}
+				{
+					id: "6F576BB748B42A69"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Supercharged Simplicity"
+			tasks: [{
+				id: "71EB3E9538E74A38"
+				item: "create_new_age:overcharged_iron"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["472F303E962BE330"]
+			description: [
+				"Overcharged Gold is an essential mid-tier material in Create New Age."
+				""
+				"Energize gold ingots or blocks to produce it - unlocking new recipes and stronger power infrastructure."
+			]
+			hide_dependency_lines: true
+			id: "5523E65D4FDFDC65"
+			rewards: [
+				{
+					id: "16671AA53CAC5D95"
+					item: "forge_frontier:overcharged_gold_block"
+					type: "item"
+				}
+				{
+					id: "62F880D1BD5BAB7A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Golden Age"
+			tasks: [{
+				id: "2D78B518F6EC8208"
+				item: "create_new_age:overcharged_gold"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["472F303E962BE330"]
+			description: [
+				"Saturated with high-density energy, Overcharged Diamond represents the peak of conductive materials."
+				""
+				"Create it by energizing diamond blocks or ingots, and prepare to craft some of the most powerful components available."
+			]
+			hide_dependency_lines: true
+			id: "0A97CA02BB7E91FB"
+			rewards: [
+				{
+					id: "52697D6F1F104AF9"
+					item: "forge_frontier:overcharged_diamond_block"
+					type: "item"
+				}
+				{
+					id: "3C89DD26420ADB4F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Conductive Carbon"
+			tasks: [{
+				id: "07B2E44DA6D738AF"
+				item: "create_new_age:overcharged_diamond"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"188844E8F93D9347"
+				"4F54BDE5BD1DBEE9"
+				"2EADBC3CE4CA5705"
+			]
+			description: [
+				"The Reactor Casing is the first step toward unlocking Create: New Age’s most powerful heat source-nuclear reactors. You'll need plenty of these to build the outer shell of your reactor, forming the structural base for the fuel rods."
+				""
+				"Don't forget to Ponder if you get stuck!"
+			]
+			hide_dependency_lines: false
+			id: "2C758B7494E284DF"
+			rewards: [
+				{
+					count: 8
+					id: "0D261121FFC8B47A"
+					item: "create_new_age:thorium"
+					type: "item"
+				}
+				{
+					id: "1249A10D69452F0D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.0d
+			subtitle: "Let's Get Nuclear!"
+			tasks: [{
+				id: "28228A343F00494D"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			title: "Need Even More Heat?"
+			x: 4.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["627D6929B6E6E721"]
+			description: [
+				"The Basic Motor is your first method of turning Create New Age’s FE-based electricity into SU rotational force."
+				"Supply it with power using an electrical connector set to Push, and it will output up to 512 SU at a max speed of 128 RPM - enough to jumpstart early machines."
+				""
+				"[\"\",{\"text\":\"Though you will likely want to add a \"},{\"text\":\"Basic Motor Extension\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"15E4F233D77D9159\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to add additional SU capacity to the motor.\"}]"
+			]
+			id: "0D3EECF732EBB7B9"
+			rewards: [
+				{
+					count: 2
+					id: "62F3D065254D95B6"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36C52DAD62381918"
+					item: "create_new_age:copper_wire"
+					type: "item"
+				}
+				{
+					id: "40B4BD9041F2791F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Converting Current to Kinetics"
+			tasks: [{
+				id: "50262584A08D5D4D"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5523E65D4FDFDC65"
+				"0D3EECF732EBB7B9"
+			]
+			description: [
+				"The Strong Motor is the next step up for converting FE into kinetic energy. Generating 2,048 SU at up to 256 RPM, it’s ideal for larger contraptions and more demanding machines."
+				""
+				"[\"\",{\"text\":\"Consider adding a \"},{\"text\":\"Strong Motor Extension\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2558378C1CCA894E\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to add even more SU capacity to the motor.\"}]"
+			]
+			id: "5A0581571465F115"
+			require_sequential_tasks: false
+			rewards: [
+				{
+					count: 4
+					id: "190F4D71EA45D3E0"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					id: "04DF9E783CBE1A30"
+					type: "xp"
+					xp: 30
+				}
+			]
+			subtitle: "Serious Power Output"
+			tasks: [{
+				id: "7383A36AC8AB8F23"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5A0581571465F115"
+				"0A97CA02BB7E91FB"
+			]
+			description: [
+				"The final tier of motor technology in Create New Age, the Reinforced Motor outputs a staggering 8,192 SU and stores up to 128K FE, making it the ultimate power source for your most demanding contraptions."
+				""
+				"[\"\",{\"text\":\"Don't forget to add a \"},{\"text\":\"Strong Motor Extension\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2558378C1CCA894E\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to maximize the SU capacity to the motor.\"}]"
+			]
+			id: "5BD7BEBC609A56B8"
+			rewards: [
+				{
+					count: 4
+					id: "00121DD3FC45CDE1"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2C4EA447E41382AC"
+					item: "create_new_age:overcharged_diamond_wire"
+					type: "item"
+				}
+				{
+					id: "613AFC6042B896F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Peak Efficiency"
+			tasks: [{
+				id: "4D1109147E050A8B"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D3EECF732EBB7B9"]
+			description: [
+				"Need more SU from your motor? Attach a Basic Motor Extension behind it to increase its stress capacity."
+				""
+				"You'll need some circuits to craft"
+				"this - use EMI to learn how they're made and get assembling."
+			]
+			id: "15E4F233D77D9159"
+			rewards: [
+				{
+					count: 2
+					id: "0112BF1214ED69F9"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B83969745A68B4B"
+					item: "create_new_age:blank_circuit"
+					type: "item"
+				}
+				{
+					id: "5ABB7ED98E389181"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Need More Power?"
+			tasks: [{
+				id: "0F40EFD3747E774F"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5A0581571465F115"
+				"15E4F233D77D9159"
+			]
+			description: ["This motor add-on greatly increases the capacity of your Motors by a whopping 8 times, allowing them to handle much heavier SU loads. Attach it behind the motor to activate its full potential."]
+			id: "2558378C1CCA894E"
+			rewards: [
+				{
+					count: 4
+					id: "388D0F3A0611FA75"
+					item: "create_new_age:copper_circuit"
+					type: "item"
+				}
+				{
+					id: "5E10B98E17D7F657"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Boosting the Limits"
+			tasks: [{
+				id: "049963F7CFC9E2F3"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2978B72E45349EC4"]
+			description: [
+				"The Boiler Heater functions just like a Blaze Burner. It uses external heat sources like Solar Plates or Nuclear Reactors to produce the temperature needed for Superheating."
+				""
+				"To reach Superheated levels, make sure you're supplying enough heat per tick using Heat Pumps. Insufficient heat input will leave your Boiler Heater only capable of performing heated recipes. "
+				""
+				"{image:ftb:textures/boiler_heater_asp.png width:200 height:122 align:center}"
+			]
+			icon: "create_new_age:heater"
+			id: "4F54BDE5BD1DBEE9"
+			rewards: [
+				{
+					id: "1A24519D40D086C9"
+					item: "create_new_age:heat_pump"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6688CDDBD62BCAA3"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "052904C0295AAC53"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.0d
+			subtitle: "Blaze Burners... Without the Blaze"
+			tasks: [
+				{
+					id: "05D891E3FA0A4755"
+					item: "create_new_age:heater"
+					type: "item"
+				}
+				{
+					id: "379112A1A414E2C6"
+					item: { Count: 2, id: "create_new_age:heat_pump" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2978B72E45349EC4"]
+			description: [
+				"[\"\",{\"text\":\"An upgraded version of the Basic Solar Plate, the Advanced Solar Plate produces a blazing 60.0 T/s - three times the heat for the same amount of sunlight. It’s essential for setups that require large amounts of thermal energy, especially when targeting Superheated recipes using a \"},{\"text\":\"Boiler Heater\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4F54BDE5BD1DBEE9\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]"
+				""
+				"{image:ftb:textures/boiler_heater_asp.png width:200 height:122 align:center}"
+			]
+			id: "2EADBC3CE4CA5705"
+			rewards: [
+				{
+					count: 4
+					id: "7C7DCE7F48D276FB"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+				{
+					id: "76B6C88840D96AB8"
+					item: "create_new_age:heat_pump"
+					type: "item"
+				}
+				{
+					id: "6EE9D285F867A09B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "More Heat, Same Sun"
+			tasks: [{
+				id: "74EA8FD1B6AFCA81"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2558378C1CCA894E"
+				"5BD7BEBC609A56B8"
+				"6DF733C7DFC40BC1"
+			]
+			description: ["Take this Thorium! It's a small but helpful reward to get you started with Create New Age's Nuclear Heat Production! There's some XP Levels in here for you too!"]
+			hide_dependent_lines: true
+			icon: "create_new_age:thorium"
+			id: "50588486100A469E"
+			rewards: [
+				{
+					count: 32
+					id: "084CAF97B9155D83"
+					item: "create_new_age:thorium_ore"
+					type: "item"
+				}
+				{
+					id: "44506A551209390C"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			shape: "pentagon"
+			subtitle: "A Small Reward!"
+			tasks: [{
+				id: "00D5D48E85BDD2DE"
+				title: "Check Me!"
+				type: "checkmark"
+			}]
+			title: "Complete All Energy Related Quests"
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2978B72E45349EC4"]
+			description: [
+				"The Stirling Engine transforms thermal energy into rotational force, generating up to 1,024 SU at full efficiency. Feed it 100 T/t of continuous heat to hit peak output, or settle for 512 SU at 50 T/t. It's a clean and steady alternative for powering Create systems without relying on electricity."
+				""
+				"{image:ftb:textures/stirling.png width:200 height:122 align:center}"
+			]
+			id: "188844E8F93D9347"
+			rewards: [
+				{
+					count: 3
+					id: "7BC047E27A4091EE"
+					item: "create_new_age:stirling_engine"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "463EC91E08E4FD65"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "0E57B271FADCAB4D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Heat In, Power Out"
+			tasks: [{
+				id: "2CBC2654897C15E2"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["627D6929B6E6E721"]
+			description: ["The Basic Solar Plate is your introduction to thermal energy. When exposed to sunlight, it produces a small but steady stream of heat-perfect for fueling early thermal machines."]
+			icon: "create_new_age:basic_solar_heating_plate"
+			id: "2978B72E45349EC4"
+			rewards: [
+				{
+					id: "7DBB77F4BC6A4B73"
+					item: "create_new_age:basic_solar_heating_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5ABF37B992F50B2F"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					id: "189125A1FF54C663"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Harnessing the Sun"
+			tasks: [
+				{
+					id: "157D5BCC89DE07BE"
+					item: "create_new_age:basic_solar_heating_plate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "22A4879FCE7EE0BB"
+					item: { Count: 4, id: "create_new_age:heat_pipe" }
+					type: "item"
+				}
+			]
+			title: "Basic Heat Production"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C758B7494E284DF"]
+			description: [
+				"Reactor Glass serves as a visually sleek alternative to Reactor Casings, allowing you to see inside your nuclear setup without compromising structural integrity. "
+				""
+				"It’s also a required component for crafting Reactor Rods, making it a necessary step toward completing your fission infrastructure."
+			]
+			id: "5512C16D82D27A4B"
+			rewards: [
+				{
+					count: 2
+					id: "6817FDFFC248D4FE"
+					item: "create_new_age:nuclear_fuel"
+					type: "item"
+				}
+				{
+					id: "57F12E54A6F85B09"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "Observe The Fission!"
+			tasks: [{
+				id: "2DFA68CBB98624C3"
+				item: "create_new_age:reactor_glass"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C758B7494E284DF"]
+			description: [
+				"Before your reactor can generate any heat, it needs two critical components: a Fuel Inserter and a Heat Vent."
+				""
+				"The Fuel Inserter automatically feeds fuel into the reactor rods."
+				""
+				"The Heat Vent  removes the thermal energy from the core and transfers it into your heating network."
+				""
+				"Together, these parts bring your reactor to life - circulating fuel and venting heat so your setup can function safely and efficiently."
+			]
+			icon: "create_new_age:reactor_fuel_acceptor"
+			id: "09C6F70FAD426543"
+			rewards: [
+				{
+					count: 8
+					id: "5DDD117131EA707A"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71544A4EA06E38BF"
+					item: "create_new_age:heat_pipe"
+					type: "item"
+				}
+				{
+					id: "4889F5F39BAA4137"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.0d
+			subtitle: "Feeding and Venting Your Reactor"
+			tasks: [
+				{
+					id: "7C7E5632F3C97694"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+				{
+					id: "398CAA6BC60FD1AE"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+			]
+			title: "Core Components"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C758B7494E284DF"]
+			description: [
+				"Reactor Rods serve as the essential link between fuel and heat output."
+				""
+				"Placed directly between the Fuel Inserter and the Heat Vent, these rods allow fission to occur and transfer heat through the reactor core."
+			]
+			icon: "create_new_age:reactor_rod"
+			id: "1B6D21C4B3EFB0F3"
+			rewards: [
+				{
+					count: 4
+					id: "2582360A3041191C"
+					item: "create_new_age:nuclear_fuel"
+					type: "item"
+				}
+				{
+					id: "174D6B1E1C06F585"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.0d
+			subtitle: "Handle With Care"
+			tasks: [
+				{
+					count: 4L
+					id: "5121974331B50FA4"
+					item: { Count: 6, id: "create_new_age:nuclear_fuel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BD9D994536B8C7E"
+					item: { Count: 3, id: "create_new_age:reactor_rod" }
+					type: "item"
+				}
+			]
+			title: "Fueling The Reactor"
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["551C411AF42EB74A"]
+			description: ["Copper Wire is the first conductive material in Create New Age. It can transfer up to 1,024 SU per tick, making it ideal for small-scale setups and early infrastructure. Easy to craft and perfect for getting started with power distribution."]
+			id: "6A8DA61B15FB4C3C"
+			rewards: [
+				{
+					count: 2
+					id: "141964EA2026BB28"
+					item: "create_new_age:electrical_connector"
+					type: "item"
+				}
+				{
+					id: "4D15291A36AA5344"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "pentagon"
+			size: 0.75d
+			subtitle: "The Basics of Power"
+			tasks: [{
+				count: 4L
+				id: "239C5089E2E927FC"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			title: "Copper Wire - Tier 1"
+			x: 7.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A8DA61B15FB4C3C"]
+			description: ["Overcharged Iron Wire is the second conductive material in Create New Age. It can transfer up to 2,048 SU per tick, offering double the throughput of Copper Wire. A solid choice for expanding power needs without breaking the resource bank."]
+			id: "185BCD0B4D9A9089"
+			rewards: [
+				{
+					count: 4
+					id: "6959669D5F0BCB65"
+					item: "create_new_age:overcharged_iron"
+					type: "item"
+				}
+				{
+					id: "0B223A7DD454F02D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 0.75d
+			subtitle: "Improved Throughput"
+			tasks: [{
+				count: 4L
+				id: "65256C0B4220C923"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			title: "Overcharged Iron Wire - Tier 2"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["185BCD0B4D9A9089"]
+			description: ["Overcharged Gold Wire is the third conductive material in Create New Age. It handles up to 4,096 SU per tick, making it perfect for mid-tier factories that demand reliable and consistent power delivery."]
+			id: "7E27C640D5CFBD0F"
+			rewards: [
+				{
+					count: 4
+					id: "23C4886630E83CC3"
+					item: "create_new_age:electrical_connector"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "08948E0516CE54AE"
+					item: "create_new_age:overcharged_gold"
+					type: "item"
+				}
+				{
+					id: "3CBBB36C2B44BB47"
+					type: "xp"
+					xp: 40
+				}
+			]
+			size: 0.75d
+			subtitle: "Greater Throughput"
+			tasks: [{
+				count: 4L
+				id: "2D28906ED7AE253C"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			title: "Overcharged Gold Wire - Tier 3"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E27C640D5CFBD0F"]
+			description: ["Overcharged Diamond Wire is the fourth conductive material in Create New Age. With a transfer rate of 8,192 SU per tick, it’s built for late-game machines and complex setups where maximum throughput is a must."]
+			id: "59852EA0BC7C93BA"
+			rewards: [
+				{
+					count: 4
+					id: "13A983180D0036DA"
+					item: "create_new_age:overcharged_diamond"
+					type: "item"
+				}
+				{
+					id: "157919CBD1D2B9A0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 0.75d
+			subtitle: "Maximum Throughput"
+			tasks: [{
+				count: 4L
+				id: "20D419259D8F0643"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			title: "Overcharged Diamond Wire - Tier 4"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1B6D21C4B3EFB0F3"
+				"5512C16D82D27A4B"
+				"09C6F70FAD426543"
+				"50588486100A469E"
+			]
+			description: ["You've sparked a revolution - mastering both heat and electricity. From reactors to motors, you've proven yourself to be a true master of heat and energy."]
+			hide_dependency_lines: false
+			icon: "createdeco:decal_electrical"
+			id: "5D7FDE62EB4CD5BA"
+			rewards: [
+				{
+					count: 16
+					id: "0710E23FED879BE0"
+					item: "create_new_age:nuclear_fuel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0457DCC19EB95130"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "682471BA691E14C5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "Heat and High Voltage"
+			tasks: [{
+				id: "54811945BD0F9E5C"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "Become the Master of Heat and Electricity!"
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: [
+				"These Connectors, and their respective spools are worse than Create New Age's wires in terms of power transferred per tick. However they might have some applications in cheap electrical setups.  "
+				""
+				"The Small Connector works only with Copper Spools, and the Large Connector only works with Gold Spools. "
+			]
+			hide_dependency_lines: true
+			icon: "createaddition:connector"
+			id: "207235DAC026C395"
+			rewards: [
+				{
+					count: 8
+					id: "7BC6114854AC097D"
+					item: "createaddition:iron_rod"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "44E5DE0E7AF22F0B"
+					item: "createaddition:gold_rod"
+					type: "item"
+				}
+				{
+					id: "1B79199D1F140149"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Connecting Current"
+			tasks: [
+				{
+					count: 3L
+					id: "6A98854DC921B97B"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3929D2A8B7D173F3"
+					item: "createaddition:large_connector"
+					type: "item"
+				}
+			]
+			title: "Electrical Connectors"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["207235DAC026C395"]
+			description: ["These spools carry less current than their New Age Counterparts, but they are cheap!"]
+			id: "20AE9FEF5370C09E"
+			rewards: [{
+				id: "03B225BCFDBF5406"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Cheap Transfer"
+			tasks: [{
+				id: "3FF9EFC18F421DAF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "createaddition:spools"
+					}
+				}
+				title: "Any #createaddition:spools"
+				type: "item"
+			}]
+			title: "Wire Spools"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["20AE9FEF5370C09E"]
+			description: ["This is a festive spool of wire used for decor!"]
+			id: "02D5F9483B0500F0"
+			rewards: [{
+				id: "30FDDDA342B112EB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Merry Christmas!"
+			tasks: [{
+				id: "177706F6CAB9499E"
+				item: "createaddition:festive_spool"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: [
+				"While not related to power, the Diamond Grit Sandpaper is still very useful. "
+				""
+				"The Diamond Grit Sandpaper is cheap and has 1024 durability, making it the superior way to sand gemstones!"
+				""
+				"It can also be Enchanted."
+			]
+			hide_dependency_lines: true
+			id: "5F8347535AA3686C"
+			rewards: [
+				{
+					count: 8
+					id: "1151D151F33E753A"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "2F49924ED2D0EB73"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "Superior Sanding"
+			tasks: [{
+				id: "6A7D453B0B6886A9"
+				item: {
+					Count: 1
+					id: "createaddition:diamond_grit_sandpaper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: ["The Alternator takes SU and turns it into FE. Use this when you need a little bit of extra power!"]
+			hide_dependency_lines: true
+			id: "1027BE4EAB7909BE"
+			rewards: [
+				{
+					count: 4
+					id: "61D8D70C2595DD20"
+					item: "createaddition:capacitor"
+					type: "item"
+				}
+				{
+					id: "4A872FB90EA2C249"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Power in a Pinch"
+			tasks: [{
+				id: "4D4184D82AAE6172"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: [
+				"The electrical motor is similar to New Age's motors, using FE to make SU. "
+				""
+				"However, they are less powerful, only capable of producing 2048 SU at 256 RPM while consuming 240 FE/tick. "
+			]
+			hide_dependency_lines: true
+			id: "271F476EA9516406"
+			rewards: [
+				{
+					count: 4
+					id: "07569CB92F9861CA"
+					item: "createaddition:gold_rod"
+					type: "item"
+				}
+				{
+					id: "116392E7BE09C385"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Inferior Motor"
+			tasks: [{
+				id: "470DE10D2EFDA28C"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: ["The accumulator stores mass amounts of FE. Pretty basic. "]
+			hide_dependency_lines: true
+			id: "1DF15EF03EC7009B"
+			rewards: [
+				{
+					id: "695B1A1A40DBD321"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+				{
+					id: "224D92E613E0BF79"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Power Storage"
+			tasks: [{
+				id: "77B2B72C651887DB"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: [
+				"The Tesla Coil is an additional way to energize items. It works slightly faster than the Reinforced Energizer. "
+				""
+				"The Tesla Coil energizes one item at a time as opposed to the bulk energizing of the New Age Energizers."
+			]
+			hide_dependency_lines: true
+			id: "6EDB7497A3815804"
+			rewards: [
+				{
+					count: 4
+					id: "2F2756341F00D32D"
+					item: "createaddition:copper_rod"
+					type: "item"
+				}
+				{
+					id: "43FAAE898C16BD33"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "The Cooler Energizer"
+			tasks: [{
+				id: "55F96AFEF20E16D7"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: [
+				"The Portable Energy Interface allows contraptions to push and pull electricity. "
+				""
+				"Check the ponder for more information. "
+			]
+			hide_dependency_lines: true
+			id: "05680CC97323045A"
+			rewards: [
+				{
+					count: 4
+					id: "00689874199B8C94"
+					item: "createaddition:copper_rod"
+					type: "item"
+				}
+				{
+					id: "1C54ED1278ECA1CA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "Contraption Connection"
+			tasks: [{
+				id: "6425B59B093817D7"
+				item: "createaddition:portable_energy_interface"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: ["The rolling mill allows you to create rods and wire. It requires a lot of SU, so be sure to slow it down early game. "]
+			hide_dependency_lines: true
+			id: "7AD9BF0F1C3E3E56"
+			rewards: [
+				{
+					count: 8
+					id: "529A96821161F778"
+					item: "createaddition:iron_rod"
+					type: "item"
+				}
+				{
+					id: "23F378B3D7506746"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Slow me DOWN!"
+			tasks: [{
+				id: "73972EE904205C3C"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: ["Seed Oil is the most basic fuel from Crafts and Additions. It is used to perform Heated Mixing or Compacting recipes; However, it is mainly used in producing Biomass."]
+			hide_dependency_lines: true
+			icon: "createaddition:seed_oil_bucket"
+			id: "2596B66F248D5230"
+			rewards: [
+				{
+					count: 4
+					id: "39D3DD9B058312AD"
+					item: "quark:stick_block"
+					type: "item"
+				}
+				{
+					id: "09E7E77D4FD06FE2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Basic Fuel"
+			tasks: [
+				{
+					count: 10L
+					id: "4EFFBBE1A956CAAF"
+					item: { Count: 10, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "2F0094721F067E5E"
+					item: "createaddition:seed_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "Seed Oil"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2596B66F248D5230"]
+			description: [
+				"Biomass is an ingredient used in making Biofuel - a powerfuel fuel used to Superheat Blaze Burners!"
+				""
+				"[\"\",{\"text\":\"It can also be used as solid fuel - see \"},{\"text\":\"Biomass as Fuel\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3375E1767DB96AE7\"},\"color\":\"blue\",\"underlined\":true}]"
+				""
+				"You'll want to automate this,"
+			]
+			id: "7D18E7607D0A105A"
+			rewards: [
+				{
+					count: 8
+					id: "334FA77E78127C20"
+					item: "createaddition:biomass"
+					type: "item"
+				}
+				{
+					id: "584472661119C48D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Organic Power"
+			tasks: [{
+				id: "295890A789D9AB75"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D18E7607D0A105A"]
+			description: ["The most powerful fuel added by Crafts and Additions. Biofuel enables Blaze Burners to perform Superheated Mixing and Compacting recipes."]
+			id: "3339F7052611D9DB"
+			rewards: [
+				{
+					count: 4
+					id: "3C03D8F72F81B63A"
+					item: "createaddition:bioethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "4179903B7AD92CE3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Eco - Friendly Fuel"
+			tasks: [{
+				id: "7A4DCCD83B5AC35F"
+				item: "createaddition:bioethanol_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7AD9BF0F1C3E3E56"]
+			description: ["Allows a blaze burner to accept liquids as fuel! This is very powerful! Right Click a Blaze Burner to give it a straw, then feed it some fluids with a pipe!"]
+			id: "4302EB82E6B92BCF"
+			rewards: [
+				{
+					count: 8
+					id: "462F4DE2B0CB6EBB"
+					item: "createaddition:straw"
+					type: "item"
+				}
+				{
+					id: "05FAF6207DAD2AB7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "Drink it UP!"
+			tasks: [{
+				id: "62E6D03C08E12E09"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6F8D724244463BFF"]
+			description: ["For the advanced redstoners out there! Hold shift to view its uses!"]
+			hide_dependency_lines: true
+			id: "2FD7FCE09868C1FC"
+			rewards: [{
+				id: "51CB1E2EC74AAFB1"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "Logical Energy"
+			tasks: [{
+				id: "5E978660BF95B488"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7D18E7607D0A105A"]
+			description: ["Biomass can be used to make Biomass Pellets and Pallets, which smelt a TON of items!"]
+			icon: "createaddition:biomass_pellet_block"
+			id: "3375E1767DB96AE7"
+			rewards: [
+				{
+					count: 8
+					id: "34EACD2F0CB626A0"
+					item: "createaddition:biomass_pellet_block"
+					type: "item"
+				}
+				{
+					id: "3D07249CD0AFC578"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Sustainable Fuel"
+			tasks: [
+				{
+					id: "0045CA41B8ECC52C"
+					item: "createaddition:biomass_pellet"
+					type: "item"
+				}
+				{
+					id: "315BA6FFCFAAA70A"
+					item: "createaddition:biomass_pellet_block"
+					type: "item"
+				}
+			]
+			title: "Biomass as Fuel"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Create has always been about motion - shafts, cogs, and windmills. But now, things are evolving. Create: New Age brings electricity into the mix, letting you build real-world inspired machines like generators and nuclear reactors."
+				""
+				"The steam age was fun. Now it's time to get electric."
+			]
+			icon: "create_new_age:generator_coil"
+			id: "005CAAA3685B5927"
+			rewards: [
+				{
+					count: 8
+					id: "039936E074DFAB83"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "4809B8F4D57EA8C1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Electricity and Heat"
+			tasks: [{
+				id: "623C763F2EDF3AB5"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Create New Age"
+			x: 7.0d
+			y: -1.0d
+		}
+	]
+	title: "Powering the Future (Create Power Addons)"
+}

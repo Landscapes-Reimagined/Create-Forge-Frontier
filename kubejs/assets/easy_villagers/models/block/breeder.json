@@ -1,0 +1,7 @@
+{
+  "parent": "easy_villagers:block/farm",
+  "textures": {
+    "front": "create:block/andesite_casing",
+    "back": "create:block/andesite_casing"
+  }
+}

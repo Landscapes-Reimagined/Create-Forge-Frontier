@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "forge_frontier:block/forge_rocket/forge_rocket_casing"
-  }
-}

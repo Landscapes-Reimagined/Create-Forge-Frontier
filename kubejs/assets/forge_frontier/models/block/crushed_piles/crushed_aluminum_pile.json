@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "forge_frontier:block/crushed_piles/crushed_aluminum_pile"
-  },
-  "render_type": "solid"
-}

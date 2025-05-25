@@ -231,7 +231,7 @@ ServerEvents.recipes(event => {
         results: [
           {
             count: 9,
-            item: 'enlightened_end:irradium_bar'
+            item: 'enlightened_end:depleted_irradium_bar'
           },
           {
             chance: 0.50,
@@ -252,7 +252,7 @@ ServerEvents.recipes(event => {
             results: [
               {
                 count: 1,
-                item: 'enlightened_end:irradium_bar'
+                item: 'enlightened_end:depleted_irradium_bar'
               },
               {
                 chance: 0.50,
@@ -309,7 +309,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'forge_frontier:crushed_uranium_pile'
+            item: 'create_compressed:crushed_uranium_pile'
           }
         ],
         results: [
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
         type: 'create:splashing',
         ingredients: [
           {
-            item: 'forge_frontier:crushed_tin_pile'
+            item: 'create_compressed:crushed_tin_pile'
           }
         ],
         results: [

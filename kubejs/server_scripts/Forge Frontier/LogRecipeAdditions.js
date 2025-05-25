@@ -33,20 +33,6 @@ chestTypes.forEach(chestType => {
     );
 });
 
-	
-	// Log to Chest Recipe
-	event.shaped(
-		Item.of('minecraft:chest', 4),
-		[
-			'AAA',
-			'A A',
-			'AAA'
-		],
-		{
-			A: '#minecraft:logs'
-		}
-	)
-
 // Log to Sophisticated Barrel Recipes
 const barrelTypes = [
     [{ item: 'sophisticatedstorage:barrel', nbt: { woodType: "oak" } }, 'minecraft:oak_log'],
@@ -93,16 +79,6 @@ barrelTypes.forEach(barrelType => {
 			B: '#minecraft:wooden_slabs'
 		}
 	);
-	
-	
-	// Alternate Stick Recipe
-	event.shaped(
-		Item.of('minecraft:stick', 16),
-		[
-			'#minecraft:logs',
-			'#minecraft:logs'
-		]
-	)
 
 	// Alternate Trapdoor Recipes
 	var trapdoor_types = [
@@ -281,8 +257,6 @@ barrelTypes.forEach(barrelType => {
 			}
 		)
 	});
-
-	
 
 	// Alternate Stair Recipes
 	var stairs_types = [

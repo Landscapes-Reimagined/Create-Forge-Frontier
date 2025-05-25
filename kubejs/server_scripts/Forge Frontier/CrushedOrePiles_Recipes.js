@@ -2,16 +2,12 @@
 ServerEvents.recipes(event => {
 
     const ores = [
-        { pile: 'crushed_lead_pile', raw: 'create:crushed_raw_lead' },
-        { pile: 'crushed_aluminum_pile', raw: 'create:crushed_raw_aluminum' },
         { pile: 'crushed_bismuth_pile', raw: 'forge_frontier:crushed_bismuth' },
         { pile: 'crushed_calorite_pile', raw: 'forge_frontier:crushed_calorite' },
         { pile: 'crushed_desh_pile', raw: 'forge_frontier:crushed_desh' },
         { pile: 'crushed_irradium_pile', raw: 'forge_frontier:crushed_irradium' },
         { pile: 'crushed_malachite_pile', raw: 'forge_frontier:crushed_malachite' },
         { pile: 'crushed_ostrum_pile', raw: 'forge_frontier:crushed_ostrum' },
-        { pile: 'crushed_tin_pile', raw: 'create:crushed_raw_tin' },
-        { pile: 'crushed_uranium_pile', raw: 'create:crushed_raw_uranium' },
 		{ pile: 'crushed_verdantine_pile', raw: 'forge_frontier:crushed_verdantine'},
 		{ pile: 'crushed_glacium_pile', raw: 'forge_frontier:crushed_glacium'},
 		{ pile: 'crushed_debris_pile', raw: 'forge_frontier:crushed_debris'},

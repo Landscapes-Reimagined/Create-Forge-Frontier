@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+      "template": 
+    {
+        "item": "unusualend:pearlescent_upgrade_smithing_template"
+    },
+  "base": {
+    "tag": "minecraft:music_discs"
+  },
+  "addition": {
+    "item": "unusualend:golem_orb"
+  },
+  "result": {
+    "item": "unusualend:music_disc_endstone_golem_theme"
+  }
+}

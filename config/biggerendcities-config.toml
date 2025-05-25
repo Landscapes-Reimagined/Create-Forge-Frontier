@@ -1,0 +1,16 @@
+
+["Configs for Bigger Better End Cities Mod"]
+	#Maximum number of generational steps. Recommended: 16
+	#Range: 1 ~ 1000
+	"Max Depth" = 8
+	#How many ships can spawn in a single city. Recommended: 10
+	#Range: 1 ~ 1000
+	"Max Ships" = 1
+	#How many Fat towers can generate per tower. Recommended: 6
+	#Range: 1 ~ 1000
+	"Max Fat Towers" = 2
+	#How long the average bridge will be. Must be: short, medium, or long. Recommended: medium
+	"Bridge Length" = "short"
+	#How long the average bridge will be. Must be: short, medium, or long. Recommended: true
+	"More Loot Rooms" = false
+

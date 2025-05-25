@@ -39,7 +39,7 @@
       "type": "minecraft:uniform",
       "value": {
         "min_inclusive": 10,
-        "max_inclusive": 15
+        "max_inclusive": 11
       }
     },
     "underwater": true

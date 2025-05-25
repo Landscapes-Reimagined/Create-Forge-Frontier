@@ -6,6 +6,11 @@
 	#Threshold of number of item entities dropped from chest / barrel above which break is canceled (unless shift key is pressed) and message is displayed explaining to player many drops and packing tape use
 	#Range: 0 ~ 1000
 	tooManyItemEntityDrops = 200
+	#Determines if limited barrel counts can be dyed to change their color
+	limitedBarrelCountDyeingEnabled = true
+	#Defines the maximum range of the controller at which it connects storage blocks to multiblock
+	#Range: 4 ~ 64
+	controllerRange = 15
 
 	#Wood Barrel Settings
 	[server.WoodBarrel]
@@ -700,4 +705,16 @@
 		#Number of lots displayed in a row
 		#Range: 1 ~ 6
 		slotsInRow = 4
+
+	#Alchemy Upgrade Settings
+	[server.alchemyUpgrade]
+		#Number of Alchemy Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 4
+
+	#Advanced Alchemy Upgrade Settings
+	[server.advancedAlchemyUpgrade]
+		#Number of Advanced Alchemy Upgrade's filter slots
+		#Range: 1 ~ 20
+		filterSlots = 8
 

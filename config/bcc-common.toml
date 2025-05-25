@@ -5,9 +5,9 @@
 	#Range: > 0
 	modpackProjectID = 992744
 	#The name of the modpack
-	modpackName = "Landscapes Reimagined Forge Frontier"
+	modpackName = "Create - Forge Frontier"
 	#The version of the modpack
-	modpackVersion = "v2.0.0"
+	modpackVersion = "v2.3.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false

@@ -5,40 +5,45 @@
 	group: "522267C8B93A6C20"
 	icon: "ad_astra:moon_globe"
 	id: "7187AADA58DBAAC6"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/moon_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/moon_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/moon_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			description: [
-				"The first step into the cosmos begins here!"
+				"&9🌕 One Small Step...&r"
 				""
-				"The Moon has long been a symbol of exploration and discovery, and now, it’s your turn to make history. With the power of Create and Ad Astra, you have the tools to leave the Overworld behind and venture into the unknown."
+				"The first step into the &3cosmos&r begins now!"
+				""
+				"The &fMoon&r—long a symbol of mystery and ambition—awaits your arrival. Thanks to the combined might of &bCreate&r and &dAd Astra&r, you now hold the power to leave the &aOverworld&r behind and launch into a new frontier."
+				""
 				"{@pagebreak}"
-				"But space is unforgiving. The vacuum of the Moon lacks oxygen, extreme temperatures make survival a challenge, and the resources you take with you may determine your fate. Careful preparation is key—without it, you may find yourself stranded among the craters with no way home."
 				""
-				"In this chapter, you will build your first rocket, land on the Moon, uncover its secrets, and mine its precious resources. From ancient structures to molten vents brimming with valuable materials, the Moon is more than just a lifeless rock—it's a gateway to the stars."
+				"But make no mistake—&cspace is unforgiving&r."
 				""
-				"🌌 Are you ready to take one small step for Steve, and one giant leap for your adventure? 🚀"
+				"The &7Moon&r offers no air to breathe, its frigid nights and searing days test even the most prepared explorers. Without proper equipment, shelter, and supplies, you risk being stranded in a crater of silence with no way back."
+				""
+				"Your mission is clear:"
+				""
+				"- Build your first &6Tier 1 Rocket&r.  "
+				"- Launch from the surface and survive lunar landing.  "
+				"- Explore strange structures and claim powerful resources.  "
+				"- Discover &6Molten Vents&r and hidden relics buried beneath the dust."
+				""
+				"{@pagebreak}"
+				""
+				"The Moon is no longer a distant dream—&nit’s your first step to the stars.&r  "
+				"Will you conquer the void, or become a ghost among the craters?"
+				""
+				"&b🚀 Adventure awaits beyond the sky.&r"
 			]
 			hide_dependent_lines: true
 			icon: "ad_astra:moon_globe"
@@ -50,21 +55,35 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Reaching for the Stars 🌕✨ Click me for more info!"
+			subtitle: "Build your rocket, conquer the Moon, and prepare for your journey among the stars. Click me for more info!"
 			tasks: [{
 				id: "25BEA3A967EBC520"
 				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
-			title: "The Moon"
+			title: "Lunar Awakening"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["1523A7C10CEF69AA"]
 			description: [
-				"Before setting foot on the Moon, you’ll need to prepare extensively. Space is harsh, and survival requires planning. You’ll need fuel, oxygen, and a Tier 1 Rocket to begin your journey. Ensure you’ve gathered everything before embarking—there’s no turning back once you launch! Learn how to craft the Tier 1 Rocket in its      "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A1C7563FC03C5F6\" } } "
+				"&6🚀 Mission Prep: Launch Protocol&r"
+				""
+				"Before you can set foot on the &fMoon&r, you must prepare for the &ccruel reality of space&r. The void offers no second chances—only those who plan ahead will survive."
+				""
+				"To begin your cosmic journey, you’ll need:"
+				""
+				"- A fully assembled &6Tier 1 Rocket&r  "
+				"- Enough &bFuel&r to escape the atmosphere  "
+				"- A functioning &3Oxygen System&r to keep you breathing"
+				""
+				"Gather your supplies, refine your engineering, and ensure every piece is in place—&lthere’s no turning back once you hit launch.&r"
+				""
+				"{@pagebreak}"
+				""
+				"Learn how to build your rocket and more in the  "
+				"{ \"text\": \"Tier 1 Rocket Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A1C7563FC03C5F6\" } }"
 			]
 			icon: "ad_astra:fuel_bucket"
 			id: "783280C62226C4D6"
@@ -74,7 +93,7 @@
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Fuel up, suit up, and get ready for launch—space waits for no one. Click me for more info!"
 			tasks: [
 				{
 					id: "3EFBFF05BF642A5B"
@@ -102,16 +121,24 @@
 					type: "item"
 				}
 			]
-			title: "Preparing for Liftoff 🚀"
+			title: "Final Checks Before Liftoff"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["783280C62226C4D6"]
 			description: [
-				"Before you can set foot on the Moon, you’ll need a fully functional space suit to protect you from the harsh conditions of the void. Unlike the Overworld, there’s no oxygen on the Moon, and exposure to the vacuum will quickly drain your health."
+				"&6🧑🚀 Suit Up for the Stars&r"
 				""
-				"Your space suit will keep you alive, but it must be properly equipped before departure. Crafting a full Ad Astra space suit is your next step toward becoming a true astronaut!"
+				"Before you set foot on the &fMoon&r, you’ll need more than just courage—you’ll need a fully equipped &bspace suit&r built to withstand the &cdangers of the void&r."
+				""
+				"The Moon has no oxygen, &4no atmosphere&r, and temperatures that would freeze or scorch the unprepared. Without protection, you won’t survive more than a few moments. Your only defense? A &lcomplete Ad Astra Space Suit&r."
+				""
+				"{@pagebreak}"
+				""
+				"Craft the helmet, chestplate, leggings, and boots, and ensure they're equipped and pressurized before launch. This suit is more than gear—it’s your &9lifeline&r among the stars."
+				""
+				"Only the fully suited survive. Are you ready to breathe among the craters?"
 			]
 			icon: {
 				Count: 1
@@ -137,7 +164,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Craft and equip your space suit—your survival depends on it. Click me for more info!"
 			tasks: [
 				{
 					id: "105848CC9BDD1D0E"
@@ -184,16 +211,24 @@
 					type: "item"
 				}
 			]
-			title: "Suiting Up for Space 🚀✨"
+			title: "Suit Up, Astronaut"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6977AFD24DE103EE"]
 			description: [
-				"Your space suit may protect you from the harshness of space, but without an oxygen supply, you won’t last long. To survive on the Moon, you need to generate and store oxygen to fill your suit’s tanks."
+				"&b🌬 Prepare Your Oxygen Supply&r"
 				""
-				"Ad Astra provides oxygen loaders and distributors, allowing you to refill your suit and set up breathable zones in bases beyond the Overworld. It’s time to prepare your life support system before launch!"
+				"A space suit might shield you from the vacuum, but without &9oxygen&r, your mission ends before it begins. Survival in the stars requires more than armor—it demands &lifesupport&r."
+				""
+				"To thrive on the &fMoon&r and beyond, you’ll need to set up &lAd Astra’s&r oxygen infrastructure. Use &aOxygen Loaders&r to fill your suit’s tanks, and place &aOxygen Distributors&r to create breathable pockets within your lunar outposts."
+				""
+				"{@pagebreak}"
+				""
+				"Build your system, power it up, and test your oxygen flow. Only then will you be truly &lready for liftoff&r."
+				""
+				"The void won’t wait—&fsecure your air&r before you soar. 🌌"
 			]
 			icon: "ad_astra:oxygen_bucket"
 			id: "3FD22E0DECD5522C"
@@ -213,7 +248,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Establish your oxygen systems to survive the void. Click me for more info!"
 			tasks: [
 				{
 					id: "2481D27E401F80BC"
@@ -231,13 +266,25 @@
 					type: "checkmark"
 				}
 			]
-			title: "Breathing Easy: Oxygen Setup 🔧"
+			title: "Oxygen Is Life"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3FD22E0DECD5522C"]
-			description: ["You’ve done it! You’ve broken free of Earth’s atmosphere and landed on the Moon. The landscape is barren, with low gravity, no oxygen, and new dangers lurking in the craters. Time to establish a safe base before venturing into the unknown."]
+			description: [
+				"&f🌕 First Steps on the Moon&r"
+				""
+				"&lYou did it!&r You’ve shattered the bounds of Earth’s sky and landed upon the silent, cratered surface of the &fMoon&r."
+				""
+				"The terrain is alien—&7low gravity&r, &7no atmosphere&r, and &7dangers hiding in the dust&r. With each step, you etch your legacy into the lunar soil, but survival won't wait."
+				""
+				"{@pagebreak}"
+				""
+				"Before exploring the vast unknown, focus on securing a &asafe lunar base&r. Establish &boxygen zones&r, build &ddefenses&r, and prepare for whatever the Moon has in store."
+				""
+				"The Earth is behind you. The cosmos lies ahead. &fYour mission begins now.&r 🚀🛰"
+			]
 			icon: "ad_astra:moon_sand"
 			id: "576F413F0C3117B1"
 			rewards: [
@@ -258,10 +305,11 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Secure your lunar landing site and prepare for survival. Click me for more info!"
 			tasks: [
 				{
 					dimension: "ad_astra:moon"
+					icon: "ad_astra:moon_globe"
 					id: "3015758342C6A8B4"
 					type: "dimension"
 				}
@@ -274,13 +322,25 @@
 					value: 32L
 				}
 			]
-			title: " One Small Step 🌕"
+			title: "Moonfall"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["576F413F0C3117B1"]
-			description: ["The Moon may seem lifeless, but hidden beneath its surface and across its landscape are signs of a forgotten era. Ancient Factories, once operational, may still contain valuable loot and technology. Meanwhile, pipelines from a past civilization stretch across the barren world, hinting at lost knowledge. Be prepared for a fight when exploring the Pipeline, Ancient Factory, or Moon Dungeon."]
+			description: [
+				"&f🌑 Relics of a Forgotten Moon&r"
+				""
+				"The Moon may appear desolate, but its silence hides the echoes of a bygone age. Scattered across its dusty plains lie &7Ancient Factories&r and &7derelict Pipelines&r—remnants of a once-thriving lunar civilization."
+				""
+				"These structures aren't just ruins—they’re &6gateways to rare technology&r and &6valuable loot&r. Explore carefully; the Moon guards its secrets well."
+				""
+				"{@pagebreak}"
+				""
+				"Whether you're delving into a &cMoon Dungeon&r, breaching an &eAncient Factory&r, or navigating the &bPipeline systems&r, expect &cdanger at every turn&r. Guardians, traps, and hostile forces lie in wait for the unprepared."
+				""
+				"&lWill you uncover lost knowledge or be buried with it?&r The Moon's mysteries are yours to claim—if you survive. 🌘🔧"
+			]
 			id: "229BA6C2D9B46694"
 			rewards: [
 				{
@@ -301,7 +361,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Explore ancient structures and face what lies hidden beneath the dust. Click me for more info!"
 			tasks: [
 				{
 					id: "3B13E9816B7BBC01"
@@ -329,13 +389,27 @@
 					type: "structure"
 				}
 			]
-			title: "The Moon’s Hidden Secrets 🏭"
+			title: "Moonbound Mysteries"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["229BA6C2D9B46694"]
-			description: ["The Moon holds unique resources essential for crafting advanced machinery. One of the most valuable is Aubrum, a molten ore vent exclusive to the Moon. Additionally, Moon Ice provides water for oxygen production and can be used in creating Cryo Fuel, and Cheese Ore—well, that’s just for fun! "]
+			description: [
+				"&f🌒 Lunar Riches Await&r"
+				""
+				"The Moon isn’t just a stepping stone—it’s a treasure trove of &6exclusive resources&r vital to your progression in space and automation."
+				""
+				"Deep within the lunar surface, you’ll discover &eAubrum&r—an ore found only in &cMolten Vents&r across the Moon’s terrain. This material is crucial for crafting &ladvanced machinery&r and powering your interplanetary ambitions."
+				""
+				"{@pagebreak}"
+				""
+				"But Aubrum isn’t the only lunar gem. &bMoon Ice&r can be harvested for water, which is essential for &aoxygen generation&r and even used in producing &9Cryo Fuel&r to power your future rockets."
+				""
+				"And don’t forget the rare &eCheese Ore&r—it might not fuel machines, but it’s a cosmic delicacy worth collecting just for the laughs. 🧀🌕"
+				""
+				"&lThe Moon offers more than mystery—it offers opportunity. Mine wisely, survive the elements, and turn lunar stone into starlit progress! 🚀"
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:diamond_pickaxe"
@@ -378,7 +452,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Mine rare moon-bound materials and fuel your journey to the stars. Click me for more info!"
 			tasks: [
 				{
 					block: "forge_frontier:aubrum"
@@ -413,15 +487,25 @@
 					value: 16L
 				}
 			]
-			title: "Mining the Moon ⛏"
+			title: "Lunar Harvest"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45077F865A2C8C02"]
 			description: [
-				"Your time on the Moon has been a learning experience, but the journey doesn’t stop here. With your new resources and knowledge, it's time to prepare for the next step in your space adventure—Mars awaits! Learn more about Mars in its      "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } } "
+				"&f🚀 Next Stop: The Red Frontier&r"
+				""
+				"Your time on the Moon has taught you how to survive in space, gather rare materials, and build a foothold beyond the Overworld. But this is only the beginning."
+				""
+				"Armed with &6lunar knowledge&r and &evaluable resources&r like Aubrum and Moon Ice, you're now ready to set your sights on the &4Red Planet&r. Mars presents new biomes, brutal conditions, and thrilling challenges that will push your ingenuity even further."
+				""
+				"{@pagebreak}"
+				""
+				"The path to Mars demands preparation—craft new fuel, reinforce your equipment, and brace for a world both harsh and full of potential."
+				""
+				"&lYour space journey continues—read more about conquering Mars in its&r  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
 			]
 			id: "2DC61E3DC8AF2A42"
 			rewards: [{
@@ -438,13 +522,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Use what you’ve learned on the Moon to prepare for a new planetary challenge. Click me for more info!"
 			tasks: [{
 				id: "67DCFC3AEAB3B985"
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: "Claiming your Victory on the Moon"
+			title: "Next Step: Mars"
 			x: 4.5d
 			y: 0.0d
 		}

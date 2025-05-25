@@ -1,0 +1,7 @@
+{
+  "parent": "easy_villagers:block/farm",
+  "textures": {
+    "front": "create:block/palettes/stone_types/cut/andesite_cut",
+    "back": "create:block/palettes/stone_types/cut/andesite_cut"
+  }
+}

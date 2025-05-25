@@ -382,3 +382,24 @@ guanoBurnFuel = true
 	#Range: 1 ~ 1000000
 	configVersion = 1
 
+["Desolate Daggers Options"]
+	#----------------------------------
+	#
+	# Multiplies the delay time for the floating dagger ability on Desolate Daggers.
+	# Doing 0.5 will halve the time for the ability.
+	#
+	#Range: 0.0 ~ 10.0
+	desolateDaggersAbilityDelay = 1.0
+	#----------------------------------
+	#
+	# Base damage for the floating dagger ability on Desolate Daggers.
+	#
+	#Range: 0.0 ~ 1000000.0
+	desolateDaggersAbilityBaseDamage = 2.0
+	#----------------------------------
+	#
+	# Extra damage per Impending Stable enchantment level for the floating dagger ability on Desolate Daggers.
+	#
+	#Range: 0.0 ~ 1000000.0
+	desolateDaggersAbilityImpendingStabDamage = 2.0
+

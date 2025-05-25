@@ -1,41 +1,591 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_utilities"
 	group: "3D5393E3938A9DF4"
 	icon: "createutilities:void_steel_ingot"
 	id: "14818C2771B281C5"
-	images: [
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/create_utilities_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
 		{
-			height: 10.0d
-			image: "ftb:textures/create_utilities_title.png"
-			rotation: 0.0d
-			width: 15.0d
+			description: [
+				"In order to craft the helpful items added by &5Create Utilities&r, you will need a steady supply of both &6Netherite Ingots&r and &bEnder Pearls&r. These can be used to craft &3Void Steel Ingots&r!"
+				""
+				"They are made by placing a &6Netherite Ingot&r and an &bEnder Pearl&r into a Basin that is being heated with a &cBlaze Burner&r, and then mixing with a &7Mechanical Mixer&r."
+				""
+				"&3Void Steel Ingots&r are the basis of (almost) every block added by &5Create Utilities&r, so be sure to stock up on them!"
+				""
+				"Your reward for making your first &3Void Steel Ingot&r? Nine more. Get mixing! "
+				""
+				"More Information on Page 2 ->"
+				"{@pagebreak}"
+				""
+				"This Questline will give you the ability to make &eTEN&r &3Void&r &7Create Components&r of your choosing! You will also get more in the rewards for each component!"
+				""
+				"Your Options? The &eVoid Battery&r, &6Void Chest&r, &7Void Motor&r, and &9Void Tank&r. Each are designed to seamlessly relay their respective resources across any distance! Whether it’s &eForge Energy (FE)&r, &6Items&r, &7Rotational Power&r, or &9Fluids&r, these devices ensure effortless transport - even across dimensions! "
+				""
+				"&l&cDISCLAIMER&r&r - The &7Void Motor&r sadly does not work across dimensions."
+			]
+			icon: "createutilities:void_steel_ingot"
+			id: "4E3D27B801618ECB"
+			rewards: [{
+				id: "437E822862656EFE"
+				item: "createutilities:void_steel_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Void Steel Ingot"
+			tasks: [
+				{
+					id: "63F9114E8518225F"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "51EC7BF9B5FF33D4"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "6F4ACEC9EFBED164"
+					item: "createutilities:void_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "Create Utilities - Beginnings"
 			x: 0.0d
-			y: -9.5d
+			y: -4.5d
 		}
 		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
+			dependencies: ["4E3D27B801618ECB"]
+			description: [
+				"Using a &7Mechanical Press&r and &7Depot&r, you are able to press a &3Void Steel Ingot&r, which gives you a &3Void Steel Sheet&r. "
+				""
+				"&3Void Steel Sheets&r can be used to create &dGraviton Tubes&r, a &6Crafting Ingredient&r used in making the special &3Void&r &7Create Components&r added by &5Create Utilities&r. "
+			]
+			icon: "createutilities:void_steel_sheet"
+			id: "4B62DBCCA1B43886"
+			rewards: [{
+				count: 5
+				id: "0F3FB253BB17F322"
+				item: "createutilities:void_steel_sheet"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "BONK!"
+			tasks: [
+				{
+					count: 5L
+					id: "502AC1C7BCAEE9C8"
+					item: {
+						Count: 5
+						id: "createutilities:void_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3B5BAAE02A3916A9"
+					item: {
+						Count: 5
+						id: "createutilities:void_steel_sheet"
+					}
+					type: "item"
+				}
+			]
+			title: "Void Steel Sheets"
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["4E3D27B801618ECB"]
+			description: [
+				"After making &3Void Steel Ingots&r, you will need to gather some &5Obsidian&r. In order to complete this Questline, you are required to obtain &ofive&r pieces of &5Obsidian&r."
+				""
+				"Using the gathered &5Obsidian&r and five of your &3Void Steel Ingots&r, use a &7Deployer&r to make five &3Void Casings&r. They are made by &7Deploying&r a &3Void Steel Ingot&r onto &5Obsidian&r. "
+				""
+				"&3Void Casings&r are a &6Crafting Ingredient&r used when crafting the &3Void&r &7Create Components&r."
+			]
+			icon: "createutilities:void_casing"
+			id: "1D3E1E26DEA16835"
+			rewards: [{
+				count: 5
+				id: "0665CA943322CAF3"
+				item: "createutilities:void_casing"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Deployer Recommended"
+			tasks: [
+				{
+					count: 5L
+					id: "0A0BEB37BB85FA5F"
+					item: { Count: 5, id: "minecraft:obsidian" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1708BDD06C6E4F7E"
+					item: {
+						Count: 5
+						id: "createutilities:void_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "43B64A277ACDF9C2"
+					item: {
+						Count: 5
+						id: "createutilities:void_casing"
+					}
+					type: "item"
+				}
+			]
+			title: "Void Casings"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E3D27B801618ECB"]
+			description: [
+				"&dPolished Amethyst&r is made by using &eSand Paper&r on an &dAmethyst Shard&r. This process can be automated or sped up by using a &7Deployer&r."
+				""
+				"This Questline requires you to obtain &oeight&r &dAmethyst Shards&r. "
+				""
+				"&dPolished Amethyst&r can be used to create &dGraviton Tubes&r, a &6Crafting Ingredient&r used in making the special &3Void&r &7Create Components&r added by &5Create Utilities&r. "
+			]
+			icon: "createutilities:polished_amethyst"
+			id: "1AED585916438F08"
+			rewards: [{
+				count: 2
+				id: "17947526CE142CD6"
+				item: "createutilities:polished_amethyst"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Sparkly"
+			tasks: [
+				{
+					count: 8L
+					id: "5221E4B918235662"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "25EDBBC1B89BF541"
+					item: {
+						Count: 1
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66FC5E663BE34B28"
+					item: {
+						Count: 8
+						id: "createutilities:polished_amethyst"
+					}
+					type: "item"
+				}
+			]
+			title: "Polished Amethyst"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AED585916438F08"
+				"4B62DBCCA1B43886"
+			]
+			description: [
+				"The &dGraviton Tube&r is made by combining a &dPolished Amethyst&r with a &7Void Steel Sheet&r. "
+				""
+				"It is a &6Crafting Ingredient&r used to make &3Void&r &7Create Components&r. "
+			]
+			id: "0AF993592685AFCC"
+			rewards: [{
+				id: "584DADB8B0FE17A0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 1.5d
+			subtitle: "Pulsing Energy"
+			tasks: [{
+				count: 10L
+				id: "5A73240F81F35338"
+				item: "createutilities:graviton_tube"
+				type: "item"
+			}]
+			title: "Graviton Tubes"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0AF993592685AFCC"
+				"1D3E1E26DEA16835"
+			]
+			description: [
+				"Now that you have ten &dGraviton Tubes&r and ten &3Void Casings&r, you are able to make &lTEN&r &3Void&r &7Create Components&r of your choosing. "
+				""
+				"But which should you make? "
+				""
+				"That's a great question. Read their dedicated quests to find out more!"
+			]
+			icon: "createutilities:void_casing"
+			id: "55FE222AB9393937"
+			rewards: [{
+				id: "0EFDF894E4BEB992"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			size: 1.5d
+			subtitle: "Create Component Time! "
+			tasks: [
+				{
+					count: 10L
+					id: "378DE84F684724F3"
+					item: {
+						Count: 10
+						id: "createutilities:graviton_tube"
+					}
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "76BC5A2C7F7A2298"
+					item: {
+						Count: 10
+						id: "createutilities:void_casing"
+					}
+					type: "item"
+				}
+			]
+			title: "Ready To Create"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55FE222AB9393937"]
+			description: [
+				"The &3Void&r &7Tank&r — a convenient way to transfer fluids across distances, added by &5Create Utilities&r."
+				""
+				"The &3Void&r &7Tank&r lets you link your fluid network and move fluids wirelessly, as long as the source is chunk-loaded."
+				""
+				"To set it up, place the &3Void&r &7Tank&r, then set the frequency by right-clicking the two empty slots on the back with an item in hand. Next, pipe your fluids into it. Then, place another &3Void&r &7Tank&r at the destination, and just like that — your fluids will transfer without the hassle of long pipe networks."
+			]
+			id: "75CB7660705F3FBC"
+			rewards: [{
+				count: 2
+				id: "313A185429FEC544"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Wireless Fluids"
+			tasks: [{
+				count: 2L
+				id: "5F20864DC69BFCF6"
+				item: "createutilities:void_tank"
+				type: "item"
+			}]
+			title: "Void Tank"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["55FE222AB9393937"]
+			description: [
+				"Ahh, the &3Void&r &7Motor&r — one of the most useful &7Create Components&r added by &5Create Utilities&r."
+				""
+				"The &3Void&r &7Motor&r allows you to easily link your stress network and access rotational power anywhere, as long as the stress unit producers are chunk-loaded."
+				""
+				"To use it, place the &3Void&r &7Motor&r and connect the shaft input to your stress network. Set the frequency using the two empty slots on the back by holding an item and right-clicking. Then, place a second &3Void&r &7Motor&r where you want to transfer your stress units — and voilà! You now have stress units available without needing stacks of shafts and gearboxes."
+				""
+				"Placing additional &3Void&r &7Motors&r attuned to the same frequency will still allow you to access your stress network - you are not limited to two per frequency. "
+			]
+			id: "2792B820DA471700"
+			rewards: [{
+				count: 2
+				id: "4CB9D320C1C1DC57"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Wireless SU Transfer"
+			tasks: [{
+				count: 2L
+				id: "069C6567FA70B94C"
+				item: "createutilities:void_motor"
+				type: "item"
+			}]
+			title: "Void Motor"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["55FE222AB9393937"]
+			description: [
+				"The &3Void&r &7Chest&r acts as a shared inventory, allowing you to link multiple chests by setting them to the same frequency."
+				""
+				"To use it, place a &3Void&r &7Chest&r and set the frequency by right-clicking the two empty slots on the back with an item in hand. Then, place a second &3Void&r &7Chest&r tuned to the same frequency wherever you need access — and just like that, you have a linked inventory without relying on complex transport systems. &3Void&r &7Chest&r are especially useful for saving on Item Pipez or moving items across large distances."
+				""
+				"More Information ->"
+				"{@pagebreak}"
+				""
+				"For example, if you’re producing netherrack on the first floor of your factory but your crushing wheel is on the second floor, you can place a &3Void&r &7Chest&r on the first floor, set a frequency, and pipe, chute, or belt the items into it. Then, place a second &3Void&r &7Chest&r on the second floor tuned to the same frequency to easily access the netherrack for cinder flour production."
+			]
+			id: "44BE87F436D13E01"
+			rewards: [{
+				count: 2
+				id: "686859BBFF5F2B6C"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Wireless Item Transfer"
+			tasks: [{
+				count: 2L
+				id: "634871DA962D5BF5"
+				item: "createutilities:void_chest"
+				type: "item"
+			}]
+			title: "Void Chest"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["55FE222AB9393937"]
+			description: [
+				"The &3Void&r &7Battery&r allows you to transfer FE (Forge Energy) wirelessly by linking batteries to the same frequency."
+				""
+				"To use it, place a &3Void&r &7Battery&r and set the frequency by right-clicking the two empty slots on the back with an item in hand. Next, use cables and connectors to add power. Then, place another &3Void&r &7Battery&r tuned to the same frequency where you want to receive power — and just like that, FE will transfer instantly without needing long cables or power lines."
+				""
+				"&3Void&r &7Batteries&r are perfect for powering machines across large distances or in hard-to-reach areas, making it easy to manage your energy network efficiently."
+			]
+			id: "55446C3FA506AB81"
+			rewards: [{
+				count: 2
+				id: "2D3A90B727ED765D"
+				item: "createutilities:void_battery"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Wireless FE "
+			tasks: [{
+				count: 2L
+				id: "1464C15929D27D1A"
+				item: "createutilities:void_battery"
+				type: "item"
+			}]
+			title: "Void Battery"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Create Utilities also adds two unique types of Gearboxes. "
+				""
+				"These are the 6-Axis Gearbox and the L-Shaped Gearbox. "
+				""
+				"Read more about them in their dedicated Quest."
+			]
+			icon: "create:gearbox"
+			id: "50148179967A1D35"
+			rewards: [{
+				id: "05BA4FA5EECE9B99"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Move that Rotational Power!"
+			tasks: [
+				{
+					count: 2L
+					id: "119E4EA874B3F6B6"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2EDF9C87A5D0CA09"
+					item: { Count: 8, id: "create:cogwheel" }
+					type: "item"
+				}
+			]
+			title: "Create Utilities - Gearboxes"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["50148179967A1D35"]
+			description: [
+				"The 6-Axis Gearbox translates rotational power on every face of the block. This could prove useful!"
+				""
+				"The 6-Axis Gearbox has a Ponder if you need more information on its uses."
+			]
+			id: "6815DBCAF453EA72"
+			rewards: [{
+				count: 3
+				id: "3278122C0F79CC93"
+				item: "createutilities:gearcube"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Now It's Time to Get Shafty!"
+			tasks: [
+				{
+					id: "483643CB2714A511"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "310031FB1788A546"
+					item: { Count: 6, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "4AABF96B47E7861F"
+					item: "createutilities:gearcube"
+					type: "item"
+				}
+			]
+			title: "6-Axis Gearbox"
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["50148179967A1D35"]
+			description: [
+				"Ever wanted to move rotational power in an L shape and been annoyed that the other two faces of the block still have shaft outputs? Well the L-Shaped Gearbox solves this problem!"
+				""
+				"&c&lNOTE&r&r: To use the L-Shaped gearbox properly, it is recommended that you pre-place shafts in the orientation in which you want the rotational power to go, and then place the L-Shaped Gearbox. Failing to do so will result in the L-Shaped Gearbox not properly facing the intended direction. It can also be rotated with a Wrench. "
+			]
+			id: "4DCE3590336670D0"
+			rewards: [{
+				count: 3
+				id: "01DCBB550CF9A9BC"
+				item: "createutilities:lshaped_gearbox"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Clean Corners"
+			tasks: [
+				{
+					id: "4DA15AAC574794C8"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "405E5D8E11622DBD"
+					item: { Count: 2, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "77F5F2A53BA4ABDF"
+					item: "createutilities:lshaped_gearbox"
+					type: "item"
+				}
+			]
+			title: "L-Shaped Gearbox"
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4E3D27B801618ECB"]
+			description: [
+				"&5Create Utilities&r also adds some decorative blocks made using&3 Void Steel ingots&r."
+				""
+				"If you choose to make them, you will get your &3Void Steel Ingots&r back via this quest's rewards!"
+			]
+			hide_dependency_lines: true
+			id: "1F0819A619FD40FF"
+			rewards: [{
+				count: 3
+				id: "158D347CA8ACFE98"
+				item: "createutilities:void_steel_ingot"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Dark Decor"
+			tasks: [
+				{
+					count: 2L
+					id: "6050C9DCED9699BC"
+					item: "createutilities:void_steel_scaffolding"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A8051EE0899E5AD"
+					item: "createutilities:void_steel_ladder"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3DBADD11C6817312"
+					item: "createutilities:void_steel_bars"
+					type: "item"
+				}
+			]
+			title: "Decorating With Void Steel"
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1AED585916438F08"]
+			description: [
+				"&5Create Utilities&r also adds some decorative blocks made using &dPolished Amethyst&r."
+				""
+				"If you choose to make them, you will get your &dPolished Amethyst&r back via this quest's rewards!"
+			]
+			hide_dependency_lines: true
+			id: "7AF2A84C59BC1180"
+			rewards: [{
+				count: 2
+				id: "693ADBFCA1E76051"
+				item: "createutilities:polished_amethyst"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Ooh Shiny"
+			tasks: [
+				{
+					count: 2L
+					id: "39F4D3C3170BC0B6"
+					item: "createutilities:amethyst_tiles"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3071B9B7C0569DD8"
+					item: "createutilities:small_amethyst_tiles"
+					type: "item"
+				}
+			]
+			title: "Decorating With Polished Amethyst"
+			x: 1.5d
+			y: 15.5d
+		}
 	]
-	order_index: 1
-	quest_links: [ ]
-	quests: [{
-		id: "4E3D27B801618ECB"
-		shape: "gear"
-		size: 3.0d
-		tasks: [{
-			id: "4630BCBF9436387F"
-			item: "createutilities:void_steel_ingot"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -4.5d
-	}]
 	title: "Engineering Marvels Unleashed (Create Utilities)"
 }

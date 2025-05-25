@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/compressed_blocks/compressed_golden_sheet_block_2x"
+    }
+  }
+}

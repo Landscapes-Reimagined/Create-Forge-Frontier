@@ -2,7 +2,7 @@
   "client": {
     "disableColoredCableRecipesInJEI": true,
     "enableFacadesInJEI_comment": "Show facades in JEI ingredient list",
-    "enableFacadesInJEI": true,
+    "enableFacadesInJEI": false,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
     "enableFacadeRecipesInJEI": false,
     "enableEffects": true,
@@ -22,7 +22,7 @@
     "terminalMargin": 25
   },
   "terminals": {
-    "terminalStyle": "small",
+    "terminalStyle": "medium",
     "pinAutoCraftedItems_comment": "Pin items that the player auto-crafts to the top of the terminal",
     "pinAutoCraftedItems": true
   },

@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "forge_frontier:item/end_remastered_items/deep_forge_chisel"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 50],
+			"translation": [-0.25, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -50],
+			"translation": [-0.25, 1, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 50],
+			"translation": [2.75, 3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -50],
+			"translation": [2.75, 3.25, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 1.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

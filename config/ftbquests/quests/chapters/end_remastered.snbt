@@ -3,29 +3,18 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "end_remastered"
-	group: "56FECAF3F592F5B2"
+	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:end_portal_frame"
 	id: "01DD8338C9E8DE75"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/end_remastered_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 38.0d
-			image: "ftb:textures/endportalframe.png"
-			order: -1
-			rotation: 0.0d
-			width: 68.7d
-			x: 0.0d
-			y: 5.0d
-		}
-	]
-	order_index: 0
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/end_remastered_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -87,10 +76,40 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Black Eye in its dedicated chapter:"
-				"{ \"text\": \"Black Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F79264655FD327E\" } }"
+				"Plundered from the depths of legend, the &0Black Eye&r once granted the Black Pearl its ghostly sight—guiding it through storms, shadows, and uncharted waters.  "
+				"Forging this mythical artifact will require your mastery of &lMechanical Crafting&r, using the ancient recipe shown below.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_black_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Each sacred component lies hidden within the cursed pirate ships scattered across the Seven Seas, brought forth by the mod &6When Dungeons Arise: Seven Seas&r.  "
+				"The next few pages will guide you to each relic needed to awaken the Black Eye."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlackbeard’s Musket&r, a legendary firearm said to echo with the roar of the high seas, can be found within the treacherous halls of the &ePirate Junk&r.  "
+				"Forged for fear rather than finesse, it was a symbol of terror worth a king’s ransom.  "
+				"{image:ftb:textures/junk_ship.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlackbeard’s Cutlass&r, a fearsome blade that sailed across countless bloody raids, rests aboard the mighty &eVictory Frigate&r.  "
+				"Its edge has tasted gold, command, and countless tales of the high seas. Few who crossed its path lived to tell the tale.  "
+				"{image:ftb:textures/frigate.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCursed Cannonballs&r, heavy iron relics of devastation, are said to be found within the &eCorsair Corvette&r or the ghostly &eUnicorn Galleon&r.  "
+				"Each cannonball carries not just brute force—but the weight of dread, leaving behind echoes of thunder and ghostly flames.  "
+				"{image:ftb:textures/corvette.png width:100 height:100 align:center}  "
+				"{image:ftb:textures/unicorn.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"⚔ &nPrepare yourself before venturing into these haunted ships.&r  "
+				"They are heavily fortified with treacherous spawners, summoning ruthless pirate crews, spectral guardians, and ancient curses.  "
+				"Only the bravest—and the cleverest—will claim the fragments needed to forge the Black Eye and command the shadows of the seas!"
 			]
 			icon: {
 				Count: 1
@@ -100,27 +119,94 @@
 				}
 			}
 			id: "56C98E29485174A1"
-			rewards: [{
-				id: "5949E55F4B42AF48"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Plundered from the depths of legend, this eye granted the Black Pearl its ghostly sight, guiding it through storms and shadows. Click me for more info! "
-			tasks: [{
-				id: "3ADA06695EB061C1"
-				stat: "minecraft:boat_one_cm"
-				type: "stat"
-				value: 10
-			}]
-			title: "Black Eye"
+			rewards: [
+				{
+					id: "4CA998864576EA84"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+				{
+					id: "53E428BE1FA9BBE2"
+					item: "supplementaries:cannonball"
+					type: "item"
+				}
+				{
+					id: "10395A91022A2B57"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Plunder the cursed seas and reclaim the relic that sees beyond storms and shadows. Click me for more info!"
+			tasks: [
+				{
+					id: "6EC8D66227C13854"
+					structure: "dungeons_arise_seven_seas:corsair_corvette"
+					type: "structure"
+				}
+				{
+					id: "793273E7A002D476"
+					structure: "dungeons_arise_seven_seas:pirate_junk"
+					type: "structure"
+				}
+				{
+					id: "0ACD11A4794B6996"
+					structure: "dungeons_arise_seven_seas:unicorn_galleon"
+					type: "structure"
+				}
+				{
+					id: "60931583FA6783D5"
+					structure: "dungeons_arise_seven_seas:victory_frigate"
+					type: "structure"
+				}
+				{
+					id: "1F979919297717EE"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forging the Black Eye"
 			x: -6.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Cold Eye in its dedicated chapter:"
-				"{ \"text\": \"Cold Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"13FE50BC5ED7CC02\" } }"
+				"Forged from the bitter remnants of a frozen age, the &bCold Eye&r stands as the last legacy of the vanished Iceologers—an artifact of mystery, power, and chilling beauty.  "
+				"To recreate this relic, you must master the art of &lMechanical Crafting&r, using the ancient recipe shown below.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cold_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Each fragment needed to restore the Cold Eye lies hidden deep within the frozen wastelands of &9Ad Astra's Glacio&r—a world of endless ice and peril.  "
+				"The following pages will guide you through where to find each essential component."
+				""
+				"{@pagebreak}"
+				""
+				"- &lPermafrost&r:  "
+				"  Fragments of ancient frozen soil found scattered across the surface of &eGlacio&r. Harvest carefully—its cold runs deeper than the ice itself.  "
+				"{image:ftb:textures/glacio_screenshot.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlack Steel Block&r:  "
+				"  Rarely found in the frozen vaults of the &eFrosted Prison&r, this precious ingot was once used by Glacio's forgotten civilizations to craft weapons strong enough to endure eternal winter.  "
+				"{image:ftb:textures/prison.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCursium Ingot&r:  "
+				"  A cursed metal forged from the remains of Maledictus—the fearsome boss of Cataclysm. Only by defeating this frozen horror can you claim the ingot needed to complete the Cold Eye.  "
+				"{image:ftb:textures/male.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"❄ &nTread carefully, explorer.&r  "
+				"Glacio is no ordinary planet—it is a tomb of forgotten empires and lingering curses. Only those with strength, courage, and an undying flame within will forge the &bFrozen Legacy&r and awaken the true power of the Cold Eye."
 			]
 			icon: {
 				Count: 1
@@ -130,28 +216,84 @@
 				}
 			}
 			id: "01E99C2EF36E6886"
-			rewards: [{
-				id: "377416F083E918B7"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Left behind by the elusive Iceologers, this eye holds the last whispers of their frozen magic. It radiates the chill of their vanished realm. Click me for more info! "
-			tasks: [{
-				id: "613AA0ECF6319E9D"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:snow"
-				type: "observation"
-			}]
-			title: "Cold Eye"
+			rewards: [
+				{
+					id: "0C87F9965F7DE3C1"
+					item: "cataclysm:the_annihilator"
+					type: "item"
+				}
+				{
+					id: "3CC140F3C6C5677F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Unearth the Cold Eye, last echo of the vanished Iceologers. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "59B58EB151B1BD54"
+					type: "dimension"
+				}
+				{
+					id: "78B4A9DCA43E1834"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+				{
+					id: "42E04B55553DB601"
+					item: {
+						Count: 1
+						id: "endrem:cold_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Frozen Legacy"
 			x: -4.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Nether Eye in its dedicated chapter:"
-				"{ \"text\": \"Nether Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3052DCEA1C676846\" } }"
+				"Born from the fiery clash between the Aether and the Nether, the &cNether Eye&r is a relic of unimaginable power—a fragment of war and dominion that once shaped the realms themselves.  "
+				"To claim this artifact, you must master &lMechanical Crafting&r and retrieve ancient treasures long buried in flame and ruin.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_nether_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The components needed to forge the Nether Eye lie scattered across the Nether’s most treacherous ruins.  "
+				"The next pages will guide you through the infernal journey ahead."
+				""
+				"{@pagebreak}"
+				""
+				"- &lHades' Bident&r:  "
+				"  A weapon of judgment forged in the deepest fires of the underworld. Legends claim the very earth splits beneath its strike.  "
+				"  Seek this fearsome relic within the ruins of the &eAncient Portal Structure&r, from the mod &cIntegrated Dungeons and Structures (IDAS).  "
+				"{image:ftb:textures/nether_portal.png width:150 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Obol&r:  "
+				"  A single coin said to bear the weight of eternity itself—the fare for crossing into the afterlife.  "
+				"  It can be found within the forgotten &eHopo's Piglin Ruin&r, buried among the relics of those who once sought passage between worlds.  "
+				"{image:ftb:textures/piglin_ruin.png width:150 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCerberus’s Fang&r:  "
+				"  Torn from the maw of the infernal guardian of the underworld, this fang pulses with eternal fury and vigilance.  "
+				"  Seek it within the fiery halls of the &eQuartz Kitchen&r, a twisted structure born of &cIncendium’s&r corrupted Nether landscapes.  "
+				"{image:ftb:textures/kitchen.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🔥 &nSteel yourself for this journey across flame and fury.&r  "
+				"The Nether Eye is a relic not easily claimed. Its pieces are guarded by forces both ancient and wrathful—and the price of failure is steep.  "
+				"Only those who conquer fire, fury, and temptation will earn the Demon’s Gaze and hold the power to shape realms anew."
 			]
 			icon: {
 				Count: 1
@@ -161,28 +303,101 @@
 				}
 			}
 			id: "2037E72162F48338"
-			rewards: [{
-				id: "0A9183AC19E12C47"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Cast aside in the fiery battle between the Aether and the Nether, this eye pulses with the wrath of a demon. It smolders with unrelenting power. Click me for more info! "
-			tasks: [{
-				id: "699239B8436B37A2"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:netherrack"
-				type: "observation"
-			}]
-			title: "Nether Eye"
+			rewards: [
+				{
+					id: "3A540325E510C9E4"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "381A0932AF1BB4A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reforge the Nether Eye, born from fire and ancient war. Click me for more info! "
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "53376422A307985C"
+					type: "dimension"
+				}
+				{
+					id: "3E2BEB2EB4185033"
+					structure: "idas:ancient_portal/nether_ancient_portal"
+					type: "structure"
+				}
+				{
+					id: "61915C8F12152AD8"
+					structure: "hopo:piglin_ruin"
+					type: "structure"
+				}
+				{
+					id: "2E1AD6A79DFA9626"
+					structure: "incendium:quartz_kitchen"
+					type: "structure"
+				}
+				{
+					id: "7F02EF752231963E"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Demon’s Gaze"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Old Eye in its dedicated chapter:"
-				"{ \"text\": \"Old Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"11351D359F8A3CCB\" } }"
+				"Torn from the grasp of a mighty Sandworm, the &eOld Eye&r carries with it the enduring essence of deserts long buried by time.  "
+				"It glimmers faintly with the sands of legend, waiting for one worthy to rekindle its ancient power.  "
+				"To forge this relic, you must master &lMechanical Crafting&r and reclaim the treasures left behind by civilizations swallowed by shifting dunes.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_old_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The sands hide more than history—they guard relics touched by gods and kings alike.  "
+				"The following pages will guide you on your journey across forgotten deserts and cursed ruins."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Winged Sun&r:  "
+				"  An emblem of forgotten power, once worn by sun-kissed kings who ruled deserts with wisdom and might.  "
+				"  Seek this sacred relic within the ancient &eDesert Pyramid&r structures of &eIntegrated Dungeons and Structures (IDAS)&r.  "
+				"{image:ftb:textures/idas_pyramid.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lRa’s Scepter&r:  "
+				"  A divine weapon bathed in the light of the sun god himself. Its radiant power once seared across battlefields like the midday sun.  "
+				"  Find this artifact hidden deep within the &eDesert Temples&r revamped by &eBetter Desert Temples&r.  "
+				"{image:ftb:textures/better_pyramid.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lNecklace of the Desert&r:  "
+				"  A sacred charm buried within the &eCursed Pyramid&r on Venus, hidden among layers of &eSuspicious Sand&r left by the ancients.  "
+				"  It is said to hold the key to awakening forces long thought lost to legend.  "
+				"{image:ftb:textures/cursed_pyramid.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lRemnant’s Skull&r:  "
+				"  Claimed by defeating the &eAncient Remnant&r, a guardian entombed deep within the Cursed Pyramid’s heart.  "
+				"  It carries the final breath of an empire lost to time, and its defeat is the final test of your resolve.  "
+				"{image:ftb:textures/remnant.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🏜 &nThe desert is timeless, but it does not forgive.&r  "
+				"Only those who endure the heat, unearth the secrets buried in sand and stone, and overcome the ancient curses will restore the &eOld Eye&r and rekindle the fire of legends long past."
 			]
 			icon: {
 				Count: 1
@@ -192,28 +407,104 @@
 				}
 			}
 			id: "73B3517C59793125"
-			rewards: [{
-				id: "7C7F0458B68B4C64"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Torn from the grasp of a mighty Sandworm, this ancient eye carries the essence of deserts long buried by time. It glimmers faintly with the sands of legend. Click me for more info! "
-			tasks: [{
-				id: "1EA60D8885CD3B3E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:sand"
-				type: "observation"
-			}]
-			title: "Old Eye"
+			rewards: [
+				{
+					id: "0B28FAE6396C9EF5"
+					item: "cataclysm:modern_remnant_bucket"
+					type: "item"
+				}
+				{
+					id: "6C18B3E9F1CBB2B8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reclaim the Old Eye and awaken the buried power of ancient kings. Click me for more info! "
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "12EB949A0523D20B"
+					type: "dimension"
+				}
+				{
+					id: "25BC60734F6D9091"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+				{
+					id: "49812CF7CA4B4951"
+					structure: "betterdeserttemples:desert_temple"
+					type: "structure"
+				}
+				{
+					id: "39B3728CC835FABE"
+					structure: "idas:desert_pyramid"
+					type: "structure"
+				}
+				{
+					id: "0B3524C9493ECB27"
+					item: {
+						Count: 1
+						id: "endrem:old_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sands of Eternity"
 			x: 6.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Rogue Eye in its dedicated chapter:"
-				"{ \"text\": \"Rogue Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5C659D0836CA815B\" } }"
+				"Imbued with the brilliance of ancient minds, the &6Rogue Eye&r is a relic that once illuminated the birth of Redstone itself.  "
+				"It hums softly with the ingenuity and daring of a bygone age—an artifact meant for those bold enough to reforge its legacy.  "
+				"To create this marvel, you must master &lMechanical Crafting&r and gather the finest inventions forged by machine, metal, and mind.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_rogue_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike other relics torn from battle or myth, the Rogue Eye is crafted through the spark of invention and the relentless pursuit of progress.  "
+				"The pages ahead will guide you through the path of innovation."
+				""
+				"{@pagebreak}"
+				""
+				"- &lMechanism Block&r:  "
+				"  Forged through a masterpiece of precision engineering, a Mechanism Block requires crafting &e9 Precision Mechanisms&r.  "
+				"  Each Mechanism is created via Sequenced Assembly, where a Gold Sheet is looped five times through:  "
+				"  - Applying a &eGold Nugget&r  "
+				"  - Applying a &eCogwheel&r  "
+				"  - Applying a &eLarge Cogwheel&r  "
+				"  Precision, patience, and a mastery of automation are key.  "
+				"{image:ftb:textures/mechanism.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBrass Block&r:  "
+				"  A gleaming testament to progress, a Brass Block is formed by gathering &e9 Brass Ingots&r.  "
+				"  Create Brass Ingots through Heated Mixing, combining a &eCopper Ingot&r and a &eZinc Ingot&r to yield two brilliant ingots of brass.  "
+				"{image:ftb:textures/brass.png width:50 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lMithril Ingot&r:  "
+				"  A rare alloy, glowing with inner vitality and strength.  "
+				"  Mithril is obtained by Superheated Mixing, combining:  "
+				"  - &eSteel&r  "
+				"  - &eChromatic Compound&r  "
+				"  - &eGlowberry Milkshake&r  "
+				"  - &eXP Nuggets&r  "
+				"  This fusion of metal, light, and experience yields a material unlike any other.  "
+				"{image:ftb:textures/mithril.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"⚙ &nIngenuity is the beating heart of the Rogue Eye.&r  "
+				"To awaken its brilliance, you must master both machine and mind—welding together the achievements of creation to honor the first sparks that gave rise to Redstone itself.  "
+				"Only true inventors will succeed in forging this symbol of progress and legacy."
 			]
 			icon: {
 				Count: 1
@@ -223,26 +514,74 @@
 				}
 			}
 			id: "5094745CE014E74E"
-			rewards: [{
-				id: "570DA45BACC69ABE"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Imbued with the brilliance of our ancestors, this eye once illuminated the birth of Redstone. It hums with the ingenuity of a bygone age. Click me for more info! "
+			rewards: [
+				{
+					id: "5C1D466E98423488"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "493E7A348E8B54C7"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "0BD35C7AF84433DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Rogue Eye and reignite the brilliance of ancient innovation. Click me for more info! "
 			tasks: [{
-				id: "285406B696FD873D"
-				item: "create:brass_ingot"
+				id: "1240B40B2BDB0A70"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "Rogue Eye"
+			title: "Spark of Ingenuity"
 			x: 7.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Cursed Eye in its dedicated chapter:"
-				"{ \"text\": \"Cursed Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2575E9C7F4C52FA1\" } }"
+				"Guarded fiercely by Piglin warlords and ancient oaths, the &4Cursed Eye&r radiates a dark power—promising ruin to its enemies and might to those bold enough to claim it.  "
+				"Forging this forbidden relic will require mastery of &lMechanical Crafting&r and the courage to tear it from the heart of the Nether’s strongest strongholds.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cursed_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Each piece of the Cursed Eye holds a story of conquest, greed, and blood-soaked loyalty.  "
+				"The following pages will guide you into the heart of Piglin dominions where these relics await."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAxe of the Brute Warlord&r:  "
+				"  Forged in endless war and baptized in blood, this brutal weapon is no symbol of elegance—it is a declaration of raw strength.  "
+				"  Seek it deep within the &eTreasure Bastions&r of the Nether, where the Piglin Warlords still guard their ancestral power.  "
+				"{image:ftb:textures/bastion.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lTotem of the Crimson Pact&r:  "
+				"  A dark relic bound by ancient oaths and forbidden magic. It thrums with the loyalty—and the curses—of long-fallen Piglin champions.  "
+				"  This totem can be found within the ruins of the &eAbandoned Tower&r, a twisted structure left behind by &cIncendium’s&r corrupted Nether tribes.  "
+				"{image:ftb:textures/tower.png width:125 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCrown of the Golden Tusks&r:  "
+				"  Once worn by the Piglin King himself, this golden crown radiates brutal dominion and boundless greed.  "
+				"  To claim it, you must defeat the &eWildfire&r—an infernal guardian lurking within the &eCitadel&r brought forth by &eFriends and Foes&r.  "
+				"{image:ftb:textures/citadel.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"🔥 &nThose who seek the Cursed Eye must tread carefully.&r  "
+				"Victory promises power—but the Eye's curse promises eternal unrest for those too weak to master it. Conquer the Piglin legacies, tear down their empires, and claim the right to wield the ruinous might of the Cursed Eye."
 			]
 			icon: {
 				Count: 1
@@ -252,28 +591,100 @@
 				}
 			}
 			id: "0A4D8CFE603872F8"
-			rewards: [{
-				id: "31FC5A8F1950733C"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Guarded fiercely by the Piglins, this artifact is said to wield destructive power. It radiates with a promise of both ruin and might. Click me for more info! "
-			tasks: [{
-				id: "72488260E6B67599"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:netherrack"
-				type: "observation"
-			}]
-			title: "Cursed Eye"
+			rewards: [
+				{
+					id: "34486C263F303671"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "03E3894426A773D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Cursed Eye and command the legacy of Piglin kings. Click me for more info! "
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "13B2BC962FDC44D2"
+					type: "dimension"
+				}
+				{
+					id: "0044B887B68BFF0B"
+					structure: "#minecraft:bastion_remnant"
+					type: "structure"
+				}
+				{
+					id: "07D168443D631F33"
+					structure: "incendium:abandoned_tower"
+					type: "structure"
+				}
+				{
+					id: "471327733A3AF952"
+					structure: "friendsandfoes:citadel"
+					type: "structure"
+				}
+				{
+					id: "5092501A213675FE"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pact of Ashes"
 			x: 7.5d
 			y: 12.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Evil Eye in its dedicated chapter:"
-				"{ \"text\": \"Evil Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1EDDECA49014856D\" } }"
+				"Revered as a holy artifact from ancient times, the &aEvil Eye&r is no simple trinket—it is a powerful talisman said to shield its bearer from misfortune and turn aside dark intentions.  "
+				"To forge this relic of protection, you must master &lMechanical Crafting&r and gather sacred relics scattered across ancient ruins and forgotten graves.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_evil_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The pieces required to complete the Evil Eye are bound to civilizations that once sought divine protection against the darkness.  "
+				"The following pages will guide you on your sacred journey."
+				""
+				"{@pagebreak}"
+				""
+				"- &lEmerald&r:  "
+				"  Symbols of prosperity and spiritual balance, emeralds can be harvested through &eVerdantine Molten Vents&r in mountain biomes, mined from mountain caves, or traded with wise Villagers.  "
+				"{image:ftb:textures/verdantine_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Vases (Green and Blue)&r:  "
+				"  Preserved treasures of forgotten civilizations, these vases carry the whispers of prayers and rituals from a lost age.  "
+				"  They can be found hidden within the &eCatacombs&r of &eBetter Archeology&r, or obtained through careful trade with Villagers.  "
+				"{image:ftb:textures/catacombs.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lVillager Hat&r:  "
+				"  A relic buried within timeworn settlements, often discovered in &eTrail Ruins&r through careful sifting of suspicious sand and gravel.  "
+				"  They can also sometimes be found among the relics scattered through &eIntegrated Villages&r.  "
+				"{image:ftb:textures/trail_ruins.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lVillager Fossil Skull&r:  "
+				"  The sacred remains of ancient villagers, fossilized and hidden within &eFossiliferous Dirt&r found deep within the &eVillager Graves&r of &eBetter Archeology&r.  "
+				"  These skulls serve as a grim testament to forgotten generations who sought the blessings of the Evil Eye.  "
+				"{image:ftb:textures/villager_grave.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌟 &nThe Evil Eye is a gift—but one not granted lightly.&r  "
+				"You must honor the ruins of the past, brave the forgotten catacombs, and unearth sacred relics to forge this talisman of protection.  "
+				"Only those with pure determination and careful hands can claim the blessing of the ancients and wield the Evil Eye’s warding power."
 			]
 			icon: {
 				Count: 1
@@ -283,26 +694,112 @@
 				}
 			}
 			id: "3B18C690B23D4C39"
-			rewards: [{
-				id: "1CFCE4EB9F932ADF"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Revered as a holy artifact, this talisman protects its bearer from misfortune. Its aura wards off curses and dark intentions. Click me for more info! "
-			tasks: [{
-				id: "4CD760A1596D61A4"
-				item: "minecraft:emerald"
-				type: "item"
-			}]
-			title: "Evil Eye"
+			rewards: [
+				{
+					id: "07882F471CE68BBF"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "4B4DD137075303D9"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "4B761789F5A2075D"
+					item: "easy_villagers:auto_trader"
+					type: "item"
+				}
+				{
+					id: "75D4C3B5E3E16493"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Evil Eye and stand shielded against misfortune and darkness. Click me for more info! "
+			tasks: [
+				{
+					icon: "forge_frontier:verdantine"
+					id: "47C1EAC5B11307CB"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forge_frontier:verdantine"
+					type: "observation"
+				}
+				{
+					id: "78681FF24DC89F31"
+					structure: "betterarcheology:catacombs"
+					type: "structure"
+				}
+				{
+					id: "16314F21E0C1380B"
+					structure: "minecraft:trail_ruins"
+					type: "structure"
+				}
+				{
+					id: "4732B9E72C5F3DBB"
+					structure: "betterarcheology:villager_grave"
+					type: "structure"
+				}
+				{
+					id: "69B8644EB950F5A9"
+					structure: "#integrated_villages:villages"
+					type: "structure"
+				}
+				{
+					id: "31B82E1221E490E8"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blessing of the Ancients"
 			x: 6.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Guardian Eye in its dedicated chapter:"
-				"{ \"text\": \"Guardian Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B60299370E1A854\" } }"
+				"Torn from the abyssal depths, the &3Guardian Eye&r is a relic that has borne witness to countless warriors dragged beneath the waves.  "
+				"It glistens with sorrow and power—the eternal memory of the ocean's silent grasp.  "
+				"To forge this watery talisman, you must master &lMechanical Crafting&r and reclaim the treasures guarded fiercely beneath the sea.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_guardian_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The ocean hides more than shipwrecks and ruins—it harbors ancient guardians and treasures untouched by the sun.  "
+				"The following pages will chart your path into the deep."
+				""
+				"{@pagebreak}"
+				""
+				"- &lGuardian Soup&r:  "
+				"  A potent broth crafted from the remains of fallen Guardians, mixed with rare ingredients from the depths.  "
+				"  Slay Guardians and gather the bounty needed at the &eOcean Monuments&r, reimagined by &eBetter Oceans Monuments&r.  "
+				"{image:ftb:textures/guardian.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCabbage Wrapped Elder Guardian&r:  "
+				"  A rare delicacy crafted from slices of Elder Guardians—creatures whose bulk and fury once terrified the seas.  "
+				"  Elder Guardian slices can be obtained only by killing Elder Guardians with a precise &eKnife&r.  "
+				"{image:ftb:textures/elder.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lSponges&r:  "
+				"  Ancient sponges, capable of absorbing the very life of the ocean, can be recovered from the hidden chambers within the &eBetter Oceans Monuments&r.  "
+				"  These natural relics hold the spirit of the drowned and are essential in the Eye's restoration.  "
+				"{image:ftb:textures/sponge.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌊 &nThe ocean remembers.&r  "
+				"To forge the Guardian Eye, you must brave the depths, face down ancient titans, and claim the sorrowful treasures of the abyss.  "
+				"Only those who embrace the ocean’s trials—without fear of its grasp—will awaken the power hidden within its tears."
 			]
 			icon: {
 				Count: 1
@@ -312,26 +809,86 @@
 				}
 			}
 			id: "7BAB96552BE32CC7"
-			rewards: [{
-				id: "36B4F5FBC0C881B5"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Torn from the depths of the sea, this eye has watched countless warriors drown. It gleams with the sorrow of the ocean’s grasp. Click me for more info! "
-			tasks: [{
-				id: "78CD11529DC549F0"
-				structure: "betteroceanmonuments:ocean_monument"
-				type: "structure"
-			}]
-			title: "Guardian Eye"
+			rewards: [
+				{
+					count: 9
+					id: "0C491309836AC6B4"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "50C173E6BF58A2A3"
+					item: "betterarcheology:guardian_fossil_head"
+					type: "item"
+				}
+				{
+					id: "3F7005E8899956FB"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+				{
+					id: "2D751A37DAF5C89A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Guardian Eye and command the sorrow and strength of the deep. Click me for more info! "
+			tasks: [
+				{
+					id: "78CD11529DC549F0"
+					structure: "betteroceanmonuments:ocean_monument"
+					type: "structure"
+				}
+				{
+					id: "3AC1AEFBC5298A50"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tears of the Abyss"
 			x: 4.5d
 			y: 17.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Aetheric Eye in its dedicated chapter:"
-				"{ \"text\": \"Aetheric Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"06CEED1DBA25D312\" } }"
+				"Glittering with the allure of the unknown, the &bAetheric Eye&r has led countless explorers to their destinies—some to the hidden treasures of Atlantis, others to fates lost beneath the crushing depths.  "
+				"It shimmers with ancient power and whispers of mysteries the world has long forgotten.  "
+				"To forge this artifact of discovery, you must master &lMechanical Crafting&r and brave the abyssal ruins left behind by civilizations swallowed by the sea.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_exotic_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The Aetheric Eye is not forged by fortune alone—it demands courage, sacrifice, and a willingness to descend into the unknown.  "
+				"The following pages will reveal the path to awakening its shimmering light."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAbyssal Sacrifice&r:  "
+				"  A relic woven from the spoils of abyssal beasts, crafted through combining:  "
+				"  - A &eCataclysm Athame&r,  "
+				"  - A &eCataclysm Coral Chunk&r,  "
+				"  - And other sacred remnants.  "
+				"  These materials can only be earned by defeating the &eDeepling Warlock&r, &eDeepling Priest&r, and the mighty &eCoralssus&r within the depths of &eCataclysm’s Sunken City&r.  "
+				"{image:ftb:textures/sunkencity.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAbyssal Egg&r:  "
+				"  A blade torn from the titanic jaws of the &eLeviathan&r—an ancient guardian that stalks the submerged ruins of the Sunken City.  "
+				"  Only by slaying this monstrous terror can you claim the Abyssal Egg, a fragment of the abyss itself.  "
+				"{image:cataclysm:textures/entity/leviathan/abyss_orb.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌊 &nThe sea keeps its secrets—but you must steal them.&r  "
+				"The Aetheric Eye glimmers not for the timid, but for those who dare to challenge the abyss and reclaim the forgotten treasures of the deep.  "
+				"Only those who face the ocean’s ancient wrath and emerge victorious will awaken its guiding light."
 			]
 			icon: {
 				Count: 1
@@ -341,26 +898,73 @@
 				}
 			}
 			id: "10232D5D9959E8A5"
-			rewards: [{
-				id: "2EADDEA969830D55"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "This eye has guided explorers to their fates, some finding Atlantis, others vanishing forever. Its glimmer hints at the mysteries of the deep. Click me for more info! "
-			tasks: [{
-				id: "7F13121FEF50188C"
-				item: "minecraft:prismarine_shard"
-				type: "item"
-			}]
-			title: "Aetheric Eye"
+			rewards: [
+				{
+					id: "139E6F23A81A2865"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+				{
+					id: "0EBCFD7E1B94ED0E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Aetheric Eye and uncover the secrets lost beneath the waves. Click me for more info! "
+			tasks: [
+				{
+					id: "273880B23E215E5A"
+					structure: "cataclysm:sunken_city"
+					type: "structure"
+				}
+				{
+					id: "312555A90021D29F"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mysteries of the Deep"
 			x: -7.5d
 			y: 12.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Cryptic Eye in its dedicated chapter:"
-				"{ \"text\": \"Cryptic Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"73CBB1994EFB12FD\" } }"
+				"Shrouded in enigmatic energies, the &5Cryptic Eye&r is a relic that whispers truths no mortal was ever meant to know.  "
+				"Its gaze pierces the veil of reality itself, unraveling forgotten secrets and forbidden knowledge.  "
+				"To forge this mysterious artifact, you must master the art of &lAncient Enchanting&r, calling upon power both perilous and profound.  "
+				"{image:ftb:textures/_forge_frontier_enchanting_cryptic_eye.png width:175 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike other relics, the Cryptic Eye cannot simply be found—it must be awakened through a ritual of focus, knowledge, and risk.  "
+				"The pages ahead will guide you through the sacred process."
+				""
+				"{@pagebreak}"
+				""
+				"- &lRitual of the Eye&r:  "
+				"  Begin by crafting a standard &eEye of Ender&r, a symbol of perception and power.  "
+				"  Then, prepare an ancient enchanting altar as follows:  "
+				"  - Surround your Enchanting Table with &e8 Apotheosis Hellshelves&r, brimming with unstable, infernal energy.  "
+				"  - Place &e8 Standard Bookshelves&r to anchor the ritual in mortal understanding.  "
+				"  - Adorn the altar with &e2 sets of 4 Candles&r to focus the energies at the heart of the ritual.  "
+				"{image:ftb:textures/eye_enchanting.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lThe Enchantment&r:  "
+				"  With your altar prepared, offer 40 full levels of experience to the Enchanting Table while holding your Eye of Ender.  "
+				"  If fate favors you, and the energies align, the Eye will be transformed—ripped from the mundane and born anew as the &5Cryptic Eye&r."
+				""
+				"{@pagebreak}"
+				""
+				"🕯 &nBut beware&r—this ritual stirs forces beyond comprehension.  "
+				"The Cryptic Eye does not merely reveal hidden truths—it tests the will of those who seek to wield them.  "
+				"Only the wise, the patient, and the daring will endure its gaze and emerge with knowledge once thought lost forever."
 			]
 			icon: {
 				Count: 1
@@ -370,26 +974,119 @@
 				}
 			}
 			id: "0D9A77A2F4BA4951"
-			rewards: [{
-				id: "37EBE62992ABD924"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Shrouded in enigmatic energy, this eye whispers secrets of a forgotten age. Its gaze sees beyond the veil, unraveling truths that were never meant to be known. Click me for more info! "
-			tasks: [{
-				id: "2203B49578F70086"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
-			title: "Cryptic Eye"
+			rewards: [
+				{
+					count: 12
+					id: "13AD06C566DC3855"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "18F56DA51317CA63"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchant the Eye of Ender to awaken the secrets of the Cryptic Eye. Click me for more info! "
+			tasks: [
+				{
+					id: "685F2E166E733B08"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "347FD113CFA7F43B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any #forge:bookshelves"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1485625FD08D003A"
+					item: { Count: 8, id: "apotheosis:hellshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0C20EF237DB5EC54"
+					item: { Count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "6C6EB243082DCA5A"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Veilbreaker's Rite"
 			x: -7.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Warden Eye in its dedicated chapter:"
-				"{ \"text\": \"Warden Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EC3592C15DE2599\" } }"
+				"Torn from the depths of the ancient darkness, the &9Warden's Eye&r burns with sorrow and silence.  "
+				"Taken centuries ago from a creature now doomed to wander blindly through eternal night, this relic pulses with lost grief and forgotten strength.  "
+				"To forge the Warden's Eye, you must master &lMechanical Crafting&r and recover fragments of a being never meant to be disturbed.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_undead_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The relics you seek are hidden within the ancient ruins of civilization's last breath—and guarded by a titan whose sorrow shakes the earth itself.  "
+				"The following pages will guide you into the abyss."
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Carapace&r:  "
+				"  A hardened fragment of the Warden's monstrous form, imbued with the echoes of countless battles.  "
+				"  Defeat the Warden to claim this precious shard of the abyss.  "
+				"{image:deeperdarker:item/warden_carapace width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Tendril&r:  "
+				"  A tendril steeped in darkness and sensory magic, vital to the Warden’s ability to hunt in blindness.  "
+				"  Slay the Warden to rip this twisted appendage from its form.  "
+				"{image:apotheosis:items/warden_tendril width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Ear&r:  "
+				"  A relic of ancient hearing, attuned to the faintest vibrations of the world.  "
+				"  Recovered only by defeating the Warden in its own domain—the silent ruins of the Deep Dark.  "
+				"{image:silentsdelight:item/warden_ear width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lHeart of the Deep&r and &lWarden Heart&r:  "
+				"  The very core of the Warden’s existence, pulsing with sorrow and unspoken rage.  "
+				"  Only through triumph over the Warden’s wrath can these hearts be claimed.  "
+				"{image:silentsdelight:item/warden_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lEcho Shard&r:  "
+				"  Silent fragments of forgotten knowledge, still humming with the faint vibrations of the Deep Dark.  "
+				"  Found within the loot caches of the ancient cities buried beneath the earth.  "
+				"{image:minecraft:item/echo_shard width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🖤 &nTo forge the Warden's Eye is to tread upon sorrow itself.&r  "
+				"The Deep Dark does not forgive intruders lightly—and the Warden remembers.  "
+				"Only those who brave the silence, conquer despair, and honor the forgotten will ignite the Eye’s somber flame."
 			]
 			icon: {
 				Count: 1
@@ -399,26 +1096,84 @@
 				}
 			}
 			id: "7B7C6A4F2D966F69"
-			rewards: [{
-				id: "7FA04839380C1D7D"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Taken from the Warden centuries ago, this eye burns with sorrow. Its absence leaves the creature wandering blindly through eternal darkness. Click me for more info! "
-			tasks: [{
-				biome: "minecraft:deep_dark"
-				id: "5B619F85A78FFAE0"
-				type: "biome"
-			}]
-			title: "Warden Eye"
+			rewards: [
+				{
+					count: 3
+					id: "6748A5D2406AEF89"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					id: "6DBF607D40793020"
+					item: "deeperdarker:warden_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "000683DBC929C190"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Warden's Eye and awaken the sorrow of the forgotten titan. Click me for more info! "
+			tasks: [
+				{
+					biome: "minecraft:deep_dark"
+					id: "5B619F85A78FFAE0"
+					type: "biome"
+				}
+				{
+					id: "399430714DCA261D"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					id: "064CDC8586EF1833"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Echoes of the Deep"
 			x: -6.5d
 			y: 15.5d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
 			description: [
-				"Read how to obtain the Magical Eye in its dedicated chapter:"
-				"{ \"text\": \"Magical Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"73E9EC9FED2830A0\" } }"
+				"Brimming with the remnants of the Evoker’s lost power, the &dMagical Eye&r pulses with chaotic energy.  "
+				"It is a fragment of ancient, forgotten magic—capable of shaping the world in ways few can comprehend.  "
+				"To forge this wondrous relic, you must master the art of &lArcane Enchanting&r, binding a spark of immortality into something far more potent.  "
+				"{image:ftb:textures/_forge_frontier_enchanting_magical_eye.png width:175 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike relics bound by stone and steel, the Magical Eye is born through an enchantment ritual—requiring focus, power, and a heart defiant of death itself.  "
+				"The following pages will guide you through the arcane rite."
+				""
+				"{@pagebreak}"
+				""
+				"- &lRitual of the Totem&r:  "
+				"  Begin by preparing a &eTotem of Undying&r, an artifact imbued with the gift of second chances.  "
+				"  Then construct your ancient enchanting altar:  "
+				"  - Surround the Enchanting Table with &e8 Apotheosis Hellshelves&r, amplifying the ritual’s magical resonance.  "
+				"  - Place &e8 Standard Bookshelves&r to stabilize and balance the energies.  "
+				"  - Arrange &e2 sets of 4 Candles&r to channel the forces into the heart of the ritual.  "
+				"{image:ftb:textures/eye_enchanting.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lThe Enchantment&r:  "
+				"  With your altar prepared, offer 40 full levels of experience at the Enchanting Table while holding the Totem of Undying.  "
+				"  If your will is strong and your focus unwavering, the Totem will transform—becoming the &dMagical Eye&r, a vessel of untamed arcane might."
+				""
+				"{@pagebreak}"
+				""
+				"✨ &nBut tread carefully, for power demands a price.&r  "
+				"The Magical Eye is no mere trinket; it holds echoes of the Evoker’s ambitions and hubris.  "
+				"Only those worthy of wielding ancient forces will master its gift and carry the Evoker’s Heart into a new age."
 			]
 			icon: {
 				Count: 1
@@ -428,26 +1183,114 @@
 				}
 			}
 			id: "72DBFC6476091A3A"
-			rewards: [{
-				id: "59981C5C62A8F0D6"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "The heart of the Evoker’s dark arts, this enchanted eye brims with raw power. Without it, the sorcerer’s magic lies dormant. Click me for more info! "
-			tasks: [{
-				id: "4E85FAA086E0F5EB"
-				item: "minecraft:totem_of_undying"
-				type: "item"
-			}]
-			title: "Magical Eye"
+			rewards: [
+				{
+					id: "7B51331C442BED6F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "49C271C09EDC2743"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "337FE49632A4ADC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchant a Totem of Undying to awaken the arcane might of the Magical Eye. Click me for more info! "
+			tasks: [
+				{
+					id: "4A84672A29CA6635"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F79D7A6279DC769"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any #forge:bookshelves"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3A1A7933CBF71792"
+					item: { Count: 8, id: "apotheosis:hellshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57081CEB44F24AC0"
+					item: { Count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "4E636795E27977FD"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Evoker’s Heart"
 			x: 2.0d
 			y: 18.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Witch Eye in its dedicated chapter:"
-				"{ \"text\": \"Witch Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0B593797B7CC868F\" } }"
+				"A remnant of ancient alchemy, the &5Witch Eye&r once gleamed with forbidden knowledge of brewing arts lost to time.  "
+				"It holds within it a spark of mastery—an understanding of transformation and power that few dare even whisper of today.  "
+				"To forge this artifact of ancient wisdom, you must master &lSuper Heated Mixing&r and gather relics born from flame, soul, and brew.  "
+				"{image:ftb:textures/_forge_frontier_mixing_witch_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Witch Eye is not one of brute strength, but of cleverness, patience, and alchemical prowess.  "
+				"The following pages will unveil the arcane steps needed."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlaze Gold Block&r:  "
+				"  A rare alloy formed by consuming the very soul of a Blaze with the power of Chromatic Compound.  "
+				"  Right-click a Blaze while holding &eChromatic Compound&r to bind its burning essence into the golden material.  "
+				"{image:ftbchunks:textures/faces/minecraft/blaze.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Lava Vision&r:  "
+				"  Crafted through secretive brews, this potion grants sight through molten depths.  "
+				"  Brew it by:  "
+				"  - Heated Mixing &eLava Bottles&r with &eBone Serpent Teeth&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eRedstone Dust&r to extend the potion's duration.  "
+				"{image:alexsmobs:item/lava_bottle width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Soul Steel&r:  "
+				"  A potion that hardens the soul itself into an indomitable force.  "
+				"  Brew it by:  "
+				"  - Heated Mixing an &eAwkward Potion&r (created by mixing Water Bottles and Nether Warts) with &eSoul Vulture Hearts&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eGlowstone Dust&r to strengthen its potency.  "
+				"{image:alexsmobs:item/soul_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🧪 &nTrue mastery lies not just in strength—but in understanding transformation.&r  "
+				"The Witch Eye demands cleverness, patience, and the courage to wield forces forgotten by the world.  "
+				"Only those who brew with precision, and command the elements of fire, soul, and spirit, will ignite its hidden knowledge."
 			]
 			icon: {
 				Count: 1
@@ -457,28 +1300,81 @@
 				}
 			}
 			id: "6D1F1DB7B6A3DA79"
-			rewards: [{
-				id: "2AD5874094D518C9"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A remnant of ancient alchemy, this eye gleamed as it uncovered forbidden brewing arts. Its spark holds the knowledge of lost times. Click me for more info! "
+			rewards: [
+				{
+					count: 9
+					id: "0C010A514793A5F7"
+					item: {
+						Count: 1
+						id: "create:chromatic_compound"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "114E30EAAD068DDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Witch Eye and awaken the forbidden arts of ancient alchemy. Click me for more info! "
 			tasks: [{
-				id: "4758A06FE544D95F"
-				observe_type: 0
-				timer: 0L
-				to_observe: "minecraft:brewing_stand"
-				type: "observation"
+				id: "21F0B88D7D0A1AAA"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
 			}]
-			title: "Witch Eye"
+			title: "Secrets of the Cauldron"
 			x: -4.5d
 			y: 17.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Wither Eye in its dedicated chapter:"
-				"{ \"text\": \"Wither Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4605F358C391E792\" } }"
+				"A witness to the fall of empires, the &8Wither Eye&r bears the scars of a thousand lost worlds.  "
+				"It gazes into the abyss of ruin itself, holding echoes of devastation and power beyond reckoning.  "
+				"To forge this relic of destruction, you must master &lMechanical Crafting&r and gather the remnants of battles that shook the realms.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_wither_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Wither Eye is not one of creation—it is one of conquest, sacrifice, and decay.  "
+				"The following pages will guide you into the heart of ruin."
+				""
+				"{@pagebreak}"
+				""
+				"- &lSoul Sand&r:  "
+				"  A cursed earth infused with sorrow, Soul Sand can be unearthed in the depths of the Nether.  "
+				"  Alternatively, you can create it by &eHaunting ordinary Sand&r with the echoes of the spirit realm.  "
+				"{image:minecraft:block/soul_sand width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWither Skeleton Skulls&r:  "
+				"  Remnants of ancient battles fought against death incarnate.  "
+				"  These can be claimed by &eBeheading Wither Skeletons&r, grim trophies from the shadows of fortress ruins.  "
+				"{image:ftbchunks:textures/faces/minecraft/wither_skeleton.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lStar Infused Netherite Nugget&r:  "
+				"  A forbidden alloy, forged from celestial devastation.  "
+				"  Create this ingot by combining:  "
+				"  - &e4 Nether Stars&r  "
+				"  - &e1 Netherite Ingot&r  "
+				"  into a single Star Infused Netherite Nugget.  "
+				"  To harvest Nether Stars efficiently, consider using &eMob Cages&r to capture the Wither’s essence itself and automate its destruction.  "
+				"{image:cagedmobs:item/star_infused_netherite_ingot width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"💀 &nRuin is the price of power—and power the price of ruin.&r  "
+				"The Wither Eye is a relic that remembers what the world has tried to forget.  "
+				"Only those who embrace the cost of devastation and command the ashes of fallen realms will wield its hollow gaze."
 			]
 			icon: {
 				Count: 1
@@ -488,18 +1384,37 @@
 				}
 			}
 			id: "6B63999D63EA981F"
-			rewards: [{
-				id: "75DD5EEF0437F6C0"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "A witness to the destruction of empires, this eye bears the scars of ruin. Its empty gaze holds the echoes of a thousand fallen worlds. Click me for more info! "
+			rewards: [
+				{
+					id: "28A0168020043822"
+					item: {
+						Count: 1
+						id: "cagedmobs:netherite_dna_sampler"
+						tag: {
+							entity: "minecraft:wither"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60ADDF5CDD1098C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Wither Eye and claim the echoes of a thousand fallen worlds. Click me for more info! "
 			tasks: [{
-				id: "27E277AAC11B9CAD"
-				item: "minecraft:wither_skeleton_skull"
+				id: "46AF35CA74B042ED"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			title: "Wither Eye"
+			title: "Ashes of Empires"
 			x: -2.0d
 			y: 18.0d
 		}
@@ -514,7 +1429,29 @@
 				"29A5A4E4568E10F4"
 				"43EFD816AF373F71"
 			]
-			description: ["Used as a Crafting Ingredient for all the Eyes, crafted by superheated mixing all the required ingredients"]
+			description: [
+				"Bound by the restless energy of countless spirits who refuse to pass on, the &7Undead Soul&r pulses with an eerie, unrelenting power.  "
+				"It is a fragment of spectral might—a catalyst that bridges life, death, and destiny itself.  "
+				"Forging this vital relic requires mastery of &lSuperheated Mixing&r and the careful union of sacred ingredients.  "
+				"{image:endrem:item/undead_soul width:125 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The Undead Soul is no mere artifact; it is the heart of all that is yet to come. Without it, the legendary Eyes cannot be born.  "
+				"The following page reveals the alchemical path to binding this restless spirit."
+				""
+				"{@pagebreak}"
+				""
+				"- &lSuperheated Ritual&r:  "
+				"  Using the infernal fires of a Superheated Mixer, combine the sacred surrounding ingredients—each representing power, sorrow, knowledge, and ruin.  "
+				"  Only in the heart of the hottest flame will these fragments surrender their essence to form the &7Undead Soul&r.  "
+				"{image:ftb:textures/blaze_burner_superheated.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🖤 &nThe Undead do not rest—and neither must you.&r  "
+				"The creation of the Undead Soul is the beginning of your true journey. With it, the Eyes of legend shall be reforged, each one carrying a spark of the restless beyond.  "
+				"Embrace its haunting power and step beyond the boundaries of the living world."
+			]
 			hide_dependent_lines: true
 			id: "00AABBBA631B3828"
 			rewards: [{
@@ -524,13 +1461,14 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Bound by the restless energy of those who refuse to pass on, this haunting essence pulses with a power both eerie and unrelenting. It is said to be the key to forging the legendary Eyes, each imbued with its spectral might."
+			subtitle: "Forge the Undead Soul and unlock the spectral force behind the legendary Eyes. Click me for more info!"
 			tasks: [{
 				count: 14L
 				id: "172E780ABB86EFC8"
 				item: "endrem:undead_soul"
 				type: "item"
 			}]
+			title: "Breath of the Restless"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -738,27 +1676,51 @@
 		}
 		{
 			description: [
-				"End Remastered in Create - Forge Frontier is not just a mod—it’s a fully redefined journey, meticulously overhauled to bring unparalleled depth and excitement to your gameplay experience. Every aspect of the original mod has been reimagined for this pack, creating a progression system that is as challenging as it is rewarding."
+				"End Remastered within &6Create - Forge Frontier&r isn’t just a mod—it’s a fully reimagined journey, meticulously overhauled to deliver an unparalleled adventure.  "
+				"Every piece of its original design has been reforged, creating a progression system that is both challenging and deeply rewarding.  "
+				"Prepare to embark on a quest where each step forges your legend."
+				""
 				"{@pagebreak}"
-				"&lA Fresh Take on the Eyes of Ender&r"
-				"Gone are the days of simply crafting Eyes of Ender with Blaze Powder and Ender Pearls. In this enhanced version, each Eye now has its own unique recipe, story, and purpose. These Eyes are scattered across the world, encouraging exploration, combat, and crafting ingenuity. Whether you're delving into dangerous dungeons, mastering advanced crafting techniques, or unlocking secrets hidden deep within unique structures, every Eye adds a layer of mystery and accomplishment to your journey."
+				""
+				"&l✨ A New Era for the Eyes of Ender&r  "
+				"Gone are the days of simply crafting Eyes with Blaze Powder and Ender Pearls.  "
+				"In this enhanced version, every Eye is tied to a unique recipe, a distinct story, and an epic purpose.  "
+				"Scattered across the farthest reaches of the world, these Eyes will lead you into forgotten ruins, perilous dungeons, and the heart of ancient mysteries.  "
+				"Mastering combat, exploration, and crafting ingenuity will be essential as each Eye adds new depth and triumph to your journey."
+				""
 				"{@pagebreak}"
-				"&lProgression Reimagined&r"
-				"To unlock the End, you’ll need to assemble all the required Eyes by following the quests laid out before you. Each quest provides hints, lore, and guidance to help you locate and craft the Eyes, immersing you in a progression system that feels both natural and engaging. The thrill of hunting down each Eye and piecing them together to activate the End Portal brings a sense of purpose and adventure."
+				""
+				"&l⚙ Progression Redefined&r  "
+				"To unlock the path to the End, you must gather all the Eyes by following the quests woven throughout your journey.  "
+				"Each quest delivers hints, lore, and guidance—blending discovery with purpose.  "
+				"Hunting down the Eyes and piecing them together to awaken the End Portal transforms your adventure into a true epic, filled with milestones and unforgettable victories."
+				""
 				"{@pagebreak}"
-				"&lCustom Features Unique to the Pack&r"
-				"This version of End Remastered includes numerous exclusive enhancements:"
-				"- Custom Recipes: Each Eye features a recipe tailored to the mechanics and balance of Create  Forge Frontier, integrating the pack’s unique items and resources."
-				"- Detailed Descriptions: Every Eye has its own in-depth description, providing context and flavor that enrich the overall experience."
-				"- Immersive Exploration: From desert temples to hidden ruins, discovering and crafting these Eyes will take you to the farthest corners of the Overworld."
+				""
+				"&l🛠 Exclusive Features in Forge Frontier&r  "
+				"This version of End Remastered is packed with custom enhancements tailored specifically for &6Create - Forge Frontier&r:"
+				"- &eCustom Recipes&r: Every Eye now requires a unique crafting method that seamlessly integrates Create’s mechanical brilliance."
+				"- &eDetailed Lore Descriptions&r: Each Eye is infused with rich storytelling, giving weight and meaning to every discovery."
+				"- &eImmersive World Exploration&r: From sun-scorched temples to submerged ruins, your quest will stretch to every corner of the Overworld and beyond."
+				""
 				"{@pagebreak}"
-				"&lThe Journey to the End&r"
-				"Activating the End Portal isn’t the end of your adventure—it’s the gateway to the next phase. Once inside the End, you’ll face an enhanced dragon fight that’s more challenging and strategic than ever before. Success in this battle will lead you deeper into the pack’s \"End Game\" progression, where greater rewards and challenges await."
+				""
+				"&l🐲 The Journey Beyond the Portal&r  "
+				"Activating the End Portal is not the final goal—it’s just the beginning.  "
+				"Inside the End, you’ll face a dragon battle reimagined for greater challenge and strategy, pushing your skills to the limit.  "
+				"Victory will unlock deeper layers of the \"End Game\" progression, unveiling powerful rewards and even greater adventures."
+				""
 				"{@pagebreak}"
-				"&lUncover Secrets, Forge Your Legacy&r"
-				"End Remastered is more than a mod—it’s an adventure designed to test your skills, expand your creativity, and reward your perseverance. Each step of the journey is carefully crafted to weave seamlessly into the fabric of Create - Forge Frontier, ensuring a cohesive and immersive experience. The End isn’t just a destination—it’s the beginning of something far greater."
+				""
+				"&l🏆 Forge Your Legend Among the Stars&r  "
+				"End Remastered in Create - Forge Frontier is more than just an expansion—it's an odyssey.  "
+				"Every Eye, every quest, and every battle is crafted to be a meaningful step in your saga.  "
+				"The End is not a destination—it’s a gateway to a new horizon, where perseverance, creativity, and daring forge a legacy worthy of legend."
+				""
 				"{@pagebreak}"
-				"Take on the challenge, explore the unknown, and unlock the mysteries of the End. The adventure of a lifetime awaits! ✨🌀🐉"
+				""
+				"✨ Venture into the unknown. Embrace the challenge.  "
+				"Unravel the mysteries of the End—and write your story among the stars. 🌀🐉  "
 				"{image:ftb:textures/end_screenshot.png width:192 height:100 align:center}"
 			]
 			hide_dependent_lines: true
@@ -780,10 +1742,41 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Corrupted Eye in its dedicated chapter:"
-				"{ \"text\": \"Corrupted Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"116E3F170671542D\" } }"
+				"Twisted by greed and ambition, the &2Corrupted Eye&r once belonged to a king whose lust for riches knew no bounds. Though it promises great wealth, it leaves behind a curse that stains the soul of any who dare claim it.  "
+				"To forge this dark relic, you must master &lMechanical Crafting&r and gather treasures torn from the earth itself.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_corrupted_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The fragments required to complete the Corrupted Eye are tied to the veins of the world—where molten riches flow beneath the surface.  "
+				"The pages ahead will reveal where to find each gleaming piece of this cursed legacy."
+				""
+				"{@pagebreak}"
+				""
+				"- &lGold&r:  "
+				"  Harness the molten wealth of the Savanna by tapping into &eOchrum Molten Vents&r, natural wells of golden essence scattered across the biome.  "
+				"  Alternatively, mine deep within the caves to uncover raw gold waiting to be claimed.  "
+				"{image:ftb:textures/ochrum_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lDiamonds&r:  "
+				"  The brilliance of diamonds can be seized by tapping into &eGlacium Molten Vents&r, found high within the frozen peaks of mountainous biomes.  "
+				"  For the bold, spelunking through underground caverns can also yield these precious gems.  "
+				"{image:ftb:textures/glacium_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lEmeralds&r:  "
+				"  Emeralds shimmer in the veins of mountains, drawn forth by &eVerdantine Molten Vents&r.  "
+				"  Seek them atop lofty heights or bargain with Villagers to amass your share of these coveted stones.  "
+				"{image:ftb:textures/verdantine_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"💎 &nBut beware&r—the allure of gold, diamonds, and emeralds is not without cost.  "
+				"The shadow of the Corrupted Eye lingers, whispering of endless riches... and endless ruin. Only those strong enough to resist its call will forge their fortune without losing themselves to its eternal hunger."
 			]
 			icon: {
 				Count: 1
@@ -793,26 +1786,105 @@
 				}
 			}
 			id: "06710D734D0988CB"
-			rewards: [{
-				id: "69950CA5245BCB8B"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "This eye, once belonging to a king consumed by greed, radiates a dark allure. Its curse promises wealth, but its shadow lingers eternally. Click me for more info! "
-			tasks: [{
-				id: "0817132788E977AD"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			title: "Corrupted Eye"
+			rewards: [
+				{
+					id: "6135A7A0E7C35D1B"
+					item: "createcompression:compressed_gold_2x"
+					type: "item"
+				}
+				{
+					id: "08D647EE3EFCB327"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "58729F776B60B2A6"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "06C3D73C1B5371CF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Corrupted Eye and claim fortune at the risk of your soul. Click me for more info! "
+			tasks: [
+				{
+					icon: "create:ochrum"
+					id: "2CBC435821611376"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create:ochrum"
+					type: "observation"
+				}
+				{
+					icon: "forge_frontier:glacium"
+					id: "06D3D2C2C4B58121"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forge_frontier:glacium"
+					type: "observation"
+				}
+				{
+					icon: "forge_frontier:verdantine"
+					id: "63D52F86481D2C70"
+					observe_type: 0
+					timer: 0L
+					to_observe: "forge_frontier:verdantine"
+					type: "observation"
+				}
+				{
+					id: "699F34D86BA303C9"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cursed Riches"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["55E1F170D9933E8F"]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Read how to obtain the Lost Eye in its dedicated chapter:"
-				"{ \"text\": \"Lost Eye Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"53D3EEC1993AF3D6\" } }"
+				"Forged by the first blacksmiths at the dawn of creation, the &6Lost Eye&r stands as a testament to divine craftsmanship—an artifact glowing with the fire of the earth’s very soul.  "
+				"To restore this ancient relic, you must master &lMechanical Crafting&r and gather remnants of a forgotten age.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_lost_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The pieces you seek are scattered between the molten depths of the Nether and the barren ruins of &cAd Astra’s Mars&r, where ancient battles of fire and stone still echo.  "
+				"The next few pages will guide you to reclaim the tools of the ancients."
+				""
+				"{@pagebreak}"
+				""
+				"- &lInfernal Forge&r and &lMonstrous Horn&r:  "
+				"  Both are prized trophies obtained by defeating the fearsome &eNetherite Monstrosity&r, a creature of molten rage found lurking within the &eSoul Blacksmith&r structure on Mars.  "
+				"  Its defeat is no small feat—steel your spirit and prepare for battle against a relic of chaos.  "
+				"{image:ftb:textures/smith.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lChisel of the Deep Forge&r:  "
+				"  Crafted in silence beneath the world’s crust, this legendary chisel shapes not just stone—but destiny itself.  "
+				"  It can be unearthed from the sacred ruins hidden among &eMars Temple&r treasures.  "
+				"{image:ftb:textures/mars_temple.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Debris&r:  "
+				"  Raw fragments of creation’s earliest forges, Ancient Debris can be found deep in the Nether, especially near &eDebris Molten Vents&r located on the Nether Roof, or naturally between &eY-Level 15&r and below.  "
+				"{image:ftb:textures/debris_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🔥 &nOnly those who can endure fire and fury may claim the Lost Eye.&r  "
+				"The path will test your mettle, your will, and your soul. But those who succeed will wield a relic forged by gods—the ember of creation itself, reborn through your triumph."
 			]
 			icon: {
 				Count: 1
@@ -822,20 +1894,49 @@
 				}
 			}
 			id: "40C0805A32D59455"
-			rewards: [{
-				id: "34DA2991DFC6E0C3"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Forged by the first blacksmiths of creation, this eye is a relic of their divine craftsmanship. It glows with the fire of creation itself. Click me for more info! "
-			tasks: [{
-				id: "1228CA203A8488A8"
-				observe_type: 0
-				timer: 0L
-				to_observe: "ad_astra:mars_sand"
-				type: "observation"
-			}]
-			title: "Lost Eye"
+			rewards: [
+				{
+					id: "79FE5FFEC52429A0"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+				{
+					id: "01E1EE3B008011CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Restore the Lost Eye and awaken the fire of the world's first forge. Click me for more info! "
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "075451F698852015"
+					type: "dimension"
+				}
+				{
+					id: "5DB1C936FA2AD33A"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+				{
+					id: "48DE64588FB199E4"
+					structure: "ad_astra:mars_temple"
+					type: "structure"
+				}
+				{
+					id: "22F794B9058D8166"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ember of Creation"
 			x: 2.0d
 			y: 2.0d
 		}

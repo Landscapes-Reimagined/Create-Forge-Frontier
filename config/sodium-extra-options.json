@@ -31,13 +31,19 @@
   },
   "render_settings": {
     "fog_type": "MOD_COMPAT",
-    "fog_distance": 0,
+    "fog_distance": 32,
     "fog_start": 100,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
       "minecraft:overworld": 0,
       "ae2:spatial_storage": 0,
-      "ad_astra:moon": 0
+      "ad_astra:moon": 0,
+      "minecraft:the_nether": 0,
+      "ad_astra:mars": 0,
+      "ad_astra:venus": 0,
+      "ad_astra:glacio": 0,
+      "minecraft:the_end": 0,
+      "ad_astra:earth_orbit": 0
     },
     "light_updates": true,
     "item_frame": true,

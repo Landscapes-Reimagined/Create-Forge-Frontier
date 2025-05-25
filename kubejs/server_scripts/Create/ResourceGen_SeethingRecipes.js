@@ -318,5 +318,5 @@ ServerEvents.recipes(event => {
             ],
             results: recipe.results
         }).id(`forge_frontier:seething/${recipe.name}_pile`);
-    });    
+    });        
 })

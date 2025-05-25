@@ -13,47 +13,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 0.0d
-			y: 5.0d
-		}
-		{
-			click: "#10E12D942E6F9B1B"
-			height: 5.0d
-			hover: ["IDAS: Ancient Mines"]
-			image: "ftb:textures/ancientmines.png"
-			rotation: 0.0d
-			width: 8.587314662273476d
-			x: -8.0d
-			y: 7.5d
-		}
-		{
-			click: "#5619CB9F89C25C87"
-			height: 5.0d
-			hover: ["IDAS: Tinker's Workshop"]
-			image: "ftb:textures/tinkersworkshop.png"
-			rotation: 0.0d
-			width: 9.4186902133922d
-			x: 8.0d
-			y: -1.5d
-		}
-		{
-			click: "#2C7C1C96546AD211"
-			height: 7.0d
-			hover: ["IDAS: Tinker's Citadel"]
-			image: "ftb:textures/tinkers_citadel.png"
-			rotation: 0.0d
-			width: 6.049703264094956d
-			x: 7.0d
-			y: 7.0d
-		}
-		{
-			click: "#7CE7BBA16C2E61E1"
-			height: 5.0d
-			hover: ["IDAS: Ruins of the Deep"]
-			image: "ftb:textures/ruins_of_the_deep.png"
-			rotation: 0.0d
-			width: 7.454036770583533d
-			x: -7.5d
-			y: -1.5d
+			y: 3.5d
 		}
 		{
 			height: 10.0d
@@ -69,68 +29,128 @@
 	quests: [
 		{
 			dependencies: ["72FE4921BBC7E437"]
-			description: ["Shrouded in darkness and buried beneath layers of stone and sediment, the Ruins of the Deep whisper of an ancient civilization lost to time. Once thriving with enigmatic rituals and powerful artifacts, these submerged halls are now silent, reclaimed by the earth and water. But the true mystery lies within the labyrinthine passages and submerged vaults that guard long-forgotten secrets. Those who brave the descent into these depths will find untold treasures—but only if they can survive the lurking dangers hidden within the shadows of the deep."]
+			description: [
+				"Buried beneath stone and silence, the &9Ruins of the Deep&r lie forgotten—  "
+				"a lost relic of a once-mighty civilization swallowed by time and tide."
+				""
+				"These submerged halls once echoed with arcane rituals and the hum of ancient power. Now, only darkness remains.  "
+				"Yet beneath the sediment and shattered stone, something still lingers—&nsecrets sealed behind waterlogged vaults and winding labyrinths&r."
+				""
+				"{@pagebreak}"
+				"To descend into the depths is to challenge the unknown.  "
+				"But for those with courage—and cunning—the &6treasures of the deep&r await.  "
+				"Just beware: not all things left behind are truly lost."
+				""
+				"{image:ftb:textures/ruins_of_the_deep.png width:200 height:134 align:center}"
+			]
+			icon: "minecraft:heart_of_the_sea"
 			id: "7CE7BBA16C2E61E1"
 			shape: "pentagon"
-			subtitle: "Entrance on the surface, treasures lie beneath, read me for more info"
+			subtitle: "Explore the Ruins of the Deep and uncover relics buried in silence and shadow. Click me for more info!"
 			tasks: [{
 				id: "4668E116A3A3198C"
 				structure: "idas:ruins_of_the_deep"
 				title: "Ruins of the Deep"
 				type: "structure"
 			}]
-			title: "Ruins of the Deep"
+			title: "Whispers Beneath the Stone"
 			x: -3.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
-			description: ["The Tinkers Workshop, once a bustling hub of creativity where new tools and armor were forged, now lies silent on the surface. But beneath this abandoned structure, secrets and treasures await, holding the true importance for those bold enough to explore its depths."]
+			description: [
+				"Once a thriving forge of invention, the &6Tinkers Workshop&r now stands silent—its chimneys cold, its anvil still."
+				""
+				"But the surface tells only part of the story.  "
+				"Beneath this weathered structure lies a forgotten labyrinth, where the sparks of innovation still linger in the shadows."
+				""
+				"{@pagebreak}"
+				"Abandoned for reasons unknown, its depths conceal rare materials, experimental tools, and the remnants of a workshop that pushed the boundaries of creation."
+				""
+				"Will you descend into the ruins of genius and reclaim what was left behind?"
+				""
+				"{image:ftb:textures/tinkersworkshop.png width:200 height:106 align:center}"
+			]
+			icon: "handcrafted:hammer"
 			id: "5619CB9F89C25C87"
 			shape: "pentagon"
-			subtitle: "Entrance on the surface, treasures lie beneath, read me for more info"
+			subtitle: "Uncover the secrets buried beneath the Tinkers Workshop and reignite forgotten brilliance. Click me for more info!"
 			tasks: [{
 				id: "5365D7558DF2FCE7"
 				structure: "idas:tinkers_workshop"
 				title: "Tinkers Workshop"
 				type: "structure"
 			}]
+			title: "Ashes of Innovation"
 			x: 3.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
 			description: [
-				"The Ancient Mines, once renowned for yielding the most precious materials, were sealed after a"
-				"mysterious event to protect the surface dwellers. If you possess the courage to break through the barrier, untold secrets and treasures await those brave enough to venture into the depths below."
+				"Sealed in stone and shadow, the &8Ancient Mines&r have long been forgotten—  "
+				"once famed for their endless wealth, now entombed after a cataclysm none dare to name."
+				""
+				"Their gates were locked to protect the surface from what stirred beneath…  "
+				"but for those bold enough to shatter the barrier, the depths may still yield &6untold riches&r, ancient technologies, and buried truths long erased from history."
+				""
+				"{@pagebreak}"
+				"Will you risk the descent and awaken what sleeps below?"
+				""
+				"{image:ftb:textures/ancientmines.png width:200 height:110 align:center}"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "10E12D942E6F9B1B"
 			shape: "pentagon"
-			subtitle: "Entrance Sealed, mine far below, read me for more info"
+			subtitle: "Break the barrier and reclaim the forgotten wealth of the Ancient Mines. Click me for more info!"
 			tasks: [{
 				id: "0FBE52135DB18C50"
 				structure: "idas:ancient_mines"
 				title: "Ancient Mines"
 				type: "structure"
 			}]
+			title: "Depths Sealed in Silence"
 			x: -3.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
-			description: ["Once a grand fortress of ingenuity, the Tinker’s Citadel stood as a beacon of craftsmanship, where engineers and artisans pushed the boundaries of invention. Now, its towering spires are crumbling, and its workshops lie dormant, overtaken by time. Yet, deep within the heart of this forsaken stronghold, ancient mechanisms stir, guarding relics of immense power and knowledge. Only the daring and determined adventurers who venture into its depths will unlock the true legacy left behind within the Citadel’s hidden vaults and secret chambers."]
+			description: [
+				"Once a &6shining bastion of invention&r, the &eTinker’s Citadel&r rose above the world—its halls alive with the hammer’s ring and the spark of genius."
+				""
+				"Here, master artisans redefined creation itself, building wonders that shaped empires.  "
+				"But time has turned brilliance to ruin. The spires crumble. The forges grow cold. Silence now rules where innovation once thrived."
+				""
+				"And yet… not all is lost."
+				""
+				"{@pagebreak}"
+				"Deep within the Citadel’s heart, &nancient machines still stir&r—guarding relics of immense power, knowledge, and mystery.  "
+				"Hidden vaults, sealed chambers, and forgotten blueprints await only the boldest explorers."
+				""
+				"⚙&nEnter the Citadel, and claim the legacy of the world’s greatest craftsmen.&r"
+				""
+				"{image:ftb:textures/tinkers_citadel.png width:172 height:200 align:center}"
+			]
+			icon: "create:cuckoo_clock"
 			id: "2C7C1C96546AD211"
 			shape: "pentagon"
-			subtitle: "Found on the Surface, read me for more info"
+			subtitle: "Uncover the lost inventions and secrets buried within the Tinker’s Citadel. Click me for more info!"
 			tasks: [{
 				id: "1F862107BD50E3FE"
 				structure: "idas:tinkers_citadel"
 				title: "Tinker's Citadel"
 				type: "structure"
 			}]
-			title: "Tinker's Citadel"
+			title: "The Citadel’s Legacy"
 			x: 3.0d
-			y: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7CE7BBA16C2E61E1"]
@@ -154,7 +174,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5619CB9F89C25C87"]
@@ -178,7 +198,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["10E12D942E6F9B1B"]
@@ -202,7 +222,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C7C1C96546AD211"]
@@ -226,17 +246,24 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"541250A87BFC169D"
 				"767465A8B1032AB3"
 			]
-			description: ["The second of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			description: [
+				"&8The second of four.&r"
+				""
+				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
+				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
+				""
+				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+			]
 			hide_dependency_lines: true
 			id: "425E9DAFBC3666BD"
-			subtitle: "Bottle 2/4, click me to read more"
+			subtitle: "Claim the second of four mystical bottles and step into a world beyond the veil. Click me for more info! "
 			tasks: [{
 				count: 2L
 				id: "09D74AF14E861835"
@@ -244,30 +271,44 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["767465A8B1032AB3"]
-			description: ["The first of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			description: [
+				"&8The first of four.&r"
+				""
+				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
+				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
+				""
+				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+			]
 			id: "541250A87BFC169D"
-			subtitle: "Bottle 1/4, click me to read more"
+			subtitle: "Claim the first of four mystical bottles and step into a world beyond the veil. Click me for more info! "
 			tasks: [{
 				id: "77F8FFD4713F2151"
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"425E9DAFBC3666BD"
 				"767465A8B1032AB3"
 			]
-			description: ["The third of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			description: [
+				"&8The third of four.&r"
+				""
+				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
+				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
+				""
+				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+			]
 			hide_dependency_lines: true
 			id: "2E63B61B39D2A0B6"
-			subtitle: "Bottle 3/4, click me to read more"
+			subtitle: "Claim the third of four mystical bottles and step into a world beyond the veil. Click me for more info! "
 			tasks: [{
 				count: 3L
 				id: "00617FA68CBA4E09"
@@ -275,17 +316,24 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"2E63B61B39D2A0B6"
 				"767465A8B1032AB3"
 			]
-			description: ["The final of four mystical bottles, obtained by vanquishing an undead mob while wielding an Obsidian Bottle in your off hand, begins your journey into the unknown"]
+			description: [
+				"&8The final of four.&r"
+				""
+				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
+				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
+				""
+				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+			]
 			hide_dependency_lines: true
 			id: "764CD6B79DF80F96"
-			subtitle: "Bottle 4/4, click me to read more"
+			subtitle: "Claim the final of four mystical bottles and step into a world beyond the veil. Click me for more info! "
 			tasks: [{
 				count: 4L
 				id: "514135D89AA84C1C"
@@ -293,7 +341,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -303,7 +351,16 @@
 				"764CD6B79DF80F96"
 				"786B2E479D58EC68"
 			]
-			description: ["Consume this Seal of the Underworld to unlock the gateway to the Nether and embark on your infernal journey."]
+			description: [
+				"The time has come."
+				""
+				"With the &cSeal of the Underworld&r in hand, you now hold the power to shatter the ancient barrier that guards the gateway to flame and shadow."
+				""
+				"Consume the seal to &nbreak the dimensional threshold&r and awaken the portal long sealed by time.  "
+				"Beyond it lies the &cNether Remastered&r—a realm of fire, ruin, and untold power."
+				""
+				"🔥 &nThis is your rite of passage. Step through the flames, and begin your infernal ascent.&r"
+			]
 			hide_dependency_lines: true
 			id: "486542BF23253839"
 			rewards: [
@@ -318,15 +375,18 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Click me to read more"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Consume the Seal of the Underworld and unlock the blazing path into the Nether. Click me for more info!"
 			tasks: [{
 				consume_items: false
 				id: "06F42DEDCFD6E7F9"
 				item: "nether_remastered:seal_of_the_underworld_item"
 				type: "item"
 			}]
+			title: "Breaking the Seal"
 			x: 0.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
@@ -349,7 +409,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -363,9 +423,17 @@
 				"2904FAB7D1EEF9DA"
 			]
 			description: [
-				"You can find the final part to the Seal of the Underworld in the loot chests of Hopo Nether Portals."
-				"{image:ftb:textures/hopoportal.png width:226 height:100 align:center}"
-				"Congrats on obtaining all the pieces to the seal of the underworld, you can now craft the seal, consume it, then you will be able to freely travel into the nether. Feel free to use this portal as a means of entering into the Nether."
+				"The final piece of the &cSeal of the Underworld&r lies within the &5loot chests&r of &cHopo’s Nether Portal&r structures.  "
+				"Search carefully—this relic does not reveal itself easily."
+				""
+				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
+				""
+				"{@pagebreak}"
+				"&nWith all pieces in hand, your preparation is complete.&r  "
+				"Craft the &cSeal of the Underworld&r, consume it, and unlock the ancient gateway to flame and shadow."
+				""
+				"This portal—once dormant—may now serve as your passage into the &4Nether Remastered&r.  "
+				"🔥 &nStep through, and begin your journey into the inferno.&r"
 			]
 			id: "786B2E479D58EC68"
 			rewards: [{
@@ -374,7 +442,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Click me to read more"
+			subtitle: "Claim the last piece of the seal and unlock the blazing path ahead. Click me for more info!"
 			tasks: [
 				{
 					id: "01FBDA6D9EDE67C5"
@@ -388,19 +456,31 @@
 					type: "item"
 				}
 			]
+			title: "The Final Fragment"
 			x: 0.0d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["598B697BDE842B0E"]
 			description: [
-				"Gone are the days of simply lighting a portal and stepping into the Nether with ease. Nether Remastered transforms this fiery dimension into an adventure worth earning, drawing inspiration from the incredible End Remastered mod. In this pack, entering the Nether is a journey of preparation, exploration, and discovery."
+				"&cGone are the days of flint and fire—&rthe Nether is no longer a dimension you simply walk into."
 				""
-				"To unlock access, you must first explore certain structures in the Overworld, hunting down rare materials and gathering the unique loot needed for your quest. These items culminate in the crafting of the Seal of the Underworld, a powerful artifact that, when consumed, unlocks the gateway to the Nether dimension."
+				"In &cNether Remastered&r, inspired by the brilliance of End Remastered, entering the inferno becomes a true rite of passage.  "
+				"Accessing this realm now demands &npreparation, exploration, and triumph&r over hidden trials scattered across the Overworld."
+				""
+				"To begin your journey, you must hunt down ancient structures, unearth rare artifacts, and forge the &6Seal of the Underworld&r—  "
+				"a powerful relic that, when consumed, will awaken the long-dormant gateway to this fiery realm."
+				""
 				"{@pagebreak}"
-				"Once inside, you’ll find the Nether to be more dynamic and immersive than ever. Thanks to many different mods, the terrain is richly varied with countless new landscapes to explore, hazards to overcome, and resources to claim. Unique challenges and custom mechanics will keep you on your toes, redefining what it means to brave this fiery underworld."
 				""
-				"Prepare wisely, explore thoroughly, and embrace the challenge of unlocking and conquering the Nether. The journey is just as rewarding as the destination! 🔥"
+				"Once inside, you’ll find a Nether transformed.  "
+				"Thanks to a rich combination of mods, its biomes have been reborn: glowing magma fields, shadowed lava caves, and forgotten ruins stretch across the horizon."
+				""
+				"With new threats, unique mechanics, and treasures unlike anything in the Overworld, this dimension is now a crucible—  "
+				"&na place where only the bold survive, and only the prepared will thrive.&r"
+				""
+				"🔥 &nThe Nether is no longer a destination—it’s a challenge. A conquest. An earned victory.&r"
+				""
 				"{@pagebreak}"
 				""
 				"{image:nether_remastered:textures/nether_remastered.png width:100 height:100 align:center}"
@@ -414,7 +494,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Nether Remastered: A New Challenge Awaits 🔥 Click me for more info!"
+			subtitle: "Unlock the fiery realm through strength, strategy, and a seal born of trials. Click me for more info!"
 			tasks: [{
 				id: "1186A47D567C2EB8"
 				item: "minecraft:obsidian"

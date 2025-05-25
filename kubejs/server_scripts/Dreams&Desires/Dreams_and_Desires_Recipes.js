@@ -1,5 +1,6 @@
 ServerEvents.recipes(event => {
 
+
 	// New Infernal Mechanism Recipe
 	event.remove({ id: 'create_dd:sequenced_assembly/infernal_mechanism'})
     event.custom({
@@ -167,7 +168,6 @@ ServerEvents.recipes(event => {
 			C: 'create_dd:refined_radiance_casing'
 		}
 	).id( 'forge_frontier:shaped/radiant_drill' )
-
 
 
 })

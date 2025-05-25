@@ -69,19 +69,14 @@
 	warden_knife = true
 	zanite_knife = true
 	zinc_knife = true
-
-["Pie Overhauls"]
-	blueberry_pie_slice = true
-	gloomgourd_pie_slice = true
-	green_apple_pie_slice = true
-	pumpkin_pie_slice = true
-	salmonberry_pie_slice = true
-	source_berry_pie_slice = true
+	resonarium_knife = true
+	aluminum_knife = true
+	pearlescent_knife = true
 
 ["Registry & Recipes"]
 	acorn = true
 	acorn_sack = true
-	animal_fat = true
+	animal_fat = false
 	animal_oil_bottle = true
 	azalea_tea = true
 	baobab_fruit_crate = true
@@ -165,4 +160,20 @@
 	source_berry_ice_cream = true
 	source_berry_ice_cream_block = true
 	source_berry_milkshake = true
+	baklava = true
+	baklava_slice = true
+	venison_stew = true
+	venison_stew_cup = true
+	chorus_muffin = true
+	salmonberry_pie_slice = true
+
+["Baked Good Overhauls"]
+	blueberry_pie_slice = true
+	chorus_pie_slice = true
+	gloomgourd_pie_slice = true
+	green_apple_pie_slice = true
+	mulberry_pie_slice = true
+	passion_fruit_tart_slice = true
+	pumpkin_pie_slice = true
+	source_berry_pie_slice = true
 

@@ -66,7 +66,7 @@
 				cog_crank = 8.0
 				furnace_engine = 341.5
 				accelerator_motor = 4.0
-				kinetic_motor = 1.5
+				kinetic_motor = 4.0
 
 #.
 #Recipes

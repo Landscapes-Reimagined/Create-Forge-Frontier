@@ -1,0 +1,11 @@
+automatic_disenchanting = false
+# setting this to "true" will cause the disenchanting table to operate automatically, taking experience from the nearest player and
+# enabling it to work with hoppers
+resets_repair_cost = true
+# setting this to "false" will stop the disenchanting table from resetting the anvil cost
+requires_experience = true
+# setting this to "false" will cause the disenchanting table to operate without taking experience at any point
+uses_points = true
+# setting this to "false" will cause the disenchanting table to require levels instead of points
+experience_cost = 25
+# this value adjusts how many levels or points are required for the player to use the disenchanting table

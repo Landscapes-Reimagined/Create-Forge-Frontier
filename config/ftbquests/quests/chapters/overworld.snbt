@@ -5,31 +5,28 @@
 	group: "1CB9F27D7DE0AEE8"
 	icon: "minecraft:grass_block"
 	id: "0684E7A732E3B8B1"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/overworld_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/overworld_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.2560706401766d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/overworld_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5DA842A1588FB8BE"]
-			description: ["Before you can conquer the world, you must first learn to survive in it. Your adventure begins with the most fundamental step—gathering wood and crafting your first tools. Every great creation starts with a single block. Punch trees, collect resources, and lay the foundation for the grand journey ahead! 🌿🔨"]
+			description: [
+				"Every grand journey begins with a single strike."
+				""
+				"Before you can reshape the world, you must first learn to survive within it.  "
+				"Your adventure begins at the roots—&2gathering wood&r, &7crafting your first tools&r, and taking your first steps into an untamed land."
+				""
+				"Punch trees, collect vital resources, and lay the first block in what will become a legacy of innovation, exploration, and mastery.  "
+				"🌿🔨 From humble beginnings, greatness will rise."
+			]
 			id: "1881B38A98C580A3"
 			rewards: [
 				{
@@ -50,7 +47,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Punch a tree. Gather wood. Begin your legacy. Click me for more info!"
 			tasks: [{
 				count: 10L
 				id: "092E8C7657E57E80"
@@ -64,13 +61,21 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "Embarking on Your Journey"
+			title: "First Light"
 			x: -8.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1881B38A98C580A3"]
-			description: ["Survival isn’t just about gathering materials—it’s about using them wisely. Craft a crafting table to unlock new possibilities and build your first wooden pickaxe to begin mining stone. With stronger tools at your disposal, you’ll be ready to carve your path through the world! ⛏"]
+			description: [
+				"Survival begins with purpose—and purpose begins with tools."
+				""
+				"Gather your first materials and turn them into something greater: a &fCrafting Table&r, the cornerstone of every invention.  "
+				"Then take up your &6Wooden Pickaxe&r and prepare to shape the world beneath your feet."
+				""
+				"With stronger tools come new horizons.  "
+				"⛏ Every strike of the pickaxe is a step toward mastery."
+			]
 			id: "62BFFEB56245C2F3"
 			rewards: [
 				{
@@ -91,7 +96,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Craft a crafting table and your first pickaxe—forge the tools to shape your future. Click me for more info!"
 			tasks: [
 				{
 					id: "6BABAA13A39290BB"
@@ -117,13 +122,22 @@
 					type: "item"
 				}
 			]
-			title: "Forging Your First Tools"
+			title: "Tools of the Trade"
 			x: -7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["62BFFEB56245C2F3"]
-			description: ["As the sun sets, the Overworld becomes far more dangerous. Hostile creatures lurk in the darkness, waiting for the unprepared. Construct a shelter, light it up with torches, and create a safe haven where you can rest, regroup, and plan your next move. Will your first home be a simple dirt hut or a fortress in the making? 🏡"]
+			description: [
+				"When the sun dips below the horizon, the Overworld awakens in shadow."
+				""
+				"Darkness brings danger—&ccreatures of the night&r emerge, hunting the unprepared.  "
+				"To survive, you must create a sanctuary: a shelter to protect you, torches to light the void, and walls to hold back the unknown."
+				""
+				"Will your first home be a humble refuge... or the foundation of a future fortress?"
+				""
+				"🏡&nYour safe haven begins with a single block.&r"
+			]
 			icon: "minecraft:red_bed"
 			id: "14DDC1E6A974F3AD"
 			rewards: [
@@ -139,7 +153,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Build your first shelter and keep the night at bay. Click me for more info!"
 			tasks: [
 				{
 					id: "05079E9EE0A977C1"
@@ -156,13 +170,22 @@
 					value: 4L
 				}
 			]
-			title: "Seeking Shelter from the Shadows"
+			title: "Light in the Darkness"
 			x: -5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["14DDC1E6A974F3AD"]
-			description: ["The riches of the world lie beneath your feet—if you’re brave enough to claim them. Venture underground and mine stone, coal, and iron to fuel your progress. Equip yourself with better tools and keep an eye out for hidden veins of precious minerals. The deeper you go, the greater the rewards! ⚒"]
+			description: [
+				"The earth hides its treasures well—but fortune favors the bold."
+				""
+				"Beneath the surface lies a world of &7stone&r, &8coal&r, and &firon&r—essential materials for your rise to power.  "
+				"Venture into the depths, carve through layers of rock, and unearth the riches that will fuel your next great creation."
+				""
+				"Equip yourself with stronger tools and stay vigilant—&nveins of precious minerals&r await those who dare to dig deeper."
+				""
+				"⚒&nYour journey to greatness begins underground.&r"
+			]
 			id: "774048801A50E2D4"
 			rewards: [
 				{
@@ -183,7 +206,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Mine stone, coal, and iron to fuel your survival and unlock progress. Click me for more info!"
 			tasks: [
 				{
 					block: "minecraft:stone"
@@ -206,14 +229,22 @@
 					type: "item"
 				}
 			]
-			title: "Descending into the Depths"
+			title: "Depths of Fortune"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["774048801A50E2D4"]
 			description: [
-				"With iron comes a new era of strength and resilience. Smelt your first iron ingots and craft a sturdy set of iron tools. But don’t stop there—forge iron armor to protect yourself against the dangers that await. With newfound durability, you are one step closer to greater challenges! 🛡🔥 Learn more about tools and armor in its   "
+				"With &fIron&r comes strength, resilience—and the power to face what lies ahead."
+				""
+				"Smelt your first iron ingots and craft a set of tools worthy of a true adventurer.  "
+				"Then take it a step further—&7forge a full suit of armor&r to shield yourself from the growing dangers of the world."
+				""
+				"With each ingot, you shape more than metal—you forge your survival.  "
+				"🛡🔥 &nStep into the iron age and prepare for the trials to come.&r"
+				""
+				"Learn more about tools and armor in its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
 			]
 			id: "795BB1A225B65C14"
@@ -228,7 +259,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Craft your first set of iron tools and armor—harden yourself for what lies ahead. Click me for more info!"
 			tasks: [
 				{
 					count: 5L
@@ -248,13 +279,21 @@
 					type: "item"
 				}
 			]
-			title: "The Age of Iron Begins"
+			title: "Forged for Battle"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["795BB1A225B65C14"]
-			description: ["Exploration is thrilling, but hunger can quickly become an adventurer’s downfall. Establish a reliable food source—whether it’s hunting animals, farming crops, or mastering the art of cooking. A well-fed explorer is a prepared one, and sustenance is the key to enduring long expeditions. "]
+			description: [
+				"Exploration feeds the spirit—but food fuels the body."
+				""
+				"Whether you hunt wild game, cultivate crops, or embrace the art of cooking, one truth remains: &nno journey lasts long on an empty stomach&r.  "
+				"Establish a reliable food source to keep yourself strong, alert, and ready for the challenges ahead."
+				""
+				"A well-fed adventurer doesn’t just survive—they thrive.  "
+				"🥖&nMaster your meals, and you’ll master the wild.&r"
+			]
 			id: "49D8A4094E06C73A"
 			rewards: [
 				{
@@ -270,22 +309,30 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Secure a sustainable food source to survive—and thrive—on your adventures. Click me for more info!"
 			tasks: [{
 				count: 10L
 				id: "1CDA8A68DD2C77C5"
 				item: { Count: 10, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			title: "Sustaining the Adventure"
+			title: "Fuel for the Journey"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["49D8A4094E06C73A"]
-			description: ["Darkness hides many dangers, and without light, your journey could come to an untimely end. Craft torches, lanterns, and campfires to illuminate your surroundings. Whether deep within the caves or atop a towering mountain, visibility is the key to survival. Keep the darkness at bay! 🔥🕯"]
+			description: [
+				"In the absence of light, danger thrives."
+				""
+				"From the deepest caves to the highest peaks, &odarkness conceals threats that can end your journey in an instant&r.  "
+				"Craft torches, lanterns, and campfires to push back the shadows and illuminate the path ahead."
+				""
+				"Light is more than comfort—it’s survival.  "
+				"🕯🔥 &nShine a light into the unknown, and take control of your fate.&r"
+			]
 			id: "19AA16DF731E0652"
-			subtitle: "Click me for more info!"
+			subtitle: "Craft light sources to reveal the world and keep the shadows at bay. Click me for more info!"
 			tasks: [
 				{
 					count: 16L
@@ -299,13 +346,20 @@
 					type: "item"
 				}
 			]
-			title: "Illuminating the Unknown"
+			title: "Kindle the Flame"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["19AA16DF731E0652"]
-			description: ["Beneath the layers of stone lies a trove of valuable materials waiting to be uncovered. Seek out gold, redstone, and lapis lazuli, each with its own unique uses. From redstone contraptions to enchanting tables, these resources will open doors to more advanced progression. Will you uncover the depths’ hidden riches? 💎⚡"]
+			description: [
+				"Beneath the stone lies more than ore—&nit holds the keys to your advancement&r."
+				""
+				"Delve deeper in search of &6Gold&r, &cRedstone&r, and &9Lapis Lazuli&r—each a vital resource unlocking new paths forward.  "
+				"From powering complex contraptions to fueling enchanting rituals, these treasures are the foundation of your next great leap."
+				""
+				"💎⚡ &nUncover the riches of the deep, and turn raw potential into boundless progress.&r"
+			]
 			id: "218A44E2EE4B49E4"
 			rewards: [
 				{
@@ -319,7 +373,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Mine gold, redstone, and lapis to unlock the tools of progress and power. Click me for more info!"
 			tasks: [
 				{
 					count: 2L
@@ -340,7 +394,7 @@
 					type: "item"
 				}
 			]
-			title: "Treasures Beneath the Earth"
+			title: "Secrets in Stone"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -382,7 +436,14 @@
 		{
 			dependencies: ["1C80B7736557D99F"]
 			description: [
-				"Powerful warriors are not just skilled—they are enchanted. Craft an enchanting table, surround it with bookshelves, and unlock the secrets of magical enhancements. With enchanted gear, your strength and durability will far exceed that of mere steel. Will you wield the power of magic to your advantage? 📖✨ Want to learn more about enchanting check out its   "
+				"True strength lies not only in steel—but in the magic that sharpens it."
+				""
+				"Forge your path to power by crafting an &dEnchanting Table&r, surrounding it with &fBookshelves&r to amplify its arcane potential.  "
+				"Through enchantments, your tools grow sharper, your armor stronger, and your journey more formidable than ever before."
+				""
+				"📖✨ &nEmbrace the art of enchantment, and let magic become your greatest ally.&r"
+				""
+				"Want to learn more about enchanting? Check out its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6965F4ABCAB88875\" } }"
 			]
 			id: "7B5086A6EF852DF0"
@@ -413,7 +474,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Craft an enchanting table, harness magical power, and turn steel into sorcery. Click me for more info!"
 			tasks: [
 				{
 					id: "3E902DA8EAD1597C"
@@ -421,8 +482,8 @@
 					type: "item"
 				}
 				{
-					block: "minecraft:bookshelf"
-					block_type: 0
+					block: "forge:bookshelves"
+					block_type: 1
 					id: "30D2BEFD1555E4A3"
 					replace: false
 					replaced: "minecraft:air"
@@ -430,13 +491,21 @@
 					value: 5L
 				}
 			]
-			title: "Harnessing the Magic of Enchantments"
+			title: "The Arcane Edge"
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7B5086A6EF852DF0"]
-			description: ["The world holds hidden ingredients that, when combined, can grant you incredible abilities. Craft brewing stands, gather ingredients, and experiment with potions that can heal, strengthen, or even grant resistance to fire. Potions may be the difference between victory and defeat in the challenges ahead. Use these two potions to aid in the future looting of the structures required for obtaining the seal pieces for Nether Remastered. 🍷⚗"]
+			description: [
+				"Scattered across the world are rare ingredients—&nfragments of power waiting to be distilled&r."
+				""
+				"Craft a &eBrewing Stand&r, gather exotic reagents, and begin your journey into potioncraft. From healing wounds to resisting flame, potions can transform the tide of battle and grant you an edge where brute strength falls short."
+				""
+				"🍷⚗ These brews aren’t just useful—they’re essential. Use them wisely as you venture into the perilous structures tied to &cNether Remastered&r, where the &lSeal Pieces&r await those prepared for the heat of battle."
+				""
+				"&nMaster the art of alchemy, and let every vial become a weapon in your arsenal.&r"
+			]
 			id: "598B697BDE842B0E"
 			rewards: [
 				{
@@ -457,7 +526,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Craft potions to empower your journey and conquer the trials of Nether Remastered. Click me for more info!"
 			tasks: [
 				{
 					id: "704BEEACD337EE9B"
@@ -482,18 +551,29 @@
 					type: "item"
 				}
 			]
-			title: "Brewing Mystical Elixirs"
+			title: "Elixirs of Survival"
 			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["598B697BDE842B0E"]
 			description: [
-				"The Nether holds immense power, but in this world, reaching it is no simple task. Unlike traditional Minecraft, you cannot just light a portal and walk through. Seek out ancient structures scattered across the Overworld—each hiding valuable loot that will aid you in unlocking the Seal of the Underworld. "
+				"The &cNether&r is a realm of immense power and peril—but in this world, its gates are sealed."
+				""
+				"Unlike traditional Minecraft, you cannot simply ignite obsidian and step through.  "
+				"Instead, you must embark on a journey across the Overworld, seeking out ancient structures that guard the keys to the underworld’s fiery threshold."
+				""
+				"Each ruin holds &6valuable loot&r and clues—fragments of a puzzle that, when assembled, unlock the &lSeal of the Underworld&r."
+				""
 				"{@pagebreak}"
-				"{image:ftb:textures/hopoportal.png width:192 height:150 align:center}"
-				"Read more about these structures in the   "
-				"{ \"text\": \"Nether Remastered Chaper!\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
+				""
+				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
+				""
+				"These structures are more than ruins—they are trials.  "
+				"Will you rise to the challenge and claim the right to enter the inferno?"
+				""
+				"Read more about these locations in the  "
+				"{ \"text\": \"Nether Remastered Chapter!\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
 			]
 			id: "4196DD5F26401205"
 			rewards: [
@@ -509,20 +589,29 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click me for more info!"
 			tasks: [{
 				id: "58D5FAE01CBFA872"
 				structure: "hopo:portal"
 				type: "structure"
 			}]
-			title: "A Path to the Nether Beyond"
+			title: "Sealed in Stone"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4196DD5F26401205"]
 			description: [
-				"You have prepared, gathered, and conquered the Overworld, but your true journey is only beginning. Once you’ve obtained the Seal of the Underworld, consume it to break the barrier between dimensions and step into the blazing inferno of the Nether Remastered. Are you ready to face the horrors beyond the portal? 🌋🔥 Continue your journey in the next   "
+				"You have prepared, gathered, and conquered the Overworld—  "
+				"but the true test lies beyond flame and shadow."
+				""
+				"Once you hold the &cSeal of the Underworld&r in your grasp, consume it to shatter the final barrier and awaken the ancient portal.  "
+				"What awaits is not merely another dimension—but a realm of blazing chaos, forgotten ruins, and trials that will push your limits."
+				""
+				"🌋🔥 &nAre you ready to cross the threshold and step into the fire?&r  "
+				"The &cNether&r awaits."
+				""
+				"Continue your journey in the next  "
 				"{ \"text\": \"Quest Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
 			]
 			id: "40C18D4807A0E1D2"
@@ -538,24 +627,42 @@
 					xp_levels: 15
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Consume the Seal of the Underworld and step into the blazing depths of the Nether. Click me for more info!"
 			tasks: [{
 				id: "25B6FE2FFA6F0622"
 				item: "nether_remastered:seal_of_the_underworld_item"
 				type: "item"
 			}]
-			title: "Unlocking the Gates to the Underworld"
+			title: "Through the Inferno"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5EDC9934E7D346D8"]
 			description: [
-				"The Overworld is more than just a starting point—it’s the foundation of your entire journey. From punching your first tree to crafting powerful tools, every step you take builds toward greater challenges ahead. Explore lush forests, vast plains, and deep caves as you gather resources, construct your first shelter, and prepare for your descent into the underground."
+				"The &2Overworld&r is more than your first step—it's the beating heart of your journey through &6Create - Forge Frontier&r.  "
+				"From that first tree you punch to the moment you forge your first machine, every milestone begins here, in a land teeming with life, danger, and untapped potential."
 				""
-				"Your journey will take you from stone tools to iron armor, from simple farms to advanced crafting stations, setting the stage for greater discoveries. But survival isn’t just about gathering materials—you’ll need to cook food, manage your health, and defend yourself from the dangers of the night."
+				"Explore lush forests, windswept plains, and winding cave systems as you gather resources, build your first shelter, and lay the groundwork for the adventures ahead.  "
+				"Whether you're crafting your first stone pickaxe or forging iron tools beneath a mountain outpost, the Overworld sets the stage for the trials to come."
+				""
 				"{@pagebreak}"
-				"With every crafted tool and conquered challenge, you inch closer to unlocking the secrets of this world. But remember—this is only the beginning. Survive, build, and prepare for the trials that await beyond the Overworld!"
+				""
+				"&l🌿 From Survival to Mastery&r  "
+				"Your time in the Overworld isn’t just about collecting materials—it’s about building resilience.  "
+				"Cook hearty meals, manage your health, and defend against the monsters of the night.  "
+				"Establish farms, secure your base, and experiment with early automation as you progress toward advanced crafting and complex contraptions."
+				""
+				"Each crafted item and conquered danger brings you one step closer to unlocking the greater mysteries of the world."
+				""
+				"{@pagebreak}"
+				""
+				"&l⚔ The Journey Begins Here&r  "
+				"This is where legends are forged.  "
+				"With every block placed and battle won, you grow stronger, smarter, and more prepared for what lies beyond."
+				""
+				"But never forget: the Overworld is not just a place—it’s a proving ground.  "
+				"&nMaster it, and you’ll be ready for the realms that follow.&r 🌍✨"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:grass_block"
@@ -567,7 +674,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "A World of Beginnings: Your Overworld Adventure Awaits, Click me to learn more!"
+			subtitle: "Begin your journey in the Overworld and forge the foundation for all that lies ahead. Click me for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -581,7 +688,7 @@
 				type: "stat"
 				value: 5
 			}]
-			title: "The Overworld Intro"
+			title: "Roots of Adventure"
 			x: 0.0d
 			y: -6.5d
 		}

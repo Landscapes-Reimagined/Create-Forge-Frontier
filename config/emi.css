@@ -22,9 +22,14 @@
 	index-source: creative;
 
 	/**
+	 * Which sidebar should be searched using the search bar.
+	 */
+	search-sidebar: right;
+
+	/**
 	 * Whether normal search queries should include the tooltip.
 	 */
-	search-tooltip-by-default: true;
+	search-tooltip-by-default: false;
 
 	/**
 	 * Whether normal search queries should include the mod name.

@@ -37,9 +37,6 @@
 			willow = true
 			ashen = true
 
-		[types.leaves_type.ad_astra]
-			glacian = true
-
 		[types.leaves_type.chipped]
 			apple_acacia = true
 			cherry_acacia = true
@@ -122,43 +119,36 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.endlessbiomes]
-			penumbral = true
-			glowing_penumbral = true
-
 		[types.leaves_type.phantasm]
 			pream = true
+
+		[types.leaves_type.ad_astra]
+			glacian = true
+
+		[types.leaves_type.tconstruct]
+			earth_slime = true
+			sky_slime = true
+			ender_slime = true
 
 		[types.leaves_type.create_dd]
 			rubber = true
 
 	[types.wood_type]
 
-		[types.wood_type.createdieselgenerators]
-			chip_wood = true
-
 		[types.wood_type.quark]
 			azalea = true
 			ancient = true
 			blossom = true
 
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
-
 		[types.wood_type.cataclysm]
 			chorus = true
-
-		[types.wood_type.enlightened_end]
-			indigo = true
-			cerulean = true
 
 		[types.wood_type.betterarcheology]
 			rotten = true
 
 		[types.wood_type.deeperdarker]
 			echo = true
+			bloom = true
 
 		[types.wood_type.alexscaves]
 			pewen = true
@@ -189,12 +179,26 @@
 			willow = true
 			yellow_bioshroom = true
 
-		[types.wood_type.endlessbiomes]
-			penumbra = true
-			twisted = true
-
 		[types.wood_type.phantasm]
 			pream = true
+
+		[types.wood_type.enlightened_end]
+			indigo = true
+			cerulean = true
+
+		[types.wood_type.unusualend]
+			chorus_nest = true
+
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
+		[types.wood_type.tconstruct]
+			greenheart = true
+			skyroot = true
+			bloodshroom = true
+			enderbark = true
 
 		[types.wood_type.create_dd]
 			rose = true
@@ -204,19 +208,16 @@
 
 	[types.cake]
 
+		[types.cake.farmersrespite]
+			coffee_cake = true
+
 		[types.cake.createaddition]
 			chocolate_cake = true
 			honey_cake = true
 
-		[types.cake.farmersrespite]
-			coffee_cake = true
-
 		[types.cake.collectorsreap]
 			lime_cake = true
 			pomegranate_cake = true
-
-		[types.cake.deeperdarkerdelight]
-			bloom_berries_cake = true
 
 		[types.cake.neapolitan]
 			vanilla_cake = true
@@ -360,6 +361,22 @@
 			damaged_log = true
 			golden_barred_trapdoor = true
 			nailed_log = true
+			edged_stripped_log = true
+			f_sign_stripped_log = true
+			wise_stripped_log = true
+			layered_stripped_log = true
+			lumpy_stripped_log = true
+			chipped_stripped_log = true
+			patient_stripped_log = true
+			k_sign_stripped_log = true
+			sign_stripped_log = true
+			knotted_stripped_log = true
+			l_sign_stripped_log = true
+			reinforced_stripped_log = true
+			stern_stripped_log = true
+			carved_stripped_log = true
+			i_sign_stripped_log = true
+			d_sign_stripped_log = true
 
 		[entries.wood_type.quark]
 			vertical_planks = true

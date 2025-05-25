@@ -1,0 +1,15 @@
+# Server-specific configuration for Create Ultimine
+# This file is meant for server administrators to control user behaviour.
+# Changes in this file currently require a server restart to take effect
+
+{
+	features: {
+		# Right-click with an alloy ingot (e.g. andesite alloy) with the Ultimine key held to apply on stripped logs or casings
+		# Default: true
+		right_click_alloy: true
+		
+		# Right-click with an wrench with the Ultimine key held to interact blocks (e.g. rotate, breaking)
+		# Default: true
+		right_click_wrench: true
+	}
+}

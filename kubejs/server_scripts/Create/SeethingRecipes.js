@@ -1,6 +1,11 @@
 ServerEvents.recipes(event => {
-// Polished Items Seething Recipes
+    // Polished Items Seething Recipes
     const seethingRecipes = [
+        {
+            name: "irradium_bar",
+            input: "enlightened_end:depleted_irradium_bar",
+            output: "enlightened_end:irradium_bar"
+        },
         {
             name: "polished_amethyst",
             input: "minecraft:amethyst_shard",
@@ -56,57 +61,19 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_lead_pile'
+                item: 'create_compressed:crushed_lead_pile'
             }
         ],
         results: [
             {
-                item: 'tfmg:lead_block'
+                item: 'createnuclear:lead_block'
             },
             {
                 chance: 0.60,
-                item: 'tfmg:lead_block'
+                item: 'createnuclear:lead_block'
             }
         ]
     }).id('forge_frontier:seething/crushed_lead_pile')    
-
-    // Crushed Aluminum Pile
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'forge_frontier:crushed_aluminum_pile'
-            }
-        ],
-        results: [
-            {
-                item: 'tfmg:aluminum_block'
-            },
-            {
-                chance: 0.60,
-                item: 'tfmg:aluminum_block'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_aluminum_pile')       
-
-    // Crushed Raw Redstone
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'forge_frontier:crushed_redstone'
-            }
-        ],
-        results: [
-            {
-                item: 'minecraft:redstone'
-            },
-            {
-                chance: 0.75,
-                item: 'minecraft:redstone'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_redstone')
 
     // Crushed Bismuth Pile
     event.custom({
@@ -227,7 +194,7 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_tin_pile'
+                item: 'create_compressed:crushed_tin_pile'
             }
         ],
         results: [
@@ -246,7 +213,7 @@ ServerEvents.recipes(event => {
         type: "create_dd:superheating",
         ingredients: [
             {
-                item: 'forge_frontier:crushed_uranium_pile'
+                item: 'create_compressed:crushed_uranium_pile'
             }
         ],
         results: [
@@ -335,5 +302,4 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('forge_frontier:seething/crushed_zinc_pile')
-
 })

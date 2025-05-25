@@ -1,0 +1,7 @@
+{
+  "parent": "easy_villagers:block/farm",
+  "textures": {
+    "front": "create:block/brass_block",
+    "back": "create:block/brass_block"
+  }
+}

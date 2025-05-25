@@ -21,6 +21,6 @@ ServerEvents.recipes(event =>
             },
             result: 'supplementaries:ash'
         }).id( 'forge_frontier:smoking/ash' )
-
+        
     }
 )

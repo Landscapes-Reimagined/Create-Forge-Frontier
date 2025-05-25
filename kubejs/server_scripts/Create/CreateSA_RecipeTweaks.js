@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
 			B: Ingredient.of('create:cogwheel').toJson(),
 			C: Ingredient.of('create:encased_fan').toJson(),
 			D: Ingredient.of('create_sa:hydraulic_engine').toJson(),
-			E: Ingredient.of('design_decor:copper_gas_tank').toJson(),
+			E: Ingredient.of('create_sa:large_filling_tank').toJson(),
             F: Ingredient.of('create:copper_backtank').toJson()
 		},
 		result: Ingredient.of('create_sa:copper_jetpack_chestplate').toJson(),
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
 			B: Ingredient.of('create:cogwheel').toJson(),
 			C: Ingredient.of('create:encased_fan').toJson(),
 			D: Ingredient.of('create_sa:heat_engine').toJson(),
-			E: Ingredient.of('design_decor:gas_tank').toJson(),
+			E: Ingredient.of('create_sa:large_fueling_tank').toJson(),
             F: Ingredient.of('create_sa:copper_jetpack_chestplate').toJson()
 		},
 		result: Ingredient.of('create_sa:andesite_jetpack_chestplate').toJson(),

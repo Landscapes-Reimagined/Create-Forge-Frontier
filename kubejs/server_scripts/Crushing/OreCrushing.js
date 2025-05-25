@@ -41,20 +41,6 @@ ServerEvents.recipes(event => {
             ],
         }).id('forge_frontier:crushing/bismuth_ore');
 
-        // Smelting/Blasting Recipe
-        event.custom({
-            type: 'minecraft:blasting',
-            cookingtime: 100, 
-            experience: 0.1, 
-            ingredient: {
-                item: 'forge_frontier:crushed_bismuth' 
-            },
-            result: {
-                item: 'enlightened_end:bismuth_ingot' 
-            }
-        }).id('forge_frontier:blasting/bismuth_ore');
-        
-
     // Malachite Ore
         // Crushing Recipe
         event.custom({
@@ -71,18 +57,6 @@ ServerEvents.recipes(event => {
             ],
         }).id('forge_frontier:crushing/malachite_ore');
 
-        // Smelting/Blasting Recipe
-        event.custom({
-            type: 'minecraft:blasting',
-            cookingtime: 100,
-            experience: 0.1,
-            ingredient: 
-                { item: 'forge_frontier:crushed_malachite' },
-            result: 
-                { item: 'enlightened_end:malachite' }
-        }).id('forge_frontier:blasting/malachite_ore');
-        
-
     // Irradium Ore
         // Crushing Recipe
         event.custom({
@@ -98,19 +72,6 @@ ServerEvents.recipes(event => {
                 { item: 'minecraft:end_stone', chance: 0.12 },
             ],
         }).id('forge_frontier:crushing/irradium_ore');
-
-        // Smelting/Blasting Recipe
-        event.custom({
-            type: 'minecraft:blasting',
-            cookingtime: 100,
-            experience: 0.1,
-            ingredient: 
-                { item: 'forge_frontier:crushed_irradium' },
-            result: 
-                { item: 'enlightened_end:irradium_bar' }
-        }).id('forge_frontier:blasting/irradium_ore');
-        
-
 
     // Coal Ore
     // Forge:Ores/Coal 

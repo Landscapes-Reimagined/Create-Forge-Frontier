@@ -1,0 +1,1679 @@
+{
+	autofocus_id: "0157A9E38B635A46"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_dreams_and_desires"
+	group: "3D5393E3938A9DF4"
+	icon: "create_dd:flywheel"
+	id: "4AE33E17677F1FB8"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/dreams_desires_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -11.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Create: Dreams \\& Desires expands the mechanical frontier with new alloys, advanced machines, and powerful blocks that push automation further than ever before. This chapter introduces tools for every phase of progression. From early resource processing to infinite-use blocks. If you can build it, you can improve it."]
+			icon: "create_dd:flywheel"
+			id: "0157A9E38B635A46"
+			rewards: [
+				{
+					count: 4
+					id: "6DC8578F8192CCF6"
+					item: "create_dd:tin_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B18218018C00B55"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61596791B3F56306"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "14D257C258725E87"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Dream Big, Build Bigger"
+			tasks: [{
+				id: "4F74498F7E969BF6"
+				title: "Click Me!"
+				type: "checkmark"
+			}]
+			title: "Welcome To Dreams \\& Desires"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6BAFE533ABE5A0F8"]
+			description: [
+				"The Deforesting Saw is a brittle but powerful tool in the hands of a professional Lumberjack. Capable of destroying entire trees in one fell swoop, this tool makes harvesting logs a breeze!"
+				""
+				"Use with a pressurized backtank to prevent durability loss!"
+			]
+			id: "60FDABF96F5A8459"
+			rewards: [
+				{
+					count: 2
+					id: "5C2B5333AF914E70"
+					item: "create_compressed:iron_sheet_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "111E2E970A96707B"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "43E9F0D900CB1919"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "A Lumberjack's Best Friend"
+			tasks: [{
+				id: "25D2D9A66C808060"
+				item: {
+					Count: 1
+					id: "create_dd:deforester_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E9D0705CA550997"]
+			description: ["The stronger, older brother to the Deforesting Saw, the Mythical Forest Ravager can clear an entire forest in only a day's work! "]
+			id: "287D4E7CB1B8B657"
+			rewards: [
+				{
+					id: "0A87F2027A920CD3"
+					item: "create_dd:mithril_block"
+					type: "item"
+				}
+				{
+					id: "156FFC83B91038A5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Forest Beware"
+			tasks: [{
+				id: "146F7021C7F5281C"
+				item: {
+					Count: 1
+					id: "create_dd:forest_ravager"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32166AAADB00B157"]
+			description: ["The Bronze Saw is faster and stronger than its basic counterpart. It slices through logs and planks with ease, keeping up with automation that demands speed."]
+			id: "62756641C3F0DE83"
+			rewards: [
+				{
+					count: 4
+					id: "172A20CAC910B5A6"
+					item: "create_dd:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "513FFF5BE8F8F5A4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "A Sharper Solution"
+			tasks: [{
+				id: "6485EF56AC705236"
+				item: "create_dd:bronze_saw"
+				type: "item"
+			}]
+			title: "The Bronze Saw"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32166AAADB00B157"]
+			description: ["The Bronze Drill bores through blocks faster and cleaner than before. Upgrading to bronze means quicker mining setups and better output."]
+			id: "4373F14FB3C76479"
+			rewards: [
+				{
+					count: 4
+					id: "342F7238B33F7E6D"
+					item: "create_dd:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "6B8588C5AEA83DE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "A Drill with Power"
+			tasks: [{
+				id: "2B1C9171D9061F3F"
+				item: "create_dd:bronze_drill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7936020BBC03AFD9"]
+			description: ["The Industrial Fan goes far beyond the basic version. It enables enhanced processing types like seething and freezing."]
+			id: "4DE411938BA6AF44"
+			rewards: [
+				{
+					id: "60CDE0F65A8C8D3B"
+					item: "create_dd:industrial_fan"
+					type: "item"
+				}
+				{
+					id: "7BB339A07FB4242D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Beyond the Breeze"
+			tasks: [{
+				id: "670933D1BA597E30"
+				item: "create_dd:industrial_fan"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E9D0705CA550997"
+				"213B0ECDCCEA9AB0"
+			]
+			description: ["The Flywheel Engine converts furnace heat into rotational force. Attach it to any furnace, then place a Flywheel Component exactly one block away. When the furnace smelts an item, the Component will spin up and generate 8196 Stress Units."]
+			icon: "create_dd:furnace_engine"
+			id: "2F143289415D3B8A"
+			rewards: [
+				{
+					count: 8
+					id: "043CD9D16262A390"
+					item: "create_dd:industrial_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6946D2920F4FED7E"
+					item: "create_dd:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "63347CC4EDA6F1AD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Ignition Based Stress"
+			tasks: [
+				{
+					id: "2B96CCD02E787E3A"
+					item: "create_dd:furnace_engine"
+					type: "item"
+				}
+				{
+					id: "71F98CAC32BB46D5"
+					item: "create_dd:flywheel"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"32166AAADB00B157"
+				"62BA4CBF94708FA5"
+				"32854DA1332D942D"
+			]
+			description: ["The Hydraulic Press is not just powerful, it is efficient. It can process up to a full stack of items in a single press, making it perfect for mass crafting and bulk resource processing. Once you build one, manual presses start feeling slow."]
+			id: "2A43A094E569AB31"
+			rewards: [
+				{
+					count: 8
+					id: "23FA2C731C6A00A9"
+					item: "create_dd:hydraulic_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "774D4DA8517728CF"
+					item: "create_dd:rubber"
+					type: "item"
+				}
+				{
+					id: "2EA43D2EA40C6DF3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Force Multiplied"
+			tasks: [{
+				id: "160AC11A3DDB20EE"
+				item: "create_dd:hydraulic_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47A6A95553C6F735"]
+			description: ["The Integrated Circuit is a key step toward smarter machines. It is crafted from a Lapis Alloy Sheet and used to create Calculation Mechanisms and Integrated Mechanisms."]
+			id: "1A9F7CE1AB7FC2EC"
+			rewards: [
+				{
+					count: 8
+					id: "392E4C828F30AF07"
+					item: "create_dd:integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "74A2C856703ABAF0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Logical Wiring"
+			tasks: [{
+				id: "1FB7B0C6801FFBC0"
+				item: "create_dd:integrated_circuit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1A9F7CE1AB7FC2EC"]
+			description: ["The Integrated Mechanism is where movement and logic come together. It is a vital part of advanced builds like the Accelerator Motor, Flywheel Engine, and even the Mythical Forest Ravager."]
+			id: "2E9D0705CA550997"
+			rewards: [
+				{
+					id: "3134C9ADB23BDB4E"
+					item: "create_dd:integrated_mechanism"
+					type: "item"
+				}
+				{
+					id: "68D46121D720DEEA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Crafted for Complexity"
+			tasks: [{
+				id: "538620D7C880A3EA"
+				item: "create_dd:integrated_mechanism"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26F62AF949EFE491"]
+			description: [
+				"Lapis Alloy is the result of combining tin with refined lapis. Though simple to make, this alloy holds unusual properties. Some say it hums when held. "
+				""
+				"Whether that’s true or not, it plays a key role in later crafting."
+			]
+			icon: "create_dd:lapis_alloy"
+			id: "5550F7D5871FCA99"
+			rewards: [
+				{
+					count: 16
+					id: "126B285AB17D3C80"
+					item: "create_dd:lapis_alloy"
+					type: "item"
+				}
+				{
+					id: "53F48109C29EC7D4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Blue and True"
+			tasks: [{
+				count: 16L
+				id: "07A91906E284204C"
+				item: "create_dd:lapis_alloy"
+				type: "item"
+			}]
+			title: "Lapis Alloy!"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5550F7D5871FCA99"]
+			description: ["A Lapis Alloy Sheet is more than a flattened ingot. Pressing lapis alloy draws out its conductivity and unlocks new crafting uses."]
+			id: "47A6A95553C6F735"
+			rewards: [
+				{
+					count: 8
+					id: "35D971B7A2380F79"
+					item: "create_dd:lapis_sheet"
+					type: "item"
+				}
+				{
+					id: "0E8D19763CB5BDD8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Bonked Blues"
+			tasks: [{
+				id: "0DB0B3BCA40285CE"
+				item: "create_dd:lapis_sheet"
+				type: "item"
+			}]
+			title: "Sheets of Desire"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47A6A95553C6F735"]
+			description: [
+				"The Overburden Casing is designed for high-capacity loads. "
+				""
+				"It is used to make item pipes and vaults, forming the foundation of strong, scalable logistics."
+			]
+			id: "3696F1B5E0C16F29"
+			rewards: [
+				{
+					count: 8
+					id: "1590186BEE679278"
+					item: "create_dd:overburden_casing"
+					type: "item"
+				}
+				{
+					id: "6C5ED3EF019FF786"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Heavy Support"
+			tasks: [{
+				id: "7C0B25E68EC74F70"
+				item: "create_dd:overburden_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3696F1B5E0C16F29"]
+			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, while Item Pipes route resources cleanly from one inventory to the next."]
+			icon: "create:item_vault"
+			id: "449C4C4A589B69B3"
+			rewards: [
+				{
+					count: 8
+					id: "07829932F865453B"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7E56C00CCCF37B3F"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+				{
+					id: "228675BE79CD0E3A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Smart Storage Starts Here"
+			tasks: [
+				{
+					id: "462F0A5899089C17"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "01051E7392CC4AB6"
+					item: "pipez:item_pipe"
+					type: "item"
+				}
+			]
+			title: "Storage Logistics"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Tin is a key part of bronze and a new addition in Dreams \\& Desires. It’s a soft, silvery metal that’s easy to process and alloy. You’ll need a steady supply, so keep an eye out while mining."]
+			id: "26F62AF949EFE491"
+			rewards: [
+				{
+					count: 8
+					id: "7FB0C5E6E8788818"
+					item: "create_dd:tin_ore"
+					type: "item"
+				}
+				{
+					id: "0CA4B10C0E6D3AF6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Tin to Win"
+			tasks: [{
+				count: 4L
+				id: "44E7A446D4BC379B"
+				item: "create_dd:tin_ingot"
+				type: "item"
+			}]
+			title: "Soft But Strong"
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Zinc rarely takes center stage, yet nothing quite works without it. It slips into recipes quietly, fusing metals that would never meet otherwise. When bronze or brass takes shape, zinc is the unseen hand guiding the blend. Keep some handy, Dreams \\& Desires likes its alloys."]
+			id: "1A2DB268B0A4483E"
+			rewards: [
+				{
+					count: 8
+					id: "44D73D3AC320D6F5"
+					item: "excavated_variants:create_ochrum_zinc_ore"
+					type: "item"
+				}
+				{
+					id: "282710ED86E7F365"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Every Alloy Needs a Spark"
+			tasks: [{
+				count: 4L
+				id: "7DD966ABB18E250A"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			title: "Simple But Vital"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["You have seen iron before, but in Dreams \\& Desires, it earns new importance. With the right process, it becomes Steel. And under intense heat and pressure, it becomes Industrial Iron - capable of doubling your crafts of basic Create components. "]
+			icon: "minecraft:iron_ingot"
+			id: "28CC36288E5E325C"
+			rewards: [
+				{
+					count: 8
+					id: "4BC100E0E610C577"
+					item: "excavated_variants:create_crimsite_iron_ore"
+					type: "item"
+				}
+				{
+					id: "7B5AD22B6FC555EE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: " The Workhorse of Progress"
+			tasks: [{
+				count: 4L
+				id: "6BBFF2A01CB8A34A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "It's Iron... "
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["28CC36288E5E325C"]
+			description: ["Industrial Iron is not mined. It is made. Drop two iron sheets into a heated basin, then press them together with force. The result is a dense ingot built for stronger machines and late-game tech. This is where raw iron becomes true infrastructure."]
+			id: "4E16FEE8C7907853"
+			rewards: [
+				{
+					count: 8
+					id: "5EA779AEFFE9E68B"
+					item: "create_dd:industrial_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3276BA9F03A5A717"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Heat \\& Pressure -> Progress"
+			tasks: [{
+				id: "6782756BAE54D8D5"
+				item: "create_dd:industrial_iron_ingot"
+				type: "item"
+			}]
+			title: "Pressed for Power"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Copper is one of the most used materials in Dreams \\& Desires. It forms the base of alloys like bronze, but also finds its way into pumps, pipes, and machines that move fluids. Whether you are forging or flowing, copper gets the job done."]
+			id: "6D199BCCCFE35819"
+			rewards: [
+				{
+					count: 8
+					id: "43A39EDCA1306AF5"
+					item: "excavated_variants:create_asurine_copper_ore"
+					type: "item"
+				}
+				{
+					id: "52338142599A6726"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "The Backbone of Industry"
+			tasks: [{
+				count: 4L
+				id: "349B80DEF85A0426"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Common But Crucial"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A9F7CE1AB7FC2EC"
+				"5853A9B8CDC49BFC"
+			]
+			description: ["The Calculation Mechanism is a component used in Forge Rocket construction and advanced display systems (Create Display Boards). "]
+			id: "7B030CB530E6C806"
+			rewards: [
+				{
+					count: 4
+					id: "78BD522292BDF71F"
+					item: "create_dd:integrated_circuit"
+					type: "item"
+				}
+				{
+					id: "58B837B64F50AF53"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 0.9d
+			subtitle: "A Machine's Mind"
+			tasks: [{
+				id: "634D3E1E823FE8CC"
+				item: "create_dd:calculation_mechanism"
+				type: "item"
+			}]
+			x: -6.3d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5B0EA941561BBAC6"]
+			description: ["The Logistics Mechanism allows machines to act with purpose. Use it to craft the Deforesting Saw and the Kinetic Motor."]
+			id: "6BAFE533ABE5A0F8"
+			rewards: [
+				{
+					count: 2
+					id: "32757444CAD9B072"
+					item: "create_dd:inductive_mechanism"
+					type: "item"
+				}
+				{
+					id: "13DBCB72A6253664"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Basic Mechanical Skill"
+			tasks: [{
+				id: "13F5355C6B2D7FFC"
+				item: "create_dd:inductive_mechanism"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2757ABE6CB197AA8"
+				"19074073959EF1FD"
+			]
+			description: ["The Infernal Mechanism is forged in a process where most machines should melt. It channels extreme heat into controlled motion, making it essential for the Industrial Fan and the engines of the Forge Rocket."]
+			id: "7936020BBC03AFD9"
+			rewards: [
+				{
+					id: "2263B91CC222C43B"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+				{
+					id: "0130AB11D974B5B5"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Fan the Flames"
+			tasks: [{
+				id: "562BEEB385802188"
+				item: "create_dd:infernal_mechanism"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2757ABE6CB197AA8"]
+			description: ["The Sealed Mechanism is built for pressure and built to last. It is required for hydraulic presses and makes crafting copper-based components far more efficient. "]
+			id: "32854DA1332D942D"
+			rewards: [
+				{
+					id: "49895495871A3292"
+					item: "create_dd:sealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "651E2D3EDF9E2DDC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Engineered Efficiency"
+			tasks: [{
+				id: "07A2328508B2D631"
+				item: "create_dd:sealed_mechanism"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"26F62AF949EFE491"
+				"6D199BCCCFE35819"
+				"1A2DB268B0A4483E"
+			]
+			description: ["Bronze is where real upgrades begin. Use it to craft faster drills, a press that can do entire stacks in one blow, and sturdier saws. Machines run smoother, and progress moves faster. And if that is not enough, bronze can even lift you off the ground with jetpacks."]
+			id: "32166AAADB00B157"
+			rewards: [
+				{
+					count: 8
+					id: "4C91AEB3077EE915"
+					item: "create_dd:bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "77F8B241DCF09731"
+					item: "create_dd:bronze_casing"
+					type: "item"
+				}
+				{
+					id: "0EA52AE1CD810F1D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Alloy of Efficiency"
+			tasks: [{
+				id: "4C9BC8527AECB13F"
+				item: "create_dd:bronze_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4E16FEE8C7907853"]
+			description: ["Steel is made by combining industrial iron and coal in a basin under heat and high pressure. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
+			hide_dependent_lines: true
+			id: "213B0ECDCCEA9AB0"
+			rewards: [
+				{
+					count: 16
+					id: "3E83B70F500808FF"
+					item: "excavated_variants:andesite_iron_ore"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "211F4BBEE2EE6AEC"
+					item: "excavated_variants:tuff_coal_ore"
+					type: "item"
+				}
+				{
+					id: "0107A9F77D2250D2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "  A Carbon Combination"
+			tasks: [{
+				id: "7F5CBF9C0E23F0CD"
+				item: "create_dd:steel_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Spectral Rubies glow with deep magical energy. They are one of the two core gems used to craft Chromatic Compound."]
+			hide_dependency_lines: true
+			icon: "create_dd:spectral_ruby"
+			id: "0A6652EF6ECEE753"
+			rewards: [
+				{
+					count: 4
+					id: "5631524EF6F87973"
+					item: "create_dd:polished_spectral_ruby"
+					type: "item"
+				}
+				{
+					id: "4C281C332F1E386E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.8d
+			subtitle: "Mystical Violet"
+			tasks: [{
+				id: "4FFA080970C72881"
+				item: "create_dd:polished_spectral_ruby"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.2d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Rose Quartz represents the balanced energy within Chromatic Compound. Never underestimate the simplest piece of the puzzle, it is used to craft one of the most powerful alloys in Dreams \\& Desires. "]
+			hide_dependency_lines: true
+			id: "0F4152918F47E01D"
+			rewards: [
+				{
+					count: 4
+					id: "138C33FB3537C23A"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "0F5AA3E0B3E43F23"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.8d
+			subtitle: "Pink Power"
+			tasks: [{
+				id: "53F82F6B1A8D3D8F"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.2d
+		}
+		{
+			dependencies: [
+				"0A6652EF6ECEE753"
+				"0F4152918F47E01D"
+				"70ED1EF06BC41E96"
+			]
+			description: ["Chromatic Compound is used in a wide variety of advanced crafting recipes and alloy production. This single item opens the door to radiant materials, powerful machines, and the path to true late-game progress."]
+			id: "6B3E7F4360459BE7"
+			rewards: [
+				{
+					count: 16
+					id: "175CC8B3F17F24F1"
+					item: "create_dd:chromatic_compound"
+					type: "item"
+				}
+				{
+					id: "54D28EAC9E7E9067"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Transmutation Catalyst"
+			tasks: [{
+				count: 2L
+				id: "749EA2D0EF75B050"
+				item: "create_dd:chromatic_compound"
+				type: "item"
+			}]
+			title: "Chromatic Compound"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6B3E7F4360459BE7"
+				"213B0ECDCCEA9AB0"
+			]
+			description: ["Mithril is a powerful late-game alloy known for its strength, lightness, and radiant properties. It is used to craft a higher tier jetpack and the Stargaze Singularity Casing. "]
+			id: "4DE3DBCBE4DE92D9"
+			rewards: [
+				{
+					count: 8
+					id: "4C8CA0CE201BFBF9"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					id: "276BF612E64029FF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Flight-Grade Alloy"
+			tasks: [{
+				id: "5C9F1055C86946BF"
+				item: "create_dd:mithril_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D199BCCCFE35819"]
+			description: [
+				"The Hydraulic Casing is a key component in early automation. It is used to craft both fluid pipes and the hydraulic press, both of which rely on pressure to make fluids flow and compress items. "
+				""
+				"Every good system needs a strong frame, and this is where it starts."
+			]
+			id: "62BA4CBF94708FA5"
+			rewards: [
+				{
+					count: 8
+					id: "2B37A78DB7CF3F1B"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "456C54EB5688D1BD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Frame of Force"
+			tasks: [{
+				id: "209E9937E261A3DE"
+				item: "create_dd:hydraulic_casing"
+				type: "item"
+			}]
+			title: "The Hydraulic Casing"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Zinc Plates are created by pressing zinc ingots into thin sheets. These plates are a key ingredient in the Logistics Mechanism."]
+			hide_dependency_lines: true
+			icon: "create_dd:zinc_sheet"
+			id: "5B0EA941561BBAC6"
+			rewards: [
+				{
+					count: 8
+					id: "56FE5293BAC9EAC1"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "092D9867FD0A99FA"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					id: "6DB66F7839ED2048"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.0d
+			subtitle: "From Ore to Order"
+			tasks: [{
+				id: "1A177B81F7ABD959"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/zinc"
+					}
+				}
+				title: "Any #forge:plates/zinc"
+				type: "item"
+			}]
+			title: "Zinc Plate"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26F62AF949EFE491"]
+			description: ["Tin Sheets are used to make calculation mechanisms! Its surface whirs with electrical potential. "]
+			id: "5853A9B8CDC49BFC"
+			rewards: [
+				{
+					count: 4
+					id: "1F08C01B6159DA79"
+					item: "create_dd:tin_sheet"
+					type: "item"
+				}
+				{
+					id: "367F3027D66C0CD4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Flat and Flexible"
+			tasks: [{
+				id: "28429D79992FCCA8"
+				item: "create_dd:tin_sheet"
+				type: "item"
+			}]
+			x: -6.3d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E16FEE8C7907853"]
+			description: ["Industrial Iron Sheets are used in sequenced assembly recipes and normal crafting recipes to make new mechanisms and increase your yield from crafting Create components like the chute and display board!"]
+			id: "19074073959EF1FD"
+			rewards: [
+				{
+					count: 8
+					id: "077EE3471798CF08"
+					item: "create_dd:industrial_iron_sheet"
+					type: "item"
+				}
+				{
+					id: "4B7DE8A503699FF4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Pressed to Perfection"
+			tasks: [{
+				id: "7A2F94CAE4733084"
+				item: "create_dd:industrial_iron_sheet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B3E7F4360459BE7"]
+			description: ["To make Refined Radiance, toss a Chromatic Compound into the beam of an active beacon. The compound will react with the concentrated light and convert into something truly radiant. A little spectacle goes a long way."]
+			id: "22496CC9B3F89F89"
+			rewards: [
+				{
+					count: 4
+					id: "2DF17614E1745708"
+					item: "create_dd:refined_radiance"
+					type: "item"
+				}
+				{
+					id: "7B79374762F6C2C0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.9d
+			subtitle: "Beam of Brilliance"
+			tasks: [{
+				id: "501F24B13520AF3C"
+				item: "create_dd:refined_radiance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6B3E7F4360459BE7"]
+			description: ["Craft Shadow Steel by tossing a Chromatic Compound into the void in the End. Don’t worry-it will float back up as something darker. The abyss gives it back, changed."]
+			id: "2D47D72D4A5779F3"
+			rewards: [
+				{
+					count: 4
+					id: "762E03479A5C2550"
+					item: "create_dd:shadow_steel"
+					type: "item"
+				}
+				{
+					id: "7CDBC403CB56A33D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.9d
+			subtitle: "Void Reaction"
+			tasks: [{
+				id: "615CB27CEFD14B7B"
+				item: "create_dd:shadow_steel"
+				type: "item"
+			}]
+			x: 0.44999999999999996d
+			y: 1.3499999999999999d
+		}
+		{
+			dependencies: ["6B3E7F4360459BE7"]
+			description: ["Right-click a Blaze with a Chromatic Compound to create Blaze Brass. The reaction is instant and fiery, binding heat and metal into a usable alloy. Just try not to get set on fire in the process."]
+			id: "4D498348AF95164F"
+			rewards: [
+				{
+					count: 4
+					id: "65BF7EC6453F008F"
+					item: "create_dd:blaze_gold"
+					type: "item"
+				}
+				{
+					id: "1A962626103C9D08"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Ignite the Alloy"
+			tasks: [{
+				id: "722DC87559B91F17"
+				item: "create_dd:blaze_gold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0157A9E38B635A46"]
+			description: ["Sap is one of the first fluids you can produce, and acacia trees are the best source. Legend says their twisted shape helps pressure build in the bark, making the sap flow faster. Later, you can make rubber saplings to produce even more. "]
+			hide_dependency_lines: true
+			id: "608DCE33DE472F15"
+			rewards: [
+				{
+					count: 4
+					id: "73B6BA9615C771C2"
+					item: "create_dd:crystallized_sap"
+					type: "item"
+				}
+				{
+					id: "7291B69986149EAA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Tapped and Ready"
+			tasks: [{
+				id: "4C3DA1CC2C35FE39"
+				item: "create_dd:sap_bucket"
+				type: "item"
+			}]
+			title: "Sticky but Useful"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["608DCE33DE472F15"]
+			description: ["Rubber starts as sap, but with some mixing, it becomes something far more useful. Ancient inventors once believed it held the spirit of trees. Use rubber to craft sails capable of harnessing elements and advanced mechanisms. Nature - refined for machines."]
+			id: "2757ABE6CB197AA8"
+			rewards: [
+				{
+					count: 4
+					id: "06AF0203C2FD6474"
+					item: "create_dd:raw_rubber"
+					type: "item"
+				}
+				{
+					id: "4EB3D3EC5F2A0945"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Elastic Potential"
+			tasks: [{
+				id: "055A85C4F854E7BC"
+				item: "create_dd:rubber"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6BAFE533ABE5A0F8"]
+			description: ["The Kinetic Motor is easy to build and runs without fuel, making it perfect for early-game setups. It does not generate much SU, but a little rotational force goes a long way when machines are few and your needs are simple."]
+			id: "43EA22C3BC0ED1EC"
+			rewards: [
+				{
+					count: 4
+					id: "2F7A0B67068EA5E0"
+					item: "create_dd:kinetic_motor"
+					type: "item"
+				}
+				{
+					id: "7B4B040A98B1BB5E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Weak yet Useful"
+			tasks: [{
+				id: "1F877A1225F32237"
+				item: "create_dd:kinetic_motor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E9D0705CA550997"]
+			description: ["The Accelerator Motor produces 16x RPM in Stress Units and does it without any fuel. It is perfect for high-speed setups where space and power matter."]
+			id: "2AE1DC8EB84CE3A5"
+			rewards: [
+				{
+					count: 2
+					id: "4B4665C490257286"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "59E9AE031BEBFCAC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Spin Smarter"
+			tasks: [{
+				id: "44EFE5A30F3DC8BF"
+				item: "create_dd:accelerator_motor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2757ABE6CB197AA8"
+				"7936020BBC03AFD9"
+			]
+			description: [
+				"These sails are more than decoration. In Dreams \\& Desires, they channel wind into real power, acting as catalysts for Encased and Industrial Fan processing. Whether you are washing, smoking, or blasting items, sails help keep the airflow strong."
+				""
+				"[\"\",{\"text\":\"Note that the \"},{\"text\":\"Fan Catalysts\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5D6433B36939DADB\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" from Create Connected also function the same as these sails!\"}]"
+			]
+			icon: "create_dd:superheating_sail"
+			id: "53016A184649213E"
+			rewards: [{
+				id: "52EF26876F6B34EB"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "Wind at Work"
+			tasks: [
+				{
+					count: 4L
+					id: "7239E8329CD5E868"
+					item: "create_dd:splashing_sail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6DB038BF7677706F"
+					item: "create_dd:haunting_sail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5934B07D280A3BB0"
+					item: "create_dd:smoking_sail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "30B6E5FAF03B3E44"
+					item: "create_dd:blasting_sail"
+					type: "item"
+				}
+				{
+					id: "6F4DEE24AE3C45DF"
+					item: "create_dd:superheating_sail"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "71D62158C3CBD484"
+					item: "create_dd:freezing_sail"
+					type: "item"
+				}
+			]
+			title: "Processing Sails"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B3E7F4360459BE7"]
+			description: ["Overcharge Alloy is created by exposing Chromatic Compound to a surge from a Tesla Coil. The process forces unstable energy into the material, turning it into something dangerous and powerful. "]
+			id: "52DDF468A77752B0"
+			rewards: [
+				{
+					id: "26022C165C4626A4"
+					item: "forge_frontier:overcharged_iron_block"
+					type: "item"
+				}
+				{
+					id: "2F9F98FA1F6EDC8A"
+					item: "forge_frontier:overcharged_gold_block"
+					type: "item"
+				}
+				{
+					id: "40ED11C8731243BF"
+					item: "forge_frontier:overcharged_diamond_block"
+					type: "item"
+				}
+				{
+					id: "1BED761375A0C633"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.9d
+			subtitle: "Volatile Potential"
+			tasks: [{
+				id: "1E923BB70E3AC46F"
+				item: "create_dd:overcharge_alloy"
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 1.3499999999999999d
+		}
+		{
+			dependencies: ["150405FC70413132"]
+			description: [
+				"Combine Nuggets of Experience and Frozen Nuggets of Experience to form an Ingot of Experience. It takes both raw and refined magic to forge something this stable. "
+				""
+				"Ingots of Experience are used to make Masses of Experience, which are used for end game alloys. "
+			]
+			id: "2400BE6D973DB990"
+			rewards: [
+				{
+					count: 18
+					id: "393B3CEBFFD5B184"
+					item: "create_dd:experience_ingot"
+					type: "item"
+				}
+				{
+					id: "78A933932479A4B6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Solid Insight"
+			tasks: [{
+				id: "6C3EFA13FE59D25D"
+				item: "create_dd:experience_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2400BE6D973DB990"]
+			description: [
+				"Combine nine Ingots of Experience to form a Mass of Experience. This is the final stage of XP condensation and is used in the creation of powerful end-game alloys."
+				""
+				"It is also used to make Shimmer, a fluid with magical properties that enable infinite resource generation!"
+			]
+			id: "7A355AA3FDE025A6"
+			rewards: [
+				{
+					count: 2
+					id: "40B7A256990865F8"
+					item: "create_dd:experience_mass"
+					type: "item"
+				}
+				{
+					id: "262A7C76492FE365"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Crafted Clarity"
+			tasks: [{
+				id: "72C1444C51AB4116"
+				item: "create_dd:experience_mass"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DE411938BA6AF44"]
+			description: ["Using an Industrial Fan and either the Freezing Catalyst or a Freezing Sail, you can bulk freeze Bottles o' Enchanting into Nuggets of Experience. Freeze those again to create Frozen Nuggets of Experience, a key material used in crafting powerful late-game alloys."]
+			icon: "create_dd:frozen_nugget"
+			id: "150405FC70413132"
+			rewards: [
+				{
+					count: 64
+					id: "59E9C56ABE25A7F8"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "2AA0A3A851231E45"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.0d
+			subtitle: "Bottles to Nuggets"
+			tasks: [
+				{
+					id: "5116C5D89D217960"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+				{
+					id: "1A997483A2A4FAB9"
+					item: "create_dd:frozen_nugget"
+					type: "item"
+				}
+			]
+			title: "A Cold Conversion"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7A355AA3FDE025A6"
+				"2E99FE44436A381C"
+				"1D40BCB5E0BF8836"
+				"2BE12AF20FA6DC0D"
+				"1F22F9F9B3D393E1"
+				"38367FF1F1438DED"
+				"571CE6F8667DA48F"
+				"25559A9BCB194A6D"
+			]
+			description: ["{\"text\":\"Shimmer is a luminous fluid created by blending various fluids found throughout the \",\"extra\":[{\"text\":\"Molten Vents\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E4AA685A681F1B0\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" chapter. It is used to craft the Stargaze Singularity Casing, a key component for crafting the \"},{\"text\":\"Mechanical Extruder\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6B0EFB5F45658146\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"]
+			id: "4B1463B8ECBB6CF1"
+			rewards: [
+				{
+					id: "59588BC6D0B73E17"
+					item: "create_dd:shimmer_bucket"
+					type: "item"
+				}
+				{
+					id: "594FD4D216E9B26B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Liquid Radiance"
+			tasks: [{
+				id: "6C4ACCCA85E5D300"
+				item: "create_dd:shimmer_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B3E7F4360459BE7"]
+			description: ["Chromatic Waste is produced by draining Chromatic Compound. This gives you a Compound Base and leaves behind the waste-usable in Mechanical Extruder recipes and required for crafting Shimmer."]
+			hide_dependent_lines: true
+			id: "25559A9BCB194A6D"
+			rewards: [
+				{
+					count: 8
+					id: "06E3613D3083DD38"
+					item: "create_dd:chromatic_compound"
+					type: "item"
+				}
+				{
+					id: "43A00D6343745488"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Waste, but It's Not Worthless"
+			tasks: [{
+				id: "78EDD6A5493F91F8"
+				item: "create_dd:chromatic_waste_bucket"
+				type: "item"
+			}]
+			title: "Chromatic Waste"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4B1463B8ECBB6CF1"
+				"7A355AA3FDE025A6"
+				"22496CC9B3F89F89"
+				"4D498348AF95164F"
+				"2D47D72D4A5779F3"
+				"4DE3DBCBE4DE92D9"
+			]
+			description: [
+				"The Stargaze Singularity is a dense, high-tier component used to craft the Mechanical Extruder and Infablocks. It represents the fusion of energy and matter. This is not just another alloy-it is the core of your most advanced machines. "
+				""
+				"To form it, take a Fallen Stargaze Singularity to build height at night "
+				"(Y = 639, between 22:00 and 02:00), drop it at your feet, and let the stars do the rest."
+			]
+			id: "78FDFDDD273A975C"
+			rewards: [
+				{
+					id: "1B66371D0FDCD253"
+					item: "create_dd:stargaze_singularity"
+					type: "item"
+				}
+				{
+					id: "00692A22E3C75279"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Forged by the Stars"
+			tasks: [{
+				id: "7F92B41C0A7F0B06"
+				item: "create_dd:stargaze_singularity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78FDFDDD273A975C"]
+			description: ["Infablocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with AE2 systems using formation and annihilation planes to automate their collection. Whether you're building or collecting infinite resources, Infablocks are the ultimate form of automation."]
+			icon: "create_dd:infacobblestone"
+			id: "089AAAA52771B181"
+			rewards: [
+				{
+					id: "65B25FC6224BF77B"
+					item: "create_dd:stargaze_singularity"
+					type: "item"
+				}
+				{
+					id: "28F6F1B2BD8054CE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Infinity, Materialized"
+			tasks: [{
+				id: "19E0E28887C96552"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create_dd:infablocks"
+					}
+				}
+				title: "Any #create_dd:infablocks"
+				type: "item"
+			}]
+			title: "Infablocks"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["52DDF468A77752B0"]
+			description: ["Overcharge Casing is made from Overcharge Alloy and is used to craft Energy Pipes. It is built to contain and direct unstable power."]
+			id: "44976406B9B89D01"
+			rewards: [
+				{
+					count: 2
+					id: "27ABAECA3E37B7F8"
+					item: "create_dd:overcharged_alloy_block"
+					type: "item"
+				}
+				{
+					id: "1D8EBC605E405F08"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.9d
+			subtitle: "Contain the Current"
+			tasks: [{
+				id: "2281C1C1C38059D2"
+				item: "create_dd:overcharged_casing"
+				type: "item"
+			}]
+			x: -2.6999999999999997d
+			y: 2.25d
+		}
+		{
+			dependencies: ["44976406B9B89D01"]
+			description: ["Energy Pipes are used to transfer power between machines, they are designed to safely carry high-energy output without loss or failure. "]
+			id: "2428776C2074663E"
+			rewards: [
+				{
+					count: 16
+					id: "67E22DA128429060"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "0BB8310750731F77"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.9d
+			subtitle: "Position the Power"
+			tasks: [{
+				id: "359D0509A2D0992F"
+				item: "pipez:energy_pipe"
+				type: "item"
+			}]
+			x: -2.6999999999999997d
+			y: 3.5d
+		}
+		{
+			dependencies: ["62BA4CBF94708FA5"]
+			description: [
+				"While they are not part of Dreams \\& Desires, in Create - Forge Frontier they are made from Hydraulic Casing to ensure their strength at high flow rates."
+				""
+				"Fluid Pipez are your best friend if you want a quick and easy way to transport fluid, at NO SU COST! All you need is a wrench to start transferring fluid."
+			]
+			id: "44DBD900B59669B5"
+			rewards: [
+				{
+					count: 16
+					id: "2B2B8071A58B6D3D"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "0022F8C50180B69B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.75d
+			subtitle: "Fast and Easy Flow"
+			tasks: [{
+				id: "49A1AF873D72A894"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 1.125d
+			y: -3.375d
+		}
+		{
+			dependencies: ["7B030CB530E6C806"]
+			description: ["Make Display Boards more efficiently using Calculation Mechanisms!"]
+			id: "637D1035C6CEA39B"
+			rewards: [{
+				id: "71BB0C420CEE436F"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.9d
+			subtitle: "Efficient Display"
+			tasks: [{
+				id: "44E188B4C1AB6DD0"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			description: ["Powdered Obsidian is made by crushing regular obsidian into dust. It is used in several crafting recipes, including Chromatic Compound. "]
+			id: "70ED1EF06BC41E96"
+			rewards: [
+				{
+					count: 12
+					id: "1901B3F39E805616"
+					item: "create:powdered_obsidian"
+					type: "item"
+				}
+				{
+					id: "280E11298F76ACEB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 0.8d
+			subtitle: "Shattered Strength"
+			tasks: [{
+				count: 4L
+				id: "33208128450C6AB8"
+				item: { Count: 4, id: "create:powdered_obsidian" }
+				type: "item"
+			}]
+			title: "Powdered Obsidian"
+			x: -2.0d
+			y: -1.2d
+		}
+	]
+	title: "Dreams of Innovation (Create Dreams and Desires)"
+}

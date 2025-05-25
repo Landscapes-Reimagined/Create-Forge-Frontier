@@ -21,17 +21,30 @@ StartupEvents.registry('item', event => {
 
 
 StartupEvents.registry('block', event => {
+    // Rocket Casing
+    const casings = [
+        { id: 'forge_rocket_casing', name: 'Forge Rocket Casing' },
+        { id: 'desh_rocket_casing', name: 'Desh Rocket Casing' },
+        { id: 'ostrum_rocket_casing', name: 'Ostrum Rocket Casing'},
+        { id: 'calorite_rocket_casing', name: 'Calorite Rocket Casing'},
+        { id: 'steel_rocket_casing', name: 'Steel Rocket Casing'},
+        { id: 'malachite_rocket_casing', name: 'Malachite Rocket Casing'},
+        { id: 'primal_magma_rocket_casing', name: 'Primal Magma Rocket Casing'}
+    ];
 
-    // Forge Rocket Casing
-        event.create('forge_frontier:forge_rocket_casing')
-            .displayName('Forge Rocket Casing')
-            .soundType('metal') 
-            .mapColor('Stone') 
+    casings.forEach(casing => {
+        event.create(`forge_frontier:${casing.id}`)
+            .displayName(casing.name)
+            .soundType('metal')
+            .mapColor('Stone')
             .hardness(2.0)
-            .model('forge_frontier:block/forge_rocket/forge_rocket_casing')
+            .model(`forge_frontier:block/rocket_casing/${casing.id}`)
             .requiresTool(true)
             .renderType('solid')
-            .tagBlock("mineable/pickaxe")
-            .tagBlock("mineable/axe")
+            .tagBlock('mineable/pickaxe')
+            .tagBlock('mineable/axe')
             .fullBlock(true);
     });
+
+});
+

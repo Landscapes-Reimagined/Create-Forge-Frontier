@@ -32,7 +32,7 @@
     "liquidBlock": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "createaddition:bioethanol"
+        "Name": "forge_frontier:neapolitan_milkshake"
       }
     },
     "depth": {

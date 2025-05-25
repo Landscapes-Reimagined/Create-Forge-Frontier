@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/compressed_blocks/compressed_iron_sheet_block_6x"
+    }
+  }
+}

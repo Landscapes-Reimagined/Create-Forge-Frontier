@@ -5,34 +5,29 @@
 	group: "522267C8B93A6C20"
 	icon: "ad_astra:venus_globe"
 	id: "1AA059F87410AD03"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/venus_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 15.0d
-			image: "ftb:textures/venus_screenshot.png"
-			order: -1
-			rotation: 0.0d
-			width: 28.25d
-			x: 0.0d
-			y: -5.5d
-		}
-	]
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/venus_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["08573BBF32BBB660"]
 			description: [
-				"The moment your ship touches down, you’ll realize—Venus is unlike anything you've faced before. The air is thick with toxic gases, the ground scorched beyond recognition, and relentless storms tear through the sky. This is the most hostile planet yet, but you’ve come prepared."
+				"Venus is a world of &dpoisoned skies&r, &oflaming winds&r, and &6unrelenting electrical fury&r. This is not just a new frontier—it’s a battlefield where the very air seeks to bring your journey to an end."
 				""
-				"With your Tier 3 Rocket and Netherite Space Suit, you are one of the few to set foot on this fiery wasteland. Venus holds valuable resources, long-forgotten ruins, and challenges that will push your survival skills to the absolute limit."
+				"{@pagebreak}"
+				""
+				"Unlike Mars or the Moon, Venus is a land of extremes with &ono natural ores&r and &ccorrosive storms that never cease&r. But beneath the sulfuric haze lie the ruins of a &olegend long lost to flame and thunder&r. What secrets will you uncover beneath the ash?"
+				""
+				"&lOnly those clad in Netherite and armed with courage&r will survive the descent. With your &bTier 3 Rocket&r and &8Netherite Space Suit&r, you are among the first to step onto this hostile ground."
+				""
+				"⚡ &dWill you master the storm—or be swept away by it?&r"
 			]
 			hide_dependent_lines: true
 			icon: "ad_astra:venus_globe"
@@ -44,24 +39,28 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Surviving the Inferno, Click me for more info!"
+			subtitle: "Step onto scorched earth—Venus awaits the bold. Click me for more info!"
 			tasks: [{
 				id: "552B723D05755AAC"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			title: "Venus"
+			title: "Into the Fire: Arrival on Venus"
 			x: 0.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["25721A33E1238EBD"]
 			description: [
-				"The scorching hellscape of Venus is one of the most dangerous planets yet, with an unrelenting atmosphere, extreme heat, and violent storms. Surviving here will push your technology and endurance to their limits."
+				"The scorching &6hellscape of Venus&r is among the most unforgiving planets in the system. Its atmosphere is a &ounrelenting furnace&r, torn by &cvicious storms&r and laced with &dpoisonous clouds&r that test the limits of both technology and survival."
 				""
-				"To set foot on this unforgiving world, you'll need the Tier 3 Rocket and the Netherite Space Suit, the only gear capable of withstanding Venus’ intense environment. Without proper preparation, you’ll find yourself overcome by the extreme temperatures and hostile conditions."
 				"{@pagebreak}"
-				"Gather your supplies, reinforce your suit, and brace for the harshest world you've faced so far."
+				""
+				"To walk upon this cursed land, you’ll need more than bravery—&lyou’ll need the best gear science can offer&r. Only the &bTier 3 Rocket&r and the &8Netherite Space Suit&r can shield you from Venus’ &cexplosive heat&r and &6hostile terrain&r."
+				""
+				"&lWithout proper preparation, you will not survive&r. Gather your supplies, &oreinforce your protections&r, and &lbrace for a descent into planetary chaos&r."
+				""
+				"☠ &dCan you endure the fury of Venus—or be vaporized by it?&r"
 			]
 			icon: {
 				Count: 1
@@ -74,7 +73,7 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Only the strongest suits and bravest explorers survive here. Click me for more info!"
 			tasks: [
 				{
 					id: "5997EA48D86A67AA"
@@ -130,19 +129,25 @@
 					type: "item"
 				}
 			]
-			title: " Conquering Venus: The Ultimate Trial"
+			title: "Venus: Descent Into Ruin"
 			x: -4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66B44ACF05B64947"]
 			description: [
-				"Beneath the blistering surface of Venus lie two valuable resources:"
+				"Beneath the searing crust of Venus, &otwo extraordinary resources&r pulse with raw energy—awaiting only the boldest miners to claim them."
 				""
-				"- Calorite Ore: A powerful metal used in advanced machinery and high-tech tools."
-				"- Pyroclast Ore: A volatile mineral capable of withstanding extreme heat and enhancing energy-based technology. Which can later be processed into Calorite"
+				"- &6Calorite Ore&r – A durable, high-performance metal, essential for &ladvanced machinery&r and &ointerplanetary tech&r.  "
+				"- &cPyroclast Ore&r – A volatile mineral infused with intense heat, used to enhance energy systems—and &oprocessed into Calorite&r for high-tier crafting."
 				""
-				"Mining these ores will be essential to progressing further in space travel and refining your crafting capabilities. But beware—the planet’s hostile environment and unpredictable terrain make mining a deadly challenge."
+				"{@pagebreak}"
+				""
+				"These ores are &rthe heart of Venus’s technological potential&r, but reaching them is no small feat. The molten terrain &lshifts beneath your feet&r, heat threatens to overwhelm, and pockets of lava lie hidden in wait."
+				""
+				"Suit up, mine deep, and &cclaim the flame-born treasures&r of Venus—if you can survive long enough to use them."
+				""
+				"🔥 &oOnly the fire-hardened will thrive beneath the blaze.&r"
 			]
 			icon: "ad_astra:venus_calorite_ore"
 			id: "2F2B03E58524C01A"
@@ -164,7 +169,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Mine Venus’s most powerful materials—or be consumed by the fire. Click me for more info!"
 			tasks: [
 				{
 					block: "ad_astra:venus_calorite_ore"
@@ -183,24 +188,28 @@
 					value: 16L
 				}
 			]
-			title: "Venus Resources: Calorite and Pyroclast Ores"
+			title: "Forged in Flame"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["38F29404BDF3073A"]
 			description: [
-				"Despite its uninhabitable conditions, Venus is not devoid of history. Scattered across the planet’s surface are remnants of advanced civilizations and powerful entities. These ancient structures hold secrets, lost technology, and untold dangers."
+				"Even in a world as hostile as Venus, &olost history smolders beneath the ash&r. Scattered across this scorched planet lie the remnants of &cpowerful civilizations&r and &6forgotten constructs&r—each whispering tales of knowledge, energy, and danger."
 				""
-				"Among these ruins, you’ll find:"
 				"{@pagebreak}"
-				"- Pygro Villages and Towers – Settlements of fiery, heat-resistant beings. They may offer valuable trades, but not all of them are friendly."
 				""
-				"- Incendium Reactor – A massive power facility, housing unstable but incredibly potent energy sources."
+				"Explore the surface and you may uncover:"
 				""
-				"- The Cursed Pyramid – A long-forgotten stronghold containing a fearsome guardian, rare artifacts, and ancient knowledge."
+				"- &6Pygro Villages and Towers&r — Settlements of flame-born beings. Some trade. Others attack. All are watching."
+				"- &cIncendium Reactor&r — A volatile power hub, pulsing with unstable energy. Approach with caution."
+				"- &4The Cursed Pyramid&r — An ancient tomb sealed with &odark power&r. Inside, a guardian sleeps… and waits."
 				""
-				"Dare to explore these locations, and you may unlock new power—but at a great risk."
+				"{@pagebreak}"
+				""
+				"These ruins are &olittered with traps, secrets, and long-lost relics&r. &lOnly the bold&r—and the prepared—will return with their findings."
+				""
+				"🔥 &6Can you survive the past… while walking through fire?&r"
 			]
 			id: "66B44ACF05B64947"
 			rewards: [
@@ -222,7 +231,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Explore Venus’ scorched legacy—and live to tell the tale. Click me for more info!"
 			tasks: [
 				{
 					id: "4D15CF2752EB5192"
@@ -245,16 +254,22 @@
 					type: "structure"
 				}
 			]
-			title: "The Ruins of Venus: Exploring Ancient Structures"
+			title: "Ruins Beneath the Flame"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4EC8B97375383D51"]
 			description: [
-				"Venus is a land of searing heat, dense atmosphere, and molten terrain, making it one of the most dangerous planets to traverse. Before you can begin your deeper explorations, you’ll need to gather Venusian Stone, the planet’s primary rock material."
+				"Venus is no place for the unprepared—its &cscorching surface&r, &odense atmosphere&r, and &emolten terrain&r make even the simplest tasks a deadly challenge. Yet beneath this hellish crust lies a critical resource: &lVenusian Stone&r."
 				""
-				"Mining here isn’t as simple as in the Overworld—lava pockets, extreme temperatures, and unstable terrain make this a hazardous task. Keep your heat-resistant suit on, watch your surroundings, and start collecting!"
+				"{@pagebreak}"
+				""
+				"Mining here isn’t like the Overworld. &cLava pockets&r bubble beneath your feet, the heat threatens to crack your suit, and the terrain shifts with &ounstable fury&r. This is a planet that fights back."
+				""
+				"&lEquip your heat-resistant suit&r, stay vigilant, and begin collecting Venus’ raw essence. &6Only those who adapt will survive—and thrive.&r"
+				""
+				"🌋 &cWill you master the mines—or be swallowed by the fire?&r"
 			]
 			icon: "ad_astra:venus_stone"
 			id: "38F29404BDF3073A"
@@ -276,10 +291,11 @@
 					xp: 100
 				}
 			]
-			subtitle: "Click me for more info!"
+			subtitle: "Dig deep—but don’t let the planet dig your grave. Click me for more info!"
 			tasks: [
 				{
 					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
 					id: "7BC843CB75014821"
 					type: "dimension"
 				}
@@ -292,23 +308,34 @@
 					value: 32L
 				}
 			]
-			title: "Scorching Excavation: Mining Venusian Stone"
+			title: "Venusian Stonebound"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2F2B03E58524C01A"]
 			description: [
-				"Venus was a test of endurance—but your journey is far from over. Having braved the fiery wastelands, gathered its valuable resources, and conquered its deadly ruins, you’re ready for the next step."
+				"You’ve endured the burning fury of Venus, braved molten storms, and emerged stronger—but the galaxy still holds one final frontier."
 				""
-				"Beyond the burning storms of Venus lies Glacio, the frozen planet at the edge of your interstellar adventure. Covered in ice and unknown perils, Glacio is home to unique challenges, frigid landscapes, and untapped resources."
+				"Beyond the flames lies &bGlacio&r—&oa frozen world of silence and mystery&r. This planet, locked in eternal frost, awaits only the most resilient explorers. Here, you’ll face &owhite-out blizzards&r, &btreacherous ice fields&r, and &cchilling secrets&r buried deep beneath the tundra."
+				""
 				"{@pagebreak}"
-				"Your journey has taken you through the Overworld, the Nether, the End, and the brutal worlds of Ad Astra. Now, prepare for the ultimate test of survival: the cold, unforgiving tundra of Glacio."
+				"Your journey has carried you through:"
+				"- &aThe Overworld&r  "
+				"- &4The Nether&r  "
+				"- &5The End&r  "
+				"- &6The blazing worlds of Ad Astra&r  "
 				""
-				"❄ Bundle up—your adventure is heading into the unknown."
+				"Now it leads you to &bGlacio&r—&oyour final test of survival and ingenuity&r."
 				""
-				"Discover more in its    "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } } "
+				"{@pagebreak}"
+				""
+				"Suit up, steel your nerves, and &bbrace for a planet where warmth is a memory&r and danger lurks beneath the snow."
+				""
+				"🧊 &oThis is where legends freeze—or are forged anew.&r"
+				""
+				"{ \"text\": \"Discover more in its \", \"color\": \"white\" }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } }"
 			]
 			id: "094EA96520B42095"
 			rewards: [{
@@ -325,13 +352,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Click me for more info!"
+			subtitle: "Survive the tundra. Conquer Glacio. Click me for more info!"
 			tasks: [{
 				id: "4BF590B48BF2AD4D"
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: "The Final Frontier: Preparing for Glacio"
+			title: "Frozen Threshold"
 			x: 4.0d
 			y: 0.0d
 		}

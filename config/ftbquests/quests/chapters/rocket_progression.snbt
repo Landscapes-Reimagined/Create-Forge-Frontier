@@ -1,0 +1,2929 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rocket_progression"
+	group: "522267C8B93A6C20"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "102F526989610441"
+	images: [
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_1.png"
+			rotation: 0.0d
+			width: 11.081586826347305d
+			x: -3.5d
+			y: 3.25d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_1_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_2.png"
+			rotation: 0.0d
+			width: 10.364854802680567d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_2_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_3.png"
+			rotation: 0.0d
+			width: 10.12667660208644d
+			x: 24.5d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_3_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 25.0d
+			y: -4.0d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_4.png"
+			rotation: 0.0d
+			width: 8.206018518518519d
+			x: -3.5d
+			y: 21.5d
+		}
+		{
+			click: "#088C2263FA4E3A27"
+			height: 10.0d
+			image: "ftb:textures/tier_4_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_5.png"
+			rotation: 0.0d
+			width: 8.131392604248623d
+			x: 10.5d
+			y: 21.5d
+		}
+		{
+			click: "#7FEE2D38BA934C28"
+			height: 10.0d
+			image: "ftb:textures/tier_5_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			height: 15.0d
+			image: "ftb:textures/tier_6.png"
+			rotation: 0.0d
+			width: 7.618332081141999d
+			x: 24.5d
+			y: 21.25d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/tier_6_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 24.5d
+			y: 14.5d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "5EADAA11DDD2CDBB"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
+			tasks: [{
+				id: "03366D97A228836B"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "6C7CC9501FC41143"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				id: "04F41D439A408F6E"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "399949091218CD75"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 2L
+				id: "008D9166B5C0FD26"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "26052FD839B28CEE"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 3L
+				id: "719A8E3C242790C5"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "4E56135CD508CCF7"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 4L
+				id: "7FC56EB70252762C"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "3117CAED67A4CDEF"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 5L
+				id: "27C0CAD4FE168CF4"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "0A85BC6B5C12C34A"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 6L
+				id: "690AE8E3BE7A8BF2"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "3AB35DE3DADF13D6"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 7L
+				id: "30ACCE3827095DDD"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "2F7007EA8DE4BB2C"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 9L
+				id: "29A8252F468847D1"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "638A12069BDB9DCE"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 10L
+				id: "3AB6D975B232EEDE"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "7492AAC79AE93DFD"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 8L
+				id: "07CBF021356A5D94"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "6803A08281F54DFF"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 11L
+				id: "01A2358DA28A2E6A"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "402119CDDDE275AF"
+			subtitle: "Crafted applying a steel ingot to stripped brimwood or cobalt logs"
+			tasks: [{
+				count: 12L
+				id: "6A3EE0F123AD585E"
+				item: "forge_frontier:steel_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "31020483DD0D284B"
+			subtitle: "Check Create chapter for how to craft"
+			tasks: [{
+				id: "1E11CFE821CC25CC"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "12DDB6BA2B69FB6D"
+			subtitle: "Check Create chapter for how to craft"
+			tasks: [{
+				id: "5179BA11E6691FCB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "14FF5CEB9EABE996"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				id: "1B153ED6D7C2E511"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "40B76ABAC87E1841"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 2L
+				id: "259C9BBD7FA39264"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "3894D0285AC7FE71"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 4L
+				id: "211860D2C115CBC9"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "01D6D442014D361D"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 3L
+				id: "56082795E30DC3E0"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "627F7E9D5D1CC93C"
+			subtitle: "Crafted using 5 Steel Plates, 1 Gas Tank, and 1 Steel Rod"
+			tasks: [{
+				id: "309A7D292445A067"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "0F799ADEFBC74998"
+			subtitle: "Crafted using 5 Steel Plates, 1 Gas Tank, and 1 Steel Rod"
+			tasks: [{
+				count: 2L
+				id: "457EF58A41CEFE9A"
+				item: "ad_astra:steel_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "16927D2B1FE4E236"
+			subtitle: "Crafted using Sturdy Sheets and a Fluid tank"
+			tasks: [{
+				id: "1775F3EF951060B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.25d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "7B53436E63C0AE70"
+			subtitle: "Crafted using 5 Steel Plates, 1 Blaze Burner, and 1 Steel Fan"
+			tasks: [{
+				id: "63168EC0B1C930D1"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"26052FD839B28CEE"
+				"7492AAC79AE93DFD"
+				"402119CDDDE275AF"
+				"627F7E9D5D1CC93C"
+				"12DDB6BA2B69FB6D"
+				"01D6D442014D361D"
+				"31020483DD0D284B"
+				"14FF5CEB9EABE996"
+				"3894D0285AC7FE71"
+				"6C7CC9501FC41143"
+				"6803A08281F54DFF"
+				"16927D2B1FE4E236"
+				"7B53436E63C0AE70"
+				"3117CAED67A4CDEF"
+				"2F7007EA8DE4BB2C"
+				"40B76ABAC87E1841"
+				"5EADAA11DDD2CDBB"
+				"4E56135CD508CCF7"
+				"0A85BC6B5C12C34A"
+				"0F799ADEFBC74998"
+				"3AB35DE3DADF13D6"
+				"638A12069BDB9DCE"
+				"399949091218CD75"
+				"4E4C1C5026B92B6E"
+			]
+			description: [
+				"&7Fuel your rocket and prepare for the ultimate lunar adventure.&r"
+				""
+				"Congratulations, astronaut—you’ve built the &fTier 1 Rocket&r, and your path to the stars is finally clear! Now it’s time to bring that rocket to life and &lignite your first launch&r."
+				""
+				"{@pagebreak}"
+				""
+				"🧪 &lFueling the Dream&r:  "
+				"Before liftoff, you’ll need to fuel your rocket. Grab a bucket of &eFuel&r and right-click the rocket’s tank while it’s sitting on the launch pad. Once your ship is full and your gear is secured, climb in, look to the stars, and &lhold down the spacebar&r."
+				""
+				"🔥 As the engines roar to life, you’ll feel the power of your creation carrying you through the atmosphere and into the great beyond."
+				""
+				"🌕 The Moon awaits—but it’s only the beginning."
+				""
+				"{@pagebreak}"
+				"Fuel is crafted by heated mixing the below ingredients:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_oil_fuel.png width:200 height:120 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "08F62016A6F246E4"
+			rewards: [
+				{
+					id: "4502C83BCBE1FEF0"
+					item: "ad_astra:moon_desh_ore"
+					type: "item"
+				}
+				{
+					id: "48F3B726915D1D9F"
+					item: "ad_astra:moon_cheese_ore"
+					type: "item"
+				}
+				{
+					id: "06E1E7831F378753"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Fuel your rocket, strap in, and break free from the Overworld! Click me for more info!"
+			tasks: [
+				{
+					id: "4416E9F47934E8B8"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7FC4660D0DBF0389"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					id: "591D56D11F34A57F"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "🎉 Tier 1 Launch Sequence: Liftoff"
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			id: "4E4C1C5026B92B6E"
+			subtitle: "Crafted using 6 Steel Plates"
+			tasks: [{
+				id: "79842ECF1F26EA52"
+				item: "ad_astra:steel_door"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.25d
+		}
+		{
+			description: [
+				"&7Launch into the cosmos and uncover the secrets of the Moon.&r"
+				""
+				"Get ready for liftoff! The &fTier 1 Rocket&r from &bAd Astra&r marks the beginning of your interstellar journey. Your first destination: the Moon—a barren yet mysterious world brimming with ancient ruins, hidden treasures, and untapped resources."
+				""
+				"{@pagebreak}"
+				""
+				"🌕 &lWhat Awaits on the Moon&r:"
+				""
+				"- Explore strange &dLunar Structures&r long abandoned by those who came before."
+				"- Unearth &6Desh Ore&r buried beneath the surface and begin crafting with celestial materials."
+				"- Seek out bubbling &eAubrum Molten Ore Vents&r—rare and powerful nodes of energy needed to &lrefine Desh&r and unlock its full potential."
+				""
+				"With low gravity, no oxygen, and dangers lurking beneath the dust, the Moon is as perilous as it is rewarding. Strap in, power up your engines, and prepare for the next chapter of your cosmic conquest!"
+				""
+				"🛰 Will you survive the void—or claim its forgotten power?"
+			]
+			hide_dependent_lines: true
+			icon: "ad_astra:steel_ingot"
+			id: "0A1C7563FC03C5F6"
+			rewards: [
+				{
+					id: "6E309BAAF0D64DBD"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "5303A8CCECF471D8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Touch down on the Moon and uncover its lunar mysteries. Click me for more info!"
+			tasks: [
+				{
+					id: "5C77D6502E4258A9"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "437C5FA0EAC0CE1F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			title: "🚀 Tier 1 Rocket: One Small Step"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "116C39D80577C480"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				id: "0A595E8F2DEE709C"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "6E2027B48BA36512"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 3L
+				id: "0083AFAEAA04E34B"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "17882C0D72AA8916"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 4L
+				id: "15D1F7DABE72D155"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "611AF06F3A5515CB"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 2L
+				id: "4A407D273ED5315C"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "1905BFD2A1627A62"
+			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
+			tasks: [{
+				id: "487C4FB14F1BF6F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "6866B1D22FFC850C"
+			subtitle: "Crafted using 5 Desh Plates, 1 Steel Tank, and 1 Steel Rod"
+			tasks: [{
+				id: "0B056A5F094DC5A6"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "6D6F1C0C2C0FB04B"
+			subtitle: "Crafted using 5 Desh Plates, 1 Steel Tank, and 1 Steel Rod"
+			tasks: [{
+				count: 2L
+				id: "236B75FAE54C9BE3"
+				item: "ad_astra:desh_tank"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "64A23DDD9C65036A"
+			subtitle: "Crafted using 5 Desh Plates, 1 Steel Engine, and 1 Steel Fan"
+			tasks: [{
+				id: "7DB8F292B3C81877"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "6A0E02AD421C20FD"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 11L
+				id: "3659810B2C689BE8"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "7F190A41CC8AAB3C"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 12L
+				id: "0670E7B9C96785DA"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "2ED8D5705CAECD0D"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 13L
+				id: "3BB2CDBDC3B31160"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "03BF8392FA1DB659"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 9L
+				id: "6D99F6F5BAF53FFC"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "40485D43A150BF7D"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 10L
+				id: "57F8B4773E2E5AA8"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "6C9B6E836D4CA1E6"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 7L
+				id: "357A4848D980301F"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "04F3DC2D584D835B"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 4L
+				id: "74EF20A99DC7BDDE"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "6E960272CA4E3EAB"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 5L
+				id: "1C61E2617C099FD6"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "35F60021F14FC21B"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 6L
+				id: "561250B7FE3FE6ED"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "2A8F2C6438DD0BFF"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 8L
+				id: "6C8B3183FB1E29BD"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "0A44CB619FB88528"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				id: "77FFADE7C6903BAD"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "59041FC4E0FEC0A7"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 2L
+				id: "34C0589C15C28443"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "0F2B0F16EC602266"
+			subtitle: "Crafted applying a desh ingot to steel rocket casing"
+			tasks: [{
+				count: 3L
+				id: "12A3CFF979CB2F76"
+				item: "forge_frontier:desh_rocket_casing"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "2940620E269E96DE"
+			subtitle: "Crafted using 6 Steel Plates"
+			tasks: [{
+				id: "1AE001B5AD026E35"
+				item: "ad_astra:steel_door"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"67026EE366909C22"
+				"08F62016A6F246E4"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 1 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08F62016A6F246E4\" } }"
+			]
+			hide_dependency_lines: true
+			id: "5ECDD5307434F89F"
+			tasks: [{
+				id: "1D5AFE882C35470F"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67026EE366909C22"]
+			id: "74EA20A5473C95EC"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
+			tasks: [{
+				id: "19051F8DB5ECF21D"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6E960272CA4E3EAB"
+				"6A0E02AD421C20FD"
+				"116C39D80577C480"
+				"35F60021F14FC21B"
+				"6866B1D22FFC850C"
+				"6E2027B48BA36512"
+				"40485D43A150BF7D"
+				"6D6F1C0C2C0FB04B"
+				"04F3DC2D584D835B"
+				"03BF8392FA1DB659"
+				"2A8F2C6438DD0BFF"
+				"611AF06F3A5515CB"
+				"2ED8D5705CAECD0D"
+				"7F190A41CC8AAB3C"
+				"2940620E269E96DE"
+				"64A23DDD9C65036A"
+				"6C9B6E836D4CA1E6"
+				"0A44CB619FB88528"
+				"5ECDD5307434F89F"
+				"1905BFD2A1627A62"
+				"17882C0D72AA8916"
+				"59041FC4E0FEC0A7"
+				"0F2B0F16EC602266"
+				"74EA20A5473C95EC"
+			]
+			description: [
+				"&7Begin your next great leap into the cosmos as Mars opens its ancient gates.&r"
+				""
+				"🎉 Congratulations, &ospace pioneer&r! You’ve crafted the mighty &cTier 2 Rocket&r, and now it’s time to set your course for &4Mars&r—a world veiled in dust, mystery, and untold riches."
+				""
+				"{@pagebreak}"
+				""
+				"🪐 &lTouch Down and Explore&r:  "
+				"Fuel up, strap in, and ignite your thrusters—your journey to the &cRed Planet&r begins now. Upon arrival, a realm of adventure unfolds:"
+				""
+				"- 🏛 &oAncient Structures&r hide forgotten lore.  "
+				"- 💎 &oHidden Relics&r await beneath the sands.  "
+				"- 🎒 &oTreasure Caches&r lie in wait for the bold."
+				""
+				"Mars is not just another step—it’s a leap into a frontier shaped by time, danger, and discovery."
+				""
+				"🧭 Will you claim its secrets or vanish into the crimson dust?"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "5B64CE917218050A"
+			rewards: [
+				{
+					count: 2
+					id: "62E16E386FD90BE7"
+					item: "ad_astra:mars_ostrum_ore"
+					type: "item"
+				}
+				{
+					id: "0D7C61E5321D8626"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Land, explore, and uncover relics of a lost world! Click me for more info!"
+			tasks: [
+				{
+					id: "447EA71C3E876E28"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "477E734724654F47"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "5BBD59FF3A062DDF"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "🛸 Marsbound: First Steps on the Red Planet"
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			description: [
+				"&7Unlock the mysteries of the Red Planet and harness its celestial power.&r"
+				""
+				"Prepare for liftoff once more—this time, with the mighty &cTier 2 Rocket&r! Designed for deep-space travel, this upgraded vessel paves the way to &4Mars&r, a planet of &orugged terrain&r, &4ancient ruins&r, and &cpowerful resources&r waiting beneath its crimson sands."
+				""
+				"{@pagebreak}"
+				""
+				"🌄 &lExplore the Red Frontier&r:  "
+				"Mars is more than just red rock and dust. Hidden throughout its vast landscapes are &ostructures filled with secrets&r, relics of civilizations long gone, and challenges unlike anything you've seen before."
+				""
+				"As you dig deeper, seek out:"
+				"- &cOstrom Ore&r: a core component of advanced machinery.  "
+				"- &6Molten Stellaris Ore Vents&r: radiant nodes that pulse with potential—process them to extract even more Ostrom!"
+				""
+				"{@pagebreak}"
+				""
+				"Your journey has just begun. Mars is rich with &osecrets, strength, and scientific wonder&r for those bold enough to venture beyond Earth’s grasp."
+				""
+				"🛰 Are you ready to command the skies and conquer the stars?"
+			]
+			hide_dependent_lines: true
+			id: "67026EE366909C22"
+			rewards: [
+				{
+					id: "085136CB6EFE916A"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+				{
+					id: "040BB9578693A0DB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Unleash the power of Mars and uncover its celestial riches! Click me for more info!"
+			tasks: [{
+				id: "51F1585544E2A8A4"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "🚀 Tier 2 Rocket: Marsbound Mission"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "5EDF9FFE81121D30"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 3L
+				id: "68DA76530F19E2C2"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "7F3A51F0F5059CB1"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 4L
+				id: "0459EAEB487F8FF5"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "6D7F8C642DBC714A"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				id: "6EC8C9CE2FF0AC7B"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "78C3CBEB6B29FA22"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 2L
+				id: "46E561A06C8F621F"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "1D488CF2BF41A1CF"
+			subtitle: "Crafted using 5 Ostrum Plates, 1 Desh Engine, and 1 Steel Fan"
+			tasks: [{
+				id: "272CFB4BDB29AE8F"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "112DF50DBCB0D8BF"
+			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
+			tasks: [{
+				id: "3266231D647DBCF0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "5B267C7A116BDB9D"
+			subtitle: "Crafted using 5 Ostrum Plates, 1 Desh Tank, and 1 Steel Rod"
+			tasks: [{
+				id: "04211E3B62B832E1"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "59B29954847AB65B"
+			subtitle: "Crafted using 5 Ostrum Plates, 1 Desh Tank, and 1 Steel Rod"
+			tasks: [{
+				count: 2L
+				id: "2E3C54BC638C6390"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "2341B4348D065CB5"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 11L
+				id: "6C5B94D6067E7F6B"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "59623C914B8A22BA"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 12L
+				id: "735FA03BB28AC8E4"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "40D60656984960DE"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 13L
+				id: "3B7D55A2C43F6C03"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "2CBB1DC7039C585F"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 9L
+				id: "5D705946DB290E0A"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "0150EE600ACACF96"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 10L
+				id: "743DF57E6333A6D6"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "3AFCA5EAF13E883B"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 8L
+				id: "2C1573815C3680F9"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "28473EAA9352DE55"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 7L
+				id: "6485578AD58CFE79"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "168B1106541B7827"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 4L
+				id: "5FE6C28B37C55695"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "631B5125257ADD86"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 5L
+				id: "7671B6A1AEC0B118"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "7448E4D7065655B0"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 6L
+				id: "027CA97530968C8C"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "2BA0EF38C1AB4FB9"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				id: "5DEA112D5D246455"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "4C8F5F56665EB1DA"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 2L
+				id: "7B3D9710F595DC3F"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "76ECB0B43AC41040"
+			subtitle: "Crafted applying an ostrum ingot to desh rocket casing"
+			tasks: [{
+				count: 3L
+				id: "7B286DF6D0408363"
+				item: "forge_frontier:ostrum_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "7AF1B2A33C9D89E6"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
+			tasks: [{
+				id: "0A5B374B4A6C7F77"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F05B719FF46DED2"]
+			id: "3AC0349824B05088"
+			subtitle: "Crafted using 6 Steel Plates"
+			tasks: [{
+				id: "042F8B6123E150C7"
+				item: "ad_astra:steel_door"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4F05B719FF46DED2"
+				"5B64CE917218050A"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 2 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5B64CE917218050A\" } }"
+			]
+			hide_dependency_lines: true
+			id: "010D1C1FD61F955B"
+			tasks: [{
+				id: "0047EF0CC0CB7B24"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3AC0349824B05088"
+				"631B5125257ADD86"
+				"5EDF9FFE81121D30"
+				"78C3CBEB6B29FA22"
+				"59623C914B8A22BA"
+				"2341B4348D065CB5"
+				"59B29954847AB65B"
+				"7AF1B2A33C9D89E6"
+				"5B267C7A116BDB9D"
+				"28473EAA9352DE55"
+				"2BA0EF38C1AB4FB9"
+				"0150EE600ACACF96"
+				"6D7F8C642DBC714A"
+				"112DF50DBCB0D8BF"
+				"168B1106541B7827"
+				"3AFCA5EAF13E883B"
+				"1D488CF2BF41A1CF"
+				"010D1C1FD61F955B"
+				"40D60656984960DE"
+				"7448E4D7065655B0"
+				"76ECB0B43AC41040"
+				"4C8F5F56665EB1DA"
+				"7F3A51F0F5059CB1"
+				"2CBB1DC7039C585F"
+			]
+			description: [
+				"&7With flame at your feet and stars overhead, it’s time to enter the crucible of space.&r"
+				""
+				"🎉 &eCongratulations, fearless adventurer!&r With your &lTier 3 Rocket&r complete, you’re prepared to journey into the most extreme and enigmatic worlds yet."
+				""
+				"{@pagebreak}"
+				""
+				"☀ &lMercury&r  "
+				"Buckle up and &6launch toward Mercury&r—its &cblistering surface&r hides &otreacherous ruins&r and &6rare treasures&r, buried beneath the relentless glare of the sun."
+				""
+				"🔥 &lVenus&r  "
+				"Continue your voyage to the &ofiery atmosphere&r of Venus, a planet teeming with:"
+				""
+				"- 🏛 &oAncient ruins&r pulsing with forgotten energy  "
+				"- 💰 Valuable loot scattered across scorched landscapes  "
+				"- 🌋 &cDangerous challenges&r for only the most daring explorers"
+				""
+				"{@pagebreak}"
+				""
+				"These planets are not for the faint of heart—but for those who dare, they offer &orare finds&r and &6untold secrets&r. Will you rise above the heat and uncover their mysteries?"
+				""
+				"🔥 &lThe stars are watching—are you ready to push the boundaries of exploration?&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "5930A1E4723BBE2A"
+			rewards: [
+				{
+					count: 2
+					id: "4CB5D119B6C10934"
+					item: "ad_astra:venus_calorite_ore"
+					type: "item"
+				}
+				{
+					id: "22751366BB914409"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Mercury and Venus await—heat, history, and hidden riches lie beyond the flame. Click me for more info!"
+			tasks: [
+				{
+					id: "24C9487D8333CE87"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7008E82F561FFD43"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "3A0A3FF9460C7E41"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "🚀 Tier 3 Rocket: Blazing the Path Forward"
+			x: 24.5d
+			y: 8.5d
+		}
+		{
+			description: [
+				"🚀 &6Tier 3 Rocket: Into the Heart of the Solar System&r  "
+				"&7Blaze a trail through fire and fury as Mercury and Venus await your arrival.&r"
+				""
+				"Prepare for the &6ultimate lift-off&r with the powerful &lTier 3 Rocket&r—your gateway to the most unforgiving worlds in the galaxy."
+				""
+				"{@pagebreak}"
+				""
+				"☀ &lMercury&r  "
+				"Face &cintense solar glare&r and &4blistering terrain&r as you descend upon Mercury. Explore &oancient structures&r buried beneath its scorched crust and uncover &6rare treasures&r hidden in the heat."
+				""
+				"🔥 &lVenus&r  "
+				"Venture deeper into the inferno as you land on Venus, a planet of &cviolent storms&r and &oerupting terrain&r. Discover:"
+				""
+				"- 🏛 &oMysterious ruins&r filled with loot  "
+				"- 💎 &6Molten Vents&r brimming with &cCalorite&r and &4Pyroclast&r  "
+				"- 🛠 Minerals that can be refined into &opowerful Calorite&r"
+				""
+				"{@pagebreak}"
+				""
+				"These &cfire-forged worlds&r offer challenges and riches like no other—only the bold will survive their trials. Suit up, fuel up, and prepare to &lsoar into the burning core&r of the solar system."
+				""
+				"🔥 Will you master the flame—or be consumed by it?"
+			]
+			hide_dependent_lines: true
+			id: "4F05B719FF46DED2"
+			rewards: [
+				{
+					id: "36DF50BBD5A3388F"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+				{
+					id: "05AB5CC4D40E5BD4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Unlock Mercury and Venus—two fiery worlds of ruin, riches, and resilience. Click me for more info!"
+			tasks: [{
+				id: "10FFA06106EC95E6"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "🚀 Tier 3 Rocket: Into the Heart of the Solar System"
+			x: 24.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "6C7158E98669E0B7"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 3L
+				id: "5557F1AA2040FD14"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "2D252141B2EDE80E"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 4L
+				id: "6CCA1AC2EC7C0B0F"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "1D856526AE7005D5"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				id: "13C85A2EB5B4DAA3"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "0FBC0782EC837F0A"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 2L
+				id: "79650BE349A9FA69"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "7BF025D77EAEB609"
+			subtitle: "Crafted using 5 Calorite Plates, 1 Ostrum Engine, and 1 Steel Fan"
+			tasks: [{
+				id: "3868DAA99268FB08"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "4D8BC31C27E6392D"
+			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
+			tasks: [{
+				id: "13A8DA3EEAD14608"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "0D4F092EAE512F77"
+			subtitle: "Crafted using 5 Calorite Plates, 1 Ostrum Tank, and 1 Steel Rod"
+			tasks: [{
+				count: 2L
+				id: "1C96C368DFBC8C3A"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "68D9FFA879B94A69"
+			subtitle: "Crafted using 5 Calorite Plates, 1 Ostrum Tank, and 1 Steel Rod"
+			tasks: [{
+				id: "11931B18EF8F8CD3"
+				item: "ad_astra:calorite_tank"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "06F29BB41872D89B"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 11L
+				id: "466148B264B32748"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "0820016566428C09"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 12L
+				id: "40A80E15D52F1009"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "4F87CA93B18A71EB"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 13L
+				id: "064E9AFCDEACC771"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "6679964510C3C5D8"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 9L
+				id: "7AB8D97AA0810CAD"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "35D20D04D7251392"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 10L
+				id: "6544C47B20813139"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "3EF4CB029173DA22"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 7L
+				id: "0397D292249191CB"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "17460389DDB00577"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 8L
+				id: "4D09521D56A3F49C"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "12460FEA4843F343"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 4L
+				id: "030F326443E25651"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "1F4095035614D1BD"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 5L
+				id: "6B1805AFFFDCF3ED"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "526072E5CD4532E5"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 6L
+				id: "1A800C39286CFB4B"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "75857FAAC4959D7D"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				id: "79CAB800567A42D0"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "75FD8483F8BF0E57"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 2L
+				id: "2B23E986E4E30D7B"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "3B625707B71310BC"
+			subtitle: "Crafted applying a calorite ingot to ostrum rocket casing"
+			tasks: [{
+				count: 3L
+				id: "5D3143AC924F7C50"
+				item: "forge_frontier:calorite_rocket_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "58CBE2FA59C39B93"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
+			tasks: [{
+				id: "2DB31F232A766CC3"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"7BF025D77EAEB609"
+				"58CBE2FA59C39B93"
+				"35D20D04D7251392"
+				"68D9FFA879B94A69"
+				"526072E5CD4532E5"
+				"1D856526AE7005D5"
+				"6C7158E98669E0B7"
+				"75857FAAC4959D7D"
+				"3EF4CB029173DA22"
+				"6679964510C3C5D8"
+				"0D4F092EAE512F77"
+				"2D252141B2EDE80E"
+				"17460389DDB00577"
+				"3B625707B71310BC"
+				"1F4095035614D1BD"
+				"12460FEA4843F343"
+				"0820016566428C09"
+				"7280165676311368"
+				"06F29BB41872D89B"
+				"4F87CA93B18A71EB"
+				"75FD8483F8BF0E57"
+				"2FE683D4C7A00AC4"
+				"0FBC0782EC837F0A"
+				"4D8BC31C27E6392D"
+			]
+			description: [
+				"&7The ice calls to those bold enough to brave its silence and storms.&r"
+				""
+				"🎉 &bCongratulations, daring adventurer!&r  "
+				"With the &lTier 4 Rocket&r now at your command, the &ofrozen realm of Glacio&r awaits your arrival! Fuel up, strap in, and prepare to break through the stratosphere into a world of snow, silence, and ancient power."
+				""
+				"{@pagebreak}"
+				""
+				"🌨 Upon landing, you’ll face a landscape of &bglacial beauty&r and &ohidden peril&r. Scattered across the terrain are:"
+				""
+				"- 🏛 &3Ancient structures&r steeped in mystery  "
+				"- 💠 Rare &oAE2 meteorites&r containing lost technologies  "
+				"- ❄ Secrets frozen in time, waiting for the brave"
+				""
+				"{@pagebreak}"
+				""
+				"With every step across this icy world, you’ll uncover rare resources, powerful artifacts, and forgotten knowledge buried beneath the frost."
+				""
+				"🌌 &lThe Frozen Frontier&r beckons—will you seize its secrets or succumb to the cold?"
+				""
+				"🧊 &bGlacio awaits—ignite the engines and conquer the cold.&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_4_rocket"
+				tag: { }
+			}
+			id: "196AF2DC09A4C1FE"
+			rewards: [
+				{
+					count: 2
+					id: "12B927383ACBA1F8"
+					item: "ad_astra:glacio_ice_shard_ore"
+					type: "item"
+				}
+				{
+					id: "33A3E11C75A104CA"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Glacio's icy expanse holds ancient ruins, hidden tech, and chilling rewards. Click me for more info!"
+			tasks: [
+				{
+					id: "056CCC1327668AB9"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5AA09C1AC37A0E39"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "2A778CEBDC1E93FD"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "❄ Tier 4 Rocket: Into the Frost"
+			x: -3.5d
+			y: 27.375d
+		}
+		{
+			dependencies: ["088C2263FA4E3A27"]
+			id: "7280165676311368"
+			subtitle: "Crafted using 6 Steel Plates"
+			tasks: [{
+				id: "2885339D5F200E15"
+				item: "ad_astra:steel_door"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"088C2263FA4E3A27"
+				"5930A1E4723BBE2A"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 3 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5930A1E4723BBE2A\" } }"
+			]
+			hide_dependency_lines: true
+			id: "2FE683D4C7A00AC4"
+			tasks: [{
+				id: "7F21AE72C1994FE5"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 22.0d
+		}
+		{
+			description: [
+				" &7Prepare your systems—it’s time to brave the bitter void of ice and secrets.&r"
+				""
+				"🚀 &bPrepare for the ultimate icy adventure&r with the &lTier 4 Rocket&r! This powerful spacecraft is your key to unlocking the glacial world of &bGlacio&r, a planet of mystery, silence, and frozen riches."
+				""
+				"{@pagebreak}"
+				""
+				"🌨 &lTouch down&r on Glacio and explore a realm wrapped in endless winter. From frostbitten cliffs to ancient ruins buried beneath the snow, this planet offers:"
+				""
+				"- 🏛 &3Ancient structures&r echoing with forgotten power  "
+				"- 💎 Rare AE2 meteorites hiding &otechnology&r  "
+				"- ❄ Treacherous terrain hiding rewards for the brave"
+				""
+				"{@pagebreak}"
+				""
+				"🔍 Begin mining for &bIce Shard Ore&r, vital for high-tier crafting. Seek out &lFrostite Molten Ore Vents&r—&othese frozen veins&r can be processed into &bIce Shards&r and &7Pure Ice&r, invaluable for survival and progression."
+				""
+				"Glacio is more than snow—it’s a &llabyrinth of hidden knowledge&r, waiting to be unearthed. Are you ready to &osurvive the frost&r and uncover its crystalline secrets?"
+				""
+				"🌌 &bSuit up—the &oFrozen Frontier&r awaits.&r"
+			]
+			hide_dependent_lines: true
+			id: "088C2263FA4E3A27"
+			rewards: [
+				{
+					id: "1FA64A0057541C0A"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "73A33162EC43E780"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Launch into Glacio’s icy depths and uncover rare relics and frozen power. Click me for more info!"
+			tasks: [{
+				id: "00EE61918468D602"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "❄ Tier 4 Rocket: The Frozen Frontier"
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "0A3EE1BFE462CB40"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 3L
+				id: "1A33076DCCEF5EC9"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "7539159CCC4EFA4F"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 4L
+				id: "227859C31F349BAC"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "3C95253004A9DAD6"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				id: "674E31C5E5D1E0FB"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "50905EB5AD77139E"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 2L
+				id: "716E231BCFF25D18"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "2EFCFE1D58515A25"
+			subtitle: "Crafted using 3 Malachite Blocks, 2 Bismuth Ingots, 1 Calorite Engine, and 1 Irradium Bar. Non Ad Astra parts are found in the End"
+			tasks: [{
+				id: "1CDE313D03CBA62B"
+				item: "forge_frontier:tier_5_engine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "3B0A7DBA6B1EFFDE"
+			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
+			tasks: [{
+				id: "2F1570F8E57B2DD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "5539B102BC0F95FA"
+			subtitle: "Crafted using 5 Malachite, 1 Calorite Tank, and 1 Bismuth Ingot. Non Ad Astra parts are found in the End"
+			tasks: [{
+				id: "645A177EF408335F"
+				item: "forge_frontier:tier_5_tank"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "2ECBEE4497FBFA7D"
+			subtitle: "Crafted using 5 Malachite, 1 Calorite Tank, and 1 Bismuth Ingot. Non Ad Astra parts are found in the End"
+			tasks: [{
+				count: 2L
+				id: "4829E7F920704063"
+				item: "forge_frontier:tier_5_tank"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "009C4753A8E5FD92"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 11L
+				id: "6FC2B2F2FAE6177B"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "5EC8BE16AFFB5B81"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 12L
+				id: "07FB81694D1AE942"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "5D7DE4E5B44048B8"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 13L
+				id: "1FC41F61BD08BC68"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "5E986FA30E7AC4DD"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 9L
+				id: "0BC748A0C7E430DE"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "3DF8383FA0255DEE"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 10L
+				id: "627772446C70FBB4"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "4B6EB9D54664C332"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 7L
+				id: "0CE8A546566F7ACC"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "6FEB5E7C6D93E51F"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 8L
+				id: "3922415A43996967"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "538A110CF1818692"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
+			tasks: [{
+				count: 4L
+				id: "484E3DA31ABF76FB"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "3B3D10D10700FD98"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 5L
+				id: "3CE44E80AA7F91CE"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "6AC59E3B6B3D7504"
+			subtitle: "Crafted using 9 Malachite, which is found in the End"
+			tasks: [{
+				count: 6L
+				id: "4A8CE4343556C4E4"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "627E4D9CF3433609"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
+			tasks: [{
+				id: "34EF0F1729381F07"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "454A87E7C7505626"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
+			tasks: [{
+				count: 2L
+				id: "01F7AF56684C82CA"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "7AD0A6836CD51F74"
+			subtitle: "Crafted applying a malachite to calorite rocket casing"
+			tasks: [{
+				count: 3L
+				id: "743663C859D43ED2"
+				item: "forge_frontier:malachite_rocket_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "7240D736D4D4DB82"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
+			tasks: [{
+				id: "43770535A5DE021D"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"5D7DE4E5B44048B8"
+				"7240D736D4D4DB82"
+				"0A3EE1BFE462CB40"
+				"7684EE58B61BEC44"
+				"7539159CCC4EFA4F"
+				"5EC8BE16AFFB5B81"
+				"6AC59E3B6B3D7504"
+				"627E4D9CF3433609"
+				"2ECBEE4497FBFA7D"
+				"50905EB5AD77139E"
+				"3DF8383FA0255DEE"
+				"4B6EB9D54664C332"
+				"5539B102BC0F95FA"
+				"3B0A7DBA6B1EFFDE"
+				"7AD0A6836CD51F74"
+				"3B3D10D10700FD98"
+				"2EFCFE1D58515A25"
+				"538A110CF1818692"
+				"009C4753A8E5FD92"
+				"3C95253004A9DAD6"
+				"6FEB5E7C6D93E51F"
+				"454A87E7C7505626"
+				"5E986FA30E7AC4DD"
+				"7210FF0C34695748"
+			]
+			description: [
+				"&7Explore the forgotten worlds that lurk beneath light and reason.&r"
+				""
+				"🎉 &lCongratulations, fearless explorer!&r With the power of the &5Tier 5 Rocket&r, you now have access to the &oAlex’s Caves Planets&r — mysterious realms veiled in &8shadow&8, &3depth&3, and &2ancient life&2."
+				""
+				"{@pagebreak}"
+				""
+				"☠ &8Forlorn Hollows&r – A land of &oGuanostone ruins&r and ominous silence. Malevolent creatures stalk the caverns, and forgotten whispers echo through the darkness."
+				""
+				"🌊 &1Abyssal Chasm&r – Dive into an endless ocean abyss lined with sunken ruins, where the &9Deep Ones&r prowl and lost relics of a drowned age await the brave."
+				""
+				"🌿 &2Primordial Caves&r – Step into a prehistoric underworld, overgrown with massive flora and inhabited by creatures untouched by time. It’s a living vault of Earth’s earliest secrets."
+				""
+				"{@pagebreak}"
+				""
+				"Each of these worlds is rich with &6rare materials&r, &crelics&r, and &odark histories&r. Only those bold enough to brave their depths will unlock their true potential."
+				""
+				"🗝 &lFuel up. Descend. Discover the legacy left in the dark.&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_5_rocket"
+				tag: { }
+			}
+			id: "49ED8F8E435F35FB"
+			rewards: [
+				{
+					id: "4A267190027683EE"
+					item: "alexscaves:guano_block"
+					type: "item"
+				}
+				{
+					id: "3098A4159B2F9FA0"
+					item: "alexscaves:block_of_pearl"
+					type: "item"
+				}
+				{
+					id: "1C539C9137DFD2CB"
+					item: "alexscaves:amber"
+					type: "item"
+				}
+				{
+					id: "2F1F086895C5107C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Brave the forgotten planets of shadow and time—Forlorn Hollows, Abyssal Chasm, and Primordial Caves. Click me for more info!"
+			tasks: [
+				{
+					id: "082CA5032E117713"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "59A4DF00CD27A166"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "3AFAD2763DEDD2CC"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "🌌 Tier 5 Rocket: Descent into Darkness"
+			x: 10.5d
+			y: 27.375d
+		}
+		{
+			dependencies: ["7FEE2D38BA934C28"]
+			id: "7210FF0C34695748"
+			subtitle: "Crafted using 6 Steel Plates"
+			tasks: [{
+				id: "345E239247CEE5A9"
+				item: "ad_astra:steel_door"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"7FEE2D38BA934C28"
+				"196AF2DC09A4C1FE"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 4 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"196AF2DC09A4C1FE\" } }"
+			]
+			hide_dependency_lines: true
+			id: "7684EE58B61BEC44"
+			tasks: [{
+				id: "744FC99A19863457"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			description: [
+				"&7Unlock the forgotten worlds sealed beneath shadow and time.&r"
+				""
+				"Prepare for your &l&0darkest, most enigmatic adventure yet&r with the &lTier 5 Rocket&r! After conquering the &5End Dimension&r, you now hold the key to &oAlex’s Caves Planets&r — &8Forlorn Hollows&8, &1Abyssal Chasm&1, and &2Primordial Caves&2. "
+				""
+				"These shadowed realms offer a progression unlike any other."
+				""
+				"{@pagebreak}"
+				""
+				"&8⬛ Forlorn Hollows&r – Descend into the void of &oGuanostone&r, where cursed echoes and malevolent forces await. Navigate its claustrophobic tunnels and unravel secrets best left buried."
+				""
+				"🌊 &1Abyssal Chasm&r – Plunge into a &odeep oceanic rift&r lined with ancient ruins and haunted by the elusive &9Deep Ones&r. Strange relics and abyssal creatures patrol its depths."
+				""
+				"🌿 &2Primordial Caves&r – Wander an untouched realm of &oglowing flora&r and prehistoric giants. Here, time has stood still—yet power pulses beneath the roots of ancient trees."
+				""
+				"{@pagebreak}"
+				""
+				"Each planet holds &6rare ores&r, &7powerful mobs&r, and &omysteries that defy understanding&r. For full details, dive into the &oPlanet Progression Quests&r and uncover the path that lies ahead."
+				""
+				"🕳 &lThe shadows call—will you answer?&r"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:end_stone"
+			id: "7FEE2D38BA934C28"
+			rewards: [
+				{
+					id: "1F324EED60D626ED"
+					item: "enlightened_end:malachite"
+					type: "item"
+				}
+				{
+					id: "23F609D85785CBB7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Unlock the twisted secrets of Alex’s Caves Planets—where danger and discovery intertwine. Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "486CA6A5B434776C"
+				type: "dimension"
+			}]
+			title: "🌑 Tier 5 Rocket: Into the Depths of Darkness"
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "24999CBB165B5042"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 3L
+				id: "63CB53F723A1AE80"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 25.75d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "4D6B4F2A8A0D7F9B"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				id: "27EB1665C2130D00"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "6C8DFA54E695EC99"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 4L
+				id: "5E5DBCC953379FBD"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 25.75d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "005908F6D6CFB16C"
+			subtitle: "Crafted Using 6 Steel Plates"
+			tasks: [{
+				count: 2L
+				id: "58C3E0162EF4CAE3"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "3D1E3AB852989A11"
+			subtitle: "Crafted Using 3 Primal Magma, 2 Enigmatic Engines, 1 Pure Darkness, and 1 Tier 5 Engine. Engines are Loot on the Abyssal Chasm, Pure Darkness is a Boss Drop in the Forlorn Hallows"
+			tasks: [{
+				id: "56C8E7F6A5C8959A"
+				item: "forge_frontier:tier_6_engine"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 25.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "4BE86703EF0FB98E"
+			subtitle: "Crafted using 2 Steel Ingots and 1 Barrel"
+			tasks: [{
+				id: "43B92D7D772F6BD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "2B80F4E077AFAD11"
+			subtitle: "Crafted Using 5 Primal Magma, 1 Tier 5 Tank, and 1 Omnious Catalyst, Catalyst is crafted with  8 Dinosaur bones and 1 Amber Curosity, which is obtained by crushing amber "
+			tasks: [{
+				count: 2L
+				id: "7A530B787CA7B5F2"
+				item: "forge_frontier:tier_6_tank"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "2A7E2B1095C949CB"
+			subtitle: "Crafted Using 5 Primal Magma, 1 Tier 5 Tank, and 1 Omnious Catalyst, Catalyst is crafted with  8 Dinosaur bones and 1 Amber Curosity, which is obtained by crushing amber "
+			tasks: [{
+				id: "4D7E81410105A6EB"
+				item: "forge_frontier:tier_6_tank"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 24.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "47EE121EC010E4E8"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 11L
+				id: "687C2E76EB532D6C"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 23.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "717CAD4F1971C767"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 12L
+				id: "2E76AAAF757B380E"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 23.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "65C4980E9F1C8CC7"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 13L
+				id: "7C42AC527323E35E"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 23.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "22C332F889205E0C"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 9L
+				id: "0F7952964A527846"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 22.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "279D9CD0D349EC36"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 10L
+				id: "1F4113EB6064254F"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 22.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "75B02CFC7F41247E"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 7L
+				id: "088CD9465BF8FC40"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 21.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "4C6BC1FF48970321"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 8L
+				id: "185B06EF34A59422"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 21.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "1B8804433605B911"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 4L
+				id: "582F53063B8D4858"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 20.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "76E55D6D74685192"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 5L
+				id: "2DA0735C7BFBD1E9"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 20.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "4D6E135BFDB8409F"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 6L
+				id: "03F9FB1AC7028D40"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 20.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "4073D86838330B5E"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				id: "115F3719091B104E"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 19.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "62553737C9CC3159"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 2L
+				id: "08E8B0BC539177A2"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 19.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "1D9C233C73BB45A7"
+			subtitle: "Crafted applying a primal magma to malachite rocket casing"
+			tasks: [{
+				count: 3L
+				id: "17DC8AD7EFA64254"
+				item: "forge_frontier:primal_magma_rocket_casing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 19.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "0FD45A97EC909D0B"
+			subtitle: "Crafted using 4 Steel Plates and a Lightning Rod"
+			tasks: [{
+				id: "485FC77DECEF0A14"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["20BB2E7B405CA851"]
+			id: "1F4DE7516F25ABA7"
+			subtitle: "Crafted using 6 Steel Plates"
+			tasks: [{
+				id: "7AD3078EEFB7120F"
+				item: "ad_astra:steel_door"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 21.25d
+		}
+		{
+			dependencies: [
+				"20BB2E7B405CA851"
+				"49ED8F8E435F35FB"
+			]
+			description: [
+				"To see how you craft it check out this quest chapter: "
+				"{ \"text\": \"Tier 5 Rocket\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"49ED8F8E435F35FB\" } }"
+			]
+			hide_dependency_lines: true
+			id: "46FECDBE935E012A"
+			tasks: [{
+				id: "3E88B0BB4D890599"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 22.25d
+		}
+		{
+			description: [
+				"&7Unlock the final, strangest corners of the cosmos—if you dare.&r"
+				""
+				"The &5Tier 6 Rocket&r launches you into the most &osurreal&r and &6hazardous&r worlds yet. These aren’t just planets—they are twisted biomes forged by chaos, teeming with &cbizarre lifeforms&r, &etoxic air&r, and &dcandy-colored nightmares&r. Welcome to the final frontier of Alex’s Caves Planets."
+				""
+				"{@pagebreak}"
+				""
+				"🧲 &bMagnetic Caves&r – Gravity bends and magnetism distorts reality here. Every step is a struggle as metallic storms swirl, structures float, and magnetic anomalies twist the laws of physics."
+				""
+				"☠ &2Toxic Caves&r – A world of bubbling &aacid lakes&r, glowing mists, and venomous flora. The air itself is a weapon, and the ground beneath you resents your presence."
+				""
+				"🍬 &dCandy Cavity&r – Don’t be fooled by its sugar-sweet surface. This planet’s &opastel horror&r conceals eerie creatures, &ounnatural formations&r, and a biome as beautiful as it is unsettling."
+				""
+				"{@pagebreak}"
+				""
+				"Each of these worlds holds &6exotic materials&r, &5unseen loot&r, and &ostrange phenomena&r that test both your survival skills and your sanity."
+				""
+				"🎢 &lStrap in—your journey into the cosmic unknown has only just begun.&r"
+			]
+			hide_dependent_lines: true
+			id: "20BB2E7B405CA851"
+			rewards: [
+				{
+					id: "2DA87319BB4C06D8"
+					item: "alexscaves:primal_magma"
+					type: "item"
+				}
+				{
+					id: "0636D050D30B37B4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Explore the final three twisted planets—Magnetic Caves, Toxic Caves, and Candy Cavity—and uncover secrets beyond imagination. Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:abyssal_chasm"
+				icon: "alexscaves:submarine"
+				id: "12EF557C6123BA72"
+				type: "dimension"
+			}]
+			title: "🚀 Tier 6 Rocket: Descent into the Absurd"
+			x: 24.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"4C6BC1FF48970321"
+				"717CAD4F1971C767"
+				"47EE121EC010E4E8"
+				"4BE86703EF0FB98E"
+				"005908F6D6CFB16C"
+				"2A7E2B1095C949CB"
+				"3D1E3AB852989A11"
+				"65C4980E9F1C8CC7"
+				"279D9CD0D349EC36"
+				"4D6E135BFDB8409F"
+				"76E55D6D74685192"
+				"75B02CFC7F41247E"
+				"46FECDBE935E012A"
+				"6C8DFA54E695EC99"
+				"4073D86838330B5E"
+				"4D6B4F2A8A0D7F9B"
+				"22C332F889205E0C"
+				"62553737C9CC3159"
+				"0FD45A97EC909D0B"
+				"24999CBB165B5042"
+				"1D9C233C73BB45A7"
+				"2B80F4E077AFAD11"
+				"1F4DE7516F25ABA7"
+				"1B8804433605B911"
+			]
+			description: [
+				"&7Your expedition into the bizarre begins now.&r"
+				""
+				"🎉 Congratulations, fearless explorer! With the &5Tier 6 Rocket&r crafted and fueled, you're ready to brave the most &osurreally dangerous&r planets of the Alex’s Caves system. These aren’t ordinary frontiers—they’re the &cmad fringes of the galaxy&r, where science blurs into imagination."
+				""
+				"{@pagebreak}"
+				""
+				"🧲 &bMagnetic Caves&r – A realm of gravitational oddities and &oelectromagnetic chaos&r. Navigate floating terrain, twisting tunnels, and magnetic creatures that pull at your gear and your sanity."
+				""
+				"☣ &2Toxic Caves&r – Thick, acidic fog clouds every step, while &nradioactive flora&r and mutant beasts turn survival into a constant battle. One breath too deep could be your last."
+				""
+				"🍭 &dCandy Cavity&r – A saccharine nightmare with &opsychotropic caverns&r and &ounnatural colors&r. It's sweet—until it isn’t. Licowitches and twisted candy beasts guard this planet's unnatural beauty."
+				""
+				"{@pagebreak}"
+				""
+				"Each of these planets offers &6rare resources&r, &5exotic loot&r, and &5secrets waiting to be unraveled&r. But beware: what you find may change how you see the universe."
+				""
+				"🌌 &lStrange. Hostile. Unforgettable.&r  "
+				"🛠 The final leg of your journey begins now—&owill you endure the madness and master the unknown?&r"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_6_rocket"
+				tag: { }
+			}
+			id: "02DAAC2A8AE50C94"
+			rewards: [
+				{
+					id: "1344E28FFBC0F64F"
+					item: "alexscaves:block_of_scarlet_neodymium"
+					type: "item"
+				}
+				{
+					id: "6C7FD90F13C51700"
+					item: "alexscaves:block_of_azure_neodymium"
+					type: "item"
+				}
+				{
+					id: "020DAB4EA67F5BA5"
+					item: "alexscaves:sulfur"
+					type: "item"
+				}
+				{
+					id: "645C1E0FAEAE3A3A"
+					item: "alexscaves:candy_cane_block"
+					type: "item"
+				}
+				{
+					id: "0E812B1AA3D52AAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Step beyond reality into magnetic chaos, toxic nightmares, and saccharine horrors. Click me for more info!"
+			tasks: [
+				{
+					id: "75947DE12A047061"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "618E1803A1840653"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "6FC98AACA9CCC72E"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "🎯 Tier 6 Rocket Unlocked: Welcome to the Weird"
+			x: 24.5d
+			y: 27.0d
+		}
+	]
+	title: "Basic Rocket Progression"
+}
