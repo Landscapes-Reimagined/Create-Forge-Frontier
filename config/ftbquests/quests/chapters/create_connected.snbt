@@ -13,7 +13,7 @@
 		x: 0.0d
 		y: -12.0d
 	}]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -179,7 +179,7 @@
 			]
 			title: "Smoking/Haunting"
 			x: 0.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
@@ -279,8 +279,8 @@
 				}
 			]
 			title: "An Inventory Expansion"
-			x: 2.5d
-			y: -5.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -327,12 +327,17 @@
 				}
 			]
 			title: "Advanced Redstone"
-			x: -2.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["The Item Silo works just like a normal Item Vault, holding the same amount of items, but instead of stretching wide, it stacks upward. Perfect for vertical builds or compact storage towers where horizontal space is limited."]
+			description: [
+				"The Item Silo works just like a normal Item Vault, holding the same amount of items, but instead of stretching wide, it stacks upward. Perfect for vertical builds or compact storage towers where horizontal space is limited."
+				""
+				""
+				"{image:ftb:textures/item_silo.png width:200 height:122 align:center}"
+			]
 			hide_dependency_lines: true
 			id: "3207F62A39DCCD3D"
 			rewards: [
@@ -361,12 +366,16 @@
 				type: "item"
 			}]
 			title: "Item Vault, but Better"
-			x: 2.5d
+			x: 3.0d
 			y: -6.5d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
-			description: ["The Fluid Vessel stores just as much as a regular Fluid Tank, but in a horizontal layout. It’s great for low, wide builds or when you want to tuck storage under machines without building upward."]
+			description: [
+				"The Fluid Vessel stores just as much as a regular Fluid Tank, but in a horizontal layout. It’s great for low, wide builds or when you want to tuck storage under machines without building upward."
+				""
+				"{image:ftb:textures/fluid_vessel.png width:200 height:122 align:center}"
+			]
 			hide_dependency_lines: true
 			id: "2E12BC020FBDEFBA"
 			rewards: [
@@ -395,7 +404,7 @@
 				type: "item"
 			}]
 			title: "A Tank on Its Side"
-			x: -2.5d
+			x: -3.0d
 			y: -6.5d
 		}
 		{
@@ -458,7 +467,7 @@
 				}
 			]
 			title: "Overstressed Systems"
-			x: -2.5d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -509,7 +518,7 @@
 			]
 			title: "Conditional Clutches"
 			x: -1.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -557,7 +566,7 @@
 			]
 			title: "Reverse Engineering"
 			x: 1.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -615,7 +624,7 @@
 				}
 			]
 			title: "Cogs in Motion"
-			x: 2.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -671,7 +680,7 @@
 			]
 			title: "Geared Logic"
 			x: 0.0d
-			y: -3.5d
+			y: -3.0d
 		}
 	]
 	title: "Web of Connections (Create Connected)"

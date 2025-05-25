@@ -17,7 +17,7 @@
 		x: -0.75d
 		y: -10.0d
 	}]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -127,7 +127,10 @@
 				""
 				"The Mechanical Chicken will produce 1 egg for every 100mb of Seed Oil!"
 				""
-				"The eggs must be removed via a Create Funnel or an Item Pipe!"
+				"The eggs must be removed through a Funnel or an Item Pipe."
+				""
+				""
+				"{image:ftb:textures/mechanical_chicken.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			icon: "create_mechanical_chicken:mechanical_chicken"
@@ -170,6 +173,8 @@
 				"To use it, address a package to your username using a sign, and then send it into the Drone Port using a Funnel or Item Pipe. "
 				""
 				"[\"\",{\"text\":\"If your name is longer than one line on a sign, you must use the \"},{\"text\":\"Drone Controller.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"64FDF55307789B8B\"},\"color\":\"blue\",\"underlined\":true}]"
+				""
+				"{image:ftb:textures/drone_port.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			icon: "create_mobile_packages:drone_port"
@@ -240,17 +245,9 @@
 		{
 			dependencies: ["610FD2C783821A4E"]
 			description: [
-				"The Andesite Chunk Loader is your entry-level solution for keeping machines running while you're away. It keeps a 1-chunk radius (a single 16×16 area) constantly loaded, perfect for basic farms or starter contraptions."
+				"[\"\",{\"text\":\"The Andesite Chunk Loader is your entry-level solution for keeping machines running while you're away. It keeps a 1-chunk radius (a single 16×16 area) constantly loaded, perfect for basic farms or starter contraptions. For more information, see \"},{\"text\":\"Chunk on the Minecraft Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://minecraft.wiki/w/chunk\"}},{\"text\":\".\\n\\nAfter you craft it, you'll need to capture a Ghast by right clicking on it with the Chunk Loader in your hand. \\n\\nPower Requirements:\\n\\nSpeed: 64 RPM\\n\\nStress: 1,024 SU\\n\\nMake sure your system can supply consistent power-if it drops, so does your loaded chunk.\"}]"
 				""
-				"After you craft it, you'll need to capture a Ghast by right clicking on it with the Chunk Loader in your hand. "
-				""
-				"Power Requirements:"
-				""
-				"Speed: 64 RPM"
-				""
-				"Stress: 1,024 SU"
-				""
-				"Make sure your system can supply consistent power-if it drops, so does your loaded chunk."
+				"{image:ftb:textures/andesite_loader.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			icon: "create_power_loader:andesite_chunk_loader"
@@ -287,15 +284,9 @@
 		{
 			dependencies: ["53FCF5F16D2BB329"]
 			description: [
-				"The Brass Chunk Loader is a serious upgrade. With a configurable range of 1×1, 3×3, or 5×5 chunks, it ensures large-scale automation stays alive across your base, no matter where you are."
+				"[\"\",{\"text\":\"The Brass Chunk Loader is a serious upgrade. With a configurable range of 1×1, 3×3, or 5×5 chunks, it ensures large-scale automation stays alive across your base, no matter where you are. For more information, see \"},{\"text\":\"Chunk on the Minecraft Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://minecraft.wiki/w/chunk\"}},{\"text\":\".\\n\\nPower Requirements:\\n\\nSpeed: 256 RPM\\n\\nStress: 4,096 SU\\n\\nA clear upgrade over its Andesite counterpart-this loader keeps much more of your chunks loaded!\"}]"
 				""
-				"Power Requirements:"
-				""
-				"Speed: 256 RPM"
-				""
-				"Stress: 4,096 SU"
-				""
-				"A clear upgrade over its Andesite counterpart-this loader keeps much more of your chunks loaded!"
+				"{image:ftb:textures/brass_loader.png width:200 height:122 align:center}"
 			]
 			id: "5FAE48E66E9E033C"
 			rewards: [
@@ -391,6 +382,9 @@
 				"Insert a potion to apply its effect to nearby entities."
 				""
 				"And if you're ever on fire? Just walk under it-water flow extinguishes flames."
+				""
+				""
+				"{image:ftb:textures/sprinkler.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			id: "692CE117F3798494"
@@ -508,7 +502,7 @@
 		}
 		{
 			dependencies: ["610FD2C783821A4E"]
-			description: ["{\"text\":\"This small drone can assist with many tasks-check out the \",\"extra\":[{\"text\":\"video guide\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/uR20-AXihN8\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" by the Quest Architect himself for a full explanation and demonstration.\"}]}"]
+			description: ["{\"text\":\"This small drone can assist with many tasks-check out this \",\"extra\":[{\"text\":\"video guide\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/uR20-AXihN8\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" from one of our developers for a full explanation and demonstration.\"}]}"]
 			hide_dependency_lines: true
 			icon: "create_sa:brass_drone_item"
 			id: "18C63836D582CFF6"
@@ -1156,6 +1150,8 @@
 				"Once powered, it acts as a grappling hook, letting you zip to surfaces and scale structures with style. Enchant it with Impact to deal damage when unhooking!"
 				""
 				"Great for fast travel, evasive maneuvers, or just looking cool."
+				""
+				"{image:ftb:textures/grappling_whisk.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			id: "28CC2C57749674BE"
@@ -1201,7 +1197,9 @@
 				""
 				"Hold left click to mine, carving through blocks with mechanical force."
 				""
-				"Enchant it with Digging to expand its reach to a 3×3 block area. If enchanted, hold shift to mine a single block. "
+				"Enchant it with Digging to expand its reach to a 3×3 block area. If enchanted, hold shift to mine a single block."
+				""
+				"{image:ftb:textures/drill.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			id: "30E126B596EB11F5"
@@ -1245,7 +1243,9 @@
 				""
 				"Enchant it with Hellfire to boost damage and ignite blocks, but be careful: the extra flames can burn up any smelted items before they’re able to be picked up."
 				""
-				"Use responsibly… or set everything on fire. Your choice."
+				"Use responsibly… or not, and set everything on fire. Your choice."
+				""
+				"{image:ftb:textures/flamethrower.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			id: "04684596A27A9BED"
@@ -1285,12 +1285,14 @@
 				"2839F9B81949DDF4"
 			]
 			description: [
-				"Gmod called. It wants its Gravity Gun back!"
+				"Half-Life 2 called. They want their Gravity Gun back!"
 				""
 				"The Block Picker lets you pick up blocks-or even entities. It must be fueled with water to function."
 				""
 				"By default, it can pull blocks toward you for fast collection or creative building."
 				"When enchanted with Gravity Gun, it can also grab living entities-perfect for relocation, or pure chaos."
+				""
+				"{image:ftb:textures/block_picker.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			id: "25D2CED2C77A8CAC"
@@ -1311,7 +1313,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Half-Life"
+			subtitle: "Half-Life 2"
 			tasks: [{
 				id: "71A2331DDF4C4EE7"
 				item: {
@@ -1707,6 +1709,8 @@
 				"To set the coordinates the portal will send you to, hold the Advanced Teleportation Link in your hand, stand at your desired destination, look straight down, and right-click. Then, place the link into the Custom Portal to complete the connection."
 				""
 				"It also works &5&n&oCross-Dimensionally!&r&r&r"
+				""
+				"{image:ftb:textures/portal_stabilizer.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
 			icon: "createteleporters:custom_portal"

@@ -1164,7 +1164,7 @@
 				}
 			]
 			title: "Stress Progression: Andesite Logistics"
-			x: 3.0d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -1190,8 +1190,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -2196,7 +2196,7 @@
 			}]
 			title: "Stress Progression: Train Tracks"
 			x: 2.0d
-			y: 20.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1BBD2EE82A1AF187"]
@@ -2657,7 +2657,7 @@
 				type: "item"
 			}]
 			title: "Pulp"
-			x: 1.5d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -2704,7 +2704,7 @@
 			]
 			title: "Cardboard"
 			x: 3.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4020155EAE2645DA"]
@@ -2739,8 +2739,8 @@
 				item: "create:packager"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.5d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0D4BB30447AEFC1B"]
@@ -2777,8 +2777,8 @@
 				item: "create:package_frogport"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4020155EAE2645DA"]
@@ -2855,7 +2855,7 @@
 			]
 			title: "Cardboard Costume!"
 			x: 3.0d
-			y: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6AE92109DA4B2A76"]
@@ -2915,8 +2915,8 @@
 				item: "create:repackager"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 7.5d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3A3555D47FCD8B3B"]
@@ -2954,8 +2954,8 @@
 				type: "item"
 			}]
 			title: "Postboxes"
-			x: 3.5d
-			y: 20.0d
+			x: 3.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["6AE92109DA4B2A76"]
@@ -3032,7 +3032,7 @@
 				item: "create:desk_bell"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 13.5d
 		}
 		{
@@ -3070,12 +3070,20 @@
 				}
 			]
 			subtitle: "Advanced Package Transportation"
-			tasks: [{
-				count: 2L
-				id: "4B62F0037634E922"
-				item: "create:chain_conveyor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 2L
+					id: "4B62F0037634E922"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A22DBC5748E1B4A"
+					item: { Count: 8, id: "minecraft:chain" }
+					type: "item"
+				}
+			]
 			title: "Stress Progression: Chain Conveyor"
 			x: -6.0d
 			y: -2.5d
@@ -3109,8 +3117,8 @@
 				item: "create:stock_link"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["2EDAEA1566841D97"]
@@ -3153,7 +3161,7 @@
 				item: "create:stock_ticker"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -3233,8 +3241,8 @@
 				item: "create:redstone_requester"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]

@@ -659,6 +659,8 @@
 				"The Boiler Heater functions just like a Blaze Burner. It uses external heat sources like Solar Plates or Nuclear Reactors to produce the temperature needed for Superheating."
 				""
 				"To reach Superheated levels, make sure you're supplying enough heat per tick using Heat Pumps. Insufficient heat input will leave your Boiler Heater only capable of performing heated recipes. "
+				""
+				"{image:ftb:textures/boiler_heater_asp.png width:200 height:122 align:center}"
 			]
 			icon: "create_new_age:heater"
 			id: "4F54BDE5BD1DBEE9"
@@ -699,7 +701,11 @@
 		}
 		{
 			dependencies: ["2978B72E45349EC4"]
-			description: ["[\"\",{\"text\":\"An upgraded version of the Basic Solar Plate, the Advanced Solar Plate produces a blazing 60.0 T/s - three times the heat for the same amount of sunlight. It’s essential for setups that require large amounts of thermal energy, especially when targeting Superheated recipes using a \"},{\"text\":\"Boiler Heater\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4F54BDE5BD1DBEE9\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]"]
+			description: [
+				"[\"\",{\"text\":\"An upgraded version of the Basic Solar Plate, the Advanced Solar Plate produces a blazing 60.0 T/s - three times the heat for the same amount of sunlight. It’s essential for setups that require large amounts of thermal energy, especially when targeting Superheated recipes using a \"},{\"text\":\"Boiler Heater\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4F54BDE5BD1DBEE9\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]"
+				""
+				"{image:ftb:textures/boiler_heater_asp.png width:200 height:122 align:center}"
+			]
 			id: "2EADBC3CE4CA5705"
 			rewards: [
 				{
@@ -764,7 +770,11 @@
 		}
 		{
 			dependencies: ["2978B72E45349EC4"]
-			description: ["The Stirling Engine transforms thermal energy into rotational force, generating up to 1,024 SU at full efficiency. Feed it 100 T/t of continuous heat to hit peak output, or settle for 512 SU at 50 T/t. It's a clean and steady alternative for powering Create systems without relying on electricity."]
+			description: [
+				"The Stirling Engine transforms thermal energy into rotational force, generating up to 1,024 SU at full efficiency. Feed it 100 T/t of continuous heat to hit peak output, or settle for 512 SU at 50 T/t. It's a clean and steady alternative for powering Create systems without relying on electricity."
+				""
+				"{image:ftb:textures/stirling.png width:200 height:122 align:center}"
+			]
 			id: "188844E8F93D9347"
 			rewards: [
 				{

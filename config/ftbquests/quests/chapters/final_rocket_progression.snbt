@@ -2173,7 +2173,7 @@
 			dependencies: ["5989CA8F6DA5A13D"]
 			description: [
 				"The forge rocket casing is obtained by applying Forge Alloy to the Primal Magma Rocket Casing"
-				"{image:ftb:textures/_forge_frontier_item_application_forge_rocket_casing_using_deployer.png width:200 height:108 align:center}"
+				"{image:ftb:textures/_forge_frontier_item_application_forge_rocket_casing_using_deployer.png width:200 height:84 align:center}"
 			]
 			hide_dependent_lines: true
 			id: "60824E7CD9F212EC"
