@@ -1,79 +1,63 @@
 ServerEvents.recipes(event => {
-    // Removal of Old Gold Cast Recipes
-        const goldCastTypes = [
-          'ingots', 'nuggets', 'gems', 'rods', 'plates', 'wires',
-          'repair_kit', 'pick_head', 'small_axe_head', 'small_blade',
-          'adze_head', 'hammer_head', 'broad_axe_head', 'broad_blade',
-          'large_plate', 'tool_handle', 'tool_binding', 'tough_handle',
-          'tough_binding', 'bow_limb', 'bow_grip', 'helmet_plating',
-          'chestplate_plating', 'leggings_plating', 'boots_plating', 'maille'
-        ];
-      
-        for (const type of goldCastTypes) {
-          event.remove({ id: `tconstruct:smeltery/casts/gold/${type}` });
-        };
-      
+  // Remove default gold cast recipes
+  const goldCastTypes = [
+    'ingots', 'nuggets', 'gems', 'rods', 'plates', 'wires',
+    'repair_kit', 'pick_head', 'small_axe_head', 'small_blade',
+    'adze_head', 'hammer_head', 'broad_axe_head', 'broad_blade',
+    'large_plate', 'tool_handle', 'tool_binding', 'tough_handle',
+    'tough_binding', 'bow_limb', 'bow_grip', 'helmet_plating',
+    'chestplate_plating', 'leggings_plating', 'boots_plating', 'maille'
+  ];
 
-    // New Gold Cast Recipes
-    const castVariants = [
-      { cast: 'tconstruct:casts/single_use/adze_head' },
-      { cast: 'tconstruct:casts/single_use/boots_plating' },
-      { cast: 'tconstruct:casts/single_use/bow_grip' },
-      { cast: 'tconstruct:casts/single_use/bow_limb' },
-      { cast: 'tconstruct:casts/single_use/broad_axe_head' },
-      { cast: 'tconstruct:casts/single_use/broad_blade' },
-      { cast: 'tconstruct:casts/single_use/chestplate_plating' },
-      { cast: 'tconstruct:casts/single_use/coin' },
-      { cast: 'tconstruct:casts/single_use/gear' },
-      { cast: 'tconstruct:casts/single_use/gem' },
-      { cast: 'tconstruct:casts/single_use/hammer_head' },
-      { cast: 'tconstruct:casts/single_use/helmet_plating' },
-      { cast: 'tconstruct:casts/single_use/ingot' },
-      { cast: 'tconstruct:casts/single_use/large_plate' },
-      { cast: 'tconstruct:casts/single_use/leggings_plating' },
-      { cast: 'tconstruct:casts/single_use/maille' },
-      { cast: 'tconstruct:casts/single_use/nugget' },
-      { cast: 'tconstruct:casts/single_use/pick_head' },
-      { cast: 'tconstruct:casts/single_use/plate' },
-      { cast: 'tconstruct:casts/single_use/repair_kit' },
-      { cast: 'tconstruct:casts/single_use/rod' },
-      { cast: 'tconstruct:casts/single_use/small_axe_head' },
-      { cast: 'tconstruct:casts/single_use/small_blade' },
-      { cast: 'tconstruct:casts/single_use/tool_binding' },
-      { cast: 'tconstruct:casts/single_use/tool_handle' },
-      { cast: 'tconstruct:casts/single_use/tough_binding' },
-      { cast: 'tconstruct:casts/single_use/tough_handle' },
-      { cast: 'tconstruct:casts/single_use/wire' },
-      { cast: 'tconstruct:casts/single_use/template'}
-    ];
-  
-    const castTypes = [
-      'adze_head', 'boots_plating', 'bow_grip', 'bow_limb', 'broad_axe_head',
-      'broad_blade', 'chestplate_plating', 'coin', 'gear', 'gem',
-      'hammer_head', 'helmet_plating', 'ingot', 'large_plate',
-      'leggings_plating', 'maille', 'nugget', 'pick_head', 'plate',
-      'repair_kit', 'rod', 'small_axe_head', 'small_blade', 'tool_binding',
-      'tool_handle', 'tough_binding', 'tough_handle', 'wire', 'template'
-    ];
-  
-    for (const type of castTypes) {
-      for (const { cast } of castVariants) {
-        if (cast.endsWith(`/${type}`)) {
-          event.custom({
-            type: 'tconstruct:casting_table',
-            cast: { tag: cast },
-            cast_consumed: true,
-            fluid: {
-              tag: 'forge:molten_gold',
-              amount: 90
-            },
-            result: {
-              item: `tconstruct:${type}_cast`
-            },
-            cooling_time: 57
-          }).id(`forge_frontier:casting/${type}_cast`);
-        }
-      }
-    }
-  });
-  
+  for (const type of goldCastTypes) {
+    event.remove({ id: `tconstruct:smeltery/casts/gold/${type}` });
+  }
+
+  // Tag-based gold cast recipes
+  const tagToCastMap = {
+    'forge:ingots': 'ingot_cast',
+    'forge:nuggets': 'nugget_cast',
+    'forge:gems': 'gem_cast',
+    'forge:rods': 'rod_cast',
+    'forge:plates': 'plate_cast',
+    'forge:wires': 'wire_cast',
+    'forge:repair_kits': 'repair_kit_cast',
+    'forge:pick_heads': 'pick_head_cast',
+    'forge:axe_heads/small': 'small_axe_head_cast',
+    'forge:blades/small': 'small_blade_cast',
+    'forge:adze_heads': 'adze_head_cast',
+    'forge:hammer_heads': 'hammer_head_cast',
+    'forge:axe_heads/broad': 'broad_axe_head_cast',
+    'forge:blades/broad': 'broad_blade_cast',
+    'forge:plates/large': 'large_plate_cast',
+    'forge:tool_handles': 'tool_handle_cast',
+    'forge:tool_bindings': 'tool_binding_cast',
+    'forge:tough_handles': 'tough_handle_cast',
+    'forge:tough_bindings': 'tough_binding_cast',
+    'forge:bow_limbs': 'bow_limb_cast',
+    'forge:bow_grips': 'bow_grip_cast',
+    'forge:armor/helmet_plating': 'helmet_plating_cast',
+    'forge:armor/chestplate_plating': 'chestplate_plating_cast',
+    'forge:armor/leggings_plating': 'leggings_plating_cast',
+    'forge:armor/boots_plating': 'boots_plating_cast',
+    'forge:armor/maille': 'maille_cast',
+    'forge:templates/smithing': 'template_cast'
+  };
+
+  for (const [tag, resultId] of Object.entries(tagToCastMap)) {
+    event.custom({
+      type: 'tconstruct:casting_table',
+      cast: { tag: tag },
+      cast_consumed: true,
+      fluid: {
+        tag: 'forge:molten_gold',
+        amount: 90
+      },
+      result: {
+        item: `tconstruct:${resultId}`
+      },
+      switch_slots: true,
+      cooling_time: 57
+    }).id(`forge_frontier:casting/${resultId}`);
+  }
+});
