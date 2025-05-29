@@ -134,8 +134,8 @@
 				}
 			]
 			title: "Blasting/Washing"
-			x: -1.0d
-			y: -5.0d
+			x: -1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
@@ -179,7 +179,7 @@
 			]
 			title: "Smoking/Haunting"
 			x: 0.0d
-			y: -4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
@@ -228,8 +228,8 @@
 				}
 			]
 			title: "Seething/Freezing"
-			x: 1.0d
-			y: -5.0d
+			x: 1.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -323,6 +323,11 @@
 				{
 					id: "77620FD7958011C8"
 					item: "create_connected:sequenced_pulse_generator"
+					type: "item"
+				}
+				{
+					id: "410DD2A743B8BAE4"
+					item: "create_connected:redstone_link_wildcard"
 					type: "item"
 				}
 			]
@@ -467,8 +472,8 @@
 				}
 			]
 			title: "Overstressed Systems"
-			x: -2.0d
-			y: -3.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -518,7 +523,7 @@
 			]
 			title: "Conditional Clutches"
 			x: -1.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -566,7 +571,7 @@
 			]
 			title: "Reverse Engineering"
 			x: 1.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -624,8 +629,8 @@
 				}
 			]
 			title: "Cogs in Motion"
-			x: 2.0d
-			y: -3.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -637,6 +642,8 @@
 				"The 6-Way Gearbox splits rotation to all six sides, but the top and bottom shafts spin at half speed. It's ideal for distributing power across multiple axes with built-in speed control."
 				""
 				"The Brass Gearbox offers full customizability. Right-click each face with an empty hand to toggle the rotation direction of each shaft. You choose exactly how power flows."
+				""
+				"The Cross Connector makes it possible to independently determine which direction your shafts are spinning. Useful when you want to cross shaft connections without changing rotation direction.  "
 			]
 			hide_dependency_lines: true
 			icon: "create_connected:parallel_gearbox"
@@ -657,7 +664,7 @@
 				{
 					id: "37DA4C3F14D053DC"
 					type: "xp"
-					xp: 75
+					xp: 100
 				}
 			]
 			subtitle: "Rotation, Your Way"
@@ -677,10 +684,88 @@
 					item: "create_connected:brass_gearbox"
 					type: "item"
 				}
+				{
+					id: "79F636EA40326C13"
+					item: "create_connected:cross_connector"
+					type: "item"
+				}
 			]
 			title: "Geared Logic"
 			x: 0.0d
-			y: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"The Kinetic Bridge allows you to take the SU from one Stress Network and send it into an entirely separate Stress Network!"
+				""
+				"Check the Ponder for more information!"
+			]
+			hide_dependency_lines: true
+			id: "6A794F6B1C7ED64C"
+			rewards: [
+				{
+					id: "5B0E12C8C2AB4535"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "236116D2BEBFF1C4"
+					item: "create_compressed:cogwheel_block"
+					type: "item"
+				}
+				{
+					id: "6F6A7EFB61995A9E"
+					item: "create_compressed:shaft_bundle"
+					type: "item"
+				}
+				{
+					id: "62725AEB00712383"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Separated Stress"
+			tasks: [{
+				id: "7AFDEAF617087162"
+				item: "create_connected:kinetic_bridge"
+				type: "item"
+			}]
+			title: "The Kinetic Bridge"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["769D1D5B36D849D2"]
+			description: [
+				"The Kinetic Battery allows you to take your Stress Units on the go! "
+				""
+				"Check the Ponder for more information!"
+			]
+			hide_dependency_lines: true
+			id: "06AFE85347786AFF"
+			rewards: [
+				{
+					count: 8
+					id: "615D1F39F9B8E62D"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "24393928939F7B52"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Stored Stress"
+			tasks: [{
+				id: "0EE30858E6288681"
+				item: "create_connected:kinetic_battery"
+				type: "item"
+			}]
+			title: "The Kinetic Battery"
+			x: 2.0d
+			y: -2.5d
 		}
 	]
 	title: "Web of Connections (Create Connected)"

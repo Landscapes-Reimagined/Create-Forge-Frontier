@@ -1647,7 +1647,9 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0157A9E38B635A46"]
 			description: ["Powdered Obsidian is made by crushing regular obsidian into dust. It is used in several crafting recipes, including Chromatic Compound. "]
+			hide_dependency_lines: true
 			id: "70ED1EF06BC41E96"
 			rewards: [
 				{
@@ -1667,7 +1669,7 @@
 			tasks: [{
 				count: 4L
 				id: "33208128450C6AB8"
-				item: { Count: 4, id: "create:powdered_obsidian" }
+				item: "create:powdered_obsidian"
 				type: "item"
 			}]
 			title: "Powdered Obsidian"
