@@ -72,7 +72,7 @@
 				}
 			]
 			title: "Stress Progression: Gears"
-			x: -5.5d
+			x: -6.0d
 			y: -3.5d
 		}
 		{
@@ -120,7 +120,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Shafts are the most basic way you will transport Rotation and Stress, the \"energy\" units of Create. Just like Andesite Alloy, these will form the backbone of your factory."]
 			id: "0051FC2DA1337C65"
 			rewards: [
@@ -147,7 +147,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["Andesite Casings are made by using or deploying andesite alloy onto stripped logs. These casings form the structure of your first Create machines, and you are well on your way to your first factory! "]
 			id: "4BD39CC8E17CA1A9"
 			rewards: [
@@ -1126,10 +1126,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"2D02B7B7507AF99D"
-				"6AE92109DA4B2A76"
-			]
+			dependencies: ["2D02B7B7507AF99D"]
 			description: [
 				"Andesite funnels allow for simple extraction from and insertion into attached inventories, while andesite tunnels allow for splitting item stacks on belts and preventing any unwanted items from getting in the mix of your all-important factory outputs. "
 				""
@@ -1164,7 +1161,7 @@
 				}
 			]
 			title: "Stress Progression: Andesite Logistics"
-			x: 2.0d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -1190,8 +1187,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -3.5d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -1227,7 +1224,7 @@
 				}
 			]
 			title: "Stress Progression: Dried Kelp"
-			x: 4.0d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -2657,7 +2654,7 @@
 				type: "item"
 			}]
 			title: "Pulp"
-			x: 2.0d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
@@ -2673,6 +2670,7 @@
 				""
 				"Cardboard Blocks may look simple, but they’re key to building smarter factories — and they’re renewable, cheap, and stylishly industrial."
 			]
+			icon: "create:cardboard_block"
 			id: "4020155EAE2645DA"
 			rewards: [
 				{
@@ -2704,7 +2702,7 @@
 			]
 			title: "Cardboard"
 			x: 3.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4020155EAE2645DA"]
@@ -2739,8 +2737,8 @@
 				item: "create:packager"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0D4BB30447AEFC1B"]
@@ -2787,6 +2785,13 @@
 				""
 				"The sword also does no damage, but applies a knockback effect! Great for moving entities around."
 			]
+			icon: {
+				Count: 1
+				id: "create:cardboard_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7BB905D96305FAA9"
 			rewards: [
 				{
@@ -2854,11 +2859,11 @@
 				}
 			]
 			title: "Cardboard Costume!"
-			x: 3.0d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: ["The item hatch allows for easy emptying of your inventory into any chest, vault, or other inventory!"]
 			id: "4A7401194C9BFCB4"
 			rewards: [
@@ -2879,8 +2884,8 @@
 				item: "create:item_hatch"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5876B821FE5D9B15"]
@@ -2915,8 +2920,8 @@
 				item: "create:repackager"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3A3555D47FCD8B3B"]
@@ -2955,10 +2960,10 @@
 			}]
 			title: "Postboxes"
 			x: 3.0d
-			y: 19.5d
+			y: 20.5d
 		}
 		{
-			dependencies: ["6AE92109DA4B2A76"]
+			dependencies: ["66E9DB5E9D5CD5EC"]
 			description: [
 				""
 				"Bring commerce to your factory floor! The Table Cloth lets you sell items to other players (or yourself!) using the Stock Keeper interface. Think of it as a vending machine, dressed up."
@@ -3013,8 +3018,8 @@
 				type: "item"
 			}]
 			title: "Table Cloth"
-			x: 1.0d
-			y: -3.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["09461F76EF6B0CC3"]
@@ -3055,6 +3060,7 @@
 				""
 				"📘 Ponder Tip: Ponder the Chain Conveyor for a clear demo of package sorting, chaining distance, and Frogport interaction."
 			]
+			icon: "create:chain_conveyor"
 			id: "63EA3061E9587925"
 			rewards: [
 				{
@@ -3080,7 +3086,7 @@
 				{
 					count: 2L
 					id: "5A22DBC5748E1B4A"
-					item: { Count: 8, id: "minecraft:chain" }
+					item: "minecraft:chain"
 					type: "item"
 				}
 			]
@@ -3278,8 +3284,8 @@
 				type: "item"
 			}]
 			title: "Where to find Andesite? "
-			x: 0.0d
-			y: -5.5d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [

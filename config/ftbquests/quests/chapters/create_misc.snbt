@@ -49,7 +49,7 @@
 				type: "checkmark"
 			}]
 			title: "The Addon Arsenal"
-			x: -0.75d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			title: "The Mechanical Extruder"
-			x: -6.0d
+			x: -5.5d
 			y: -2.0d
 		}
 		{
@@ -140,22 +140,22 @@
 				}
 			]
 			title: "The Mechanical Chicken"
-			x: 0.0d
+			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["610FD2C783821A4E"]
 			description: [
-				"The Drone Port allows you to send packages to yourself wirelessly! "
+				"The Robo Bee Port allows you to send packages to yourself wirelessly! "
 				""
-				"To use it, address a package to your username using a sign, and then send it into the Drone Port using a Funnel or Item Pipe. "
+				"To use it, address a package to your username using a sign, and then send it into the Robo Bee Port using a Funnel or Item Pipe. "
 				""
 				"[\"\",{\"text\":\"If your name is longer than one line on a sign, you must use the \"},{\"text\":\"Drone Controller.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"64FDF55307789B8B\"},\"color\":\"blue\",\"underlined\":true}]"
 				""
 				"{image:ftb:textures/drone_port.png width:200 height:122 align:center}"
 			]
 			hide_dependency_lines: true
-			icon: "create_mobile_packages:drone_port"
+			icon: "create_mobile_packages:bee_port"
 			id: "0B1AAE6530D495A3"
 			rewards: [
 				{
@@ -174,27 +174,32 @@
 			tasks: [
 				{
 					id: "0F24DCE4C2DBC277"
-					item: "create_mobile_packages:drone_port"
+					item: "create_mobile_packages:bee_port"
 					type: "item"
 				}
 				{
-					id: "5121747A50C988E8"
+					id: "58216C917CAA600A"
+					item: "create_mobile_packages:robo_bee"
+					type: "item"
+				}
+				{
+					id: "0462614A7944496A"
 					item: "create:packager"
 					type: "item"
 				}
 			]
 			title: "The Drone Port"
-			x: -7.5d
+			x: -7.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["0B1AAE6530D495A3"]
 			description: [
-				"The Drone Controller acts a Wireless Stock Keeper when tuned to a frequency by right clicking a Stock Link with the item in your hand."
+				"The Portable Stock Ticker allows you to request packages from your network when tuned to a frequency by right clicking a Stock Link with the Ticker in your hand."
 				""
-				"To use it, right click, select the items you want to be sent to you, address them to your username in the bottom of the interface, then send the addressed package to the Drone Port. "
+				"To use it, right click, select the items you want to be sent to you, address them to your username in the bottom of the interface, then send the addressed package to the Robo Bee Port. "
 				""
-				"Your package will then be delivered to you!"
+				"Your package will then be delivered to you via a Robo Bee!"
 			]
 			id: "64FDF55307789B8B"
 			rewards: [
@@ -213,11 +218,11 @@
 			subtitle: "Applied Packages 2"
 			tasks: [{
 				id: "51BD3196E1982973"
-				item: "create_mobile_packages:drone_controller"
+				item: "create_mobile_packages:portable_stock_ticker"
 				type: "item"
 			}]
 			title: "The Drone Controller"
-			x: -7.5d
+			x: -7.0d
 			y: -2.0d
 		}
 		{
@@ -256,7 +261,7 @@
 				type: "item"
 			}]
 			title: "Andesite Chunk Loader - Tier 1"
-			x: -6.0d
+			x: -5.5d
 			y: -3.5d
 		}
 		{
@@ -293,7 +298,7 @@
 				type: "item"
 			}]
 			title: "Brass Chunk Loader - Tier 2"
-			x: -4.5d
+			x: -4.0d
 			y: -3.5d
 		}
 		{
@@ -343,7 +348,7 @@
 				type: "item"
 			}]
 			title: "The Slicer"
-			x: -3.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -393,7 +398,7 @@
 				type: "item"
 			}]
 			title: "The Sprinkler"
-			x: -3.0d
+			x: -2.5d
 			y: -2.0d
 		}
 		{
@@ -432,7 +437,7 @@
 				type: "item"
 			}]
 			title: "The Soul Catcher"
-			x: 0.0d
+			x: 0.5d
 			y: -3.5d
 		}
 		{
@@ -475,7 +480,7 @@
 				}
 			]
 			title: "The Mechanical Spawner"
-			x: 1.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -511,7 +516,7 @@
 				}
 			]
 			title: "The Brass Drone"
-			x: 3.0d
+			x: 3.5d
 			y: -3.5d
 		}
 		{
@@ -566,7 +571,7 @@
 				}
 			]
 			title: "Brass Drone Upgrades"
-			x: 3.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -592,7 +597,7 @@
 				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -619,7 +624,7 @@
 				item: "create_sa:heat_engine"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -645,7 +650,7 @@
 				item: "create_sa:steam_engine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -689,7 +694,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -736,7 +741,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -785,7 +790,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -830,7 +835,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -887,7 +892,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 1"
-			x: -7.5d
+			x: -7.0d
 			y: -0.5d
 		}
 		{
@@ -935,7 +940,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 2"
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
@@ -983,7 +988,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 3"
-			x: -6.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -1028,7 +1033,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -1074,7 +1079,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -1112,7 +1117,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -1162,7 +1167,7 @@
 				type: "item"
 			}]
 			title: "The Grapplin' Whisk"
-			x: -1.5d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -1204,7 +1209,7 @@
 				type: "item"
 			}]
 			title: "The Portable Drill"
-			x: 1.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -1254,7 +1259,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -1302,7 +1307,7 @@
 				type: "item"
 			}]
 			title: "The Block Picker"
-			x: -4.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -1334,7 +1339,7 @@
 				type: "checkmark"
 			}]
 			title: "A Small Reward!"
-			x: 3.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -1368,7 +1373,7 @@
 				type: "item"
 			}]
 			title: "Strophar Mushrooms"
-			x: 4.5d
+			x: 5.0d
 			y: -3.5d
 		}
 		{
@@ -1399,7 +1404,7 @@
 				type: "item"
 			}]
 			title: "Telejuice"
-			x: 4.5d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -1443,7 +1448,7 @@
 				}
 			]
 			title: "Teleportation Components"
-			x: 6.0d
+			x: 6.5d
 			y: -3.5d
 		}
 		{
@@ -1502,7 +1507,7 @@
 				}
 			]
 			title: "Quantum Computing"
-			x: 6.0d
+			x: 6.5d
 			y: -2.0d
 		}
 		{
@@ -1560,7 +1565,7 @@
 				}
 			]
 			title: "The Entity Teleporter"
-			x: 4.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -1620,7 +1625,7 @@
 				}
 			]
 			title: "The Item Teleporter"
-			x: 6.0d
+			x: 6.5d
 			y: -0.5d
 		}
 		{
@@ -1671,7 +1676,7 @@
 				}
 			]
 			title: "The Block Teleporter"
-			x: 4.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -1727,7 +1732,151 @@
 				}
 			]
 			title: "The Custom Portal"
-			x: 6.0d
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Ender Tank allows you to transport fluids wirelessly across large spaces - even across dimensions! The Ender Tank is crucial in bringing easy access to lava to your base for practical applications like fueling blaze burners! "
+				""
+				"Set a frequency by right clicking with an item in your hand!"
+				""
+				"Please note that these must be chunk loaded to update the fluids being stored inside, so if you want to bring lava from the Nether to the Overworld you must load both the chunks in the Overworld and Nether."
+			]
+			hide_dependency_lines: true
+			id: "2396783BAD6C189B"
+			rewards: [
+				{
+					count: 3
+					id: "5CE73DEBACC28E20"
+					item: "createenderlink:ender_tank"
+					type: "item"
+				}
+				{
+					id: "568F549EE0B1AB20"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "The Void"
+			tasks: [{
+				id: "0F65BFA837705829"
+				item: "createenderlink:ender_tank"
+				type: "item"
+			}]
+			title: "The Ender Tank"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The Ender Vault allows you to send items across large spaces - even cross dimensionally! Want to send a resource you've automated back to your storage, but it is too far for belts and pipes? This makes it simple and easy!"
+				""
+				"The Ender Vault also must be chunk loaded if you wish to use it across long distances or cross dimensionally. "
+			]
+			hide_dependency_lines: true
+			id: "0401F8FA66F1254B"
+			rewards: [
+				{
+					count: 3
+					id: "3E3D1A0AF0AEE185"
+					item: "createenderlink:ender_vault"
+					type: "item"
+				}
+				{
+					id: "45C524A44A639990"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Items from the Void"
+			tasks: [{
+				id: "2D5DE7599731B4C2"
+				item: "createenderlink:ender_vault"
+				type: "item"
+			}]
+			title: "The Ender Vault"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"[\"\",{\"text\":\"The Bottler works exactly like the \"},{\"text\":\"Packager\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5876B821FE5D9B15\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" from Create. The Only difference being that instead of connecting the Bottler to a form of Item Storage, you connect it to a form of Fluid Storage!\"}]"
+				""
+				"Each Jar can hold up to one bucket of a fluid at a time!"
+			]
+			hide_dependency_lines: true
+			id: "5F6B8E5A3A506DE9"
+			rewards: [
+				{
+					count: 16
+					id: "688D3D42B4F3A96C"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "0ED1AB79F6A3B390"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Filling Frenzy"
+			tasks: [{
+				id: "523EEEE81A63DE74"
+				item: "create_factory_logistics:jar_packager"
+				type: "item"
+			}]
+			title: "The Bottler"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"[\"\",{\"text\":\"The Fluid Factory Gauge allows you to automate the production of fluids! Works similarly to the \"},{\"text\":\"Factory Gauge \",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30A6D792C4102B6C\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\"from Create.\"}]"
+				""
+				"The Network Link has many practical applications! View the Ponder to learn more about it!"
+			]
+			hide_dependency_lines: true
+			icon: "create_factory_logistics:factory_fluid_gauge"
+			id: "5C95BCD4C21FC0CB"
+			rewards: [
+				{
+					count: 4
+					id: "4070D7AF3D8EE635"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "671FF38677A918E7"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					id: "1AB5C078F5E69714"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Factory Automation"
+			tasks: [
+				{
+					id: "209C1761AFC13DFC"
+					item: "create_factory_logistics:factory_fluid_gauge"
+					type: "item"
+				}
+				{
+					id: "16394C7CBF44B033"
+					item: "create_factory_logistics:network_link"
+					type: "item"
+				}
+			]
+			title: "The Fluid Gauge and Network Link"
+			x: -8.5d
 			y: 1.0d
 		}
 	]

@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
     {
       molten: 'tconstruct:molten_netherite',
       template: 'minecraft:netherite_upgrade_smithing_template'
-    },
+    }
   ];
 
   moltenCastingData.forEach(entry => {
@@ -187,4 +187,23 @@ ServerEvents.recipes(event => {
     }).id(`forge_frontier:casting/${entry.template.replace(':', '_')}_from_molten_gold`);
   }
   });
+
+    // New Blank Gold Cast
+      event.custom({
+        type: "tconstruct:casting_table",
+        cast: {
+          tag: "tconstruct:casts/single_use/blank"
+        },
+        cast_consumed: true,
+        cooling_time: 83,
+        fluid: {
+          amount: 100,
+          tag: "tconstruct:molten_gold"
+        },
+        result: {
+          item: "tconstruct:blank_gold_cast"
+        }
+      }).id("forge_frontier:castin/blank_gold_cast")
+
+
 });
