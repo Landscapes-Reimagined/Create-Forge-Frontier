@@ -192,7 +192,7 @@ ServerEvents.recipes(event => {
       event.custom({
         type: "tconstruct:casting_table",
         cast: {
-          tag: "tconstruct:casts/sand"
+          tag: "tconstruct:casts/single_use/blank"
         },
         cast_consumed: true,
         cooling_time: 83,
