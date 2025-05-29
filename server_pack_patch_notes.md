@@ -1,6 +1,6 @@
-# 🛠️ **Forge Frontier v2.3.0 Server Pack**  
+# 🛠️ **Forge Frontier v2.3.1 Server Pack**  
 
-This **server pack** includes all the necessary files to **set up and run a dedicated server** for **Forge Frontier v2.3.0**. Whether you're hosting a private server for friends or launching a larger community, this package ensures a smooth multiplayer experience.  
+This **server pack** includes all the necessary files to **set up and run a dedicated server** for **Forge Frontier v2.3.1**. Whether you're hosting a private server for friends or launching a larger community, this package ensures a smooth multiplayer experience.  
 
 ### 🔹 **Need Help?**  
 If you encounter any issues during setup or gameplay, please reach out for assistance on our **[Discord](https://discord.gg/quenZthXgy)**. Our team and community are here to help—enjoy the update! 🚀  
