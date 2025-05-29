@@ -73,6 +73,11 @@ StartupEvents.registry('block', event => {
 StartupEvents.registry('item', event => {
 
     // Custom Template Casts
+    // Blank Sand Cast
+        event.create('tconstruct:blank_gold_cast')
+            .displayName('Blank Gold Cast')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/blank_gold_cast")
     // Sand Cast
         event.create('tconstruct:template_sand_cast')
             .displayName('Template Sand Cast')

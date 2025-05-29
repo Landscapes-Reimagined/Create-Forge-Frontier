@@ -38,6 +38,20 @@ ServerEvents.recipes(event => {
       heatRequirement: "superheated"
   }).id('forge_frontier:compacting/blank_red_sand_cast')
 
+  // Remove default gold cast recipes
+  const goldCastTypes = [
+    'ingots', 'nuggets', 'gems', 'rods', 'plates', 'wires',
+    'repair_kit', 'pick_head', 'small_axe_head', 'small_blade',
+    'adze_head', 'hammer_head', 'broad_axe_head', 'broad_blade',
+    'large_plate', 'tool_handle', 'tool_binding', 'tough_handle',
+    'tough_binding', 'bow_limb', 'bow_grip', 'helmet_plating',
+    'chestplate_plating', 'leggings_plating', 'boots_plating', 'maille'
+  ];
+
+  for (const type of goldCastTypes) {
+    event.remove({ id: `tconstruct:smeltery/casts/gold/${type}` });
+  }
+
       // Remove conflicting or redundant recipes for sand and red sand casts
         const sandTypes = ['sand', 'red_sand'];
 
@@ -140,6 +154,35 @@ ServerEvents.recipes(event => {
             ['forge:armor/boots_plating', 'tconstruct:blank_red_sand_cast', 'tconstruct:boots_plating_red_sand_cast', 'tconstruct:boots_plating_red_sand_cast', 'boots_plating_red_sand_cast'],
             ['forge:armor/maille', 'tconstruct:blank_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'maille_red_sand_cast'],
             ['forge:templates/smithing', 'tconstruct:blank_red_sand_cast', 'tconstruct:template_red_sand_cast', 'tconstruct:template_red_sand_cast', 'template_red_sand_cast'],
+
+            // Gold Cast Recipes
+            ['forge:ingots', 'tconstruct:blank_gold_cast', 'tconstruct:ingot_cast', 'tconstruct:ingot_cast', 'ingot_cast'],
+            ['forge:nuggets', 'tconstruct:blank_gold_cast', 'tconstruct:nugget_cast', 'tconstruct:nugget_cast', 'nugget_cast'],
+            ['forge:gems', 'tconstruct:blank_gold_cast', 'tconstruct:gem_cast', 'tconstruct:gem_cast', 'gem_cast'],
+            ['forge:rods', 'tconstruct:blank_gold_cast', 'tconstruct:rod_cast', 'tconstruct:rod_cast', 'rod_cast'],
+            ['forge:plates', 'tconstruct:blank_gold_cast', 'tconstruct:plate_cast', 'tconstruct:plate_cast', 'plate_cast'],
+            ['forge:wires', 'tconstruct:blank_gold_cast', 'tconstruct:wire_cast', 'tconstruct:wire_cast', 'wire_cast'],
+            ['forge:repair_kits', 'tconstruct:blank_gold_cast', 'tconstruct:repair_kit_cast', 'tconstruct:repair_kit_cast', 'repair_kit_cast'],
+            ['forge:pick_heads', 'tconstruct:blank_gold_cast', 'tconstruct:pick_head_cast', 'tconstruct:pick_head_cast', 'pick_head_cast'],
+            ['forge:axe_heads/small', 'tconstruct:blank_gold_cast', 'tconstruct:small_axe_head_cast', 'tconstruct:small_axe_head_cast', 'small_axe_head_cast'],
+            ['forge:blades/small', 'tconstruct:blank_gold_cast', 'tconstruct:small_blade_cast', 'tconstruct:small_blade_cast', 'small_blade_cast'],
+            ['forge:adze_heads', 'tconstruct:blank_gold_cast', 'tconstruct:adze_head_cast', 'tconstruct:adze_head_cast', 'adze_head_cast'],
+            ['forge:hammer_heads', 'tconstruct:blank_gold_cast', 'tconstruct:hammer_head_cast', 'tconstruct:hammer_head_cast', 'hammer_head_cast'],
+            ['forge:axe_heads/broad', 'tconstruct:blank_gold_cast', 'tconstruct:broad_axe_head_cast', 'tconstruct:broad_axe_head_cast', 'broad_axe_head_cast'],
+            ['forge:blades/broad', 'tconstruct:blank_gold_cast', 'tconstruct:broad_blade_cast', 'tconstruct:broad_blade_cast', 'broad_blade_cast'],
+            ['forge:plates/large', 'tconstruct:blank_gold_cast', 'tconstruct:large_plate_cast', 'tconstruct:large_plate_cast', 'large_plate_cast'],
+            ['forge:tool_handles', 'tconstruct:blank_gold_cast', 'tconstruct:tool_handle_cast', 'tconstruct:tool_handle_cast', 'tool_handle_cast'],
+            ['forge:tool_bindings', 'tconstruct:blank_gold_cast', 'tconstruct:tool_binding_cast', 'tconstruct:tool_binding_cast', 'tool_binding_cast'],
+            ['forge:tough_handles', 'tconstruct:blank_gold_cast', 'tconstruct:tough_handle_cast', 'tconstruct:tough_handle_cast', 'tough_handle_cast'],
+            ['forge:tough_bindings', 'tconstruct:blank_gold_cast', 'tconstruct:tough_binding_cast', 'tconstruct:tough_binding_cast', 'tough_binding_cast'],
+            ['forge:bow_limbs', 'tconstruct:blank_gold_cast', 'tconstruct:bow_limb_cast', 'tconstruct:bow_limb_cast', 'bow_limb_cast'],
+            ['forge:bow_grips', 'tconstruct:blank_gold_cast', 'tconstruct:bow_grip_cast', 'tconstruct:bow_grip_cast', 'bow_grip_cast'],
+            ['forge:armor/helmet_plating', 'tconstruct:blank_gold_cast', 'tconstruct:helmet_plating_cast', 'tconstruct:helmet_plating_cast', 'helmet_plating_cast'],
+            ['forge:armor/chestplate_plating', 'tconstruct:blank_gold_cast', 'tconstruct:chestplate_plating_cast', 'tconstruct:chestplate_plating_cast', 'chestplate_plating_cast'],
+            ['forge:armor/leggings_plating', 'tconstruct:blank_gold_cast', 'tconstruct:leggings_plating_cast', 'tconstruct:leggings_plating_cast', 'leggings_plating_cast'],
+            ['forge:armor/boots_plating', 'tconstruct:blank_gold_cast', 'tconstruct:boots_plating_cast', 'tconstruct:boots_plating_cast', 'boots_plating_cast'],
+            ['forge:armor/maille', 'tconstruct:blank_gold_cast', 'tconstruct:maille_cast', 'tconstruct:maille_cast', 'maille_cast'],
+            ['forge:templates/smithing', 'tconstruct:blank_gold_cast', 'tconstruct:template_cast', 'tconstruct:template_cast', 'template_cast'],
         ];
         
     sandCastingRecipes.forEach(([inputTag, ingredientItem, transitionalItem, resultItem, idSuffix]) => {
