@@ -629,6 +629,12 @@
 					type: "xp_levels"
 					xp_levels: 15
 				}
+				{
+					advancement: "minecraft:nether/netherite_armor"
+					criterion: ""
+					id: "2BE9562E0D0D4A70"
+					type: "advancement"
+				}
 			]
 			subtitle: "Master the Nether, and set your sights on the stars. Click me for more info!"
 			tasks: [

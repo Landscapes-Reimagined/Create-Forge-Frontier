@@ -1,4 +1,10 @@
 ServerEvents.tags("item", event => {
+    // Adds Missing Tags to Tinker's Stone Armor
+    event.add("forge:armor/helmet_plating", "tconstruct:helmet_plating_dummy")
+    event.add("forge:armor/chestplate_plating","tconstruct:chestplate_plating_dummy")
+    event.add("forge:armor/leggings_plating", "tconstruct:leggings_plating_dummy")
+    event.add("forge:armor/boots_plating", "tconstruct:boots_plating_dummy")
+    
     // Removes All Tag from Woopie Cushion
     event.remove("artifacts:slot/all", "artifacts:whoopee_cushion")
 
