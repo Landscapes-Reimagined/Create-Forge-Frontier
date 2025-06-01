@@ -89,7 +89,7 @@ element {
 
 element {
   interactable = true
-  source = v2.3.1
+  source = v2.3.2
   source_mode = direct
   shadow = true
   scale = 2.0
