@@ -1,6 +1,60 @@
 // Ad Astra Recipe Tweaks
 ServerEvents.recipes(event => {
 
+    // Stone Cuttinr Recipe for Plating Types
+        // Iron
+        event.remove({ id: 'ad_astra:iron_plating' })
+        event.custom({
+            type: "minecraft:stonecutting",
+            count: 8,
+            ingredient: {
+                item: "ad_astra:iron_plate"
+            },
+            result: "ad_astra:iron_plating"
+        })
+        // Steel
+        event.remove({ id: 'ad_astra:steel_plating' })
+        event.custom({
+            type: "minecraft:stonecutting",
+            count: 8,
+            ingredient: {
+                item: "ad_astra:steel_plate"
+            },
+            result: "ad_astra:steel_plating"
+        })
+        // Desh
+        event.remove({ id: 'ad_astra:desh_plating' })
+        event.custom({
+            type: "minecraft:stonecutting",
+            count: 8,
+            ingredient: {
+                item: "ad_astra:desh_plate"
+            },
+            result: "ad_astra:desh_plating"
+        })
+
+        // Ostrum
+        event.remove({ id: 'ad_astra:ostrum_plating' })
+        event.custom({
+            type: "minecraft:stonecutting",
+            count: 8,
+            ingredient: {
+                item: "ad_astra:ostrum_plate"
+            },
+            result: "ad_astra:ostrum_plating"
+        })
+
+        // Calorite
+        event.remove({ id: 'ad_astra:calorite_plating' })
+        event.custom({
+            type: "minecraft:stonecutting",
+            count: 8,
+            ingredient: {
+                item: "ad_astra:calorite_plate"
+            },
+            result: "ad_astra:calorite_plating"
+        })        
+
     // Recipe Removal
     event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
 
