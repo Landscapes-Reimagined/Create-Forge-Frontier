@@ -67,7 +67,6 @@
 			y: 21.5d
 		}
 		{
-			click: "#088C2263FA4E3A27"
 			height: 10.0d
 			image: "ftb:textures/tier_4_title.png"
 			rotation: 0.0d
@@ -84,7 +83,6 @@
 			y: 21.5d
 		}
 		{
-			click: "#7FEE2D38BA934C28"
 			height: 10.0d
 			image: "ftb:textures/tier_5_title.png"
 			rotation: 0.0d
