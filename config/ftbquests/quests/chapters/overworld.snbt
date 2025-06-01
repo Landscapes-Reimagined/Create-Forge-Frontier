@@ -592,7 +592,7 @@
 			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click me for more info!"
 			tasks: [{
 				id: "58D5FAE01CBFA872"
-				structure: "hopo:portal"
+				structure: "#minecraft:ruined_portal"
 				type: "structure"
 			}]
 			title: "Sealed in Stone"
