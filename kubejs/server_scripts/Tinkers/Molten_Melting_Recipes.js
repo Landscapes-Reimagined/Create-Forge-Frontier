@@ -1,6 +1,9 @@
 ServerEvents.recipes(event => {
   const meltingData = [
     // General Processing
+    ["forge_frontier:molten_etrium", 810, ["ad_astra:etrium_block"]],
+    ["forge_frontier:molten_etrium", 90, ["ad_astra:etrium_ingot"]],
+
     ["forge_frontier:molten_redstone", 810, ["minecraft:redstone_block"]],
     ["forge_frontier:molten_redstone", 90, ["minecraft:redstone"]],
     ["forge_frontier:molten_redstone", 540, ["#forge:ores/redstone"]],
@@ -95,7 +98,7 @@ ServerEvents.recipes(event => {
     ["forge_frontier:molten_echo_shard", 225, ["forge_frontier:crushed_resonite"]],
     ["tcintegrations:molten_desh", 225, ["forge_frontier:crushed_aubrum"]],
     ["tcintegrations:molten_calorite", 225, ["forge_frontier:crushed_pyroclast"]],
-    ["forge_frontier:molten_ice_shard", 225, ["forge_frontier:crushed_frostite"]],
+    ["forge_frontier:molten_etrium", 225, ["forge_frontier:crushed_frostite"]],
     ["tcintegrations:molten_ostrum", 225, ["forge_frontier:crushed_stellaris"]],
     ["forge_frontier:molten_irradium", 225, ["forge_frontier:crushed_radiantite"]],
     ["forge_frontier:molten_guano", 225, ["forge_frontier:crushed_guanite"]],
@@ -120,7 +123,7 @@ ServerEvents.recipes(event => {
     ["forge_frontier:molten_echo_shard", 180, ["forge_frontier:resonite"]],
     ["tcintegrations:molten_desh", 180, ["forge_frontier:aubrum"]],
     ["tcintegrations:molten_calorite", 180, ["forge_frontier:pyroclast"]],
-    ["forge_frontier:molten_ice_shard", 180, ["forge_frontier:frostite"]],
+    ["forge_frontier:molten_etrium", 180, ["forge_frontier:frostite"]],
     ["tcintegrations:molten_ostrum", 180, ["forge_frontier:stellaris"]],
     ["forge_frontier:molten_irradium", 180, ["forge_frontier:radiantite"]],
     ["forge_frontier:molten_guano", 180, ["forge_frontier:guanite"]],

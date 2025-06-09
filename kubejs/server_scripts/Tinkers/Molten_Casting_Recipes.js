@@ -5,6 +5,11 @@ ServerEvents.recipes(event => {
 // Molten Casting Recipes
   const moltenCastingData = [
     {
+      molten: 'forge_frontier:molten_etrium',
+      block: 'ad_astra:etrium_block',
+      ingot: 'ad_astra:etrium_ingot'
+    },
+    {
       molten: 'forge_frontier:molten_redstone',
       block: 'minecraft:redstone_block',
       ingot: 'minecraft:redstone'
@@ -118,7 +123,7 @@ ServerEvents.recipes(event => {
     if (entry.block) {
       event.custom({
         type: 'tconstruct:casting_basin',
-        fluid: { name: entry.molten, amount: 900 },
+        fluid: { name: entry.molten, amount: 810 },
         result: { item: entry.block },
         cooling_time: 180
       }).id(`forge_frontier:casting/${entry.block.replace(':', '_')}_from_molten`);
