@@ -22,6 +22,7 @@ StartupEvents.registry('fluid', event => {
         { name: 'amber', color: 0xc67513 },
         { name: 'sulfur', color: 0xfcf689 },
         { name: 'echo_shard', color: 0x03404f },
+        { name: 'etrium', color: 0xbafcf6 }
     ];
 
     // Function to create molten fluids
