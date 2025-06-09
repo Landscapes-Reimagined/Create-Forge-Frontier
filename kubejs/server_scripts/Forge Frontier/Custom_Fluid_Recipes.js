@@ -155,8 +155,10 @@
                         amount: 250
                     },
                     {
-                        fluid: 'create_dd:vanilla_milkshake',
-                        amount: 250
+                        item: 'neapolitan:dried_vanilla_pods',
+                    },
+                    {
+                        item: 'neapolitan:dried_vanilla_pods',
                     },
                     {
                         fluid: 'create_dd:chocolate_milkshake',
@@ -166,7 +168,7 @@
                 results: [
                     {
                         fluid: 'forge_frontier:neapolitan_milkshake',
-                        amount: 250
+                        amount: 750
                     }
                 ],
             }).id('forge_frontier:mixing/neapolitan_milkshake'); 

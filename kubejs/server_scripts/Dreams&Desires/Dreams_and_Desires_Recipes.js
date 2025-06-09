@@ -98,6 +98,9 @@ ServerEvents.recipes(event => {
 				item: 'neapolitan:dried_vanilla_pods',
 			},
 			{
+				item: 'neapolitan:dried_vanilla_pods',
+			},
+			{
 				fluidTag: 'forge:milk',
 				amount: 250
 			}
