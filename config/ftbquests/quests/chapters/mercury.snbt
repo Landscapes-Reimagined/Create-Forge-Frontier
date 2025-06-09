@@ -70,11 +70,18 @@
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4F05B719FF46DED2\" } }"
 			]
 			id: "767ED8F286B517B6"
-			rewards: [{
-				id: "099B9A1732F569A3"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "099B9A1732F569A3"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "2042748CE4E730F8"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+			]
 			subtitle: "Step onto the sun-scorched surface of Mercury—where survival is the only treasure you begin with. Click me for more info!"
 			tasks: [{
 				id: "148326B2EA153CFB"

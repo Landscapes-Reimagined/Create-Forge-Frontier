@@ -159,11 +159,6 @@
 					type: "item"
 				}
 				{
-					id: "3DB26C4444795EF2"
-					item: "adastradelight:glazed_rings_raptor"
-					type: "item"
-				}
-				{
 					id: "7D4E9D7B58EA8403"
 					type: "xp"
 					xp: 100
@@ -278,11 +273,6 @@
 					count: 16
 					id: "783C87F037601812"
 					item: "ad_astra:venus_stone_bricks"
-					type: "item"
-				}
-				{
-					id: "2FA28CFDA80013C4"
-					item: "adastradelight:strophar_mushroom_stew"
 					type: "item"
 				}
 				{

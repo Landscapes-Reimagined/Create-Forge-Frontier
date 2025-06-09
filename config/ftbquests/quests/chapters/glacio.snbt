@@ -73,18 +73,11 @@
 				"🧊 &oThe cold does not forgive the unprepared. Will you master the frost—or fall to its silence?&r"
 			]
 			id: "324219AF4569EA85"
-			rewards: [
-				{
-					id: "57CE41BE4608F32D"
-					item: "ae2:meteorite_compass"
-					type: "item"
-				}
-				{
-					id: "729A02690EC6D559"
-					item: "ad_astra:cryo_fuel_bucket"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "729A02690EC6D559"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
 			subtitle: "From burning storms to frozen silence—your next trial begins. Click me for more info!"
 			tasks: [{
 				id: "270EB929D00ED077"
@@ -115,11 +108,6 @@
 					count: 16
 					id: "16A9F2F74FD54A95"
 					item: "ad_astra:glacio_stone_bricks"
-					type: "item"
-				}
-				{
-					id: "0615420935E1BF25"
-					item: "adastradelight:ice_pie"
 					type: "item"
 				}
 				{
@@ -176,12 +164,6 @@
 					count: 8
 					id: "30D009130FDE6421"
 					item: "minecraft:blue_ice"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "197569BE5A345ADA"
-					item: "adastradelight:ice_cookie"
 					type: "item"
 				}
 				{
