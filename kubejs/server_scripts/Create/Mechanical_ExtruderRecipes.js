@@ -640,11 +640,11 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         type: 'create_mechanical_extruder:extruding',
         ingredients: [
           {
-            fluid: 'minecraft:water',
+            fluid: 'brewinandchewin:dread_nog',
             amount: 1000
           },
           {
-            fluid: 'minecraft:water',
+            fluid: 'minecraft:lava',
             amount: 1000
           }
         ],
