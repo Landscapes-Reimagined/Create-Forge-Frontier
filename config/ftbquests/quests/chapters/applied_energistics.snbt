@@ -3,8 +3,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics"
-	group: "0988E75337218F69"
-	icon: "ae2:certus_quartz_dust"
+	group: "37A1080736831E36"
+	icon: "ae2:controller"
 	id: "09122EB4ABF3FEBA"
 	images: [
 		{
@@ -24,7 +24,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [{
 		id: "3C1A865BF6781409"
@@ -38,5 +38,5 @@
 		x: 0.0d
 		y: -6.5d
 	}]
-	title: "Applied Energistics"
+	title: "Advanced Storage"
 }
