@@ -218,11 +218,6 @@
 			subtitle: "Click me for more info!"
 			tasks: [
 				{
-					id: "5FD1EB6EC1220E53"
-					structure: "create_easy_structures:house_1"
-					type: "structure"
-				}
-				{
 					id: "239BD626F467D55E"
 					structure: "create_easy_structures:house_2"
 					type: "structure"
