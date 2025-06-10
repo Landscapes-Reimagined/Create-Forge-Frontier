@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
         { name: 'crushed_resonite', input: 'forge_frontier:crushed_resonite', result: 'minecraft:echo_shard' },
         { name: 'crushed_aubrum', input: 'forge_frontier:crushed_aubrum', result: 'ad_astra:desh_ingot' },
         { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast', result: 'ad_astra:calorite_ingot' },
-        { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite', result: 'ad_astra:ice_shard' },
+        { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite', result: 'ad_astra:etrium_ingot' },
         { name: 'crushed_stellaris', input: 'forge_frontier:crushed_stellaris', result: 'ad_astra:ostrum_ingot' },
         { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite', result: 'enlightened_end:depleted_irradium_bar' },
         { name: 'crushed_shale', input: 'forge_frontier:crushed_shale', result: 'enlightened_end:malachite' },
@@ -51,7 +51,8 @@ ServerEvents.recipes(event => {
         { name: 'crushed_uraniumnite', input: 'forge_frontier:crushed_uraniumnite_pile', result: 'alexscaves:block_of_uranium' },
         { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite_pile', result: 'alexscaves:sulfur' },
         { name: 'crushed_debris', input: 'forge_frontier:crushed_debris_pile', result: 'minecraft:netherite_scrap', count: 9 },
-        { name: 'crushed_resonite', input: 'forge_frontier:crushed_resonite_pile', result: 'minecraft:echo_shard', count: 9 }
+        { name: 'crushed_resonite', input: 'forge_frontier:crushed_resonite_pile', result: 'minecraft:echo_shard', count: 9 },
+        { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite_pile', result: 'ad_astra:etrium_block'}
     ];
 
     // Loop to create the blasting pile recipes

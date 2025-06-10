@@ -56,8 +56,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_frostite',
             input: 'forge_frontier:crushed_frostite',
             results: [
-                { item: 'ad_astra:ice_shard' },
-                { chance: 0.50, item: 'ad_astra:ice_shard' }
+                { item: 'ad_astra:etrium_ingot' },
+                { chance: 0.50, item: 'ad_astra:etrium_ingot' }
             ]
         },
         {
@@ -216,8 +216,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_frostite',
             input: 'forge_frontier:crushed_frostite_pile',
             results: [
-                { item: 'ad_astra:ice_shard', count: 9 },
-                { chance: 0.50, item: 'ad_astra:ice_shard', count: 9 }
+                { item: 'ad_astra:etrium_block', count: 1 },
+                { chance: 0.50, item: 'ad_astra:etrium_block', count: 1 }
             ]
         },
         {
