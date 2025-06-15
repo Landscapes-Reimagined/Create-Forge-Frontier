@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_glacium',
             input: 'forge_frontier:crushed_glacium',
             results: [
-                { count: 4, item: 'create_dd:diamond_shard' }
+                { count: 4, item: 'create_dd:diamond_shard' },
+                { chance: 0.50, item: 'minecraft:amethyst_shard'}
             ]
         },
         {
@@ -141,7 +142,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_glacium',
             input: 'forge_frontier:crushed_glacium_pile',
             results: [
-                { count: 36, item: 'create_dd:diamond_shard' }
+                { count: 36, item: 'create_dd:diamond_shard' },
+                { count: 9, chance: 0.50, item: 'minecraft:amethyst_shard'}
             ]
         },
         {
