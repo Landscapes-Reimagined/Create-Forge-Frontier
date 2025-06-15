@@ -1,4 +1,118 @@
 ServerEvents.tags("item", event => {
+
+    // Sophisticated Storage Tier Tags
+        // Chests
+            // Basic
+            event.add("forge_frontier:sophisticated_chest_tier_0", 'sophisticatedstorage:chest')
+            // Copper
+            event.add("forge_frontier:sophisticated_chest_tier_1", 'sophisticatedstorage:copper_chest')
+            // Iron
+            event.add("forge_frontier:sophisticated_chest_tier_2", 'sophisticatedstorage:iron_chest')
+            // Gold
+            event.add("forge_frontier:sophisticated_chest_tier_3", 'sophisticatedstorage:gold_chest')
+            // Diamond
+            event.add("forge_frontier:sophisticated_chest_tier_4", 'sophisticatedstorage:diamond_chest')
+            // Netherite
+            event.add("forge_frontier:sophisticated_chest_tier_5", 'sophisticatedstorage:netherite_chest')
+
+        // Barrels
+            // Basic
+            event.add("forge_frontier:sophisticated_barrels_tier_0", 'sophisticatedstorage:barrel')
+            // Copper
+            event.add("forge_frontier:sophisticated_barrels_tier_1", 'sophisticatedstorage:copper_barrel')
+            // Iron
+            event.add("forge_frontier:sophisticated_barrels_tier_2", 'sophisticatedstorage:iron_barrel')
+            // Gold
+            event.add("forge_frontier:sophisticated_barrels_tier_3", 'sophisticatedstorage:gold_barrel')
+            // Diamond
+            event.add("forge_frontier:sophisticated_barrels_tier_4", 'sophisticatedstorage:diamond_barrel')
+            // Netherite
+            event.add("forge_frontier:sophisticated_barrels_tier_5", 'sophisticatedstorage:netherite_barrel')
+
+        // Barrels: Limited 1
+            // Basic
+            event.add("forge_frontier:sophisticated_limited_barrels_1_tier_0", 'sophisticatedstorage:limited_barrel_1')
+            // Copper
+            event.add("forge_frontier:sophisticated_limited_barrels_1_tier_1", 'sophisticatedstorage:limited_copper_barrel_1')
+            // Iron
+            event.add("forge_frontier:sophisticated_limited_barrels_1_tier_2", 'sophisticatedstorage:limited_iron_barrel_1')
+            // Gold
+            event.add("forge_frontier:sophisticated_limited_barrels_1_tier_3", 'sophisticatedstorage:limited_gold_barrel_1')
+            // Diamond
+            event.add("forge_frontier:sophisticated_limited_barrels_1_tier_4", 'sophisticatedstorage:limited_diamond_barrel_1')
+            // Netherite
+            event.add("forge_frontier:sophisticated_limited_barrels_1_tier_5", 'sophisticatedstorage:limited_netherite_barrel_1')
+
+        // Barrels: Limited 2
+            // Basic
+            event.add("forge_frontier:sophisticated_limited_barrels_2_tier_0", 'sophisticatedstorage:limited_barrel_2')
+            // Copper
+            event.add("forge_frontier:sophisticated_limited_barrels_2_tier_1", 'sophisticatedstorage:limited_copper_barrel_2')
+            // Iron
+            event.add("forge_frontier:sophisticated_limited_barrels_2_tier_2", 'sophisticatedstorage:limited_iron_barrel_2')
+            // Gold
+            event.add("forge_frontier:sophisticated_limited_barrels_2_tier_3", 'sophisticatedstorage:limited_gold_barrel_2')
+            // Diamond
+            event.add("forge_frontier:sophisticated_limited_barrels_2_tier_4", 'sophisticatedstorage:limited_diamond_barrel_2')
+            // Netherite
+            event.add("forge_frontier:sophisticated_limited_barrels_2_tier_5", 'sophisticatedstorage:limited_netherite_barrel_2')
+
+        // Barrels: Limited 3
+            // Basic
+            event.add("forge_frontier:sophisticated_limited_barrels_3_tier_0", 'sophisticatedstorage:limited_barrel_3')
+            // Copper
+            event.add("forge_frontier:sophisticated_limited_barrels_3_tier_1", 'sophisticatedstorage:limited_copper_barrel_3')
+            // Iron
+            event.add("forge_frontier:sophisticated_limited_barrels_3_tier_2", 'sophisticatedstorage:limited_iron_barrel_3')
+            // Gold
+            event.add("forge_frontier:sophisticated_limited_barrels_3_tier_3", 'sophisticatedstorage:limited_gold_barrel_3')
+            // Diamond
+            event.add("forge_frontier:sophisticated_limited_barrels_3_tier_4", 'sophisticatedstorage:limited_diamond_barrel_3')
+            // Netherite
+            event.add("forge_frontier:sophisticated_limited_barrels_3_tier_5", 'sophisticatedstorage:limited_netherite_barrel_3')
+
+        // Barrels: Limited 4
+            // Basic
+            event.add("forge_frontier:sophisticated_limited_barrels_4_tier_0", 'sophisticatedstorage:limited_barrel_4')
+            // Copper
+            event.add("forge_frontier:sophisticated_limited_barrels_4_tier_1", 'sophisticatedstorage:limited_copper_barrel_4')
+            // Iron
+            event.add("forge_frontier:sophisticated_limited_barrels_4_tier_2", 'sophisticatedstorage:limited_iron_barrel_4')
+            // Gold
+            event.add("forge_frontier:sophisticated_limited_barrels_4_tier_3", 'sophisticatedstorage:limited_gold_barrel_4')
+            // Diamond
+            event.add("forge_frontier:sophisticated_limited_barrels_4_tier_4", 'sophisticatedstorage:limited_diamond_barrel_4')
+            // Netherite
+            event.add("forge_frontier:sophisticated_limited_barrels_4_tier_5", 'sophisticatedstorage:limited_netherite_barrel_4')        
+
+        // Shulker Boxes
+            // Basic
+            event.add("forge_frontier:sophisticated_shulker_box_tier_0", 'sophisticatedstorage:shulker_box')
+            // Copper
+            event.add("forge_frontier:sophisticated_shulker_box_tier_1", 'sophisticatedstorage:copper_shulker_box')
+            // Iron
+            event.add("forge_frontier:sophisticated_shulker_box_tier_2", 'sophisticatedstorage:iron_shulker_box')
+            // Gold
+            event.add("forge_frontier:sophisticated_shulker_box_tier_3", 'sophisticatedstorage:gold_shulker_box')
+            // Diamond
+            event.add("forge_frontier:sophisticated_shulker_box_tier_4", 'sophisticatedstorage:diamond_shulker_box')
+            // Netherite
+            event.add("forge_frontier:sophisticated_shulker_box_tier_5", 'sophisticatedstorage:netherite_shulker_box')
+
+        // Backpacks
+            // Basic
+            event.add("forge_frontier:sophisticated_backpacks_tier_0", 'sophisticatedbackpacks:backpack')
+            // Copper
+            event.add("forge_frontier:sophisticated_backpacks_tier_1", 'sophisticatedstorage:copper_backpack')
+            // Iron
+            event.add("forge_frontier:sophisticated_backpacks_tier_2", 'sophisticatedstorage:iron_backpack')
+            // Gold
+            event.add("forge_frontier:sophisticated_backpacks_tier_3", 'sophisticatedstorage:gold_backpack')
+            // Diamond
+            event.add("forge_frontier:sophisticated_backpacks_tier_4", 'sophisticatedstorage:diamond_backpack')
+            // Netherite
+            event.add("forge_frontier:sophisticated_backpacks_tier_5", 'sophisticatedstorage:netherite_backpack')
+
     // Adds Missing Tags to Tinker's Stone Armor
     event.add("forge:armor/helmet_plating", "tconstruct:helmet_plating_dummy")
     event.add("forge:armor/chestplate_plating","tconstruct:chestplate_plating_dummy")
