@@ -1823,6 +1823,7 @@
 					xp: 25
 				}
 			]
+			secret: true
 			subtitle: "Filling Frenzy"
 			tasks: [{
 				id: "523EEEE81A63DE74"
@@ -1862,6 +1863,7 @@
 					xp: 50
 				}
 			]
+			secret: true
 			subtitle: "Factory Automation"
 			tasks: [
 				{

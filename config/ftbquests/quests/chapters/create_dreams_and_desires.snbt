@@ -544,7 +544,7 @@
 					xp: 25
 				}
 			]
-			subtitle: " The Workhorse of Progress"
+			subtitle: "The Workhorse of Progress"
 			tasks: [{
 				count: 4L
 				id: "6BBFF2A01CB8A34A"
@@ -779,12 +779,21 @@
 					xp: 50
 				}
 			]
-			subtitle: "  A Carbon Combination"
+			subtitle: "A Carbon Combination"
 			tasks: [{
+				icon: "create_dd:steel_ingot"
 				id: "7F5CBF9C0E23F0CD"
-				item: "create_dd:steel_ingot"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Obtain any Steel Ingot"
 				type: "item"
 			}]
+			title: "Steel"
 			x: 2.0d
 			y: -5.5d
 		}
@@ -1599,7 +1608,7 @@
 		{
 			dependencies: ["62BA4CBF94708FA5"]
 			description: [
-				"While they are not part of Dreams \\& Desires, in Create - Forge Frontier they are made from Hydraulic Casing to ensure their strength at high flow rates."
+				"While they are not part of Dreams \\& Desires, in Create - Forge Frontier Fluid Pipes are made from Hydraulic Casing to ensure their strength at high flow rates."
 				""
 				"Fluid Pipez are your best friend if you want a quick and easy way to transport fluid, at NO SU COST! All you need is a wrench to start transferring fluid."
 			]

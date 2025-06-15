@@ -1764,16 +1764,7 @@
 		}
 		{
 			dependencies: ["4AEB10D458279F94"]
-			description: [
-				"These are powerful item flow control tools, and incredibly useful once you understand them. The Smart Observer and Threshold Switch both look at the contents of inventories in front of them. The Threshold Switch will turn on or off based on the amount of items in the container it is facing that match the filter, whereas the Smart Observer simply tests for the presence of the item. Check the ponder or description for more information!"
-				""
-				"{@pagebreak}"
-				"&n&lRedstone Links&r&r"
-				""
-				"Redstone Links are Create's wireless redstone. They allow for transmission of redstone signals over long distances, receving and transmitting with the items set as frequencies. To change the transmitter into receive mode, Crouch and Use."
-				""
-				"Linked Transmittes act exactly the same as a Redstone Link set to transmit mode."
-			]
+			description: ["These are powerful item flow control tools, and incredibly useful once you understand them. The Smart Observer and Threshold Switch both look at the contents of inventories in front of them. The Threshold Switch will turn on or off based on the amount of items in the container it is facing that match the filter, whereas the Smart Observer simply tests for the presence of the item. Check the ponder or description for more information!"]
 			icon: "create:content_observer"
 			id: "7EA5E0382628C939"
 			rewards: [

@@ -8,35 +8,27 @@
 	id: "0CE6820F547BF2F4"
 	images: [
 		{
-			height: 10.0d
+			height: 3.0d
 			image: "ftb:textures/vanilla_storage_title.png"
 			rotation: 0.0d
-			width: 15.0d
+			width: 10.0d
 			x: 0.0d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			height: 10.0d
+			height: 3.0d
 			image: "ftb:textures/backpacks_title.png"
 			rotation: 0.0d
 			width: 15.0d
 			x: -12.0d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
-			height: 10.0d
+			height: 3.0d
 			image: "ftb:textures/soph_storage_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 12.0d
+			x: 12.5d
 			y: -7.5d
 		}
 	]
@@ -46,19 +38,28 @@
 		{
 			id: "183F457F923574A9"
 			shape: "gear"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
+				icon: "minecraft:chest"
 				id: "1F92B54A12C93EF6"
-				item: "minecraft:chest"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Obtain any Wooden Chest"
 				type: "item"
 			}]
+			title: "The Chest"
 			x: 0.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			id: "27E8DCC49097729D"
 			shape: "gear"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "26F1BF031613C210"
 				item: {
@@ -77,7 +78,7 @@
 		{
 			id: "5293F43761080FC7"
 			shape: "gear"
-			size: 3.0d
+			size: 2.0d
 			tasks: [{
 				id: "75FF1A32F2B6CE84"
 				item: "sophisticatedbackpacks:backpack"
