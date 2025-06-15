@@ -38,6 +38,7 @@ ServerEvents.recipes(event => {
         'netherite-emerald',
         'netherite-diamond',
         'star_infused_netherite',
+        'etrium',
         // New Compressed Create Blocks
         'cogwheel_block',
         'large_cogwheel_block',
@@ -64,6 +65,20 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Etrium Block
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: 'forge_frontier:compressed_etrium_1x'
+            }
+        ],
+        result: {
+            item: "ad_astra:etrium_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_etrium_block_1x')
+    
     // Cogwheel Block
     event.custom({
         type: 'minecraft:crafting_shapeless',
@@ -76,7 +91,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:cogwheel_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_cogwheel_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_cogwheel_block_1x')
 
     // Large Cogwheel Block
     event.custom({
@@ -90,7 +105,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:large_cogwheel_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_large_cogwheel_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_large_cogwheel_block_1x')
 
     // Belt Block
     event.custom({
@@ -104,7 +119,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:belt_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_belt_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_belt_block_1x')
 
     // Shaft Bundle
     event.custom({
@@ -132,7 +147,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:mechanism_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_mechanism_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_mechanism_block_1x')
 
     // Rose Quartz Crystal Block
     event.custom({
@@ -146,7 +161,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:rose_quartz_crystal_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_rose_quartz_crystal_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_rose_quartz_crystal_block_1x')
 
     // Rose Quartz Polished Block
     event.custom({
@@ -160,7 +175,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:rose_quartz_polished_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_rose_quartz_polished_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_rose_quartz_polished_block_1x')
 
     // Copper Sheet Block
     event.custom({
@@ -174,7 +189,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:copper_sheet_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_copper_sheet_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_copper_sheet_block_1x')
 
     // Iron Sheet Block
     event.custom({
@@ -188,7 +203,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:iron_sheet_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_iron_sheet_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_iron_sheet_block_1x')
 
     // Golden Sheet Block
     event.custom({
@@ -202,7 +217,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:gold_sheet_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_golden_sheet_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_golden_sheet_block_1x')
 
     // Brass Sheet Block
     event.custom({
@@ -216,7 +231,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:brass_sheet_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_brass_sheet_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_brass_sheet_block_1x')
 
     // Sturdy Sheet Block
     event.custom({
@@ -230,7 +245,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:sturdy_sheet_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_sturdy_sheet_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_sturdy_sheet_block_1x')
 
     // Pulp Block
     event.custom({
@@ -244,7 +259,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:pulp_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_pulp_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_pulp_block_1x')
 
     // Wheat Flour Pile
     event.custom({
@@ -272,7 +287,7 @@ ServerEvents.recipes(event => {
             item: 'create_compressed:dough_block',
             count: 9
         }
-    }).id('forge_frontier:shapeless/compressed_dough_block_block_1x')
+    }).id('forge_frontier:shapeless/compressed_dough_block_1x')
 
     // Cinder Flour Pile
     event.custom({

@@ -37,6 +37,7 @@ ServerEvents.recipes(event => {
         'netherite-emerald',
         'netherite-diamond',
         'star_infused_netherite',
+        'etrium',
         // New Compressed Create Blocks
         'cogwheel_block',
         'large_cogwheel_block',
@@ -63,6 +64,20 @@ ServerEvents.recipes(event => {
         }
     });
 // Creates 1x Shaped Recipes
+
+    // Etrium Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_etrium_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "ad_astra:etrium_block"
+        }
+    ).id('forge_frontier:shaped/etrium_block_1x');
+
     // Cogwheel Block
     event.shaped(
         Item.of('forge_frontier:compressed_cogwheel_block_1x'),
