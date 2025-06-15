@@ -562,7 +562,7 @@ ServerEvents.recipes(event => {
             ],
             key: {
                 X: Ingredient.of("createcompression:compressed_experience_4x"),
-                A: Ingredient.of("forge_frontier:compressed_shaft_bundle_4x"),
+                A: Ingredient.of("forge_frontier:compressed_etrium_4x"),
                 M: Ingredient.of("forge_frontier:compressed_malachite_4x"),
                 I: Ingredient.of("forge_frontier:compressed_irradium_4x"),
                 B: Ingredient.of("forge_frontier:compressed_bismuth_4x"),
@@ -580,7 +580,7 @@ ServerEvents.recipes(event => {
                 i: Ingredient.of("forge_frontier:compressed_industrial_iron_4x"),
                 V: Ingredient.of("forge_frontier:compressed_mechanism_block_4x"),
                 n: Ingredient.of("forge_frontier:compressed_netherite-diamond_4x"),
-                E: Ingredient.of("forge_frontier:compressed_ethium_1x"),
+                E: Ingredient.of("forge_frontier:compressed_ethium_3x"),
             },
             result: Ingredient.of("forge_frontier:forge_alloy"),
             acceptMirrored: false
