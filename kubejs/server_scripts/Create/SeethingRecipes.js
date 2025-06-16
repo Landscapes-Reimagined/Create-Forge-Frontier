@@ -7,11 +7,6 @@ ServerEvents.recipes(event => {
             output: "enlightened_end:irradium_bar"
         },
         {
-            name: "polished_amethyst",
-            input: "minecraft:amethyst_shard",
-            output: "createutilities:polished_amethyst"
-        },
-        {
             name: "flint_shard",
             input: "minecraft:flint",
             output: "create_aquatic_ambitions:flint_shard"
@@ -55,26 +50,7 @@ ServerEvents.recipes(event => {
         }).id(`forge_frontier:seething/${recipe.name}`);
     });
 
-// Ore Seething Recipes
-    // Crushed Lead Pile
-    event.custom({
-        type: "create_dd:superheating",
-        ingredients: [
-            {
-                item: 'create_compressed:crushed_lead_pile'
-            }
-        ],
-        results: [
-            {
-                item: 'createnuclear:lead_block'
-            },
-            {
-                chance: 0.60,
-                item: 'createnuclear:lead_block'
-            }
-        ]
-    }).id('forge_frontier:seething/crushed_lead_pile')    
-
+// Ore Seething Recipes 
     // Crushed Bismuth Pile
     event.custom({
         type: "create_dd:superheating",
