@@ -1,5 +1,57 @@
 	ServerEvents.recipes(event => 
         {
+            // Egg Grog
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        fluidTag: 'forge:milk',
+                        amount: 1000
+                    }, 
+                    {
+                        tag: 'forge:eggs'
+                    },
+                    {
+                        tag: 'forge:crops/cabbage'
+                    },
+                    {
+                        item: 'minecraft:sugar'
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'brewinandchewin:egg_grog',
+                        amount: 1000
+                    }
+                ],
+            }).id('forge_frontier:mixing/egg_grog');
+
+            // Dread Nog
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        fluid: 'brewinandchewin:egg_grog',
+                        amount: 1000
+                    }, 
+                    {
+                        item: 'minecraft:nether_wart'
+                    },
+                    {
+                        item: 'minecraft:turtle_egg'
+                    },
+                    {
+                        item: 'minecraft:fermented_spider_eye'
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'brewinandchewin:dread_nog',
+                        amount: 1000
+                    }
+                ],
+            }).id('forge_frontier:mixing/dread_nog');
+
             // Lime Juice Recipe
             event.custom({
                 type: 'create:compacting',
