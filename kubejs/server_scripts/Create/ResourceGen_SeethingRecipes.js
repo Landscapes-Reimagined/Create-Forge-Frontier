@@ -144,8 +144,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_sulphite',
             input: 'forge_frontier:crushed_sulphite',
             results: [
-                { chance: 0.25, item: 'alexscaves:sulfur_dust' },
-                { chance: 0.15, item: 'alexscaves:sulfur_dust' }
+                { item: 'alexscaves:sulfur_dust' },
+                { chance: 0.50, item: 'alexscaves:sulfur_dust' }
             ]
         }
     ];
@@ -264,8 +264,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_pearlyte',
             input: 'forge_frontier:crushed_pearlyte_pile',
             results: [
-                { item: 'alexscaves:pearl_block', count: 1 },
-                { chance: 0.50, item: 'alexscaves:pearl_block', count: 1 }
+                { item: 'alexscaves:block_of_pearl', count: 1 },
+                { chance: 0.50, item: 'alexscaves:block_of_pearl', count: 1 }
             ]
         },
         {
