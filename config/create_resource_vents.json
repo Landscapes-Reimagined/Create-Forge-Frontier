@@ -9,7 +9,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:cream"
       ]
     },
     {
@@ -21,7 +21,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:caramel_milkshake"
       ]
     },
     {
@@ -33,7 +33,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:strawberry_milkshake"
       ]
     },
     {
@@ -45,7 +45,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:glowberry_milkshake"
       ]
     },
     {
@@ -57,7 +57,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:hot_chocolate"
       ]
     },
     {
@@ -69,7 +69,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:chocolate_milkshake"
       ]
     },
     {
@@ -81,7 +81,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_dd:vanilla_milkshake"
       ]
     },
         {
@@ -93,7 +93,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_confectionery:white_chocolate"
       ]
     },
     
@@ -106,7 +106,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_confectionery:black_chocolate"
       ]
     },
     
@@ -119,7 +119,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "forge_frontier:neapolitan_milkshake"
       ]
     },
     
@@ -132,7 +132,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "ad_astra:cryo_fuel"
       ]
     },
     
@@ -145,7 +145,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "forge_frontier:cheese"
       ]
     },
     
@@ -158,7 +158,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "forge_frontier:pomegranate_milkshake"
       ]
     },
     
@@ -171,7 +171,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "forge_frontier:adzuki_milkshake"
       ]
     },
     
@@ -184,7 +184,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "brewinandchewin:dread_nog"
       ]
     },
     
@@ -197,7 +197,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_confectionery:ruby_chocolate"
       ]
     },
     
@@ -210,7 +210,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_confectionery:ruby_chocolate"
       ]
     },
     
@@ -223,7 +223,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "create_confectionery:ruby_chocolate"
       ]
     },
     
@@ -236,7 +236,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "minecraft:water"
       ]
     },
     
@@ -249,7 +249,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:water"
+        "create:honey"
       ]
     },
     
@@ -262,7 +262,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "sliceanddice:fertilizer"
       ]
     },
     
@@ -275,7 +275,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "tconstruct:molten_iron"
       ]
     },
     
@@ -288,7 +288,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "tconstruct:molten_iron"
       ]
     },
     
@@ -301,7 +301,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "alexscaves:acid"
       ]
     },
     
@@ -315,7 +315,7 @@
         }
       ],
       "reactantFluids": [
-        "minecraft:lava"
+        "alexscaves:acid"
       ]
     }
   ]
