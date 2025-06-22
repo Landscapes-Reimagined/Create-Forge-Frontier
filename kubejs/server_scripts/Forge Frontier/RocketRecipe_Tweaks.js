@@ -572,7 +572,7 @@ ServerEvents.recipes(event => {
                 S: Ingredient.of("forge_frontier:compressed_scarlet_neodymium_4x"),
                 N: Ingredient.of("forge_frontier:compressed_azure_neodymium_4x"),
                 U: Ingredient.of("forge_frontier:compressed_uranium_4x"),
-                a: Ingredient.of("forge_frontier:compressed_amber_4x"),
+                a: Ingredient.of("forge_frontier:compressed_amber_5x"),
                 s: Ingredient.of("forge_frontier:compressed_sulfur_4x"),
                 P: Ingredient.of("forge_frontier:compressed_pearl_4x"),
                 G: Ingredient.of("forge_frontier:compressed_guano_4x"),
