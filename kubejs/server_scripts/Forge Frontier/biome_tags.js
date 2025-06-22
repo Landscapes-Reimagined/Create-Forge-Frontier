@@ -1,6 +1,15 @@
 ServerEvents.tags('worldgen/biome', event => {
 
   // New Additions
+
+  // Regions Unexplored Nether
+  event.add('forge_frontier:regions_unexplored_nether', [
+    'regions_unexplored:mycotoxic_undergrowth',
+    'regions_unexplored:blackstone_basin',
+    'regions_unexplored:infernal_holt',
+    'regions_unexplored:glistering_meadow',
+    'regions_unexplored:redstone_abyss'
+  ])
   
   // Ad Astra Ore Vein Biome Linkage
   event.add('forge_frontier:moon_ore_veins', 'ad_astra:lunar_wastelands');
