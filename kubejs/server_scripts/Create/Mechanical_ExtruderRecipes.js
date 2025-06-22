@@ -130,7 +130,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_crimsite'
+          item: 'create_resource_vents:active_crimsite_vent'
         },
         result: {
           item: 'create:crimsite'
@@ -205,7 +205,6 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
         result: {
           item: 'minecraft:calcite'
         },
-        requiredBonks: 2
       }).id('forge_frontier:extruding/calcite')
 
       // Scoria
@@ -226,7 +225,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_scoria'
+          item: 'create_resource_vents:active_scoria_vent'
         },
         result: {
           item: 'create:scoria'
@@ -249,7 +248,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_scorchia'
+          item: 'create_resource_vents:active_scorchia_vent'
         },
         result: {
           item: 'create:scorchia'
@@ -294,7 +293,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_potassic'
+          item: 'create_resource_vents:active_potassic_vent'
         },
         result: {
           item: 'create_dd:potassic'
@@ -317,7 +316,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_asurine'
+          item: 'create_resource_vents:active_asurine_vent'
         },
         result: {
           item: 'create:asurine'
@@ -340,7 +339,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_ochrum'
+          item: 'create_resource_vents:active_ochrum_vent'
         },
         result: {
           item: 'create:ochrum'
@@ -385,7 +384,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_veridium'
+          item: 'create_resource_vents:active_veridium_vent'
         },
         result: {
           item: 'create:veridium'
@@ -517,7 +516,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_verdantine'
+          item: 'create_resource_vents:active_verdantine_vent'
         },
         result: {
           item: 'forge_frontier:verdantine'
@@ -539,7 +538,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_glacium'
+          item: 'create_resource_vents:active_glacium_vent'
         },
         result: {
           item: 'forge_frontier:glacium'
@@ -561,7 +560,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_ancient_debris'
+          item: 'create_resource_vents:active_ancient_debris_vent'
         },
         result: {
           item: 'minecraft:ancient_debris'
@@ -583,7 +582,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_resonite'
+          item: 'create_resource_vents:active_resonite_vent'
         },
         result: {
           item: 'forge_frontier:resonite'
@@ -605,7 +604,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_aubrum'
+          item: 'create_resource_vents:active_aubrum_vent'
         },
         result: {
           item: 'forge_frontier:aubrum'
@@ -627,7 +626,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_pyroclast'
+          item: 'create_resource_vents:active_pyroclast_vent'
         },
         result: {
           item: 'forge_frontier:pyroclast'
@@ -649,7 +648,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_frostite'
+          item: 'create_resource_vents:active_frostite_vent'
         },
         result: {
           item: 'forge_frontier:frostite'
@@ -671,7 +670,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_stellaris'
+          item: 'create_resource_vents:active_stellaris_vent'
         },
         result: {
           item: 'forge_frontier:stellaris'
@@ -693,7 +692,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_radiantite'
+          item: 'create_resource_vents:active_radiantite_vent'
         },
         result: {
           item: 'forge_frontier:radiantite'
@@ -715,7 +714,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_void_shale'
+          item: 'create_resource_vents:active_void_shale_vent'
         },
         result: {
           item: 'enlightened_end:void_shale'
@@ -737,7 +736,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_palerock'
+          item: 'create_resource_vents:active_palerock_vent'
         },
         result: {
           item: 'enlightened_end:palerock'
@@ -759,7 +758,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_guanite'
+          item: 'create_resource_vents:active_guanite_vent'
         },
         result: {
           item: 'forge_frontier:guanite'
@@ -781,7 +780,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_pearlyte'
+          item: 'create_resource_vents:active_pearlyte_vent'
         },
         result: {
           item: 'forge_frontier:pearlyte'
@@ -803,7 +802,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_amberlite'
+          item: 'create_resource_vents:active_amberlite_vent'
         },
         result: {
           item: 'forge_frontier:amberlite'
@@ -825,7 +824,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_azurnium'
+          item: 'create_resource_vents:active_azurnium_vent'
         },
         result: {
           item: 'forge_frontier:azurnium'
@@ -847,7 +846,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_neodymrium'
+          item: 'create_resource_vents:active_neodymrium_vent'
         },
         result: {
           item: 'forge_frontier:neodymrium'
@@ -869,7 +868,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_uraniumnite'
+          item: 'create_resource_vents:active_uraniumnite_vent'
         },
         result: {
           item: 'forge_frontier:uraniumnite'
@@ -891,7 +890,7 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           }
         ],
         catalyst: {
-          item: 'molten_vents:active_molten_sulphite'
+          item: 'create_resource_vents:active_sulphite_vent'
         },
         result: {
           item: 'forge_frontier:sulphite'
