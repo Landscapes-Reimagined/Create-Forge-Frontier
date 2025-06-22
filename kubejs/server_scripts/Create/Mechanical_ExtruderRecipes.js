@@ -896,5 +896,27 @@ event.remove({ id: 'create_mechanical_extruder:crafting/mechanical_extruder'})
           item: 'forge_frontier:sulphite'
         },
         
-      }).id('forge_frontier:extruding/sulphite')  
+      }).id('forge_frontier:extruding/sulphite')
+
+      // Lost Debris
+      event.custom({
+        type: 'create_mechanical_extruder:extruding',
+        ingredients: [
+          {
+            fluid: 'createfood:chorus_fruit_pie_filling',
+            amount: 1000
+          },
+          {
+            fluid: 'minecraft:lava',
+            amount: 1000
+          }
+        ],
+        catalyst: {
+          item: 'create_resource_vents:active_lost_debris_vent'
+        },
+        result: {
+          item: 'create_ethium:lost_debris'
+        },
+        
+      }).id('forge_frontier:extruding/lost_debris')    
   })

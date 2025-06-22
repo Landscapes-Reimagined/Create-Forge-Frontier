@@ -1,4 +1,7 @@
 {
+ "block.create_resource_vents.dormant_lost_debris_vent": "Dormant Lost Debris Vent",
+ "block.create_resource_vents.active_lost_debris_vent": "Active Lost Debris Vent",
+
  "block.create_resource_vents.dormant_resonite_vent": "Dormant Resonite Vent",
  "block.create_resource_vents.active_resonite_vent": "Active Resonite Vent",
 

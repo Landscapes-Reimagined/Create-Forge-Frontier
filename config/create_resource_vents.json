@@ -317,6 +317,18 @@
       "reactantFluids": [
         "alexscaves:acid"
       ]
+    },
+    {
+      "name": "lost_debris",
+      "generatedBlocks": [
+        {
+          "id": "create_ethium:lost_debris",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "createfood:chorus_fruit_pie_filling"
+      ]
     }
   ]
 }
