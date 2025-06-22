@@ -1,5 +1,5 @@
 {
-  "feature": "create_resource_vents:amberlite_vent",
+  "feature": "create_resource_vents:resonite_vent",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -7,8 +7,8 @@
     },
     {
       "type": "create_resource_vents:biome_switch",
-      "biome": ["alexscaves:primordial_caves"],
-      "biomeTag": "minecraft:is_nether",
+      "biome": [],
+      "biomeTag": "forge_frontier:deeper_darker_vein",
       "true": [
         {
           "type": "minecraft:count_on_every_layer",

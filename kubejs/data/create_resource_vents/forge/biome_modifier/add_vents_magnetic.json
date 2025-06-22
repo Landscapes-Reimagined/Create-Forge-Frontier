@@ -1,7 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "terralith:scarlet_mountains",
+  "biomes": "alexscaves:magnetic_caves",
   "features": [
+    "create_resource_vents:placed_neodymrium_vent",
+    "create_resource_vents:placed_azurnium_vent"
   ],
   "step": "vegetal_decoration"
 }

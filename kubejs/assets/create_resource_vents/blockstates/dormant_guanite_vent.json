@@ -1,6 +1,6 @@
 {
   "variants": {
-  "textures": {
+  "": {
     "model": "create_resource_vents:block/dormant_guanite_vent"
     }
   }

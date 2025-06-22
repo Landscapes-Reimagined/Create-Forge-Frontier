@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "regions_unexplored:tropics",
+  "biomes": "alexscaves:primordial_caves",
   "features": [
     "create_resource_vents:placed_amberlite_vent"
   ],

@@ -1,5 +1,5 @@
 {
-  "feature": "create_resource_vents:amberlite_vent",
+  "feature": "create_resource_vents:scoria_vent",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -7,7 +7,7 @@
     },
     {
       "type": "create_resource_vents:biome_switch",
-      "biome": ["alexscaves:primordial_caves"],
+      "biome": [],
       "biomeTag": "minecraft:is_nether",
       "true": [
         {

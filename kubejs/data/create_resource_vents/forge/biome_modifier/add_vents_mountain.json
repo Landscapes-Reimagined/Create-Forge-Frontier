@@ -3,7 +3,9 @@
   "biomes": "#minecraft:is_mountain",
   "biome_blacklist": "terralith:scarlet_mountains",
   "features": [
-    "create_resource_vents:placed_scoria_vent"
+    "create_resource_vents:placed_scoria_vent",
+    "create_resource_vents:placed_glacium_vent",
+    "create_resource_vents:placed_verdantine_vent"
   ],
   "step": "vegetal_decoration"
 }

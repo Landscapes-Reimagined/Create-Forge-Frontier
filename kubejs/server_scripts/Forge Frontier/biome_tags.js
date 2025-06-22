@@ -8,7 +8,10 @@ ServerEvents.tags('worldgen/biome', event => {
   event.add('forge_frontier:glacio_ore_veins', 'ad_astra:glacio_snowy_barrens');
 
   // Otherside Vein Biome Linkage
-  event.add('forge_frontier:deeper_darker_vein', 'deeperdarker:deeplands')
+  event.add('forge_frontier:deeper_darker_vein', [
+    'deeperdarker:deeplands',
+    'deeperdarker:echoing_forest'
+  ])
 
   // Alex's Caves Vein to Biome Linkage
   event.add('forge_frontier:toxic_vein', 'alexscaves:toxic_caves');

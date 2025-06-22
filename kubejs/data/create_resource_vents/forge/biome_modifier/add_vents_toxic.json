@@ -1,7 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "regions_unexplored:ashen_woodland",
+  "biomes": "alexscaves:toxic_caves",
   "features": [
+    "create_resource_vents:placed_neodymrium_vent",
+    "create_resource_vents:placed_sulphite_vent"
   ],
   "step": "vegetal_decoration"
 }

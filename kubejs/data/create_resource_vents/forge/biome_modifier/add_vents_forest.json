@@ -1,9 +1,9 @@
 {
   "type": "forge:add_features",
   "biomes": "#minecraft:is_forest",
-  "biome_blacklist": "regions_unexplored:ashen_woodland",
   "features": [
-    "create_resource_vents:placed_asurine_vent"
+    "create_resource_vents:placed_asurine_vent",
+    "create_resource_vents:placed_potassic_vent"
   ],
   "step": "vegetal_decoration"
 }

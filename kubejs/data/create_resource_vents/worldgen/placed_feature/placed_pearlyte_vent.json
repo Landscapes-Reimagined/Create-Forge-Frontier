@@ -1,5 +1,5 @@
 {
-  "feature": "create_resource_vents:amberlite_vent",
+  "feature": "create_resource_vents:pearlyte_vent",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
@@ -7,7 +7,7 @@
     },
     {
       "type": "create_resource_vents:biome_switch",
-      "biome": ["alexscaves:primordial_caves"],
+      "biome": [],
       "biomeTag": "minecraft:is_nether",
       "true": [
         {
@@ -39,7 +39,7 @@
       "false": [
         {
           "type": "create_resource_vents:biome_switch",
-          "biomeTag": "minecraft:is_ocean",
+          "biomeTag": "alexscaves:abyssal_chasm",
           "true": [
             {
               "type": "minecraft:heightmap",

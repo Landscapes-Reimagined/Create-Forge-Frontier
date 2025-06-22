@@ -1,8 +1,7 @@
 {
   "type": "forge:add_features",
-  "biomes": "#incendium:all_incendium_biomes",
+  "biomes": "#minecraft:is_nether",
   "features": [
-    "create_resource_vents:placed_scorchia_vent"
   ],
-  "step": "vegetal_decoration"
+  "step": "underground_decoration"
 }
