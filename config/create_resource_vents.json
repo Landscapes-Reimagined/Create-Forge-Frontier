@@ -1,0 +1,322 @@
+{
+  "vents": [
+    {
+      "name": "asurine",
+      "generatedBlocks": [
+        {
+          "id": "create:asurine",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "name": "veridium",
+      "generatedBlocks": [
+        {
+          "id": "create:veridium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "name": "crimsite",
+      "generatedBlocks": [
+        {
+          "id": "create:crimsite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "name": "ochrum",
+      "generatedBlocks": [
+        {
+          "id": "create:ochrum",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "name": "scorchia",
+      "generatedBlocks": [
+        {
+          "id": "create:scorchia",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "name": "scoria",
+      "generatedBlocks": [
+        {
+          "id": "create:scoria",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    {
+      "name": "potassic",
+      "generatedBlocks": [
+        {
+          "id": "create_dd:potassic",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+        {
+      "name": "verdantine",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:verdantine",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "glacium",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:glacium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "ancient_debris",
+      "generatedBlocks": [
+        {
+          "id": "minecraft:ancient_debris",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "resonite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:resonite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "aubrum",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:aubrum",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "stellaris",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:stellaris",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "pyroclast",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:pyroclast",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "frostite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:frostite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "radiantite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:radiantite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "void_shale",
+      "generatedBlocks": [
+        {
+          "id": "enlightened_end:void_shale",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "palerock",
+      "generatedBlocks": [
+        {
+          "id": "enlightened_end:palerock",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "pearlyte",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:pearlyte",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "amberlite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:amberlite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:water"
+      ]
+    },
+    
+        {
+      "name": "guanite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:guanite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "neodymrium",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:neodymrium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "azurnium",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:azurnium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+        {
+      "name": "uraniumnite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:uraniumnite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    },
+    
+    
+        {
+      "name": "sulphite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:sulphite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:lava"
+      ]
+    }
+  ]
+}
