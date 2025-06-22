@@ -71,8 +71,6 @@
 			description: [
 				"Beneath the Nether’s scorched skies and crimson stone lies an ancient secret—&lMolten Vents&r of unimaginable power. Two such marvels—&4Scorchia&r and &8Ancient Debris&r vents—await discovery by those brave enough to tread the Nether’s perilous heights."
 				""
-				"These vents don’t follow the rules of the Overworld. Due to the volatile nature of this dimension, they &lspawn exclusively on the Nether Roof&r—a compromise made to stabilize their immense energy within the world’s limits."
-				""
 				"{@pagebreak}"
 				""
 				"Once found, these vents hold the key to automating two of the most valuable resources:"
@@ -113,7 +111,7 @@
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Hidden high above the shadowed terrain of the &5Otherside&r lies a marvel unlike any other—&lthe Resonite Vent&r. Perched on the roof of this mysterious dimension, this rare molten vent thrums with &omysterious energy&r and &buntapped potential&r."
+				"Hidden high above the shadowed terrain of the &5Otherside&r lies a marvel unlike any other—&lthe Resonite Vent&r. This rare molten vent thrums with &omysterious energy&r and &buntapped potential&r."
 				""
 				"&lResonite&r is a resource like no other, vital for &ladvanced crafting&r and &6late-game progression&r. But claiming it won’t be easy. Navigating the Otherside's eerie depths is dangerous enough—but scaling to its uppermost reaches? That’s a challenge worthy of only the boldest adventurers."
 				""
@@ -1292,11 +1290,11 @@
 				id: "6FD8F60FF72264DF"
 				type: "biome"
 			}]
-			x: -5.25d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["0BE45E37D29D38DC"]
+			dependencies: ["1D555802C5CA375A"]
 			description: [
 				"Hidden in the blazing depths of the Nether, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
 				""
@@ -1462,7 +1460,7 @@
 				xp: 10
 			}]
 			tasks: [{
-				biome: "deeperdarker:deeplands"
+				biome: "#forge_frontier:deeper_darker_vein"
 				id: "6A40E9C1B431A726"
 				type: "biome"
 			}]
@@ -1803,7 +1801,7 @@
 		{
 			dependencies: ["12C5A144E9E919A0"]
 			description: [
-				"Hidden beneath the frostbitten crust of &bGlacio&r lies the &bFrostite Vent&r—a rare frozen geyser vital to powering &9Ice Shard&r production. Its crystalline surface pulses with dormant energy, waiting for a spark to awaken its true potential."
+				"Hidden beneath the frostbitten crust of &bGlacio&r lies the &bFrostite Vent&r—a rare frozen geyser vital to powering &9Etrium&r production. Its crystalline surface pulses with dormant energy, waiting for a spark to awaken its true potential."
 				""
 				"{image:ftb:textures/frostite_vent.png width:226 height:150 align:center}"
 				""
@@ -1844,7 +1842,7 @@
 				item: "minecraft:blue_ice"
 				type: "item"
 			}]
-			subtitle: "Frostite can be later crushed down to produce Ice shards and processed down to Blue Ice"
+			subtitle: "Frostite can be later crushed down to produce Etrium and processed down to ice shards"
 			tasks: [
 				{
 					id: "332E5DA103DF9122"
@@ -2602,19 +2600,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["77EB3AE60F0E8FEA"]
-			id: "3766F65079B7D5AA"
-			subtitle: "This Quest is a placeholder for the future planned Lost Debris Vent"
-			tasks: [{
-				id: "0788D6262C38779A"
-				title: "Check"
-				type: "checkmark"
-			}]
-			title: "Lost Debris Vent Placeholder"
-			x: 20.0d
-			y: 3.0d
-		}
-		{
 			dependencies: [
 				"6BF481A48C136085"
 				"061D64DE3F96B2F8"
@@ -2992,6 +2977,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5B45F6B48A81E380"
+			rewards: [{
+				id: "13C190173FE94CC8"
+				item: "ad_astra:calorite_block"
+				type: "item"
+			}]
 			subtitle: "Molten Power for Pyroclast Automation. Click me for more info!"
 			tasks: [{
 				id: "3B1D40C533799EDB"
@@ -3024,6 +3014,11 @@
 			]
 			hide_dependency_lines: true
 			id: "1B5FB4BFC3366093"
+			rewards: [{
+				id: "41CCA2D68B774410"
+				item: "ad_astra:ostrum_block"
+				type: "item"
+			}]
 			subtitle: "Igniting the Path to Ostrum"
 			tasks: [{
 				id: "7AC498FDC5FAD53D"
@@ -3060,6 +3055,11 @@
 				"&lFrom citrus to circuitry&r—Cheese turns your dairy dreams into lunar Desh dominance. 🧀🚀"
 			]
 			id: "4DA4B3B5EC216D1B"
+			rewards: [{
+				id: "481FFFD896B79362"
+				item: "ad_astra:desh_block"
+				type: "item"
+			}]
 			subtitle: "Tangy Tech for Aubrum Automation. Click me for more info!"
 			tasks: [{
 				id: "694CD9FA6E894B02"
@@ -3072,13 +3072,34 @@
 		}
 		{
 			dependencies: ["350F1E84CF8BB524"]
+			description: [
+				"&dDread Nog&r is the &ochilled infusion&r required to activate the &bFrostite Vent&r and kickstart &dEtrium&r and &bIce Shard&r automation using &lmechanical extruders&r. Crafted through a &ltwo-step brewing process&r, this frozen elixir is essential for mastering the icy mechanics of Glacio’s surface."
+				""
+				"Start by preparing the base: &lEgg Grog&r. Combine the following ingredients in a heated mixer:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_egg_grog.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With Egg Grog in hand, advance to the final stage. Mix it with the chilling additives below to create your &lDread Nog&r:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_dread_nog.png width:200 height:120 align:center}"
+				""
+				"❄ &lBrewed for the brave&r—harness the cold, fuel your machines, and let your frostbitten empire rise from the ice!"
+			]
 			id: "75BE9DB6CC095B88"
-			subtitle: "No explation needed, its water"
+			rewards: [{
+				id: "2E0043361B130857"
+				item: "ad_astra:etrium_block"
+				type: "item"
+			}]
+			subtitle: "&7Unlocks Etrium and Ice Shard Automation in Glacial Domains! "
 			tasks: [{
 				id: "5961755503AC040E"
 				item: "brewinandchewin:dread_nog"
 				type: "item"
 			}]
+			title: "Dread Nog: Frostbitten Brew"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -3177,6 +3198,11 @@
 			]
 			hide_dependency_lines: true
 			id: "24958E87D1B6893F"
+			rewards: [{
+				id: "646653800A781283"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
 			subtitle: "Key to Ancient Debris Automation. Click me for more info!"
 			tasks: [{
 				id: "7A7E9537695BEDD1"
@@ -3298,6 +3324,11 @@
 				"🔥 &lFrom ore to alloy&r—Molten Iron fuels the future of magnetized innovation. Power your extruders and forge your path forward! 🧲⚙"
 			]
 			id: "541F6EDFBB45521D"
+			rewards: [{
+				id: "61931AF1E9113C80"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
 			subtitle: "Drives Scarlet and Azure Neodyrium Automation! Click to learn more! ⚙"
 			tasks: [{
 				id: "1A7336B66936C8E1"
@@ -3348,6 +3379,131 @@
 			title: "Acid: Corrosive Catalyst"
 			x: 17.25d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0B070C4D8A55E5A8"]
+			icon: "regions_unexplored:cobalt_sapling"
+			id: "1D555802C5CA375A"
+			tasks: [{
+				biome: "#forge_frontier:regions_unexplored_nether"
+				id: "310DD835164D5BA1"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77EB3AE60F0E8FEA"]
+			description: [
+				"&dFound deep in the Candy Cavity caves—your gateway to Ethium automation!"
+				""
+				"Hidden beneath the whimsical yet dangerous layers of the &dCandy Cavity&r lies the &5Lost Debris Vent&r—a bizarre and rare geyser steeped in sugary sediment, essential for automating &dEthium&r. Though playful in appearance, this vent holds serious power for those who dare to extract it."
+				""
+				"{image:ftb:textures/lost_debris_vent.png width:226 height:150 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this confection-powered vent, place &lTNT&r directly on top and ignite. The sweet crust will shatter open, revealing the vent’s molten potential."
+				""
+				"💥 &oA blast of sugar and flame—your path to Ethium begins with ignition.&r"
+				""
+				"Once active, provide the proper &dsource fluid&r (revealed in the next quest) to fuel &lMechanical Extruders&r and begin your Lost Debris conversion process."
+				""
+				"⚙ &5The cavity cracks—are you ready to extract the essence of Ethium from this delicious core?&r"
+			]
+			icon: "create_resource_vents:dormant_lost_debris_vent"
+			id: "23CC3D007074DBEB"
+			rewards: [{
+				id: "05DB3E65D553A3FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "390690AC9C57DE1D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vent:dormant_lost_debris_vent"
+				type: "observation"
+			}]
+			title: "Lost Debris Vent: Sweet Core of Ethium"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23CC3D007074DBEB"]
+			description: [
+				"&dChorus Fruit Pie Filling&r is the whimsical yet powerful fluid needed to activate the &5Lost Debris Vent&r. Once processed through &lMechanical Extruders&r, it unlocks access to &dLost Debris&r—eventually refined into &oEthium&r, a material of interdimensional importance."
+				""
+				"To whip up this legendary filling, you’ll need to go through a multi-step culinary ritual."
+				""
+				"Start by creating &lSalt&r with a bit of water and some heat:"
+				""
+				"{image:ftb:textures/_createfood_create_mixing_salt_from_mixing_water.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With salt ready, it's time to churn out &lButter&r through heated mixing:"
+				""
+				"{image:ftb:textures/_sliceanddice_cooking_createfood_farmersdelight_cooking_butter_from_cooking.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Next, slice some &oChorus Fruit&r into magical purple segments:"
+				""
+				"{image:ftb:textures/_createfood_farmersdelight_cutting_chorus_fruit_slice_from_cutting.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Finally, blend it all together with a dash of culinary skill and heat to craft the one and only &dChorus Fruit Pie Filling&r:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_chorus_fruit_pie_filling.png width:200 height:120 align:center}"
+				""
+				"⚙ &5From End fruit to industrial fuel—this pie filling is anything but ordinary.&r"
+			]
+			id: "5792E4588E3A4A9A"
+			rewards: [{
+				id: "55C33A462CB9691B"
+				item: "create_ethium:lost_debris"
+				type: "item"
+			}]
+			subtitle: "&oFueling the Lost Debris Vent and powering Ethium automation with a sweetly surreal touch!&r"
+			tasks: [{
+				id: "005A35DA0AEDA6AB"
+				item: "createfood:chorus_fruit_pie_filling_bucket"
+				type: "item"
+			}]
+			title: "Chorus Fruit Pie Filling: Dimensional Dessert Delight"
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5792E4588E3A4A9A"]
+			id: "39814F2893B31C67"
+			rewards: [{
+				id: "4CE3598B09250007"
+				item: "create_ethium:ethium_block"
+				type: "item"
+			}]
+			subtitle: "Lost Debris can be later crushed down to produce Ethium"
+			tasks: [
+				{
+					id: "6511F6808A6BBF14"
+					item: "create_ethium:lost_debris"
+					type: "item"
+				}
+				{
+					id: "7E3E026A4A95C344"
+					item: "create_ethium:crushed_lost_debris"
+					type: "item"
+				}
+				{
+					id: "3B59611E40351CF7"
+					item: "create_ethium:stellarite_chunk"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 6.0d
 		}
 	]
 	title: "Create: Molten Vents (Resource Gen)"
