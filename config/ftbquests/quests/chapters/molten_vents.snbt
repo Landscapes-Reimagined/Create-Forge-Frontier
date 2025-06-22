@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "molten_vents"
 	group: "3D5393E3938A9DF4"
-	icon: "molten_vents:dormant_molten_asurine"
+	icon: "create_resource_vents:active_asurine_vent"
 	id: "4E4AA685A681F1B0"
 	images: [
 		{
@@ -673,7 +673,7 @@
 				"🔩 &oThe stone beneath your feet is no longer a limit—it’s a launchpad. Ready to reshape your world?&r"
 			]
 			hide_dependent_lines: true
-			icon: "molten_vents:active_molten_asurine"
+			icon: "create_resource_vents:active_asurine_vent"
 			id: "7AC47553B491EE76"
 			rewards: [
 				{
@@ -728,7 +728,7 @@
 				""
 				"⚙ Strike the stone. Spark the forge. &lIron automation begins here.&r"
 			]
-			icon: "molten_vents:dormant_molten_crimsite"
+			icon: "create_resource_vents:dormant_crimsite_vent"
 			id: "1091314A5D575D4B"
 			rewards: [
 				{
@@ -748,7 +748,7 @@
 				id: "4EA85341DAED5477"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_crimsite"
+				to_observe: "create_resource_vents:dormant_crimsite_vent"
 				type: "observation"
 			}]
 			title: "Heart of Iron"
@@ -801,7 +801,7 @@
 				""
 				"⚙ &6Strike the spark. Feed the flame. And let gold pour from the heart of Ochrum.&r"
 			]
-			icon: "molten_vents:dormant_molten_ochrum"
+			icon: "create_resource_vents:dormant_ochrum_vent"
 			id: "070BAAF36335CB39"
 			rewards: [{
 				id: "4D365C9E07926BE5"
@@ -814,7 +814,7 @@
 				observe_type: 0
 				timer: 0L
 				title: "Find a Ochrum Vent"
-				to_observe: "molten_vents:dormant_molten_ochrum"
+				to_observe: "create_resource_vents:dormant_ochrum_vent"
 				type: "observation"
 			}]
 			title: "The Gilded Flame"
@@ -884,7 +884,7 @@
 				""
 				"⚙ The frost runs deep—but with fire, you awaken the ore. Will you rise to command the might of Asurine?"
 			]
-			icon: "molten_vents:dormant_molten_asurine"
+			icon: "create_resource_vents:dormant_asurine_vent"
 			id: "58E37D66B86362FD"
 			rewards: [{
 				id: "5E5D71F495C66884"
@@ -896,7 +896,7 @@
 				id: "5A45884CDA0E6655"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_asurine"
+				to_observe: "create_resource_vents:dormant_asurine_vent"
 				type: "observation"
 			}]
 			title: "The Path to Zinc"
@@ -949,7 +949,7 @@
 				""
 				"⚙ The stone is set. The fuse is lit. Are you ready to harness the power of Veridium?"
 			]
-			icon: "molten_vents:dormant_molten_veridium"
+			icon: "create_resource_vents:dormant_veridium_vent"
 			id: "6BF481A48C136085"
 			rewards: [
 				{
@@ -969,7 +969,7 @@
 				id: "7F552CF0B2FEDCDC"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_veridium"
+				to_observe: "create_resource_vents:dormant_veridium_vent"
 				type: "observation"
 			}]
 			title: "The Copper Core"
@@ -1022,7 +1022,7 @@
 				""
 				"⚙ A volatile spark. A precious resource. Are you ready to unlock the full potential of Potassic?"
 			]
-			icon: "molten_vents:dormant_molten_potassic"
+			icon: "create_resource_vents:dormant_potassic_vent"
 			id: "79632EC457A3A88D"
 			rewards: [{
 				id: "4F54EF71B5821C7B"
@@ -1035,7 +1035,7 @@
 				observe_type: 0
 				timer: 0L
 				title: "Find a Potassic Vent"
-				to_observe: "molten_vents:dormant_molten_potassic"
+				to_observe: "create_resource_vents:dormant_potassic_vent"
 				type: "observation"
 			}]
 			title: "Tin from the Earth"
@@ -1105,7 +1105,7 @@
 				""
 				"💎 &2Let the green spark flow. Trade, build, and automate with the wealth of the wilds.&r"
 			]
-			icon: "molten_vents:dormant_molten_verdantine"
+			icon: "create_resource_vents:dormant_verdantine_vent"
 			id: "12C001857356FF60"
 			rewards: [{
 				id: "7BDE703F514EB577"
@@ -1117,7 +1117,7 @@
 				id: "4B3EE39DAE300EF8"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_verdantine"
+				to_observe: "create_resource_vents:dormant_verdantine_vent"
 				type: "observation"
 			}]
 			title: "The Emerald Pulse"
@@ -1170,7 +1170,7 @@
 				""
 				"💎 &bLet the ice crack, the diamonds flow, and your empire rise from the cold.&r"
 			]
-			icon: "molten_vents:dormant_molten_glacium"
+			icon: "create_resource_vents:dormant_glacium_vent"
 			id: "0037549384F9FCCF"
 			rewards: [{
 				id: "58305C82B71AB248"
@@ -1182,7 +1182,7 @@
 				id: "02E1DD773E40DFAF"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_glacium"
+				to_observe: "create_resource_vents:dormant_glacium_vent"
 				type: "observation"
 			}]
 			title: "Diamond in the Frost"
@@ -1235,7 +1235,7 @@
 				""
 				"⚙ &9Strike the spark. Illuminate the depths. Let the blue flame of Scoria power your factory of wisdom.&r"
 			]
-			icon: "molten_vents:dormant_molten_scoria"
+			icon: "create_resource_vents:dormant_scoria_vent"
 			id: "20EDD6DD2BDC5F24"
 			rewards: [{
 				id: "2DB2DDD9F33E24F8"
@@ -1247,7 +1247,7 @@
 				id: "6652F4098EB5E691"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_scoria"
+				to_observe: "create_resource_vents:dormant_scoria_vent"
 				type: "observation"
 			}]
 			title: "The Lapis Flame"
@@ -1312,7 +1312,7 @@
 				""
 				"🪨 &8Coal, reborn from magma—forge your fuel empire from the flames.&r"
 			]
-			icon: "molten_vents:dormant_molten_scorchia"
+			icon: "create_resource_vents:dormant_scorchia_vent"
 			id: "10D2ED18910A5579"
 			rewards: [{
 				id: "0474B5D283BE8FF0"
@@ -1324,7 +1324,7 @@
 				id: "4C600B94BF8D1FF4"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_scorchia"
+				to_observe: "create_resource_vents:dormant_scorchia_vent"
 				type: "observation"
 			}]
 			title: "Flame-Forged Fuel"
@@ -1394,7 +1394,7 @@
 				""
 				"🛠 &cThe Nether remembers. Now, so will your machines.&r"
 			]
-			icon: "molten_vents:dormant_molten_ancient_debris"
+			icon: "create_resource_vents:dormant_ancient_debris_vent"
 			id: "6C99623FD144B074"
 			rewards: [{
 				id: "364943CAAC5D6F6F"
@@ -1406,7 +1406,7 @@
 				id: "40D7EB41C2BAD58F"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_ancient_debris"
+				to_observe: "create_resource_vents:dormant_ancient_debris_vent"
 				type: "observation"
 			}]
 			title: "Legacy of the Netherite Deep"
@@ -1486,7 +1486,7 @@
 				""
 				"🔊 &5Resonance stirs, and with it—the automation of silence.&r"
 			]
-			icon: "molten_vents:dormant_molten_resonite"
+			icon: "create_resource_vents:dormant_resonite_vent"
 			id: "66C50363340B22B0"
 			rewards: [{
 				id: "5B2A072CD74851D2"
@@ -1498,7 +1498,7 @@
 				id: "68F38195DCD117B9"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_resonite"
+				to_observe: "create_resource_vents:dormant_resonite_vent"
 				type: "observation"
 			}]
 			title: "Pulse of the Otherside"
@@ -1552,7 +1552,7 @@
 				""
 				"🚀 &eThe Moon offers its blessing—will you accept the gift of Aubrum and fuel your journey to the stars?&r"
 			]
-			icon: "molten_vents:dormant_molten_aubrum"
+			icon: "create_resource_vents:dormant_aubrum_vent"
 			id: "3B0CEEDC47C9AFAE"
 			rewards: [{
 				id: "15F9FBE33E90E6C1"
@@ -1564,7 +1564,7 @@
 				id: "432B7C8A59D5BF05"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_aubrum"
+				to_observe: "create_resource_vents:dormant_aubrum_vent"
 				type: "observation"
 			}]
 			title: "The Core of Lunar Craft"
@@ -1651,7 +1651,7 @@
 				""
 				"⚙ &5The sands of Mars conceal ancient power—will you unearth it and forge your legacy among the stars?&r"
 			]
-			icon: "molten_vents:dormant_molten_stellaris"
+			icon: "create_resource_vents:dormant_stellaris_vent"
 			id: "3C81772B0834E434"
 			rewards: [{
 				id: "5FEB1450A30908DF"
@@ -1663,7 +1663,7 @@
 				id: "313920FA593F382C"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_stellaris"
+				to_observe: "create_resource_vents:dormant_stellaris_vent"
 				type: "observation"
 			}]
 			title: "Flame of Martian Ambition"
@@ -1734,7 +1734,7 @@
 				""
 				"⚙ &cThe inferno calls—will you rise with it or be turned to ash?&r"
 			]
-			icon: "molten_vents:dormant_molten_pyroclast"
+			icon: "create_resource_vents:dormant_pyroclast_vent"
 			id: "0526FF8AE3C0EA67"
 			rewards: [{
 				id: "09F8DC99FADEE584"
@@ -1746,7 +1746,7 @@
 				id: "7EDD1A3E4785C1B9"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_pyroclast"
+				to_observe: "create_resource_vents:dormant_pyroclast_vent"
 				type: "observation"
 			}]
 			title: "The Ember Core of Venus"
@@ -1817,7 +1817,7 @@
 				""
 				"⚙ &bThe frost stirs—will you harness its chill or be left out in the cold?&r"
 			]
-			icon: "molten_vents:dormant_molten_frostite"
+			icon: "create_resource_vents:dormant_frostite_vent"
 			id: "350F1E84CF8BB524"
 			rewards: [{
 				id: "057CA8C95048DC5A"
@@ -1829,7 +1829,7 @@
 				id: "053E3ED6876D9635"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_frostite"
+				to_observe: "create_resource_vents:dormant_frostite_vent"
 				type: "observation"
 			}]
 			title: "Cracking the Frozen Core"
@@ -1858,7 +1858,7 @@
 				}
 				{
 					id: "61A0F07E52D31DFC"
-					item: "ad_astra:ice_shard"
+					item: "ad_astra:etrium_ingot"
 					type: "item"
 				}
 			]
@@ -1882,7 +1882,7 @@
 				""
 				"⚙ &dWill you channel the light of the End—or be lost in its shadows?&r"
 			]
-			icon: "molten_vents:dormant_molten_radiantite"
+			icon: "create_resource_vents:dormant_radiantite_vent"
 			id: "0886729EE4407B1B"
 			rewards: [{
 				id: "6B3D0431A731E119"
@@ -1894,7 +1894,7 @@
 				id: "3E922327B6F978BA"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_radiantite"
+				to_observe: "create_resource_vents:dormant_radiantite_vent"
 				type: "observation"
 			}]
 			title: "Unleashing Endlight Energy"
@@ -1964,7 +1964,7 @@
 				""
 				"⚙ &8Descend into silence, ignite the shadows, and let Malachite rise from the void.&r"
 			]
-			icon: "molten_vents:dormant_molten_void_shale"
+			icon: "create_resource_vents:dormant_void_shale_vent"
 			id: "177FD83E945AE2BE"
 			rewards: [{
 				id: "7285F2D75656FEB1"
@@ -1976,7 +1976,7 @@
 				id: "5993EC5234DA3722"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_void_shale"
+				to_observe: "create_resource_vents:dormant_void_shale_vent"
 				type: "observation"
 			}]
 			title: "Awakening the Shale Below"
@@ -2029,7 +2029,7 @@
 				""
 				"⚙ &7Silent. Still. Powerful. Awaken the pale—&lunlock the hidden ore of the End&r."
 			]
-			icon: "molten_vents:dormant_molten_palerock"
+			icon: "create_resource_vents:dormant_palerock_vent"
 			id: "0F87A00F314DD547"
 			rewards: [{
 				id: "4D18DF8A625E8A5E"
@@ -2041,7 +2041,7 @@
 				id: "37B1D1C7B27E941B"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_palerock"
+				to_observe: "create_resource_vents:dormant_palerock_vent"
 				type: "observation"
 			}]
 			title: "Whispers of the Pale Core"
@@ -2094,7 +2094,7 @@
 				""
 				"⚙ &7Beneath the waves lies brilliance. Ignite the deep. Harness the pearls of the abyss.&r"
 			]
-			icon: "molten_vents:dormant_molten_pearlyte"
+			icon: "create_resource_vents:dormant_pearlyte_vent"
 			id: "6AE156D8DE1D619A"
 			rewards: [{
 				id: "1F4B2E46FAFCF587"
@@ -2106,7 +2106,7 @@
 				id: "01D19050FCD28992"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_pearlyte"
+				to_observe: "create_resource_vents:dormant_pearlyte_vent"
 				type: "observation"
 			}]
 			title: "Secrets of the Sunken Core"
@@ -2159,7 +2159,7 @@
 				""
 				"⚙ &7Dig deep. Ignite the ancient spark. Harvest the treasures of a world long forgotten.&r"
 			]
-			icon: "molten_vents:dormant_molten_amberlite"
+			icon: "create_resource_vents:dormant_amberlite_vent"
 			id: "2589CF5251858E63"
 			rewards: [{
 				id: "1841FEDEBB5CE955"
@@ -2171,7 +2171,7 @@
 				id: "7A5864AB8EEF58FE"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_amberlite"
+				to_observe: "create_resource_vents:dormant_amberlite_vent"
 				type: "observation"
 			}]
 			title: "Flame of the Forgotten World"
@@ -2224,7 +2224,7 @@
 				""
 				"⚙ &7From waste comes worth. Will you claim the power buried beneath decay?&r"
 			]
-			icon: "molten_vents:dormant_molten_guanite"
+			icon: "create_resource_vents:dormant_guanite_vent"
 			id: "229D3F7596608800"
 			rewards: [{
 				id: "71A239892B06EA58"
@@ -2236,7 +2236,7 @@
 				id: "725B31416BC3165D"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_guanite"
+				to_observe: "create_resource_vents:dormant_guanite_vent"
 				type: "observation"
 			}]
 			title: "Decay Beneath the Hollows"
@@ -2289,7 +2289,7 @@
 				""
 				"☢ &7Can you endure the rot, outwit the poison, and refine power from peril? The reactor is waiting.&r"
 			]
-			icon: "molten_vents:dormant_molten_uraniumnite"
+			icon: "create_resource_vents:dormant_uraniumnite_vent"
 			id: "70DF75B6AEEF8D39"
 			rewards: [{
 				id: "7F29F47D0A197B90"
@@ -2301,7 +2301,7 @@
 				id: "6000D0FCF2A4250B"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_uraniumnite"
+				to_observe: "create_resource_vents:dormant_uraniumnite_vent"
 				type: "observation"
 			}]
 			title: "The Core of Contagion"
@@ -2354,7 +2354,7 @@
 				""
 				"🌋 &7Sulfur waits in silence—but not for long. Will you brave the fumes and harness its sting?&r"
 			]
-			icon: "molten_vents:dormant_molten_sulphite"
+			icon: "create_resource_vents:dormant_sulphite_vent"
 			id: "19D60673B8DCB77D"
 			rewards: [{
 				id: "19B9F2CA3B7CEEAD"
@@ -2366,7 +2366,7 @@
 				id: "6D4C4B54FEA5675A"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_sulphite"
+				to_observe: "create_resource_vents:dormant_sulphite_vent"
 				type: "observation"
 			}]
 			title: "The Stinging Vein of Sulfur"
@@ -2419,7 +2419,7 @@
 				""
 				"⚙ &7Tame the pulse of magnetism and unleash the might of automation.&r"
 			]
-			icon: "molten_vents:dormant_molten_neodymrium"
+			icon: "create_resource_vents:dormant_neodymrium_vent"
 			id: "08A5AEA1CB0268D8"
 			rewards: [{
 				id: "61E8BF13EF0E0E63"
@@ -2431,7 +2431,7 @@
 				id: "1461FFEDE382BC3A"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_neodymrium"
+				to_observe: "create_resource_vents:dormant_neodymrium_vent"
 				type: "observation"
 			}]
 			title: "Pulse of the Magnetic Core"
@@ -2484,7 +2484,7 @@
 				""
 				"⚙ &7Stabilize the current. Channel the flow. And craft with the clarity of precision engineering.&r"
 			]
-			icon: "molten_vents:dormant_molten_azurnium"
+			icon: "create_resource_vents:dormant_azurnium_vent"
 			id: "1F8D8293900A159B"
 			rewards: [{
 				id: "66DD1C46AB326BD4"
@@ -2496,7 +2496,7 @@
 				id: "0CAB7BA29B5E946A"
 				observe_type: 0
 				timer: 0L
-				to_observe: "molten_vents:dormant_molten_azurnium"
+				to_observe: "create_resource_vents:dormant_azurnium_vent"
 				type: "observation"
 			}]
 			title: "The Echo of Azure Currents"
@@ -3076,7 +3076,7 @@
 			subtitle: "No explation needed, its water"
 			tasks: [{
 				id: "5961755503AC040E"
-				item: "minecraft:water_bucket"
+				item: "brewinandchewin:dread_nog"
 				type: "item"
 			}]
 			x: 3.0d
@@ -3212,7 +3212,7 @@
 				""
 				"Now it’s time to forge &8Molten Carbon&r using a Tinkers’ Construct melter:"
 				""
-				"{image:ftb:textures/_forge_frontier_melting_molten_carbon_4_0.png width:200 height:80 align:center}"
+				"{image:ftb:textures/_forge_frontier_melting_carbon_4_0.png width:200 height:80 align:center}"
 				""
 				"{@pagebreak}"
 				""
