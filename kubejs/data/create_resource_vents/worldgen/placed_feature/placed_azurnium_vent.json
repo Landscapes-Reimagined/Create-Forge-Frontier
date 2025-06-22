@@ -3,57 +3,18 @@
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 500
+      "chance": 50
     },
     {
-      "type": "create_resource_vents:biome_switch",
-      "biome": ["alexscaves:magnetic_caves"],
-      "biomeTag": "minecraft:is_nether",
-      "true": [
-        {
-          "type": "minecraft:count_on_every_layer",
-          "count": 1
-        }
-      ],
-      "false": [
-        {
-          "__comment": "does nothing",
-          "type": "minecraft:rarity_filter",
-          "chance": 1
-        }
-      ]
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
     },
     {
-      "type": "create_resource_vents:biome_switch",
-      "biome": [],
-      "biomeTag": "minecraft:is_nether",
-      "true": [
-        {
-          "__comment": "sets a higher rarity filter for nether biomes",
-          "___comment": "because the count_on_every_layer modifier tends to bunch vents together",
-          "type": "minecraft:rarity_filter",
-          "chance": 5
-        }
-      ],
-      "__comment": "correct the heightmap for certain biomes in the overworld",
-      "false": [
-        {
-          "type": "create_resource_vents:biome_switch",
-          "biomeTag": "minecraft:is_ocean",
-          "true": [
-            {
-              "type": "minecraft:heightmap",
-              "heightmap": "OCEAN_FLOOR"
-            }
-          ],
-          "false": [
-            {
-              "type": "minecraft:heightmap",
-              "heightmap": "WORLD_SURFACE_WG"
-            }
-          ]
-        }
-      ]
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
     },
     {
       "type": "minecraft:random_offset",
