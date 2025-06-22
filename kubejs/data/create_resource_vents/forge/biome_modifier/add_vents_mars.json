@@ -1,0 +1,7 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ad_astra:has_structure/mars_temple",
+  "features": [
+  ],
+  "step": "vegetal_decoration"
+}

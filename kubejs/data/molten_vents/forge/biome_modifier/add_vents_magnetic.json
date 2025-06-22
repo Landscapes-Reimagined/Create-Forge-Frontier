@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "terralith:scarlet_mountains",
-  "features": [
-    "molten_vents:neodymrium_vent",
-    "molten_vents:azurnium_vent"
-  ],
-  "step": "vegetal_decoration"
-}

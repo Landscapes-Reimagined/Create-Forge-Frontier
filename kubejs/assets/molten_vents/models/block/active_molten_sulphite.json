@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "molten_vents:block/active_molten_sulphite"
-    }
-  }
-

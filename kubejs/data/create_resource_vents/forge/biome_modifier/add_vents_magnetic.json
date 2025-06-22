@@ -1,0 +1,7 @@
+{
+  "type": "forge:add_features",
+  "biomes": "terralith:scarlet_mountains",
+  "features": [
+  ],
+  "step": "vegetal_decoration"
+}

@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "regions_unexplored:ashen_woodland",
-  "features": [
-    "molten_vents:uraniumnite_vent",
-    "molten_vents:sulphite_vent"
-  ],
-  "step": "vegetal_decoration"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "deeperdarker:deeplands",
-  "features": [
-    "molten_vents:resonite_vent"
-  ],
-  "step": "vegetal_decoration"
-}

@@ -1,0 +1,7 @@
+{
+  "type": "forge:add_features",
+  "biomes": "regions_unexplored:ashen_woodland",
+  "features": [
+  ],
+  "step": "vegetal_decoration"
+}

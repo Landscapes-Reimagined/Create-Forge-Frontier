@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_plains",
+  "features": [
+      "create_resource_vents:placed_crimsite_vent"
+  ],
+  "step": "vegetal_decoration"
+}

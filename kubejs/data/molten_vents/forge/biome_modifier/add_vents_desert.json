@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#forge:is_desert",
-  "features": [
-    "molten_vents:veridium_vent"
-  ],
-  "step": "vegetal_decoration"
-}

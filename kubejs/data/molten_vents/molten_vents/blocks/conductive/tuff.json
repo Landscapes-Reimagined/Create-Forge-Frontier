@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "minecraft:tuff",
-    "molten_vents:dormant_molten_tuff",
-    "molten_vents:active_molten_tuff"
-  ]
-}

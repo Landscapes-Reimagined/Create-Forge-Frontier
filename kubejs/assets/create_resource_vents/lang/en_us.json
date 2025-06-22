@@ -1,0 +1,64 @@
+{
+ "block.create_resource_vents.dormant_resonite_vent": "Dormant Resonite Vent",
+ "block.create_resource_vents.active_resonite_vent": "Active Resonite Vent",
+
+ "block.create_resource_vents.dormant_potassic_vent": "Dormant Potassic Vent",
+ "block.create_resource_vents.active_potassic_vent": "Active Potassic Vent",
+
+ "block.create_resource_vents.dormant_verdantine_vent": "Dormant Verdantine Vent",
+ "block.create_resource_vents.active_verdantine_vent": "Active Verdantine Vent",
+
+ "block.create_resource_vents.dormant_glacium_vent": "Dormant Glacium Vent",
+ "block.create_resource_vents.active_glacium_vent": "Active Glacium Vent",
+
+ "block.create_resource_vents.dormant_scoria_vent": "Dormant Scoria Vent",
+ "block.create_resource_vents.active_scoria_vent": "Active Scoria Vent",
+
+ "block.create_resource_vents.dormant_scorchia_vent": "Dormant Scorchia Vent",
+ "block.create_resource_vents.active_scorchia_vent": "Active Scorchia Vent",
+
+ "block.create_resource_vents.dormant_ancient_debris_vent": "Dormant Ancient Debris Vent",
+ "block.create_resource_vents.active_ancient_debris_vent": "Active Ancient Debris Vent",
+
+ "block.create_resource_vents.dormant_aubrum_vent": "Dormant Aubrum Vent",
+ "block.create_resource_vents.active_aubrum_vent": "Active Aubrum Vent",
+
+ "block.create_resource_vents.dormant_pyroclast_vent": "Dormant Pyroclast Vent",
+ "block.create_resource_vents.active_pyroclast_vent": "Active Pyroclast Vent",
+
+ "block.create_resource_vents.dormant_frostite_vent": "Dormant Frostite Vent",
+ "block.create_resource_vents.active_frostite_vent": "Active Frostite Vent",
+
+ "block.create_resource_vents.dormant_stellaris_vent": "Dormant Stellaris Vent",
+ "block.create_resource_vents.active_stellaris_vent": "Active Stellaris Vent",
+
+ "block.create_resource_vents.dormant_radiantite_vent": "Dormant Radiantite Vent",
+ "block.create_resource_vents.active_radiantite_vent": "Active Radiantite Vent",
+
+ "block.create_resource_vents.dormant_void_shale_vent": "Dormant Void Shale Vent",
+ "block.create_resource_vents.active_void_shale_vent": "Active Void Shale Vent",
+
+ "block.create_resource_vents.dormant_palerock_vent": "Dormant Palerock Vent",
+ "block.create_resource_vents.active_palerock_vent": "Active Palerock Vent",
+
+ "block.create_resource_vents.dormant_guanite_vent": "Dormant Guanite Vent",
+ "block.create_resource_vents.active_guanite_vent": "Active Guanite Vent",
+
+ "block.create_resource_vents.dormant_pearlyte_vent": "Dormant Pearlyte Vent",
+ "block.create_resource_vents.active_pearlyte_vent": "Active Pearlyte Vent",
+
+ "block.create_resource_vents.dormant_amberlite_vent": "Dormant Amberlite Vent",
+ "block.create_resource_vents.active_amberlite_vent": "Active Amberlite Vent",
+
+ "block.create_resource_vents.dormant_azurnium_vent": "Dormant Azurnium Vent",
+ "block.create_resource_vents.active_azurnium_vent": "Active Azurnium Vent",
+
+ "block.create_resource_vents.dormant_neodymrium_vent": "Dormant Neodymrium Vent",
+ "block.create_resource_vents.active_neodymrium_vent": "Active Neodymrium Vent",
+
+ "block.create_resource_vents.dormant_uraniumnite_vent": "Dormant Uraniumnite Vent",
+ "block.create_resource_vents.active_uraniumnite_vent": "Active Uraniumnite Vent",
+ 
+ "block.create_resource_vents.dormant_sulphite_vent": "Dormant Sulphite Vent",
+ "block.create_resource_vents.active_sulphite_vent": "Active Sulphite"
+}
