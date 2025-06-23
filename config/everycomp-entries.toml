@@ -211,10 +211,6 @@
 		[types.cake.farmersrespite]
 			coffee_cake = true
 
-		[types.cake.createaddition]
-			chocolate_cake = true
-			honey_cake = true
-
 		[types.cake.collectorsreap]
 			lime_cake = true
 			pomegranate_cake = true
@@ -226,6 +222,103 @@
 			banana_cake = true
 			mint_cake = true
 			adzuki_cake = true
+
+		[types.cake.createaddition]
+			chocolate_cake = true
+			honey_cake = true
+
+		[types.cake.createfood]
+			cake_chorus_fruit = true
+			cake_glow_berry = true
+			berry_cream_cake_sweet_berry = true
+			berry_cream_cake_chorus_fruit = true
+			berry_cream_cake_glow_berry = true
+			chocolate_cream_cake_butterscotch = true
+			chocolate_cream_cake_caramel = true
+			chocolate_cream_cake_chocolate = true
+			chocolate_cream_cake_dark_chocolate = true
+			chocolate_cream_cake_toffee = true
+			chocolate_cream_cake_white_chocolate = true
+			chorus_fruit_cream_cake_sweet_berry = true
+			chorus_fruit_cream_cake_chorus_fruit = true
+			chorus_fruit_cream_cake_glow_berry = true
+			glow_berry_cream_cake_sweet_berry = true
+			glow_berry_cream_cake_chorus_fruit = true
+			glow_berry_cream_cake_glow_berry = true
+
+	[types.stone_type]
+
+		[types.stone_type.create]
+			limestone = true
+			asurine = true
+			crimsite = true
+			ochrum = true
+			veridium = true
+			scoria = true
+			scorchia = true
+
+		[types.stone_type.alexscaves]
+			galena = true
+			radrock = true
+			abyssmarine = true
+			guanostone = true
+			limestone = true
+
+		[types.stone_type.enlightened_end]
+			void_shale = true
+			palerock = true
+
+		[types.stone_type.quark]
+			soul_sandstone = true
+			limestone = true
+			jasper = true
+			shale = true
+			myalite = true
+			permafrost = true
+
+		[types.stone_type.regions_unexplored]
+			argillite = true
+			chalk = true
+
+		[types.stone_type.phantasm]
+			cirite = true
+
+		[types.stone_type.ad_astra]
+			moon_stone = true
+			mars_stone = true
+			conglomerate = true
+			mercury_stone = true
+			venus_stone = true
+			glacio_stone = true
+			permafrost = true
+
+		[types.stone_type.tconstruct]
+			seared_stone = true
+			scorched_stone = true
+
+		[types.stone_type.unusualend]
+			gneiss = true
+			gloopstone = true
+			gloopslate = true
+			warped_stone = true
+
+		[types.stone_type.endreborn]
+			farstone = true
+
+		[types.stone_type.deeperdarker]
+			sculk_stone = true
+			gloomslate = true
+
+		[types.stone_type.create_dd]
+			gabbro = true
+			aethersite = true
+			potassic = true
+			weathered_limestone = true
+
+	[types.mud_type]
+
+		[types.mud_type.deeperdarker]
+			sculk_grime = true
 
 #Disables specific entries
 [entries]
@@ -426,4 +519,112 @@
 			blinds = true
 			picture_frame = true
 			trellis = true
+
+	[entries.stone_type]
+
+		[entries.stone_type.chipped]
+			tiled_column = true
+			pillar = true
+			checkered_tiles = true
+			cracked_flat_tiles = true
+			eroded = true
+			weathered = true
+			tiled_bordered = true
+			simple_pillar = true
+			scales = true
+			smooth_column = true
+			vertical_disordered_bricks = true
+			fine_pillar = true
+			sad = true
+			brick_bordered = true
+			glad = true
+			smooth_inlayed = true
+			unamused = true
+			bordered = true
+			cut_column = true
+			edged_bricks = true
+			cobbled = true
+			smoothed_double_inlayed = true
+			rounded_bricks = true
+			overlapping_tiles = true
+			pillar_top = true
+			rough = true
+			tiny_layered_bricks = true
+			loded = true
+			bricks = true
+			massive_bricks = true
+			layed_bricks = true
+			spider_carving = true
+			thick_inlayed = true
+			tiny_brick_bordered = true
+			pointed_dripstone = true
+			sanded = true
+			engraved = true
+			offset_bricks = true
+			small_bricks = true
+			duh = true
+			mini_tiles = true
+			angry = true
+			vertical_cut = true
+			crying = true
+			smooth_ringed = true
+			runic_carved = true
+			curly_pillar = true
+			etched_bricks = true
+			stacked_bricks = true
+			spiraled = true
+			inscribed = true
+			polished = true
+			cut_blank = true
+			blank_carving = true
+			prismal_remnants = true
+			tiny_layered_slabs = true
+			tiny_bricks = true
+			flat_tiles = true
+			inlayed = true
+			trodden = true
+			tiled = true
+			creeper_carving = true
+			cracked_bricks = true
+			pillar_bricks = true
+			cracked_disordered_bricks = true
+			carved = true
+			ornate_pillar = true
+
+		[entries.stone_type.create]
+			cut_wall = true
+			small_bricks = true
+			layered = true
+			cut_brick_wall = true
+			pillar = true
+			cut_brick_stairs = true
+			cut_brick_slab = true
+			polished_cut_slab = true
+			polished_cut_wall = true
+			cut_slab = true
+			small_brick_wall = true
+			cut = true
+			polished_cut = true
+			small_brick_slab = true
+			cut_stairs = true
+			small_brick_stairs = true
+			cut_bricks = true
+			polished_cut_stairs = true
+
+		[entries.stone_type.quark]
+			polished_vertical_slab = true
+			pillar = true
+			vertical_slab = true
+
+	[entries.mud_type]
+
+		[entries.mud_type.quark]
+			carved_bricks = true
+			pillar = true
+			brick_lattice = true
+
+		[entries.mud_type.betterarcheology]
+			cracked_brick_stairs = true
+			cracked_bricks = true
+			cracked_brick_slab = true
 

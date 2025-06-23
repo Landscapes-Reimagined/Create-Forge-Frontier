@@ -17,7 +17,7 @@
   },
   "disableWarnings": {
     "desc:": "Disable the memory warnings, default: false",
-    "disableWarnings": false
+    "disableWarnings": true
   },
   "earlyWarningMinimumMemory": {
     "desc:": "Set the message used for the early warning screen, notifying the user of too low memory set. You can use %d as placeholder for these memoryvalues, in order: currentmemory, minimum, recommendMemory",
