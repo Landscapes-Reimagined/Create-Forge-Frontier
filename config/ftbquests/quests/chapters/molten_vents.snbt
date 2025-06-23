@@ -152,7 +152,7 @@
 				id: "7DBA6B0F06569E5F"
 				type: "dimension"
 			}]
-			title: "Molten Vent of the Otherside"
+			title: "Resource Vent of the Otherside"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -200,7 +200,7 @@
 				id: "56EE4C23722F5397"
 				type: "dimension"
 			}]
-			title: "Molten Vent of the Moon"
+			title: "Resource Vent of the Moon"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -248,7 +248,7 @@
 				id: "1EEB22ACE1F951D6"
 				type: "dimension"
 			}]
-			title: "Molten Vent of Mars"
+			title: "Resource Vent of Mars"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -294,7 +294,7 @@
 				id: "323ADE366797631D"
 				type: "dimension"
 			}]
-			title: "Molten Vent of Venus"
+			title: "Resource Vent of Venus"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -340,7 +340,7 @@
 				id: "7616F73D69F93929"
 				type: "dimension"
 			}]
-			title: "Molten Vent of Glacio"
+			title: "Resource Vent of Glacio"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -436,7 +436,7 @@
 				id: "1A839FCD59353FDF"
 				type: "dimension"
 			}]
-			title: "Molten Vent of the Abyssal Chasm"
+			title: "Resource Vent of the Abyssal Chasm"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -488,7 +488,7 @@
 				id: "54AF1FBD3322EBAC"
 				type: "dimension"
 			}]
-			title: "Molten Vent of the Primordial Caves"
+			title: "Resource Vent of the Primordial Caves"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -534,7 +534,7 @@
 				id: "4A03EBCDD5110DBB"
 				type: "dimension"
 			}]
-			title: "Molten Vent of the Forlorn Hollows"
+			title: "Resource Vent of the Forlorn Hollows"
 			x: 12.0d
 			y: 0.0d
 		}
@@ -2595,7 +2595,7 @@
 				id: "719C8CDFA8E1BAF6"
 				type: "dimension"
 			}]
-			title: "Molten Vent of the Candy Cavity Caves"
+			title: "Resource Vent of the Candy Cavity Caves"
 			x: 20.0d
 			y: 0.0d
 		}
