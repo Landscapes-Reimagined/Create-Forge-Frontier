@@ -31,7 +31,7 @@ ServerEvents.recipes(event =>
                     energy: 200000,
                     ingredients: [
                         { item: "ae2:singularity", count: 1 },
-                        { item: "ae2:ender_dust", count: 2 },
+                        { item: "create_ethium:echo_dust", count: 2 },
                         { item: "ae2:sky_dust", count: 2 },
                         { fluid: "minecraft:lava", amount: 100 }
                     ],
@@ -95,7 +95,7 @@ ServerEvents.recipes(event =>
                     id: "quantum_alloy",
                     energy: 200000,
                     ingredients: [
-                        { item: "minecraft:copper_ingot", count: 4 },
+                        { item: "ad_astra:etrium_ingot", count: 4 },
                         { item: "advanced_ae:shattered_singularity", count: 4 },
                         { item: "ae2:singularity", count: 4 },
                         { fluid: "advanced_ae:quantum_infusion_source", amount: 1000 }
@@ -201,7 +201,8 @@ ServerEvents.recipes(event =>
                 energy: 1000000,
                 ingredients: [
                     { item: "advanced_ae:quantum_alloy", count: 8 },
-                    { item: "minecraft:netherite_ingot", count: 2 },
+                    { tag: "forge_frontier:ingot/neodymium"},
+                    { tag: "forge_frontier:ingot/neodymium"},
                     { item: "minecraft:nether_star", count: 1 },
                     { fluid: "advanced_ae:quantum_infusion_source", amount: 1000 }
                 ],
