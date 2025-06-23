@@ -278,7 +278,7 @@
 				}
 				{
 					id: "79AB2024FE03B8CE"
-					structure: "create_easy_structures:station"
+					structure: "create_easy_structures:freight_station"
 					type: "structure"
 				}
 			]
