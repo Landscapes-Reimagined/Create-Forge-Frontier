@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             input: 'forge_frontier:crushed_sulphite',
             results: [
                 { item: 'alexscaves:sulfur_dust' },
-                { chance: 0.20, item: 'createnuclear:yellowcake' }
+                { chance: 0.20, item: 'create_new_age:radioactive_thorium' }
             ]
         }
     ];
@@ -224,7 +224,7 @@ ServerEvents.recipes(event => {
             input: 'forge_frontier:crushed_sulphite_pile',
             results: [
                 { item: 'alexscaves:sulfur', count: 9 },
-                { chance: 0.20, item: 'tfmg:sulfur_dust', count: 9 }
+                { chance: 0.20, item: 'create_new_age:radioactive_thorium', count: 9 }
             ]
         }
     ];
