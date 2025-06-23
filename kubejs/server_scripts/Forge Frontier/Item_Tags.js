@@ -1,5 +1,11 @@
 ServerEvents.tags("item", event => {
 
+    // Neodymium Ingot Tag
+    event.add("forge_frontier:ingot/neodymium", [
+        'alexscaves:azure_neodymium_ingot',
+        'alexscaves:scarlet_neodymium_ingot'
+    ])
+
     // Sophisticated Storage Tier Tags
         // Chests
             // Basic
