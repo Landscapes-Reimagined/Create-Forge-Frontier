@@ -113,7 +113,7 @@ event.add("create:casing", [
 // Adds Fan Processing Catalysts
 event.add('create_dd:fan_processing_catalysts_freezing', 'create_connected:fan_freezing_catalyst')
 event.add('create_dd:fan_processing_catalysts_superheating', 'create_connected:fan_seething_catalyst')
-
+event.add('createhalitosis:fan_processing_catalysts/halitosis', 'create_connected:fan_ending_catalyst_dragon_head')
 
 
 });

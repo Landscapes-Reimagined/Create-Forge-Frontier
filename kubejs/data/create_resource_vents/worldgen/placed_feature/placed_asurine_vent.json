@@ -1,0 +1,70 @@
+{
+  "feature": "create_resource_vents:asurine_vent",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 500
+    },
+    {
+      "type": "create_resource_vents:biome_switch",
+      "biome": [],
+      "biomeTag": "minecraft:is_nether",
+      "true": [
+        {
+          "type": "minecraft:count_on_every_layer",
+          "count": 1
+        }
+      ],
+      "false": [
+        {
+          "__comment": "does nothing",
+          "type": "minecraft:rarity_filter",
+          "chance": 1
+        }
+      ]
+    },
+    {
+      "type": "create_resource_vents:biome_switch",
+      "biome": [],
+      "biomeTag": "minecraft:is_nether",
+      "true": [
+        {
+          "__comment": "sets a higher rarity filter for nether biomes",
+          "___comment": "because the count_on_every_layer modifier tends to bunch vents together",
+          "type": "minecraft:rarity_filter",
+          "chance": 5
+        }
+      ],
+      "__comment": "correct the heightmap for certain biomes in the overworld",
+      "false": [
+        {
+          "type": "create_resource_vents:biome_switch",
+          "biomeTag": "minecraft:is_ocean",
+          "true": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "OCEAN_FLOOR"
+            }
+          ],
+          "false": [
+            {
+              "type": "minecraft:heightmap",
+              "heightmap": "WORLD_SURFACE_WG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:constant",
+        "value": 0
+      },
+      "y_spread": {
+        "type": "minecraft:constant",
+        "value": -1
+      }
+    }
+  ]
+}

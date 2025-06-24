@@ -1,5 +1,89 @@
 	ServerEvents.recipes(event => 
         {
+            // Chorus Fruit Pie Filling
+            event.remove ({ id: 'createfood:create/mixing/chorus_fruit_pie_filling_fluid_from_mixing_heated'})
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        item: 'createfood:butter',
+                    }, 
+                    {
+                        tag: 'forge:sugar'
+                    },
+                    {
+                        tag: 'forge:sugar'
+                    },
+                    {
+                        item: 'createfood:chorus_fruit_slice'
+                    },
+                    {
+                        item: 'createfood:chorus_fruit_slice'
+                    },
+                    {
+                        item: 'createfood:chorus_fruit_slice'
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'createfood:chorus_fruit_pie_filling',
+                        amount: 1000
+                    }
+                ], heatRequirement: "heated"
+            }).id('forge_frontier:mixing/chorus_fruit_pie_filling');
+
+            // Egg Grog
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        fluidTag: 'forge:milk',
+                        amount: 1000
+                    }, 
+                    {
+                        tag: 'forge:eggs'
+                    },
+                    {
+                        tag: 'forge:crops/cabbage'
+                    },
+                    {
+                        item: 'minecraft:sugar'
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'brewinandchewin:egg_grog',
+                        amount: 1000
+                    }
+                ],
+            }).id('forge_frontier:mixing/egg_grog');
+
+            // Dread Nog
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        fluid: 'brewinandchewin:egg_grog',
+                        amount: 1000
+                    }, 
+                    {
+                        item: 'minecraft:nether_wart'
+                    },
+                    {
+                        item: 'minecraft:turtle_egg'
+                    },
+                    {
+                        item: 'minecraft:fermented_spider_eye'
+                    }
+                ],
+                results: [
+                    {
+                        fluid: 'brewinandchewin:dread_nog',
+                        amount: 1000
+                    },
+                ], 
+            }).id('forge_frontier:mixing/dread_nog');
+
             // Lime Juice Recipe
             event.custom({
                 type: 'create:compacting',
@@ -155,8 +239,10 @@
                         amount: 250
                     },
                     {
-                        fluid: 'create_dd:vanilla_milkshake',
-                        amount: 250
+                        item: 'neapolitan:dried_vanilla_pods',
+                    },
+                    {
+                        item: 'neapolitan:dried_vanilla_pods',
                     },
                     {
                         fluid: 'create_dd:chocolate_milkshake',
@@ -166,7 +252,7 @@
                 results: [
                     {
                         fluid: 'forge_frontier:neapolitan_milkshake',
-                        amount: 250
+                        amount: 750
                     }
                 ],
             }).id('forge_frontier:mixing/neapolitan_milkshake'); 

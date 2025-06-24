@@ -1,0 +1,63 @@
+{
+  "type": "create_resource_vents:resource_vent",
+  "config": {
+    "diameter": 5,
+    "wallHeight": 2,
+    "clearArea": true,
+    "maxColumnHeight": {
+      "type": "minecraft:constant",
+      "value": 1
+    },
+    "baseBlock": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "create_ethium:lost_debris"
+          },
+          "weight": 70
+        }
+      ]
+    },
+    "decorativeBlocks": [
+      {
+        "type": "create_resource_vents:state_data_provider",
+        "state": {
+          "Name": "create:copycat_step"
+        },
+        "nbt": "{Item:{id:\"create_ethium:lost_debris\",Count:1b},Material:{Name:\"create_ethium:lost_debris\"}}"
+      },
+      {
+        "type": "create_resource_vents:state_data_provider",
+        "state": {
+          "Name": "copycats:copycat_wall"
+        },
+        "nbt": "{Item:{id:\"create_ethium:lost_debris\",Count:1b},Material:{Name:\"create_ethium:lost_debris\"}}"
+      },
+      {
+        "type": "create_resource_vents:state_data_provider",
+        "state": {
+          "Name": "create:copycat_panel"
+        },
+        "nbt": "{Item:{id:\"create_ethium:lost_debris\",Count:1b},Material:{Name:\"create_ethium:lost_debris\"}}"
+      }
+    ],
+    "vent": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "create_resource_vents:dormant_lost_debris_vent"
+      }
+    },
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 29,
+        "max_inclusive": 35
+      }
+    },
+    "liquidBlock": {
+      "type": "create_resource_vents:vent_fluid",
+      "vent": "create_resource_vents:lost_debris"
+    }
+  }
+}

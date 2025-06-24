@@ -14,7 +14,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_glacium',
             input: 'forge_frontier:crushed_glacium',
             results: [
-                { count: 4, item: 'create_dd:diamond_shard' }
+                { count: 4, item: 'create_dd:diamond_shard' },
+                { chance: 0.50, item: 'minecraft:amethyst_shard'}
             ]
         },
         {
@@ -54,8 +55,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_frostite',
             input: 'forge_frontier:crushed_frostite',
             results: [
-                { item: 'ad_astra:ice_shard' },
-                { chance: 0.50, item: 'minecraft:blue_ice' }
+                { count: 9, item: 'ad_astra:etrium_nugget' },
+                { chance: 0.50, item: 'ad_astra:ice_shard' }
             ]
         },
         {
@@ -111,7 +112,7 @@ ServerEvents.recipes(event => {
             input: 'forge_frontier:crushed_sulphite',
             results: [
                 { item: 'alexscaves:sulfur_dust' },
-                { chance: 0.20, item: 'createnuclear:yellowcake' }
+                { chance: 0.20, item: 'create_new_age:radioactive_thorium' }
             ]
         }
     ];
@@ -141,7 +142,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_glacium',
             input: 'forge_frontier:crushed_glacium_pile',
             results: [
-                { count: 36, item: 'create_dd:diamond_shard' }
+                { count: 36, item: 'create_dd:diamond_shard' },
+                { count: 9, chance: 0.50, item: 'minecraft:amethyst_shard'}
             ]
         },
         {
@@ -165,8 +167,8 @@ ServerEvents.recipes(event => {
             name: 'crushed_frostite',
             input: 'forge_frontier:crushed_frostite_pile',
             results: [
-                { item: 'ad_astra:ice_shard', count: 9 },
-                { chance: 0.50, item: 'minecraft:blue_ice', count: 9 }
+                { count: 81, item: 'ad_astra:etrium_nugget' },
+                { chance: 0.50, item: 'ad_astra:ice_shard', count: 9 }
             ]
         },
         {
@@ -222,7 +224,7 @@ ServerEvents.recipes(event => {
             input: 'forge_frontier:crushed_sulphite_pile',
             results: [
                 { item: 'alexscaves:sulfur', count: 9 },
-                { chance: 0.20, item: 'tfmg:sulfur_dust', count: 9 }
+                { chance: 0.20, item: 'create_new_age:radioactive_thorium', count: 9 }
             ]
         }
     ];

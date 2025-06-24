@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
 
+	// Remove Sanding Catalyst Recipe
+	event.remove({ id: 'create_connected:item_application/sanding_castlyst_from_empty_using_deployer' })
+	event.remove({ id: 'create_connected:item_application/sanding_catalyst_from_empty'})
 
 	// New Infernal Mechanism Recipe
 	event.remove({ id: 'create_dd:sequenced_assembly/infernal_mechanism'})
@@ -93,6 +96,9 @@ ServerEvents.recipes(event => {
 		ingredients: [
 			{
 				item: 'minecraft:sugar',
+			},
+			{
+				item: 'neapolitan:dried_vanilla_pods',
 			},
 			{
 				item: 'neapolitan:dried_vanilla_pods',

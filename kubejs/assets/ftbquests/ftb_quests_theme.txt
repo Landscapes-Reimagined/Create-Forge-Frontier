@@ -90,6 +90,12 @@ background: ad_astra:textures/painting/the_milky_way.png
 [610BFEF0F735DD2C]
 background: ftb:textures/artifact_screenshot.png
 
+[0CE6820F547BF2F4]
+background: ftb:textures/storage_screenshot.png
+
+[09122EB4ABF3FEBA]
+background: ftb:textures/ae_screenshot.png
+
 [0684E7A732E3B8B1]
 background: ftb:textures/overworld_screenshot.png
 

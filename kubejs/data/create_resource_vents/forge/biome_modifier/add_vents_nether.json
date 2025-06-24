@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge_frontier:regions_unexplored_nether",
+  "features": [
+    "create_resource_vents:placed_scorchia_vent"
+  ],
+  "step": "underground_decoration"
+}

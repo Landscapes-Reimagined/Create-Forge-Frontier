@@ -1,0 +1,4673 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_storage"
+	group: "37A1080736831E36"
+	icon: "minecraft:chest"
+	id: "0CE6820F547BF2F4"
+	images: [
+		{
+			height: 3.0d
+			image: "ftb:textures/vanilla_storage_title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/backpacks_title.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: -16.5d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/soph_storage_title.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 16.5d
+			y: -7.5d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/backpack_upgrades.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/storage_upgrades.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Chest is most likely going to be the first way that you store your items more permanantly. Crafted from Logs or Planks, the Chest can hold 27 stacks of items."
+				""
+				"Combining two chests into a double chest by placing them beside each other nets you 54 total stacks of item storage - perfect for storing your early game spoils."
+			]
+			icon: "minecraft:chest"
+			id: "183F457F923574A9"
+			rewards: [
+				{
+					count: 8
+					id: "18C6593728736320"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25D7B9EE3586F5E0"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "5D39617A9B0A7EC2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Simple Storage"
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "70367235C1DD570D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Craft any Wooden Chest"
+				type: "item"
+			}]
+			title: "The Chest"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["183F457F923574A9"]
+			description: ["Craft a Sophisticated Chest to take your first step into modular storage!"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "27E8DCC49097729D"
+			rewards: [
+				{
+					count: 4
+					id: "021ADB8CB1BB393B"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "366A1F257E85C239"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "053F967DBAADCAFC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_chest_tier_0"
+					}
+				}
+				title: "Any Sophisticated Chest"
+				type: "item"
+			}]
+			title: "A More... Sophisticated Chest!"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The Backpack is an extremely useful item for any modded player."
+				""
+				"It greatly expands your available inventory space, and Sophisticated Backpacks are especially valuable due to their upgradable size and numerous available upgrades."
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "5293F43761080FC7"
+			rewards: [
+				{
+					id: "64FAA14736F67677"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					id: "4304D3C969C7C634"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.25d
+			subtitle: "Carry More With Ease"
+			tasks: [{
+				id: "1B885FE09AE69117"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_backpacks_tier_0"
+					}
+				}
+				title: "Any Color Backpack"
+				type: "item"
+			}]
+			title: "The Backpack"
+			x: -21.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["59AB4308055958B4"]
+			description: [
+				"The Shulker Box functions similarly to the Barrel, but retains any items stored inside when broken. The Shulker Box is crafted with Shulker Shells and a Chest, or you can brave an End City to find Shulker Boxes at the top of any spire."
+				""
+				"{image:ftb:textures/shulker_boxes_end_city.png width:200 height:100 align:center}"
+			]
+			hide_dependent_lines: true
+			id: "59C6ABA909E33EE4"
+			rewards: [
+				{
+					count: 2
+					id: "384ACB06936DBBEF"
+					item: "ends_delight:grilled_shulker"
+					type: "item"
+				}
+				{
+					id: "47B38BA90173796D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Vanilla's Backpack"
+			tasks: [{
+				icon: "minecraft:shulker_box"
+				id: "681BA5CB14FF0576"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:shulker_boxes"
+					}
+				}
+				title: "Craft (or Find) a Shulker Box"
+				type: "item"
+			}]
+			title: "The Shulker Box"
+			x: -3.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["183F457F923574A9"]
+			description: ["The Hopper Pulls items from an inventory above, and puts them into the inventory that the bottom of the Hopper points into. You can make the bottom of the Hopper face into an inventory by shift right clicking when you place the Hopper."]
+			id: "06561799D9C0ADD8"
+			rewards: [
+				{
+					count: 8
+					id: "402B1242A018504D"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "0F996E9908BA9666"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "Early Game Item Transfer"
+			tasks: [{
+				id: "41EFF307BF663DF8"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "The Hopper"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"The Barrel Functions similarly to the Chest, but it does not require an empty space above it to be opened. The only downside is that you cannot combine the inventory of two Barrels. "
+				""
+				"The Barrel holds 27 stacks of items."
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:barrel"
+			id: "320A7F10EF29D32A"
+			rewards: [
+				{
+					count: 8
+					id: "31760AA6A64575A2"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A241C5B25F50651"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "33AA52795C54A643"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Great for Tight Spaces"
+			tasks: [{
+				id: "7197A06FC54AFB80"
+				item: "minecraft:barrel"
+				title: "Craft a Barrel"
+				type: "item"
+			}]
+			title: "The Barrel"
+			x: 3.75d
+			y: -7.5d
+		}
+		{
+			description: ["Craft an Upgrade Base as the foundation for all backpack upgrades."]
+			hide_dependent_lines: true
+			id: "00F55F59CCBED490"
+			rewards: [
+				{
+					count: 8
+					id: "52BAE48E823F9809"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "4F1FA66C2FE932FC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Better Backpacks"
+			tasks: [{
+				id: "1964FEF547DD5627"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			title: "The Upgrade Base"
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["320A7F10EF29D32A"]
+			description: ["Craft a Sophisticated Barrel to improve your modular storage! "]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:barrel"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "572D231945E480DF"
+			rewards: [
+				{
+					count: 4
+					id: "2C005542864B742E"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "6DCF4BDC4B69B1A5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "714310FC690FCAB0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_barrels_tier_0"
+					}
+				}
+				title: "Any Sophisticated Barrel"
+				type: "item"
+			}]
+			title: "Meet The Sophisticated Barrel"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27E8DCC49097729D"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:copper_chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "64CC5F45FEA9D2CD"
+			rewards: [
+				{
+					count: 2
+					id: "32037ABDAD65EDDA"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "054609424CA76278"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "5179FD4260662BB9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_chest_tier_1"
+					}
+				}
+				title: "Any Copper Chest"
+				type: "item"
+			}]
+			title: "Copper Chest"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27E8DCC49097729D"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "6D31F7A69A4CF7D3"
+			rewards: [
+				{
+					count: 2
+					id: "2FDBC80647C1F77B"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "6C45C7D5962AF538"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "378FBF76D357F41C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_chest_tier_2"
+					}
+				}
+				title: "Any Iron Chest"
+				type: "item"
+			}]
+			title: "Iron Chest"
+			x: 15.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6D31F7A69A4CF7D3"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:gold_chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "2829D20C20E3B4A5"
+			rewards: [
+				{
+					count: 2
+					id: "05A7F192AEA74AA6"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "155926736BDF465A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "4A26FA45A682C37E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_chest_tier_3"
+					}
+				}
+				title: "Any Gold Chest"
+				type: "item"
+			}]
+			title: "Gold Chest"
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2829D20C20E3B4A5"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "33BEDDB09EAC820E"
+			rewards: [
+				{
+					count: 2
+					id: "66D881A7A6BB6D6F"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "10D5DF937ED85D94"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "1D882517E743A404"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_chest_tier_4"
+					}
+				}
+				title: "Any Diamond Chest"
+				type: "item"
+			}]
+			title: "Diamond Chest"
+			x: 20.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33BEDDB09EAC820E"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:netherite_chest"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "6FAA2C7E8E415312"
+			rewards: [
+				{
+					count: 2
+					id: "3FC4C5F8ED87FE11"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "5CDF0FF7A4E72828"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "13857B1C31727384"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_chest_tier_5"
+					}
+				}
+				title: "Any Netherite Chest"
+				type: "item"
+			}]
+			title: "Netherite Chest"
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["572D231945E480DF"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:copper_barrel"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "33528EA2F97CCC3B"
+			rewards: [
+				{
+					count: 2
+					id: "662F6B16B6F05B56"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "76A87B88C4C529B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "7608113DF338EA90"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_barrels_tier_1"
+					}
+				}
+				title: "Any Copper Barrel"
+				type: "item"
+			}]
+			title: "Copper Barrel"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["572D231945E480DF"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:iron_barrel"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "26F4992A2E8B0F76"
+			rewards: [
+				{
+					count: 2
+					id: "2B83C8CEF300BA19"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "2CFCD8176AF12AF2"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "476568B78BFDF753"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_barrels_tier_2"
+					}
+				}
+				title: "Any Iron Barrel"
+				type: "item"
+			}]
+			title: "Iron Barrel"
+			x: 15.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26F4992A2E8B0F76"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:gold_barrel"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "4B9997A9F6375101"
+			rewards: [
+				{
+					count: 2
+					id: "7B8D0FE97D203A39"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "50BB06C8B3029C51"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "1565E08AA848F6A2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_barrels_tier_3"
+					}
+				}
+				title: "Any Gold Barrel"
+				type: "item"
+			}]
+			title: "Gold Barrel"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B9997A9F6375101"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_barrel"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "32F2ECAB4646F286"
+			rewards: [
+				{
+					count: 2
+					id: "25BC8D71FCCAB9A6"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "0144AD8D81C032D7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "00324C8A2B83F372"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_barrels_tier_4"
+					}
+				}
+				title: "Any Diamond Barrel"
+				type: "item"
+			}]
+			title: "Diamond Barrel"
+			x: 20.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32F2ECAB4646F286"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:netherite_barrel"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "5047F18979F4273D"
+			rewards: [
+				{
+					count: 2
+					id: "51CD6527FC980E6D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "205E7C09F613C64D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "1B9CA464BDB8D789"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_barrels_tier_5"
+					}
+				}
+				title: "Any Netherite Barrel"
+				type: "item"
+			}]
+			title: "Netherite Barrel"
+			x: 22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["320A7F10EF29D32A"]
+			description: ["Craft a Limited Barrel I to store to one unique item type."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_barrel_1"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "4ACBBDA3CF0F41B5"
+			rewards: [
+				{
+					count: 4
+					id: "519C573934D60684"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "4EAED15D340CF00C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "409A3142262AF0C6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_1_tier_0"
+					}
+				}
+				title: "Any Limited Barrel I"
+				type: "item"
+			}]
+			title: "The Limited Barrel I"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["320A7F10EF29D32A"]
+			description: ["Craft a Limited Barrel II to store up to two unique item types."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_barrel_2"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "128AF180AA7C7CAE"
+			rewards: [
+				{
+					count: 4
+					id: "4D11DA0EA16535AE"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "3957E925EC180009"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "57010937DCA782FB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_2_tier_0"
+					}
+				}
+				title: "Any Limited Barrel II"
+				type: "item"
+			}]
+			title: "The Limited Barrel II"
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["320A7F10EF29D32A"]
+			description: ["Craft a Limited Barrel III to store up to three unique item types."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_barrel_3"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "505874CEA9044C30"
+			rewards: [
+				{
+					count: 4
+					id: "58FE04B5EFE61A14"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "7994F47A242AF2D3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "2C0F6C793496693C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_3_tier_0"
+					}
+				}
+				title: "Any Limited Barrel III"
+				type: "item"
+			}]
+			title: "The Limited Barrel III"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["320A7F10EF29D32A"]
+			description: ["Craft a Limited Barrel IV to store up to four unique item types."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_barrel_4"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "47EC70ACD1868B94"
+			rewards: [
+				{
+					count: 4
+					id: "0B73AE88B33887C3"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "485FC2A0AAE1E7F8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "26EEB72CEA8F98BC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_4_tier_0"
+					}
+				}
+				title: "Any Limited Barrel IV"
+				type: "item"
+			}]
+			title: "The Limited Barrel IV"
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4ACBBDA3CF0F41B5"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_copper_barrel_1"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "17F923593B3EF488"
+			rewards: [
+				{
+					count: 2
+					id: "341BC93E66E937F8"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "40851155DF1002EE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "36B90E0ABC0F7DFA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_1_tier_1"
+					}
+				}
+				title: "Any Limited Copper Barrel I"
+				type: "item"
+			}]
+			title: "Limited Copper Barrel I"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128AF180AA7C7CAE"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_copper_barrel_2"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "24C624E51532EFD8"
+			rewards: [
+				{
+					count: 2
+					id: "34FC4869E49BCFFB"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "7FD069789C6E38DD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "63125CC4DFE08931"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_2_tier_1"
+					}
+				}
+				title: "Any Limited Copper Barrel II"
+				type: "item"
+			}]
+			title: "Limited Copper Barrel II"
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["505874CEA9044C30"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_copper_barrel_3"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "2D5FE134E2FEF321"
+			rewards: [
+				{
+					count: 2
+					id: "048A5EB4A4714531"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "04CFA44B23750704"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "55D54EA61A2CDDDE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_3_tier_1"
+					}
+				}
+				title: "Any Limited Copper Barrel III"
+				type: "item"
+			}]
+			title: "Limited Copper Barrel III"
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["47EC70ACD1868B94"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_copper_barrel_4"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "67C34573A386B114"
+			rewards: [
+				{
+					count: 2
+					id: "1C4C04F7E7AB32C0"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "378585042E0CBD26"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "6E73424C546454B1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_4_tier_1"
+					}
+				}
+				title: "Any Limited Copper Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Copper Barrel IV"
+			x: 13.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4ACBBDA3CF0F41B5"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_iron_barrel_1"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "6CDFB8F04F6A2538"
+			rewards: [
+				{
+					count: 2
+					id: "1902F75555DEDEE2"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "4230FC606C22BC4D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "55B8F5A31555E93E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_1_tier_2"
+					}
+				}
+				title: "Any Limited Iron Barrel I"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel I"
+			x: 15.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6CDFB8F04F6A2538"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_gold_barrel_1"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "0051EBEFAA6DD079"
+			rewards: [
+				{
+					count: 2
+					id: "496B34E92230DDD4"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "10C9DDF341140ECE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "299295E80FD1054F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_1_tier_3"
+					}
+				}
+				title: "Any Limited Gold Barrel I"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel I"
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0051EBEFAA6DD079"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_diamond_barrel_1"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "2C52B47EA125F8C2"
+			rewards: [
+				{
+					count: 2
+					id: "51086D485B79D573"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "4601EE7C95FF9E8E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "1FADCE20CF5F7B83"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_1_tier_4"
+					}
+				}
+				title: "Any Limited Diamond Barrel I"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel I"
+			x: 20.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C52B47EA125F8C2"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_netherite_barrel_1"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "57F6EA1AC7127C5D"
+			rewards: [
+				{
+					count: 2
+					id: "532C7E2390EB6BB6"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "30AD065C44DDC74A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "6B6DB9F352A33EC1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_1_tier_5"
+					}
+				}
+				title: "Any Limited Netherite Barrel I"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel I"
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128AF180AA7C7CAE"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_iron_barrel_2"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "229BB23242D3C8FB"
+			rewards: [
+				{
+					count: 2
+					id: "2D444BFD1BB47638"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "3E203059F30FB849"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "272562E4AA7E1377"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_2_tier_2"
+					}
+				}
+				title: "Any Limited Iron Barrel II"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel II"
+			x: 15.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["229BB23242D3C8FB"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_gold_barrel_2"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "26BC60112CFB9638"
+			rewards: [
+				{
+					count: 2
+					id: "0AAF16FAFDA722E4"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3872DE652489804D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "57584A866B73392A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_2_tier_3"
+					}
+				}
+				title: "Any Limited Gold Barrel II"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel II"
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["26BC60112CFB9638"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_diamond_barrel_2"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "2AABC74B8F726E4F"
+			rewards: [
+				{
+					count: 2
+					id: "4E960326783C48F2"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "7BA619DD1FB23D30"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "3CE05F42EA7619AB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_2_tier_4"
+					}
+				}
+				title: "Any Limited Diamond Barrel II"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel II"
+			x: 20.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AABC74B8F726E4F"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_netherite_barrel_2"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "50315284822D0BD2"
+			rewards: [
+				{
+					count: 2
+					id: "2BB9B630DB8C753A"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2F44F6CD6A3B02EF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "1CA9E083A9016C80"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_2_tier_5"
+					}
+				}
+				title: "Any Limited Netherite Barrel II"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel II"
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["505874CEA9044C30"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_iron_barrel_3"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "0F3C8BF445516395"
+			rewards: [
+				{
+					count: 2
+					id: "0F79BF306018D1C5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "5DEEA3FE9767CB0B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "2B67402DEC64CB92"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_3_tier_2"
+					}
+				}
+				title: "Any Limited Iron Barrel III"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel III"
+			x: 15.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0F3C8BF445516395"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_gold_barrel_3"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "6ECAA1EC80A258B8"
+			rewards: [
+				{
+					count: 2
+					id: "0AB99484FBD95755"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "5B93AB854E25192B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "1A9F59650B9AA5A2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_3_tier_3"
+					}
+				}
+				title: "Any Limited Gold Barrel III"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel III"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6ECAA1EC80A258B8"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_diamond_barrel_3"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "4967A38ADB2FDADE"
+			rewards: [
+				{
+					count: 2
+					id: "1A0C483942907B5A"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "11C9EAA50F0FCFBE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "256F2A7B68018703"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_3_tier_4"
+					}
+				}
+				title: "Any Limited Diamond Barrel III"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel III"
+			x: 20.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4967A38ADB2FDADE"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_netherite_barrel_3"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "50AA2E7A06290FCE"
+			rewards: [
+				{
+					count: 2
+					id: "7BCE6F4CC372D5B0"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "37D61546A31739B2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "56731861B8C981C2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_3_tier_5"
+					}
+				}
+				title: "Any Limited Netherite Barrel III"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel III"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["47EC70ACD1868B94"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_iron_barrel_4"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "252ECF54306FE402"
+			rewards: [
+				{
+					count: 2
+					id: "273B66431219D29F"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "0A13CC8C70EDE9A3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "0D40F8354F53953A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_4_tier_2"
+					}
+				}
+				title: "Any Limited Iron Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Iron Barrel IV"
+			x: 15.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["252ECF54306FE402"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_gold_barrel_4"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "591386B4D56EE1B5"
+			rewards: [
+				{
+					count: 2
+					id: "7EB4903876377338"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "4A2994D5F9FDA467"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "07D85E40ED9B5B21"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_4_tier_3"
+					}
+				}
+				title: "Any Limited Gold Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Gold Barrel IV"
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["591386B4D56EE1B5"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_diamond_barrel_4"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "2742B540FA690CEB"
+			rewards: [
+				{
+					count: 2
+					id: "3FFF08FE71244091"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "58A8184191491240"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "38AFAAB45C6AF0FA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_4_tier_4"
+					}
+				}
+				title: "Any Limited Diamond Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Diamond Barrel IV"
+			x: 20.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2742B540FA690CEB"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:limited_netherite_barrel_4"
+				tag: {
+					woodType: "spruce"
+				}
+			}
+			id: "42E93072D1FC429D"
+			rewards: [
+				{
+					count: 2
+					id: "5D0B6C039A2CEBDA"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2B293D93DC88C7AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "2B53C788A677699E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_limited_barrels_4_tier_5"
+					}
+				}
+				title: "Any Limited Netherite Barrel IV"
+				type: "item"
+			}]
+			title: "Limited Netherite Barrel IV"
+			x: 22.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["59C6ABA909E33EE4"]
+			description: ["Craft a Sophisticated Shulker and take portable storage to the next level."]
+			icon: "sophisticatedstorage:shulker_box"
+			id: "342C0ED22A03A83B"
+			rewards: [
+				{
+					count: 4
+					id: "0B66086E09345FE1"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "153367DC485F8269"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "6BCD664876608BCD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_shulker_box_tier_0"
+					}
+				}
+				title: "Any Sophisticated Shulker Box"
+				type: "item"
+			}]
+			title: "Sophisticated Shulker Box"
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["342C0ED22A03A83B"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			icon: "sophisticatedstorage:copper_shulker_box"
+			id: "64E484C1522F7FD2"
+			rewards: [
+				{
+					count: 2
+					id: "495DB5F9F227316D"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "30D5B64C1320D004"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "54AB072D5BD90B16"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_shulker_box_tier_1"
+					}
+				}
+				title: "Any Copper Shulker Box"
+				type: "item"
+			}]
+			title: "Copper Shulker Box"
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["342C0ED22A03A83B"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			icon: "sophisticatedstorage:iron_shulker_box"
+			id: "3ED2E6500B6D497A"
+			rewards: [
+				{
+					count: 2
+					id: "71C681595EFCA1F6"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "2AFDC6AB1646248A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "34CF30E5395DA21E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_shulker_box_tier_2"
+					}
+				}
+				title: "Any Iron Shulker Box"
+				type: "item"
+			}]
+			title: "Iron Shulker Box"
+			x: 15.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3ED2E6500B6D497A"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			icon: "sophisticatedstorage:gold_shulker_box"
+			id: "49BD7EE724709F4A"
+			rewards: [
+				{
+					count: 2
+					id: "17D3B65A580B4FC5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "669835C5260CC1F2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "0CCF271EA67D467C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_shulker_box_tier_3"
+					}
+				}
+				title: "Any Gold Shulker Box"
+				type: "item"
+			}]
+			title: "Gold Shulker Box"
+			x: 18.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["49BD7EE724709F4A"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			icon: "sophisticatedstorage:diamond_shulker_box"
+			id: "3F3092D0B0AACC5D"
+			rewards: [
+				{
+					count: 2
+					id: "2A2C83D062A7E515"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "54665AE08EE3883C"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "13770D4C8411A9FB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_shulker_box_tier_4"
+					}
+				}
+				title: "Any Diamond Shulker Box"
+				type: "item"
+			}]
+			title: "Diamond Shulker Box"
+			x: 20.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3F3092D0B0AACC5D"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			icon: "sophisticatedstorage:netherite_shulker_box"
+			id: "1B594FD64F447695"
+			rewards: [
+				{
+					count: 2
+					id: "2BFD6ADBFF07DEA7"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "24DEDDBDB6488345"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "5EA1FA7AE77EC064"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:sophisticated_shulker_box_tier_5"
+					}
+				}
+				title: "Any Netherite Shulker Box"
+				type: "item"
+			}]
+			title: "Netherite Shulker Box"
+			x: 22.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5293F43761080FC7"]
+			description: ["Slightly improved inventory size and additional upgrade slots."]
+			id: "7D72FC14D1434991"
+			rewards: [
+				{
+					count: 2
+					id: "2938E1BFCF945EE6"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "3B7365FE5F100902"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Expanded Storage"
+			tasks: [{
+				id: "3BD79083DE3463C0"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5293F43761080FC7"]
+			description: ["Increased inventory capacity and extra upgrade capacity for more enhancements."]
+			id: "7A2C9931EF7303E0"
+			rewards: [
+				{
+					count: 2
+					id: "7049315D1729AD60"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "12D19BCA3D7E44E5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.5d
+			subtitle: "Improved Storage"
+			tasks: [{
+				id: "3DF13E95156D27B7"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: -17.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["7A2C9931EF7303E0"]
+			description: ["Greatly expanded storage and plenty of upgrade slots for versatile customization."]
+			id: "2220E3A26F2DCB16"
+			rewards: [
+				{
+					count: 2
+					id: "4A16D5A4867C36C5"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "5FF632A658A16CED"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.5d
+			subtitle: "Superior Storage"
+			tasks: [{
+				id: "7BAE3BA55C5D92B7"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2220E3A26F2DCB16"]
+			description: ["Massive inventory space and exceptional upgrade capacity."]
+			id: "5DDD833D0AA2EE22"
+			rewards: [
+				{
+					count: 2
+					id: "289F5E5668EBF59E"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "7190E66C61E2B2AA"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			subtitle: "Advanced Storage"
+			tasks: [{
+				id: "0EE12D2789BCD3DC"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: -12.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5DDD833D0AA2EE22"]
+			description: ["Maximum inventory size with unparalleled upgrade capacity."]
+			id: "405182E6276C8F60"
+			rewards: [
+				{
+					id: "6A734684658D4A4F"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "3467E2DD8B37A0DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Maximum Storage"
+			tasks: [{
+				id: "4D97305AF93377C1"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Pickup Upgrade allows your backpack to pick up items near it."]
+			icon: "sophisticatedbackpacks:pickup_upgrade"
+			id: "3B9966F613776150"
+			rewards: [
+				{
+					count: 2
+					id: "6CFB13F6827395E5"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "22267A72D84F0A9A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Collect Nearby Items"
+			tasks: [{
+				id: "6D05333448E62726"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3B9966F613776150"]
+			description: ["The Advanced Pickup Upgrade extends the filter of the Pickup Upgrade. "]
+			id: "132765BA2F30CC26"
+			rewards: [
+				{
+					count: 2
+					id: "5543EF5DD599B08F"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "7D32F1DEFD18C21F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Collect With Smarter Filters"
+			tasks: [{
+				id: "6E8A754D5190A48D"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Filter Upgrade allows you to control what is filtered into and out of the backpack."]
+			id: "4B57C94F47127DE6"
+			rewards: [
+				{
+					count: 4
+					id: "4DC4B18220952136"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					id: "2844C5CA40BD865B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Control Item Flow"
+			tasks: [{
+				id: "27DD9959E3353752"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4B57C94F47127DE6"]
+			description: ["The Advanced Filter Upgrade has expanded filtering options. "]
+			id: "0D5B4CDC777CFB35"
+			rewards: [
+				{
+					count: 4
+					id: "52E67333FB76CA07"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+				{
+					id: "3A27F1C356D1DEDE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Precise Filtering Options"
+			tasks: [{
+				id: "591A52DA0CFD2001"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Magnet Upgrade allows your backpack to pickup items from up to 6 blocks away."]
+			id: "2438077A1699D28E"
+			rewards: [
+				{
+					count: 2
+					id: "1CDFBE94A1C25057"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "346261F423DD6C9A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Pull Items From Afar"
+			tasks: [{
+				id: "4DB3B4B2E22E6BD5"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2438077A1699D28E"]
+			description: ["The Advanced Magnet Upgrade allows your backpack to pickup items from up to 12 blocks away."]
+			id: "2700CE2D3F5DC9B6"
+			rewards: [
+				{
+					count: 2
+					id: "387AC65C672946B0"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "281B8C6BC8E1217B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Extended Range \\& Filters"
+			tasks: [{
+				id: "1F9EFF59543A97B3"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Feeding Upgrade allows you to feed yourself from your backpack automatically. "]
+			id: "227026C7607F987A"
+			rewards: [
+				{
+					count: 16
+					id: "5437DBF47B479EFC"
+					item: "createfood:cheeseburger"
+					type: "item"
+				}
+				{
+					id: "09EC8703CADF952A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Auto Feed Stored Food"
+			tasks: [{
+				id: "4469BCC79C9035E5"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["227026C7607F987A"]
+			description: ["The Advanced Feeding Upgrade allows you to choose when/how you are fed from your backpack."]
+			id: "0F33D77CD83A9C2E"
+			rewards: [
+				{
+					count: 2
+					id: "4F142C7937FA8FD9"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "058B23227A15761A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Customizable Feeding"
+			tasks: [{
+				id: "0E1F95C982E10455"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Compacting Upgrade allows the compression of 2x2 recipes. "]
+			id: "2512B973911B0BCD"
+			rewards: [
+				{
+					count: 2
+					id: "30CA29CA58B271EC"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "3711E441D8ACBBB7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Instantly Combine Resources"
+			tasks: [{
+				id: "753626BD7A649908"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2512B973911B0BCD"]
+			description: ["The Advanced Compacting Upgrade allows your backpack to automatically complete 2x2 and 3x3 compressing."]
+			id: "7803B296A41309A2"
+			rewards: [
+				{
+					count: 2
+					id: "2C587C174090E546"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3B6FA6B473D0CDAE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Compacts 3x3 Recipes"
+			tasks: [{
+				id: "175CA1FD6029D2AD"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: [
+				"The Void Upgrade automatically destroys unwanted items, keeping your inventories free of excess materials."
+				""
+				"Configure it with a whitelist or blacklist, and choose whether it applies to automated inputs, manual inputs, or both. You can also set it to void all items or only excess stock."
+			]
+			id: "36AF9E6A2B889AD2"
+			rewards: [
+				{
+					count: 4
+					id: "4F9D2ADAD4720FEA"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "7629BFE9EC55424A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Destroy Unwanted Items"
+			tasks: [{
+				id: "4CDA162D8BB20228"
+				item: "sophisticatedbackpacks:void_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["36AF9E6A2B889AD2"]
+			description: ["The Advanced Void Upgrade has more filtering options."]
+			id: "4F0D3722425E065B"
+			rewards: [
+				{
+					count: 2
+					id: "5B8182039A6A0AB3"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3B5D9223A0094E18"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhanced Destruction"
+			tasks: [{
+				id: "014C48F4BBC8919B"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Restock Upgrade allows your backpack to fill itself from an inventory."]
+			id: "08F27E0DB341A20C"
+			rewards: [
+				{
+					count: 2
+					id: "3BCC488049634DF4"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "1E368AC7052A3F08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Easily Collect Resources"
+			tasks: [{
+				id: "4F20F4832697551B"
+				item: "sophisticatedbackpacks:restock_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08F27E0DB341A20C"]
+			description: ["With the Advanced Restock Upgrade, you can set more filters to determine exactly which items your backpack restocks."]
+			id: "42A9D326D201DB84"
+			rewards: [
+				{
+					count: 2
+					id: "0841594D1838C376"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "5DD8E2E632FD6CB2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhanced Stocking"
+			tasks: [{
+				id: "53AEAB4606049777"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Deposit Upgrade easily allows you to empty your backpack's contents. "]
+			id: "5E60770B2229A23E"
+			rewards: [
+				{
+					count: 2
+					id: "2A04A10BAA92A2EF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "0C289FFFB0D6ECA4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Built in Chute"
+			tasks: [{
+				id: "06FD3547E65BFD53"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5E60770B2229A23E"]
+			description: [
+				"The Advanced Deposit Upgrade gives you greater control over which items are taken from your backpack when you deposit its contents."
+				""
+				"With the Advanced Deposit Upgrade, you can precisely filter which items are pulled from your backpack during deposits."
+			]
+			id: "5707DFD4E5AAAA52"
+			rewards: [
+				{
+					count: 2
+					id: "55AF0D66C43FD63F"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "42C755B32E648F42"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Filter Your Deposits"
+			tasks: [{
+				id: "21A034A7224EED69"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Keeps selected items restocked in the player’s inventory."]
+			id: "717F280D790E35DE"
+			rewards: [
+				{
+					count: 2
+					id: "16887F094E0D6459"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "3A9B23FB56E277E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "A Builder's Dream"
+			tasks: [{
+				id: "3C5E942E9C1B09A6"
+				item: "sophisticatedbackpacks:refill_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["717F280D790E35DE"]
+			description: [
+				"Keeps selected items restocked in the player’s inventory."
+				""
+				"Allows precise control over target slots for refilling."
+				""
+				"Supports middle-clicking blocks to pick them from the backpack."
+			]
+			id: "4B7A6789ABDFA0E3"
+			rewards: [
+				{
+					count: 2
+					id: "47DAE62A43E517FC"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "08A57B94968516E3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Picks Blocks From Pack!"
+			tasks: [{
+				id: "09180F7012C042BB"
+				item: "sophisticatedbackpacks:advanced_refill_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Smelting Upgrade adds a built-in furnace to your Backpack."]
+			id: "40FB2C4485E51396"
+			rewards: [
+				{
+					count: 2
+					id: "233CFE3BC5D1FE95"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "71F168E29FB7EECE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Smelt Items Inside"
+			tasks: [{
+				id: "296CBE822295D3CA"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40FB2C4485E51396"]
+			description: ["The Auto-smelting upgrade will automatically smelt items in your backpack for you."]
+			id: "50D1A02014D2CA6F"
+			rewards: [
+				{
+					count: 2
+					id: "5FEF8B903564827C"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "6C7FBBDE2A57F3B1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Efficient Smelting"
+			tasks: [{
+				id: "2E2669CC9D9E3DC7"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Smoking Upgrade adds a built-in smoker to your backpack."]
+			id: "398E58182E281F3A"
+			rewards: [
+				{
+					count: 2
+					id: "185FFF0FE1BA28B5"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "1EC3A30B075B49E3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Faster Cooking"
+			tasks: [{
+				id: "4CE35CA73E8DDB09"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["398E58182E281F3A"]
+			description: ["The Auto-smoking upgrade will automatically smoke items in your backpack for you."]
+			id: "75E2D4788396C657"
+			rewards: [
+				{
+					count: 2
+					id: "70BB07A74AF4395C"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "1D447B2A6F705AA2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Efficient Smoking"
+			tasks: [{
+				id: "22215F2F3D53C47B"
+				item: "sophisticatedbackpacks:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Blasting Upgrade adds a built-in Blast Furnace to your Backpack."]
+			id: "032EE4AF9507D400"
+			rewards: [
+				{
+					count: 2
+					id: "4066D5D3AA9A910E"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "4000E4132CF8E8C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Ore Smelter"
+			tasks: [{
+				id: "53AAF6700EC60301"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["032EE4AF9507D400"]
+			description: ["The Auto-blasting upgrade will automatically blast items in your backpack for you."]
+			id: "783EF1936B9A6573"
+			rewards: [
+				{
+					count: 2
+					id: "2FEFBFA0D586D718"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "1C4C1E3AB588BFEF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Better Blasting"
+			tasks: [{
+				id: "531AFCABA9525B83"
+				item: "sophisticatedbackpacks:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Jukebox Upgrade allows you to play music from your backpack."]
+			id: "2673FE58A133278B"
+			rewards: [
+				{
+					id: "741F8C45DEC000F7"
+					item: "alexsmobs:music_disc_thime"
+					type: "item"
+				}
+				{
+					id: "440AA6DE58635140"
+					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+				{
+					id: "77ACABDF05DFA1CD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Play Music Discs"
+			tasks: [{
+				id: "107237F6650A5D86"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2673FE58A133278B"]
+			description: ["The Advanced Jukebox Upgrade allows you to store more discs and also control how they are played."]
+			id: "3FC8942A5B5F4642"
+			rewards: [
+				{
+					id: "03326160999BC1A7"
+					item: "minecraft:music_disc_relic"
+					type: "item"
+				}
+				{
+					id: "4016586893BAC680"
+					item: "alexsmobs:music_disc_daze"
+					type: "item"
+				}
+				{
+					id: "37F639C8BA5C9D24"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "More Music Options"
+			tasks: [{
+				id: "4C5EFD76F2FDC353"
+				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Tool Swapper Upgrade swaps the tool in the Player's hand for the tool that is effective against the block being mined. Does not have any filtering options."]
+			id: "31159F256FA65BE2"
+			rewards: [
+				{
+					count: 2
+					id: "4DF60C6486E236E3"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "6BD856626266007A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Automated Breaking"
+			tasks: [{
+				id: "28408E8140C4C319"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["31159F256FA65BE2"]
+			description: ["The Advanced Tool Swapper has more options for when to swap tools, and can allow swapping between more tools. "]
+			id: "7FA7A11BC046AD05"
+			rewards: [
+				{
+					count: 2
+					id: "6743C6389BE17BFD"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59A4F730854428E1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhanced Swapping"
+			tasks: [{
+				id: "0B147D31AF2B495F"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Pump Upgrade allows you to pump fluids from the Tank Upgrade in your Backpack to an adjacent fluid storage in the world."]
+			id: "6285CC58E2234A32"
+			rewards: [
+				{
+					count: 16
+					id: "74D686964F863BAC"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "736AD286305C09A4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Fluid Flow"
+			tasks: [{
+				id: "0224E9C9E9631417"
+				item: "sophisticatedbackpacks:pump_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6285CC58E2234A32"]
+			description: [
+				"The Advanced Pump upgrade allows the Backpack to pump fluids from the world into a Tank Upgrade in the Backpack."
+				""
+				"The Experience Pump moves Player Experience into the Tank Upgrade."
+			]
+			icon: "sophisticatedbackpacks:advanced_pump_upgrade"
+			id: "39B8EF120F4EFA31"
+			rewards: [
+				{
+					count: 4
+					id: "1DAF0DE359293D15"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3FF3BF16DE76866C"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "5CA02EAC19AD25D6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Advanced Fluid Applications"
+			tasks: [
+				{
+					id: "0788148932E838DF"
+					item: "sophisticatedbackpacks:advanced_pump_upgrade"
+					type: "item"
+				}
+				{
+					id: "72AB15A307E4AEC5"
+					item: "sophisticatedbackpacks:xp_pump_upgrade"
+					type: "item"
+				}
+			]
+			title: "Advanced Pumping"
+			x: -11.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Tank Upgrade allows you to store fluids inside a backpack."]
+			id: "04DB8F114A1C502F"
+			rewards: [
+				{
+					count: 8
+					id: "6E39978662B0B3CD"
+					item: "create_connected:fluid_vessel"
+					type: "item"
+				}
+				{
+					id: "541ECA538AE13723"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Fluid Storage"
+			tasks: [{
+				id: "7BB9550F694B40DF"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Inception Upgrade allows your Backpack to hold other Backpacks. "]
+			id: "245B1CDEC6C06C01"
+			rewards: [
+				{
+					id: "1C1BEA8A07AC7B2A"
+					item: "createcompression:nether_star_block"
+					type: "item"
+				}
+				{
+					id: "30860F0DFE253461"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Backpack Squared"
+			tasks: [{
+				id: "3C243CCA88A5260B"
+				item: "sophisticatedbackpacks:inception_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Battery Upgrade stores energy, and the amount stored scales with the level of the Backpack."]
+			id: "79FEF0F9B53C7CBA"
+			rewards: [
+				{
+					count: 2
+					id: "197929DD8F057096"
+					item: "forge_frontier:overcharged_iron_block"
+					type: "item"
+				}
+				{
+					id: "6D8BF51A586F1AAB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Potential Energy"
+			tasks: [{
+				id: "06F62760216EF6FE"
+				item: "sophisticatedbackpacks:battery_upgrade"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Everlasting Upgrade prevents the Backpack from being destroyed."]
+			id: "7CA5AED2A64663DD"
+			rewards: [
+				{
+					count: 2
+					id: "46979ECF23DD53D5"
+					item: "createcompression:nether_star_block"
+					type: "item"
+				}
+				{
+					id: "19CCCD242DCE95AC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Protected Pack"
+			tasks: [{
+				id: "6E8ED1C0A0D928C7"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Adds a Built-In Crafting Table to your backpack."]
+			id: "00CF5F8A0BE5D6BE"
+			rewards: [{
+				id: "3DB7AE0A4812A0A8"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Easy Crafting"
+			tasks: [{
+				id: "0469B7B28E31E246"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Adds a Built-In Stonecutter to your backpack."]
+			id: "5BB9D4289ACCAB78"
+			rewards: [{
+				id: "132DEDA96861B329"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Easy Stonecutting"
+			tasks: [{
+				id: "22F6D7281C84D252"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Adds an Anvil to your backpack."]
+			id: "092BD6148EA1C84E"
+			rewards: [{
+				id: "059D6ADA6C85315C"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Built-In Anvil"
+			tasks: [{
+				id: "1D4ECD5C6A42BCAD"
+				item: "sophisticatedbackpacks:anvil_upgrade"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Adds a Built-In Smithing Table to your backpack."]
+			id: "0B084AFCBA008501"
+			rewards: [{
+				id: "3F8300872038897F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Easy Smithing"
+			tasks: [{
+				id: "45C629B0D53D69A9"
+				item: "sophisticatedbackpacks:smithing_upgrade"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Alchemy Upgrade will automatically apply potion effects to you. "]
+			id: "74BA6DB4CE1C9B6A"
+			rewards: [
+				{
+					id: "2D46E9AB05F852F0"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38CF38D1199935F0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D521CAD49FA2125"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Effect Infuser"
+			tasks: [{
+				id: "42C8812AE9C9E261"
+				item: "sophisticatedbackpacks:alchemy_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["74BA6DB4CE1C9B6A"]
+			description: ["The Advanced Alchemy Upgrade has more filtering slots and more options for applying effects."]
+			id: "708A166A9071B4F2"
+			rewards: [
+				{
+					count: 2
+					id: "29827D30D8ED2AF4"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "37976374C11B8028"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhanced Effects"
+			tasks: [{
+				id: "4C0A3E2DB6DCB42D"
+				item: "sophisticatedbackpacks:advanced_alchemy_upgrade"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Increases max stack size to 1.5× the normal amount."]
+			id: "41CACA8C10887E4F"
+			rewards: [
+				{
+					count: 4
+					id: "26A1D63758D60CBC"
+					item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+					type: "item"
+				}
+				{
+					id: "261EBB5CDC84844A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Improved Stacking"
+			tasks: [{
+				id: "6731971510024FB0"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["Increases max stack size to 2× the normal amount."]
+			id: "0D8975C0BA0DCCFC"
+			rewards: [
+				{
+					count: 4
+					id: "1243C2EAB7268BAE"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "76C49414CBF5462F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Enhanced Stacking"
+			tasks: [{
+				id: "49CFAB222E5608F2"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D8975C0BA0DCCFC"]
+			description: ["Increases max stack size to 4x the normal amount."]
+			id: "2871843880C43A6D"
+			rewards: [
+				{
+					count: 2
+					id: "194F8A4D9F78FDC0"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "691B54C7F7600A34"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Superior Stacking"
+			tasks: [{
+				id: "5E9B53E04B0D7A41"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2871843880C43A6D"]
+			description: ["Increases max stack size to 8× the normal amount."]
+			id: "3EB04E8D5D48FB23"
+			rewards: [
+				{
+					count: 2
+					id: "039FC6F86E82CB81"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "0B94FFB5D866C4D4"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Advanced Stacking"
+			tasks: [{
+				id: "7E38764C1198EA81"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EB04E8D5D48FB23"]
+			description: ["Increases max stack size to 16× the normal amount."]
+			id: "222804BF07670F08"
+			rewards: [
+				{
+					id: "1A585A1AF691E13A"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "6C76F6658EA112AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.0d
+			subtitle: "Optimized Stacking"
+			tasks: [{
+				id: "29A43B349FFFCC8F"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["222804BF07670F08"]
+			description: ["Increases max stack size to the integer limit."]
+			id: "2F18072A0FE9872C"
+			rewards: [
+				{
+					id: "1A439249A3AC2F01"
+					item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "6ECB91E9BE30AC90"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Ultimate Stacking"
+			tasks: [{
+				id: "15E5312F3D102FED"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00F55F59CCBED490"]
+			description: ["The Stack Downgrades allow you to store less in a single stack."]
+			icon: "sophisticatedbackpacks:stack_downgrade_tier_3"
+			id: "0865A4D52C6DF9C0"
+			rewards: [
+				{
+					count: 2
+					id: "0C9758BD6E2E36FD"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "7A9E5FE8822D0484"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Lesser Stacking"
+			tasks: [
+				{
+					id: "196A874076B32DD8"
+					item: "sophisticatedbackpacks:stack_downgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "2EA0D4E140F79BC7"
+					item: "sophisticatedbackpacks:stack_downgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "246D4F0E2E269243"
+					item: "sophisticatedbackpacks:stack_downgrade_tier_3"
+					type: "item"
+				}
+			]
+			title: "Stack Downgrades"
+			x: -11.5d
+			y: 7.5d
+		}
+		{
+			description: ["Craft an Upgrade Base as the foundation for all storage upgrades."]
+			hide_dependent_lines: true
+			id: "6204BAFA02ECF1D0"
+			rewards: [
+				{
+					count: 8
+					id: "43EC51C67474C306"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "1B09CCCAE99BBC3A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Built to Be Improved"
+			tasks: [{
+				id: "4D78ECEE33A3D9DE"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Crafting Upgrade adds a built-in crafting table to your storage."]
+			id: "5E9BF682EB058DB8"
+			rewards: [{
+				id: "5FC83A19FBD14474"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Easy Crafting"
+			tasks: [{
+				id: "5FC4EFD3F1819BF8"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Stonecutter Upgrade adds a built-in Stonecutter to your storage."]
+			id: "26F5D52DC9B68FB1"
+			rewards: [{
+				id: "1B1CC679A23A4A56"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Easy Stonecutting"
+			tasks: [{
+				id: "3F9FB9D413D22EEF"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			description: [
+				"Craft some Packing Tape to safely store all items and upgrades inside a container."
+				""
+				"Break the taped container to drop it as an item. Placing it back down will automatically remove the tape."
+			]
+			id: "313832C0F71DC061"
+			rewards: [
+				{
+					count: 4
+					id: "36CA8D3F6C989EB7"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:packing_tape"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "721F2BD2CE47C3CD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Going Somewhere?"
+			tasks: [{
+				id: "12991927E90D9F75"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			description: ["Craft a Storage Tool to easily link, lock, and fine-tune your storage setup."]
+			id: "6BBDA828DE91458D"
+			rewards: [
+				{
+					count: 4
+					id: "4A5E4666421F29A3"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "05AA4506DD6695F9"
+					item: "sophisticatedstorage:basic_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "48C4E40E4BE13A07"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Configure Storage with Ease"
+			tasks: [{
+				id: "305EABDB7A52ACDE"
+				item: "sophisticatedstorage:storage_tool"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["Craft a Decoration Table to add custom colors and accents to your storage."]
+			id: "553E3AE1CDCCB0A4"
+			rewards: [
+				{
+					count: 4
+					id: "2E2872EECE77710B"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "61CC98064C55E524"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "214335626A4931B0"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "70DCD715AD98EEFC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Customize Every Detail"
+			tasks: [{
+				id: "55C23A3BA4B727AB"
+				item: "sophisticatedstorage:decoration_table"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Use a Paintbrush and dye to add a personal touch to your chests, barrels, and shulkers."]
+			id: "3A1F7478A08E677E"
+			rewards: [
+				{
+					count: 4
+					id: "1626E735892262CE"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "02D212355C5FFED2"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "14FA9490759AB0E8"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "0FD2864538E37916"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Splash on Some Color"
+			tasks: [{
+				id: "4078042F91359311"
+				item: "sophisticatedstorage:paintbrush"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Pickup Upgrade allows your storage to pick up items near it."]
+			id: "73D9AB50CAC7B7D5"
+			rewards: [
+				{
+					count: 2
+					id: "03CE1299670659DD"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "0F4A077BD5AB49C8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Collect Nearby Items"
+			tasks: [{
+				id: "074B36896E747BC2"
+				item: "sophisticatedstorage:pickup_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["73D9AB50CAC7B7D5"]
+			description: ["The Advanced Pickup Upgrade extends the filter of the Pickup Upgrade. "]
+			id: "2D9D6C5CDF09D20D"
+			rewards: [
+				{
+					count: 2
+					id: "0816D6BE45B078FB"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3C49FEBCCE7310EA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Collect With Smarter Filters"
+			tasks: [{
+				id: "43DB3A060BA5FB47"
+				item: "sophisticatedstorage:advanced_pickup_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Magnet Upgrade allows your storage to pickup items from up to 6 blocks away."]
+			id: "0F3EA33A1FD0DD53"
+			rewards: [
+				{
+					count: 2
+					id: "07DCD8BA78431BFF"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "35F229441197140C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Pull Items From Afar"
+			tasks: [{
+				id: "181F611AFA95DBC4"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0F3EA33A1FD0DD53"]
+			description: ["The Advanced Magnet Upgrade allows your storage to pickup items from up to 12 blocks away."]
+			id: "6D70DEB05281B48F"
+			rewards: [
+				{
+					count: 2
+					id: "64348741B5F98193"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "373F27D9877F3F60"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Extended Range \\& Filters"
+			tasks: [{
+				id: "7D2752A597DF6A89"
+				item: "sophisticatedstorage:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Filter Upgrade allows you to control what is filtered into and out of the storage."]
+			id: "46789BBC15E2A058"
+			rewards: [
+				{
+					count: 4
+					id: "1F1E4777777954CB"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					id: "0860497B7EB0771E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Control Item Flow"
+			tasks: [{
+				id: "3B3717B8F6DA60CC"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["46789BBC15E2A058"]
+			description: ["The Advanced Filter Upgrade has expanded filtering options. "]
+			id: "5792655288E75358"
+			rewards: [
+				{
+					count: 2
+					id: "1AE000BA76791E10"
+					item: "create:attribute_filter"
+					type: "item"
+				}
+				{
+					id: "5EF212845433B7F3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Precise Filtering Options"
+			tasks: [{
+				id: "0EF9CC2FDB697F9A"
+				item: "sophisticatedstorage:advanced_filter_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: [
+				"The Void Upgrade automatically destroys unwanted items, keeping your inventories free of excess materials."
+				""
+				"Configure it with a whitelist or blacklist, and choose whether it applies to automated inputs, manual inputs, or both. You can also set it to void all items or only excess stock."
+			]
+			id: "53185CF266579CF7"
+			rewards: [
+				{
+					count: 4
+					id: "5FA0D434CF490D1B"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "2C5ED1C73D2FA709"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Destroy Unwanted Items"
+			tasks: [{
+				id: "349A80BF96236B38"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["53185CF266579CF7"]
+			description: ["The Advanced Void Upgrade has more filtering options."]
+			id: "31728AD49C5D2037"
+			rewards: [
+				{
+					count: 2
+					id: "6400218F96BFEF10"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "77B62AECC1470F9F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhanced Destruction"
+			tasks: [{
+				id: "694D56D3518B2FCF"
+				item: "sophisticatedstorage:advanced_void_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Compacting Upgrade allows the compression of 2x2 recipes. "]
+			id: "4C5A81EAECF06C1F"
+			rewards: [
+				{
+					count: 2
+					id: "757504BCA4DAD3F3"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "55C48E34659D9DCB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Instantly Combine Resources"
+			tasks: [{
+				id: "0B6F01D912631B2C"
+				item: "sophisticatedstorage:compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4C5A81EAECF06C1F"]
+			description: ["The Advanced Compacting Upgrade allows your storage to automatically complete 2x2 and 3x3 compressing."]
+			id: "7DBE6F4145687DD0"
+			rewards: [
+				{
+					count: 2
+					id: "51EC5773B250342A"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "4B5E3367294DDBB0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Compacts 3x3 Recipes"
+			tasks: [{
+				id: "520B0FD9F0A664C7"
+				item: "sophisticatedstorage:advanced_compacting_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Jukebox Upgrade allows you to play music from your storages."]
+			id: "64E6D29158E1BCA7"
+			rewards: [
+				{
+					id: "6F54CCCB5E415363"
+					item: "neapolitan:music_disc_hullabaloo"
+					type: "item"
+				}
+				{
+					id: "7CF7CE9070E0A7C0"
+					item: "unusualend:music_disc_queen"
+					type: "item"
+				}
+				{
+					id: "73A347A5BD3F1C02"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Play Music Discs"
+			tasks: [{
+				id: "18E57AFC85FB7DAB"
+				item: "sophisticatedstorage:jukebox_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["64E6D29158E1BCA7"]
+			description: [
+				"The Advanced Jukebox Upgrade allows you to store more discs and also control how they are played."
+				"{@pagebreak}"
+				"Hey there adventurer.... play the pancake in the Jukebox, you won't be disappointed ;)"
+			]
+			id: "68F85E7D16CBAAAF"
+			rewards: [
+				{
+					id: "171CB71C758762C5"
+					item: "supplementaries:pancake"
+					type: "item"
+				}
+				{
+					id: "142A5588908E1295"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "More Music Options"
+			tasks: [{
+				id: "016CBE97B975EF93"
+				item: "sophisticatedstorage:advanced_jukebox_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Feeding Upgrade allows you to feed yourself from your storage automatically. "]
+			id: "0D4BD7F7D727FB60"
+			rewards: [
+				{
+					count: 16
+					id: "49289EF98E884ED3"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "7E734AC70160ABEE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Auto Feed Stored Food"
+			tasks: [{
+				id: "4A939AFE78F84B22"
+				item: "sophisticatedstorage:feeding_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0D4BD7F7D727FB60"]
+			description: ["The Advanced Feeding Upgrade allows you to choose when/how you are fed from your storage."]
+			id: "0571199286869A51"
+			rewards: [
+				{
+					id: "6D23B3E0A7A8B8C6"
+					item: "cratedelight:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "1BA3A382062EE634"
+					item: "cratedelight:golden_carrot_crate"
+					type: "item"
+				}
+				{
+					id: "279F1B5B8ABE5421"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Customizable Feeding"
+			tasks: [{
+				id: "7C2BD0FA3FE8F1C8"
+				item: "sophisticatedstorage:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Smelting Upgrade adds a built-in furnace to your storage."]
+			id: "550E54866C2FD8E6"
+			rewards: [
+				{
+					count: 2
+					id: "681BB8144F6B58F6"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "3EDACDDDEC901F29"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Smelt Items Inside"
+			tasks: [{
+				id: "0C6F7FF242DE4B7D"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["550E54866C2FD8E6"]
+			description: ["The Auto-smelting upgrade will automatically smelt items in your storage for you."]
+			id: "3CCC9A6F51502B75"
+			rewards: [
+				{
+					count: 2
+					id: "2617F09CA6F7241A"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "477864519F98E136"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Efficient Smelting"
+			tasks: [{
+				id: "399E4DF2CF56376A"
+				item: "sophisticatedstorage:auto_smelting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Smoking Upgrade adds a built-in smoker to your storage."]
+			id: "5815347B53119A8F"
+			rewards: [
+				{
+					count: 2
+					id: "7228256E4092C9FC"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "35BCC39E51C0B4DC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Faster Cooking"
+			tasks: [{
+				id: "1CFDF1392707C4AC"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5815347B53119A8F"]
+			description: ["The Auto-smoking upgrade will automatically smoke items in your storage for you."]
+			id: "0EACC6DDE7EFA3F1"
+			rewards: [
+				{
+					count: 2
+					id: "54EB358023B3A801"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "2A1AC50A63C56E7E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Efficient Smoking"
+			tasks: [{
+				id: "0766138A88CD103A"
+				item: "sophisticatedstorage:auto_smoking_upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Blasting Upgrade adds a built-in Blast Furnace to your storage."]
+			id: "11FB8340768BF00D"
+			rewards: [
+				{
+					count: 2
+					id: "3F500DCE946572AC"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "21DF180C35810B98"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Ore Smelter"
+			tasks: [{
+				id: "245E255C55D14FD3"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["11FB8340768BF00D"]
+			description: ["The Auto-blasting upgrade will automatically blast items in your storage for you."]
+			id: "42BCEB6EEB41C01E"
+			rewards: [
+				{
+					count: 2
+					id: "79F75FE58732DAFA"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "4C2CD1F24D2DCBD2"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Better Blasting"
+			tasks: [{
+				id: "52C0395CCBC2E05B"
+				item: "sophisticatedstorage:auto_blasting_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Hopper Upgrade allows your storage to push items into inventories below it, and pull from inventories above it."]
+			id: "2A63FB19B55825E9"
+			rewards: [
+				{
+					count: 2
+					id: "5A5FA1DA19FF6D79"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "79D58338B8455CF4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Automate Item Transfer"
+			tasks: [{
+				id: "430BBAD0E50EA73A"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2A63FB19B55825E9"]
+			description: ["The Advanced Hopper Upgrade allows your storage to push/pull from or to any inventories on &lANY&r side of the storage."]
+			id: "43FCEA8B73479212"
+			rewards: [
+				{
+					count: 2
+					id: "1B2324AD1FCB13DA"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "0044135620D35E8E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Configurable Input/Output"
+			tasks: [{
+				id: "0AD127D8EAB184A7"
+				item: "sophisticatedstorage:advanced_hopper_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Alchemy Upgrade will automatically apply potion effects to you. "]
+			id: "1B6C38B59CD83A35"
+			rewards: [
+				{
+					id: "336D04B9F5C8B7BA"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1B49B521A788DDB1"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04802BC290E47348"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Effect Infuser"
+			tasks: [{
+				id: "13CB7E364A08F463"
+				item: "sophisticatedstorage:alchemy_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1B6C38B59CD83A35"]
+			description: ["The Advanced Alchemy Upgrade has more filtering slots and more options for applying effects."]
+			id: "4E47726ABF7E3F49"
+			rewards: [
+				{
+					count: 2
+					id: "3A4AD9C06950E21D"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "2CE50F49A814D5ED"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Enhanced Effects"
+			tasks: [{
+				id: "5C18F1DCE50A49AA"
+				item: "sophisticatedstorage:advanced_alchemy_upgrade"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: [
+				"Occupying multiple inventory slots, this upgrade automatically compresses and decompresses items within them."
+				""
+				"Each slot represents a different compression level (for example, 81 iron nuggets, 9 iron ingots, or 1 iron block)."
+				""
+				"You can withdraw items from any slot, and it will automatically convert the rest to match."
+			]
+			id: "1B360E3C5CE7771F"
+			rewards: [
+				{
+					count: 2
+					id: "17414CD35DDC3A45"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "1CE008975BCFC270"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Auto Compress \\& Decompress Items"
+			tasks: [{
+				id: "3D5FF0410B1AF7A9"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["183F457F923574A9"]
+			description: ["This Quest serves to remind you that you do not have to break your existing chests or barrels to upgrade them! Instead, craft the proper storage upgrade and right click to upgrade your existing storage!"]
+			hide_dependency_lines: true
+			icon: "sophisticatedstorage:basic_tier_upgrade"
+			id: "6B690848B1CE0F3E"
+			rewards: [
+				{
+					count: 2
+					id: "332B8AF94D8BCF1B"
+					item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "643DF401329CDF69"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Upgradable Storages"
+			tasks: [{
+				id: "70B0BBA9D93269EC"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			title: "Tiered Upgrades"
+			x: 3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["Increases max stack size to 2× the normal amount."]
+			id: "5EB79CA86AC7C5A5"
+			rewards: [
+				{
+					count: 8
+					id: "6213B8EA38B8842A"
+					item: "sophisticatedstorage:stack_upgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "414E5418D881887A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Basic Stacking"
+			tasks: [{
+				id: "7498955A04060A33"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5EB79CA86AC7C5A5"]
+			description: ["Increases max stack size to 3× the normal amount."]
+			id: "7958BB2AF14D6779"
+			rewards: [
+				{
+					count: 6
+					id: "410859CA2D8FE868"
+					item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+					type: "item"
+				}
+				{
+					id: "174625A152D72043"
+					type: "xp"
+					xp: 75
+				}
+			]
+			subtitle: "Improved Stacking"
+			tasks: [{
+				id: "6639D89D867F0818"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7958BB2AF14D6779"]
+			description: ["Increases max stack size to 4x the normal amount."]
+			id: "1D91C867C5229F33"
+			rewards: [
+				{
+					count: 4
+					id: "67857C80115A7E94"
+					item: "sophisticatedstorage:stack_upgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "5B7F0E769D07F3D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Enhanced Stacking"
+			tasks: [{
+				id: "6C9FFD623ED21B85"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D91C867C5229F33"]
+			description: ["Increases max stack size to 8× the normal amount."]
+			id: "7AA3AF96A80EB911"
+			rewards: [
+				{
+					count: 2
+					id: "7007368EC50BFE60"
+					item: "sophisticatedstorage:stack_upgrade_tier_3"
+					type: "item"
+				}
+				{
+					id: "53557D181285E7C4"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Superior Stacking"
+			tasks: [{
+				id: "7CB56D224A0196AE"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7AA3AF96A80EB911"]
+			description: ["Increases max stack size to 16× the normal amount."]
+			id: "11BAE619DE15F3DD"
+			rewards: [
+				{
+					count: 2
+					id: "566F03A7A5F2F3CB"
+					item: "sophisticatedstorage:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "64AE58EBC045BB0D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Advanced Stacking"
+			tasks: [{
+				id: "38490F85BFE6A06B"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["11BAE619DE15F3DD"]
+			description: ["Increases max stack size to 32× the normal amount."]
+			id: "2769F2BC9A8B240C"
+			rewards: [
+				{
+					id: "6AF1A630E4177EC9"
+					item: "sophisticatedstorage:stack_upgrade_tier_5"
+					type: "item"
+				}
+				{
+					id: "4A94D1E6D329BEAD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Optimized Stacking"
+			tasks: [{
+				id: "71B3204CC1A8CF84"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2769F2BC9A8B240C"]
+			description: ["Increases max stack size to the integer limit."]
+			id: "1A24E51D79139CC0"
+			rewards: [
+				{
+					id: "1E6DA728EBCE9392"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "30C301277BC20EE5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Ultimate Stacking"
+			tasks: [{
+				id: "171E4BA8CF9EE5EC"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Craft a Storage Controller to link nearby chests and barrels into one organized network - within a 15 block range."
+				""
+				"Then add a Storage I/O to streamline automated input and output for your connected containers."
+				""
+				"{\"text\":\"Pair these with a \",\"extra\":[{\"text\":\"Packager\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5876B821FE5D9B15\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" and \"},{\"text\":\"Stock Ticker\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3C7A3E5D5E7D9110\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to automatically pull items from your linked inventory.\"}]}"
+			]
+			icon: "sophisticatedstorage:controller"
+			id: "05BCA883A92A5B7C"
+			rewards: [
+				{
+					count: 4
+					id: "4241DFD0BB41BFCB"
+					item: "sophisticatedstorage:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "5C488420C7F84C9D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The Heart of Your Storage Network"
+			tasks: [
+				{
+					id: "45D78ED56171391F"
+					item: "sophisticatedstorage:controller"
+					type: "item"
+				}
+				{
+					id: "46DEB288BCE8DA82"
+					item: "sophisticatedstorage:storage_io"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: [
+				"Craft and place a Storage Link to slightly extend your Storage Controller’s reach."
+				""
+				"This will connect the block and all adjacent storage blocks in a chain, up to the controller’s 15-block range."
+				""
+				"Connect it to the Controller using the Storage Tool. "
+			]
+			id: "387286D3962F3332"
+			rewards: [
+				{
+					count: 4
+					id: "64C886EE990FC378"
+					item: "sophisticatedstorage:storage_link"
+					type: "item"
+				}
+				{
+					id: "3AAF479EDE8E61CB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Linked Logistics"
+			tasks: [{
+				id: "75D6CDAD6052F291"
+				item: "sophisticatedstorage:storage_link"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["Ever had a mob just... not drop how much it should? Inventory getting a little full? That won't be a problem any longer!"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "006012AB72D73251"
+			rewards: [
+				{
+					count: 4
+					id: "77738084CB70FF56"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E87C2B50124436C"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "349160170D6DD686"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "A Backpack or your Money Back"
+			tasks: [
+				{
+					entity: "minecraft:cow"
+					id: "4121F5F9096C7411"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:spider"
+					id: "27BF237852ADE9C2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Bonus Drops"
+			x: -3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6204BAFA02ECF1D0"]
+			description: ["The Stack Downgrades allow you to store less in a single stack."]
+			icon: "sophisticatedstorage:stack_downgrade_tier_1"
+			id: "40E2CB27CBB17442"
+			rewards: [
+				{
+					count: 2
+					id: "6BDAD379CB59C052"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "39951BD69BFE1774"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Lesser Stacking"
+			tasks: [
+				{
+					id: "77EA63352B231ACB"
+					item: "sophisticatedstorage:stack_downgrade_tier_1"
+					type: "item"
+				}
+				{
+					id: "1C23AEAA239A09EB"
+					item: "sophisticatedstorage:stack_downgrade_tier_2"
+					type: "item"
+				}
+				{
+					id: "39363F5A4D1F433E"
+					item: "sophisticatedstorage:stack_downgrade_tier_3"
+					type: "item"
+				}
+			]
+			title: "Stack Downgrades"
+			x: 4.5d
+			y: 9.0d
+		}
+	]
+	title: "Basic Storage"
+}

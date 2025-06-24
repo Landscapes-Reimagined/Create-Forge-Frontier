@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alexscaves:forlorn_hollows",
+  "features": [
+    "create_resource_vents:placed_guanite_vent"
+  ],
+  "step": "vegetal_decoration"
+}

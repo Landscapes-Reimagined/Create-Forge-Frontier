@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#ad_astra:has_structure/mars_temple",
+  "features": [
+    "create_resource_vents:placed_stellaris_vent"
+  ],
+  "step": "vegetal_decoration"
+}

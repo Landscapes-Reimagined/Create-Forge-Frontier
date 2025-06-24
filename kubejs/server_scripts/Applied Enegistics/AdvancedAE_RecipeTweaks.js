@@ -24,6 +24,79 @@ ServerEvents.recipes(event => {
     // Removes Circut Slicer Recipe
     event.remove({ id: 'advanced_ae:quantum_processor_print_eae'})
 
+    // Quantum Armor Recipe Adjustments
+        // Quantum Helmet
+        event.remove({ id: 'advanced_ae:quantum_helmet' })
+    	event.shaped(
+		Item.of('advanced_ae:quantum_helmet'),
+		[
+			'QAQ',
+			'QNQ',
+			'PCP'
+		],
+		{
+			Q: 'advanced_ae:quantum_processor',
+            A: 'ae2:wireless_access_point',
+            N: 'advancednetherite:netherite_diamond_helmet',
+            P: 'advanced_ae:quantum_alloy_plate',
+            C: 'advanced_ae:quantum_storage_component'
+		}
+	    ).id( 'forge_frontier:shaped/quantum_helmet' )
+
+        // Quantum Chestplate
+        event.remove({ id: 'advanced_ae:quantum_chest' })
+    	event.shaped(
+		Item.of('advanced_ae:quantum_chestplate'),
+		[
+			'QAQ',
+			'QNQ',
+			'PCP'
+		],
+		{
+			Q: 'advanced_ae:quantum_processor',
+            A: 'ae2:wireless_access_point',
+            N: 'advancednetherite:netherite_diamond_chestplate',
+            P: 'advanced_ae:quantum_alloy_plate',
+            C: 'advanced_ae:quantum_storage_component'
+		}
+	    ).id( 'forge_frontier:shaped/quantum_chestplate' )
+
+        // Quantum Leggings
+        event.remove({ id: 'advanced_ae:quantum_leggings' })
+    	event.shaped(
+		Item.of('advanced_ae:quantum_leggings'),
+		[
+			'QAQ',
+			'QNQ',
+			'PCP'
+		],
+		{
+			Q: 'advanced_ae:quantum_processor',
+            A: 'ae2:wireless_access_point',
+            N: 'advancednetherite:netherite_diamond_leggings',
+            P: 'advanced_ae:quantum_alloy_plate',
+            C: 'advanced_ae:quantum_storage_component'
+		}
+	    ).id( 'forge_frontier:shaped/quantum_leggings' )
+    
+        // Quantum Boots
+        event.remove({ id: 'advanced_ae:quantum_boots' })
+    	event.shaped(
+		Item.of('advanced_ae:quantum_boots'),
+		[
+			'QAQ',
+			'QNQ',
+			'PCP'
+		],
+		{
+			Q: 'advanced_ae:quantum_processor',
+            A: 'ae2:wireless_access_point',
+            N: 'advancednetherite:netherite_diamond_boots',
+            P: 'advanced_ae:quantum_alloy_plate',
+            C: 'advanced_ae:quantum_storage_component'
+		}
+	    ).id( 'forge_frontier:shaped/quantum_boots' )  
+
     // Quantum Dust Recipe
     event.remove({ id: 'advanced_ae:quantum_infused_dust'})
     event.custom({

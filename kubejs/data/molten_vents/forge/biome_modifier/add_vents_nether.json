@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#incendium:all_incendium_biomes",
-  "features": [
-    "molten_vents:scorchia_vent",
-    "molten_vents:ancient_debris_vent"
-  ],
-  "step": "vegetal_decoration"
-}

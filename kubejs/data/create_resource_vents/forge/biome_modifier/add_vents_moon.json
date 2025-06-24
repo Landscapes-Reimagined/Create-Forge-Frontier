@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge_frontier:moon_ore_veins",
+  "features": [
+    "create_resource_vents:placed_aubrum_vent"
+  ],
+  "step": "vegetal_decoration"
+}

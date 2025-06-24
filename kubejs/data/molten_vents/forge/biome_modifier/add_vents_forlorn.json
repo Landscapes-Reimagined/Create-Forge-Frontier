@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "regions_unexplored:joshua_desert",
-  "features": [
-    "molten_vents:guanite_vent"
-  ],
-  "step": "vegetal_decoration"
-}

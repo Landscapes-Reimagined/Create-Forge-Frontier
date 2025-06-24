@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#forge_frontier:moon_ore_veins",
-  "features": [
-    "molten_vents:aubrum_vent"
-  ],
-  "step": "vegetal_decoration"
-}

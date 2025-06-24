@@ -441,7 +441,7 @@
 			id: "6AD897F8D2F82187"
 			rewards: [
 				{
-					count: 16
+					count: 32
 					id: "7D41991997B67D83"
 					item: "forge_frontier:resonite"
 					type: "item"
@@ -469,7 +469,7 @@
 					id: "7EF7E964BC5F9225"
 					item: {
 						Count: 1
-						id: "deeperdarker:resonarium_helmet"
+						id: "deeperdarker:warden_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -480,7 +480,7 @@
 					id: "410C896DEEB5B3B6"
 					item: {
 						Count: 1
-						id: "deeperdarker:resonarium_chestplate"
+						id: "deeperdarker:warden_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -491,7 +491,7 @@
 					id: "4050C7DF54A7185A"
 					item: {
 						Count: 1
-						id: "deeperdarker:resonarium_leggings"
+						id: "deeperdarker:warden_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -502,7 +502,7 @@
 					id: "0B3F5D75DEAE9FBC"
 					item: {
 						Count: 1
-						id: "deeperdarker:resonarium_boots"
+						id: "deeperdarker:warden_boots"
 						tag: {
 							Damage: 0
 						}

@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alexscaves:abyssal_chasm",
+  "features": [
+    "create_resource_vents:placed_pearlyte_vent"
+  ],
+  "step": "vegetal_decoration"
+}

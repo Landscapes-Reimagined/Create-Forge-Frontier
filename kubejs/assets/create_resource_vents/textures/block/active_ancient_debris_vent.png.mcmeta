@@ -1,0 +1,10 @@
+{
+	"__comment": "Generated texture.png and texture.png.mcmeta from gif using png_stuff by gamma_02. Texture ID: active_lava_final",
+	"animation": {
+		"interpolate": true,
+		"width": 16,
+		"height": 16,
+		"frametime": 8,
+		"frames": [0, 1, {"index": 2, "time": 12}]
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": [
+    "create_resource_vents:placed_radiantite_vent",
+    "create_resource_vents:placed_void_shale_vent",
+    "create_resource_vents:placed_palerock_vent"
+  ],
+  "step": "vegetal_decoration"
+}

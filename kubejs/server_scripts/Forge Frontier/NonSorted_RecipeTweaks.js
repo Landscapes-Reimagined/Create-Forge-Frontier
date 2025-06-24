@@ -24,6 +24,35 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 	event.remove({ id: 'createqol:mixing/chromatic_compound'})
 
+	// Quark Iron Plating Recipe
+        event.remove({ id: 'quark:building/crafting/iron_plate' })
+        event.custom({
+            type: "minecraft:stonecutting",
+            count: 3,
+            ingredient: {
+                item: "minecraft:iron_ingot"
+            },
+            result: "quark:iron_plate"
+        }).id('forge_frontier:stonecutting/quark_iron_plating')
+
+	// Dragon Head Catalyst
+		event.custom({
+			type: 'create:item_application',
+			ingredients: [
+			{
+				item: 'create_connected:empty_fan_catalyst'
+			},
+			{
+				item: 'minecraft:dragon_head'
+			}
+			],
+			results: [
+			{
+				item: 'create_connected:fan_ending_catalyst_dragon_head'
+			}
+			]
+		}).id('forge_frontier:item_application/dragon_head_catalyst');
+
 		// DD Compound to Create Compound
 		event.custom({
 		type: 'minecraft:crafting_shapeless',

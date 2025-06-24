@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         type: "create:mixing",
         ingredients: [
             {
-                item: 'minecraft:netherite_upgrade_smithing_template',
+                item: 'deeperdarker:warden_upgrade_smithing_template',
                 amount: 1
             },
             {
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_sword_smithing')
         event.smithing('advancednetherite:netherite_iron_sword',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_sword',
+            'deeperdarker:warden_sword',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_sword');
 
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_shovel_smithing')
         event.smithing('advancednetherite:netherite_iron_shovel',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_shovel',
+            'deeperdarker:warden_shovel',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_shovel');
 
@@ -113,7 +113,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_pickaxe_smithing')
         event.smithing('advancednetherite:netherite_iron_pickaxe',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_pickaxe',
+            'deeperdarker:warden_pickaxe',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_pickaxe');
 
@@ -121,7 +121,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_hoe_smithing')
         event.smithing('advancednetherite:netherite_iron_hoe',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_hoe',
+            'deeperdarker:warden_hoe',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_hoe');
 
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_axe_smithing')
         event.smithing('advancednetherite:netherite_iron_axe',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_axe',
+            'deeperdarker:warden_axe',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_axe');
 
@@ -137,7 +137,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_helmet_smithing')
         event.smithing('advancednetherite:netherite_iron_helmet',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_helmet',
+            'deeperdarker:warden_helmet',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_helmet');
 
@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_chestplate_smithing')
         event.smithing('advancednetherite:netherite_iron_chestplate',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_chestplate',
+            'deeperdarker:warden_chestplate',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_chestplate');
 
@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_leggings_smithing')
         event.smithing('advancednetherite:netherite_iron_leggings',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_leggings',
+            'deeperdarker:warden_leggings',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_leggings');
 
@@ -161,7 +161,7 @@ ServerEvents.recipes(event => {
         event.remove('advancednetherite:netherite_iron_boots_smithing')
         event.smithing('advancednetherite:netherite_iron_boots',
             'forge_frontier:netherite_iron_upgrade',
-            'minecraft:netherite_boots',
+            'deeperdarker:warden_boots',
             'advancednetherite:netherite_iron_ingot'
         ).id('forge_frontier:smithing/netherite_iron_boots');
 

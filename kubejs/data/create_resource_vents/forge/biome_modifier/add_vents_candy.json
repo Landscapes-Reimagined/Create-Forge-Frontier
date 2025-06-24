@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alexscaves:candy_cavity",
+  "features": [
+    "create_resource_vents:placed_lost_debris_vent"
+  ],
+  "step": "vegetal_decoration"
+}

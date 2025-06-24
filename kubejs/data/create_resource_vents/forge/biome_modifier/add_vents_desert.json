@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_desert",
+  "features": [
+    "create_resource_vents:placed_veridium_vent"
+  ],
+  "step": "vegetal_decoration"
+}

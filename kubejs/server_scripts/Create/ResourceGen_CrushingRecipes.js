@@ -58,12 +58,14 @@ ServerEvents.recipes(event => {
         if (stone.rare) {
             // Special handling for aubrum, pyroclast, stellaris
             results = [
-                { item: stone.output, count: 1}
+                { item: stone.output, count: 1},
+                { item: 'create:experience_nugget', chance: 0.75 },
             ];
         } else {
             results = [
                 { item: stone.output, count: 1 },
-                { item: stone.output, count: 1, chance: 0.50 }
+                { item: stone.output, count: 1, chance: 0.50 },
+                { item: 'create:experience_nugget', chance: 0.75  },
             ];
             if (stone.additional) {
                 results.push({ item: stone.additional, count: 1 });

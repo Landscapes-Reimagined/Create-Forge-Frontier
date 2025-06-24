@@ -1,0 +1,8 @@
+{
+    "variants": {
+  "": {
+    "model": "create_resource_vents:block/active_uraniumnite_vent"
+    }
+  }
+}
+

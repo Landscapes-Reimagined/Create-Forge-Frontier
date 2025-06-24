@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "alexscaves:primordial_caves",
+  "features": [
+    "create_resource_vents:placed_amberlite_vent"
+  ],
+  "step": "vegetal_decoration"
+}

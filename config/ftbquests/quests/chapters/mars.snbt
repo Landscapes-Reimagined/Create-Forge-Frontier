@@ -240,11 +240,6 @@
 					type: "item"
 				}
 				{
-					id: "4DC961347C03020E"
-					item: "adastradelight:mix_astra"
-					type: "item"
-				}
-				{
 					id: "6EDB15A6FCA0B727"
 					type: "xp"
 					xp: 100

@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#forge:is_plains",
-  "features": [
-      "molten_vents:crimsite_vent"
-  ],
-  "step": "vegetal_decoration"
-}

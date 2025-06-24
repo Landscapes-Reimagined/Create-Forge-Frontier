@@ -1,0 +1,334 @@
+{
+  "vents": [
+    {
+      "name": "asurine",
+      "generatedBlocks": [
+        {
+          "id": "create:asurine",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:cream"
+      ]
+    },
+    {
+      "name": "veridium",
+      "generatedBlocks": [
+        {
+          "id": "create:veridium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:caramel_milkshake"
+      ]
+    },
+    {
+      "name": "crimsite",
+      "generatedBlocks": [
+        {
+          "id": "create:crimsite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:strawberry_milkshake"
+      ]
+    },
+    {
+      "name": "ochrum",
+      "generatedBlocks": [
+        {
+          "id": "create:ochrum",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:glowberry_milkshake"
+      ]
+    },
+    {
+      "name": "scorchia",
+      "generatedBlocks": [
+        {
+          "id": "create:scorchia",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:hot_chocolate"
+      ]
+    },
+    {
+      "name": "scoria",
+      "generatedBlocks": [
+        {
+          "id": "create:scoria",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:chocolate_milkshake"
+      ]
+    },
+    {
+      "name": "potassic",
+      "generatedBlocks": [
+        {
+          "id": "create_dd:potassic",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_dd:vanilla_milkshake"
+      ]
+    },
+        {
+      "name": "verdantine",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:verdantine",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_confectionery:white_chocolate"
+      ]
+    },
+    
+        {
+      "name": "glacium",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:glacium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_confectionery:black_chocolate"
+      ]
+    },
+    
+        {
+      "name": "ancient_debris",
+      "generatedBlocks": [
+        {
+          "id": "minecraft:ancient_debris",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "forge_frontier:neapolitan_milkshake"
+      ]
+    },
+    
+        {
+      "name": "resonite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:resonite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "ad_astra:cryo_fuel"
+      ]
+    },
+    
+        {
+      "name": "aubrum",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:aubrum",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "forge_frontier:cheese"
+      ]
+    },
+    
+        {
+      "name": "stellaris",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:stellaris",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "forge_frontier:pomegranate_milkshake"
+      ]
+    },
+    
+        {
+      "name": "pyroclast",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:pyroclast",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "forge_frontier:adzuki_milkshake"
+      ]
+    },
+    
+        {
+      "name": "frostite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:frostite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "brewinandchewin:dread_nog"
+      ]
+    },
+    
+        {
+      "name": "radiantite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:radiantite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_confectionery:ruby_chocolate"
+      ]
+    },
+    
+        {
+      "name": "void_shale",
+      "generatedBlocks": [
+        {
+          "id": "enlightened_end:void_shale",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_confectionery:ruby_chocolate"
+      ]
+    },
+    
+        {
+      "name": "palerock",
+      "generatedBlocks": [
+        {
+          "id": "enlightened_end:palerock",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create_confectionery:ruby_chocolate"
+      ]
+    },
+    
+        {
+      "name": "pearlyte",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:pearlyte",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "minecraft:water"
+      ]
+    },
+    
+        {
+      "name": "amberlite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:amberlite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "create:honey"
+      ]
+    },
+    
+        {
+      "name": "guanite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:guanite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "sliceanddice:fertilizer"
+      ]
+    },
+    
+        {
+      "name": "neodymrium",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:neodymrium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "tconstruct:molten_iron"
+      ]
+    },
+    
+        {
+      "name": "azurnium",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:azurnium",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "tconstruct:molten_iron"
+      ]
+    },
+    
+        {
+      "name": "uraniumnite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:uraniumnite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "alexscaves:acid"
+      ]
+    },
+    
+    
+        {
+      "name": "sulphite",
+      "generatedBlocks": [
+        {
+          "id": "forge_frontier:sulphite",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "alexscaves:acid"
+      ]
+    },
+    {
+      "name": "lost_debris",
+      "generatedBlocks": [
+        {
+          "id": "create_ethium:lost_debris",
+          "properties": []
+        }
+      ],
+      "reactantFluids": [
+        "createfood:chorus_fruit_pie_filling"
+      ]
+    }
+  ]
+}
