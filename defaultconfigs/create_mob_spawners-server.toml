@@ -10,6 +10,14 @@
 	#0.0 = Entities can only be caught at half a heart
 	#Range: 0.0 ~ 1.0
 	max_health_percentage = 1.0
+	#Allow bosses to be captured
+	allow_bosses = true
+	#(This option is only relevant if bosses are allowed to be captured, they cannot be weakened so the remaining health needs to be checked)
+	#Boss entity health needs to be at or below this percentage to be able to be caught
+	#1.0 = 100% -> Entities can be caught at full health
+	#0.0 = Entities can only be caught at half a heart
+	#Range: 0.0 ~ 1.0
+	max_boss_health_percentage = 0.95
 
 [mechanical_spawner]
 	#Maximum stress impact (impact scales with entity health)
