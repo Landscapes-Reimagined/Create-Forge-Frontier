@@ -1,4 +1,4 @@
-# 🛠️ **Forge Frontier v2.4.0 Server Pack**  
+# 🛠️ **Forge Frontier v2.4.0 Hotfix Version Server Pack**  
 
 This **server pack** includes all the necessary files to **set up and run a dedicated server** for **Forge Frontier v2.4.0**. Whether you're hosting a private server for friends or launching a larger community, this package ensures a smooth multiplayer experience.
 
