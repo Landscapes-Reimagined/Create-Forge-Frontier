@@ -1,42 +1,3471 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "applied_energistics"
 	group: "37A1080736831E36"
 	icon: "ae2:controller"
 	id: "09122EB4ABF3FEBA"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/ae2_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 0.0d
-		}
-	]
+	images: [{
+		height: 3.0d
+		image: "ftb:textures/ae2_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.5d
+		y: -10.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "3C1A865BF6781409"
-		shape: "gear"
-		size: 3.0d
-		tasks: [{
-			id: "53CEF33ECD6D716C"
-			item: "ae2:certus_quartz_dust"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -6.5d
-	}]
+	quests: [
+		{
+			description: [
+				"It would seem that the meteors containing alien technology missed Earth and hit Mercury instead!"
+				""
+				"To begin setting up your advanced storage system, make your way to the second hottest planet in the solar system!"
+				""
+				"Applied Energistics 2 can do many things, but the main features are digital storage, autocrafting, and wireless storage access."
+				""
+				"{\"text\":\"For more information about the mod that is outside the scope of these quests, consult the in game guide or\",\"extra\":[{\"text\":\" online wiki.\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://guide.appliedenergistics.org/1.20.1/\"},\"color\":\"blue\",\"underlined\":true}]}"
+			]
+			id: "3C1A865BF6781409"
+			rewards: [
+				{
+					id: "49232F2B46205CCB"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+				{
+					id: "424922FC2CFC7757"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Mercury's Best Kept Secret"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "79B1F5D92E5DB010"
+				type: "dimension"
+			}]
+			title: "AE2 Starts Here"
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3C1A865BF6781409"]
+			description: [
+				"In the center of the meteorite, you’ll find a mysterious cube. Break it without Silk Touch to obtain the five presses you'll need to start producing various processors. For your efforts, you'll earn a handy Guide!"
+				""
+				"{image:ftb:textures/mysterious_cube.png width:200 height:100 align:center}"
+			]
+			icon: "ae2:mysterious_cube"
+			id: "7BA4F682A924A1A4"
+			rewards: [
+				{
+					id: "42ECC9E40BB21024"
+					item: "ae2:guide"
+					type: "item"
+				}
+				{
+					id: "2258C30EE03374A8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			size: 1.0d
+			subtitle: "Unearth The Mystery"
+			tasks: [
+				{
+					icon: "ae2:meteorite_compass"
+					id: "23C41C13839F8F6F"
+					structure: "ae2:meteorite"
+					title: "Find a Meteorite"
+					type: "structure"
+				}
+				{
+					block: "ae2:mysterious_cube"
+					block_type: 0
+					checkItem: false
+					id: "491D3FA17703AB3D"
+					title: "Break The Mysterious Cube"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
+			title: "Locate a Meteorite"
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7BA4F682A924A1A4"]
+			description: [
+				"Making use of the Cart Assembler, you can move Budding Certus Quartz anywhere you want! The Flawless Budding Certus Quartz produces the fastest. There is at least one in every meteorite. "
+				""
+				"Assemble the contraption as shown below, and then pick it up using a wrench. "
+				""
+				"{image:ftb:textures/certus_quartz_contraption.png width:150 height:100 align:center}"
+				""
+				"Then, place the contraption on a rail in your base, or wherever you'd like to, and then break the minecart beneath it to disassemble the contraption."
+			]
+			icon: "minecraft:minecart"
+			id: "245B3F093900A1DC"
+			rewards: [
+				{
+					count: 16
+					id: "10234EFEC9775344"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "59EA7874CC3C02EA"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "6FE8591A47B85755"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Create to the Rescue!"
+			tasks: [
+				{
+					id: "6B1E2DC70BABD9A2"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+				{
+					id: "1BE7E2317B2964FF"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					id: "372CA412A7F9CE83"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "2DB1519B328AA2F2"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			title: "Moving Budding Certus Quartz"
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BA4F682A924A1A4"]
+			description: [
+				"The Growth Accelerator enhances the growth of Budding Certus Quartz, causing it to grow &osignificantly&r faster. "
+				""
+				"It requires AE2's power, so use the provided glass cables and connect them to a powered energy acceptor. Refer to the image below for a practical setup using an accumulator powered by a New Age Generator (not pictured), Electrical Connectors and Overcharged Diamond Wire."
+				""
+				"{image:ftb:textures/growth_accelerator.png width:150 height:100 align:center}"
+			]
+			id: "68CFA19316BB8616"
+			rewards: [
+				{
+					count: 16
+					id: "284E89207D073C4C"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "599DE334CF8E0F3A"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "66C2EF8C12AC8ADB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "More Certus Quartz"
+			tasks: [{
+				id: "63FF453D3AAB682C"
+				item: "ae2:growth_accelerator"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7BA4F682A924A1A4"]
+			description: [
+				"The Charger allows you to charge things like certus quartz, handheld terminals, and much more. "
+				""
+				"It is also the work block for the Fluix Researcher - a villager who will sell you fluix crystals, certus quartz, and more!"
+			]
+			id: "2515762732B22B08"
+			rewards: [
+				{
+					count: 16
+					id: "78EED2E4B99AD702"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1F0F400816D4BF81"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "6429AB5014EDB283"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Powering Your Devices"
+			tasks: [{
+				id: "3C0886946963ADBB"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BA4F682A924A1A4"]
+			description: ["The Energy Acceptor powers your network. Supply it with FE and it will turn it into AE at a 2:1 ratio. "]
+			id: "2CC4DEC1F2492030"
+			rewards: [
+				{
+					count: 32
+					id: "4B7CA64E1FB6FB80"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2E0266BD2D1A0136"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					id: "0F7F69933E9B1E6C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Powering Your Network"
+			tasks: [{
+				id: "5F9360158D220342"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"68CFA19316BB8616"
+				"2CC4DEC1F2492030"
+			]
+			description: ["Throw some Certus Quartz Crystals through a Crushing Wheel to obtain Certus Quartz Dust! Certus Quartz Dust is used to make Silicon, Quartz Glass, and more."]
+			id: "2F045E872C7AB33C"
+			rewards: [
+				{
+					id: "3E4A622240A8A35A"
+					item: "ae2:certus_quartz_wrench"
+					type: "item"
+				}
+				{
+					id: "274F34D115D22E10"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Powdered Potential"
+			tasks: [{
+				id: "3A64588C20B234C7"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			title: "Certus Quartz Dust"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F045E872C7AB33C"]
+			description: ["Silicon is used to make printed silicon! You'll need a ton of it!"]
+			id: "5DCD053910B7069C"
+			rewards: [
+				{
+					id: "14FE4840B5378ECC"
+					item: {
+						Count: 1
+						id: "ae2:certus_quartz_cutting_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4E65455987E3D1CE"
+					item: "ae2:silicon"
+					type: "item"
+				}
+				{
+					id: "3BD2BF0C0880970D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Processor Beginnings"
+			tasks: [{
+				id: "07FAFFCEC801D0F2"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5DCD053910B7069C"]
+			description: ["Now, it's time to make some Circuits. They are used to make Processors."]
+			icon: "ae2:printed_silicon"
+			id: "4FA26067EE8982D3"
+			rewards: [
+				{
+					count: 64
+					id: "3A2A072C0601868F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "43FF5DBD4C7322DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Tiny Chips"
+			tasks: [
+				{
+					id: "347E1B5FEA41E910"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "06AA926AABB68C63"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "40259A8FE6F574BC"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "7BAF26857DA66889"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			title: "Circuits"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4FA26067EE8982D3"]
+			description: ["Time for some sequenced assembly! Combine printed silicon, circuits, and redstone to craft all three types of AE2 processors. They’re used in most Applied Energistics 2 recipes."]
+			icon: "ae2:calculation_processor"
+			id: "48E21FCFF19DA1FB"
+			rewards: [
+				{
+					count: 8
+					id: "4FE2F6E4C51A65D5"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "50B2DE682618143E"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C5A0C7F75737A7A"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "132A2D5EB15413E5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Logic, Calculation, and Engineering"
+			tasks: [
+				{
+					id: "390696F276786C83"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "404C6B589C46EDF7"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "1DE40D9473A09148"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Processors"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2515762732B22B08"]
+			description: ["Fluix Crystals are made by combining Water, Charged Certus Quartz, Redstone, and Quartz. They can be crushed to make Fluix Dust which can be used in many recipes."]
+			icon: "ae2:fluix_crystal"
+			id: "5BB56D4D044A68FD"
+			rewards: [
+				{
+					count: 16
+					id: "681829CBF40F5E10"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1016442BB7789923"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+				{
+					id: "67652FF8FAD2D68A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Chaos Crystals"
+			tasks: [
+				{
+					id: "773D17FA21CAB816"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "24456E8CE9D2AA35"
+					item: "ae2:fluix_dust"
+					type: "item"
+				}
+			]
+			title: "Fluix"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F045E872C7AB33C"]
+			description: ["The Quartz Fiber is a crafting ingredient used in making cables, but it can also be used to make subnets that take power from your main network but do not use any channels. "]
+			id: "0DB5E6A1EBAB01D5"
+			rewards: [
+				{
+					count: 16
+					id: "18FC57555E8D5C28"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+				{
+					id: "4CBEFA1870EF3C2F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Power Without Channels"
+			tasks: [{
+				id: "795DC27BE0D64B86"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DB5E6A1EBAB01D5"]
+			description: ["The glass and covered cables each carry 8 channels, whereas dense cables carry 32 channels. Use these to connect devices together."]
+			icon: "ae2:fluix_covered_cable"
+			id: "13461C37F7C27795"
+			rewards: [
+				{
+					count: 32
+					id: "58F8734D09FBDE6F"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7B261F2FF3AF1EF1"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "385C948F78AB4364"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Easy Connectivity"
+			tasks: [
+				{
+					id: "2821041F5B307C80"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+					title: "Glass Cables"
+					type: "item"
+				}
+				{
+					id: "449902B7C6234882"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_cable"
+						}
+					}
+					title: "Covered Cable"
+					type: "item"
+				}
+				{
+					id: "7CB68B7FDB6C3FAD"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:covered_dense_cable"
+						}
+					}
+					title: "Dense Covered Cable"
+					type: "item"
+				}
+			]
+			title: "Cables"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13461C37F7C27795"]
+			description: ["Smart Cables and Dense Smart Cables allow you to see how many channels your cable is using. Use these to keep track of your network!"]
+			icon: "ae2:fluix_smart_cable"
+			id: "2CE7F1424730D6F6"
+			rewards: [
+				{
+					count: 32
+					id: "73913ED312DBCFA0"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2905C3B8C9770FC4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "569B84AD33198479"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Monitor Your Usage"
+			tasks: [
+				{
+					id: "11FECCF69D7A3B02"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_cable"
+						}
+					}
+					title: "Smart Cable"
+					type: "item"
+				}
+				{
+					id: "1D8DA284D5B93CFA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:smart_dense_cable"
+						}
+					}
+					title: "Dense Smart Cable"
+					type: "item"
+				}
+			]
+			title: "Smart Cables"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"13461C37F7C27795"
+				"48E21FCFF19DA1FB"
+				"5BB56D4D044A68FD"
+			]
+			description: [
+				"The ME Controller is the core of any real ME setup."
+				""
+				"While small networks top out at 8 channels, a controller can boost that limit massively, up to 32 channels per face, or 216 per block! But that's not all. The ME controller can actually be made into a multiblock structure, with a max of 7x7x7 in size and it can be a freeform configuration within this max size. "
+				""
+				"Additionally, your network can only have one ME controller or multiblock at a time. If you try to add another separate controller structure, the network will crash entirely."
+				""
+				"The ME Controller also adds an 8kAE buffer to the ME System."
+			]
+			id: "5A43EC5BF114639D"
+			rewards: [
+				{
+					count: 16
+					id: "010BAFDAD81F47D5"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "02894F24F4895F9D"
+					item: "ae2:network_tool"
+					type: "item"
+				}
+				{
+					id: "1EED3F9ADFEFF347"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Smart Computer"
+			tasks: [{
+				id: "14AAC027BF15D626"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10FBB5E42BD0E00C"]
+			description: [
+				"The ME Drive acts as the physical place to digitally store your items or fluids within Storage Cells, more on those later. It can hold up to ten Storage Cells but does not come with any way to access the items inside. For that you must make a ME Terminal."
+				""
+				"The ME Chest contains a built in ME Terminal and can hold one Storage Cell. "
+			]
+			icon: "ae2:drive"
+			id: "1DCC72268DB9FE06"
+			rewards: [
+				{
+					count: 4
+					id: "4C75A4A0AB22E210"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21BF5D7B6BA8530C"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "1AB57C0BC8DC3418"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "The ME Chest and Drive"
+			tasks: [
+				{
+					id: "72EBE2CEC463B14B"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "79DA3663B989E4DD"
+					item: "ae2:chest"
+					type: "item"
+				}
+			]
+			title: "Storing Your World"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DCC72268DB9FE06"]
+			description: ["The ME IO Port allows you to easily separate and rearrange what's stored within storage cells. Insert a cell into the left, and then use the arrow to determine if your items or fluids are leaving or entering the cell. "]
+			id: "2182B348FE0E32CA"
+			rewards: [
+				{
+					count: 4
+					id: "6701CA18A34C786A"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "6010EE4D2AF5FA47"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Separation"
+			tasks: [{
+				id: "7F44EA7AC5C7C057"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DCC72268DB9FE06"]
+			description: [
+				"The 1k Storage Component marks your entry into digital storage. Hover over the Cell with your mouse and hold G for more information on Cells. You should also read the entry on Bytes and Types."
+				""
+				"The 1k Component provides you with 1,024 bytes of storage."
+			]
+			id: "4B7C1E05DC09AAC0"
+			rewards: [
+				{
+					id: "202904C2B9507EA8"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+				{
+					id: "1810A5EB9A498BA7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "69D9A5A4C9830230"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "Your First Storage Cell"
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B7C1E05DC09AAC0"]
+			description: ["The 4k Component provides you with 4,096 bytes of storage."]
+			id: "4F1F15656FFEE324"
+			rewards: [
+				{
+					id: "3912F5CDB245EDC5"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					id: "4F5D84392E223CA0"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "4B28767CB07E9F0E"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4F1F15656FFEE324"]
+			description: ["The 16k Component provides you with 16,384 bytes of storage."]
+			id: "6746219A1E4B547C"
+			rewards: [
+				{
+					id: "69FA6C66F571CFC9"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+				{
+					id: "76D5F58A8934ED27"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "6C98BADE2F4E35A1"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6746219A1E4B547C"]
+			description: ["The 64k Component provides you with 65,536 bytes of storage."]
+			id: "0485A49FB5908E19"
+			rewards: [
+				{
+					id: "57FB00D18AA431F9"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+				{
+					id: "0EF08FAD24E2145E"
+					type: "xp"
+					xp: 350
+				}
+			]
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "6F524422592374B6"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0485A49FB5908E19"]
+			description: ["The 256k Component provides you with 262,144 bytes of storage."]
+			id: "2DCD13936A0C02E2"
+			rewards: [
+				{
+					id: "35829989BF0200A8"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+				{
+					id: "49F5D92C23A20136"
+					type: "xp"
+					xp: 400
+				}
+			]
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "529FF3589F08B770"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48E21FCFF19DA1FB"]
+			description: [
+				"The Cell Workbench lets you configure cells to accept only specific items, essentially creating a whitelist. You can also add upgrade cards like the Inverter Card, which flips this into a blacklist instead."
+				""
+				"You can also set a priority for each cell using the workbench to control which cells fill up first."
+			]
+			hide_dependency_lines: true
+			id: "70424CEBC69714F3"
+			rewards: [{
+				id: "372A744FC879B81F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "A Smarter Table"
+			tasks: [{
+				id: "685CCD98824A37CE"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BB56D4D044A68FD"]
+			description: [
+				"The Energy Cell adds a 200kAE buffer to your ME system."
+				""
+				"Use it to ensure that your devices stay powered under heavy load."
+			]
+			icon: {
+				Count: 1
+				id: "ae2:energy_cell"
+				tag: { }
+			}
+			id: "3961CE07F975EDF1"
+			rewards: [
+				{
+					count: 8
+					id: "40D3A695D2C6016F"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "668C612A7210BF5A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Stored Potential"
+			tasks: [{
+				id: "32B06C46D867AD57"
+				item: {
+					Count: 1
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Energy Cell"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4B7C1E05DC09AAC0"]
+			description: ["The ME Crafting Terminal Adds a built-in crafting menu to the ME Terminal, and when used with EMI will pull the necessary items from your ME system into the crafting menu for easy crafting."]
+			id: "35C81148DEF35891"
+			rewards: [
+				{
+					count: 4
+					id: "1DE0EA8A682FD4C3"
+					item: "ae2:semi_dark_monitor"
+					type: "item"
+				}
+				{
+					id: "1539A2E273055EC3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "Now We're Getting Somewhere"
+			tasks: [{
+				id: "1C0D817D6CF1BA68"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2182B348FE0E32CA"]
+			description: ["The Extended IO port works 8x faster than the normal IO Port. Great for clearing large cells and can also be used to make singularities &oreally fast.&r"]
+			id: "73D5829A6279C567"
+			rewards: [
+				{
+					id: "2747261BA366841C"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "3396A36F688F307F"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "2705434060431DE6"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Faster Separation"
+			tasks: [{
+				id: "1C74581AA3EF7E0B"
+				item: "expatternprovider:ex_io_port"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6746219A1E4B547C"]
+			description: ["The Infinity Water Cell allows you to have an infinite water source directly inside your ME system. Very useful for creating singularities!"]
+			id: "2700D7FC24ECFC37"
+			rewards: [
+				{
+					id: "448D54894EB38D87"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					id: "33E2D844A84FF895"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "No More 2x2 Water Hole"
+			tasks: [{
+				id: "12BC0674E90DC232"
+				item: {
+					Count: 1
+					id: "expatternprovider:infinity_cell"
+					tag: {
+						record: {
+							"#c": "ae2:f"
+							id: "minecraft:water"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59E5BB32D828DF07"]
+			description: ["The ME Terminal Allows you to access anything stored inside of your ME system. Check the guide to learn more about Terminals."]
+			id: "10FBB5E42BD0E00C"
+			rewards: [
+				{
+					count: 2
+					id: "3E2044BFAAF574FB"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "22161E15D32BE0B4"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "7A8137F765C59CBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Accessing Your System"
+			tasks: [{
+				id: "1187C4DDEF47935B"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B7C1E05DC09AAC0"]
+			description: ["To begin storing your fluids in your ME system, you'll first need to make a Fluid Housing. Then, add a storage component of any capacity, and store the Fluid Cell in a ME Drive or Chest. To get the fluids into your ME system, you will need to use an import bus or ME Interface."]
+			icon: "ae2:fluid_cell_housing"
+			id: "541A731C9D72D943"
+			rewards: [
+				{
+					count: 4
+					id: "17B28568FD092217"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+				{
+					id: "59B10D351B2C8A3E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Digital Fluids"
+			tasks: [{
+				id: "3B83D8D34EDC220F"
+				item: "ae2:fluid_cell_housing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B7C1E05DC09AAC0"]
+			description: ["To begin Storing Your Items in a ME Drive or Chest, you'll need an Item Housing. To use it, combine it with a cell of any capacity and then store it inside a ME Drive and then store items in it using a ME Terminal."]
+			id: "3FE7ED2D1CB41F96"
+			rewards: [
+				{
+					count: 4
+					id: "34B89E15B96156AB"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "137CCF4CA4B3C3B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Digital Items"
+			tasks: [{
+				id: "2A7C3D64E9AA42F6"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59E5BB32D828DF07"]
+			description: [
+				"The Pattern Provider marks the beginning of your path to Auto Crafting. It accepts patterns inside its interface, and can push any fluids or liquids contained within the pattern's instructions to an adjacent inventory such as a basin. This allows for easy automation setups of&o ANY&r kind, not just easy auto crafting."
+				""
+				"To do any auto crafting, you must have at least one crafting cpu multiblock. This consists of at least one crafting storage block. "
+				""
+				"Note that two crafting storage blocks next to each other is one multiblock. They must be separated by a block to count as two cpus."
+			]
+			hide_dependency_lines: true
+			id: "25D23BAF0C5F527E"
+			rewards: [
+				{
+					count: 4
+					id: "2B8ED3DC346590DC"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "63A1A94D9157D48F"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Beginnings of Automation"
+			tasks: [{
+				id: "237691D6F3D3C3C9"
+				item: "ae2:pattern_provider"
+				type: "item"
+			}]
+			title: "The Pattern Provider"
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: [
+				"The Pattern is how you will configure your pattern providers."
+				""
+				"Crafting Patterns are simple, they will allow machines like molecular assemblers to perform auto crafting."
+				""
+				"Processing Patterns however can be used to perform a variety of things, like automate smelting, or send iron ingots onto a depot to be pressed."
+				""
+				"Smithing and Stonecutting patterns are pretty self explanatory. They can be used to automate smithing and stonecutting."
+			]
+			id: "474EF5BBE918C663"
+			rewards: [
+				{
+					count: 32
+					id: "436F680054D94B5B"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "31A0D45695DCFAB8"
+					item: {
+						Count: 1
+						id: "ae2:crafting_pattern"
+						tag: {
+							in: [
+								{
+									Count: 1b
+									id: "ae2:quartz_glass"
+								}
+								{
+									Count: 1b
+									id: "minecraft:glowstone_dust"
+								}
+								{
+									Count: 1b
+									id: "ae2:quartz_glass"
+								}
+								{
+									Count: 1b
+									id: "minecraft:glowstone_dust"
+								}
+								{
+									Count: 1b
+									id: "ae2:certus_quartz_crystal"
+								}
+								{
+									Count: 1b
+									id: "minecraft:glowstone_dust"
+								}
+								{
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+								{
+									Count: 1b
+									id: "minecraft:iron_ingot"
+								}
+							]
+							out: {
+								Count: 2b
+								id: "ae2:blank_pattern"
+							}
+							recipe: "ae2:network/crafting/patterns_blank"
+							substitute: 0b
+							substituteFluids: 1b
+						}
+					}
+					title: "More Patterns Can't Hurt"
+					type: "item"
+				}
+				{
+					id: "729B3A212149DA9A"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "684AC3DE1E863529"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			title: "Patterns"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: ["The Extended Pattern Provider holds many more patterns than a regular pattern provider."]
+			id: "5337069A1426E4EB"
+			rewards: [
+				{
+					count: 4
+					id: "7BA4EFEF38076E22"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "35F69BDA1FD06846"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "7184C768D4007574"
+				item: "expatternprovider:ex_pattern_provider"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3FE7ED2D1CB41F96"]
+			description: ["The Portable Item Cell acts in the same way as a normal Item Cell, but comes with an internal battery. While the battery is charged, you can right click with it and put items into it as if it were a backpack. It can be stored in a ME Drive and functions normally while inside."]
+			id: "4016FF151EBF44F8"
+			rewards: [
+				{
+					id: "0CFC415CB3394917"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "00E40301EEA247D4"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "55612573D9AAF485"
+				item: {
+					Count: 1
+					id: "ae2:portable_item_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Portable Item Cells"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["541A731C9D72D943"]
+			description: ["The Portable Fluid Cell acts in the same way as a normal Fluid Cell, but comes with an internal battery. While the battery is charged, you can right click with it and access fluids inside it as if it were a backpack equipped with a tank upgrade. Right clicking with a bucket of fluid stores the fluid, left clicking with a bucket removes the fluid. It can be stored in a ME Drive and functions normally while inside."]
+			id: "6BD39B3B605A4318"
+			rewards: [
+				{
+					id: "43F1A167A5F3D94A"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7FD6F633EF9C197F"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "336040A67BED3D06"
+				item: {
+					Count: 1
+					id: "ae2:portable_fluid_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Portable Fluid Cells"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B7C1E05DC09AAC0"]
+			description: ["The ME DISK Cells are not limited by types, and each item takes one byte of space. 1k Disk Cells have 1000 bytes, 4k Disk Drives have 4000 bytes, etc. etc. They are super useful for bulk storing random items."]
+			id: "4D04BCA29A334B25"
+			rewards: [
+				{
+					count: 4
+					id: "26676CEBD8068764"
+					item: "ae2things:disk_housing"
+					type: "item"
+				}
+				{
+					id: "617DCFA0EF9382FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "No Types Necessary"
+			tasks: [{
+				id: "6E659090D7356E99"
+				item: "ae2things:disk_housing"
+				type: "item"
+			}]
+			title: "ME Disk Drives"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1DCC72268DB9FE06"]
+			description: ["The ME Extended Drive has twenty slots for Cells and Drives. Use this to expand your drive amount without adding another channel."]
+			id: "0B8C956F185B9053"
+			rewards: [
+				{
+					count: 16
+					id: "17745AA15A181BE3"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					id: "575B7A70E574708F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Another Server Rack"
+			tasks: [{
+				id: "47E7163C17434B8D"
+				item: "expatternprovider:ex_drive"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"48E21FCFF19DA1FB"
+				"5A43EC5BF114639D"
+			]
+			description: ["The Annihilation and Formation Planes give access to more advanced AE2 components. You'll need a lot of these."]
+			id: "59E5BB32D828DF07"
+			rewards: [
+				{
+					count: 8
+					id: "2199FA2EDF9772AF"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "14482E80115A78C8"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "6057B1B78F7E19BE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Manipulating Matter"
+			tasks: [
+				{
+					id: "25898213439396BF"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "4A3E0A9F41FB6DC1"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+			]
+			title: "Annihilation and Formation"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: ["The Pattern Access Terminal will allow you to well... access the inventories of the pattern providers connected to your ME system. It is handy for when you have a massive network of providers and assemblers and do not want to insert patterns by hand."]
+			id: "25F8E9DACA19E4E7"
+			rewards: [
+				{
+					count: 2
+					id: "5EA409D17D0A222E"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+				{
+					id: "5C02AFAA8D01D7AA"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "73148C47964AE416"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			title: "Pattern Access Terminal"
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: [
+				"The Pattern Encoding Terminal is where you write recipes to blank patterns."
+				""
+				"Use it to create crafting and processing patterns so your ME network can craft and automate them."
+			]
+			id: "2CEC02C65341B450"
+			rewards: [
+				{
+					count: 8
+					id: "271717990B5BECC7"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "6E2D8B93A89BE506"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "6FAA7E384BC61928"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			title: "Pattern Encoding Terminal"
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: ["The Molecular Assembler allows you to auto craft recipes. Set them up with pattern providers adjacent to them, and they will be able to push the necessary ingredients to the Molecular Assemblers. Once your items are done crafting, they automatically get put back into your ME system."]
+			id: "039A5C6BA1DFC1F0"
+			rewards: [
+				{
+					count: 4
+					id: "570B388938EEAEDA"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "1FFB767B1FFFAB84"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "3614984F64AD5867"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["039A5C6BA1DFC1F0"]
+			description: ["The Extended Molecular Assembler can do 8 crafting jobs at the same time, and it can do them twice as fast as the normal Molecular Assembler."]
+			id: "111E3920F69EC650"
+			rewards: [
+				{
+					id: "4655CC4B8FA4E3D2"
+					item: "expatternprovider:ex_molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "616EA2510D17C870"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "62A05583F1ACF134"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59E5BB32D828DF07"]
+			hide_dependency_lines: false
+			id: "54C539055C823294"
+			rewards: [{
+				id: "7CF081932049395B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Check the quests above and below for uses of the Annihilation Core."
+			tasks: [{
+				id: "0E513F0759C7940E"
+				item: "ae2:annihilation_core"
+				type: "item"
+			}]
+			title: "Uses of Annihilation Cores"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A2CF8D335E1D749"]
+			description: [
+				"The Formation Plane can be used to place blocks or drop items from your ME system. It needs to be filtered to do anything, and should be setup on a subnet. Read the guide for more information. "
+				""
+				"If you are having trouble getting it to work properly, look into the next quest on the Active Formation Plane."
+			]
+			id: "0CF9E18ADAB79E70"
+			rewards: [
+				{
+					count: 2
+					id: "18ED629900933CE0"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+				{
+					id: "3716AE2EAC64407D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Subnet Recommended"
+			tasks: [{
+				id: "5E05A595D1E52021"
+				item: "ae2:formation_plane"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CF9E18ADAB79E70"]
+			description: ["The Active Formation Plane works similarly to the Formation Plane, except that it does not need to be on a subnet! This makes using formation planes simple."]
+			id: "03FADC0B35F720A4"
+			rewards: [
+				{
+					count: 4
+					id: "6D334B5F3BF1F89D"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "379F3E9C390D8518"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "No Subnet Necessary"
+			tasks: [{
+				id: "38D1FFF809600B45"
+				item: "expatternprovider:active_formation_plane"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54C539055C823294"]
+			description: [
+				"The Annihilation Plane can be used to break blocks and collect them in your ME system. It is recommended to use it with a subnet, and they can also be enchanted with silk touch. The items must have somewhere to go, so you'll need something like a storage bus going into a barrel or chest on the subnet."
+				""
+				"They can also be used to automatically harvest certus quartz crystals and dust from budding certus quartz. Just be sure not to accidentally pickup the budding certus quartz with it, and set the storage bus's filter with either crystals or dust! This way the annihilation plane will not break the crystal until it has fully grown."
+			]
+			id: "6FACE33CD107ABC8"
+			rewards: [
+				{
+					count: 2
+					id: "08954E423D30DA88"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "0EF9D96286E69AD4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Subnet Recommended"
+			tasks: [{
+				id: "3F84CEB32B55093C"
+				item: "ae2:annihilation_plane"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59E5BB32D828DF07"]
+			description: [
+				"The ME Interface is the bridge between your ME network and the outside world."
+				""
+				"It acts like a small chest or tank that your network can automatically fill or empty. Stock up to 9 slots at a time, move fluids as well as items, and use it to craft, buffer, or control automation. It’s a key component for connecting machines and systems to your network!"
+				""
+				"It can also be used with the Induction Card and Stored FE to push power to your machines. You'll have to change the Interface to its cable subpart variant by sticking it back into the crafting menu."
+			]
+			id: "3FBAA2DB5C6F0A2E"
+			rewards: [
+				{
+					count: 2
+					id: "6918EAEFAEF35D36"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5726124E5A811360"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "316DB9DC2B87BCFC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "533203F64BB29031"
+				item: "ae2:interface"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["48E21FCFF19DA1FB"]
+			description: [
+				"P2P tunnels let you move things like items, fluids, redstone, power, light, and channels around a network without them directly interacting with it. Each P2P tunnel only handles one specific type of thing. "
+				""
+				"Think of them as portals that directly connect two block faces at range. You need a defined input and output, do this with a memory card."
+				""
+				"But they have many other uses too. Check the in-game guide for a full explanation!"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:me_p2p_tunnel"
+			id: "10A138DF57854F00"
+			rewards: [
+				{
+					count: 16
+					id: "7031FA304C629F77"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "015A2FEC171AA229"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Aperture Science"
+			tasks: [
+				{
+					id: "51788FF0C21B9CEB"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "06A7C484790B3405"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59E5BB32D828DF07"]
+			id: "1A2CF8D335E1D749"
+			rewards: [{
+				id: "679DC92D9ADFBFC3"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Check the quests above and below for uses of the Formation Core."
+			tasks: [{
+				id: "01FC2D5FC4CB8010"
+				item: "ae2:formation_core"
+				type: "item"
+			}]
+			title: "Uses of Formation Cores"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A2CF8D335E1D749"]
+			description: ["The Export Bus will pull resources from your ME network and put them into the inventory it faces into. It will only pull out the items you add to its internal filter. Read more about its uses on the Guide."]
+			id: "575E0028F2F5A582"
+			rewards: [
+				{
+					count: 2
+					id: "01E5E0F752BF4D70"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "0368229FE405D832"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "ME Chute"
+			tasks: [{
+				id: "6C53A523D2435256"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["575E0028F2F5A582"]
+			description: ["The Extended Export Bus works 8x faster than the normal export bus."]
+			id: "2EBE6A5FA7517753"
+			rewards: [
+				{
+					count: 2
+					id: "2FA59CBCCE901D3F"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "045B29DD1A8EE816"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Faster Exporting"
+			tasks: [{
+				id: "350E2A88741E252D"
+				item: "expatternprovider:ex_export_bus_part"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FBAA2DB5C6F0A2E"]
+			description: [
+				"The AE Stock Bridge allows your ME system to communicate with Create!"
+				"First, right-click an existing stock ticker or stock link with the AE Stock Bridge. Then, place the AE Stock Bridge and connect it to your ME network. Attach a packager facing into the bridge and a frogport on top of the packager. Give the frogport and the AE Stock Bridge the same name (e.g. “AE” as shown in the image below)."
+				""
+				"Next, set up a second packager and frogport in your network so you can send packages. Make sure a crafting CPU is also connected to your ME system. If you have a stock keeper linked to your network, you’ll even be able to request packages directly from your ME system."
+				"{image:ftb:textures/stock_bridge_ae2.png width:175 height:120 align:center}"
+			]
+			id: "6D718B9321176F62"
+			rewards: [
+				{
+					count: 8
+					id: "1DC740874DE37CE3"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "46B1FFC1B52A3EFD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Create, Digitized"
+			tasks: [{
+				id: "6457D317B1D8F73D"
+				item: "createstockbridge:ae_bridge"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["54C539055C823294"]
+			description: ["The Import Bus will push resources from an inventory or tank into your ME system. It will push ALL items or fluids into your network, unless you add a specific item or fluid to its internal filter. Read more about its uses on the Guide."]
+			id: "56B4C90B6560D8EF"
+			rewards: [
+				{
+					count: 2
+					id: "4C3CA7C3E09447AA"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "29AB628ADE3100B1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "ME Funnel"
+			tasks: [{
+				id: "36183DE57EA4CAF1"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56B4C90B6560D8EF"]
+			description: ["The Extended Import Bus works 8x faster than the normal export bus."]
+			id: "657D2636D3B8D55C"
+			rewards: [
+				{
+					count: 2
+					id: "60263FE246E23259"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+				{
+					id: "675C2FA95D5E7D10"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Faster Importing"
+			tasks: [{
+				id: "1978A3C3F457B78B"
+				item: "expatternprovider:ex_import_bus_part"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FBAA2DB5C6F0A2E"]
+			description: [
+				"The Storage Bus lets your ME network see and use any inventory it’s attached to. Attach it to a chest or other inventory and the network can insert and extract items as if it were part of your storage. Filter the bus to only allow specific items or fluids, and even set up priority so it’s filled before or after other storages."
+				""
+				"You can also partition the bus to only accept what’s already in the inventory, control insertion and extraction separately, and restrict access to one or both directions. Right-click with a container like a bucket or tank to set its filter to that fluid instead of the container itself."
+			]
+			id: "11021E1D6EA6292E"
+			rewards: [
+				{
+					count: 2
+					id: "7B8CA72E2A22C964"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "2AF774B63960D1A1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "237E3DF5CE9F7E39"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: ["The Crafting Monitor will allow you to view the current craft in progress by the Crafting CPU it is attached to. It is purely for aesthetics."]
+			id: "354F124CB8CEA4FE"
+			rewards: [
+				{
+					count: 4
+					id: "1F847C4A2759E2AE"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "0F5C84C661F0DDB4"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "4018F7E4B3486A65"
+				item: "ae2:crafting_monitor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: ["The Crafting Co Processing Unit can be used to speed up the output of items from your ME pattern providers, and allow them to send items to multiple Molecular Assemblers at once. Three per multiblock should be plenty."]
+			id: "33269279E7BBBA27"
+			rewards: [
+				{
+					count: 4
+					id: "2C3BF6BF4008868B"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "3FDBFD339A83C7DE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "7018ED4E3E22E1EF"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["25D23BAF0C5F527E"]
+			description: [
+				"The Crafting CPU multiblock consists of at least one Crafting Storage. The Crafting Storage holds all of the items necessary to perform the craft, and for large recipes, this can require a large cell. "
+				""
+				"A 64k Crafting Storage should serve you well, but only a 1k Crafting Storage is necessary to complete this quest."
+			]
+			id: "240A0D7057F1290F"
+			rewards: [
+				{
+					count: 4
+					id: "0BEF6FD4CE7B3B74"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "04AEE6F0C4545A5D"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "03B2F79DF68A1204"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			title: "Crafting Storage"
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E586DC15D6B6F8D"]
+			description: ["The ME Wireless Access Point allows you to link Wireless Terminals to your ME system. "]
+			hide_dependency_lines: false
+			id: "03D204E1CE6F6C54"
+			rewards: [
+				{
+					count: 16
+					id: "614537854F708A2F"
+					item: "ae2:fluix_pearl"
+					type: "item"
+				}
+				{
+					id: "360C43647EF3FA9E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "07AF8DADD696B392"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2CE7F1424730D6F6"]
+			description: ["The Wireless ME connector allows you to... wirelessly move channels across your world! This is very useful if you want to make a set of Annihilation planes at world height and don't want to waste a bunch of cables to do it! Keep in mind, the energy cost for these connections increases exponentially with distance, but you can reduce this by installing Energy Cards to optimize power usage."]
+			icon: "expatternprovider:wireless_tool"
+			id: "297FEE259C42D02C"
+			rewards: [
+				{
+					count: 2
+					id: "757675927AD413F8"
+					item: "ae2:energy_card"
+					type: "item"
+				}
+				{
+					id: "537EFBA8F9EC2094"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "No More Long Cable Lines"
+			tasks: [
+				{
+					count: 2L
+					id: "1772970B2EA90FA0"
+					item: { Count: 2, id: "expatternprovider:wireless_connect" }
+					type: "item"
+				}
+				{
+					id: "6E3691051993CF6C"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			title: "Wireless ME Connection"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03D204E1CE6F6C54"]
+			description: ["The Wireless Booster Extends the range of the Wireless Terminal by a small amount. If you are looking for further range, look at the next quest."]
+			id: "02850F867170A338"
+			rewards: [
+				{
+					count: 4
+					id: "18A555C481D1F364"
+					item: "ae2:wireless_booster"
+					type: "item"
+				}
+				{
+					id: "0F3CB3F6E85DDCC1"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "325A6FB19C502D88"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["02850F867170A338"]
+			description: ["The Infinity Card allows you to access your ME system from the same dimension anywhere in the dimension. The Dimension Card allows you to access your ME System from any anywhere in any dimension. Both require your ME system to be chunkloaded if you are not near it."]
+			icon: "aeinfinitybooster:dimension_card"
+			id: "25799382ABD8F132"
+			rewards: [
+				{
+					id: "18CE48030F00912A"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "3764B4F292293308"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Option 2"
+			tasks: [
+				{
+					id: "27EACDFFBD0CDA98"
+					item: "aeinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "427703C3E598942B"
+					item: "aeinfinitybooster:dimension_card"
+					type: "item"
+				}
+			]
+			title: "Infinite Range AE Access"
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5BB56D4D044A68FD"]
+			description: [
+				"The Matter Condenser acts like a trash can until you give it a Storage Component."
+				""
+				""
+				"In matter ball mode, it will condense any excess items or fluids into matter balls. With a 64k or larger Storage Component installed, it can also produce Singularities."
+			]
+			id: "1168C20662EAC441"
+			rewards: [
+				{
+					count: 32
+					id: "11F1A0E2D830B6E6"
+					item: "ae2:quartz_glass"
+					type: "item"
+				}
+				{
+					id: "3B858E787FA6EF9D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Black Hole Maker"
+			tasks: [{
+				id: "718C6FB081D3625C"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1168C20662EAC441"]
+			description: ["Use the Matter Condenser to make Matter Balls and Singularities! They have various uses."]
+			icon: "ae2:matter_ball"
+			id: "1C1FC5AA69A7A32A"
+			rewards: [
+				{
+					count: 64
+					id: "3BCE5021A074A3D7"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F8EE88FF2880A7E"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "2F9D4F764301955B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			subtitle: "Breaking The Laws of Physics"
+			tasks: [
+				{
+					id: "0BA0F8143BC1373F"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+				{
+					id: "01D810A6EE93EE4A"
+					item: "ae2:singularity"
+					type: "item"
+				}
+			]
+			title: "Condensed Matter"
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C1FC5AA69A7A32A"]
+			description: [
+				"Craft a piece of Tiny TNT, then drop Ender Dust and a Singularity on the ground nearby. Ignite the Tiny TNT to cause an explosion. This will create a pair of Quantum Entangled Singularities."
+				""
+				"If nothing happens, make sure you’re not in a claimed chunk with explosion protection enabled."
+			]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "7893F714547A593C"
+			rewards: [
+				{
+					count: 8
+					id: "2A08F9AE0FB87D85"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "1F3D6C026A852076"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "6502EA493AF52AED"
+					item: "ae2:tiny_tnt"
+					type: "item"
+				}
+				{
+					id: "1BE95DF3CAB31BEC"
+					item: "ae2:ender_dust"
+					type: "item"
+				}
+				{
+					id: "10C10F6B67916EBE"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7F07A5DC4082B859"
+					item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+					type: "item"
+				}
+			]
+			title: "A Quantum Connection"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7893F714547A593C"]
+			description: [
+				"Place 8 Quantum Rings in a circle and put the Quantum Link Chamber in the center. Insert one Singularity into the Link Chamber and another Singularity into your Wireless Terminal, then insert a Quantum Bridge Card into the Wireless Terminal. "
+				""
+				"Voila, you now have wireless AE access. "
+				""
+				"Creating a second Quantum Ring and Link Chamber setup lets you connect two ME systems in different dimensions."
+			]
+			icon: "ae2:quantum_ring"
+			id: "5E4187F97D8EAC9D"
+			rewards: [
+				{
+					id: "274729CB74AC53A6"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "5CC8F5A1B014BFF7"
+					type: "xp"
+					xp: 300
+				}
+			]
+			subtitle: "Option 1"
+			tasks: [
+				{
+					count: 8L
+					id: "73A037023ACFC6A9"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "1B0C71266D148A26"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "666F734433C9AE1B"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+			]
+			title: "Infinite Range AE Access"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3961CE07F975EDF1"]
+			description: ["The Dense Energy Cell adds a 1.6MAE energy buffer to your ME system."]
+			id: "3970DF09DBB2FFBD"
+			rewards: [
+				{
+					id: "101F2D52B0D32F3A"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "22C08B5EF9B3FB63"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Massive Potential"
+			tasks: [{
+				id: "466A0B29CDCAC26C"
+				item: {
+					Count: 1
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3970DF09DBB2FFBD"]
+			description: [
+				"The Energetic Blaze is Create – Forge Frontier’s take on the Reaction Chamber from Advanced AE."
+				"When powered by FE and normally heated, it can perform crystallizing recipes. But when also powered by AE energy, fed FE, and superheated, it can perform powerful energetic infusions."
+				""
+				"Keep in mind that these recipes require a large amount of FE, so you’ll want a strong power generation setup and good transfer rates."
+				""
+				"Refer to the Ponder if you need more information."
+			]
+			id: "243974CBC0AC55FD"
+			rewards: [
+				{
+					id: "6D8B6890B3DCA0D9"
+					item: "forgefrontiercore:energetic_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "2D65299EAA3FEDAF"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "04C47B55F9E5197A"
+				item: "forgefrontiercore:energetic_blaze_burner"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BB56D4D044A68FD"
+				"48E21FCFF19DA1FB"
+			]
+			description: ["The Wireless Receiver is a crafting ingredient used to enable wireless access to your ME system."]
+			hide_dependency_lines: true
+			id: "2E586DC15D6B6F8D"
+			rewards: [
+				{
+					count: 4
+					id: "0EDDB0A96076413C"
+					item: "ae2:wireless_receiver"
+					type: "item"
+				}
+				{
+					id: "2F9C866808D3B3AF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2D9FE0C4E25A3853"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E586DC15D6B6F8D"]
+			description: [
+				"The Wireless Terminal is fairly self explanatory. Charge it using a charger or energizer."
+				""
+				"Link it to your ME Network by placing it inside of a ME Wireless Access Point. "
+				""
+				"Cannot be combined into the universal terminal. You must make it into a crafting terminal to make it combinable."
+			]
+			id: "75C3B19837EC01BA"
+			rewards: [
+				{
+					count: 4
+					id: "1119665F5729EEDF"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "31CD70812CA24E90"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "6B760751AAB41462"
+				item: "ae2:wireless_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["75C3B19837EC01BA"]
+			description: [
+				"The Wireless Crafting Terminal is fairly self explanatory. Charge it using a charger or energizer."
+				""
+				"Link it to your ME Network by placing it inside of a ME Wireless Access Point. "
+				""
+				"Combine it with any other wireless terminal to combine the terminals into a Universal Terminal."
+			]
+			id: "6910E25B577726DB"
+			rewards: [
+				{
+					count: 4
+					id: "74B62BD93CCF6AD8"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3F552FC25D965F04"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "4FFB8BD48C5A3F3A"
+				item: "ae2:wireless_crafting_terminal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"25F8E9DACA19E4E7"
+				"2E586DC15D6B6F8D"
+			]
+			description: [
+				"The Wireless Pattern Access Terminal is fairly self explanatory. Charge it using a charger or energizer."
+				""
+				"Link it to your ME Network by placing it inside of a ME Wireless Access Point. "
+				""
+				"Combine it with any other wireless terminal to combine the terminals into a Universal Terminal."
+			]
+			id: "3CD936E1B3643332"
+			rewards: [
+				{
+					count: 4
+					id: "2FC304BE094DFE4D"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "137E502B8791D048"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "5B9BB7B1982A3B39"
+				item: "ae2wtlib:wireless_pattern_access_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2E586DC15D6B6F8D"
+				"2CEC02C65341B450"
+			]
+			description: [
+				"The Wireless Pattern Encoding Terminal is fairly self explanatory. Charge it using a charger or energizer."
+				""
+				"Link it to your ME Network by placing it inside of a ME Wireless Access Point. "
+				""
+				"Combine it with any other wireless terminal to combine the terminals into a Universal Terminal."
+			]
+			id: "1651CE0056B2CA6D"
+			rewards: [
+				{
+					count: 4
+					id: "0CB41045F56F87F2"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "39CB6AEF98DD2CC0"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "1C6B7250F9027B59"
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"243974CBC0AC55FD"
+				"47C06EEDF3FEF708"
+			]
+			description: ["Charged Redstone can be obtained from charging Redstone Crystals or via Energetic Infusion via an Energetic Blaze Burner."]
+			id: "42566AC194215C82"
+			rewards: [
+				{
+					count: 8
+					id: "77690F0490FB1CE9"
+					item: "appflux:charged_redstone"
+					type: "item"
+				}
+				{
+					id: "3705FC79DAAE6DCC"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "0882E2DA61A5C473"
+				item: "appflux:charged_redstone"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42566AC194215C82"]
+			description: ["The Energy Circuit is an essential crafting component that’s used to make the Energy Processor. The Energy Processor, in turn, is a key part of crafting energy components for your FE Storage Cells."]
+			icon: "appflux:energy_processor"
+			id: "2FF9D061A1268FF9"
+			rewards: [
+				{
+					count: 4
+					id: "5AF45F5950BA77EB"
+					item: "appflux:energy_processor"
+					type: "item"
+				}
+				{
+					id: "623B9920CE29F58F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "6CEEA48E0A72E8C3"
+					item: "appflux:printed_energy_processor"
+					type: "item"
+				}
+				{
+					id: "2A1B7A0ADD4A498F"
+					item: "appflux:energy_processor"
+					type: "item"
+				}
+			]
+			title: "Energy Processing"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2FF9D061A1268FF9"]
+			description: ["The Flux Accessor pulls FE directly from your Generator Coil or any other power source and stores it inside the FE Power Cell. Feed power into it using cables or set it down directly next to the Carbon Brushes of your New Age Generator. To put this stored energy to use, check out the next quest about the Inductor Card."]
+			id: "4213D8B68B2D8546"
+			rewards: [
+				{
+					id: "5E4B8123BFE0D821"
+					item: "appflux:flux_accessor"
+					type: "item"
+				}
+				{
+					id: "7EDF3563E4A60182"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "37D1A34283AAB666"
+				item: "appflux:flux_accessor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2AE3AE7CF1CE0E2C"]
+			description: ["Redstone Crystals are made by mixing Redstone, Fluix Dust, and Sky Stone Dust. They are used to make processors from Applied Flux - an AE2 energy storage addon."]
+			id: "47C06EEDF3FEF708"
+			rewards: [
+				{
+					count: 8
+					id: "75D54358BA0583AB"
+					item: "appflux:redstone_crystal"
+					type: "item"
+				}
+				{
+					id: "4B828732032A1D90"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "71968A62D626B0C7"
+				item: "appflux:redstone_crystal"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5DCD053910B7069C"]
+			description: ["Insulating Resin is used to make FE Storage Cells from Applied Flux."]
+			hide_dependency_lines: true
+			id: "4B57B4C9692E87BC"
+			rewards: [
+				{
+					count: 4
+					id: "16B5713295D2254C"
+					item: "appflux:insulating_resin"
+					type: "item"
+				}
+				{
+					id: "426FD137798E00AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "65B9159435198A48"
+				item: "appflux:insulating_resin"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B57B4C9692E87BC"]
+			description: ["Smelt your Insulating Resin to get Hardened Insulating Resin - capable of withstanding the high voltage contained within Energy Cells."]
+			id: "54BCEB6981101EE3"
+			rewards: [
+				{
+					count: 4
+					id: "56BCD36346165DDA"
+					item: "appflux:harden_insulating_resin"
+					type: "item"
+				}
+				{
+					id: "29B120BD3CB2E2DE"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "6E0141C871E14477"
+				item: "appflux:harden_insulating_resin"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6FACE33CD107ABC8"]
+			description: ["Sky Stone Dust is obtained from crushing Sky Stone obtained from a Fluix Researcher or from a Meteorite. You can also place an annihilation plane facing the world height (Y = 639) to obtain sky stone dust."]
+			hide_dependency_lines: true
+			id: "2AE3AE7CF1CE0E2C"
+			rewards: [
+				{
+					count: 64
+					id: "1EAA6F9EF40EAB16"
+					item: "ae2:sky_dust"
+					type: "item"
+				}
+				{
+					id: "2E56F90FFD2DC3C8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5AD33D3E27349D76"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["54BCEB6981101EE3"]
+			description: ["The FE Cell Housing is a modular casing for assembling FE Cells of varying tiers. Once crafted, simply insert the energy storage components into the housing to complete your FE Cell."]
+			id: "7B4DC3DDDD71FDC9"
+			rewards: [
+				{
+					id: "26F0CB90B766C5D7"
+					item: "createcompression:compressed_redstone_3x"
+					type: "item"
+				}
+				{
+					id: "40C4EA5A3D227F0A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "4538EC7673E46D54"
+				item: "appflux:fe_cell_housing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7B4DC3DDDD71FDC9"]
+			description: ["The 1k FE Cell holds 4.2 GFE, but the ME Terminal shows it stores exactly 4,294,967,296 FE. This is more than enough energy storage for most needs, but if you want to build a higher-tier cell, more power to you!"]
+			id: "444043822C11DE7E"
+			rewards: [
+				{
+					count: 4
+					id: "0F160DF59EC6505E"
+					item: "appflux:energy_processor"
+					type: "item"
+				}
+				{
+					id: "63761C3FFBEF5C2E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "04983685A2BD2D9D"
+				item: {
+					Count: 1
+					id: "appflux:fe_1k_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4213D8B68B2D8546"]
+			description: [
+				"The Induction Card allows certain machines to use the FE stored in your ME system. The best way to use the power is to place an induction card into a cable subpart ME Interface and face that Interface into the Energizer or Energetic Blaze Burner. The Energy will transfer from the Interface to the machine."
+				""
+				"It can also be used with a Portable FE Cell to wirelessly charge items in your inventory."
+			]
+			id: "398D0D8B52F362A8"
+			rewards: [
+				{
+					id: "1B6F821A833B79E7"
+					item: "appflux:induction_card"
+					type: "item"
+				}
+				{
+					id: "658A682C231ACB90"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "73C24C934909F25A"
+				item: "appflux:induction_card"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["48E21FCFF19DA1FB"]
+			description: ["The 2³ Spatial Storage Cell defines a compact 2x2x2 volume for spatial IO operations. It’s perfect for testing or moving small areas quickly. Keep in mind that once this cell is used, its dimensions are permanently fixed as you cannot resize or reformat it."]
+			hide_dependency_lines: true
+			icon: "ae2:spatial_storage_cell_2"
+			id: "3CD22C57476D942A"
+			rewards: [
+				{
+					id: "544D34E01803EDC5"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+				{
+					id: "585FE40AA3A23C2D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "3E808DC712031BB0"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+				{
+					id: "3B2179A312DE1F88"
+					item: "ae2:spatial_storage_cell_2"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3CD22C57476D942A"]
+			description: ["The 16³ Spatial Storage Cell handles a much larger 16x16x16 volume, great for swapping rooms or medium-sized builds. It offers more flexibility but consumes significantly more energy during operations."]
+			icon: "ae2:spatial_storage_cell_16"
+			id: "2FEE60BB5C9F785B"
+			rewards: [
+				{
+					id: "4FA130E7BF599A2D"
+					item: "ae2:spatial_cell_component_16"
+					type: "item"
+				}
+				{
+					id: "5925FE43FBAFE078"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "486A6E8B988FB547"
+					item: "ae2:spatial_cell_component_16"
+					type: "item"
+				}
+				{
+					id: "19967E195AC73806"
+					item: "ae2:spatial_storage_cell_16"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2FEE60BB5C9F785B"]
+			description: ["The 128³ Spatial Storage Cell is designed for massive 128x128x128 volumes, ideal for relocating entire bases or huge structures between dimensions. Be prepared for very high energy demands and plan your pylon array carefully for maximum efficiency."]
+			icon: "ae2:spatial_storage_cell_128"
+			id: "08192F52ACC5FA21"
+			rewards: [
+				{
+					id: "6D65217CA3025967"
+					item: "ae2:spatial_cell_component_128"
+					type: "item"
+				}
+				{
+					id: "24E1D9A4577904AC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "66BD40F5BEB9E11C"
+					item: "ae2:spatial_cell_component_128"
+					type: "item"
+				}
+				{
+					id: "1324B9E9C4A99668"
+					item: "ae2:spatial_storage_cell_128"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["13461C37F7C27795"]
+			description: [
+				"Spatial Pylons are the building blocks of a Spatial IO setup. They define the boundaries of the 3D area you want to cut-and-paste and must be arranged into a complete frame around that volume. Keep in mind that the defined volume is one block smaller in every direction than the outer shell of pylons."
+				""
+				"For proper setup and efficiency details, including minimum sizes, optimal shapes, and network requirements, check out the Spatial IO section of the guide."
+			]
+			hide_dependency_lines: true
+			id: "050A7CBA9C26468E"
+			rewards: [
+				{
+					count: 2
+					id: "6AC84B6D7CE21DF6"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "17FA1CB5F82531A9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "270A9882AC56F84A"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"050A7CBA9C26468E"
+				"08192F52ACC5FA21"
+			]
+			description: ["The Spatial Anchor keeps the chunk containing your Spatial IO setup loaded at all times. It also chunk-loads any connected chunks containing AE2 devices or cables, ensuring your entire network stays powered and online. Without it, your Spatial IO operations could fail mid-transfer when you’re far away or in another dimension."]
+			id: "6549A7416BA658ED"
+			rewards: [
+				{
+					id: "63C189709E2DF2B6"
+					item: "ae2:spatial_cell_component_16"
+					type: "item"
+				}
+				{
+					id: "72172B60D4DCB5A6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Create: Power Loader Who?"
+			tasks: [{
+				id: "4A5736611A3D8103"
+				item: "ae2:spatial_anchor"
+				type: "item"
+			}]
+			title: "AE2 Chunkloading"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2182B348FE0E32CA"]
+			description: [
+				"The Spatial IO Port is the heart of any Spatial IO setup. It controls the cut-and-paste operation that moves entire areas into the spatial storage dimension. It displays important stats like energy usage, required capacity, and setup efficiency. Insert a properly sized Spatial Storage Cell into its input slot and give the port a redstone pulse to swap the defined volume with whatever is saved in the cell."
+				""
+				"BE CAREFUL: Any entities inside the defined area will also be moved, so make sure you have a way out before hitting the switch!"
+				""
+				"For detailed setup instructions, multiblock requirements, and tips on choosing cell dimensions, check out the full Spatial IO section of the guide."
+			]
+			hide_dependency_lines: false
+			id: "697B15028DD8AFD7"
+			rewards: [
+				{
+					count: 16
+					id: "5025B013E74CECD3"
+					item: "ae2:fluix_pearl"
+					type: "item"
+				}
+				{
+					id: "7A7D7D2BEF232539"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "0DF6D52987294D82"
+				item: "ae2:spatial_io_port"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3961CE07F975EDF1"
+				"4F1F15656FFEE324"
+			]
+			description: ["The Matter Cannon can shoot projectiles like Matter Balls and Paint Balls, and also iron and gold nuggets. The easiest way to load it is with a ME Chest."]
+			hide_dependency_lines: true
+			id: "6D31E2D8D853AF44"
+			rewards: [
+				{
+					count: 256
+					id: "6A88A8AC62A25278"
+					item: "ae2:matter_ball"
+					type: "item"
+				}
+				{
+					id: "3F7292A6D308D72D"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "57502DDD1277C61F"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3961CE07F975EDF1"
+				"4F1F15656FFEE324"
+			]
+			description: ["The Color Applicator can dye cables, wool, terracotta, and more. Check the Guide Entry for more information on its other uses."]
+			hide_dependency_lines: true
+			id: "7002F27382E65C7A"
+			rewards: [
+				{
+					id: "7D68323AC6681DBC"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+				{
+					id: "103C2C1244AA47E0"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "778ADE212DF9F0B9"
+				item: {
+					Count: 1
+					id: "ae2:color_applicator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3961CE07F975EDF1"
+				"4F1F15656FFEE324"
+			]
+			description: ["The Entropy Manipulator can be used to change the phase of certain blocks. Check its uses in EMI."]
+			hide_dependency_lines: true
+			id: "4DB5C6F6767359A7"
+			rewards: [
+				{
+					id: "65495A98971D1218"
+					item: {
+						Count: 1
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "75B7A2AFC20D89D8"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "2FC41C00D15B19C0"
+				item: "ae2:entropy_manipulator"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2515762732B22B08"]
+			description: ["The Charged Staff acts as a weapon when charged and deals six damage."]
+			hide_dependency_lines: true
+			id: "093F1DB7EC114345"
+			rewards: [
+				{
+					count: 16
+					id: "4254C1B54EB87415"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "310FEFA7922EE172"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "146CF83D9D53FF50"
+				item: "ae2:charged_staff"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3FBAA2DB5C6F0A2E"]
+			description: ["Functions the same as the normal ME Interface but it can hold 16x more in each slot."]
+			id: "4B202A937C67489E"
+			rewards: [
+				{
+					id: "6F0D16FB7D56E688"
+					item: "expatternprovider:oversize_interface"
+					type: "item"
+				}
+				{
+					id: "6B213EB8E02D21D8"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "16111426D622904C"
+				item: "expatternprovider:oversize_interface"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48E21FCFF19DA1FB"]
+			description: ["These little cards make your machines just a bit more powerful. They allow them to carry more energy, filter their items, and more."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "44E0ED1DF8E617EF"
+			rewards: [
+				{
+					count: 8
+					id: "120C58F49C1AA4FF"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "65D0AAE2FD0850A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "321224BD255E0126"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1F0F2FD173E61412"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+			]
+			title: "Upgrade Cards"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: ["The Insert Card will allow you to set one or more slots to import any item that falls into those slots to your ME system. Useful for mass mining projects."]
+			id: "17D62490F523F3B6"
+			rewards: [
+				{
+					id: "651B0FBF8C2476DA"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "51FB5E3E6926C04D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3302ECF49161571D"
+				item: "ae2insertexportcard:insert_card"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: [
+				"The Inverter Card makes the whitelist filter inside of any AE2 Machine into a blacklist."
+				""
+				"The Fuzzy Card allows your AE2 Machines to filter by NBT data such as damage or enchantment."
+				""
+				"The Capacity Card extends the filter slots of your machines."
+			]
+			icon: "ae2:capacity_card"
+			id: "2AF2CED6E474A29D"
+			rewards: [
+				{
+					id: "7A8FC3C51811F693"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "209AD66E9999A4CF"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "49BC686D22C8899A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "527368B3635DDB71"
+					item: "ae2:inverter_card"
+					type: "item"
+				}
+				{
+					id: "0D04008898E6EB08"
+					item: "ae2:fuzzy_card"
+					type: "item"
+				}
+				{
+					id: "4B90FF1989006D87"
+					item: "ae2:capacity_card"
+					type: "item"
+				}
+			]
+			title: "Filtering Cards"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: [
+				"The Overflow Destruction Card allows your Storage Bus or Cell or other storage device to void excess items. Perfect if you do not want to set up a level emitter to turn off a machine when your storage gets full. "
+				""
+				"The Equal Distribution Card allows Storage Cells to hold an equal amount of fluid or items."
+			]
+			icon: "ae2:void_card"
+			id: "05E3E40B4F787FB7"
+			rewards: [
+				{
+					id: "2758FF151FBD654B"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+				{
+					id: "4079C477014493B3"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "58DB350D2EADBD19"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4629E6C679FCF197"
+					item: "ae2:void_card"
+					type: "item"
+				}
+				{
+					id: "69E105858BECF49F"
+					item: "ae2:equal_distribution_card"
+					type: "item"
+				}
+			]
+			title: "Storage Management Cards"
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: ["The Acceleration Card Speeds up various machines like import buses and molecular assemblers."]
+			id: "73917C68CA0210AF"
+			rewards: [
+				{
+					id: "067A1C2F6BADAF3A"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "3F98DCC12733EB50"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "50ADD456277665F3"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: ["The Crafting Card allows your ME machines to request items that they need from your Autocrafting setup. "]
+			id: "36A4A27CE0A32D5D"
+			rewards: [
+				{
+					id: "05E024AE6E8921D2"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+				{
+					id: "75D349FC26A27BAF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3335354929C6EA49"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: ["The Redstone Card brings redstone functionality to your AE2 Machines. It adds a toggle for different redstone modes in the Machine's menu."]
+			id: "2C68CFEB73FBD80C"
+			rewards: [
+				{
+					id: "0F510AE850BE99C9"
+					item: "ae2:basic_card"
+					type: "item"
+				}
+				{
+					id: "06E4C22B2003476B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "628FDC2EF3CD6682"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: ["The Energy Card extends the internal battery of wireless terminals, portable cells, and more."]
+			id: "56DC09E1E55076F1"
+			rewards: [
+				{
+					id: "61FF7360BB8C166C"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "34F2BB9DFD1A85A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7C4063DEF7E70A17"
+				item: "ae2:energy_card"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["44E0ED1DF8E617EF"]
+			description: ["The Export Card allows you to export any block or fluid to your inventory from your ME system. This is useful for filling Fluid Tanks, Fuel Tanks for a Jetpack, or even Oxygen Cans."]
+			id: "235715C875AEB21C"
+			rewards: [
+				{
+					id: "1B38A243F98D409E"
+					item: "ae2:advanced_card"
+					type: "item"
+				}
+				{
+					id: "505E93E221DD77F8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2D1D9DB0CC686EEC"
+				item: "ae2insertexportcard:export_card"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["444043822C11DE7E"]
+			description: ["The Portable FE Cell stores energy for on-the-go use. Store FE inside it using an IO port, and charge it using a charger or energizer. Insert an Induction Card into it using to enable wireless charging of items in your inventory while you explore!"]
+			id: "0D2E92335FE90783"
+			rewards: [
+				{
+					count: 4
+					id: "1C1B84A427781981"
+					item: {
+						Count: 1
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D311DC04C81E7B7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "40F7F375C73D766E"
+				item: {
+					Count: 1
+					id: "appflux:fe_1k_portable_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2515762732B22B08"
+				"5BB56D4D044A68FD"
+			]
+			description: [
+				"This device generates energy for your ME network without requiring any fuel."
+				""
+				"It generates power at a consistent rate of 20.0 AE/t. Only one Crystal Resonance Generator can be used per network. "
+				""
+				"They are best used for powering subnets that do not require much power."
+			]
+			id: "15CCD6DBA911B6AD"
+			rewards: [
+				{
+					id: "06F30AA81B3B086F"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "3FEE9532E89B63B2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "52F7431B3501B70E"
+				item: "ae2:crystal_resonance_generator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+	]
 	title: "Advanced Storage"
 }
