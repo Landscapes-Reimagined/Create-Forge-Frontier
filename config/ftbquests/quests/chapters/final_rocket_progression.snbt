@@ -1833,7 +1833,7 @@
 			id: "645095D1F886FAB8"
 			rewards: [{
 				id: "15E3664815B319FA"
-				item: "createcompression:compressed_experience_4x"
+				item: "createcompression:compressed_experience_6x"
 				type: "item"
 			}]
 			shape: "square"
@@ -1850,7 +1850,7 @@
 			id: "7AAFF03DB14B563A"
 			rewards: [{
 				id: "24D8AFA06437AADC"
-				item: "forge_frontier:compressed_shaft_bundle_4x"
+				item: "forge_frontier:compressed_etrium_4x"
 				type: "item"
 			}]
 			shape: "square"
@@ -2020,7 +2020,7 @@
 			id: "2699748D3172F7AA"
 			rewards: [{
 				id: "0998C5A6431305B4"
-				item: "forge_frontier:compressed_amber_4x"
+				item: "forge_frontier:compressed_amber_5x"
 				type: "item"
 			}]
 			shape: "square"
@@ -2088,7 +2088,7 @@
 			id: "262FB7030C4331FA"
 			rewards: [{
 				id: "39010EF3BC385241"
-				item: "forge_frontier:compressed_mithril_4x"
+				item: "forge_frontier:compressed_mithril_2x"
 				type: "item"
 			}]
 			shape: "square"
@@ -2139,7 +2139,7 @@
 			id: "78A698F4BD970E34"
 			rewards: [{
 				id: "01F5CDEF3493A28F"
-				item: "forge_frontier:compressed_netherite-diamond_4x"
+				item: "forge_frontier:compressed_netherite-diamond_3x"
 				type: "item"
 			}]
 			shape: "square"
@@ -2156,7 +2156,7 @@
 			id: "5FCCB2083412B001"
 			rewards: [{
 				id: "2BA9667D375D419D"
-				item: "forge_frontier:compressed_ethium_1x"
+				item: "forge_frontier:compressed_ethium_2x"
 				type: "item"
 			}]
 			shape: "square"
