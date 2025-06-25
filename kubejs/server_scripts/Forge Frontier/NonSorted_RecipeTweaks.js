@@ -53,34 +53,6 @@ ServerEvents.recipes(event => {
 			]
 		}).id('forge_frontier:item_application/dragon_head_catalyst');
 
-		// DD Compound to Create Compound
-		event.custom({
-		type: 'minecraft:crafting_shapeless',
-		ingredients: [
-			{
-				item: 'create_dd:chromatic_compound'
-			}
-		],
-		result: {
-			item: 'create:chromatic_compound',
-		  }
-
-		}).id( 'forge_frontier:shapeless/dd_create_compound' )
-
-		// DD Compound to Create Compound
-		event.custom({
-		type: 'minecraft:crafting_shapeless',
-		ingredients: [
-			{
-				item: 'create:chromatic_compound'
-			}
-		],
-		result: {
-			item: 'create_dd:chromatic_compound',
-		  }
-
-	}).id( 'forge_frontier:shapeless/create__dd_compound' )
-
 	// Disenchanting Table Recipe
 	event.remove({ id: 'disenchanting_table:disenchanting_table'})
 	event.custom({
@@ -588,23 +560,6 @@ ServerEvents.recipes(event => {
 			{ item: 'minecraft:nether_wart', count: 2 },
 			{ item: 'minecraft:nether_wart', chance: 0.10 }]
 	}).id('forge_frontier:crushing/nether_wart_block');
-
-	// Create Chromatic Compound
-	event.custom({
-		type: 'create:mixing',
-		ingredients: [
-			Ingredient.of('create:powdered_obsidian').toJson(),
-			Ingredient.of('create:powdered_obsidian').toJson(),
-			Ingredient.of('create:powdered_obsidian').toJson(),
-			Ingredient.of('create:powdered_obsidian').toJson(),
-			Ingredient.of('create:polished_rose_quartz').toJson(),
-			Ingredient.of('create_dd:polished_spectral_ruby').toJson()
-		],
-		results: [
-			{ item: 'create:chromatic_compound', count: 2 }
-		],
-		heatRequirement: "superheated"
-	}).id('forge_frontier:mixing/chromatic_compound');
 
 	// Fixes Chipped Tinkering Table Recipe
 	event.shaped(

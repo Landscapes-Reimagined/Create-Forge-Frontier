@@ -1,5 +1,104 @@
 ServerEvents.recipes(event => {
 
+		// DD Refined Radiance to Create Refined Radiance
+		event.custom({
+			type: 'minecraft:crafting_shapeless',
+			ingredients: [
+				{
+					item: 'create_dd:refined_radiance'
+				}
+			],
+			result: {
+				item: 'create:refined_radiance',
+			}
+
+		}).id( 'forge_frontier:shapeless/dd_create_refined_radiance' )
+
+		// DD Shadow Steel to Create Shadow Steel
+		event.custom({
+			type: 'minecraft:crafting_shapeless',
+			ingredients: [
+				{
+					item: 'create_dd:shadow_steel'
+				}
+			],
+			result: {
+				item: 'create:shadow_steel',
+			}
+
+		}).id( 'forge_frontier:shapeless/dd_create_shadow_steel' )
+		
+		// Create Refined Radiance to DD Refined Radiance
+		event.custom({
+			type: 'minecraft:crafting_shapeless',
+			ingredients: [
+				{
+					item: 'create:refined_radiance'
+				}
+			],
+			result: {
+				item: 'create_dd:refined_radiance',
+			}
+		}).id( 'forge_frontier:shapeless/create_dd_refined_radiance' )
+
+		// Create Shadow Steel to DD Shadow Steel
+		event.custom({
+			type: 'minecraft:crafting_shapeless',
+			ingredients: [
+				{
+					item: 'create:shadow_steel'
+				}
+			],
+			result: {
+				item: 'create_dd:shadow_steel',
+			}
+		}).id( 'forge_frontier:shapeless/create_dd_shadow_steel' )		
+
+		// Create Chromatic Compound to Match DD Compound Recipe
+		event.custom({
+			type: 'create:mixing',
+			ingredients: [
+				Ingredient.of('create:powdered_obsidian').toJson(),
+				Ingredient.of('create:powdered_obsidian').toJson(),
+				Ingredient.of('create:powdered_obsidian').toJson(),
+				Ingredient.of('create:powdered_obsidian').toJson(),
+				Ingredient.of('create:polished_rose_quartz').toJson(),
+				Ingredient.of('create_dd:polished_spectral_ruby').toJson()
+			],
+			results: [
+				{ item: 'create:chromatic_compound', count: 2 }
+			],
+			heatRequirement: "superheated"
+		}).id('forge_frontier:mixing/chromatic_compound');
+
+		// DD Compound to Create Compound
+		event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'create_dd:chromatic_compound'
+			}
+		],
+		result: {
+			item: 'create:chromatic_compound',
+		  }
+
+		}).id( 'forge_frontier:shapeless/dd_create_compound' )
+
+		// Create Compound to DD Compound
+		event.custom({
+		type: 'minecraft:crafting_shapeless',
+		ingredients: [
+			{
+				item: 'create:chromatic_compound'
+			}
+		],
+		result: {
+			item: 'create_dd:chromatic_compound',
+		  }
+
+		}).id( 'forge_frontier:shapeless/create_dd_compound' )
+
 	// Remove Sanding Catalyst Recipe
 	event.remove({ id: 'create_connected:item_application/sanding_castlyst_from_empty_using_deployer' })
 	event.remove({ id: 'create_connected:item_application/sanding_catalyst_from_empty'})
