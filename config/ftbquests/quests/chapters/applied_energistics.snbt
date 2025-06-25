@@ -157,7 +157,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["7BA4F682A924A1A4"]
+			dependencies: ["5BB56D4D044A68FD"]
 			description: [
 				"The Growth Accelerator enhances the growth of Budding Certus Quartz, causing it to grow &osignificantly&r faster. "
 				""
@@ -191,8 +191,8 @@
 				item: "ae2:growth_accelerator"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -6.5d
+			x: -4.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7BA4F682A924A1A4"]
@@ -207,12 +207,6 @@
 					count: 16
 					id: "78EED2E4B99AD702"
 					item: "ae2:certus_quartz_crystal"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1F0F400816D4BF81"
-					item: "ae2:cable_anchor"
 					type: "item"
 				}
 				{
@@ -231,7 +225,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7BA4F682A924A1A4"]
+			dependencies: ["2F045E872C7AB33C"]
 			description: ["The Energy Acceptor powers your network. Supply it with FE and it will turn it into AE at a 2:1 ratio. "]
 			id: "2CC4DEC1F2492030"
 			rewards: [
@@ -259,14 +253,11 @@
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.5d
+			x: 0.5d
+			y: -4.0d
 		}
 		{
-			dependencies: [
-				"68CFA19316BB8616"
-				"2CC4DEC1F2492030"
-			]
+			dependencies: ["4B192C31696BDF4C"]
 			description: ["Throw some Certus Quartz Crystals through a Crushing Wheel to obtain Certus Quartz Dust! Certus Quartz Dust is used to make Silicon, Quartz Glass, and more."]
 			id: "2F045E872C7AB33C"
 			rewards: [
@@ -1110,6 +1101,8 @@
 				"To do any auto crafting, you must have at least one crafting cpu multiblock. This consists of at least one crafting storage block. "
 				""
 				"Note that two crafting storage blocks next to each other is one multiblock. They must be separated by a block to count as two cpus."
+				""
+				"Note that pushing items back into a Pattern Provider will put them back into your ME System."
 			]
 			hide_dependency_lines: true
 			id: "25D23BAF0C5F527E"
@@ -1377,7 +1370,7 @@
 				"48E21FCFF19DA1FB"
 				"5A43EC5BF114639D"
 			]
-			description: ["The Annihilation and Formation Planes give access to more advanced AE2 components. You'll need a lot of these."]
+			description: ["The Annihilation and Formation Cores give access to more advanced AE2 components. You'll need a lot of these."]
 			id: "59E5BB32D828DF07"
 			rewards: [
 				{
@@ -1633,6 +1626,8 @@
 				"It acts like a small chest or tank that your network can automatically fill or empty. Stock up to 9 slots at a time, move fluids as well as items, and use it to craft, buffer, or control automation. It’s a key component for connecting machines and systems to your network!"
 				""
 				"It can also be used with the Induction Card and Stored FE to push power to your machines. You'll have to change the Interface to its cable subpart variant by sticking it back into the crafting menu."
+				""
+				"Check the guide for a special interaction between the Storage Bus and ME Interface."
 			]
 			id: "3FBAA2DB5C6F0A2E"
 			rewards: [
@@ -2029,7 +2024,7 @@
 				}
 			]
 			title: "Wireless ME Connection"
-			x: -2.5d
+			x: -2.0d
 			y: -4.0d
 		}
 		{
@@ -3150,7 +3145,7 @@
 		}
 		{
 			dependencies: ["44E0ED1DF8E617EF"]
-			description: ["The Insert Card will allow you to set one or more slots to import any item that falls into those slots to your ME system. Useful for mass mining projects."]
+			description: ["The Insert Card will allow you to set one or more slots to import any item that falls into those slots to your ME system. Useful for mass mining projects. Goes inside of a wireless terminal."]
 			id: "17D62490F523F3B6"
 			rewards: [
 				{
@@ -3231,7 +3226,7 @@
 			description: [
 				"The Overflow Destruction Card allows your Storage Bus or Cell or other storage device to void excess items. Perfect if you do not want to set up a level emitter to turn off a machine when your storage gets full. "
 				""
-				"The Equal Distribution Card allows Storage Cells to hold an equal amount of fluid or items."
+				"The Equal Distribution Card allows Storage Cells to force the cell to hold an equal amount of fluid or items."
 			]
 			icon: "ae2:void_card"
 			id: "05E3E40B4F787FB7"
@@ -3465,6 +3460,60 @@
 			}]
 			x: -7.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["2CE7F1424730D6F6"]
+			description: ["The Cable Anchor allows you to create Cable Facades and also separate Cables that are next to one another. To make a Facade, simply combine 4 cable anchors and any solid block in your crafting menu."]
+			id: "56EB2D005BDC8EA6"
+			rewards: [
+				{
+					count: 32
+					id: "35B208554AD8D9F8"
+					item: "ae2:cable_anchor"
+					type: "item"
+				}
+				{
+					id: "72235C3245C61D1F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Beautify Your Network"
+			tasks: [{
+				count: 4L
+				id: "1394E16E21F9BEB0"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			title: "Cable Anchors"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BA4F682A924A1A4"]
+			description: ["Certus Quartz is the starting material in your AE2 journey. You will need a LOT of Certus Quartz."]
+			hide_dependency_lines: false
+			id: "4B192C31696BDF4C"
+			rewards: [
+				{
+					count: 16
+					id: "75BCE8D1479E454F"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "6D75A83514A449D9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E010D9798801D2A"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
 		}
 	]
 	title: "Advanced Storage"
