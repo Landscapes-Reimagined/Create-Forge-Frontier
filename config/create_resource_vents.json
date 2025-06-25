@@ -10,7 +10,8 @@
       ],
       "reactantFluids": [
         "create_dd:cream"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "veridium",
@@ -22,7 +23,8 @@
       ],
       "reactantFluids": [
         "create_dd:caramel_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "crimsite",
@@ -34,7 +36,8 @@
       ],
       "reactantFluids": [
         "create_dd:strawberry_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "ochrum",
@@ -46,7 +49,8 @@
       ],
       "reactantFluids": [
         "create_dd:glowberry_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "scorchia",
@@ -58,7 +62,8 @@
       ],
       "reactantFluids": [
         "create_dd:hot_chocolate"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "scoria",
@@ -70,7 +75,8 @@
       ],
       "reactantFluids": [
         "create_dd:chocolate_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "potassic",
@@ -82,7 +88,8 @@
       ],
       "reactantFluids": [
         "create_dd:vanilla_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
         {
       "name": "verdantine",
@@ -94,7 +101,8 @@
       ],
       "reactantFluids": [
         "create_confectionery:white_chocolate"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -107,7 +115,8 @@
       ],
       "reactantFluids": [
         "create_confectionery:black_chocolate"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -120,7 +129,8 @@
       ],
       "reactantFluids": [
         "forge_frontier:neapolitan_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -133,7 +143,8 @@
       ],
       "reactantFluids": [
         "ad_astra:cryo_fuel"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -146,7 +157,8 @@
       ],
       "reactantFluids": [
         "forge_frontier:cheese"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -159,7 +171,8 @@
       ],
       "reactantFluids": [
         "forge_frontier:pomegranate_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -172,7 +185,8 @@
       ],
       "reactantFluids": [
         "forge_frontier:adzuki_milkshake"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -185,7 +199,8 @@
       ],
       "reactantFluids": [
         "brewinandchewin:dread_nog"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -198,7 +213,8 @@
       ],
       "reactantFluids": [
         "create_confectionery:ruby_chocolate"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -211,7 +227,8 @@
       ],
       "reactantFluids": [
         "create_confectionery:ruby_chocolate"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -224,7 +241,8 @@
       ],
       "reactantFluids": [
         "create_confectionery:ruby_chocolate"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -237,7 +255,8 @@
       ],
       "reactantFluids": [
         "minecraft:water"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -250,7 +269,8 @@
       ],
       "reactantFluids": [
         "create:honey"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -263,7 +283,8 @@
       ],
       "reactantFluids": [
         "sliceanddice:fertilizer"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -276,7 +297,8 @@
       ],
       "reactantFluids": [
         "tconstruct:molten_iron"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -289,7 +311,8 @@
       ],
       "reactantFluids": [
         "tconstruct:molten_iron"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
         {
@@ -302,7 +325,8 @@
       ],
       "reactantFluids": [
         "alexscaves:acid"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     
     
@@ -316,7 +340,8 @@
       ],
       "reactantFluids": [
         "alexscaves:acid"
-      ]
+      ],
+      "maxGenerationDistance": 1
     },
     {
       "name": "lost_debris",
@@ -328,7 +353,8 @@
       ],
       "reactantFluids": [
         "createfood:chorus_fruit_pie_filling"
-      ]
+      ],
+      "maxGenerationDistance": 1
     }
   ]
 }
