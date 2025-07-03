@@ -1,5 +1,7 @@
 
 ServerEvents.tags('block', event => {
+    // Spatial IO Blacklist
+    event.add('ae2:blacklisted/spatial', 'minecraft:spawner')
     
     // Create Wrenchable
     event.add('create:wrench_pickup', [
