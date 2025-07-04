@@ -2557,21 +2557,23 @@
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Deep within the whimsical yet unsettling realm of the &dCandy Cavity&r lies a mystery unlike any other: the &lLost Debris Vent&r—a future feature designed to redefine the limits of your adventure."
+				"Deep within the enchanting yet unsettling realm of the &dCandy Cavity&r lies the &lLost Debris Vent&r—a sugary relic of ancient sweetness fused with galactic potential. This vent holds the key to automating &dLost Debris&r, which is later refined into the rare and powerful &5Ethium&r."
 				""
 				"{@pagebreak}"
 				""
-				"Crafted from &omolten sugar and ancient ingenuity&r, this vent radiates with potential, waiting for the day it can be awakened. Though currently dormant, it promises access to &lrare materials&r and &lenchanting technologies&r that will reshape your journey across the stars."
+				"🍰 &lA Dessert with Depth&r"
+				"The Candy Cavity may seem whimsical on the surface, but within its saccharine walls lurk challenges worthy of even the bravest explorers. The Lost Debris Vent is no exception—dormant, deceptive, and deliciously dangerous."
 				""
-				"✨ What Lies Ahead"
-				"This vent is a &lplaceholder for future updates&r, a teaser of the power and mystery yet to come. It will eventually play a critical role in resource generation and progression beyond anything currently available."
+				"🔥 &lActivate with a Blaze Cake&r"
+				"As with all molten vents, place a &oBlaze Cake&r atop a dormant Lost Debris Vent and ignite it using a &lBlaze Burner&r. This intense heat will awaken the vent, priming it for fluid-based automation."
 				""
 				"{@pagebreak}"
 				""
-				"🧁 Prepare for Sweet Discovery"
-				"Keep your eyes peeled and your candy blades sharp—the Candy Cavity may be lighthearted in appearance, but its secrets run deep."
+				"🥧 &lFuel It with Pie Filling&r"
+				"Once activated, supply the vent with &dChorus Fruit Pie Filling&r (covered in the next quest). Doing so will trigger &lMechanical Extruders&r to begin generating Lost Debris—your pathway to Ethium engineering."
 				""
-				"Will you be ready when the Lost Debris Vent finally awakens?"
+				"⚙ &oA tale of candy, combustion, and cosmic potential awaits...&r"
+				"Will you master the cavity’s sweetness and claim the forgotten power sealed inside the Lost Debris Vent?"
 			]
 			icon: "alexscaves:small_peppermint"
 			id: "77EB3AE60F0E8FEA"
@@ -2589,7 +2591,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Sweet Secrets: The Future Lost Debris Vent (Candy Cavity), Click me for more info!"
+			subtitle: "&oFueling Ethium automation with an otherworldly confection found only in the Candy Cavity!&r"
 			tasks: [{
 				dimension: "forge_frontier:candy_cavity"
 				id: "719C8CDFA8E1BAF6"
@@ -3439,7 +3441,7 @@
 				""
 				"Start by creating &lSalt&r with a bit of water and some heat:"
 				""
-				"{image:ftb:textures/_createfood_create_mixing_salt_from_mixing_water.png width:200 height:120 align:center}"
+				"{image:ftb:textures/_forge_frontier_washing_sand.png width:200 height:100 align:center}"
 				""
 				"{@pagebreak}"
 				""

@@ -1,5 +1,12 @@
 ServerEvents.tags("item", event => {
 
+    // New Nugget Tag
+    event.add("forge:nuggets/industrial_iron", 'createdeco:industrial_iron_nugget')
+    // New Sheet Tags
+    event.add("forge:plates/zinc", 'createdeco:zinc_sheet')
+    event.add("forge:plates/andesite_alloy", 'createdeco:andesite_sheet')
+    event.add("forge:plates/industrial_iron", 'createdeco:industrial_iron_sheet')
+
     // Neodymium Ingot Tag
     event.add("forge_frontier:ingot/neodymium", [
         'alexscaves:azure_neodymium_ingot',

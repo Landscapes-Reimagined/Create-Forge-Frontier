@@ -1,5 +1,7 @@
 
 ServerEvents.tags('block', event => {
+    // Spatial IO Blacklist
+    event.add('ae2:blacklisted/spatial', 'minecraft:spawner')
     
     // Create Wrenchable
     event.add('create:wrench_pickup', [
@@ -80,14 +82,10 @@ ServerEvents.tags('block', event => {
         'mob_grinding_utils:saw',
         'mob_grinding_utils:spikes',
         'mob_grinding_utils:absorption_hopper',
-        'mob_grinding_utils:tank',
-        'mob_grinding_utils:tank_sink',
-        'mob_grinding_utils:jumbo_tank',
         'mob_grinding_utils:xp_tap',
         'mob_grinding_utils:entity_conveyor',
         'mob_grinding_utils:ender_inhibitor_on',
         'mob_grinding_utils:ender_inhibitor_off',
-        'mob_grinding_utils:xpsolidifier',
         'trashcans:item_trash_can',
         'trashcans:liquid_trash_can',
         'trashcans:energy_trash_can',

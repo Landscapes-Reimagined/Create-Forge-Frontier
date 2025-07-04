@@ -541,7 +541,6 @@ ServerEvents.recipes(event => {
             }
         }).id( 'forge_frontier:shapeless/compressed_guano_block_1x' )       
 
-    /*
     // Methril
         // Mithril Compressed 1x to Mithril Block Recipe
         event.custom({
@@ -585,8 +584,7 @@ ServerEvents.recipes(event => {
                 item: 'create_dd:industrial_iron_block',
                 count: 9
             }
-        }).id( 'forge_frontier:shapeless/compressed_industrial_iron_block_1x' )
-    */     
+        }).id( 'forge_frontier:shapeless/compressed_industrial_iron_block_1x' )    
 
     // Ethium
         // Ethium Compressed 1x to Ethium Block Recipe
