@@ -23,6 +23,44 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 	event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 	event.remove({ id: 'createqol:mixing/chromatic_compound'})
+	event.remove({ id: 'createornithopterglider:elytra' })
+
+	// Leather Elytra Recipes
+	event.shaped(
+		Item.of('forge_frontier:leather_elytra'),
+		[
+			'LLL',
+			'LLL',
+			'L L'
+		],
+		{
+			L: 'minecraft:leather'
+		}
+	).id( 'forge_frontier:shaped/leather_elytra' )
+	
+	// Elytra Pieces Recipe
+	event.remove({ id: 'create:crushing/elytra_crushing' })
+	event.custom({
+		type: 'create:crushing',
+		ingredients: [
+			{ item: 'forge_frontier:leather_elytra' },
+		],
+		processingTime: 400,
+		results: [
+			{ 
+				item: 'createornithopterglider:elytra_piece',  
+			},
+			{ 
+				item: 'createornithopterglider:elytra_piece',
+				chance: 0.75  
+			},
+			{
+				item: 'minecraft:phantom_membrane',
+				chance: 0.25
+			}
+		]
+	}).id('forge_frontier:crushing/elytra_piece');
+
 
 	// Quark Iron Plating Recipe
         event.remove({ id: 'quark:building/crafting/iron_plate' })
