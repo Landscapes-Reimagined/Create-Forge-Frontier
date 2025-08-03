@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_templates_gears:granite_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "minecraft:shaper_armor_trim_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:granite_sheet"
+        },
+        {
+		  "item": "minecraft:red_terracotta"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_shaper_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_shaper_armor_trim"
+        },
+        {
+		  "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_shaper_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_shaper_armor_trim"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:inactive_shaper_armor_trim"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_shaper_armor_trim"
+        },
+        {
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:shaper_armor_trim_smithing_template"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_templates_gears:inactive_shaper_armor_trim"
+  }
+}

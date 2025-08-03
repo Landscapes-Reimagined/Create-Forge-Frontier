@@ -1,5 +1,8 @@
 ServerEvents.tags("item", event => {
 
+    // Adds Missing Tag for Trim Recipes
+    event.add("forge:polished_diamond", "minecraft:diamond")
+
     // New Nugget Tag
     event.add("forge:nuggets/industrial_iron", 'createdeco:industrial_iron_nugget')
     // New Sheet Tags
