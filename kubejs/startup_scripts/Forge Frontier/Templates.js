@@ -8,17 +8,17 @@ StartupEvents.registry('item', event =>
                     .maxStackSize(64)
                     .texture("forge_frontier:item/incomplete_netherite_upgrade")
 
-            // Incomplete Mysterios Upgrade
-                event.create('forge_frontier:incomplete_mysterios_upgrade')
-                    .displayName('Incomplete Mysterios Upgrade')
+            // Incomplete mysterious Upgrade
+                event.create('forge_frontier:incomplete_mysterious_upgrade')
+                    .displayName('Incomplete mysterious Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_mysterios_upgrade")
+                    .texture("forge_frontier:item/incomplete_mysterious_upgrade")
             
-            // Incomplete Curios Upgrade
-                event.create('forge_frontier:incomplete_curios_upgrade')
-                    .displayName('Incomplete Curios Upgrade')
+            // Incomplete curious Upgrade
+                event.create('forge_frontier:incomplete_curious_upgrade')
+                    .displayName('Incomplete curious Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_curios_upgrade")
+                    .texture("forge_frontier:item/incomplete_curious_upgrade")
 
             // Incomplete Ancient Armor Trim
                 event.create('forge_frontier:incomplete_ancient_armor_trim')
