@@ -1,6 +1,5 @@
 StartupEvents.registry('item', event => 
     {
-
         // Incomplete Templates
             // Incomplete Netherite Upgrade
                 event.create('forge_frontier:incomplete_netherite_upgrade')
@@ -31,6 +30,24 @@ StartupEvents.registry('item', event =>
                     .displayName('Incomplete Adamantite Template')
                     .maxStackSize(64)
                     .texture("forge_frontier:item/incomplete_adamantite_template")
+
+            // Incomplete Pearlescent Upgrade
+                event.create('forge_frontier:incomplete_pearlescent_upgrade')
+                    .displayName('Incomplete Pearlescent Upgrade')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/incomplete_pearlescent_upgrade")            
+
+            // Incomplete Ethium Upgrade
+                event.create('forge_frontier:incomplete_ethium_upgrade')
+                    .displayName('Incomplete Ethium Upgrade')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/incomplete_ethium_upgrade")            
+
+            // Incomplete Polarity Armor Trim
+                event.create('forge_frontier:incomplete_polarity_armor_trim')
+                    .displayName('Incomplete Polarity Armor Trim')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/incomplete_polarity_armor_trim")            
 
         // Custom Shards
             // Iron Shard
