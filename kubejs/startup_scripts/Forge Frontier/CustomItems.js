@@ -72,6 +72,13 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
+    // Leather Elytra
+            event.create('forge_frontier:leather_elytra')
+            .displayName('Leather Elytra')
+            .maxStackSize(1)
+            .tooltip("Built for crafting brilliance—not the skies. Too fragile to fly, but perfect for invention!")
+            .texture("forge_frontier:item/leather_elytra")
+
     // Custom Template Casts
     // Blank Sand Cast
         event.create('tconstruct:blank_gold_cast')
