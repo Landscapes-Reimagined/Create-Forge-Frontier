@@ -72,6 +72,30 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
+    // Iron Shard
+            event.create('forge_frontier:iron_shard')
+            .displayName('Iron Shard')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/iron_shard")
+
+    // Gold Shard
+            event.create('forge_frontier:gold_shard')
+            .displayName('Gold Shard')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/gold_shard")    
+
+    // Emerald Shard
+            event.create('forge_frontier:emerald_shard')
+            .displayName('Emerald Shard')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/emerald_shard")
+
+    // Netherite Shard
+            event.create('forge_frontier:netherite_shard')
+            .displayName('Netherite Shard')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/netherite_shard")
+
     // Leather Elytra
             event.create('forge_frontier:leather_elytra')
             .displayName('Leather Elytra')
