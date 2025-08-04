@@ -72,6 +72,12 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
 
+    // Incomplete Netherite Upgrade
+            event.create('forge_frontier:incomplete_netherite_upgrade')
+            .displayName('Incomplete Netherite Upgrade')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/incomplete_netherite_upgrade")    
+
     // Iron Shard
             event.create('forge_frontier:iron_shard')
             .displayName('Iron Shard')
