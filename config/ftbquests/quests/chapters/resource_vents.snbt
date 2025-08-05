@@ -632,7 +632,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Magnetic Marvels: The Neodyrium and Azurnium Vents (Magnetic Caves), Click me for more info!"
+			subtitle: "Magnetic Marvels: The Neodymrium and Azurnium Vents (Magnetic Caves), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:magnetic_caves"
 				id: "43CBDB5891078EB5"
@@ -2407,7 +2407,7 @@
 				item: "alexscaves:block_of_scarlet_neodymium"
 				type: "item"
 			}]
-			subtitle: "Neodymrium can be later crushed down to produce Scarlet Neodyrium"
+			subtitle: "Neodymrium can be later crushed down to produce Scarlet Neodymrium"
 			tasks: [
 				{
 					id: "230520DA2C86FDB3"
