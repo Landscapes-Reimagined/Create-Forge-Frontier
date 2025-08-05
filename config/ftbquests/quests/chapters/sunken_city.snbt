@@ -49,7 +49,7 @@
 			size: 2.0d
 			subtitle: "The Leviathan's Kingdom"
 			tasks: [{
-				icon: "cataclysm:altar_of_abyss"
+				icon: "cataclysm:abyss_eye"
 				id: "70161E4FD138A3FC"
 				structure: "cataclysm:sunken_city"
 				type: "structure"
@@ -90,14 +90,11 @@
 				value: 5L
 			}]
 			title: "Defeat 5 Coralssus"
-			x: -4.5d
+			x: -4.0d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"3ED05EA56DCB62C2"
-				"0BFD64AAB94F2856"
-			]
+			dependencies: ["3ED05EA56DCB62C2"]
 			description: [
 				"The Athame is an Ancient Blade forged by the Deeplings and given only to their most powerful warriors-the Deepling Warlock and Deepling Priest. "
 				""
@@ -142,9 +139,21 @@
 					type: "kill"
 					value: 1L
 				}
+				{
+					count: 5L
+					id: "31C78FF6E34437EF"
+					item: {
+						Count: 5
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Obtain 5 Athame"
-			x: -1.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -180,8 +189,8 @@
 				}
 			]
 			title: "Missing an Athame?"
-			x: -1.5d
-			y: -4.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4E26DD51B9FBDAC7"]
@@ -198,7 +207,7 @@
 				type: "item"
 			}]
 			title: "Craft the Abyssal Sacrifice"
-			x: 1.5d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
@@ -231,7 +240,7 @@
 				value: 1L
 			}]
 			title: "Kill The Leviathan"
-			x: 4.5d
+			x: 4.0d
 			y: -3.0d
 		}
 	]

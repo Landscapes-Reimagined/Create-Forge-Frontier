@@ -168,5 +168,8 @@ background: ftb:textures/create_background.png
 [37D4B189E01FBB93]
 background: ftb:textures/create_background.png
 
+[1A22581D94743985]
+background: ftb:textures/ancient_factory_bg.png
+
 [6D5E16B0B53B4FD7]
 background: ftb:textures/sunken_city_bg.png
