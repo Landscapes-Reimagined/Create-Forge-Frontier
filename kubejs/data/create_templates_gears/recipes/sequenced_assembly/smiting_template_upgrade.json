@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_templates_gears:netherrack_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:netherrack_sheet"
+        },
+        {
+		  "item": "create_templates_gears:diamond_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_netherrack_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_netherrack_sheet"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_templates_gears:inactive_netherrack_sheet"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_templates_gears:inactive_netherrack_sheet"
+        },
+        {
+          "amount": 250,
+          "fluid": "create_enchantment_industry:experience",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:netherite_upgrade_smithing_template"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_templates_gears:inactive_netherrack_sheet"
+  }
+}
