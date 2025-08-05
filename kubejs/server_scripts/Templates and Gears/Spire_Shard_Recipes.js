@@ -16,16 +16,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_pearlescent_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_pearlescent_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_pearlescent_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_pearlescent_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_pearlescent_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_pearlescent_upgrade" }],
                         results: [{ item: "unusualend:pearlescent_upgrade_smithing_template" }]
                     }
                 ],
@@ -48,16 +48,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_ethium_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_ethium_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_ethium_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_ethium_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_ethium_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_ethium_upgrade" }],
                         results: [{ item: "create_ethium:ethium_smithing_template" }]
                     }
                 ],
@@ -80,17 +80,17 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_polarity_armor_trim" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_polarity_armor_trim" }],
+                        results: [{ item: "forge_frontier:incomplete_polarity_armor_trim" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_polarity_armor_trim" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_polarity_armor_trim" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_polarity_armor_trim" }],
-                        results: [{ item: "alexscaves:polarity_armor_trim_smithing_templatee" }]
+                        results: [{ item: "alexscaves:polarity_armor_trim_smithing_template" }]
                     }
                 ],
                 transitionalItem: { item: "forge_frontier:incomplete_polarity_armor_trim" }

@@ -16,16 +16,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_fluix_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_fluix_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_fluix_upgrade" }]
+                    },
+                                        {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_fluix_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_fluix_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_fluix_upgrade" }],
                         results: [{ item: "ae2:fluix_upgrade_smithing_template" }]
                     }
                 ],

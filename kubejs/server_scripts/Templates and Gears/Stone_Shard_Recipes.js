@@ -24,17 +24,17 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_goggle_armor_trim" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_goggle_armor_trim" }],
+                        results: [{ item: "creategoggles:goggle_armor_trim_smithing_template" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_goggle_armor_trim" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
                         results: [{ item: "forge_frontier:incomplete_goggle_armor_trim" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_goggle_armor_trim" }],
-                        results: [{ item: "creategoggles:goggle_armor_trim_smithing_template" }]
                     }
                 ],
                 transitionalItem: { item: "forge_frontier:incomplete_goggle_armor_trim" }
@@ -56,16 +56,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_runic_etching" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_runic_etching" }],
+                        results: [{ item: "forge_frontier:incomplete_runic_etching" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_runic_etching" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_runic_etching" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_runic_etching" }],
                         results: [{ item: "quark:smithing_template_rune" }]
                     }
                 ],

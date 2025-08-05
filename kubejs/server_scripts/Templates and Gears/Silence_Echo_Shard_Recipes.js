@@ -17,16 +17,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_warden_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_warden_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_warden_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_warden_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_warden_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_warden_upgrade" }],
                         results: [{ item: "deeperdarker:warden_upgrade_smithing_template" }]
                     }
                 ],

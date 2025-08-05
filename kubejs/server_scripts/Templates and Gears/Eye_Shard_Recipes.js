@@ -17,16 +17,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_mysterious_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_mysterious_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_mysterious_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_mysterious_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_mysterious_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_mysterious_upgrade" }],
                         results: [{ item: "endreborn:mysterious_upgrade_template" }]
                     }
                 ],
@@ -49,16 +49,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_curious_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_curious_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_curious_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_curious_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_curious_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_curious_upgrade" }],
                         results: [{ item: "endreborn:curious_upgrade_template" }]
                     }
                 ],
@@ -81,16 +81,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_ancient_armor_trim" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_ancient_armor_trim" }],
+                        results: [{ item: "forge_frontier:incomplete_ancient_armor_trim" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_ancient_armor_trim" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_ancient_armor_trim" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_ancient_armor_trim" }],
                         results: [{ item: "unusualend:ancient_armor_trim_smithing_template" }]
                     }
                 ],
@@ -113,16 +113,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_adamantite_template" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_adamantite_template" }],
+                        results: [{ item: "forge_frontier:incomplete_adamantite_template" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_adamantite_template" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_adamantite_template" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_adamantite_template" }],
                         results: [{ item: "enlightened_end:adamantite_smithing_template" }]
                     }
                 ],

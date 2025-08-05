@@ -24,16 +24,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_primal_armor_trim" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_primal_armor_trim" }],
+                        results: [{ item: "forge_frontier:incomplete_primal_armor_trim" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_primal_armor_trim" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_primal_armor_trim" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_primal_armor_trim" }],
                         results: [{ item: "neapolitan:primal_armor_trim_smithing_template" }]
                     }
                 ],

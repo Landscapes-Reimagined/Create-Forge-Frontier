@@ -16,16 +16,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_ignitium_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_ignitium_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_ignitium_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_ignitium_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_ignitium_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_ignitium_upgrade" }],
                         results: [{ item: "cataclysm:ignitium_upgrade_smithing_template" }]
                     }
                 ],
@@ -48,16 +48,16 @@ ServerEvents.recipes(event =>
                         results: [{ item: "forge_frontier:incomplete_cursium_upgrade" }]
                     },
                     {
+                        type: "create:pressing",
+                        ingredients: [{ item: "forge_frontier:incomplete_cursium_upgrade" }],
+                        results: [{ item: "forge_frontier:incomplete_ignitium_upgrade" }]
+                    },
+                    {
                         type: "create:filling",
                         ingredients: [
                             { item: "forge_frontier:incomplete_ignitium_upgrade" },
                             { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                         ],
-                        results: [{ item: "forge_frontier:incomplete_cursium_upgrade" }]
-                    },
-                    {
-                        type: "create:pressing",
-                        ingredients: [{ item: "forge_frontier:incomplete_cursium_upgrade" }],
                         results: [{ item: "cataclysm:cursium_upgrade_smithing_template" }]
                     }
                 ],

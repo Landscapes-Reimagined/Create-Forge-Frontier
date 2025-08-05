@@ -16,16 +16,16 @@ ServerEvents.recipes(event =>
                 results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
             },
             {
+                type: "create:pressing",
+                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
+                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
+            },
+            {
                 type: "create:filling",
                 ingredients: [
                     { item: "forge_frontier:incomplete_netherite_upgrade" },
                     { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                 ],
-                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
-            },
-            {
-                type: "create:pressing",
-                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
                 results: [{ item: "forge_frontier:netherite_iron_upgrade" }]
             }
         ],
@@ -48,16 +48,16 @@ ServerEvents.recipes(event =>
                 results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
             },
             {
+                type: "create:pressing",
+                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
+                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
+            },
+            {
                 type: "create:filling",
                 ingredients: [
                     { item: "forge_frontier:incomplete_netherite_upgrade" },
                     { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                 ],
-                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
-            },
-            {
-                type: "create:pressing",
-                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
                 results: [{ item: "forge_frontier:netherite_gold_upgrade" }]
             }
         ],
@@ -80,16 +80,16 @@ ServerEvents.recipes(event =>
                 results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
             },
             {
+                type: "create:pressing",
+                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
+                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
+            },
+            {
                 type: "create:filling",
                 ingredients: [
                     { item: "forge_frontier:incomplete_netherite_upgrade" },
                     { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                 ],
-                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
-            },
-            {
-                type: "create:pressing",
-                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
                 results: [{ item: "forge_frontier:netherite_emerald_upgrade" }]
             }
         ],
@@ -112,16 +112,16 @@ ServerEvents.recipes(event =>
                 results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
             },
             {
+                type: "create:pressing",
+                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
+                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
+            },
+            {
                 type: "create:filling",
                 ingredients: [
                     { item: "forge_frontier:incomplete_netherite_upgrade" },
                     { amount: 250, fluid: "create_enchantment_industry:experience", nbt: {} }
                 ],
-                results: [{ item: "forge_frontier:incomplete_netherite_upgrade" }]
-            },
-            {
-                type: "create:pressing",
-                ingredients: [{ item: "forge_frontier:incomplete_netherite_upgrade" }],
                 results: [{ item: "forge_frontier:netherite_diamond_upgrade" }]
             }
         ],
