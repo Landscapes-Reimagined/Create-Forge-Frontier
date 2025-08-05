@@ -1,5 +1,4 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "soul_blacksmith"
@@ -12,25 +11,15 @@
 		}
 	}
 	id: "14323AA3AF920BDD"
-	images: [
-		{
-			height: 10.0d
-			image: "ftb:textures/cat_blacksmith_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 0.0d
-			y: 0.0d
-		}
-	]
-	order_index: 2
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/cat_blacksmith_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		id: "5C5AE7819F0DBBB3"

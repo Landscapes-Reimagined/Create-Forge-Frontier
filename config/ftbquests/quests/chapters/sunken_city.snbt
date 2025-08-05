@@ -14,14 +14,16 @@
 		x: 0.0d
 		y: -9.5d
 	}]
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared. "
+				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared."
 				""
 				"Will you emerge victorious, or will the jaws of the Leviathan prove to be too powerful? Only one way to find out."
+				""
+				"The Sunken City is located in the Overworld Oceans. You must brave the seas and slay The Leviathan if you wish to reach The End."
 			]
 			icon: "cataclysm:altar_of_abyss"
 			id: "449BC30FBCC42249"
@@ -205,6 +207,8 @@
 				"The Leviathan has claimed many lives. You must be the one to end its cruel reign over the Deeplings."
 				""
 				"Beware... The Leviathan has attacks that can shake you to your core, rendering you unable to move. Consider bringing ender pearls to escape the grasp of The Leviathan. They can also be used to avoid its deadly lazer and tentacle attacks."
+				""
+				"Defeating The Leviathan will award you with the Tidal Claws-a powerful weapon that doubles as a grappling hook."
 			]
 			id: "7CA6CB6425E43C01"
 			rewards: [
