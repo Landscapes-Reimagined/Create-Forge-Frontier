@@ -28,7 +28,15 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -11.5d
-			y: 19.5d
+			y: 20.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_arena_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: 9.0d
 		}
 	]
 	order_index: 0
@@ -80,7 +88,7 @@
 		}
 		{
 			dependencies: ["2644A94A73CA75EE"]
-			description: ["To battle the Harbinger, you must sacrifice a Nether Star to awaken it. You can obtain one from defeating the Wither, or from forging a full set of Netherite Armor. "]
+			description: ["To battle the Harbinger, you must sacrifice a &6Nether Star&r to awaken it. You can obtain one from defeating the Wither, or from forging a full set of Netherite Armor. "]
 			hide_dependency_lines: true
 			id: "3FFAB9A72EDF1BFA"
 			rewards: [
@@ -144,10 +152,11 @@
 		{
 			dependencies: ["0FAB049B443B40F8"]
 			description: [
-				"Offer your Nether Star to the sleeping form of The Harbinger by right clicking with it in your hand. The offering will awaken it, and the battle will commence. Good luck!"
+				"Offer your &6Nether Star&r to the sleeping form of The Harbinger by right clicking with it in your hand. The offering will awaken it, and the battle will commence. Good luck!"
 				""
-				"The Witherite that The Harbinger drops can be forged into powerful weaponry!"
+				"The &cWitherite&r that The Harbinger drops can be forged into powerful weaponry!"
 			]
+			icon: "cataclysm:mech_eye"
 			id: "419BF43A6A9EE227"
 			rewards: [
 				{
@@ -171,6 +180,7 @@
 				entity: "cataclysm:the_harbinger"
 				icon: "cataclysm:the_harbinger_spawn_egg"
 				id: "05FEF2221305185F"
+				title: "Defeat The Harbinger"
 				type: "kill"
 				value: 1L
 			}]
@@ -242,28 +252,16 @@
 				"Let the battle begin!"
 			]
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "cataclysm:monstrous_helm"
-				tag: {
-					Damage: 0
-				}
-			}
+			icon: "cataclysm:monstrous_eye"
 			id: "27D206C52EB054F2"
 			rewards: [
 				{
-					id: "3759C8F6967DD867"
-					item: {
-						Count: 1
-						id: "cataclysm:infernal_forge"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "1653B1CD54F8CD94"
+					item: "cataclysm:monstrous_eye"
 					type: "item"
 				}
 				{
-					id: "467C619DCE1B2E1D"
+					id: "3AE8CFFB9F3E740D"
 					type: "xp"
 					xp: 500
 				}
@@ -272,6 +270,7 @@
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:netherite_monstrosity_spawn_egg"
 				id: "21E69C10F24076FD"
+				title: "Defeat the Netherite Monstrosity"
 				type: "kill"
 				value: 1L
 			}]
@@ -402,7 +401,7 @@
 			}]
 			title: "Locate the Sunken City"
 			x: -11.5d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["449BC30FBCC42249"]
@@ -434,7 +433,7 @@
 			}]
 			title: "Defeat the Coralssus"
 			x: -16.0d
-			y: 24.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["3ED05EA56DCB62C2"]
@@ -495,11 +494,11 @@
 			]
 			title: "Obtain the Athame"
 			x: -13.0d
-			y: 24.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["4E26DD51B9FBDAC7"]
-			description: ["Now, you must craft the Abyssal Sacrifice, and offer it to the Altar of Abyss in the center of the city."]
+			description: ["Now, you must craft the &5Abyssal Sacrifice&r, and offer it to the Altar of Abyss in the center of the city."]
 			id: "381A81F03F347383"
 			rewards: [{
 				id: "2B48022474B9BCE6"
@@ -513,7 +512,7 @@
 			}]
 			title: "Craft the Abyssal Sacrifice"
 			x: -10.0d
-			y: 24.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["381A81F03F347383"]
@@ -522,8 +521,9 @@
 				""
 				"Beware... The Leviathan has attacks that can shake you to your core, rendering you unable to move. Consider bringing ender pearls to escape the grasp of The Leviathan. They can also be used to avoid its deadly lazer and tentacle attacks."
 				""
-				"Defeating The Leviathan will award you with the Tidal Claws-a powerful weapon that doubles as a grappling hook."
+				"Defeating The Leviathan will award you with the &5Tidal Claws&r-a powerful weapon that doubles as a grappling hook."
 			]
+			icon: "cataclysm:abyss_eye"
 			id: "7CA6CB6425E43C01"
 			rewards: [
 				{
@@ -546,7 +546,144 @@
 			}]
 			title: "Kill The Leviathan"
 			x: -7.0d
-			y: 24.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["3D9B8268396970D8"]
+			description: [
+				"Hidden under the fiery crust of Mercury is the Burning Arena. This is not just any arena, it is home to the powerful warrior Ignis. "
+				""
+				"Wielding a fiery sword and molten shield, he defends his honor from those who challenge him in battle."
+				""
+				"Will you defeat him in battle, or die trying?"
+				""
+				"{image:ftb:textures/burning_arena_bg.png width:225 height:175 align:center}"
+			]
+			id: "5840CB45E85E7D1C"
+			rewards: [
+				{
+					id: "2DFA57A0B72CE8A9"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79484984EDFA5563"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A Warrior's Battleground"
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "1E7BE03F14FFE630"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "Locate the Burning Arena"
+			x: -11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5840CB45E85E7D1C"]
+			description: [
+				"Before you can challenge Ignis, you must first brave the lower depths of the structure, where blazes fiercely guard the chests that hold the Dying Embers needed to summon him."
+				""
+				"{image:ftb:textures/dying_embers.png width:175 height:175 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "0DDE17A34691EC17"
+			rewards: [
+				{
+					count: 4
+					id: "160F27DF2864D15E"
+					item: "cataclysm:dying_ember"
+					type: "item"
+				}
+				{
+					id: "7E5391C77EFE8F72"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3BE70BFB769ADBD9"
+				item: "cataclysm:dying_ember"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0DDE17A34691EC17"]
+			description: [
+				"Next, you must combine your Dying Embers into Burning Ashes, an item worthy of summoning the powerful warrior Ignis."
+				""
+				"Ascend to the top floor, and place the Burning Ashes into the Altar of Fire to summon Ignis."
+			]
+			id: "3BF615983B302731"
+			rewards: [
+				{
+					id: "116A3E2DD2168E7E"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "2ADE8E06A8496BA0"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "02E66338AF53FA98"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3BF615983B302731"]
+			description: [
+				"This is it. The battle you've been waiting for. A fiery crowd cheers around you. A trumpet blares as Ignis emerges. Your battle will be &6legendary.&r "
+				""
+				"Beware his sword, as it will inflict &cBlazing Brand,&r which will render your armor useless while the effect is active. The more hits you take, the less effective your armor will be. "
+			]
+			icon: "cataclysm:flame_eye"
+			id: "5D66572BB364F187"
+			rewards: [
+				{
+					count: 4
+					id: "3CA16E042B5D645E"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "2D00E74BAFEC7916"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "1AB8F0B265204797"
+				title: "Defeat Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Ignis"
+			x: -8.0d
+			y: 14.0d
 		}
 	]
 	title: "Cataclysm"
