@@ -1,0 +1,553 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "009DA5B64899FAEE"
+	icon: "cataclysm:burning_ashes"
+	id: "36534278AECCD0E2"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_factory_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_blacksmith_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_city_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: 19.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3015758342C6A8B4"]
+			description: [
+				"Once a testament to the brilliance of the Lunarians, the Ancient Factory on the Moon now lies abandoned and overrun. "
+				""
+				"Long forgotten by its creators, the factory has fallen into the hands of The Harbinger and his legion of demonic machines. They now stalk its darkened corridors, guarding untold riches. "
+				""
+				"Do you have what it takes to reclaim the Ancient Factory?"
+				""
+				"{image:ftb:textures/ancient_factory_bg.png width:225 height:175 align:center}"
+			]
+			icon: "cataclysm:meat_shredder"
+			id: "2644A94A73CA75EE"
+			rewards: [
+				{
+					id: "1AF8AF56A9F09157"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "unusualend:regeneration_ii"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "052915247CF8DA18"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Harbinger's Workshop"
+			tasks: [{
+				icon: "cataclysm:mech_eye"
+				id: "79521B3C5A3D9F31"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "Locate the Ancient Factory"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2644A94A73CA75EE"]
+			description: ["To battle the Harbinger, you must sacrifice a Nether Star to awaken it. You can obtain one from defeating the Wither, or from forging a full set of Netherite Armor. "]
+			hide_dependency_lines: true
+			id: "3FFAB9A72EDF1BFA"
+			rewards: [
+				{
+					id: "2052081746C6ADD4"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "54BE1CC885431C52"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4FF293A238A4C5A4"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Obtain A Nether Star"
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FFAB9A72EDF1BFA"]
+			description: [
+				"The Prowler stands between you and Defeating The Harbinger. "
+				""
+				"Eliminate the threat, and push onwards to challenge The Harbinger. "
+			]
+			id: "0FAB049B443B40F8"
+			rewards: [
+				{
+					id: "6BF4A7824D2A6776"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B40AA8EEDF2A5BE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: "cataclysm:the_prowler_spawn_egg"
+				id: "53CE5E1C4A9B16C5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eliminate The Prowler"
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FAB049B443B40F8"]
+			description: [
+				"Offer your Nether Star to the sleeping form of The Harbinger by right clicking with it in your hand. The offering will awaken it, and the battle will commence. Good luck!"
+				""
+				"The Witherite that The Harbinger drops can be forged into powerful weaponry!"
+			]
+			id: "419BF43A6A9EE227"
+			rewards: [
+				{
+					id: "4183BF196A311FD8"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1352497BAB596446"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "44896EAB28272D58"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "05FEF2221305185F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat The Harbinger"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D7C7953A26FF5E2"]
+			description: [
+				"Nestled within the frozen peaks of Mars' Polar Ice Caps, the Netherite Monstrosity is building a new fortress."
+				""
+				"Once a terror of the Nether, he fled to the cold in search of refuge-but the horrors he left behind remain unforgiven. Now, it's up to you to track him through the ice and bring him to justice."
+				""
+				"Only by defeating him can you unlock the path to The End."
+				""
+				"{image:ftb:textures/soul_blacksmith_bg.png width:225 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C5AE7819F0DBBB3"
+			rewards: [
+				{
+					id: "5382159B0390B911"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F161FF8B1569B74"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A Frozen Forge"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44F743A72143E0F2"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "Locate the Soul Blacksmith"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C5AE7819F0DBBB3"]
+			description: [
+				"There are no requirements for fighting the Netherite Monstrosity, you only need to move close enough for the Monstrosity to detect you. "
+				""
+				"Let the battle begin!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27D206C52EB054F2"
+			rewards: [
+				{
+					id: "3759C8F6967DD867"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "467C619DCE1B2E1D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "21E69C10F24076FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Netherite Monstrosity"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1973823FA60F2E23"]
+			description: [
+				"Hidden behind the lavafalls on either side of the Netherite Monstrosity's throne lies a passage to a secret vault!"
+				""
+				"Loot it, and break the experience blocks inside to complete this quest!"
+				""
+				"{image:ftb:textures/experience_blocks.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46744D297A9124A8"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "3E08E9FDFBB82A52"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "42222CBE54280502"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				block: "create:experience_block"
+				block_type: 0
+				checkItem: false
+				id: "71BE2EA23C26517F"
+				type: "questsadditions:break"
+				value: 4L
+			}]
+			title: "Loot the Secret Vault"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27D206C52EB054F2"]
+			description: [
+				"The various minecart contraptions around the Monstrosity's fortress are a great source of coal!"
+				""
+				"Loot their chests to your heart's content."
+			]
+			icon: "minecraft:minecart"
+			id: "1973823FA60F2E23"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "23D80BF09A5D9D74"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "40C9B544E3481B55"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "453C84858F2E4B4F"
+					title: "Looted the Minecart Contraptions"
+					type: "checkmark"
+				}
+				{
+					id: "1388637041F7E26E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "Loot the Minecart Contraptions"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared."
+				""
+				"Will you emerge victorious, or will the jaws of the Leviathan prove to be too powerful? Only one way to find out."
+				""
+				"The Sunken City is located in the Overworld Oceans. You must brave the seas and slay The Leviathan if you wish to reach The End."
+				""
+				"{image:ftb:textures/sunken_city_bg.png width:225 height:175 align:center}"
+			]
+			icon: "cataclysm:altar_of_abyss"
+			id: "449BC30FBCC42249"
+			rewards: [
+				{
+					id: "1735BC343D3399C2"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6570512198776AF1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Leviathan's Kingdom"
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "70161E4FD138A3FC"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "Locate the Sunken City"
+			x: -11.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["449BC30FBCC42249"]
+			description: [
+				"First, you must obtain a Coral Chunk by defeating the Coralssus, a powerful Mini-Boss that can be found locked away in the prison guarded by Deeplings."
+				""
+				"{image:ftb:textures/coralssus.png width:175 height:175 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "3ED05EA56DCB62C2"
+			rewards: [
+				{
+					id: "5A43B14BF9E50838"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "3CE0EA0ECC0BADBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coral_chunk"
+				id: "37C5F76BF382858F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Coralssus"
+			x: -16.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["3ED05EA56DCB62C2"]
+			description: [
+				"The Athame is an Ancient Blade forged by the Deeplings and given only to their most powerful warriors-the Deepling Warlock and Deepling Priest. "
+				""
+				"You must track down and defeat these warriors, and then reforge their blade into a sacrifice worthy of summoning the Leviathan."
+				""
+				"{image:ftb:textures/deepling_warlock.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E26DD51B9FBDAC7"
+			rewards: [
+				{
+					count: 2
+					id: "15EEBAF105A7BEE8"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					id: "6C61ED828C6C9A5A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_warlock"
+					icon: "cataclysm:deepling_warlock_spawn_egg"
+					id: "230E5705DCDE1247"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					icon: "cataclysm:deepling_priest_spawn_egg"
+					id: "5377F235E89BD8B7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2F4C84AF71B24E24"
+					item: {
+						Count: 1
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain the Athame"
+			x: -13.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["4E26DD51B9FBDAC7"]
+			description: ["Now, you must craft the Abyssal Sacrifice, and offer it to the Altar of Abyss in the center of the city."]
+			id: "381A81F03F347383"
+			rewards: [{
+				id: "2B48022474B9BCE6"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "51A44B7D82AC9E6F"
+				item: { Count: 5, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			title: "Craft the Abyssal Sacrifice"
+			x: -10.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["381A81F03F347383"]
+			description: [
+				"The Leviathan has claimed many lives. You must be the one to end its cruel reign over the Deeplings."
+				""
+				"Beware... The Leviathan has attacks that can shake you to your core, rendering you unable to move. Consider bringing ender pearls to escape the grasp of The Leviathan. They can also be used to avoid its deadly lazer and tentacle attacks."
+				""
+				"Defeating The Leviathan will award you with the Tidal Claws-a powerful weapon that doubles as a grappling hook."
+			]
+			id: "7CA6CB6425E43C01"
+			rewards: [
+				{
+					id: "488C53440E880900"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+				{
+					id: "06A708CF065054BE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_leviathan_spawn_egg"
+				id: "5A0D2F3CBD7BC10B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill The Leviathan"
+			x: -7.0d
+			y: 24.5d
+		}
+	]
+	title: "Cataclysm"
+}
