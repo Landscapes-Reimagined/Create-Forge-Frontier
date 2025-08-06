@@ -91,7 +91,7 @@
 			}]
 			title: "Defeat 5 Coralssus"
 			x: -4.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["3ED05EA56DCB62C2"]
@@ -154,7 +154,7 @@
 			]
 			title: "Obtain 5 Athame"
 			x: -2.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -190,7 +190,7 @@
 			]
 			title: "Missing an Athame?"
 			x: 0.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4E26DD51B9FBDAC7"]
@@ -208,7 +208,7 @@
 			}]
 			title: "Craft the Abyssal Sacrifice"
 			x: 2.0d
-			y: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["381A81F03F347383"]
@@ -241,7 +241,7 @@
 			}]
 			title: "Kill The Leviathan"
 			x: 4.0d
-			y: -3.0d
+			y: -4.5d
 		}
 	]
 	title: "Sunken City"
