@@ -17,7 +17,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["576F413F0C3117B1"]
+			dependencies: ["3015758342C6A8B4"]
 			description: [
 				"Once a testament to the brilliance of the Lunarians, the Ancient Factory on the Moon now lies abandoned and overrun. "
 				""

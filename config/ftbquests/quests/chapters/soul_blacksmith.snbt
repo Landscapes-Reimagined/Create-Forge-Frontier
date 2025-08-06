@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5C5AE7819F0DBBB3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "soul_blacksmith"
@@ -21,11 +22,16 @@
 	}]
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "5C5AE7819F0DBBB3"
-		shape: "gear"
-		size: 3.0d
-		tasks: [{
+	quests: [
+		{
+			dependencies: ["5D7C7953A26FF5E2"]
+			description: [
+				"Nestled within the frozen peaks of Mars' Polar Ice Caps, the Netherite Monstrosity is building a new fortress."
+				""
+				"Once a terror of the Nether, he fled to the cold in search of refuge-but the horrors he left behind remain unforgiven. Now, it's up to you to track him through the ice and bring him to justice."
+				""
+				"Only by defeating him can you unlock the path to The End."
+			]
 			icon: {
 				Count: 1
 				id: "cataclysm:infernal_forge"
@@ -33,12 +39,170 @@
 					Damage: 0
 				}
 			}
-			id: "44F743A72143E0F2"
-			structure: "cataclysm:soul_black_smith"
-			type: "structure"
-		}]
-		x: 0.0d
-		y: -6.5d
-	}]
+			id: "5C5AE7819F0DBBB3"
+			rewards: [
+				{
+					id: "5382159B0390B911"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F161FF8B1569B74"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44F743A72143E0F2"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "Locate the Soul Blacksmith"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5C5AE7819F0DBBB3"]
+			description: [
+				"There are no requirements for fighting the Netherite Monstrosity, you only need to move close enough for the Monstrosity to detect you. "
+				""
+				"Let the battle begin!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_helm"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27D206C52EB054F2"
+			rewards: [
+				{
+					id: "3759C8F6967DD867"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "467C619DCE1B2E1D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "21E69C10F24076FD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Netherite Monstrosity"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1973823FA60F2E23"]
+			description: [
+				"Hidden behind the lavafalls on either side of the Netherite Monstrosity's throne lies a passage to a secret vault!"
+				""
+				"Loot it, and break the experience blocks inside to complete this quest!"
+				""
+				"{image:ftb:textures/experience_blocks.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46744D297A9124A8"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "3E08E9FDFBB82A52"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "42222CBE54280502"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				block: "create:experience_block"
+				block_type: 0
+				checkItem: false
+				id: "71BE2EA23C26517F"
+				type: "questsadditions:break"
+				value: 4L
+			}]
+			title: "Loot the Secret Vault"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["27D206C52EB054F2"]
+			description: [
+				"The various minecart contraptions around the Monstrosity's fortress are a great source of coal!"
+				""
+				"Loot their chests to your heart's content."
+			]
+			icon: "minecraft:minecart"
+			id: "1973823FA60F2E23"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "23D80BF09A5D9D74"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "40C9B544E3481B55"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "453C84858F2E4B4F"
+					title: "Looted the Minecart Contraptions"
+					type: "checkmark"
+				}
+				{
+					id: "1388637041F7E26E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "Loot the Minecart Contraptions"
+			x: 0.0d
+			y: -4.0d
+		}
+	]
 	title: "Soul Blacksmith"
 }

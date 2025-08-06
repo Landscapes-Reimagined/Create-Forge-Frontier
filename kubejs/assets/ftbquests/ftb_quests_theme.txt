@@ -171,5 +171,8 @@ background: ftb:textures/create_background.png
 [1A22581D94743985]
 background: ftb:textures/ancient_factory_bg.png
 
+[14323AA3AF920BDD]
+background: ftb:textures/soul_blacksmith_bg.png
+
 [6D5E16B0B53B4FD7]
 background: ftb:textures/sunken_city_bg.png
