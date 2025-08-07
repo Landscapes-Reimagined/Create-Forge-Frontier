@@ -1,0 +1,1066 @@
+{
+	autofocus_id: "563B8AB184A56AE2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "009DA5B64899FAEE"
+	icon: "cataclysm:burning_ashes"
+	id: "36534278AECCD0E2"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_factory_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_blacksmith_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_city_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: 33.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_arena_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: 9.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_pyramid_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_prison_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: 21.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3015758342C6A8B4"]
+			description: [
+				"Once a testament to the brilliance of the Lunarians, the Ancient Factory on the Moon now lies abandoned and overrun. "
+				""
+				"Long forgotten by its creators, the factory has fallen into the hands of The Harbinger and his legion of demonic machines. They now stalk its darkened corridors, guarding untold riches. "
+				""
+				"Do you have what it takes to reclaim the Ancient Factory?"
+				""
+				"{image:ftb:textures/ancient_factory_bg.png width:225 height:175 align:center}"
+			]
+			icon: "cataclysm:meat_shredder"
+			id: "2644A94A73CA75EE"
+			rewards: [
+				{
+					id: "1AF8AF56A9F09157"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "unusualend:regeneration_ii"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "052915247CF8DA18"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Harbinger's Workshop"
+			tasks: [{
+				icon: "cataclysm:mech_eye"
+				id: "79521B3C5A3D9F31"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "Locate the Ancient Factory"
+			x: -11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2644A94A73CA75EE"]
+			description: ["To battle the Harbinger, you must sacrifice a &6Nether Star&r to awaken it. You can obtain one from defeating the Wither, or from forging a full set of Netherite Armor. "]
+			hide_dependency_lines: true
+			id: "3FFAB9A72EDF1BFA"
+			rewards: [
+				{
+					id: "2052081746C6ADD4"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "54BE1CC885431C52"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4FF293A238A4C5A4"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Obtain A Nether Star"
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FFAB9A72EDF1BFA"]
+			description: [
+				"The Prowler stands between you and Defeating The Harbinger. "
+				""
+				"Eliminate the threat, and push onwards to challenge The Harbinger. "
+			]
+			id: "0FAB049B443B40F8"
+			rewards: [
+				{
+					id: "6BF4A7824D2A6776"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B40AA8EEDF2A5BE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: "cataclysm:the_prowler_spawn_egg"
+				id: "53CE5E1C4A9B16C5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eliminate The Prowler"
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0FAB049B443B40F8"]
+			description: [
+				"Offer your &6Nether Star&r to the sleeping form of The Harbinger by right clicking with it in your hand. The offering will awaken it, and the battle will commence. Good luck!"
+				""
+				"The &cWitherite&r that The Harbinger drops can be forged into powerful weaponry!"
+			]
+			icon: "cataclysm:mech_eye"
+			id: "419BF43A6A9EE227"
+			rewards: [
+				{
+					id: "4183BF196A311FD8"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1352497BAB596446"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "44896EAB28272D58"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "05FEF2221305185F"
+				title: "Defeat The Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat The Harbinger"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D7C7953A26FF5E2"]
+			description: [
+				"Nestled within the frozen peaks of Mars' Polar Ice Caps, the Netherite Monstrosity is building a new fortress."
+				""
+				"Once a terror of the Nether, he fled to the cold in search of refuge-but the horrors he left behind remain unforgiven. Now, it's up to you to track him through the ice and bring him to justice."
+				""
+				"Only by defeating him can you unlock the path to The End."
+				""
+				"{image:ftb:textures/soul_blacksmith_bg.png width:225 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C5AE7819F0DBBB3"
+			rewards: [
+				{
+					id: "5382159B0390B911"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F161FF8B1569B74"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A Frozen Forge"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44F743A72143E0F2"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			title: "Locate the Soul Blacksmith"
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5C5AE7819F0DBBB3"]
+			description: [
+				"There are no requirements for fighting the Netherite Monstrosity, you only need to move close enough for the Monstrosity to detect you. "
+				""
+				"Let the battle begin!"
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:monstrous_eye"
+			id: "27D206C52EB054F2"
+			rewards: [
+				{
+					id: "1653B1CD54F8CD94"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "3AE8CFFB9F3E740D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "21E69C10F24076FD"
+				title: "Defeat the Netherite Monstrosity"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Netherite Monstrosity"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1973823FA60F2E23"]
+			description: [
+				"Hidden behind the lavafalls on either side of the Netherite Monstrosity's throne lies a passage to a secret vault!"
+				""
+				"Loot it, and break the experience blocks inside to complete this quest!"
+				""
+				"{image:ftb:textures/experience_blocks.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "46744D297A9124A8"
+			optional: true
+			rewards: [
+				{
+					count: 12
+					id: "3E08E9FDFBB82A52"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "42222CBE54280502"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				block: "create:experience_block"
+				block_type: 0
+				checkItem: false
+				id: "71BE2EA23C26517F"
+				type: "questsadditions:break"
+				value: 4L
+			}]
+			title: "Loot the Secret Vault"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27D206C52EB054F2"]
+			description: [
+				"The various minecart contraptions around the Monstrosity's fortress are a great source of coal!"
+				""
+				"Loot their chests to your heart's content."
+			]
+			icon: "minecraft:minecart"
+			id: "1973823FA60F2E23"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "23D80BF09A5D9D74"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "40C9B544E3481B55"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "453C84858F2E4B4F"
+					title: "Looted the Minecart Contraptions"
+					type: "checkmark"
+				}
+				{
+					id: "1388637041F7E26E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "Loot the Minecart Contraptions"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared."
+				""
+				"Will you emerge victorious, or will the jaws of the Leviathan prove to be too powerful? Only one way to find out."
+				""
+				"The Sunken City is located in the Oceans of the Abyssal Chasm. You must brave the vast seas and slay The Leviathan if you wish to progress further."
+				""
+				"{image:ftb:textures/sunken_city_bg.png width:225 height:175 align:center}"
+			]
+			icon: "cataclysm:altar_of_abyss"
+			id: "449BC30FBCC42249"
+			rewards: [
+				{
+					id: "1735BC343D3399C2"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6570512198776AF1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Leviathan's Kingdom"
+			tasks: [{
+				icon: "cataclysm:abyss_eye"
+				id: "70161E4FD138A3FC"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			title: "Locate the Sunken City"
+			x: 5.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["449BC30FBCC42249"]
+			description: [
+				"First, you must obtain a Coral Chunk by defeating the Coralssus, a powerful Mini-Boss that can be found locked away in the prison guarded by Deeplings."
+				""
+				"{image:ftb:textures/coralssus.png width:175 height:175 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "3ED05EA56DCB62C2"
+			rewards: [
+				{
+					id: "5A43B14BF9E50838"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "3CE0EA0ECC0BADBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coral_chunk"
+				id: "37C5F76BF382858F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Coralssus"
+			x: 0.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["3ED05EA56DCB62C2"]
+			description: [
+				"The Athame is an Ancient Blade forged by the Deeplings and given only to their most powerful warriors-the Deepling Warlock and Deepling Priest. "
+				""
+				"You must track down and defeat these warriors, and then reforge their blade into a sacrifice worthy of summoning the Leviathan."
+				""
+				"{image:ftb:textures/deepling_warlock.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E26DD51B9FBDAC7"
+			rewards: [
+				{
+					count: 2
+					id: "15EEBAF105A7BEE8"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					id: "6C61ED828C6C9A5A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_warlock"
+					icon: "cataclysm:deepling_warlock_spawn_egg"
+					id: "230E5705DCDE1247"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					icon: "cataclysm:deepling_priest_spawn_egg"
+					id: "5377F235E89BD8B7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2F4C84AF71B24E24"
+					item: {
+						Count: 1
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Obtain the Athame"
+			x: 3.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["4E26DD51B9FBDAC7"]
+			description: ["Now, you must craft the &5Abyssal Sacrifice&r, and offer it to the Altar of Abyss in the center of the city."]
+			id: "381A81F03F347383"
+			rewards: [{
+				id: "2B48022474B9BCE6"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "51A44B7D82AC9E6F"
+				item: { Count: 5, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			title: "Craft the Abyssal Sacrifice"
+			x: 6.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["381A81F03F347383"]
+			description: [
+				"The Leviathan has claimed many lives. You must be the one to end its cruel reign over the Deeplings."
+				""
+				"Beware... The Leviathan has attacks that can shake you to your core, rendering you unable to move. Consider bringing ender pearls to escape the grasp of The Leviathan. They can also be used to avoid its deadly lazer and tentacle attacks."
+				""
+				"Defeating The Leviathan will award you with the &5Tidal Claws&r-a powerful weapon that doubles as a grappling hook."
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "7CA6CB6425E43C01"
+			rewards: [
+				{
+					id: "488C53440E880900"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+				{
+					id: "06A708CF065054BE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_leviathan_spawn_egg"
+				id: "5A0D2F3CBD7BC10B"
+				title: "Defeat the Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Leviathan"
+			x: 9.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["3D9B8268396970D8"]
+			description: [
+				"Hidden under the fiery crust of Mercury is the Burning Arena. This is not just any arena, it is home to the powerful warrior Ignis. "
+				""
+				"Wielding a fiery sword and molten shield, he defends his honor from those who challenge him in battle."
+				""
+				"Will you defeat him in battle, or die trying?"
+				""
+				"{image:ftb:textures/burning_arena_bg.png width:225 height:175 align:center}"
+			]
+			id: "5840CB45E85E7D1C"
+			rewards: [
+				{
+					id: "2DFA57A0B72CE8A9"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79484984EDFA5563"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A Warrior's Battleground"
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "1E7BE03F14FFE630"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			title: "Locate the Burning Arena"
+			x: -11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5840CB45E85E7D1C"]
+			description: [
+				"Before you can challenge Ignis, you must first brave the lower depths of the structure, where blazes fiercely guard the chests that hold the Dying Embers needed to summon him."
+				""
+				"{image:ftb:textures/dying_embers.png width:175 height:175 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "0DDE17A34691EC17"
+			rewards: [
+				{
+					count: 2
+					id: "04606E36EBD56865"
+					item: "cataclysm:ignitium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "4BB5F2B350363825"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3BE70BFB769ADBD9"
+				item: "cataclysm:dying_ember"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0DDE17A34691EC17"]
+			description: [
+				"Next, you must combine your Dying Embers into Burning Ashes, an item worthy of summoning the powerful warrior Ignis."
+				""
+				"Ascend to the top floor, and place the Burning Ashes into the Altar of Fire to summon Ignis."
+			]
+			id: "3BF615983B302731"
+			rewards: [
+				{
+					id: "4A05C0C201500F51"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+				{
+					id: "55B3B07A8DD761E3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "02E66338AF53FA98"
+				item: "cataclysm:burning_ashes"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3BF615983B302731"]
+			description: [
+				"This is it. The battle you've been waiting for. A fiery crowd cheers around you. A trumpet blares as Ignis emerges. Your battle will be &6legendary.&r "
+				""
+				"Beware his sword, as it will inflict &cBlazing Brand,&r which will render your armor useless while the effect is active. The more hits you take, the less effective your armor will be. "
+			]
+			icon: "cataclysm:flame_eye"
+			id: "5D66572BB364F187"
+			rewards: [
+				{
+					count: 4
+					id: "3CA16E042B5D645E"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "2D00E74BAFEC7916"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "1AB8F0B265204797"
+				title: "Defeat Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Ignis"
+			x: -8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7BC843CB75014821"]
+			description: [
+				"Perched upon the dunes of Venus lies the Cursed Pyramid. Its outer layers have been damaged by the acid rain, but its inner corridors remain untouched. "
+				""
+				"You must travel to the Cursed Pyramid and make your way through its labyrinth to challenge the Ancient Remnant. "
+				""
+				"{image:ftb:textures/cursed_pyramid_bg.png width:225 height:175 align:center}"
+			]
+			id: "34DBC02826AEE37E"
+			rewards: [
+				{
+					id: "3AAD97A894B79B8F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "unusualend:regeneration_ii"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32C41649339447C6"
+					item: {
+						Count: 1
+						id: "betterarcheology:iron_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4414A202A013E0BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A Labyrinth of Sand"
+			tasks: [{
+				icon: "cataclysm:remnant_skull"
+				id: "729AB1421DFCA39C"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			title: "Locate the Cursed Pyramid"
+			x: 5.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["34DBC02826AEE37E"]
+			description: [
+				"The Kobelton stand in the way of you and the path to the Ancient Remnant. "
+				""
+				"Eliminate ten of them as you loot the Pyramid, and then make your way through the labyrinth to the upper levels."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cataclysm:khopesh"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "53671A0360665A81"
+			rewards: [
+				{
+					count: 8
+					id: "2B10617278CA054E"
+					item: "cataclysm:koboleton_bone"
+					type: "item"
+				}
+				{
+					id: "2D47AA78F2768578"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				icon: "cataclysm:koboleton_spawn_egg"
+				id: "1D509F2A020BFFAE"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill Ten Kobelton"
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			id: "563B8AB184A56AE2"
+			optional: true
+			secret: true
+			title: "Autofocus Quest"
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["53671A0360665A81"]
+			description: [
+				"After reaching the center of the Pyramid's peak, you must make your way to a nearby side chamber. There, buried within the suspicious sand, lies the Necklace of the Desert. "
+				""
+				"Unearth it before descending through the chute into the structure’s inner depths."
+				""
+				"{image:ftb:textures/necklace_of_the_desert.png width:175 height:175 align:center}"
+			]
+			id: "01088646E888FB2D"
+			rewards: [
+				{
+					count: 8
+					id: "10372735CF9BE3B9"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					id: "182E6D9CFDB00D6D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2AEF3C4D12826ACD"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			title: "Uncover the Necklace of the Desert"
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["01088646E888FB2D"]
+			description: ["The Kobeldiator and Wadjet stand guarding the tomb of the Ancient Remnant. You must defeat them before you can face the Ancient Remnant. "]
+			icon: {
+				Count: 1
+				id: "cataclysm:ancient_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26DD866CC53A3A0A"
+			rewards: [
+				{
+					id: "5FB18DBE76944E36"
+					item: "cataclysm:desert_eye"
+					type: "item"
+				}
+				{
+					id: "6B1224A5AB35AD4C"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:kobolediator"
+					icon: "cataclysm:kobolediator_spawn_egg"
+					id: "22F693FC57C44876"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:wadjet"
+					icon: "cataclysm:wadjet_spawn_egg"
+					id: "17EE404D1A8DE273"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Take out the Guards"
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["26DD866CC53A3A0A"]
+			description: [
+				"Place the Necklace of the Desert upon the remains of the Ancient Remnant, and watch in horror as the bones click into place. "
+				""
+				"Should you be victorious, you move one step closer to The End. "
+			]
+			icon: "cataclysm:desert_eye"
+			id: "5ECBCB519C4FBE28"
+			rewards: [
+				{
+					id: "363539B0871E8E98"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					id: "0EDF39BE154A7DE1"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:ancient_remnant_spawn_egg"
+				id: "7E29034B47E05139"
+				title: "Defeat the Ancient Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ancient Remnant"
+			x: 9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3AB2D041111CBCF4"]
+			description: [
+				"Upon the frozen crust of Glacio lies the Frosted Prison-a bleak fortress reserved for the most vile criminals. After his defeat, the infamous Maledictus was entombed deep within its icy depths, his body sealed away in the heart of the prison."
+				""
+				"Legend warns that those who breach the prison’s defenses and reach the inner sanctum may awaken him once more. Should you disturb his slumber, prepare for wrath unlike any other."
+				""
+				"Steel your nerves, and press forward. Maledictus must be defeated."
+				""
+				"{image:ftb:textures/frosted_prison_bg.png width:225 height:175 align:center}"
+			]
+			icon: "cataclysm:cursed_tombstone"
+			id: "659C5018DD271450"
+			rewards: [
+				{
+					id: "4EE20378927E3CB3"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "450B750E9CB06A8B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "58D898D7B3C1316F"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			title: "Locate the Frosted Prison"
+			x: -11.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["659C5018DD271450"]
+			description: [
+				"The Draugr guard the prison, hoping to keep those who wish to resurrect Maledictus away. "
+				""
+				"You must defeat them and push to the depths of the prison."
+			]
+			hide_dependency_lines: true
+			id: "32228548B00A1BC3"
+			rewards: [
+				{
+					id: "145E7F19E3B316BA"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					id: "1BF40E875301966F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:draugr"
+				icon: "cataclysm:draugr_head"
+				id: "79768C925E31CDB7"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Kill Ten Draugr"
+			x: -15.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["32228548B00A1BC3"]
+			description: [
+				"The Aptrgangr holds the key you need to enter the chamber where Maledictus was laid to rest. "
+				""
+				"Defeat the Aptrgangr, and use the Strange Key to open the Door of Seal."
+			]
+			icon: "cataclysm:strange_key"
+			id: "17BC07BBD8289751"
+			rewards: [
+				{
+					count: 2
+					id: "3974DF750FD8E860"
+					item: "cataclysm:cursium_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "31B37B7AB127E0F3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:aptrgangr"
+					icon: "cataclysm:aptrgangr_head"
+					id: "7624EF7B4C993F2D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7E57AB8C971706F7"
+					item: "cataclysm:strange_key"
+					type: "item"
+				}
+			]
+			title: "Eliminate the Aptrgangr"
+			x: -11.5d
+			y: 26.5d
+		}
+		{
+			dependencies: ["17BC07BBD8289751"]
+			description: [
+				"Right click the Cursed Tombstone to awaken Maledictus from his slumber. "
+				""
+				"Beware his bow attacks, they are quick and deal massive amounts of damage. "
+				""
+				"Should you prevail, you will be one step closer to unlocking The End."
+			]
+			icon: "cataclysm:cursed_eye"
+			id: "2C285EA25E9E97ED"
+			rewards: [
+				{
+					count: 4
+					id: "5AA95FAD2E8BBD34"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "74655088029E4E7E"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:maledictus_spawn_egg"
+				id: "28D44A364EE4B948"
+				title: "Defeat Maledictus"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat Maledictus"
+			x: -8.0d
+			y: 26.5d
+		}
+	]
+	title: "Cataclysm"
+}
