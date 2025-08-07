@@ -610,11 +610,6 @@
 					type: "item"
 				}
 				{
-					id: "3BB4925020201900"
-					item: "forge_frontier:netherite_iron_upgrade"
-					type: "item"
-				}
-				{
 					id: "0523409D1C4C6DC5"
 					item: "ad_astra:launch_pad"
 					type: "item"

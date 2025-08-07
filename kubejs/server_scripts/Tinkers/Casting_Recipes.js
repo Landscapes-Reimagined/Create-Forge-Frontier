@@ -124,7 +124,6 @@ ServerEvents.recipes(event => {
             ['forge:armor/leggings_plating', 'tconstruct:blank_sand_cast', 'tconstruct:leggings_plating_sand_cast', 'tconstruct:leggings_plating_sand_cast', 'leggings_plating_sand_cast'],
             ['forge:armor/boots_plating', 'tconstruct:blank_sand_cast', 'tconstruct:boots_plating_sand_cast', 'tconstruct:boots_plating_sand_cast', 'boots_plating_sand_cast'],
             ['forge:armor/maille', 'tconstruct:blank_sand_cast', 'tconstruct:maille_sand_cast', 'tconstruct:maille_sand_cast', 'maille_sand_cast'],
-            ['forge:templates/smithing', 'tconstruct:blank_sand_cast', 'tconstruct:template_sand_cast', 'tconstruct:template_sand_cast', 'template_sand_cast'],
 
             // Red Sand Casts (same as above, replace _sand_cast with _red_sand_cast)
             ['forge:ingots', 'tconstruct:blank_red_sand_cast', 'tconstruct:ingot_red_sand_cast', 'tconstruct:ingot_red_sand_cast', 'ingot_red_sand_cast'],
@@ -153,7 +152,6 @@ ServerEvents.recipes(event => {
             ['forge:armor/leggings_plating', 'tconstruct:blank_red_sand_cast', 'tconstruct:leggings_plating_red_sand_cast', 'tconstruct:leggings_plating_red_sand_cast', 'leggings_plating_red_sand_cast'],
             ['forge:armor/boots_plating', 'tconstruct:blank_red_sand_cast', 'tconstruct:boots_plating_red_sand_cast', 'tconstruct:boots_plating_red_sand_cast', 'boots_plating_red_sand_cast'],
             ['forge:armor/maille', 'tconstruct:blank_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'tconstruct:maille_red_sand_cast', 'maille_red_sand_cast'],
-            ['forge:templates/smithing', 'tconstruct:blank_red_sand_cast', 'tconstruct:template_red_sand_cast', 'tconstruct:template_red_sand_cast', 'template_red_sand_cast'],
 
             // Gold Cast Recipes
             ['forge:ingots', 'tconstruct:blank_gold_cast', 'tconstruct:ingot_cast', 'tconstruct:ingot_cast', 'ingot_cast'],
@@ -182,7 +180,6 @@ ServerEvents.recipes(event => {
             ['forge:armor/leggings_plating', 'tconstruct:blank_gold_cast', 'tconstruct:leggings_plating_cast', 'tconstruct:leggings_plating_cast', 'leggings_plating_cast'],
             ['forge:armor/boots_plating', 'tconstruct:blank_gold_cast', 'tconstruct:boots_plating_cast', 'tconstruct:boots_plating_cast', 'boots_plating_cast'],
             ['forge:armor/maille', 'tconstruct:blank_gold_cast', 'tconstruct:maille_cast', 'tconstruct:maille_cast', 'maille_cast'],
-            ['forge:templates/smithing', 'tconstruct:blank_gold_cast', 'tconstruct:template_cast', 'tconstruct:template_cast', 'template_cast'],
         ];
         
     sandCastingRecipes.forEach(([inputTag, ingredientItem, transitionalItem, resultItem, idSuffix]) => {

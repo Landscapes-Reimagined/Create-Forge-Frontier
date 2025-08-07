@@ -311,11 +311,6 @@
 					type: "item"
 				}
 				{
-					id: "2A1CC67E11914658"
-					item: "create_ethium:ethium_smithing_template"
-					type: "item"
-				}
-				{
 					id: "3A8A35FD7A4B3E44"
 					item: "create_ethium:lost_debris"
 					type: "item"
