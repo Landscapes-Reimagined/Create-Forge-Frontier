@@ -71,7 +71,6 @@ StartupEvents.registry('block', event => {
 
 // New Items
 StartupEvents.registry('item', event => {
-
     // Leather Elytra
             event.create('forge_frontier:leather_elytra')
             .displayName('Leather Elytra')
@@ -165,21 +164,5 @@ StartupEvents.registry('item', event => {
             .displayName('Forge Frontier Logo')
             .texture('forge_frontier:item/forgefrontier')
 
-    // Upgrades
-        event.create('forge_frontier:netherite_iron_upgrade')
-            .displayName('Netherite Iron Smithing Template')
-            .texture('forge_frontier:item/upgrades/netherite_iron_upgrade_smithing_template')
-
-        event.create('forge_frontier:netherite_gold_upgrade')
-            .displayName('Netherite Gold Smithing Template')
-            .texture('forge_frontier:item/upgrades/netherite_gold_upgrade_smithing_template')
-
-        event.create('forge_frontier:netherite_emerald_upgrade')
-            .displayName('Netherite Emerald Smithing Template')
-            .texture('forge_frontier:item/upgrades/netherite_emerald_upgrade_smithing_template')
-
-        event.create('forge_frontier:netherite_diamond_upgrade')
-            .displayName('Netherite Diamond Smithing Template')
-            .texture('forge_frontier:item/upgrades/netherite_diamond_upgrade_smithing_template')
 });
 

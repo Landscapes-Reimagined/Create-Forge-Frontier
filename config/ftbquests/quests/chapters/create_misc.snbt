@@ -17,7 +17,7 @@
 		x: -0.75d
 		y: -10.0d
 	}]
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -408,6 +408,8 @@
 				""
 				"First, weaken the mob with a Potion of Weakness, then right-click it to trap its soul inside the device."
 				""
+				"You can even capture Boss Mobs, if they are not blacklisted. You must reduce their health to 95% and then throw the potion and capture them."
+				""
 				"{\"text\":\"Then, place the Soul Catcher inside a \",\"extra\":[{\"text\":\"Mechanical Spawner\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DC29EE22186BDB7\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\"-it's the first step toward fully automating mob farms with Create.\"}]}"
 			]
 			hide_dependency_lines: true
@@ -597,7 +599,7 @@
 				item: "create_sa:hydraulic_engine"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
@@ -624,7 +626,7 @@
 				item: "create_sa:heat_engine"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 1.0d
 		}
 		{
@@ -650,7 +652,7 @@
 				item: "create_sa:steam_engine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -694,7 +696,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -741,7 +743,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -790,7 +792,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -835,7 +837,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -892,7 +894,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 1"
-			x: -7.5d
+			x: -7.0d
 			y: -0.5d
 		}
 		{
@@ -940,7 +942,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 2"
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
@@ -988,7 +990,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 3"
-			x: -6.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -1033,7 +1035,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -1079,7 +1081,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -1117,7 +1119,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -1339,7 +1341,7 @@
 				type: "checkmark"
 			}]
 			title: "A Small Reward!"
-			x: 3.0d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -1565,7 +1567,7 @@
 				}
 			]
 			title: "The Entity Teleporter"
-			x: 4.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -1625,7 +1627,7 @@
 				}
 			]
 			title: "The Item Teleporter"
-			x: 6.0d
+			x: 6.5d
 			y: -0.5d
 		}
 		{
@@ -1676,7 +1678,7 @@
 				}
 			]
 			title: "The Block Teleporter"
-			x: 4.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -1732,15 +1734,15 @@
 				}
 			]
 			title: "The Custom Portal"
-			x: 6.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["610FD2C783821A4E"]
 			description: [
-				"The Ender Tank allows you to transport fluids wirelessly across large spaces - even across dimensions! The Ender Tank is crucial in bringing easy access to lava to your base for practical applications like fueling blaze burners! "
+				"The Fluid Transmitter allows you to transport fluids wirelessly across large spaces - even across dimensions! The Fluid Transmitter is crucial in bringing easy access to lava to your base for practical applications like fueling blaze burners! "
 				""
-				"Set a frequency by right clicking with an item in your hand!"
+				"Set a frequency by right clicking the transmitter. Choose a network on the first section, and set a name in the second section."
 				""
 				"Please note that these must be chunk loaded to update the fluids being stored inside, so if you want to bring lava from the Nether to the Overworld you must load both the chunks in the Overworld and Nether."
 			]
@@ -1749,57 +1751,84 @@
 			rewards: [
 				{
 					count: 3
-					id: "5CE73DEBACC28E20"
-					item: "createenderlink:ender_tank"
+					id: "35DBF3E622F746BD"
+					item: "createendertransmission:fluid_transmitter"
 					type: "item"
 				}
 				{
-					id: "568F549EE0B1AB20"
+					id: "46E3AB104B96C15B"
 					type: "xp"
 					xp: 25
 				}
 			]
 			subtitle: "The Void"
 			tasks: [{
-				id: "0F65BFA837705829"
-				item: "createenderlink:ender_tank"
+				id: "6AD1DC1F076F2D12"
+				item: "createendertransmission:fluid_transmitter"
 				type: "item"
 			}]
-			title: "The Ender Tank"
+			title: "The Fluid Transmitter"
 			x: -8.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["610FD2C783821A4E"]
 			description: [
-				"The Ender Vault allows you to send items across large spaces - even cross dimensionally! Want to send a resource you've automated back to your storage, but it is too far for belts and pipes? This makes it simple and easy!"
+				"The Item Transmitter allows you to send items across large spaces - even cross dimensionally! Want to send a resource you've automated back to your storage, but it is too far for belts and pipes? This makes it simple and easy!"
 				""
-				"The Ender Vault also must be chunk loaded if you wish to use it across long distances or cross dimensionally. "
+				"The Item Transmitter also must be chunk loaded if you wish to use it across long distances or cross dimensionally. "
 			]
 			hide_dependency_lines: true
 			id: "0401F8FA66F1254B"
 			rewards: [
 				{
 					count: 3
-					id: "3E3D1A0AF0AEE185"
-					item: "createenderlink:ender_vault"
+					id: "6BC8AEE3A4B620F8"
+					item: "createendertransmission:item_transmitter"
 					type: "item"
 				}
 				{
-					id: "45C524A44A639990"
+					id: "7174D7182A135F49"
 					type: "xp"
 					xp: 25
 				}
 			]
 			subtitle: "Items from the Void"
 			tasks: [{
-				id: "2D5DE7599731B4C2"
-				item: "createenderlink:ender_vault"
+				id: "3C5A6FABA5184465"
+				item: "createendertransmission:item_transmitter"
 				type: "item"
 			}]
 			title: "The Ender Vault"
 			x: -8.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: ["The Energy Transmitter transmits Stress Units, not power. It takes 8x the rpm input to power it, and when configured by right clicking it will transmit SU and link your Stress Network."]
+			hide_dependency_lines: true
+			id: "705A2004A2112C43"
+			rewards: [
+				{
+					count: 3
+					id: "695158B141A2BCC3"
+					item: "createendertransmission:energy_transmitter"
+					type: "item"
+				}
+				{
+					id: "699FEB863C567E60"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Stress Across The Void"
+			tasks: [{
+				id: "5798E8226282F874"
+				item: "createendertransmission:energy_transmitter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
 		}
 	]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"

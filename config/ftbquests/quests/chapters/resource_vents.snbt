@@ -2,7 +2,7 @@
 	autofocus_id: "7AC47553B491EE76"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "molten_vents"
+	filename: "resource_vents"
 	group: "3D5393E3938A9DF4"
 	icon: "create_resource_vents:active_asurine_vent"
 	id: "4E4AA685A681F1B0"
@@ -25,7 +25,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 7
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -596,15 +596,15 @@
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Deep within the &9Magnetic Caves&r, where polarity distorts reality and metal hums with unnatural energy, lie two of the most advanced Resource vents in existence: the &3Azurnium Vent&r and the &dNeodyrium Vent&r."
+				"Deep within the &9Magnetic Caves&r, where polarity distorts reality and metal hums with unnatural energy, lie two of the most advanced Resource vents in existence: the &3Azurnium Vent&r and the &dNeodymrium Vent&r."
 				""
 				"{@pagebreak}"
 				""
 				"🔩 The Azurnium Vent"
 				"Gleaming with &lmechanical brilliance&r, this vent pulses with the &obrainpower of automation&r. It is said that Azurnium once powered lost machines of an ancient civilization—machines that could build themselves."
 				""
-				"⚡ The Neodyrium Vent"
-				"Crackling with &omagnetic current&r, the Neodyrium Vent distorts compasses and draws metals to itself. Its rare energy signature is perfect for &lconductive alloys&r and &ltech-based contraptions&r."
+				"⚡ The Neodymrium Vent"
+				"Crackling with &omagnetic current&r, the Neodymrium Vent distorts compasses and draws metals to itself. Its rare energy signature is perfect for &lconductive alloys&r and &ltech-based contraptions&r."
 				""
 				"{@pagebreak}"
 				""
@@ -632,7 +632,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Magnetic Marvels: The Neodyrium and Azurnium Vents (Magnetic Caves), Click me for more info!"
+			subtitle: "Magnetic Marvels: The Neodymrium and Azurnium Vents (Magnetic Caves), Click me for more info!"
 			tasks: [{
 				dimension: "forge_frontier:magnetic_caves"
 				id: "43CBDB5891078EB5"
@@ -660,7 +660,7 @@
 				""
 				"🧰 Helpful Tools and Features"
 				""
-				"Portable Vents – Thanks to &6Carry On&r, activated vents can be moved, enabling the construction of centralized molten factories."
+				"Portable Vents – Thanks to &6Carry On&r, activated vents can be moved, enabling the construction of centralized molten factories. Just Sneak Right Click to pick up the vent!"
 				""
 				"Mechanical Extruders – Designed for late-game automation, these machines pull &oorestones&r from a single fluid source block, removing the need for complex setups."
 				""
@@ -712,15 +712,13 @@
 		{
 			dependencies: ["3217A6300D17E470"]
 			description: [
-				"Beneath rugged biomes lies the &cCrimsite Vent&r—one of the ancient ore stones essential for automating &cIron&r production. These silent vents pulse with potential, just waiting to be brought to life by an adventurer brave enough to harness their power."
+				"Hidden amongst the grass of the Plains is the &cCrimsite Vent&r—one of the ancient ore stones essential for automating &cIron&r production. These silent vents pulse with potential, just waiting to be brought to life by an adventurer brave enough to harness their power."
 				""
-				"{image:ftb:textures/crimsite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/crimsite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To unlock the full potential of a Crimsite Vent, you must &lfeed a blaze burner blaze cake directly on its surface&r. This fiery ignition transforms the dormant vent into an &oactive source of molten power&r."
-				""
-				"💥 &oBe sure you're in the correct biome before triggering the reaction—only then will the vent respond.&r"
 				""
 				"Once activated, all that remains is to provide the correct &dsource fluid&r (revealed in the next quest). With the right setup, you’ll be able to channel its molten flow through &lmechanical extruders&r to fully automate iron."
 				""
@@ -785,15 +783,13 @@
 		{
 			dependencies: ["2AE42496027E453C"]
 			description: [
-				"Hidden within select biomes lies the &6Ochrum Vent&r—one of the most precious molten ore stones, essential for unlocking &eyour gold automation pipeline&r. While it may appear dormant at first glance, within it simmers the molten potential of &lwealth and industry&r."
+				"Hidden within the Savanna lies the &6Ochrum Vent&r—one of the most precious molten ore stones, essential for unlocking &eyour gold automation pipeline&r. While it may appear dormant at first glance, within it simmers the molten potential of &lwealth and industry&r."
 				""
-				"{image:ftb:textures/ochrum_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/ochrum_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken its golden promise, you must &lfeed a blaze burner blaze cake&r, transforming it from a silent stone into a blazing source of automation."
-				""
-				"💥 &oChoose your biome wisely and be prepared—the awakening is volatile, but rewarding.&r"
 				""
 				"Once activated, the vent will begin accepting its designated &dsource fluid&r (revealed in the next quest), powering &lMechanical Extruders&r to produce a steady flow of valuable resources."
 				""
@@ -862,21 +858,20 @@
 				id: "363706F90B7CA208"
 				type: "biome"
 			}]
+			title: "Locate Any Forest Biome"
 			x: -17.25d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2913B79A0D9AE74E"]
 			description: [
-				"Hidden within the correct biome lies the &9Asurine Vent&r—one of the precious ore stones essential to &fZinc&r automation. Though it may appear dormant at first glance, it holds the &omineral potential to jumpstart your production line&r."
+				"Hidden within the Forest lies the &9Asurine Vent&r—one of the precious ore stones essential to &fZinc&r automation. Though it may appear dormant at first glance, it holds the &omineral potential to jumpstart your production line&r."
 				""
-				"{image:ftb:textures/asurine_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/asurine_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To unlock its power, you must &lignite the dormant vent feeding a blaze burner blaze cake&r. This fiery activation awakens the Asurine Vent, transforming it into a functioning source ready to receive molten fluid."
-				""
-				"💥 &oActivation requires the proper biome placement and a well-placed transformation—handle with care!&r"
 				""
 				"Once activated, supplying &dcream&r (covered in the next quest) will enable full zinc automation using &lMechanical Extruders&r."
 				""
@@ -933,15 +928,13 @@
 		{
 			dependencies: ["7AE2B54E9ABE8172"]
 			description: [
-				"Hidden beneath the right biome lies the &aVeridium Vent&r—one of the precious ore stones vital to &6Copper&r automation. These dormant geysers may seem inert at first, but within them stirs the &opower to fuel your machinery&r."
+				"Hidden in the heat of the Desert lies the &aVeridium Vent&r—one of the precious ore stones vital to &6Copper&r automation. These dormant geysers may seem inert at first, but within them stirs the &opower to fuel your machinery&r."
 				""
-				"{image:ftb:textures/veridium_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/veridium_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To begin your journey toward copper automation, you'll need to &lfeed a blaze burner a blaze cake on top of it&r. This transformation awakens the vent, transforming it into a functional node capable of accepting molten fluids."
-				""
-				"💥 &oBut be warned—only the right biome and proper ignition will awaken its potential.&r"
 				""
 				"Once activated, providing the correct &dsource fluid&r (explained in the next quest) will bring your copper pipeline to life using &lmechanical extruders&r."
 				""
@@ -1006,15 +999,13 @@
 		{
 			dependencies: ["2913B79A0D9AE74E"]
 			description: [
-				"Hidden within the correct biome lies the &6Potassic Vent&r—one of the rare &dore stones&r crucial for automating &7Tin&r production. Though dormant at first glance, within it flows the &oessence of subterranean power&r waiting to be unleashed."
+				"Hidden within the Forest lies the &6Potassic Vent&r—one of the rare &dore stones&r crucial for automating &7Tin&r production. Though dormant at first glance, within it flows the &oessence of subterranean power&r waiting to be unleashed."
 				""
-				"{image:ftb:textures/potassic_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/potassic_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this dormant vent, you'll need to &lfeed a blaze burner a blaze cake on top of it&r. This fiery catalyst transforms the vent into an active node, ready to accept molten fluids for automation."
-				""
-				"💥 &oOnly the right biome, the right blast, and a little courage will set its power free.&r"
 				""
 				"Once activated, providing the proper &bsource fluid&r (explained in the next quest) allows you to begin your &ltin automation&r pipeline using &lMechanical Extruders&r."
 				""
@@ -1083,21 +1074,20 @@
 				id: "63C340C493779E3E"
 				type: "biome"
 			}]
+			title: "Locate Any Mountain Biome"
 			x: -9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			description: [
-				"Hidden in the lush biomes of the Overworld, the &aVerdantine Vent&r lies buried—an essential molten stone used in &aEmerald&r automation. Though quiet in its dormant form, it hums faintly with the promise of riches and trade."
+				"Nestled between the peaks of the Mountains is the &aVerdantine Vent&r—an essential molten stone used in &aEmerald&r automation. Though quiet in its dormant form, it hums faintly with the promise of riches and trade."
 				""
-				"{image:ftb:textures/verdantine_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/verdantine_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To bring this vent to life, you’ll need to &lfeed a blaze burner a blaze cake on top of it&r. The transformation shatters the surface shell, activating the vent and preparing it for molten infusion."
-				""
-				"💥 &oOnly when found in its proper biome will the vent yield its true power.&r"
 				""
 				"Once active, channel the correct &dsource fluid&r (outlined in the next quest) into the vent, and with the help of &lMechanical Extruders&r, you’ll begin generating emerald orestones—automatically and efficiently."
 				""
@@ -1154,15 +1144,13 @@
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			description: [
-				"In the most frigid corners of the Overworld, the &bGlacium Vent&r slumbers—an icy ore stone vital to &bDiamond&r automation. Encased in permafrost and silence, this frozen vent holds the potential to fuel your most powerful machines with shimmering crystal."
+				"In the most frigid corners of the Mountains, the &bGlacium Vent&r slumbers—an icy ore stone vital to &bDiamond&r automation. This frozen vent holds the potential to fuel your most powerful machines with shimmering crystal."
 				""
-				"{image:ftb:textures/glacium_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/glacium_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"To begin harnessing its potential, locate a &lGlacium Vent in a cold biome&r and &lfeed a blaze burner a blaze cake on top of it&r. The transformation breaks the icy seal, awakening the vent and preparing it for molten channeling."
-				""
-				"💥 &oThe cold conceals it—but the right blast will reveal its true worth.&r"
+				"To begin harnessing its potential, locate a &lGlacium Vent in a mountain biome&r and &lfeed a blaze burner a blaze cake on top of it&r. The transformation breaks the icy seal, awakening the vent and preparing it for molten channeling."
 				""
 				"Once activated, feed the vent with the appropriate &dsource fluid&r (explained in the next quest). With the help of &lMechanical Extruders&r, this glacial marvel will begin automating diamonds—transforming frost into fortune."
 				""
@@ -1219,15 +1207,13 @@
 		{
 			dependencies: ["3BBEFEE675F39759"]
 			description: [
-				"Buried within the searing depths of volcanic biomes lies the &9Scoria Vent&r—a rare molten ore stone crucial for automating &9Lapis Lazuli&r. Though silent in its dormant form, it holds within it the &oinfernal energy to fuel your progression&r."
+				"Hidden among the Mountains is the &9Scoria Vent&r—a rare molten ore stone crucial for automating &9Lapis Lazuli&r. Though silent in its dormant form, it holds within it the &oinfernal energy to fuel your progression&r."
 				""
-				"{image:ftb:textures/scoria_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/scoria_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken its potential, you must &lfeed a blaze burner a blaze cake on top of it&r. The transformation will convert the silent stone into an active vent, ready to receive molten fluid and begin its cycle of production."
-				""
-				"💥 &oBeware—the vent must rest in the right biome, or its potential will remain sealed.&r"
 				""
 				"Once active, the vent will require its specific &dsource fluid&r (covered in the next quest) to drive the &lMechanical Extruder&r and begin generating lapis automatically."
 				""
@@ -1290,6 +1276,7 @@
 				id: "6FD8F60FF72264DF"
 				type: "biome"
 			}]
+			title: "Locate Any Incendium Biome"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -1298,13 +1285,11 @@
 			description: [
 				"Hidden in the blazing depths of the Nether, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
 				""
-				"{image:ftb:textures/scorchia_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/scorchia_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"To awaken this fiery titan, locate a &lScorchia Vent&r on the Nether roof and &lfeed a blaze burner a blaze cake on top of it&r. The resulting transformation tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
-				""
-				"💥 &oLet fire awaken fire—only a fed blaze burner can unleash the vent’s smoldering core.&r"
+				"To awaken this fiery titan, locate a &lScorchia Vent&r in any Regions Unexplored Biome and &lfeed a blaze burner a blaze cake on top of it&r. The resulting transformation tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
 				""
 				"Once activated, channel the correct &dsource fluid&r (covered in the next quest) into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal—fueled by the Nether’s own wrath."
 				""
@@ -1372,6 +1357,7 @@
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
+			title: "Locate Any Savanna Biome"
 			x: -12.0d
 			y: 1.5d
 		}
@@ -1380,13 +1366,11 @@
 			description: [
 				"Deep within the Nether’s forgotten reaches lies the &8Debris Vent&r—a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
 				""
-				"{image:ftb:textures/debris_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/debris_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"To begin, seek out a &lDebris Vent&r on the Nether roof—its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
-				""
-				"💥 &oOnly fire and force can rouse the ancient might within.&r"
+				"To begin, seek out a &lDebris Vent&r in any Incendium Biome—its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
 				""
 				"Once activated, it’s time to channel the correct &dsource fluid&r (revealed in the next quest) into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris—crafted not by pickaxe, but by innovation."
 				""
@@ -1464,21 +1448,20 @@
 				id: "6A40E9C1B431A726"
 				type: "biome"
 			}]
+			title: "Locate A Deeper Darker Vein Biome"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3F3C7C3F33BB9E64"]
 			description: [
-				"Hidden high above the spectral terrain of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
+				"Hidden deep within the caves of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
 				""
-				"{image:ftb:textures/resonite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/resonite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"To unleash its potential, locate a &lDormant Resonite Vent&r on the roof of the Otherside. Feed a blaze burner blaze cake atop its core to awaken the ancient signal buried deep within."
-				""
-				"💥 &oThis transformation ritual tunes the vent to the forgotten frequency of automation.&r"
+				"To unleash its potential, locate a &lDormant Resonite Vent&r in the Otherside. Consider using Freecam to locate the vertical column of vent fluid. Feed a blaze burner blaze cake atop its core to awaken the ancient signal buried deep within."
 				""
 				"Once activated, supply it with the correct &dmystic fluid&r (explained in the next quest) to channel its energy through &lMechanical Extruders&r. Watch as the Resonite pulses to life, converting sound and soul into Echo Shards with mechanical precision."
 				""
@@ -1538,13 +1521,11 @@
 			description: [
 				"Hidden among the craters and shadows of the Moon’s surface, the &6Aubrum Vent&r quietly pulses with extraterrestrial energy. These celestial ore stones are essential for &lDesh&r production, a key component in early space technology and automation."
 				""
-				"{image:ftb:textures/aubrum_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/aubrum_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To begin automation, locate a &lDormant Aubrum Vent&r under the Moon's pale glow. Feed a blaze burner blaze cake atop its surface to awaken the buried vent and reveal its inner power."
-				""
-				"💥 &oEven in silence, the Moon remembers fire—use it to spark your machinery to life.&r"
 				""
 				"Once activated, provide the appropriate &dsource fluid&r (revealed in the next quest) and connect it to a &lMechanical Extruder&r to automate Desh like never before."
 				""
@@ -1583,6 +1564,7 @@
 				id: "4019126602D0E5CE"
 				type: "biome"
 			}]
+			title: "Locate A Lunar Wastelands Biome"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -1629,21 +1611,20 @@
 				id: "2847E25810905D45"
 				type: "biome"
 			}]
+			title: "Locate A Martian Wastelands Biome"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["02912A82870B46F7"]
 			description: [
-				"Hidden beneath the red sands of Mars lies the &5Stellaris Vent&r, a radiant molten geyser glowing with interplanetary power. These vents form the foundation of &dOstrum&r automation, an advanced alloy vital to space-age engineering."
+				"Hidden atop the red sands of Mars lies the &5Stellaris Vent&r, a radiant molten geyser glowing with interplanetary power. These vents form the foundation of &dOstrum&r automation, an advanced alloy vital to space-age engineering."
 				""
-				"{image:ftb:textures/stellaris_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/stellaris_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this vent’s potential, place &la Blaze Burner&r atop its dormant shell and feed it a blaze cake causing it to transform it into an active conduit of molten force.&r"
-				""
-				"💥 &oOnly on Mars do stars burn beneath the soil.&r"
 				""
 				"Once activated, provide the necessary &dsource fluid&r (covered in the next quest) to fuel your &lMechanical Extruders&r and kickstart Ostrum production."
 				""
@@ -1712,21 +1693,20 @@
 				id: "618F9F45D2A0C840"
 				type: "biome"
 			}]
+			title: "Locate A Venus Wastelands Biome"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["144708074CDF64FA"]
 			description: [
-				"Buried beneath the scorched terrain of &cVenus&r lies the &cPyroclast Vent&r—one of the rare molten geysers essential for producing &6Calorite&r, a powerful metal forged in heat and pressure."
+				"Found upon the scorched terrain of &cVenus&r lies the &cPyroclast Vent&r—one of the rare molten geysers essential for producing &6Calorite&r, a powerful metal forged in heat and pressure."
 				""
-				"{image:ftb:textures/pyroclast_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/pyroclast_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To activate this volcanic marvel, place &la blaze burner and feed it blaze cake&r atop the dormant vent and ignite it. The resulting transformation will awaken the structure, converting it into a functional &omolten core&r."
-				""
-				"💥 &oOnly those who embrace the flame can command its gifts.&r"
 				""
 				"Once awakened, supply the correct &dsource fluid&r (covered in the next quest) to begin your Calorite automation through &lMechanical Extruders&r."
 				""
@@ -1795,21 +1775,20 @@
 				id: "2FE02DAD5C080107"
 				type: "biome"
 			}]
+			title: "Locate A Glacio Snowy Barrens Biome"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["12C5A144E9E919A0"]
 			description: [
-				"Hidden beneath the frostbitten crust of &bGlacio&r lies the &bFrostite Vent&r—a rare frozen geyser vital to powering &9Etrium&r production. Its crystalline surface pulses with dormant energy, waiting for a spark to awaken its true potential."
+				"Hidden on the frostbitten crust of &bGlacio&r lies the &bFrostite Vent&r—a rare frozen geyser vital to powering &9Etrium&r production. Its crystalline surface pulses with dormant energy, waiting for a spark to awaken its true potential."
 				""
-				"{image:ftb:textures/frostite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/frostite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this vent, place &la blaze burner&r directly atop it and feed it blaze cake. The tranformation will crack the ice, activating the vent and preparing it to channel molten fluids."
-				""
-				"💥 &oOnly through fire can you unlock the heart of the ice.&r"
 				""
 				"Once active, supply the correct &dsource fluid&r (covered in the next quest) to begin generating Ice Shards using &lMechanical Extruders&r."
 				""
@@ -1868,13 +1847,11 @@
 			description: [
 				"Hidden within the swirling void of the &5End Dimension&r, the &dRadiantite Vent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lIrradium&r—a radiant resource found nowhere else in the multiverse."
 				""
-				"{image:ftb:textures/radiantite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/radiantite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken its celestial core, place &la blaze burner&r on top of the vent and feed it blaze cake. With a burst of arcane force, the vent will erupt into an active state, ready to receive molten fluids."
-				""
-				"💥 &oOnly the brave ignite the stars—and survive to wield their power.&r"
 				""
 				"Once activated, supply the correct &dsource fluid&r (revealed in the next quest) to begin Irradium automation using &lMechanical Extruders&r."
 				""
@@ -1942,6 +1919,7 @@
 				id: "5B5490AB23F60826"
 				type: "biome"
 			}]
+			title: "Travel To The Outer End Islands"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1950,13 +1928,11 @@
 			description: [
 				"Lurking in the &5outer reaches of the End Dimension&r, the &8Void Shale Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lMalachite&r—if you dare to awaken it."
 				""
-				"{image:ftb:textures/void_shale_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/void_shale_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To breathe life into the shale, place &lblaze burner&r atop the vent and feed it blaze cake. The resulting tranformation cracks open the darkness, activating the vent and readying it for molten infusion."
-				""
-				"💥 &oThe void does not give freely—only to those willing to spark its slumber.&r"
 				""
 				"Once active, the right &dsource fluid&r (revealed in the next quest) must be supplied to begin automation using &lMechanical Extruders&r."
 				""
@@ -2015,13 +1991,11 @@
 			description: [
 				"These stone-white relics rest in stillness across the void, untouched by time yet filled with untapped potential. The &fPalerock Vent&r—while seemingly inert—is one of the final pieces in your industrial arsenal."
 				""
-				"{image:ftb:textures/palerock_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/palerock_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this silent monument, you must &lfeed a blaze burner blaze cake&r directly atop the dormant vent. The resulting transformation fractures the pale crust, transforming the structure into an active state ready to receive its specialized molten fluid."
-				""
-				"💥 &oOnly with fire can the forgotten foundations of Bismuth be stirred.&r"
 				""
 				"Once activated, providing the proper &dsource fluid&r (detailed in the next quest) will allow you to channel its energy via &lMechanical Extruders&r—fueling your bismuth automation pipeline."
 				""
@@ -2080,13 +2054,11 @@
 			description: [
 				"Formed in ancient currents and nestled among deep-sea ruins and tube worm colonies, these vents radiate a soft luminescence. The &bPearlyte Vent&r holds the key to underwater industry—but only for those bold enough to descend into the pressure-filled unknown."
 				""
-				"{image:ftb:textures/pearlyte_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/pearlyte_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To breathe life into this dormant marine relic, place &la blaze cake&r atop its core and feed it a blaze cake. The transformation will crack open the shell of inactivity, revealing a living vent ready for fluid infusion."
-				""
-				"💥 &oAbyssal pressure meets raw ignition—this is how underwater power is born.&r"
 				""
 				"Once activated, the vent will await its &dsource fluid&r (explained in the next quest). When supplied, it will enable &lMechanical Extruder&r automation of pearls, allowing you to harvest this deep-sea treasure on demand."
 				""
@@ -2145,13 +2117,11 @@
 			description: [
 				"Radiating a golden warmth, these vents are woven into the fossil-rich stone of a biome untouched by time. Surrounded by prehistoric giants and luminous flora, the &6Amberlite Vent&r pulses with the energy of a lost age, waiting to be awakened."
 				""
-				"{image:ftb:textures/amberlite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/amberlite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this fossilized furnace, feed a blaze burner blaze cake directly atop the vent’s surface. The resulting transformation will rupture the ancient crust, activating the vent and making it receptive to molten input."
-				""
-				"💥 &oOnly fire can stir the dormant heart of amberlight.&r"
 				""
 				"Once active, the vent will accept its required &dsource fluid&r (detailed in the next quest). Feed it well, and you'll unlock fully automated &6Amber&r generation through &lMechanical Extruders&r."
 				""
@@ -2210,13 +2180,11 @@
 			description: [
 				"Encrusted in the foul rock of a cursed biome, the &7Guanite Vent&r emanates a putrid stillness. Amid twisted stone and rotting echoes, these vents represent decay reborn into utility—ready to fuel automation for those who dare to delve too deep."
 				""
-				"{image:ftb:textures/guanite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/guanite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken its vile potential, &lfeed a blaze burner blaze cake&r upon the vent’s dormant surface. The transformation will stir the festering stone into an active state, transforming it into a viable node for molten fluid input."
-				""
-				"💥 &oThe rot must burn before it can yield its worth.&r"
 				""
 				"Once active, supplying the correct &dsource fluid&r (covered in the next quest) will allow &fGuano&r to be fully automated via &lMechanical Extruders&r."
 				""
@@ -2275,13 +2243,11 @@
 			description: [
 				"Dormant yet brimming with latent power, the &aUraniumnite Vent&r rests beneath the toxic bogs and irradiated swamps, hidden in plain sight. Its presence is marked by faint radiation and a slow, rhythmic pulsing that warns of the energy buried within."
 				""
-				"{image:ftb:textures/uraniumnite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/uraniumnite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To begin, place &la blaze burner&r atop a dormant Uraniumnite Vent and feed it blaze cake. The resulting transformation will jolt the vent to life, converting it into an active node ready for automation."
-				""
-				"💥 &oHandle with caution—radiation isn’t your only threat here.&r"
 				""
 				"Once awakened, infuse the vent with its proper &dsource fluid&r, detailed in the next quest, and begin harnessing its energy with &lMechanical Extruders&r to produce Uranium."
 				""
@@ -2340,13 +2306,11 @@
 			description: [
 				"Tucked amid the noxious terrain and acidic pools, the &eSulphite Vent&r gives off a faint, sulfurous hiss. These dormant formations conceal volatile potential, waiting for a spark to awaken their burning core."
 				""
-				"{image:ftb:textures/sulphite_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/sulphite_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To ignite the process, place &la blaze burner&r directly on top of a dormant Sulphite Vent and feed it blaze cake. The transformation force will awaken the vent, converting it into an active conduit for molten extraction."
-				""
-				"💥 &oOnly the right biome, the right spark, and the right courage will bring it to life.&r"
 				""
 				"Once activated, supplying the correct &dsource fluid&r—explained in the following quest—will enable &lMechanical Extruders&r to refine sulfur endlessly from the depths of corruption."
 				""
@@ -2403,17 +2367,15 @@
 		{
 			dependencies: ["42CE6455938E37CF"]
 			description: [
-				"Hidden deep within a realm of charged stone and shifting magnetism, the &cNeodyrium Vent&r hums with potential. Its scarlet glow flickers with kinetic tension, offering a gateway to automating one of the most advanced resources in the known dimensions."
+				"Hidden deep within a realm of charged stone and shifting magnetism, the &cNeodymrium Vent&r hums with potential. Its scarlet glow flickers with kinetic tension, offering a gateway to automating one of the most advanced resources in the known dimensions."
 				""
-				"{image:ftb:textures/neodyrium_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/neodymrium_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To harness this volatile power, place &la blaze burner&r directly atop the dormant vent and feed it blaze cake. The resulting transformation awakens the vent, charging it with the ability to accept molten input for automated processing."
 				""
-				"💥 &oCaution—unstable terrain and magnetic interference make ignition a daring feat.&r"
-				""
-				"Once activated, the proper &dsource fluid&r (revealed in the next quest) will allow you to extract &4Scarlet Neodyrium&r using &lMechanical Extruders&r."
+				"Once activated, the proper &dsource fluid&r (revealed in the next quest) will allow you to extract &4Scarlet Neodymrium&r using &lMechanical Extruders&r."
 				""
 				"⚙ &7Tame the pulse of magnetism and unleash the might of automation.&r"
 			]
@@ -2438,13 +2400,14 @@
 		}
 		{
 			dependencies: ["541F6EDFBB45521D"]
+			description: [""]
 			id: "5125C4BB0C5CD5F2"
 			rewards: [{
 				id: "2B3BE1490431ADC0"
 				item: "alexscaves:block_of_scarlet_neodymium"
 				type: "item"
 			}]
-			subtitle: "Neodyrium can be later crushed down to produce Scarlet Neodyrium"
+			subtitle: "Neodymrium can be later crushed down to produce Scarlet Neodymrium"
 			tasks: [
 				{
 					id: "230520DA2C86FDB3"
@@ -2470,15 +2433,13 @@
 			description: [
 				"Tucked among twisting stone and humming circuitry, the &bAzurnium Vent&r radiates with a cool, charged brilliance. Its azure glow pulses gently with mechanical elegance—awaiting activation by a bold adventurer prepared to shape raw energy into refined potential."
 				""
-				"{image:ftb:textures/azurnium_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/azurnium_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken the power within, &lplace a blaze burner on the vent&r and feed it blaze cake. This surge of force will ignite its dormant state, transforming it into an operational conduit for molten infusion."
 				""
-				"💥 &oOnly the properly charged terrain and ignition sequence will coax forth its true form.&r"
-				""
-				"Once activated, you’ll need to deliver the correct &dsource fluid&r—explained in the next quest—to begin generating &3Azure Neodyrium&r with &lMechanical Extruders&r."
+				"Once activated, you’ll need to deliver the correct &dsource fluid&r—explained in the next quest—to begin generating &3Azure Neodymrium&r with &lMechanical Extruders&r."
 				""
 				"⚙ &7Stabilize the current. Channel the flow. And craft with the clarity of precision engineering.&r"
 			]
@@ -2503,13 +2464,14 @@
 		}
 		{
 			dependencies: ["541F6EDFBB45521D"]
+			description: [""]
 			id: "01AAA3C731162AB6"
 			rewards: [{
 				id: "70C9BBCDD3D57A12"
 				item: "alexscaves:block_of_azure_neodymium"
 				type: "item"
 			}]
-			subtitle: "Azurnium can be later crushed down to produce Azure Neodyrium"
+			subtitle: "Azurnium can be later crushed down to produce Azure Neodymrium"
 			tasks: [
 				{
 					id: "37A05300EB043C64"
@@ -2539,6 +2501,7 @@
 				id: "7ED2A335BB4388AD"
 				type: "biome"
 			}]
+			title: "Locate Any Plains Biome"
 			x: -13.5d
 			y: 1.5d
 		}
@@ -2551,6 +2514,7 @@
 				id: "7618865C4EE22237"
 				type: "biome"
 			}]
+			title: "Locate Any Desert Biome"
 			x: -15.0d
 			y: 1.5d
 		}
@@ -2565,7 +2529,7 @@
 				"The Candy Cavity may seem whimsical on the surface, but within its saccharine walls lurk challenges worthy of even the bravest explorers. The Lost Debris Vent is no exception—dormant, deceptive, and deliciously dangerous."
 				""
 				"🔥 &lActivate with a Blaze Cake&r"
-				"As with all molten vents, place a &oBlaze Cake&r atop a dormant Lost Debris Vent and ignite it using a &lBlaze Burner&r. This intense heat will awaken the vent, priming it for fluid-based automation."
+				"Place a &oBlaze Cake&r atop a dormant Lost Debris Vent and ignite it using a &lBlaze Burner&r. This intense heat will awaken the vent, priming it for fluid-based automation."
 				""
 				"{@pagebreak}"
 				""
@@ -3318,7 +3282,7 @@
 				"1F8D8293900A159B"
 			]
 			description: [
-				"Molten Iron is the &ocritical fluid&r used in the automation of both the &cNeodyrium&r and &9Azurnium&r Vents deep within the &bMagnetic Caves&r. When channeled into &lmechanical extruders&r, this molten metal enables the automated production of &cScarlet Neodyrium&r and &9Azure Neodyrium&r—rare materials essential for late-game progression."
+				"Molten Iron is the &ocritical fluid&r used in the automation of both the &cNeodymrium&r and &9Azurnium&r Vents deep within the &bMagnetic Caves&r. When channeled into &lmechanical extruders&r, this molten metal enables the automated production of &cScarlet Neodymrium&r and &9Azure Neodymrium&r—rare materials essential for late-game progression."
 				""
 				"To obtain Molten Iron, melt the following ingredient using a &lSeared&r or &lScorched Melter&r from Tinkers' Construct:"
 				""
@@ -3332,7 +3296,7 @@
 				item: "minecraft:iron_block"
 				type: "item"
 			}]
-			subtitle: "Drives Scarlet and Azure Neodyrium Automation! Click to learn more! ⚙"
+			subtitle: "Drives Scarlet and Azure Neodymrium Automation! Click to learn more! ⚙"
 			tasks: [{
 				id: "1A7336B66936C8E1"
 				item: "tconstruct:molten_iron_bucket"
@@ -3392,6 +3356,7 @@
 				id: "310DD835164D5BA1"
 				type: "biome"
 			}]
+			title: "Locate Any Regions Unexplored Nether Biome"
 			x: -6.0d
 			y: 1.5d
 		}
@@ -3402,13 +3367,11 @@
 				""
 				"Hidden beneath the whimsical yet dangerous layers of the &dCandy Cavity&r lies the &5Lost Debris Vent&r—a bizarre and rare geyser steeped in sugary sediment, essential for automating &dEthium&r. Though playful in appearance, this vent holds serious power for those who dare to extract it."
 				""
-				"{image:ftb:textures/lost_debris_vent.png width:226 height:150 align:center}"
+				"{image:ftb:textures/lost_debris_vent.png width:175 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this confection-powered vent, place &la blaze burner&r directly on top and feed it a blaze cake. The sweet crust will shatter open, revealing the vent’s molten potential."
-				""
-				"💥 &oA blast of sugar and flame—your path to Ethium begins with ignition.&r"
 				""
 				"Once active, provide the proper &dsource fluid&r (revealed in the next quest) to fuel &lMechanical Extruders&r and begin your Lost Debris conversion process."
 				""

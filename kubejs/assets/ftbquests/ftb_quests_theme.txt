@@ -167,3 +167,6 @@ background: ftb:textures/create_background.png
 
 [37D4B189E01FBB93]
 background: ftb:textures/create_background.png
+
+[36534278AECCD0E2]
+background: ftb:textures/cataclysm_bg.png
