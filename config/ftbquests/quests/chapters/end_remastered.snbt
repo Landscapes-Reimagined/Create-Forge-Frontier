@@ -1104,11 +1104,6 @@
 					type: "item"
 				}
 				{
-					id: "6DBF607D40793020"
-					item: "deeperdarker:warden_upgrade_smithing_template"
-					type: "item"
-				}
-				{
 					id: "000683DBC929C190"
 					type: "xp_levels"
 					xp_levels: 5
