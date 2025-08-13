@@ -1,0 +1,591 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"min": 1,
+				"max": 0
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:calibrated_sculk_sensor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk_sensor"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly"
+						},
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:slime_ball"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:painting"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:barrel",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "hopo:chests/mineshaft/abandoned_miners_stuff"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:decorated_pot",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "hopo:archaeology/mineshaft_remnants"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:decorated_pot",
+					"functions": [
+						{
+							"function": "minecraft:set_loot_table",
+							"type": "minecraft:chest",
+							"name": "hopo:archaeology/mineshaft_remnants"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:obsidian"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clock"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lead"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dead_bush"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tinted_glass"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_shard"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skeleton_skull"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:zombie_head"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:creeper_head"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Midnight Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"moj\", Color: 0}, {Pattern: \"flo\", Color: 15}, {Pattern: \"gru\", Color: 10}, {Pattern: \"mc\", Color: 0}, {Pattern: \"bt\", Color: 7}, {Pattern: \"bts\", Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Red Sky Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"moj\", Color: 0}, {Pattern: \"flo\", Color: 15}, {Pattern: \"gru\", Color: 14}, {Pattern: \"mc\", Color: 0}, {Pattern: \"bl\", Color: 15}, {Pattern: \"bts\", Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Ring Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"mc\", Color: 4}, {Pattern: \"flo\", Color: 15}, {Pattern: \"tt\", Color: 3}, {Pattern: \"ts\", Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Soul Fire Creature Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"sc\", Color: 9}, {Pattern: \"bri\", Color: 15}, {Pattern: \"flo\", Color: 5}, {Pattern: \"flo\", Color: 9}, {Pattern: \"tt\", Color: 15}, {Pattern: \"cbo\", Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:white_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Bow Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"sc\", Color: 7}, {Pattern: \"drs\", Color: 12}, {Pattern: \"dls\", Color: 12}, {Pattern: \"ld\", Color: 0}, {Pattern: \"mr\", Color: 8}, {Pattern: \"tt\", Color: 0}, {Pattern: \"bt\", Color: 0}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:white_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Bow Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"sc\", Color: 7}, {Pattern: \"drs\", Color: 12}, {Pattern: \"dls\", Color: 12}, {Pattern: \"rud\", Color: 0}, {Pattern: \"mr\", Color: 8}, {Pattern: \"tt\", Color: 0}, {Pattern: \"bt\", Color: 0}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Potion Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"cr\",Color:0},{Pattern:\"cs\",Color:0},{Pattern:\"bs\",Color:10}, {Pattern:\"cbo\",Color: 15},{Pattern:\"ts\",Color:15},{Pattern:\"bo\",Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Sculk Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:ss,Color:9},{Pattern:cr,Color:9},{Pattern:flo,Color:15},{Pattern:cbo,Color:15},{Pattern:ss,Color:15},{Pattern:cbo,Color:15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Pickaxe Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"cr\",Color:15},{Pattern:\"bs\",Color:15},{Pattern:\"sc\",Color:12}, {Pattern:\"ms\",Color:8},{Pattern:\"bo\",Color:15},{Pattern:\"hh\",Color:15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:white_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{HideFlags:32,display:{Name:'{\"text\":\"Battle Axe Banner\",\"color\":\"gold\"}'},BlockEntityTag:{Patterns:[{Pattern:flo,Color:8},{Pattern:tt,Color:0},{Pattern:sc,Color:12},{Pattern:ms,Color:8},{Pattern:ts,Color:0},{Pattern:cbo,Color:0},{Pattern:cbo,Color:0}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:yellow_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Phoenix Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"cbo\", Color: 14}, {Pattern: \"gra\", Color: 1}, {Pattern: \"mc\", Color: 14}, {Pattern: \"cr\", Color: 14}, {Pattern: \"flo\", Color: 1}, {Pattern: \"tt\", Color: 14}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:orange_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Sunset Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"gra\", Color: 14}, {Pattern: \"flo\", Color: 1}, {Pattern: \"mc\", Color: 4}, {Pattern: \"bt\", Color: 12}, {Pattern: \"bts\", Color: 13}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Red Eye Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"sc\", Color: 1}, {Pattern: \"cr\", Color: 15}, {Pattern: \"ss\", Color: 14}, {Pattern: \"cbo\", Color: 15}, {Pattern: \"ts\", Color: 15}, {Pattern: \"bs\", Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Golden Creature Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"sc\", Color: 4}, {Pattern: \"ms\", Color: 15}, {Pattern: \"bri\", Color: 15}, {Pattern: \"flo\", Color: 4}, {Pattern: \"tt\", Color: 15}, {Pattern: \"tts\", Color: 4}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:white_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Fox Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"mr\",Color:15},{Pattern:\"cbo\",Color:1},{Pattern:\"mc\",Color:1},{Pattern:\"cre\",Color:1},{Pattern:\"tt\",Color:1}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Crown Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"mr\", Color: 4}, {Pattern: \"cre\", Color: 4}, {Pattern: \"mc\", Color: 15}, {Pattern: \"bt\", Color: 4}, {Pattern: \"bs\", Color: 15}, {Pattern: \"hh\", Color: 15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Blue Bird Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"cr\",Color:9},{Pattern:\"mr\",Color:3},{Pattern:\"drs\",Color:15},{Pattern:\"lud\",Color:15},{Pattern:\"mc\",Color:15},{Pattern:\"bo\",Color:15}]}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:black_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Black Cat Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"cbo\", Color: 3}, {Pattern: \"tts\", Color: 3}, {Pattern: \"tl\", Color: 3}, {Pattern: \"bs\", Color: 12}, {Pattern: \"moj\", Color: 15}],BlockEntityTag:{Patterns:[{Pattern:\"bts\",Color:15},{Pattern:\"mr\",Color:15},{Pattern:\"mc\",Color:0},{Pattern:\"sku\",Color:0},{Pattern:\"tt\",Color:15},{Pattern:\"bo\",Color:15}]}}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_banner",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'{\"text\":\"Wolf Banner\",\"color\":\"gold\"}'},HideFlags:32,BlockEntityTag: {Patterns: [{Pattern: \"bts\", Color: 15}, {Pattern: \"mr\", Color: 15}, {Pattern: \"mc\", Color: 0}, {Pattern: \"sku\", Color: 0}, {Pattern: \"tt\", Color: 15}, {Pattern: \"bo\", Color: 15}],BlockEntityTag:{Patterns:[{Pattern:\"cbo\",Color:3},{Pattern:\"tts\",Color:3},{Pattern:\"tl\",Color:3},{Pattern:\"bs\",Color:12},{Pattern:\"moj\",Color:15}]}}}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arms_up_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brewer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:burn_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:plenty_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:archer_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prize_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:danger_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:skull_pottery_sherd"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:creeper_banner_pattern"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_relic"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mushroom_stew"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glow_ink_sac"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:flint_and_steel",
+					"functions": [
+						{
+							"function": "minecraft:set_damage",
+							"damage": {
+								"min": 0.1,
+								"max": 0.2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:name_tag"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:coal"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_copper"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_copper_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dripstone_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:smooth_basalt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:calcite"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:amethyst_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cobbled_deepslate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bundle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:redstone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:suspicious_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_stew_effect",
+							"effects": [
+								{
+									"type": "minecraft:haste",
+									"duration": {
+										"min": 55,
+										"max": 90
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_bricks"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chiseled_stone_bricks"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cobblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:golden_apple"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_iron_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_iron"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_gold_block"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:raw_gold"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:andesite"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:granite"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diorite"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ladder"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:rail"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:night_vision"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:candle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:white_candle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_candle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_candle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:torch"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:light_gray_banner"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:glow_lichen"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:experience_bottle"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stick"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tnt"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:brown_mushroom"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:red_mushroom"
+				}
+			]
+		}
+	]
+}

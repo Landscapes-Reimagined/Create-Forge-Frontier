@@ -8,5 +8,26 @@
   },
   "dontShowAll": [],
   "dontShow": [
+    "create_easy_structures:camp_2",
+    "idas:fishermans_lodge",
+    "alexscaves:acid_pit",
+    "alexscaves:forlorn_canyon",
+    "alexscaves:ferrocave",
+    "alexscaves:dino_bowl",
+    "alexscaves:ocean_trench",
+    "integrated_villages:airship_village",
+    "idas:collectors_museum",
+    "integrated_villages:sunken_village",
+    "cataclysm:acropolis",
+    "cataclysm:sunken_city",
+    "idas:haunted_manor",
+    "friendsandfoes:illusioner_training_grounds",
+    "integrated_villages:tavern_village",
+    "dungeons_arise_seven_seas:corsair_corvette",
+    "cataclysm:burning_arena",
+    "integrated_villages:oasis_village",
+    "idas:ancient_statue/ancient_statue_desert",
+    "cataclysm:ruined_citadel",
+    "unusualend:ancient_end_tower"
   ]
 }

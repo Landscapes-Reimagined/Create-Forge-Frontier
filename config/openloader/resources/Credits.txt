@@ -8,3 +8,11 @@ The Following Assets were provided by external authors
 	- Stardust Labs
 	- https://modrinth.com/resourcepack/sparkles-addon-alpha-islands
 
+3.) Create: Fixed Redstone Links
+	- CharmDragon
+	- https://modrinth.com/resourcepack/create-fixed-redstone-links
+
+4. ) Create - Songs and Speakers
+	- billnotic
+	- https://www.curseforge.com/minecraft/mc-mods/create-songs-and-speakers-iam-music-player-fork
+

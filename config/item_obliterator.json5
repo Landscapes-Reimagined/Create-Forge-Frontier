@@ -1,0 +1,98 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    'create_better_motors:andesite_alternator',
+    'create_better_motors:copper_alternator',
+    'create_better_motors:brass_alternator',
+    'create_better_motors:andesite_alternator_tier_upgrade',
+    'create_better_motors:copper_alternator_tier_upgrade',
+    'create_better_motors:brass_alternator_tier_upgrade',
+    'easy_villagers:iron_farm',
+    'ad_astra:nasa_workbench',
+    'create_dd:ponder_stone_generation',
+    'create_dd:abstruse_mechanism',
+    'create_dd:incomplete_abstruse_mechanism',
+    'ad_astra_giselle_addon:automation_nasa_workbench',
+    'createendertransmission:chunk_loader',
+    'mob_grinding_utils:mob_swab',
+    'mob_grinding_utils:mob_swab_used',
+    'create_connected:fan_withering_catalyst',
+    'createstockbridge:request_pattern',
+    'monolib:debug_item',
+    'monolib:debug_block',
+    'citadel:debug',
+    'moonlight:placeable_item',
+    'create_connected:fan_sanding_catalyst',
+    'ftbquests:stage_barrier',
+    'create_dd:ponder_in_a_box',
+    'create_dd:potato_turret',
+    'create_dd:secondary_encased_chain_drive',
+    'create_dd:secondary_adjustable_chain_gearshift',
+    'create_dd:crafting_kinetic_mechanism1',
+    'create_dd:crafting_kinetic_mechanism2',
+    'create_connected:fan_enriched_catalyst',
+    'create_connected:fan_ending_catalyst_dragons_breath',
+    'mob_grinding_utils:rotten_egg',
+    'mob_grinding_utils:golden_egg',
+    'mob_grinding_utils:dreadful_dirt',
+    'mob_grinding_utils:delightful_dirt',
+    'mob_grinding_utils:nutritious_chicken_feed',
+    'mob_grinding_utils:gm_chicken_feed',
+    'mob_grinding_utils:gm_chicken_feed_cursed',
+    'iammusicplayer:manual',
+    'ftbquests:barrier',
+    'mob_grinding_utils:spawner_upgrade_height',
+    'mob_grinding_utils:spawner_upgrade_width',
+    'mob_grinding_utils:monocle',
+    'mob_grinding_utils:entity_spawner',
+    'mob_grinding_utils:dark_oak_stone'],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": false
+}

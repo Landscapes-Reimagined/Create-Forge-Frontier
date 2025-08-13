@@ -1,0 +1,432 @@
+{
+  "type": "minecraft:chest",
+  "pools": [    
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lOres: The All Inclusive Guide\n\\\"},
+                {\\\"text\\\":\\\"§lBy \\\"},
+                {\\\"text\\\":\\\"§kREDACTED\n\n\\\"},
+                {\\\"text\\\":\\\"Ores come in two main varieties, stone and deepslate. \\\"},
+                {\\\"text\\\":\\\"Stone ores are found higher up underground while deepslate ores are found deep underground. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Each of these ores come in many varieties, including coal, iron, copper, emerald, redstone, gold, diamond, and zinc. \\\"},
+                {\\\"text\\\":\\\"In this guide, we will examine each type of ore and where you can find them.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Coal is found in large clumps in higher elevations, particularly on surfaces of mountaintops.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Iron, zinc and copper are found in most elevations with the best rates at medium heights\\\"},
+                {\\\"text\\\":\\\"Iron can also be found in very large veins with tuff, and copper with granite.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Emerald is found almost exclusively in mountainous areas in mid range elevations. \\\"},
+                {\\\"text\\\":\\\"Deepslate emerald ore is one of the rarest things you can obtain.\n\n\\\"},
+                {\\\"text\\\":\\\"Redstone ore glows when touched, and is found deep underground.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Gold ore is found deep underground in most biomes, \\\"},
+                {\\\"text\\\":\\\"but in the Mesa biome it can be found in large quantities near the surface.\n\n\\\"},
+                {\\\"text\\\":\\\"Diamonds are the most valuable ore and found in small quantities deep underground.\\\"}
+              ]\"
+            ],
+            title:Ores,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Ores: The All Inclusive Guide",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lLava Fan Manual\n\\\"},
+                {\\\"text\\\":\\\"§lBy \\\"},
+                {\\\"text\\\":\\\"§kREDACTED\n\n\\\"},
+                {\\\"text\\\":\\\"To operate the lava fan, place the item you want smelted into the depots and turn the crank. \\\"},
+                {\\\"text\\\":\\\"The fans will blow the heat of the lava onto the materials, smelting them into the desired materials.\\\"}
+              ]\"
+            ],
+            title:Fan,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Lava Fan Manual",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lMetal Press Manual\n\\\"},
+                {\\\"text\\\":\\\"§lBy \\\"},
+                {\\\"text\\\":\\\"§kREDACTED\n\n\\\"},
+                {\\\"text\\\":\\\"Operating the metal press is rather straightforward. \\\"},
+                {\\\"text\\\":\\\"You place the ingot of the desired material onto the depot, and turn the crank to compress the ingot.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"Be careful not to crush any undesired materials or even yourself! It’ll hurt!\\\"}
+              ]\"
+            ],
+            title:Press,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Metal Press Manual",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lChainmail Armor\n\\\"},
+                {\\\"text\\\":\\\"§lBy \\\"},
+                {\\\"text\\\":\\\"§kREDACTED\n\n\\\"},
+                {\\\"text\\\":\\\"Chainmail armor is a lightweight, slightly weaker alternative to iron armor. \\\"},
+                {\\\"text\\\":\\\"It is made primarily from iron.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"§kTo mold chainmail armor, you take the \\\"},
+                {\\\"text\\\":\\\"§kiron and form it into a chain shape. §kYou then sow the small chains together around a mold of a body. \\\"}
+              ]\"
+            ],
+            title:Chainmail,
+            author:Unknown,
+            display:{Lore:[\"Found in the ancient Stronghold\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Chainmail Armor",
+              "add": false
+            }
+          ]
+        }
+      ]
+    }, 
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:name_tag"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "quark:trowel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:builders_tea"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 4
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "create:experience_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 5,
+                "max": 15
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:redstone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:lapis_lazuli",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 9
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:glow_berries",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "create:raw_zinc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 7
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

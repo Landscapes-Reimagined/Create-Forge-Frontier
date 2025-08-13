@@ -344,23 +344,23 @@ ServerEvents.recipes(event => {
         },
         result: Ingredient.of('endrem:undead_eye'),
         acceptMirrored: false
-      }).id('forge_frontier:mechancial_crafting/undead_eye'); 
+      }).id('forge_frontier:mechancial_crafting/undead_eye');
   
       // Aetheric Eye: Ocean Boss Structure Loot Combination
       event.remove({ id: 'endrem:exotic_eye'})
       event.custom({
         type: 'create:mechanical_crafting',
         pattern: [
-          'AEA',
-          'SUS',
-          'AeA'
+          'ESE',
+          'LUL',
+          'LCL'
         ],
         key: {
-          A: Ingredient.of('cataclysm:abyssal_sacrifice'),
-          E: Ingredient.of('cataclysm:abyss_eye'),
-          S: Ingredient.of('minecraft:sea_lantern'),
+          E: Ingredient.of('cataclysm:essence_of_the_storm'),
+          S: Ingredient.of('cataclysm:storm_eye'),
+          L: Ingredient.of('cataclysm:lacrima'),
           U: Ingredient.of('endrem:undead_soul'),
-          e: Ingredient.of('cataclysm:abyssal_egg'),
+          C: Ingredient.of('cataclysm:chitin_claw'),
         },
         result: Ingredient.of('endrem:exotic_eye'),
         acceptMirrored: false
