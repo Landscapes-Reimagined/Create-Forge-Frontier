@@ -1,0 +1,250 @@
+
+#Make sure config changes are duplicated on both Clients and the Server when running a dedicated Server,
+# as the config isnt synced between Clients and Server.
+#General
+["!general"]
+	#If Message should be enabled or not.
+	message_enabled = false
+
+#Accumulator
+[accumulator]
+	#Accumulator max input in FE/t (Energy transfer).
+	#Range: > 0
+	accumulator_max_input = 800000
+	#Accumulator max output in FE/t (Energy transfer).
+	#Range: > 0
+	accumulator_max_output = 800000
+
+#Wires
+[wires]
+	#Heavy Connector max input in FE/t (Energy transfer).
+	#Range: > 0
+	Heavy_connector_max_input = 90000
+	#Heavy Connector max output in FE/t (Energy transfer).
+	#Range: > 0
+	Heavy_connector_max_output = 90000
+	#Heavy Connector max wire length in blocks.
+	#Range: 0 ~ 256
+	Heavy_connector_wire_length = 48
+
+#Starter Motor
+[starter_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 80000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 100000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 960
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 35768
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Basic Motor
+[basic_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 80000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 100000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 1920
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 75768
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Hardened Motor
+[hardened_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 80000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 100000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 3840
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 161536
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Blazing Motor
+[blazing_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 80000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 500000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 7680
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 253072
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Niotic Motor
+[niotic_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 80000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 600000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 19360
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 710144
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Sprited Motor
+[spirited_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 80000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 700000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 41720
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 1298288
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Nitro Motor
+[nitro_motor]
+	#Electric Motor min/max RPM.
+	#Range: > 1
+	motor_rpm_range = 256
+	#Electric Motor minimum required energy consumption in FE/t.
+	#Range: > 0
+	motor_min_consumption = 8
+	#Electric Motor max input in FE (Energy transfer not consumption).
+	#Range: > 0
+	motor_max_input = 85000
+	#Electric Motor internal capacity in FE.
+	#Range: > 0
+	motor_capacity = 800000
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 72440
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 2499576
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Andesite Alternator
+[andesite_alternator]
+	#Alternator max input in FE (Energy transfer, not generation).
+	#Range: > 0
+	generator_max_output = 5000
+	#Alternator internal capacity in FE.
+	#Range: > 0
+	generator_capacity = 5000
+	#Alternator efficiency relative to base conversion rate.
+	#Range: 0.01 ~ 1.0
+	generator_efficiency = 0.85
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 1260
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 35768
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Copper Alternator
+[copper_alternator]
+	#Alternator max input in FE (Energy transfer, not generation).
+	#Range: > 0
+	generator_max_output = 5000
+	#Alternator internal capacity in FE.
+	#Range: > 0
+	generator_capacity = 5000
+	#Alternator efficiency relative to base conversion rate.
+	#Range: 0.01 ~ 1.0
+	generator_efficiency = 0.9
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 2400
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 75384
+	#If audio should be enabled or not.
+	audio_enabled = true
+
+#Brass Alternator
+[brass_alternator]
+	#Alternator max input in FE (Energy transfer, not generation).
+	#Range: > 0
+	generator_max_output = 10000
+	#Alternator internal capacity in FE.
+	#Range: > 0
+	generator_capacity = 10000
+	#Alternator efficiency relative to base conversion rate.
+	#Range: 0.01 ~ 1.0
+	generator_efficiency = 0.9
+	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
+	#Range: > 0
+	fe_at_max_rpm = 4240
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	max_stress = 159708
+	#If audio should be enabled or not.
+	audio_enabled = true
+

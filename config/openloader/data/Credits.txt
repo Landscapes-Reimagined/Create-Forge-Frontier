@@ -20,3 +20,7 @@ The Following Assets were provided by external authors
 	- telepathicgrunt
 	- https://www.curseforge.com/members/telepathicgrunt/projects
 
+6.) Create - Songs and Speakers
+	- billnotic
+	- https://www.curseforge.com/minecraft/mc-mods/create-songs-and-speakers-iam-music-player-fork
+

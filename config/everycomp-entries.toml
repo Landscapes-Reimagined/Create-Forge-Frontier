@@ -616,6 +616,10 @@
 			pillar = true
 			vertical_slab = true
 
+		[entries.stone_type.handcrafted]
+			corner_trim = true
+			pillar_trim = true
+
 	[entries.mud_type]
 
 		[entries.mud_type.quark]
