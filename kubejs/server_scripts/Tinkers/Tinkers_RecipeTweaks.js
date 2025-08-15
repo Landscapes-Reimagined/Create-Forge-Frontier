@@ -10,7 +10,7 @@ ServerEvents.recipes(event =>
             [
                 'NNN',
                 'NNN',
-                'NN '
+                'NNN'
             ],
             {
                 N: 'tconstruct:debris_nugget'
