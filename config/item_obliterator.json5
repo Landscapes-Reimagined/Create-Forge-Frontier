@@ -16,6 +16,9 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    'buildinggadgets2:template_manager',
+    'buildinggadgets2:template',
+    'buildinggadgets2:redprint',
     'create_better_motors:andesite_alternator',
     'create_better_motors:copper_alternator',
     'create_better_motors:brass_alternator',
