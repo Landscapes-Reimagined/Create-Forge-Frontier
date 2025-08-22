@@ -252,6 +252,11 @@
 					structure: "ae2:meteorite"
 					type: "structure"
 				}
+				{
+					id: "14817A01C1DA00C8"
+					structure: "incendium:forbidden_castle"
+					type: "structure"
+				}
 			]
 			title: "Enter the Burning Arena"
 			x: 2.0d
