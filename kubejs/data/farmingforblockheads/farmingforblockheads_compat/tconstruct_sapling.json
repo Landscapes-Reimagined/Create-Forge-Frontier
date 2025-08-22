@@ -1,0 +1,25 @@
+{
+    "modId": "tconstruct",
+    "group": {
+      "name": "Tinkers Construct Sapling",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:slime_ball"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "tconstruct:earth_slime_sapling"
+      },
+      {
+        "output": "tconstruct:sky_slime_sapling"
+      },
+      {
+        "output": "tconstruct:ender_slime_sapling"
+      },
+      {
+        "output": "tconstruct:blood_slime_sapling"
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "modId": "phantasm",
+    "group": {
+      "name": "Phantasm Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+        {
+            "output":"phantasm:acidic_mass"
+        },
+        {
+            "output":"phantasm:dragon_mint"
+        },
+        {
+            "output":"phantasm:tall_acidic_nihilis"
+        },
+        {
+            "output":"phantasm:acidic_nihilis"
+        },
+        {
+            "output":"phantasm:tall_vivid_nihilis"
+        },
+        {
+            "output":"phantasm:vivid_nihilis"
+        }
+    ]
+}

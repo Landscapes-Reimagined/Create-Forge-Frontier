@@ -10,6 +10,12 @@
     },
     "customEntries": [
       {
+        "output":"minecraft:chorus_plant"
+      },
+      {
+        "output":"minecraft:chorus_flower"
+      },
+      {
         "output": "minecraft:bamboo"
       },
       {
