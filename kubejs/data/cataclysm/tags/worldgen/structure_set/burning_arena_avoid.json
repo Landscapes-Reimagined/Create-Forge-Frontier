@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "cataclysm:soul_black_smith",
-    "minecraft:nether_complexes"
+    "minecraft:nether_complexes",
+    "ae2:meteorite",
+    "incendium:forbidden_castle"
+
   ]
 }

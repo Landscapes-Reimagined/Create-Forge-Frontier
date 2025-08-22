@@ -1,5 +1,8 @@
 {
   "replace": false,
   "values": [
+    "ad_astra:pygro_tower",
+    "ad_astra:pygro_village",
+    "incendium:nether_reactor"
   ]
 }
