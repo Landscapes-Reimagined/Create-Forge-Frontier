@@ -12,6 +12,10 @@
     "cataclysm:the_harbinger",
     "minecraft:blaze",
     "minecraft:magma_cube",
-    "cataclysm:netherite_monstrosity"
+    "cataclysm:netherite_monstrosity",
+    "minecraft:zoglin",
+    "minecraft:hoglin",
+    "minecraft:piglin",
+    "minecraft:piglin_brute"
   ]
 }
