@@ -12,7 +12,7 @@ The Following Assets were provided by external authors
 	- CharmDragon
 	- https://modrinth.com/resourcepack/create-fixed-redstone-links
 
-4. ) Create - Songs and Speakers
-	- billnotic
-	- https://www.curseforge.com/minecraft/mc-mods/create-songs-and-speakers-iam-music-player-fork
+4.) Create Music Player
+	- zeykorta
+	- https://modrinth.com/resourcepack/create-music-player
 
