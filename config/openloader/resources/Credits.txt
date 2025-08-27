@@ -11,8 +11,3 @@ The Following Assets were provided by external authors
 3.) Create: Fixed Redstone Links
 	- CharmDragon
 	- https://modrinth.com/resourcepack/create-fixed-redstone-links
-
-4.) Create Music Player
-	- zeykorta
-	- https://modrinth.com/resourcepack/create-music-player
-
