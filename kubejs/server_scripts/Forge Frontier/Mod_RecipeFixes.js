@@ -13,10 +13,7 @@ ServerEvents.recipes(event => {
             A: 'supplementaries:ash'
         }
     ).id( 'forge_frontier:shaped/ash')
-
-    // Removes Recipe for Broken Manual
-    event.remove({ id: 'iammusicplayer:manual'})
-
+    
     // Removes Excess Recipes for Seed Oil
     event.remove({ id: 'create_mechanical_chicken:compacting/compacting_seed_oil'})
 
