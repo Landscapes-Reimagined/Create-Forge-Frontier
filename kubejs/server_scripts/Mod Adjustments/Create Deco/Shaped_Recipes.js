@@ -1,27 +1,5 @@
 ServerEvents.recipes(event => 
     {
-        // Removes Shaped Recipes since it has stone cutting recipes
-        event.remove({ id: 'createdeco:andesite_bars_overlay'})
-        event.remove({ id: 'createdeco:andesite_mesh_fence'})
-        event.remove({ id: 'createdeco:andesite_catwalk_forge'})
-        event.remove({ id: 'createdeco:andesite_catwalk_railing_forge'})
-        event.remove({ id: 'createdeco:andesite_support_wedge'})
-        event.remove({ id: 'createdeco:andesite_hull'})
-
-        event.remove({ id: 'createdeco:zinc_bars_overlay'})
-        event.remove({ id: 'createdeco:zinc_mesh_fence'})
-        event.remove({ id: 'createdeco:zinc_catwalk_forge'})
-        event.remove({ id: 'createdeco:zinc_catwalk_railing_forge'})
-        event.remove({ id: 'createdeco:zinc_support_wedge'})
-        event.remove({ id: 'createdeco:zinc_hull'})
-
-        event.remove({ id: 'createdeco:industrial_iron_bars_overlay'})
-        event.remove({ id: 'createdeco:industrial_iron_mesh_fence'})
-        event.remove({ id: 'createdeco:industrial_iron_catwalk_forge'})
-        event.remove({ id: 'createdeco:industrial_iron_catwalk_railing_forge'})
-        event.remove({ id: 'createdeco:industrial_iron_support_wedge'})
-        event.remove({ id: 'createdeco:industrial_iron_hull'})
-
         // New Cage Lamp Recipes
             // Andesite
                 // Yellow
@@ -215,41 +193,6 @@ ServerEvents.recipes(event =>
                         i: 'minecraft:soul_torch',
                         s: '#forge:plates/industrial_iron'
                     }
-                    ).id( 'forge_frontier:shaped/blue_industrial_iron_lamp' )            
-
-        // New Sheet Metal Recipes
-            // Andesite
-                event.remove({ id: 'createdeco:andesite_sheet_metal'})
-                event.custom({
-                type: "minecraft:stonecutting",
-                count: 4,
-                ingredient: {
-                    item: "createdeco:andesite_sheet"
-                },
-                result: "createdeco:andesite_sheet_metal"
-            }).id('forge_frontier:stonecutting/andesite_sheet_metal')
-
-            // Zinc
-                event.remove({ id: 'createdeco:zinc_sheet_metal'})            
-                event.custom({
-                type: "minecraft:stonecutting",
-                count: 4,
-                ingredient: {
-                    item: "createdeco:zinc_sheet"
-                },
-                result: "createdeco:zinc_sheet_metal"
-            }).id('forge_frontier:stonecutting/zinc_sheet_metal')            
-
-            // Industrial Iron
-                event.remove({ id: 'createdeco:industrial_iron_sheet_metal'})
-                event.custom({
-                type: "minecraft:stonecutting",
-                count: 4,
-                ingredient: {
-                    item: "createdeco:industrial_iron_sheet"
-                },
-                result: "createdeco:industrial_iron_sheet_metal"
-            }).id('forge_frontier:stonecutting/industrial_iron_sheet_metal')
-
+                    ).id( 'forge_frontier:shaped/blue_industrial_iron_lamp' )
     }
 )
