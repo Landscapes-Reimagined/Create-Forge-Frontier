@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => 
     {
-        // Sophisticated Backpacks Upgrade Base (Shaped)
+        // Sophisticated Backpacks Upgrade Base Recipe
         event.remove({ id: "sophisticatedbackpacks:upgrade_base" });
         event.shaped(
             Item.of("sophisticatedbackpacks:upgrade_base"), 
@@ -13,7 +13,7 @@ ServerEvents.recipes(event =>
             }
         ).id("forge_frontier:shaped/backpack_upgrade_base");
 
-        // Sophisticated Storage Upgrade Base (Shaped)
+        // Sophisticated Storage Upgrade Base Recipe
         event.remove({ id: "sophisticatedstorage:upgrade_base" });
         event.shaped(
             Item.of("sophisticatedstorage:upgrade_base"), 
