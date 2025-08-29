@@ -1,24 +1,6 @@
-// Create - Mob Spawners Recipe Tweaks
 ServerEvents.recipes(event => 
     {
-        	// Empty Soul Catcher Shaped Recipe
-            event.remove({ id: 'create_mob_spawners:empty_soul_catcher'})
-            event.shaped(
-                Item.of('create_mob_spawners:empty_soul_catcher'),
-                [
-                    'BcB',
-                    'C W',
-                    'BcB'
-                ],
-                {
-                    B: 'create:brass_sheet',
-                    c: 'create:cardboard',
-                    C: 'create:brass_casing',
-                    W: 'create:cogwheel'
-                }
-            ).id( 'forge_frontier:shaped/empty_soul_catcher' )
-
-            // Mechanical Spawner Mechanical Crafting Recipe
+        // Mechanical Spawner Recipe
             event.remove({ id: 'create_mob_spawners:mechanical_crafting/mechanical_spawner'})
             event.custom({
                 type: "create:mechanical_crafting",
