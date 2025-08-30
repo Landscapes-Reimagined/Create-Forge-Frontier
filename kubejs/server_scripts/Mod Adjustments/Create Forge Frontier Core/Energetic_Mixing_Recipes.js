@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => 
     {
         // Remove Recipes
-        event.remove({ id: 'forgefrontiercore:test_recipe'})
-        event.remove({ id: 'create:mixing/compat/ae2/fluix_crystal'})
+            event.remove({ id: 'forgefrontiercore:test_recipe'})
+            event.remove({ id: 'create:mixing/compat/ae2/fluix_crystal'})
 
         // Forge Frontier - Energetic Mixing Recipes
             const energeticMixingRecipes = [
@@ -185,62 +185,62 @@ ServerEvents.recipes(event =>
             });
 
         // Energetic Mixing - Energetic Infusing Recipes
-        const energeticInfusionRecipes = [
-            {
-                id: "charged_certus_quartz_crystal",
-                remove: "forgefrontiercore:certus_quartz_charging",
-                energy: 1300000,
-                ingredients: [
-                    { item: "ae2:certus_quartz_crystal", count: 64 },
-                    { fluid: "minecraft:water", amount: 1000 }
-                ],
-                results: [{ item: "ae2:charged_certus_quartz_crystal", count: 64 }]
-            },
-            {
-                id: "quantum_alloy_plate",
-                energy: 1000000,
-                ingredients: [
-                    { item: "advanced_ae:quantum_alloy", count: 8 },
-                    { tag: "forge_frontier:ingot/neodymium"},
-                    { tag: "forge_frontier:ingot/neodymium"},
-                    { item: "minecraft:nether_star", count: 1 },
-                    { fluid: "advanced_ae:quantum_infusion_source", amount: 1000 }
-                ],
-                results: [{ item: "advanced_ae:quantum_alloy_plate", count: 1 }]
-            },
-            {
-                id: "singularity",
-                energy: 1000000,
-                ingredients: [
-                    { item: "ae2:matter_ball", count: 64 },
-                    { fluid: "minecraft:lava", amount: 100 }
-                ],
-                results: [{ item: "ae2:singularity", count: 1 }]
-            },
-            {
-                id: "charged_redstone",
-                energy: 1300000,
-                ingredients: [
-                    { item: "appflux:redstone_crystal", count: 64 },
-                    { fluid: "minecraft:water", amount: 1000 }
-                ],
-                results: [{ item: "appflux:charged_redstone", count: 64 }]
-            }
-        ];
-    
-        energeticInfusionRecipes.forEach(recipe => {
-            if (recipe.remove) {
-                event.remove({ id: recipe.remove });
-            }
-    
-            event.custom({
-                type: "forgefrontiercore:energetic_mixing",
-                heatRequirement: "superheated",
-                requiredEnergy: recipe.energy,
-                requiredEnergyLevel: "infuse",
-                ingredients: recipe.ingredients,
-                results: recipe.results
-            }).id(`forge_frontier:energetic_mixing/${recipe.id}`);
-        });
+            const energeticInfusionRecipes = [
+                {
+                    id: "charged_certus_quartz_crystal",
+                    remove: "forgefrontiercore:certus_quartz_charging",
+                    energy: 1300000,
+                    ingredients: [
+                        { item: "ae2:certus_quartz_crystal", count: 64 },
+                        { fluid: "minecraft:water", amount: 1000 }
+                    ],
+                    results: [{ item: "ae2:charged_certus_quartz_crystal", count: 64 }]
+                },
+                {
+                    id: "quantum_alloy_plate",
+                    energy: 1000000,
+                    ingredients: [
+                        { item: "advanced_ae:quantum_alloy", count: 8 },
+                        { tag: "forge_frontier:ingot/neodymium"},
+                        { tag: "forge_frontier:ingot/neodymium"},
+                        { item: "minecraft:nether_star", count: 1 },
+                        { fluid: "advanced_ae:quantum_infusion_source", amount: 1000 }
+                    ],
+                    results: [{ item: "advanced_ae:quantum_alloy_plate", count: 1 }]
+                },
+                {
+                    id: "singularity",
+                    energy: 1000000,
+                    ingredients: [
+                        { item: "ae2:matter_ball", count: 64 },
+                        { fluid: "minecraft:lava", amount: 100 }
+                    ],
+                    results: [{ item: "ae2:singularity", count: 1 }]
+                },
+                {
+                    id: "charged_redstone",
+                    energy: 1300000,
+                    ingredients: [
+                        { item: "appflux:redstone_crystal", count: 64 },
+                        { fluid: "minecraft:water", amount: 1000 }
+                    ],
+                    results: [{ item: "appflux:charged_redstone", count: 64 }]
+                }
+            ];
+        
+            energeticInfusionRecipes.forEach(recipe => {
+                if (recipe.remove) {
+                    event.remove({ id: recipe.remove });
+                }
+        
+                event.custom({
+                    type: "forgefrontiercore:energetic_mixing",
+                    heatRequirement: "superheated",
+                    requiredEnergy: recipe.energy,
+                    requiredEnergyLevel: "infuse",
+                    ingredients: recipe.ingredients,
+                    results: recipe.results
+                }).id(`forge_frontier:energetic_mixing/${recipe.id}`);
+            });
     }
 )
