@@ -1,6 +1,6 @@
-	ServerEvents.recipes(event => 
-        {
-            // Chorus Fruit Pie Filling
+ServerEvents.recipes(event => 
+    {
+        // Chorus Fruit Pie Filling
             event.remove ({ id: 'createfood:create/mixing/chorus_fruit_pie_filling_fluid_from_mixing_heated'})
             event.custom({
                 type: "create:mixing",
@@ -32,7 +32,7 @@
                 ], heatRequirement: "heated"
             }).id('forge_frontier:mixing/chorus_fruit_pie_filling');
 
-            // Egg Grog
+        // Egg Grog
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -58,7 +58,7 @@
                 ],
             }).id('forge_frontier:mixing/egg_grog');
 
-            // Dread Nog
+        // Dread Nog
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -84,23 +84,7 @@
                 ], 
             }).id('forge_frontier:mixing/dread_nog');
 
-            // Lime Juice Recipe
-            event.custom({
-                type: 'create:compacting',
-                ingredients: [
-                    {
-                        item: 'collectorsreap:lime_slice',
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'forge_frontier:lime_juice',
-                        amount: 125
-                    },
-                ],
-            }).id('forge_frontier:compacting/lime_juice')
-
-            // Cheese Recipe
+        // Cheese Recipe
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -122,7 +106,7 @@
                 heatRequirement: "heated"
             }).id('forge_frontier:mixing/cheese');
 
-            // Adzuki Milk Recipe
+        // Adzuki Milk Recipe
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -149,7 +133,7 @@
                 heatRequirement: "heated"
             }).id('forge_frontier:mixing/adzuki_milk');
 
-            // Adzuki Milkshake Recipe
+        // Adzuki Milkshake Recipe
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -176,7 +160,7 @@
                 ],
             }).id('forge_frontier:mixing/adzuki_milkshake');
             
-            // Pomegranate Milk Recipe
+        // Pomegranate Milk Recipe
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -203,7 +187,7 @@
                 heatRequirement: "heated"
             }).id('forge_frontier:mixing/pomegranate_milk');
             
-            // Pomegranate Milkshake Recipe
+        // Pomegranate Milkshake Recipe
             event.custom({
                 type: "create:mixing",
                 ingredients: [
@@ -230,7 +214,7 @@
                 ],
             }).id('forge_frontier:mixing/pomegranate_milkshake'); 
             
-            // Neapolitan Milkshake Recipe
+        // Neapolitan Milkshake Recipe
             event.custom({
                 type: "create:mixing",
                 ingredients: [

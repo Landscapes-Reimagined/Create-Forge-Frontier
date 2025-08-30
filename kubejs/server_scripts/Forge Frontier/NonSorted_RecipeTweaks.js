@@ -44,19 +44,6 @@ ServerEvents.recipes(event => {
 		}
 	).id( 'forge_frontier:shaped/storm_eye' )
 
-	// Leather Elytra Recipes
-	event.shaped(
-		Item.of('forge_frontier:leather_elytra'),
-		[
-			'LLL',
-			'LLL',
-			'L L'
-		],
-		{
-			L: 'minecraft:leather'
-		}
-	).id( 'forge_frontier:shaped/leather_elytra' )
-	
 	// Elytra Pieces Recipe
 	event.remove({ id: 'create:crushing/elytra_crushing' })
 	event.custom({

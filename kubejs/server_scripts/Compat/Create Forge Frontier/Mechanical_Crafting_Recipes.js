@@ -1,0 +1,260 @@
+ServerEvents.recipes(event => 
+    {
+        // New Rocket Parts
+            // Engines
+                // Tier 7
+                    event.custom({
+                        type: "create:mechanical_crafting",
+                        pattern: [
+                            "BFG",
+                            "jRE",
+                            "SJT"
+                        ],
+                        key: {
+                            B: Ingredient.of("immersive_aircraft:biplane"),
+                            F: Ingredient.of("advanced_ae:flight_card"),
+                            G: Ingredient.of("#createornithopterglider:gliders"),
+                            j: Ingredient.of("create_sa:netherite_jetpack_chestplate"),
+                            R: Ingredient.of("angelring:energetic_angel_ring"),
+                            E: Ingredient.of("minecraft:elytra"),
+                            S: Ingredient.of("create:track_station"),
+                            J: Ingredient.of("ad_astra:jet_suit"),
+                            T: Ingredient.of("create:controls")
+                        },
+                        result: Ingredient.of("forge_frontier:forge_rocket_engine"),
+                        acceptMirrored: false
+                    }).id("forge_frontier:mechanical_crafting/forge_rocket_engine")
+
+            // Tanks
+                // Tier 7 
+                    event.custom({
+                        type: "create:mechanical_crafting",
+                        pattern: [
+                            "FIfD",
+                            "SBbC",
+                            "VcvT"
+                        ],
+                        key: {
+                            F: Ingredient.of("ae2:fluid_storage_cell_256k"),
+                            I: Ingredient.of("ae2:item_storage_cell_256k"),
+                            f: Ingredient.of("appflux:fe_256k_cell"),
+                            D: Ingredient.of("ae2things:disk_drive_256k"),
+                            S: Ingredient.of("sophisticatedstorage:netherite_shulker_box"),
+                            B: Ingredient.of("sophisticatedstorage:netherite_barrel"),
+                            b: Ingredient.of("sophisticatedbackpacks:netherite_backpack"),
+                            C: Ingredient.of("create:stock_ticker"),
+                            V: Ingredient.of("createenderlink:ender_tank"),
+                            c: Ingredient.of("createenderlink:ender_vault"),
+                            v: Ingredient.of("create:item_vault"),
+                            T: Ingredient.of("mob_grinding_utils:jumbo_tank")
+                        },
+                        result: Ingredient.of("forge_frontier:forge_rocket_tank"),
+                        acceptMirrored: false
+                    }).id("forge_frontier:mechanical_crafting/forge_rocket_tank"); 
+                
+            // Rocket Fins
+                // Left Fin
+                    event.custom({
+                        type: "create:mechanical_crafting",
+                        pattern: [
+                            "WBRE",
+                            "SsKD",
+                            "bHCd",
+                            "ATIr"
+                        ],
+                        key: {
+                            W: Ingredient.of("silentsdelight:plated_warden_heart"),
+                            B: Ingredient.of("miners_delight:improvised_barbecue_stick"),
+                            R: Ingredient.of("aquaculturedelight:rollmops"),
+                            E: Ingredient.of("oceansdelight:cabbage_wrapped_elder_guardian"),
+                            S: Ingredient.of("delightful:smore"),
+                            s: Ingredient.of("farmersdelight:shepherds_pie_block"),
+                            K: Ingredient.of("alexsdelight:kangaroo_pasta"),
+                            D: Ingredient.of("ends_delight:dragon_leg_with_sauce_block"),
+                            b: Ingredient.of("casualness_delight:donkey_burger"),
+                            H: Ingredient.of("nethersdelight:stuffed_hoglin"),
+                            C: Ingredient.of("delightful:deluxe_cheeseburger"),
+                            d: Ingredient.of("ends_delight:dragon_breath_and_chorus_soup"),
+                            A: Ingredient.of("tconstruct:ender_cake"),
+                            T: Ingredient.of("alexscavesdelight:toxic_hamburger"),
+                            I: Ingredient.of("alexscavesdelight:heart_of_iron_humburger"),
+                            r: Ingredient.of("ad_astra:rocket_fin"),
+                        },
+                        result: Ingredient.of("forge_frontier:forge_rocket_fin_left"),
+                        acceptMirrored: false
+                    }).id("forge_frontier:mechanical_crafting/forge_rocket_fin_left")
+                
+                // Right Fin
+                    event.custom({
+                        type: "create:mechanical_crafting",
+                        pattern: [
+                            "LPDS",
+                            "RFTt",
+                            "HEeM",
+                            "BNdr"
+                        ],
+                        key: {
+                            L: Ingredient.of("apotheosis:ender_library"),
+                            P: Ingredient.of("apotheosis:pearl_endshelf"),
+                            D: Ingredient.of("apotheosis:draconic_endshelf"),
+                            S: Ingredient.of("apotheosis:sightshelf_t2"),
+                            R: Ingredient.of("apotheosis:rectifier_t3"),
+                            F: Ingredient.of("apotheosis:filtering_shelf"),
+                            T: Ingredient.of("apotheosis:treasure_shelf"),
+                            t: Ingredient.of("apotheosis:extraction_tome"),
+                            H: Ingredient.of("create_enchantment_industry:hyper_experience_bottle"),
+                            E: Ingredient.of("minecraft:enchanting_table"),
+                            e: Ingredient.of("create_enchantment_industry:disenchanter"),
+                            M: Ingredient.of("experienceobelisk:molecular_metamorpher"),
+                            B: Ingredient.of("experienceobelisk:bibliophage"),
+                            N: Ingredient.of("experienceobelisk:nightmare_bottle"),
+                            d: Ingredient.of("experienceobelisk:daydream_bottle"),
+                            r: Ingredient.of("ad_astra:rocket_fin"),
+                        },
+                        result: Ingredient.of("forge_frontier:forge_rocket_fin_right"),
+                        acceptMirrored: false
+                    }).id("forge_frontier:mechanical_crafting/forge_rocket_fin_right")
+
+            // Nose Cone
+                event.custom({
+                    type: "create:mechanical_crafting",
+                    pattern: [
+                        "CIbMn",
+                        "dVRBw",
+                        "HScWG",
+                        "PEADQ",
+                        "FNJsT"
+                    ],
+                    key: {
+                        C: Ingredient.of("cataclysm:cursium_helmet"),
+                        I: Ingredient.of("cataclysm:ignitium_helmet"),
+                        b: Ingredient.of("cataclysm:bone_reptile_helmet"),
+                        M: Ingredient.of("cataclysm:monstrous_helm"),
+                        n: Ingredient.of("aquaculture:neptunium_helmet"),
+                        d: Ingredient.of("advancednetherite:netherite_diamond_helmet"),
+                        V: Ingredient.of("cataclysm:void_forge"),
+                        R: Ingredient.of("cataclysm:soul_render"),
+                        B: Ingredient.of("cataclysm:gauntlet_of_bulwark"),
+                        w: Ingredient.of("deeperdarker:warden_helmet"),
+                        H: Ingredient.of("alexscaves:hood_of_darkness"),
+                        S: Ingredient.of("alexscaves:extinction_spear"),
+                        c: Ingredient.of("ad_astra:rocket_nose_cone"),
+                        W: Ingredient.of("deeperdarker:warden_sword"),
+                        G: Ingredient.of("alexscaves:gingerbread_helmet"),
+                        P: Ingredient.of("alexscaves:primordial_helmet"),
+                        E: Ingredient.of("create_ethium:ethium_sword"),
+                        A: Ingredient.of("enlightened_end:adamantite_sword"),
+                        D: Ingredient.of("advancednetherite:netherite_diamond_sword"),
+                        Q: Ingredient.of("createqol:shadow_radiance_helmet"),
+                        F: Ingredient.of("ae2:fluix_sword"),
+                        N: Ingredient.of("aquaculture:neptunium_sword"),
+                        J: Ingredient.of("ad_astra:jet_suit_helmet"),
+                        s: Ingredient.of("cataclysm:ancient_spear"),
+                        T: Ingredient.of("minecraft:trident")
+                    },
+                    result: Ingredient.of("forge_frontier:forge_rocket_nose_cone"),
+                    acceptMirrored: false
+                }).id("forge_frontier:mechanical_crafting/forge_rocket_nose_cone");
+
+            
+
+            // Rocket Core
+                event.custom({
+                    type: "create:mechanical_crafting",
+                    pattern: [
+                        "QSC",
+                        "Ici",
+                        "sPT",
+                        "VLq",
+                        "AHY"
+                    ],
+                    key: {
+                        Q: Ingredient.of("createteleporters:quantum_mechanism"),
+                        S: Ingredient.of("create_dd:stargaze_singularity"),
+                        C: Ingredient.of("create_dd:calculation_mechanism"),
+                        I: Ingredient.of("create_dd:inductive_mechanism"),
+                        c: Ingredient.of("create_additions_synthetics:creative_core"),
+                        i: Ingredient.of("create_dd:infernal_mechanism"),
+                        s: Ingredient.of("create_dd:sealed_mechanism"),
+                        P: Ingredient.of("create:precision_mechanism"),
+                        T: Ingredient.of("create_dd:integrated_mechanism"),
+                        V: Ingredient.of("create_things_and_misc:vibration_mechanism"),
+                        L: Ingredient.of("create_power_loader:brass_chunk_loader"),
+                        q: Ingredient.of("advanced_ae:quantum_core"),
+                        A: Ingredient.of("create_sa:steam_engine"),
+                        H: Ingredient.of("create_sa:heat_engine"),
+                        Y: Ingredient.of("create_sa:hydraulic_engine"),
+                    },
+                    result: Ingredient.of("forge_frontier:forge_rocket_core"),
+                    acceptMirrored: false
+                }).id("forge_frontier:mechanical_crafting/forge_rocket_core");
+                
+            // Rocket Door
+                event.custom({
+                    type: "create:mechanical_crafting",
+                    pattern: [
+                        "ONDE",
+                        "M  m",
+                        "CVGA",
+                        "g  L",
+                        "cQRP"
+                    ],
+                    key: {
+                        O: Ingredient.of("minecraft:stone"),
+                        N: Ingredient.of("minecraft:netherrack"),
+                        D: Ingredient.of("deeperdarker:sculk_stone"),
+                        E: Ingredient.of("minecraft:end_stone"),
+                        M: Ingredient.of("ad_astra:moon_stone"),
+                        m: Ingredient.of("ad_astra:mars_stone"),
+                        C: Ingredient.of("ad_astra:mercury_stone"),
+                        V: Ingredient.of("ad_astra:venus_stone"),
+                        G: Ingredient.of("ad_astra:glacio_stone"),
+                        A: Ingredient.of("alexscaves:muck"),
+                        g: Ingredient.of("alexscaves:guanostone"),
+                        L: Ingredient.of("alexscaves:limestone"),
+                        c: Ingredient.of("alexscaves:cake_layer"),
+                        Q: Ingredient.of("alexscaves:galena"),
+                        R: Ingredient.of("alexscaves:radrock"),
+                        P: Ingredient.of("createteleporters:custom_portal"),
+                    },
+                    result: Ingredient.of("forge_frontier:forge_rocket_door"),
+                    acceptMirrored: false
+                }).id("forge_frontier:mechanical_crafting/forge_rocket_door");
+
+            // Forge Alloy
+                event.custom({
+                    type: "create:mechanical_crafting",
+                    pattern: [
+                        "XAMI",
+                        "BDOC",
+                        "SNUa",
+                        "sPGm",
+                        "iVnE"
+                    ],
+                    key: {
+                        X: Ingredient.of("createcompression:compressed_experience_6x"),
+                        A: Ingredient.of("forge_frontier:compressed_etrium_4x"),
+                        M: Ingredient.of("forge_frontier:compressed_malachite_4x"),
+                        I: Ingredient.of("forge_frontier:compressed_irradium_4x"),
+                        B: Ingredient.of("forge_frontier:compressed_bismuth_4x"),
+                        D: Ingredient.of("forge_frontier:compressed_desh_4x"),
+                        O: Ingredient.of("forge_frontier:compressed_ostrum_4x"),
+                        C: Ingredient.of("forge_frontier:compressed_calorite_4x"),
+                        S: Ingredient.of("forge_frontier:compressed_scarlet_neodymium_4x"),
+                        N: Ingredient.of("forge_frontier:compressed_azure_neodymium_4x"),
+                        U: Ingredient.of("forge_frontier:compressed_uranium_4x"),
+                        a: Ingredient.of("forge_frontier:compressed_amber_5x"),
+                        s: Ingredient.of("forge_frontier:compressed_sulfur_4x"),
+                        P: Ingredient.of("forge_frontier:compressed_pearl_4x"),
+                        G: Ingredient.of("forge_frontier:compressed_guano_4x"),
+                        m: Ingredient.of("forge_frontier:compressed_mithril_2x"),
+                        i: Ingredient.of("forge_frontier:compressed_industrial_iron_4x"),
+                        V: Ingredient.of("forge_frontier:compressed_mechanism_block_4x"),
+                        n: Ingredient.of("forge_frontier:compressed_netherite-diamond_3x"),
+                        E: Ingredient.of("forge_frontier:compressed_ethium_2x"),
+                    },
+                    result: Ingredient.of("forge_frontier:forge_alloy"),
+                    acceptMirrored: false
+                }).id("forge_frontier:mechanical_crafting/forge_alloy");
+    }
+)
