@@ -1,5 +1,60 @@
 ServerEvents.recipes(event => 
     {
+        // Adjust Coal Recipe
+            event.remove({ id: 'create_dd:crafting/coal_piece_compacting'})
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                },
+                {
+                    'tag': 'forge:nuggets/coal'
+                }
+                ],
+                result: {
+                item: 'minecraft:coal',
+                count: 1
+                }
+            }).id( 'forge_frontier:shapeless/nugget_coal' )
+
+        // Adjust Coal Piece Recipe	
+            event.remove({ id: 'create_dd:crafting/coal_piece_from_decompacting'})
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: 'minecraft:coal'
+                    }
+                ],
+                result: {
+                    item: 'create_dd:coal_piece',
+                    count: 9
+                }
+
+            }).id( 'forge_frontier:shapeless/coal_piece_coal' )
+
         // DD Refined Radiance to Create Refined Radiance Recipe
             event.custom({
                 type: 'minecraft:crafting_shapeless',

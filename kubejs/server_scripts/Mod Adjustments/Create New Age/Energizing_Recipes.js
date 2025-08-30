@@ -1,22 +1,22 @@
 ServerEvents.recipes(event => 
     {
         // Energising Recipes
-        const energisingRecipes = {
-            overcharged_iron_block: { ingredients: [{ item: "minecraft:iron_block" }], energy_needed: 9000 },
-            overcharged_gold_block: { ingredients: [{ item: "minecraft:gold_block" }], energy_needed: 18000 },
-            overcharged_diamond_block: { ingredients: [{ item: "minecraft:diamond_block" }], energy_needed: 90000 },
-            overcharged_netherite_block: { ingredients: [{ item: "minecraft:netherite_block" }], energy_needed: 450000 },
-            overcharged_netherite_ingot: { ingredients: [{ item: "minecraft:netherite_ingot" }], energy_needed: 50000 }
-        };
+            const energisingRecipes = {
+                overcharged_iron_block: { ingredients: [{ item: "minecraft:iron_block" }], energy_needed: 9000 },
+                overcharged_gold_block: { ingredients: [{ item: "minecraft:gold_block" }], energy_needed: 18000 },
+                overcharged_diamond_block: { ingredients: [{ item: "minecraft:diamond_block" }], energy_needed: 90000 },
+                overcharged_netherite_block: { ingredients: [{ item: "minecraft:netherite_block" }], energy_needed: 450000 },
+                overcharged_netherite_ingot: { ingredients: [{ item: "minecraft:netherite_ingot" }], energy_needed: 50000 }
+            };
 
-        Object.entries(energisingRecipes).forEach(([result, recipe]) => {
-            event.custom({
-                type: "create_new_age:energising",
-                energy_needed: recipe.energy_needed,
-                ingredients: recipe.ingredients,
-                results: [{ item: `forge_frontier:${result}` }]
-            }).id(`forge_frontier:energising/${result}`);
-        });
+            Object.entries(energisingRecipes).forEach(([result, recipe]) => {
+                event.custom({
+                    type: "create_new_age:energising",
+                    energy_needed: recipe.energy_needed,
+                    ingredients: recipe.ingredients,
+                    results: [{ item: `forge_frontier:${result}` }]
+                }).id(`forge_frontier:energising/${result}`);
+            });
 
         // Energising Compat Recipes
             const energisingCompatRecipes = {
@@ -61,74 +61,90 @@ ServerEvents.recipes(event =>
             });
 
             // Enchanted Golden Apple Recipe
-            event.remove({ id: 'create_new_age:enchanted_golden_apple'})
-            event.custom({
-                type: "create:sequenced_assembly",
+                event.remove({ id: 'create_new_age:enchanted_golden_apple'})
+                event.custom({
+                    type: "create:sequenced_assembly",
 
-                ingredient: {
-                    item: "minecraft:apple"
-                },
-
-                transitionalItem: {
-                    item: "create_new_age:incomplete_enchanted_golden_apple"
-                },
-
-                sequence: [
-                    {
-                    type: "create:deploying",
-                    ingredients: [
-                        {
-                        item: "create_new_age:incomplete_enchanted_golden_apple"
-                        },
-                        {
-                        item: "forge_frontier:overcharged_gold_block"
-                        }
-                    ],
-                    results: [
-                        {
-                        item: "create_new_age:incomplete_enchanted_golden_apple"
-                        }
-                    ]
+                    ingredient: {
+                        item: "minecraft:apple"
                     },
 
-                    {
-                    type: "create:deploying",
-                    ingredients: [
-                        {
+                    transitionalItem: {
                         item: "create_new_age:incomplete_enchanted_golden_apple"
-                        },
-                        {
-                        item: "forge_frontier:overcharged_gold_block"
-                        }
-                    ],
-                    results: [
-                        {
-                        item: "create_new_age:incomplete_enchanted_golden_apple"
-                        }
-                    ]
                     },
 
-                    {
-                    type: "create_new_age:energising",
-                    energy_needed: 500000,
-                    ingredients: [
+                    sequence: [
                         {
-                        item: "create_new_age:incomplete_enchanted_golden_apple"
+                        type: "create:deploying",
+                        ingredients: [
+                            {
+                            item: "create_new_age:incomplete_enchanted_golden_apple"
+                            },
+                            {
+                            item: "forge_frontier:overcharged_gold_block"
+                            }
+                        ],
+                        results: [
+                            {
+                            item: "create_new_age:incomplete_enchanted_golden_apple"
+                            }
+                        ]
+                        },
+
+                        {
+                        type: "create:deploying",
+                        ingredients: [
+                            {
+                            item: "create_new_age:incomplete_enchanted_golden_apple"
+                            },
+                            {
+                            item: "forge_frontier:overcharged_gold_block"
+                            }
+                        ],
+                        results: [
+                            {
+                            item: "create_new_age:incomplete_enchanted_golden_apple"
+                            }
+                        ]
+                        },
+
+                        {
+                        type: "create_new_age:energising",
+                        energy_needed: 500000,
+                        ingredients: [
+                            {
+                            item: "create_new_age:incomplete_enchanted_golden_apple"
+                            }
+                        ],
+                        results: [
+                            {
+                            item: "create_new_age:incomplete_enchanted_golden_apple"
+                            }
+                        ]
                         }
                     ],
                     results: [
                         {
-                        item: "create_new_age:incomplete_enchanted_golden_apple"
+                        item: "minecraft:enchanted_golden_apple"
                         }
-                    ]
-                    }
-                ],
-                results: [
+                    ],
+                    loops: 4
+                }).id('forge_frontier:energizing/enchanted_golden_apple')
+
+            // Magnetite Recipe
+                event.custom({
+                    type: 'create_new_age:energising',
+                    energy_needed: 1000,
+                    ingredients: [
                     {
-                    item: "minecraft:enchanted_golden_apple"
+                        item: 'createcompression:compressed_stone_2x'
                     }
-                ],
-                loops: 4
-            }).id('forge_frontier:energizing/enchanted_golden_apple')
+                    ],
+                    results: [
+                    {
+                        item: 'create_new_age:magnetite_block'
+                    }
+                    ]
+                }).id( 'forge_frontier:energising/magnetite_block' )
     }
 );
