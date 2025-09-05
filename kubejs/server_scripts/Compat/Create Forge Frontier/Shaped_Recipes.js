@@ -21,13 +21,13 @@ ServerEvents.recipes(event =>
                         [
                             "MMM",
                             "BEB",
-                            " V "
+                            " G "
                         ],
                         {
                             M: "enlightened_end:malachite_block",
                             B: "enlightened_end:bismuth_ingot",
                             E: "ad_astra:calorite_engine",
-                            V: "cataclysm:void_core"
+                            G: "cataclysm:gauntlet_of_guard"
                             
                         }
                     ).id( "forge_frontier:shaped/tier_5_engine" )
