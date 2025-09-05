@@ -21,13 +21,13 @@ ServerEvents.recipes(event =>
                         [
                             "MMM",
                             "BEB",
-                            " I "
+                            " V "
                         ],
                         {
                             M: "enlightened_end:malachite_block",
                             B: "enlightened_end:bismuth_ingot",
                             E: "ad_astra:calorite_engine",
-                            I: "enlightened_end:irradium_bar"
+                            V: "cataclysm:void_core"
                             
                         }
                     ).id( "forge_frontier:shaped/tier_5_engine" )
@@ -37,14 +37,14 @@ ServerEvents.recipes(event =>
                         Item.of("forge_frontier:tier_6_engine"),
                         [
                             "MMM",
-                            "eEe",
-                            " D "
+                            "DED",
+                            " A "
                         ],
                         {
                             M: "alexscaves:primal_magma",
-                            e: "alexscaves:enigmatic_engine",
+                            D: "alexscaves:pure_darkness",
                             E: "forge_frontier:tier_5_engine",
-                            D: "alexscaves:pure_darkness"
+                            A: "cataclysm:abyssal_egg"
                         }
                     ).id( "forge_frontier:shaped/tier_6_engine" )
 
