@@ -395,7 +395,7 @@ ServerEvents.recipes(event =>
                                 },
                                 {
                                     amount: 1000,
-                                    fluid: "tconstruct:molten_obsidian",
+                                    fluid: "minecraft:lava", // Make Custom Fluid Obsidian
                                     nbt: {}
                                 }
                         ],

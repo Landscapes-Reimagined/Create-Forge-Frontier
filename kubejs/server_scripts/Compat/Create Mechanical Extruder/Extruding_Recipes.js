@@ -740,7 +740,7 @@ ServerEvents.recipes(event =>
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'tconstruct:molten_iron',
+                    fluid: 'createmetallurgy:molten_iron',
                     amount: 1000
                 },
                 {
@@ -762,7 +762,7 @@ ServerEvents.recipes(event =>
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'tconstruct:molten_iron',
+                    fluid: 'createmetallurgy:molten_iron',
                     amount: 1000
                 },
                 {
