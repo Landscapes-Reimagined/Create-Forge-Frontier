@@ -377,7 +377,7 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "minecraft:deepslate",
           "true_at_and_below": {
-            "absolute": 0
+            "absolute": 80
           },
           "false_at_and_above": {
             "absolute": 8
@@ -386,7 +386,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:deepslate",
+            "Name": "alexscaves:coprolith",
             "Properties": {
               "axis": "y"
             }

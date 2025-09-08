@@ -5,7 +5,7 @@
   "ore_veins_enabled": true,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:stone"
+    "Name": "alexscaves:abyssmarine"
   },
   "default_fluid": {
     "Name": "minecraft:water",
@@ -204,14 +204,14 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:stone"
+                  "Name": "alexscaves:abyssmarine"
                 }
               }
             },
             {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:gravel"
+                "Name": "alexscaves:muck"
               }
             }
           ]
@@ -223,7 +223,7 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "minecraft:deepslate",
           "true_at_and_below": {
-            "absolute": 0
+            "absolute": -25
           },
           "false_at_and_above": {
             "absolute": 8
@@ -232,7 +232,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:deepslate",
+            "Name": "alexscaves:muck",
             "Properties": {
               "axis": "y"
             }
