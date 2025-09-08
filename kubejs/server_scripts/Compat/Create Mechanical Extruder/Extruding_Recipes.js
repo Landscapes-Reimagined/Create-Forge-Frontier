@@ -828,7 +828,7 @@ ServerEvents.recipes(event =>
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'createfood:chorus_fruit_pie_filling',
+                    fluid: 'create_ethium:chorus_nectar_fluid',
                     amount: 1000
                 },
                 {

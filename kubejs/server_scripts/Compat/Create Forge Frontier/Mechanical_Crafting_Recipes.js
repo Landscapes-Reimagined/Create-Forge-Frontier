@@ -75,7 +75,7 @@ ServerEvents.recipes(event =>
                             H: Ingredient.of("nethersdelight:stuffed_hoglin"),
                             C: Ingredient.of("delightful:deluxe_cheeseburger"),
                             d: Ingredient.of("ends_delight:dragon_breath_and_chorus_soup"),
-                            A: Ingredient.of("createfood:ube_cream_frosted_ube_cake"),
+                            A: Ingredient.of("neapolitan:adzuki_cake"),
                             T: Ingredient.of("alexscavesdelight:toxic_hamburger"),
                             I: Ingredient.of("alexscavesdelight:heart_of_iron_humburger"),
                             r: Ingredient.of("ad_astra:rocket_fin"),

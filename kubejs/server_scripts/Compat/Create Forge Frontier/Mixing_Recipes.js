@@ -1,37 +1,5 @@
 ServerEvents.recipes(event => 
     {
-        // Chorus Fruit Pie Filling
-            event.remove ({ id: 'createfood:create/mixing/chorus_fruit_pie_filling_fluid_from_mixing_heated'})
-            event.custom({
-                type: "create:mixing",
-                ingredients: [
-                    {
-                        item: 'createfood:butter',
-                    }, 
-                    {
-                        tag: 'forge:sugar'
-                    },
-                    {
-                        tag: 'forge:sugar'
-                    },
-                    {
-                        item: 'createfood:chorus_fruit_slice'
-                    },
-                    {
-                        item: 'createfood:chorus_fruit_slice'
-                    },
-                    {
-                        item: 'createfood:chorus_fruit_slice'
-                    }
-                ],
-                results: [
-                    {
-                        fluid: 'createfood:chorus_fruit_pie_filling',
-                        amount: 1000
-                    }
-                ], heatRequirement: "heated"
-            }).id('forge_frontier:mixing/chorus_fruit_pie_filling');
-
         // Egg Grog
             event.custom({
                 type: "create:mixing",
