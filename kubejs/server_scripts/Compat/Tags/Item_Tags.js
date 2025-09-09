@@ -1,5 +1,27 @@
 ServerEvents.tags('item', event => 
     {
+        // Powah Battery Tag
+            event.add('curios:batterys',[
+                'powah:battery_starter',
+                'powah:battery_basic',
+                'powah:battery_hardened',
+                'powah:battery_blazing',
+                'powah:battery_niotic',
+                'powah:battery_spirited',
+                'powah:battery_nitro'
+            ])
+
+        // Removes Curios Tag
+            event.remove('curios:curio',[
+                'powah:battery_starter',
+                'powah:battery_basic',
+                'powah:battery_hardened',
+                'powah:battery_blazing',
+                'powah:battery_niotic',
+                'powah:battery_spirited',
+                'powah:battery_nitro'
+            ])
+
         // Adds Missing Tag for Trim Recipes
             event.add("forge:polished_diamond", "minecraft:diamond")
 
