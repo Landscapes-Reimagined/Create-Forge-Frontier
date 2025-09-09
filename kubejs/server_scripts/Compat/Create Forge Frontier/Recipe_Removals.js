@@ -6,5 +6,6 @@ ServerEvents.recipes(event =>
 		event.remove({ id: 'create_dd:superheating/netherite_scrap'})
 		event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 		event.remove({ id: 'createqol:mixing/chromatic_compound'})
+		event.remove({ id: 'alexscavesdelight:block/organic_compost'})
 	}
 )
