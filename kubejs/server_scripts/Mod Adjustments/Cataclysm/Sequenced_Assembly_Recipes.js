@@ -395,7 +395,7 @@ ServerEvents.recipes(event =>
                                 },
                                 {
                                     amount: 1000,
-                                    fluid: "minecraft:lava", // Make Custom Fluid Obsidian
+                                    fluid: "create_dd:chromatic_waste", 
                                     nbt: {}
                                 }
                         ],
