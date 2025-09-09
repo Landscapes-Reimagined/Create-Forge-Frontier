@@ -18,8 +18,8 @@ ServerEvents.recipes(event => {
       ],
       results: [
         {
-          item: "create_ethium:amethyst_mix",
-          count: 1
+          fluid: "forge_frontier:molten_amethyst_mix",
+          amount: 250
         }
       ],
       heatRequirement: "heated"
@@ -30,7 +30,8 @@ ServerEvents.recipes(event => {
         type: "create:mixing",
         ingredients: [
           {
-            item: "create_ethium:amethyst_mix",
+            fluid: "forge_frontier:molten_amethyst_mix",
+            amount: 250
           },
           {
             item: "create_ethium:echo_dust"
@@ -38,11 +39,11 @@ ServerEvents.recipes(event => {
         ],
         results: [
           {
-            count: 1,
-            item: "create_ethium:echo_compound",
+            amount: 250,
+            fluid: "create_ethium:echo_compound_fluid",
           }
         ],  
         heatRequirement: "heated"
-      }).id('forge_frontier:mixing/echo_compound')   
-
+      }).id('forge_frontier:mixing/echo_compound')
+      
 })
