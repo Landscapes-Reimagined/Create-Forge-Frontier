@@ -1,27 +1,5 @@
 ServerEvents.recipes(event => 
     {
-        // New Salt Recipe
-            event.remove({id: 'create:splashing/sand' })
-            event.remove({ id: 'createfood:create/mixing/salt_from_mixing_water'})
-            event.remove({ id: 'createfood:farmersdelight/cooking/salt_from_cooking'})
-            event.custom({
-                type: "create:splashing",
-                ingredients: [
-                {
-                    item: "minecraft:sand"
-                }
-                ],
-                results: [
-                {
-                    item: "createfood:salt"
-                },
-                {
-                    chance: 0.25,
-                    item: "minecraft:clay_ball"
-                }
-                ]
-            }).id( 'forge_frontier:washing/sand' )
-
             // Dirt Washing Recipe
                 event.custom({
                     type: 'create:splashing',
