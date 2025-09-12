@@ -78,28 +78,6 @@ StartupEvents.registry('item', event => {
             .tooltip("Built for crafting brilliance—not the skies. Too fragile to fly, but perfect for invention!")
             .texture("forge_frontier:item/leather_elytra")
 
-    // Custom Template Casts
-    // Blank Sand Cast
-        event.create('tconstruct:blank_gold_cast')
-            .displayName('Blank Gold Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/blank_gold_cast")
-    // Sand Cast
-        event.create('tconstruct:template_sand_cast')
-            .displayName('Template Sand Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/template_sand_cast");
-    // Red Sand Cast
-        event.create('tconstruct:template_red_sand_cast')
-            .displayName('Template Red Sand Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/template_red_sand_cast");
-    // Gold Cast
-        event.create('tconstruct:template_cast')
-            .displayName('Template Gold Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/template_cast");         
-
     // Custom Coin
         event.create('forge_frontier:closed_beta_coin')
             .displayName('Closed Beta Coin')
