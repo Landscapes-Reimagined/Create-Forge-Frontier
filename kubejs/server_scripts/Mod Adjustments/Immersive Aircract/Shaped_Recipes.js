@@ -252,5 +252,53 @@ ServerEvents.recipes(event =>
                     A: 'create:white_sail',
                 }
             ).id('forge_frontier:shaped/sail')
+
+        // Bomb Bay
+            event.remove({ id: 'immersive_aircraft:bomb_bay' })
+            event.shaped(
+                Item.of('immersive_aircraft:bomb_bay', 1),
+                [
+                    'ITI',
+                    'I I'
+                ],
+                {
+                    I: 'create:iron_sheet',
+                    T: 'minecraft:tnt'
+                }
+            ).id('forge_frontier:shaped/bomb_bay')
+
+        // Electronic Gyroscope
+            event.remove({ id: 'immersive_aircraft:gyroscope_hud' })
+            event.shaped(
+                Item.of('immersive_aircraft:gyroscope_hud', 1),
+                [
+                    'nPn',
+                    'GLG',
+                    'GgG'
+                ],
+                {
+                    n: 'minecraft:gold_nugget',
+                    P: 'minecraft:glass_pane',
+                    G: 'create:golden_sheet',
+                    L: 'create:powered_latch',
+                    g: 'immersive_aircraft:gyroscope'
+                }
+            ).id('forge_frontier:shaped/gyroscope_hud')
+
+        // Advanced Gyroscope
+            event.remove({ id: 'immersive_aircraft:gyroscope_dials' })
+            event.shaped(
+                Item.of('immersive_aircraft:gyroscope_dials', 1),
+                [
+                    'IPI',
+                    'IgL'
+                ],
+                {
+                    I: 'create:iron_sheet',
+                    P: 'create:precision_mechanism',
+                    L: 'create:powered_latch',
+                    g: 'immersive_aircraft:gyroscope'
+                }
+            ).id('forge_frontier:shaped/gyroscope_dials')
     }
 )
