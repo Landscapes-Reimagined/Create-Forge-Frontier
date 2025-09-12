@@ -1,5 +1,44 @@
 ServerEvents.recipes(event => 
     {
+        // Copper Shard
+        event.custom({
+            type: "create:compacting",
+            ingredients: [
+                {
+                    item: "minecraft:cut_copper"
+                },
+                {
+                    amount: 500,
+                    fluid: "minecraft:lava",
+                    nbt: {}
+                }
+            ],
+            results: [
+                {
+                    item: "forge_frontier:copper_shard"
+                }
+            ]
+        }).id('forge_frontier:compacting/copper_shard')
+
+        // Breeze Shard
+        event.custom({
+            type: "create:compacting",
+            ingredients: [
+                {
+                    item: "trials:breeze_rod"
+                },
+                {
+                    amount: 500,
+                    fluid: "minecraft:lava",
+                    nbt: {}
+                }
+            ],
+            results: [
+                {
+                    item: "forge_frontier:breeze_shard"
+                }
+            ]
+        }).id('forge_frontier:compacting/breeze_shard')
 
         // Iron Shard
         event.custom({

@@ -51,5 +51,9 @@ ServerEvents.recipes(event =>
         // Neapolitan Recipe Removal
         event.remove({ id: 'neapolitan:banana/primal_armor_trim_smithing_template'})
 
+        // Trials Recipe Removals
+        event.remove({ id: 'trials:bolt_trim_template' })
+        event.remove({ id: 'trials:flow_trim_template'})
+
     }
 )

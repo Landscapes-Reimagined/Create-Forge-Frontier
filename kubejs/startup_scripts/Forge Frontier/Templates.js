@@ -91,7 +91,31 @@ StartupEvents.registry('item', event =>
                     .maxStackSize(64)
                     .texture("forge_frontier:item/incomplete_warden_upgrade")
 
+            // Incomplete Bolt Armor Trim
+                event.create('forge_frontier:incomplete_bolt_template')
+                    .displayName('Incomplete Bolt Armor Trim')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/incomplete_bolt_template")
+
+            // Incomplete Flow Armor Trim
+                event.create('forge_frontier:incomplete_flow_template')
+                    .displayName('Incomplete Flow Armor Trim')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/incomplete_flow_template")
+
         // Custom Shards
+            // Copper Shard
+                    event.create('forge_frontier:copper_shard')
+                    .displayName('Copper Shard')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/copper_shard")
+
+            // Breeze Shard
+                    event.create('forge_frontier:breeze_shard')
+                    .displayName('Breeze Shard')
+                    .maxStackSize(64)
+                    .texture("forge_frontier:item/breeze_shard")
+
             // Iron Shard
                     event.create('forge_frontier:iron_shard')
                     .displayName('Iron Shard')
