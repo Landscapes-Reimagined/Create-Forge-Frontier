@@ -2,6 +2,10 @@ ServerEvents.recipes(event => {
     // Define washing recipes
     var washingMaterials = [
         {
+            name: 'tin',
+            secondary: { chance: 0.5, item: 'minecraft:glowstone_dust'}
+        },
+        {
             name: 'bismuth',
             secondary: { chance: 0.5, item: 'minecraft:prismarine_crystals' }
         },

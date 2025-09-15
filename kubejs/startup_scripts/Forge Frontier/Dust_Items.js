@@ -6,7 +6,7 @@ StartupEvents.registry('item', event => {
         'Verdantine', 'Glacium', 'Debris', 'Resonite', 'Aubrum', 'Pyroclast',
         'Frostite', 'Stellaris', 'Radiantite', 'Shale', 'Palerock', 'Guanite',
         'Pearlyte', 'Amberlite', 'Azurnium', 'Neodymrium', 'Uraniumnite', 'Sulphite',
-        'Reggarfonite'
+        'Reggarfonite', 'Tin'
     ];
 
     function createDirtyDust(event, material) {
