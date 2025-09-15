@@ -10,6 +10,7 @@ ServerEvents.recipes(event =>
             event.remove({ id: 'create_oppenheimered:crushing/guanostone_redstone_ore' })
             event.remove({ id: 'create_oppenheimered:crushing/uranium_ore' })
             event.remove({ id: 'tfmg:milling/charcoal_dust'})
+            event.remove({ id: 'create:crushing/uranium_ore'})
 
         // Creates Raw Redstone Block Crushing Recipe
             event.custom({
