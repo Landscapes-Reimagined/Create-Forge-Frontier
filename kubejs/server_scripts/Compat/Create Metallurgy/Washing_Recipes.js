@@ -1,0 +1,128 @@
+ServerEvents.recipes(event => {
+    // Define washing recipes
+    var washingMaterials = [
+        {
+            name: 'bismuth',
+            secondary: { chance: 0.5, item: 'minecraft:prismarine_crystals' }
+        },
+        {
+            name: 'calorite',
+            secondary: { chance: 0.5, item: 'create:brass_nugget' }
+        },
+        {
+            name: 'desh',
+            secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
+        },
+        {
+            name: 'irradium',
+            secondary: { chance: 0.5, item: 'minecraft:gunpowder' }
+        },
+        {
+            name: 'malachite',
+            secondary: { chance: 0.5, item: 'minecraft:chorus_fruit' }
+        },
+        {
+            name: 'ostrum',
+            secondary: { chance: 0.5, item: 'create_dd:bronze_nugget' }
+        },
+        {
+            name: 'verdantine',
+            secondary: { chance: 0.05, item: 'totemfactory:inactive_totem' }
+        },
+        {
+            name: 'glacium',
+            secondary: { chance: 0.5, item: 'minecraft:amethyst_shard' }
+        },
+        {
+            name: 'debris',
+            secondary: { chance: 0.5, item: 'create:cinder_flour' }
+        },
+        {
+            name: 'resonite',
+            secondary: { chance: 0.05, item: 'deeperdarker:warden_carapace' }
+        },
+        {
+            name: 'aubrum',
+            secondary: { chance: 0.5, item: 'create_dd:industrial_iron_nugget' },
+            extra: { chance: 0.25, item: 'ad_astra:cheese' }
+        },
+        {
+            name: 'pyroclast',
+            secondary: { chance: 0.5, item: 'create_dd:bronze_nugget' }
+        },
+        {
+            name: 'frostite',
+            secondary: { chance: 0.5, item: 'ad_astra:ice_shard' }
+        },
+        {
+            name: 'stellaris',
+            secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
+        },
+        {
+            name: 'radiantite',
+            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
+        },
+        {
+            name: 'shale',
+            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
+        },
+        {
+            name: 'palerock',
+            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
+        },
+        {
+            name: 'guanite',
+            secondary: { chance: 0.25, item: 'minecraft:bone_meal' }
+        },
+        {
+            name: 'pearlyte',
+            secondary: { chance: 0.25, item: 'alexscaves:bioluminesscence' }
+        },
+        {
+            name: 'amberlite',
+            secondary: { chance: 0.25, item: 'alexscaves:pewen_sap' }
+        },
+        {
+            name: 'azurnium',
+            secondary: { chance: 0.25, item: 'alexscaves:raw_scarlet_neodymium' }
+        },
+        {
+            name: 'neodymrium',
+            secondary: { chance: 0.25, item: 'alexscaves:raw_azure_neodymium' }
+        },
+        {
+            name: 'uraniumnite',
+            secondary: { chance: 0.25, item: 'powah:uraninite_raw' }
+        },
+        {
+            name: 'sulphite',
+            secondary: { chance: 0.25, item: 'create_new_age:radioactive_thorium' }
+        },
+        {
+            name: 'reggarfonite',
+            secondary: { chance: 0.5, item: 'create_better_motors:lava_quartz' }
+        }
+    ];
+
+    for (var i = 0; i < washingMaterials.length; i++) {
+        var material = washingMaterials[i];
+        var name = material.name;
+        var secondary = material.secondary;
+        var extra = material.extra;
+
+        var results = [
+            { item: "forge_frontier:" + name + "_dust" },
+            secondary
+        ];
+
+        if (extra) {
+            results.push(extra);
+        }
+
+        event.custom({
+            type: "create:splashing",
+            ingredients: [{ item: "forge_frontier:dirty_" + name + "_dust" }],
+            results: results
+        }).id("forge_frontier:washing/dirty_" + name + "_dust");
+    }
+});
