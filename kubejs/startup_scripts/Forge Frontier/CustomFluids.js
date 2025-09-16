@@ -3,14 +3,10 @@ StartupEvents.registry('fluid', event => {
     // List of molten fluids with their properties
     const moltenFluids = [
         { name: 'carbon', color: 0x2d2d2d },
-        { name: 'redstone', color: 0xac2727 },
-        { name: 'lapis', color: 0x1c52a6 },
-        { name: 'bone_marrow', color: 0xc7c3a5 },
         { name: 'netherite_iron', color: 0xa6a6a6 },
         { name: 'netherite_gold', color: 0xf9ee3e },
         { name: 'netherite_emerald', color: 0x007a18 },
         { name: 'netherite_diamond', color: 0x327b81 },
-        { name: 'ice_shard', color: 0x8890b8 },
         { name: 'uranium', color: 0x00fc00 },
         { name: 'bismuth', color: 0x555341 },
         { name: 'irradium', color: 0x21532b },
