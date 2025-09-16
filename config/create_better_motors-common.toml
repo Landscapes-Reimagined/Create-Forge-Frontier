@@ -37,13 +37,13 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 80000
+	motor_max_input = 20000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 100000
+	motor_capacity = 20000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 960
+	fe_at_max_rpm = 20
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 35768
@@ -63,10 +63,10 @@
 	motor_max_input = 80000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 100000
+	motor_capacity = 80000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 1920
+	fe_at_max_rpm = 80
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 75768
@@ -83,13 +83,13 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 80000
+	motor_max_input = 200000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 100000
+	motor_capacity = 200000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 3840
+	fe_at_max_rpm = 200
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 161536
@@ -106,13 +106,13 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 80000
+	motor_max_input = 800000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 500000
+	motor_capacity = 800000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 7680
+	fe_at_max_rpm = 800
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 253072
@@ -129,13 +129,13 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 80000
+	motor_max_input = 2000000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 600000
+	motor_capacity = 2000000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 19360
+	fe_at_max_rpm = 2000
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 710144
@@ -152,13 +152,13 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 80000
+	motor_max_input = 8000000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 700000
+	motor_capacity = 8000000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 41720
+	fe_at_max_rpm = 8000
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 1298288
@@ -175,13 +175,13 @@
 	motor_min_consumption = 8
 	#Electric Motor max input in FE (Energy transfer not consumption).
 	#Range: > 0
-	motor_max_input = 85000
+	motor_max_input = 40000000
 	#Electric Motor internal capacity in FE.
 	#Range: > 0
-	motor_capacity = 800000
+	motor_capacity = 40000000
 	#Forge Energy conversion rate (in FE/t at 256 RPM, value is the FE/t generated and consumed is at 256rpm).
 	#Range: > 0
-	fe_at_max_rpm = 72440
+	fe_at_max_rpm = 40000
 	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
 	#Range: > 0
 	max_stress = 2499576
