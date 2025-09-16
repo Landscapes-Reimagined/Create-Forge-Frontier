@@ -84,11 +84,17 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
     // Leather Elytra
-            event.create('forge_frontier:leather_elytra')
+        event.create('forge_frontier:leather_elytra')
             .displayName('Leather Elytra')
             .maxStackSize(1)
             .tooltip("Built for crafting brilliance—not the skies. Too fragile to fly, but perfect for invention!")
             .texture("forge_frontier:item/leather_elytra")
+    
+    // Wire Mold
+        event.create('createmetallurgy:graphite_wire_mold')
+            .displayName('Graphite Wire Mold')
+            .maxStackSize(1)
+            .texture("forge_frontier:item/graphite_wire_mold")
 
     // Custom Coin
         event.create('forge_frontier:closed_beta_coin')
