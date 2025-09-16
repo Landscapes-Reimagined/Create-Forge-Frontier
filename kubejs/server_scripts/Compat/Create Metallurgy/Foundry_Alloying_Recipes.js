@@ -33,6 +33,14 @@ ServerEvents.recipes(function (event) {
                 { amount: 1 * INGOT_MB, fluid: "forge_frontier:molten_netherite_emerald" }
             ],
             result: { fluid: "forge_frontier:molten_netherite_diamond", amount: INGOT_MB }
+        },
+        {
+            id: "dielectric_paste",
+            ingredients: [
+                { amount: 2 * INGOT_MB, fluid: "forge_frontier:molten_carbon" },
+                { item: "minecraft:clay_ball" }
+            ],
+            result: { fluid: "forge_frontier:molten_dielectric_paste", amount: INGOT_MB * 4 }
         }
     ];
 
@@ -56,7 +64,13 @@ ServerEvents.recipes(function (event) {
     // --- Add progression chain recipes ---
     alloyingRecipes.forEach(function (r) {
         var ingrJson = r.ingredients.map(function (ing) {
-            return { amount: ing.amount, fluid: ing.fluid, nbt: {} };
+            if (ing.fluid) {
+                return { amount: ing.amount, fluid: ing.fluid, nbt: {} };
+            }
+            if (ing.item) {
+                return { item: ing.item };
+            }
+            return ing;
         });
 
         event.custom({
@@ -64,7 +78,7 @@ ServerEvents.recipes(function (event) {
             heatRequirement: "heated",
             ingredients: ingrJson,
             processingTime: 120,
-            results: [ r.result ]
+            results: [r.result]
         }).id("forge_frontier:alloying/" + r.id);
     });
 });
