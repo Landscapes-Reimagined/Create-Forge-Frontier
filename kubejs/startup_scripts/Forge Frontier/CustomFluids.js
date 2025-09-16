@@ -31,6 +31,7 @@ StartupEvents.registry('fluid', event => {
         { name: 'diamond', color: 0x67fcee},
         { name: 'reggarfonite', color: 0x288076},
         { name: 'dielectric_paste', color: 0x202425},
+        { name: 'debris', color: 0x5c332b}
     ];
 
     // Function to create molten fluids
