@@ -1,6 +1,18 @@
 
 StartupEvents.registry('block', event => {
 
+    // Blaze Block
+    event.create('forge_frontier:blaze_block')
+        .displayName('Blaze Rod Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('forge_frontier:block/blaze_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);
+
     // Overcharged Blocks
     event.create('forge_frontier:overcharged_iron_block')
         .displayName('Overcharged Iron Block')

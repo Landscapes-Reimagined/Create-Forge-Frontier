@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => 
     {
+        // Blaze Rod Block Recipe
+            event.shaped(
+                Item.of('forge_frontier:blaze_block'),
+                [
+                    'BBB',
+                    'BBB',
+                    'BBB'
+                ],
+                {
+                    B: 'minecraft:blaze_rod'
+                }
+            ).id('forge_frontier:shaped/blaze_block')
+
         // Leather Elytra Recipe
             event.shaped(
                 Item.of('forge_frontier:leather_elytra'),
