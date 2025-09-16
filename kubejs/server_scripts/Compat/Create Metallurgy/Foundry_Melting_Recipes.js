@@ -25,7 +25,8 @@ ServerEvents.recipes(function (event) {
         { name: 'uraniumnite', fluid: 'forge_frontier:molten_uranium' },
         { name: 'sulphite', fluid: 'forge_frontier:molten_sulfur' },
         { name: 'reggarfonite', fluid: 'forge_frontier:molten_reggarfonite' },
-        { name: 'tin', fluid: 'createmetallurgy:molten_tin' }
+        { name: 'tin', fluid: 'createmetallurgy:molten_tin' },
+        { name: 'coal', fluid: 'forge_frontier:molten_carbon'}
     ];
 
     // Hardcoded items that aren’t in forge tags
@@ -42,7 +43,8 @@ ServerEvents.recipes(function (event) {
             irradium: { item: "enlightened_end:irradium_bar", fluid: "forge_frontier:molten_irradium" },
             diamond: { item: "minecraft:diamond", fluid: "forge_frontier:molten_diamond" },
             emerald: { item: "minecraft:emerald", fluid: "forge_frontier:molten_emerald" },
-            echo: { item: "minecraft:echo_shard", fluid: "forge_frontier:molten_echo_shard" }
+            echo: { item: "minecraft:echo_shard", fluid: "forge_frontier:molten_echo_shard" },
+            coal: { item: "minecraft:coal", fluid: "forge_frontier:molten_carbon"}
         },
         rods: {
             etrium: { item: "ad_astra:etrium_rod", fluid: "forge_frontier:molten_etrium" }

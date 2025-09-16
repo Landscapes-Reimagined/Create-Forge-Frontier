@@ -28,7 +28,8 @@ ServerEvents.recipes(function (event) {
         { name: "netherite_gold", fluid: "forge_frontier:molten_netherite_gold", result: "advancednetherite:netherite_gold_block"},
         { name: "netherite_diamond", fluid: "forge_frontier:molten_netherite_diamond", result: "advancednetherite:netherite_diamond_block"},
         { name: "netherite_emerald", fluid: "forge_frontier:molten_netherite_emerald", result: "advancednetherite:netherite_emerald_block"},
-        { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block"}
+        { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block"},
+        { name: 'coal', fluid: 'forge_frontier:molten_carbon', result: "minecraft:coal_block"},
     ];
 
     basinCasts.forEach(function (cast) {

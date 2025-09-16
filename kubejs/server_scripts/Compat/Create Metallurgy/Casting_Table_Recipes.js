@@ -12,6 +12,7 @@ ServerEvents.recipes(function (event) {
         { name: "copper", fluid: "createmetallurgy:molten_copper", ingot: "minecraft:copper_ingot", nugget: "create:copper_nugget", plate: "create:copper_sheet", rodTag: "forge:rods/copper", wireTag: "forge:wires/copper" },
         { name: "tin", fluid: "createmetallurgy:molten_tin", ingot: "create_dd:tin_ingot", nugget: "create_dd:tin_nugget", plate: "create_dd:tin_sheet", rodTag: "forge:rods/tin", wireTag: "forge:wires/tin" },
         { name: "debris", fluid: "forge_frontier:molten_debris", ingot: "minecraft:netherite_scrap"},
+        { name: "coal", fluid: "forge_frontier:molten_carbon", ingot: "minecraft:coal"},
 
         // Forge Frontier + special ores
         { name: "bismuth", fluid: "forge_frontier:molten_bismuth", ingot: "enlightened_end:bismuth_ingot", nugget: "enlightened_end:bismuth_nugget", plate: "forge_frontier:bismuth_sheet", rodTag: "forge:rods/bismuth", wireTag: "forge:wires/bismuth" },
