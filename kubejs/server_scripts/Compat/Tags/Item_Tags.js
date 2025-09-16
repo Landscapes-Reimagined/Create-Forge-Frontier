@@ -1,21 +1,5 @@
 ServerEvents.tags('item', event => 
     {
-        // Ingot Tag    
-        event.add('forge:ingots/bismuth', 'enlightened_end:bismuth_ingot' )
-
-
-        // Nugget Tag
-        event.add('forge:nuggets/bismuth', 'enlightened_end:bismuth_nugget')
-
-        // Rod Tag
-        //event.add('forge:rods/', )
-
-        // Sheet Tag
-        //event.add('forge:plates/', )
-
-        // Wire Tag
-        //event.add('forge:wires/', )
-
         // Powah Battery Tag
             event.add('curios:batterys',[
                 'powah:battery_starter',

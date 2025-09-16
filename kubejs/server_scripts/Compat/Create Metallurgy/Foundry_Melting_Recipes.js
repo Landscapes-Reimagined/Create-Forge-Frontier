@@ -1,6 +1,5 @@
-ServerEvents.recipes(event => {
-    // Map of materials to their molten fluid outputs
-    const materials = [
+ServerEvents.recipes(function (event) {
+    var materials = [
         { name: 'bismuth', fluid: 'forge_frontier:molten_bismuth' },
         { name: 'calorite', fluid: 'forge_frontier:molten_calorite' },
         { name: 'desh', fluid: 'forge_frontier:molten_desh' },
@@ -25,119 +24,99 @@ ServerEvents.recipes(event => {
         { name: 'neodymrium', fluid: 'forge_frontier:molten_scarlet_neodymium' },
         { name: 'uraniumnite', fluid: 'forge_frontier:molten_uranium' },
         { name: 'sulphite', fluid: 'forge_frontier:molten_sulfur' },
-        { name: 'reggarfonite', fluid: 'forge_frontier:molten_reggarfonite'},
-        { name: 'tin', fluid: 'createmetallurgy:molten_tin'}
+        { name: 'reggarfonite', fluid: 'forge_frontier:molten_reggarfonite' },
+        { name: 'tin', fluid: 'createmetallurgy:molten_tin' }
     ];
 
-    materials.forEach(material => {
-        const inputDust = `forge_frontier:${material.name}_dust`;
-        const inputDirty = `forge_frontier:dirty_${material.name}_dust`;
-        const inputIngot = `#forge:ingots/${material.name}`;
-        const inputNugget = `#forge:nuggets/${material.name}`;
-        const inputRod = `#forge:rods/${material.name}`;
-        const inputSheet = `#forge:plates/${material.name}`;
-        const inputWire = `#forge:wires/${material.name}`;
+    // Hardcoded items that aren’t in forge tags
+    var specialItems = {
+        nuggets: {
+            etrium: { item: "ad_astra:etrium_nugget", fluid: "forge_frontier:molten_etrium" },
+            bismuth: { item: "enlightened_end:bismuth_nugget", fluid: "forge_frontier:molten_bismuth" }
+        },
+        ingots: {
+            etrium: { item: "ad_astra:etrium_ingot", fluid: "forge_frontier:molten_etrium" },
+            scarlet_neodymium: { item: "alexscaves:scarlet_neodymium_ingot", fluid: "forge_frontier:molten_scarlet_neodymium" },
+            bismuth: { item: "enlightened_end:bismuth_ingot", fluid: "forge_frontier:molten_bismuth" },
+            malachite: { item: "enlightened_end:malachite", fluid: "forge_frontier:molten_malachite" },
+            irradium: { item: "enlightened_end:irradium_bar", fluid: "forge_frontier:molten_irradium" },
+            diamond: { item: "minecraft:diamond", fluid: "forge_frontier:molten_diamond" },
+            emerald: { item: "minecraft:emerald", fluid: "forge_frontier:molten_emerald" },
+            echo: { item: "minecraft:echo_shard", fluid: "forge_frontier:molten_echo_shard" }
+        },
+        rods: {
+            etrium: { item: "ad_astra:etrium_rod", fluid: "forge_frontier:molten_etrium" }
+        },
+        plates: {
+            etrium: { item: "ad_astra:etrium_plate", fluid: "forge_frontier:molten_etrium" }
+        }
+    };
 
-    // Dust to Molten
-        event.custom({
-            type: "createmetallurgy:melting",
-            heatRequirement: "heated",
-            ingredients: [{ item: inputDust }],
-            processingTime: 20,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 180
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_dust_to_molten`);
-    
-    // Dirty Dust to Molten
-        event.custom({
-            type: "createmetallurgy:melting",
-            heatRequirement: "heated",
-            ingredients: [{ item: inputDirty }],
-            processingTime: 30,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 90
-                },
-                {
-                    fluid: 'createmetallurgy:molten_slag',
-                    amount: 30
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_dirty_dust_to_molten`);
+    function meltingRecipe(id, ingredient, amount, fluid, time, extra) {
+        if (!time) time = 20;
+        if (!extra) extra = [];
 
-    // Ingot to Molten
-        event.custom({
-            type: "createmetallurgy:melting",
-            heatRequirement: "heated",
-            ingredients: [{ item: inputIngot }],
-            processingTime: 40,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 90
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_ingot_to_molten`);
+        var ingr = Ingredient.of(ingredient);
+        if (ingr.stacks.empty) return; // Skip if ingredient doesn’t exist
 
-    // Nugget to Molten
         event.custom({
             type: "createmetallurgy:melting",
             heatRequirement: "heated",
-            ingredients: [{ item: inputNugget }],
-            processingTime: 4,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 20
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_nugget_to_molten`);
+            ingredients: [ingr.toJson()],
+            processingTime: time,
+            results: ([{ fluid: fluid, amount: amount }].concat(extra))
+        }).id(id);
+    }
 
-    // Rod to Molten
-        event.custom({
-            type: "createmetallurgy:melting",
-            heatRequirement: "heated",
-            ingredients: [{ item: inputRod }],
-            processingTime: 20,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 45
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_rod_to_molten`);
+    // Normal materials pass
+    materials.forEach(function (material) {
+        var items = {
+            dust: "forge_frontier:" + material.name + "_dust",
+            dirty_dust: "forge_frontier:dirty_" + material.name + "_dust",
+            ingot: "#forge:ingots/" + material.name,
+            nugget: "#forge:nuggets/" + material.name,
+            rod: "#forge:rods/" + material.name,
+            sheet: "#forge:plates/" + material.name,
+            wire: "#forge:wires/" + material.name,
+            raw: "#forge:raw_materials/" + material.name,
+            stone: "#create:stone_types/" + material.name
+        };
 
-    // Sheet to Molten
-        event.custom({
-            type: "createmetallurgy:melting",
-            heatRequirement: "heated",
-            ingredients: [{ item: inputSheet }],
-            processingTime: 40,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 90
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_sheet_to_molten`);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_dust_to_molten", items.dust, 180, material.fluid);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_dirty_dust_to_molten", items.dirty_dust, 90, material.fluid, 30, [
+            { fluid: "createmetallurgy:molten_slag", amount: 30 }
+        ]);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_ingot_to_molten", items.ingot, 90, material.fluid, 40);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_nugget_to_molten", items.nugget, 20, material.fluid, 4);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_rod_to_molten", items.rod, 45, material.fluid);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_sheet_to_molten", items.sheet, 90, material.fluid, 40);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_wire_to_molten", items.wire, 45, material.fluid);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_raw_to_molten", items.raw, 90, material.fluid, 40, [
+            { fluid: "createmetallurgy:molten_slag", amount: 45 }
+        ]);
+        meltingRecipe("forge_frontier:melting/" + material.name + "_stone_to_molten", items.stone, 90, material.fluid, 40, [
+            { fluid: "createmetallurgy:molten_slag", amount: 45 }
+        ]);
+    });
 
-    // Wire to Molten
-        event.custom({
-            type: "createmetallurgy:melting",
-            heatRequirement: "heated",
-            ingredients: [{ item: inputWire }],
-            processingTime: 20,
-            results: [
-                {
-                    fluid: material.fluid,
-                    amount: 45
-                }
-            ]
-        }).id(`forge_frontier:melting/${material.name}_wire_to_molten`);
+    // Extra pass for specialItems not covered in materials
+    Object.keys(specialItems).forEach(function (category) {
+        Object.keys(specialItems[category]).forEach(function (key) {
+            var data = specialItems[category][key];
+            var idBase = "forge_frontier:melting/" + key + "_" + category;
+
+            if (category === "nuggets") {
+                meltingRecipe(idBase, data.item, 20, data.fluid, 4);
+            }
+            if (category === "ingots") {
+                meltingRecipe(idBase, data.item, 90, data.fluid, 40);
+            }
+            if (category === "rods") {
+                meltingRecipe(idBase, data.item, 45, data.fluid);
+            }
+            if (category === "plates") {
+                meltingRecipe(idBase, data.item, 90, data.fluid, 40);
+            }
+        });
     });
 });
