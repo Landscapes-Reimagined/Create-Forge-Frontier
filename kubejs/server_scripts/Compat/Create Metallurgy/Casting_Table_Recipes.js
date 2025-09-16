@@ -35,6 +35,7 @@ ServerEvents.recipes(function (event) {
         { name: "uranium", fluid: "forge_frontier:molten_uranium", ingot: "alexscaves:uranium", nugget: "forge_frontier:uranium_nugget", plate: "forge_frontier:uranium_sheet", rodTag: "forge:rods/uranium", wireTag: "forge:wires/uranium" },
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", ingot: "create_better_motors:reggarfonite_gem", nugget: "create_better_motors:reggarfonite_nugget", plate: "create_better_motors:reggarfonite_sheet", rodTag: "forge:rods/reggarfonite", wireTag: "forge:wires/reggarfonite" },
         { name: "ostrum", fluid: "forge_frontier:molten_ostrum", ingot: "ad_astra:ostrum_ingot", nugget: "ad_astra:ostrum_nugget", plate: "ad_astra:ostrum_plate", rodTag: "forge:rods/ostrum", wireTag: "forge:wires/ostrum" },
+        { name: "dielectric_paste", fluid: "forge_frontier:molten_dielectric_paste", ingot: "powah:dielectric_paste", rod: "powah:dielectric_rod", wire: "powah:dielectric_rod_horizontal"},
 
         // Advanced Netherite tiers
         { name: "netherite_iron", fluid: "forge_frontier:molten_netherite_iron", ingot: "advancednetherite:netherite_iron_ingot", nugget: "advancednetherite:netherite_iron_nugget", plate: "forge_frontier:netherite_iron_sheet", rodTag: "forge:rods/netherite_iron", wireTag: "forge:wires/netherite_iron" },
@@ -85,7 +86,7 @@ ServerEvents.recipes(function (event) {
         }
 
         // Rod
-        if (!Ingredient.of("#" + cast.rodTag).stacks.empty) {
+        if (cast.rodTag && !Ingredient.of("#" + cast.rodTag).stacks.empty) {
             event.custom({
                 type: "createmetallurgy:casting_in_table",
                 ingredients: [
@@ -95,10 +96,20 @@ ServerEvents.recipes(function (event) {
                 processingTime: 30,
                 result: { tag: cast.rodTag }
             }).id("forge_frontier:casting_table/" + cast.name + "_rod");
+        } else if (cast.rod && !Ingredient.of(cast.rod).stacks.empty) {
+            event.custom({
+                type: "createmetallurgy:casting_in_table",
+                ingredients: [
+                    { item: "createmetallurgy:graphite_rod_mold" },
+                    { amount: ROD_MB, fluid: cast.fluid, nbt: {} }
+                ],
+                processingTime: 30,
+                result: { item: cast.rod }
+            }).id("forge_frontier:casting_table/" + cast.name + "_rod");
         }
 
-        // Wire
-        if (!Ingredient.of("#" + cast.wireTag).stacks.empty) {
+        // Wire — tag or explicit item
+        if (cast.wireTag && !Ingredient.of("#" + cast.wireTag).stacks.empty) {
             event.custom({
                 type: "createmetallurgy:casting_in_table",
                 ingredients: [
@@ -107,6 +118,16 @@ ServerEvents.recipes(function (event) {
                 ],
                 processingTime: 30,
                 result: { tag: cast.wireTag }
+            }).id("forge_frontier:casting_table/" + cast.name + "_wire");
+        } else if (cast.wire && !Ingredient.of(cast.wire).stacks.empty) {
+            event.custom({
+                type: "createmetallurgy:casting_in_table",
+                ingredients: [
+                    { item: "createmetallurgy:graphite_wire_mold" },
+                    { amount: WIRE_MB, fluid: cast.fluid, nbt: {} }
+                ],
+                processingTime: 30,
+                result: { item: cast.wire }
             }).id("forge_frontier:casting_table/" + cast.name + "_wire");
         }
     });
