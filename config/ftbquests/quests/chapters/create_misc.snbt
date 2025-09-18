@@ -42,7 +42,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Expanded Toolkit"
+			subtitle: "An Expanded Toolkit"
 			tasks: [{
 				id: "29BBA93C216DFF16"
 				title: "Click Me!"
@@ -1761,7 +1761,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "The Void"
+			subtitle: "Fluids Across the Void"
 			tasks: [{
 				id: "6AD1DC1F076F2D12"
 				item: "createendertransmission:fluid_transmitter"
@@ -1793,7 +1793,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Items from the Void"
+			subtitle: "Items Across The Void"
 			tasks: [{
 				id: "3C5A6FABA5184465"
 				item: "createendertransmission:item_transmitter"

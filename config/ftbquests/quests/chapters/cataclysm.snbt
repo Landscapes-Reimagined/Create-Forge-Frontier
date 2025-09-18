@@ -55,6 +55,22 @@
 			x: -11.5d
 			y: 21.0d
 		}
+		{
+			height: 10.0d
+			image: "ftb:textures/cat_ruin_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.5d
+			y: 33.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/acropolis_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 5.0d
+			y: 21.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -70,7 +86,11 @@
 				""
 				"{image:ftb:textures/ancient_factory_bg.png width:225 height:175 align:center}"
 			]
-			icon: "cataclysm:meat_shredder"
+			icon: {
+				Count: 1
+				id: "cataclysm:mech_eye"
+				tag: { }
+			}
 			id: "2644A94A73CA75EE"
 			rewards: [
 				{
@@ -93,12 +113,29 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "The Harbinger's Workshop"
-			tasks: [{
-				icon: "cataclysm:mech_eye"
-				id: "79521B3C5A3D9F31"
-				structure: "cataclysm:ancient_factory"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "7EA8A38E61BFEA2C"
+					item: {
+						Count: 1
+						id: "cataclysm:mech_eye"
+						tag: { }
+					}
+					title: "Forge the Eye of Mech"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "537000CE564A2F22"
+					structure: "cataclysm:ancient_factory"
+					title: "Use The Eye To Locate the Ancient Factory"
+					type: "structure"
+				}
+			]
 			title: "Locate the Ancient Factory"
 			x: -11.5d
 			y: 0.5d
@@ -159,6 +196,7 @@
 				entity: "cataclysm:the_prowler"
 				icon: "cataclysm:the_prowler_spawn_egg"
 				id: "53CE5E1C4A9B16C5"
+				title: "Eliminate The Prowler"
 				type: "kill"
 				value: 1L
 			}]
@@ -173,14 +211,13 @@
 				""
 				"The &cWitherite&r that The Harbinger drops can be forged into powerful weaponry!"
 			]
-			icon: "cataclysm:mech_eye"
+			icon: {
+				Count: 1
+				id: "cataclysm:meat_shredder"
+				tag: { }
+			}
 			id: "419BF43A6A9EE227"
 			rewards: [
-				{
-					id: "4183BF196A311FD8"
-					item: "cataclysm:mech_eye"
-					type: "item"
-				}
 				{
 					count: 3
 					id: "1352497BAB596446"
@@ -218,10 +255,8 @@
 			]
 			icon: {
 				Count: 1
-				id: "cataclysm:infernal_forge"
-				tag: {
-					Damage: 0
-				}
+				id: "cataclysm:monstrous_eye"
+				tag: { }
 			}
 			id: "5C5AE7819F0DBBB3"
 			rewards: [
@@ -245,18 +280,29 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "A Frozen Forge"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "cataclysm:infernal_forge"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "78BB92DDA2C30759"
+					item: {
+						Count: 1
+						id: "cataclysm:monstrous_eye"
+						tag: { }
 					}
+					title: "Forge the Eye of Monstrous"
+					type: "item"
 				}
-				id: "44F743A72143E0F2"
-				structure: "cataclysm:soul_black_smith"
-				type: "structure"
-			}]
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "4D4A7332C2F97B1F"
+					structure: "cataclysm:soul_black_smith"
+					title: "Use The Eye To Locate the Soul Blacksmith"
+					type: "structure"
+				}
+			]
 			title: "Locate the Soul Blacksmith"
 			x: 5.0d
 			y: 0.5d
@@ -269,20 +315,17 @@
 				"Let the battle begin!"
 			]
 			hide_dependency_lines: true
-			icon: "cataclysm:monstrous_eye"
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_horn"
+				tag: { }
+			}
 			id: "27D206C52EB054F2"
-			rewards: [
-				{
-					id: "1653B1CD54F8CD94"
-					item: "cataclysm:monstrous_eye"
-					type: "item"
-				}
-				{
-					id: "3AE8CFFB9F3E740D"
-					type: "xp"
-					xp: 500
-				}
-			]
+			rewards: [{
+				id: "3AE8CFFB9F3E740D"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				icon: "cataclysm:netherite_monstrosity_spawn_egg"
@@ -378,6 +421,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7BBBCF8A23D903C6"]
 			description: [
 				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared."
 				""
@@ -387,7 +431,7 @@
 				""
 				"{image:ftb:textures/sunken_city_bg.png width:225 height:175 align:center}"
 			]
-			icon: "cataclysm:altar_of_abyss"
+			icon: "cataclysm:abyss_eye"
 			id: "449BC30FBCC42249"
 			rewards: [
 				{
@@ -410,12 +454,29 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "The Leviathan's Kingdom"
-			tasks: [{
-				icon: "cataclysm:abyss_eye"
-				id: "70161E4FD138A3FC"
-				structure: "cataclysm:sunken_city"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "7D39901CE1D66383"
+					item: {
+						Count: 1
+						id: "cataclysm:abyss_eye"
+						tag: { }
+					}
+					title: "Forge the Eye of Abyss"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "4580915DA7F91257"
+					structure: "cataclysm:sunken_city"
+					title: "Use the Eye to Locate the Sunken City"
+					type: "structure"
+				}
+			]
 			title: "Locate the Sunken City"
 			x: 5.0d
 			y: 35.5d
@@ -538,9 +599,15 @@
 				""
 				"Beware... The Leviathan has attacks that can shake you to your core, rendering you unable to move. Consider bringing ender pearls to escape the grasp of The Leviathan. They can also be used to avoid its deadly lazer and tentacle attacks."
 				""
-				"Defeating The Leviathan will award you with the &5Tidal Claws&r-a powerful weapon that doubles as a grappling hook."
+				"Defeating The Leviathan will award you with the &5Tidal Claws&r - a powerful weapon that doubles as a grappling hook."
+				""
+				"The Leviathan will also drop its Abyssal Egg, which is used in making the Tier 6 rocket."
 			]
-			icon: "cataclysm:abyss_eye"
+			icon: {
+				Count: 1
+				id: "cataclysm:tidal_claws"
+				tag: { }
+			}
 			id: "7CA6CB6425E43C01"
 			rewards: [
 				{
@@ -554,14 +621,25 @@
 					xp: 500
 				}
 			]
-			tasks: [{
-				entity: "cataclysm:the_leviathan"
-				icon: "cataclysm:the_leviathan_spawn_egg"
-				id: "5A0D2F3CBD7BC10B"
-				title: "Defeat the Leviathan"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:the_leviathan_spawn_egg"
+					id: "5A0D2F3CBD7BC10B"
+					title: "Defeat the Leviathan"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "59C011C826E7908D"
+					item: {
+						Count: 1
+						id: "cataclysm:abyssal_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "Defeat the Leviathan"
 			x: 9.5d
 			y: 38.0d
@@ -569,7 +647,7 @@
 		{
 			dependencies: ["3D9B8268396970D8"]
 			description: [
-				"Hidden under the fiery crust of Mercury is the Burning Arena. This is not just any arena, it is home to the powerful warrior Ignis. "
+				"Standing tall upon the fiery crust of Mercury is the Burning Arena. This is not just any arena, it is home to the powerful warrior Ignis. "
 				""
 				"Wielding a fiery sword and molten shield, he defends his honor from those who challenge him in battle."
 				""
@@ -577,6 +655,11 @@
 				""
 				"{image:ftb:textures/burning_arena_bg.png width:225 height:175 align:center}"
 			]
+			icon: {
+				Count: 1
+				id: "cataclysm:flame_eye"
+				tag: { }
+			}
 			id: "5840CB45E85E7D1C"
 			rewards: [
 				{
@@ -599,12 +682,29 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "A Warrior's Battleground"
-			tasks: [{
-				icon: "cataclysm:altar_of_fire"
-				id: "1E7BE03F14FFE630"
-				structure: "cataclysm:burning_arena"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "7F4D7659317B4524"
+					item: {
+						Count: 1
+						id: "cataclysm:flame_eye"
+						tag: { }
+					}
+					title: "Forge the Eye of Flame"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "0C0B58E734104527"
+					structure: "cataclysm:burning_arena"
+					title: "Use the Eye to Locate the Burning Arena"
+					type: "structure"
+				}
+			]
 			title: "Locate the Burning Arena"
 			x: -11.5d
 			y: 11.5d
@@ -637,6 +737,7 @@
 				item: "cataclysm:dying_ember"
 				type: "item"
 			}]
+			title: "Dying Embers"
 			x: -15.0d
 			y: 14.0d
 		}
@@ -648,18 +749,11 @@
 				"Ascend to the top floor, and place the Burning Ashes into the Altar of Fire to summon Ignis."
 			]
 			id: "3BF615983B302731"
-			rewards: [
-				{
-					id: "4A05C0C201500F51"
-					item: "cataclysm:flame_eye"
-					type: "item"
-				}
-				{
-					id: "55B3B07A8DD761E3"
-					type: "xp"
-					xp: 250
-				}
-			]
+			rewards: [{
+				id: "55B3B07A8DD761E3"
+				type: "xp"
+				xp: 250
+			}]
 			tasks: [{
 				id: "02E66338AF53FA98"
 				item: "cataclysm:burning_ashes"
@@ -675,7 +769,11 @@
 				""
 				"Beware his sword, as it will inflict &cBlazing Brand,&r which will render your armor useless while the effect is active. The more hits you take, the less effective your armor will be. "
 			]
-			icon: "cataclysm:flame_eye"
+			icon: {
+				Count: 1
+				id: "cataclysm:blazing_grips"
+				tag: { }
+			}
 			id: "5D66572BB364F187"
 			rewards: [
 				{
@@ -702,58 +800,6 @@
 			title: "Defeat Ignis"
 			x: -8.0d
 			y: 14.0d
-		}
-		{
-			dependencies: ["7BC843CB75014821"]
-			description: [
-				"Perched upon the dunes of Venus lies the Cursed Pyramid. Its outer layers have been damaged by the acid rain, but its inner corridors remain untouched. "
-				""
-				"You must travel to the Cursed Pyramid and make your way through its labyrinth to challenge the Ancient Remnant. "
-				""
-				"{image:ftb:textures/cursed_pyramid_bg.png width:225 height:175 align:center}"
-			]
-			id: "34DBC02826AEE37E"
-			rewards: [
-				{
-					id: "3AAD97A894B79B8F"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "unusualend:regeneration_ii"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "32C41649339447C6"
-					item: {
-						Count: 1
-						id: "betterarcheology:iron_brush"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4414A202A013E0BB"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "gear"
-			size: 2.0d
-			subtitle: "A Labyrinth of Sand"
-			tasks: [{
-				icon: "cataclysm:remnant_skull"
-				id: "729AB1421DFCA39C"
-				structure: "cataclysm:cursed_pyramid"
-				type: "structure"
-			}]
-			title: "Locate the Cursed Pyramid"
-			x: 5.0d
-			y: 11.5d
 		}
 		{
 			dependencies: ["34DBC02826AEE37E"]
@@ -799,9 +845,88 @@
 			id: "563B8AB184A56AE2"
 			optional: true
 			secret: true
+			subtitle: "For Dev Purposes"
+			tasks: [{
+				id: "22E1540B6633BED7"
+				type: "checkmark"
+			}]
 			title: "Autofocus Quest"
 			x: -3.0d
-			y: 12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7BC843CB75014821"]
+			description: [
+				"Perched upon the dunes of Venus lies the Cursed Pyramid. Its outer layers have been damaged by the acid rain, but its inner corridors remain untouched. "
+				""
+				"You must travel to the Cursed Pyramid and make your way through its labyrinth to challenge the Ancient Remnant. "
+				""
+				"{image:ftb:textures/cursed_pyramid_bg.png width:225 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:desert_eye"
+				tag: { }
+			}
+			id: "34DBC02826AEE37E"
+			rewards: [
+				{
+					id: "3AAD97A894B79B8F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "unusualend:regeneration_ii"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32C41649339447C6"
+					item: {
+						Count: 1
+						id: "betterarcheology:iron_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4414A202A013E0BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "A Labyrinth of Sand"
+			tasks: [
+				{
+					id: "7FAAF1F8B747AD55"
+					item: {
+						Count: 1
+						id: "cataclysm:desert_eye"
+						tag: { }
+					}
+					title: "Forge the Eye of Desert"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "2A78953A4EA20CAB"
+					structure: "cataclysm:cursed_pyramid"
+					title: "Use the Eye to Locate the Cursed Pyramid"
+					type: "structure"
+				}
+			]
+			title: "Locate the Cursed Pyramid"
+			x: 5.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["53671A0360665A81"]
@@ -885,7 +1010,11 @@
 				""
 				"Should you be victorious, you move one step closer to The End. "
 			]
-			icon: "cataclysm:desert_eye"
+			icon: {
+				Count: 1
+				id: "cataclysm:remnant_skull"
+				tag: { }
+			}
 			id: "5ECBCB519C4FBE28"
 			rewards: [
 				{
@@ -922,7 +1051,11 @@
 				""
 				"{image:ftb:textures/frosted_prison_bg.png width:225 height:175 align:center}"
 			]
-			icon: "cataclysm:cursed_tombstone"
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_eye"
+				tag: { }
+			}
 			id: "659C5018DD271450"
 			rewards: [
 				{
@@ -944,11 +1077,29 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "58D898D7B3C1316F"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "74BD953BE7DBBB98"
+					item: {
+						Count: 1
+						id: "cataclysm:cursed_eye"
+						tag: { }
+					}
+					title: "Forge the Eye of Curse"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "752E09F0907B94DE"
+					structure: "cataclysm:frosted_prison"
+					title: "Use the Eye to Locate the Frosted Prison"
+					type: "structure"
+				}
+			]
 			title: "Locate the Frosted Prison"
 			x: -11.5d
 			y: 24.0d
@@ -978,10 +1129,11 @@
 				entity: "cataclysm:draugr"
 				icon: "cataclysm:draugr_head"
 				id: "79768C925E31CDB7"
+				title: "Slay Ten Draugr"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Kill Ten Draugr"
+			title: "Slay Ten Draugr"
 			x: -15.0d
 			y: 26.5d
 		}
@@ -1012,6 +1164,7 @@
 					entity: "cataclysm:aptrgangr"
 					icon: "cataclysm:aptrgangr_head"
 					id: "7624EF7B4C993F2D"
+					title: "Eliminate the Aptrgangr"
 					type: "kill"
 					value: 1L
 				}
@@ -1034,7 +1187,11 @@
 				""
 				"Should you prevail, you will be one step closer to unlocking The End."
 			]
-			icon: "cataclysm:cursed_eye"
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_tombstone"
+				tag: { }
+			}
 			id: "2C285EA25E9E97ED"
 			rewards: [
 				{
