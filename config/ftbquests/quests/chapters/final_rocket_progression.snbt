@@ -3062,6 +3062,13 @@
 			y: 16.5d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "createornithopterglider:ornithopterglider"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2B4FC6BF8BD6AFE4"
 			rewards: [
 				{
@@ -3081,11 +3088,12 @@
 				id: "71BF16EED6B9009D"
 				item: {
 					Count: 1
-					id: "hangglider:reinforced_hang_glider"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "createornithopterglider:gliders"
 					}
 				}
+				title: "Any #createornithopterglider:gliders"
 				type: "item"
 			}]
 			x: 2.0d
@@ -3745,7 +3753,11 @@
 			subtitle: "Check EMI for Recipe"
 			tasks: [{
 				id: "0BF7023482C51856"
-				item: "tconstruct:ender_cake"
+				item: {
+					Count: 1
+					id: "neapolitan:adzuki_cake"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -8.0d
