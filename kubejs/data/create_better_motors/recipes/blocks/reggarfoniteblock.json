@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "c": {
+      "item": "create_better_motors:reggarfonite_gem"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "ccc",
+    "ccc"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_better_motors:reggarfonite_block"
+  },
+  "show_notification": true
+}

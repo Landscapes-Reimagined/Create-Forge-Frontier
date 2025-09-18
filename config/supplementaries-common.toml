@@ -3,7 +3,7 @@
 	wind_vane = true
 	clock_block = true
 	redstone_illuminator = true
-	crank = true
+	crank = false
 	cog_block = true
 	gold_door = true
 	gold_trapdoor = true
@@ -168,7 +168,7 @@
 		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
 		only_allow_harmful_effects = true
 		#Populate the creative inventory with all tipped spikes variations
-		populate_creative_tab = true
+		populate_creative_tab = false
 
 	[functional.urn]
 		enabled = true
@@ -210,7 +210,8 @@
 		cooldown = 60
 		music_disc_heave_ho = true
 		#Makes TNT-like block shot from a cannon explode on impact
-		explode_tnt = true
+		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
+		explode_tnt = "IGNITE"
 
 		[functional.cannon.cannonball]
 			enabled = true
@@ -274,7 +275,7 @@
 		interaction_mode = "BOTH"
 
 	[building.timber_frame]
-		enabled = true
+		enabled = false
 		#Allow placing a timber frame directly on a block by holding shift
 		swap_on_shift = false
 		#Allows axes to remove a framed block leaving the contained block intact
@@ -292,7 +293,7 @@
 	[building.item_shelf]
 		enabled = true
 		#Makes item shelves climbable
-		climbable_shelves = false
+		climbable_shelves = true
 
 	[building.sugar_cube]
 		enabled = true
@@ -361,7 +362,7 @@
 			show_distance_text = true
 
 	[building.daub]
-		enabled = true
+		enabled = false
 		wattle_and_daub = true
 
 	[building.ash_bricks]
@@ -574,7 +575,7 @@
 
 	[tweaks.placeable_gunpowder]
 		#Allow placeable gunpowder
-		enabled = true
+		enabled = false
 		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
 		#Range: 0 ~ 20
 		speed = 2
@@ -598,14 +599,14 @@
 	[tweaks.map_tweaks]
 		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
 		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
-		random_adventurer_maps = true
+		random_adventurer_maps = false
 		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
 		random_adventurer_maps_select_random_structure = true
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
 		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
 		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
-		death_marker = "WITH_COMPASS"
+		death_marker = "OFF"
 		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
 		quill_adventurer_maps = true
 		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
@@ -647,20 +648,20 @@
 
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
-		cat_unluck = true
+		cat_unluck = false
 		#If you have unluck you are more likely to get hit by a lighting
-		lightning_unluck = true
+		lightning_unluck = false
 
 	[tweaks.item_lore]
 		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
-		enabled = true
+		enabled = false
 
 	[tweaks.sus_recipes]
 		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = true
+		enabled = false
 
 	[tweaks.slimed_effect]
-		enabled = true
+		enabled = false
 		#Allow slimeballs to be thrown
 		throwable_slimeballs = true
 		#Show a slime overlay when you hit an entity with a slimeball

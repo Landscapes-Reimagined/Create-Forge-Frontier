@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forge_frontier:block/incomplete_dreadful_dirt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,16 @@
+{
+    "modId": "unusualend",
+    "group": {
+      "name": "Unusualend Fungi",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "mushrooms"
+    },
+    "customEntries": [
+      {
+        "output": "unusualend:chorus_fungus"
+      }
+    ]
+}

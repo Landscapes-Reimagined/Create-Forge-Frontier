@@ -1,6 +1,18 @@
 
 StartupEvents.registry('block', event => {
 
+    // Blaze Block
+    event.create('forge_frontier:blaze_block')
+        .displayName('Blaze Rod Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('forge_frontier:block/blaze_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);
+
     // Overcharged Blocks
     event.create('forge_frontier:overcharged_iron_block')
         .displayName('Overcharged Iron Block')
@@ -72,33 +84,17 @@ StartupEvents.registry('block', event => {
 // New Items
 StartupEvents.registry('item', event => {
     // Leather Elytra
-            event.create('forge_frontier:leather_elytra')
+        event.create('forge_frontier:leather_elytra')
             .displayName('Leather Elytra')
             .maxStackSize(1)
             .tooltip("Built for crafting brilliance—not the skies. Too fragile to fly, but perfect for invention!")
             .texture("forge_frontier:item/leather_elytra")
-
-    // Custom Template Casts
-    // Blank Sand Cast
-        event.create('tconstruct:blank_gold_cast')
-            .displayName('Blank Gold Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/blank_gold_cast")
-    // Sand Cast
-        event.create('tconstruct:template_sand_cast')
-            .displayName('Template Sand Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/template_sand_cast");
-    // Red Sand Cast
-        event.create('tconstruct:template_red_sand_cast')
-            .displayName('Template Red Sand Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/template_red_sand_cast");
-    // Gold Cast
-        event.create('tconstruct:template_cast')
-            .displayName('Template Gold Cast')
-            .maxStackSize(64)
-            .texture("forge_frontier:item/template_cast");         
+    
+    // Wire Mold
+        event.create('createmetallurgy:graphite_wire_mold')
+            .displayName('Graphite Wire Mold')
+            .maxStackSize(1)
+            .texture("forge_frontier:item/graphite_wire_mold")
 
     // Custom Coin
         event.create('forge_frontier:closed_beta_coin')

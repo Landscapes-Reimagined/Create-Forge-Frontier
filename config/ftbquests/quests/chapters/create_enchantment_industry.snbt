@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_enchantment_industry"
-	group: "4CF6B0D92A681E0C"
+	group: "3D5393E3938A9DF4"
 	icon: "create_enchantment_industry:enchanting_guide"
 	id: "6E8ACBA28F1C9D1D"
 	images: [
@@ -24,7 +24,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [{
 		id: "11F61A8D675793D1"

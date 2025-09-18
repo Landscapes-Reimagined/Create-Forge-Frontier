@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:nether_complexes"
+    "minecraft:nether_complexes",
+    "incendium:infernal_altar",
+    "ad_astra:mars_temple"
   ]
 }

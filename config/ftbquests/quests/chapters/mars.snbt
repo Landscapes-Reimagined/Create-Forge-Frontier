@@ -211,6 +211,11 @@
 					structure: "cataclysm:soul_black_smith"
 					type: "structure"
 				}
+				{
+					id: "725518AA7338F879"
+					structure: "incendium:infernal_altar"
+					type: "structure"
+				}
 			]
 			title: "Soul Blacksmith: Relics of a Forgotten Forge"
 			x: 0.0d
