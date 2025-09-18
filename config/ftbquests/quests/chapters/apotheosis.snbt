@@ -1,42 +1,1171 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis"
-	group: "4CF6B0D92A681E0C"
+	group: "644FFCB546187AB9"
 	icon: "apotheosis:ender_library"
 	id: "0E35B788CDF14CAA"
-	images: [
+	images: [{
+		height: 15.0d
+		image: "ftb:textures/apotheosis_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -9.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
 		{
-			height: 10.0d
-			image: "ftb:textures/apotheosis_title.png"
-			rotation: 0.0d
-			width: 15.0d
+			description: [
+				"In &6Create: Forge Frontier&r the mod &5Apotheosis&r overhauls the vanilla system for enchanting. It does this by introducing some new stats to enchanting tables and new bookshelves to alter those stats."
+				""
+				"These stats are as follows:"
+				"&n&aEterna&r&r (Enchanting Power)"
+				"&n&4Quanta&r&r (Enchanting Flux)"
+				"&5&nArcana&r&r (Enchanting Rarity)"
+				""
+				"Other modifiers that can be added are:"
+				"&eRectification&r"
+				"&3Enchanting Clues&r"
+				"&6Treasure Enchantments&r"
+			]
+			id: "6965F4ABCAB88875"
+			rewards: [{
+				id: "48F1F245E472FD1F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Apotheosis Enchanting"
+			tasks: [{
+				id: "2D29A403707CC3C6"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "Introduction to Enchanting"
 			x: 0.0d
-			y: -9.5d
+			y: -6.5d
 		}
 		{
-			height: 10.0d
-			image: "ftb:textures/coming_soon.png"
-			rotation: 0.0d
-			width: 15.0d
+			dependencies: ["6965F4ABCAB88875"]
+			description: [
+				"&5Apotheosis&r changes many things about Enchanting in Minecraft, yet some remain the same. "
+				""
+				"Enchanting tables will only detect blocks modifying it's stats if they're exactly one block away from the table just like in Vanilla, These stats however alter the behaviour fo your enchantments."
+				""
+				"{@pagebreak}"
+				"&a&nEterna&r&r, also known as  Enchanting Power, determines the level of your enchantments. Different tiers and types of bookshelves will add varying amounts. Beware every type of shelf has a maximum capacity of &a&nEterna&r&r beyond which it will no longer contribute to the value."
+				""
+				"The level of your enchantment is 2x your Eterna value. If you reach the maximum of 50 &n&aEterna&r&r you will be enchanting at level 100."
+				""
+				"{@pagebreak}"
+				"&n&4Quanta&r&r refers to the instability of your enchantments. A short description would be Enchanting Flux. This can be both a good and a bad thing as it can both increase or decrease the true level of enchantment that will be applied. "
+				""
+				"The amount it increases or decreases depends on the enchanting table's Quanta value. If the table has a Quanta value of 50, the actual enchantment value can be -50 or +50."
+				""
+				"{@pagebreak}"
+				"&n&5Arcana&r&r is the value that determines the availability of rare enchants. These are often more powerful enchantments that will give the item a powerful boon. The higher the value the easier it is to get rare enchants on whatever it is you're enchanting. "
+				""
+				"However very high levels of &5&nArcana&r&r will also make common enchantments more difficult to get."
+			]
+			id: "2172A6251E7C57A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "299E61F0BA970F83"
+					table_id: 8678092705658131358L
+					type: "choice"
+				}
+				{
+					id: "6931E7D726999DAB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 10
+					id: "08F6E0B772C8A4BA"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			subtitle: "Enchanting Properties"
+			tasks: [{
+				id: "62E466E5012D5CCC"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Apotheosis Enchanting"
 			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2172A6251E7C57A8"]
+			description: [
+				"&n&eRectification&r&r is a modifier that interacts with &4&nQuanta&r&r."
+				""
+				"The way it interacts is by stripping away the negative scalar of the Enchanting Flux. &n&4Quanta&r&r can both increase and decrease the applied level of enchantments, the higher the rectification the smaller the negative value. At 100% &n&eRectification&r&r, enchantments will no longer be able to go lower, the &n&4Quanta&r&r instability can only improve their level."
+			]
+			icon: "apotheosis:rectifier"
+			id: "722D72A914A3A75B"
+			rewards: [
+				{
+					count: 8
+					id: "436B22DE5D260776"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					id: "04DFAB1B68659170"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Rectification"
+			tasks: [{
+				id: "213971F0000E7433"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			title: "Countering Quanta"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2172A6251E7C57A8"]
+			description: ["&3&nEnchanting Clues&r&r allow the enchanter to see either in part or fully what they will get before ever enchanting the item. This is a powerful boon to have in your enchanting journey as you will be able to see any unwanted outcomes before spending precious experience."]
+			icon: "apotheosis:sightshelf"
+			id: "728C71D5D6F62E43"
+			rewards: [
+				{
+					id: "658DEB60692E2B06"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2334DE97FF933021"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+				{
+					id: "6D3FA9B9A1C20877"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "109B9E927368BE40"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "The Clues in your Enchanting"
+			tasks: [{
+				id: "3AA4ED523ABC2666"
+				item: "apotheosis:sightshelf"
+				type: "item"
+			}]
+			title: "Visions of Arcana"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2172A6251E7C57A8"]
+			description: ["The &eDeepshelf of Arcane Treasures&r will allow your enchanting setup to also channel treasure enchantments into your items. These enchantments are rare boons found in loot chests around the world, examples of these are Mending, Frost Walker but also the &cCurses&r"]
+			icon: "apotheosis:treasure_shelf"
+			id: "37EF4656BB766E72"
+			rewards: [
+				{
+					id: "3B2615C1DC49D356"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					title: "Mending"
+					type: "item"
+				}
+				{
+					id: "6E1559B1DFBF0C1C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Treasure Enchantments"
+			tasks: [{
+				id: "1887CBBC3BAED81C"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			title: "Arcane Treasures"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: ["To channel more Arcane energies into your enchanting set up, bookshelves are needed. These tomes of knowledge allow for creating stronger enchantments by contributing &n&aEterna&r&r to your enchanting table."]
+			id: "05F2E49CD742486D"
+			subtitle: "Shelves of Knowledge"
+			tasks: [{
+				id: "344F1A5D31D3743C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+				title: "Any #forge:bookshelves"
+				type: "item"
+			}]
+			title: "Arcane Beginnings"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05F2E49CD742486D"]
+			description: ["A conduit for the energies from the Nether, an upgrade from regular bookshelves. These bookshelves provide more &a&nEterna&r&r, but the fires of hell also bring &n&cQuanta&r&r with them. The magical journey is evolving from mere crafting, maybe try infusing it?"]
+			id: "52E26768C164CA9D"
+			rewards: [
+				{
+					count: 2
+					id: "304C1ABEBEC423EB"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31B81E31B559D63D"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "5C6A40A693CDCC8F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Hellshelf"
+			tasks: [{
+				id: "489C768FE09104BF"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "Power of the Hells"
+			x: -4.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["05F2E49CD742486D"]
+			description: ["A conduit for the energies from the Ocean, an upgrade from regular bookshelves. These bookshelves provide more &a&nEterna&r&r and the mysteries of the deep also bring &5&nArcana&r&r with them. The magical journey is evolving from mere crafting, maybe try infusing it?"]
+			id: "439EB3C5F595DCFC"
+			rewards: [
+				{
+					count: 2
+					id: "36AC4BA27E8D1216"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					id: "6680795EA6FF21B3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4EC49DD5EAADEAEA"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			title: "Power of the Seas"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			description: ["The slumbering deep, not powerful on it's own.... if only there was a way to Awaken it. Maybe try infusing it?"]
+			id: "708E8D7979E8C8FE"
+			rewards: [
+				{
+					id: "1534CED6859291E5"
+					item: "silentsdelight:warden_ear"
+					type: "item"
+				}
+				{
+					id: "408E5E9DCD393C3B"
+					item: {
+						Count: 1
+						id: "alexsmobs:echolocator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1073B727F021625E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3853E139FF676444"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			title: "The Dormant Deep"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "4C2A6292B32562A3"
+			rewards: [
+				{
+					id: "4B78AD44D4DABE08"
+					item: "sophisticatedbackpacks:anvil_upgrade"
+					type: "item"
+				}
+				{
+					id: "54DCA7824F9363FF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "649DCDE8DCDFC657"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			title: "Enchanter's Workbench"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4C2A6292B32562A3"]
+			id: "526375684367F60A"
+			rewards: [
+				{
+					id: "3DC8BF5ED7409D3F"
+					item: "collectorsreap:shimmering_apple"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "08EAEF21FBB80973"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "57D61A8FB7197D34"
+					type: "xp_levels"
+					xp_levels: 12
+				}
+			]
+			tasks: [{
+				id: "0F6D4C3281247B9C"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			title: "Conduit of the Arcane"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			description: ["This tome will let you scrap enchantments off your items. Be warned! This book will only extract half of the magic energy inscribed into the tool, and destroy it in the process."]
+			id: "16DE76B6F434C16C"
+			rewards: [
+				{
+					id: "4D2A823950A762BD"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+				{
+					id: "3CF815933EFCA59E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "098BEF700EF75B54"
+				item: "apotheosis:scrap_tome"
+				type: "item"
+			}]
+			title: "Scraps of Arcana"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16DE76B6F434C16C"]
+			description: ["A marked improvement from the inferior Tome of Scrapping. This tome will let you scrap enchantments off your items. This book will extract all of the magic energy inscribed into the tool, but still destroy it in the process."]
+			id: "5BFEDB10AB754632"
+			rewards: [
+				{
+					count: 2
+					id: "34C8164916F226F1"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "5FCF5AF52729752A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "052173D353677C8A"
+				item: "apotheosis:improved_scrap_tome"
+				type: "item"
+			}]
+			title: "Superior Scrapping"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BFEDB10AB754632"]
+			description: ["The ultimate tool for extracting and preserving enchantments. This tome will let you extract all enchantments from an item, without breaking it."]
+			id: "0781CC49C7E615F8"
+			rewards: [
+				{
+					id: "243DE1F22A3865C5"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 7s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54CD18F35A3E2BF1"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13E94C9765760F85"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 11s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "62149F888B188CA5"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			title: "Arcane Extraction"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["52E26768C164CA9D"]
+			description: ["Infusion has awakened the power locked within the Hellshelf, this new infused version provides increased power and has shown you a way of Awakening further power's from your shelves."]
+			id: "27516AC94B996057"
+			rewards: [
+				{
+					count: 6
+					id: "0E035E39ADC3A1CE"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "07F7E93F052C8BBE"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "3396DA9FD236936C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4C23023D5CAA438D"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			title: "Hellish Infusion"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["439EB3C5F595DCFC"]
+			description: ["Infusion has awakened the power locked within the Seashelf, this new infused version provides reduced &n&5Arcana&r&r, but an increase in &n&aEterna&r&r power and has shown you a way of Awakening further power's from your shelves."]
+			id: "708FC6105FC75C24"
+			rewards: [
+				{
+					id: "7FFE8DBF6BA5E7C5"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2BE558CDBE1543C5"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					id: "336556700291FFDA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "6B1AA9214A766C98"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			title: "Oceanic Infusion"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["708E8D7979E8C8FE"]
+			description: ["The Magic of the Deep beacons, channeling it can lead to greater heights in your enchanting journey."]
+			id: "2239B52ECD40D1A3"
+			rewards: [
+				{
+					count: 4
+					id: "692E228F9F59CA4E"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "234E63A572AB6C42"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "698F5E63386C4B63"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			title: "Awakening the Deep"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["366BFABED1D79BF0"]
+			description: ["The Power of the End, given form in this shelf of knowledge and power. You catch glimpses of the final conduit... an forgotten creature's head, floating at the edge of reality."]
+			id: "2BB609061B5F6578"
+			rewards: [
+				{
+					count: 4
+					id: "1F877B309111EDF4"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0A4281D3034D8953"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "42DE4F97E6D47635"
+					item: "ends_delight:shulker_omelette"
+					type: "item"
+				}
+				{
+					id: "426386D187F20DC5"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "2BCCD5AEB042F1FB"
+				item: "apotheosis:endshelf"
+				type: "item"
+			}]
+			title: "Visions of the End"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2BB609061B5F6578"]
+			description: ["Raw Power, straight from the Void itself. Channeling these powers grants immense Eterna. It's a cold power, devoid of &5&nArcana&r&r or the flux of &n&cQuanta&r&r."]
+			id: "1ECDC56233E230D9"
+			rewards: [
+				{
+					id: "485CC68CDEEA7108"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "5744EC9A1BA7325C"
+					item: {
+						Count: 1
+						id: "relics:elytra_booster"
+						tag: {
+							abilities: {
+								boost: {
+									points: 0
+									stats: {
+										capacity: 88.60177d
+										speed: 1.29979d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D9584BAEDE8DB79"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			title: "Power of the Void"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			description: ["The &bSeashelf of Aquatic Filtration&r is a powerful addition to your enchantment setup. Inserting enchanted books into this shelf will allow you to block these enchantments from showing up in your enchanting table, essentially a blacklist for enchantments you might not want. Especially useful if you're trying to get an enchantment that it's not compatible with."]
+			id: "3FC57BA3BB8BFDF9"
+			rewards: [
+				{
+					id: "7890A8BC1402A4AA"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "4F02F140BD3DCA28"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Filtering your Enchantments"
+			tasks: [{
+				id: "7CEA02EA48B12F23"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			title: "Arcane Filtration"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["728C71D5D6F62E43"]
+			description: ["More &3&nEnchanting Clues&r&r will reduce any negative surprises in your enchanting journey. The higher your &n&aEterna&r&r the more Enchantments will apply to your tool, building more sight will let the enchanter foresee the outcome."]
+			id: "31988C061862DB85"
+			rewards: [
+				{
+					id: "340446C4E24B218E"
+					item: "integrated_stronghold:music_disc_sight"
+					type: "item"
+				}
+				{
+					id: "4EC428247E5789FA"
+					item: {
+						Count: 1
+						id: "tconstruct:potion_bucket"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "530B328F3C476A70"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4A501AB7CA35496A"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			title: "Mastering Vision"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["722D72A914A3A75B"]
+			description: ["Striving for higher levels of &n&eRectification&r&r to combat the negative effects of &n&4Quanta&r&r leads to an ever more stable experience in enchanting your tools. This shelf powered by Hell itself is halfway onto the journey to countering the Enchanting Flux"]
+			id: "462FC6D28C5985F4"
+			rewards: [
+				{
+					count: 8
+					id: "54F32A067C0DD122"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "209910E2A0B08B7E"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "1AD1328F0C364CE1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "32015009AC4DF03F"
+				item: "apotheosis:rectifier_t2"
+				type: "item"
+			}]
+			title: "Rectifying Flux"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["462FC6D28C5985F4"]
+			description: ["The final tier of &n&eRectification&r&r shelves, using enough of these, the negative forces of &n&4Quanta&r&r will no longer be able to touch your enchantments"]
+			id: "34A4B27F08B6CD92"
+			rewards: [
+				{
+					id: "1F9662F05054D73D"
+					item: {
+						Count: 1
+						id: "unusualend:void_totem"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7647CD392A57205C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "12957EF26A9510AA"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			title: "Positive Enforcement"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"A faithful recreation of Neptunes lost treasure.... only without the Ocean's energy imbued into it. "
+				""
+				"Between 20 and 30 &n&aEterna&r&r it will transform into a fully functional trident ready for use, or further enhancement."
+			]
+			id: "5DE43688F40E7D1C"
+			rewards: [
+				{
+					id: "675B8BF3EE866742"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "27D3E921820FE712"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "354F3912FDE727EE"
+				item: "apotheosis:inert_trident"
+				type: "item"
+			}]
+			title: "Sleeping Treasure"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: ["A magical tome attuned to the Arcane, using this in your enchanting table it will only accept enchantments not covered by the other Tomes."]
+			id: "732F94C8B308F1DC"
+			rewards: [{
+				id: "007B7BFBF8CB8797"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Curio Enchantments"
+			tasks: [{
+				id: "719105D1E15F5D74"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			description: ["A magical tome attuned to Helmets, using this in your enchanting table it will only accept enchantments valid to be inscribed into a Helmet."]
+			id: "5541F6A0AE10197F"
+			rewards: [{
+				id: "0C82897F6667B000"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Helmet Substitute"
+			tasks: [{
+				id: "5F6FAE2DEE7FE78E"
+				item: "apotheosis:helmet_tome"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			description: ["A magical tome attuned to Chestplates, using this in your enchanting table it will only accept enchantments valid to be inscribed into a Chestplate."]
+			id: "3D23A06C73584F8C"
+			rewards: [{
+				id: "604266CC7A735046"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Chestplate Substitute"
+			tasks: [{
+				id: "0B8FDFA8766A9D7A"
+				item: "apotheosis:chestplate_tome"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			description: ["A magical tome attuned to Leggings, using this in your enchanting table it will only accept enchantments valid to be inscribed into a piece of Legplates."]
+			id: "5B6E354029702ED7"
+			rewards: [{
+				id: "3FB4A5D2486614B8"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Legplate Substitute"
+			tasks: [{
+				id: "086E980E659A7828"
+				item: "apotheosis:leggings_tome"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			description: ["A magical tome attuned to Boots, using this in your enchanting table it will only accept enchantments valid to be inscribed into a pair of Boots."]
+			id: "51F73AA184B3C006"
+			rewards: [{
+				id: "42298B316CC98EBE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2B4F10726B43C7E9"
+				item: "apotheosis:boots_tome"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			description: ["A magical tome attuned to Weapons, using this in your enchanting table it will only accept enchantments valid to be inscribed into melee weaponry."]
+			id: "2141A34B4C964860"
+			rewards: [{
+				id: "530F1665121C3528"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Weaponry Enchanting"
+			tasks: [{
+				id: "0977DAE9189A82E0"
+				item: "apotheosis:weapon_tome"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["A magical tome attuned to Bows, using this in your enchanting table it will only accept enchantments valid to be inscribed into your bows."]
+			id: "02B15F5815DF3A04"
+			rewards: [{
+				id: "27B9859CB55BD89D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Bow Enchantments"
+			tasks: [{
+				id: "6E2B9E9C5C6F7CF4"
+				item: "apotheosis:bow_tome"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			description: ["A magical tome attuned to Mining, using this in your enchanting table it will only accept enchantments valid to be inscribed into your Pickaxes."]
+			id: "6E7AECFD28C0708D"
+			rewards: [{
+				id: "6399A286EA9E7F44"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Mining Enchantments"
+			tasks: [{
+				id: "68343FDEF87B3E57"
+				item: "apotheosis:pickaxe_tome"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34EDC1353A972CAC"]
+			description: ["Sculk interacts with experience in a way no other matter does, this shelf is the last conduit before the final evolution in your enchanting journey."]
+			id: "366BFABED1D79BF0"
+			rewards: [
+				{
+					id: "40073689042002FD"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4DAA5DF24C83B950"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "4FC2875177F3285F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "10EE139BABBB7C87"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			title: "Whispers of Magic"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2239B52ECD40D1A3"]
+			description: ["The Deep has awoken and it's power echoes through this shelf, listen and you can hear the magic in the air. This shelf is only a step on your journey to unlocking more mystical energies."]
+			id: "34EDC1353A972CAC"
+			rewards: [{
+				id: "43363326362D6182"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A9D30836D83D4D4"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			title: "Sounds of the Deep"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["708FC6105FC75C24"]
+			description: ["A crystal conduit for the power of the Ocean. Perfect channeling of the mystical energy of the vast expanses of water spread across the world."]
+			id: "6BC6B680D4677E3F"
+			rewards: [
+				{
+					count: 32
+					id: "0867FEECF8568310"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DFBDB85F04863A0"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "2C6D20ADB95BAD99"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "33515AA94F3EEBDD"
+				item: "apotheosis:crystal_seashelf"
+				type: "item"
+			}]
+			title: "Lights in the Deep"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["708FC6105FC75C24"]
+			description: ["The Heart of the Sea itself. An ancient treasure connecting to the power of the Ocean. This artifact will greatly increase the &5&nArcana&r&r knowledge at your disposal."]
+			id: "7405774A91010E60"
+			rewards: [
+				{
+					id: "369FEC75614FEEE1"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "685964203138744B"
+					item: "aquaculture:neptunium_nugget"
+					type: "item"
+				}
+				{
+					id: "5ACE20BA5EC4B2BA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "325CA7D9AA7011B5"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			title: "Heart of the Sea"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27516AC94B996057"]
+			description: ["The blazing power of Hellfire. The magic of this shelf burns brightly, this boost in &a&nEterna&r&r comes at a cost of burning away some &3&nEnchanting Clues&r&r from your sight."]
+			id: "28B7FDAF3F929DB5"
+			rewards: [
+				{
+					count: 4
+					id: "1A8C64F2DDFEF433"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24BA13C85322CB2B"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "72C689E201D53D10"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0F017ECD255F48C4"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			title: "Forged in Fire"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27516AC94B996057"]
+			description: ["A magical light from hell, not quite the fires itself. Still a powerful conduit to channel the mystical energy from the Nether into your enchanting table. "]
+			id: "51B89E1C5AED8AD9"
+			rewards: [
+				{
+					count: 32
+					id: "0039F645CB82DC7A"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "79057DA2D0070DD0"
+					item: "create_better_motors:lava_quartz"
+					type: "item"
+				}
+				{
+					id: "27D9C3BF3CFC8B6D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5A346713D4D1827A"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			title: "Lights in the Hells"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: ["An anvil enchanted with the power of Splitting will be able to seperate an enchanted book into it's different constituent enchantments. Useful for seperating any desired enchantments from the undesirables."]
+			id: "2382E5C444E4A12F"
+			rewards: [
+				{
+					id: "33B942C5DFD9DFBF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0816042DDFBB72E4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "29D2EA94948114C7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "apotheosis:splitting"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F4AB74792E6FCC8"
+					item: "minecraft:anvil"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.5d
+		}
 	]
-	order_index: 0
-	quest_links: [ ]
-	quests: [{
-		id: "6965F4ABCAB88875"
-		shape: "gear"
-		size: 3.0d
-		tasks: [{
-			id: "2899DCCA2E66743F"
-			item: "minecraft:enchanting_table"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -6.5d
-	}]
-	title: "Apotheosis"
+	title: "Apothic Enchanting"
 }
