@@ -43,8 +43,8 @@ ServerEvents.recipes(event =>
                             B: Ingredient.of("sophisticatedstorage:netherite_barrel"),
                             b: Ingredient.of("sophisticatedbackpacks:netherite_backpack"),
                             C: Ingredient.of("create:stock_ticker"),
-                            V: Ingredient.of("createenderlink:ender_tank"),
-                            c: Ingredient.of("createenderlink:ender_vault"),
+                            V: Ingredient.of("createendertransmission:fluid_transmitter"),
+                            c: Ingredient.of("createendertransmission:item_transmitter"),
                             v: Ingredient.of("create:item_vault"),
                             T: Ingredient.of("mob_grinding_utils:jumbo_tank")
                         },
