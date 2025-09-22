@@ -1,0 +1,40 @@
+
+#.
+#Fine tune the kinetic stats of individual components
+[stressValues]
+
+	#.
+	#.
+	#[in Stress Units]
+	#Individual coefficients of stress impact of kinetic blocks.
+	[stressValues.impact]
+		hydraulic_transmission = 2.0
+		dummy_differential = 0.0
+		chained_large_cogwheel = 0.0
+		coaxial_gear = 0.0
+		differential = 0.0
+		chained_cogwheel = 0.0
+		planetary_gearset = 0.0
+		pneumatic_tube = 2.0
+		long_shaft = 0.0
+		colossal_cogwheel = 0.0
+		double_cardan_shaft = 0.0
+		large_coaxial_gear = 0.0
+
+#.
+#Tubes (Hydraulic Transmissions and Pneumatic Tubes)
+[tubes]
+	#.
+	#Cost to build Hydraulic Transmissions per meter
+	#Range: 0.0 ~ 3.4028234663852886E38
+	hydraulicTransmissionCost = 2.0
+	#.
+	#Cost to build Pneumatic Tubes per meter
+	#Range: 0.0 ~ 3.4028234663852886E38
+	pneumaticTubeCost = 0.5
+	#.
+	#Minimum space between Items transported by the Pneumatic Tube
+	#[in meters/block lengths]
+	#Range: 0.0 ~ 3.4028234663852886E38
+	pneumaticTubeSpacing = 1.0
+
