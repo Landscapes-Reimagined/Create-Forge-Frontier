@@ -6,7 +6,15 @@
     "create",
     "thermal",
     "immersiveengineering",
-    "mekanism"
+    "mekanism",
+    "enlightened_end",
+    "forge_frontier",
+    "ad_astra",
+    "create_better_motors",
+    "create_dd",
+    "alexscaves",
+    "alexsmobs",
+    "deeperdarker"
   ],
   "stoneStrata": [
     "stone",
@@ -31,6 +39,9 @@
     "forge:storage_blocks/raw_{material}"
   ],
   "materials": [
+    "bismuth",
+    "malachite",
+    "irradium",
     "aeternium",
     "aluminum",
     "amber",

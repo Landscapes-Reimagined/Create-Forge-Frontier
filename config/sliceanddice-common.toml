@@ -7,6 +7,7 @@
 [basin_cooking]
 	enabled = true
 	replace_fluid_containers = true
+	heat_condition = "HEATED"
 
 [sprinkler]
 	#Range: 10 ~ 2048
