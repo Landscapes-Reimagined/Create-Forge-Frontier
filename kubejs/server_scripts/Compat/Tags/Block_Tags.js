@@ -1,5 +1,7 @@
 ServerEvents.tags('block', event => 
     {
+        // Building Gadgets Deny Tag
+            event.add('buildinggadgets2:deny', 'minecraft:spawner')
         // Beacon Base Blocks
             event.add('minecraft:beacon_base_blocks','forge_frontier:forge_rocket_casing')
         // Spatial IO Blacklist
