@@ -16,6 +16,10 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    'ad_astra:compressor',
+    'ad_astra:etrionic_blast_furnace',
+    'ad_astra:fuel_refinery',
+    'ad_astra:cryo_freezer'
     'farmingforblockheads:chicken_nest',
     'buildinggadgets2:template_manager',
     'buildinggadgets2:template',
