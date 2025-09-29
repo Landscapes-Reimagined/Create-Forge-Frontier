@@ -134,9 +134,6 @@ ServerEvents.recipes(event =>
                 acceptMirrored: false
             }).id('forge_frontier:mechanical_crafting/jet_suit');
 
-        // Etrionic Blast Furnace Recipe
-            event.remove({ id: 'ad_astra:etrionic_blast_furnace'})
-
         // Coal Generator Recipe
             event.remove({ id: 'ad_astra:coal_generator'})
             event.custom({
@@ -154,12 +151,6 @@ ServerEvents.recipes(event =>
                 result: Ingredient.of('ad_astra:coal_generator').toJson(),
                 acceptMirrored: false
             }).id('forge_frontier:mechanical_crafting/coal_generator');
-
-        // Compressor Recipe
-            event.remove({ id: 'ad_astra:compressor'})
-            
-        // Fuel Refinery Recipe
-            event.remove({ id: 'ad_astra:fuel_refinery'})
 
         // Water Pump Recipe
             event.remove({ id: 'ad_astra:water_pump'})
@@ -329,9 +320,6 @@ ServerEvents.recipes(event =>
                 result: Ingredient.of('ad_astra:oxygen_distributor').toJson(),
                 acceptMirrored: false
             }).id('forge_frontier:mechanical_crafting/oxygen_distributor');
-
-        // Cryo Freezer Recipe
-            event.remove({ id: 'ad_astra:cryo_freezer'})
 
         // Tier 1 Rover Recipe
             event.remove({ id: 'ad_astra:tier_1_rover'})
