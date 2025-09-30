@@ -1,0 +1,46 @@
+{
+    "name": "adamantite",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "the_end"
+    ],
+    "mainhands": [
+        {
+            "item": "enlightened_end:adamantite_sword"
+        },
+        {
+            "item": "enlightened_end:adamantite_axe"
+        },
+        {
+            "item": "enlightened_end:adamantite_pickaxe"
+        },
+        {
+            "item": "enlightened_end:adamantite_shovel"
+        },
+        {
+            "item": "enlightened_end:adamantite_hoe"
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "enlightened_end:adamantite_armor_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "enlightened_end:adamantite_armor_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "enlightened_end:adamantite_armor_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "enlightened_end:adamantite_armor_helmet"
+        }
+    ]
+}

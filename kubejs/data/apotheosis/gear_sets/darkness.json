@@ -1,0 +1,20 @@
+{
+    "name": "darkness",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "hallows"
+    ],
+    "mainhands": [],
+    "offhands": [],
+    "chestplates": [
+        {
+            "item": "alexscaves:cloak_of_darkness"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "alexscaves:hood_of_darkness"
+        }
+    ]
+}

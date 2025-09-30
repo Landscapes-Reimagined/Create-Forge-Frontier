@@ -1,0 +1,34 @@
+{
+    "name": "ethium",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "the_end"
+    ],
+    "mainhands": [
+        {
+            "item": "create_ethium:ethium_sword"
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "create_ethium:ethium_armor_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "create_ethium:ethium_armor_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "create_ethium:ethium_armor_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "create_ethium:ethium_armor_helmet"
+        }
+    ]
+}

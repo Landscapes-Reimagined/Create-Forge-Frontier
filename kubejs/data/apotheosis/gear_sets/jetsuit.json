@@ -1,0 +1,30 @@
+{
+    "name": "jetsuit",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "glacio"
+    ],
+    "mainhands": [],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "ad_astra:jet_suit_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "ad_astra:jet_suit_pants"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "ad_astra:jet_suit"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "ad_astra:jet_suit_helmet"
+        }
+    ]
+}

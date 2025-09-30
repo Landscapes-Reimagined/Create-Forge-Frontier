@@ -1,0 +1,46 @@
+{
+    "name": "gold",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "overworld"
+    ],
+    "mainhands": [
+        {
+            "item": "minecraft:golden_sword"
+        },
+        {
+            "item": "minecraft:golden_axe"
+        },
+        {
+            "item": "minecraft:golden_pickaxe"
+        },
+        {
+            "item": "minecraft:golden_shovel"
+        },
+        {
+            "item": "minecraft:golden_hoe"
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "minecraft:golden_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "minecraft:golden_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "minecraft:golden_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "minecraft:golden_helmet"
+        }
+    ]
+}

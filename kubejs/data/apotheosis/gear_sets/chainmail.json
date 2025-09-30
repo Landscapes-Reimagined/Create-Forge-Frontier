@@ -1,0 +1,30 @@
+{
+    "name": "chainmail",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "overworld"
+    ],
+    "mainhands": [],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "minecraft:chainmail_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "minecraft:chainmail_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "minecraft:chainmail_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "minecraft:chainmail_helmet"
+        }
+    ]
+}

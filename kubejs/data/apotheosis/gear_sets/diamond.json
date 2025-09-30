@@ -1,0 +1,46 @@
+{
+    "name": "diamond",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "the_nether"
+    ],
+    "mainhands": [
+        {
+            "item": "minecraft:diamond_sword"
+        },
+        {
+            "item": "minecraft:diamond_axe"
+        },
+        {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        {
+            "item": "minecraft:diamond_shovel"
+        },
+        {
+            "item": "minecraft:diamond_hoe"
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "minecraft:diamond_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "minecraft:diamond_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "minecraft:diamond_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "minecraft:diamond_helmet"
+        }
+    ]
+}

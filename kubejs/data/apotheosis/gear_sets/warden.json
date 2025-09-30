@@ -1,0 +1,44 @@
+{
+    "name": "warden",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "otherside"
+    ],
+    "mainhands": [{
+            "item": "deeperdarker:warden_sword"
+        },
+        {
+            "item": "deeperdarker:warden_axe"
+        },
+        {
+            "item": "deeperdarker:warden_pickaxe"
+        },
+        {
+            "item": "deeperdarker:warden_shovel"
+        },
+        {
+            "item": "deeperdarker:warden_hoe"
+        }],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "deeperdarker:warden_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "deeperdarker:warden_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "deeperdarker:warden_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "deeperdarker:warden_helmet"
+        }
+    ]
+}

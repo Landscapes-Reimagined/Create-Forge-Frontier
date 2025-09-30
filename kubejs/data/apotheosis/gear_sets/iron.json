@@ -1,0 +1,46 @@
+{
+    "name": "iron",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "overworld"
+    ],
+    "mainhands": [
+        {
+            "item": "minecraft:iron_sword"
+        },
+        {
+            "item": "minecraft:iron_axe"
+        },
+        {
+            "item": "minecraft:iron_pickaxe"
+        },
+        {
+            "item": "minecraft:iron_shovel"
+        },
+        {
+            "item": "minecraft:iron_hoe"
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "minecraft:iron_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "minecraft:iron_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "minecraft:iron_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "minecraft:iron_helmet"
+        }
+    ]
+}

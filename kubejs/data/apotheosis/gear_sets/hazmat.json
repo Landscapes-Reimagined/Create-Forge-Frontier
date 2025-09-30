@@ -1,0 +1,30 @@
+{
+    "name": "hazmat",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "toxic"
+    ],
+    "mainhands": [],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "alexscaves:hazmat_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "alexscaves:hazmat_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "alexscaves:hazmat_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "alexscaves:hazmat_mask"
+        }
+    ]
+}

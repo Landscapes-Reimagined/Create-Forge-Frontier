@@ -1,0 +1,46 @@
+{
+    "name": "resonarium",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "otherside"
+    ],
+    "mainhands": [
+        {
+            "item": "deeperdarker:resonarium_sword"
+        },
+        {
+            "item": "deeperdarker:resonarium_axe"
+        },
+        {
+            "item": "deeperdarker:resonarium_pickaxe"
+        },
+        {
+            "item": "deeperdarker:resonarium_shovel"
+        },
+        {
+            "item": "deeperdarker:resonarium_hoe"
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "item": "deeperdarker:resonarium_boots"
+        }
+    ],
+    "leggings": [
+        {
+            "item": "deeperdarker:resonarium_leggings"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "deeperdarker:resonarium_chestplate"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "deeperdarker:resonarium_helmet"
+        }
+    ]
+}

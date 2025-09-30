@@ -1,0 +1,24 @@
+{
+    "name": "primordial",
+    "weight": 100,
+    "quality": 0,
+    "tags": [
+        "primordial"
+    ],
+    "offhands": [],
+    "leggings": [
+        {
+            "item": "alexscaves:primordial_pants"
+        }
+    ],
+    "chestplates": [
+        {
+            "item": "alexscaves:primordial_tunic"
+        }
+    ],
+    "helmets": [
+        {
+            "item": "alexscaves:primordial_helmet"
+        }
+    ]
+}
