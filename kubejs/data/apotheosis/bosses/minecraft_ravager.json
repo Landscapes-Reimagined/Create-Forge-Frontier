@@ -5,8 +5,8 @@
             "modid": "minecraft"
         }
     ],
-    "entity": "minecraft:iron_golem",
-    "weight": 8,
+    "entity": "minecraft:ravager",
+    "weight": 3,
     "quality": 2,
     "size": {
         "width": 2,
