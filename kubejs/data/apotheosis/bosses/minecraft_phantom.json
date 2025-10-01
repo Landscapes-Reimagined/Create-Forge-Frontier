@@ -1,13 +1,19 @@
 {
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "minecraft"
+        }
+    ],
     "entity": "minecraft:phantom",
-    "weight": 100,
-    "quality": 0,
+    "weight": 8,
+    "quality": 2,
     "size": {
-        "width": 0.6,
-        "height": 1.95
+        "width": 2,
+        "height": 4
     },
     "valid_gear_sets": [
-        "end"
+        "#end"
     ],
     "dimensions": [
         "minecraft:the_end"
@@ -25,16 +31,8 @@
             ],
             "effects": [
                 {
-                    "effect": "minecraft:speed",
+                    "effect": "minecraft:fire_resistance",
                     "chance": 1.0
-                },
-                {
-                    "effect": "minecraft:jump_boost",
-                    "chance": 0.5
-                },
-                {
-                    "effect": "minecraft:regeneration",
-                    "chance": 0.5
                 }
             ],
             "attribute_modifiers": [
@@ -42,33 +40,82 @@
                     "attribute": "minecraft:generic.max_health",
                     "operation": "ADDITION",
                     "value": {
-                        "min": 80,
-                        "steps": 50,
-                        "step": 5
+                        "min": 30,
+                        "steps": 20,
+                        "step": 2
                     }
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
                     "operation": "MULTIPLY_BASE",
                     "value": {
-                        "min": 0.15,
-                        "steps": 10,
-                        "step": 0.025
+                        "min": 0.05,
+                        "steps": 5,
+                        "step": 0.01
                     }
                 },
                 {
                     "attribute": "minecraft:generic.attack_damage",
                     "operation": "MULTIPLY_BASE",
                     "value": {
-                        "min": 0.5,
-                        "steps": 40,
-                        "step": 0.025
+                        "min": 0.2,
+                        "steps": 20,
+                        "step": 0.01
                     }
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
                     "operation": "ADDITION",
-                    "value": 0.5
+                    "value": 0.3
+                }
+            ]
+        },
+        "rare": {
+            "enchant_chance": 0.3,
+            "enchantment_levels": [
+                15,
+                10,
+                23,
+                17
+            ],
+            "effects": [
+                {
+                    "effect": "minecraft:fire_resistance",
+                    "chance": 1.0
+                }
+            ],
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "value": {
+                        "min": 50,
+                        "steps": 30,
+                        "step": 2
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.1,
+                        "steps": 8,
+                        "step": 0.01
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.25,
+                        "steps": 25,
+                        "step": 0.01
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.4
                 }
             ]
         }

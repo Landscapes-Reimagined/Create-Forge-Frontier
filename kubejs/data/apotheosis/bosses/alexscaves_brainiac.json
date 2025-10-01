@@ -1,21 +1,27 @@
 {
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "alexscaves"
+        }
+    ],
     "entity": "alexscaves:brainiac",
-    "weight": 100,
-    "quality": 0,
+    "weight": 8,
+    "quality": 2,
     "size": {
-        "width": 0.6,
-        "height": 1.95
+        "width": 2,
+        "height": 4
     },
     "valid_gear_sets": [
-        "toxic"
+        "#toxic"
     ],
     "dimensions": [
         "forge_frontier:toxic_caves"
     ],
-    "min_rarity": "esoteric",
-    "max_rarity": "esoteric",
+    "min_rarity": "apotheotic_additions:esoteric",
+    "max_rarity": "apotheotic_additions:esoteric",
     "stats": {
-        "esoteric": {
+        "apotheotic_additions:esoteric": {
             "enchant_chance": 0.25,
             "enchantment_levels": [
                 12,
@@ -25,16 +31,8 @@
             ],
             "effects": [
                 {
-                    "effect": "minecraft:resistance",
+                    "effect": "minecraft:fire_resistance",
                     "chance": 1.0
-                },
-                {
-                    "effect": "minecraft:regeneration",
-                    "chance": 0.75
-                },
-                {
-                    "effect": "minecraft:strength",
-                    "chance": 0.5
                 }
             ],
             "attribute_modifiers": [
@@ -42,33 +40,82 @@
                     "attribute": "minecraft:generic.max_health",
                     "operation": "ADDITION",
                     "value": {
-                        "min": 160,
-                        "steps": 80,
-                        "step": 8
+                        "min": 30,
+                        "steps": 20,
+                        "step": 2
                     }
                 },
                 {
                     "attribute": "minecraft:generic.movement_speed",
                     "operation": "MULTIPLY_BASE",
                     "value": {
-                        "min": 0.25,
-                        "steps": 15,
-                        "step": 0.04
+                        "min": 0.05,
+                        "steps": 5,
+                        "step": 0.01
                     }
                 },
                 {
                     "attribute": "minecraft:generic.attack_damage",
                     "operation": "MULTIPLY_BASE",
                     "value": {
-                        "min": 0.8,
-                        "steps": 60,
-                        "step": 0.04
+                        "min": 0.2,
+                        "steps": 20,
+                        "step": 0.01
                     }
                 },
                 {
                     "attribute": "minecraft:generic.knockback_resistance",
                     "operation": "ADDITION",
-                    "value": 0.7
+                    "value": 0.3
+                }
+            ]
+        },
+        "rare": {
+            "enchant_chance": 0.3,
+            "enchantment_levels": [
+                15,
+                10,
+                23,
+                17
+            ],
+            "effects": [
+                {
+                    "effect": "minecraft:fire_resistance",
+                    "chance": 1.0
+                }
+            ],
+            "attribute_modifiers": [
+                {
+                    "attribute": "minecraft:generic.max_health",
+                    "operation": "ADDITION",
+                    "value": {
+                        "min": 50,
+                        "steps": 30,
+                        "step": 2
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.movement_speed",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.1,
+                        "steps": 8,
+                        "step": 0.01
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.attack_damage",
+                    "operation": "MULTIPLY_BASE",
+                    "value": {
+                        "min": 0.25,
+                        "steps": 25,
+                        "step": 0.01
+                    }
+                },
+                {
+                    "attribute": "minecraft:generic.knockback_resistance",
+                    "operation": "ADDITION",
+                    "value": 0.4
                 }
             ]
         }
