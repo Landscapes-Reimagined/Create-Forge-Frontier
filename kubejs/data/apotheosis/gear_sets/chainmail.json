@@ -1,30 +1,41 @@
 {
-    "name": "chainmail",
-    "weight": 100,
-    "quality": 0,
-    "tags": [
-        "overworld"
-    ],
+    "weight": 90,
+    "quality": 2.5,
     "mainhands": [],
     "offhands": [],
     "boots": [
         {
-            "item": "minecraft:chainmail_boots"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "minecraft:chainmail_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "minecraft:chainmail_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "minecraft:chainmail_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_helmet"
+            }
         }
+    ],
+    "tags": [
+        "overworld"
     ]
 }

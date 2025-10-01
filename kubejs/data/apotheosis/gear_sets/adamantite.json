@@ -1,46 +1,72 @@
 {
-    "name": "adamantite",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "the_end"
-    ],
     "mainhands": [
         {
-            "item": "enlightened_end:adamantite_sword"
+            "weight": 2,
+            "stack": {
+                "item": "enlightened_end:adamantite_sword"
+            }
         },
         {
-            "item": "enlightened_end:adamantite_axe"
+            "weight": 2,
+            "stack": {
+                "item": "enlightened_end:adamantite_axe"
+            }
         },
         {
-            "item": "enlightened_end:adamantite_pickaxe"
+            "weight": 2,
+            "stack": {
+                "item": "enlightened_end:adamantite_pickaxe"
+            }
         },
         {
-            "item": "enlightened_end:adamantite_shovel"
+            "weight": 2,
+            "stack": {
+                "item": "enlightened_end:adamantite_shovel"
+            }
         },
         {
-            "item": "enlightened_end:adamantite_hoe"
+            "weight": 2,
+            "stack": {
+                "item": "enlightened_end:adamantite_hoe"
+            }
         }
     ],
     "offhands": [],
     "boots": [
         {
-            "item": "enlightened_end:adamantite_armor_boots"
+            "weight": 1,
+            "stack": {
+                "item": "enlightened_end:adamantite_armor_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "enlightened_end:adamantite_armor_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "enlightened_end:adamantite_armor_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "enlightened_end:adamantite_armor_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "enlightened_end:adamantite_armor_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "enlightened_end:adamantite_armor_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "enlightened_end:adamantite_armor_helmet"
+            }
         }
+    ],
+    "tags": [
+        "the_end"
     ]
 }

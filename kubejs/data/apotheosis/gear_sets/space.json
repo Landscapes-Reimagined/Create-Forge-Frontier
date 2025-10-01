@@ -1,30 +1,41 @@
 {
-    "name": "space",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "moon"
-    ],
     "mainhands": [],
     "offhands": [],
     "boots": [
         {
-            "item": "ad_astra:space_boots"
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:space_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "ad_astra:space_pants"
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:space_pants"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "ad_astra:space_suit"
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:space_suit"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "ad_astra:space_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:space_helmet"
+            }
         }
+    ],
+    "tags": [
+        "moon"
     ]
 }

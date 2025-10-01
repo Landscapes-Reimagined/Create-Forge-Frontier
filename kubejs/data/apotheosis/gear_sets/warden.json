@@ -1,44 +1,72 @@
 {
-    "name": "warden",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "otherside"
+    "mainhands": [
+        {
+            "weight": 2,
+            "stack": {
+                "item": "deeperdarker:warden_sword"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "deeperdarker:warden_axe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "deeperdarker:warden_pickaxe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "deeperdarker:warden_shovel"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "deeperdarker:warden_hoe"
+            }
+        }
     ],
-    "mainhands": [{
-            "item": "deeperdarker:warden_sword"
-        },
-        {
-            "item": "deeperdarker:warden_axe"
-        },
-        {
-            "item": "deeperdarker:warden_pickaxe"
-        },
-        {
-            "item": "deeperdarker:warden_shovel"
-        },
-        {
-            "item": "deeperdarker:warden_hoe"
-        }],
     "offhands": [],
     "boots": [
         {
-            "item": "deeperdarker:warden_boots"
+            "weight": 1,
+            "stack": {
+                "item": "deeperdarker:warden_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "deeperdarker:warden_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "deeperdarker:warden_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "deeperdarker:warden_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "deeperdarker:warden_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "deeperdarker:warden_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "deeperdarker:warden_helmet"
+            }
         }
+    ],
+    "tags": [
+        "otherside"
     ]
 }

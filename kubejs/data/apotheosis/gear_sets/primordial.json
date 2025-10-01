@@ -1,24 +1,34 @@
 {
-    "name": "primordial",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "primordial"
-    ],
+    "mainhands": [],
     "offhands": [],
+    "boots": [],
     "leggings": [
         {
-            "item": "alexscaves:primordial_pants"
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:primordial_pants"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "alexscaves:primordial_tunic"
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:primordial_tunic"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "alexscaves:primordial_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:primordial_helmet"
+            }
         }
+    ],
+    "tags": [
+        "primordial"
     ]
 }

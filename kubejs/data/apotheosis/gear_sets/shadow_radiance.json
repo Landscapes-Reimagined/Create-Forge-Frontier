@@ -1,46 +1,72 @@
 {
-    "name": "shadow_radiance",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "magnetic"
-    ],
     "mainhands": [
         {
-            "item": "createqol:shadow_radiance_sword"
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_sword"
+            }
         },
         {
-            "item": "createqol:shadow_radiance_axe"
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_axe"
+            }
         },
         {
-            "item": "createqol:shadow_radiance_pickaxe"
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_pickaxe"
+            }
         },
         {
-            "item": "createqol:shadow_radiance_shovel"
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_shovel"
+            }
         },
         {
-            "item": "createqol:shadow_radiance_hoe"
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_hoe"
+            }
         }
     ],
     "offhands": [],
     "boots": [
         {
-            "item": "createqol:shadow_radiance_boots"
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "createqol:shadow_radiance_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "createqol:shadow_radiance_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "createqol:shadow_radiance_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_helmet"
+            }
         }
+    ],
+    "tags": [
+        "magnetic"
     ]
 }

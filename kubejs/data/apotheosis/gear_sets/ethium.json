@@ -1,34 +1,48 @@
 {
-    "name": "ethium",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "the_end"
-    ],
     "mainhands": [
         {
-            "item": "create_ethium:ethium_sword"
+            "weight": 2,
+            "stack": {
+                "item": "create_ethium:ethium_sword"
+            }
         }
     ],
     "offhands": [],
     "boots": [
         {
-            "item": "create_ethium:ethium_armor_boots"
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "create_ethium:ethium_armor_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "create_ethium:ethium_armor_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "create_ethium:ethium_armor_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_helmet"
+            }
         }
+    ],
+    "tags": [
+        "the_end"
     ]
 }

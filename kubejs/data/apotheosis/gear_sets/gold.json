@@ -1,46 +1,72 @@
 {
-    "name": "gold",
     "weight": 100,
     "quality": 0,
-    "tags": [
-        "overworld"
-    ],
     "mainhands": [
         {
-            "item": "minecraft:golden_sword"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:golden_sword"
+            }
         },
         {
-            "item": "minecraft:golden_axe"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:golden_axe"
+            }
         },
         {
-            "item": "minecraft:golden_pickaxe"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:golden_pickaxe"
+            }
         },
         {
-            "item": "minecraft:golden_shovel"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:golden_shovel"
+            }
         },
         {
-            "item": "minecraft:golden_hoe"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:golden_hoe"
+            }
         }
     ],
     "offhands": [],
     "boots": [
         {
-            "item": "minecraft:golden_boots"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:golden_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "minecraft:golden_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:golden_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "minecraft:golden_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:golden_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "minecraft:golden_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:golden_helmet"
+            }
         }
+    ],
+    "tags": [
+        "overworld"
     ]
 }

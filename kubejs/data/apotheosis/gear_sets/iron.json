@@ -1,46 +1,66 @@
 {
-    "name": "iron",
-    "weight": 100,
-    "quality": 0,
-    "tags": [
-        "overworld"
-    ],
+    "weight": 80,
+    "quality": 5,
     "mainhands": [
         {
-            "item": "minecraft:iron_sword"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:iron_sword"
+            }
         },
         {
-            "item": "minecraft:iron_axe"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:iron_axe"
+            }
         },
         {
-            "item": "minecraft:iron_pickaxe"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:iron_pickaxe"
+            }
         },
         {
-            "item": "minecraft:iron_shovel"
-        },
-        {
-            "item": "minecraft:iron_hoe"
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:iron_shovel"
+            }
         }
     ],
     "offhands": [],
     "boots": [
         {
-            "item": "minecraft:iron_boots"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:iron_boots"
+            }
         }
     ],
     "leggings": [
         {
-            "item": "minecraft:iron_leggings"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:iron_leggings"
+            }
         }
     ],
     "chestplates": [
         {
-            "item": "minecraft:iron_chestplate"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:iron_chestplate"
+            }
         }
     ],
     "helmets": [
         {
-            "item": "minecraft:iron_helmet"
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:iron_helmet"
+            }
         }
+    ],
+    "tags": [
+        "overworld"
     ]
 }
