@@ -50,9 +50,7 @@
     ],
     "axolotls": [],
     "creature": [
-      { "type": "ad_astra:glacian_ram", "maxCount": 4, "minCount": 2, "weight": 12 },
-      { "type": "minecraft:rabbit", "maxCount": 3, "minCount": 1, "weight": 6 },
-      { "type": "minecraft:fox", "maxCount": 2, "minCount": 1, "weight": 4 }
+      { "type": "ad_astra:glacian_ram", "maxCount": 4, "minCount": 2, "weight": 12 }
     ],
     "misc": [],
     "monster": [
