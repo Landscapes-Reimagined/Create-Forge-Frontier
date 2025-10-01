@@ -22,14 +22,9 @@
   "features": [
     [],
     [],
-    [
-      "minecraft:amethyst_geode"
-    ],
+    ["minecraft:amethyst_geode"],
     [],
-    [
-      "minecraft:ice_spike",
-      "minecraft:ice_patch"
-    ],
+    ["minecraft:ice_spike", "minecraft:ice_patch"],
     [],
     [
       "ad_astra:glacio_coal_ore",
@@ -44,40 +39,26 @@
     ],
     [],
     [],
-    [
-      "minecraft:glow_lichen"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:glow_lichen"],
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
   "spawn_costs": {},
   "spawners": {
-    "ambient": [],
+    "ambient": [
+      { "type": "minecraft:bat", "maxCount": 8, "minCount": 2, "weight": 10 }
+    ],
     "axolotls": [],
     "creature": [
-      {
-        "type": "ad_astra:glacian_ram",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 12
-      }
+      { "type": "ad_astra:glacian_ram", "maxCount": 4, "minCount": 2, "weight": 12 },
+      { "type": "minecraft:rabbit", "maxCount": 3, "minCount": 1, "weight": 6 },
+      { "type": "minecraft:fox", "maxCount": 2, "minCount": 1, "weight": 4 }
     ],
     "misc": [],
     "monster": [
-      {
-        "type": "endermanoverhaul:snowy_enderman",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 20
-      },
-      {
-        "type": "endermanoverhaul:snowy_enderman",
-        "maxCount": 3,
-        "minCount": 1,
-        "weight": 20
-      }
+      { "type": "endermanoverhaul:snowy_enderman", "maxCount": 2, "minCount": 1, "weight": 20 },
+      { "type": "creeperoverhaul:snowy_creeper", "maxCount": 3, "minCount": 1, "weight": 25 },
+      { "type": "minecraft:stray", "maxCount": 4, "minCount": 1, "weight": 25 }
     ],
     "underground_water_creature": [],
     "water_ambient": [],
