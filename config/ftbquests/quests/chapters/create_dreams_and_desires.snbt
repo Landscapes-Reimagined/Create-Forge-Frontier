@@ -14,7 +14,7 @@
 		x: 0.0d
 		y: -11.0d
 	}]
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -431,7 +431,7 @@
 		}
 		{
 			dependencies: ["3696F1B5E0C16F29"]
-			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, while Item Pipes route resources cleanly from one inventory to the next."]
+			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, and can be crafted in bulk themselves with overburden casing."]
 			icon: "create:item_vault"
 			id: "449C4C4A589B69B3"
 			rewards: [
@@ -442,30 +442,17 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "7E56C00CCCF37B3F"
-					item: "pipez:item_pipe"
-					type: "item"
-				}
-				{
-					id: "228675BE79CD0E3A"
+					id: "696F41F49AA2DEC2"
 					type: "xp"
 					xp: 100
 				}
 			]
 			subtitle: "Smart Storage Starts Here"
-			tasks: [
-				{
-					id: "462F0A5899089C17"
-					item: "create:item_vault"
-					type: "item"
-				}
-				{
-					id: "01051E7392CC4AB6"
-					item: "pipez:item_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "462F0A5899089C17"
+				item: "create:item_vault"
+				type: "item"
+			}]
 			title: "Storage Logistics"
 			x: -4.0d
 			y: -0.5d
@@ -1568,64 +1555,6 @@
 			}]
 			x: -2.6999999999999997d
 			y: 2.25d
-		}
-		{
-			dependencies: ["44976406B9B89D01"]
-			description: ["Energy Pipes are used to transfer power between machines, they are designed to safely carry high-energy output without loss or failure. "]
-			id: "2428776C2074663E"
-			rewards: [
-				{
-					count: 16
-					id: "67E22DA128429060"
-					item: "pipez:energy_pipe"
-					type: "item"
-				}
-				{
-					id: "0BB8310750731F77"
-					type: "xp"
-					xp: 25
-				}
-			]
-			size: 0.9d
-			subtitle: "Position the Power"
-			tasks: [{
-				id: "359D0509A2D0992F"
-				item: "pipez:energy_pipe"
-				type: "item"
-			}]
-			x: -2.6999999999999997d
-			y: 3.5d
-		}
-		{
-			dependencies: ["62BA4CBF94708FA5"]
-			description: [
-				"While they are not part of Dreams \\& Desires, in Create - Forge Frontier they are made from Hydraulic Casing to ensure their strength at high flow rates."
-				""
-				"Fluid Pipez are your best friend if you want a quick and easy way to transport fluid, at NO SU COST! All you need is a wrench to start transferring fluid."
-			]
-			id: "44DBD900B59669B5"
-			rewards: [
-				{
-					count: 16
-					id: "2B2B8071A58B6D3D"
-					item: "pipez:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "0022F8C50180B69B"
-					type: "xp"
-					xp: 25
-				}
-			]
-			size: 0.75d
-			subtitle: "Fast and Easy Flow"
-			tasks: [{
-				id: "49A1AF873D72A894"
-				item: "pipez:fluid_pipe"
-				type: "item"
-			}]
-			x: 1.125d
-			y: -3.375d
 		}
 		{
 			dependencies: ["7B030CB530E6C806"]

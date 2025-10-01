@@ -4668,6 +4668,41 @@
 			x: 4.5d
 			y: 9.0d
 		}
+		{
+			dependencies: ["183F457F923574A9"]
+			description: ["The Item Terminal allows you to view all items in any inventory connected to your pipe network. It has an internal inventory you can request items from your network to be deposited into where you can then retrieve them. It can also send items back into your pipe network with its return inventory."]
+			hide_dependency_lines: true
+			id: "07A94C06EEA9EDA4"
+			rewards: [
+				{
+					count: 4
+					id: "29FC72CA80F8BB57"
+					item: {
+						Count: 1
+						id: "prettypipes:blank_module"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5222CE3303386C74"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "68BC6F641B363755"
+				item: {
+					Count: 1
+					id: "prettypipes:item_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.75d
+		}
 	]
 	title: "Basic Storage"
 }

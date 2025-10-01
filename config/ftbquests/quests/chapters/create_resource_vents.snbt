@@ -2,7 +2,7 @@
 	autofocus_id: "7AC47553B491EE76"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "resource_vents"
+	filename: "create_resource_vents"
 	group: "3D5393E3938A9DF4"
 	icon: "create_resource_vents:active_asurine_vent"
 	id: "4E4AA685A681F1B0"
@@ -23,6 +23,14 @@
 			width: 1.0d
 			x: -20.0d
 			y: 3.0d
+		}
+		{
+			height: 1.75d
+			image: "ftb:textures/create_with_colon_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: -12.5d
 		}
 	]
 	order_index: 6
@@ -753,6 +761,11 @@
 		}
 		{
 			dependencies: ["38367FF1F1438DED"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_ingot"
+				tag: { }
+			}
 			id: "4FFBE9F8BC52BAE5"
 			rewards: [{
 				id: "7A6F551CA1685074"
@@ -817,6 +830,11 @@
 		}
 		{
 			dependencies: ["1F22F9F9B3D393E1"]
+			icon: {
+				Count: 1
+				id: "minecraft:gold_ingot"
+				tag: { }
+			}
 			id: "4A8DBEF17C064273"
 			rewards: [{
 				id: "7536E3269ED3BBF3"
@@ -898,6 +916,11 @@
 		}
 		{
 			dependencies: ["061D64DE3F96B2F8"]
+			icon: {
+				Count: 1
+				id: "create:zinc_ingot"
+				tag: { }
+			}
 			id: "22F1724ED1FA487D"
 			rewards: [{
 				id: "15E2706642F6C3D0"
@@ -969,6 +992,11 @@
 		}
 		{
 			dependencies: ["571CE6F8667DA48F"]
+			icon: {
+				Count: 1
+				id: "minecraft:copper_ingot"
+				tag: { }
+			}
 			id: "09E03BBF9953EF63"
 			rewards: [{
 				id: "0B7735B8A06CCCD5"
@@ -1033,6 +1061,11 @@
 		}
 		{
 			dependencies: ["2E99FE44436A381C"]
+			icon: {
+				Count: 1
+				id: "create_dd:tin_ingot"
+				tag: { }
+			}
 			id: "0CCC86AB0D5DFDF2"
 			rewards: [{
 				id: "1DDF93F84E68E952"
@@ -1114,6 +1147,11 @@
 		}
 		{
 			dependencies: ["31FBC673B1E527F6"]
+			icon: {
+				Count: 1
+				id: "minecraft:emerald"
+				tag: { }
+			}
 			id: "02FEFDD7F4DD0C1B"
 			rewards: [{
 				id: "393373E7C248F7E6"
@@ -1177,6 +1215,11 @@
 		}
 		{
 			dependencies: ["13576F3698C89AE7"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond"
+				tag: { }
+			}
 			id: "589FC9F5A6B51B4E"
 			rewards: [{
 				id: "73C77115E925523A"
@@ -1240,6 +1283,11 @@
 		}
 		{
 			dependencies: ["2BE12AF20FA6DC0D"]
+			icon: {
+				Count: 1
+				id: "minecraft:lapis_lazuli"
+				tag: { }
+			}
 			id: "258ED4CCAF8A61A6"
 			rewards: [{
 				id: "0726456B85A453CF"
@@ -1316,6 +1364,11 @@
 		}
 		{
 			dependencies: ["1D40BCB5E0BF8836"]
+			icon: {
+				Count: 1
+				id: "minecraft:coal"
+				tag: { }
+			}
 			id: "1C6456024AC2DC69"
 			rewards: [{
 				id: "181C7B180D14E312"
@@ -1354,6 +1407,11 @@
 			}]
 			tasks: [{
 				biome: "#minecraft:is_savanna"
+				icon: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
 				id: "2990B9CAC5A94F73"
 				type: "biome"
 			}]
@@ -1397,6 +1455,11 @@
 		}
 		{
 			dependencies: ["24958E87D1B6893F"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_scrap"
+				tag: { }
+			}
 			id: "5D006DFD57BAE44F"
 			rewards: [{
 				id: "1236940D6D363910"
@@ -1488,6 +1551,11 @@
 		}
 		{
 			dependencies: ["51E1682DBF0062D2"]
+			icon: {
+				Count: 1
+				id: "minecraft:echo_shard"
+				tag: { }
+			}
 			id: "2243EE61FE9DF289"
 			rewards: [{
 				count: 3
@@ -1570,6 +1638,11 @@
 		}
 		{
 			dependencies: ["4DA4B3B5EC216D1B"]
+			icon: {
+				Count: 1
+				id: "ad_astra:desh_ingot"
+				tag: { }
+			}
 			id: "7152ADB146499A96"
 			rewards: [{
 				id: "7CA578E9FD24EB11"
@@ -1651,6 +1724,11 @@
 		}
 		{
 			dependencies: ["1B5FB4BFC3366093"]
+			icon: {
+				Count: 1
+				id: "ad_astra:ostrum_ingot"
+				tag: { }
+			}
 			id: "01B665D8F9A316F5"
 			rewards: [{
 				id: "303CB47A1C4B7F06"
@@ -1733,6 +1811,11 @@
 		}
 		{
 			dependencies: ["5B45F6B48A81E380"]
+			icon: {
+				Count: 1
+				id: "ad_astra:calorite_ingot"
+				tag: { }
+			}
 			id: "5D34AB7D53702E87"
 			rewards: [{
 				id: "42C842493E529CE9"
@@ -1815,6 +1898,11 @@
 		}
 		{
 			dependencies: ["75BE9DB6CC095B88"]
+			icon: {
+				Count: 1
+				id: "ad_astra:etrium_ingot"
+				tag: { }
+			}
 			id: "0C8299F0C1FDF0E5"
 			rewards: [{
 				id: "1B716908B10210C2"
@@ -1878,6 +1966,11 @@
 		}
 		{
 			dependencies: ["17559ED0B5B300D9"]
+			icon: {
+				Count: 1
+				id: "enlightened_end:depleted_irradium_bar"
+				tag: { }
+			}
 			id: "1831C70E0A4B9875"
 			rewards: [{
 				id: "5CF687C3FF9D8481"
@@ -1959,6 +2052,11 @@
 		}
 		{
 			dependencies: ["17559ED0B5B300D9"]
+			icon: {
+				Count: 1
+				id: "enlightened_end:malachite"
+				tag: { }
+			}
 			id: "4BA4F5D20D29BDF5"
 			rewards: [{
 				id: "6905F8194EC931D8"
@@ -2022,6 +2120,11 @@
 		}
 		{
 			dependencies: ["17559ED0B5B300D9"]
+			icon: {
+				Count: 1
+				id: "enlightened_end:bismuth_ingot"
+				tag: { }
+			}
 			id: "726D2E537567B30E"
 			rewards: [{
 				id: "73170DAF75556EC7"
@@ -2085,6 +2188,11 @@
 		}
 		{
 			dependencies: ["7A3720167DCAF9EB"]
+			icon: {
+				Count: 1
+				id: "alexscaves:pearl"
+				tag: { }
+			}
 			id: "0FA3746C38F794B8"
 			rewards: [{
 				id: "07819F5D3924AD18"
@@ -2148,6 +2256,11 @@
 		}
 		{
 			dependencies: ["5DE53E1FE2154194"]
+			icon: {
+				Count: 1
+				id: "alexscaves:amber"
+				tag: { }
+			}
 			id: "76692DFB8834258D"
 			rewards: [{
 				id: "24FCA09BC348325D"
@@ -2211,6 +2324,11 @@
 		}
 		{
 			dependencies: ["2A36712104221BA5"]
+			icon: {
+				Count: 1
+				id: "alexscaves:guano"
+				tag: { }
+			}
 			id: "7AB6B28F0171651B"
 			rewards: [{
 				id: "7B659633EFA35D2B"
@@ -2274,6 +2392,11 @@
 		}
 		{
 			dependencies: ["79182D6BE9E5DE0D"]
+			icon: {
+				Count: 1
+				id: "alexscaves:uranium"
+				tag: { }
+			}
 			id: "2C5F9A3210357A54"
 			rewards: [{
 				id: "175A2F4866238DAD"
@@ -2337,6 +2460,11 @@
 		}
 		{
 			dependencies: ["79182D6BE9E5DE0D"]
+			icon: {
+				Count: 1
+				id: "alexscaves:sulfur_dust"
+				tag: { }
+			}
 			id: "5A5234A74B3FCB66"
 			rewards: [{
 				id: "42316BD26ECFF53D"
@@ -2401,6 +2529,11 @@
 		{
 			dependencies: ["541F6EDFBB45521D"]
 			description: [""]
+			icon: {
+				Count: 1
+				id: "alexscaves:scarlet_neodymium_ingot"
+				tag: { }
+			}
 			id: "5125C4BB0C5CD5F2"
 			rewards: [{
 				id: "2B3BE1490431ADC0"
@@ -2465,6 +2598,11 @@
 		{
 			dependencies: ["541F6EDFBB45521D"]
 			description: [""]
+			icon: {
+				Count: 1
+				id: "alexscaves:azure_neodymium_ingot"
+				tag: { }
+			}
 			id: "01AAA3C731162AB6"
 			rewards: [{
 				id: "70C9BBCDD3D57A12"
@@ -3072,8 +3210,9 @@
 		}
 		{
 			dependencies: ["6AE156D8DE1D619A"]
+			description: [""]
 			id: "7A3720167DCAF9EB"
-			subtitle: "No explation needed, its water"
+			subtitle: "No explation needed, it's water"
 			tasks: [{
 				id: "41383546A1EC4B14"
 				item: "minecraft:water_bucket"
@@ -3086,7 +3225,6 @@
 			dependencies: ["2589CF5251858E63"]
 			description: [
 				"&6Honey&r serves as the &oviscous fluid&r required to activate the &eAmberlite Molten Vent&r and drive &6amber automation&r via &lMechanical Extruders&r. Whether harvested naturally or synthesized, honey fuels the next tier of your industrial expansion."
-				""
 				"{@pagebreak}"
 				""
 				"While bees offer a renewable supply, you can also craft artificial honey through &lHeated Mixing&r. The recipe below shows how to create honey without the hassle of hives:"
@@ -3157,7 +3295,7 @@
 				"These vents, when connected to a &lmechanical extruder&r, unlock the automation of &cAncient Debris&r—one of the most valuable resources in the entire pack."
 				""
 				"{@pagebreak}"
-				"Mix the three essential milkshakes below to form this powerful concoction:"
+				"Mix the two essential milkshakes and vanilla below to form this powerful concoction:"
 				""
 				"{image:ftb:textures/_forge_frontier_mixing_neapolitan_milkshake.png width:200 height:120 align:center}"
 				""
@@ -3205,7 +3343,7 @@
 				""
 				"Now it’s time to forge &8Molten Carbon&r using a Tinkers’ Construct melter:"
 				""
-				"{image:ftb:textures/_forge_frontier_melting_carbon_4_0.png width:200 height:80 align:center}"
+				"{image:ftb:textures/_forge_frontier_melting_molten_carbon_4_0.png width:200 height:125 align:center}"
 				""
 				"{@pagebreak}"
 				""
@@ -3284,11 +3422,9 @@
 			description: [
 				"Molten Iron is the &ocritical fluid&r used in the automation of both the &cNeodymrium&r and &9Azurnium&r Vents deep within the &bMagnetic Caves&r. When channeled into &lmechanical extruders&r, this molten metal enables the automated production of &cScarlet Neodymrium&r and &9Azure Neodymrium&r—rare materials essential for late-game progression."
 				""
-				"To obtain Molten Iron, melt the following ingredient using a &lSeared&r or &lScorched Melter&r from Tinkers' Construct:"
+				"To obtain Molten Iron, melt iron dust (or any iron item) using Create Metallurgy."
 				""
-				"{image:ftb:textures/_tconstruct_smeltery_melting_metal_iron_raw.png width:200 height:80 align:center}"
-				""
-				"🔥 &lFrom ore to alloy&r—Molten Iron fuels the future of magnetized innovation. Power your extruders and forge your path forward! 🧲⚙"
+				"{image:ftb:textures/azurnium_neodymrium_vent_fluid_recipe.png width:180 height:110 align:center}"
 			]
 			id: "541F6EDFBB45521D"
 			rewards: [{
@@ -3298,8 +3434,12 @@
 			}]
 			subtitle: "Drives Scarlet and Azure Neodymrium Automation! Click to learn more! ⚙"
 			tasks: [{
-				id: "1A7336B66936C8E1"
-				item: "tconstruct:molten_iron_bucket"
+				id: "1A10FE3E80774320"
+				item: {
+					Count: 1
+					id: "createmetallurgy:molten_iron_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "Molten Iron: Magnetic Core Fuel"
@@ -3398,33 +3538,11 @@
 		{
 			dependencies: ["23CC3D007074DBEB"]
 			description: [
-				"&dChorus Fruit Pie Filling&r is the whimsical yet powerful fluid needed to activate the &5Lost Debris Vent&r. Once processed through &lMechanical Extruders&r, it unlocks access to &dLost Debris&r—eventually refined into &oEthium&r, a material of interdimensional importance."
+				"&dChorus Nectar&r is a whimsical yet powerful fluid needed to activate the &5Lost Debris Vent&r. &dLost Debris&r is eventually refined into &oEthium&r, a material of interdimensional importance."
 				""
-				"To whip up this legendary filling, you’ll need to go through a multi-step culinary ritual."
+				"To make Chorus Nectar, simply drain a Chorus Flower! "
 				""
-				"Start by creating &lSalt&r with a bit of water and some heat:"
-				""
-				"{image:ftb:textures/_forge_frontier_washing_sand.png width:200 height:100 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"With salt ready, it's time to churn out &lButter&r through heated mixing:"
-				""
-				"{image:ftb:textures/_sliceanddice_cooking_createfood_farmersdelight_cooking_butter_from_cooking.png width:200 height:120 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"Next, slice some &oChorus Fruit&r into magical purple segments:"
-				""
-				"{image:ftb:textures/_createfood_farmersdelight_cutting_chorus_fruit_slice_from_cutting.png width:200 height:120 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"Finally, blend it all together with a dash of culinary skill and heat to craft the one and only &dChorus Fruit Pie Filling&r:"
-				""
-				"{image:ftb:textures/_forge_frontier_mixing_chorus_fruit_pie_filling.png width:200 height:120 align:center}"
-				""
-				"⚙ &5From End fruit to industrial fuel—this pie filling is anything but ordinary.&r"
+				"{image:ftb:textures/lost_debris_vent_fluid_recipe.png width:200 height:80 align:center}"
 			]
 			id: "5792E4588E3A4A9A"
 			rewards: [{
@@ -3434,16 +3552,25 @@
 			}]
 			subtitle: "&oFueling the Lost Debris Vent and powering Ethium automation with a sweetly surreal touch!&r"
 			tasks: [{
-				id: "005A35DA0AEDA6AB"
-				item: "createfood:chorus_fruit_pie_filling_bucket"
+				id: "434A03DFBF361A78"
+				item: {
+					Count: 1
+					id: "create_ethium:chorus_nectar_fluid_bucket"
+					tag: { }
+				}
 				type: "item"
 			}]
-			title: "Chorus Fruit Pie Filling: Dimensional Dessert Delight"
+			title: "Chorus Nectar: Dimensional Delight"
 			x: 20.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5792E4588E3A4A9A"]
+			icon: {
+				Count: 1
+				id: "create_ethium:stellarite_chunk"
+				tag: { }
+			}
 			id: "39814F2893B31C67"
 			rewards: [{
 				id: "4CE3598B09250007"

@@ -1015,7 +1015,7 @@
 			}]
 			title: "Stress Progression: Fluid Processing"
 			x: -3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
@@ -1070,7 +1070,7 @@
 			}]
 			title: "Stress Progression: Copper Pipe"
 			x: -3.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5E955070872C95FC"]
@@ -1326,8 +1326,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Mechanical Pump"
-			x: -3.0d
-			y: 2.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CE141F1163EC938"]
@@ -1361,7 +1361,7 @@
 			]
 			title: "Stress Progression: Fluid Valve"
 			x: -4.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -2379,6 +2379,11 @@
 				""
 				"They also allow you to see the amount of fluid in your tank as well as its remaining capacity."
 			]
+			icon: {
+				Count: 1
+				id: "create:wrench"
+				tag: { }
+			}
 			id: "5DA6EB383B731634"
 			rewards: [
 				{
@@ -2524,7 +2529,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52994525D9DF88FA"]
@@ -3327,6 +3332,112 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1CE141F1163EC938"]
+			description: ["Pretty Pipes also adds in Fluid Pipes that can move your fluids from point A to point B way easier! There are many upgrades that can be applied to make the pipes pull faster or add more filtering options. Use a pipe wrench to configure their inputs and outputs."]
+			id: "2CE36FCCF171FEF2"
+			rewards: [
+				{
+					count: 24
+					id: "3542288F71CDCCD8"
+					item: {
+						Count: 1
+						id: "ppfluids:fluid_pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4F7237B752BFD63A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "4A7D47C32675AB22"
+				item: {
+					Count: 1
+					id: "ppfluids:fluid_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Fluid Pipes"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2199CA39A845A583"]
+			description: ["Pretty Pipes adds in Item Pipes that can move your items from point A to point B way easier! There are many upgrades that can be applied to make the pipes pull faster or add more filtering options. Use a pipe wrench to configure their inputs and outputs."]
+			id: "635DF7BE35B8AF68"
+			rewards: [
+				{
+					count: 24
+					id: "40BB7EF168B211A7"
+					item: {
+						Count: 1
+						id: "prettypipes:pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DEFABFF32CDAD1B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "64074A7C3193ECFA"
+				item: {
+					Count: 1
+					id: "prettypipes:pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Item Pipes"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["635DF7BE35B8AF68"]
+			description: ["The Pipe Pressurizer allows you to vastly speed up the rate at which items or fluids flow through your pipes. The effects of multiple Pressurizers do not seem to stack, so only one per pipeline should suffice. Power them and watch your items/fluids start to rocket through the pipes!"]
+			hide_dependency_lines: true
+			id: "3567AE4C12DC29DC"
+			rewards: [
+				{
+					count: 2
+					id: "19BAC6B83869A27F"
+					item: {
+						Count: 1
+						id: "prettypipes:high_speed_module"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74C95A7D56AD061E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0ECDF135F91367EC"
+				item: {
+					Count: 1
+					id: "prettypipes:pressurizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Pipe Pressurizer"
+			x: -5.5d
+			y: 2.5d
 		}
 	]
 	title: "Foundations of Ingenuity (Vanilla Create)"

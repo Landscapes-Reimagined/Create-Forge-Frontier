@@ -13,7 +13,7 @@
 		x: 3.5d
 		y: -4.5d
 	}]
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -478,182 +478,6 @@
 			y: 4.75d
 		}
 		{
-			dependencies: ["627D6929B6E6E721"]
-			description: [
-				"The Basic Motor is your first method of turning Create New Age’s FE-based electricity into SU rotational force."
-				"Supply it with power using an electrical connector set to Push, and it will output up to 512 SU at a max speed of 128 RPM - enough to jumpstart early machines."
-				""
-				"[\"\",{\"text\":\"Though you will likely want to add a \"},{\"text\":\"Basic Motor Extension\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"15E4F233D77D9159\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to add additional SU capacity to the motor.\"}]"
-			]
-			id: "0D3EECF732EBB7B9"
-			rewards: [
-				{
-					count: 2
-					id: "62F3D065254D95B6"
-					item: "create_new_age:overcharged_iron"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "36C52DAD62381918"
-					item: "create_new_age:copper_wire"
-					type: "item"
-				}
-				{
-					id: "40B4BD9041F2791F"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Converting Current to Kinetics"
-			tasks: [{
-				id: "50262584A08D5D4D"
-				item: "create_new_age:basic_motor"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"5523E65D4FDFDC65"
-				"0D3EECF732EBB7B9"
-			]
-			description: [
-				"The Strong Motor is the next step up for converting FE into kinetic energy. Generating 2,048 SU at up to 256 RPM, it’s ideal for larger contraptions and more demanding machines."
-				""
-				"[\"\",{\"text\":\"Consider adding a \"},{\"text\":\"Strong Motor Extension\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2558378C1CCA894E\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to add even more SU capacity to the motor.\"}]"
-			]
-			id: "5A0581571465F115"
-			require_sequential_tasks: false
-			rewards: [
-				{
-					count: 4
-					id: "190F4D71EA45D3E0"
-					item: "create_new_age:overcharged_gold"
-					type: "item"
-				}
-				{
-					id: "04DF9E783CBE1A30"
-					type: "xp"
-					xp: 30
-				}
-			]
-			subtitle: "Serious Power Output"
-			tasks: [{
-				id: "7383A36AC8AB8F23"
-				item: "create_new_age:advanced_motor"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"5A0581571465F115"
-				"0A97CA02BB7E91FB"
-			]
-			description: [
-				"The final tier of motor technology in Create New Age, the Reinforced Motor outputs a staggering 8,192 SU and stores up to 128K FE, making it the ultimate power source for your most demanding contraptions."
-				""
-				"[\"\",{\"text\":\"Don't forget to add a \"},{\"text\":\"Strong Motor Extension\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2558378C1CCA894E\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" to maximize the SU capacity to the motor.\"}]"
-			]
-			id: "5BD7BEBC609A56B8"
-			rewards: [
-				{
-					count: 4
-					id: "00121DD3FC45CDE1"
-					item: "create_new_age:overcharged_diamond"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "2C4EA447E41382AC"
-					item: "create_new_age:overcharged_diamond_wire"
-					type: "item"
-				}
-				{
-					id: "613AFC6042B896F0"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Peak Efficiency"
-			tasks: [{
-				id: "4D1109147E050A8B"
-				item: "create_new_age:reinforced_motor"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["0D3EECF732EBB7B9"]
-			description: [
-				"Need more SU from your motor? Attach a Basic Motor Extension behind it to increase its stress capacity."
-				""
-				"You'll need some circuits to craft"
-				"this - use EMI to learn how they're made and get assembling."
-			]
-			id: "15E4F233D77D9159"
-			rewards: [
-				{
-					count: 2
-					id: "0112BF1214ED69F9"
-					item: "create_new_age:overcharged_gold"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7B83969745A68B4B"
-					item: "create_new_age:blank_circuit"
-					type: "item"
-				}
-				{
-					id: "5ABB7ED98E389181"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Need More Power?"
-			tasks: [{
-				id: "0F40EFD3747E774F"
-				item: "create_new_age:basic_motor_extension"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"5A0581571465F115"
-				"15E4F233D77D9159"
-			]
-			description: ["This motor add-on greatly increases the capacity of your Motors by a whopping 8 times, allowing them to handle much heavier SU loads. Attach it behind the motor to activate its full potential."]
-			id: "2558378C1CCA894E"
-			rewards: [
-				{
-					count: 4
-					id: "388D0F3A0611FA75"
-					item: "create_new_age:copper_circuit"
-					type: "item"
-				}
-				{
-					id: "5E10B98E17D7F657"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "Boosting the Limits"
-			tasks: [{
-				id: "049963F7CFC9E2F3"
-				item: "create_new_age:advanced_motor_extension"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 7.0d
-		}
-		{
 			dependencies: ["2978B72E45349EC4"]
 			description: [
 				"The Boiler Heater functions just like a Blaze Burner. It uses external heat sources like Solar Plates or Nuclear Reactors to produce the temperature needed for Superheating."
@@ -735,13 +559,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"2558378C1CCA894E"
-				"5BD7BEBC609A56B8"
-				"6DF733C7DFC40BC1"
-			]
+			dependencies: ["6DF733C7DFC40BC1"]
 			description: ["Take this Thorium! It's a small but helpful reward to get you started with Create New Age's Nuclear Heat Production! There's some XP Levels in here for you too!"]
-			hide_dependent_lines: true
 			icon: "create_new_age:thorium"
 			id: "50588486100A469E"
 			rewards: [
@@ -765,7 +584,7 @@
 				type: "checkmark"
 			}]
 			title: "Complete All Energy Related Quests"
-			x: 11.0d
+			x: 9.0d
 			y: 7.0d
 		}
 		{
