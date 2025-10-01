@@ -858,37 +858,64 @@
 		{
 			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Glittering with the allure of the unknown, the &bAetheric Eye&r has led countless explorers to their destinies—some to the hidden treasures of Atlantis, others to fates lost beneath the crushing depths.  "
-				"It shimmers with ancient power and whispers of mysteries the world has long forgotten.  "
-				"To forge this artifact of discovery, you must master &lMechanical Crafting&r and brave the abyssal ruins left behind by civilizations swallowed by the sea.  "
+				"Glittering with the allure of the unknown, the &bAetheric Eye&r has guided countless explorers to their destinies—some to treasures hidden within the &eCataclysm Acropolis&r, others to fates lost beneath its storm-shrouded halls."
+				"It shimmers with elemental power and whispers of secrets long drowned by the tides."
+				"To forge this artifact of discovery, you must master &lMechanical Crafting&r and brave the ancient ruins where storms rage eternal."
 				"{image:ftb:textures/_forge_frontier_mechancial_crafting_exotic_eye.png width:200 height:125 align:center}"
 				""
 				"{@pagebreak}"
-				"The Aetheric Eye is not forged by fortune alone—it demands courage, sacrifice, and a willingness to descend into the unknown.  "
+				""
+				"The Aetheric Eye is not gifted by fortune—it must be claimed through strength, sacrifice, and mastery of the storm."
 				"The following pages will reveal the path to awakening its shimmering light."
 				""
 				"{@pagebreak}"
 				""
-				"- &lAbyssal Sacrifice&r:  "
-				"  A relic woven from the spoils of abyssal beasts, crafted through combining:  "
-				"  - A &eCataclysm Athame&r,  "
-				"  - A &eCataclysm Coral Chunk&r,  "
-				"  - And other sacred remnants.  "
-				"  These materials can only be earned by defeating the &eDeepling Warlock&r, &eDeepling Priest&r, and the mighty &eCoralssus&r within the depths of &eCataclysm’s Sunken City&r.  "
-				"{image:ftb:textures/sunkencity.png width:100 height:100 align:center}"
+				"&lEssence of the Storm&r:"
+				"The raw breath of a sea tempest, ripped from the heart of &eScylla&r—the guardian of the Acropolis."
+				"Only by defeating this monstrous horror can you harvest the &eEssence of the Storm&r, a keystone in the Eye’s awakening."
+				"{image:ftb:textures/scylla_2.png width:200 height:125 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"- &lAbyssal Egg&r:  "
-				"  A blade torn from the titanic jaws of the &eLeviathan&r—an ancient guardian that stalks the submerged ruins of the Sunken City.  "
-				"  Only by slaying this monstrous terror can you claim the Abyssal Egg, a fragment of the abyss itself.  "
-				"{image:cataclysm:textures/entity/leviathan/abyss_orb.png width:100 height:100 align:center}"
+				"&lEye of Storm&r:"
+				"Born not in battle, but through artifice."
+				"A &eSequenced Assembly&r upon an &eEye of Ender&r will reveal it, using:"
+				""
+				"A &eConduit&r,"
+				""
+				"A &eSea Lantern&r,"
+				""
+				"Washed in &eSpouting Water&r,"
+				""
+				"Then sealed with the press of automation."
+				"{image:cataclysm:item/storm_eye width:100 height:100 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"🌊 &nThe sea keeps its secrets—but you must steal them.&r  "
-				"The Aetheric Eye glimmers not for the timid, but for those who dare to challenge the abyss and reclaim the forgotten treasures of the deep.  "
-				"Only those who face the ocean’s ancient wrath and emerge victorious will awaken its guiding light."
+				"&lLacrima&r:"
+				"Crystallized sorrow shed by the Acropolis itself."
+				"It may be uncovered within its storm-drowned chests, or torn from the essence of any creature that dares to lurk within its halls."
+				"{image:cataclysm:item/lacrima width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lChitin Claw&r:"
+				"A jagged fragment from the armored grasp of the &eClawdian&r."
+				"Only those who fell the clawed sentinel of the Acropolis will hold this token of conquest."
+				"{image:cataclysm:item/chitin_claw width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lUndead Soul&r:"
+				"A whisper of the drowned, bound within the Acropolis’s cursed warriors."
+				"This essence is all that remains of those claimed by the sea, and it answers only to those who strike them down."
+				"{image:endrem:item/undead_soul width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌊 &nThe storm keeps its secrets—but you must seize them.&r"
+				"The Aetheric Eye glimmers not for the timid, but for those who conquer the wrath of the Acropolis and bind its relics into their command."
+				"Only the bold who withstand the sea’s fury will awaken its guiding light."
 			]
 			icon: {
 				Count: 1
@@ -901,7 +928,11 @@
 			rewards: [
 				{
 					id: "139E6F23A81A2865"
-					item: "cataclysm:abyssal_egg"
+					item: {
+						Count: 1
+						id: "cataclysm:chitin_claw"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -910,11 +941,11 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Forge the Aetheric Eye and uncover the secrets lost beneath the waves. Click me for more info! "
+			subtitle: "Forge the &bAetheric Eye&r and uncover the secrets bound within the Acropolis. Click me for more info! "
 			tasks: [
 				{
 					id: "273880B23E215E5A"
-					structure: "cataclysm:sunken_city"
+					structure: "cataclysm:acropolis"
 					type: "structure"
 				}
 				{
@@ -929,7 +960,7 @@
 					type: "item"
 				}
 			]
-			title: "Mysteries of the Deep"
+			title: "Mysteries of the Storm"
 			x: -7.5d
 			y: 12.5d
 		}
