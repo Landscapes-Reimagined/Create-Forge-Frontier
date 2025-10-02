@@ -1,0 +1,72 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [
+        {
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_sword"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_axe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_pickaxe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_shovel"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "createqol:shadow_radiance_hoe"
+            }
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "createqol:shadow_radiance_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "magnetic"
+    ]
+}

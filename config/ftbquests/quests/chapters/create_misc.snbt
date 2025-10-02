@@ -17,7 +17,7 @@
 		x: -0.75d
 		y: -10.0d
 	}]
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -1799,7 +1799,7 @@
 				item: "createendertransmission:item_transmitter"
 				type: "item"
 			}]
-			title: "The Ender Vault"
+			title: "The Item Transmitter"
 			x: -8.5d
 			y: -2.0d
 		}
@@ -1827,8 +1827,77 @@
 				item: "createendertransmission:energy_transmitter"
 				type: "item"
 			}]
+			title: "The Energy Transmitter"
 			x: -8.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"These Trash Cans are here to help you easily get rid of any excess resources clogging up your factories. "
+				""
+				"The basic Trash Can allows you to void fluids and items by piping them in or by using belts, among other ways. "
+				""
+				"The Brass Trash Can allows for more configuration options and the top can be made to act like a chute by right clicking with a wrench."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "createqol:trash_can"
+				tag: { }
+			}
+			id: "142A28877CBE6055"
+			rewards: [
+				{
+					count: 4
+					id: "658870564DFB2F0E"
+					item: {
+						Count: 1
+						id: "create:chute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5BEA911DCBA8516C"
+					item: {
+						Count: 1
+						id: "create:smart_chute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6DCF27F00AF98146"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "A Raccoon's Best Friend"
+			tasks: [
+				{
+					id: "7E35BADFF8B3CFFD"
+					item: {
+						Count: 1
+						id: "createqol:trash_can"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "026FECD8A5C054A1"
+					item: {
+						Count: 1
+						id: "createqol:brass_trash_can"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Trash Cans"
+			x: -8.5d
+			y: 1.0d
 		}
 	]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"

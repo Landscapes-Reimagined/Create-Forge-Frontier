@@ -1015,7 +1015,7 @@
 			}]
 			title: "Stress Progression: Fluid Processing"
 			x: -3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
@@ -1070,7 +1070,7 @@
 			}]
 			title: "Stress Progression: Copper Pipe"
 			x: -3.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5E955070872C95FC"]
@@ -1326,8 +1326,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Mechanical Pump"
-			x: -3.0d
-			y: 2.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CE141F1163EC938"]
@@ -1361,7 +1361,7 @@
 			]
 			title: "Stress Progression: Fluid Valve"
 			x: -4.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -2379,6 +2379,11 @@
 				""
 				"They also allow you to see the amount of fluid in your tank as well as its remaining capacity."
 			]
+			icon: {
+				Count: 1
+				id: "create:wrench"
+				tag: { }
+			}
 			id: "5DA6EB383B731634"
 			rewards: [
 				{
@@ -2524,7 +2529,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52994525D9DF88FA"]

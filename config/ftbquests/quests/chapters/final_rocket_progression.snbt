@@ -707,6 +707,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "36AF8CB1CFDC0032"
+			rewards: [{
+				id: "65BB2D4D9FB42D9A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 8L
@@ -733,6 +738,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "4BB54E651BBB1FC9"
+			rewards: [{
+				id: "63A2933FF98C7B92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 4L
@@ -759,6 +769,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "5A35F91B01CEBE2A"
+			rewards: [{
+				id: "7F5ABC20B7F833E6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Indestructible Core of Interstellar Might. Click me for more info!"
 			tasks: [{
 				count: 5L
@@ -911,6 +926,11 @@
 			]
 			icon: "forge_frontier:forge_rocket_nose_cone"
 			id: "7584AB93EB7D37EB"
+			rewards: [{
+				id: "017FF1EC131A8384"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "The Spearpoint of Legends, Forged to Break the Heavens! Click me for more info!"
 			tasks: [{
 				id: "4DCDDDF41A441922"
@@ -995,7 +1015,12 @@
 				}
 				{
 					id: "01B911DEBC4A7B75"
-					item: "forge_frontier:forge_alloy"
+					item: {
+						Count: 1
+						id: "forge_frontier:forge_alloy"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -1027,7 +1052,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Kobolediator found on Mars"
+			subtitle: "Resources needed to craft this helmet are obtained by Killing Cataclysm's Kobolediator found on Mars"
 			tasks: [{
 				id: "4359A61E7A9C5EC1"
 				item: {
@@ -1058,7 +1083,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Maledictus found on Glacio"
+			subtitle: "Resources needed to craft this helmet are obtained by Killing Cataclysm's Maledictus found on Glacio"
 			tasks: [{
 				id: "49CE469857CE3EB3"
 				item: {
@@ -1089,7 +1114,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Ignis is found on Mercury"
+			subtitle: "Resources needed to craft this helmet are obtained by Killing Cataclysm's Ignis is found on Mercury"
 			tasks: [{
 				id: "76F4573E54606C74"
 				item: {
@@ -1120,7 +1145,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by Killing Cataclysm's Netherite Monstrosity found on the Moon"
+			subtitle: "Resources needed to craft this helmet are obtained by Killing Cataclysm's Netherite Monstrosity found on the Moon"
 			tasks: [{
 				id: "2F3A30374FD6B7BE"
 				item: {
@@ -1151,7 +1176,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by fishing, recommend using Aquaculture fishing tools"
+			subtitle: "Resources needed to craft this helmet are obtained by fishing or by looting Acropolis chests. It is recommended to use Aquaculture fishing tools."
 			tasks: [{
 				id: "3151692C5C9F605A"
 				item: {
@@ -1182,7 +1207,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by going through the different tiers of Netherite"
+			subtitle: "This helmet is obtained by advancing through the different tiers of Netherite"
 			tasks: [{
 				id: "675A21200A619CF8"
 				item: {
@@ -1213,7 +1238,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by Looting Ancient Cities or Deeper Darker's Otherside"
+			subtitle: "Resources needed to craft this helmet are obtained by Looting Ancient Cities or Deeper Darker's Otherside"
 			tasks: [{
 				id: "1F3EC1A67B853057"
 				item: {
@@ -1244,7 +1269,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by Killing Alex's Caves' Forsaken and Watcher, found on the Forlorn Hollows Planet"
+			subtitle: "Resources needed to craft this helmet are obtained by Killing Alex's Caves' Forsaken and Watcher, found on the Forlorn Hollows Planet"
 			tasks: [{
 				id: "0936717EDCEC911B"
 				item: {
@@ -1274,7 +1299,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by allowing Alex's Caves' Gingerbread men to steal candy from your inventory , then there's a chance to get the armor in a nearby barrel found on the Candy Cavity Planet"
+			subtitle: "On the Candy Cavity planet, Alex's Caves' Gingerbread men need to steal candy from your inventory. After that, there's a chance to get the armor in a nearby barrel found on the Candy Cavity Planet"
 			tasks: [{
 				id: "77298D85D2893AE3"
 				item: {
@@ -1309,7 +1334,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by killing Alex's Caves' Grottoceratops found on the Primordial Caves Planet"
+			subtitle: "Resources needed to craft this helmet are obtained by killing Alex's Caves' Grottoceratops found on the Primordial Caves Planet"
 			tasks: [{
 				id: "6195B4300D448365"
 				item: {
@@ -1340,7 +1365,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by combining Shadow Radiance with a Netherite Diving Helmet, check EMI for Recipes"
+			subtitle: "This helmet is obtained by combining the Shadow Steel and Refined Radiance helmets, check JEI for Recipes"
 			tasks: [{
 				id: "3FB1ED0F07B0580E"
 				item: {
@@ -1371,7 +1396,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft the helmet is obtained by crafting through the Ad Astra space suit tiers"
+			subtitle: "This helmet is obtained by advancing through the Ad Astra space suit tiers"
 			tasks: [{
 				id: "428ADFC989FAB942"
 				item: {
@@ -1401,7 +1426,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Netherite Monstrosity and Ender Golem found on the Moon and the End"
+			subtitle: "Resources needed to craft this weapon are obtained by Killing Cataclysm's Netherite Monstrosity and Ender Golem found on Mars and the End"
 			tasks: [{
 				id: "44A87C623422F7F7"
 				item: {
@@ -1456,7 +1481,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by combing a Fluix block with a Quartz sword"
+			subtitle: "The Fluix Sword is crafted by combining a Fluix block with a Quartz sword"
 			tasks: [{
 				id: "5E046C09CAF89156"
 				item: {
@@ -1487,7 +1512,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by fishing, recommend using Aquaculture fishing tools"
+			subtitle: "Resources needed to craft this weapon are obtained by fishing or by looting Acropolis chests. It is recommended to use Aquaculture fishing tools."
 			tasks: [{
 				id: "7A9A3901CF687ACC"
 				item: {
@@ -1518,7 +1543,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by mining adamantium, which is found in the End"
+			subtitle: "Resources needed to craft this tool are obtained by mining adamantium, which is found in the End"
 			tasks: [{
 				id: "795429712B925FF3"
 				item: {
@@ -1549,7 +1574,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by going through the different tiers of Netherite"
+			subtitle: "This weapon is obtained by advancing through the different tiers of Netherite "
 			tasks: [{
 				id: "5183BA57C0C00CB9"
 				item: {
@@ -1580,7 +1605,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by crafting Ethium, check EMI for crafting recipe"
+			subtitle: "This weapon is obtained by crafting Ethium, check JEI for crafting recipe"
 			tasks: [{
 				id: "5B9568981BE08CD4"
 				item: {
@@ -1611,7 +1636,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by Looting Ancient Cities or Deeper Darker's Otherside"
+			subtitle: "Resources needed to craft this weapon are obtained by Looting Ancient Cities or Deeper Darker's Otherside"
 			tasks: [{
 				id: "0663DAB77D023649"
 				item: {
@@ -1650,7 +1675,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by crafting Prismarine Rods with Polished Quartz Tine"
+			subtitle: "The Trident can be crafted with Prismarine Alloy Rods and Spiky Shells, through Apothic Infusion, or obtained by killing Drowned"
 			tasks: [{
 				id: "51B5295D1DDBF38D"
 				item: {
@@ -1681,7 +1706,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Maledictus and Draugrs found on Glacio"
+			subtitle: "Resources needed to craft this weapon are obtained by Killing Cataclysm's Maledictus and Draugrs found on Glacio"
 			tasks: [{
 				id: "4633ABF2305704CF"
 				item: "cataclysm:soul_render"
@@ -1705,7 +1730,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Ignis and Ender Guardian found on Mercury and the End"
+			subtitle: "Resources needed to craft this weapon are obtained by Killing Cataclysm's Ignis and Ender Guardian found on Mercury and the End"
 			tasks: [{
 				id: "2E6B61C50FE1B232"
 				item: "cataclysm:gauntlet_of_bulwark"
@@ -1730,7 +1755,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by Killing Alex's Caves' Luxtructosaurus and Atlatitan found on the Primordial Caves Planet"
+			subtitle: "Resources needed to craft this weapon are obtained by Killing Alex's Caves' Luxtructosaurus and Atlatitan found on the Primordial Caves Planet"
 			tasks: [{
 				id: "4985CA837216510A"
 				item: {
@@ -1761,7 +1786,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Resources needed to craft this tool is obtained by Killing Cataclysm's Kobolediator found on Mars"
+			subtitle: "Resources needed to craft this weapon are obtained by Killing Cataclysm's Kobolediator found on Mars"
 			tasks: [{
 				id: "41F32429E8A23856"
 				item: {
@@ -1816,11 +1841,15 @@
 				}
 				{
 					id: "1D5AE18731E5A272"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 			]
-			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "30C7B705892365E5"
 				item: "forge_frontier:forge_rocket_nose_cone"
@@ -1854,7 +1883,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Obtained by Automation via the Mechanical Extruder"
 			tasks: [{
 				id: "2E627D2AB3AE97DB"
 				item: "forge_frontier:compressed_etrium_4x"
@@ -2180,7 +2209,12 @@
 			rewards: [
 				{
 					id: "330DC1C8931AE19A"
-					item: "forge_frontier:forge_rocket_casing"
+					item: {
+						Count: 1
+						id: "forge_frontier:forge_rocket_casing"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -2224,12 +2258,23 @@
 			hide_dependency_lines: true
 			icon: "forge_frontier:forge_alloy"
 			id: "5989CA8F6DA5A13D"
-			rewards: [{
-				id: "25F44B746972AF01"
-				item: "forge_frontier:forge_alloy"
-				type: "item"
-			}]
-			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
+			rewards: [
+				{
+					id: "25F44B746972AF01"
+					item: {
+						Count: 1
+						id: "forge_frontier:forge_alloy"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3804C93808D9E5B9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				id: "38363ADD823A1FE1"
 				item: "forge_frontier:forge_alloy"
@@ -2440,7 +2485,7 @@
 				type: "item"
 			}]
 			shape: "square"
-			subtitle: "Crafted via Mechancical Crafters, Check EMI for Recipe"
+			subtitle: "Crafted via Mechancical Crafters, Check JEI for Recipe"
 			tasks: [{
 				id: "6EADB38EA70F5FBE"
 				item: "createteleporters:custom_portal"
@@ -2480,11 +2525,15 @@
 				}
 				{
 					id: "7500D258DB6BFCBE"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 			]
-			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "62C55F11BFA627C3"
 				item: "forge_frontier:forge_rocket_door"
@@ -2508,7 +2557,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "0FC1A7E2CCD14A0C"
 				item: {
@@ -2537,7 +2586,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "46FE2907EDCA50EC"
 				item: {
@@ -2565,7 +2614,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "2DA6654B34D6E05C"
 				item: {
@@ -2593,7 +2642,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "78F7B2B4A5FC6CE3"
 				item: {
@@ -2621,7 +2670,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "2F713399264E57FA"
 				item: "sophisticatedstorage:netherite_shulker_box"
@@ -2645,7 +2694,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "0133174E48028198"
 				item: {
@@ -2676,7 +2725,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "41A2A6B3BD2444BA"
 				item: "sophisticatedbackpacks:netherite_backpack"
@@ -2701,7 +2750,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "10B6C9DA63C798A2"
 				item: "create:stock_ticker"
@@ -2714,21 +2763,29 @@
 			id: "0BCF950AB2114854"
 			rewards: [
 				{
-					id: "60FE95A3A214BBBB"
-					item: "createenderlink:ender_tank"
+					id: "5EB8CFB0F7943CCF"
+					item: {
+						Count: 1
+						id: "createendertransmission:fluid_transmitter"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "35FB148E53E3B094"
+					id: "6CA839D24BA77ACA"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
-				id: "0B4CCEA9DE412352"
-				item: "createenderlink:ender_tank"
+				id: "59A0986F3EDBB031"
+				item: {
+					Count: 1
+					id: "createendertransmission:fluid_transmitter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -15.5d
@@ -2738,21 +2795,29 @@
 			id: "77DA9830B86C7C65"
 			rewards: [
 				{
-					id: "7D5075867A8C01EE"
-					item: "createenderlink:ender_vault"
+					id: "2F9AEE0363780E8E"
+					item: {
+						Count: 1
+						id: "createendertransmission:item_transmitter"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "765FB9BACC7D331F"
+					id: "19A6B52370111FF4"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
-				id: "3EEEA4C439E8B6C5"
-				item: "createenderlink:ender_vault"
+				id: "03A65657597386FA"
+				item: {
+					Count: 1
+					id: "createendertransmission:item_transmitter"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: -14.5d
@@ -2773,7 +2838,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "764762FC8D77E941"
 				item: "create:item_vault"
@@ -2797,7 +2862,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "5EE6C193E9DD288D"
 				item: "mob_grinding_utils:jumbo_tank"
@@ -2833,11 +2898,15 @@
 				}
 				{
 					id: "7E1ACB647F3BEB27"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 			]
-			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "691B1169C35A88FC"
 				item: "forge_frontier:forge_rocket_tank"
@@ -2861,7 +2930,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "0B688684599677BC"
 				item: "angelring:energetic_angel_ring"
@@ -2885,7 +2954,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "78041188183F8E51"
 				item: "advanced_ae:flight_card"
@@ -2910,7 +2979,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "The Jet Suit is obtained by advancing through the Ad Astra space suit tiers"
 			tasks: [{
 				id: "42C61B5FF9D6C1C3"
 				item: {
@@ -2941,7 +3010,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "22E7E10CAA4FC363"
 				item: "create:controls"
@@ -2966,7 +3035,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "3F34E461E4EDE151"
 				item: "create:track_station"
@@ -2990,7 +3059,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Killing the Ender Dragon or in and End City Ship"
+			subtitle: "Obtained by Killing the Ender Dragon. Also found in End City Ships"
 			tasks: [{
 				id: "5C4D554363ECEAB1"
 				item: {
@@ -3024,7 +3093,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "7FD5386E25094C05"
 				item: {
@@ -3052,7 +3121,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "The Biplane is made via Mechanical Crafting. Check JEI for the Recipe"
 			tasks: [{
 				id: "4807EE00D357726D"
 				item: "immersive_aircraft:biplane"
@@ -3083,7 +3152,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "71BF16EED6B9009D"
 				item: {
@@ -3096,6 +3165,7 @@
 				title: "Any #createornithopterglider:gliders"
 				type: "item"
 			}]
+			title: "Ornithopter Glider"
 			x: 2.0d
 			y: 16.5d
 		}
@@ -3118,7 +3188,12 @@
 			rewards: [
 				{
 					id: "6907EBE1B586FACB"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3127,7 +3202,6 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "6219BDC5D3912B08"
 				item: "forge_frontier:forge_rocket_engine"
@@ -3151,7 +3225,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "476D59EE852CB4F1"
 				item: "create:precision_mechanism"
@@ -3175,7 +3249,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "669CC044039609C8"
 				item: "create_additions_synthetics:creative_core"
@@ -3199,7 +3273,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "6F107883EE2B4386"
 				item: "create_power_loader:brass_chunk_loader"
@@ -3223,7 +3297,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "7E1D713F824EB8F0"
 				item: "advanced_ae:quantum_core"
@@ -3247,7 +3321,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "265EE600447D5F20"
 				item: "create_things_and_misc:vibration_mechanism"
@@ -3271,7 +3345,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "562BFAB16231E9D9"
 				item: "create_dd:integrated_mechanism"
@@ -3295,7 +3369,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "6891ABBAC9F35B31"
 				item: "create_dd:sealed_mechanism"
@@ -3319,7 +3393,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "2B541C6A89BC0F87"
 				item: "create_dd:inductive_mechanism"
@@ -3343,7 +3417,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "3A686F0B8F04E1C2"
 				item: "create_dd:infernal_mechanism"
@@ -3367,7 +3441,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "6BE5D200384AE576"
 				item: "create_dd:calculation_mechanism"
@@ -3391,7 +3465,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "3792D493C96D73FD"
 				item: "createteleporters:quantum_mechanism"
@@ -3415,7 +3489,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Obtained by Factory Automation"
+			subtitle: "Obtained by Factory Automation, Check JEI for Recipe"
 			tasks: [{
 				id: "1FC586BBBB0AC7DC"
 				item: "create_dd:stargaze_singularity"
@@ -3439,7 +3513,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "1699A7E7DEFA4F2E"
 				item: "create_sa:steam_engine"
@@ -3463,7 +3537,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "0D02795706488B7A"
 				item: "create_sa:heat_engine"
@@ -3487,7 +3561,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "1D4A254FFED8025F"
 				item: "create_sa:hydraulic_engine"
@@ -3521,7 +3595,12 @@
 			rewards: [
 				{
 					id: "479FC0CC7A52A6F1"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 				{
@@ -3530,7 +3609,6 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "After Collecting this items, you will combine them in a mechanical crafting setup"
 			tasks: [{
 				id: "679D02C9A806ACB6"
 				item: "forge_frontier:forge_rocket_core"
@@ -3555,7 +3633,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "483FD3ECFA03350D"
 				item: "farmersdelight:shepherds_pie_block"
@@ -3568,19 +3646,22 @@
 			id: "16F537656A8BF0EA"
 			rewards: [
 				{
-					count: 2
-					id: "750E22531B5EAC81"
-					item: "farmersdelight:raw_pasta"
+					id: "1870EBFDECA2CC7D"
+					item: {
+						Count: 1
+						id: "miners_delight:pasta_with_veggieballs"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "075B5EA4F42D4F82"
+					id: "58B877961C68C26D"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "22C3C31F5F0BAEC8"
 				item: "alexsdelight:kangaroo_pasta"
@@ -3604,7 +3685,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "7D5194E153B00AF0"
 				item: "ends_delight:dragon_leg_with_sauce_block"
@@ -3629,7 +3710,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "55C7B9950AD092F5"
 				item: "delightful:smore"
@@ -3653,7 +3734,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "163A551095E87BEB"
 				item: "casualness_delight:donkey_burger"
@@ -3678,7 +3759,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "3C27049FB02C3ACB"
 				item: "nethersdelight:stuffed_hoglin"
@@ -3702,7 +3783,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "67A7BD96DFB79215"
 				item: "delightful:deluxe_cheeseburger"
@@ -3726,7 +3807,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "5C249FB60A05DA3C"
 				item: "ends_delight:dragon_breath_and_chorus_soup"
@@ -3739,18 +3820,22 @@
 			id: "6FA1D16A55C97EE6"
 			rewards: [
 				{
-					id: "1396101CD088077E"
-					item: "tconstruct:ender_slime_bucket"
+					id: "327874BF23639667"
+					item: {
+						Count: 1
+						id: "neapolitan:adzuki_ice_cream"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "0E859B1A0B507207"
+					id: "2F8EB61D435E12D9"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "0BF7023482C51856"
 				item: {
@@ -3767,18 +3852,22 @@
 			id: "4087DB9F6D9B26CC"
 			rewards: [
 				{
-					id: "6B65A772C601A339"
-					item: "createnuclear:raw_uranium"
+					id: "5D3E8DF9E1E8C6CA"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:acid_radgill_stew"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "6DC0215C5D9BB0F7"
+					id: "70B8A12FA124BF65"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "1A8F7D9E06D29C2B"
 				item: "alexscavesdelight:toxic_hamburger"
@@ -3791,18 +3880,22 @@
 			id: "0A6FDC464AB63830"
 			rewards: [
 				{
-					id: "5FD9D67B1C73EC92"
-					item: "alexscaves:heart_of_iron"
+					id: "4CECA9D33E010567"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:ferrouslime_pie_block"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "60F0F790D1B266F4"
+					id: "353241AAFC2BB197"
 					type: "xp"
 					xp: 100
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "64EC2F54A37CBB8B"
 				item: "alexscavesdelight:heart_of_iron_humburger"
@@ -3827,7 +3920,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "742C427D7BC3680A"
 				item: "ad_astra:rocket_fin"
@@ -3852,7 +3945,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "A Warden Heart is obtained by killing the Warden with a knife. Check JEI for Recipe"
 			tasks: [{
 				id: "3D9810220758DF42"
 				item: "silentsdelight:plated_warden_heart"
@@ -3877,7 +3970,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "26255CB025788EFE"
 				item: "miners_delight:improvised_barbecue_stick"
@@ -3902,7 +3995,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "62E40DC9E255094C"
 				item: "oceansdelight:cabbage_wrapped_elder_guardian"
@@ -3927,7 +4020,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "3F540CD6C086B3BB"
 				item: "aquaculturedelight:rollmops"
@@ -3966,11 +4059,15 @@
 				}
 				{
 					id: "7F4B346A908FF50C"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 			]
-			subtitle: "One of the essential stabilizing fins for the rocket’s structure, mounted on the left side to maintain balance and control during flight. "
 			tasks: [{
 				id: "526BA222163B818F"
 				item: "forge_frontier:forge_rocket_fin_left"
@@ -3994,7 +4091,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "6F70C311CDA30A44"
 				item: "apotheosis:filtering_shelf"
@@ -4018,7 +4115,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "1C6B7E91C728F0B9"
 				item: "apotheosis:treasure_shelf"
@@ -4042,7 +4139,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "7444E84256ECCA0D"
 				item: "apotheosis:extraction_tome"
@@ -4066,7 +4163,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "4E51477B1085BA50"
 				item: "apotheosis:rectifier_t3"
@@ -4090,7 +4187,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "169FB2908116A87D"
 				item: "apotheosis:ender_library"
@@ -4114,7 +4211,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "01919A5763DD3DA8"
 				item: "apotheosis:pearl_endshelf"
@@ -4138,7 +4235,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "0C6109E739552373"
 				item: "apotheosis:draconic_endshelf"
@@ -4162,7 +4259,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Consult the Apotheosis Quest or Check JEI for Recipe"
 			tasks: [{
 				id: "169B615DF353CA3A"
 				item: "apotheosis:sightshelf_t2"
@@ -4187,7 +4284,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Made via Superheated Mixing, Check JEI for Recipe"
 			tasks: [{
 				id: "664C7C74E5DB9BBE"
 				item: "create_enchantment_industry:hyper_experience_bottle"
@@ -4211,7 +4308,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "6C83C25E6384FBE5"
 				item: "minecraft:enchanting_table"
@@ -4235,7 +4332,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "6B69BCD1D20DC05C"
 				item: "create_enchantment_industry:disenchanter"
@@ -4259,7 +4356,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "72CD796FF876660B"
 				item: "experienceobelisk:nightmare_bottle"
@@ -4283,7 +4380,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "46A3A9B73A113AA4"
 				item: "experienceobelisk:daydream_bottle"
@@ -4308,7 +4405,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "57E45BC04525AD17"
 				item: "ad_astra:rocket_fin"
@@ -4332,7 +4429,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "0B826E3F55660A6C"
 				item: "experienceobelisk:bibliophage"
@@ -4357,7 +4454,7 @@
 				}
 			]
 			shape: "square"
-			subtitle: "Check EMI for Recipe"
+			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "76EE7182FBCDE7DE"
 				item: {
@@ -4400,11 +4497,15 @@
 				}
 				{
 					id: "7DEF16D58BCA6669"
-					item: "createcompression:compressed_netherite_1x"
+					item: {
+						Count: 1
+						id: "createcompression:compressed_netherite_1x"
+						tag: { }
+					}
+					team_reward: true
 					type: "item"
 				}
 			]
-			subtitle: "The counterpart to the left fin, attached to the right side of the rocket. Together, the fins enable smoother maneuvering and stable flight. "
 			tasks: [{
 				id: "6F7F162AA133FA15"
 				item: "forge_frontier:forge_rocket_fin_right"

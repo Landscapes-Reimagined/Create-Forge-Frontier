@@ -86,6 +86,7 @@
     "spawner_progress": true
   },
   "apotheosis": {
+    "adventure": true,
     "ench": true
   },
   "balm": {

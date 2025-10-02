@@ -1,0 +1,41 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:netherite_space_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:netherite_space_pants"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:netherite_space_suit"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "ad_astra:netherite_space_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "mars"
+    ]
+}

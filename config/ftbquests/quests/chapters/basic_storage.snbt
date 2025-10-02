@@ -4668,6 +4668,195 @@
 			x: 4.5d
 			y: 9.0d
 		}
+		{
+			dependencies: ["37AE9C979711C40C"]
+			description: ["The Item Terminal allows you to view all items in any inventory connected to your pipe network. It has an internal inventory you can request items from your network to be deposited into where you can then retrieve them. It can also send items back into your pipe network with its return inventory."]
+			hide_dependency_lines: true
+			id: "07A94C06EEA9EDA4"
+			rewards: [
+				{
+					count: 4
+					id: "29FC72CA80F8BB57"
+					item: {
+						Count: 1
+						id: "prettypipes:blank_module"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5222CE3303386C74"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "68BC6F641B363755"
+				item: {
+					Count: 1
+					id: "prettypipes:item_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37AE9C979711C40C"]
+			description: ["Pretty Pipes adds in Item Pipes that can move your items from point A to point B way easier! There are many upgrades that can be applied to make the pipes pull faster or add more filtering options. Use a pipe wrench to configure their inputs and outputs."]
+			id: "635DF7BE35B8AF68"
+			rewards: [
+				{
+					count: 24
+					id: "40BB7EF168B211A7"
+					item: {
+						Count: 1
+						id: "prettypipes:pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DEFABFF32CDAD1B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "64074A7C3193ECFA"
+				item: {
+					Count: 1
+					id: "prettypipes:pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Item Pipes"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37AE9C979711C40C"]
+			description: ["Pretty Pipes also adds in Fluid Pipes that can move your fluids from point A to point B way easier! There are many upgrades that can be applied to make the pipes pull faster or add more filtering options. Use a pipe wrench to configure their inputs and outputs."]
+			id: "2CE36FCCF171FEF2"
+			rewards: [
+				{
+					count: 24
+					id: "3542288F71CDCCD8"
+					item: {
+						Count: 1
+						id: "ppfluids:fluid_pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4F7237B752BFD63A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "4A7D47C32675AB22"
+				item: {
+					Count: 1
+					id: "ppfluids:fluid_pipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Fluid Pipes"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37AE9C979711C40C"]
+			description: ["The Pipe Pressurizer allows you to vastly speed up the rate at which items or fluids flow through your pipes. The effects of multiple Pressurizers do not seem to stack, so only one per pipeline should suffice. Power them and watch your items/fluids start to rocket through the pipes!"]
+			hide_dependency_lines: true
+			id: "3567AE4C12DC29DC"
+			rewards: [
+				{
+					count: 2
+					id: "19BAC6B83869A27F"
+					item: {
+						Count: 1
+						id: "prettypipes:high_speed_module"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "74C95A7D56AD061E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0ECDF135F91367EC"
+				item: {
+					Count: 1
+					id: "prettypipes:pressurizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "The Pipe Pressurizer"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Tired of messy storage and hauling items by hand?"
+				"With Pretty Pipes, you can create a clean, modular transport system to move, sort, and manage items effortlessly."
+				"Start with basic pipes, then expand with filters and upgrades to master automation."
+			]
+			id: "37AE9C979711C40C"
+			rewards: [
+				{
+					id: "1EA4D8FC1CEDCBBC"
+					item: {
+						Count: 1
+						id: "prettypipes:pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7ADD936ECF997ED7"
+					item: {
+						Count: 1
+						id: "ppfluids:fluid_pipe"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2AA11D6DB633539E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Build your first item network with Pretty Pipes."
+			tasks: [{
+				id: "6FF5D6809DE6D9B4"
+				item: {
+					Count: 1
+					id: "prettypipes:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Pipes Made Simple"
+			x: 0.0d
+			y: -2.25d
+		}
 	]
 	title: "Basic Storage"
 }

@@ -1,0 +1,72 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:netherite_sword"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:netherite_axe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:netherite_pickaxe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:netherite_shovel"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:netherite_hoe"
+            }
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:netherite_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:netherite_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:netherite_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:netherite_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "nether"
+    ]
+}

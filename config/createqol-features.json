@@ -5,6 +5,8 @@
   "proximitySchedule": true,
   "displayBoardModification": true,
   "blazeBurnerUseLiquids": false,
-  "statue": false,
-  "trashCan": false
+  "statue": true,
+  "trashCan": true,
+  "enderPackager": true,
+  "stockManager": false
 }

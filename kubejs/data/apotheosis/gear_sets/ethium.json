@@ -1,0 +1,48 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [
+        {
+            "weight": 2,
+            "stack": {
+                "item": "create_ethium:ethium_sword"
+            }
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "create_ethium:ethium_armor_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "end"
+    ]
+}

@@ -33,7 +33,7 @@
 
 ["Ftb Chunks"]
 	#If Ftb chunks is installed enable automatic purge of loaded chunks for people who have not been online for some amount of days. (Note LOADED not Claimed Chunks)
-	enabled = true
+	enabled = false
 	#Number of days after which a players chunks will be unloaded. Warning! This relies on the modify date of the player data file. 
 	#Range: > 0
 	days = 7

@@ -134,24 +134,6 @@ ServerEvents.recipes(event =>
                 acceptMirrored: false
             }).id('forge_frontier:mechanical_crafting/jet_suit');
 
-        // Etrionic Blast Furnace Recipe
-            event.remove({ id: 'ad_astra:etrionic_blast_furnace'})
-            event.custom({
-                type: "create:mechanical_crafting",
-                pattern: [
-                    'AAA',
-                    'BCB',
-                    'AAA'
-                ],
-                key: {
-                    A: Ingredient.of('#forge:plates/iron').toJson(),
-                    B: Ingredient.of('minecraft:redstone').toJson(),
-                    C: Ingredient.of('create:blaze_burner').toJson()
-                },
-                result: Ingredient.of('ad_astra:etrionic_blast_furnace').toJson(),
-                acceptMirrored: false
-            }).id('forge_frontier:mechanical_crafting/etrionic_blast_furnace');
-
         // Coal Generator Recipe
             event.remove({ id: 'ad_astra:coal_generator'})
             event.custom({
@@ -169,41 +151,6 @@ ServerEvents.recipes(event =>
                 result: Ingredient.of('ad_astra:coal_generator').toJson(),
                 acceptMirrored: false
             }).id('forge_frontier:mechanical_crafting/coal_generator');
-
-        // Compressor Recipe
-            event.remove({ id: 'ad_astra:compressor'})
-            event.custom({
-                type: "create:mechanical_crafting",
-                pattern: [
-                    'ABA',
-                    'A A',
-                    'ABA'
-                ],
-                key: {
-                    A: Ingredient.of('#forge:plates/iron').toJson(),
-                    B: Ingredient.of('create:mechanical_press').toJson()
-                },
-                result: Ingredient.of('ad_astra:compressor').toJson(),
-                acceptMirrored: false
-            }).id('forge_frontier:mechanical_crafting/compressor');
-            
-        // Fuel Refinery Recipe
-            event.remove({ id: 'ad_astra:fuel_refinery'})
-            event.custom({
-                type: "create:mechanical_crafting",
-                pattern: [
-                    'AAA',
-                    'BCB',
-                    'AAA'
-                ],
-                key: {
-                    A: Ingredient.of('#ad_astra:steel_plates').toJson(),
-                    B: Ingredient.of('create:fluid_pipe').toJson(),
-                    C: Ingredient.of('create_new_age:stirling_engine').toJson()
-                },
-                result: Ingredient.of('ad_astra:fuel_refinery').toJson(),
-                acceptMirrored: false
-            }).id('forge_frontier:mechanical_crafting/fuel_refinery');
 
         // Water Pump Recipe
             event.remove({ id: 'ad_astra:water_pump'})
@@ -373,25 +320,6 @@ ServerEvents.recipes(event =>
                 result: Ingredient.of('ad_astra:oxygen_distributor').toJson(),
                 acceptMirrored: false
             }).id('forge_frontier:mechanical_crafting/oxygen_distributor');
-
-        // Cryo Freezer Recipe
-            event.remove({ id: 'ad_astra:cryo_freezer'})
-            event.custom({
-                type: "create:mechanical_crafting",
-                pattern: [
-                    'ABA',
-                    'BCB',
-                    'DBD'
-                ],
-                key: {
-                    A: Ingredient.of('ad_astra:ostrum_plate').toJson(),
-                    B: Ingredient.of('ad_astra:ostrum_ingot').toJson(),
-                    C: Ingredient.of('ad_astra:ostrum_tank').toJson(),
-                    D: Ingredient.of('ad_astra:ostrum_block').toJson(),
-                },
-                result: Ingredient.of('ad_astra:cryo_freezer').toJson(),
-                acceptMirrored: false
-            }).id('forge_frontier:mechanical_crafting/cryo_freezer');
 
         // Tier 1 Rover Recipe
             event.remove({ id: 'ad_astra:tier_1_rover'})

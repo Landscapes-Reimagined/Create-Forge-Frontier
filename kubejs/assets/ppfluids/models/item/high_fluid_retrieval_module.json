@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ppfluids:item/high_fluid_retrieval_module"
+    }
+}

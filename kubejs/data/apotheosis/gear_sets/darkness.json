@@ -1,0 +1,27 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [],
+    "offhands": [],
+    "boots": [],
+    "leggings": [],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:cloak_of_darkness"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:hood_of_darkness"
+            }
+        }
+    ],
+    "tags": [
+        "hollows"
+    ]
+}

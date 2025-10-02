@@ -16,6 +16,10 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
+    'ad_astra:compressor',
+    'ad_astra:etrionic_blast_furnace',
+    'ad_astra:fuel_refinery',
+    'ad_astra:cryo_freezer',
     'farmingforblockheads:chicken_nest',
     'buildinggadgets2:template_manager',
     'buildinggadgets2:template',
@@ -53,8 +57,6 @@
     'create_connected:fan_ending_catalyst_dragons_breath',
     'mob_grinding_utils:rotten_egg',
     'mob_grinding_utils:golden_egg',
-    'mob_grinding_utils:dreadful_dirt',
-    'mob_grinding_utils:delightful_dirt',
     'mob_grinding_utils:nutritious_chicken_feed',
     'mob_grinding_utils:gm_chicken_feed',
     'mob_grinding_utils:gm_chicken_feed_cursed',
@@ -64,7 +66,11 @@
     'mob_grinding_utils:spawner_upgrade_width',
     'mob_grinding_utils:monocle',
     'mob_grinding_utils:entity_spawner',
-    'mob_grinding_utils:dark_oak_stone'],
+    'mob_grinding_utils:dark_oak_stone',
+    'prettypipes:crafting_terminal',
+    'prettypipes:high_crafting_module',
+    'prettypipes:low_crafting_module',
+    'prettypipes:medium_crafting_module'],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
   // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.

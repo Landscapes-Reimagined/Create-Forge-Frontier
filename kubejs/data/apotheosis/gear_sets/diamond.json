@@ -1,0 +1,72 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:diamond_sword"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:diamond_axe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:diamond_pickaxe"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:diamond_shovel"
+            }
+        },
+        {
+            "weight": 2,
+            "stack": {
+                "item": "minecraft:diamond_hoe"
+            }
+        }
+    ],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:diamond_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:diamond_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:diamond_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:diamond_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "nether"
+    ]
+}

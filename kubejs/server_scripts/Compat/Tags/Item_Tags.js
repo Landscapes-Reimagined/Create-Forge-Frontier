@@ -1,5 +1,7 @@
 ServerEvents.tags('item', event => 
     {
+        // Apotheosis Gem Tag
+            event.add('forge_frontier:apotheosis/gem', 'apotheosis:gem')
         // Powah Battery Tag
             event.add('curios:batterys',[
                 'powah:battery_starter',

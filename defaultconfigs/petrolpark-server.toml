@@ -1,0 +1,39 @@
+
+#Pquality world-specific Configs
+[server]
+
+	[server.contamination]
+		#Simple shaped Crafting Recipes will propagate the inputs' Contaminants to the outputs, regardless of what they are crafted in
+		shapedCraftingPropagatesContaminants = true
+		#Simple shapeless Crafting Recipes will propagate the inputs' Contaminants to the output, regardless of what they are crafted in
+		shapelessCraftingPropagatesContaminants = true
+		#Recipes done in Crafting Tables and the Inventory will propagate the inputs' Contaminants to the the output
+		#This can include simple shaped and shapeless Crafting Recipes, as well as custom ones like crafting Firework Stars
+		craftingTablePropagatesContaminants = true
+		#Smelting, Blasting, Smoking etc. Recipes will propagate the Contaminants of the input to the output
+		cookingPropagatesContaminants = true
+		#Brewing will propagate the Contaminants of inputs to the resultant Potion
+		brewingPropagatesContaminants = true
+		#The Contaminants of a Potion brewed from a Water Bottle depend only on the Contaminants of the added ingredient, not the Water Bottle
+		brewingWaterBottleContaminantsIgnored = true
+		#Smithing will propagate the Contaminants of the base Item and added Item to the result
+		smithingPropagatesContaminants = true
+
+	[server.compat]
+
+		[server.compat.create]
+			#How many mB of Fluid should be considered to be equal to one Item when weighting preserved Contaminants in any Recipes involving Fluids
+			#Set to 0 to not count the contaminants of fluids. Contaminants will still propagate to resultant Fluids.
+			#Range: 0.0 ~ 1.7976931348623157E308
+			fluidContaminantWeight = 100.0
+			#Recipes done in a Basin will propagate the Contaminants of the input to the outputs
+			basinRecipesPropagateContaminants = true
+			#Recipes done by Millstones and Crushing Wheels will propagate the Contaminants of the input to the outputs
+			crushingRecipesPropagateContaminants = true
+			#Manual Sandpaper Polishing Recipes will propagate the Contaminants of the input to the output
+			sandingRecipesPropagateContaminants = true
+			#Cutting Recipes will propagate the Contaminants of the input to the output
+			cuttingRecipesPropagateContaminants = true
+			#Pressing, Deploying, Washing and all Mechanical Fan Recipes propagate the Contaminants of the input to the outputs
+			otherRecipesPropagateContaminants = true
+

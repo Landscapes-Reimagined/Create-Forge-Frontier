@@ -4,7 +4,7 @@
 # Most miscellaneous feature toggles.
 features:
   # Stops the server from loading spawn chunks.
-  disable-spawn-chunks: false
+  disable-spawn-chunks: true
   # Prevents lagspikes caused by players moving into unloaded chunks.
   prevent-moving-into-unloaded-chunks: false
   # The amount of ticks between auto-saves when /save-on is active.
@@ -18,7 +18,7 @@ features:
   item-merge-radius: 0.5
   lobotomize-villagers:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
-    enabled: false
+    enabled: true
     # Decides the interval in between villager ticks when lobotomized.
     tick-interval: 20
 
@@ -26,7 +26,7 @@ features:
 # Automatically modifies dynamic settings based on the server performance.
 dynamic:
   # Enables dynamic performance checks.
-  enabled: false
+  enabled: true
   # The average MSPT to target.
   target-mspt: 35
   # The settings that will be decreased when the server is overloaded, in the specified order.
@@ -37,7 +37,7 @@ dynamic:
   # ► interval = The amount of seconds between each check to increase or decrease.
   dynamic-settings:
     - setting: 'CHUNK_TICK_DISTANCE'
-      max: 10
+      max: 32
       min: 2
       increment: 1
       interval: 15
