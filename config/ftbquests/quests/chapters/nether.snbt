@@ -48,6 +48,11 @@
 			shape: "pentagon"
 			subtitle: "Explore the Ruins of the Deep and uncover relics buried in silence and shadow. Click me for more info!"
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
 				id: "4668E116A3A3198C"
 				structure: "idas:ruins_of_the_deep"
 				title: "Ruins of the Deep"
@@ -77,6 +82,11 @@
 			shape: "pentagon"
 			subtitle: "Uncover the secrets buried beneath the Tinkers Workshop and reignite forgotten brilliance. Click me for more info!"
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
 				id: "5365D7558DF2FCE7"
 				structure: "idas:tinkers_workshop"
 				title: "Tinkers Workshop"
@@ -111,6 +121,11 @@
 			shape: "pentagon"
 			subtitle: "Break the barrier and reclaim the forgotten wealth of the Ancient Mines. Click me for more info!"
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
 				id: "0FBE52135DB18C50"
 				structure: "idas:ancient_mines"
 				title: "Ancient Mines"
@@ -143,6 +158,11 @@
 			shape: "pentagon"
 			subtitle: "Uncover the lost inventions and secrets buried within the Tinker’s Citadel. Click me for more info!"
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
 				id: "1F862107BD50E3FE"
 				structure: "idas:tinkers_citadel"
 				title: "Tinker's Citadel"
@@ -435,6 +455,11 @@
 				"This portal—once dormant—may now serve as your passage into the &4Nether Remastered&r.  "
 				"🔥 &nStep through, and begin your journey into the inferno.&r"
 			]
+			icon: {
+				Count: 1
+				id: "nether_remastered:seal_crystal"
+				tag: { }
+			}
 			id: "786B2E479D58EC68"
 			rewards: [{
 				id: "14294AA14C1FEF42"
@@ -445,6 +470,11 @@
 			subtitle: "Claim the last piece of the seal and unlock the blazing path ahead. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "01FBDA6D9EDE67C5"
 					structure: "#minecraft:ruined_portal"
 					title: "Nether Portal"

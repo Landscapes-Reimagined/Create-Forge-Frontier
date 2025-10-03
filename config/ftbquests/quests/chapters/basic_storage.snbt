@@ -4812,12 +4812,17 @@
 		{
 			description: [
 				"Tired of messy storage and hauling items by hand?"
+				""
 				"With Pretty Pipes, you can create a clean, modular transport system to move, sort, and manage items effortlessly."
+				""
 				"Start with basic pipes, then expand with filters and upgrades to master automation."
+				""
+				"Do note that your pipes must be at least two pipes long or they will not work."
 			]
 			id: "37AE9C979711C40C"
 			rewards: [
 				{
+					count: 2
 					id: "1EA4D8FC1CEDCBBC"
 					item: {
 						Count: 1
@@ -4827,6 +4832,7 @@
 					type: "item"
 				}
 				{
+					count: 2
 					id: "7ADD936ECF997ED7"
 					item: {
 						Count: 1

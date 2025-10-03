@@ -52,6 +52,7 @@
 					elevate_perms: true
 					exclude_from_claim_all: true
 					id: "040777C7B854A2D4"
+					title: "Reset the End Island"
 					type: "command"
 				}
 			]
@@ -59,8 +60,14 @@
 			size: 3.0d
 			subtitle: "Enter the End and forge your path through power, peril, and purpose. Click me for more info!"
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:end_portal_frame"
+					tag: { }
+				}
 				id: "28FEAB937642EDAC"
 				structure: "integrated_stronghold:stronghold"
+				title: "Locate the Stronghold"
 				type: "structure"
 			}]
 			title: "Whispers of the Void"
@@ -126,6 +133,11 @@
 				""
 				"&nThis is your moment.&r Rise, strike, and prove yourself against the apex of all foes."
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
 			id: "6720A599B8A32D97"
 			rewards: [
 				{
@@ -169,6 +181,7 @@
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "77C29B2176052A23"
+				title: "Slay the Ender Dragon"
 				type: "kill"
 				value: 1L
 			}]
@@ -243,6 +256,11 @@
 				""
 				"&nStep carefully, fight wisely—and let the End reward your courage.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:purpur_block"
+				tag: { }
+			}
 			id: "2C9F0702A802DBE0"
 			rewards: [
 				{
@@ -270,8 +288,22 @@
 			subtitle: "Explore the End Cities and claim the Elytra—if you can survive the Shulkers' wrath. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "18EA67C756E991CA"
 					structure: "minecraft:end_city"
+					title: "Locate an End City"
 					type: "structure"
 				}
 				{
@@ -302,6 +334,11 @@
 				"&nTrack them down. Study their secrets. Unlock their potential.&r  "
 				"The End has more to offer than danger—it holds the keys to your future."
 			]
+			icon: {
+				Count: 1
+				id: "enlightened_end:void_shale"
+				tag: { }
+			}
 			id: "4DAE1B438A323AFC"
 			rewards: [
 				{
@@ -362,6 +399,11 @@
 				"Read more about crafting the Tier 5 in its  "
 				"{ \"text\": \"Rocket Introduction Quest \", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58AF77D0696B9822\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_5_rocket"
+				tag: { }
+			}
 			id: "0F51715DD2602DD1"
 			rewards: [
 				{

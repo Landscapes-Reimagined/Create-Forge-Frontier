@@ -56,16 +56,24 @@
 		{
 			dependencies: ["3F3994EDD215FC99"]
 			description: [
-				"&cYou’ve broken the seal and crossed into the Nether&r—  "
+				"&cYou’ve broken the seal and crossed into the Nether&r—"
 				"but this realm of flame is unforgiving, and survival begins the moment you arrive."
 				""
-				"Your first task is not conquest—it’s &6stability&r.  "
-				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin collecting the &cNether’s essential resources&r to avoid becoming another lost soul in the lava-soaked dark."
+				"Your first task is not conquest—it’s &6resource gathering&r."
 				""
-				"Use the &bLodestone&r and &bCompass&r rewards to anchor your journey and find your way home when the heat closes in."
+				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin mining the &cNether’s rich materials&r—quartz, gold, glowstone, and more—to fuel your survival and progress. Stockpile what you can, for every vein you uncover strengthens your foothold in this hostile world."
 				""
-				"&nThis is your foothold in the inferno. Hold it, or be consumed by it.&r"
+				"Use the &bLodestone&r and &bCompass&r rewards to anchor your journey and ensure you can always find your way back, even when the twisting caverns threaten to swallow you whole."
+				""
+				"&nThis is your foothold in the inferno. Mine it, master it, or be consumed by it.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "79796694A2D1F0DE"
 			rewards: [
 				{
@@ -91,7 +99,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Establish your first stronghold in the Nether and prepare for what lies beyond. Click me for more info!"
+			subtitle: "Mine the Nether’s vital resources and secure what you need to survive. Click me for more info!"
 			tasks: [
 				{
 					id: "277AEF0B736D28BF"
@@ -135,6 +143,11 @@
 				""
 				"&nIn the Nether, your survival depends on what you take—and how you use it.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:blackstone"
+				tag: { }
+			}
 			id: "4927BD8DBED4A962"
 			rewards: [
 				{
@@ -222,6 +235,11 @@
 				""
 				"{image:ftb:textures/fortress.png width:200 height:120 align:center}"
 			]
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
 			id: "1D6068D3F034486B"
 			rewards: [
 				{
@@ -250,8 +268,14 @@
 			subtitle: "Conquer a Nether Fortress and claim the treasures guarded by fire and bone. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "39D03DC70B2598BB"
 					structure: "betterfortresses:fortress"
+					title: "Locate a Nether Fortress"
 					type: "structure"
 				}
 				{
@@ -286,6 +310,13 @@
 				""
 				"{image:ftb:textures/bastion_rem.png width:192 height:150 align:center}"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "1665A6E78A71E6F5"
 			rewards: [
 				{
@@ -317,8 +348,14 @@
 			subtitle: "Raid a Bastion Remnant and outwit the Piglins who guard its treasures. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "30840877FC473F29"
 					structure: "minecraft:bastion_remnant"
+					title: "Locate a Bastion"
 					type: "structure"
 				}
 				{
@@ -358,6 +395,11 @@
 				""
 				"🔮 &nMaster the riches of the Nether—and turn chaos into strength.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:soul_sand"
+				tag: { }
+			}
 			id: "7BAE261166502E1D"
 			rewards: [
 				{
@@ -458,6 +500,11 @@
 				""
 				"&nOnly those willing to dig deep and risk everything will wield what lies below.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_ingot"
+				tag: { }
+			}
 			id: "127DD18CE2DA41ED"
 			rewards: [
 				{
@@ -513,6 +560,13 @@
 				"Sharpen your blades, ready your gear, and step boldly into battle.  "
 				"&nOnly those who face the fire head-on will rise as true champions of the Nether.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3E8BB2ABA5F04447"
 			rewards: [
 				{
@@ -602,6 +656,13 @@
 				"Learn more about getting to space in the  "
 				"{ \"text\": \"Ad Astra Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A09B8EFE2811CB9\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "4C84AE74FCD29D66"
 			rewards: [
 				{
