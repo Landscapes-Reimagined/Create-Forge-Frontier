@@ -226,12 +226,16 @@
 				}
 				{
 					count: 8
-					id: "6946D2920F4FED7E"
-					item: "create_dd:steel_ingot"
+					id: "0E32A3CF848E37E1"
+					item: {
+						Count: 1
+						id: "ad_astra:steel_ingot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "63347CC4EDA6F1AD"
+					id: "1573ADD822CD3A7B"
 					type: "xp"
 					xp: 50
 				}
@@ -404,7 +408,7 @@
 			description: [
 				"The Overburden Casing is designed for high-capacity loads. "
 				""
-				"It is used to make item pipes and vaults, forming the foundation of strong, scalable logistics."
+				"It is used to make vaults, forming the foundation of strong, scalable storage."
 			]
 			id: "3696F1B5E0C16F29"
 			rewards: [
@@ -510,7 +514,7 @@
 				type: "item"
 			}]
 			title: "Simple But Vital"
-			x: -1.5d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -531,7 +535,7 @@
 					xp: 25
 				}
 			]
-			subtitle: " The Workhorse of Progress"
+			subtitle: "The Workhorse of Progress"
 			tasks: [{
 				count: 4L
 				id: "6BBFF2A01CB8A34A"
@@ -744,8 +748,13 @@
 		}
 		{
 			dependencies: ["4E16FEE8C7907853"]
-			description: ["Steel is made by combining industrial iron and coal in a basin under heat and high pressure. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
+			description: ["Steel is made by combining industrial iron and coal in a heated basin. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "create_dd:steel_ingot"
+				tag: { }
+			}
 			id: "213B0ECDCCEA9AB0"
 			rewards: [
 				{
@@ -766,12 +775,20 @@
 					xp: 50
 				}
 			]
-			subtitle: "  A Carbon Combination"
+			subtitle: "A Carbon Combination"
 			tasks: [{
-				id: "7F5CBF9C0E23F0CD"
-				item: "create_dd:steel_ingot"
+				id: "1BD41B1ED14EDBE0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Steel Ingot"
 				type: "item"
 			}]
+			title: "Steel"
 			x: 2.0d
 			y: -5.5d
 		}
@@ -896,7 +913,7 @@
 		{
 			dependencies: ["6D199BCCCFE35819"]
 			description: [
-				"The Hydraulic Casing is a key component in early automation. It is used to craft both fluid pipes and the hydraulic press, both of which rely on pressure to make fluids flow and compress items. "
+				"The Hydraulic Casing is a key component in early automation. It is used to craft the hydraulic press, which relies on pressure to to compress items. "
 				""
 				"Every good system needs a strong frame, and this is where it starts."
 			]
@@ -1497,7 +1514,7 @@
 		}
 		{
 			dependencies: ["78FDFDDD273A975C"]
-			description: ["Infablocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with AE2 systems using formation and annihilation planes to automate their collection. Whether you're building or collecting infinite resources, Infablocks are the ultimate form of automation."]
+			description: ["InfaBlocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with AE2 systems using formation and annihilation planes to automate their collection. Whether you're building or collecting infinite resources, InfaBlocks are the ultimate form of automation."]
 			icon: "create_dd:infacobblestone"
 			id: "089AAAA52771B181"
 			rewards: [
@@ -1522,10 +1539,10 @@
 						value: "create_dd:infablocks"
 					}
 				}
-				title: "Any #create_dd:infablocks"
+				title: "Make any InfaBlock"
 				type: "item"
 			}]
-			title: "Infablocks"
+			title: "InfaBlocks"
 			x: 1.5d
 			y: 5.0d
 		}

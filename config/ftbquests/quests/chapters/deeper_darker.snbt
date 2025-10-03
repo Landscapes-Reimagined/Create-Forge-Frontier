@@ -71,6 +71,7 @@
 				""
 				"&nThe descent begins now.&r Will you make it back… or vanish like those who came before?"
 			]
+			icon: "minecraft:sculk_sensor"
 			id: "516EFC067D776C8A"
 			rewards: [
 				{
@@ -142,6 +143,11 @@
 				""
 				"{image:ftb:textures/ancientcity.png width:192 height:150 align:center}"
 			]
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
 			id: "14894ADF77BC554B"
 			rewards: [
 				{
@@ -189,14 +195,26 @@
 			subtitle: "Enter the Ancient City and uncover its secrets—if you can survive the Warden’s wrath. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "25BF5C4FA5E7E1A3"
 					structure: "minecraft:ancient_city"
+					title: "Locate an Ancient City"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:warden_spawn_egg"
+						tag: { }
+					}
 					id: "434F6F2D7EFA2D82"
 					observe_type: 5
 					timer: 0L
+					title: "Look at a Warden"
 					to_observe: "minecraft:warden"
 					type: "observation"
 				}
@@ -279,6 +297,11 @@
 				""
 				"&nAre you ready to cross into the unknown?&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:reinforced_deepslate"
+				tag: { }
+			}
 			id: "6EA9BDB19D85D796"
 			rewards: [
 				{
@@ -307,15 +330,22 @@
 			subtitle: "Use the Warden’s Heart to open the gateway to the Otherside. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:reinforced_deepslate"
+						tag: { }
+					}
 					id: "0238DC307F972017"
 					observe_type: 0
 					timer: 0L
+					title: "Look at Reinforced Deepslate"
 					to_observe: "minecraft:reinforced_deepslate"
 					type: "observation"
 				}
 				{
 					dimension: "deeperdarker:otherside"
 					id: "7DF81B683529C80F"
+					title: "Travel to the Otherside"
 					type: "dimension"
 				}
 			]
@@ -344,6 +374,11 @@
 				"&nStep carefully.&r Breathe slowly.  "
 				"And whatever you do—don’t listen too closely."
 			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:sculk_stone"
+				tag: { }
+			}
 			id: "0BDAF6E0DAA27F56"
 			rewards: [
 				{
@@ -396,24 +431,43 @@
 				{
 					biome: "deeperdarker:deeplands"
 					id: "0BD88A5F1F649205"
+					title: "Visit a Deeplands Biome"
 					type: "biome"
 				}
 				{
-					count: 32L
-					id: "0F37B278F1524299"
-					item: "deeperdarker:sculk_stone"
-					type: "item"
-				}
-				{
 					entity: "deeperdarker:sculk_centipede"
+					icon: {
+						Count: 1
+						id: "deeperdarker:sculk_centipede_spawn_egg"
+						tag: { }
+					}
 					id: "69E65A630BC6D75A"
 					type: "kill"
 					value: 1L
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "7C68283CEFD35E8A"
 					structure: "deeperdarker:ancient_temple"
+					title: "Locate an Ancient Temple"
 					type: "structure"
+				}
+				{
+					block: "deeperdarker:sculk_stone"
+					block_type: 0
+					checkItem: false
+					icon: {
+						Count: 1
+						id: "deeperdarker:sculk_stone"
+						tag: { }
+					}
+					id: "707467CA5CB9C8F5"
+					type: "questsadditions:break"
+					value: 32L
 				}
 			]
 			title: "Echoes Beyond"
@@ -438,6 +492,13 @@
 				""
 				"🖤 &nFrom the abyss, rise anew.&r"
 			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6AD897F8D2F82187"
 			rewards: [
 				{
@@ -536,6 +597,11 @@
 				"Learn how to unlock the End in the  "
 				"{ \"text\": \"End Remastered Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"01DD8338C9E8DE75\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:ender_eye"
+				tag: { }
+			}
 			id: "5C36A2466A3B6973"
 			rewards: [
 				{

@@ -1862,7 +1862,12 @@
 			id: "645095D1F886FAB8"
 			rewards: [{
 				id: "15E3664815B319FA"
-				item: "createcompression:compressed_experience_6x"
+				item: {
+					Count: 1
+					id: "createcompression:compressed_experience_6x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1879,7 +1884,12 @@
 			id: "7AAFF03DB14B563A"
 			rewards: [{
 				id: "24D8AFA06437AADC"
-				item: "forge_frontier:compressed_etrium_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_etrium_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1896,7 +1906,12 @@
 			id: "102FDF88DD007049"
 			rewards: [{
 				id: "375A6EB0BC4BE3A9"
-				item: "forge_frontier:compressed_malachite_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_malachite_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1913,7 +1928,12 @@
 			id: "3D492F19757FBF68"
 			rewards: [{
 				id: "7071F652799BBB54"
-				item: "forge_frontier:compressed_irradium_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_irradium_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1930,7 +1950,12 @@
 			id: "33D089BFFBB8ACA8"
 			rewards: [{
 				id: "22416CB1AF0AB7E1"
-				item: "forge_frontier:compressed_bismuth_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_bismuth_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1947,7 +1972,12 @@
 			id: "05B3C1EA21803DF9"
 			rewards: [{
 				id: "6207A2A7F79AF25A"
-				item: "forge_frontier:compressed_desh_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_desh_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1964,7 +1994,12 @@
 			id: "4579583A3455FFF4"
 			rewards: [{
 				id: "10A738176369ADB4"
-				item: "forge_frontier:compressed_ostrum_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_ostrum_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1981,7 +2016,12 @@
 			id: "71DCABE706D3F906"
 			rewards: [{
 				id: "2B577D1DB1F6146B"
-				item: "forge_frontier:compressed_calorite_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_calorite_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -1998,7 +2038,12 @@
 			id: "1A6B742AD4174067"
 			rewards: [{
 				id: "29AB5D5436967832"
-				item: "forge_frontier:compressed_scarlet_neodymium_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_scarlet_neodymium_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2015,7 +2060,12 @@
 			id: "6384135DAEA1989D"
 			rewards: [{
 				id: "3C6C0F06A8679834"
-				item: "forge_frontier:compressed_azure_neodymium_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_azure_neodymium_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2032,7 +2082,12 @@
 			id: "7A49199AD7C67856"
 			rewards: [{
 				id: "55FD3003571A0AEB"
-				item: "forge_frontier:compressed_uranium_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_uranium_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2049,7 +2104,12 @@
 			id: "2699748D3172F7AA"
 			rewards: [{
 				id: "0998C5A6431305B4"
-				item: "forge_frontier:compressed_amber_5x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_amber_5x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2066,7 +2126,12 @@
 			id: "0E073BDDBE007735"
 			rewards: [{
 				id: "0F5D05742CACC788"
-				item: "forge_frontier:compressed_sulfur_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_sulfur_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2083,7 +2148,12 @@
 			id: "441F7841C05A866D"
 			rewards: [{
 				id: "3808A99B3681B523"
-				item: "forge_frontier:compressed_guano_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_guano_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2100,7 +2170,12 @@
 			id: "353E7BD7A9A0F94B"
 			rewards: [{
 				id: "7C894C93FA867C4D"
-				item: "forge_frontier:compressed_pearl_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_pearl_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2117,7 +2192,12 @@
 			id: "262FB7030C4331FA"
 			rewards: [{
 				id: "39010EF3BC385241"
-				item: "forge_frontier:compressed_mithril_2x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_mithril_2x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2134,7 +2214,12 @@
 			id: "286780F7814926B8"
 			rewards: [{
 				id: "5E672F35AF3314F7"
-				item: "forge_frontier:compressed_industrial_iron_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_industrial_iron_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2151,7 +2236,12 @@
 			id: "596CDD93A165CE36"
 			rewards: [{
 				id: "77A07D9F911AA736"
-				item: "forge_frontier:compressed_mechanism_block_4x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_mechanism_block_4x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2168,7 +2258,12 @@
 			id: "78A698F4BD970E34"
 			rewards: [{
 				id: "01F5CDEF3493A28F"
-				item: "forge_frontier:compressed_netherite-diamond_3x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_netherite-diamond_3x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"
@@ -2185,7 +2280,12 @@
 			id: "5FCCB2083412B001"
 			rewards: [{
 				id: "2BA9667D375D419D"
-				item: "forge_frontier:compressed_ethium_2x"
+				item: {
+					Count: 1
+					id: "forge_frontier:compressed_ethium_2x"
+					tag: { }
+				}
+				team_reward: true
 				type: "item"
 			}]
 			shape: "square"

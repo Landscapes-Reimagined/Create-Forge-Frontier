@@ -222,43 +222,73 @@
 		{
 			dependencies: ["4854DCBA109D4460"]
 			description: [
-				"🔥 &6Enter the Burning Arena&r"
+				"🔥 &6The Burning Arena&r"
+				"Mercury’s Trial of Fire"
 				""
 				"Beneath Mercury’s scorched surface lies an ancient battleground shrouded in mystery—the &lBurning Arena&r. Carved from fire and fury, this brutal arena challenges only the most fearless adventurers."
 				""
 				"{@pagebreak}"
 				""
-				"Inside, you’ll face &cmerciless foes&r and &6rare guardians&r, each standing between you and the legendary treasures sealed within. Victory is not guaranteed—but those who triumph will walk away with more than just loot."
+				"💠 &3The AE2 Meteorite&r"
+				"Key to Lost Technology"
 				""
-				"Among the spoils lies something extraordinary: the &3AE2 Meteorite&r—an alien remnant that unlocks access to a long-lost &9technological storage system&r. With it, you’ll gain the ability to harness &oancient, advanced automation&r through Applied Energistics 2."
+				"Within the heart of the arena lies the &3AE2 Meteorite&r—an alien relic unlike any other. Its crystalline core unlocks access to a long-lost &9technological storage system&r, granting mastery over &oancient, advanced automation&r through Applied Energistics 2. For those who seize it, entire worlds of organization and power open at their command."
 				""
-				"Are you ready to step into the flames, face your destiny, and emerge a legend?"
+				"{@pagebreak}"
+				""
+				"🏰 &5The Forbidden Castle&r"
+				"Stronghold of Shadows"
+				""
+				"Hidden beyond the flames stands the ominous &5Forbidden Castle&r. Cloaked in darkness and guarded by spectral wardens, this fortress conceals secrets long banished from mortal knowledge. To breach its halls is to gamble with fate itself—yet the treasures within may shape the destiny of empires."
 			]
+			icon: {
+				Count: 1
+				id: "cataclysm:flame_eye"
+				tag: { }
+			}
 			id: "36EE0ABAB607D1F3"
 			rewards: [{
 				id: "01B68D579C8C4304"
 				item: "cataclysm:ignitium_ingot"
 				type: "item"
 			}]
-			subtitle: "Face Mercury’s ultimate trial and unlock ancient alien secrets. Click me for more info!"
+			subtitle: "Brave Mercury’s trial, harness alien power, and storm the Forbidden Castle. Click here to learn more!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:flame_eye"
+						tag: { }
+					}
 					id: "438D481D85851815"
 					structure: "cataclysm:burning_arena"
+					title: "Locate the Burning Arena"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "ae2:meteorite_compass"
+						tag: { }
+					}
 					id: "2A2011145D1F9BC1"
 					structure: "ae2:meteorite"
+					title: "Locate a Meteorite"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "14817A01C1DA00C8"
 					structure: "incendium:forbidden_castle"
+					title: "Locate a Forbidden Castle"
 					type: "structure"
 				}
 			]
-			title: "Enter the Burning Arena"
+			title: "&dQuest of the Lost Realms&r"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -280,6 +310,11 @@
 				"Learn more about your next destination in the  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25721A33E1238EBD\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:venus_globe"
+				tag: { }
+			}
 			id: "08573BBF32BBB660"
 			rewards: [{
 				id: "74EAB2F47BE2FAC8"
