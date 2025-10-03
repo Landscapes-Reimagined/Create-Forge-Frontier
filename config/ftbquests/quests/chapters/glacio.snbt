@@ -151,7 +151,13 @@
 				""
 				"&7As the wind howls above, only the brave descend into the ice. Will you be the one to &lunearth Glacio’s buried power&r? ⚒❄"
 			]
-			icon: "ad_astra:glacio_ice_shard_ore"
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "58CFB703A2216D9F"
 			rewards: [
 				{
@@ -210,6 +216,11 @@
 				""
 				"&7Steel your nerves, adventurer—these icy tombs are not for the faint of heart. But those who endure the frost will emerge with &lknowledge, power, and the keys to the stars.&r 🌨🗝"
 			]
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_eye"
+				tag: { }
+			}
 			id: "0AFEDCD0BAB4CCE9"
 			rewards: [
 				{
@@ -232,13 +243,25 @@
 			subtitle: "Explore ancient ruins locked in ice and guarded by frostbitten foes. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "7922B1BB31DD61DB"
 					structure: "incendium:sanctum"
+					title: "Locate a Sanctum"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:cursed_eye"
+						tag: { }
+					}
 					id: "14E293FB17B73132"
 					structure: "cataclysm:frosted_prison"
+					title: "Locate a Frosted Prison"
 					type: "structure"
 				}
 			]
@@ -263,6 +286,11 @@
 				""
 				"&7From frozen peaks to abyssal depths, your journey now shifts toward a realm of ancient magic, forgotten ruins, and a final confrontation. Are you ready to &lunlock the End&r? 🌑🗝"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:ender_eye"
+				tag: { }
+			}
 			id: "65D12057D044A1DB"
 			rewards: [
 				{

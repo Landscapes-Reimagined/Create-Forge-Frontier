@@ -291,15 +291,7 @@
 					icon: {
 						Count: 1
 						id: "explorerscompass:explorerscompass"
-						tag: {
-							DisplayCoordinates: 1b
-							FoundX: 64
-							FoundZ: 192
-							Samples: 4
-							SearchRadius: 1250
-							State: 2
-							StructureKey: "idas:ancient_portal/ancient_portal"
-						}
+						tag: { }
 					}
 					id: "18EA67C756E991CA"
 					structure: "minecraft:end_city"

@@ -226,12 +226,16 @@
 				}
 				{
 					count: 8
-					id: "6946D2920F4FED7E"
-					item: "create_dd:steel_ingot"
+					id: "0E32A3CF848E37E1"
+					item: {
+						Count: 1
+						id: "ad_astra:steel_ingot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "63347CC4EDA6F1AD"
+					id: "1573ADD822CD3A7B"
 					type: "xp"
 					xp: 50
 				}
@@ -744,7 +748,7 @@
 		}
 		{
 			dependencies: ["4E16FEE8C7907853"]
-			description: ["Steel is made by combining industrial iron and coal in a basin under heat and high pressure. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
+			description: ["Steel is made by combining industrial iron and coal in a heated basin. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
 			hide_dependent_lines: true
 			id: "213B0ECDCCEA9AB0"
 			rewards: [
@@ -768,8 +772,12 @@
 			]
 			subtitle: "  A Carbon Combination"
 			tasks: [{
-				id: "7F5CBF9C0E23F0CD"
-				item: "create_dd:steel_ingot"
+				id: "1BD41B1ED14EDBE0"
+				item: {
+					Count: 1
+					id: "ad_astra:steel_ingot"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 2.0d

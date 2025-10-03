@@ -85,7 +85,11 @@
 				"Learn how to build your rocket and more in the  "
 				"{ \"text\": \"Tier 1 Rocket Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A1C7563FC03C5F6\" } }"
 			]
-			icon: "ad_astra:fuel_bucket"
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
 			id: "783280C62226C4D6"
 			rewards: [{
 				count: 3
@@ -341,6 +345,11 @@
 				""
 				"&lWill you uncover lost knowledge or be buried with it?&r The Moon's mysteries are yours to claim—if you survive. 🌘🔧"
 			]
+			icon: {
+				Count: 1
+				id: "cataclysm:mech_eye"
+				tag: { }
+			}
 			id: "229BA6C2D9B46694"
 			rewards: [
 				{
@@ -364,28 +373,58 @@
 			subtitle: "Explore ancient structures and face what lies hidden beneath the dust. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:mech_eye"
+						tag: { }
+					}
 					id: "3B13E9816B7BBC01"
 					structure: "cataclysm:ancient_factory"
+					title: "Locate an Ancient Factory"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "407CF07886BCB364"
 					structure: "incendium:pipeline"
+					title: "Locate a Pipeline"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "6F0555498AA9A4F6"
 					structure: "ad_astra:lunar_tower"
+					title: "Locate a Lunar Tower"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "2FD837043821995D"
 					structure: "ad_astra:lunarian_village"
+					title: "Locate a Lunarian Village"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "3214B52881CDBCA4"
 					structure: "ad_astra:moon_dungeon"
+					title: "Locate a Moon Dungeon"
 					type: "structure"
 				}
 			]
@@ -507,6 +546,11 @@
 				"&lYour space journey continues—read more about conquering Mars in its&r  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:mars_globe"
+				tag: { }
+			}
 			id: "2DC61E3DC8AF2A42"
 			rewards: [{
 				id: "51FEE375DD08737A"

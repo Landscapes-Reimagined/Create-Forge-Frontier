@@ -149,7 +149,13 @@
 				""
 				"🔥 &oOnly the fire-hardened will thrive beneath the blaze.&r"
 			]
-			icon: "ad_astra:venus_calorite_ore"
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2F2B03E58524C01A"
 			rewards: [
 				{
@@ -206,6 +212,11 @@
 				""
 				"🔥 &6Can you survive the past… while walking through fire?&r"
 			]
+			icon: {
+				Count: 1
+				id: "cataclysm:desert_eye"
+				tag: { }
+			}
 			id: "66B44ACF05B64947"
 			rewards: [
 				{
@@ -229,23 +240,47 @@
 			subtitle: "Explore Venus’ scorched legacy—and live to tell the tale. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "4D15CF2752EB5192"
 					structure: "ad_astra:pygro_tower"
+					title: "Locate a Pygro Tower"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "558150F44035CDA2"
 					structure: "ad_astra:pygro_village"
+					title: "Locate a Pygro Village"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "68130BE7123FCAF2"
 					structure: "incendium:nether_reactor"
+					title: "Locate a Nether Reactor"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:desert_eye"
+						tag: { }
+					}
 					id: "48BC33B2CE6B7D63"
 					structure: "cataclysm:cursed_pyramid"
+					title: "Locate a Cursed Pyramid"
 					type: "structure"
 				}
 			]
@@ -327,6 +362,11 @@
 				"{ \"text\": \"Discover more in its \", \"color\": \"white\" }"
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:glacio_globe"
+				tag: { }
+			}
 			id: "094EA96520B42095"
 			rewards: [{
 				id: "282F506C1D0C11F2"
