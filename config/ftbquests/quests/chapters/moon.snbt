@@ -57,8 +57,15 @@
 			size: 3.0d
 			subtitle: "Build your rocket, conquer the Moon, and prepare for your journey among the stars. Click me for more info!"
 			tasks: [{
-				id: "25BEA3A967EBC520"
-				item: "ad_astra:steel_ingot"
+				id: "604120E836DCC685"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
 				type: "item"
 			}]
 			title: "Lunar Awakening"
@@ -99,11 +106,6 @@
 			}]
 			subtitle: "Fuel up, suit up, and get ready for launch—space waits for no one. Click me for more info!"
 			tasks: [
-				{
-					id: "3EFBFF05BF642A5B"
-					item: "ad_astra:fuel_refinery"
-					type: "item"
-				}
 				{
 					count: 3L
 					id: "6DA9DF18EDF59F48"
