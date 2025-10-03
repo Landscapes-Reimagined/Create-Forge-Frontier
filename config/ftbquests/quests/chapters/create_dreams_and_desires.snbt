@@ -514,7 +514,7 @@
 				type: "item"
 			}]
 			title: "Simple But Vital"
-			x: -1.5d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
@@ -535,7 +535,7 @@
 					xp: 25
 				}
 			]
-			subtitle: " The Workhorse of Progress"
+			subtitle: "The Workhorse of Progress"
 			tasks: [{
 				count: 4L
 				id: "6BBFF2A01CB8A34A"
@@ -750,6 +750,11 @@
 			dependencies: ["4E16FEE8C7907853"]
 			description: ["Steel is made by combining industrial iron and coal in a heated basin. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
 			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "create_dd:steel_ingot"
+				tag: { }
+			}
 			id: "213B0ECDCCEA9AB0"
 			rewards: [
 				{
@@ -770,16 +775,20 @@
 					xp: 50
 				}
 			]
-			subtitle: "  A Carbon Combination"
+			subtitle: "A Carbon Combination"
 			tasks: [{
 				id: "1BD41B1ED14EDBE0"
 				item: {
 					Count: 1
-					id: "ad_astra:steel_ingot"
-					tag: { }
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
 				}
+				title: "Steel Ingot"
 				type: "item"
 			}]
+			title: "Steel"
 			x: 2.0d
 			y: -5.5d
 		}
