@@ -10,7 +10,7 @@
 		image: "ftb:textures/apotheosis_title.png"
 		rotation: 0.0d
 		width: 15.0d
-		x: 1.5d
+		x: -1.0d
 		y: -10.5d
 	}]
 	order_index: 2
@@ -18,7 +18,7 @@
 	quests: [
 		{
 			description: [
-				"In &6Create: Forge Frontier&r, the mod &5Apotheosis&r overhauls the vanilla system for enchanting. It does this by introducing some new stats to enchanting tables and new bookshelves to alter those stats."
+				"In &6Create: Forge Frontier&r, the mod &5Apotheosis&r overhauls the vanilla enchanting system. It does this by introducing some new stats to enchanting tables and new bookshelves to alter those stats."
 				""
 				"These stats are as follows:"
 				"&n&aEterna&r&r"
@@ -45,30 +45,30 @@
 				type: "item"
 			}]
 			title: "Introduction to Enchanting"
-			x: 4.8999999999999995d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6965F4ABCAB88875"]
 			description: [
-				"&n&5Apotheosis&r&r changes many things about Enchanting in Minecraft, yet some remain the same. "
+				"&n&5Apotheosis&r&r makes significant changes to Enchanting in Minecraft, though some core mechanics remain familiar."
 				""
-				"Enchanting tables will only detect blocks modifying it's stats if they're exactly one block away. These stats alter the behaviour of your enchantments."
+				"Enchanting Tables will only detect blocks that modify their stats if those blocks are placed exactly one block away. These stats directly influence the behavior of enchantments."
 				""
 				"{@pagebreak}"
-				"&a&nEterna&r&r, also known as  Enchanting Power, determines the level of your enchantments. Different tiers and types of bookshelves will add varying amounts. Every level of shelf has a certain maximum of &a&nEterna&r&r beyond which it will no longer contribute to raising the value."
+				"&a&nEterna&r&r, also known as  Enchanting Power, determines the level of your enchantments. Different tiers and types of bookshelves will add varying amounts. Every shelf has a maximum cap, beyond which additional shelves of that type will not increase the value."
 				""
 				"The level of your enchantment is 2x your Eterna value. If you reach the maximum of 50 &n&aEterna&r&r you will be enchanting at level 100."
 				""
 				"{@pagebreak}"
-				"&n&4Quanta&r&r refers to the instability of your enchantments. This can be both a good and a bad thing as it can both increase or decrease the true level of enchantment that will be applied. "
+				"&n&4Quanta&r&r represents the instability of your enchantments. It can be both beneficial and detrimental, as it may increase or decrease the true level applied. "
 				""
 				"The amount it increases or decreases depends on the enchanting table's Quanta value. If the table has a Quanta value of 50, the actual enchantment value can be -50 or +50."
 				""
 				"{@pagebreak}"
-				"&n&5Arcana&r&r is the stat that determines the availability of rare enchants. The higher the value the easier it is to get rare enchants on whatever item is being enchanted. "
+				"&n&5Arcana&r&r is the stat that determines the availability of rare enchants. The higher the value is, the easier it is to get rare enchantments."
 				""
-				"However very high levels of &5&nArcana&r&r will also make common enchantments more difficult to get."
+				"However, very high levels of &5&nArcana&r&r will also make common enchantments more difficult to get."
 			]
 			id: "2172A6251E7C57A8"
 			rewards: [
@@ -98,16 +98,16 @@
 			}]
 			title: "Apotheosis Enchanting"
 			x: 5.0d
-			y: -4.1000000000000005d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2172A6251E7C57A8"]
 			description: [
 				"&n&eRectification&r&r is a modifier that interacts with &4&nQuanta&r&r."
 				""
-				"The way it interacts is by stripping away the negative scalar of the random modifier. &n&4Quanta&r&r can both increase and decrease the applied level of enchantments, the higher the rectification the smaller the negative value. "
+				"It interacts by stripping away the negative side of the random modifier. &4&nQuanta&r&r can both increase and decrease the applied enchantment level, but the higher the Rectification, the smaller the possible decrease. "
 				""
-				"At 100% &n&eRectification&r&r, enchantments will no longer be able to go lower, the &n&4Quanta&r&r instability can only improve their level, potentially even beyond the maximum of Level 100 at 50 &n&aEterna&r&r."
+				"At 100% &n&eRectification&r&r, enchantments will never go below their base level. Instead, &4&nQuanta&r&r can only increase their strength, even allowing levels to exceed 100 when paired with 50 &a&nEterna&r&r."
 			]
 			icon: "apotheosis:rectifier"
 			id: "722D72A914A3A75B"
@@ -132,7 +132,7 @@
 			}]
 			title: "Countering Quanta"
 			x: 3.5d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2172A6251E7C57A8"]
@@ -176,11 +176,11 @@
 			}]
 			title: "Visions of Arcana"
 			x: 6.5d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
 			dependencies: ["2172A6251E7C57A8"]
-			description: ["The &e&nDeepshelf of Arcane Treasures&r&r will allow your enchanting setup to also channel treasure enchantments into your items. These enchantments are rare boons found in loot chests around the world, examples of these are Mending, Frost Walker but also the &cCurses&r"]
+			description: ["The &e&nDeepshelf of Arcane Treasures&r&r expands your enchanting setup, making it possible to obtain treasure enchantments on your items. These are rare boons normally found in loot chests, such as Mending or Frost Walker. Though it may also include &cCurses&r."]
 			icon: "apotheosis:treasure_shelf"
 			id: "37EF4656BB766E72"
 			rewards: [
@@ -213,10 +213,15 @@
 			}]
 			title: "Arcane Treasures"
 			x: 5.0d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
-			description: ["&nBookshelves&r are the start to your enchanting journey, as introduced before these contribute &n&aEterna&r&r to your enchanting table."]
+			description: ["&nBookshelves&r are the start to your enchanting journey. Since they were introduced in vanilla minecraft, these shelves only contribute &n&aEterna&r&r to your enchanting table."]
+			icon: {
+				Count: 1
+				id: "minecraft:bookshelf"
+				tag: { }
+			}
 			id: "05F2E49CD742486D"
 			rewards: [
 				{
@@ -259,11 +264,11 @@
 			}]
 			title: "Arcane Beginnings"
 			x: -1.0d
-			y: 0.8999999999999995d
+			y: 1.0d
 		}
 		{
 			dependencies: ["05F2E49CD742486D"]
-			description: ["These &nHellshelves&r provide more &a&nEterna&r&r, but the fires of hell also bring &n&cQuanta&r&r with them. The magical journey is more than just crafting, maybe try &oinfusing&r it?"]
+			description: ["The &nHellshelf&r provides more &a&nEterna&r&r, but the fires of hell also bring &n&cQuanta&r&r with them. The magical journey is more than just crafting, maybe try &oinfusing&r it?"]
 			id: "52E26768C164CA9D"
 			rewards: [
 				{
@@ -291,11 +296,11 @@
 			}]
 			title: "Power of the Hells"
 			x: 0.5d
-			y: -0.10000000000000053d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05F2E49CD742486D"]
-			description: ["The &nSeashelf&r provide more &a&nEterna&r&r and &5&nArcana&r&r than their regular counterpart. I wonder what would happen if you tried &oinfusing&r it?"]
+			description: ["The &nSeashelf&r provides more &a&nEterna&r&r and &5&nArcana&r&r than their regular counterpart. I wonder what would happen if you tried &oinfusing&r it?"]
 			id: "439EB3C5F595DCFC"
 			rewards: [
 				{
@@ -317,10 +322,10 @@
 			}]
 			title: "Power of the Seas"
 			x: 0.5d
-			y: 1.8999999999999986d
+			y: 2.0d
 		}
 		{
-			description: ["The slumbering variant of a &nDeepshelf&r, If only there was a way to awaken it's power. Maybe try infusing it?"]
+			description: ["The slumbering variant of a &nDeepshelf&r, If only there was a way to awaken its power. Maybe try infusing it?"]
 			id: "708E8D7979E8C8FE"
 			rewards: [
 				{
@@ -355,7 +360,13 @@
 			y: 1.0d
 		}
 		{
-			description: ["The &6&nEnchantment Library&r&r let's you store enchanted books and withdraw specific enchantments out from it. You cannot withdraw the maximum level of an enchantment. You can only take out the amount of enchanted levels as you have stored within."]
+			description: [
+				"The &6&nEnchantment Library&r&r allows you to store enchanted books and later withdraw specific enchantments from them. "
+				""
+				"You cannot extract enchantments at their maximum level, only up to the number of levels you have stored within the library."
+				""
+				"Inserting a tool, weapon, or armor piece will filter the library to show only enchantments that are compatible with the inserted item."
+			]
 			id: "4C2A6292B32562A3"
 			rewards: [
 				{
@@ -380,7 +391,7 @@
 		}
 		{
 			dependencies: ["4C2A6292B32562A3"]
-			description: ["The ultimate block of Knowledge, the &5&nLibrary of Alexandria&r&r. It functions the exact same as it's predecssor, the Enchantment Library. It does however have endless depths more storage for enchanted books and their magical energy."]
+			description: ["The ultimate block of Knowledge, the &5&nLibrary of Alexandria&r&r. It functions the exact same as its predecessor, the Enchantment Library. It has more storage for enchanted books and their magical energy."]
 			id: "526375684367F60A"
 			rewards: [
 				{
@@ -441,7 +452,7 @@
 				type: "item"
 			}]
 			title: "Scraps of Arcana"
-			x: -5.5d
+			x: -7.0d
 			y: 5.5d
 		}
 		{
@@ -472,7 +483,7 @@
 				type: "item"
 			}]
 			title: "Superior Scrapping"
-			x: -4.0d
+			x: -5.0d
 			y: 5.5d
 		}
 		{
@@ -532,12 +543,12 @@
 				type: "item"
 			}]
 			title: "Arcane Extraction"
-			x: -2.5d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["52E26768C164CA9D"]
-			description: ["Infusion has awakened the power locked within the Hellshelf, this new &nInfused Hellshelf&r provides increased &n&aEterna&r&r and reduced &n&4Quanta&r&r to it's predecessor."]
+			description: ["Infusion has awakened the power locked within the Hellshelf, this new &nInfused Hellshelf&r provides increased &n&aEterna&r&r and reduced &n&4Quanta&r&r compared to its predecessor."]
 			id: "27516AC94B996057"
 			rewards: [
 				{
@@ -565,7 +576,7 @@
 			}]
 			title: "Hellish Infusion"
 			x: 2.0d
-			y: -0.10000000000000053d
+			y: 0.0d
 		}
 		{
 			dependencies: ["439EB3C5F595DCFC"]
@@ -596,11 +607,11 @@
 			}]
 			title: "Oceanic Infusion"
 			x: 2.0d
-			y: 1.8999999999999986d
+			y: 2.0d
 		}
 		{
 			dependencies: ["708E8D7979E8C8FE"]
-			description: ["This newly &nInfused Deepshelf&r is the next step along the way to greater enchanting power."]
+			description: ["Your newly &nInfused Deepshelf&r is the next step to greater enchanting power."]
 			id: "2239B52ECD40D1A3"
 			rewards: [
 				{
@@ -626,7 +637,7 @@
 		}
 		{
 			dependencies: ["366BFABED1D79BF0"]
-			description: ["The &nEndshelf&r is the pen-ultimate shelf in your enchanting journey. A glimpse of the final power...an ancient creature's head, floating at the edge of the void."]
+			description: ["The &nEndshelf&r is the penultimate shelf in your enchanting journey. A glimpse of the final power...an ancient creature's head, floating at the edge of the void."]
 			id: "2BB609061B5F6578"
 			rewards: [
 				{
@@ -663,7 +674,11 @@
 		}
 		{
 			dependencies: ["2BB609061B5F6578"]
-			description: ["Raw Power, chanelled from the Void itself through this &nDraconic Endshelf&r. Granting immense Eterna. This shelf is devoid of all &5&nArcana&r&r or the flux of &n&cQuanta&r&r."]
+			description: [
+				"Raw Power, chanelled from the Void itself through this &nDraconic Endshelf&r. "
+				""
+				"Granting immense Eterna, this shelf is devoid of any &5&nArcana&r&r or &n&cQuanta&r&r."
+			]
 			id: "1ECDC56233E230D9"
 			rewards: [
 				{
@@ -706,11 +721,13 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["708FC6105FC75C24"]
 			description: [
-				"The &b&nSeashelf of Aquatic Filtration&r&r is a powerful tool in your enchantment setup. Inserting enchanted books into this shelf will allow you to block these enchantments from appearing. "
+				"The &b&nSeashelf of Aquatic Filtration&r&r is a powerful tool in your enchantment setup. Inserting enchanted books into this shelf will allow you to block these enchantments from appearing, essentially functioning as a blacklist for enchantments. "
 				""
-				"Functioning as a blacklist for enchantments. Especially useful if you're trying to get an enchantment that is not compatible with others."
+				"It is especially useful if you're trying to get an enchantment that is not compatible with others."
 			]
+			hide_dependency_lines: true
 			id: "3FC57BA3BB8BFDF9"
 			rewards: [
 				{
@@ -732,7 +749,7 @@
 			}]
 			title: "Arcane Filtration"
 			x: 9.5d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
 			dependencies: ["728C71D5D6F62E43"]
@@ -781,11 +798,11 @@
 			}]
 			title: "Mastering Vision"
 			x: 8.0d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
 			dependencies: ["722D72A914A3A75B"]
-			description: ["Striving for higher levels of &n&eRectification&r&r to combat the negative effects of &n&4Quanta&r&r leads to an ever more stable experience in enchanting your tools. This Shelf of Hellbound Rectification is the penultimate shelf providing it."]
+			description: ["Striving for higher levels of &n&eRectification&r&r to combat the negative effects of &n&4Quanta&r&r leads to an ever more stable enchanting experience. This Shelf of Hellbound Rectification is the penultimate shelf in your Journey of Rectification."]
 			id: "462FC6D28C5985F4"
 			rewards: [
 				{
@@ -813,11 +830,15 @@
 			}]
 			title: "Rectifying Flux"
 			x: 2.0d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
 			dependencies: ["462FC6D28C5985F4"]
-			description: ["The final tier of &n&eRectification&r&r shelves, using enough of this &nShelf of End-Fused Rectification&r, countering the negative instability of &n&4Quanta&r&r, leaving only room for improvement."]
+			description: [
+				"The final tier of &n&eRectification&r&r shelves is the &nShelf of End-Fused Rectification&r. Using enough of these shelves will completely counter the negative instability of &4&nQuanta&r&r, leaving only room for improvement."
+				""
+				"To achieve this effect, you must either place 4 of these shelves or reach a total of 100% &n&eRectification&r&r through lower tier shelves."
+			]
 			id: "34A4B27F08B6CD92"
 			rewards: [
 				{
@@ -842,13 +863,13 @@
 			}]
 			title: "Positive Enforcement"
 			x: 0.5d
-			y: -2.6000000000000005d
+			y: -2.5d
 		}
 		{
 			description: [
 				"A faithful recreation of Neptunes lost treasure.... only without the Ocean's energy imbued into it. "
 				""
-				"Between 20 and 30 &n&aEterna&r&r it will transform into a fully functional trident ready for use, or further enhancement."
+				"Between 20 and 30 &n&aEterna&r&r it will transform into a fully functional trident ready for use and further enhancement."
 			]
 			id: "5DE43688F40E7D1C"
 			rewards: [
@@ -873,7 +894,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["A magical tome attuned to the Arcane, using this in your enchanting table it will only accept enchantments not covered by the other Tomes."]
+			description: ["A magical tome attuned to the Arcane. When placed in your Enchanting Table, it restricts the options to enchantments not covered by the other Tomes."]
 			id: "732F94C8B308F1DC"
 			rewards: [{
 				id: "007B7BFBF8CB8797"
@@ -890,7 +911,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["A magical tome attuned to Helmets, using this in your enchanting table it will only accept enchantments valid to be inscribed into a Helmet."]
+			description: ["A magical tome attuned to Helmets. When placed in your Enchanting Table, it restricts the options to enchantments that can be applied to helmets."]
 			id: "5541F6A0AE10197F"
 			rewards: [{
 				id: "0C82897F6667B000"
@@ -907,7 +928,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["A magical tome attuned to Chestplates, using this in your enchanting table it will only accept enchantments valid to be inscribed into a Chestplate."]
+			description: ["A magical tome attuned to Chestplates. When placed in your Enchanting Table, it restricts the options to enchantments that can be applied to chestplates."]
 			id: "3D23A06C73584F8C"
 			rewards: [{
 				id: "604266CC7A735046"
@@ -924,14 +945,14 @@
 			y: 4.0d
 		}
 		{
-			description: ["A magical tome attuned to Leggings, using this in your enchanting table it will only accept enchantments valid to be inscribed into a piece of Legplates."]
+			description: ["A magical tome attuned to Leggings. When placed in your Enchanting Table, it restricts the options to enchantments that can be applied to leggings."]
 			id: "5B6E354029702ED7"
 			rewards: [{
 				id: "3FB4A5D2486614B8"
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Legplate Substitute"
+			subtitle: "Leggings Substitute"
 			tasks: [{
 				id: "086E980E659A7828"
 				item: "apotheosis:leggings_tome"
@@ -941,7 +962,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["A magical tome attuned to Boots, using this in your enchanting table it will only accept enchantments valid to be inscribed into a pair of Boots."]
+			description: ["A magical tome attuned to Boots. When placed in your Enchanting Table, it restricts the options to enchantments that can be applied to boots."]
 			id: "51F73AA184B3C006"
 			rewards: [{
 				id: "42298B316CC98EBE"
@@ -958,7 +979,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["A magical tome attuned to Weapons, using this in your enchanting table it will only accept enchantments valid to be inscribed into melee weaponry."]
+			description: ["A magical tome attuned to Weaponry. When placed in your Enchanting Table, it restricts the options to enchantments that apply specifically to melee weapons."]
 			id: "2141A34B4C964860"
 			rewards: [{
 				id: "530F1665121C3528"
@@ -975,7 +996,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["A magical tome attuned to Bows, using this in your enchanting table it will only accept enchantments valid to be inscribed into your bows."]
+			description: ["A magical tome attuned to Bows. When placed in your Enchanting Table, it restricts the options to enchantments that can be applied to bows."]
 			id: "02B15F5815DF3A04"
 			rewards: [{
 				id: "27B9859CB55BD89D"
@@ -992,7 +1013,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["A magical tome attuned to Mining, using this in your enchanting table it will only accept enchantments valid to be inscribed into your Pickaxes."]
+			description: ["A magical tome attuned to Mining. When placed in your Enchanting Table, it restricts the options to only enchantments that can be applied to Pickaxes."]
 			id: "6E7AECFD28C0708D"
 			rewards: [{
 				id: "6399A286EA9E7F44"
@@ -1041,7 +1062,7 @@
 		}
 		{
 			dependencies: ["2239B52ECD40D1A3"]
-			description: ["The Deep has awoken and it's power echoes through this shelf, listen and you can hear the magic in the air. This shelf is only a step on your journey to unlocking more mystical energies."]
+			description: ["The Deep has awoken and its power echoes through this shelf, listen and you can hear the magic in the air. This shelf is only a step in your journey to unlocking more mystical energies."]
 			id: "34EDC1353A972CAC"
 			rewards: [
 				{
@@ -1066,7 +1087,7 @@
 		}
 		{
 			dependencies: ["708FC6105FC75C24"]
-			description: ["A crystalline upgrade to the Seahelf. This &nCrystalline Seashelf&r has a higher &a&nEterna&r&r value and limit, provides more &n&5Arcana&r&r but comes with a sizeable increase in &n&cQuanta&r&r."]
+			description: ["A crystalline upgrade to the Seahelf. This &nCrystalline Seashelf&r has a higher &a&nEterna&r&r value and limit while providing more &n&5Arcana&r&r, but comes with a sizeable increase in &n&cQuanta&r&r."]
 			id: "6BC6B680D4677E3F"
 			rewards: [
 				{
@@ -1098,7 +1119,7 @@
 		}
 		{
 			dependencies: ["708FC6105FC75C24"]
-			description: ["The Heart of the Sea forged into a Seashelf. This &nHeart-Forged Seashelf&r will greatly increase the &5&nArcana&r&r knowledge at your disposal and is capable of reaching a higher level of &a&nEterna&r&r than it's predecessor, however reducing the &e&nRectification&r&r."]
+			description: ["The Heart of the Sea can be forged into a &nHeart-Forged Seashelf&r. This powerful shelf greatly increases your &5&nArcana&r&r and is capable of reaching higher levels of &a&nEterna&r&r than its predecessor. However, this comes at a cost, as it also reduces &e&nRectification&r&r."]
 			id: "7405774A91010E60"
 			rewards: [
 				{
@@ -1129,7 +1150,7 @@
 		}
 		{
 			dependencies: ["27516AC94B996057"]
-			description: ["The &nBlazing Hellshelf&r it's boost in &a&nEterna&r&r comes at a cost of burning away some &3&nEnchanting Clues&r&r."]
+			description: ["The &nBlazing Hellshelf&r gains a boost in &a&nEterna,&r&r yet comes with the cost of burning away an &3&nEnchanting Clue&r&r."]
 			id: "28B7FDAF3F929DB5"
 			rewards: [
 				{
@@ -1157,11 +1178,11 @@
 			}]
 			title: "Forged in Fire"
 			x: 3.5d
-			y: -0.6000000000000005d
+			y: -0.5d
 		}
 		{
 			dependencies: ["27516AC94B996057"]
-			description: ["The next step for channeling the arcane energy from the Nether into your enchanting table. This &nGlowing Hellshelf&r brings higher &n&aEterna&r&r and &n&5Arcana&r&r."]
+			description: ["The next step for channeling the arcane energy from the Nether into your enchanting table. The &nGlowing Hellshelf&r gives you higher &n&aEterna&r&r and &n&5Arcana&r&r."]
 			id: "51B89E1C5AED8AD9"
 			rewards: [
 				{
@@ -1189,10 +1210,10 @@
 			}]
 			title: "Lights in the Hells"
 			x: 3.5d
-			y: 0.39999999999999947d
+			y: 0.5d
 		}
 		{
-			description: ["An anvil enchanted with the power of Splitting will be able to seperate an enchanted book into it's different constituent enchantments. Useful for seperating any desired enchantments from the undesirables."]
+			description: ["An anvil enchanted with the power of Splitting will be able to seperate an enchanted book into its different constituent enchantments. Useful for seperating any desired enchantments from the undesirables."]
 			id: "2382E5C444E4A12F"
 			rewards: [
 				{
@@ -1220,14 +1241,15 @@
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			x: -7.0d
+			title: "Salvaging Your Enchantments"
+			x: -9.0d
 			y: 5.5d
 		}
 		{
 			description: [
 				"&n&5Apotheosis&r&r adds randomly generated affixes with affix modifiers to items dropped by boss mobs or found in chests."
 				""
-				"These can be upgraded and altered, using certain workstations and resources such as gems, sigils and materials gathered from scrapping affixed items."
+				"Your tools, weapons, and armor can be upgraded and altered using certain workstations and resources such as gems, sigils and materials gathered from scrapping affixed items."
 				""
 				"{@pagebreak}"
 				"These affixes come in various rarities spread throughout the journey to The Forge. "
@@ -1248,6 +1270,13 @@
 				""
 				"Magnetic Cave, Toxic Caves and Candy Cavity: &n&0Esoteric&r&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2D7E97EBB2A3FBD7"
 			rewards: [
 				{
@@ -1295,9 +1324,9 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Affixes"
-			x: -8.5d
-			y: -6.8999999999999995d
+			title: "An Introduction to Affixes"
+			x: -9.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -1312,6 +1341,16 @@
 				""
 				"Not all gems are available in all varities. The bonus they provide also vary depending on the item type they are socketed into."
 			]
+			icon: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:the_end/endersurge"
+				}
+			}
 			id: "14006BE61AF7FE2E"
 			rewards: [
 				{
@@ -1332,7 +1371,6 @@
 			]
 			shape: "gear"
 			size: 2.3d
-			subtitle: "Gems"
 			tasks: [{
 				id: "3B9413281C306DFE"
 				item: {
@@ -1345,16 +1383,16 @@
 				title: "Any Apothic Gem"
 				type: "item"
 			}]
-			title: "Introduction to Gems"
-			x: -2.9499999999999993d
+			title: "An Introduction to Gems"
+			x: -3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["7F7CA69ECC488DFA"]
 			description: [
-				"&nThe Gem-Cutting Table&r lets the player upgrade the quality of your gems. This will require scrapped affix material a second copy of the gem and gem dust. Combining these in the work station will upgrade your gem. "
+				"&nThe Gem Cutting Table&r allows players to upgrade the quality of their gems. To do so, you will need scrapped affix material, a duplicate of the gem, and Gem Dust. Placing these into the workstation will upgrade the selected gem."
 				""
-				"Using lower quality materials will consume larger amounts as higher upgrade tiers are reached."
+				"At higher upgrade tiers, using lower-quality materials will require greater quantities to complete the process."
 			]
 			id: "2E73C7366B3C135A"
 			rewards: [
@@ -1394,7 +1432,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.6000000000000005d
+			y: -1.0d
 		}
 		{
 			dependencies: ["13BB5C56D561E820"]
@@ -1421,7 +1459,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Breaking down resources"
+			subtitle: "Breaking Down Resources"
 			tasks: [{
 				id: "62D67DCDC5F7AD4D"
 				item: {
@@ -1437,9 +1475,9 @@
 		{
 			dependencies: ["14006BE61AF7FE2E"]
 			description: [
-				"&nGem Dust&r is a key resource in crafting and manipulation involved in &5&nApotheosis&r&r. It's used to craft the sigils used for manipulation, crafting the workstations such as the Reforging Table or Gem-Cutting table."
+				"&nGem Dust&r is a vital resource in &5&nApotheosis&r&r, central to both crafting and manipulation. It is required for making sigils, as well as constructing key workstations like the Reforging Table and Gem Cutting Table."
 				""
-				"It can be made by crushing gemstones either using the salvaging table, or the Create crushing wheels."
+				"Gem Dust can be produced by crushing gemstones, either through the Salvaging Table or with Create’s Crushing Wheels."
 			]
 			id: "7F7CA69ECC488DFA"
 			rewards: [
@@ -1469,11 +1507,12 @@
 				}
 				type: "item"
 			}]
+			title: "Gem Dust"
 			x: -3.0d
 			y: -4.0d
 		}
 		{
-			description: ["The smithing table is the main table for socketing gems into slots and applying sigils. The various sigils and their effects are explained in their respective quests. "]
+			description: ["The Smithing Table is the table used for socketing gems into slots and applying sigils. The various sigils and their effects are explained in their respective quests. "]
 			id: "13BB5C56D561E820"
 			rewards: [
 				{
@@ -1501,6 +1540,7 @@
 					xp_levels: 2
 				}
 			]
+			subtitle: "Socketing those Gems"
 			tasks: [{
 				id: "47DDAE99E2D4B57C"
 				item: {
@@ -1544,7 +1584,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -1577,12 +1617,12 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
-			description: ["The &nSigil of Rebirth&r fuels the reforging table, it is essential for either rerolling the item's attributes or upgrading it's apothic tier to higher ones."]
+			description: ["The &nSigil of Rebirth&r fuels the reforging table, it is essential for either rerolling the item's attributes or upgrading its apothic tier to higher ones."]
 			id: "4933612D89910EE2"
 			rewards: [
 				{
@@ -1610,7 +1650,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 3.0d
 		}
 		{
@@ -1644,7 +1684,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
@@ -1678,7 +1718,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.5d
 			y: 1.0d
 		}
 		{
@@ -1712,11 +1752,11 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 0.5d
 		}
 		{
-			description: ["This &nGem-Fused Slate&r is the blank canvas for you to create sigils on. On it's own it does nothing but the sigils you can create will let you manipulate your items affix bonuses, gems, sockets and even the apothic tier of the item."]
+			description: ["This &nGem-Fused Slate&r is the blank canvas for you to create sigils on. On its own it does nothing but the sigils you can create with it will let you manipulate affix bonuses, gems, sockets and even the apothic tier of the item."]
 			id: "7B68DD6E1D05B160"
 			rewards: [
 				{
@@ -1756,12 +1796,12 @@
 				type: "item"
 			}]
 			title: "Sigils"
-			x: -4.5d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["578A33A5A5FA8841"]
-			description: ["&nThe Augmenting Table&r lets the player reroll and upgrade specific &eaffix modifiers&r on your items. This will however consume Sigils of Enhancement."]
+			description: ["The &nAugmenting Table&r allows players to reroll and upgrade specific &eaffix modifiers&r on their items. However, each use consumes Sigils of Enhancement."]
 			id: "077F0BE0B3085A3B"
 			rewards: [
 				{
@@ -1808,8 +1848,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.0d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1817,9 +1857,9 @@
 				"2D7E97EBB2A3FBD7"
 			]
 			description: [
-				"The first tier, the &nSimple Reforging Table&r. This allows reforging up to the &5&nRare&r&r item tier. It consumes Sigils of Rebirth as fuel, and the material of the rarity you want to create."
+				"The &nSimple Reforging Table&r is the entry-level station for reforging, capable of upgrading items up to the &5&nRare&r&r tier. It consumes Sigils of Rebirth as fuel, along with the material that matches the rarity you want to create."
 				""
-				"It provides you with 3 options with varying experience requirements and costs, read through these carefully as the most expensive is not always the most powerful. "
+				"Each reforging attempt provides you with 3 options with varying experience requirements and costs, read through these carefully as the most expensive is not always the most powerful."
 			]
 			id: "687957A3D915C6D3"
 			rewards: [
@@ -1856,12 +1896,12 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["687957A3D915C6D3"]
-			description: ["&nThe Reforging Table&r, the upgrade to it's Simple counterpart, will allow for reforging up to &n&6Mythic&r&r tier."]
+			description: ["The &nReforging Table&r is an upgrade to its simpler counterpart, capable of reforging items up to the &6&nMythic&r&r tier."]
 			id: "578A33A5A5FA8841"
 			rewards: [
 				{
@@ -1906,12 +1946,12 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.5d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["28B7FDAF3F929DB5"]
-			description: ["&n&4The Sacrificial Rune&r&r is the final form of the Hellshelves, improving upon the Blazing Hellshelf. Providing even stronger versions of it's bonuses."]
+			description: ["&n&4The Sacrificial Rune&r&r is the final form of the Hellshelves, improving upon the Blazing Hellshelf. Providing even stronger versions of its bonuses."]
 			id: "2918E0FBF9006F32"
 			rewards: [
 				{
@@ -1969,11 +2009,11 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -0.6d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7405774A91010E60"]
-			description: ["&n&1The Wavebinder's Rune&r&r is the final evolution of the Ocean shelves. Providing increased versions of the Heartforged Seashelf."]
+			description: ["&n&1The Wavebinder's Rune&r&r is the final evolution of the Ocean shelves. Providing vastly superior stats compared to the Heartforged Seashelf."]
 			id: "365256A397789542"
 			rewards: [
 				{
@@ -2065,7 +2105,7 @@
 		}
 		{
 			dependencies: ["51195D4772866826"]
-			description: ["&n&2The Terra Rune&r&r, an ancient pre-cursor to the Beeshelf. It's &a&nEterna&r&r debuff is much lower, while still bringing the &4&nQuanta&r&r, and some extra &5&nArcana&r&r"]
+			description: ["&n&2The Terra Rune&r&r, an ancient precursor to the Beeshelf. Its &a&nEterna&r&r debuff is much lower, while still bringing the &4&nQuanta&r&r, and some extra &5&nArcana&r&r"]
 			id: "2298F488E983466D"
 			rewards: [
 				{
@@ -2101,7 +2141,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["&e&nApotheotic Coins&r&r can be used for rare trades provided by the Wandering Trader. Look out for these as they are often quite powerful relics. These coins can also be infused into &6&nInfused Coins&r&r and then even further into &cAscended Coins&r that can each be used for even more expensive but rare powerful trades."]
+			description: ["&e&nApotheotic Coins&r&r can be used for rare trades provided by the Wandering Trader. Look out for these as they are often powerful relics. These coins can also be infused into &6&nInfused Coins&r&r and then even further into &cAscended Coins&r that can each be used for even more expensive but rare powerful trades."]
 			id: "464288D982EE9E65"
 			rewards: [
 				{
@@ -2155,7 +2195,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["The &nBeeshelf&r is a very efficient way of getting Quanta, can be a nice way to randomise your way into strnog enchants early game."]
+			description: ["The &nBeeshelf&r is a very efficient way of increasing Quanta, and can be a nice way to randomise your way into strong enchantments early game."]
 			id: "51195D4772866826"
 			rewards: [
 				{
@@ -2252,5 +2292,5 @@
 			y: 4.0d
 		}
 	]
-	title: "Apotheotic Toolcrafting"
+	title: "Apothic Toolcrafting"
 }
