@@ -8,5 +8,19 @@
   },
   "dontShowAll": [],
   "dontShow": [
+    "incendium:sanctum",
+    "cataclysm:cursed_pyramid",
+    "integrated_villages:quark/minka_village",
+    "minecraft:end_city",
+    "alexscaves:volcano",
+    "deeperdarker:ancient_temple",
+    "create_easy_structures:camp_3",
+    "alexscaves:forlorn_canyon",
+    "betterdeserttemples:desert_temple",
+    "create_easy_structures:house_4",
+    "idas:castle",
+    "create_easy_structures:camp_5",
+    "create_easy_structures:factory_2",
+    "idas:bearclaw_inn"
   ]
 }
