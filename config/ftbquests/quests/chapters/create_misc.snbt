@@ -1987,6 +1987,194 @@
 			x: -7.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The &bMechanical Pipette&r is a highly versatile tool capable of transferring fluids between inventories using the &bFluid Interface&r. It can even be used to complete &eSequenced Assembly&r recipes, making it a powerful automation tool for both casting and crafting setups."
+				""
+				"The &bConductor’s Baton&r allows you to command and configure a &bMechanical Pipette&r after it has been placed."
+				""
+				"Consult the Ponder scenes for more information on how to use the Mechanical Pipette, as it has &omany&r uses."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "fluid:pipette"
+				tag: { }
+			}
+			id: "08BCFA45FB71AB42"
+			rewards: [
+				{
+					id: "2D9E0145E7DFDB50"
+					item: {
+						Count: 1
+						id: "fluid:pipette"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "29A5AC5161427AB8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mastering Fluid Transfer"
+			tasks: [
+				{
+					id: "4C08255E2DE64C69"
+					item: {
+						Count: 1
+						id: "fluid:pipette"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3BE8D728B83419EC"
+					item: {
+						Count: 1
+						id: "fluid:baton"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "The Mechanical Pipette"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08BCFA45FB71AB42"]
+			description: [
+				"The Fluid Interface acts as a proxy that allows interaction with tanks using a bucket or other fluid containers."
+				""
+				"{\"text\":\"The Fluid Interface also allows the Mechanical Pipette to interact with things like tanks or the \",\"extra\":[{\"text\":\"Casting Table.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"46082C1C195DA870\"},\"color\":\"blue\",\"underlined\":true}]}"
+				""
+				"The &bSmart Fluid Interface&r is an upgraded version that enables advanced fluid filtering and more precise automation."
+			]
+			icon: {
+				Count: 1
+				id: "fluid:smart_fluid_interface"
+				tag: { }
+			}
+			id: "5C610B4F1652D739"
+			rewards: [
+				{
+					count: 2
+					id: "696583730BF93DA4"
+					item: {
+						Count: 1
+						id: "fluid:fluid_interface"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0AABE3CC3165018B"
+					item: {
+						Count: 1
+						id: "create_compressed:copper_sheet_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1323C6F1CEF69074"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "46D00C6E879ABBDB"
+					item: {
+						Count: 1
+						id: "fluid:fluid_interface"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "29A877B99F81A592"
+					item: {
+						Count: 1
+						id: "fluid:smart_fluid_interface"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Fluid Interfaces"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"The &bCopper Tap&r allows for easy filling of &aBasins&r and can also perform &eSpout&r recipes on a &7Depot&r placed directly below it."
+				""
+				"The &bCentrifugal Pump&r is an upgraded, more powerful version of Create’s &fMechanical Pump&r that is highly configurable. Consult the &ePonder&r for detailed information on its setup and operation."
+				""
+				"Lastly, the &bHoneycomb Mold&r is a handy quality-of-life item that lets you compress liquid honey into &6solid Honeycombs&r, making honey processing simpler and cleaner."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "fluid:copper_tap"
+				tag: { }
+			}
+			id: "042E712799D2DBDC"
+			rewards: [
+				{
+					count: 16
+					id: "041BCF684BF465EC"
+					item: {
+						Count: 1
+						id: "excavated_variants:create_asurine_copper_ore"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D9F3C0EF91ABF81"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5CAAE246C2C4DE4A"
+					item: {
+						Count: 1
+						id: "fluid:copper_tap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "599705617F01AF4E"
+					item: {
+						Count: 1
+						id: "fluid:centrifugal_pump"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "693F27A3AC431A0D"
+					item: {
+						Count: 1
+						id: "fluid:honeycomb_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Other Create: Fluid Items"
+			x: 0.5d
+			y: 2.5d
+		}
 	]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"
 }
