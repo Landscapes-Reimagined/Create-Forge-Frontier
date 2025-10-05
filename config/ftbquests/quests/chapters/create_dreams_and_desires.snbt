@@ -210,10 +210,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"2E9D0705CA550997"
-				"213B0ECDCCEA9AB0"
-			]
+			dependencies: ["2E9D0705CA550997"]
 			description: ["The Flywheel Engine converts furnace heat into rotational force. Attach it to any furnace, then place a Flywheel Component exactly one block away. When the furnace smelts an item, the Component will spin up and generate 8196 Stress Units."]
 			icon: "create_dd:furnace_engine"
 			id: "2F143289415D3B8A"
@@ -519,7 +516,7 @@
 		}
 		{
 			dependencies: ["0157A9E38B635A46"]
-			description: ["You have seen iron before, but in Dreams \\& Desires, it earns new importance. With the right process, it becomes Steel. And under intense heat and pressure, it becomes Industrial Iron - capable of doubling your crafts of basic Create components. "]
+			description: ["You have seen iron before, but in Dreams \\& Desires, it earns new importance. Under intense heat and pressure, it becomes Industrial Iron - capable of doubling your crafts of basic Create components. "]
 			icon: "minecraft:iron_ingot"
 			id: "28CC36288E5E325C"
 			rewards: [
@@ -543,8 +540,8 @@
 				type: "item"
 			}]
 			title: "It's Iron... "
-			x: 3.5d
-			y: -7.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["28CC36288E5E325C"]
@@ -707,7 +704,7 @@
 				item: "create_dd:sealed_mechanism"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.25d
 			y: -2.5d
 		}
 		{
@@ -745,52 +742,6 @@
 			}]
 			x: -2.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["4E16FEE8C7907853"]
-			description: ["Steel is made by combining industrial iron and coal in a heated basin. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
-			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				id: "create_dd:steel_ingot"
-				tag: { }
-			}
-			id: "213B0ECDCCEA9AB0"
-			rewards: [
-				{
-					count: 16
-					id: "3E83B70F500808FF"
-					item: "excavated_variants:andesite_iron_ore"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "211F4BBEE2EE6AEC"
-					item: "excavated_variants:tuff_coal_ore"
-					type: "item"
-				}
-				{
-					id: "0107A9F77D2250D2"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "A Carbon Combination"
-			tasks: [{
-				id: "1BD41B1ED14EDBE0"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/steel"
-					}
-				}
-				title: "Steel Ingot"
-				type: "item"
-			}]
-			title: "Steel"
-			x: 2.0d
-			y: -5.5d
 		}
 		{
 			dependencies: ["0157A9E38B635A46"]
@@ -882,10 +833,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6B3E7F4360459BE7"
-				"213B0ECDCCEA9AB0"
-			]
+			dependencies: ["6B3E7F4360459BE7"]
 			description: ["Mithril is a powerful late-game alloy known for its strength, lightness, and radiant properties. It is used to craft a higher tier jetpack and the Stargaze Singularity Casing. "]
 			id: "4DE3DBCBE4DE92D9"
 			rewards: [
@@ -1141,7 +1089,7 @@
 				type: "item"
 			}]
 			title: "Sticky but Useful"
-			x: 2.0d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
@@ -1167,7 +1115,7 @@
 				item: "create_dd:rubber"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -1278,7 +1226,7 @@
 				}
 			]
 			title: "Processing Sails"
-			x: 2.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
