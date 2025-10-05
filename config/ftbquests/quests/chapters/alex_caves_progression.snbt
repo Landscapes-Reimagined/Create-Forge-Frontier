@@ -1,0 +1,228 @@
+{
+	autofocus_id: "101545B472A483E0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alex_caves_progression"
+	group: "522267C8B93A6C20"
+	icon: {
+		Count: 1
+		id: "alexscaves:primordial_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "44EFA82E2251DE57"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_abyssal_chasm_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -15.0d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_primordial_caves_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_forlorn_hollows_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.5d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_magnetic_caves_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_candy_cavity_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_toxic_caves_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.5d
+			y: 3.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:submarine"
+				tag: { }
+			}
+			id: "308B363D1029D44E"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:abyssal_chasm"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				id: "56A57ABEA383C689"
+				title: "Travel to the Abyssal Chasm Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Abyssal Chasm"
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:pure_darkness"
+				tag: { }
+			}
+			id: "172EE8617C59F90A"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:forlorn_hollows"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				id: "5D4BF04E9603C38E"
+				title: "Travel to the Forlorn Hollows Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Forlorn Hollows"
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:primordial_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1FE777D1CAD0CE01"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:primordial_caves"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				id: "49B27C22CD430AC4"
+				title: "Travel to the Primordial Caves Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Primordial Caves"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:candy_cane"
+				tag: { }
+			}
+			id: "6B1D694ADAF367E0"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:candy_cavity"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				id: "78C12971C508C87E"
+				title: "Travel to the Candy Cavity Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Candy Cavity"
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:telecore"
+				tag: { }
+			}
+			id: "14077793D0743DF5"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:magnetic_caves"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				id: "67A8EDC62E71543E"
+				title: "Travel to the Magnetic Caves Planet"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A2C4E8DD4FA3A3A"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:toxic_caves"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				id: "103BCC114B56BEF8"
+				title: "Travel to the Toxic Caves Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Toxic Caves"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			id: "101545B472A483E0"
+			secret: true
+			tasks: [{
+				id: "71D21BDEEB8C3C2C"
+				title: "Autofocus Quest"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Alex's Caves"
+}
