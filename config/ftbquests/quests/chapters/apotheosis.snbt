@@ -124,7 +124,6 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Rectification"
 			tasks: [{
 				id: "213971F0000E7433"
 				item: "apotheosis:rectifier"
@@ -168,7 +167,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Clues in your Enchanting"
 			tasks: [{
 				id: "3AA4ED523ABC2666"
 				item: "apotheosis:sightshelf"
@@ -205,7 +203,6 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Treasure Enchantments"
 			tasks: [{
 				id: "1887CBBC3BAED81C"
 				item: "apotheosis:treasure_shelf"
@@ -721,7 +718,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["708FC6105FC75C24"]
 			description: [
 				"The &b&nSeashelf of Aquatic Filtration&r&r is a powerful tool in your enchantment setup. Inserting enchanted books into this shelf will allow you to block these enchantments from appearing, essentially functioning as a blacklist for enchantments. "
 				""
@@ -741,7 +737,6 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Filtering your Enchantments"
 			tasks: [{
 				id: "7CEA02EA48B12F23"
 				item: "apotheosis:filtering_shelf"
@@ -901,7 +896,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Curio Enchantments"
 			tasks: [{
 				id: "719105D1E15F5D74"
 				item: "apotheosis:other_tome"
@@ -918,7 +912,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Helmet Substitute"
 			tasks: [{
 				id: "5F6FAE2DEE7FE78E"
 				item: "apotheosis:helmet_tome"
@@ -935,7 +928,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Chestplate Substitute"
 			tasks: [{
 				id: "0B8FDFA8766A9D7A"
 				item: "apotheosis:chestplate_tome"
@@ -952,7 +944,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Leggings Substitute"
 			tasks: [{
 				id: "086E980E659A7828"
 				item: "apotheosis:leggings_tome"
@@ -969,7 +960,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Boots Substitute"
 			tasks: [{
 				id: "2B4F10726B43C7E9"
 				item: "apotheosis:boots_tome"
@@ -986,7 +976,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Weaponry Enchanting"
 			tasks: [{
 				id: "0977DAE9189A82E0"
 				item: "apotheosis:weapon_tome"
@@ -1003,7 +992,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Bow Enchantments"
 			tasks: [{
 				id: "6E2B9E9C5C6F7CF4"
 				item: "apotheosis:bow_tome"
@@ -1020,7 +1008,6 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "Mining Enchantments"
 			tasks: [{
 				id: "68343FDEF87B3E57"
 				item: "apotheosis:pickaxe_tome"
@@ -1459,7 +1446,6 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Breaking Down Resources"
 			tasks: [{
 				id: "62D67DCDC5F7AD4D"
 				item: {
@@ -1540,7 +1526,6 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Socketing those Gems"
 			tasks: [{
 				id: "47DDAE99E2D4B57C"
 				item: {
@@ -1574,7 +1559,6 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Socket Manipulation"
 			tasks: [{
 				id: "00D666FF1E63746D"
 				item: {
@@ -1640,7 +1624,6 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Reforging"
 			tasks: [{
 				id: "042292AA6289577C"
 				item: {
@@ -1674,7 +1657,6 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Stat Manipulation"
 			tasks: [{
 				id: "2C7354AE625A5813"
 				item: {
@@ -1708,7 +1690,6 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Name Scrubbing"
 			tasks: [{
 				id: "067497F6BAE20C68"
 				item: {
@@ -1742,7 +1723,6 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "Crafting Boss Gems"
 			tasks: [{
 				id: "2782960D8938DCE1"
 				item: {
@@ -1760,16 +1740,6 @@
 			id: "7B68DD6E1D05B160"
 			rewards: [
 				{
-					count: 4
-					id: "117B875505D4608F"
-					item: {
-						Count: 1
-						id: "apotheosis:warden_tendril"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
 					count: 12
 					id: "18407FF56DAFA04F"
 					item: {
@@ -1780,12 +1750,21 @@
 					type: "item"
 				}
 				{
-					id: "271142F3CFA74B14"
+					count: 24
+					id: "76C1D6F8C5CCE339"
+					item: {
+						Count: 1
+						id: "minecraft:polished_deepslate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "77CF5591AB14F503"
 					type: "xp_levels"
 					xp_levels: 2
 				}
 			]
-			subtitle: "Blank Slate"
 			tasks: [{
 				id: "53F28CE6AA3DEF7B"
 				item: {
@@ -1795,7 +1774,7 @@
 				}
 				type: "item"
 			}]
-			title: "Sigils"
+			title: "Blank Slate"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -2141,7 +2120,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["&e&nApotheotic Coins&r&r can be used for rare trades provided by the Wandering Trader. Look out for these as they are often powerful relics. These coins can also be infused into &6&nInfused Coins&r&r and then even further into &cAscended Coins&r that can each be used for even more expensive but rare powerful trades."]
+			description: ["&e&nApotheotic Coins&r&r can be used for rare trades provided by the Wandering Trader. Look out for these as they are often powerful relics. These coins can also be infused into &6&nInfused Coins&r&r"]
 			id: "464288D982EE9E65"
 			rewards: [
 				{
@@ -2246,7 +2225,7 @@
 		}
 		{
 			dependencies: ["464288D982EE9E65"]
-			description: ["The most valuable coin found in Apotheosis. These &n&6Ascended Coins&r&r are only used for the rarest of trades from Wandering Traders."]
+			description: ["The most valuable coin found in Apotheosis. These &n&6Ascended Coins&r&r are created through maximum level enchanting and are only used for the rarest of trades from Wandering Traders."]
 			id: "7A23A379FD24B4B1"
 			rewards: [
 				{
@@ -2289,6 +2268,48 @@
 				type: "item"
 			}]
 			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: ["The &nPrismatic Cobweb&r allows for the removal of Curses from items."]
+			id: "2512C3C20CF310B0"
+			rewards: [
+				{
+					count: 16
+					id: "42EC553E50F8F7A0"
+					item: {
+						Count: 1
+						id: "minecraft:string"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1A57627C26CE5F23"
+					item: {
+						Count: 1
+						id: "minecraft:prismarine_crystals"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "032DDB3145143664"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0144FB79BFCE022C"
+				item: {
+					Count: 1
+					id: "apotheosis:prismatic_web"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
 			y: 4.0d
 		}
 	]
