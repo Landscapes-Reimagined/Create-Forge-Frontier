@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimensional"
+	group: "47881FC157552E6E"
+	icon: {
+		Count: 1
+		id: "nether_remastered:seal_of_the_underworld_item"
+		tag: { }
+	}
+	id: "6D9C449C31269C1D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "238A12CEBA575509"
+		tasks: [{
+			id: "600C81F0C9852686"
+			item: {
+				Count: 1
+				id: "nethersdelight:plate_of_stuffed_hoglin_snout"
+				tag: { }
+			}
+			type: "item"
+		}]
+		title: "PLACEHOLDER"
+		x: -2.0d
+		y: -2.5d
+	}]
+	title: "Dimensional Delights"
+}
