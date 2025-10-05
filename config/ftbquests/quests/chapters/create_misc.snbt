@@ -696,7 +696,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.5d
 			y: -0.5d
 		}
 		{
@@ -895,7 +895,7 @@
 			]
 			title: "Fuel Tanks - Tier 1"
 			x: -7.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["621DE859C2F26106"]
@@ -942,7 +942,7 @@
 				}
 			]
 			title: "Fuel Tanks - Tier 2"
-			x: -7.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -991,7 +991,7 @@
 			]
 			title: "Fuel Tanks - Tier 3"
 			x: -5.5d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2839F9B81949DDF4"]
@@ -1035,7 +1035,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: -0.5d
 		}
 		{
@@ -1898,6 +1898,94 @@
 			title: "Trash Cans"
 			x: -8.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"Abyss Catalysis adds two new items and over 20 new recipes for you to discover and create."
+				""
+				"To begin, you must first forge the Abyssal Chamber through Mechanical Crafting."
+				""
+				"You will also need to construct a Mechanical Shrieker to activate the chamber’s reactions."
+				""
+				"With this technology, you can imbue the power of items such as Ender Pearls and Nether Stars to transmutate materials into something entirely new. "
+				"{@pagebreak}"
+				"Some recipes require heat to function. Be sure to place a Blaze Burner beneath the chamber for those that demand it."
+				""
+				"The setup pictured below demonstrates a basic configuration used to create End Stone. You know it is working properly when you see the blue particle effect emitting from the Mechanical Shrieker."
+				""
+				"{image:ftb:textures/abyss_catalysis_end_stone.png width:220 height:220 align:center}"
+				"{@pagebreak}"
+				"Pay close attention to the positioning of ingredients in each recipe:"
+				""
+				"- The top-left item goes into the inverted basin on top."
+				"- The bottom-left item goes into the upright basin below."
+				"- The right-side item is placed into the center of the chamber."
+				""
+				"Some recipes feature a chance ingredient, which is an item that is only consumed a certain percentage of the time."
+				""
+				"For example, in the Dragon Head recipe, the Nether Star in the right slot has only a 5% chance to be used per operation."
+				""
+				"{image:ftb:textures/abyss_catalysis_chance_ingredient.png width:198 height:135 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "sculkcatalyticchamber:mechanical_shrieker"
+				tag: { }
+			}
+			id: "5FC151F423C7A66E"
+			rewards: [
+				{
+					id: "2618228732ED44B9"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_upgrade_smithing_template"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "26EF4D8E6E8612FB"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "deeperdarker:long_sculk_affinity"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B18BF22C9848A9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Awakening the Chamber"
+			tasks: [
+				{
+					id: "54ADCAA8B685E839"
+					item: {
+						Count: 1
+						id: "sculkcatalyticchamber:chamber"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3AD006E1A4F4C30F"
+					item: {
+						Count: 1
+						id: "sculkcatalyticchamber:mechanical_shrieker"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Abyss Catalysis"
+			x: -7.0d
+			y: -0.5d
 		}
 	]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"
