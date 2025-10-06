@@ -1,6 +1,6 @@
 #.
 #Turns the mod's effects on/off.
-"Enable Distraction-Free Mode" = true
+"Enable Distraction-Free Mode" = false
 #.
 #Lowers the opacity of the search bar to make it blend in more.
 "Lower Opacity ?" = false

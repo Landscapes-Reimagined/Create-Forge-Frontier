@@ -7,12 +7,12 @@
   },
   "advanced": {
     "enable_memory_tracing": false,
-    "use_advanced_staging_buffers": false,
+    "use_advanced_staging_buffers": true,
     "disable_incompatible_mod_warnings": false,
     "cpu_render_ahead_limit": 2
   },
   "performance": {
-    "chunk_builder_threads": 7,
+    "chunk_builder_threads": 5,
     "always_defer_chunk_updates_v2": true,
     "animate_only_visible_textures": true,
     "use_entity_culling": true,
@@ -20,7 +20,7 @@
     "use_block_face_culling": true,
     "use_compact_vertex_format": true,
     "use_translucent_face_sorting_v2": false,
-    "use_no_error_g_l_context": true
+    "use_no_error_g_l_context": false
   },
   "notifications": {
     "force_disable_donation_prompts": false,

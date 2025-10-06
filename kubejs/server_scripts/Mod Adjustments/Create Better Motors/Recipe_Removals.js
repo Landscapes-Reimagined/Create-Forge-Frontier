@@ -7,5 +7,6 @@ ServerEvents.recipes(event =>
             event.remove({ id: 'create_better_motors:items/mechanical_crafting/upgrades/andesite_alternator' })
             event.remove({ id: 'create_better_motors:items/mechanical_crafting/upgrades/copper_alternator' })
             event.remove({ id: 'create_better_motors:items/mechanical_crafting/upgrades/brass_alternator' })
+            event.remove({ id: 'create_better_motors:blocks/mechanical_crafting/electric_motor'})
     }
 )
