@@ -139,23 +139,79 @@
 			subtitle: "Plunder the cursed seas and reclaim the relic that sees beyond storms and shadows. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "6EC8D66227C13854"
 					structure: "dungeons_arise_seven_seas:corsair_corvette"
+					title: "Locate a Corsair Corvette"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "793273E7A002D476"
 					structure: "dungeons_arise_seven_seas:pirate_junk"
+					title: "Locate a Pirate Junk Ship"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "0ACD11A4794B6996"
 					structure: "dungeons_arise_seven_seas:unicorn_galleon"
+					title: "Locate a Unicorn Galleon"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "60931583FA6783D5"
 					structure: "dungeons_arise_seven_seas:victory_frigate"
+					title: "Locate a Victory Frigate"
 					type: "structure"
 				}
 				{
@@ -234,11 +290,18 @@
 					dimension: "ad_astra:glacio"
 					icon: "ad_astra:glacio_globe"
 					id: "59B58EB151B1BD54"
+					title: "Travel to Glacio"
 					type: "dimension"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:cursed_eye"
+						tag: { }
+					}
 					id: "78B4A9DCA43E1834"
 					structure: "cataclysm:frosted_prison"
+					title: "Locate a Frosted Prison"
 					type: "structure"
 				}
 				{
@@ -321,21 +384,40 @@
 					dimension: "minecraft:the_nether"
 					icon: "minecraft:netherrack"
 					id: "53376422A307985C"
+					title: "Travel to The Nether"
 					type: "dimension"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "3E2BEB2EB4185033"
 					structure: "idas:ancient_portal/nether_ancient_portal"
+					title: "Locate a Nether Ancient Portal"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "61915C8F12152AD8"
 					structure: "hopo:piglin_ruin"
+					title: "Locate a Piglin Ruin"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "2E1AD6A79DFA9626"
 					structure: "incendium:quartz_kitchen"
+					title: "Locate a Quartz Kitchen"
 					type: "structure"
 				}
 				{
@@ -425,21 +507,56 @@
 					dimension: "ad_astra:venus"
 					icon: "ad_astra:venus_globe"
 					id: "12EB949A0523D20B"
+					title: "Travel to Venus"
 					type: "dimension"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:desert_eye"
+						tag: { }
+					}
 					id: "25BC60734F6D9091"
 					structure: "cataclysm:cursed_pyramid"
+					title: "Locate a Cursed Pyramid"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "49812CF7CA4B4951"
 					structure: "betterdeserttemples:desert_temple"
+					title: "Locate a Desert Temple"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "39B3728CC835FABE"
 					structure: "idas:desert_pyramid"
+					title: "Locate a Desert Pyramid"
 					type: "structure"
 				}
 				{
@@ -609,21 +726,64 @@
 					dimension: "minecraft:the_nether"
 					icon: "minecraft:netherrack"
 					id: "13B2BC962FDC44D2"
+					title: "Travel to The Nether"
 					type: "dimension"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "0044B887B68BFF0B"
 					structure: "#minecraft:bastion_remnant"
+					title: "Locate a Treasure Bastion"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "07D168443D631F33"
 					structure: "incendium:abandoned_tower"
+					title: "Locate an Abandoned Tower"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "471327733A3AF952"
 					structure: "friendsandfoes:citadel"
+					title: "Locate a Citadel"
 					type: "structure"
 				}
 				{
@@ -723,27 +883,84 @@
 					id: "47C1EAC5B11307CB"
 					observe_type: 0
 					timer: 0L
+					title: "Look at Verdantine"
 					to_observe: "forge_frontier:verdantine"
 					type: "observation"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "78681FF24DC89F31"
 					structure: "betterarcheology:catacombs"
+					title: "Locate the Catacombs"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "16314F21E0C1380B"
 					structure: "minecraft:trail_ruins"
+					title: "Locate Trail Ruins"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "4732B9E72C5F3DBB"
 					structure: "betterarcheology:villager_grave"
+					title: "Locate a Villager Grave"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "69B8644EB950F5A9"
 					structure: "#integrated_villages:villages"
+					title: "Locate any Village"
 					type: "structure"
 				}
 				{
@@ -835,8 +1052,22 @@
 			subtitle: "Forge the Guardian Eye and command the sorrow and strength of the deep. Click me for more info! "
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "78CD11529DC549F0"
 					structure: "betteroceanmonuments:ocean_monument"
+					title: "Locate an Ocean Monument"
 					type: "structure"
 				}
 				{
@@ -858,37 +1089,64 @@
 		{
 			dependencies: ["00AABBBA631B3828"]
 			description: [
-				"Glittering with the allure of the unknown, the &bAetheric Eye&r has led countless explorers to their destinies—some to the hidden treasures of Atlantis, others to fates lost beneath the crushing depths.  "
-				"It shimmers with ancient power and whispers of mysteries the world has long forgotten.  "
-				"To forge this artifact of discovery, you must master &lMechanical Crafting&r and brave the abyssal ruins left behind by civilizations swallowed by the sea.  "
+				"Glittering with the allure of the unknown, the &bAetheric Eye&r has guided countless explorers to their destinies—some to treasures hidden within the &eCataclysm Acropolis&r, others to fates lost beneath its storm-shrouded halls."
+				"It shimmers with elemental power and whispers of secrets long drowned by the tides."
+				"To forge this artifact of discovery, you must master &lMechanical Crafting&r and brave the ancient ruins where storms rage eternal."
 				"{image:ftb:textures/_forge_frontier_mechancial_crafting_exotic_eye.png width:200 height:125 align:center}"
 				""
 				"{@pagebreak}"
-				"The Aetheric Eye is not forged by fortune alone—it demands courage, sacrifice, and a willingness to descend into the unknown.  "
+				""
+				"The Aetheric Eye is not gifted by fortune—it must be claimed through strength, sacrifice, and mastery of the storm."
 				"The following pages will reveal the path to awakening its shimmering light."
 				""
 				"{@pagebreak}"
 				""
-				"- &lAbyssal Sacrifice&r:  "
-				"  A relic woven from the spoils of abyssal beasts, crafted through combining:  "
-				"  - A &eCataclysm Athame&r,  "
-				"  - A &eCataclysm Coral Chunk&r,  "
-				"  - And other sacred remnants.  "
-				"  These materials can only be earned by defeating the &eDeepling Warlock&r, &eDeepling Priest&r, and the mighty &eCoralssus&r within the depths of &eCataclysm’s Sunken City&r.  "
-				"{image:ftb:textures/sunkencity.png width:100 height:100 align:center}"
+				"&lEssence of the Storm&r:"
+				"The raw breath of a sea tempest, ripped from the heart of &eScylla&r—the guardian of the Acropolis."
+				"Only by defeating this monstrous horror can you harvest the &eEssence of the Storm&r, a keystone in the Eye’s awakening."
+				"{image:ftb:textures/scylla_2.png width:200 height:125 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"- &lAbyssal Egg&r:  "
-				"  A blade torn from the titanic jaws of the &eLeviathan&r—an ancient guardian that stalks the submerged ruins of the Sunken City.  "
-				"  Only by slaying this monstrous terror can you claim the Abyssal Egg, a fragment of the abyss itself.  "
-				"{image:cataclysm:textures/entity/leviathan/abyss_orb.png width:100 height:100 align:center}"
+				"&lEye of Storm&r:"
+				"Born not in battle, but through artifice."
+				"A &eSequenced Assembly&r upon an &eEye of Ender&r will reveal it, using:"
+				""
+				"A &eConduit&r,"
+				""
+				"A &eSea Lantern&r,"
+				""
+				"Washed in &eSpouting Water&r,"
+				""
+				"Then sealed with the press of automation."
+				"{image:cataclysm:item/storm_eye width:100 height:100 align:center}"
 				""
 				"{@pagebreak}"
 				""
-				"🌊 &nThe sea keeps its secrets—but you must steal them.&r  "
-				"The Aetheric Eye glimmers not for the timid, but for those who dare to challenge the abyss and reclaim the forgotten treasures of the deep.  "
-				"Only those who face the ocean’s ancient wrath and emerge victorious will awaken its guiding light."
+				"&lLacrima&r:"
+				"Crystallized sorrow shed by the Acropolis itself."
+				"It may be uncovered within its storm-drowned chests, or torn from the essence of any creature that dares to lurk within its halls."
+				"{image:cataclysm:item/lacrima width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lChitin Claw&r:"
+				"A jagged fragment from the armored grasp of the &eClawdian&r."
+				"Only those who fell the clawed sentinel of the Acropolis will hold this token of conquest."
+				"{image:cataclysm:item/chitin_claw width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lUndead Soul&r:"
+				"A whisper of the drowned, bound within the Acropolis’s cursed warriors."
+				"This essence is all that remains of those claimed by the sea, and it answers only to those who strike them down."
+				"{image:endrem:item/undead_soul width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"🌊 &nThe storm keeps its secrets—but you must seize them.&r"
+				"The Aetheric Eye glimmers not for the timid, but for those who conquer the wrath of the Acropolis and bind its relics into their command."
+				"Only the bold who withstand the sea’s fury will awaken its guiding light."
 			]
 			icon: {
 				Count: 1
@@ -901,7 +1159,11 @@
 			rewards: [
 				{
 					id: "139E6F23A81A2865"
-					item: "cataclysm:abyssal_egg"
+					item: {
+						Count: 1
+						id: "cataclysm:chitin_claw"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -910,11 +1172,17 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Forge the Aetheric Eye and uncover the secrets lost beneath the waves. Click me for more info! "
+			subtitle: "Forge the &bAetheric Eye&r and uncover the secrets bound within the Acropolis. Click me for more info! "
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:storm_eye"
+						tag: { }
+					}
 					id: "273880B23E215E5A"
-					structure: "cataclysm:sunken_city"
+					structure: "cataclysm:acropolis"
+					title: "Locate Acropolis"
 					type: "structure"
 				}
 				{
@@ -929,7 +1197,7 @@
 					type: "item"
 				}
 			]
-			title: "Mysteries of the Deep"
+			title: "Mysteries of the Storm"
 			x: -7.5d
 			y: 12.5d
 		}
@@ -996,6 +1264,11 @@
 				}
 				{
 					count: 8L
+					icon: {
+						Count: 1
+						id: "minecraft:bookshelf"
+						tag: { }
+					}
 					id: "347FD113CFA7F43B"
 					item: {
 						Count: 1
@@ -1004,7 +1277,7 @@
 							value: "forge:bookshelves"
 						}
 					}
-					title: "Any #forge:bookshelves"
+					title: "Any Bookshelf"
 					type: "item"
 				}
 				{
@@ -1104,11 +1377,6 @@
 					type: "item"
 				}
 				{
-					id: "6DBF607D40793020"
-					item: "deeperdarker:warden_upgrade_smithing_template"
-					type: "item"
-				}
-				{
 					id: "000683DBC929C190"
 					type: "xp_levels"
 					xp_levels: 5
@@ -1118,12 +1386,32 @@
 			tasks: [
 				{
 					biome: "minecraft:deep_dark"
+					icon: {
+						Count: 1
+						id: "minecraft:sculk_shrieker"
+						tag: { }
+					}
 					id: "5B619F85A78FFAE0"
+					title: "Travel to a Deep Dark Biome"
 					type: "biome"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
 					id: "399430714DCA261D"
 					structure: "minecraft:ancient_city"
+					title: "Locate an Ancient City"
 					type: "structure"
 				}
 				{
@@ -1210,6 +1498,11 @@
 				}
 				{
 					count: 8L
+					icon: {
+						Count: 1
+						id: "minecraft:bookshelf"
+						tag: { }
+					}
 					id: "4F79D7A6279DC769"
 					item: {
 						Count: 1
@@ -1218,7 +1511,7 @@
 							value: "forge:bookshelves"
 						}
 					}
-					title: "Any #forge:bookshelves"
+					title: "Any Bookshelves"
 					type: "item"
 				}
 				{
@@ -1477,12 +1770,16 @@
 			id: "4D50BDAAD960E36C"
 			rewards: [
 				{
-					id: "155EEE476160D723"
-					item: "deeperdarkerdelight:soul_custard"
+					id: "6AF4615C6498F994"
+					item: {
+						Count: 1
+						id: "silentsdelight:sculk_shrieker_shake"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "69245711527F24F4"
+					id: "0546B894685CC75B"
 					type: "xp"
 					xp: 100
 				}
@@ -1815,6 +2112,7 @@
 					id: "2CBC435821611376"
 					observe_type: 0
 					timer: 0L
+					title: "Look at Ochrum"
 					to_observe: "create:ochrum"
 					type: "observation"
 				}
@@ -1823,6 +2121,7 @@
 					id: "06D3D2C2C4B58121"
 					observe_type: 0
 					timer: 0L
+					title: "Look at Glacium"
 					to_observe: "forge_frontier:glacium"
 					type: "observation"
 				}
@@ -1831,6 +2130,7 @@
 					id: "63D52F86481D2C70"
 					observe_type: 0
 					timer: 0L
+					title: "Look at Verdantine"
 					to_observe: "forge_frontier:verdantine"
 					type: "observation"
 				}
@@ -1912,16 +2212,29 @@
 					dimension: "ad_astra:mars"
 					icon: "ad_astra:mars_globe"
 					id: "075451F698852015"
+					title: "Travel to Mars"
 					type: "dimension"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "cataclysm:monstrous_eye"
+						tag: { }
+					}
 					id: "5DB1C936FA2AD33A"
 					structure: "cataclysm:soul_black_smith"
+					title: "Locate a Soul Blacksmith"
 					type: "structure"
 				}
 				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
 					id: "48DE64588FB199E4"
 					structure: "ad_astra:mars_temple"
+					title: "Locate a Mars Temple"
 					type: "structure"
 				}
 				{

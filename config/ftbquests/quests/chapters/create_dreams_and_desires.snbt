@@ -210,10 +210,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"2E9D0705CA550997"
-				"213B0ECDCCEA9AB0"
-			]
+			dependencies: ["2E9D0705CA550997"]
 			description: ["The Flywheel Engine converts furnace heat into rotational force. Attach it to any furnace, then place a Flywheel Component exactly one block away. When the furnace smelts an item, the Component will spin up and generate 8196 Stress Units."]
 			icon: "create_dd:furnace_engine"
 			id: "2F143289415D3B8A"
@@ -226,12 +223,16 @@
 				}
 				{
 					count: 8
-					id: "6946D2920F4FED7E"
-					item: "create_dd:steel_ingot"
+					id: "0E32A3CF848E37E1"
+					item: {
+						Count: 1
+						id: "ad_astra:steel_ingot"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
-					id: "63347CC4EDA6F1AD"
+					id: "1573ADD822CD3A7B"
 					type: "xp"
 					xp: 50
 				}
@@ -404,7 +405,7 @@
 			description: [
 				"The Overburden Casing is designed for high-capacity loads. "
 				""
-				"It is used to make item pipes and vaults, forming the foundation of strong, scalable logistics."
+				"It is used to make vaults, forming the foundation of strong, scalable storage."
 			]
 			id: "3696F1B5E0C16F29"
 			rewards: [
@@ -431,7 +432,7 @@
 		}
 		{
 			dependencies: ["3696F1B5E0C16F29"]
-			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, while Item Pipes route resources cleanly from one inventory to the next."]
+			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, and can be crafted in bulk themselves with overburden casing."]
 			icon: "create:item_vault"
 			id: "449C4C4A589B69B3"
 			rewards: [
@@ -442,30 +443,17 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "7E56C00CCCF37B3F"
-					item: "pipez:item_pipe"
-					type: "item"
-				}
-				{
-					id: "228675BE79CD0E3A"
+					id: "696F41F49AA2DEC2"
 					type: "xp"
 					xp: 100
 				}
 			]
 			subtitle: "Smart Storage Starts Here"
-			tasks: [
-				{
-					id: "462F0A5899089C17"
-					item: "create:item_vault"
-					type: "item"
-				}
-				{
-					id: "01051E7392CC4AB6"
-					item: "pipez:item_pipe"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "462F0A5899089C17"
+				item: "create:item_vault"
+				type: "item"
+			}]
 			title: "Storage Logistics"
 			x: -4.0d
 			y: -0.5d
@@ -523,12 +511,12 @@
 				type: "item"
 			}]
 			title: "Simple But Vital"
-			x: -1.5d
+			x: -1.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0157A9E38B635A46"]
-			description: ["You have seen iron before, but in Dreams \\& Desires, it earns new importance. With the right process, it becomes Steel. And under intense heat and pressure, it becomes Industrial Iron - capable of doubling your crafts of basic Create components. "]
+			description: ["You have seen iron before, but in Dreams \\& Desires, it earns new importance. Under intense heat and pressure, it becomes Industrial Iron - capable of doubling your crafts of basic Create components. "]
 			icon: "minecraft:iron_ingot"
 			id: "28CC36288E5E325C"
 			rewards: [
@@ -544,7 +532,7 @@
 					xp: 25
 				}
 			]
-			subtitle: " The Workhorse of Progress"
+			subtitle: "The Workhorse of Progress"
 			tasks: [{
 				count: 4L
 				id: "6BBFF2A01CB8A34A"
@@ -552,8 +540,8 @@
 				type: "item"
 			}]
 			title: "It's Iron... "
-			x: 3.5d
-			y: -7.0d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["28CC36288E5E325C"]
@@ -716,7 +704,7 @@
 				item: "create_dd:sealed_mechanism"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.25d
 			y: -2.5d
 		}
 		{
@@ -754,39 +742,6 @@
 			}]
 			x: -2.0d
 			y: -5.0d
-		}
-		{
-			dependencies: ["4E16FEE8C7907853"]
-			description: ["Steel is made by combining industrial iron and coal in a basin under heat and high pressure. It unlocks a new level of technology, strong enough for rockets and essential for crafting Mithril."]
-			hide_dependent_lines: true
-			id: "213B0ECDCCEA9AB0"
-			rewards: [
-				{
-					count: 16
-					id: "3E83B70F500808FF"
-					item: "excavated_variants:andesite_iron_ore"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "211F4BBEE2EE6AEC"
-					item: "excavated_variants:tuff_coal_ore"
-					type: "item"
-				}
-				{
-					id: "0107A9F77D2250D2"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "  A Carbon Combination"
-			tasks: [{
-				id: "7F5CBF9C0E23F0CD"
-				item: "create_dd:steel_ingot"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -5.5d
 		}
 		{
 			dependencies: ["0157A9E38B635A46"]
@@ -878,10 +833,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6B3E7F4360459BE7"
-				"213B0ECDCCEA9AB0"
-			]
+			dependencies: ["6B3E7F4360459BE7"]
 			description: ["Mithril is a powerful late-game alloy known for its strength, lightness, and radiant properties. It is used to craft a higher tier jetpack and the Stargaze Singularity Casing. "]
 			id: "4DE3DBCBE4DE92D9"
 			rewards: [
@@ -909,7 +861,7 @@
 		{
 			dependencies: ["6D199BCCCFE35819"]
 			description: [
-				"The Hydraulic Casing is a key component in early automation. It is used to craft both fluid pipes and the hydraulic press, both of which rely on pressure to make fluids flow and compress items. "
+				"The Hydraulic Casing is a key component in early automation. It is used to craft the hydraulic press, which relies on pressure to to compress items. "
 				""
 				"Every good system needs a strong frame, and this is where it starts."
 			]
@@ -1137,7 +1089,7 @@
 				type: "item"
 			}]
 			title: "Sticky but Useful"
-			x: 2.0d
+			x: 1.5d
 			y: -4.0d
 		}
 		{
@@ -1163,7 +1115,7 @@
 				item: "create_dd:rubber"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -1274,7 +1226,7 @@
 				}
 			]
 			title: "Processing Sails"
-			x: 2.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -1510,7 +1462,7 @@
 		}
 		{
 			dependencies: ["78FDFDDD273A975C"]
-			description: ["Infablocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with AE2 systems using formation and annihilation planes to automate their collection. Whether you're building or collecting infinite resources, Infablocks are the ultimate form of automation."]
+			description: ["InfaBlocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with AE2 systems using formation and annihilation planes to automate their collection. Whether you're building or collecting infinite resources, InfaBlocks are the ultimate form of automation."]
 			icon: "create_dd:infacobblestone"
 			id: "089AAAA52771B181"
 			rewards: [
@@ -1535,10 +1487,10 @@
 						value: "create_dd:infablocks"
 					}
 				}
-				title: "Any #create_dd:infablocks"
+				title: "Make any InfaBlock"
 				type: "item"
 			}]
-			title: "Infablocks"
+			title: "InfaBlocks"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -1568,64 +1520,6 @@
 			}]
 			x: -2.6999999999999997d
 			y: 2.25d
-		}
-		{
-			dependencies: ["44976406B9B89D01"]
-			description: ["Energy Pipes are used to transfer power between machines, they are designed to safely carry high-energy output without loss or failure. "]
-			id: "2428776C2074663E"
-			rewards: [
-				{
-					count: 16
-					id: "67E22DA128429060"
-					item: "pipez:energy_pipe"
-					type: "item"
-				}
-				{
-					id: "0BB8310750731F77"
-					type: "xp"
-					xp: 25
-				}
-			]
-			size: 0.9d
-			subtitle: "Position the Power"
-			tasks: [{
-				id: "359D0509A2D0992F"
-				item: "pipez:energy_pipe"
-				type: "item"
-			}]
-			x: -2.6999999999999997d
-			y: 3.5d
-		}
-		{
-			dependencies: ["62BA4CBF94708FA5"]
-			description: [
-				"While they are not part of Dreams \\& Desires, in Create - Forge Frontier they are made from Hydraulic Casing to ensure their strength at high flow rates."
-				""
-				"Fluid Pipez are your best friend if you want a quick and easy way to transport fluid, at NO SU COST! All you need is a wrench to start transferring fluid."
-			]
-			id: "44DBD900B59669B5"
-			rewards: [
-				{
-					count: 16
-					id: "2B2B8071A58B6D3D"
-					item: "pipez:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "0022F8C50180B69B"
-					type: "xp"
-					xp: 25
-				}
-			]
-			size: 0.75d
-			subtitle: "Fast and Easy Flow"
-			tasks: [{
-				id: "49A1AF873D72A894"
-				item: "pipez:fluid_pipe"
-				type: "item"
-			}]
-			x: 1.125d
-			y: -3.375d
 		}
 		{
 			dependencies: ["7B030CB530E6C806"]

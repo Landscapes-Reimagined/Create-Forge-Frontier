@@ -1,0 +1,37 @@
+{
+	id: "786EC75658A9539E"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 3
+		}
+		{ count: 4, item: "apotheosis:scrap_tome" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+	]
+	title: "apoth_tier1"
+}

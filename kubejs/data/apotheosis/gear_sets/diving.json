@@ -1,0 +1,41 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:diving_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:diving_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:diving_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "alexscaves:diving_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "chasm"
+    ]
+}

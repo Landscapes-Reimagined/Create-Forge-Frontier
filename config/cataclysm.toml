@@ -1,9 +1,6 @@
 
 [Etc]
-	#Lava Opacity for the Ignitium Helemt.
-	#Range: 0.01 ~ 1.0
-	lavaVisionOpacity = 0.5
-	#Whether to disable certain aspects of the Ignitium Helemt. Enable if issues with shaders persist.
+	#Off the Custom Rendering
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
@@ -155,7 +152,7 @@
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 22
 	#Ender guardian's block breaking ignore the MobGriefing
-	EnderguardianBlockBreaking = true
+	EnderguardianBlockBreaking = false
 	#Guardian's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Guardian's prevent attacks from far away Range" = 12.0
@@ -224,7 +221,7 @@
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityNatureHealing = 10.0
 	#Monstrosity's block breaking ignore the MobGriefing
-	monstrosityBlockBreaking = true
+	monstrosityBlockBreaking = false
 	#Monstrosity's DamageTime
 	#Range: 0 ~ 100
 	MonstrosityDamageTime = 10
@@ -265,7 +262,7 @@
 	#Range: 0.0 ~ 1000000.0
 	IgnisDamageCap = 20
 	#Ignis's cracked block breaking ignore the MobGriefing
-	IgnisBlockBreaking = true
+	IgnisBlockBreaking = false
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	IgnisNatureHealing = 10.0
@@ -338,7 +335,7 @@
 	#Range: 0.0 ~ 1000000.0
 	LeviathanDamageCap = 20
 	#Leviathan's block breaking ignore the MobGriefing
-	LeviathanBlockBreaking = true
+	LeviathanBlockBreaking = false
 	#Leviathan Immune Out of Water
 	LeviathanImmuneOutofWater = true
 	#Leviathan's Healing with out target
@@ -381,7 +378,7 @@
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantCap = 21
 	#Ancient Remnant's block breaking ignore the MobGriefing
-	AncientRemnantBlockBreaking = true
+	AncientRemnantBlockBreaking = false
 	#Remnant's Charge Hp Damage
 	#Range: 0.0 ~ 1.0
 	"Remnant's Charge Hp Damage" = 0.07
@@ -422,10 +419,10 @@
 	DeeplingAnglerSpawnRolls = 30
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	AmethystCrabSpawnWeight = 1
+	AmethystCrabSpawnWeight = 100
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	AmethystCrabSpawnRolls = 100
+	AmethystCrabSpawnRolls = 1
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
 	KoboletonSpawnWeight = 2
@@ -529,7 +526,7 @@
 	#Range: 0.0 ~ 1000000.0
 	"Maledictus's Phantom Arrow Damage" = 5.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
-	MaledictusBlockBreaking = true
+	MaledictusBlockBreaking = false
 	#Maledictus's DamageTime
 	#Range: 0 ~ 100
 	"Maledictus DamageTime" = 30
@@ -574,11 +571,6 @@
 ["bosses Common settings"]
 	#custombossbar(on/off)
 	"custombossbar(on/off)" = true
-	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
-	#BossMusicVolume(denominator)
-	#Range: 1 ~ 1000000
-	BossMusicVolume = 1
 	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
 	#Range: 0 ~ 200
 	ReturnHome = 20
@@ -634,4 +626,31 @@
 	#Scylla's Lightning Storm HP Damage
 	#Range: 0.0 ~ 1000000.0
 	"Scylla's Lightning Storm HP Damage" = 0.04
+	#Scylla weather change
+	"Scylla Weather Change" = true
+
+["Boss Respawner"]
+	#on/off
+	MonstrosityRespawner = true
+	#on/off
+	EnderGuardianRespawner = true
+	#on/off
+	HarbingerRespawner = true
+	#on/off
+	RemnantRespawner = true
+	#on/off
+	ScyllaRespawner = true
+
+["bosses Music"]
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	#Range: 1 ~ 1000000
+	BossMusicVolume = 1
+	#Enable separate music per boss phase
+	"IgnisSeparatePhaseMusic(on/off)" = true
+	#Enable separate music per boss phase
+	"EnderGuardianSeparatePhaseMusic(on/off)" = true
+	#Enable separate music per boss phase
+	"LeviathanSeparatePhaseMusic(on/off)" = true
 

@@ -3,14 +3,10 @@ StartupEvents.registry('fluid', event => {
     // List of molten fluids with their properties
     const moltenFluids = [
         { name: 'carbon', color: 0x2d2d2d },
-        { name: 'redstone', color: 0xac2727 },
-        { name: 'lapis', color: 0x1c52a6 },
-        { name: 'bone_marrow', color: 0xc7c3a5 },
         { name: 'netherite_iron', color: 0xa6a6a6 },
         { name: 'netherite_gold', color: 0xf9ee3e },
         { name: 'netherite_emerald', color: 0x007a18 },
         { name: 'netherite_diamond', color: 0x327b81 },
-        { name: 'ice_shard', color: 0x8890b8 },
         { name: 'uranium', color: 0x00fc00 },
         { name: 'bismuth', color: 0x555341 },
         { name: 'irradium', color: 0x21532b },
@@ -22,7 +18,16 @@ StartupEvents.registry('fluid', event => {
         { name: 'amber', color: 0xc67513 },
         { name: 'sulfur', color: 0xfcf689 },
         { name: 'echo_shard', color: 0x03404f },
-        { name: 'etrium', color: 0xbafcf6 }
+        { name: 'etrium', color: 0xbafcf6 },
+        { name: 'amethyst_mix', color: 0xb18cf0 },
+        { name: 'calorite', color: 0x9c1f3e},
+        { name: 'desh', color: 0x9c4438},
+        { name: 'ostrum', color: 0xa66b72},
+        { name: 'emerald', color: 0xa4fc73},
+        { name: 'diamond', color: 0x67fcee},
+        { name: 'reggarfonite', color: 0x288076},
+        { name: 'dielectric_paste', color: 0x202425},
+        { name: 'debris', color: 0x5c332b}
     ];
 
     // Function to create molten fluids

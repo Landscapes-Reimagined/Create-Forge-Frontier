@@ -1,0 +1,183 @@
+{
+  "type": "minecraft:archaeology",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:blade_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:arms_up_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:skull_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:howl_pottery_sherd"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:crushed_raw_copper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:crushed_raw_zinc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "create:crushed_raw_gold"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:iron_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:black_candle"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:flute"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:rope"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "supplementaries:statue"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "idas:disc_fragment_slither"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lTraps!\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"There are booby traps all over the place in this thing! \\\"},
+                {\\\"text\\\":\\\"I almost experienced a fiery end after opening a trapped chest. \\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"I'm not sure this is worth the risk... \\\"},
+                {\\\"text\\\":\\\"But my curiosity is getting the better of me. \\\"},
+                {\\\"text\\\":\\\"I suppose I'll trek on.\n\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"-Salazar, Dungeon Buster Extraordinaire.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Salazar,
+            display:{Lore:[\"Found in the mighty Labyrinth\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Labyrinth Journal 1",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lSecret rooms!\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"When I'm not running for my life from mobs, I've been checking this place for secret rooms. \\\"},
+                {\\\"text\\\":\\\"I've found one so far. In the library there was a hidden crank that opens a room of gold.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"-Salazar, Dungeon Buster Extraordinaire.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Salazar,
+            display:{Lore:[\"Found in the mighty Labyrinth\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Labyrinth Journal 2",
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function":"set_nbt",
+        "tag":"{
+          pages:[
+              \"[
+                \\\"\\\",
+                {\\\"text\\\":\\\"§lThe End\n\\\"},
+                {\\\"text\\\":\\\"~~~~~~~~~\n\\\"},
+                {\\\"text\\\":\\\"I've had to hide from the monsters that lurk in this thing. I can still hear the groaning outside. \\\"},
+                {\\\"text\\\":\\\"I think if I don't leave.. this will be the end of me.\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"If you're reading this, keep going! Break the curse! \\\"},
+                {\\\"text\\\":\\\"Find the treasure!\\\"}
+              ]\",
+              \"[
+                {\\\"text\\\":\\\"-Salazar, Dungeon Buster Extraordinaire.\\\"}
+              ]\"
+            ],
+            title:Journal,
+            author:Salazar,
+            display:{Lore:[\"Found in the mighty Labyrinth\"]}
+            }"},
+            {
+              "function": "minecraft:set_name",
+              "name": "Labyrinth Journal 3",
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

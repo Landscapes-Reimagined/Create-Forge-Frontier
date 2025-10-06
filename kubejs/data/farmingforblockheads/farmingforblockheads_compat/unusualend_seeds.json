@@ -1,0 +1,16 @@
+{
+    "modId": "unusualend",
+    "group": {
+      "name": "Unusualend Seeds",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:seeds"
+    },
+    "customEntries": [
+    {
+        "output": "unusualend:gloopilon_seeds"
+    }
+    ]
+}

@@ -4,6 +4,7 @@
 [XP] 2b2t Highways Width:0
 [XP] Always Render Player Icon:true
 [XP] Always Render Player Name:true
+[XP] Atomic File Move And Replace:true
 [XP] Baritone Goal Waypoint:true
 [XP] Breadcrumbs:false
 [XP] Breadcrumbs Chunk Radius:0.0
@@ -15,6 +16,7 @@
 [XP] Disable Receiving Waypoints:false
 [XP] Disable Waypoint Sharing:false
 [XP] Disable Xaero Internet Access:true
+[XP] Draw Order:Drawing-highlights|Drawing-lines-in-progress|Drawing-lines-saved|Drawing-text
 [XP] Drawing Opacity:150.0
 [XP] Expanded Setting Entries:false
 [XP] Fast Mapping:false
@@ -22,11 +24,17 @@
 [XP] Fast Mapping Rate Limit:25.0
 [XP] Fast Zip Writes:true
 [XP] Fix Main Entity Dot:true
+[XP] Fix Waypoint Load Bug:true
 [XP] Hide Invisible Entities:true
+[XP] Lava Columns:false
+[XP] Lava Columns Alpha Step:8.0
+[XP] Lava Columns Base Alpha Shift:0.0
+[XP] Lava Columns Color:1
 [XP] Liquid NewChunks Only Y > 0:false
 [XP] Long Waypoint Initials:false
 [XP] Map Art Grid:false
 [XP] Map Art Grid Color:0
+[XP] Min Lava Column Height:5.0
 [XP] Min WorldMap Zoom:0.1
 [XP] Minimap FPS Limit:60.0
 [XP] Minimap FPS Limiter:false
@@ -51,6 +59,7 @@
 [XP] Palette NewChunks Inverse:false
 [XP] Palette NewChunks Opacity:100.0
 [XP] Palette NewChunks Version Upgraded:true
+[XP] Pearl Waypoints:false
 [XP] Persist Dim Switch:true
 [XP] Plain Waypoint Sharing:false
 [XP] Player Spawn Chunks:false
@@ -66,16 +75,21 @@
 [XP] PortalSkip Search Delay:10.0
 [XP] Prefer Overworld Waypoints:false
 [XP] Radar While Dim Switched:true
+[XP] Region Grid:false
+[XP] Region Grid Color:0
+[XP] Region Grid Text:false
 [XP] Region Writes While Dim Switched:true
 [XP] Roof Obsidian Opacity:150.0
 [XP] Roof Snow Opacity:10.0
 [XP] Roof Y Level:250.0
 [XP] Save/Load Breadcrumbs to Disk:true
+[XP] Save/Load Lava Columns to Disk:true
 [XP] Save/Load NewChunks to Disk:true
 [XP] Save/Load OldBiomes To Disk:true
 [XP] Save/Load OldChunks to Disk:true
 [XP] Save/Load Palette NewChunks to Disk:true
 [XP] Save/Load Portals to Disk:true
+[XP] Show Coords In Right Click Options:true
 [XP] Show Render Distance:false
 [XP] Show Waypoint Distances:true
 [XP] Show World Border:false
@@ -87,6 +101,10 @@
 [XP] Spawn Chunks Outer Chunks Color:3
 [XP] Spawn Chunks Redstone Processing:false
 [XP] Spawn Chunks Redstone Processing Color:0
+[XP] Spawn Point Waypoint:false
+[XP] Switch Waypoints to End:false
+[XP] Switch Waypoints to Nether:false
+[XP] Switch Waypoints to Overworld:false
 [XP] Switch to End:false
 [XP] Switch to Nether:false
 [XP] Switch to Overworld:false
@@ -96,7 +114,8 @@
 [XP] Waypoint Beacon Scale Min:0.0
 [XP] Waypoint Beacons:false
 [XP] Waypoint ETA:false
-[XP] Waypoint ETA Tick Buffer:10.0
+[XP] Waypoint ETA Measurement Interval:10.0
+[XP] Waypoints List UI Additions:true
 [XP] Waystone Color:16
 [XP] Waystone WP Visibility Type:0
 [XP] Waystone Waypoint Set:false
@@ -105,6 +124,7 @@
 [XP] WorldMap Baritone Goal Here:false
 [XP] WorldMap Baritone Path Here:false
 [XP] WorldMap Toggle Drawing:false
+[XP] WorldMap UI Additions:true
 [XP] WorldTools Highlights:true
 [XP] WorldTools Highlights Color:1
 [XP] WorldTools Highlights Opacity:100.0

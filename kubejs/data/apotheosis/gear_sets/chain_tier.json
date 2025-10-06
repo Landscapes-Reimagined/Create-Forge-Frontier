@@ -1,0 +1,41 @@
+{
+    "weight": 90,
+    "quality": 2.5,
+    "mainhands": [],
+    "offhands": [],
+    "boots": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_boots"
+            }
+        }
+    ],
+    "leggings": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_leggings"
+            }
+        }
+    ],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "minecraft:chainmail_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "earth"
+    ]
+}

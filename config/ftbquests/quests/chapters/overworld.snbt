@@ -27,6 +27,11 @@
 				"Punch trees, collect vital resources, and lay the first block in what will become a legacy of innovation, exploration, and mastery.  "
 				"🌿🔨 From humble beginnings, greatness will rise."
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:oak_log"
+				tag: { }
+			}
 			id: "1881B38A98C580A3"
 			rewards: [
 				{
@@ -58,7 +63,7 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Any #minecraft:logs"
+				title: "Gather 10 of Any Log"
 				type: "item"
 			}]
 			title: "First Light"
@@ -76,6 +81,11 @@
 				"With stronger tools come new horizons.  "
 				"⛏ Every strike of the pickaxe is a step toward mastery."
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:crafting_table"
+				tag: { }
+			}
 			id: "62BFFEB56245C2F3"
 			rewards: [
 				{
@@ -99,6 +109,11 @@
 			subtitle: "Craft a crafting table and your first pickaxe—forge the tools to shape your future. Click me for more info!"
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "minecraft:crafting_table"
+						tag: { }
+					}
 					id: "6BABAA13A39290BB"
 					item: {
 						Count: 1
@@ -107,7 +122,7 @@
 							value: "mctb:revertable_workbench"
 						}
 					}
-					title: "Any #mctb:revertable_workbench"
+					title: "Make A Crafting Table"
 					type: "item"
 				}
 				{
@@ -186,6 +201,13 @@
 				""
 				"⚒&nYour journey to greatness begins underground.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "774048801A50E2D4"
 			rewards: [
 				{
@@ -247,6 +269,13 @@
 				"Learn more about tools and armor in its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "795BB1A225B65C14"
 			rewards: [{
 				id: "762B37CFA80EDEEC"
@@ -331,7 +360,17 @@
 				"Light is more than comfort—it’s survival.  "
 				"🕯🔥 &nShine a light into the unknown, and take control of your fate.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:campfire"
+				tag: { }
+			}
 			id: "19AA16DF731E0652"
+			rewards: [{
+				id: "420CDEA480DE2278"
+				type: "xp"
+				xp: 25
+			}]
 			subtitle: "Craft light sources to reveal the world and keep the shadows at bay. Click me for more info!"
 			tasks: [
 				{
@@ -360,6 +399,13 @@
 				""
 				"💎⚡ &nUncover the riches of the deep, and turn raw potential into boundless progress.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "218A44E2EE4B49E4"
 			rewards: [
 				{
@@ -446,6 +492,11 @@
 				"Want to learn more about enchanting? Check out its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6965F4ABCAB88875\" } }"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanting_table"
+				tag: { }
+			}
 			id: "7B5086A6EF852DF0"
 			rewards: [
 				{
@@ -487,6 +538,7 @@
 					id: "30D2BEFD1555E4A3"
 					replace: false
 					replaced: "minecraft:air"
+					title: "Place 5 of Any Bookshelf"
 					type: "questsadditions:place"
 					value: 5L
 				}
@@ -506,6 +558,11 @@
 				""
 				"&nMaster the art of alchemy, and let every vial become a weapon in your arsenal.&r"
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:brewing_stand"
+				tag: { }
+			}
 			id: "598B697BDE842B0E"
 			rewards: [
 				{
@@ -591,8 +648,14 @@
 			]
 			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click me for more info!"
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
 				id: "58D5FAE01CBFA872"
 				structure: "#minecraft:ruined_portal"
+				title: "Locate a Ruined Portal"
 				type: "structure"
 			}]
 			title: "Sealed in Stone"

@@ -1,5 +1,5 @@
 #List of names the merchant can have.
-merchantNames = ["Swap-O-Matic", "Emerald Muncher", "Weathered Salesperson"]
+merchantNames = ["The Brass Broker", "Cogwright Trader", "The Alloy Merchant", "Steamcraft Supplier", "The Mechanist", "Gearwright Vendor", "Ironclad Merchant", "The Precision Peddler", "The Crankmaster", "Clockwork Trader", "The Valve Broker", "Foundry Merchant", "The Rivet Vendor", "Shadowsteel Dealer", "The Radiant Merchant"]
 #The range within animals can be fed by the feeding trough.
 feedingTroughRange = 8
 #The maximum amount of animals (per type) until the feeding trough stops feeding.

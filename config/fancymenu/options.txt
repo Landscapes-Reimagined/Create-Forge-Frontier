@@ -14,7 +14,6 @@ B:advanced_customization_mode = 'false';
 
 ##[loading]
 
-B:preload_animations = 'true';
 S:preload_resources = '';
 S:custom_game_intro_skip_text = '';
 B:allow_game_intro_skip = 'true';
@@ -27,7 +26,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/icon32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icon32.png';
-S:custom_window_title = 'Create - Forge Frontier v2.4.2';
+S:custom_window_title = 'Create - Forge Frontier v2.5.0';
 S:custom_window_icon_16 = '/config/fancymenu/assets/icon16.png';
 
 
@@ -86,3 +85,9 @@ B:show_welcome_screen = 'false';
 ##[keyframe_editor]
 
 B:arrow_keys_move_preview = 'false';
+
+
+##[advanced]
+
+L:placeholder_caching_duration_ms = '30';
+L:requirement_caching_duration_ms = '0';

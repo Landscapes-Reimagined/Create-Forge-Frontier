@@ -377,7 +377,7 @@
           "type": "minecraft:vertical_gradient",
           "random_name": "minecraft:deepslate",
           "true_at_and_below": {
-            "absolute": 0
+            "absolute": 62
           },
           "false_at_and_above": {
             "absolute": 8
@@ -386,7 +386,29 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:deepslate",
+            "Name": "alexscaves:cake_layer",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "minecraft:stone",
+          "true_at_and_below": {
+            "absolute": 90
+          },
+          "false_at_and_above": {
+            "absolute": 62
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:stone",
             "Properties": {
               "axis": "y"
             }

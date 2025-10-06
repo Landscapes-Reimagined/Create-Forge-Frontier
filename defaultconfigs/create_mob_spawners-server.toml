@@ -1,7 +1,7 @@
 
 [soul_catcher]
 	#Entity ids that should not be capturable
-	entity_blacklist = ["minecraft:snow_golem"]
+	entity_blacklist = ["minecraft:snow_golem", "cataclysm:netherite_monstrosity", "cataclysm:the_leviathan", "cataclysm:ancient_remnant", "cataclysm:maledictus"]
 	#Maximum distance at which entities can be captured
 	#Range: 5.0 ~ 50.0
 	max_distance = 15.0

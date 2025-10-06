@@ -1015,7 +1015,7 @@
 			}]
 			title: "Stress Progression: Fluid Processing"
 			x: -3.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["71D00FF2BEBD3FEA"]
@@ -1070,7 +1070,7 @@
 			}]
 			title: "Stress Progression: Copper Pipe"
 			x: -3.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5E955070872C95FC"]
@@ -1326,8 +1326,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Mechanical Pump"
-			x: -3.0d
-			y: 2.5d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CE141F1163EC938"]
@@ -1361,7 +1361,7 @@
 			]
 			title: "Stress Progression: Fluid Valve"
 			x: -4.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -1996,8 +1996,8 @@
 				}
 			]
 			title: "Stress Progression: Precision Mechanism"
-			x: -1.0d
-			y: 18.5d
+			x: -1.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["7DFF7AAA079D4BFC"]
@@ -2024,7 +2024,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 18.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["24679CC3DFE86054"]
@@ -2050,7 +2050,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 20.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["1BBD2EE82A1AF187"]
@@ -2078,7 +2078,7 @@
 			}]
 			title: "Stress Progression: Train Controlling"
 			x: 1.0d
-			y: 22.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["1BBD2EE82A1AF187"]
@@ -2113,7 +2113,7 @@
 			}]
 			title: "Rail Transportation!"
 			x: 0.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["477EF84B4DD97BF9"]
@@ -2138,8 +2138,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 20.5d
+			x: -1.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["477EF84B4DD97BF9"]
@@ -2165,8 +2165,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Rotational Speed Controller"
-			x: -2.0d
-			y: 20.0d
+			x: -2.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["24679CC3DFE86054"]
@@ -2193,7 +2193,7 @@
 			}]
 			title: "Stress Progression: Train Tracks"
 			x: 2.0d
-			y: 19.5d
+			y: 20.5d
 		}
 		{
 			dependencies: ["1BBD2EE82A1AF187"]
@@ -2246,7 +2246,7 @@
 			]
 			title: "Train Utilities"
 			x: 2.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["7CEA168D6E09EFEE"]
@@ -2379,6 +2379,11 @@
 				""
 				"They also allow you to see the amount of fluid in your tank as well as its remaining capacity."
 			]
+			icon: {
+				Count: 1
+				id: "create:wrench"
+				tag: { }
+			}
 			id: "5DA6EB383B731634"
 			rewards: [
 				{
@@ -2524,7 +2529,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52994525D9DF88FA"]
@@ -2960,7 +2965,7 @@
 			}]
 			title: "Postboxes"
 			x: 3.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -3210,8 +3215,8 @@
 				type: "item"
 			}]
 			title: "Factory Gauge"
-			x: 0.0d
-			y: 20.0d
+			x: -0.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["2EDAEA1566841D97"]

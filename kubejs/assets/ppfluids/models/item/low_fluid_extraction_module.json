@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "ppfluids:item/low_fluid_extraction_module"
+    }
+}

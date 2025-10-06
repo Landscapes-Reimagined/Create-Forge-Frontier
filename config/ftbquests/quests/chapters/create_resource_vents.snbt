@@ -1,0 +1,3603 @@
+{
+	autofocus_id: "7AC47553B491EE76"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_resource_vents"
+	group: "3D5393E3938A9DF4"
+	icon: "create_resource_vents:active_asurine_vent"
+	id: "4E4AA685A681F1B0"
+	images: [
+		{
+			height: 15.0d
+			image: "ftb:textures/create_resource_vents.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Calcite"]
+			image: "minecraft:block/calcite"
+			rotation: 0.0d
+			width: 1.0d
+			x: -20.0d
+			y: 3.0d
+		}
+		{
+			height: 1.75d
+			image: "ftb:textures/create_with_colon_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: -12.5d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Scattered across the wilds of the Overworld lie eight ancient geological marvels—&lResource vents&r. Each one channels elemental energy from deep within the earth, offering &ospecialized automation pathways&r for the rarest resources."
+				""
+				"Veridium, Crimsite, Ochrum, Asurine, Potassic, Scoria, Verdantine, and Glacium—these &lore-bound vents&r await discovery in the biomes they call home. But only the worthy can awaken their dormant power."
+				""
+				"{@pagebreak}"
+				""
+				"These vents are far more than simple curiosities—they’re the beating hearts of &lCreate-based automation&r. When activated, each one becomes a reliable source of molten ore, ready to be harvested by &omechanical extruders&r and converted into precious ingots."
+				""
+				"⚒ &oVenture forth, ignite the stone, and master the molten veins of the Overworld. Your factory’s future begins in the earth below.&r"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "69CE3113324ED800"
+			rewards: [
+				{
+					id: "0493B18426DA0DE1"
+					item: "createcompression:compressed_dirt_1x"
+					type: "item"
+				}
+				{
+					id: "56F3199677425D7A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Overworld's Resource vents: Nature’s Resource Wells, Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "32D2B9D5FBAE7A12"
+				type: "dimension"
+			}]
+			title: "Resource vents of the Overworld"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Beneath the Nether’s scorched skies and crimson stone lies an ancient secret—&lResource vents&r of unimaginable power. Two such marvels—&4Scorchia&r and &8Ancient Debris&r vents—await discovery by those brave enough to tread the Nether’s perilous heights."
+				""
+				"{@pagebreak}"
+				""
+				"Once found, these vents hold the key to automating two of the most valuable resources:"
+				""
+				"When activated, these volcanic veins unleash a molten core ready to be tapped by &lCreate's mechanical extruders&r. Feed them the correct milkshake or molten fluid, and you’ll gain a constant supply of some of Minecraft’s most coveted materials."
+				""
+				"{@pagebreak}"
+				""
+				"&c⚠ Caution: The Nether is a volatile realm. You’ll need careful planning, heat protection, and sharp reflexes to tame these lava-forged giants.&r"
+				""
+				"🔥 &oHarness the inferno, channel the molten flow, and rise as the master of Nether-bound automation.&r"
+			]
+			icon: "minecraft:netherrack"
+			id: "0B070C4D8A55E5A8"
+			rewards: [
+				{
+					id: "3FEF08186258E837"
+					item: "createcompression:compressed_netherrack_1x"
+					type: "item"
+				}
+				{
+					id: "5E4DCBC6A71D6B4C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Nether’s Molten Riches: Scorchia and Ancient Debris Vents, Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5D645E7B057EDD96"
+				type: "dimension"
+			}]
+			title: " Resource vents of the Nether"
+			x: -5.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Hidden high above the shadowed terrain of the &5Otherside&r lies a marvel unlike any other—&lthe Resonite Vent&r. This rare molten vent thrums with &omysterious energy&r and &buntapped potential&r."
+				""
+				"&lResonite&r is a resource like no other, vital for &ladvanced crafting&r and &6late-game progression&r. But claiming it won’t be easy. Navigating the Otherside's eerie depths is dangerous enough—but scaling to its uppermost reaches? That’s a challenge worthy of only the boldest adventurers."
+				""
+				"{@pagebreak}"
+				""
+				"🗺 Locating the Vent"
+				"The Resonite Vent doesn’t appear in the open. You'll need to explore &5ancient ruins&r, brave the dimension’s warped geometry, and ascend its obsidian canopy to find this molten marvel."
+				""
+				"🔥 Activating the Pulse"
+				"As with all Resource vents, activate it by feeding a blaze burner blaze cake atop its dormant form. Once awakened, feed it the required fluid—&oto be discovered on your journey&r—and unlock a renewable stream of Resonite materials."
+				""
+				"{@pagebreak}"
+				""
+				"Unravel the secrets. Claim the rewards."
+				"Let the &mheartbeat of the Otherside&r guide your way into the arcane unknown."
+				""
+				"💎 &oThe Resonite Vent awaits—do you have the resolve to reach it?&r"
+			]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "4D23ABB810220050"
+			rewards: [
+				{
+					count: 9
+					id: "26238ABBABEC8E06"
+					item: "minecraft:sculk"
+					type: "item"
+				}
+				{
+					id: "66C1F715473E09A3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Pulse of the Otherside. Click me for more info!"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "7DBA6B0F06569E5F"
+				type: "dimension"
+			}]
+			title: "Resource Vent of the Otherside"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Amid the Moon’s &7desolate craters&r and &7silent plains&r lies a rare celestial anomaly—the &lAubrum Vent&r. Embedded within the rugged lunar surface, this molten vent pulses with a faint &dcosmic shimmer&r, hinting at the powerful resource it contains."
+				""
+				"&6Aubrum&r is a crucial component in &lspace-age machinery&r and &6high-tier automation&r, making this vent an essential milestone in your interstellar progression. Only those bold enough to pierce the heavens and step onto the Moon will be able to harness its power."
+				""
+				"{@pagebreak}"
+				""
+				"🌑 Finding the Vent"
+				"The Aubrum Vent is unique to the Moon and can be found nestled among the craters and &7regolith dust&r. Its glowing hue makes it easy to spot—if you're paying attention."
+				""
+				"💥 Ignite the Process"
+				"Activate the dormant vent by feeding blaze cake to a &lblaze burner&r atop it. Once it erupts into its awakened state, it will require a &ospecial liquid&r to begin producing the coveted Aubrum ore through your &lmechanical extruder&r setups."
+				""
+				"{@pagebreak}"
+				""
+				"🛰 Conquer the void, claim the shimmer."
+				"Let &6Aubrum&r fuel your ascent into the stars!"
+				""
+				"🚀 &oThe Moon holds more than dust—it holds your future.&r"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "470D358D9308FA68"
+			rewards: [
+				{
+					count: 9
+					id: "307327A523E15756"
+					item: "ad_astra:moon_sand"
+					type: "item"
+				}
+				{
+					id: "38D63D2BACBE8128"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Moon’s Shimmering Secret. Click me for more info!"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "56EE4C23722F5397"
+				type: "dimension"
+			}]
+			title: "Resource Vent of the Moon"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Beneath the &4crimson dunes&r and jagged cliffs of Mars lies a discovery that redefines space-age engineering—the &lStellaris Vent&r. This molten fissure radiates with &dinterstellar energy&r, its glowing core a gateway to &6rare resources&r essential for your most advanced machines."
+				""
+				"Found only on the &4Martian surface&r, Stellaris Vents are your ticket to unlocking powerful components like &6Ostrum&r, pushing your technological frontier further than ever before."
+				""
+				"{@pagebreak}"
+				""
+				"🪐 Venture Across the Red World"
+				"To locate a Stellaris Vent, you’ll need to brave Mars’s &cdust-choked plains&r and &7hostile terrain&r. Once discovered, feed a blaze burner blaze cake atop the vent to activate it, transforming it into a pulsing source of molten energy."
+				""
+				"⚙ Refined Power, Endless Potential"
+				"Feed the awakened vent its &oliquid catalyst&r—crafted through resourceful engineering—and you’ll be able to automate &6Ostrum&r production using &lmechanical extruders&r."
+				""
+				"{@pagebreak}"
+				""
+				"🚀 Mars holds the keys to your next great leap."
+				"Unleash the power of &dStellaris&r and fuel your rise through the cosmos."
+				""
+				"&4The Red Planet awaits—are you ready to claim its molten legacy?&r"
+			]
+			icon: "ad_astra:mars_globe"
+			id: "7339FE49A994B794"
+			rewards: [
+				{
+					count: 9
+					id: "1464006920E05211"
+					item: "ad_astra:mars_sand"
+					type: "item"
+				}
+				{
+					id: "2B74E66886345D78"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Martian Treasure: The Stellaris Vent, Click me for more info!"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "1EEB22ACE1F951D6"
+				type: "dimension"
+			}]
+			title: "Resource Vent of Mars"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Amid the &cscorching storms&r and &6volcanic terrain&r of Venus lies a molten marvel—the &lPyroclast Vent&r. This superheated fissure pulses with &cfire-infused energy&r, radiating with volatile power and the promise of &6rare progression materials&r."
+				""
+				"Found exclusively on the &6surface of Venus&r, the Pyroclast Vent is not just a resource node—it’s a &ltrial by fire&r, offering &dCalorite potential&r to those resilient enough to endure the planet’s wrath."
+				""
+				"{@pagebreak}"
+				""
+				"🌋 Survive the Inferno"
+				"Venus offers no mercy. With &4toxic skies&r and &corrosive heat&r, locating a Pyroclast Vent is only the beginning. Once uncovered, feed a blaze burner blaze cake atop the vent to activate it, converting it from dormant stone to a living conduit of molten power."
+				""
+				"🔥 Ignite Progression"
+				"Provide the required &odesert milkshake fluid&r—crafted with precision—and begin automating &dCalorite&r using &lmechanical extruders&r. The vent’s yield will fuel your path toward endgame technologies."
+				""
+				"{@pagebreak}"
+				""
+				"&cOnly the bold will tame the flame.&r"
+				"&6Harness the fury of Venus, and let the Pyroclast Vent blaze your trail to the stars.&r"
+			]
+			icon: "ad_astra:venus_globe"
+			id: "6B619A2EB40D34C9"
+			rewards: [
+				{
+					count: 9
+					id: "6EE5DE10E5AF34B1"
+					item: "ad_astra:venus_sand"
+					type: "item"
+				}
+				{
+					id: "2E27CEC91FF55B54"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Volcanic Riches: The Pyroclast Vent, Click me for more info!"
+			tasks: [{
+				dimension: "ad_astra:venus"
+				id: "323ADE366797631D"
+				type: "dimension"
+			}]
+			title: "Resource Vent of Venus"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Amid the &3glacial stillness&r of Glacio’s frozen surface lies a &bcrystalline wonder&r—the &lFrostite Vent&r. Nestled in the &9ice-locked terrain&r, this shimmering vent radiates with &owintry energy&r, offering an essential resource for those who brave the frost-covered frontiers."
+				""
+				"Found only in the &frozen heart of Glacio&r, the Frostite Vent is a &lcore component&r in the automation of powerful &bice-based alloys&r and high-tier machinery."
+				""
+				"{@pagebreak}"
+				""
+				"🧊 Awaken the Frozen Core"
+				"Track its jagged, frost-lined spires among Glacio’s icy valleys. To activate the vent, feed a blaze burner blaze cake on its surface, shattering its dormant crust and awakening the &lflow of sub-zero energy&r beneath."
+				""
+				"❄ Fuel the Chill"
+				"Supply the vent with &bGlacio Ice Shard Milkshake&r, crafted from frigid shards found deep beneath the planet’s crust. Once activated, the &lMechanical Extruder&r will begin transforming fluid into &lvaluable Frostite Orestone&r."
+				""
+				"{@pagebreak}"
+				""
+				"&bWill you endure the frost and harness the cold?&r"
+				"&3The Frostite Vent awaits—frozen, fierce, and full of promise.&r"
+			]
+			icon: "ad_astra:glacio_globe"
+			id: "744904CCFAFB6BB0"
+			rewards: [
+				{
+					count: 9
+					id: "4F28481B2AAF4946"
+					item: "ad_astra:permafrost"
+					type: "item"
+				}
+				{
+					id: "5A3F45BE2DD0C696"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Forged in Ice, Hidden in Silence, Click me for more info!"
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				id: "7616F73D69F93929"
+				type: "dimension"
+			}]
+			title: "Resource Vent of Glacio"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"The &5End Dimension&r holds more than the &odragon’s roar&r—it conceals &lthree mystical Resource vents&r, each pulsing with energy beyond comprehension. These ancient fissures, embedded within the alien stone of the End, offer resources as rare as they are powerful."
+				""
+				"{@pagebreak}"
+				""
+				"✨ Radiantite Vent"
+				"Glowing with &emystic brilliance&r, the Radiantite Vent is a &lbeacon of celestial energy&r. Found among the tall spires and windswept void islands, it fuels the most &radvanced crafting systems&r in the known universe."
+				""
+				"🌑 Void Shale Vent"
+				"Dark and &koblivion-bound&r, this vent bleeds fragments of the &oinfinite void&r itself. Handle with caution—the &8Void Shale Vent&r pulses with power drawn from the edge of nothingness."
+				""
+				"🪨 Palerock Vent"
+				"Smooth, pale, and deceptively silent, the Palerock Vent reflects the &7enigmatic stillness&r of the End. While less volatile than its counterparts, it provides &lessential resources&r for those seeking mastery over the End’s deeper secrets."
+				""
+				"{@pagebreak}"
+				""
+				"🎯 How to Harness Their Power"
+				"As with other Resource vents, feed a blaze burner blaze cake on top of it to awaken them from dormancy. Once activated, each requires a &lspecific custom milkshake&r fluid to begin automation via &lMechanical Extruders&r."
+				""
+				"&5Will you tame the void and command its power—or be lost to its depths?&r"
+				"&dThe secrets of the End await those who dare to seek them.&r"
+			]
+			icon: "minecraft:end_stone"
+			id: "15DD51BFD4480F8D"
+			rewards: [
+				{
+					id: "0CC00DBC17CF919B"
+					item: "createcompression:compressed_end_stone_1x"
+					type: "item"
+				}
+				{
+					id: "2347C4752CB464F3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The End's Radiance: Radiantite, Void Shale, and Palerock Vents, Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "05A4F792DF06B32F"
+				type: "dimension"
+			}]
+			title: "Resource vents of the End"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Deep beneath the crushing pressure of the Abyssal Chasm, where &9tube worms writhe&r and &omysterious ruins slumber&r, the &bPearlyte Vent&r glimmers with &ltreasures of the sea&r. This &luncommon molten vent&r is shrouded in bioluminescent glow and guarded by the perils of the deep."
+				""
+				"{@pagebreak}"
+				""
+				"🌀 Abyssal Location"
+				"Accessible only to the &lbravest divers&r and most prepared explorers, this vent lies at the heart of &lAlex’s Caves: Abyssal Chasm&r. There, the ocean’s depth &odistorts sound and light&r, making orientation—and survival—a true challenge."
+				""
+				"🧪 Unlocking Its Power"
+				"As with all Resource vents, feed a blaze burner blaze cake atop the &odormant Pearlyte&r to activate its core. Once awakened, it will accept a specific &aMilkshake Fluid&r, initiating a powerful resource generation process through your &lMechanical Extruder&r system."
+				""
+				"{@pagebreak}"
+				""
+				"💎 Why It Matters"
+				"Pearlyte fuels &ladvanced crafting recipes&r required for late-game engineering, machinery, and interdimensional travel. It’s a cornerstone of deep-sea industry and a prize for those bold enough to venture below."
+				""
+				"🌊 Will you master the tides—or vanish into the abyss?"
+				"🦑 The ocean whispers secrets meant only for the daring…"
+			]
+			icon: "alexscaves:submarine"
+			id: "6CDC2B37D835F804"
+			rewards: [
+				{
+					count: 9
+					id: "6E599FDA4A4926B9"
+					item: "alexscaves:muck"
+					type: "item"
+				}
+				{
+					id: "637ADCA64945930E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Oceanic Mystery: The Pearlyte Vent (Abyssal Chasm), Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:abyssal_chasm"
+				id: "1A839FCD59353FDF"
+				type: "dimension"
+			}]
+			title: "Resource Vent of the Abyssal Chasm"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Hidden deep within the &2lush overgrowth&r and &oprehistoric wonder&r of the &lPrimordial Caves&r, the &6Amberlite Vent&r glows like a relic of ancient times. It pulses with &oorange warmth&r and &lancestral energy&r—remnants of a world before time."
+				""
+				"{@pagebreak}"
+				""
+				"🌿 Primeval Placement"
+				"Found only in the depths of the &lAlex's Caves: Primordial Caves&r, this molten vent is guarded by the &odinosaurian denizens&r of the biome—&lGrottoceratops&r, &oTremorsaurus&r, and more. Tread carefully among the vines and vines of ancient growth."
+				""
+				"🔥 Vent Activation"
+				"As with all Resource vents, &6feed a blaze burner blaze cake&r atop a dormant Amberlite Vent to awaken its core. Once active, &osupply it with its corresponding milkshake fluid&r to begin generating precious resources through &lMechanical Extruders&r."
+				""
+				"{@pagebreak}"
+				""
+				"🛠 Crafting Through Time"
+				"Amberlite provides materials necessary to &lbridge the ancient and the futuristic&r. Its outputs are essential to &ltech-era crafting&r, giving your builds the power of evolution itself."
+				""
+				"🌟 Will you harness the flame of the first age—or be lost to the jungle’s roots?"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:primordial_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40DB7FDC0CC426FF"
+			rewards: [
+				{
+					count: 9
+					id: "192F341DD2D88F91"
+					item: "alexscaves:limestone"
+					type: "item"
+				}
+				{
+					id: "32A5B958A699D58B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Amber’s Glow: The Amberlite Vent (Primordial Caves), Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:primordial_caves"
+				id: "54AF1FBD3322EBAC"
+				type: "dimension"
+			}]
+			title: "Resource Vent of the Primordial Caves"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"In the &0shadow-choked crevices&r of the &lForlorn Hollows&r, the &8Guanite Vent&r bubbles ominously from beneath the cursed &7Guanostone&r. Surrounded by the whispers of the &nforgotten dead&r and patrolled by the &cForsaken&r, this molten vent pulses with a &odark, forbidden energy&r."
+				""
+				"{@pagebreak}"
+				""
+				"🪦 A Sinister Discovery"
+				"This vent is found only in the depths of the &lAlex’s Caves: Forlorn Hollows&r—a biome steeped in &omalevolent energy&r and echoing with the cries of the &cUnderzealots&r. It is a realm not meant for the faint of heart."
+				""
+				"💀 Activation Amid Shadows"
+				"As with all Resource vents, &6feed a blaze burner blaze cake&r on a dormant Guanite Vent to awaken its ancient force. Then, &oprovide it with the correct milkshake fluid&r to begin its extraction process via &lMechanical Extruders&r."
+				""
+				"{@pagebreak}"
+				""
+				"⚔ Power in the Darkness"
+				"The resources drawn from Guanite are potent—and &odrenched in peril&r. Whether used for dark crafting, alchemical experiments, or fueling forbidden technology, they offer power at a price."
+				""
+				"🌑 Will you brave the hollows and master their secrets—or be consumed by the shadows?"
+			]
+			icon: "alexscaves:pure_darkness"
+			id: "0988690A536B7D19"
+			rewards: [
+				{
+					count: 9
+					id: "18043FB6D9F5CACC"
+					item: "alexscaves:guanostone"
+					type: "item"
+				}
+				{
+					id: "326D1DC62BED56FB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Dark Secrets: The Guanite Vent (Forlorn Hollows), Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:forlorn_hollows"
+				id: "4A03EBCDD5110DBB"
+				type: "dimension"
+			}]
+			title: "Resource Vent of the Forlorn Hollows"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"In the heart of the &2Toxic Caves&r, where the air stings with radiation and every breath carries risk, two volatile Resource vents await those with the resolve to survive: the &eSulphite Vent&r and the &aUraniumnite Vent&r."
+				""
+				"{@pagebreak}"
+				""
+				"🧪 The Sulphite Vent"
+				"&lBubbling with acidic fumes&r, this vent releases noxious materials that corrode unprotected tools and armor. Yet for the bold, its yield is vital for crafting chemical catalysts and energy-rich components."
+				""
+				"☢ The Uraniumnite Vent"
+				"&lPulsing with radioactive energy&r, this vent glows ominously beneath the surface, promising powerful—but dangerous—rewards. Handle with care, as extended exposure could mean disaster without the right gear."
+				""
+				"{@pagebreak}"
+				""
+				"💀 A World of Rot and Ruin"
+				"These vents lie hidden among &lapocalyptic ruins&r and &ltoxic swamplands&r, surrounded by grotesque creatures twisted by radiation. Navigating this biome will test your endurance, preparation, and sanity."
+				""
+				"⚠ Activate and Automate"
+				"As with all vents, feed a blaze burner blaze cake atop a dormant vent to awaken it. Then supply its &ldesignated milkshake fluid&r to begin extraction using &lMechanical Extruders&r. These vents are key to unlocking powerful recipes and technologies later in your journey."
+				""
+				"🧬 Will you brave the toxic storm and claim these corrosive riches—or become part of the wasteland?"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "434A80C989CFB176"
+			rewards: [
+				{
+					count: 9
+					id: "5C2A7BFAB5C3EF7B"
+					item: "alexscaves:radrock"
+					type: "item"
+				}
+				{
+					id: "1BB30DC1849921BD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Toxic Treasures: The Uraniumnite and Sulphite Vents (Toxic Caves), Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:toxic_caves"
+				id: "001E6A2B41C27264"
+				type: "dimension"
+			}]
+			title: "Resource vents of the Toxic Caves"
+			x: 17.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Deep within the &9Magnetic Caves&r, where polarity distorts reality and metal hums with unnatural energy, lie two of the most advanced Resource vents in existence: the &3Azurnium Vent&r and the &dNeodymrium Vent&r."
+				""
+				"{@pagebreak}"
+				""
+				"🔩 The Azurnium Vent"
+				"Gleaming with &lmechanical brilliance&r, this vent pulses with the &obrainpower of automation&r. It is said that Azurnium once powered lost machines of an ancient civilization—machines that could build themselves."
+				""
+				"⚡ The Neodymrium Vent"
+				"Crackling with &omagnetic current&r, the Neodymrium Vent distorts compasses and draws metals to itself. Its rare energy signature is perfect for &lconductive alloys&r and &ltech-based contraptions&r."
+				""
+				"{@pagebreak}"
+				""
+				"🛠 Harnessing Their Potential"
+				"To awaken either vent, &6feed a blaze burner blaze cake&r atop a dormant version found in this volatile biome. Supply it with the &odesignated milkshake fluid&r and channel the output using &lMechanical Extruders&r to automate resource production."
+				""
+				"🤖 But Beware…"
+				"The &cMagnetic Caves&r are home to &lTeletors&r, &lMagnetrons&r, and other magnetic horrors that will stop at nothing to defend the vents. Approach with caution—and a well-armored mech suit."
+				""
+				"⚙ Will you master the forces of magnetism, or fall victim to its pull?"
+			]
+			icon: "alexscaves:telecore"
+			id: "42CE6455938E37CF"
+			rewards: [
+				{
+					count: 9
+					id: "0A14F0A77D8F2E06"
+					item: "alexscaves:galena"
+					type: "item"
+				}
+				{
+					id: "7368F43D615A5035"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Magnetic Marvels: The Neodymrium and Azurnium Vents (Magnetic Caves), Click me for more info!"
+			tasks: [{
+				dimension: "forge_frontier:magnetic_caves"
+				id: "43CBDB5891078EB5"
+				type: "dimension"
+			}]
+			title: "Resource vents of the Magnetic Caves"
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&lResource vents&r is more than just a feature—it's a revolution in resource automation. This innovative system introduces a renewable method for generating the rare &oore stones&r of the &3Create&r mod, giving you the tools to industrialize your resource pipeline like never before."
+				""
+				"While the base mod focuses on &oBasic Ore Stones&r, this expanded integration unlocks &ohigh-tier Resource vents&r—letting you automate everything from &7Tin&r to &dCalorite&r. Whether you’re building megastructures or refining rare alloys, &lResource vents are the key to sustainable progress&r."
+				""
+				"{@pagebreak}"
+				""
+				"🗺 Biome and Dimension Specificity"
+				"Each molten vent is tightly bound to the environment—&oVeridium&r blooms in deserts, &oGlacium&r chills in frozen peaks, and &oAncient Debris&r erupts from the Nether roof. Your challenge is to scour the world for these elemental veins of power."
+				""
+				"🔥 Activation Ritual"
+				"Once found, transform a dormant vent into an active one feeding a &4blaze burner&r a &cblaze cake&r directly atop it. When the tranformation is complete, feed it its unique liquid fuel—be it a milkshake or molten blend—and watch as it begins converting &oessence into ore&r."
+				""
+				"{@pagebreak}"
+				""
+				"🧰 Helpful Tools and Features"
+				""
+				"Portable Vents – Thanks to &6Carry On&r, activated vents can be moved, enabling the construction of centralized molten factories. Just Sneak Right Click to pick up the vent!"
+				""
+				"Mechanical Extruders – Designed for late-game automation, these machines pull &oorestones&r from a single fluid source block, removing the need for complex setups."
+				""
+				"{@pagebreak}"
+				""
+				"With Resource vents, your world becomes a living forge—&lwhere lava flows into iron, milkshakes into gold, and ambition into industry&r."
+				""
+				"🔩 &oThe stone beneath your feet is no longer a limit—it’s a launchpad. Ready to reshape your world?&r"
+			]
+			hide_dependent_lines: true
+			icon: "create_resource_vents:active_asurine_vent"
+			id: "7AC47553B491EE76"
+			rewards: [
+				{
+					id: "044F3A7E366EB2DB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3B12084B5C15151A"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Resource vents: A New Era of Resource Generation, Click me for more info!"
+			tasks: [
+				{
+					id: "77168E2D646C1F11"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "1897B3BF3A210851"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "50CB0982BC4BF504"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "Resource Vents Overview"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3217A6300D17E470"]
+			description: [
+				"Hidden amongst the grass of the Plains is the &cCrimsite Vent&r—one of the ancient ore stones essential for automating &cIron&r production. These silent vents pulse with potential, just waiting to be brought to life by an adventurer brave enough to harness their power."
+				""
+				"{image:ftb:textures/crimsite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unlock the full potential of a Crimsite Vent, you must &lfeed a blaze burner blaze cake directly on its surface&r. This fiery ignition transforms the dormant vent into an &oactive source of molten power&r."
+				""
+				"Once activated, all that remains is to provide the correct &dsource fluid&r (revealed in the next quest). With the right setup, you’ll be able to channel its molten flow through &lmechanical extruders&r to fully automate iron."
+				""
+				"⚙ Strike the stone. Spark the forge. &lIron automation begins here.&r"
+			]
+			icon: "create_resource_vents:dormant_crimsite_vent"
+			id: "1091314A5D575D4B"
+			rewards: [
+				{
+					id: "0C1B7E02D08E4326"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6CDB2CA16A0EFDF4"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Ignite the Stone, Awaken the Forge. Click me for more info!"
+			tasks: [{
+				id: "4EA85341DAED5477"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_crimsite_vent"
+				type: "observation"
+			}]
+			title: "Heart of Iron"
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38367FF1F1438DED"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_ingot"
+				tag: { }
+			}
+			id: "4FFBE9F8BC52BAE5"
+			rewards: [{
+				id: "7A6F551CA1685074"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Crimsite can be later crushed down to produce iron"
+			tasks: [
+				{
+					id: "270CA2E6F14F78EB"
+					item: "create:crimsite"
+					type: "item"
+				}
+				{
+					id: "741554A11456C5D8"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					id: "3243B7184AA4DBE0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AE42496027E453C"]
+			description: [
+				"Hidden within the Savanna lies the &6Ochrum Vent&r—one of the most precious molten ore stones, essential for unlocking &eyour gold automation pipeline&r. While it may appear dormant at first glance, within it simmers the molten potential of &lwealth and industry&r."
+				""
+				"{image:ftb:textures/ochrum_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its golden promise, you must &lfeed a blaze burner blaze cake&r, transforming it from a silent stone into a blazing source of automation."
+				""
+				"Once activated, the vent will begin accepting its designated &dsource fluid&r (revealed in the next quest), powering &lMechanical Extruders&r to produce a steady flow of valuable resources."
+				""
+				"⚙ &6Strike the spark. Feed the flame. And let gold pour from the heart of Ochrum.&r"
+			]
+			icon: "create_resource_vents:dormant_ochrum_vent"
+			id: "070BAAF36335CB39"
+			rewards: [{
+				id: "4D365C9E07926BE5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "7E9F73B48C50234A"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Ochrum Vent"
+				to_observe: "create_resource_vents:dormant_ochrum_vent"
+				type: "observation"
+			}]
+			title: "The Gilded Flame"
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F22F9F9B3D393E1"]
+			icon: {
+				Count: 1
+				id: "minecraft:gold_ingot"
+				tag: { }
+			}
+			id: "4A8DBEF17C064273"
+			rewards: [{
+				id: "7536E3269ED3BBF3"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			subtitle: "Ochrum can be later crushed down to produce gold"
+			tasks: [
+				{
+					id: "7542AF4EB6337F4E"
+					item: "create:ochrum"
+					type: "item"
+				}
+				{
+					id: "57AA6B805E8B3508"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					id: "2BD332DD32C1D3C2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			icon: "regions_unexplored:blue_magnolia_sapling"
+			id: "2913B79A0D9AE74E"
+			rewards: [{
+				id: "22A7C04F9260D57E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#minecraft:is_forest"
+				id: "363706F90B7CA208"
+				type: "biome"
+			}]
+			title: "Locate Any Forest Biome"
+			x: -17.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2913B79A0D9AE74E"]
+			description: [
+				"Hidden within the Forest lies the &9Asurine Vent&r—one of the precious ore stones essential to &fZinc&r automation. Though it may appear dormant at first glance, it holds the &omineral potential to jumpstart your production line&r."
+				""
+				"{image:ftb:textures/asurine_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unlock its power, you must &lignite the dormant vent feeding a blaze burner blaze cake&r. This fiery activation awakens the Asurine Vent, transforming it into a functioning source ready to receive molten fluid."
+				""
+				"Once activated, supplying &dcream&r (covered in the next quest) will enable full zinc automation using &lMechanical Extruders&r."
+				""
+				"⚙ The frost runs deep—but with fire, you awaken the ore. Will you rise to command the might of Asurine?"
+			]
+			icon: "create_resource_vents:dormant_asurine_vent"
+			id: "58E37D66B86362FD"
+			rewards: [{
+				id: "5E5D71F495C66884"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "5A45884CDA0E6655"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_asurine_vent"
+				type: "observation"
+			}]
+			title: "The Path to Zinc"
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["061D64DE3F96B2F8"]
+			icon: {
+				Count: 1
+				id: "create:zinc_ingot"
+				tag: { }
+			}
+			id: "22F1724ED1FA487D"
+			rewards: [{
+				id: "15E2706642F6C3D0"
+				item: "create:zinc_block"
+				type: "item"
+			}]
+			subtitle: "Asurine can be later crushed down to produce zinc"
+			tasks: [
+				{
+					id: "7636B0E84A3D108B"
+					item: "create:asurine"
+					type: "item"
+				}
+				{
+					id: "52FCF5FE6268E3A5"
+					item: "create:crushed_raw_zinc"
+					type: "item"
+				}
+				{
+					id: "7C5E58867433C8B4"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7AE2B54E9ABE8172"]
+			description: [
+				"Hidden in the heat of the Desert lies the &aVeridium Vent&r—one of the precious ore stones vital to &6Copper&r automation. These dormant geysers may seem inert at first, but within them stirs the &opower to fuel your machinery&r."
+				""
+				"{image:ftb:textures/veridium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin your journey toward copper automation, you'll need to &lfeed a blaze burner a blaze cake on top of it&r. This transformation awakens the vent, transforming it into a functional node capable of accepting molten fluids."
+				""
+				"Once activated, providing the correct &dsource fluid&r (explained in the next quest) will bring your copper pipeline to life using &lmechanical extruders&r."
+				""
+				"⚙ The stone is set. The fuse is lit. Are you ready to harness the power of Veridium?"
+			]
+			icon: "create_resource_vents:dormant_veridium_vent"
+			id: "6BF481A48C136085"
+			rewards: [
+				{
+					id: "215475D4E10EEC4B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "221733B826EBAFF6"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "7F552CF0B2FEDCDC"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_veridium_vent"
+				type: "observation"
+			}]
+			title: "The Copper Core"
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["571CE6F8667DA48F"]
+			icon: {
+				Count: 1
+				id: "minecraft:copper_ingot"
+				tag: { }
+			}
+			id: "09E03BBF9953EF63"
+			rewards: [{
+				id: "0B7735B8A06CCCD5"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			subtitle: "Veridium can be later crushed down to produce copper"
+			tasks: [
+				{
+					id: "61E1090D23692473"
+					item: "create:veridium"
+					type: "item"
+				}
+				{
+					id: "00D62DF09D2F3E1C"
+					item: "create:crushed_raw_copper"
+					type: "item"
+				}
+				{
+					id: "2E148864849C9799"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2913B79A0D9AE74E"]
+			description: [
+				"Hidden within the Forest lies the &6Potassic Vent&r—one of the rare &dore stones&r crucial for automating &7Tin&r production. Though dormant at first glance, within it flows the &oessence of subterranean power&r waiting to be unleashed."
+				""
+				"{image:ftb:textures/potassic_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this dormant vent, you'll need to &lfeed a blaze burner a blaze cake on top of it&r. This fiery catalyst transforms the vent into an active node, ready to accept molten fluids for automation."
+				""
+				"Once activated, providing the proper &bsource fluid&r (explained in the next quest) allows you to begin your &ltin automation&r pipeline using &lMechanical Extruders&r."
+				""
+				"⚙ A volatile spark. A precious resource. Are you ready to unlock the full potential of Potassic?"
+			]
+			icon: "create_resource_vents:dormant_potassic_vent"
+			id: "79632EC457A3A88D"
+			rewards: [{
+				id: "4F54EF71B5821C7B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "297A3F832F65C94D"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Potassic Vent"
+				to_observe: "create_resource_vents:dormant_potassic_vent"
+				type: "observation"
+			}]
+			title: "Tin from the Earth"
+			x: -16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E99FE44436A381C"]
+			icon: {
+				Count: 1
+				id: "create_dd:tin_ingot"
+				tag: { }
+			}
+			id: "0CCC86AB0D5DFDF2"
+			rewards: [{
+				id: "1DDF93F84E68E952"
+				item: "create_dd:tin_block"
+				type: "item"
+			}]
+			subtitle: "Potassic can be later crushed down to produce tin"
+			tasks: [
+				{
+					id: "4085F5955CCD712C"
+					item: "create_dd:potassic"
+					type: "item"
+				}
+				{
+					id: "3E962F016B2829F3"
+					item: "create:crushed_raw_tin"
+					type: "item"
+				}
+				{
+					id: "41AA72652783697F"
+					item: "create_dd:tin_ingot"
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:snow_block"
+			id: "3BBEFEE675F39759"
+			rewards: [{
+				id: "6C49BBB9E45FDAE8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#minecraft:is_mountain"
+				id: "63C340C493779E3E"
+				type: "biome"
+			}]
+			title: "Locate Any Mountain Biome"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3BBEFEE675F39759"]
+			description: [
+				"Nestled between the peaks of the Mountains is the &aVerdantine Vent&r—an essential molten stone used in &aEmerald&r automation. Though quiet in its dormant form, it hums faintly with the promise of riches and trade."
+				""
+				"{image:ftb:textures/verdantine_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To bring this vent to life, you’ll need to &lfeed a blaze burner a blaze cake on top of it&r. The transformation shatters the surface shell, activating the vent and preparing it for molten infusion."
+				""
+				"Once active, channel the correct &dsource fluid&r (outlined in the next quest) into the vent, and with the help of &lMechanical Extruders&r, you’ll begin generating emerald orestones—automatically and efficiently."
+				""
+				"💎 &2Let the green spark flow. Trade, build, and automate with the wealth of the wilds.&r"
+			]
+			icon: "create_resource_vents:dormant_verdantine_vent"
+			id: "12C001857356FF60"
+			rewards: [{
+				id: "7BDE703F514EB577"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "4B3EE39DAE300EF8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_verdantine_vent"
+				type: "observation"
+			}]
+			title: "The Emerald Pulse"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31FBC673B1E527F6"]
+			icon: {
+				Count: 1
+				id: "minecraft:emerald"
+				tag: { }
+			}
+			id: "02FEFDD7F4DD0C1B"
+			rewards: [{
+				id: "393373E7C248F7E6"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "Verdantine can be later crushed down to produce emeralds"
+			tasks: [
+				{
+					id: "1B57C475E6C1DBC0"
+					item: "forge_frontier:verdantine"
+					type: "item"
+				}
+				{
+					id: "57227F7940253E4B"
+					item: "forge_frontier:crushed_verdantine"
+					type: "item"
+				}
+				{
+					id: "25DE8A585CA338F3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BBEFEE675F39759"]
+			description: [
+				"In the most frigid corners of the Mountains, the &bGlacium Vent&r slumbers—an icy ore stone vital to &bDiamond&r automation. This frozen vent holds the potential to fuel your most powerful machines with shimmering crystal."
+				""
+				"{image:ftb:textures/glacium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin harnessing its potential, locate a &lGlacium Vent in a mountain biome&r and &lfeed a blaze burner a blaze cake on top of it&r. The transformation breaks the icy seal, awakening the vent and preparing it for molten channeling."
+				""
+				"Once activated, feed the vent with the appropriate &dsource fluid&r (explained in the next quest). With the help of &lMechanical Extruders&r, this glacial marvel will begin automating diamonds—transforming frost into fortune."
+				""
+				"💎 &bLet the ice crack, the diamonds flow, and your empire rise from the cold.&r"
+			]
+			icon: "create_resource_vents:dormant_glacium_vent"
+			id: "0037549384F9FCCF"
+			rewards: [{
+				id: "58305C82B71AB248"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "02E1DD773E40DFAF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_glacium_vent"
+				type: "observation"
+			}]
+			title: "Diamond in the Frost"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13576F3698C89AE7"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond"
+				tag: { }
+			}
+			id: "589FC9F5A6B51B4E"
+			rewards: [{
+				id: "73C77115E925523A"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			subtitle: "Glacium can be later crushed down to produce diamonds"
+			tasks: [
+				{
+					id: "6B0BE55372DF477F"
+					item: "forge_frontier:glacium"
+					type: "item"
+				}
+				{
+					id: "25632081208A6B0A"
+					item: "forge_frontier:crushed_glacium"
+					type: "item"
+				}
+				{
+					id: "7CED07AD8EE0EA0C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BBEFEE675F39759"]
+			description: [
+				"Hidden among the Mountains is the &9Scoria Vent&r—a rare molten ore stone crucial for automating &9Lapis Lazuli&r. Though silent in its dormant form, it holds within it the &oinfernal energy to fuel your progression&r."
+				""
+				"{image:ftb:textures/scoria_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its potential, you must &lfeed a blaze burner a blaze cake on top of it&r. The transformation will convert the silent stone into an active vent, ready to receive molten fluid and begin its cycle of production."
+				""
+				"Once active, the vent will require its specific &dsource fluid&r (covered in the next quest) to drive the &lMechanical Extruder&r and begin generating lapis automatically."
+				""
+				"⚙ &9Strike the spark. Illuminate the depths. Let the blue flame of Scoria power your factory of wisdom.&r"
+			]
+			icon: "create_resource_vents:dormant_scoria_vent"
+			id: "20EDD6DD2BDC5F24"
+			rewards: [{
+				id: "2DB2DDD9F33E24F8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "6652F4098EB5E691"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_scoria_vent"
+				type: "observation"
+			}]
+			title: "The Lapis Flame"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2BE12AF20FA6DC0D"]
+			icon: {
+				Count: 1
+				id: "minecraft:lapis_lazuli"
+				tag: { }
+			}
+			id: "258ED4CCAF8A61A6"
+			rewards: [{
+				id: "0726456B85A453CF"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			subtitle: "Scoria can be later crushed down to produce lapis"
+			tasks: [
+				{
+					id: "3F9EEA72CCBE6A5A"
+					item: "create:scoria"
+					type: "item"
+				}
+				{
+					id: "33CCC6BB51584BF1"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B070C4D8A55E5A8"]
+			icon: "minecraft:blaze_powder"
+			id: "0BE45E37D29D38DC"
+			rewards: [{
+				id: "5D5356304B0F9FB1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#incendium:all_incendium_biomes"
+				id: "6FD8F60FF72264DF"
+				type: "biome"
+			}]
+			title: "Locate Any Incendium Biome"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D555802C5CA375A"]
+			description: [
+				"Hidden in the blazing depths of the Nether, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
+				""
+				"{image:ftb:textures/scorchia_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this fiery titan, locate a &lScorchia Vent&r in any Regions Unexplored Biome and &lfeed a blaze burner a blaze cake on top of it&r. The resulting transformation tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
+				""
+				"Once activated, channel the correct &dsource fluid&r (covered in the next quest) into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal—fueled by the Nether’s own wrath."
+				""
+				"🪨 &8Coal, reborn from magma—forge your fuel empire from the flames.&r"
+			]
+			icon: "create_resource_vents:dormant_scorchia_vent"
+			id: "10D2ED18910A5579"
+			rewards: [{
+				id: "0474B5D283BE8FF0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "4C600B94BF8D1FF4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_scorchia_vent"
+				type: "observation"
+			}]
+			title: "Flame-Forged Fuel"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D40BCB5E0BF8836"]
+			icon: {
+				Count: 1
+				id: "minecraft:coal"
+				tag: { }
+			}
+			id: "1C6456024AC2DC69"
+			rewards: [{
+				id: "181C7B180D14E312"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Scorchia can be later crushed down to produce coal"
+			tasks: [
+				{
+					id: "3068D4E29B9B76CB"
+					item: "create:scorchia"
+					type: "item"
+				}
+				{
+					id: "0FA3F16137597E18"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "38112B2C7441C024"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:dead_bush"
+			id: "2AE42496027E453C"
+			rewards: [{
+				id: "47812B6C26165297"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#minecraft:is_savanna"
+				icon: {
+					Count: 1
+					id: "minecraft:dead_bush"
+					tag: { }
+				}
+				id: "2990B9CAC5A94F73"
+				type: "biome"
+			}]
+			title: "Locate Any Savanna Biome"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BE45E37D29D38DC"]
+			description: [
+				"Deep within the Nether’s forgotten reaches lies the &8Debris Vent&r—a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
+				""
+				"{image:ftb:textures/debris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin, seek out a &lDebris Vent&r in any Incendium Biome—its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
+				""
+				"Once activated, it’s time to channel the correct &dsource fluid&r (revealed in the next quest) into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris—crafted not by pickaxe, but by innovation."
+				""
+				"🛠 &cThe Nether remembers. Now, so will your machines.&r"
+			]
+			icon: "create_resource_vents:dormant_ancient_debris_vent"
+			id: "6C99623FD144B074"
+			rewards: [{
+				id: "364943CAAC5D6F6F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "40D7EB41C2BAD58F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_ancient_debris_vent"
+				type: "observation"
+			}]
+			title: "Legacy of the Netherite Deep"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24958E87D1B6893F"]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_scrap"
+				tag: { }
+			}
+			id: "5D006DFD57BAE44F"
+			rewards: [{
+				id: "1236940D6D363910"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			subtitle: "Ancient Debris can be later crushed down to produce netherite scraps"
+			tasks: [
+				{
+					id: "180FEA4FC99B1508"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "0F1F05214675942E"
+					item: "forge_frontier:crushed_debris"
+					type: "item"
+				}
+				{
+					id: "71A249574678843F"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					id: "4B85C230E690A390"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "2DCB44F3061E2719"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D23ABB810220050"]
+			icon: "deeperdarker:sculk_stone"
+			id: "3F3C7C3F33BB9E64"
+			rewards: [{
+				id: "33759C0DCE97C9A1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#forge_frontier:deeper_darker_vein"
+				id: "6A40E9C1B431A726"
+				type: "biome"
+			}]
+			title: "Locate A Deeper Darker Vein Biome"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3F3C7C3F33BB9E64"]
+			description: [
+				"Hidden deep within the caves of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
+				""
+				"{image:ftb:textures/resonite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unleash its potential, locate a &lDormant Resonite Vent&r in the Otherside. Consider using Freecam to locate the vertical column of vent fluid. Feed a blaze burner blaze cake atop its core to awaken the ancient signal buried deep within."
+				""
+				"Once activated, supply it with the correct &dmystic fluid&r (explained in the next quest) to channel its energy through &lMechanical Extruders&r. Watch as the Resonite pulses to life, converting sound and soul into Echo Shards with mechanical precision."
+				""
+				"🔊 &5Resonance stirs, and with it—the automation of silence.&r"
+			]
+			icon: "create_resource_vents:dormant_resonite_vent"
+			id: "66C50363340B22B0"
+			rewards: [{
+				id: "5B2A072CD74851D2"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "68F38195DCD117B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_resonite_vent"
+				type: "observation"
+			}]
+			title: "Pulse of the Otherside"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51E1682DBF0062D2"]
+			icon: {
+				Count: 1
+				id: "minecraft:echo_shard"
+				tag: { }
+			}
+			id: "2243EE61FE9DF289"
+			rewards: [{
+				count: 3
+				id: "1E5AB020BB269EB5"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			subtitle: "Resonite can be later crushed down to produce Echo Shards"
+			tasks: [
+				{
+					id: "7CEBD33F0B786F3F"
+					item: "forge_frontier:resonite"
+					type: "item"
+				}
+				{
+					id: "02F657B3B34E3CEE"
+					item: "forge_frontier:crushed_resonite"
+					type: "item"
+				}
+				{
+					id: "29E1DB61344AB162"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["705EE64085E20FA2"]
+			description: [
+				"Hidden among the craters and shadows of the Moon’s surface, the &6Aubrum Vent&r quietly pulses with extraterrestrial energy. These celestial ore stones are essential for &lDesh&r production, a key component in early space technology and automation."
+				""
+				"{image:ftb:textures/aubrum_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin automation, locate a &lDormant Aubrum Vent&r under the Moon's pale glow. Feed a blaze burner blaze cake atop its surface to awaken the buried vent and reveal its inner power."
+				""
+				"Once activated, provide the appropriate &dsource fluid&r (revealed in the next quest) and connect it to a &lMechanical Extruder&r to automate Desh like never before."
+				""
+				"🚀 &eThe Moon offers its blessing—will you accept the gift of Aubrum and fuel your journey to the stars?&r"
+			]
+			icon: "create_resource_vents:dormant_aubrum_vent"
+			id: "3B0CEEDC47C9AFAE"
+			rewards: [{
+				id: "15F9FBE33E90E6C1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "432B7C8A59D5BF05"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_aubrum_vent"
+				type: "observation"
+			}]
+			title: "The Core of Lunar Craft"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["470D358D9308FA68"]
+			icon: "ad_astra:moon_sand"
+			id: "705EE64085E20FA2"
+			rewards: [{
+				id: "31488F0F0C6074DC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "ad_astra:lunar_wastelands"
+				id: "4019126602D0E5CE"
+				type: "biome"
+			}]
+			title: "Locate A Lunar Wastelands Biome"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DA4B3B5EC216D1B"]
+			icon: {
+				Count: 1
+				id: "ad_astra:desh_ingot"
+				tag: { }
+			}
+			id: "7152ADB146499A96"
+			rewards: [{
+				id: "7CA578E9FD24EB11"
+				item: "ad_astra:desh_block"
+				type: "item"
+			}]
+			subtitle: "Aubrum can be later crushed down to produce Desh"
+			tasks: [
+				{
+					id: "6E823EB8A7C7E3B7"
+					item: "forge_frontier:aubrum"
+					type: "item"
+				}
+				{
+					id: "67FD4897C97BAD6B"
+					item: "forge_frontier:crushed_aubrum"
+					type: "item"
+				}
+				{
+					id: "5FD1210571450A1A"
+					item: "ad_astra:desh_ingot"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7339FE49A994B794"]
+			icon: "ad_astra:mars_sand"
+			id: "02912A82870B46F7"
+			rewards: [{
+				id: "15F7BC52B44DC35E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#ad_astra:has_structure/mars_temple"
+				id: "2847E25810905D45"
+				type: "biome"
+			}]
+			title: "Locate A Martian Wastelands Biome"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02912A82870B46F7"]
+			description: [
+				"Hidden atop the red sands of Mars lies the &5Stellaris Vent&r, a radiant molten geyser glowing with interplanetary power. These vents form the foundation of &dOstrum&r automation, an advanced alloy vital to space-age engineering."
+				""
+				"{image:ftb:textures/stellaris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this vent’s potential, place &la Blaze Burner&r atop its dormant shell and feed it a blaze cake causing it to transform it into an active conduit of molten force.&r"
+				""
+				"Once activated, provide the necessary &dsource fluid&r (covered in the next quest) to fuel your &lMechanical Extruders&r and kickstart Ostrum production."
+				""
+				"⚙ &5The sands of Mars conceal ancient power—will you unearth it and forge your legacy among the stars?&r"
+			]
+			icon: "create_resource_vents:dormant_stellaris_vent"
+			id: "3C81772B0834E434"
+			rewards: [{
+				id: "5FEB1450A30908DF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "313920FA593F382C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_stellaris_vent"
+				type: "observation"
+			}]
+			title: "Flame of Martian Ambition"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B5FB4BFC3366093"]
+			icon: {
+				Count: 1
+				id: "ad_astra:ostrum_ingot"
+				tag: { }
+			}
+			id: "01B665D8F9A316F5"
+			rewards: [{
+				id: "303CB47A1C4B7F06"
+				item: "ad_astra:ostrum_block"
+				type: "item"
+			}]
+			subtitle: "Stellaris can be later crushed down to produce Ostrum"
+			tasks: [
+				{
+					id: "2BCEFEC51E11BDE3"
+					item: "forge_frontier:stellaris"
+					type: "item"
+				}
+				{
+					id: "458451B75056E22C"
+					item: "forge_frontier:crushed_stellaris"
+					type: "item"
+				}
+				{
+					id: "16CB7AB35FB0BBBD"
+					item: "ad_astra:ostrum_ingot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B619A2EB40D34C9"]
+			description: [""]
+			icon: "ad_astra:venus_sand"
+			id: "144708074CDF64FA"
+			rewards: [{
+				id: "69C3AAE4ADE85B7B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "ad_astra:venus_wastelands"
+				id: "618F9F45D2A0C840"
+				type: "biome"
+			}]
+			title: "Locate A Venus Wastelands Biome"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144708074CDF64FA"]
+			description: [
+				"Found upon the scorched terrain of &cVenus&r lies the &cPyroclast Vent&r—one of the rare molten geysers essential for producing &6Calorite&r, a powerful metal forged in heat and pressure."
+				""
+				"{image:ftb:textures/pyroclast_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To activate this volcanic marvel, place &la blaze burner and feed it blaze cake&r atop the dormant vent and ignite it. The resulting transformation will awaken the structure, converting it into a functional &omolten core&r."
+				""
+				"Once awakened, supply the correct &dsource fluid&r (covered in the next quest) to begin your Calorite automation through &lMechanical Extruders&r."
+				""
+				"⚙ &cThe inferno calls—will you rise with it or be turned to ash?&r"
+			]
+			icon: "create_resource_vents:dormant_pyroclast_vent"
+			id: "0526FF8AE3C0EA67"
+			rewards: [{
+				id: "09F8DC99FADEE584"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "7EDD1A3E4785C1B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_pyroclast_vent"
+				type: "observation"
+			}]
+			title: "The Ember Core of Venus"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B45F6B48A81E380"]
+			icon: {
+				Count: 1
+				id: "ad_astra:calorite_ingot"
+				tag: { }
+			}
+			id: "5D34AB7D53702E87"
+			rewards: [{
+				id: "42C842493E529CE9"
+				item: "ad_astra:calorite_block"
+				type: "item"
+			}]
+			subtitle: "Pyroclast can be later crushed down to produce Calorite"
+			tasks: [
+				{
+					id: "3E550032C3635D6A"
+					item: "forge_frontier:pyroclast"
+					type: "item"
+				}
+				{
+					id: "12D24DC98ED7FA32"
+					item: "forge_frontier:crushed_pyroclast"
+					type: "item"
+				}
+				{
+					id: "58AF6D0DE0026C29"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["744904CCFAFB6BB0"]
+			description: [""]
+			icon: "ad_astra:permafrost"
+			id: "12C5A144E9E919A0"
+			rewards: [{
+				id: "58DFDB3FDFCD6343"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "ad_astra:glacio_snowy_barrens"
+				id: "2FE02DAD5C080107"
+				type: "biome"
+			}]
+			title: "Locate A Glacio Snowy Barrens Biome"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12C5A144E9E919A0"]
+			description: [
+				"Hidden on the frostbitten crust of &bGlacio&r lies the &bFrostite Vent&r—a rare frozen geyser vital to powering &9Etrium&r production. Its crystalline surface pulses with dormant energy, waiting for a spark to awaken its true potential."
+				""
+				"{image:ftb:textures/frostite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this vent, place &la blaze burner&r directly atop it and feed it blaze cake. The tranformation will crack the ice, activating the vent and preparing it to channel molten fluids."
+				""
+				"Once active, supply the correct &dsource fluid&r (covered in the next quest) to begin generating Ice Shards using &lMechanical Extruders&r."
+				""
+				"⚙ &bThe frost stirs—will you harness its chill or be left out in the cold?&r"
+			]
+			icon: "create_resource_vents:dormant_frostite_vent"
+			id: "350F1E84CF8BB524"
+			rewards: [{
+				id: "057CA8C95048DC5A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "053E3ED6876D9635"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_frostite_vent"
+				type: "observation"
+			}]
+			title: "Cracking the Frozen Core"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75BE9DB6CC095B88"]
+			icon: {
+				Count: 1
+				id: "ad_astra:etrium_ingot"
+				tag: { }
+			}
+			id: "0C8299F0C1FDF0E5"
+			rewards: [{
+				id: "1B716908B10210C2"
+				item: "minecraft:blue_ice"
+				type: "item"
+			}]
+			subtitle: "Frostite can be later crushed down to produce Etrium and processed down to ice shards"
+			tasks: [
+				{
+					id: "332E5DA103DF9122"
+					item: "forge_frontier:frostite"
+					type: "item"
+				}
+				{
+					id: "0BEA65D3CD1D9F92"
+					item: "forge_frontier:crushed_frostite"
+					type: "item"
+				}
+				{
+					id: "61A0F07E52D31DFC"
+					item: "ad_astra:etrium_ingot"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4770A2BCE4F356A2"]
+			description: [
+				"Hidden within the swirling void of the &5End Dimension&r, the &dRadiantite Vent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lIrradium&r—a radiant resource found nowhere else in the multiverse."
+				""
+				"{image:ftb:textures/radiantite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its celestial core, place &la blaze burner&r on top of the vent and feed it blaze cake. With a burst of arcane force, the vent will erupt into an active state, ready to receive molten fluids."
+				""
+				"Once activated, supply the correct &dsource fluid&r (revealed in the next quest) to begin Irradium automation using &lMechanical Extruders&r."
+				""
+				"⚙ &dWill you channel the light of the End—or be lost in its shadows?&r"
+			]
+			icon: "create_resource_vents:dormant_radiantite_vent"
+			id: "0886729EE4407B1B"
+			rewards: [{
+				id: "6B3D0431A731E119"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "3E922327B6F978BA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_radiantite_vent"
+				type: "observation"
+			}]
+			title: "Unleashing Endlight Energy"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17559ED0B5B300D9"]
+			icon: {
+				Count: 1
+				id: "enlightened_end:depleted_irradium_bar"
+				tag: { }
+			}
+			id: "1831C70E0A4B9875"
+			rewards: [{
+				id: "5CF687C3FF9D8481"
+				item: "enlightened_end:irradium_block"
+				type: "item"
+			}]
+			subtitle: "Radiantite can be later crushed down to produce Irradium"
+			tasks: [
+				{
+					id: "222F9CAD91D40C60"
+					item: "forge_frontier:radiantite"
+					type: "item"
+				}
+				{
+					id: "614BF6B1E14B1B68"
+					item: "forge_frontier:crushed_radiantite"
+					type: "item"
+				}
+				{
+					id: "0DD89AF32820E78B"
+					item: "enlightened_end:depleted_irradium_bar"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15DD51BFD4480F8D"]
+			icon: "enlightened_end:indigo_eylium"
+			id: "4770A2BCE4F356A2"
+			rewards: [{
+				id: "4A00BFFCA38BA419"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "#minecraft:is_end"
+				id: "5B5490AB23F60826"
+				type: "biome"
+			}]
+			title: "Travel To The Outer End Islands"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4770A2BCE4F356A2"]
+			description: [
+				"Lurking in the &5outer reaches of the End Dimension&r, the &8Void Shale Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lMalachite&r—if you dare to awaken it."
+				""
+				"{image:ftb:textures/void_shale_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To breathe life into the shale, place &lblaze burner&r atop the vent and feed it blaze cake. The resulting tranformation cracks open the darkness, activating the vent and readying it for molten infusion."
+				""
+				"Once active, the right &dsource fluid&r (revealed in the next quest) must be supplied to begin automation using &lMechanical Extruders&r."
+				""
+				"⚙ &8Descend into silence, ignite the shadows, and let Malachite rise from the void.&r"
+			]
+			icon: "create_resource_vents:dormant_void_shale_vent"
+			id: "177FD83E945AE2BE"
+			rewards: [{
+				id: "7285F2D75656FEB1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "5993EC5234DA3722"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_void_shale_vent"
+				type: "observation"
+			}]
+			title: "Awakening the Shale Below"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17559ED0B5B300D9"]
+			icon: {
+				Count: 1
+				id: "enlightened_end:malachite"
+				tag: { }
+			}
+			id: "4BA4F5D20D29BDF5"
+			rewards: [{
+				id: "6905F8194EC931D8"
+				item: "enlightened_end:malachite_block"
+				type: "item"
+			}]
+			subtitle: "Void Shale can be later crushed down to produce Malachite"
+			tasks: [
+				{
+					id: "160262B2B5444B98"
+					item: "enlightened_end:void_shale"
+					type: "item"
+				}
+				{
+					id: "7D324651B1BD4C93"
+					item: "forge_frontier:crushed_shale"
+					type: "item"
+				}
+				{
+					id: "771FE556EFC7EC5C"
+					item: "enlightened_end:malachite"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4770A2BCE4F356A2"]
+			description: [
+				"These stone-white relics rest in stillness across the void, untouched by time yet filled with untapped potential. The &fPalerock Vent&r—while seemingly inert—is one of the final pieces in your industrial arsenal."
+				""
+				"{image:ftb:textures/palerock_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this silent monument, you must &lfeed a blaze burner blaze cake&r directly atop the dormant vent. The resulting transformation fractures the pale crust, transforming the structure into an active state ready to receive its specialized molten fluid."
+				""
+				"Once activated, providing the proper &dsource fluid&r (detailed in the next quest) will allow you to channel its energy via &lMechanical Extruders&r—fueling your bismuth automation pipeline."
+				""
+				"⚙ &7Silent. Still. Powerful. Awaken the pale—&lunlock the hidden ore of the End&r."
+			]
+			icon: "create_resource_vents:dormant_palerock_vent"
+			id: "0F87A00F314DD547"
+			rewards: [{
+				id: "4D18DF8A625E8A5E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "37B1D1C7B27E941B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_palerock_vent"
+				type: "observation"
+			}]
+			title: "Whispers of the Pale Core"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17559ED0B5B300D9"]
+			icon: {
+				Count: 1
+				id: "enlightened_end:bismuth_ingot"
+				tag: { }
+			}
+			id: "726D2E537567B30E"
+			rewards: [{
+				id: "73170DAF75556EC7"
+				item: "enlightened_end:bismuth_block"
+				type: "item"
+			}]
+			subtitle: "Palerock can be later crushed down to produce Bismuth"
+			tasks: [
+				{
+					id: "7DE8BB40F1EF9459"
+					item: "enlightened_end:palerock"
+					type: "item"
+				}
+				{
+					id: "6DA7A995ABD3EF62"
+					item: "forge_frontier:crushed_palerock"
+					type: "item"
+				}
+				{
+					id: "7686131308A6AFF2"
+					item: "enlightened_end:bismuth_ingot"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6CDC2B37D835F804"]
+			description: [
+				"Formed in ancient currents and nestled among deep-sea ruins and tube worm colonies, these vents radiate a soft luminescence. The &bPearlyte Vent&r holds the key to underwater industry—but only for those bold enough to descend into the pressure-filled unknown."
+				""
+				"{image:ftb:textures/pearlyte_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To breathe life into this dormant marine relic, place &la blaze cake&r atop its core and feed it a blaze cake. The transformation will crack open the shell of inactivity, revealing a living vent ready for fluid infusion."
+				""
+				"Once activated, the vent will await its &dsource fluid&r (explained in the next quest). When supplied, it will enable &lMechanical Extruder&r automation of pearls, allowing you to harvest this deep-sea treasure on demand."
+				""
+				"⚙ &7Beneath the waves lies brilliance. Ignite the deep. Harness the pearls of the abyss.&r"
+			]
+			icon: "create_resource_vents:dormant_pearlyte_vent"
+			id: "6AE156D8DE1D619A"
+			rewards: [{
+				id: "1F4B2E46FAFCF587"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "01D19050FCD28992"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_pearlyte_vent"
+				type: "observation"
+			}]
+			title: "Secrets of the Sunken Core"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A3720167DCAF9EB"]
+			icon: {
+				Count: 1
+				id: "alexscaves:pearl"
+				tag: { }
+			}
+			id: "0FA3746C38F794B8"
+			rewards: [{
+				id: "07819F5D3924AD18"
+				item: "alexscaves:block_of_pearl"
+				type: "item"
+			}]
+			subtitle: "Pearlyte can be later crushed down to produce Pearls"
+			tasks: [
+				{
+					id: "0716325B542D9477"
+					item: "forge_frontier:pearlyte"
+					type: "item"
+				}
+				{
+					id: "1A6F53EF5A282E40"
+					item: "forge_frontier:crushed_pearlyte"
+					type: "item"
+				}
+				{
+					id: "2948583DD77A739B"
+					item: "alexscaves:pearl"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["40DB7FDC0CC426FF"]
+			description: [
+				"Radiating a golden warmth, these vents are woven into the fossil-rich stone of a biome untouched by time. Surrounded by prehistoric giants and luminous flora, the &6Amberlite Vent&r pulses with the energy of a lost age, waiting to be awakened."
+				""
+				"{image:ftb:textures/amberlite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this fossilized furnace, feed a blaze burner blaze cake directly atop the vent’s surface. The resulting transformation will rupture the ancient crust, activating the vent and making it receptive to molten input."
+				""
+				"Once active, the vent will accept its required &dsource fluid&r (detailed in the next quest). Feed it well, and you'll unlock fully automated &6Amber&r generation through &lMechanical Extruders&r."
+				""
+				"⚙ &7Dig deep. Ignite the ancient spark. Harvest the treasures of a world long forgotten.&r"
+			]
+			icon: "create_resource_vents:dormant_amberlite_vent"
+			id: "2589CF5251858E63"
+			rewards: [{
+				id: "1841FEDEBB5CE955"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "7A5864AB8EEF58FE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_amberlite_vent"
+				type: "observation"
+			}]
+			title: "Flame of the Forgotten World"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DE53E1FE2154194"]
+			icon: {
+				Count: 1
+				id: "alexscaves:amber"
+				tag: { }
+			}
+			id: "76692DFB8834258D"
+			rewards: [{
+				id: "24FCA09BC348325D"
+				item: "forge_frontier:compressed_amber_1x"
+				type: "item"
+			}]
+			subtitle: "Amberlite can be later crushed down to produce Amber"
+			tasks: [
+				{
+					id: "44A5B0A188F04967"
+					item: "forge_frontier:amberlite"
+					type: "item"
+				}
+				{
+					id: "559A3F404A15BDF1"
+					item: "forge_frontier:crushed_amberlite"
+					type: "item"
+				}
+				{
+					id: "582850140AE69ED4"
+					item: "alexscaves:amber"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0988690A536B7D19"]
+			description: [
+				"Encrusted in the foul rock of a cursed biome, the &7Guanite Vent&r emanates a putrid stillness. Amid twisted stone and rotting echoes, these vents represent decay reborn into utility—ready to fuel automation for those who dare to delve too deep."
+				""
+				"{image:ftb:textures/guanite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its vile potential, &lfeed a blaze burner blaze cake&r upon the vent’s dormant surface. The transformation will stir the festering stone into an active state, transforming it into a viable node for molten fluid input."
+				""
+				"Once active, supplying the correct &dsource fluid&r (covered in the next quest) will allow &fGuano&r to be fully automated via &lMechanical Extruders&r."
+				""
+				"⚙ &7From waste comes worth. Will you claim the power buried beneath decay?&r"
+			]
+			icon: "create_resource_vents:dormant_guanite_vent"
+			id: "229D3F7596608800"
+			rewards: [{
+				id: "71A239892B06EA58"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "725B31416BC3165D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_guanite_vent"
+				type: "observation"
+			}]
+			title: "Decay Beneath the Hollows"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A36712104221BA5"]
+			icon: {
+				Count: 1
+				id: "alexscaves:guano"
+				tag: { }
+			}
+			id: "7AB6B28F0171651B"
+			rewards: [{
+				id: "7B659633EFA35D2B"
+				item: "alexscaves:guano_block"
+				type: "item"
+			}]
+			subtitle: "Guanite can be later crushed down to produce Guano"
+			tasks: [
+				{
+					id: "71563B209BEC9A90"
+					item: "forge_frontier:guanite"
+					type: "item"
+				}
+				{
+					id: "170D81606660B789"
+					item: "forge_frontier:crushed_guanite"
+					type: "item"
+				}
+				{
+					id: "4DF663ABFE653CCF"
+					item: "alexscaves:guano"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["434A80C989CFB176"]
+			description: [
+				"Dormant yet brimming with latent power, the &aUraniumnite Vent&r rests beneath the toxic bogs and irradiated swamps, hidden in plain sight. Its presence is marked by faint radiation and a slow, rhythmic pulsing that warns of the energy buried within."
+				""
+				"{image:ftb:textures/uraniumnite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin, place &la blaze burner&r atop a dormant Uraniumnite Vent and feed it blaze cake. The resulting transformation will jolt the vent to life, converting it into an active node ready for automation."
+				""
+				"Once awakened, infuse the vent with its proper &dsource fluid&r, detailed in the next quest, and begin harnessing its energy with &lMechanical Extruders&r to produce Uranium."
+				""
+				"☢ &7Can you endure the rot, outwit the poison, and refine power from peril? The reactor is waiting.&r"
+			]
+			icon: "create_resource_vents:dormant_uraniumnite_vent"
+			id: "70DF75B6AEEF8D39"
+			rewards: [{
+				id: "7F29F47D0A197B90"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "6000D0FCF2A4250B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_uraniumnite_vent"
+				type: "observation"
+			}]
+			title: "The Core of Contagion"
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79182D6BE9E5DE0D"]
+			icon: {
+				Count: 1
+				id: "alexscaves:uranium"
+				tag: { }
+			}
+			id: "2C5F9A3210357A54"
+			rewards: [{
+				id: "175A2F4866238DAD"
+				item: "alexscaves:block_of_uranium"
+				type: "item"
+			}]
+			subtitle: "Uraniumnite can be later crushed down to produce Uranium"
+			tasks: [
+				{
+					id: "72630F03834B4204"
+					item: "forge_frontier:uraniumnite"
+					type: "item"
+				}
+				{
+					id: "27F983B0F697EE97"
+					item: "forge_frontier:crushed_uraniumnite"
+					type: "item"
+				}
+				{
+					id: "235FE8556DEA44AE"
+					item: "alexscaves:uranium"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["434A80C989CFB176"]
+			description: [
+				"Tucked amid the noxious terrain and acidic pools, the &eSulphite Vent&r gives off a faint, sulfurous hiss. These dormant formations conceal volatile potential, waiting for a spark to awaken their burning core."
+				""
+				"{image:ftb:textures/sulphite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To ignite the process, place &la blaze burner&r directly on top of a dormant Sulphite Vent and feed it blaze cake. The transformation force will awaken the vent, converting it into an active conduit for molten extraction."
+				""
+				"Once activated, supplying the correct &dsource fluid&r—explained in the following quest—will enable &lMechanical Extruders&r to refine sulfur endlessly from the depths of corruption."
+				""
+				"🌋 &7Sulfur waits in silence—but not for long. Will you brave the fumes and harness its sting?&r"
+			]
+			icon: "create_resource_vents:dormant_sulphite_vent"
+			id: "19D60673B8DCB77D"
+			rewards: [{
+				id: "19B9F2CA3B7CEEAD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "6D4C4B54FEA5675A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_sulphite_vent"
+				type: "observation"
+			}]
+			title: "The Stinging Vein of Sulfur"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79182D6BE9E5DE0D"]
+			icon: {
+				Count: 1
+				id: "alexscaves:sulfur_dust"
+				tag: { }
+			}
+			id: "5A5234A74B3FCB66"
+			rewards: [{
+				id: "42316BD26ECFF53D"
+				item: "alexscaves:sulfur"
+				type: "item"
+			}]
+			subtitle: "Sulphite can be later crushed down to produce Sulfur"
+			tasks: [
+				{
+					id: "65C0FF3E3E022140"
+					item: "forge_frontier:sulphite"
+					type: "item"
+				}
+				{
+					id: "6C9E4523D03C266B"
+					item: "forge_frontier:crushed_sulphite"
+					type: "item"
+				}
+				{
+					id: "499DA98589A0A084"
+					item: "alexscaves:sulfur_dust"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42CE6455938E37CF"]
+			description: [
+				"Hidden deep within a realm of charged stone and shifting magnetism, the &cNeodymrium Vent&r hums with potential. Its scarlet glow flickers with kinetic tension, offering a gateway to automating one of the most advanced resources in the known dimensions."
+				""
+				"{image:ftb:textures/neodymrium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To harness this volatile power, place &la blaze burner&r directly atop the dormant vent and feed it blaze cake. The resulting transformation awakens the vent, charging it with the ability to accept molten input for automated processing."
+				""
+				"Once activated, the proper &dsource fluid&r (revealed in the next quest) will allow you to extract &4Scarlet Neodymrium&r using &lMechanical Extruders&r."
+				""
+				"⚙ &7Tame the pulse of magnetism and unleash the might of automation.&r"
+			]
+			icon: "create_resource_vents:dormant_neodymrium_vent"
+			id: "08A5AEA1CB0268D8"
+			rewards: [{
+				id: "61E8BF13EF0E0E63"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "1461FFEDE382BC3A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_neodymrium_vent"
+				type: "observation"
+			}]
+			title: "Pulse of the Magnetic Core"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["541F6EDFBB45521D"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexscaves:scarlet_neodymium_ingot"
+				tag: { }
+			}
+			id: "5125C4BB0C5CD5F2"
+			rewards: [{
+				id: "2B3BE1490431ADC0"
+				item: "alexscaves:block_of_scarlet_neodymium"
+				type: "item"
+			}]
+			subtitle: "Neodymrium can be later crushed down to produce Scarlet Neodymrium"
+			tasks: [
+				{
+					id: "230520DA2C86FDB3"
+					item: "forge_frontier:neodymrium"
+					type: "item"
+				}
+				{
+					id: "39A863EF51A60E8B"
+					item: "forge_frontier:crushed_neodymrium"
+					type: "item"
+				}
+				{
+					id: "0166C97441B53E8D"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42CE6455938E37CF"]
+			description: [
+				"Tucked among twisting stone and humming circuitry, the &bAzurnium Vent&r radiates with a cool, charged brilliance. Its azure glow pulses gently with mechanical elegance—awaiting activation by a bold adventurer prepared to shape raw energy into refined potential."
+				""
+				"{image:ftb:textures/azurnium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken the power within, &lplace a blaze burner on the vent&r and feed it blaze cake. This surge of force will ignite its dormant state, transforming it into an operational conduit for molten infusion."
+				""
+				"Once activated, you’ll need to deliver the correct &dsource fluid&r—explained in the next quest—to begin generating &3Azure Neodymrium&r with &lMechanical Extruders&r."
+				""
+				"⚙ &7Stabilize the current. Channel the flow. And craft with the clarity of precision engineering.&r"
+			]
+			icon: "create_resource_vents:dormant_azurnium_vent"
+			id: "1F8D8293900A159B"
+			rewards: [{
+				id: "66DD1C46AB326BD4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "0CAB7BA29B5E946A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_azurnium_vent"
+				type: "observation"
+			}]
+			title: "The Echo of Azure Currents"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["541F6EDFBB45521D"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "alexscaves:azure_neodymium_ingot"
+				tag: { }
+			}
+			id: "01AAA3C731162AB6"
+			rewards: [{
+				id: "70C9BBCDD3D57A12"
+				item: "alexscaves:block_of_azure_neodymium"
+				type: "item"
+			}]
+			subtitle: "Azurnium can be later crushed down to produce Azure Neodymrium"
+			tasks: [
+				{
+					id: "37A05300EB043C64"
+					item: "forge_frontier:azurnium"
+					type: "item"
+				}
+				{
+					id: "507FCAAECEE3A9AE"
+					item: "forge_frontier:crushed_azurnium"
+					type: "item"
+				}
+				{
+					id: "2A90FAC5FB1E9122"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:grass_block"
+			id: "3217A6300D17E470"
+			tasks: [{
+				biome: "#forge:is_plains"
+				id: "7ED2A335BB4388AD"
+				type: "biome"
+			}]
+			title: "Locate Any Plains Biome"
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			icon: "minecraft:sand"
+			id: "7AE2B54E9ABE8172"
+			tasks: [{
+				biome: "#forge:is_desert"
+				id: "7618865C4EE22237"
+				type: "biome"
+			}]
+			title: "Locate Any Desert Biome"
+			x: -15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7AC47553B491EE76"]
+			description: [
+				"Deep within the enchanting yet unsettling realm of the &dCandy Cavity&r lies the &lLost Debris Vent&r—a sugary relic of ancient sweetness fused with galactic potential. This vent holds the key to automating &dLost Debris&r, which is later refined into the rare and powerful &5Ethium&r."
+				""
+				"{@pagebreak}"
+				""
+				"🍰 &lA Dessert with Depth&r"
+				"The Candy Cavity may seem whimsical on the surface, but within its saccharine walls lurk challenges worthy of even the bravest explorers. The Lost Debris Vent is no exception—dormant, deceptive, and deliciously dangerous."
+				""
+				"🔥 &lActivate with a Blaze Cake&r"
+				"Place a &oBlaze Cake&r atop a dormant Lost Debris Vent and ignite it using a &lBlaze Burner&r. This intense heat will awaken the vent, priming it for fluid-based automation."
+				""
+				"{@pagebreak}"
+				""
+				"🥧 &lFuel It with Pie Filling&r"
+				"Once activated, supply the vent with &dChorus Fruit Pie Filling&r (covered in the next quest). Doing so will trigger &lMechanical Extruders&r to begin generating Lost Debris—your pathway to Ethium engineering."
+				""
+				"⚙ &oA tale of candy, combustion, and cosmic potential awaits...&r"
+				"Will you master the cavity’s sweetness and claim the forgotten power sealed inside the Lost Debris Vent?"
+			]
+			icon: "alexscaves:small_peppermint"
+			id: "77EB3AE60F0E8FEA"
+			rewards: [
+				{
+					count: 9
+					id: "70E6BD776C14DC1D"
+					item: "alexscaves:cake_layer"
+					type: "item"
+				}
+				{
+					id: "10CAF3D8A46702E7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&oFueling Ethium automation with an otherworldly confection found only in the Candy Cavity!&r"
+			tasks: [{
+				dimension: "forge_frontier:candy_cavity"
+				id: "719C8CDFA8E1BAF6"
+				type: "dimension"
+			}]
+			title: "Resource Vent of the Candy Cavity Caves"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6BF481A48C136085"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&6Caramel Milkshake&r serves as the &oluxurious source fluid&r for activating &eVeridium Resource vents&r and driving &6copper automation&r via Mechanical Extruders. This sweet and essential liquid starts with a rich base: &oCaramel Milk&r."
+				""
+				"To begin, combine the ingredients below using &lHeated Mixing&r:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_caramel.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your caramel milk ready, take it to the next level! Add the final ingredients and complete the mix to create a smooth, copper-powered &6Caramel Milkshake&r:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_caramel_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lFrom sweetness comes strength&r—power your machines and copper automation the tastiest way possible. 🥤⚙"
+			]
+			hide_dependency_lines: true
+			id: "571CE6F8667DA48F"
+			rewards: [{
+				id: "42826BA5286F97D2"
+				item: "minecraft:copper_block"
+				type: "item"
+			}]
+			subtitle: "Smooth Fuel for Veridium Vents. Click me for more info!"
+			tasks: [{
+				id: "07350188728CDEAC"
+				item: "create_dd:caramel_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Caramel Milkshake: Copper-Crafted Delight"
+			x: -15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1091314A5D575D4B"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&dStrawberry Milkshake&r isn’t just a tasty treat—it’s the &lkey fluid&r for activating &cCrimsite Resource vents&r and automating &oiron production&r via Mechanical Extruders. Its creation is a multi-step process, blending &omachine precision&r with &7delicious chemistry&r."
+				""
+				"To begin, create &dStrawberry Milk&r using the following heated mixing recipe:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_strawberry_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your milk prepared, it’s time to turn it into a milkshake! Combine &dStrawberry Milk&r with the following ingredients to complete the transformation:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_strawberry_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lFrom berry to blast furnace&r, this milkshake is more than a fluid—it’s the foundation of automation. Get mixing, and let the sweetness of progress flow!"
+			]
+			hide_dependency_lines: true
+			id: "38367FF1F1438DED"
+			rewards: [{
+				id: "4EFC0A71251BE59E"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Sweet Science for Crimsite Automation. Click me for more info!"
+			tasks: [{
+				id: "0EC7C41FDA39DA0C"
+				item: "create_dd:strawberry_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Strawberry Milkshake: Fueling Iron Innovation"
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"070BAAF36335CB39"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&6Glowberry Milkshake&r is more than just a glowing drink—it’s the &lessential fluid&r for powering &eOchrum Resource vents&r and automating &6gold production&r via Mechanical Extruders. Its creation begins with crafting a radiant base: &oGlowberry Milk&r."
+				""
+				"Use &lHeated Mixing&r to combine the ingredients shown below:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_glowberry.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once your milk base is ready, it's time to transform it into the &6Glowberry Milkshake&r. Mix it with the ingredients shown here to complete this golden concoction:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_glowberry_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lLet the golden glow guide your automation&r—this milkshake fuels more than machines. It fuels innovation. 🥤✨"
+			]
+			hide_dependency_lines: true
+			id: "1F22F9F9B3D393E1"
+			rewards: [{
+				id: "6E93D9069E278565"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			subtitle: "Sweet Radiance for Ochrum Automation. Click me for more info!"
+			tasks: [{
+				id: "70148D254B508BFE"
+				item: "create_dd:glowberry_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Glowberry Milkshake: Gold-Fueled Goodness"
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"79632EC457A3A88D"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&fVanilla Milkshake&r is the &oessential fuel source&r for activating &7Potassic Resource vents&r and automating &ftin production&r through Mechanical Extruders. This classic blend begins with the creation of smooth &oVanilla Milk&r—simple, yet powerful."
+				""
+				"Start by &lHeated Mixing&r the following ingredients:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_vanilla_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once your vanilla milk is complete, it’s time to whip it into a milkshake! Add the finishing ingredients and mix to perfection:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_vanilla_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lA timeless classic with mechanical might&r—fuel your tin automation the tastiest way possible. ⚙✨"
+			]
+			hide_dependency_lines: true
+			id: "2E99FE44436A381C"
+			rewards: [{
+				id: "329ED9BD18A26718"
+				item: "create_dd:tin_block"
+				type: "item"
+			}]
+			subtitle: "Sweet Simplicity for Potassic Power. Click me for more info!"
+			tasks: [{
+				id: "579E35A18E6D68E6"
+				item: "create_dd:vanilla_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Vanilla Milkshake: Tin-Touched Tradition"
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"58E37D66B86362FD"
+				"5C42B9D85F62A1F2"
+			]
+			description: [
+				"&fCream&r is the luxurious middle step in your milkshake crafting process—&oa smooth, rich fluid&r created by mixing condensed milk with other ingredients. Beyond its dessert-like role, it serves a crucial function in &3mechanical extruder&r setups."
+				""
+				"To begin, craft cream using the recipe below:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_cream.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"But cream isn't just for sweet treats. It also acts as the &bsource fluid&r for activating &3Assurine Resource vents&r, an essential step in automating &7Zinc&r production through the &lmechanical extruder&r."
+				""
+				"From creamy delight to industrial might, &fCream&r bridges the world of flavor and function. 🧁⚙"
+			]
+			id: "061D64DE3F96B2F8"
+			subtitle: "Essential for Milkshakes and Zinc Automation. Click me for more info!"
+			tasks: [{
+				id: "260A74E590207397"
+				item: "create_dd:cream_bucket"
+				type: "item"
+			}]
+			title: "Cream: The Silken Catalyst"
+			x: -18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["69CE3113324ED800"]
+			description: [
+				"&fCondensed Milk&r marks the beginning of your milkshake-making journey. Essential for producing &lcream&r, this rich base fluid is created through &lHeated Mixing&r and plays a central role in various fluid crafting processes."
+				""
+				"Begin by preparing condensed milk using the recipe below:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_condense_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Beyond its culinary origins, &fCondensed Milk&r also has industrial applications—it can be used as a source fluid to automate the generation of &fCalcite&r via &3mechanical extruders&r."
+				""
+				"&lFrom dessert to dynamic block generation&r, condensed milk is more than just sweet—it’s strategic. 🍶"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5C42B9D85F62A1F2"
+			shape: "hexagon"
+			subtitle: "Foundational Fluid for Milkshakes and Automation. Click me for more info!"
+			tasks: [{
+				id: "5BF44609FFE44C75"
+				item: "create_dd:condense_milk_bucket"
+				type: "item"
+			}]
+			title: "Condensed Milk: The Cream Core"
+			x: -20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"20EDD6DD2BDC5F24"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&dChocolate Milkshake&r is the &oessential fluid&r for activating &9Scoria Resource vents&r and powering the &3mechanical extruders&r used in automated &9lapis production&r. Smooth and decadent, this milkshake begins its journey with melted chocolate—crafted through the alchemy of &oHeated Mixing&r."
+				""
+				"Start by combining these ingredients over heat to create &lChocolate&r:"
+				""
+				"{image:ftb:textures/_create_mixing_chocolate.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your chocolate ready, elevate it into a milkshake by mixing in the final components. The result: a sweet and powerful automation fuel."
+				""
+				"{image:ftb:textures/_create_dd_mixing_chocolate_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lFrom confection to contraption&r—this milkshake is the secret ingredient for lapis mastery! ⚙🔵"
+			]
+			hide_dependency_lines: true
+			id: "2BE12AF20FA6DC0D"
+			rewards: [{
+				id: "6E537EB297724944"
+				item: "minecraft:lapis_block"
+				type: "item"
+			}]
+			subtitle: "Rich Fuel for Scoria Vent Automation. Click me for more info!"
+			tasks: [{
+				id: "1A68432CDF382D89"
+				item: "create_dd:chocolate_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Chocolate Milkshake: The Lapis Lifeblood"
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12C001857356FF60"]
+			description: [
+				"&fWhite Chocolate&r is the &ovital fluid&r for activating &aVerdantine Resource vents&r and fueling &aMechanical Extruders&r in your automated &2emerald production&r pipeline. Crafted through a multi-step confectionery process, it combines &6Cocoa Butter&r, &fSugar&r, and 🥛 &oMilk&r into a silky-smooth automation catalyst."
+				""
+				"Begin by pressing &oCrushed Cocoa&r to extract the buttery base:"
+				""
+				"{image:ftb:textures/_create_confectionery_crushed_cocoa_recipe.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Next, crush the resulting byproduct to separate the &6Cocoa Butter&r needed for white chocolate creation:"
+				""
+				"{image:ftb:textures/_create_confectionery_cocoa_powder_and_butter_recipe.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Finally, bring all the ingredients together in a &lHeated Mixing Basin&r to craft the rich and creamy &fWhite Chocolate&r:"
+				""
+				"{image:ftb:textures/_create_confectionery_white_chocolate_recipe.png width:200 height:120 align:center}"
+				""
+				"&lSweet precision fuels emerald ambition&r—unlock the automation potential of Verdantine with every drop! 💎🍫⚙"
+			]
+			id: "31FBC673B1E527F6"
+			rewards: [{
+				id: "24270ACD10326936"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			subtitle: "Velvety Purity for Verdantine Automation. Click me for more info!"
+			tasks: [{
+				id: "65741235B128968B"
+				item: "create_confectionery:white_chocolate_bucket"
+				type: "item"
+			}]
+			title: " &fWhite Chocolate: Sweet Fuel for Emerald Automation&r"
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0037549384F9FCCF"]
+			description: [
+				"&8Dark Chocolate&r—also known as &0Black Chocolate&r—is the &ocritical source fluid&r for activating &bGlacium Resource vents&r and driving the &bmechanical extruders&r used in &bdiamond automation&r. This rich, bittersweet fuel is forged through an intricate confectionery process requiring &6Cocoa Butter&r, 🍫 &oCocoa Powder&r, &fSugar&r, and 🥛 Milk."
+				""
+				"Start your journey by pressing cocoa to obtain the crushed base ingredient:"
+				""
+				"{image:ftb:textures/_create_confectionery_crushed_cocoa_recipe.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Next, crush the output to isolate both &6Cocoa Powder&r and &6Cocoa Butter&r:"
+				""
+				"{image:ftb:textures/_create_confectionery_cocoa_powder_and_butter_recipe.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With all four ingredients in hand, combine them using &lHeated Mixing&r to create the powerful &8Dark Chocolate&r:"
+				""
+				"{image:ftb:textures/_create_confectionery_black_chocolate_recipe.png width:200 height:120 align:center}"
+				""
+				"&lFrom bitter to brilliant&r—fuel your diamond pipeline with this elite confectionery creation. 💎🖤⚙"
+			]
+			id: "13576F3698C89AE7"
+			rewards: [{
+				id: "66780161B73FB2A6"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			subtitle: "Bittersweet Power for Glacium Automation. Click me for more info!"
+			tasks: [{
+				id: "6186A451E1089054"
+				item: "create_confectionery:black_chocolate_bucket"
+				type: "item"
+			}]
+			title: "Dark Chocolate: The Diamond Fuel of Glacium"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0F87A00F314DD547"
+				"0886729EE4407B1B"
+				"177FD83E945AE2BE"
+			]
+			description: [
+				"&dRuby Chocolate&r is the &oultimate confection&r used to activate all three End Resource vents: &5Radiantite&r, &2Malachite&r, and &7Bismuth&r. It fuels the &omechanical extruder automation&r for each, making it a critical post-End fluid in your galactic progression."
+				""
+				"Unlike other chocolates, Ruby Chocolate is forged from rare and mystical ingredients—crafted only by those who have conquered the End and tamed its ancient power."
+				""
+				"{@pagebreak}"
+				""
+				"To craft it, you’ll need to &lHeated Mix&r the ingredients shown below—including &dDragon’s Breath&r, which can be automated post-End by placing a &5Dragon Head&r in front of an &bEncased Fan&r to convert Bottles into Breath."
+				""
+				"{image:ftb:textures/_create_confectionery_ruby_chocolate_recipe.png width:200 height:120 align:center}"
+				""
+				"&lThe End may be behind you, but its power flows forward&r—harness the sweetness of the void and turn chocolate into cosmic control! 🌌🍬"
+			]
+			id: "17559ED0B5B300D9"
+			rewards: [{
+				id: "3FC8DA31FE49E3B3"
+				item: "endertrigon:baby_dragon_egg"
+				type: "item"
+			}]
+			subtitle: "Mystic Flavor for Multivent Mastery. Click me for more info!"
+			tasks: [{
+				id: "2D4599EE7E6BF3E8"
+				item: "create_confectionery:ruby_chocolate_bucket"
+				type: "item"
+			}]
+			title: "Ruby Chocolate: Endborn Indulgence "
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0526FF8AE3C0EA67"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&cAdzuki Milkshake&r is the core ingredient for activating &4Pyroclast Resource vents&r and fueling the &3mechanical extruder systems&r vital to the automation of &6Calorite&r. This rich, earthy shake begins with the careful preparation of &oadzuki milk&r—made through &lHeated Mixing&r."
+				""
+				"Start your recipe by heating the following ingredients to craft your base milk:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_adzuki_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once your adzuki milk is ready, mix in the final ingredients to blend the milkshake. This fluid serves as a crucial automation component in your Calorite production line."
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_adzuki_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lBold, powerful, and essential&r—Adzuki Milkshake is the molten key to mastering one of the most advanced alloys in the galaxy. 🔥🛠"
+			]
+			hide_dependency_lines: true
+			id: "5B45F6B48A81E380"
+			rewards: [{
+				id: "13C190173FE94CC8"
+				item: "ad_astra:calorite_block"
+				type: "item"
+			}]
+			subtitle: "Molten Power for Pyroclast Automation. Click me for more info!"
+			tasks: [{
+				id: "3B1D40C533799EDB"
+				item: "forge_frontier:adzuki_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Adzuki Milkshake: Calorite Catalyst"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3C81772B0834E434"
+				"061D64DE3F96B2F8"
+			]
+			description: [
+				"&dPomegranate Milkshake&r is the vital fluid used to activate &5Stellaris Resource vents&r, powering the &3mechanical extruders&r responsible for automating the production of &eOstrum&r. This vibrant and tart infusion begins with a heated blend of fresh ingredients to produce &opomegranate milk&r."
+				""
+				"Begin by crafting the base milk through &lHeated Mixing&r using the recipe below:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_pomegranate_milk.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With your pomegranate milk prepared, continue the process by mixing in the final ingredients to create the completed milkshake—an essential fluid in Ostrum’s high-tech automation."
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_pomegranate_milkshake.png width:200 height:120 align:center}"
+				""
+				"&lRefined, radiant, and reactor-ready&r—Pomegranate Milkshake delivers the power needed to push your automation further than ever before. ✨🛠"
+			]
+			hide_dependency_lines: true
+			id: "1B5FB4BFC3366093"
+			rewards: [{
+				id: "41CCA2D68B774410"
+				item: "ad_astra:ostrum_block"
+				type: "item"
+			}]
+			subtitle: "Igniting the Path to Ostrum"
+			tasks: [{
+				id: "7AC498FDC5FAD53D"
+				item: "forge_frontier:pomegranate_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Pomegranate Milkshake: Ostrum Goodness"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B0CEEDC47C9AFAE"]
+			description: [
+				"Cheese serves as the &oessential fluid&r for activating &fAubrum Resource vents&r and powering &6Desh automation&r through mechanical extruders. Though it may sound simple, cheese production is a multi-step culinary-industrial process that starts with the zest of citrus and ends with a hearty dairy product ready for moon-fueled machines."
+				""
+				"{@pagebreak}"
+				""
+				"Your first step is to obtain &aLime Slices&r—tangy ingredients sourced from slicing limes using the method below:"
+				""
+				"{image:ftb:textures/_collectorsreap_cutting_lime.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Next, compress those slices into a zesty fluid. Compacting the lime slices will yield &aLime Juice&r, perfect for curdling milk into cheese."
+				""
+				"{image:ftb:textures/_forge_frontier_compacting_lime_juice.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Finally, combine the &aLime Juice&r with &fMilk&r using &lHeated Mixing&r to curdle it into &6Cheese&r—the final automation-ready product used in Aubrum’s molten processes."
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_cheese.png width:200 height:120 align:center}"
+				""
+				"&lFrom citrus to circuitry&r—Cheese turns your dairy dreams into lunar Desh dominance. 🧀🚀"
+			]
+			id: "4DA4B3B5EC216D1B"
+			rewards: [{
+				id: "481FFFD896B79362"
+				item: "ad_astra:desh_block"
+				type: "item"
+			}]
+			subtitle: "Tangy Tech for Aubrum Automation. Click me for more info!"
+			tasks: [{
+				id: "694CD9FA6E894B02"
+				item: "forge_frontier:cheese_bucket"
+				type: "item"
+			}]
+			title: "Cheese: Lunar Cream Catalyst"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["350F1E84CF8BB524"]
+			description: [
+				"&dDread Nog&r is the &ochilled infusion&r required to activate the &bFrostite Vent&r and kickstart &dEtrium&r and &bIce Shard&r automation using &lmechanical extruders&r. Crafted through a &ltwo-step brewing process&r, this frozen elixir is essential for mastering the icy mechanics of Glacio’s surface."
+				""
+				"Start by preparing the base: &lEgg Grog&r. Combine the following ingredients in a heated mixer:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_egg_grog.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"With Egg Grog in hand, advance to the final stage. Mix it with the chilling additives below to create your &lDread Nog&r:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_dread_nog.png width:200 height:120 align:center}"
+				""
+				"❄ &lBrewed for the brave&r—harness the cold, fuel your machines, and let your frostbitten empire rise from the ice!"
+			]
+			icon: "forgefrontiercore:dread_nog"
+			id: "75BE9DB6CC095B88"
+			rewards: [{
+				id: "2E0043361B130857"
+				item: "ad_astra:etrium_block"
+				type: "item"
+			}]
+			subtitle: "&7Unlocks Etrium and Ice Shard Automation in Glacial Domains! "
+			tasks: [{
+				id: "5961755503AC040E"
+				item: "brewinandchewin:dread_nog"
+				type: "item"
+			}]
+			title: "Dread Nog: Frostbitten Brew"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6AE156D8DE1D619A"]
+			description: [""]
+			id: "7A3720167DCAF9EB"
+			subtitle: "No explation needed, it's water"
+			tasks: [{
+				id: "41383546A1EC4B14"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2589CF5251858E63"]
+			description: [
+				"&6Honey&r serves as the &oviscous fluid&r required to activate the &eAmberlite Molten Vent&r and drive &6amber automation&r via &lMechanical Extruders&r. Whether harvested naturally or synthesized, honey fuels the next tier of your industrial expansion."
+				"{@pagebreak}"
+				""
+				"While bees offer a renewable supply, you can also craft artificial honey through &lHeated Mixing&r. The recipe below shows how to create honey without the hassle of hives:"
+				""
+				"{image:ftb:textures/_create_additions_synthetics_artificial_honey.png width:200 height:120 align:center}"
+				""
+				"&lFrom hive to machine&r—this golden liquid bridges nature and technology in your journey to automate amber! 🐝💛"
+			]
+			id: "5DE53E1FE2154194"
+			rewards: [{
+				id: "37A89F67D9CCA1DA"
+				item: "alexscaves:amber"
+				type: "item"
+			}]
+			subtitle: "Sweet Source for Amberlite Production. Click me for more info!"
+			tasks: [{
+				id: "5B7EDE7BC728CD3A"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			title: "Golden Honey: Nectar of Automation "
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["10D2ED18910A5579"]
+			description: [
+				"&4Hot Chocolate&r is the &oessential source fluid&r for activating &cScorchia Resource vents&r and energizing the &8mechanical extruders&r used in &0coal automation&r. This fiery drink is brewed by first crafting rich chocolate, then taking it to the next level through &lSuperheated Mixing&r."
+				""
+				"Begin by mixing the base ingredients over heat to create smooth &6Chocolate&r:"
+				""
+				"{image:ftb:textures/_create_mixing_chocolate.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Next, turn up the heat! &lSuperheat&r the chocolate to produce a steaming batch of &4Hot Chocolate&r:"
+				""
+				"{image:ftb:textures/_create_dd_mixing_hot_chocolate.png width:200 height:120 align:center}"
+				""
+				"&lFrom warmth to power&r—this molten treat is your gateway to coal-fueled automation! 🔥🪵⚙"
+			]
+			id: "1D40BCB5E0BF8836"
+			rewards: [{
+				id: "62BF313BF50E33DD"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "Molten Delight for Scorchia Automation. Click me for more info!"
+			tasks: [{
+				id: "3FDD02F8681243AF"
+				item: "create_dd:hot_chocolate_bucket"
+				type: "item"
+			}]
+			title: "Hot Chocolate: Fueling the Fires of Scorchia"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6C99623FD144B074"
+				"2BE12AF20FA6DC0D"
+				"38367FF1F1438DED"
+				"2E99FE44436A381C"
+			]
+			description: [
+				"&fNeapolitan Milkshake&r isn’t just a dessert—it’s a &dtriple-tiered engineering marvel&r. Crafted by mixing three distinct milkshakes into one harmonious blend, this &oswirled fusion&r becomes the &bsource fluid&r for activating &8Ancient Debris Resource vents&r."
+				""
+				"These vents, when connected to a &lmechanical extruder&r, unlock the automation of &cAncient Debris&r—one of the most valuable resources in the entire pack."
+				""
+				"{@pagebreak}"
+				"Mix the two essential milkshakes and vanilla below to form this powerful concoction:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_neapolitan_milkshake.png width:200 height:120 align:center}"
+				""
+				"From sweet treat to endgame feat, &fNeapolitan Milkshake&r is your key to streamlined &cNetherite&r production. 🍓🍫🍦"
+			]
+			hide_dependency_lines: true
+			id: "24958E87D1B6893F"
+			rewards: [{
+				id: "646653800A781283"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			subtitle: "Key to Ancient Debris Automation. Click me for more info!"
+			tasks: [{
+				id: "7A7E9537695BEDD1"
+				item: "forge_frontier:neapolitan_milkshake_bucket"
+				type: "item"
+			}]
+			title: "Neapolitan Milkshake: Triple Fusion Treat"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66C50363340B22B0"]
+			description: [
+				"&bCryo Fuel&r is the &oessential fluid&r for activating &dResonite Resource vents&r and fueling &bEcho Shard&r automation via &lMechanical Extruders&r. This frigid fuel is the result of a &oseven-step chemical process&r that blends bio-alchemy with molten synthesis."
+				""
+				"Your first step begins with producing &eSeed Oil&r through compacting:"
+				""
+				"{image:ftb:textures/_createaddition_compacting_seed_oil.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Convert your &eSeed Oil&r into &aBiomass&r using organic ingredients:"
+				""
+				"{image:ftb:textures/_createaddition_mixing_biomass_from_sticks.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Ferment that biomass into high-efficiency &2Bioethanol&r:"
+				""
+				"{image:ftb:textures/_createaddition_mixing_bioethanol.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Now it’s time to forge &8Molten Carbon&r using a Tinkers’ Construct melter:"
+				""
+				"{image:ftb:textures/_forge_frontier_melting_molten_carbon_4_0.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Combine &2Bioethanol&r and &8Molten Carbon&r to synthesize &7Oil&r:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_oil.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Refine your oil into &6Fuel&r via a second round of heated mixing:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_oil_fuel.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Finally, blend that fuel with precious &bIce Shards&r to form the legendary &bCryo Fuel&r:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_cryo_fuel.png width:200 height:120 align:center}"
+				""
+				"&lCool, powerful, and precision-engineered&r—Cryo Fuel is the cold core of your Echo Shard empire. 🧊⚙"
+			]
+			id: "51E1682DBF0062D2"
+			rewards: [{
+				id: "0427B3EC9A38A1DD"
+				item: "minecraft:echo_shard"
+				type: "item"
+			}]
+			subtitle: "Frozen Energy for Resonite Automation. Click me for more info!"
+			tasks: [{
+				id: "746940CFCDB225E3"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			title: "Cryo Fuel: Arctic Alchemy Engine"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["229D3F7596608800"]
+			description: [
+				"&2Liquid Fertilizer&r is the &ovital fluid&r used to activate &aGuanite Resource vents&r and power &7mechanical extruders&r that automate &aguano production&r. Its creation follows a two-step process rooted in nature and ingenuity."
+				""
+				"Begin by crafting &lTree Fertilizer&r using the recipe below:"
+				""
+				"{image:ftb:textures/crafting_appliances_tree_fertilizer.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Once you've gathered your fertilizer, it’s time to mix it with water. Combine the ingredients below using &lMixing&r to form a nutrient-rich &2Liquid Fertilizer&r:"
+				""
+				"{image:ftb:textures/_sliceanddice_mixing_fertilizer_from_tree_fertilizer.png width:200 height:120 align:center}"
+				""
+				"💧 &lLet your machines thrive on the power of nature&r—unlock the secrets of guano automation with this lush, green fuel! 🌿⚙"
+			]
+			id: "2A36712104221BA5"
+			rewards: [{
+				id: "34B90017511C94AD"
+				item: "alexscaves:guano_block"
+				type: "item"
+			}]
+			subtitle: "Essential Fuel for Guanite Vent Automation! Click to learn more! 🌿"
+			tasks: [{
+				id: "6F2CED076889FF33"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
+			title: " Liquid Fertilizer: Growth-Powered Guano"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"08A5AEA1CB0268D8"
+				"1F8D8293900A159B"
+			]
+			description: [
+				"Molten Iron is the &ocritical fluid&r used in the automation of both the &cNeodymrium&r and &9Azurnium&r Vents deep within the &bMagnetic Caves&r. When channeled into &lmechanical extruders&r, this molten metal enables the automated production of &cScarlet Neodymrium&r and &9Azure Neodymrium&r—rare materials essential for late-game progression."
+				""
+				"To obtain Molten Iron, melt iron dust (or any iron item) using Create Metallurgy."
+				""
+				"{image:ftb:textures/azurnium_neodymrium_vent_fluid_recipe.png width:180 height:110 align:center}"
+			]
+			id: "541F6EDFBB45521D"
+			rewards: [{
+				id: "61931AF1E9113C80"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Drives Scarlet and Azure Neodymrium Automation! Click to learn more! ⚙"
+			tasks: [{
+				id: "1A10FE3E80774320"
+				item: {
+					Count: 1
+					id: "createmetallurgy:molten_iron_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Molten Iron: Magnetic Core Fuel"
+			x: 14.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"19D60673B8DCB77D"
+				"70DF75B6AEEF8D39"
+			]
+			description: [
+				"&dAcid&r is the &ofluid of choice&r for activating the &2Uraniumnite&r and &eSulphite&r Vents hidden deep within the &lToxic Caves&r. Once supplied to &lmechanical extruders&r, it enables full automation of &2Uranium&r and &eSulfur&r—two volatile materials vital for nuclear and chemical progression."
+				""
+				"You can obtain Acid by &lHeated Mixing&r the following ingredients:"
+				""
+				"{image:ftb:textures/_create_oppenheimered_mixing_sulfuric_acid.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Alternatively, Acid can also be found naturally in pools scattered across the planet’s toxic surface—&oa hazardous but renewable option&r for daring explorers."
+				""
+				"☣ &lHandle with care&r—Acid is corrosive, deadly, and incredibly useful. Use it to unleash the raw power of chemical automation! 🧪⚠️"
+			]
+			id: "79182D6BE9E5DE0D"
+			rewards: [
+				{
+					id: "26A3A5E739F4D230"
+					item: "alexscaves:block_of_uranium"
+					type: "item"
+				}
+				{
+					id: "3721D530B5339BDE"
+					item: "alexscaves:sulfur"
+					type: "item"
+				}
+			]
+			subtitle: "Powers Uranium and Sulfur Automation from the Toxic Caves! "
+			tasks: [{
+				id: "30E38259D8FDB777"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			title: "Acid: Corrosive Catalyst"
+			x: 17.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B070C4D8A55E5A8"]
+			icon: "regions_unexplored:cobalt_sapling"
+			id: "1D555802C5CA375A"
+			tasks: [{
+				biome: "#forge_frontier:regions_unexplored_nether"
+				id: "310DD835164D5BA1"
+				type: "biome"
+			}]
+			title: "Locate Any Regions Unexplored Nether Biome"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77EB3AE60F0E8FEA"]
+			description: [
+				"&dFound deep in the Candy Cavity caves—your gateway to Ethium automation!"
+				""
+				"Hidden beneath the whimsical yet dangerous layers of the &dCandy Cavity&r lies the &5Lost Debris Vent&r—a bizarre and rare geyser steeped in sugary sediment, essential for automating &dEthium&r. Though playful in appearance, this vent holds serious power for those who dare to extract it."
+				""
+				"{image:ftb:textures/lost_debris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this confection-powered vent, place &la blaze burner&r directly on top and feed it a blaze cake. The sweet crust will shatter open, revealing the vent’s molten potential."
+				""
+				"Once active, provide the proper &dsource fluid&r (revealed in the next quest) to fuel &lMechanical Extruders&r and begin your Lost Debris conversion process."
+				""
+				"⚙ &5The cavity cracks—are you ready to extract the essence of Ethium from this delicious core?&r"
+			]
+			icon: "create_resource_vents:dormant_lost_debris_vent"
+			id: "23CC3D007074DBEB"
+			rewards: [{
+				id: "05DB3E65D553A3FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "390690AC9C57DE1D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vent:dormant_lost_debris_vent"
+				type: "observation"
+			}]
+			title: "Lost Debris Vent: Sweet Core of Ethium"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23CC3D007074DBEB"]
+			description: [
+				"&dChorus Nectar&r is a whimsical yet powerful fluid needed to activate the &5Lost Debris Vent&r. &dLost Debris&r is eventually refined into &oEthium&r, a material of interdimensional importance."
+				""
+				"To make Chorus Nectar, simply drain a Chorus Flower! "
+				""
+				"{image:ftb:textures/lost_debris_vent_fluid_recipe.png width:200 height:80 align:center}"
+			]
+			id: "5792E4588E3A4A9A"
+			rewards: [{
+				id: "55C33A462CB9691B"
+				item: "create_ethium:lost_debris"
+				type: "item"
+			}]
+			subtitle: "&oFueling the Lost Debris Vent and powering Ethium automation with a sweetly surreal touch!&r"
+			tasks: [{
+				id: "434A03DFBF361A78"
+				item: {
+					Count: 1
+					id: "create_ethium:chorus_nectar_fluid_bucket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Chorus Nectar: Dimensional Delight"
+			x: 20.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5792E4588E3A4A9A"]
+			icon: {
+				Count: 1
+				id: "create_ethium:stellarite_chunk"
+				tag: { }
+			}
+			id: "39814F2893B31C67"
+			rewards: [{
+				id: "4CE3598B09250007"
+				item: "create_ethium:ethium_block"
+				type: "item"
+			}]
+			subtitle: "Lost Debris can be later crushed down to produce Ethium"
+			tasks: [
+				{
+					id: "6511F6808A6BBF14"
+					item: "create_ethium:lost_debris"
+					type: "item"
+				}
+				{
+					id: "7E3E026A4A95C344"
+					item: "create_ethium:crushed_lost_debris"
+					type: "item"
+				}
+				{
+					id: "3B59611E40351CF7"
+					item: "create_ethium:stellarite_chunk"
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 6.0d
+		}
+	]
+	title: "Create: Resource Vents"
+}

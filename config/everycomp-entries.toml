@@ -125,11 +125,6 @@
 		[types.leaves_type.ad_astra]
 			glacian = true
 
-		[types.leaves_type.tconstruct]
-			earth_slime = true
-			sky_slime = true
-			ender_slime = true
-
 		[types.leaves_type.create_dd]
 			rubber = true
 
@@ -194,12 +189,6 @@
 			strophar = true
 			glacian = true
 
-		[types.wood_type.tconstruct]
-			greenheart = true
-			skyroot = true
-			bloodshroom = true
-			enderbark = true
-
 		[types.wood_type.create_dd]
 			rose = true
 			smoked = true
@@ -214,6 +203,7 @@
 		[types.cake.collectorsreap]
 			lime_cake = true
 			pomegranate_cake = true
+			pink_dragon_fruit_cake = true
 
 		[types.cake.neapolitan]
 			vanilla_cake = true
@@ -226,25 +216,6 @@
 		[types.cake.createaddition]
 			chocolate_cake = true
 			honey_cake = true
-
-		[types.cake.createfood]
-			cake_chorus_fruit = true
-			cake_glow_berry = true
-			berry_cream_cake_sweet_berry = true
-			berry_cream_cake_chorus_fruit = true
-			berry_cream_cake_glow_berry = true
-			chocolate_cream_cake_butterscotch = true
-			chocolate_cream_cake_caramel = true
-			chocolate_cream_cake_chocolate = true
-			chocolate_cream_cake_dark_chocolate = true
-			chocolate_cream_cake_toffee = true
-			chocolate_cream_cake_white_chocolate = true
-			chorus_fruit_cream_cake_sweet_berry = true
-			chorus_fruit_cream_cake_chorus_fruit = true
-			chorus_fruit_cream_cake_glow_berry = true
-			glow_berry_cream_cake_sweet_berry = true
-			glow_berry_cream_cake_chorus_fruit = true
-			glow_berry_cream_cake_glow_berry = true
 
 	[types.stone_type]
 
@@ -262,7 +233,6 @@
 			radrock = true
 			abyssmarine = true
 			guanostone = true
-			limestone = true
 
 		[types.stone_type.enlightened_end]
 			void_shale = true
@@ -292,10 +262,6 @@
 			glacio_stone = true
 			permafrost = true
 
-		[types.stone_type.tconstruct]
-			seared_stone = true
-			scorched_stone = true
-
 		[types.stone_type.unusualend]
 			gneiss = true
 			gloopstone = true
@@ -319,6 +285,9 @@
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true
+
+		[types.mud_type.enlightened_end]
+			chorloam = true
 
 #Disables specific entries
 [entries]
@@ -615,6 +584,10 @@
 			polished_vertical_slab = true
 			pillar = true
 			vertical_slab = true
+
+		[entries.stone_type.handcrafted]
+			corner_trim = true
+			pillar_trim = true
 
 	[entries.mud_type]
 

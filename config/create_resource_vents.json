@@ -296,7 +296,7 @@
         }
       ],
       "reactantFluids": [
-        "tconstruct:molten_iron"
+        "createmetallurgy:molten_iron"
       ],
       "maxGenerationDistance": 1
     },
@@ -310,7 +310,7 @@
         }
       ],
       "reactantFluids": [
-        "tconstruct:molten_iron"
+        "createmetallurgy:molten_iron"
       ],
       "maxGenerationDistance": 1
     },
@@ -352,7 +352,7 @@
         }
       ],
       "reactantFluids": [
-        "createfood:chorus_fruit_pie_filling"
+        "create_ethium:chorus_nectar_fluid"
       ],
       "maxGenerationDistance": 1
     }

@@ -2,58 +2,69 @@
 
 ![Create - Forge Frontier Logo with gears](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Header.webp)
 
+---
+
 ## 🌟 **About Create - Forge Frontier**
 
 ![Description Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Description.webp)
 
-**Create - Forge Frontier** is a meticulously crafted **Create-focused modpack**, blending immersive automation, exploration, and creativity into one cohesive experience. The **2.0 Update** marks a significant evolution, transforming the modpack with a **revamped interface**, **enhanced world generation**, and **refined progression systems** designed to elevate your Minecraft adventure.
+**Create - Forge Frontier** is a meticulously crafted **Create-focused modpack**, blending immersive automation, exploration, and creativity into one cohesive experience. It combines the engineering depth of the **Create mod** with expanded progression systems, custom resources, and new frontiers to explore.
 
-With months of dedicated development starting in **April 2024**, Forge Frontier 2.0 introduces:
+Forge Frontier delivers:
 
-*   A **stunning world** powered by **Tectonic** terrain generation.
-*   Enhanced **Overworld** dungeons and villages with smarter **Villager AI**.
-*   Revamped **Nether Remastered** and **End Remastered**, featuring intense progression and thrilling boss battles.
-*   Space exploration with **Ad Astra Planets**, including **six custom planets** with dynamic biomes and breathtaking landscapes.
-*   **FTB Quests**, guiding players through evolving challenges and future content expansions.
+* 🌄 A **stunning Overworld** powered by **Tectonic** terrain generation and enriched with enhanced dungeons, villages, and smarter **Villager AI**.  
+* 🏆 A structured progression path via **FTB Quests**, guiding players through engineering milestones, exploration, and late-game challenges.  
+* ⚙️ **Custom stone ore variants** such as **Ochrum** and **Crimsite**, **Resource Vents**, and advanced **rocket tiers**, ensuring meaningful resource automation and rewarding progression.  
+* 🎨 Polished **interfaces, menus, and loading screens**, giving the pack a consistent and immersive presentation.
 
-Custom **stone ore variants**, such as **Ochrum**, alongside **Molten Vents** and **higher-tier rockets**, ensure rewarding resource automation. Redesigned menus, loading screens, and unique mechanics create an unparalleled modded experience.
+**Whether you’re an automation enthusiast, explorer, or builder—Forge Frontier offers the ultimate Create-based Minecraft adventure.**
 
-**Whether you’re an automation enthusiast, explorer, or builder—Forge Frontier 2.0 is the ultimate Minecraft adventure.**
-
-***
+---
 
 ## 📜 **Features at a Glance**
 
-*   🌄 **World Generation:** Reimagined terrain with **Tectonic**, enhanced structures, and smarter Villagers.
-*   🚀 **Space Exploration:** Travel to **six custom planets** with **Ad Astra Planets** and explore dynamic environments.
-*   ⚙️ **Create Automation:** Seamlessly integrate Create-based systems with custom recipes and progression.
-*   🏆 **FTB Quests:** A rich questline to guide your adventure and challenge your skills.
-*   🪐 **Endgame Automation:** **Molten Vents**, **Advanced Rockets**, and unique stone variants like **Ochrum** and **Crimsite**.
-*   🎨 **Revamped Interface:** Polished menus, loading screens, and settings for a cohesive experience.
+* 🌄 **World Generation:** Reimagined terrain with **Tectonic**, enhanced structures, and smarter Villagers.  
+* 🏛️ **Core Progression Pillars:**  
+  * 🔥 **Nether Remastered** – Fully reworked progression, requiring **Overworld structure exploration and looting** before unlocking access.  
+  * 🌌 **End Remastered** – A **custom integration exclusive to this pack**, with Create-driven progression, exploration, structure-based loot, and unique boss fights.  
+  * 🚀 **Space Exploration** – Powered by **Ad Astra**, with **tiered rockets** unlocking **six custom-designed planets**, each featuring unique resources and challenges.  
+* ⚙️ **Create Automation:** Seamlessly integrate Create-based systems with custom recipes and progression.  
+* 🏆 **FTB Quests:** A rich questline to guide your adventure and challenge your skills.  
+* 🪐 **Endgame Automation:** **Resource Vents**, **Advanced Rockets**, and unique stone variants like **Ochrum** and **Crimsite**.  
+* 🎨 **Refined Interface:** Polished menus, loading screens, and settings for a cohesive experience.
 
-***
+---
 
 ## ❓ **FAQ**
 
 ![FAQ Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Faq.webp)
 
-### **1\. Is my world compatible with the 2.0 update?**
+### **1. Is my world compatible between versions?**
+World compatibility depends on the update. Some major versions introduce changes to world generation or progression that may require starting fresh. When in doubt, always check the changelog and back up your world before updating.
 
-No, worlds from previous versions (1.x.x) are not compatible with **Forge Frontier 2.0** due to the extensive changes in world generation and progression.
+### **2. How much RAM should I allocate?**
+For optimal performance, allocate at least **4GB of RAM**. For smoother gameplay, especially in automation-heavy or multiplayer setups, **6–8GB** is recommended.
 
-### **2\. How much RAM should I allocate?**
+### **3. Is there a questline?**
+Yes! The pack includes a structured questline through **FTB Quests**, designed to guide players through early, mid, and late-game progression. New quests are regularly added to support new content and features.
 
-For optimal performance, we recommend allocating at least **4GB of RAM**, though **6-8GB** is ideal for a smoother experience.
+### **4. Can I host a server with this modpack?**
+Absolutely! We recommend using **BisectHosting**, our official server partner, for the easiest setup with pre-configured servers. Alternatively, you can use the provided server files included with each release to host your own.
 
-### **3\. Is there a questline?**
+### **5. How does Nether and End progression work in this pack?**
+Both dimensions are **customized specifically for Forge Frontier**:
 
-Yes! **FTB Quests** provides a structured questline to guide you through the pack’s progression, with **new quests** continually being added.
+* 🔥 **Nether Remastered** has been fully reworked. You must first engage in **Overworld structure exploration and looting** before unlocking access to the Nether, making it a true milestone in progression.  
+* 🌌 **End Remastered** is fully integrated with Create, adding **exploration challenges, structure-based loot progression, and unique boss fights** that tie directly into late-game advancement.
 
-### **4\. Can I host a server with this modpack?**
+### **6. How does space exploration work?**
+Space progression is built around **Ad Astra with custom integration**:
 
-Absolutely! We recommend using **BisectHosting**, our official server partner. Click the banner below for easy setup with a pre-configured server. You can also use our handcrafted server packs attached to each pack file.
+* 🚀 You’ll unlock **tiered rockets**, each granting access to new planets.  
+* 🪐 Each planet offers **unique biomes, resources, and challenges**, many of which are tied to Create-driven automation and late-game crafting.  
+* 🏗️ Progression is designed so that **space exploration, the Nether, and the End all interconnect**, ensuring a cohesive journey through engineering, exploration, and discovery.
 
-***
+---
 
 ## 🤝 **Join the Community on Discord!**
 
@@ -61,54 +72,50 @@ Absolutely! We recommend using **BisectHosting**, our official server partner. C
 
 Connect with other players, get support, and stay updated with the latest news and updates by joining our **[Discord community](https://discord.gg/quenZthXgy)**.
 
-***
+---
 
 ## 📥 **Installation Instructions**
 
 ![Installation Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Installation.webp)
 
 ### **CurseForge Launcher**
-
-1.  Install the **[CurseForge App](https://curseforge.overwolf.com/)**.
-2.  Search for **Create - Forge Frontier** in the Minecraft modpacks section.
-3.  Click **Install** and allocate at least **4-8GB of RAM** for optimal performance.
-4.  Launch Minecraft and enjoy your adventure!
+1. Install the **[CurseForge App](https://curseforge.overwolf.com/)**.  
+2. Search for **Create - Forge Frontier** in the Minecraft modpacks section.  
+3. Click **Install** and allocate at least **4–8GB of RAM** for optimal performance.  
+4. Launch Minecraft and enjoy your adventure!
 
 ### **Manual Installation (Advanced Users)**
-
-1.  Download the modpack file from **[CurseForge](https://www.curseforge.com/minecraft/modpacks/forge-frontier)**.
-2.  Install Minecraft Forge (version compatible with the pack).
-3.  Move the modpack files into the `mods` folder within your Minecraft directory.
-4.  Allocate **4-8GB of RAM** in your Minecraft launcher settings.
-
-***
-
-## 🖼️ **Screenshots**
-
-![Screenshot Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Screenshots.webp)
-
-| ![Overworld](https://media.forgecdn.net/attachments/1053/796/forge_frontier_plains.png) | ![Nether](https://media.forgecdn.net/attachments/1082/942/bastion_rem.png) |
-|-------------------------------------------------|-------------------------------------------------------------------------|
-| *Explore stunning landscapes generated by Tectonic.* | *Survive and thrive in the reimagined Nether with enhanced biomes and structures.* |
-
-| ![End](https://media.forgecdn.net/attachments/1082/946/end_city.png) | ![Integrated Dungeons and Structures](https://media.forgecdn.net/attachments/1082/962/tinkers_citadel.png) |
-|-------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| *Discover new challenges and rewards in the revamped End dimension.* | *Explore intricate dungeons and automate like never before with advanced Create-powered systems.* |
+1. Download the modpack file from **[CurseForge](https://www.curseforge.com/minecraft/modpacks/forge-frontier)**.  
+2. Install Minecraft Forge (version compatible with the pack).  
+3. Move the modpack files into the `mods` folder within your Minecraft directory.  
+4. Allocate **4–8GB of RAM** in your Minecraft launcher settings.
 
 ---
 
-These visuals highlight the breathtaking world generation, enhanced structures, and immersive environments awaiting you in **Create - Forge Frontier**!
+## 🖼️ **Screenshots & Visuals**
 
+![Screenshot Banner](https://www.bissecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Screenshots.webp)
+
+| ![Overworld Tectonic Generation](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/kubejs/assets/ftb/textures/fancymenu_image_2.png) | ![Custom End Remastered Integration](https://media.forgecdn.net/attachments/1082/952/endframe_screenshot.png) |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
+| *Explore stunning Overworld landscapes generated by **Tectonic**.* | *Experience a **fully reworked End Remastered integration**, designed exclusively for this pack.* |
+
+✨ These previews highlight only part of the adventure — from the **reimagined Nether** to new **Ad Astra planets** and advanced **Create-powered dungeons**.
+
+👉 Explore the complete gallery of visuals here:  
+**[CurseForge Gallery →](https://www.curseforge.com/minecraft/modpacks/forge-frontier/gallery)**
+
+---
 
 ## 🎮 **Get Started Today!**
 
 **Download** [Create - Forge Frontier](https://www.curseforge.com/minecraft/modpacks/forge-frontier) now and redefine your Minecraft experience with creativity, exploration, and automation. The frontier awaits!
 
-> **Note:** Ensure you back up your saves before updating. Worlds from previous versions are not compatible with Forge Frontier 2.0.
+> **Note:** Ensure you back up your saves before updating. Some major updates may require new worlds for full compatibility.
 
 💎 **Looking for exclusive perks?** Join our **[Patreon](https://www.patreon.com/landscapesreimagined)** and enjoy supporter benefits, early access, and more!
 
-***
+---
 
 ## 🚀 **Host Your Own Server with BisectHosting!**
 
@@ -116,8 +123,8 @@ Set up a **Create - Forge Frontier** server effortlessly with our official partn
 
 [![BisectHosting Code](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
 
-***
+---
 
-**"Where Code Meets Creativity Today, and Landscapes are Reimagined Tomorrow."**  
+**"Engineering Tomorrow’s Worlds, One Creative Block at a Time."**  
 — **M0nkeyPr0grammer**  
 _Lead Developer, Landscapes Reimagined Team_

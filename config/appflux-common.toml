@@ -8,4 +8,6 @@ io_limit = 0
 enable = false
 #Allow ME Import Bus to pull FE.
 enable_FE_pull = false
+#Enable GTCEu-EU support
+enable_gteu = true
 

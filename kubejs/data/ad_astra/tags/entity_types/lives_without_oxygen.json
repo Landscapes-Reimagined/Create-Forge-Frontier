@@ -21,6 +21,9 @@
     "cataclysm:koboleton",
     "cataclysm:wadjet",
     "cataclysm:ancient_remnant",
-    "minecraft:ghast"
+    "minecraft:ghast",
+    "minecraft:hoglin",
+    "minecraft:piglin",
+    "minecraft:piglin_brute"
   ]
 }
