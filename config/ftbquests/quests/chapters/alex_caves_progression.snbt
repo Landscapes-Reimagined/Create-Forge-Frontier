@@ -66,14 +66,26 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"Orbiting a dim, dying star lies the &3Abyssal Chasm&r, a planet completely engulfed in ocean."
+				""
+				"Its endless waters conceal trenches so deep they fracture the planet’s crust, glowing faintly with the light of unknown organisms."
+				""
+				"Those who've descended (and lived to tell the tale) speak of &cruins&r possessed by the &8Deep Ones&r, an &9enigmatic ancient beast&r, and a &bsubmerged metropolis.&r"
+				""
+				"Beneath the weight of endless water, something stirs, waiting to be found. Or, will it find you first?"
+			]
 			icon: {
 				Count: 1
-				id: "alexscaves:submarine"
-				tag: { }
+				id: "alexscaves:diving_helmet"
+				tag: {
+					Damage: 0
+				}
 			}
 			id: "308B363D1029D44E"
 			shape: "gear"
 			size: 3.0d
+			subtitle: "Planet 4546B"
 			tasks: [{
 				dimension: "forge_frontier:abyssal_chasm"
 				icon: {
@@ -222,6 +234,300 @@
 			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["308B363D1029D44E"]
+			description: [
+				"The abyss stretches for miles in every direction, yet faint signals flicker across your minimap, the signatures of derelict vessels once used to explore this world."
+				""
+				"Search the &3Abyssal Chasm&r using your &bminimap&r to locate one of these submarines. Some remain intact, sealed beneath pressure and time, waiting for a new pilot."
+				"{@pagebreak}"
+				"If you’re lucky, you may find one still holding power, a silent refuge amid the dark. Break it free from containment and use it to explore the Abyssal Chasm Further."
+				""
+				"{image:ftb:textures/alex_caves_ruins_submarine.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"If instead you come across a broken vessel, it can still be restored. "
+				""
+				"Patch its corroded hull using &6Copper Ingots&r until the submarine seals once more. "
+				""
+				"{image:ftb:textures/alex_caves_destroyed_submarine.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"&lUsage Notes&r"
+				""
+				"• Avoid using the submarine with a high &eField of View&r."
+				"• The &bSearchlight&r does not function as intended when &ashaders&r are enabled."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexscaves:submarine"
+				tag: { }
+			}
+			id: "1EFED4260E8FB819"
+			rewards: [
+				{
+					count: 2
+					id: "12504277DD06DD89"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:lanternfish_soup"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "30E400641D269A74"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexscaves:submarine"
+					tag: { }
+				}
+				id: "0CB885D817BA1845"
+				observe_type: 5
+				timer: 0L
+				title: "Look at a Submarine"
+				to_observe: "alexscaves:submarine"
+				type: "observation"
+			}]
+			title: "A Vessel Fit For The Deep"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EFED4260E8FB819"]
+			description: [
+				"The Pearlyte Vent is located at the bottom of the Abyssal Chasm's trenches. Find one and gaze upon the dormant vent to complete this quest. "
+				""
+				"You might also consider taking it home with you, or processing the Pearlyte for trading with the Deep Ones."
+				""
+				"{image:ftb:textures/pearlyte_vent.png width:160 height:160 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:pearl"
+				tag: { }
+			}
+			id: "02B64409ADCA0977"
+			rewards: [
+				{
+					count: 32
+					id: "6B107F0367E20D30"
+					item: {
+						Count: 1
+						id: "alexscaves:pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B8519CBD30E4AE0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "create_resource_vents:dormant_pearlyte_vent"
+					tag: { }
+				}
+				id: "7E4B5C1105580E29"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Pearlyte Vent"
+				to_observe: "create_resource_vents:dormant_pearlyte_vent"
+				type: "observation"
+			}]
+			title: "The Pearlyte Vent"
+			x: -17.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02B64409ADCA0977"]
+			description: [
+				"In the darkest depths of the &3Abyssal Chasm&r dwell the &8Deep Ones&r."
+				""
+				"They are neutral to you in the beginning, but their favor can be earned through offerings at the &bAbyssal Altars&r scattered across the ruins. You can also lose favor with them by attacking them."
+				""
+				"Place a &dPearl&r or a &bHeart of the Sea&r upon one of these altars to draw their attention. They will approach, inspect your gift, and offer something in return. Each successful trade increases your reputation. Trade with them enough, and they may even fight beside you."
+				""
+				"{image:ftb:textures/alex_caves_pearl_trading_1.png width:200 height:130 align:center}"
+				"{@pagebreak}"
+				"You’ll know your trade was successful when the altar lights up and an item materializes upon the &bAltar of Abyss.&r"
+				""
+				"{image:ftb:textures/alex_caves_pearl_trading_2.png width:180 height:130 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:abyssal_altar"
+				tag: { }
+			}
+			id: "6FEAE83D8A5815F4"
+			rewards: [
+				{
+					count: 4
+					id: "7374E68F9AF8DEF9"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:mussel_soup"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "73D05C5587FB814C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Friend or Foe?"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexscaves:abyssal_altar"
+						tag: { }
+					}
+					id: "4621AC82BD1CB59D"
+					observe_type: 0
+					timer: 0L
+					to_observe: "alexscaves:abyssal_altar"
+					type: "observation"
+				}
+				{
+					id: "55D9F9606A8A3790"
+					title: "Barter with the Deep Ones"
+					type: "checkmark"
+				}
+			]
+			title: "The Abyssal Altar"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FEAE83D8A5815F4"]
+			description: [
+				"The &8Hullbreaker&r is the apex predator of the &3Abyssal Chasm&r, a massive creature that patrols the darkest of trenches."
+				""
+				"It is neutral to begin with, seeing you as nothing more than a simple being. Prove it wrong and slay the beast."
+				""
+				"Defeating it rewards you with an &bEnigmatic Engine&r, a powerful component once used by the ancient explorers of this world."
+				""
+				"This engine can be used to build your own submarine, or later used in the &6Conversion Crucible&r found within the &dCandy Cavity.&r"
+				""
+				"It also rewards you with an &bImmortal Embryo.&r Hold onto it, as it will become useful once you reach the Primordial Caves."
+				""
+				"{image:ftb:textures/alex_caves_hullbreaker.png width:230 height:130 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:immortal_embryo"
+				tag: { }
+			}
+			id: "5994CCF6B8AB21FC"
+			rewards: [
+				{
+					count: 2
+					id: "378BF306E883398E"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:bioluminesscence_glazed_sea_pig_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5169D0464716E937"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					id: "alexscaves:immortal_embryo"
+					tag: { }
+				}
+				id: "66009CC3FCC09591"
+				title: "Kill 1 Hullbreaker"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hunt the Hullbreaker"
+			x: -12.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5994CCF6B8AB21FC"]
+			description: [
+				"At last, once you have laid claim to the rest of the &3Abyssal Chasm&r, earned the favor of the &8Deep Ones&r, and slain the &8Hullbreaker&r, you may finally challenge the &4Leviathan&r."
+				""
+				"Defeat the Leviathan to prove your mastery of the abyss and move one step closer to forging the &6Tier 6 Rocket&r."
+				""
+				"{\"text\":\"Learn more about defeating the Leviathan in its \",\"extra\":[{\"text\":\"dedicated quest\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"449BC30FBCC42249\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:tidal_claws"
+				tag: { }
+			}
+			id: "6BAB88C4AEC8EC6E"
+			rewards: [
+				{
+					count: 2
+					id: "1C0367B88D831294"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:bioluminesscence_pie"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5034F5E0DAD02367"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:abyss_eye"
+						tag: { }
+					}
+					id: "7A67324BABD3D8CC"
+					structure: "cataclysm:sunken_city"
+					title: "Use the Eye to Locate the Sunken City"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: {
+						Count: 1
+						id: "cataclysm:tidal_claws"
+						tag: { }
+					}
+					id: "4038F885A5ED8BAA"
+					title: "Slay the Leviathan"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill the Leviathan"
+			x: -10.5d
+			y: -3.0d
 		}
 	]
 	title: "Alex's Caves"

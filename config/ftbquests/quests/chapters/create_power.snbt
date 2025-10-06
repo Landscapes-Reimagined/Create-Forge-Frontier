@@ -358,6 +358,7 @@
 				""
 				"You’ll be using this in a wide range of energized components moving forward."
 			]
+			hide_dependent_lines: true
 			id: "627D6929B6E6E721"
 			rewards: [
 				{
@@ -378,7 +379,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["472F303E962BE330"]
@@ -408,7 +409,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["472F303E962BE330"]
@@ -438,7 +439,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1345,13 +1346,14 @@
 					xp: 50
 				}
 			]
+			size: 0.9d
 			subtitle: "Eco - Friendly Fuel"
 			tasks: [{
 				id: "7A4DCCD83B5AC35F"
 				item: "createaddition:bioethanol_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 5.5d
 		}
 		{
@@ -1419,6 +1421,7 @@
 					xp: 25
 				}
 			]
+			size: 0.9d
 			subtitle: "Sustainable Fuel"
 			tasks: [
 				{
@@ -1433,8 +1436,8 @@
 				}
 			]
 			title: "Biomass as Fuel"
-			x: 2.0d
-			y: 4.0d
+			x: 1.0d
+			y: 5.5d
 		}
 		{
 			description: [
