@@ -1,0 +1,1094 @@
+{
+	autofocus_id: "101545B472A483E0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 1.5d
+	filename: "alex_caves_progression"
+	group: "522267C8B93A6C20"
+	icon: {
+		Count: 1
+		id: "alexscaves:primordial_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "44EFA82E2251DE57"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_abyssal_chasm_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -15.0d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_primordial_caves_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_forlorn_hollows_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.5d
+			y: -10.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_magnetic_caves_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_candy_cavity_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/alex_caves_toxic_caves_title.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 19.5d
+			y: 3.0d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Orbiting a dim, dying star lies the &3Abyssal Chasm&r, a planet completely engulfed in ocean."
+				""
+				"Its endless waters conceal trenches so deep they fracture the planet’s crust, glowing faintly with the light of unknown organisms."
+				""
+				"Those who've descended (and lived to tell the tale) speak of &cruins&r possessed by the &8Deep Ones&r, an &9enigmatic ancient beast&r, and a &bsubmerged metropolis.&r"
+				""
+				"Beneath the weight of endless water, something stirs, waiting to be found. Or, will it find you first?"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "308B363D1029D44E"
+			rewards: [
+				{
+					count: 2
+					id: "08A5D9D978050E8D"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:bioluminesscence_custard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "54375693EF2C5D60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Planet 4546B"
+			tasks: [
+				{
+					dimension: "forge_frontier:abyssal_chasm"
+					icon: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					id: "56A57ABEA383C689"
+					title: "Travel to the Abyssal Chasm Planet"
+					type: "dimension"
+				}
+				{
+					biome: "alexscaves:abyssal_chasm"
+					icon: {
+						Count: 1
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4698F8656EE2987B"
+					title: "Find the Abyssal Chasm"
+					type: "biome"
+				}
+			]
+			title: "Welcome to the Abyssal Chasm"
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:peering_coprolith"
+				tag: { }
+			}
+			id: "172EE8617C59F90A"
+			rewards: [
+				{
+					count: 2
+					id: "7E7AC4CBD82A378C"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:pure_darkness_pie"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "410ACA59E06C3443"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					dimension: "forge_frontier:forlorn_hollows"
+					icon: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					id: "5D4BF04E9603C38E"
+					title: "Travel to the Forlorn Hollows Planet"
+					type: "dimension"
+				}
+				{
+					biome: "alexscaves:forlorn_hollows"
+					icon: {
+						Count: 1
+						id: "alexscaves:peering_coprolith"
+						tag: { }
+					}
+					id: "67132F3232810BF9"
+					title: "Find the Forlorn Hollows"
+					type: "biome"
+				}
+			]
+			title: "Welcome to the Forlorn Hollows"
+			x: 19.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Beneath the crust of this untamed world lies the &2Primordial Caves&r, a planet frozen in time where evolution peaked during the age of reptiles."
+				""
+				"&6Tremorsaurus&r and &cRelicheirus&r roam among colossal &bPewen Trees&r, while prehistoric ferns and cycads reclaim every inch of space. The air hums with life and the echoes of creatures that have never seen the sun."
+				""
+				"Beneath the amber light, forgotten tribes once painted their stories upon cave walls. Their marks remain, a silent reminder of an ancient civilization that once existed below the surface."
+				""
+				"Traverse the &2Primordial Caves&r and harvest it of the necessary resources to assist in the completion of the &cTier 6 Rocket.&r"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:primordial_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1FE777D1CAD0CE01"
+			rewards: [
+				{
+					count: 2
+					id: "28AEE9BB42AA8985"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:tree_star_juice"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "01AD0D2749F77FC7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					dimension: "forge_frontier:primordial_caves"
+					icon: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					id: "49B27C22CD430AC4"
+					title: "Travel to the Primordial Caves Planet"
+					type: "dimension"
+				}
+				{
+					biome: "alexscaves:primordial_caves"
+					icon: {
+						Count: 1
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "59BEEC007A0E1AB8"
+					title: "Find the Primordial Caves"
+					type: "biome"
+				}
+			]
+			title: "Welcome to the Primordial Caves"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:candy_cane"
+				tag: { }
+			}
+			id: "6B1D694ADAF367E0"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:candy_cavity"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				id: "78C12971C508C87E"
+				title: "Travel to the Candy Cavity Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Candy Cavity"
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:telecore"
+				tag: { }
+			}
+			id: "14077793D0743DF5"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:magnetic_caves"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				id: "67A8EDC62E71543E"
+				title: "Travel to the Magnetic Caves Planet"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A2C4E8DD4FA3A3A"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "forge_frontier:toxic_caves"
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_6_rocket"
+					tag: { }
+				}
+				id: "103BCC114B56BEF8"
+				title: "Travel to the Toxic Caves Planet"
+				type: "dimension"
+			}]
+			title: "Welcome to the Toxic Caves"
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			id: "101545B472A483E0"
+			secret: true
+			tasks: [{
+				id: "71D21BDEEB8C3C2C"
+				title: "Autofocus Quest"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["308B363D1029D44E"]
+			description: [
+				"The abyss stretches for miles in every direction, yet faint signals flicker across your minimap, the signatures of derelict vessels once used to explore this world."
+				""
+				"Search the &3Abyssal Chasm&r using your &bminimap&r to locate one of these submarines. Some remain intact, sealed beneath pressure and time, waiting for a new pilot."
+				"{@pagebreak}"
+				"If you’re lucky, you may find one still holding power, a silent refuge amid the dark. Break it free from containment and use it to explore the Abyssal Chasm Further."
+				""
+				"{image:ftb:textures/alex_caves_ruins_submarine.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"If instead you come across a broken vessel, it can still be restored. "
+				""
+				"Patch its corroded hull using &6Copper Ingots&r until the submarine seals once more. "
+				""
+				"{image:ftb:textures/alex_caves_destroyed_submarine.png width:200 height:120 align:center}"
+				"{@pagebreak}"
+				"&lUsage Notes&r"
+				""
+				"• Avoid using the submarine with a high &eField of View&r."
+				"• The &bSearchlight&r does not function as intended when &ashaders&r are enabled."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "alexscaves:submarine"
+				tag: { }
+			}
+			id: "1EFED4260E8FB819"
+			rewards: [
+				{
+					count: 2
+					id: "12504277DD06DD89"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:lanternfish_soup"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "30E400641D269A74"
+					type: "xp"
+					xp: 25
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexscaves:submarine"
+					tag: { }
+				}
+				id: "0CB885D817BA1845"
+				observe_type: 5
+				timer: 0L
+				title: "Look at a Submarine"
+				to_observe: "alexscaves:submarine"
+				type: "observation"
+			}]
+			title: "A Vessel Fit For The Deep"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EFED4260E8FB819"]
+			description: [
+				"The Pearlyte Vent is located at the bottom of the Abyssal Chasm's trenches. Find one and gaze upon the dormant vent to complete this quest. "
+				""
+				"You might also consider taking it home with you, or processing the Pearlyte for trading with the Deep Ones."
+				""
+				"{image:ftb:textures/pearlyte_vent.png width:160 height:160 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:pearl"
+				tag: { }
+			}
+			id: "02B64409ADCA0977"
+			rewards: [
+				{
+					count: 32
+					id: "6B107F0367E20D30"
+					item: {
+						Count: 1
+						id: "alexscaves:pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0B8519CBD30E4AE0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "create_resource_vents:dormant_pearlyte_vent"
+					tag: { }
+				}
+				id: "7E4B5C1105580E29"
+				observe_type: 0
+				timer: 0L
+				title: "Find a Pearlyte Vent"
+				to_observe: "create_resource_vents:dormant_pearlyte_vent"
+				type: "observation"
+			}]
+			title: "The Pearlyte Vent"
+			x: -17.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02B64409ADCA0977"]
+			description: [
+				"In the darkest depths of the &3Abyssal Chasm&r dwell the &8Deep Ones&r."
+				""
+				"They are neutral to you in the beginning, but their favor can be earned through offerings at the &bAbyssal Altars&r scattered across the ruins. You can also lose favor with them by attacking them."
+				""
+				"Place a &dPearl&r or a &bHeart of the Sea&r upon one of these altars to draw their attention. They will approach, inspect your gift, and offer something in return. Each successful trade increases your reputation. Trade with them enough, and they may even fight beside you."
+				""
+				"{image:ftb:textures/alex_caves_pearl_trading_1.png width:200 height:130 align:center}"
+				"{@pagebreak}"
+				"You’ll know your trade was successful when the altar lights up and an item materializes upon the &bAltar of Abyss.&r"
+				""
+				"{image:ftb:textures/alex_caves_pearl_trading_2.png width:180 height:130 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:abyssal_altar"
+				tag: { }
+			}
+			id: "6FEAE83D8A5815F4"
+			rewards: [
+				{
+					count: 4
+					id: "7374E68F9AF8DEF9"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:mussel_soup"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "73D05C5587FB814C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			subtitle: "Friend or Foe?"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexscaves:abyssal_altar"
+						tag: { }
+					}
+					id: "4621AC82BD1CB59D"
+					observe_type: 0
+					timer: 0L
+					to_observe: "alexscaves:abyssal_altar"
+					type: "observation"
+				}
+				{
+					id: "55D9F9606A8A3790"
+					title: "Barter with the Deep Ones"
+					type: "checkmark"
+				}
+			]
+			title: "The Abyssal Altar"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6FEAE83D8A5815F4"]
+			description: [
+				"The &8Hullbreaker&r is the apex predator of the &3Abyssal Chasm&r, a massive creature that patrols the darkest of trenches."
+				""
+				"It is neutral to begin with, seeing you as nothing more than a simple being. Prove it wrong and slay the beast."
+				""
+				"Defeating it rewards you with an &bEnigmatic Engine&r, a powerful component once used by the ancient explorers of this world."
+				""
+				"This engine can be used to build your own submarine, or later used in the &6Conversion Crucible&r found within the &dCandy Cavity.&r"
+				""
+				"It also rewards you with an &bImmortal Embryo.&r Hold onto it, as it will become useful once you reach the Primordial Caves."
+				""
+				"{image:ftb:textures/alex_caves_hullbreaker.png width:230 height:130 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:immortal_embryo"
+				tag: { }
+			}
+			id: "5994CCF6B8AB21FC"
+			rewards: [
+				{
+					count: 2
+					id: "378BF306E883398E"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:bioluminesscence_glazed_sea_pig_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5169D0464716E937"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					id: "alexscaves:immortal_embryo"
+					tag: { }
+				}
+				id: "66009CC3FCC09591"
+				title: "Kill 1 Hullbreaker"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hunt the Hullbreaker"
+			x: -12.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5994CCF6B8AB21FC"]
+			description: [
+				"At last, once you have laid claim to the rest of the &3Abyssal Chasm&r, earned the favor of the &8Deep Ones&r, and slain the &8Hullbreaker&r, you may finally challenge the &4Leviathan&r."
+				""
+				"Defeat the Leviathan to prove your mastery of the abyss and move one step closer to forging the &6Tier 6 Rocket&r."
+				""
+				"{\"text\":\"Learn more about defeating the Leviathan in its \",\"extra\":[{\"text\":\"dedicated quest\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"449BC30FBCC42249\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:tidal_claws"
+				tag: { }
+			}
+			id: "6BAB88C4AEC8EC6E"
+			rewards: [
+				{
+					count: 2
+					id: "1C0367B88D831294"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:bioluminesscence_pie"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5034F5E0DAD02367"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:abyss_eye"
+						tag: { }
+					}
+					id: "7A67324BABD3D8CC"
+					structure: "cataclysm:sunken_city"
+					title: "Use the Eye to Locate the Sunken City"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: {
+						Count: 1
+						id: "cataclysm:tidal_claws"
+						tag: { }
+					}
+					id: "4038F885A5ED8BAA"
+					title: "Slay the Leviathan"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Kill the Leviathan"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FE777D1CAD0CE01"]
+			description: [
+				"Amber clusters hang from the ceilings of the &2Primordial Caves&r, glowing softly with trapped light from ages long past. Break these clusters carefully to collect &6Amber&r. Occasionally, you may discover a rare &dAmber Curiosity&r when breaking Amber."
+				""
+				"Gather both materials to begin unlocking the secrets buried within this world."
+				"{@pagebreak}"
+				"You can also find an Amberlite Vent to be able to produce endless Amber."
+				""
+				"{image:ftb:textures/amberlite_vent.png width:160 height:160 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: "alexscaves:amber"
+			id: "4BCFFCA2CE2DD14C"
+			rewards: [
+				{
+					count: 2
+					id: "78AF4C47B9905EE5"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:primal_noodle_soup"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7CD46A6380F6A194"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					block: "alexscaves:amber"
+					block_type: 0
+					checkItem: false
+					id: "3920AF42CCBD49E5"
+					title: "Mine 32 Amber Blocks"
+					type: "questsadditions:break"
+					value: 32L
+				}
+				{
+					id: "6F437617D24995FB"
+					item: {
+						Count: 1
+						id: "alexscaves:amber_curiosity"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "create_resource_vents:dormant_amberlite_vent"
+						tag: { }
+					}
+					id: "49C26D9F1A23CE65"
+					observe_type: 0
+					timer: 0L
+					title: "Find an Amberlite Vent"
+					to_observe: "create_resource_vents:dormant_amberlite_vent"
+					type: "observation"
+				}
+			]
+			title: "Harvest Amber"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BCFFCA2CE2DD14C"]
+			description: [
+				"Your next step is to venture to one of the &cVolcanoes&r that dot the &2Primordial Caves&r. Within their molten cores lies &6Primal Magma&r, a raw and powerful material that radiates the heat of a living world."
+				""
+				"Harvest the magma carefully, as its energy is unstable yet essential for advanced engineering."
+				""
+				"&6Primal Magma&r is a critical component in the construction of the &cTier 6 Rocket.&r"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:volcanic_core"
+				tag: { }
+			}
+			id: "709CA9D1D0CC59FD"
+			rewards: [
+				{
+					count: 8
+					id: "767DA7FC15F3855F"
+					item: {
+						Count: 1
+						id: "alexscaves:tree_star"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5084A4005F5C148C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "alexscaves:volcanic_core"
+						tag: { }
+					}
+					id: "0D594153880D910B"
+					structure: "alexscaves:volcano"
+					title: "Find a Volcano"
+					type: "structure"
+				}
+				{
+					block: "alexscaves:primal_magma"
+					block_type: 0
+					checkItem: false
+					id: "6426BFA6A305EC5C"
+					title: "Harvest 16 Primal Magma"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Visit a Volcano"
+			x: -0.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["709CA9D1D0CC59FD"]
+			description: [
+				"The great beasts of the &2Primordial Caves&r carry with them the weight of ages past. Their bodies are built from dense, ancient bone unlike anything found on other worlds."
+				""
+				"Defeat the dinosaurs that roam this land to obtain &fHeavy Bones&r. These durable remains can be refined and repurposed for advanced construction and research."
+				""
+				"Each creature felled brings you one step closer to completing the &cTier 6 Rocket&r."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:heavy_bone"
+				tag: { }
+			}
+			id: "381DC5AB20E3A10F"
+			rewards: [
+				{
+					count: 8
+					id: "42C632FC05BB479A"
+					item: {
+						Count: 1
+						id: "alexscaves:heavy_bone"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6C393C0FB20F807E"
+					item: {
+						Count: 1
+						id: "alexscaves:fiddlehead"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5BA0EA72FBA16F57"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "3E83C2367CD9D904"
+				item: {
+					Count: 1
+					id: "alexscaves:heavy_bone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Drop Some Dinosaurs"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["381DC5AB20E3A10F"]
+			description: [
+				"The &2Primordial Caves&r are filled with ancient plant life that has nourished this world since the dawn of time. Many of these prehistoric crops can still be harvested and used to craft powerful restorative foods."
+				""
+				"&2Tree Stars&r can be obtained from the &aAncient Jungle Trees&r that rise above the amber glow, while &ePine Nuts&r drop from the towering &bPewen Trees&r. &3Fiddleheads&r are found in &6Caveman Houses&r and can also be renewably farmed using &aBotany Pots&r."
+				""
+				"Combine these three ingredients to create the &2Serene Salad&r, a rare and revitalizing dish capable of soothing even the most ferocious creatures."
+				"{@pagebreak}"
+				"The &2Serene Salad&r holds the key to taming the mighty &6Tremorsaurus&r. Strike the creature with a &aPrimal Club&r to weaken it, then feed it a &2Serene Salad&r while it is stunned. Repeat this process &73 to 8 times&r until the beast accepts you as its master."
+				""
+				"Once two &6Tremorsauruses&r are tamed, feed them &cRaw&r or &eCooked Dinosaur Chops&r. They will dig into the ground and produce a &dTremorzilla Egg&r. Mine the egg carefully with &bSilk Touch&r to keep it intact."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:tremorsaurus_egg"
+				tag: { }
+			}
+			id: "6D59C2329562EEAD"
+			rewards: [
+				{
+					count: 4
+					id: "09839F92AE4A248B"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:cooked_tremorsaurus_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "55E2340747DDBF00"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "3D82C1CDE05F9C50"
+					item: {
+						Count: 1
+						id: "alexscaves:primitive_club"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "204203AD9943DA79"
+					item: {
+						Count: 8
+						id: "alexscaves:serene_salad"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "10717D5258EAD5B7"
+					item: {
+						Count: 1
+						id: "alexscaves:tremorsaurus_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Tame the Tremorsaurus"
+			x: 3.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D59C2329562EEAD"]
+			description: [
+				"The &eLuxtructosaurus&r is the apex predator of the &2Primordial Caves&r, a colossal creature born from molten stone and fury. Its roar shakes the caverns, and its scales glow with the heat of the world’s core."
+				""
+				"To summon it, drop an &4Ominous Catalyst&r into an active &cVolcano&r. The ground will tremble, and the creature will rise from the magma to challenge your strength."
+				""
+				"Defeating the &eLuxtructosaurus&r rewards you with &6Tectonic Shards&r, fragments of volcanic energy vital for crafting the &dTremorzilla Egg&r. Hold onto it for now, as the true potential of the Tremorzilla can only be unlocked by visiting the &aToxic Caves.&r"
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:tectonic_shard"
+				tag: { }
+			}
+			id: "08E0DBCEB2A9800E"
+			rewards: [
+				{
+					count: 2
+					id: "40EB205BCD5B0DAE"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:honey_glazed_dinosaur_chop_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6D43CF93EF032843"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					id: "562662F840EB92E0"
+					item: {
+						Count: 1
+						id: "alexscaves:ominous_catalyst"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					entity: "alexscaves:luxtructosaurus"
+					icon: {
+						Count: 1
+						id: "alexscaves:tectonic_shard"
+						tag: { }
+					}
+					id: "04BD6CB11CE264F8"
+					title: "Slay the Luxtructosaurus"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "38632317BC5C2618"
+					item: {
+						Count: 1
+						id: "alexscaves:tremorzilla_egg"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Slay the Luxtructosaurus"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["172EE8617C59F90A"]
+			description: [
+				"The Forlorn Hollows are home to creatures warped by decay, and none embody it better than the &6Corrodent&r, a ratlike scavenger with fangs sharp enough to chew through Guanostone itself."
+				""
+				"These pests thrive in the dark, feeding on rot, &cruin&r, and anything foolish enough to move nearby. If you want to survive down here, you’ll need to start by proving you can take a few down."
+			]
+			hide_dependency_lines: true
+			id: "5271C7F38BCADF3F"
+			rewards: [
+				{
+					count: 2
+					id: "237D20B411CEB8E1"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:pure_darkness_something"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C39D715A1E425A0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:corrodent"
+				icon: {
+					Count: 1
+					id: "alexscaves:corrodent_teeth"
+					tag: { }
+				}
+				id: "60E6E63978BE62A9"
+				title: "Kill 5 Corrodents"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Trap the Rats"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5271C7F38BCADF3F"]
+			description: [
+				"Find a Guanite Vent within the Forlorn Hollows. Its resources are used for crafting the &eForge Rocket&r."
+				""
+				"{image:ftb:textures/guanite_vent.png width:160 height:160 align:center}"
+			]
+			id: "66C5DB06309ECCA1"
+			rewards: [
+				{
+					count: 2
+					id: "00085DE6E52FE9A1"
+					item: {
+						Count: 1
+						id: "alexscavesdelight:pure_darkness_shake"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "772E7AE729A371FC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "create_resource_vents:dormant_guanite_vent"
+					tag: { }
+				}
+				id: "2AD5458A9915FC41"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_guanite_vent"
+				type: "observation"
+			}]
+			title: "Find a Guanite Vent"
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66C5DB06309ECCA1"]
+			description: [
+				"In the deepest corners of the Forlorn Hollows, &5Underzealots&r whisper to their false god. When they find a &cVesper&r, they begin a profane ritual, one that twists the creature into the monstrous &4Forsaken&r."
+				""
+				"It may take some time for the ritual to begin, so stay nearby and be patient. When the transformation completes, face the Forsaken and end its reign of darkness."
+			]
+			id: "2914A86A4451B01B"
+			rewards: [
+				{
+					count: 4
+					id: "136586155F30AADA"
+					item: {
+						Count: 1
+						id: "alexscaves:darkened_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1CB641D236D49B43"
+					item: {
+						Count: 1
+						id: "alexscaves:vesper_stew"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3E4B67234086F9B4"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: {
+					Count: 1
+					id: "alexscaves:pure_darkness"
+					tag: { }
+				}
+				id: "2B56FEB716CE597F"
+				title: "Slay the Forsaken"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Forsaken"
+			x: 24.0d
+			y: -3.0d
+		}
+	]
+	title: "Alex's Caves"
+}

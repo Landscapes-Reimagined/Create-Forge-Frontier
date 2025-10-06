@@ -182,3 +182,6 @@ background: ftb:textures/farmers_life.png
 
 [6D9C449C31269C1D]
 background: ftb:textures/dimensional_delights.png
+
+[44EFA82E2251DE57]
+background: ftb:textures/alexscaves_screenshot.png
