@@ -38,4 +38,4 @@ Their servers are pre-optimized for Forge Frontier and come with 24/7 technical 
 
 **Click below to get started:**
 
-[![BisectHosting Promo](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
+[![BisectHosting Promo](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
