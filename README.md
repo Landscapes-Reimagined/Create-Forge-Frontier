@@ -1,12 +1,12 @@
 # **Create - Forge Frontier: Redefining Minecraft Automation**
 
-![Create - Forge Frontier Logo with gears](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Header.webp)
+![Create - Forge Frontier Logo with gears](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Header.webp)
 
 ---
 
 ## 🌟 **About Create - Forge Frontier**
 
-![Description Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Description.webp)
+![Description Banner](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Description.webp)
 
 **Create - Forge Frontier** is a meticulously crafted **Create-focused modpack**, blending immersive automation, exploration, and creativity into one cohesive experience. It combines the engineering depth of the **Create mod** with expanded progression systems, custom resources, and new frontiers to explore.
 
@@ -37,7 +37,7 @@ Forge Frontier delivers:
 
 ## ❓ **FAQ**
 
-![FAQ Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Faq.webp)
+![FAQ Banner](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Faq.webp)
 
 ### **1. Is my world compatible between versions?**
 World compatibility depends on the update. Some major versions introduce changes to world generation or progression that may require starting fresh. When in doubt, always check the changelog and back up your world before updating.
@@ -68,7 +68,7 @@ Space progression is built around **Ad Astra with custom integration**:
 
 ## 🤝 **Join the Community on Discord!**
 
-![Discord Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Discord.webp)
+![Discord Banner](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Discord.webp)
 
 Connect with other players, get support, and stay updated with the latest news and updates by joining our **[Discord community](https://discord.gg/quenZthXgy)**.
 
@@ -76,7 +76,7 @@ Connect with other players, get support, and stay updated with the latest news a
 
 ## 📥 **Installation Instructions**
 
-![Installation Banner](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Installation.webp)
+![Installation Banner](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Installation.webp)
 
 ### **CurseForge Launcher**
 1. Install the **[CurseForge App](https://curseforge.overwolf.com/)**.  
@@ -94,7 +94,7 @@ Connect with other players, get support, and stay updated with the latest news a
 
 ## 🖼️ **Screenshots & Visuals**
 
-![Screenshot Banner](https://www.bissecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Screenshots.webp)
+![Screenshot Banner](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Screenshots.webp)
 
 | ![Overworld Tectonic Generation](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/kubejs/assets/ftb/textures/fancymenu_image_2.png) | ![Custom End Remastered Integration](https://media.forgecdn.net/attachments/1082/952/endframe_screenshot.png) |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
@@ -121,7 +121,7 @@ Connect with other players, get support, and stay updated with the latest news a
 
 Set up a **Create - Forge Frontier** server effortlessly with our official partner, **BisectHosting**. Click the banner below to get started!
 
-[![BisectHosting Code](https://www.bisecthosting.com/images/CF/CREATE_FORGE_FRONTIER/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
+[![BisectHosting Code](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/curseforge_banners/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
 
 ---
 
