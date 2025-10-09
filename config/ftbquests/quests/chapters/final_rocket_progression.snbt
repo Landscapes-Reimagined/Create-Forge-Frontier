@@ -2860,14 +2860,25 @@
 			y: 18.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "endertanks:ender_tank"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
 			id: "0BCF950AB2114854"
 			rewards: [
 				{
 					id: "5EB8CFB0F7943CCF"
 					item: {
 						Count: 1
-						id: "createendertransmission:fluid_transmitter"
-						tag: { }
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
 					}
 					type: "item"
 				}
@@ -2883,23 +2894,38 @@
 				id: "59A0986F3EDBB031"
 				item: {
 					Count: 1
-					id: "createendertransmission:fluid_transmitter"
-					tag: { }
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tanks/ender"
+					}
 				}
+				title: "Any #forge:tanks/ender"
 				type: "item"
 			}]
+			title: "Ender Tank"
 			x: -15.5d
 			y: 19.0d
 		}
 		{
+			icon: {
+				Count: 1
+				id: "enderchests:ender_chest"
+				tag: {
+					code: "000"
+					owner: "all"
+				}
+			}
 			id: "77DA9830B86C7C65"
 			rewards: [
 				{
 					id: "2F9AEE0363780E8E"
 					item: {
 						Count: 1
-						id: "createendertransmission:item_transmitter"
-						tag: { }
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
 					}
 					type: "item"
 				}
@@ -2915,11 +2941,15 @@
 				id: "03A65657597386FA"
 				item: {
 					Count: 1
-					id: "createendertransmission:item_transmitter"
-					tag: { }
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/ender"
+					}
 				}
+				title: "Any #forge:chests/ender"
 				type: "item"
 			}]
+			title: "Ender Chest"
 			x: -14.5d
 			y: 19.0d
 		}
