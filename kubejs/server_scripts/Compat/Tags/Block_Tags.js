@@ -9,6 +9,8 @@ ServerEvents.tags('block', event =>
         
         // Create Wrenchable
             event.add('create:wrench_pickup', [
+                'ppfluids:fluid_pipe',
+                'prettypipes:pipe',
                 'create:schematicannon',
                 'create:schematic_table',
                 'iammusicplayer:music_manager',

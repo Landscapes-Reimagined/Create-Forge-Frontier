@@ -1,5 +1,9 @@
 ServerEvents.tags('item', event => 
     {
+        // Forge Wrench Tags
+            event.add('forge:wrenches', 'prettypipes:wrench')
+            event.add('forge:tools/wrench', 'prettypipes:wrench')
+
         // Ender Chest Tag
             event.add('forge_frontier:chests/ender', [
                 'minecraft:ender_chest',
