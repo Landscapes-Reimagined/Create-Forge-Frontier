@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => 
     {
+        // Overides Broken Chest Recipe
+            event.shaped(
+                Item.of('minecraft:chest'),
+                [
+                    'PPP',
+                    'P P',
+                    'PPP'
+                ],
+                {
+                    P: '#minecraft:planks'
+                }
+            ).id( 'forge_frontier:shaped/chest')
+            
         // Switches Out Ash for Gunpowder in Ash Recipe
             event.remove({ id: 'regions_unexplored:ash'})
             event.shaped(
