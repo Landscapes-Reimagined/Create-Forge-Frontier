@@ -1,5 +1,11 @@
 ServerEvents.tags('item', event => 
     {
+        // Ender Chest Tag
+            event.add('forge_frontier:chests/ender', [
+                'minecraft:ender_chest',
+                'enderchests:ender_pouch'
+            ])
+            
         // Apotheosis Gem Tag
             event.add('forge_frontier:apotheosis/gem', 'apotheosis:gem')
         // Powah Battery Tag
