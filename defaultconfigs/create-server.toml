@@ -106,7 +106,7 @@
 	#.
 	#Maximum length in blocks of chain conveyor connections.
 	#Range: > 5
-	maxChainConveyorLength = 32
+	maxChainConveyorLength = 64
 	#.
 	#Maximum amount of connections each chain conveyor can have.
 	#Range: > 1
@@ -433,7 +433,7 @@
 		#.
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		#Range: > 1
-		schematicannonDelay = 7
+		schematicannonDelay = 4
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		#Range: > 1
