@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => 
     {
+        // Echo Shard Block Recipe
+            event.shaped(
+                Item.of('forge_frontier:echo_shard_block'),
+                [
+                    'EEE',
+                    'EEE',
+                    'EEE'
+                ],
+                {
+                    E: 'minecraft:echo_shard'
+                }
+            ).id('forge_frontier:shaped/echo_shard_block')
+
         // Blaze Rod Block Recipe
             event.shaped(
                 Item.of('forge_frontier:blaze_block'),

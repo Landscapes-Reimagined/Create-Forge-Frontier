@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/echo_shard_block"
+    }
+  }
+}

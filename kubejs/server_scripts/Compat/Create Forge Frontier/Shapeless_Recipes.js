@@ -1,5 +1,19 @@
 ServerEvents.recipes(event => 
     {
+        // Echo Shard Recipe
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:echo_shard_block'
+                    }
+                ],
+                result: {
+                    item: 'minecraft:echo_shard',
+                    count: 9
+                }
+            }).id( 'forge_frontier:shapeless/echo_shard' ) 
+                   
         // Blaze Rod Recipe
             event.custom({
                 type: 'minecraft:crafting_shapeless',

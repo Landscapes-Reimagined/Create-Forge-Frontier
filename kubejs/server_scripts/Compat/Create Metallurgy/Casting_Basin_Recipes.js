@@ -16,7 +16,7 @@ ServerEvents.recipes(function (event) {
         { name: "etrium", fluid: "forge_frontier:molten_etrium", result: "ad_astra:etrium_block" },
         { name: "emerald", fluid: "forge_frontier:molten_emerald", result: "minecraft:emerald_block" },
         { name: "diamond", fluid: "forge_frontier:molten_diamond", result: "minecraft:diamond_block" },
-        { name: "echo", fluid: "forge_frontier:molten_echo_shard", result: "minecraft:echo_shard_block" },
+        { name: "echo", fluid: "forge_frontier:molten_echo_shard", result: "forge_frontier:echo_shard_block" },
         { name: "amber", fluid: "forge_frontier:molten_amber", result: "forge_frontier:compressed_amber_1x" },
         { name: "scarlet_neodymium", fluid: "forge_frontier:molten_scarlet_neodymium", result: "alexscaves:block_of_scarlet_neodymium" },
         { name: "azure_neodymium", fluid: "forge_frontier:molten_azure_neodymium", result: "alexscaves:block_of_azure_neodymium" },
