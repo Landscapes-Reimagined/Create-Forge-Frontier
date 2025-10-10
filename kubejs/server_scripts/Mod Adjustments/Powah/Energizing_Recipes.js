@@ -1,28 +1,58 @@
 ServerEvents.recipes(event => {
     const blockRecipes = [
         {
+            id: "energized_steel",
+            ingredients: [{item: "ad_astra:steel_ingot"}],
+            energy: 10000,
+            result: {item: "powah:steel_energized", count: 1}
+        },
+        {
             id: "energized_steel_block",
-            ingredients: [{ item: "minecraft:iron_block" }, { item: "minecraft:gold_block" }],
+            ingredients: [{ item: "ad_astra:steel_block" }],
             energy: 10000 * 9,
-            result: { item: "powah:energized_steel_block", count: 2 }
+            result: { item: "powah:energized_steel_block", count: 1 }
+        },
+        {
+            id: "blazing_crystal",
+            ingredients: [{ item: "ad_astra:calorite_ingot" }],
+            energy: 90000,
+            result: { item: "powah:crystal_blazing", count: 1 }
         },
         {
             id: "blazing_crystal_block",
-            ingredients: [{ item: "forge_frontier:blaze_block" }],
+            ingredients: [{ item: "ad_astra:calorite_block" }],
             energy: 90000 * 9,
             result: { item: "powah:blazing_crystal_block", count: 1 }
         },
         {
+            id: "niotic_crystal",
+            ingredients: [{ item: "minecraft:echo_shard" }],
+            energy: 300000,
+            result: { item: "powah:crystal_niotic", count: 1 }
+        },
+        {
             id: "niotic_crystal_block",
-            ingredients: [{ item: "minecraft:diamond_block" }],
+            ingredients: [{ item: "forge_frontier:echo_shard_block" }],
             energy: 300000 * 9,
             result: { item: "powah:niotic_crystal_block", count: 1 }
         },
         {
+            id: "spirited_crystal",
+            ingredients: [{ item: "enlightened_end:malachite" }],
+            energy: 1000000,
+            result: { item: "powah:crystal_spirited", count: 1 }
+        },
+        {
             id: "spirited_crystal_block",
-            ingredients: [{ item: "minecraft:emerald_block" }],
+            ingredients: [{ item: "enlightened_end:malachite_block" }],
             energy: 1000000 * 9,
             result: { item: "powah:spirited_crystal_block", count: 1 }
+        },
+        {
+            id: "nitro_crystal",
+            ingredients: [{ item: "minecraft:nether_star"}, { item: "alexscaves:block_of_scarlet_neodymium"},{ item: "alexscaves:block_of_scarlet_neodymium"}, { item: "powah:blazing_crystal_block"}],
+            energy: 20000000,
+            result: { item: "powah:crystal_nitro", count: 16}
         },
         {
             id: "weathered_copper_shingle_stairs",
