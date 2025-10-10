@@ -4769,7 +4769,7 @@
 				type: "item"
 			}]
 			title: "Fluid Pipes"
-			x: -2.0d
+			x: -1.5d
 			y: 0.5d
 		}
 		{
@@ -4804,7 +4804,7 @@
 				type: "item"
 			}]
 			title: "The Pipe Pressurizer"
-			x: -6.0d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
