@@ -4863,9 +4863,11 @@
 		}
 		{
 			description: [
-				"The Ender Chest and Ender Pouch form the cornerstone of dimensional logistics."
+				"The &bEnder Chest&r allows you to transport items across time and space."
 				""
-				"Both items share a single network, letting you access the same inventory anywhere in the world — or even between worlds."
+				"The &bEnder Pouch&r allows you to access your &bEnder Chest inventory&r on the go. "
+				""
+				"It can be equipped in a &bCurios&r slot, and a &ekeybind&r can be set to open it straight from your &abelt slot&r, giving you instant access wherever you are."
 			]
 			icon: {
 				Count: 1
@@ -4892,7 +4894,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Discover the foundation of dimensional storage."
+			subtitle: "Cross-Dimensional Storage"
 			tasks: [{
 				id: "56A058DE6DB4F65A"
 				item: {
@@ -4902,7 +4904,7 @@
 						value: "forge_frontier:chests/ender"
 					}
 				}
-				title: "Any #forge_frontier:chests/ender"
+				title: "Obtain an Ender Chest or an Ender Pouch"
 				type: "item"
 			}]
 			title: "Ender Chest"
@@ -4912,39 +4914,18 @@
 		{
 			dependencies: ["6D684201FADC513B"]
 			description: [
-				"Ender Tanks function just like Ender Chests, linking fluids across any distance through color-coded bands and ownership tiers."
+				"The &bEnder Tank&r from the mod &bEnderChests&r is the counterpart to the &bEnder Bucket&r."
 				""
+				"Anything picked up by the bucket will be stored in the linked tank. It allows you to transfer and store fluids across any distance using &bcolor codes&r to link tanks together. Dye the tank by aiming at the three white bands to change its color pattern."
+				""
+				"By default, each tank is accessible to anyone on a server."
+				""
+				"To change this, use a &bDiamond&r to make it &bprivate&r to you, an &bEmerald&r to share it with your &bFTB Team&r, or &bGold&r to return it to the default mode."
 				"{@pagebreak}"
-				"🎨 Colors"
-				"Shift + Right-Click with a dye to change each of the three color bands."
-				"Each color combination creates a unique fluid network."
+				"The tank can be upgraded with an &bEnder Pearl&r to add &b8 buckets&r of capacity, or an &bEye of Ender&r to add &b16 buckets&r, up to a maximum of &b256 buckets&r total. It can also be upgraded with &bPistons&r to increase its transfer speed by &b1 bucket per second&r for each piston, up to &b4 buckets per second&r."
 				""
-				"💎 Ownership Modes"
-				""
-				"Global (Gold): Accessible by anyone."
-				""
-				"Private (Diamond): Only you can use it."
-				""
-				"Team (Emerald): Shared with your teammates."
-				""
-				"{@pagebreak}"
-				"Each color and ownership setup forms a separate storage channel, capable of holding up to 256 buckets when fully upgraded."
-				""
-				"Upgrade capacity or speed by Shift + Right-Clicking with:"
-				""
-				"minecraft:ender_pearl → +8 bucket capacity"
-				""
-				"minecraft:ender_eye → +16 bucket capacity"
-				""
-				"minecraft:piston → +1 bucket/second transfer rate"
-				""
-				"{@pagebreak}"
-				"With 4 pistons installed, an Ender Tank can transfer up to 4 buckets per second, automatically pulling from the top and pushing out the bottom."
-				"A redstone signal enables its built-in pump, while external pipes can draw without limit."
-				""
-				"Master this system to build a fluid network that spans worlds — the pinnacle of automated logistics."
+				"When powered by redstone, the tank’s built-in pump activates, automatically pulling from the top and pushing out the bottom."
 			]
-			hide_dependency_lines: true
 			id: "43F9D1E0AE072C03"
 			rewards: [
 				{
@@ -4965,7 +4946,6 @@
 					xp: 300
 				}
 			]
-			subtitle: "Fluid logistics without boundaries."
 			tasks: [{
 				id: "138162507CC3078D"
 				item: {
@@ -4978,17 +4958,17 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["250CE0C1B114B1E3"]
 			description: [
-				"Through alchemical metallurgy and Create’s mechanical mastery, the Ender Bucket channels the same dimensional energy as the classic Ender Chest — but for fluids."
+				"The &bEnder Bucket&r links to an &bEnder Tank&r from the mod &bEnderTanks&r."
 				""
-				"{@pagebreak}"
-				"This portable container automatically links to your Ender Tank network, giving you remote access to shared fluids anywhere."
-				"Use it to transport lava, molten metals, or experience fluid across machines without pipes."
+				"It can pick up fluids, and anything collected will be sent directly into the linked tank. &eShift + Right Click&r the tank to link it to a specific frequency."
+				""
+				"You can &esneak + scroll&r to switch between different &bPickup&r and &bPlace&r modes. Any fluid placed using the bucket comes directly from the linked &bEnder Tank&r."
 			]
 			id: "6D684201FADC513B"
 			rewards: [
@@ -5011,7 +4991,6 @@
 					xp: 200
 				}
 			]
-			subtitle: "A portable solution for molten matter."
 			tasks: [{
 				id: "22192CD837FB4C97"
 				item: {
@@ -5025,40 +5004,22 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["57648C53766E949A"]
 			description: [
-				"Your Create-crafted Ender Chest unites precision engineering with dimensional storage, allowing instant access to shared inventories across the world."
+				"The &bEnder Chest&r from the mod &bEnderChests&r is the counterpart to the &bEnder Bag&r."
 				""
-				"{@pagebreak}"
-				"🎨 Colors"
-				"Shift + Right-Click with a dye to change the chest’s color bands."
-				"These three colors determine which Ender network the chest connects to."
+				"It allows you to link storages together using different &bcolor codes&r. Dye the chest by aiming at the three white bands to change its color pattern."
 				""
-				"💎 Ownership Modes"
+				"By default, each chest is accessible to anyone on a server. "
 				""
-				"Global (Gold): Public access for everyone."
+				"To change this, use a &bDiamond&r to make it &bprivate&r to you, an &bEmerald&r to share it with your &bFTB Team&r, or &bGold&r to return it to the default mode."
 				""
-				"Private (Diamond): Accessible only to you."
-				""
-				"Team (Emerald): Shared within your team."
-				""
-				"{@pagebreak}"
-				"🔧 Upgrades"
-				"Expand storage capacity by applying upgrades directly:"
-				""
-				"minecraft:ender_pearl → +3 slots"
-				""
-				"minecraft:ender_eye → +9 slots"
-				"(Maximum: 27 slots total)"
-				""
-				"{@pagebreak}"
-				"This advanced design preserves the convenience of the classic Ender Chest while aligning perfectly with Create’s mechanical craftsmanship — a fusion of magic and machinery, rebuilt for a new industrial age."
+				"The chest can be upgraded with an &bEnder Pearl&r to add &b3 slots&r, or an &bEye of Ender&r to add &b9 slots&r, up to a maximum of &b27 slots&r total."
 			]
-			hide_dependency_lines: true
 			id: "00BC9A3878E46F7E"
 			rewards: [
 				{
@@ -5079,7 +5040,6 @@
 					xp: 300
 				}
 			]
-			subtitle: "Precision storage, powered by brass and logic."
 			tasks: [{
 				id: "588F91A91C7254C9"
 				item: {
@@ -5092,17 +5052,17 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["250CE0C1B114B1E3"]
 			description: [
-				"The Ender Bag grants full access to your Ender Chest networks from anywhere."
-				"Portable, reliable, and scalable — it’s your key to true interdimensional logistics."
+				"The &bEnder Bag&r allows you to access any &bEnder Chest&r inventory from the mod &bEnderChests&r."
 				""
-				"{@pagebreak}"
-				"Perfect for factory operators, miners, and adventurers who need instant access to global resources without returning home."
+				"It must be linked to a chest before use, otherwise it will use the default frequency. &eShift + Right Click&r a chest to link it, and its &bfrequency&r will automatically match the linked chest."
+				""
+				"The bag can be equipped in a &bCurios&r belt slot, and it has its own &ekeybind&r separate from the &bEnder Pouch&r."
 			]
 			id: "57648C53766E949A"
 			rewards: [
@@ -5125,7 +5085,6 @@
 					xp: 200
 				}
 			]
-			subtitle: "Dimensional delivery, made portable."
 			tasks: [{
 				id: "316FFEBA056BBC07"
 				item: {
@@ -5139,7 +5098,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.5d
 			y: 0.5d
 		}
 	]

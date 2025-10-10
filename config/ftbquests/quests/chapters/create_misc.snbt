@@ -600,7 +600,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["610FD2C783821A4E"]
@@ -652,7 +652,7 @@
 				item: "create_sa:steam_engine"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: 1.0d
 		}
 		{
@@ -792,7 +792,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -1036,7 +1036,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1159D5E78DA10D4F"]
@@ -1119,7 +1119,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -1948,7 +1948,7 @@
 			]
 			title: "The Mechanical Pipette"
 			x: -8.5d
-			y: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["08BCFA45FB71AB42"]
@@ -2013,7 +2013,7 @@
 			]
 			title: "Fluid Interfaces"
 			x: -8.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["610FD2C783821A4E"]
