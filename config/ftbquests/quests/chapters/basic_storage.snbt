@@ -2312,7 +2312,11 @@
 				{
 					count: 16
 					id: "5437DBF47B479EFC"
-					item: "createfood:cheeseburger"
+					item: {
+						Count: 1
+						id: "delightful:cheeseburger"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
