@@ -17,9 +17,9 @@ ServerEvents.recipes(event =>
                     ],
                     result: 
                     {
-                        item: 'createendertransmission:item_transmitter'
+                        item: 'enderchests:ender_chest'
                     }
-                }).id("forge_frontier:shapeless/vault_to_item_transmitter")
+                }).id("forge_frontier:shapeless/vault_to_ender_chest")
 
             // Ender Vault to Fluid Transmission
                 event.custom({
@@ -31,9 +31,9 @@ ServerEvents.recipes(event =>
                     ],
                     result: 
                     {
-                        item: 'createendertransmission:fluid_transmitter'
+                        item: 'endertanks:ender_tank'
                     }
-                }).id("forge_frontier:shapeless/tank_to_fluid_transmitter")
+                }).id("forge_frontier:shapeless/tank_to_ender_tank")
 
     }
 )

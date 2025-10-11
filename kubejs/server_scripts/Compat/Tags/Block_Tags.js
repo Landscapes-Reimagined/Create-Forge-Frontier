@@ -9,6 +9,12 @@ ServerEvents.tags('block', event =>
         
         // Create Wrenchable
             event.add('create:wrench_pickup', [
+                "enderchests:ender_chest",
+                "endertanks:ender_tank",
+                'prettypipes:pressurizer',
+                'prettypipes:item_terminal',
+                'ppfluids:fluid_pipe',
+                'prettypipes:pipe',
                 'create:schematicannon',
                 'create:schematic_table',
                 'iammusicplayer:music_manager',
@@ -34,13 +40,6 @@ ServerEvents.tags('block', event =>
                 'easy_villagers:farmer',
                 'easy_villagers:auto_trader',
                 'easy_villagers:trader',
-                'chipped:tinkering_table',
-                'chipped:alchemy_bench',
-                'chipped:mason_table',
-                'chipped:loom_table',
-                'chipped:carpenters_table',
-                'chipped:glassblower',
-                'chipped:botanist_workbench',
                 'bobberdetector:bobber_detector',
                 'hyperbox:hyperbox',
                 'pipez:item_pipe',
@@ -90,14 +89,6 @@ ServerEvents.tags('block', event =>
                 'mob_grinding_utils:entity_conveyor',
                 'mob_grinding_utils:ender_inhibitor_on',
                 'mob_grinding_utils:ender_inhibitor_off',
-                'trashcans:item_trash_can',
-                'trashcans:liquid_trash_can',
-                'trashcans:energy_trash_can',
-                'trashcans:ultimate_trash_can',
-                '#tconstruct:smeltery',
-                '#tconstruct:foundry',
-                'tconstruct:foundry_controller',
-                'tconstruct:smeltery_controller',
                 'easy_piglins:barterer'
             ]);
 

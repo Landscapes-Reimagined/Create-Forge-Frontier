@@ -11,7 +11,7 @@ ServerEvents.recipes(event =>
                 ],
                 {
                     A: 'minecraft:chain',
-                    B: 'createaddition:iron_rod',
+                    B: '#forge:rods/iron',
                     C: 'minecraft:iron_block'
                 }
             ).id( 'forge_frontier:shaped/mob_cage' )

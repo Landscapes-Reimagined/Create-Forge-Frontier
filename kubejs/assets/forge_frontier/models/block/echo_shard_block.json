@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "forge_frontier:block/echo_shard_block"
+  }
+}

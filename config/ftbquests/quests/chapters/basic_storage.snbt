@@ -35,8 +35,8 @@
 			image: "ftb:textures/backpack_upgrades.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: -16.0d
-			y: 2.5d
+			x: -15.5d
+			y: 1.0d
 		}
 		{
 			height: 3.0d
@@ -44,7 +44,7 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: 0.0d
-			y: 2.5d
+			y: 8.0d
 		}
 	]
 	order_index: 5
@@ -318,8 +318,8 @@
 				type: "item"
 			}]
 			title: "The Upgrade Base"
-			x: -16.0d
-			y: 6.0d
+			x: -15.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["320A7F10EF29D32A"]
@@ -2171,8 +2171,8 @@
 				item: "sophisticatedbackpacks:pickup_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 9.0d
+			x: -21.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3B9966F613776150"]
@@ -2197,8 +2197,8 @@
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 10.5d
+			x: -21.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2223,8 +2223,8 @@
 				item: "sophisticatedbackpacks:filter_upgrade"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 9.0d
+			x: -20.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4B57C94F47127DE6"]
@@ -2249,8 +2249,8 @@
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 10.5d
+			x: -20.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2275,8 +2275,8 @@
 				item: "sophisticatedbackpacks:magnet_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 12.0d
+			x: -21.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2438077A1699D28E"]
@@ -2301,8 +2301,8 @@
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
 				type: "item"
 			}]
-			x: -22.0d
-			y: 13.5d
+			x: -21.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2312,7 +2312,11 @@
 				{
 					count: 16
 					id: "5437DBF47B479EFC"
-					item: "createfood:cheeseburger"
+					item: {
+						Count: 1
+						id: "delightful:cheeseburger"
+						tag: { }
+					}
 					type: "item"
 				}
 				{
@@ -2327,8 +2331,8 @@
 				item: "sophisticatedbackpacks:feeding_upgrade"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 9.0d
+			x: -15.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["227026C7607F987A"]
@@ -2353,8 +2357,8 @@
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 10.5d
+			x: -15.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2379,8 +2383,8 @@
 				item: "sophisticatedbackpacks:compacting_upgrade"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 12.0d
+			x: -12.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2512B973911B0BCD"]
@@ -2405,8 +2409,8 @@
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 13.5d
+			x: -12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2435,8 +2439,8 @@
 				item: "sophisticatedbackpacks:void_upgrade"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 12.0d
+			x: -20.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["36AF9E6A2B889AD2"]
@@ -2461,8 +2465,8 @@
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 13.5d
+			x: -20.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2487,8 +2491,8 @@
 				item: "sophisticatedbackpacks:restock_upgrade"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 9.0d
+			x: -17.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["08F27E0DB341A20C"]
@@ -2513,8 +2517,8 @@
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 10.5d
+			x: -17.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2539,8 +2543,8 @@
 				item: "sophisticatedbackpacks:deposit_upgrade"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 12.0d
+			x: -17.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5E60770B2229A23E"]
@@ -2569,8 +2573,8 @@
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 13.5d
+			x: -17.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2595,8 +2599,8 @@
 				item: "sophisticatedbackpacks:refill_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 9.0d
+			x: -18.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["717F280D790E35DE"]
@@ -2627,8 +2631,8 @@
 				item: "sophisticatedbackpacks:advanced_refill_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 10.5d
+			x: -18.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2653,8 +2657,8 @@
 				item: "sophisticatedbackpacks:smelting_upgrade"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 9.0d
+			x: -14.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["40FB2C4485E51396"]
@@ -2679,8 +2683,8 @@
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 10.5d
+			x: -14.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2705,8 +2709,8 @@
 				item: "sophisticatedbackpacks:smoking_upgrade"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 12.0d
+			x: -15.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["398E58182E281F3A"]
@@ -2731,8 +2735,8 @@
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 13.5d
+			x: -15.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2757,8 +2761,8 @@
 				item: "sophisticatedbackpacks:blasting_upgrade"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 12.0d
+			x: -14.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["032EE4AF9507D400"]
@@ -2783,8 +2787,8 @@
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 13.5d
+			x: -14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2813,8 +2817,8 @@
 				item: "sophisticatedbackpacks:jukebox_upgrade"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 9.0d
+			x: -12.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2673FE58A133278B"]
@@ -2843,8 +2847,8 @@
 				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 10.5d
+			x: -12.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2869,8 +2873,8 @@
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 12.0d
+			x: -18.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["31159F256FA65BE2"]
@@ -2904,8 +2908,8 @@
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 13.5d
+			x: -18.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -2930,8 +2934,8 @@
 				item: "sophisticatedbackpacks:pump_upgrade"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 12.0d
+			x: -11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6285CC58E2234A32"]
@@ -2975,8 +2979,8 @@
 				}
 			]
 			title: "Advanced Pumping"
-			x: -11.5d
-			y: 13.5d
+			x: -11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3001,8 +3005,8 @@
 				item: "sophisticatedbackpacks:tank_upgrade"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 10.5d
+			x: -11.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3026,8 +3030,8 @@
 				item: "sophisticatedbackpacks:inception_upgrade"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 9.0d
+			x: -9.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3052,8 +3056,8 @@
 				item: "sophisticatedbackpacks:battery_upgrade"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 9.0d
+			x: -11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3078,8 +3082,8 @@
 				item: "sophisticatedbackpacks:everlasting_upgrade"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 10.5d
+			x: -9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3096,8 +3100,8 @@
 				item: "sophisticatedbackpacks:crafting_upgrade"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 6.0d
+			x: -18.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3114,8 +3118,8 @@
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 6.0d
+			x: -17.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3132,8 +3136,8 @@
 				item: "sophisticatedbackpacks:anvil_upgrade"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 6.0d
+			x: -14.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3150,8 +3154,8 @@
 				item: "sophisticatedbackpacks:smithing_upgrade"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 6.0d
+			x: -12.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3187,8 +3191,8 @@
 				item: "sophisticatedbackpacks:alchemy_upgrade"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 12.0d
+			x: -9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["74BA6DB4CE1C9B6A"]
@@ -3213,8 +3217,8 @@
 				item: "sophisticatedbackpacks:advanced_alchemy_upgrade"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 13.5d
+			x: -9.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3239,8 +3243,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 7.5d
+			x: -20.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3265,8 +3269,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			x: -19.0d
-			y: 7.5d
+			x: -18.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D8975C0BA0DCCFC"]
@@ -3291,8 +3295,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: -17.5d
-			y: 7.5d
+			x: -17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2871843880C43A6D"]
@@ -3317,8 +3321,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 				type: "item"
 			}]
-			x: -16.0d
-			y: 7.5d
+			x: -15.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3EB04E8D5D48FB23"]
@@ -3343,8 +3347,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
-			x: -14.5d
-			y: 7.5d
+			x: -14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["222804BF07670F08"]
@@ -3368,8 +3372,8 @@
 				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 7.5d
+			x: -12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00F55F59CCBED490"]
@@ -3408,8 +3412,8 @@
 				}
 			]
 			title: "Stack Downgrades"
-			x: -11.5d
-			y: 7.5d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			description: ["Craft an Upgrade Base as the foundation for all storage upgrades."]
@@ -3437,7 +3441,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3455,7 +3459,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3473,7 +3477,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			description: [
@@ -3514,7 +3518,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			description: ["Craft a Storage Tool to easily link, lock, and fine-tune your storage setup."]
@@ -3545,7 +3549,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			description: ["Craft a Decoration Table to add custom colors and accents to your storage."]
@@ -3582,7 +3586,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			description: ["Use a Paintbrush and dye to add a personal touch to your chests, barrels, and shulkers."]
@@ -3619,7 +3623,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3645,7 +3649,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["73D9AB50CAC7B7D5"]
@@ -3671,7 +3675,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3697,7 +3701,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["0F3EA33A1FD0DD53"]
@@ -3723,7 +3727,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3749,7 +3753,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["46789BBC15E2A058"]
@@ -3775,7 +3779,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3805,7 +3809,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["53185CF266579CF7"]
@@ -3831,7 +3835,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3857,7 +3861,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["4C5A81EAECF06C1F"]
@@ -3883,7 +3887,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3913,7 +3917,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["64E6D29158E1BCA7"]
@@ -3942,7 +3946,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3968,7 +3972,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0D4BD7F7D727FB60"]
@@ -3998,7 +4002,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4024,7 +4028,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["550E54866C2FD8E6"]
@@ -4050,7 +4054,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4076,7 +4080,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["5815347B53119A8F"]
@@ -4102,7 +4106,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4128,7 +4132,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["11FB8340768BF00D"]
@@ -4154,7 +4158,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4180,7 +4184,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2A63FB19B55825E9"]
@@ -4206,7 +4210,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4243,7 +4247,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 12.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["1B6C38B59CD83A35"]
@@ -4269,7 +4273,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 13.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4301,7 +4305,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 10.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["183F457F923574A9"]
@@ -4331,8 +4335,8 @@
 				type: "item"
 			}]
 			title: "Tiered Upgrades"
-			x: 3.75d
-			y: -3.0d
+			x: 1.5d
+			y: 3.75d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4358,7 +4362,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["5EB79CA86AC7C5A5"]
@@ -4384,7 +4388,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7958BB2AF14D6779"]
@@ -4410,7 +4414,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1D91C867C5229F33"]
@@ -4436,7 +4440,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7AA3AF96A80EB911"]
@@ -4462,7 +4466,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["11BAE619DE15F3DD"]
@@ -4487,7 +4491,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2769F2BC9A8B240C"]
@@ -4512,7 +4516,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 7.5d
+			y: 13.0d
 		}
 		{
 			description: [
@@ -4551,7 +4555,7 @@
 				}
 			]
 			x: 1.5d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			description: [
@@ -4582,7 +4586,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 11.5d
 		}
 		{
 			description: ["Ever had a mob just... not drop how much it should? Inventory getting a little full? That won't be a problem any longer!"]
@@ -4625,8 +4629,8 @@
 				}
 			]
 			title: "Bonus Drops"
-			x: -3.75d
-			y: -3.0d
+			x: -2.25d
+			y: 3.75d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4666,12 +4670,11 @@
 			]
 			title: "Stack Downgrades"
 			x: 4.5d
-			y: 9.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
 			description: ["The Item Terminal allows you to view all items in any inventory connected to your pipe network. It has an internal inventory you can request items from your network to be deposited into where you can then retrieve them. It can also send items back into your pipe network with its return inventory."]
-			hide_dependency_lines: true
 			id: "07A94C06EEA9EDA4"
 			rewards: [
 				{
@@ -4700,8 +4703,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
@@ -4735,8 +4738,8 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 1.0d
-			y: -0.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
@@ -4770,13 +4773,12 @@
 				type: "item"
 			}]
 			title: "Fluid Pipes"
-			x: 2.0d
-			y: -0.5d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
 			description: ["The Pipe Pressurizer allows you to vastly speed up the rate at which items or fluids flow through your pipes. The effects of multiple Pressurizers do not seem to stack, so only one per pipeline should suffice. Power them and watch your items/fluids start to rocket through the pipes!"]
-			hide_dependency_lines: true
 			id: "3567AE4C12DC29DC"
 			rewards: [
 				{
@@ -4806,8 +4808,8 @@
 				type: "item"
 			}]
 			title: "The Pipe Pressurizer"
-			x: -2.0d
-			y: -0.5d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -4848,7 +4850,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 2.5d
 			subtitle: "Build your first item network with Pretty Pipes."
 			tasks: [{
 				id: "6FF5D6809DE6D9B4"
@@ -4860,8 +4862,248 @@
 				type: "item"
 			}]
 			title: "Pipes Made Simple"
-			x: 0.0d
-			y: -2.25d
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The &bEnder Chest&r allows you to transport items across time and space."
+				""
+				"The &bEnder Pouch&r allows you to access your &bEnder Chest inventory&r on the go. "
+				""
+				"It can be equipped in a &bCurios&r slot, and a &ekeybind&r can be set to open it straight from your &abelt slot&r, giving you instant access wherever you are."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:ender_chest"
+				tag: { }
+			}
+			id: "250CE0C1B114B1E3"
+			rewards: [
+				{
+					count: 3
+					id: "23D38F35F30C69F8"
+					item: {
+						Count: 1
+						id: "minecraft:ender_pearl"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1365E0854FCBB27E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Cross-Dimensional Storage"
+			tasks: [{
+				id: "56A058DE6DB4F65A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:chests/ender"
+					}
+				}
+				title: "Obtain an Ender Chest or an Ender Pouch"
+				type: "item"
+			}]
+			title: "Ender Chest"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D684201FADC513B"]
+			description: [
+				"The &bEnder Tank&r from the mod &bEnderChests&r is the counterpart to the &bEnder Bucket&r."
+				""
+				"Anything picked up by the bucket will be stored in the linked tank. It allows you to transfer and store fluids across any distance using &bcolor codes&r to link tanks together. Dye the tank by aiming at the three white bands to change its color pattern."
+				""
+				"By default, each tank is accessible to anyone on a server."
+				""
+				"To change this, use a &bDiamond&r to make it &bprivate&r to you, an &bEmerald&r to share it with your &bFTB Team&r, or &bGold&r to return it to the default mode."
+				"{@pagebreak}"
+				"The tank can be upgraded with an &bEnder Pearl&r to add &b8 buckets&r of capacity, or an &bEye of Ender&r to add &b16 buckets&r, up to a maximum of &b256 buckets&r total. It can also be upgraded with &bPistons&r to increase its transfer speed by &b1 bucket per second&r for each piston, up to &b4 buckets per second&r."
+				""
+				"When powered by redstone, the tank’s built-in pump activates, automatically pulling from the top and pushing out the bottom."
+			]
+			id: "43F9D1E0AE072C03"
+			rewards: [
+				{
+					id: "37CE293B50F282C7"
+					item: {
+						Count: 1
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C0DB505BB973202"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "138162507CC3078D"
+				item: {
+					Count: 1
+					id: "endertanks:ender_tank"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["250CE0C1B114B1E3"]
+			description: [
+				"The &bEnder Bucket&r links to an &bEnder Tank&r from the mod &bEnderTanks&r."
+				""
+				"It can pick up fluids, and anything collected will be sent directly into the linked tank. &eShift + Right Click&r the tank to link it to a specific frequency."
+				""
+				"You can &esneak + scroll&r to switch between different &bPickup&r and &bPlace&r modes. Any fluid placed using the bucket comes directly from the linked &bEnder Tank&r."
+			]
+			id: "6D684201FADC513B"
+			rewards: [
+				{
+					id: "74A0CD2C02FAF06D"
+					item: {
+						Count: 1
+						id: "endertanks:ender_bucket"
+						tag: {
+							code: "000"
+							mode: "normal"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58B9552F94A50803"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "22192CD837FB4C97"
+				item: {
+					Count: 1
+					id: "endertanks:ender_bucket"
+					tag: {
+						code: "000"
+						mode: "normal"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["57648C53766E949A"]
+			description: [
+				"The &bEnder Chest&r from the mod &bEnderChests&r is the counterpart to the &bEnder Bag&r."
+				""
+				"It allows you to link storages together using different &bcolor codes&r. Dye the chest by aiming at the three white bands to change its color pattern."
+				""
+				"By default, each chest is accessible to anyone on a server. "
+				""
+				"To change this, use a &bDiamond&r to make it &bprivate&r to you, an &bEmerald&r to share it with your &bFTB Team&r, or &bGold&r to return it to the default mode."
+				""
+				"The chest can be upgraded with an &bEnder Pearl&r to add &b3 slots&r, or an &bEye of Ender&r to add &b9 slots&r, up to a maximum of &b27 slots&r total."
+			]
+			id: "00BC9A3878E46F7E"
+			rewards: [
+				{
+					id: "5355EDEA0F35DDC1"
+					item: {
+						Count: 1
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "035DA01B9867D0D9"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				id: "588F91A91C7254C9"
+				item: {
+					Count: 1
+					id: "enderchests:ender_chest"
+					tag: {
+						code: "000"
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["250CE0C1B114B1E3"]
+			description: [
+				"The &bEnder Bag&r allows you to access any &bEnder Chest&r inventory from the mod &bEnderChests&r."
+				""
+				"It must be linked to a chest before use, otherwise it will use the default frequency. &eShift + Right Click&r a chest to link it, and its &bfrequency&r will automatically match the linked chest."
+				""
+				"The bag can be equipped in a &bCurios&r belt slot, and it has its own &ekeybind&r separate from the &bEnder Pouch&r."
+			]
+			id: "57648C53766E949A"
+			rewards: [
+				{
+					id: "4EAF683AFADBE514"
+					item: {
+						Count: 1
+						id: "enderchests:ender_bag"
+						tag: {
+							code: "000"
+							open: 0b
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76B38ECD55BF4690"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "316FFEBA056BBC07"
+				item: {
+					Count: 1
+					id: "enderchests:ender_bag"
+					tag: {
+						code: "000"
+						open: 0b
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
 		}
 	]
 	title: "Basic Storage"

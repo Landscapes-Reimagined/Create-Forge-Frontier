@@ -1,6 +1,18 @@
 
 StartupEvents.registry('block', event => {
 
+    // Echo Shard Block
+    event.create('forge_frontier:echo_shard_block')
+        .displayName('Echo Shard Block')
+        .soundType('metal') 
+        .mapColor('Stone') 
+        .hardness(2.0)
+        .model('forge_frontier:block/echo_shard_block')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock("mineable/pickaxe")
+        .fullBlock(true);
+
     // Blaze Block
     event.create('forge_frontier:blaze_block')
         .displayName('Blaze Rod Block')

@@ -11,7 +11,7 @@
 	#Choose the menu row that the Create config button appears on in the in-game menu
 	#Set to 0 to disable the button altogether
 	#Range: 0 ~ 5
-	ingameMenuConfigButtonRow = 0
+	ingameMenuConfigButtonRow = 2
 	#.
 	#Higher density means more spawned particles.
 	#Range: 0.0 ~ 1.0

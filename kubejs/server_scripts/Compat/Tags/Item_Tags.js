@@ -1,5 +1,15 @@
 ServerEvents.tags('item', event => 
     {
+        // Forge Wrench Tags
+            event.add('forge:wrenches', 'prettypipes:wrench')
+            event.add('forge:tools/wrench', 'prettypipes:wrench')
+
+        // Ender Chest Tag
+            event.add('forge_frontier:chests/ender', [
+                'minecraft:ender_chest',
+                'enderchests:ender_pouch'
+            ])
+            
         // Apotheosis Gem Tag
             event.add('forge_frontier:apotheosis/gem', 'apotheosis:gem')
         // Powah Battery Tag
