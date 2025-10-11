@@ -1,3 +1,7 @@
 {
- 
+  "conditions": [
+    {
+      "type": "forge:false"
+    }
+  ]
 }
