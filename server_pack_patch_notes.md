@@ -1,40 +1,42 @@
-# ⚙️ **Forge Frontier v2.5.0 Server Pack**
+# ⚙️ **Forge Frontier v2.5.1 Server Pack**
 
-Welcome to the official **server pack** for **Create: Forge Frontier v2.5.0** — the definitive update bringing improved stability, Create performance tuning, backend script corrections, and compatibility refinements for multiplayer environments.
+Welcome to the official **server pack** for **Create: Forge Frontier v2.5.1** — a refinement and stability-focused update designed to further enhance performance, progression flow, and backend consistency for multiplayer servers.
 
-This build is optimized for **smooth simulation performance** and **enhanced mod integration**, making it ideal for large-scale Create contraptions, automation setups, and long-term survival servers.
+This version builds upon the foundation of v2.5.0 with **expanded storage systems**, **recipe corrections**, and **cross-dimensional integration improvements**, ensuring smoother server-side gameplay and long-term reliability.
 
 ---
 
 ### 🧰 **What’s Included**
-- All required server configuration files and libraries  
-- Optimized startup scripts for Forge 1.20.1  
-- Pre-configured `server.properties` and mod folder setup  
-- Performance and memory allocation recommendations  
-- Quality-of-life adjustments for Create-based multiplayer
+- All updated configuration and dependency files for 2.5.1  
+- Pre-configured server startup scripts optimized for Forge 1.20.1  
+- Refined `server.properties` and library setup for multiplayer environments  
+- Enhanced JVM parameters for consistent tick stability and memory performance  
+- Quality-of-life improvements across storage, automation, and quest systems  
 
 ---
 
 ### ⚙️ **Key Improvements**
-- Backend optimizations and bug fixes for stability  
-- Updated KubeJS and script integration across recipe systems  
-- Reduced lag on large contraptions and chunk updates  
-- Enhanced compatibility with AE2, Ad Astra, and integration mods  
-- Streamlined mod sorting and cleaner server-side organization  
+- Introduced **EnderTanks**, **EnderChests**, and **ShetiPhianCore** to replace the old *Ender Transmission* system  
+- Added new **Ender Storage Quests** and integrated them into mid-game progression  
+- Adjusted **Forge Rocket Tank** and **Create Addon** questlines for the new storage system  
+- Added the new **Echo Shard Block** and **Cataclysm Eye visuals** for improved visual polish  
+- Rebalanced Create-related recipes, tags, and quest rewards for smoother progression  
+- Fixed multiple script conflicts and inconsistencies (Apotheosis, Chipped, Pretty Pipes, Powah, etc.)  
+- Enhanced server-side performance for large contraptions and cross-dimensional item transfers  
+- General **stability, optimization, and compatibility** improvements across core systems  
 
 ---
 
 ### 🔹 **Need Help?**
-If you encounter issues setting up your server or have gameplay-related questions, join our official **[Discord Community](https://discord.gg/quenZthXgy)** for direct support from the **Forge Frontier Dev Team** and community experts.
+If you encounter setup issues or gameplay bugs, join our official **[Discord Community](https://discord.gg/quenZthXgy)** for support from the **Forge Frontier Dev Team** and other server admins.
 
-> Forge Frontier is best experienced together — come build, automate, and innovate alongside fellow pioneers! ⚙️
+> Forge Frontier v2.5.1 continues our mission to create a stable, immersive, and endlessly expandable Create-based experience. ⚙️
 
 ---
 
 ### 🌍 **Looking for Hassle-Free Hosting?**
-Skip the manual setup and launch your **Create: Forge Frontier** world instantly using our **official partner — BisectHosting**.
-
-Their servers are pre-optimized for Forge Frontier and come with 24/7 technical support, one-click modpack installation, and automated backups.
+Deploy your **Forge Frontier v2.5.1** server instantly with our **official partner — BisectHosting**.  
+Their servers are pre-optimized for the modpack, including one-click installs, 24/7 support, and automatic backups.
 
 **Click below to get started:**
 
