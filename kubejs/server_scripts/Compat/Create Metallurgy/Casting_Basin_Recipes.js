@@ -30,7 +30,7 @@ ServerEvents.recipes(function (event) {
         { name: "netherite_emerald", fluid: "forge_frontier:molten_netherite_emerald", result: "advancednetherite:netherite_emerald_block"},
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block"},
         { name: 'coal', fluid: 'forge_frontier:molten_carbon', result: "minecraft:coal_block"},
-        { name: 'bronze', fluid: 'createmetallurgy', result: "create_dd:bronze_block"}
+        { name: 'bronze', fluid: 'createmetallurgy:molten_bronze', result: "create_dd:bronze_block"}
     ];
 
     basinCasts.forEach(function (cast) {
