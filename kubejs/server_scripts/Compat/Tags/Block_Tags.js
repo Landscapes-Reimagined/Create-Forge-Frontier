@@ -13,8 +13,6 @@ ServerEvents.tags('block', event =>
                 "endertanks:ender_tank",
                 'prettypipes:pressurizer',
                 'prettypipes:item_terminal',
-                'ppfluids:fluid_pipe',
-                'prettypipes:pipe',
                 'create:schematicannon',
                 'create:schematic_table',
                 'iammusicplayer:music_manager',
