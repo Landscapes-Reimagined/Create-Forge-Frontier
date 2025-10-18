@@ -3528,7 +3528,7 @@
 				id: "390690AC9C57DE1D"
 				observe_type: 0
 				timer: 0L
-				to_observe: "create_resource_vent:dormant_lost_debris_vent"
+				to_observe: "create_resource_vents:dormant_lost_debris_vent"
 				type: "observation"
 			}]
 			title: "Lost Debris Vent: Sweet Core of Ethium"
