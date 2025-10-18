@@ -2449,7 +2449,7 @@
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
 				id: "6D4C4B54FEA5675A"
-				observe_type: 0
+				observe_type: 1
 				timer: 0L
 				to_observe: "create_resource_vents:dormant_sulphite_vent"
 				type: "observation"
