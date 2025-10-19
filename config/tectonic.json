@@ -19,7 +19,7 @@
   },
   "continents": {
     "continents_scale": 0.13,
-    "erosion_scale": 0.2,
+    "erosion_scale": 0.25,
     "flat_terrain_skew": 0.1,
     "jungle_pillars": true,
     "ocean_offset": -0.8,
@@ -33,8 +33,9 @@
     "snow_start_offset": 128
   },
   "global_terrain": {
-    "increased_height": true,
     "lava_tunnels": true,
+    "max_y": 639,
+    "min_y": -64,
     "ultrasmooth": false,
     "vertical_scale": 1.125
   },
@@ -46,9 +47,9 @@
   },
   "minor_version": 1,
   "oceans": {
-    "deep_ocean_depth": -0.22,
-    "monument_offset": 0,
-    "ocean_depth": -0.12,
+    "deep_ocean_depth": -0.45,
+    "monument_offset": -30,
+    "ocean_depth": -0.15,
     "remove_frozen_ocean_ice": false
   }
 }
