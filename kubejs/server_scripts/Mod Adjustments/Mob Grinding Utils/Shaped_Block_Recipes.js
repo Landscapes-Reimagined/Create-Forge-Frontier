@@ -145,7 +145,7 @@ ServerEvents.recipes(event =>
                 P: 'create:mechanical_press',
                 E: 'mob_grinding_utils:entity_conveyor',
                 C: 'create:smart_chute',
-                T: 'mob_grinding_utils:tank'
+                T: 'mob_grinding_utils:tank_sink'
             }
         ).id( 'forge_frontier:shaped/xp_solidifier' )
         
