@@ -863,7 +863,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			shape: "gear"
+			shape: "pentagon"
 			size: 1.25d
 			subtitle: "A Smarter Table"
 			tasks: [{
@@ -1993,7 +1993,13 @@
 		}
 		{
 			dependencies: ["2CE7F1424730D6F6"]
-			description: ["The Wireless ME connector allows you to... wirelessly move channels across your world! This is very useful if you want to make a set of Annihilation planes at world height and don't want to waste a bunch of cables to do it! Keep in mind, the energy cost for these connections increases exponentially with distance, but you can reduce this by installing Energy Cards to optimize power usage."]
+			description: [
+				"The ME Wireless Connector allows you to... wirelessly move channels across your world! This is very useful if you want to make a set of Annihilation planes at world height and don't want to waste a bunch of cables to do it! "
+				""
+				"Keep in mind, the energy cost for these connections increases exponentially with distance, but you can reduce this by installing Energy Cards to optimize power usage."
+				""
+				"The ME Wireless Hub allows you to link multiple Wireless ME Connectors to one spot. It can pass along 32 channels and has 8 ports to connect to."
+			]
 			icon: "expatternprovider:wireless_tool"
 			id: "297FEE259C42D02C"
 			rewards: [
@@ -2018,8 +2024,21 @@
 					type: "item"
 				}
 				{
-					id: "6E3691051993CF6C"
-					item: "expatternprovider:wireless_tool"
+					id: "2473391C0E9C1DF4"
+					item: {
+						Count: 1
+						id: "expatternprovider:wireless_hub"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "712F2F911E73583D"
+					item: {
+						Count: 1
+						id: "expatternprovider:wireless_tool"
+						tag: { }
+					}
 					type: "item"
 				}
 			]
