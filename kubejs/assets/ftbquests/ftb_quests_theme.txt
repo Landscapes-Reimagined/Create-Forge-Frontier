@@ -185,3 +185,6 @@ background: ftb:textures/dimensional_delights.png
 
 [44EFA82E2251DE57]
 background: ftb:textures/alexscaves_screenshot.png
+
+[14AD7CCF86F19D90]
+background: ftb:textures/mob_grinding_utils_bg.png

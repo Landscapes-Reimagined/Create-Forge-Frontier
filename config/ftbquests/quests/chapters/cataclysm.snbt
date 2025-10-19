@@ -1557,7 +1557,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["6720A599B8A32D97"]
+			dependencies: ["28D44A364EE4B948"]
 			description: [
 				"The winds of the End whisper of a fortress long forgotten. Legends tell of the Ruined Citadel, where ancient power lies sealed behind shattered walls. To uncover its secrets, you must follow the Eye into the Void and seek out this forsaken stronghold."
 				""
@@ -1567,6 +1567,7 @@
 				""
 				"{image:ftb:textures/ruined_citadel.png width:200 height:120 align:center}"
 			]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "cataclysm:void_eye"

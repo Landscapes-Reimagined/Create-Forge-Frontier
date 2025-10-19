@@ -65,7 +65,7 @@
 				"{@pagebreak}"
 				"You've made it, now how do you use it?"
 				""
-				"First, place the proper vent/block underneath the Extruder and add a bucket of proper fluid (refer to EMI) to both sides of the Extruder."
+				"First, place the proper vent/block underneath the Extruder and add a bucket of proper fluid (refer to JEI) to both sides of the Extruder. Then, power it from the back with rotational power. You can pull the items from it using belts and funnels, or even AE2."
 			]
 			hide_dependency_lines: true
 			id: "6B0EFB5F45658146"
