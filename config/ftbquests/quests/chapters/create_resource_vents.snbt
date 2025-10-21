@@ -2312,10 +2312,10 @@
 			}]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
-				id: "725B31416BC3165D"
+				id: "6D8986CA3F92874C"
 				observe_type: 0
 				timer: 0L
-				to_observe: "create_resource_vents:dormant_guanite_vent"
+				to_observe: "create_resource_vents:active_guanite_vent"
 				type: "observation"
 			}]
 			title: "Decay Beneath the Hollows"
@@ -2448,7 +2448,7 @@
 			}]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [{
-				id: "6D4C4B54FEA5675A"
+				id: "2B68EEA976EB1A79"
 				observe_type: 0
 				timer: 0L
 				to_observe: "create_resource_vents:dormant_sulphite_vent"
@@ -3528,7 +3528,7 @@
 				id: "390690AC9C57DE1D"
 				observe_type: 0
 				timer: 0L
-				to_observe: "create_resource_vent:dormant_lost_debris_vent"
+				to_observe: "create_resource_vents:dormant_lost_debris_vent"
 				type: "observation"
 			}]
 			title: "Lost Debris Vent: Sweet Core of Ethium"

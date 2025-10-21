@@ -516,7 +516,11 @@
 				{
 					count: 9
 					id: "752109CB1119071E"
-					item: "cratedelight:duck_egg_crate"
+					item: {
+						Count: 1
+						id: "cratedelight:egg_crate"
+						tag: { }
+					}
 					type: "item"
 				}
 				{

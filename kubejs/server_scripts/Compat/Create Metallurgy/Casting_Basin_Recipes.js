@@ -2,11 +2,8 @@ ServerEvents.recipes(function (event) {
     var INGOT_MB = 90;
     var BLOCK_MB = INGOT_MB * 9;
 
+    // --- Block Casting Section (Fluid → Block only) ---
     var basinCasts = [
-        { name: "iron", fluid: "createmetallurgy:molten_iron", result: "minecraft:iron_block" },
-        { name: "gold", fluid: "createmetallurgy:molten_gold", result: "minecraft:gold_block" },
-        { name: "copper", fluid: "createmetallurgy:molten_copper", result: "minecraft:copper_block" },
-        { name: "tin", fluid: "createmetallurgy:molten_tin", result: "create_dd:tin_block" },
         { name: "bismuth", fluid: "forge_frontier:molten_bismuth", result: "enlightened_end:bismuth_block" },
         { name: "calorite", fluid: "forge_frontier:molten_calorite", result: "ad_astra:calorite_block" },
         { name: "desh", fluid: "forge_frontier:molten_desh", result: "ad_astra:desh_block" },
@@ -24,24 +21,57 @@ ServerEvents.recipes(function (event) {
         { name: "sulfur", fluid: "forge_frontier:molten_sulfur", result: "alexscaves:sulfur" },
         { name: "guano", fluid: "forge_frontier:molten_guano", result: "alexscaves:guano_block" },
         { name: "pearl", fluid: "forge_frontier:molten_pearl", result: "alexscaves:block_of_pearl" },
-        { name: "netherite_iron", fluid: "forge_frontier:molten_netherite_iron", result: "advancednetherite:netherite_iron_block"},
-        { name: "netherite_gold", fluid: "forge_frontier:molten_netherite_gold", result: "advancednetherite:netherite_gold_block"},
-        { name: "netherite_diamond", fluid: "forge_frontier:molten_netherite_diamond", result: "advancednetherite:netherite_diamond_block"},
-        { name: "netherite_emerald", fluid: "forge_frontier:molten_netherite_emerald", result: "advancednetherite:netherite_emerald_block"},
-        { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block"},
-        { name: 'coal', fluid: 'forge_frontier:molten_carbon', result: "minecraft:coal_block"},
+        { name: "netherite_iron", fluid: "forge_frontier:molten_netherite_iron", result: "advancednetherite:netherite_iron_block" },
+        { name: "netherite_gold", fluid: "forge_frontier:molten_netherite_gold", result: "advancednetherite:netherite_gold_block" },
+        { name: "netherite_diamond", fluid: "forge_frontier:molten_netherite_diamond", result: "advancednetherite:netherite_diamond_block" },
+        { name: "netherite_emerald", fluid: "forge_frontier:molten_netherite_emerald", result: "advancednetherite:netherite_emerald_block" },
+        { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block" },
+        { name: "coal", fluid: "forge_frontier:molten_carbon", result: "minecraft:coal_block" },
+        { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" }
     ];
 
     basinCasts.forEach(function (cast) {
-        if (Ingredient.of(cast.result).stacks.empty) return; // Skip if result item doesn't exist
+        if (!Ingredient.of(cast.result).stacks.empty) {
+            event.custom({
+                type: "createmetallurgy:casting_in_basin",
+                ingredients: [
+                    { amount: BLOCK_MB, fluid: cast.fluid, nbt: {} }
+                ],
+                processingTime: 320,
+                result: { item: cast.result }
+            }).id("forge_frontier:casting_basin/" + cast.name + "_block");
+        }
+    });
 
-        event.custom({
-            type: "createmetallurgy:casting_in_basin",
-            ingredients: [
-                { amount: BLOCK_MB, fluid: cast.fluid, nbt: {} }
-            ],
-            processingTime: 320,
-            result: { item: cast.result }
-        }).id("forge_frontier:casting_basin/" + cast.name + "_block");
+    // --- Casing Casting Section (Solid + Fluid → Casing) ---
+    var casingCasts = [
+        { name: "andesite_casing", fluid: "create_additions_synthetics:molten_andesite", solid: { tag: "forge:stripped_logs" }, result: "create:andesite_casing", amount: INGOT_MB, time: 70 },
+        { name: "bronze_casing", fluid: "createmetallurgy:molten_bronze", solid: { tag: "forge:stripped_logs" }, result: "create_dd:bronze_casing", amount: INGOT_MB, time: 70 },
+        { name: "zinc_casing", fluid: "createmetallurgy:molten_zinc", solid: { tag: "forge:stripped_logs" }, result: "create_dd:zinc_casing", amount: INGOT_MB, time: 70 },
+        { name: "tin_casing", fluid: "createmetallurgy:molten_tin", solid: { tag: "forge:stripped_logs" }, result: "create_dd:tin_casing", amount: INGOT_MB, time: 70 },
+        { name: "netherite_casing", fluid: "createmetallurgy:molten_netherite", solid: { tag: "forge_frontier:netherite_casing_application" }, result: "create_dd:netherite_casing", amount: INGOT_MB, time: 70 },
+        { name: "steel_casing", fluid: "createmetallurgy:molten_steel", solid: { tag: "forge:stone" }, result: "create_dd:steel_casing", amount: INGOT_MB, time: 70 },
+        { name: "steel_rocket_casing", fluid: "createmetallurgy:molten_steel", solid: { tag: "forge_frontier:netherite_casing_application" }, result: "forge_frontier:steel_rocket_casing", amount: INGOT_MB, time: 70 },
+        { name: "desh_rocket_casing", fluid: "forge_frontier:molten_desh", solid: { item: "forge_frontier:steel_rocket_casing" }, result: "forge_frontier:desh_rocket_casing", amount: INGOT_MB, time: 70 },
+        { name: "ostrum_rocket_casing", fluid: "forge_frontier:molten_ostrum", solid: { item: "forge_frontier:desh_rocket_casing" }, result: "forge_frontier:ostrum_rocket_casing", amount: INGOT_MB, time: 70 },
+        { name: "calorite_rocket_casing", fluid: "forge_frontier:molten_calorite", solid: { item: "forge_frontier:ostrum_rocket_casing" }, result: "forge_frontier:calorite_rocket_casing", amount: INGOT_MB, time: 70 },
+        { name: "malachite_rocket_casing", fluid: "forge_frontier:molten_malachite", solid: { item: "forge_frontier:calorite_rocket_casing" }, result: "forge_frontier:malachite_rocket_casing", amount: INGOT_MB, time: 70 }
+    ];
+
+    casingCasts.forEach(function (cast) {
+        if (!Ingredient.of(cast.result).stacks.empty) {
+            var ingredients = [];
+
+            if (cast.solid) ingredients.push(cast.solid);
+            if (cast.fluid) ingredients.push({ amount: cast.amount, fluid: cast.fluid, nbt: {} });
+
+            event.custom({
+                type: "createmetallurgy:casting_in_basin",
+                ingredients: ingredients,
+                mold_consumed: true,
+                processingTime: cast.time,
+                result: { item: cast.result }
+            }).id("forge_frontier:casting_basin/" + cast.name);
+        }
     });
 });

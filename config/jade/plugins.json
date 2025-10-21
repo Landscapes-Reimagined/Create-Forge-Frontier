@@ -1,12 +1,15 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -67,6 +70,12 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
   "collectorsreap": {
     "crop_progress": true
   },
@@ -110,13 +119,15 @@
   "jadeaddons.lootr": {
     "info": true
   },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "easy_villagers": {
     "villager": true,
     "converter": true,
     "breeder": true
-  },
-  "pipez": {
-    "pipe": true
   },
   "delightful": {
     "crop_progress": true,

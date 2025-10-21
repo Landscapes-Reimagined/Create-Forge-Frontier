@@ -44,7 +44,8 @@ ServerEvents.recipes(function (event) {
             diamond: { item: "minecraft:diamond", fluid: "forge_frontier:molten_diamond" },
             emerald: { item: "minecraft:emerald", fluid: "forge_frontier:molten_emerald" },
             echo: { item: "minecraft:echo_shard", fluid: "forge_frontier:molten_echo_shard" },
-            coal: { item: "minecraft:coal", fluid: "forge_frontier:molten_carbon"}
+            coal: { item: "minecraft:coal", fluid: "forge_frontier:molten_carbon" },
+            andesite: { item: "minecraft:andesite", fluid: "create_additions_synthetics:molten_andesite"}
         },
         rods: {
             etrium: { item: "ad_astra:etrium_rod", fluid: "forge_frontier:molten_etrium" }

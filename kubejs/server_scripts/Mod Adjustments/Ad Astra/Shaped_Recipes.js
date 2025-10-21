@@ -2,6 +2,8 @@ ServerEvents.recipes(event =>
     {
         // Recipe Removal
         event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
+        event.remove({ id: 'ad_astra:steel_rod' })
+        event.remove({ id: 'ad_astra:iron_rod' })
 
         // Steel Engine Recipe 
             event.remove({ id: "ad_astra:steel_engine"})
@@ -93,19 +95,6 @@ ServerEvents.recipes(event =>
                 }
             ).id( 'forge_frontier:shaped/etrium_block')
             
-            // Etrium Rod Recipe
-            event.shaped
-            (
-                Item.of('ad_astra:etrium_rod', 4),
-                [
-                    ' P ',
-                    ' P '
-                ],
-                {
-                    P: 'ad_astra:etrium_plate'                
-                }
-            ).id( 'forge_frontier:shaped/etrium_rod')
-
             // Etrium Ingot Recipe
             event.shaped
             (
