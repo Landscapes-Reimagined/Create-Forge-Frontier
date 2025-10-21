@@ -34,7 +34,7 @@
   },
   "global_terrain": {
     "lava_tunnels": true,
-    "max_y": 639,
+    "max_y": 640,
     "min_y": -64,
     "ultrasmooth": false,
     "vertical_scale": 1.125
