@@ -114,6 +114,9 @@ background: ftb:textures/endportalframe.png
 [1432839292A29F32]
 background: ftb:textures/end_screenshot.png
 
+[4327F67CBAA5C812]
+background: ftb:textures/ad_astra_background.png
+
 [7187AADA58DBAAC6]
 background: ftb:textures/moon_screenshot.png
 
