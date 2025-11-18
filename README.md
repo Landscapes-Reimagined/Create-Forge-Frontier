@@ -1,7 +1,8 @@
 # **Create - Forge Frontier: Redefining Minecraft Automation**
 
 ![Create - Forge Frontier Logo with gears](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Header.webp)
-
+## ⚠️ Issues and Suggestions
+Have any issues or suggestions you'd like to report visit our centralized area to do so: [Landscapes Reimagined - Issues and Suggestions](https://github.com/Landscapes-Reimagined/Issues-and-Suggestions)
 ---
 
 ## 🌟 **About Create - Forge Frontier**
