@@ -1,5 +1,13 @@
 ServerEvents.recipes(event => 
     {
+        // Any Pearl to Vanilla Pearl
+            event.shapeless(
+                Item.of('minecraft:ender_pearl'),
+                [
+                    '#forge:ender_pearls'
+                ]
+            ).id('forge_frontier:shapeless/ender_pearl')
+            
         // Any Dirt to Vanilla Dirt
             event.shapeless(
                 Item.of('minecraft:dirt'),
