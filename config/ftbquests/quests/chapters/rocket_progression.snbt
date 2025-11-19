@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "rocket_progression"
-	group: "522267C8B93A6C20"
+	group: "18D089BBC98AE6DA"
 	icon: {
 		Count: 1
 		id: "ad_astra:tier_1_rocket"
@@ -107,7 +107,7 @@
 			y: 14.5d
 		}
 	]
-	order_index: 2
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -2923,5 +2923,5 @@
 			y: 27.0d
 		}
 	]
-	title: "Basic Rocket Progression"
+	title: "Basic Rockets"
 }

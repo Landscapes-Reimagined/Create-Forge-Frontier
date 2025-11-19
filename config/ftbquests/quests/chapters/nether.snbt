@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
-	group: "1CB9F27D7DE0AEE8"
+	group: "18D089BBC98AE6DA"
 	icon: "nether_remastered:seal_of_the_underworld_item"
 	id: "4939BBE1CB170C9D"
 	images: [
@@ -24,7 +24,7 @@
 			y: -9.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -425,7 +425,7 @@
 			subtitle: "Obtained by Crafting Crying Obsidian with Glass"
 			tasks: [{
 				id: "0C9566FCC4B60DB4"
-				item: "nether_remastered:obisidian_infused_bottle"
+				item: "nether_remastered:obsidian_infused_bottle"
 				type: "item"
 			}]
 			x: 0.0d

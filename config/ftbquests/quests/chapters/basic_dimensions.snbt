@@ -1,0 +1,2525 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_dimensions"
+	group: "18D089BBC98AE6DA"
+	icon: "supplementaries:globe_sepia"
+	id: "01EDC3E6B1950771"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/overworld_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -12.5d
+			y: -9.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/nether_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 9.5d
+			y: -9.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/otherside_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/end_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 9.5d
+			y: 1.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5DA842A1588FB8BE"]
+			description: [
+				"Every grand journey begins with a single strike."
+				""
+				"Before you can reshape the world, you must first learn to survive within it.  "
+				"Your adventure begins at the roots—&2gathering wood&r, &7crafting your first tools&r, and taking your first steps into an untamed land."
+				""
+				"Punch trees, collect vital resources, and lay the first block in what will become a legacy of innovation, exploration, and mastery.  "
+				"🌿🔨 From humble beginnings, greatness will rise."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:oak_log"
+				tag: { }
+			}
+			id: "1881B38A98C580A3"
+			rewards: [
+				{
+					count: 10
+					id: "6D465748953AAF39"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "47C327802D4606ED"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Punch a tree. Gather wood. Begin your legacy. Click me for more info!"
+			tasks: [{
+				count: 10L
+				id: "092E8C7657E57E80"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Gather 10 of Any Log"
+				type: "item"
+			}]
+			title: "First Light"
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1881B38A98C580A3"]
+			description: [
+				"Survival begins with purpose—and purpose begins with tools."
+				""
+				"Gather your first materials and turn them into something greater: a &fCrafting Table&r, the cornerstone of every invention.  "
+				"Then take up your &6Wooden Pickaxe&r and prepare to shape the world beneath your feet."
+				""
+				"With stronger tools come new horizons.  "
+				"⛏ Every strike of the pickaxe is a step toward mastery."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:crafting_table"
+				tag: { }
+			}
+			id: "62BFFEB56245C2F3"
+			rewards: [
+				{
+					id: "096F961908F4F4C1"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "66D5574E1B576131"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a crafting table and your first pickaxe—forge the tools to shape your future. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:crafting_table"
+						tag: { }
+					}
+					id: "6BABAA13A39290BB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "mctb:revertable_workbench"
+						}
+					}
+					title: "Make A Crafting Table"
+					type: "item"
+				}
+				{
+					id: "52B16A7C737F5386"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: -19.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62BFFEB56245C2F3"]
+			description: [
+				"When the sun dips below the horizon, the Overworld awakens in shadow."
+				""
+				"Darkness brings danger—&ccreatures of the night&r emerge, hunting the unprepared.  "
+				"To survive, you must create a sanctuary: a shelter to protect you, torches to light the void, and walls to hold back the unknown."
+				""
+				"Will your first home be a humble refuge... or the foundation of a future fortress?"
+				""
+				"🏡&nYour safe haven begins with a single block.&r"
+			]
+			icon: "minecraft:red_bed"
+			id: "14DDC1E6A974F3AD"
+			rewards: [
+				{
+					count: 8
+					id: "13F444CADE509797"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "663C0728607DEE77"
+					item: "handcrafted:oak_fancy_bed"
+					type: "item"
+				}
+			]
+			subtitle: "Build your first shelter and keep the night at bay. Click me for more info!"
+			tasks: [
+				{
+					id: "05079E9EE0A977C1"
+					title: "Build a Small Shelter"
+					type: "checkmark"
+				}
+				{
+					block: "minecraft:torch"
+					block_type: 0
+					id: "630485DDD692DA96"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 4L
+				}
+			]
+			title: "Light in the Darkness"
+			x: -18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["14DDC1E6A974F3AD"]
+			description: [
+				"The earth hides its treasures well—but fortune favors the bold."
+				""
+				"Beneath the surface lies a world of &7stone&r, &8coal&r, and &firon&r—essential materials for your rise to power.  "
+				"Venture into the depths, carve through layers of rock, and unearth the riches that will fuel your next great creation."
+				""
+				"Equip yourself with stronger tools and stay vigilant—&nveins of precious minerals&r await those who dare to dig deeper."
+				""
+				"⚒&nYour journey to greatness begins underground.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "774048801A50E2D4"
+			rewards: [
+				{
+					id: "3675E78B35E99BA1"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0581BC4AE2B2D751"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			subtitle: "Mine stone, coal, and iron to fuel your survival and unlock progress. Click me for more info!"
+			tasks: [
+				{
+					block: "minecraft:stone"
+					block_type: 0
+					checkItem: false
+					id: "496F054FD5B2BFD4"
+					type: "questsadditions:break"
+					value: 32L
+				}
+				{
+					count: 5L
+					id: "00CEAB39365D1456"
+					item: { Count: 5, id: "minecraft:coal" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0FD86F6A93F34FA0"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			title: "Depths of Fortune"
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["774048801A50E2D4"]
+			description: [
+				"With &fIron&r comes strength, resilience—and the power to face what lies ahead."
+				""
+				"Smelt your first iron ingots and craft a set of tools worthy of a true adventurer.  "
+				"Then take it a step further—&7forge a full suit of armor&r to shield yourself from the growing dangers of the world."
+				""
+				"With each ingot, you shape more than metal—you forge your survival.  "
+				"🛡🔥 &nStep into the iron age and prepare for the trials to come.&r"
+				""
+				"Learn more about tools and armor in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "795BB1A225B65C14"
+			rewards: [{
+				id: "762B37CFA80EDEEC"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft your first set of iron tools and armor—harden yourself for what lies ahead. Click me for more info!"
+			tasks: [
+				{
+					count: 5L
+					id: "42594DBCA3BD0D52"
+					item: { Count: 5, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "2464618087F15517"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forged for Battle"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["795BB1A225B65C14"]
+			description: [
+				"Exploration feeds the spirit—but food fuels the body."
+				""
+				"Whether you hunt wild game, cultivate crops, or embrace the art of cooking, one truth remains: &nno journey lasts long on an empty stomach&r.  "
+				"Establish a reliable food source to keep yourself strong, alert, and ready for the challenges ahead."
+				""
+				"A well-fed adventurer doesn’t just survive—they thrive.  "
+				"🥖&nMaster your meals, and you’ll master the wild.&r"
+			]
+			id: "49D8A4094E06C73A"
+			rewards: [
+				{
+					count: 5
+					id: "1E275FDF81CBABF0"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3C877D89CA6ED33D"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Secure a sustainable food source to survive—and thrive—on your adventures. Click me for more info!"
+			tasks: [{
+				count: 10L
+				id: "1CDA8A68DD2C77C5"
+				item: { Count: 10, id: "minecraft:wheat" }
+				type: "item"
+			}]
+			title: "Fuel for the Journey"
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49D8A4094E06C73A"]
+			description: [
+				"In the absence of light, danger thrives."
+				""
+				"From the deepest caves to the highest peaks, &odarkness conceals threats that can end your journey in an instant&r.  "
+				"Craft torches, lanterns, and campfires to push back the shadows and illuminate the path ahead."
+				""
+				"Light is more than comfort—it’s survival.  "
+				"🕯🔥 &nShine a light into the unknown, and take control of your fate.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:campfire"
+				tag: { }
+			}
+			id: "19AA16DF731E0652"
+			rewards: [{
+				id: "420CDEA480DE2278"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Craft light sources to reveal the world and keep the shadows at bay. Click me for more info!"
+			tasks: [
+				{
+					count: 16L
+					id: "290B366E98424CB7"
+					item: { Count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+				{
+					id: "711E4EE09742DA33"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+			]
+			title: "Kindle the Flame"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19AA16DF731E0652"]
+			description: [
+				"Beneath the stone lies more than ore—&nit holds the keys to your advancement&r."
+				""
+				"Delve deeper in search of &6Gold&r, &cRedstone&r, and &9Lapis Lazuli&r—each a vital resource unlocking new paths forward.  "
+				"From powering complex contraptions to fueling enchanting rituals, these treasures are the foundation of your next great leap."
+				""
+				"💎⚡ &nUncover the riches of the deep, and turn raw potential into boundless progress.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "218A44E2EE4B49E4"
+			rewards: [
+				{
+					id: "3DDC490BB8403C67"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "6772138CBE6B609F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Mine gold, redstone, and lapis to unlock the tools of progress and power. Click me for more info!"
+			tasks: [
+				{
+					count: 2L
+					id: "664649795BFCAF28"
+					item: { Count: 2, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "01AA5F249C144D19"
+					item: { Count: 5, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "105AB1480425CEFB"
+					item: { Count: 3, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			title: "Secrets in Stone"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["218A44E2EE4B49E4"]
+			description: ["Diamonds—stronger than iron, rarer than gold. These precious gems are the pinnacle of early-game progression. Mine at Y-Level -59 and collect enough diamonds to forge the ultimate tools and armor. More than just a luxury, they are the key to gathering obsidian, the gateway to even greater adventures. 💠🛠"]
+			id: "1C80B7736557D99F"
+			rewards: [
+				{
+					id: "25EDF2B8B4099438"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "1F410510C5CCF927"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click me for more info!"
+			tasks: [{
+				block: "minecraft:deepslate_diamond_ore"
+				block_type: 0
+				checkItem: false
+				id: "40161655B5A64B14"
+				type: "questsadditions:break"
+				value: 3L
+			}]
+			title: "The Power of Diamonds"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1C80B7736557D99F"]
+			description: [
+				"True strength lies not only in steel—but in the magic that sharpens it."
+				""
+				"Forge your path to power by crafting an &dEnchanting Table&r, surrounding it with &fBookshelves&r to amplify its arcane potential.  "
+				"Through enchantments, your tools grow sharper, your armor stronger, and your journey more formidable than ever before."
+				""
+				"📖✨ &nEmbrace the art of enchantment, and let magic become your greatest ally.&r"
+				""
+				"Want to learn more about enchanting? Check out its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6965F4ABCAB88875\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanting_table"
+				tag: { }
+			}
+			id: "7B5086A6EF852DF0"
+			rewards: [
+				{
+					id: "6EE397BB9DE2B6B6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B1366A72B1F6E9C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "0894B1E3F2277AEF"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Craft an enchanting table, harness magical power, and turn steel into sorcery. Click me for more info!"
+			tasks: [
+				{
+					id: "3E902DA8EAD1597C"
+					item: "minecraft:enchanting_table"
+					type: "item"
+				}
+				{
+					block: "forge:bookshelves"
+					block_type: 1
+					id: "30D2BEFD1555E4A3"
+					replace: false
+					replaced: "minecraft:air"
+					title: "Place 5 of Any Bookshelf"
+					type: "questsadditions:place"
+					value: 5L
+				}
+			]
+			title: "The Arcane Edge"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B5086A6EF852DF0"]
+			description: [
+				"Scattered across the world are rare ingredients—&nfragments of power waiting to be distilled&r."
+				""
+				"Craft a &eBrewing Stand&r, gather exotic reagents, and begin your journey into potioncraft. From healing wounds to resisting flame, potions can transform the tide of battle and grant you an edge where brute strength falls short."
+				""
+				"🍷⚗ These brews aren’t just useful—they’re essential. Use them wisely as you venture into the perilous structures tied to &cNether Remastered&r, where the &lSeal Pieces&r await those prepared for the heat of battle."
+				""
+				"&nMaster the art of alchemy, and let every vial become a weapon in your arsenal.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:brewing_stand"
+				tag: { }
+			}
+			id: "598B697BDE842B0E"
+			rewards: [
+				{
+					id: "1E014541FFA87665"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0595710CBC1C9334"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			subtitle: "Craft potions to empower your journey and conquer the trials of Nether Remastered. Click me for more info!"
+			tasks: [
+				{
+					id: "704BEEACD337EE9B"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6DC9B542ABDE80"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:invisibility"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elixirs of Survival"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["598B697BDE842B0E"]
+			description: [
+				"The &cNether&r is a realm of immense power and peril—but in this world, its gates are sealed."
+				""
+				"Unlike traditional Minecraft, you cannot simply ignite obsidian and step through.  "
+				"Instead, you must embark on a journey across the Overworld, seeking out ancient structures that guard the keys to the underworld’s fiery threshold."
+				""
+				"Each ruin holds &6valuable loot&r and clues—fragments of a puzzle that, when assembled, unlock the &lSeal of the Underworld&r."
+				""
+				"{@pagebreak}"
+				""
+				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
+				""
+				"These structures are more than ruins—they are trials.  "
+				"Will you rise to the challenge and claim the right to enter the inferno?"
+				""
+				"Read more about these locations in the  "
+				"{ \"text\": \"Nether Remastered Chapter!\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
+			]
+			id: "4196DD5F26401205"
+			rewards: [
+				{
+					count: 5
+					id: "3FC02F2B4C6715DC"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "5820B29105FC1358"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click me for more info!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				id: "58D5FAE01CBFA872"
+				structure: "#minecraft:ruined_portal"
+				title: "Locate a Ruined Portal"
+				type: "structure"
+			}]
+			title: "Sealed in Stone"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4196DD5F26401205"]
+			description: [
+				"You have prepared, gathered, and conquered the Overworld—  "
+				"but the true test lies beyond flame and shadow."
+				""
+				"Once you hold the &cSeal of the Underworld&r in your grasp, consume it to shatter the final barrier and awaken the ancient portal.  "
+				"What awaits is not merely another dimension—but a realm of blazing chaos, forgotten ruins, and trials that will push your limits."
+				""
+				"🌋🔥 &nAre you ready to cross the threshold and step into the fire?&r  "
+				"The &cNether&r awaits."
+				""
+				"Continue your journey in the next  "
+				"{ \"text\": \"Quest Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
+			]
+			id: "40C18D4807A0E1D2"
+			rewards: [
+				{
+					id: "088A2C9276DA68F3"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "78F312E885600625"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Consume the Seal of the Underworld and step into the blazing depths of the Nether. Click me for more info!"
+			tasks: [{
+				id: "25B6FE2FFA6F0622"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			title: "Through the Inferno"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EDC9934E7D346D8"]
+			description: [
+				"The &2Overworld&r is more than your first step—it's the beating heart of your journey through &6Create - Forge Frontier&r.  "
+				"From that first tree you punch to the moment you forge your first machine, every milestone begins here, in a land teeming with life, danger, and untapped potential."
+				""
+				"Explore lush forests, windswept plains, and winding cave systems as you gather resources, build your first shelter, and lay the groundwork for the adventures ahead.  "
+				"Whether you're crafting your first stone pickaxe or forging iron tools beneath a mountain outpost, the Overworld sets the stage for the trials to come."
+				""
+				"{@pagebreak}"
+				""
+				"&l🌿 From Survival to Mastery&r  "
+				"Your time in the Overworld isn’t just about collecting materials—it’s about building resilience.  "
+				"Cook hearty meals, manage your health, and defend against the monsters of the night.  "
+				"Establish farms, secure your base, and experiment with early automation as you progress toward advanced crafting and complex contraptions."
+				""
+				"Each crafted item and conquered danger brings you one step closer to unlocking the greater mysteries of the world."
+				""
+				"{@pagebreak}"
+				""
+				"&l⚔ The Journey Begins Here&r  "
+				"This is where legends are forged.  "
+				"With every block placed and battle won, you grow stronger, smarter, and more prepared for what lies beyond."
+				""
+				"But never forget: the Overworld is not just a place—it’s a proving ground.  "
+				"&nMaster it, and you’ll be ready for the realms that follow.&r 🌍✨"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:grass_block"
+			id: "5DA842A1588FB8BE"
+			rewards: [{
+				id: "579D97F778BAF7DC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Begin your journey in the Overworld and forge the foundation for all that lies ahead. Click me for more info!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E192CBBA67B0C1A"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 5
+			}]
+			title: "Roots of Adventure"
+			x: -12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["486542BF23253839"]
+			description: [
+				"&cThe Nether is no ordinary realm—it is a crucible of fire, fury, and forgotten power.&r"
+				""
+				"Unlocked through &cNether Remastered&r, this volatile dimension will challenge your survival instincts at every turn.  "
+				"Here, rivers of &6lava&r carve through blackened stone, &fghasts&r roam the crimson skies, and ancient &5fortresses&r conceal both peril and prize."
+				""
+				"But your purpose is greater than survival—&nthis is a conquest of chaos&r.  "
+				"Harvest powerful resources, brave brutal landscapes, and triumph over the monsters that thrive in the flames."
+				""
+				"{@pagebreak}"
+				""
+				"Sharpen your blades, fortify your resolve, and embrace the fire.  "
+				"&nThe Nether awaits—will you master it, or be consumed by it?&r 🔥💀"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:netherrack"
+			id: "3F3994EDD215FC99"
+			rewards: [{
+				id: "7449C4C2ED39AD05"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Enter the Nether and begin your battle to conquer its chaos. Click me to learn more!"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "21AF3C45D5058473"
+				type: "dimension"
+			}]
+			title: "Into the Inferno"
+			x: 9.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: [
+				"&cYou’ve broken the seal and crossed into the Nether&r—"
+				"but this realm of flame is unforgiving, and survival begins the moment you arrive."
+				""
+				"Your first task is not conquest—it’s &6resource gathering&r."
+				""
+				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin mining the &cNether’s rich materials&r—quartz, gold, glowstone, and more—to fuel your survival and progress. Stockpile what you can, for every vein you uncover strengthens your foothold in this hostile world."
+				""
+				"Use the &bLodestone&r and &bCompass&r rewards to anchor your journey and ensure you can always find your way back, even when the twisting caverns threaten to swallow you whole."
+				""
+				"&nThis is your foothold in the inferno. Mine it, master it, or be consumed by it.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "79796694A2D1F0DE"
+			rewards: [
+				{
+					id: "718D5579B9E549A9"
+					item: "minecraft:compass"
+					type: "item"
+				}
+				{
+					id: "76F12C2A5F462BF9"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0EBF6378DE8A4871"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "174A2170FDCD0C99"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			subtitle: "Mine the Nether’s vital resources and secure what you need to survive. Click me for more info!"
+			tasks: [
+				{
+					id: "277AEF0B736D28BF"
+					title: "Secure the Portal"
+					type: "checkmark"
+				}
+				{
+					count: 32L
+					id: "511B41481AE29722"
+					item: { Count: 32, id: "minecraft:netherrack" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4B648195BDFACC18"
+					item: { Count: 5, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "34412006DA23ED7A"
+					item: { Count: 3, id: "minecraft:glowstone_dust" }
+					type: "item"
+				}
+			]
+			title: "Claim the Heat"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["79796694A2D1F0DE"]
+			description: [
+				"&cThe Nether does not forgive the unprepared&r—&nbut it does reward those who adapt.&r"
+				""
+				"To survive its harsh terrain, you must gather &6essential materials&r native to this molten realm.  "
+				"&8Blackstone&r can stand in for traditional stone.  "
+				"&4Crimson&r and &2Warped wood&r won’t burn in fire.  "
+				"&6Gold&r may spare you from a Piglin’s wrath."
+				""
+				"These resources are your lifeline. Stock up, strategize, and reshape this hostile land into your &nsecond home&r."
+				""
+				"&nIn the Nether, your survival depends on what you take—and how you use it.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:blackstone"
+				tag: { }
+			}
+			id: "4927BD8DBED4A962"
+			rewards: [
+				{
+					id: "67E9093F44243D3A"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4887421CE86A960F"
+					item: "minecraft:soul_torch"
+					type: "item"
+				}
+				{
+					id: "1B459589DCEAEDA6"
+					item: "minecraft:respawn_anchor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1C9DD00954E7CBBD"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			subtitle: "Gather the key resources that will help you survive and thrive in the Nether. Click me for more info!"
+			tasks: [
+				{
+					count: 32L
+					id: "66C27B3C4C56FBF7"
+					item: { Count: 32, id: "minecraft:blackstone" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "35E4D827BE56BE55"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:non_flammable_wood"
+						}
+					}
+					title: "Any #minecraft:non_flammable_wood"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "01BDD83CA3EA1FD5"
+					item: { Count: 8, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+			]
+			title: "The Essentials of Flame"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4927BD8DBED4A962"]
+			description: [
+				"&8Within the charred stone of &cNether Fortresses&r lie treasures beyond measure—&nbut they are fiercely protected.&r"
+				""
+				"These towering structures are home to &6Blazes&r, &8Wither Skeletons&r, and swarms of &eZombie Piglins&r, all ready to defend the fortress halls with fire and fury."
+				""
+				"{@pagebreak}"
+				"Yet for those who dare enter, these fortresses hold the &6keys to progression&r: blaze rods, nether wart, and ancient relics hidden in shadowed corridors."
+				""
+				"Do you have the strength to brave the heat, dodge the withering strikes, and claim the prize?"
+				""
+				"{image:ftb:textures/fortress.png width:200 height:120 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "1D6068D3F034486B"
+			rewards: [
+				{
+					id: "4B4BB01429146538"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CAB377E155DAAB3"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0A54C70F28F7B513"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			subtitle: "Conquer a Nether Fortress and claim the treasures guarded by fire and bone. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "39D03DC70B2598BB"
+					structure: "betterfortresses:fortress"
+					title: "Locate a Nether Fortress"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:blaze"
+					id: "01A68FD024DADB2C"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:wither_skeleton"
+					id: "71E0515F36442FA6"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Into the Ember Keep"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D6068D3F034486B"]
+			description: [
+				"&6Piglins&r are more than just snarling scavengers—they are &ntreasure keepers&r, and their &8Bastion Remnants&r are vaults of unimaginable wealth."
+				""
+				"Hidden deep within these shattered strongholds are caches of &6gold&r, rare &dweapons&r, and powerful &benchanted gear&r. But this fortune is fiercely protected."
+				""
+				"{@pagebreak}"
+				"&cPiglin Brutes&r show no mercy to intruders. They fight not for survival—but for dominance."
+				""
+				"Will you sneak, strike, or storm your way through?  "
+				"Only the bold leave a Bastion standing behind them."
+				""
+				"{image:ftb:textures/bastion_rem.png width:192 height:150 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1665A6E78A71E6F5"
+			rewards: [
+				{
+					count: 16
+					id: "337D91E6057BDBA2"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "08A537B59B5EE3A3"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:soul_speed"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D581F97BE07CB4F"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Raid a Bastion Remnant and outwit the Piglins who guard its treasures. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "30840877FC473F29"
+					structure: "minecraft:bastion_remnant"
+					title: "Locate a Bastion"
+					type: "structure"
+				}
+				{
+					block: "minecraft:chest"
+					block_type: 0
+					checkItem: false
+					id: "6FCD80C64F93BC60"
+					isItemInteraction: false
+					title: "Loot 1 Chest"
+					type: "questsadditions:use"
+					value: 1L
+				}
+				{
+					id: "1C3DF09E97010D4E"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "1BBCB545380D7A22"
+					title: "Trade with Piglins"
+					type: "checkmark"
+				}
+			]
+			title: "Gold and Fury"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1665A6E78A71E6F5"]
+			description: [
+				"&cThe Nether&r is more than a realm of fire and fury—it is a crucible of &6rare materials&r and &darcane reagents&r."
+				""
+				"From &eNether Wart&r for potions, to &8Netherite scraps&r for armor, to &6glowstone dust&r for amplifying enchantments, this dimension is filled with resources that can tip the scales of power in your favor."
+				""
+				"But these treasures will not come easy.  "
+				"You must &nlearn what to harvest, what to hoard, and how to survive long enough to use it all&r."
+				""
+				"🔮 &nMaster the riches of the Nether—and turn chaos into strength.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:soul_sand"
+				tag: { }
+			}
+			id: "7BAE261166502E1D"
+			rewards: [
+				{
+					count: 2
+					id: "3912CF6661E05D85"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6765DDC943CDFA2F"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "40974CA47256504D"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:fortune"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Gather and master the rare materials only found in the Nether. Click me for more info!"
+			tasks: [
+				{
+					count: 32L
+					id: "6F42FF8347458CBB"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:soul_fire_base_blocks"
+						}
+					}
+					title: "Any #minecraft:soul_fire_base_blocks"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2CCD9F4220F368C4"
+					item: { Count: 32, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "484F2A38F524B3C0"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "0C628689F71C6733"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Harness the Heat"
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7BAE261166502E1D"]
+			description: [
+				"&8Buried deep beneath the Nether’s molten crust lies one of the rarest and most powerful materials in existence—&6Ancient Debris&r."
+				""
+				"Used to forge &8Netherite&r, the strongest gear known to adventurers, this resource is no ordinary ore.  "
+				"Its discovery demands &cexplosives&r, &9strategy&r, and &7patience&r."
+				""
+				"The most effective layer to find Ancient Debris is around &eY-Level 15&r—  "
+				"or, if you dare to venture further, through a  "
+				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }  "
+				"—a geological marvel formed by molten force and rare fortune."
+				""
+				"&nOnly those willing to dig deep and risk everything will wield what lies below.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_ingot"
+				tag: { }
+			}
+			id: "127DD18CE2DA41ED"
+			rewards: [
+				{
+					id: "16855C63CD004045"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "581B201BEFFC0531"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F819F553FA58034"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
+			subtitle: "Mine Ancient Debris and unlock the strength of Netherite. Click me for more info!"
+			tasks: [
+				{
+					count: 4L
+					id: "692E38C34E785133"
+					item: { Count: 4, id: "minecraft:ancient_debris" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "048AB15638784FD0"
+					item: { Count: 4, id: "minecraft:netherite_scrap" }
+					type: "item"
+				}
+				{
+					id: "6865762C4DFF5D3C"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "Buried Power"
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["127DD18CE2DA41ED"]
+			description: [
+				"&cThe Nether breeds monsters unlike any seen on the surface.&r  "
+				"Here, fire-forged beasts test not just your strength—but your will to survive."
+				""
+				"From the &6relentless Brutes&r to the &8Wither Skeletons&r lurking in fortress shadows, these enemies won’t fall easily.  "
+				"But defeating them is more than survival—it’s a &ndeclaration of dominance&r in a realm ruled by chaos."
+				""
+				"Sharpen your blades, ready your gear, and step boldly into battle.  "
+				"&nOnly those who face the fire head-on will rise as true champions of the Nether.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E8BB2ABA5F04447"
+			rewards: [
+				{
+					count: 3
+					id: "36F1E99BA9F6AABE"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "503CA0B769F26434"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:sharpness"
+									lvl: 5s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:looting"
+									lvl: 3s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5391C2ED934AE99D"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the Nether’s deadliest foes and rise above the flames. Click me for more info!"
+			tasks: [
+				{
+					entity: "minecraft:ghast"
+					id: "5C778B0D25B4E62E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:magma_cube"
+					id: "5C43F34B6BC975C9"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:hoglin"
+					id: "3D4A5FA866D28A0F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:piglin_brute"
+					id: "68B3664207C122A2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Prove Your Might"
+			x: 13.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E8BB2ABA5F04447"]
+			description: [
+				"&cYou have survived the inferno.&r"
+				""
+				"The &4Nether’s horrors&r—its fortresses, bastions, and blazing depths—no longer stand in your way.  "
+				"You’ve carved a path through fire, tamed volatile resources, and emerged not just alive… but &nvictorious&r."
+				""
+				"The Nether is no longer an obstacle—it is &nyour arsenal&r."
+				""
+				"But your greatest journey still lies ahead."
+				""
+				"&nLook to the stars.&r  "
+				"The age of survival is behind you. The era of exploration begins now."
+				""
+				"Learn more about getting to space in the  "
+				"{ \"text\": \"Ad Astra Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A09B8EFE2811CB9\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C84AE74FCD29D66"
+			rewards: [
+				{
+					id: "5AF5ABD7A4C09799"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					id: "0523409D1C4C6DC5"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					id: "10EE50D3D1DFDF26"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "013E21A7CB377E6D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					advancement: "minecraft:nether/netherite_armor"
+					criterion: ""
+					id: "2BE9562E0D0D4A70"
+					type: "advancement"
+				}
+			]
+			subtitle: "Master the Nether, and set your sights on the stars. Click me for more info!"
+			tasks: [
+				{
+					id: "4769E3C8EC817DBE"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C5A0B127EF07BC3"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CE398A3DCE042A9"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00A78981247AB950"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "From Fire to Flight"
+			x: 15.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&8The Deep Dark is no ordinary biome—it is a place of silence, shadows, and secrets best left buried.&r  "
+				"Here, only the &nbravest&r dare tread, drawn by whispers of forbidden relics and ancient power."
+				""
+				"Far beneath the Overworld, tucked among the &0lowest caverns&r, lie the &8Ancient Cities&r—once-mighty strongholds now shattered and stalked by the &cWarden&r."
+				""
+				"To survive here, you must become a shadow.  "
+				"Make no sound. Leave no trace. For the Warden does not see—&nbut it hears&r."
+				""
+				"{@pagebreak}"
+				""
+				"But those who face this monstrosity head-on, those who &nslay the Warden and claim its heart&r, will unlock something far more sinister…"
+				""
+				"A gateway to the &5Otherside&r—a realm of warped magic, hollow echoes, and dangers that defy logic."
+				""
+				"This is not just another dimension.  "
+				"It is a &nnightmare reborn&r."
+				""
+				"🌑 &nWill you embrace the dark, or be swallowed by it?&r 👁"
+			]
+			hide_dependent_lines: true
+			icon: "minecraft:sculk_sensor"
+			id: "638EF7DB16108237"
+			rewards: [{
+				id: "1676A81A243A25F8"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Descend into the Deep Dark and face the Warden to unlock the path to the Otherside. Click me for more info!"
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				id: "15BC7C1F753B1EBB"
+				type: "biome"
+			}]
+			title: "Beneath Silence"
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: [
+				"&8This is no ordinary cave.&r  "
+				"You stand at the edge of the &0Deep Dark&r—a realm where light falters and &3Sculk&r spreads like an infection, devouring sound and swallowing the unwary."
+				""
+				"Every step echoes with risk.  "
+				"Every breath could summon what lurks beyond the veil."
+				""
+				"Your first task is not to conquer… but to &nsurvive&r.  "
+				"Navigate the shadows, suppress your movements, and find your footing in a world where silence is your only ally."
+				""
+				"&nThe descent begins now.&r Will you make it back… or vanish like those who came before?"
+			]
+			icon: "minecraft:sculk_sensor"
+			id: "516EFC067D776C8A"
+			rewards: [
+				{
+					count: 2
+					id: "3CF129C09BBDB53E"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "338EA45EC0197294"
+					item: "minecraft:music_disc_otherside"
+					type: "item"
+				}
+				{
+					id: "5387F5CF7D765481"
+					item: "neapolitan:scream_pottery_sherd"
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Deep Dark and survive its chilling silence. Click me for more info!"
+			tasks: [
+				{
+					block: "minecraft:sculk_sensor"
+					block_type: 0
+					checkItem: false
+					id: "698D918286AC80C7"
+					type: "questsadditions:break"
+					value: 3L
+				}
+				{
+					block: "minecraft:sculk"
+					block_type: 0
+					checkItem: false
+					id: "446A7557DC72C583"
+					type: "questsadditions:break"
+					value: 32L
+				}
+				{
+					advancement: "minecraft:adventure/avoid_vibration"
+					criterion: ""
+					id: "64442F1A60B0A5F2"
+					type: "advancement"
+				}
+			]
+			title: "The Descent"
+			x: -17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["516EFC067D776C8A"]
+			description: [
+				"&0Deep beneath the world lies the &8Ancient City&r—a shattered monument to forgotten power.&r  "
+				"Buried in silence, it stretches across the darkness like the bones of a lost civilization."
+				""
+				"Its halls are lined with &6treasures&r and &5mysteries&r… but also one terrible truth:"
+				""
+				"{@pagebreak}"
+				"&cThe Warden hears everything.&r"
+				""
+				"One misstep, one echo too loud, and the guardian of this ruin will awaken in a fury few survive."
+				""
+				"Will you sneak through its shadows, plunder its secrets, or become part of the ruin itself?"
+				""
+				"{image:ftb:textures/ancientcity.png width:192 height:150 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+			id: "14894ADF77BC554B"
+			rewards: [
+				{
+					id: "46736823FF069F77"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:swift_sneak"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4DA556D415E8951E"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "07C8F85132361E88"
+					item: {
+						Count: 1
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:power"
+									lvl: 5s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Ancient City and uncover its secrets—if you can survive the Warden’s wrath. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "25BF5C4FA5E7E1A3"
+					structure: "minecraft:ancient_city"
+					title: "Locate an Ancient City"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:warden_spawn_egg"
+						tag: { }
+					}
+					id: "434F6F2D7EFA2D82"
+					observe_type: 5
+					timer: 0L
+					title: "Look at a Warden"
+					to_observe: "minecraft:warden"
+					type: "observation"
+				}
+				{
+					id: "26AF61A1C9C3537B"
+					title: "Loot Chests"
+					type: "checkmark"
+				}
+			]
+			title: "Ruins Beneath Silence"
+			x: -16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14894ADF77BC554B"]
+			description: [
+				"&0It does not see you.&r  "
+				"It feels you.  "
+				"It hears you.  "
+				"It hunts you."
+				""
+				"The &cWarden&r is not just a monster—it is &nan ancient force of rage and ruin&r, blind to light but drawn to the slightest sound.  "
+				"Its &4heartbeat&r alone sends tremors through the stone… and through your soul."
+				""
+				"{@pagebreak}"
+				"There is no outrunning the tension. No outlasting the silence.  "
+				"&nMost will flee.&r Few will survive."
+				""
+				"But for the bold who &dstand their ground&r and fell the beast, a reward awaits—  "
+				"&5a relic of immense power, and the key to another realm.&r"
+				""
+				"Will you escape the darkness… or &nconquer it?&r"
+			]
+			id: "172253D6E25BB385"
+			rewards: [
+				{
+					id: "263C2236711EAD43"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "14CBEF3197DCD7D8"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "733ADC3D13F2D981"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Face the Warden—and claim the heart of the shadows. Click me for more info!"
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:warden"
+				id: "732CA6F42E7169E5"
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "The Silence That Hunts"
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["172253D6E25BB385"]
+			description: [
+				"&5The Warden’s Heart&r pulses with more than life—it carries the weight of &nforgotten realms&r and &cursed memory&r."
+				""
+				"This relic is no mere trophy. It is a &nkey&r."
+				""
+				"Use it upon &8Reinforced Deepslate&r, and you won’t just open a passage…  "
+				"You’ll &nshatter the veil between dimensions&r."
+				""
+				"{@pagebreak}"
+				"The &5Otherside&r awaits—a world carved from unnatural stone, crawling with twisting roots, flickering lights, and the silent gaze of &dotherworldly entities&r."
+				""
+				"This is no longer survival.  "
+				"This is descent."
+				""
+				"&nAre you ready to cross into the unknown?&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:reinforced_deepslate"
+				tag: { }
+			}
+			id: "6EA9BDB19D85D796"
+			rewards: [
+				{
+					count: 2
+					id: "1877454CF8B82E2E"
+					item: "forge_frontier:resonite"
+					type: "item"
+				}
+				{
+					id: "68153EB9FAAFC595"
+					item: "deeperdarker:ancient_vase"
+					type: "item"
+				}
+				{
+					id: "733789462144F843"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:speed_iii"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Use the Warden’s Heart to open the gateway to the Otherside. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:reinforced_deepslate"
+						tag: { }
+					}
+					id: "0238DC307F972017"
+					observe_type: 0
+					timer: 0L
+					title: "Look at Reinforced Deepslate"
+					to_observe: "minecraft:reinforced_deepslate"
+					type: "observation"
+				}
+				{
+					dimension: "deeperdarker:otherside"
+					id: "7DF81B683529C80F"
+					title: "Travel to the Otherside"
+					type: "dimension"
+				}
+			]
+			title: "The Key Between Worlds"
+			x: -13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6EA9BDB19D85D796"]
+			description: [
+				"&5The Otherside&r is not a dimension—&nit is a descent into madness.&r"
+				""
+				"Here, the &8stone itself pulses with Sculk&r, whispering secrets too ancient to understand.  "
+				"&dUnnatural lifeforms&r roam the shadows, born of void and memory.  "
+				"The rules of the world twist. The silence screams."
+				""
+				"If the Deep Dark was terror…  "
+				"&nthis is what lies beyond terror&r."
+				""
+				"{@pagebreak}"
+				"But buried within the gloom are &5relics of impossible power&r—  "
+				"tools, resources, and knowledge not meant for mortal hands."
+				""
+				"{image:ftb:textures/otherside_screenshot.png width:192 height:150 align:center}"
+				""
+				"&nStep carefully.&r Breathe slowly.  "
+				"And whatever you do—don’t listen too closely."
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:sculk_stone"
+				tag: { }
+			}
+			id: "0BDAF6E0DAA27F56"
+			rewards: [
+				{
+					id: "01A6C4F36A36D200"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					id: "43F315F473A755B9"
+					item: {
+						Count: 1
+						id: "relics:midnight_robe"
+						tag: {
+							abilities: {
+								backstab: {
+									points: 0
+									stats: {
+										damage: 1.564d
+										distance: 16.34395d
+									}
+								}
+								vanish: {
+									points: 0
+									stats: {
+										light: 1.83776d
+										speed: 0.33252d
+									}
+									temp: {
+										ticking: 1b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FC9BA6D1705D2D9"
+					item: "deeperdarker:warden_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "6A4FC06088D0DA99"
+					item: "deeperdarker:resonarium_plate"
+					type: "item"
+				}
+			]
+			subtitle: "Enter the Otherside and survive its twisted, alien depths. Click me for more info!"
+			tasks: [
+				{
+					biome: "deeperdarker:deeplands"
+					id: "0BD88A5F1F649205"
+					title: "Visit a Deeplands Biome"
+					type: "biome"
+				}
+				{
+					entity: "deeperdarker:sculk_centipede"
+					icon: {
+						Count: 1
+						id: "deeperdarker:sculk_centipede_spawn_egg"
+						tag: { }
+					}
+					id: "69E65A630BC6D75A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "7C68283CEFD35E8A"
+					structure: "deeperdarker:ancient_temple"
+					title: "Locate an Ancient Temple"
+					type: "structure"
+				}
+				{
+					block: "deeperdarker:sculk_stone"
+					block_type: 0
+					checkItem: false
+					icon: {
+						Count: 1
+						id: "deeperdarker:sculk_stone"
+						tag: { }
+					}
+					id: "707467CA5CB9C8F5"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Echoes Beyond"
+			x: -11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0BDAF6E0DAA27F56"]
+			description: [
+				"&5You have braved the Deep Dark.&r  "
+				"&cYou have conquered the Warden.&r  "
+				"&8And now, you walk freely through the nightmare that is the Otherside.&r"
+				""
+				"No longer a trespasser—you are its &nmaster&r."
+				""
+				"{@pagebreak}"
+				"You have faced &4fear incarnate&r, harnessed ancient relics, and unearthed secrets never meant to be known.  "
+				"Now, with knowledge forged in silence and power claimed from shadows…"
+				""
+				"&nIt is time to build a legacy that will outlive the darkness.&r  "
+				"Not just to survive—but to shape what comes next."
+				""
+				"🖤 &nFrom the abyss, rise anew.&r"
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6AD897F8D2F82187"
+			rewards: [
+				{
+					count: 32
+					id: "7D41991997B67D83"
+					item: "forge_frontier:resonite"
+					type: "item"
+				}
+				{
+					id: "028E2E8BCDB403DA"
+					item: {
+						Count: 1
+						id: "alexsmobs:echolocator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "405E6BA311620DC6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Turn your journey through darkness into a legacy of power and purpose. Click me for more info!"
+			tasks: [
+				{
+					id: "7EF7E964BC5F9225"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "410C896DEEB5B3B6"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4050C7DF54A7185A"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B3F5D75DEAE9FBC"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Master of the Abyss"
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6AD897F8D2F82187"]
+			description: [
+				"&8The Deep Dark.&r  "
+				"&5The Otherside.&r  "
+				"Realms that defy logic, drown out light, and whisper truths no mind should bear."
+				""
+				"You have endured them.  "
+				"You have &nconquered&r them.  "
+				"You now hold the &5power of forgotten worlds&r in your hands."
+				""
+				"But this is not the end—&nit is the threshold.&r"
+				""
+				"{@pagebreak}"
+				"The skies stir. The End calls.  "
+				"And a final battle looms on the horizon—one that will test all you’ve become."
+				""
+				"Are you ready to face the &dDragon&r?"
+				""
+				"Learn how to unlock the End in the  "
+				"{ \"text\": \"End Remastered Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"01DD8338C9E8DE75\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:ender_eye"
+				tag: { }
+			}
+			id: "5C36A2466A3B6973"
+			rewards: [
+				{
+					id: "3CF920D0EF7B3572"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "6F03681E39AA6E72"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Wield the power of the Otherside—and prepare for the final challenge. Click me for more info!"
+			tasks: [{
+				id: "7505C3925F18A12D"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Beyond Darkness"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0135EFA96E7A28A2"]
+			description: [
+				"&5The End&r is not a destination—&nit is a crucible.&r"
+				""
+				"A realm of &8floating islands&r, &dendless void&r, and &5cosmic secrets&r suspended in silence.  "
+				"Here, the &cEnder Dragon&r waits—your final test of strength, skill, and resolve."
+				""
+				"As the void hums with forgotten power, ancient cities rise from the abyss.  "
+				"Hidden within are &6unimaginable treasures&r—&3Radiantite&r, &7Void Shale&r, and &fPalerock&r—each offering new potential for those bold enough to claim them."
+				""
+				"But this place is no sanctuary.  "
+				"From levitating &dShulkers&r to watchful &8Endermen&r, every step forward is contested by creatures of shadow and fury."
+				""
+				"{@pagebreak}"
+				""
+				"Yet this is not the end of your journey—&nit is the evolution of your legacy.&r  "
+				"&5Endgame Progression&r begins here, unlocking powerful technologies, forgotten rituals, and the path to interdimensional mastery."
+				""
+				"🌌 Will you conquer the void—or be swallowed by it?"
+				""
+				"The answers lie beyond the portal…"
+			]
+			hide_dependent_lines: true
+			id: "7964AB0D39902EFA"
+			rewards: [
+				{
+					id: "681278DA6D713D88"
+					type: "xp"
+					xp: 500
+				}
+				{
+					command: "/end_island reset"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "040777C7B854A2D4"
+					title: "Reset the End Island"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Enter the End and forge your path through power, peril, and purpose. Click me for more info!"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:end_portal_frame"
+					tag: { }
+				}
+				id: "28FEAB937642EDAC"
+				structure: "integrated_stronghold:stronghold"
+				title: "Locate the Stronghold"
+				type: "structure"
+			}]
+			title: "Whispers of the Void"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			description: [
+				"&8The End Portal stands before you—silent, ancient, and waiting.&r  "
+				"It is more than a gateway. It is a test. A reckoning."
+				""
+				"Beyond its shimmering frame lies &5the most dangerous realm yet&r.  "
+				"But beware—this is &nno ordinary dragon fight&r."
+				""
+				"The &cEnder Dragon&r has been enhanced.  "
+				"Its wrath is swift. Its strength is overwhelming.  "
+				"This battle will push you beyond your limits."
+				""
+				"You stand at the edge of destiny.  "
+				"Make sure you are armed, armored, and prepared to face &nyour greatest challenge yet&r."
+				""
+				"&nWhen you leap into the void, there is no turning back.&r"
+			]
+			id: "59AB4308055958B4"
+			rewards: [
+				{
+					id: "4BCF93B6EB921266"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "7253D5D3651986C5"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Prepare for the enhanced Ender Dragon and step into the End. Click me for more info!"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "415D920F9756087C"
+				type: "dimension"
+			}]
+			title: "🌀 The Final Gateway"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59AB4308055958B4"]
+			description: [
+				"&cThe Ender Dragon&r soars above with &nrenewed fury&r—more powerful, more aggressive, and more dangerous than ever before."
+				""
+				"This is not a fight of brute force alone.  "
+				"It demands &estrategy&r, &9precision&r, and &7unyielding resolve&r."
+				""
+				"{@pagebreak}"
+				"Begin by destroying the &dEnd Crystals&r atop obsidian towers—they fuel the dragon’s regeneration.  "
+				"Only once they’re gone can the true battle begin."
+				""
+				"Wield your &6Totem of Undying&r with wisdom.  "
+				"It may be the only thing standing between you and the void."
+				""
+				"&nThis is your moment.&r Rise, strike, and prove yourself against the apex of all foes."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:dragon_head"
+				tag: { }
+			}
+			id: "6720A599B8A32D97"
+			rewards: [
+				{
+					id: "61BF74832C51A06E"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B44AA65A4655629"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "16E901BA13E493C2"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "625DC73A932FFA6C"
+					item: {
+						Count: 1
+						id: "minecraft:firework_rocket"
+						tag: {
+							Fireworks: {
+								Flight: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Defeat the enhanced Ender Dragon and bring an end to the storm. Click me for more info!"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "77C29B2176052A23"
+				title: "Slay the Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "🐉 Wrath of the Dragon"
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6720A599B8A32D97"]
+			description: [
+				"&5The Ender Dragon has fallen—but your journey is far from over.&r"
+				""
+				"Floating high above the central island, a new portal shimmers in the void—an &dEnd Gateway&r, pulsing with ancient energy."
+				""
+				"This is your passage to the &nOuter End&r, a region untouched by time, filled with drifting islands, ancient cities, and &6treasures of forgotten power&r."
+				""
+				"{@pagebreak}"
+				"To enter, you’ll need only a single &eEnder Pearl&r.  "
+				"Cast it into the portal—and step beyond the known."
+				""
+				"But beware…  "
+				"What lies past the veil is &nboth wondrous and perilous&r."
+				""
+				"Only the bold will claim what waits among the stars."
+			]
+			id: "75E010388EA41A77"
+			rewards: [
+				{
+					count: 2
+					id: "1E24B97C85BF5C80"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6DB7B6BACFCDB160"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+				{
+					id: "487B3C20933382AB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Use an Ender Pearl to enter the Outer End and uncover its secrets. Click me for more info!"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "48238EAD1D963B2C"
+				type: "advancement"
+			}]
+			title: "Through the Gateway 🌌🔮"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75E010388EA41A77"]
+			description: [
+				"&dThe Ender Dragon may have fallen… but the End is far from silent.&r"
+				""
+				"Across the void, rising from the abyss, stand the &5End Cities&r—towering remnants of a forgotten civilization."
+				""
+				"Within their levitating halls lie &6treasures of immense power&r: enchanted loot, rare materials, and the &blegendary Elytra&r—your wings to explore the world like never before."
+				""
+				"{@pagebreak}"
+				"But glory comes at a price."
+				""
+				"&5Shulkers&r, cunning and relentless, guard these cities with eerie precision. Their levitation curse may leave you helpless in the skies if you're not prepared."
+				""
+				"{image:ftb:textures/end_city.png width:192 height:150 align:center}"
+				""
+				"&nStep carefully, fight wisely—and let the End reward your courage.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:purpur_block"
+				tag: { }
+			}
+			id: "2C9F0702A802DBE0"
+			rewards: [
+				{
+					count: 2
+					id: "06BF44F8892D9E64"
+					item: "minecraft:shulker_box"
+					type: "item"
+				}
+				{
+					id: "48118C47FF005A55"
+					item: "createcompression:compressed_diamond_1x"
+					type: "item"
+				}
+				{
+					id: "10512FDA29C3CE1D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "745A1A9C829D63C0"
+					item: "artifacts:chorus_totem"
+					type: "item"
+				}
+			]
+			subtitle: "Explore the End Cities and claim the Elytra—if you can survive the Shulkers' wrath. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "18EA67C756E991CA"
+					structure: "minecraft:end_city"
+					title: "Locate an End City"
+					type: "structure"
+				}
+				{
+					entity: "minecraft:shulker"
+					id: "1B9C945CE79B4903"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Skies of the Forgotten"
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2C9F0702A802DBE0"]
+			description: [
+				"&bThe Overworld has diamonds… but the End holds something far more powerful.&r"
+				""
+				"Scattered across the islands lie rare and &5alien materials&r—each vital to your next stage of progression."
+				""
+				"- &dRadiantite&r: A crystalized source of raw End energy, perfect for advanced tools and upgrades.  "
+				"- &7Void Shale&r: Hardened by the vacuum of space, this material is key to structural durability.  "
+				"- &fPalerock Vents&r: Strange geological formations that pulse with dimensional residue—&nnatural generators of exotic elements&r."
+				""
+				"{@pagebreak}"
+				"These are not ordinary resources. They are the &nfoundation of high-tier crafting&r in Forge Frontier."
+				""
+				"&nTrack them down. Study their secrets. Unlock their potential.&r  "
+				"The End has more to offer than danger—it holds the keys to your future."
+			]
+			icon: {
+				Count: 1
+				id: "enlightened_end:void_shale"
+				tag: { }
+			}
+			id: "4DAE1B438A323AFC"
+			rewards: [
+				{
+					count: 4
+					id: "22F26A5449722AF8"
+					item: "create_ethium:ethium_ingot"
+					type: "item"
+				}
+				{
+					id: "3A8A35FD7A4B3E44"
+					item: "create_ethium:lost_debris"
+					type: "item"
+				}
+			]
+			subtitle: "Discover and collect the rare materials hidden among the End Islands. Click me for more info!"
+			tasks: [
+				{
+					count: 8L
+					id: "729DE74782D81485"
+					item: { Count: 8, id: "forge_frontier:radiantite" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16377E9A353F20D4"
+					item: { Count: 8, id: "enlightened_end:void_shale" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "545C120A1AEBD3D7"
+					item: { Count: 8, id: "enlightened_end:palerock" }
+					type: "item"
+				}
+			]
+			title: "💎 The End's True Riches"
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4DAE1B438A323AFC"]
+			description: [
+				"&5The End was never the end—it was only the beginning.&r"
+				""
+				"With the &dEnder Dragon defeated&r and &bRadiantite&r, &7Void Shale&r, and &fPalerock&r in your hands, you've unlocked the keys to &ntrue Endgame progression&r."
+				""
+				"Now, the stars call once more."
+				""
+				"{@pagebreak}"
+				"Your next mission: forge the &6Tier 5 Rocket&r—a marvel of engineering built from the rarest resources the End has to offer."
+				""
+				"This rocket isn’t just a vehicle—it’s a symbol of your mastery, your ingenuity, and your readiness to leave the void behind."
+				""
+				"&nThe Alex’s Caves Planets await.&r  "
+				"Strange worlds. New biomes. Greater challenges.  "
+				"Will you rise?"
+				""
+				"Read more about crafting the Tier 5 in its  "
+				"{ \"text\": \"Rocket Introduction Quest \", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58AF77D0696B9822\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_5_rocket"
+				tag: { }
+			}
+			id: "0F51715DD2602DD1"
+			rewards: [
+				{
+					id: "40BF830E626467CE"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "326BAA690F52703B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Begin crafting the Tier 5 Rocket and prepare to explore the Alex’s Caves Planets. Click me for more info!"
+			tasks: [{
+				id: "29C59BD590EF3E33"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "🌌 Beyond the End"
+			x: 12.5d
+			y: 7.0d
+		}
+	]
+	title: "Basic Dimensions"
+}
