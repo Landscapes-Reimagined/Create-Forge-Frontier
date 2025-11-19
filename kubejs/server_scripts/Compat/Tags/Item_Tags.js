@@ -1,5 +1,14 @@
 ServerEvents.tags('item', event => 
     {
+        // Pipe Connector Placeable Tag
+            event.add('pipe_connector:placeable_items', [
+                'create_new_age:heat_pipe',
+                'ad_astra:desh_fluid_pipe',
+                'ad_astra:ostrum_fluid_pipe',
+                'ad_astra:fluid_pipe_duct',
+                'copycats:copycat_fluid_pipe'
+            ])
+
         // Forge Wrench Tags
             event.add('forge:wrenches', 'prettypipes:wrench')
             event.add('forge:tools/wrench', 'prettypipes:wrench')
