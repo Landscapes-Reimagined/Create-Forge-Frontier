@@ -10,11 +10,11 @@
 		{
 			click: "https://discord.gg/quenZthXgy"
 			height: 2.0d
-			hover: ["Need Support or want to join our community, click me to join the Discord!"]
+			hover: ["Want to join our community, click me to join our Discord!"]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.0d
+			x: -2.0d
 			y: 11.0d
 		}
 		{
@@ -34,6 +34,16 @@
 			width: 10.0d
 			x: 0.0d
 			y: 1.0d
+		}
+		{
+			click: "https://github.com/Landscapes-Reimagined/Issues-and-Suggestions"
+			height: 1.5d
+			hover: ["Need Support or want to make a Suggestion, click me to visit our Bug/Suggestion Github"]
+			image: "createdeco:block/palettes/decals/decal_warning"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 11.0d
 		}
 	]
 	order_index: 0
@@ -97,5 +107,6 @@
 		x: 0.0d
 		y: 7.5d
 	}]
+	subtitle: ["Pack Introduction"]
 	title: "Create - Forge Frontier"
 }

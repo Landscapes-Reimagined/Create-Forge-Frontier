@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "final_rocket_progression"
-	group: "522267C8B93A6C20"
+	group: "18D089BBC98AE6DA"
 	icon: {
 		Count: 1
 		id: "ad_astra_rocketed:tier_7_rocket"
@@ -4645,5 +4645,5 @@
 			y: 27.0d
 		}
 	]
-	title: "Final Rocket Progression"
+	title: "Final Rocket"
 }

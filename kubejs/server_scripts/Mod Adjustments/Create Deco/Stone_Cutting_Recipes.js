@@ -7,7 +7,7 @@ ServerEvents.recipes(event =>
                 type: "minecraft:stonecutting",
                 count: 4,
                 ingredient: {
-                    item: "createdeco:andesite_sheet"
+                    item: "create_dd:andesite_sheet"
                 },
                 result: "createdeco:andesite_sheet_metal"
             }).id('forge_frontier:stonecutting/andesite_sheet_metal')
@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>
                 type: "minecraft:stonecutting",
                 count: 4,
                 ingredient: {
-                    item: "createdeco:zinc_sheet"
+                    item: "create_dd:zinc_sheet"
                 },
                 result: "createdeco:zinc_sheet_metal"
             }).id('forge_frontier:stonecutting/zinc_sheet_metal')            

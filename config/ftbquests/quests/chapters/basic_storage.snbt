@@ -375,6 +375,7 @@
 				}
 			}
 			id: "64CC5F45FEA9D2CD"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -585,6 +586,7 @@
 				}
 			}
 			id: "33528EA2F97CCC3B"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -967,6 +969,7 @@
 				}
 			}
 			id: "17F923593B3EF488"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -1009,6 +1012,7 @@
 				}
 			}
 			id: "24C624E51532EFD8"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -1051,6 +1055,7 @@
 				}
 			}
 			id: "2D5FE134E2FEF321"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -1093,6 +1098,7 @@
 				}
 			}
 			id: "67C34573A386B114"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -1838,6 +1844,7 @@
 			description: ["Slightly improved inventory size and additional upgrade slots."]
 			icon: "sophisticatedstorage:copper_shulker_box"
 			id: "64E484C1522F7FD2"
+			optional: true
 			rewards: [
 				{
 					count: 2
@@ -2917,9 +2924,9 @@
 			id: "6285CC58E2234A32"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "74D686964F863BAC"
-					item: "pipez:fluid_pipe"
+					item: "ppfluids:fluid_pipe"
 					type: "item"
 				}
 				{
@@ -2954,9 +2961,9 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 8
 					id: "3FF3BF16DE76866C"
-					item: "pipez:fluid_pipe"
+					item: "ppfluids:fluid_pipe"
 					type: "item"
 				}
 				{
