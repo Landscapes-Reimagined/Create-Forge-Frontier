@@ -96,8 +96,8 @@ background: ftb:textures/storage_screenshot.png
 [09122EB4ABF3FEBA]
 background: ftb:textures/ae_screenshot.png
 
-[0684E7A732E3B8B1]
-background: ftb:textures/overworld_screenshot.png
+[01EDC3E6B1950771]
+background: ftb:textures/general_dim_background.png
 
 [4939BBE1CB170C9D]
 background: ftb:textures/nether_rem_background.png
