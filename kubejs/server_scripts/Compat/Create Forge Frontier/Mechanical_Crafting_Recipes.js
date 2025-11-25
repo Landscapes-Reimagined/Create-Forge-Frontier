@@ -70,7 +70,7 @@ ServerEvents.recipes(event =>
                             S: Ingredient.of("delightful:smore"),
                             s: Ingredient.of("farmersdelight:shepherds_pie_block"),
                             K: Ingredient.of("alexsdelight:kangaroo_pasta"),
-                            D: Ingredient.of("ends_delight:dragon_leg_with_sauce_block"),
+                            D: Ingredient.of("ends_delight:grilled_shulker_block"),
                             b: Ingredient.of("casualness_delight:donkey_burger"),
                             H: Ingredient.of("nethersdelight:stuffed_hoglin"),
                             C: Ingredient.of("delightful:deluxe_cheeseburger"),
