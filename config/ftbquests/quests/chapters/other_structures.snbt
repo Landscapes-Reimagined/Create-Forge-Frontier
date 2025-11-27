@@ -1,0 +1,88 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "other_structures"
+	group: "4FAD6EACDA300DDE"
+	icon: "minecraft:map"
+	id: "07A87A8C4D8C912C"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/hopo_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/yungs_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/incendium_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 2.5d
+			y: 11.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "40F1633DE443AF0E"
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					id: "4C60952CED0A6BD9"
+					item: "minecraft:rail"
+					type: "item"
+				}
+				{
+					id: "7494B81E2ED140ED"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "5BB887F7555CD3F8"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "008E338B9FA40999"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1CC7C835D71D7FBF"
+				structure: "betterwitchhuts:witch_hut"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "3A170A8EF5BDC035"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "2C12C0BE85F8380F"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+	]
+	title: "Other Structures"
+}

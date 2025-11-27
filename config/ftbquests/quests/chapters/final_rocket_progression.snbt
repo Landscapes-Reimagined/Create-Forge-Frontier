@@ -155,7 +155,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -3818,7 +3818,7 @@
 			subtitle: "Check JEI for Recipe"
 			tasks: [{
 				id: "7D5194E153B00AF0"
-				item: "ends_delight:dragon_leg_with_sauce_block"
+				item: "ends_delight:grilled_shulker_block"
 				type: "item"
 			}]
 			x: -5.0d
