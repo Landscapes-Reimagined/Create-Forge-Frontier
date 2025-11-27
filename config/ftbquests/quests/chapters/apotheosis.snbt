@@ -2,18 +2,29 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apotheosis"
-	group: "644FFCB546187AB9"
+	group: "37A1080736831E36"
 	icon: "apotheosis:ender_library"
 	id: "0E35B788CDF14CAA"
-	images: [{
-		height: 15.0d
-		image: "ftb:textures/apotheosis_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: -1.0d
-		y: -10.5d
-	}]
-	order_index: 2
+	images: [
+		{
+			height: 15.0d
+			image: "ftb:textures/apotheosis_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			dev: true
+			height: 10.0d
+			image: "ftb:textures/cognitium_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -1.0d
+			y: 8.5d
+		}
+	]
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -2312,6 +2323,20 @@
 			x: -3.0d
 			y: 4.0d
 		}
+		{
+			id: "6141BAD50E3492BE"
+			optional: true
+			secret: true
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "320A7171A6444E9E"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
 	]
-	title: "Apothic Toolcrafting"
+	title: "Enchanting"
 }

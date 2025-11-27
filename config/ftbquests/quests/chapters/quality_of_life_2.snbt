@@ -1,20 +1,39 @@
 {
-	autofocus_id: "2A0238D4FDD5FF80"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "ftb_info"
+	filename: "quality_of_life_2"
 	group: "37A1080736831E36"
-	icon: "minecraft:writable_book"
-	id: "28ADD89A922E5DC8"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/ftb_info_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.0d
-	}]
-	order_index: 8
+	icon: "minecraft:book"
+	id: "15BCAF51F182D972"
+	images: [
+		{
+			dev: true
+			height: 10.0d
+			image: "ftb:textures/decoration_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dev: true
+			height: 10.0d
+			image: "ftb:textures/tools_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/ftb_info_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.0d
+			y: -4.0d
+		}
+	]
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -69,8 +88,8 @@
 				value: 100
 			}]
 			title: "Forging Your Path"
-			x: 2.0d
-			y: -3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -113,8 +132,8 @@
 				type: "advancement"
 			}]
 			title: "Forge Your Network"
-			x: -4.0d
-			y: -3.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -172,8 +191,8 @@
 				type: "advancement"
 			}]
 			title: "Claim Your Legacy"
-			x: 0.0d
-			y: -3.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -245,8 +264,8 @@
 				type: "dimension"
 			}]
 			title: "Mastering Essential Tools"
-			x: 0.0d
-			y: -6.0d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -297,8 +316,8 @@
 				type: "advancement"
 			}]
 			title: "Mastering the Essentials"
-			x: -2.0d
-			y: -3.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -349,9 +368,43 @@
 				type: "advancement"
 			}]
 			title: "Mines of Innovation"
-			x: 4.0d
-			y: -3.0d
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "6EE09A4C8D827BE0"
+			optional: true
+			secret: true
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0BAD94A5F780065F"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			id: "524AB2AB34C92E0E"
+			optional: true
+			secret: true
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "1060D34878DF1E78"
+				item: "handcrafted:mangrove_chair"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
 		}
 	]
-	title: "FTB Info"
+	title: "Quality of Life"
 }

@@ -91,13 +91,9 @@
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"               Lava and Water"
+				"Born from elemental contrast and shaped by raw motion—the Blasting and Washing Catalysts harness opposing forces to refine materials through focused fan-driven processes."
 				""
-				"Two forces, with one goal: better processing. "
-				""
-				"Blasting Catalysts perform blasting encased fan recipes, while Washing Catalysts perform washing encased fan recipes. "
-				""
-				"Master them both to expand your automation capabilities."
+				"To view the special interactions they enable, check the uses of the &nEncased Fan&r - which must be used to channel each catalyst’s unique transformative power."
 			]
 			icon: "create_connected:fan_blasting_catalyst"
 			id: "06F63FC2DEF3AAEE"
@@ -134,15 +130,15 @@
 				}
 			]
 			title: "Blasting/Washing"
-			x: -1.5d
-			y: -4.0d
+			x: -2.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"Haunting and Smoking Catalysts channel the Nether’s power-soul fire for spectral conversions, and burning embers for smoke and cooking."
+				"Born from the Nether’s restless flames, Haunting Catalysts wield soul fire for spectral transformations, while Smoking Catalysts channel burning embers for smoke and cooking processes."
 				""
-				"Made from soul sand and netherrack, these catalysts let you tame a darker side of processing."
+				"To see the interactions they enable, check the uses of the &nEncased Fan&r - the source through which these catalysts reveal their darker potential."
 			]
 			icon: "create_connected:fan_smoking_catalyst"
 			id: "2A43C321D945E480"
@@ -178,15 +174,15 @@
 				}
 			]
 			title: "Smoking/Haunting"
-			x: 0.0d
-			y: -3.0d
+			x: -1.25d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"Born from dreams and shaped by extremes-Seething and Freezing Catalysts bring even higher (and lower) temperatures to fan automation. "
+				"Born from dreams and shaped by extremes - Seething and Freezing Catalysts bring even higher (and lower) temperatures to fan automation. "
 				""
-				"To view the recipes they can perform, check the uses of the Industrial Fan-which must be used to make these catalysts function. "
+				"To view the recipes they can perform, check the uses of the &nIndustrial Fan&r - which must be used to make these catalysts function. "
 			]
 			icon: "create_connected:fan_seething_catalyst"
 			id: "73462D40F7A249DF"
@@ -228,8 +224,8 @@
 				}
 			]
 			title: "Seething/Freezing"
-			x: 1.5d
-			y: -4.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["769D1D5B36D849D2"]
@@ -766,6 +762,82 @@
 			title: "The Kinetic Battery"
 			x: 2.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["5D6433B36939DADB"]
+			description: [
+				"Born from ancient breath and steeped in draconic force - the Dragon Head Catalyst unleashes chaotic, high - velocity airflow for powerful late-game fan automation."
+				""
+				"To view the special interactions it enables, check the uses of the &nEncased Fan&r - which must be used to channel this catalyst’s destructive energy."
+			]
+			icon: "create_connected:fan_ending_catalyst_dragon_head"
+			id: "3DDD6DC93E62E70F"
+			rewards: [
+				{
+					count: 7
+					id: "7B4CF829140CEF47"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "3D79AC4AF32F23F1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "The Dragon Contained"
+			tasks: [
+				{
+					id: "51CA4E13CB48F34F"
+					item: "create_connected:fan_ending_catalyst_dragon_head"
+					type: "item"
+				}
+				{
+					id: "056F9F05701C4A98"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+			]
+			title: "Belching"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5D6433B36939DADB"]
+			description: [
+				"Drawn from the ocean’s heart and powered by an active conduit, the Conduit Catalyst channels flowing water into a new kind of fan processing—turning byproducts into prismarine, coral, copper, and more renewable riches."
+				""
+				"To view the special conversions it enables, check the uses of the &nEncased Fan&r when combined with a Conduit Channeling setup."
+			]
+			icon: "create_aquatic_ambitions:mechanical_conduit"
+			id: "492AC208F7350A6C"
+			rewards: [
+				{
+					id: "0BEDF4173B43A2D1"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "28AE1F99DB5F280E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Power of the Sea"
+			tasks: [
+				{
+					id: "2BD8CC1B48373EF6"
+					item: "create_aquatic_ambitions:mechanical_conduit"
+					type: "item"
+				}
+				{
+					id: "3E486CBE02743B3F"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+			]
+			x: 1.25d
+			y: -4.0d
 		}
 	]
 	title: "Web of Connections (Create Connected)"

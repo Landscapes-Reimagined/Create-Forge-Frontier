@@ -4,7 +4,7 @@
 	default_quest_shape: ""
 	filename: "create_forge_frontier"
 	group: ""
-	icon: "forge_frontier:modpack_logo"
+	icon: "minecraft:writable_book"
 	id: "7FDAAF267EECFF92"
 	images: [
 		{
@@ -107,6 +107,5 @@
 		x: 0.0d
 		y: 7.5d
 	}]
-	subtitle: ["Pack Introduction"]
-	title: "Create - Forge Frontier"
+	title: "Pack Introduction"
 }

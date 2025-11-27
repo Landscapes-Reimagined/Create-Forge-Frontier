@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farmers_life"
-	group: "47881FC157552E6E"
+	group: "37A1080736831E36"
 	icon: {
 		Count: 1
 		id: "solcarrot:food_book"
@@ -18,7 +18,7 @@
 		x: -1.5d
 		y: -2.0d
 	}]
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

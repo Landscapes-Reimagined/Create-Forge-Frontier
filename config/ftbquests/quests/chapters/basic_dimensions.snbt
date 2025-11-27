@@ -1,4 +1,5 @@
 {
+	autofocus_id: "671AEE4592973C16"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "basic_dimensions"
@@ -12,15 +13,15 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -12.5d
-			y: -9.5d
+			y: -10.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/nether_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 9.5d
-			y: -9.0d
+			x: 9.0d
+			y: -9.5d
 		}
 		{
 			height: 10.0d
@@ -28,7 +29,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -13.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			height: 10.0d
@@ -36,7 +37,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 9.5d
-			y: 1.5d
+			y: 1.0d
 		}
 	]
 	order_index: 1
@@ -94,7 +95,7 @@
 			}]
 			title: "First Light"
 			x: -21.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1881B38A98C580A3"]
@@ -165,7 +166,7 @@
 			]
 			title: "Tools of the Trade"
 			x: -19.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["62BFFEB56245C2F3"]
@@ -213,7 +214,7 @@
 			]
 			title: "Light in the Darkness"
 			x: -18.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["14DDC1E6A974F3AD"]
@@ -279,7 +280,7 @@
 			]
 			title: "Depths of Fortune"
 			x: -16.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["774048801A50E2D4"]
@@ -336,7 +337,7 @@
 			]
 			title: "Forged for Battle"
 			x: -15.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["795BB1A225B65C14"]
@@ -373,7 +374,7 @@
 			}]
 			title: "Fuel for the Journey"
 			x: -13.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["49D8A4094E06C73A"]
@@ -413,7 +414,7 @@
 			]
 			title: "Kindle the Flame"
 			x: -12.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19AA16DF731E0652"]
@@ -468,7 +469,7 @@
 			]
 			title: "Secrets in Stone"
 			x: -10.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["218A44E2EE4B49E4"]
@@ -503,7 +504,7 @@
 			}]
 			title: "The Power of Diamonds"
 			x: -9.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1C80B7736557D99F"]
@@ -571,7 +572,7 @@
 			]
 			title: "The Arcane Edge"
 			x: -7.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7B5086A6EF852DF0"]
@@ -636,7 +637,7 @@
 			]
 			title: "Elixirs of Survival"
 			x: -6.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["598B697BDE842B0E"]
@@ -686,7 +687,7 @@
 			}]
 			title: "Sealed in Stone"
 			x: -4.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4196DD5F26401205"]
@@ -724,11 +725,15 @@
 			}]
 			title: "Through the Inferno"
 			x: -3.0d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5EDC9934E7D346D8"]
 			description: [
+				"🌎 &2The Overworld&r"
+				""
+				"{image:ftb:textures/overworld_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
 				"The &2Overworld&r is more than your first step—it's the beating heart of your journey through &6Create - Forge Frontier&r.  "
 				"From that first tree you punch to the moment you forge your first machine, every milestone begins here, in a land teeming with life, danger, and untapped potential."
 				""
@@ -779,12 +784,15 @@
 			}]
 			title: "Roots of Adventure"
 			x: -12.5d
-			y: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["486542BF23253839"]
 			description: [
 				"&cThe Nether is no ordinary realm—it is a crucible of fire, fury, and forgotten power.&r"
+				""
+				"{image:ftb:textures/nether_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
 				""
 				"Unlocked through &cNether Remastered&r, this volatile dimension will challenge your survival instincts at every turn.  "
 				"Here, rivers of &6lava&r carve through blackened stone, &fghasts&r roam the crimson skies, and ancient &5fortresses&r conceal both peril and prize."
@@ -1511,6 +1519,9 @@
 		{
 			description: [
 				"&8The Deep Dark is no ordinary biome—it is a place of silence, shadows, and secrets best left buried.&r  "
+				""
+				"{image:ftb:textures/ancient_city_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
 				"Here, only the &nbravest&r dare tread, drawn by whispers of forbidden relics and ancient power."
 				""
 				"Far beneath the Overworld, tucked among the &0lowest caverns&r, lie the &8Ancient Cities&r—once-mighty strongholds now shattered and stalked by the &cWarden&r."
@@ -1542,6 +1553,7 @@
 			subtitle: "Descend into the Deep Dark and face the Warden to unlock the path to the Otherside. Click me for more info!"
 			tasks: [{
 				biome: "minecraft:deep_dark"
+				icon: "minecraft:sculk_shrieker"
 				id: "15BC7C1F753B1EBB"
 				type: "biome"
 			}]
@@ -2122,6 +2134,9 @@
 			description: [
 				"&5The End&r is not a destination—&nit is a crucible.&r"
 				""
+				"{image:ftb:textures/end_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
+				""
 				"A realm of &8floating islands&r, &dendless void&r, and &5cosmic secrets&r suspended in silence.  "
 				"Here, the &cEnder Dragon&r waits—your final test of strength, skill, and resolve."
 				""
@@ -2519,6 +2534,18 @@
 			title: "🌌 Beyond the End"
 			x: 12.5d
 			y: 7.0d
+		}
+		{
+			id: "671AEE4592973C16"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "4CBA06209EBE3A7A"
+				title: "Center"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 	title: "Basic Dimensions"

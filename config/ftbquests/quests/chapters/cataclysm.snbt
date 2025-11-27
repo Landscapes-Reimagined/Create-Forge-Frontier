@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "cataclysm"
-	group: "6D14B55347D8E96C"
+	group: "18D089BBC98AE6DA"
 	icon: "cataclysm:burning_ashes"
 	id: "36534278AECCD0E2"
 	images: [
@@ -72,7 +72,7 @@
 			y: 15.5d
 		}
 	]
-	order_index: 0
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

@@ -71,7 +71,7 @@
 			y: 13.5d
 		}
 	]
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -338,6 +338,7 @@
 		}
 		{
 			id: "101545B472A483E0"
+			optional: true
 			secret: true
 			tasks: [{
 				id: "71D21BDEEB8C3C2C"
