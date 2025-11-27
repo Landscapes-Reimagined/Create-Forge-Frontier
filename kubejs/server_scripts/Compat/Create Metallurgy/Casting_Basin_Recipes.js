@@ -55,7 +55,8 @@ ServerEvents.recipes(function (event) {
         { name: "desh_rocket_casing", fluid: "forge_frontier:molten_desh", solid: { item: "forge_frontier:steel_rocket_casing" }, result: "forge_frontier:desh_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "ostrum_rocket_casing", fluid: "forge_frontier:molten_ostrum", solid: { item: "forge_frontier:desh_rocket_casing" }, result: "forge_frontier:ostrum_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "calorite_rocket_casing", fluid: "forge_frontier:molten_calorite", solid: { item: "forge_frontier:ostrum_rocket_casing" }, result: "forge_frontier:calorite_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "malachite_rocket_casing", fluid: "forge_frontier:molten_malachite", solid: { item: "forge_frontier:calorite_rocket_casing" }, result: "forge_frontier:malachite_rocket_casing", amount: INGOT_MB, time: 70 }
+        { name: "malachite_rocket_casing", fluid: "forge_frontier:molten_malachite", solid: { item: "forge_frontier:calorite_rocket_casing" }, result: "forge_frontier:malachite_rocket_casing", amount: INGOT_MB, time: 70 },
+        { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 }
     ];
 
     casingCasts.forEach(function (cast) {
