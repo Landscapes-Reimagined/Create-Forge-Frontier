@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => 
     {
+        // Dielectric Paste Block Recipe
+            event.shaped(
+                Item.of('forge_frontier:dielectric_paste_block'),
+                [
+                    'PPP',
+                    'PPP',
+                    'PPP'
+                ],
+                {
+                    P: 'powah:dielectric_paste'
+                }
+            ).id('forge_frontier:shaped/dielectric_paste_block')
+
         // Echo Shard Block Recipe
             event.shaped(
                 Item.of('forge_frontier:echo_shard_block'),

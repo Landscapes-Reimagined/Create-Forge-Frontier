@@ -1,5 +1,19 @@
 ServerEvents.recipes(event => 
     {
+        // Dielectric Paste Block Recipe
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:dielectric_paste_block'
+                    }
+                ],
+                result: {
+                    item: 'powah:dielectric_paste',
+                    count: 9
+                }
+            }).id( 'forge_frontier:shapeless/dielectric_paste' ) 
+
         // Echo Shard Recipe
             event.custom({
                 type: 'minecraft:crafting_shapeless',
