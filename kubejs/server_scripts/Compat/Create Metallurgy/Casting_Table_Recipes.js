@@ -1,6 +1,6 @@
 ServerEvents.recipes(function (event) {
     var INGOT_MB = 90;
-    var NUGGET_MB = 10;
+    var NUGGET_MB_DEFAULT = 10;
     var ROD_MB = 45;
     var PLATE_MB = 90;
     var WIRE_MB = 45;
@@ -25,7 +25,10 @@ ServerEvents.recipes(function (event) {
         { name: "diamond", fluid: "forge_frontier:molten_diamond", ingot: "minecraft:diamond", nugget: "forge_frontier:diamond_nugget", plate: "forge_frontier:diamond_sheet", rodTag: "forge:rods/diamond", wireTag: "forge:wires/diamond" },
         { name: "echo", fluid: "forge_frontier:molten_echo_shard", ingot: "minecraft:echo_shard", nugget: "forge_frontier:echo_nugget", plate: "forge_frontier:echo_sheet", rodTag: "forge:rods/echo", wireTag: "forge:wires/echo" },
 
-        // 🔥 Newly added
+        // Hyper Experience – special nugget amount (3 mB instead of 10)
+        { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", nugget: "create_enchantment_industry:hyper_experience_nugget", amount: 3 },
+
+        // Newly added
         { name: "sulfur", fluid: "forge_frontier:molten_sulfur", ingot: "alexscaves:sulfur_dust", nugget: "forge_frontier:sulfur_nugget", plate: "forge_frontier:sulfur_sheet", rodTag: "forge:rods/sulfur", wireTag: "forge:wires/sulfur" },
         { name: "amber", fluid: "forge_frontier:molten_amber", ingot: "alexscaves:amber", nugget: "forge_frontier:amber_nugget", plate: "forge_frontier:amber_sheet", rodTag: "forge:rods/amber", wireTag: "forge:wires/amber" },
         { name: "pearl", fluid: "forge_frontier:molten_pearl", ingot: "alexscaves:pearl", nugget: "alexscaves:pearl_nugget", plate: "forge_frontier:pearl_sheet", rodTag: "forge:rods/pearl", wireTag: "forge:wires/pearl" },
@@ -62,13 +65,15 @@ ServerEvents.recipes(function (event) {
             }).id("forge_frontier:casting_table/" + cast.name + "_ingot");
         }
 
-        // Nugget
+        // Nugget (supports custom per-entry amount; hyper uses 3 mB)
         if (!Ingredient.of(cast.nugget).stacks.empty) {
+            var nuggetMb = cast.amount ? cast.amount : NUGGET_MB_DEFAULT;
+
             event.custom({
                 type: "createmetallurgy:casting_in_table",
                 ingredients: [
                     { item: "createmetallurgy:graphite_nugget_mold" },
-                    { amount: NUGGET_MB, fluid: cast.fluid, nbt: {} }
+                    { amount: nuggetMb, fluid: cast.fluid, nbt: {} }
                 ],
                 processingTime: 10,
                 result: { item: cast.nugget }

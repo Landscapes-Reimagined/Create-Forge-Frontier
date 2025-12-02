@@ -1,4 +1,10 @@
 StartupEvents.registry('item', event => {
+    // Hyper Experience Nugget
+        event.create('create_enchantment_industry:hyper_experience_nugget')
+            .displayName('Hyper Experience Nugget')
+            .maxStackSize(64)
+            .texture("forge_frontier:item/hyper_experience_nugget")
+    
     // Leather Elytra
         event.create('forge_frontier:leather_elytra')
             .displayName('Leather Elytra')

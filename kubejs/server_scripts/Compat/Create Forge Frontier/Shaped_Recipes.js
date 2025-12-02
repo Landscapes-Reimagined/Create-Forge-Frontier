@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => 
     {
+        // Hyper Experience Block Recipe
+            event.shaped(
+                Item.of('create_enchantment_industry:hyper_experience_block'),
+                [
+                    'NNN',
+                    'NNN',
+                    'NNN'
+                ],
+                {
+                    N: 'create_enchantment_industry:hyper_experience_nugget'
+                }
+            ).id('forge_frontier:shaped/hyper_experience_block')
+                    
         // Dielectric Paste Block Recipe
             event.shaped(
                 Item.of('forge_frontier:dielectric_paste_block'),
