@@ -18,24 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"10232D5D9959E8A5"
-				"6B63999D63EA981F"
-				"3B18C690B23D4C39"
-				"72DBFC6476091A3A"
-				"7B7C6A4F2D966F69"
-				"01E99C2EF36E6886"
-				"56C98E29485174A1"
-				"6D1F1DB7B6A3DA79"
-				"5094745CE014E74E"
-				"73B3517C59793125"
-				"0D9A77A2F4BA4951"
-				"0A4D8CFE603872F8"
-				"2037E72162F48338"
-				"7BAB96552BE32CC7"
-				"06710D734D0988CB"
-				"40C0805A32D59455"
-			]
+			dependencies: ["00AABBBA631B3828"]
 			description: [
 				"The Ender Dragon fight in Create - Forge Frontier has been strengthened to provide a thrilling and strategic battle. Before entering the End, make sure you are fully prepared with powerful gear, plenty of supplies, and a solid strategy."
 				""
@@ -119,6 +102,7 @@
 				}
 			}
 			id: "56C98E29485174A1"
+			optional: true
 			rewards: [
 				{
 					id: "4CA998864576EA84"
@@ -272,6 +256,7 @@
 				}
 			}
 			id: "01E99C2EF36E6886"
+			optional: true
 			rewards: [
 				{
 					id: "0C87F9965F7DE3C1"
@@ -366,6 +351,7 @@
 				}
 			}
 			id: "2037E72162F48338"
+			optional: true
 			rewards: [
 				{
 					id: "3A540325E510C9E4"
@@ -489,6 +475,7 @@
 				}
 			}
 			id: "73B3517C59793125"
+			optional: true
 			rewards: [
 				{
 					id: "0B28FAE6396C9EF5"
@@ -631,6 +618,7 @@
 				}
 			}
 			id: "5094745CE014E74E"
+			optional: true
 			rewards: [
 				{
 					id: "5C1D466E98423488"
@@ -649,17 +637,29 @@
 				}
 			]
 			subtitle: "Forge the Rogue Eye and reignite the brilliance of ancient innovation. Click me for more info! "
-			tasks: [{
-				id: "1240B40B2BDB0A70"
-				item: {
-					Count: 1
-					id: "endrem:rogue_eye"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1240B40B2BDB0A70"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "21EF465B7A15739E"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "60FB4EF2792B4FF5"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+			]
 			title: "Spark of Ingenuity"
 			x: 7.5d
 			y: 7.5d
@@ -708,6 +708,7 @@
 				}
 			}
 			id: "0A4D8CFE603872F8"
+			optional: true
 			rewards: [
 				{
 					id: "34486C263F303671"
@@ -854,6 +855,7 @@
 				}
 			}
 			id: "3B18C690B23D4C39"
+			optional: true
 			rewards: [
 				{
 					id: "07882F471CE68BBF"
@@ -1026,6 +1028,7 @@
 				}
 			}
 			id: "7BAB96552BE32CC7"
+			optional: true
 			rewards: [
 				{
 					count: 9
@@ -1079,6 +1082,11 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "68810C3BCC81E825"
+					item: "minecraft:sponge"
 					type: "item"
 				}
 			]
@@ -1156,6 +1164,7 @@
 				}
 			}
 			id: "10232D5D9959E8A5"
+			optional: true
 			rewards: [
 				{
 					id: "139E6F23A81A2865"
@@ -1194,6 +1203,11 @@
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "26548543E300B980"
+					item: "cataclysm:lacrima"
 					type: "item"
 				}
 			]
@@ -1242,6 +1256,7 @@
 				}
 			}
 			id: "0D9A77A2F4BA4951"
+			optional: true
 			rewards: [
 				{
 					count: 12
@@ -1369,6 +1384,7 @@
 				}
 			}
 			id: "7B7C6A4F2D966F69"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -1425,6 +1441,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "68B3A686535074B1"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
 			]
 			title: "Echoes of the Deep"
 			x: -6.5d
@@ -1471,6 +1492,7 @@
 				}
 			}
 			id: "72DBFC6476091A3A"
+			optional: true
 			rewards: [
 				{
 					id: "7B51331C442BED6F"
@@ -1593,6 +1615,7 @@
 				}
 			}
 			id: "6D1F1DB7B6A3DA79"
+			optional: true
 			rewards: [
 				{
 					count: 9
@@ -1611,17 +1634,24 @@
 				}
 			]
 			subtitle: "Forge the Witch Eye and awaken the forbidden arts of ancient alchemy. Click me for more info! "
-			tasks: [{
-				id: "21F0B88D7D0A1AAA"
-				item: {
-					Count: 1
-					id: "endrem:witch_eye"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "21F0B88D7D0A1AAA"
+					item: {
+						Count: 1
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "650E088BE6DA57B4"
+					item: "create_dd:blaze_gold"
+					type: "item"
+				}
+			]
 			title: "Secrets of the Cauldron"
 			x: -4.5d
 			y: 17.0d
@@ -1677,6 +1707,7 @@
 				}
 			}
 			id: "6B63999D63EA981F"
+			optional: true
 			rewards: [
 				{
 					id: "28A0168020043822"
@@ -1696,17 +1727,24 @@
 				}
 			]
 			subtitle: "Forge the Wither Eye and claim the echoes of a thousand fallen worlds. Click me for more info! "
-			tasks: [{
-				id: "46AF35CA74B042ED"
-				item: {
-					Count: 1
-					id: "endrem:wither_eye"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "46AF35CA74B042ED"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "18E426E117BAD23D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
 			title: "Ashes of Empires"
 			x: -2.0d
 			y: 18.0d
@@ -2083,6 +2121,7 @@
 				}
 			}
 			id: "06710D734D0988CB"
+			optional: true
 			rewards: [
 				{
 					id: "6135A7A0E7C35D1B"
@@ -2194,6 +2233,7 @@
 				}
 			}
 			id: "40C0805A32D59455"
+			optional: true
 			rewards: [
 				{
 					id: "79FE5FFEC52429A0"
