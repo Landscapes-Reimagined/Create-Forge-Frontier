@@ -298,7 +298,7 @@
 			description: [
 				"Beneath the surface lie catacombs and temples, where ancient guardians once stood watch. While time has worn down the walls, the secrets within remain untouched by daylight."
 				""
-				"Venture into these darkened chambers, but tread carefully—danger often lurks alongside treasure."
+				"Venture into these darkened chambers, but tread carefully-danger often lurks alongside treasure."
 			]
 			icon: "minecraft:skeleton_skull"
 			id: "6A9B41AD0D004575"
@@ -335,7 +335,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Deep underground lies a network of catacombs, where the brave may find ancient treasures—or curses."
+			subtitle: "Deep underground lies a network of catacombs, where the brave may find ancient treasures-or curses."
 			tasks: [{
 				id: "428222B34BB79161"
 				structure: "betterarcheology:catacombs"
@@ -437,7 +437,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Vines and moss conceal a temple lost to time—what secrets lie within?"
+			subtitle: "Vines and moss conceal a temple lost to time-what secrets lie within?"
 			tasks: [{
 				id: "4FF674524FA1E011"
 				structure: "betterarcheology:temple_jungle"
@@ -570,7 +570,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "The remains of an ancient predator—what power did it once hold?"
+			subtitle: "The remains of an ancient predator-what power did it once hold?"
 			tasks: [{
 				id: "7F179D6F9D810FA9"
 				structure: "betterarcheology:fossil_creeper"
@@ -699,7 +699,7 @@
 		{
 			dependencies: ["69838A6C4306E75E"]
 			description: [
-				"The most remarkable remnants of ancient civilizations stand tall as legendary structures. From Stonehenge-like formations to ancient fortresses, these sites hold the most valuable treasures—and the deepest mysteries."
+				"The most remarkable remnants of ancient civilizations stand tall as legendary structures. From Stonehenge-like formations to ancient fortresses, these sites hold the most valuable treasures-and the deepest mysteries."
 				""
 				"Only the most determined explorers will unlock their secrets."
 			]
@@ -877,7 +877,7 @@
 		{
 			dependencies: ["69838A6C4306E75E"]
 			description: [
-				"Not all ruins lie on dry land—many have sunken beneath the sea, preserved in watery silence. Ancient buildings, scattered across the ocean floor, promise rare finds to those brave enough to dive deep."
+				"Not all ruins lie on dry land-many have sunken beneath the sea, preserved in watery silence. Ancient buildings, scattered across the ocean floor, promise rare finds to those brave enough to dive deep."
 				""
 				"Prepare your gear, hold your breath, and explore the underwater ruins."
 			]
@@ -940,7 +940,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Even the simplest graves hold stories—will you uncover theirs?"
+			subtitle: "Even the simplest graves hold stories-will you uncover theirs?"
 			tasks: [{
 				id: "63BEADFF1CC0DB7A"
 				structure: "betterarcheology:villager_grave"

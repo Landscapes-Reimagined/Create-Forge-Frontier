@@ -49,10 +49,10 @@
 				"Every grand journey begins with a single strike."
 				""
 				"Before you can reshape the world, you must first learn to survive within it.  "
-				"Your adventure begins at the roots—&2gathering wood&r, &7crafting your first tools&r, and taking your first steps into an untamed land."
+				"Your adventure begins at the roots-&2gathering wood&r, &7crafting your first tools&r, and taking your first steps into an untamed land."
 				""
 				"Punch trees, collect vital resources, and lay the first block in what will become a legacy of innovation, exploration, and mastery.  "
-				"🌿🔨 From humble beginnings, greatness will rise."
+				" From humble beginnings, greatness will rise."
 			]
 			icon: {
 				Count: 1
@@ -100,13 +100,13 @@
 		{
 			dependencies: ["1881B38A98C580A3"]
 			description: [
-				"Survival begins with purpose—and purpose begins with tools."
+				"Survival begins with purpose-and purpose begins with tools."
 				""
 				"Gather your first materials and turn them into something greater: a &fCrafting Table&r, the cornerstone of every invention.  "
 				"Then take up your &6Wooden Pickaxe&r and prepare to shape the world beneath your feet."
 				""
 				"With stronger tools come new horizons.  "
-				"⛏ Every strike of the pickaxe is a step toward mastery."
+				" Every strike of the pickaxe is a step toward mastery."
 			]
 			icon: {
 				Count: 1
@@ -133,7 +133,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a crafting table and your first pickaxe—forge the tools to shape your future. Click me for more info!"
+			subtitle: "Craft a crafting table and your first pickaxe-forge the tools to shape your future. Click me for more info!"
 			tasks: [
 				{
 					icon: {
@@ -173,12 +173,12 @@
 			description: [
 				"When the sun dips below the horizon, the Overworld awakens in shadow."
 				""
-				"Darkness brings danger—&ccreatures of the night&r emerge, hunting the unprepared.  "
+				"Darkness brings danger-&ccreatures of the night&r emerge, hunting the unprepared.  "
 				"To survive, you must create a sanctuary: a shelter to protect you, torches to light the void, and walls to hold back the unknown."
 				""
 				"Will your first home be a humble refuge... or the foundation of a future fortress?"
 				""
-				"🏡&nYour safe haven begins with a single block.&r"
+				"&nYour safe haven begins with a single block.&r"
 			]
 			icon: "minecraft:red_bed"
 			id: "14DDC1E6A974F3AD"
@@ -219,14 +219,14 @@
 		{
 			dependencies: ["14DDC1E6A974F3AD"]
 			description: [
-				"The earth hides its treasures well—but fortune favors the bold."
+				"The earth hides its treasures well-but fortune favors the bold."
 				""
-				"Beneath the surface lies a world of &7stone&r, &8coal&r, and &firon&r—essential materials for your rise to power.  "
+				"Beneath the surface lies a world of &7stone&r, &8coal&r, and &firon&r-essential materials for your rise to power.  "
 				"Venture into the depths, carve through layers of rock, and unearth the riches that will fuel your next great creation."
 				""
-				"Equip yourself with stronger tools and stay vigilant—&nveins of precious minerals&r await those who dare to dig deeper."
+				"Equip yourself with stronger tools and stay vigilant-&nveins of precious minerals&r await those who dare to dig deeper."
 				""
-				"⚒&nYour journey to greatness begins underground.&r"
+				"&nYour journey to greatness begins underground.&r"
 			]
 			icon: {
 				Count: 1
@@ -285,13 +285,13 @@
 		{
 			dependencies: ["774048801A50E2D4"]
 			description: [
-				"With &fIron&r comes strength, resilience—and the power to face what lies ahead."
+				"With &fIron&r comes strength, resilience-and the power to face what lies ahead."
 				""
 				"Smelt your first iron ingots and craft a set of tools worthy of a true adventurer.  "
-				"Then take it a step further—&7forge a full suit of armor&r to shield yourself from the growing dangers of the world."
+				"Then take it a step further-&7forge a full suit of armor&r to shield yourself from the growing dangers of the world."
 				""
-				"With each ingot, you shape more than metal—you forge your survival.  "
-				"🛡🔥 &nStep into the iron age and prepare for the trials to come.&r"
+				"With each ingot, you shape more than metal-you forge your survival.  "
+				" &nStep into the iron age and prepare for the trials to come.&r"
 				""
 				"Learn more about tools and armor in its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
@@ -315,7 +315,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft your first set of iron tools and armor—harden yourself for what lies ahead. Click me for more info!"
+			subtitle: "Craft your first set of iron tools and armor-harden yourself for what lies ahead. Click me for more info!"
 			tasks: [
 				{
 					count: 5L
@@ -342,13 +342,13 @@
 		{
 			dependencies: ["795BB1A225B65C14"]
 			description: [
-				"Exploration feeds the spirit—but food fuels the body."
+				"Exploration feeds the spirit-but food fuels the body."
 				""
 				"Whether you hunt wild game, cultivate crops, or embrace the art of cooking, one truth remains: &nno journey lasts long on an empty stomach&r.  "
 				"Establish a reliable food source to keep yourself strong, alert, and ready for the challenges ahead."
 				""
-				"A well-fed adventurer doesn’t just survive—they thrive.  "
-				"🥖&nMaster your meals, and you’ll master the wild.&r"
+				"A well-fed adventurer doesn’t just survive-they thrive.  "
+				"&nMaster your meals, and you’ll master the wild.&r"
 			]
 			id: "49D8A4094E06C73A"
 			rewards: [
@@ -365,7 +365,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Secure a sustainable food source to survive—and thrive—on your adventures. Click me for more info!"
+			subtitle: "Secure a sustainable food source to survive-and thrive-on your adventures. Click me for more info!"
 			tasks: [{
 				count: 10L
 				id: "1CDA8A68DD2C77C5"
@@ -384,8 +384,8 @@
 				"From the deepest caves to the highest peaks, &odarkness conceals threats that can end your journey in an instant&r.  "
 				"Craft torches, lanterns, and campfires to push back the shadows and illuminate the path ahead."
 				""
-				"Light is more than comfort—it’s survival.  "
-				"🕯🔥 &nShine a light into the unknown, and take control of your fate.&r"
+				"Light is more than comfort-it’s survival.  "
+				" &nShine a light into the unknown, and take control of your fate.&r"
 			]
 			icon: {
 				Count: 1
@@ -419,12 +419,12 @@
 		{
 			dependencies: ["19AA16DF731E0652"]
 			description: [
-				"Beneath the stone lies more than ore—&nit holds the keys to your advancement&r."
+				"Beneath the stone lies more than ore-&nit holds the keys to your advancement&r."
 				""
-				"Delve deeper in search of &6Gold&r, &cRedstone&r, and &9Lapis Lazuli&r—each a vital resource unlocking new paths forward.  "
+				"Delve deeper in search of &6Gold&r, &cRedstone&r, and &9Lapis Lazuli&r-each a vital resource unlocking new paths forward.  "
 				"From powering complex contraptions to fueling enchanting rituals, these treasures are the foundation of your next great leap."
 				""
-				"💎⚡ &nUncover the riches of the deep, and turn raw potential into boundless progress.&r"
+				" &nUncover the riches of the deep, and turn raw potential into boundless progress.&r"
 			]
 			icon: {
 				Count: 1
@@ -473,7 +473,7 @@
 		}
 		{
 			dependencies: ["218A44E2EE4B49E4"]
-			description: ["Diamonds—stronger than iron, rarer than gold. These precious gems are the pinnacle of early-game progression. Mine at Y-Level -59 and collect enough diamonds to forge the ultimate tools and armor. More than just a luxury, they are the key to gathering obsidian, the gateway to even greater adventures. 💠🛠"]
+			description: ["Diamonds-stronger than iron, rarer than gold. These precious gems are the pinnacle of early-game progression. Mine at Y-Level -59 and collect enough diamonds to forge the ultimate tools and armor. More than just a luxury, they are the key to gathering obsidian, the gateway to even greater adventures. "]
 			id: "1C80B7736557D99F"
 			rewards: [
 				{
@@ -509,12 +509,12 @@
 		{
 			dependencies: ["1C80B7736557D99F"]
 			description: [
-				"True strength lies not only in steel—but in the magic that sharpens it."
+				"True strength lies not only in steel-but in the magic that sharpens it."
 				""
 				"Forge your path to power by crafting an &dEnchanting Table&r, surrounding it with &fBookshelves&r to amplify its arcane potential.  "
 				"Through enchantments, your tools grow sharper, your armor stronger, and your journey more formidable than ever before."
 				""
-				"📖✨ &nEmbrace the art of enchantment, and let magic become your greatest ally.&r"
+				" &nEmbrace the art of enchantment, and let magic become your greatest ally.&r"
 				""
 				"Want to learn more about enchanting? Check out its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6965F4ABCAB88875\" } }"
@@ -577,11 +577,11 @@
 		{
 			dependencies: ["7B5086A6EF852DF0"]
 			description: [
-				"Scattered across the world are rare ingredients—&nfragments of power waiting to be distilled&r."
+				"Scattered across the world are rare ingredients-&nfragments of power waiting to be distilled&r."
 				""
 				"Craft a &eBrewing Stand&r, gather exotic reagents, and begin your journey into potioncraft. From healing wounds to resisting flame, potions can transform the tide of battle and grant you an edge where brute strength falls short."
 				""
-				"🍷⚗ These brews aren’t just useful—they’re essential. Use them wisely as you venture into the perilous structures tied to &cNether Remastered&r, where the &lSeal Pieces&r await those prepared for the heat of battle."
+				" These brews aren’t just useful-they’re essential. Use them wisely as you venture into the perilous structures tied to &cNether Remastered&r, where the &lSeal Pieces&r await those prepared for the heat of battle."
 				""
 				"&nMaster the art of alchemy, and let every vial become a weapon in your arsenal.&r"
 			]
@@ -642,18 +642,18 @@
 		{
 			dependencies: ["598B697BDE842B0E"]
 			description: [
-				"The &cNether&r is a realm of immense power and peril—but in this world, its gates are sealed."
+				"The &cNether&r is a realm of immense power and peril-but in this world, its gates are sealed."
 				""
 				"Unlike traditional Minecraft, you cannot simply ignite obsidian and step through.  "
 				"Instead, you must embark on a journey across the Overworld, seeking out ancient structures that guard the keys to the underworld’s fiery threshold."
 				""
-				"Each ruin holds &6valuable loot&r and clues—fragments of a puzzle that, when assembled, unlock the &lSeal of the Underworld&r."
+				"Each ruin holds &6valuable loot&r and clues-fragments of a puzzle that, when assembled, unlock the &lSeal of the Underworld&r."
 				""
 				"{@pagebreak}"
 				""
 				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
 				""
-				"These structures are more than ruins—they are trials.  "
+				"These structures are more than ruins-they are trials.  "
 				"Will you rise to the challenge and claim the right to enter the inferno?"
 				""
 				"Read more about these locations in the  "
@@ -692,13 +692,13 @@
 		{
 			dependencies: ["4196DD5F26401205"]
 			description: [
-				"You have prepared, gathered, and conquered the Overworld—  "
+				"You have prepared, gathered, and conquered the Overworld-  "
 				"but the true test lies beyond flame and shadow."
 				""
 				"Once you hold the &cSeal of the Underworld&r in your grasp, consume it to shatter the final barrier and awaken the ancient portal.  "
-				"What awaits is not merely another dimension—but a realm of blazing chaos, forgotten ruins, and trials that will push your limits."
+				"What awaits is not merely another dimension-but a realm of blazing chaos, forgotten ruins, and trials that will push your limits."
 				""
-				"🌋🔥 &nAre you ready to cross the threshold and step into the fire?&r  "
+				" &nAre you ready to cross the threshold and step into the fire?&r  "
 				"The &cNether&r awaits."
 				""
 				"Continue your journey in the next  "
@@ -730,11 +730,11 @@
 		{
 			dependencies: ["5EDC9934E7D346D8"]
 			description: [
-				"🌎 &2The Overworld&r"
+				" &2The Overworld&r"
 				""
 				"{image:ftb:textures/overworld_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
-				"The &2Overworld&r is more than your first step—it's the beating heart of your journey through &6Create - Forge Frontier&r.  "
+				"The &2Overworld&r is more than your first step-it's the beating heart of your journey through &6Create - Forge Frontier&r.  "
 				"From that first tree you punch to the moment you forge your first machine, every milestone begins here, in a land teeming with life, danger, and untapped potential."
 				""
 				"Explore lush forests, windswept plains, and winding cave systems as you gather resources, build your first shelter, and lay the groundwork for the adventures ahead.  "
@@ -742,8 +742,8 @@
 				""
 				"{@pagebreak}"
 				""
-				"&l🌿 From Survival to Mastery&r  "
-				"Your time in the Overworld isn’t just about collecting materials—it’s about building resilience.  "
+				"&l From Survival to Mastery&r  "
+				"Your time in the Overworld isn’t just about collecting materials-it’s about building resilience.  "
 				"Cook hearty meals, manage your health, and defend against the monsters of the night.  "
 				"Establish farms, secure your base, and experiment with early automation as you progress toward advanced crafting and complex contraptions."
 				""
@@ -751,12 +751,12 @@
 				""
 				"{@pagebreak}"
 				""
-				"&l⚔ The Journey Begins Here&r  "
+				"&l The Journey Begins Here&r  "
 				"This is where legends are forged.  "
 				"With every block placed and battle won, you grow stronger, smarter, and more prepared for what lies beyond."
 				""
-				"But never forget: the Overworld is not just a place—it’s a proving ground.  "
-				"&nMaster it, and you’ll be ready for the realms that follow.&r 🌍✨"
+				"But never forget: the Overworld is not just a place-it’s a proving ground.  "
+				"&nMaster it, and you’ll be ready for the realms that follow.&r "
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:grass_block"
@@ -789,7 +789,7 @@
 		{
 			dependencies: ["486542BF23253839"]
 			description: [
-				"&cThe Nether is no ordinary realm—it is a crucible of fire, fury, and forgotten power.&r"
+				"&cThe Nether is no ordinary realm-it is a crucible of fire, fury, and forgotten power.&r"
 				""
 				"{image:ftb:textures/nether_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
@@ -797,13 +797,13 @@
 				"Unlocked through &cNether Remastered&r, this volatile dimension will challenge your survival instincts at every turn.  "
 				"Here, rivers of &6lava&r carve through blackened stone, &fghasts&r roam the crimson skies, and ancient &5fortresses&r conceal both peril and prize."
 				""
-				"But your purpose is greater than survival—&nthis is a conquest of chaos&r.  "
+				"But your purpose is greater than survival-&nthis is a conquest of chaos&r.  "
 				"Harvest powerful resources, brave brutal landscapes, and triumph over the monsters that thrive in the flames."
 				""
 				"{@pagebreak}"
 				""
 				"Sharpen your blades, fortify your resolve, and embrace the fire.  "
-				"&nThe Nether awaits—will you master it, or be consumed by it?&r 🔥💀"
+				"&nThe Nether awaits-will you master it, or be consumed by it?&r "
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:netherrack"
@@ -829,12 +829,12 @@
 		{
 			dependencies: ["3F3994EDD215FC99"]
 			description: [
-				"&cYou’ve broken the seal and crossed into the Nether&r—"
+				"&cYou’ve broken the seal and crossed into the Nether&r-"
 				"but this realm of flame is unforgiving, and survival begins the moment you arrive."
 				""
-				"Your first task is not conquest—it’s &6resource gathering&r."
+				"Your first task is not conquest-it’s &6resource gathering&r."
 				""
-				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin mining the &cNether’s rich materials&r—quartz, gold, glowstone, and more—to fuel your survival and progress. Stockpile what you can, for every vein you uncover strengthens your foothold in this hostile world."
+				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin mining the &cNether’s rich materials&r-quartz, gold, glowstone, and more-to fuel your survival and progress. Stockpile what you can, for every vein you uncover strengthens your foothold in this hostile world."
 				""
 				"Use the &bLodestone&r and &bCompass&r rewards to anchor your journey and ensure you can always find your way back, even when the twisting caverns threaten to swallow you whole."
 				""
@@ -905,7 +905,7 @@
 		{
 			dependencies: ["79796694A2D1F0DE"]
 			description: [
-				"&cThe Nether does not forgive the unprepared&r—&nbut it does reward those who adapt.&r"
+				"&cThe Nether does not forgive the unprepared&r-&nbut it does reward those who adapt.&r"
 				""
 				"To survive its harsh terrain, you must gather &6essential materials&r native to this molten realm.  "
 				"&8Blackstone&r can stand in for traditional stone.  "
@@ -914,7 +914,7 @@
 				""
 				"These resources are your lifeline. Stock up, strategize, and reshape this hostile land into your &nsecond home&r."
 				""
-				"&nIn the Nether, your survival depends on what you take—and how you use it.&r"
+				"&nIn the Nether, your survival depends on what you take-and how you use it.&r"
 			]
 			icon: {
 				Count: 1
@@ -997,7 +997,7 @@
 		{
 			dependencies: ["4927BD8DBED4A962"]
 			description: [
-				"&8Within the charred stone of &cNether Fortresses&r lie treasures beyond measure—&nbut they are fiercely protected.&r"
+				"&8Within the charred stone of &cNether Fortresses&r lie treasures beyond measure-&nbut they are fiercely protected.&r"
 				""
 				"These towering structures are home to &6Blazes&r, &8Wither Skeletons&r, and swarms of &eZombie Piglins&r, all ready to defend the fortress halls with fire and fury."
 				""
@@ -1071,12 +1071,12 @@
 		{
 			dependencies: ["1D6068D3F034486B"]
 			description: [
-				"&6Piglins&r are more than just snarling scavengers—they are &ntreasure keepers&r, and their &8Bastion Remnants&r are vaults of unimaginable wealth."
+				"&6Piglins&r are more than just snarling scavengers-they are &ntreasure keepers&r, and their &8Bastion Remnants&r are vaults of unimaginable wealth."
 				""
 				"Hidden deep within these shattered strongholds are caches of &6gold&r, rare &dweapons&r, and powerful &benchanted gear&r. But this fortune is fiercely protected."
 				""
 				"{@pagebreak}"
-				"&cPiglin Brutes&r show no mercy to intruders. They fight not for survival—but for dominance."
+				"&cPiglin Brutes&r show no mercy to intruders. They fight not for survival-but for dominance."
 				""
 				"Will you sneak, strike, or storm your way through?  "
 				"Only the bold leave a Bastion standing behind them."
@@ -1159,14 +1159,14 @@
 		{
 			dependencies: ["1665A6E78A71E6F5"]
 			description: [
-				"&cThe Nether&r is more than a realm of fire and fury—it is a crucible of &6rare materials&r and &darcane reagents&r."
+				"&cThe Nether&r is more than a realm of fire and fury-it is a crucible of &6rare materials&r and &darcane reagents&r."
 				""
 				"From &eNether Wart&r for potions, to &8Netherite scraps&r for armor, to &6glowstone dust&r for amplifying enchantments, this dimension is filled with resources that can tip the scales of power in your favor."
 				""
 				"But these treasures will not come easy.  "
 				"You must &nlearn what to harvest, what to hoard, and how to survive long enough to use it all&r."
 				""
-				"🔮 &nMaster the riches of the Nether—and turn chaos into strength.&r"
+				" &nMaster the riches of the Nether-and turn chaos into strength.&r"
 			]
 			icon: {
 				Count: 1
@@ -1261,15 +1261,15 @@
 		{
 			dependencies: ["7BAE261166502E1D"]
 			description: [
-				"&8Buried deep beneath the Nether’s molten crust lies one of the rarest and most powerful materials in existence—&6Ancient Debris&r."
+				"&8Buried deep beneath the Nether’s molten crust lies one of the rarest and most powerful materials in existence-&6Ancient Debris&r."
 				""
 				"Used to forge &8Netherite&r, the strongest gear known to adventurers, this resource is no ordinary ore.  "
 				"Its discovery demands &cexplosives&r, &9strategy&r, and &7patience&r."
 				""
-				"The most effective layer to find Ancient Debris is around &eY-Level 15&r—  "
+				"The most effective layer to find Ancient Debris is around &eY-Level 15&r-  "
 				"or, if you dare to venture further, through a  "
 				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }  "
-				"—a geological marvel formed by molten force and rare fortune."
+				"-a geological marvel formed by molten force and rare fortune."
 				""
 				"&nOnly those willing to dig deep and risk everything will wield what lies below.&r"
 			]
@@ -1325,10 +1325,10 @@
 			dependencies: ["127DD18CE2DA41ED"]
 			description: [
 				"&cThe Nether breeds monsters unlike any seen on the surface.&r  "
-				"Here, fire-forged beasts test not just your strength—but your will to survive."
+				"Here, fire-forged beasts test not just your strength-but your will to survive."
 				""
 				"From the &6relentless Brutes&r to the &8Wither Skeletons&r lurking in fortress shadows, these enemies won’t fall easily.  "
-				"But defeating them is more than survival—it’s a &ndeclaration of dominance&r in a realm ruled by chaos."
+				"But defeating them is more than survival-it’s a &ndeclaration of dominance&r in a realm ruled by chaos."
 				""
 				"Sharpen your blades, ready your gear, and step boldly into battle.  "
 				"&nOnly those who face the fire head-on will rise as true champions of the Nether.&r"
@@ -1416,10 +1416,10 @@
 			description: [
 				"&cYou have survived the inferno.&r"
 				""
-				"The &4Nether’s horrors&r—its fortresses, bastions, and blazing depths—no longer stand in your way.  "
+				"The &4Nether’s horrors&r-its fortresses, bastions, and blazing depths-no longer stand in your way.  "
 				"You’ve carved a path through fire, tamed volatile resources, and emerged not just alive… but &nvictorious&r."
 				""
-				"The Nether is no longer an obstacle—it is &nyour arsenal&r."
+				"The Nether is no longer an obstacle-it is &nyour arsenal&r."
 				""
 				"But your greatest journey still lies ahead."
 				""
@@ -1518,27 +1518,27 @@
 		}
 		{
 			description: [
-				"&8The Deep Dark is no ordinary biome—it is a place of silence, shadows, and secrets best left buried.&r  "
+				"&8The Deep Dark is no ordinary biome-it is a place of silence, shadows, and secrets best left buried.&r  "
 				""
 				"{image:ftb:textures/ancient_city_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
 				"Here, only the &nbravest&r dare tread, drawn by whispers of forbidden relics and ancient power."
 				""
-				"Far beneath the Overworld, tucked among the &0lowest caverns&r, lie the &8Ancient Cities&r—once-mighty strongholds now shattered and stalked by the &cWarden&r."
+				"Far beneath the Overworld, tucked among the &0lowest caverns&r, lie the &8Ancient Cities&r-once-mighty strongholds now shattered and stalked by the &cWarden&r."
 				""
 				"To survive here, you must become a shadow.  "
-				"Make no sound. Leave no trace. For the Warden does not see—&nbut it hears&r."
+				"Make no sound. Leave no trace. For the Warden does not see-&nbut it hears&r."
 				""
 				"{@pagebreak}"
 				""
 				"But those who face this monstrosity head-on, those who &nslay the Warden and claim its heart&r, will unlock something far more sinister…"
 				""
-				"A gateway to the &5Otherside&r—a realm of warped magic, hollow echoes, and dangers that defy logic."
+				"A gateway to the &5Otherside&r-a realm of warped magic, hollow echoes, and dangers that defy logic."
 				""
 				"This is not just another dimension.  "
 				"It is a &nnightmare reborn&r."
 				""
-				"🌑 &nWill you embrace the dark, or be swallowed by it?&r 👁"
+				" &nWill you embrace the dark, or be swallowed by it?&r "
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:sculk_sensor"
@@ -1565,7 +1565,7 @@
 			dependencies: ["638EF7DB16108237"]
 			description: [
 				"&8This is no ordinary cave.&r  "
-				"You stand at the edge of the &0Deep Dark&r—a realm where light falters and &3Sculk&r spreads like an infection, devouring sound and swallowing the unwary."
+				"You stand at the edge of the &0Deep Dark&r-a realm where light falters and &3Sculk&r spreads like an infection, devouring sound and swallowing the unwary."
 				""
 				"Every step echoes with risk.  "
 				"Every breath could summon what lurks beyond the veil."
@@ -1633,7 +1633,7 @@
 		{
 			dependencies: ["516EFC067D776C8A"]
 			description: [
-				"&0Deep beneath the world lies the &8Ancient City&r—a shattered monument to forgotten power.&r  "
+				"&0Deep beneath the world lies the &8Ancient City&r-a shattered monument to forgotten power.&r  "
 				"Buried in silence, it stretches across the darkness like the bones of a lost civilization."
 				""
 				"Its halls are lined with &6treasures&r and &5mysteries&r… but also one terrible truth:"
@@ -1696,7 +1696,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enter the Ancient City and uncover its secrets—if you can survive the Warden’s wrath. Click me for more info!"
+			subtitle: "Enter the Ancient City and uncover its secrets-if you can survive the Warden’s wrath. Click me for more info!"
 			tasks: [
 				{
 					icon: {
@@ -1740,14 +1740,14 @@
 				"It hears you.  "
 				"It hunts you."
 				""
-				"The &cWarden&r is not just a monster—it is &nan ancient force of rage and ruin&r, blind to light but drawn to the slightest sound.  "
+				"The &cWarden&r is not just a monster-it is &nan ancient force of rage and ruin&r, blind to light but drawn to the slightest sound.  "
 				"Its &4heartbeat&r alone sends tremors through the stone… and through your soul."
 				""
 				"{@pagebreak}"
 				"There is no outrunning the tension. No outlasting the silence.  "
 				"&nMost will flee.&r Few will survive."
 				""
-				"But for the bold who &dstand their ground&r and fell the beast, a reward awaits—  "
+				"But for the bold who &dstand their ground&r and fell the beast, a reward awaits-  "
 				"&5a relic of immense power, and the key to another realm.&r"
 				""
 				"Will you escape the darkness… or &nconquer it?&r"
@@ -1770,7 +1770,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Face the Warden—and claim the heart of the shadows. Click me for more info!"
+			subtitle: "Face the Warden-and claim the heart of the shadows. Click me for more info!"
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:warden"
@@ -1786,7 +1786,7 @@
 		{
 			dependencies: ["172253D6E25BB385"]
 			description: [
-				"&5The Warden’s Heart&r pulses with more than life—it carries the weight of &nforgotten realms&r and &cursed memory&r."
+				"&5The Warden’s Heart&r pulses with more than life-it carries the weight of &nforgotten realms&r and &cursed memory&r."
 				""
 				"This relic is no mere trophy. It is a &nkey&r."
 				""
@@ -1794,7 +1794,7 @@
 				"You’ll &nshatter the veil between dimensions&r."
 				""
 				"{@pagebreak}"
-				"The &5Otherside&r awaits—a world carved from unnatural stone, crawling with twisting roots, flickering lights, and the silent gaze of &dotherworldly entities&r."
+				"The &5Otherside&r awaits-a world carved from unnatural stone, crawling with twisting roots, flickering lights, and the silent gaze of &dotherworldly entities&r."
 				""
 				"This is no longer survival.  "
 				"This is descent."
@@ -1860,7 +1860,7 @@
 		{
 			dependencies: ["6EA9BDB19D85D796"]
 			description: [
-				"&5The Otherside&r is not a dimension—&nit is a descent into madness.&r"
+				"&5The Otherside&r is not a dimension-&nit is a descent into madness.&r"
 				""
 				"Here, the &8stone itself pulses with Sculk&r, whispering secrets too ancient to understand.  "
 				"&dUnnatural lifeforms&r roam the shadows, born of void and memory.  "
@@ -1870,13 +1870,13 @@
 				"&nthis is what lies beyond terror&r."
 				""
 				"{@pagebreak}"
-				"But buried within the gloom are &5relics of impossible power&r—  "
+				"But buried within the gloom are &5relics of impossible power&r-  "
 				"tools, resources, and knowledge not meant for mortal hands."
 				""
 				"{image:ftb:textures/otherside_screenshot.png width:192 height:150 align:center}"
 				""
 				"&nStep carefully.&r Breathe slowly.  "
-				"And whatever you do—don’t listen too closely."
+				"And whatever you do-don’t listen too closely."
 			]
 			icon: {
 				Count: 1
@@ -1985,16 +1985,16 @@
 				"&cYou have conquered the Warden.&r  "
 				"&8And now, you walk freely through the nightmare that is the Otherside.&r"
 				""
-				"No longer a trespasser—you are its &nmaster&r."
+				"No longer a trespasser-you are its &nmaster&r."
 				""
 				"{@pagebreak}"
 				"You have faced &4fear incarnate&r, harnessed ancient relics, and unearthed secrets never meant to be known.  "
 				"Now, with knowledge forged in silence and power claimed from shadows…"
 				""
 				"&nIt is time to build a legacy that will outlive the darkness.&r  "
-				"Not just to survive—but to shape what comes next."
+				"Not just to survive-but to shape what comes next."
 				""
-				"🖤 &nFrom the abyss, rise anew.&r"
+				" &nFrom the abyss, rise anew.&r"
 			]
 			icon: {
 				Count: 1
@@ -2090,11 +2090,11 @@
 				"You have &nconquered&r them.  "
 				"You now hold the &5power of forgotten worlds&r in your hands."
 				""
-				"But this is not the end—&nit is the threshold.&r"
+				"But this is not the end-&nit is the threshold.&r"
 				""
 				"{@pagebreak}"
 				"The skies stir. The End calls.  "
-				"And a final battle looms on the horizon—one that will test all you’ve become."
+				"And a final battle looms on the horizon-one that will test all you’ve become."
 				""
 				"Are you ready to face the &dDragon&r?"
 				""
@@ -2119,7 +2119,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Wield the power of the Otherside—and prepare for the final challenge. Click me for more info!"
+			subtitle: "Wield the power of the Otherside-and prepare for the final challenge. Click me for more info!"
 			tasks: [{
 				id: "7505C3925F18A12D"
 				title: "Check"
@@ -2132,26 +2132,26 @@
 		{
 			dependencies: ["0135EFA96E7A28A2"]
 			description: [
-				"&5The End&r is not a destination—&nit is a crucible.&r"
+				"&5The End&r is not a destination-&nit is a crucible.&r"
 				""
 				"{image:ftb:textures/end_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
 				""
 				"A realm of &8floating islands&r, &dendless void&r, and &5cosmic secrets&r suspended in silence.  "
-				"Here, the &cEnder Dragon&r waits—your final test of strength, skill, and resolve."
+				"Here, the &cEnder Dragon&r waits-your final test of strength, skill, and resolve."
 				""
 				"As the void hums with forgotten power, ancient cities rise from the abyss.  "
-				"Hidden within are &6unimaginable treasures&r—&3Radiantite&r, &7Void Shale&r, and &fPalerock&r—each offering new potential for those bold enough to claim them."
+				"Hidden within are &6unimaginable treasures&r-&3Radiantite&r, &7Void Shale&r, and &fPalerock&r-each offering new potential for those bold enough to claim them."
 				""
 				"But this place is no sanctuary.  "
 				"From levitating &dShulkers&r to watchful &8Endermen&r, every step forward is contested by creatures of shadow and fury."
 				""
 				"{@pagebreak}"
 				""
-				"Yet this is not the end of your journey—&nit is the evolution of your legacy.&r  "
+				"Yet this is not the end of your journey-&nit is the evolution of your legacy.&r  "
 				"&5Endgame Progression&r begins here, unlocking powerful technologies, forgotten rituals, and the path to interdimensional mastery."
 				""
-				"🌌 Will you conquer the void—or be swallowed by it?"
+				" Will you conquer the void-or be swallowed by it?"
 				""
 				"The answers lie beyond the portal…"
 			]
@@ -2193,11 +2193,11 @@
 		{
 			dependencies: ["7964AB0D39902EFA"]
 			description: [
-				"&8The End Portal stands before you—silent, ancient, and waiting.&r  "
+				"&8The End Portal stands before you-silent, ancient, and waiting.&r  "
 				"It is more than a gateway. It is a test. A reckoning."
 				""
 				"Beyond its shimmering frame lies &5the most dangerous realm yet&r.  "
-				"But beware—this is &nno ordinary dragon fight&r."
+				"But beware-this is &nno ordinary dragon fight&r."
 				""
 				"The &cEnder Dragon&r has been enhanced.  "
 				"Its wrath is swift. Its strength is overwhelming.  "
@@ -2228,20 +2228,20 @@
 				id: "415D920F9756087C"
 				type: "dimension"
 			}]
-			title: "🌀 The Final Gateway"
+			title: " The Final Gateway"
 			x: 5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["59AB4308055958B4"]
 			description: [
-				"&cThe Ender Dragon&r soars above with &nrenewed fury&r—more powerful, more aggressive, and more dangerous than ever before."
+				"&cThe Ender Dragon&r soars above with &nrenewed fury&r-more powerful, more aggressive, and more dangerous than ever before."
 				""
 				"This is not a fight of brute force alone.  "
 				"It demands &estrategy&r, &9precision&r, and &7unyielding resolve&r."
 				""
 				"{@pagebreak}"
-				"Begin by destroying the &dEnd Crystals&r atop obsidian towers—they fuel the dragon’s regeneration.  "
+				"Begin by destroying the &dEnd Crystals&r atop obsidian towers-they fuel the dragon’s regeneration.  "
 				"Only once they’re gone can the true battle begin."
 				""
 				"Wield your &6Totem of Undying&r with wisdom.  "
@@ -2301,22 +2301,22 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "🐉 Wrath of the Dragon"
+			title: " Wrath of the Dragon"
 			x: 6.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6720A599B8A32D97"]
 			description: [
-				"&5The Ender Dragon has fallen—but your journey is far from over.&r"
+				"&5The Ender Dragon has fallen-but your journey is far from over.&r"
 				""
-				"Floating high above the central island, a new portal shimmers in the void—an &dEnd Gateway&r, pulsing with ancient energy."
+				"Floating high above the central island, a new portal shimmers in the void-an &dEnd Gateway&r, pulsing with ancient energy."
 				""
 				"This is your passage to the &nOuter End&r, a region untouched by time, filled with drifting islands, ancient cities, and &6treasures of forgotten power&r."
 				""
 				"{@pagebreak}"
 				"To enter, you’ll need only a single &eEnder Pearl&r.  "
-				"Cast it into the portal—and step beyond the known."
+				"Cast it into the portal-and step beyond the known."
 				""
 				"But beware…  "
 				"What lies past the veil is &nboth wondrous and perilous&r."
@@ -2350,7 +2350,7 @@
 				id: "48238EAD1D963B2C"
 				type: "advancement"
 			}]
-			title: "Through the Gateway 🌌🔮"
+			title: "Through the Gateway "
 			x: 8.0d
 			y: 7.0d
 		}
@@ -2359,9 +2359,9 @@
 			description: [
 				"&dThe Ender Dragon may have fallen… but the End is far from silent.&r"
 				""
-				"Across the void, rising from the abyss, stand the &5End Cities&r—towering remnants of a forgotten civilization."
+				"Across the void, rising from the abyss, stand the &5End Cities&r-towering remnants of a forgotten civilization."
 				""
-				"Within their levitating halls lie &6treasures of immense power&r: enchanted loot, rare materials, and the &blegendary Elytra&r—your wings to explore the world like never before."
+				"Within their levitating halls lie &6treasures of immense power&r: enchanted loot, rare materials, and the &blegendary Elytra&r-your wings to explore the world like never before."
 				""
 				"{@pagebreak}"
 				"But glory comes at a price."
@@ -2370,7 +2370,7 @@
 				""
 				"{image:ftb:textures/end_city.png width:192 height:150 align:center}"
 				""
-				"&nStep carefully, fight wisely—and let the End reward your courage.&r"
+				"&nStep carefully, fight wisely-and let the End reward your courage.&r"
 			]
 			icon: {
 				Count: 1
@@ -2401,7 +2401,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Explore the End Cities and claim the Elytra—if you can survive the Shulkers' wrath. Click me for more info!"
+			subtitle: "Explore the End Cities and claim the Elytra-if you can survive the Shulkers' wrath. Click me for more info!"
 			tasks: [
 				{
 					icon: {
@@ -2430,17 +2430,17 @@
 			description: [
 				"&bThe Overworld has diamonds… but the End holds something far more powerful.&r"
 				""
-				"Scattered across the islands lie rare and &5alien materials&r—each vital to your next stage of progression."
+				"Scattered across the islands lie rare and &5alien materials&r-each vital to your next stage of progression."
 				""
 				"- &dRadiantite&r: A crystalized source of raw End energy, perfect for advanced tools and upgrades.  "
 				"- &7Void Shale&r: Hardened by the vacuum of space, this material is key to structural durability.  "
-				"- &fPalerock Vents&r: Strange geological formations that pulse with dimensional residue—&nnatural generators of exotic elements&r."
+				"- &fPalerock Vents&r: Strange geological formations that pulse with dimensional residue-&nnatural generators of exotic elements&r."
 				""
 				"{@pagebreak}"
 				"These are not ordinary resources. They are the &nfoundation of high-tier crafting&r in Forge Frontier."
 				""
 				"&nTrack them down. Study their secrets. Unlock their potential.&r  "
-				"The End has more to offer than danger—it holds the keys to your future."
+				"The End has more to offer than danger-it holds the keys to your future."
 			]
 			icon: {
 				Count: 1
@@ -2482,23 +2482,23 @@
 					type: "item"
 				}
 			]
-			title: "💎 The End's True Riches"
+			title: " The End's True Riches"
 			x: 11.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["4DAE1B438A323AFC"]
 			description: [
-				"&5The End was never the end—it was only the beginning.&r"
+				"&5The End was never the end-it was only the beginning.&r"
 				""
 				"With the &dEnder Dragon defeated&r and &bRadiantite&r, &7Void Shale&r, and &fPalerock&r in your hands, you've unlocked the keys to &ntrue Endgame progression&r."
 				""
 				"Now, the stars call once more."
 				""
 				"{@pagebreak}"
-				"Your next mission: forge the &6Tier 5 Rocket&r—a marvel of engineering built from the rarest resources the End has to offer."
+				"Your next mission: forge the &6Tier 5 Rocket&r-a marvel of engineering built from the rarest resources the End has to offer."
 				""
-				"This rocket isn’t just a vehicle—it’s a symbol of your mastery, your ingenuity, and your readiness to leave the void behind."
+				"This rocket isn’t just a vehicle-it’s a symbol of your mastery, your ingenuity, and your readiness to leave the void behind."
 				""
 				"&nThe Alex’s Caves Planets await.&r  "
 				"Strange worlds. New biomes. Greater challenges.  "
@@ -2531,7 +2531,7 @@
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: "🌌 Beyond the End"
+			title: " Beyond the End"
 			x: 12.5d
 			y: 7.0d
 		}

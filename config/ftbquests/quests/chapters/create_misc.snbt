@@ -42,7 +42,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "An Expanded Toolkit"
+			subtitle: "An Expanded Toolkit."
 			tasks: [{
 				id: "29BBA93C216DFF16"
 				title: "Click Me!"
@@ -86,7 +86,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Infinite Resource Generation"
+			subtitle: "Infinite Resource Generation."
 			tasks: [{
 				id: "478B83B647DFB4C2"
 				item: "create_mechanical_extruder:mechanical_extruder"
@@ -126,7 +126,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Bawk Bawk"
+			subtitle: "Bawk Bawk."
 			tasks: [
 				{
 					id: "54FE82077FB95ADD"
@@ -215,7 +215,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Applied Packages 2"
+			subtitle: "Applied Packages 2."
 			tasks: [{
 				id: "51BD3196E1982973"
 				item: "create_mobile_packages:portable_stock_ticker"
@@ -254,7 +254,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Single Zone Support"
+			subtitle: "Single Zone Support."
 			tasks: [{
 				id: "7DA3A186A0582CC5"
 				item: "create_power_loader:andesite_chunk_loader"
@@ -291,7 +291,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Multi-Chunk Mastery"
+			subtitle: "Multi-Chunk Mastery."
 			tasks: [{
 				id: "76D89C119CBA5543"
 				item: "create_power_loader:brass_chunk_loader"
@@ -341,7 +341,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Hands-Free Chopping"
+			subtitle: "Hands-Free Chopping."
 			tasks: [{
 				id: "394E8D190BAC5A81"
 				item: "sliceanddice:slicer"
@@ -358,7 +358,7 @@
 				""
 				"Fill it with water to keep farmland moist automatically."
 				""
-				"Insert lava to burn nearby mobs—or yourself."
+				"Insert lava to burn nearby mobs-or yourself."
 				""
 				"Feed it liquid fertilizer to accelerate crop growth."
 				""
@@ -390,7 +390,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Irrigation Innovation"
+			subtitle: "Irrigation Innovation."
 			tasks: [{
 				count: 3L
 				id: "00BA9387F50A9E9D"
@@ -432,7 +432,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Captured Critters"
+			subtitle: "Captured Critters."
 			tasks: [{
 				id: "6AB2FCB0BDD1CB39"
 				item: "create_mob_spawners:empty_soul_catcher"
@@ -468,7 +468,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Engineered Entities"
+			subtitle: "Engineered Entities."
 			tasks: [
 				{
 					id: "0E65BEFECE429872"
@@ -504,7 +504,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Helpful Hoverbot"
+			subtitle: "Helpful Hoverbot."
 			tasks: [
 				{
 					id: "61E12E487F332E40"
@@ -549,7 +549,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Modular Programming"
+			subtitle: "Modular Programming."
 			tasks: [
 				{
 					id: "71F7B9F81566FA64"
@@ -593,7 +593,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Fluid Force"
+			subtitle: "Fluid Force."
 			tasks: [{
 				id: "7184ACB10AD9262A"
 				item: "create_sa:hydraulic_engine"
@@ -620,7 +620,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Thermal Torque"
+			subtitle: "Thermal Torque."
 			tasks: [{
 				id: "325F50045D0C857F"
 				item: "create_sa:heat_engine"
@@ -646,7 +646,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Pressure to Power"
+			subtitle: "Pressure to Power."
 			tasks: [{
 				id: "2C3DC03DD7439D8C"
 				item: "create_sa:steam_engine"
@@ -686,7 +686,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Waterborne Wings"
+			subtitle: "Waterborne Wings."
 			tasks: [{
 				id: "4EDB8D7CA6656523"
 				item: {
@@ -733,7 +733,7 @@
 					xp: 75
 				}
 			]
-			subtitle: "Arcane Altitude"
+			subtitle: "Arcane Altitude."
 			tasks: [{
 				id: "5C3648DDC2EA6CC3"
 				item: {
@@ -782,7 +782,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Altitude Over Agility"
+			subtitle: "Altitude Over Agility."
 			tasks: [{
 				id: "036FFF8C7A5FEF17"
 				item: {
@@ -827,7 +827,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Ultimate Uplift"
+			subtitle: "Ultimate Uplift."
 			tasks: [{
 				id: "71EBFF03F159051C"
 				item: {
@@ -866,7 +866,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Getting Off the Ground"
+			subtitle: "Getting Off the Ground."
 			tasks: [
 				{
 					id: "26CE4B85955003B7"
@@ -914,7 +914,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Midair Momentum"
+			subtitle: "Midair Momentum."
 			tasks: [
 				{
 					id: "1A0ABFF6BE358B6E"
@@ -962,7 +962,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Skybound Supply"
+			subtitle: "Skybound Supply."
 			tasks: [
 				{
 					id: "735510B057D8334C"
@@ -996,7 +996,7 @@
 		{
 			dependencies: ["2839F9B81949DDF4"]
 			description: [
-				"The Copper Exoskeleton enhances your physical power—but not without a cost."
+				"The Copper Exoskeleton enhances your physical power-but not without a cost."
 				""
 				"Grants Strength II for boosted melee damage"
 				""
@@ -1025,7 +1025,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Strength in Steam"
+			subtitle: "Strength in Steam."
 			tasks: [{
 				id: "68C314A5CB9FDC99"
 				item: {
@@ -1071,7 +1071,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Forged for Efficiency"
+			subtitle: "Forged for Efficiency."
 			tasks: [{
 				id: "2D3971845E443C5E"
 				item: {
@@ -1109,7 +1109,7 @@
 					xp: 75
 				}
 			]
-			subtitle: "Steam-Forged Strength"
+			subtitle: "Steam-Forged Strength."
 			tasks: [{
 				id: "240276FD06B12522"
 				item: {
@@ -1158,7 +1158,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Create's Hookshot"
+			subtitle: "Create's Hookshot."
 			tasks: [{
 				id: "076F418A2CE97774"
 				item: {
@@ -1200,7 +1200,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Digging Dynamo"
+			subtitle: "Digging Dynamo."
 			tasks: [{
 				id: "1218D6610E53E321"
 				item: {
@@ -1251,7 +1251,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Blazing Barrage"
+			subtitle: "Blazing Barrage."
 			tasks: [{
 				id: "14DD9F6259BFFB29"
 				item: {
@@ -1298,7 +1298,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Half-Life 2"
+			subtitle: "Half-Life 2."
 			tasks: [{
 				id: "71A2331DDF4C4EE7"
 				item: {
@@ -1334,7 +1334,7 @@
 					xp: 300
 				}
 			]
-			subtitle: "Extra Ethium"
+			subtitle: "Extra Ethium."
 			tasks: [{
 				id: "2131D7685AD74234"
 				title: "Click Me!"
@@ -1399,7 +1399,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Warp-Ready Brew"
+			subtitle: "Warp-Ready Brew."
 			tasks: [{
 				id: "35254703829AC235"
 				item: "createteleporters:quantum_fluid_bucket"
@@ -1434,7 +1434,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "One Step at a Time"
+			subtitle: "One Step at a Time."
 			tasks: [
 				{
 					count: 2L
@@ -1490,7 +1490,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Entangled Engineering"
+			subtitle: "Entangled Engineering."
 			tasks: [
 				{
 					id: "45D73198682ACA19"
@@ -1548,7 +1548,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Entity Express"
+			subtitle: "The Entity Express."
 			tasks: [
 				{
 					id: "0F86DD2FB3A16905"
@@ -1608,7 +1608,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Cargo Carrier"
+			subtitle: "The Cargo Carrier."
 			tasks: [
 				{
 					id: "36251FC43D2D1109"
@@ -1664,7 +1664,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Remote Relocation"
+			subtitle: "Remote Relocation."
 			tasks: [
 				{
 					id: "4550BCF455BD423D"
@@ -1719,7 +1719,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Stabilized Slipstream"
+			subtitle: "Stabilized Slipstream."
 			tasks: [
 				{
 					count: 2L
@@ -1780,7 +1780,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "A Raccoon's Best Friend"
+			subtitle: "A Raccoon's Best Friend."
 			tasks: [
 				{
 					id: "7E35BADFF8B3CFFD"
@@ -1868,7 +1868,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Awakening the Chamber"
+			subtitle: "Awakening the Chamber."
 			tasks: [
 				{
 					id: "54ADCAA8B685E839"
@@ -1925,7 +1925,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Mastering Fluid Transfer"
+			subtitle: "Mastering Fluid Transfer."
 			tasks: [
 				{
 					id: "4C08255E2DE64C69"

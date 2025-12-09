@@ -48,7 +48,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Dream Big, Build Bigger"
+			subtitle: "Dream Big, Build Bigger."
 			tasks: [{
 				id: "4F74498F7E969BF6"
 				title: "Click Me!"
@@ -85,7 +85,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "A Lumberjack's Best Friend"
+			subtitle: "A Lumberjack's Best Friend."
 			tasks: [{
 				id: "25D2D9A66C808060"
 				item: {
@@ -116,7 +116,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Forest Beware"
+			subtitle: "Forest Beware."
 			tasks: [{
 				id: "146F7021C7F5281C"
 				item: {
@@ -148,7 +148,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "A Sharper Solution"
+			subtitle: "A Sharper Solution."
 			tasks: [{
 				id: "6485EF56AC705236"
 				item: "create_dd:bronze_saw"
@@ -175,7 +175,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "A Drill with Power"
+			subtitle: "A Drill with Power."
 			tasks: [{
 				id: "2B1C9171D9061F3F"
 				item: "create_dd:bronze_drill"
@@ -200,7 +200,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Beyond the Breeze"
+			subtitle: "Beyond the Breeze."
 			tasks: [{
 				id: "670933D1BA597E30"
 				item: "create_dd:industrial_fan"
@@ -237,7 +237,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Ignition Based Stress"
+			subtitle: "Ignition Based Stress."
 			tasks: [
 				{
 					id: "2B96CCD02E787E3A"
@@ -280,7 +280,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Force Multiplied"
+			subtitle: "Force Multiplied."
 			tasks: [{
 				id: "160AC11A3DDB20EE"
 				item: "create_dd:hydraulic_press"
@@ -306,7 +306,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Logical Wiring"
+			subtitle: "Logical Wiring."
 			tasks: [{
 				id: "1FB7B0C6801FFBC0"
 				item: "create_dd:integrated_circuit"
@@ -331,7 +331,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Crafted for Complexity"
+			subtitle: "Crafted for Complexity."
 			tasks: [{
 				id: "538620D7C880A3EA"
 				item: "create_dd:integrated_mechanism"
@@ -362,7 +362,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Blue and True"
+			subtitle: "Blue and True."
 			tasks: [{
 				count: 16L
 				id: "07A91906E284204C"
@@ -390,7 +390,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Bonked Blues"
+			subtitle: "Bonked Blues."
 			tasks: [{
 				id: "0DB0B3BCA40285CE"
 				item: "create_dd:lapis_sheet"
@@ -421,7 +421,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Heavy Support"
+			subtitle: "Heavy Support."
 			tasks: [{
 				id: "7C0B25E68EC74F70"
 				item: "create_dd:overburden_casing"
@@ -448,7 +448,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Smart Storage Starts Here"
+			subtitle: "Smart Storage Starts Here."
 			tasks: [{
 				id: "462F0A5899089C17"
 				item: "create:item_vault"
@@ -475,7 +475,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Tin to Win"
+			subtitle: "Tin to Win."
 			tasks: [{
 				count: 4L
 				id: "44E7A446D4BC379B"
@@ -503,7 +503,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Every Alloy Needs a Spark"
+			subtitle: "Every Alloy Needs a Spark."
 			tasks: [{
 				count: 4L
 				id: "7DD966ABB18E250A"
@@ -532,7 +532,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "The Workhorse of Progress"
+			subtitle: "The Workhorse of Progress."
 			tasks: [{
 				count: 4L
 				id: "6BBFF2A01CB8A34A"
@@ -560,7 +560,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Heat \\& Pressure -> Progress"
+			subtitle: "Heat \\& Pressure -> Progress."
 			tasks: [{
 				id: "6782756BAE54D8D5"
 				item: "create_dd:industrial_iron_ingot"
@@ -587,7 +587,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "The Backbone of Industry"
+			subtitle: "The Backbone of Industry."
 			tasks: [{
 				count: 4L
 				id: "349B80DEF85A0426"
@@ -619,7 +619,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "A Machine's Mind"
+			subtitle: "A Machine's Mind."
 			tasks: [{
 				id: "634D3E1E823FE8CC"
 				item: "create_dd:calculation_mechanism"
@@ -645,7 +645,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Basic Mechanical Skill"
+			subtitle: "Basic Mechanical Skill."
 			tasks: [{
 				id: "13F5355C6B2D7FFC"
 				item: "create_dd:inductive_mechanism"
@@ -673,7 +673,7 @@
 					xp: 75
 				}
 			]
-			subtitle: "Fan the Flames"
+			subtitle: "Fan the Flames."
 			tasks: [{
 				id: "562BEEB385802188"
 				item: "create_dd:infernal_mechanism"
@@ -698,7 +698,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Engineered Efficiency"
+			subtitle: "Engineered Efficiency."
 			tasks: [{
 				id: "07A2328508B2D631"
 				item: "create_dd:sealed_mechanism"
@@ -734,7 +734,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Alloy of Efficiency"
+			subtitle: "The Alloy of Efficiency."
 			tasks: [{
 				id: "4C9BC8527AECB13F"
 				item: "create_dd:bronze_ingot"
@@ -763,7 +763,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Mystical Violet"
+			subtitle: "Mystical Violet."
 			tasks: [{
 				id: "4FFA080970C72881"
 				item: "create_dd:polished_spectral_ruby"
@@ -791,7 +791,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Pink Power"
+			subtitle: "Pink Power."
 			tasks: [{
 				id: "53F82F6B1A8D3D8F"
 				item: "create:rose_quartz"
@@ -821,7 +821,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Transmutation Catalyst"
+			subtitle: "The Transmutation Catalyst."
 			tasks: [{
 				count: 2L
 				id: "749EA2D0EF75B050"
@@ -849,7 +849,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Flight-Grade Alloy"
+			subtitle: "Flight-Grade Alloy."
 			tasks: [{
 				id: "5C9F1055C86946BF"
 				item: "create_dd:mithril_ingot"
@@ -879,7 +879,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Frame of Force"
+			subtitle: "Frame of Force."
 			tasks: [{
 				id: "209E9937E261A3DE"
 				item: "create_dd:hydraulic_casing"
@@ -915,7 +915,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "From Ore to Order"
+			subtitle: "From Ore to Order."
 			tasks: [{
 				id: "1A177B81F7ABD959"
 				item: {
@@ -949,7 +949,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Flat and Flexible"
+			subtitle: "Flat and Flexible."
 			tasks: [{
 				id: "28429D79992FCCA8"
 				item: "create_dd:tin_sheet"
@@ -975,7 +975,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Pressed to Perfection"
+			subtitle: "Pressed to Perfection."
 			tasks: [{
 				id: "7A2F94CAE4733084"
 				item: "create_dd:industrial_iron_sheet"
@@ -1002,7 +1002,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "Beam of Brilliance"
+			subtitle: "Beam of Brilliance."
 			tasks: [{
 				id: "501F24B13520AF3C"
 				item: "create_dd:refined_radiance"
@@ -1029,7 +1029,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "Void Reaction"
+			subtitle: "Void Reaction."
 			tasks: [{
 				id: "615CB27CEFD14B7B"
 				item: "create_dd:shadow_steel"
@@ -1055,7 +1055,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Ignite the Alloy"
+			subtitle: "Ignite the Alloy."
 			tasks: [{
 				id: "722DC87559B91F17"
 				item: "create_dd:blaze_gold"
@@ -1082,7 +1082,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Tapped and Ready"
+			subtitle: "Tapped and Ready."
 			tasks: [{
 				id: "4C3DA1CC2C35FE39"
 				item: "create_dd:sap_bucket"
@@ -1109,7 +1109,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Elastic Potential"
+			subtitle: "Elastic Potential."
 			tasks: [{
 				id: "055A85C4F854E7BC"
 				item: "create_dd:rubber"
@@ -1135,7 +1135,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Weak yet Useful"
+			subtitle: "Weak yet Useful."
 			tasks: [{
 				id: "1F877A1225F32237"
 				item: "create_dd:kinetic_motor"
@@ -1161,7 +1161,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Spin Smarter"
+			subtitle: "Spin Smarter."
 			tasks: [{
 				id: "44EFE5A30F3DC8BF"
 				item: "create_dd:accelerator_motor"
@@ -1187,7 +1187,7 @@
 				type: "xp"
 				xp: 200
 			}]
-			subtitle: "Wind at Work"
+			subtitle: "Wind at Work."
 			tasks: [
 				{
 					count: 4L
@@ -1256,7 +1256,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "Volatile Potential"
+			subtitle: "Volatile Potential."
 			tasks: [{
 				id: "1E923BB70E3AC46F"
 				item: "create_dd:overcharge_alloy"
@@ -1286,7 +1286,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Solid Insight"
+			subtitle: "Solid Insight."
 			tasks: [{
 				id: "6C3EFA13FE59D25D"
 				item: "create_dd:experience_ingot"
@@ -1316,7 +1316,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Crafted Clarity"
+			subtitle: "Crafted Clarity."
 			tasks: [{
 				id: "72C1444C51AB4116"
 				item: "create_dd:experience_mass"
@@ -1344,7 +1344,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Bottles to Nuggets"
+			subtitle: "Bottles to Nuggets."
 			tasks: [
 				{
 					id: "5116C5D89D217960"
@@ -1386,7 +1386,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Liquid Radiance"
+			subtitle: "Liquid Radiance."
 			tasks: [{
 				id: "6C4ACCCA85E5D300"
 				item: "create_dd:shimmer_bucket"
@@ -1413,7 +1413,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Waste, but It's Not Worthless"
+			subtitle: "Waste, but It's Not Worthless."
 			tasks: [{
 				id: "78EDD6A5493F91F8"
 				item: "create_dd:chromatic_waste_bucket"
@@ -1451,7 +1451,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Forged by the Stars"
+			subtitle: "Forged by the Stars."
 			tasks: [{
 				id: "7F92B41C0A7F0B06"
 				item: "create_dd:stargaze_singularity"
@@ -1477,7 +1477,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Infinity, Materialized"
+			subtitle: "Infinity, Materialized."
 			tasks: [{
 				id: "19E0E28887C96552"
 				item: {
@@ -1512,7 +1512,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "Contain the Current"
+			subtitle: "Contain the Current."
 			tasks: [{
 				id: "2281C1C1C38059D2"
 				item: "create_dd:overcharged_casing"
@@ -1531,7 +1531,7 @@
 				xp: 50
 			}]
 			size: 0.9d
-			subtitle: "Efficient Display"
+			subtitle: "Efficient Display."
 			tasks: [{
 				id: "44E188B4C1AB6DD0"
 				item: "create:display_board"
@@ -1559,7 +1559,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "Shattered Strength"
+			subtitle: "Shattered Strength."
 			tasks: [{
 				count: 4L
 				id: "33208128450C6AB8"

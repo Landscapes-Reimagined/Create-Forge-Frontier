@@ -79,7 +79,7 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Simple Storage"
+			subtitle: "Simple Storage."
 			tasks: [{
 				icon: "minecraft:chest"
 				id: "70367235C1DD570D"
@@ -124,7 +124,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "053F967DBAADCAFC"
 				item: {
@@ -163,7 +163,7 @@
 			]
 			shape: "gear"
 			size: 2.25d
-			subtitle: "Carry More With Ease"
+			subtitle: "Carry More With Ease."
 			tasks: [{
 				id: "1B885FE09AE69117"
 				item: {
@@ -204,7 +204,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Vanilla's Backpack"
+			subtitle: "Vanilla's Backpack."
 			tasks: [{
 				icon: "minecraft:shulker_box"
 				id: "681BA5CB14FF0576"
@@ -241,7 +241,7 @@
 			]
 			shape: "octagon"
 			size: 2.5d
-			subtitle: "Early Game Item Transfer"
+			subtitle: "Early Game Item Transfer."
 			tasks: [{
 				id: "41EFF307BF663DF8"
 				item: "minecraft:hopper"
@@ -281,7 +281,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Great for Tight Spaces"
+			subtitle: "Great for Tight Spaces."
 			tasks: [{
 				id: "7197A06FC54AFB80"
 				item: "minecraft:barrel"
@@ -311,7 +311,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Better Backpacks"
+			subtitle: "Better Backpacks."
 			tasks: [{
 				id: "1964FEF547DD5627"
 				item: "sophisticatedbackpacks:upgrade_base"
@@ -347,7 +347,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "714310FC690FCAB0"
 				item: {
@@ -390,7 +390,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "5179FD4260662BB9"
 				item: {
@@ -432,7 +432,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "378FBF76D357F41C"
 				item: {
@@ -474,7 +474,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "4A26FA45A682C37E"
 				item: {
@@ -516,7 +516,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "1D882517E743A404"
 				item: {
@@ -558,7 +558,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "13857B1C31727384"
 				item: {
@@ -601,7 +601,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "7608113DF338EA90"
 				item: {
@@ -643,7 +643,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "476568B78BFDF753"
 				item: {
@@ -685,7 +685,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "1565E08AA848F6A2"
 				item: {
@@ -727,7 +727,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "00324C8A2B83F372"
 				item: {
@@ -769,7 +769,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "1B9CA464BDB8D789"
 				item: {
@@ -812,7 +812,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "409A3142262AF0C6"
 				item: {
@@ -855,7 +855,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "57010937DCA782FB"
 				item: {
@@ -898,7 +898,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "2C0F6C793496693C"
 				item: {
@@ -941,7 +941,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "26EEB72CEA8F98BC"
 				item: {
@@ -984,7 +984,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "36B90E0ABC0F7DFA"
 				item: {
@@ -1027,7 +1027,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "63125CC4DFE08931"
 				item: {
@@ -1070,7 +1070,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "55D54EA61A2CDDDE"
 				item: {
@@ -1113,7 +1113,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "6E73424C546454B1"
 				item: {
@@ -1155,7 +1155,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "55B8F5A31555E93E"
 				item: {
@@ -1197,7 +1197,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "299295E80FD1054F"
 				item: {
@@ -1239,7 +1239,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "1FADCE20CF5F7B83"
 				item: {
@@ -1281,7 +1281,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "6B6DB9F352A33EC1"
 				item: {
@@ -1323,7 +1323,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "272562E4AA7E1377"
 				item: {
@@ -1365,7 +1365,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "57584A866B73392A"
 				item: {
@@ -1407,7 +1407,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "3CE05F42EA7619AB"
 				item: {
@@ -1449,7 +1449,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "1CA9E083A9016C80"
 				item: {
@@ -1491,7 +1491,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "2B67402DEC64CB92"
 				item: {
@@ -1533,7 +1533,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "1A9F59650B9AA5A2"
 				item: {
@@ -1575,7 +1575,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "256F2A7B68018703"
 				item: {
@@ -1617,7 +1617,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "56731861B8C981C2"
 				item: {
@@ -1659,7 +1659,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "0D40F8354F53953A"
 				item: {
@@ -1701,7 +1701,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "07D85E40ED9B5B21"
 				item: {
@@ -1743,7 +1743,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "38AFAAB45C6AF0FA"
 				item: {
@@ -1785,7 +1785,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "2B53C788A677699E"
 				item: {
@@ -1822,7 +1822,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "6BCD664876608BCD"
 				item: {
@@ -1859,7 +1859,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "54AB072D5BD90B16"
 				item: {
@@ -1895,7 +1895,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "34CF30E5395DA21E"
 				item: {
@@ -1931,7 +1931,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "0CCF271EA67D467C"
 				item: {
@@ -1967,7 +1967,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "13770D4C8411A9FB"
 				item: {
@@ -2003,7 +2003,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Tier 6"
+			subtitle: "Tier 6."
 			tasks: [{
 				id: "5EA1FA7AE77EC064"
 				item: {
@@ -2038,7 +2038,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Expanded Storage"
+			subtitle: "Expanded Storage."
 			tasks: [{
 				id: "3BD79083DE3463C0"
 				item: "sophisticatedbackpacks:copper_backpack"
@@ -2065,7 +2065,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Improved Storage"
+			subtitle: "Improved Storage."
 			tasks: [{
 				id: "3DF13E95156D27B7"
 				item: "sophisticatedbackpacks:iron_backpack"
@@ -2092,7 +2092,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Superior Storage"
+			subtitle: "Superior Storage."
 			tasks: [{
 				id: "7BAE3BA55C5D92B7"
 				item: "sophisticatedbackpacks:gold_backpack"
@@ -2119,7 +2119,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Advanced Storage"
+			subtitle: "Advanced Storage."
 			tasks: [{
 				id: "0EE12D2789BCD3DC"
 				item: "sophisticatedbackpacks:diamond_backpack"
@@ -2145,7 +2145,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Maximum Storage"
+			subtitle: "Maximum Storage."
 			tasks: [{
 				id: "4D97305AF93377C1"
 				item: "sophisticatedbackpacks:netherite_backpack"
@@ -2172,7 +2172,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Collect Nearby Items"
+			subtitle: "Collect Nearby Items."
 			tasks: [{
 				id: "6D05333448E62726"
 				item: "sophisticatedbackpacks:pickup_upgrade"
@@ -2198,7 +2198,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Collect With Smarter Filters"
+			subtitle: "Collect With Smarter Filters."
 			tasks: [{
 				id: "6E8A754D5190A48D"
 				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
@@ -2224,7 +2224,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Control Item Flow"
+			subtitle: "Control Item Flow."
 			tasks: [{
 				id: "27DD9959E3353752"
 				item: "sophisticatedbackpacks:filter_upgrade"
@@ -2250,7 +2250,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Precise Filtering Options"
+			subtitle: "Precise Filtering Options."
 			tasks: [{
 				id: "591A52DA0CFD2001"
 				item: "sophisticatedbackpacks:advanced_filter_upgrade"
@@ -2276,7 +2276,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Pull Items From Afar"
+			subtitle: "Pull Items From Afar."
 			tasks: [{
 				id: "4DB3B4B2E22E6BD5"
 				item: "sophisticatedbackpacks:magnet_upgrade"
@@ -2302,7 +2302,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Extended Range \\& Filters"
+			subtitle: "Extended Range \\& Filters."
 			tasks: [{
 				id: "1F9EFF59543A97B3"
 				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
@@ -2332,7 +2332,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Auto Feed Stored Food"
+			subtitle: "Auto Feed Stored Food."
 			tasks: [{
 				id: "4469BCC79C9035E5"
 				item: "sophisticatedbackpacks:feeding_upgrade"
@@ -2358,7 +2358,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Customizable Feeding"
+			subtitle: "Customizable Feeding."
 			tasks: [{
 				id: "0E1F95C982E10455"
 				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
@@ -2384,7 +2384,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Instantly Combine Resources"
+			subtitle: "Instantly Combine Resources."
 			tasks: [{
 				id: "753626BD7A649908"
 				item: "sophisticatedbackpacks:compacting_upgrade"
@@ -2410,7 +2410,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Compacts 3x3 Recipes"
+			subtitle: "Compacts 3x3 Recipes."
 			tasks: [{
 				id: "175CA1FD6029D2AD"
 				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
@@ -2440,7 +2440,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Destroy Unwanted Items"
+			subtitle: "Destroy Unwanted Items."
 			tasks: [{
 				id: "4CDA162D8BB20228"
 				item: "sophisticatedbackpacks:void_upgrade"
@@ -2466,7 +2466,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Enhanced Destruction"
+			subtitle: "Enhanced Destruction."
 			tasks: [{
 				id: "014C48F4BBC8919B"
 				item: "sophisticatedbackpacks:advanced_void_upgrade"
@@ -2492,7 +2492,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Easily Collect Resources"
+			subtitle: "Easily Collect Resources."
 			tasks: [{
 				id: "4F20F4832697551B"
 				item: "sophisticatedbackpacks:restock_upgrade"
@@ -2518,7 +2518,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Enhanced Stocking"
+			subtitle: "Enhanced Stocking."
 			tasks: [{
 				id: "53AEAB4606049777"
 				item: "sophisticatedbackpacks:advanced_restock_upgrade"
@@ -2544,7 +2544,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Built in Chute"
+			subtitle: "Built in Chute."
 			tasks: [{
 				id: "06FD3547E65BFD53"
 				item: "sophisticatedbackpacks:deposit_upgrade"
@@ -2574,7 +2574,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Filter Your Deposits"
+			subtitle: "Filter Your Deposits."
 			tasks: [{
 				id: "21A034A7224EED69"
 				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
@@ -2600,7 +2600,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "A Builder's Dream"
+			subtitle: "A Builder's Dream."
 			tasks: [{
 				id: "3C5E942E9C1B09A6"
 				item: "sophisticatedbackpacks:refill_upgrade"
@@ -2658,7 +2658,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Smelt Items Inside"
+			subtitle: "Smelt Items Inside."
 			tasks: [{
 				id: "296CBE822295D3CA"
 				item: "sophisticatedbackpacks:smelting_upgrade"
@@ -2684,7 +2684,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Efficient Smelting"
+			subtitle: "Efficient Smelting."
 			tasks: [{
 				id: "2E2669CC9D9E3DC7"
 				item: "sophisticatedbackpacks:auto_smelting_upgrade"
@@ -2710,7 +2710,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Faster Cooking"
+			subtitle: "Faster Cooking."
 			tasks: [{
 				id: "4CE35CA73E8DDB09"
 				item: "sophisticatedbackpacks:smoking_upgrade"
@@ -2736,7 +2736,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Efficient Smoking"
+			subtitle: "Efficient Smoking."
 			tasks: [{
 				id: "22215F2F3D53C47B"
 				item: "sophisticatedbackpacks:auto_smoking_upgrade"
@@ -2762,7 +2762,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Ore Smelter"
+			subtitle: "The Ore Smelter."
 			tasks: [{
 				id: "53AAF6700EC60301"
 				item: "sophisticatedbackpacks:blasting_upgrade"
@@ -2788,7 +2788,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Better Blasting"
+			subtitle: "Better Blasting."
 			tasks: [{
 				id: "531AFCABA9525B83"
 				item: "sophisticatedbackpacks:auto_blasting_upgrade"
@@ -2818,7 +2818,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Play Music Discs"
+			subtitle: "Play Music Discs."
 			tasks: [{
 				id: "107237F6650A5D86"
 				item: "sophisticatedbackpacks:jukebox_upgrade"
@@ -2848,7 +2848,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "More Music Options"
+			subtitle: "More Music Options."
 			tasks: [{
 				id: "4C5EFD76F2FDC353"
 				item: "sophisticatedbackpacks:advanced_jukebox_upgrade"
@@ -2874,7 +2874,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Automated Breaking"
+			subtitle: "Automated Breaking."
 			tasks: [{
 				id: "28408E8140C4C319"
 				item: "sophisticatedbackpacks:tool_swapper_upgrade"
@@ -2909,7 +2909,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Enhanced Swapping"
+			subtitle: "Enhanced Swapping."
 			tasks: [{
 				id: "0B147D31AF2B495F"
 				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
@@ -2935,7 +2935,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Fluid Flow"
+			subtitle: "Fluid Flow."
 			tasks: [{
 				id: "0224E9C9E9631417"
 				item: "sophisticatedbackpacks:pump_upgrade"
@@ -2972,7 +2972,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Advanced Fluid Applications"
+			subtitle: "Advanced Fluid Applications."
 			tasks: [
 				{
 					id: "0788148932E838DF"
@@ -3006,7 +3006,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Fluid Storage"
+			subtitle: "Fluid Storage."
 			tasks: [{
 				id: "7BB9550F694B40DF"
 				item: "sophisticatedbackpacks:tank_upgrade"
@@ -3031,7 +3031,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Backpack Squared"
+			subtitle: "Backpack Squared."
 			tasks: [{
 				id: "3C243CCA88A5260B"
 				item: "sophisticatedbackpacks:inception_upgrade"
@@ -3057,7 +3057,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Potential Energy"
+			subtitle: "Potential Energy."
 			tasks: [{
 				id: "06F62760216EF6FE"
 				item: "sophisticatedbackpacks:battery_upgrade"
@@ -3083,7 +3083,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Protected Pack"
+			subtitle: "Protected Pack."
 			tasks: [{
 				id: "6E8ED1C0A0D928C7"
 				item: "sophisticatedbackpacks:everlasting_upgrade"
@@ -3101,7 +3101,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Easy Crafting"
+			subtitle: "Easy Crafting."
 			tasks: [{
 				id: "0469B7B28E31E246"
 				item: "sophisticatedbackpacks:crafting_upgrade"
@@ -3119,7 +3119,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Easy Stonecutting"
+			subtitle: "Easy Stonecutting."
 			tasks: [{
 				id: "22F6D7281C84D252"
 				item: "sophisticatedbackpacks:stonecutter_upgrade"
@@ -3137,7 +3137,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Built-In Anvil"
+			subtitle: "Built-In Anvil."
 			tasks: [{
 				id: "1D4ECD5C6A42BCAD"
 				item: "sophisticatedbackpacks:anvil_upgrade"
@@ -3155,7 +3155,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Easy Smithing"
+			subtitle: "Easy Smithing."
 			tasks: [{
 				id: "45C629B0D53D69A9"
 				item: "sophisticatedbackpacks:smithing_upgrade"
@@ -3192,7 +3192,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Effect Infuser"
+			subtitle: "Effect Infuser."
 			tasks: [{
 				id: "42C8812AE9C9E261"
 				item: "sophisticatedbackpacks:alchemy_upgrade"
@@ -3218,7 +3218,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Enhanced Effects"
+			subtitle: "Enhanced Effects."
 			tasks: [{
 				id: "4C0A3E2DB6DCB42D"
 				item: "sophisticatedbackpacks:advanced_alchemy_upgrade"
@@ -3244,7 +3244,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Improved Stacking"
+			subtitle: "Improved Stacking."
 			tasks: [{
 				id: "6731971510024FB0"
 				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
@@ -3270,7 +3270,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Enhanced Stacking"
+			subtitle: "Enhanced Stacking."
 			tasks: [{
 				id: "49CFAB222E5608F2"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
@@ -3296,7 +3296,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Superior Stacking"
+			subtitle: "Superior Stacking."
 			tasks: [{
 				id: "5E9B53E04B0D7A41"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
@@ -3322,7 +3322,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Advanced Stacking"
+			subtitle: "Advanced Stacking."
 			tasks: [{
 				id: "7E38764C1198EA81"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
@@ -3348,7 +3348,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Optimized Stacking"
+			subtitle: "Optimized Stacking."
 			tasks: [{
 				id: "29A43B349FFFCC8F"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
@@ -3373,7 +3373,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Ultimate Stacking"
+			subtitle: "Ultimate Stacking."
 			tasks: [{
 				id: "15E5312F3D102FED"
 				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
@@ -3400,7 +3400,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Lesser Stacking"
+			subtitle: "Lesser Stacking."
 			tasks: [
 				{
 					id: "196A874076B32DD8"
@@ -3441,7 +3441,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "Built to Be Improved"
+			subtitle: "Built to Be Improved."
 			tasks: [{
 				id: "4D78ECEE33A3D9DE"
 				item: "sophisticatedstorage:upgrade_base"
@@ -3459,7 +3459,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Easy Crafting"
+			subtitle: "Easy Crafting."
 			tasks: [{
 				id: "5FC4EFD3F1819BF8"
 				item: "sophisticatedstorage:crafting_upgrade"
@@ -3477,7 +3477,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Easy Stonecutting"
+			subtitle: "Easy Stonecutting."
 			tasks: [{
 				id: "3F9FB9D413D22EEF"
 				item: "sophisticatedstorage:stonecutter_upgrade"
@@ -3549,7 +3549,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Configure Storage with Ease"
+			subtitle: "Configure Storage with Ease."
 			tasks: [{
 				id: "305EABDB7A52ACDE"
 				item: "sophisticatedstorage:storage_tool"
@@ -3586,7 +3586,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Customize Every Detail"
+			subtitle: "Customize Every Detail."
 			tasks: [{
 				id: "55C23A3BA4B727AB"
 				item: "sophisticatedstorage:decoration_table"
@@ -3623,7 +3623,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Splash on Some Color"
+			subtitle: "Splash on Some Color."
 			tasks: [{
 				id: "4078042F91359311"
 				item: "sophisticatedstorage:paintbrush"
@@ -3649,7 +3649,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Collect Nearby Items"
+			subtitle: "Collect Nearby Items."
 			tasks: [{
 				id: "074B36896E747BC2"
 				item: "sophisticatedstorage:pickup_upgrade"
@@ -3675,7 +3675,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Collect With Smarter Filters"
+			subtitle: "Collect With Smarter Filters."
 			tasks: [{
 				id: "43DB3A060BA5FB47"
 				item: "sophisticatedstorage:advanced_pickup_upgrade"
@@ -3701,7 +3701,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Pull Items From Afar"
+			subtitle: "Pull Items From Afar."
 			tasks: [{
 				id: "181F611AFA95DBC4"
 				item: "sophisticatedstorage:magnet_upgrade"
@@ -3727,7 +3727,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Extended Range \\& Filters"
+			subtitle: "Extended Range \\& Filters."
 			tasks: [{
 				id: "7D2752A597DF6A89"
 				item: "sophisticatedstorage:advanced_magnet_upgrade"
@@ -3753,7 +3753,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Control Item Flow"
+			subtitle: "Control Item Flow."
 			tasks: [{
 				id: "3B3717B8F6DA60CC"
 				item: "sophisticatedstorage:filter_upgrade"
@@ -3779,7 +3779,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Precise Filtering Options"
+			subtitle: "Precise Filtering Options."
 			tasks: [{
 				id: "0EF9CC2FDB697F9A"
 				item: "sophisticatedstorage:advanced_filter_upgrade"
@@ -3809,7 +3809,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Destroy Unwanted Items"
+			subtitle: "Destroy Unwanted Items."
 			tasks: [{
 				id: "349A80BF96236B38"
 				item: "sophisticatedstorage:void_upgrade"
@@ -3835,7 +3835,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Enhanced Destruction"
+			subtitle: "Enhanced Destruction."
 			tasks: [{
 				id: "694D56D3518B2FCF"
 				item: "sophisticatedstorage:advanced_void_upgrade"
@@ -3861,7 +3861,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Instantly Combine Resources"
+			subtitle: "Instantly Combine Resources."
 			tasks: [{
 				id: "0B6F01D912631B2C"
 				item: "sophisticatedstorage:compacting_upgrade"
@@ -3887,7 +3887,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Compacts 3x3 Recipes"
+			subtitle: "Compacts 3x3 Recipes."
 			tasks: [{
 				id: "520B0FD9F0A664C7"
 				item: "sophisticatedstorage:advanced_compacting_upgrade"
@@ -3917,7 +3917,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Play Music Discs"
+			subtitle: "Play Music Discs."
 			tasks: [{
 				id: "18E57AFC85FB7DAB"
 				item: "sophisticatedstorage:jukebox_upgrade"
@@ -3931,7 +3931,7 @@
 			description: [
 				"The Advanced Jukebox Upgrade allows you to store more discs and also control how they are played."
 				"{@pagebreak}"
-				"Hey there adventurer.... play the pancake in the Jukebox, you won't be disappointed ;)"
+				"Hey there adventurer.... play the pancake in the Jukebox, you won't be disappointed;)"
 			]
 			id: "68F85E7D16CBAAAF"
 			rewards: [
@@ -3946,7 +3946,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "More Music Options"
+			subtitle: "More Music Options."
 			tasks: [{
 				id: "016CBE97B975EF93"
 				item: "sophisticatedstorage:advanced_jukebox_upgrade"
@@ -3972,7 +3972,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Auto Feed Stored Food"
+			subtitle: "Auto Feed Stored Food."
 			tasks: [{
 				id: "4A939AFE78F84B22"
 				item: "sophisticatedstorage:feeding_upgrade"
@@ -4002,7 +4002,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Customizable Feeding"
+			subtitle: "Customizable Feeding."
 			tasks: [{
 				id: "7C2BD0FA3FE8F1C8"
 				item: "sophisticatedstorage:advanced_feeding_upgrade"
@@ -4028,7 +4028,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Smelt Items Inside"
+			subtitle: "Smelt Items Inside."
 			tasks: [{
 				id: "0C6F7FF242DE4B7D"
 				item: "sophisticatedstorage:smelting_upgrade"
@@ -4054,7 +4054,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Efficient Smelting"
+			subtitle: "Efficient Smelting."
 			tasks: [{
 				id: "399E4DF2CF56376A"
 				item: "sophisticatedstorage:auto_smelting_upgrade"
@@ -4080,7 +4080,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Faster Cooking"
+			subtitle: "Faster Cooking."
 			tasks: [{
 				id: "1CFDF1392707C4AC"
 				item: "sophisticatedstorage:smoking_upgrade"
@@ -4106,7 +4106,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Efficient Smoking"
+			subtitle: "Efficient Smoking."
 			tasks: [{
 				id: "0766138A88CD103A"
 				item: "sophisticatedstorage:auto_smoking_upgrade"
@@ -4132,7 +4132,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Ore Smelter"
+			subtitle: "The Ore Smelter."
 			tasks: [{
 				id: "245E255C55D14FD3"
 				item: "sophisticatedstorage:blasting_upgrade"
@@ -4158,7 +4158,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Better Blasting"
+			subtitle: "Better Blasting."
 			tasks: [{
 				id: "52C0395CCBC2E05B"
 				item: "sophisticatedstorage:auto_blasting_upgrade"
@@ -4184,7 +4184,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Automate Item Transfer"
+			subtitle: "Automate Item Transfer."
 			tasks: [{
 				id: "430BBAD0E50EA73A"
 				item: "sophisticatedstorage:hopper_upgrade"
@@ -4210,7 +4210,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Configurable Input/Output"
+			subtitle: "Configurable Input/Output."
 			tasks: [{
 				id: "0AD127D8EAB184A7"
 				item: "sophisticatedstorage:advanced_hopper_upgrade"
@@ -4247,7 +4247,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Effect Infuser"
+			subtitle: "Effect Infuser."
 			tasks: [{
 				id: "13CB7E364A08F463"
 				item: "sophisticatedstorage:alchemy_upgrade"
@@ -4273,7 +4273,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Enhanced Effects"
+			subtitle: "Enhanced Effects."
 			tasks: [{
 				id: "5C18F1DCE50A49AA"
 				item: "sophisticatedstorage:advanced_alchemy_upgrade"
@@ -4305,7 +4305,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Auto Compress \\& Decompress Items"
+			subtitle: "Auto Compress \\& Decompress Items."
 			tasks: [{
 				id: "3D5FF0410B1AF7A9"
 				item: "sophisticatedstorage:compression_upgrade"
@@ -4335,7 +4335,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Upgradable Storages"
+			subtitle: "Upgradable Storages."
 			tasks: [{
 				id: "70B0BBA9D93269EC"
 				item: "sophisticatedstorage:basic_tier_upgrade"
@@ -4362,7 +4362,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Basic Stacking"
+			subtitle: "Basic Stacking."
 			tasks: [{
 				id: "7498955A04060A33"
 				item: "sophisticatedstorage:stack_upgrade_tier_1"
@@ -4388,7 +4388,7 @@
 					xp: 75
 				}
 			]
-			subtitle: "Improved Stacking"
+			subtitle: "Improved Stacking."
 			tasks: [{
 				id: "6639D89D867F0818"
 				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
@@ -4414,7 +4414,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Enhanced Stacking"
+			subtitle: "Enhanced Stacking."
 			tasks: [{
 				id: "6C9FFD623ED21B85"
 				item: "sophisticatedstorage:stack_upgrade_tier_2"
@@ -4440,7 +4440,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Superior Stacking"
+			subtitle: "Superior Stacking."
 			tasks: [{
 				id: "7CB56D224A0196AE"
 				item: "sophisticatedstorage:stack_upgrade_tier_3"
@@ -4466,7 +4466,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Advanced Stacking"
+			subtitle: "Advanced Stacking."
 			tasks: [{
 				id: "38490F85BFE6A06B"
 				item: "sophisticatedstorage:stack_upgrade_tier_4"
@@ -4491,7 +4491,7 @@
 					xp_levels: 5
 				}
 			]
-			subtitle: "Optimized Stacking"
+			subtitle: "Optimized Stacking."
 			tasks: [{
 				id: "71B3204CC1A8CF84"
 				item: "sophisticatedstorage:stack_upgrade_tier_5"
@@ -4516,7 +4516,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Ultimate Stacking"
+			subtitle: "Ultimate Stacking."
 			tasks: [{
 				id: "171E4BA8CF9EE5EC"
 				item: "sophisticatedstorage:stack_upgrade_omega_tier"
@@ -4548,7 +4548,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The Heart of Your Storage Network"
+			subtitle: "The Heart of Your Storage Network."
 			tasks: [
 				{
 					id: "45D78ED56171391F"
@@ -4586,7 +4586,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Linked Logistics"
+			subtitle: "Linked Logistics."
 			tasks: [{
 				id: "75D6CDAD6052F291"
 				item: "sophisticatedstorage:storage_link"
@@ -4620,7 +4620,7 @@
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "A Backpack or your Money Back"
+			subtitle: "A Backpack or your Money Back."
 			tasks: [
 				{
 					entity: "minecraft:cow"
@@ -4657,7 +4657,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Lesser Stacking"
+			subtitle: "Lesser Stacking."
 			tasks: [
 				{
 					id: "77EA63352B231ACB"
@@ -4905,7 +4905,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Cross-Dimensional Storage"
+			subtitle: "Cross-Dimensional Storage."
 			tasks: [{
 				id: "56A058DE6DB4F65A"
 				item: {
