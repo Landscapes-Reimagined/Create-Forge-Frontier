@@ -1,5 +1,5 @@
 {
-	autofocus_id: "55E1F170D9933E8F"
+	autofocus_id: "00AABBBA631B3828"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "end_remastered"
@@ -56,7 +56,7 @@
 			]
 			title: "Integrated Stronghold"
 			x: 0.0d
-			y: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -211,8 +211,8 @@
 				}
 			]
 			title: "Forging the Black Eye"
-			x: -6.5d
-			y: 4.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -302,8 +302,8 @@
 				}
 			]
 			title: "Frozen Legacy"
-			x: -4.5d
-			y: 3.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -419,8 +419,8 @@
 				}
 			]
 			title: "The Demon’s Gaze"
-			x: 4.5d
-			y: 3.0d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -559,8 +559,8 @@
 				}
 			]
 			title: "Sands of Eternity"
-			x: 6.5d
-			y: 4.5d
+			x: -1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -661,8 +661,8 @@
 				}
 			]
 			title: "Spark of Ingenuity"
-			x: 7.5d
-			y: 7.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -800,8 +800,8 @@
 				}
 			]
 			title: "Pact of Ashes"
-			x: 7.5d
-			y: 12.5d
+			x: 1.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -978,8 +978,8 @@
 				}
 			]
 			title: "Blessing of the Ancients"
-			x: 6.5d
-			y: 15.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -1091,8 +1091,8 @@
 				}
 			]
 			title: "Tears of the Abyss"
-			x: 4.5d
-			y: 17.0d
+			x: 1.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -1212,8 +1212,8 @@
 				}
 			]
 			title: "Mysteries of the Storm"
-			x: -7.5d
-			y: 12.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			description: [
@@ -1320,8 +1320,8 @@
 				}
 			]
 			title: "Veilbreaker's Rite"
-			x: -7.5d
-			y: 7.5d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -1448,8 +1448,8 @@
 				}
 			]
 			title: "Echoes of the Deep"
-			x: -6.5d
-			y: 15.5d
+			x: -1.5d
+			y: 10.0d
 		}
 		{
 			description: [
@@ -1561,8 +1561,8 @@
 				}
 			]
 			title: "The Evoker’s Heart"
-			x: 2.0d
-			y: 18.0d
+			x: -3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -1653,8 +1653,8 @@
 				}
 			]
 			title: "Secrets of the Cauldron"
-			x: -4.5d
-			y: 17.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -1746,8 +1746,8 @@
 				}
 			]
 			title: "Ashes of Empires"
-			x: -2.0d
-			y: 18.0d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -2186,8 +2186,8 @@
 				}
 			]
 			title: "Cursed Riches"
-			x: -2.0d
-			y: 2.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00AABBBA631B3828"]
@@ -2290,8 +2290,8 @@
 				}
 			]
 			title: "Ember of Creation"
-			x: 2.0d
-			y: 2.0d
+			x: -1.5d
+			y: 8.0d
 		}
 	]
 	title: "End Remastered"
