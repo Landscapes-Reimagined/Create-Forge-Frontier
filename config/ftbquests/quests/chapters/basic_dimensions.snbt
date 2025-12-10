@@ -46,13 +46,14 @@
 		{
 			dependencies: ["5DA842A1588FB8BE"]
 			description: [
-				"Every grand journey begins with a single strike."
+				"Every journey begins with fundamental survival steps."
 				""
-				"Before you can reshape the world, you must first learn to survive within it.  "
-				"Your adventure begins at the roots-&2gathering wood&r, &7crafting your first tools&r, and taking your first steps into an untamed land."
+				"Gathering wood is your first essential task, enabling you to craft basic tools and begin shaping the environment around you. These early resources provide the foundation for shelter, exploration, and your initial progression through &6Create - Forge Frontier&r."
 				""
-				"Punch trees, collect vital resources, and lay the first block in what will become a legacy of innovation, exploration, and mastery.  "
-				" From humble beginnings, greatness will rise."
+				"{@pagebreak}"
+				"Punch trees, collect materials, and craft your first set of tools. These early actions establish the groundwork for the automation, engineering, and exploration systems you will unlock throughout your adventure."
+				""
+				"Small beginnings lead to major milestones—start here, and build toward the challenges that await."
 			]
 			icon: {
 				Count: 1
@@ -79,7 +80,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Punch a tree. Gather wood. Begin your legacy. Click me for more info!"
+			subtitle: "Punch a tree. Gather wood. Begin your progression. Click for more info!"
 			tasks: [{
 				count: 10L
 				id: "092E8C7657E57E80"
@@ -93,20 +94,21 @@
 				title: "Gather 10 of Any Log"
 				type: "item"
 			}]
-			title: "First Light"
+			title: "&6First Light&r"
 			x: -21.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1881B38A98C580A3"]
 			description: [
-				"Survival begins with purpose-and purpose begins with tools."
+				"Progress begins with the ability to craft and shape your surroundings."
 				""
-				"Gather your first materials and turn them into something greater: a &fCrafting Table&r, the cornerstone of every invention.  "
-				"Then take up your &6Wooden Pickaxe&r and prepare to shape the world beneath your feet."
+				"Start by gathering basic materials and creating a &fCrafting Table&r—your primary workstation and the foundation for nearly every tool and device you will build. From there, craft your first &6Wooden Pickaxe&r to begin accessing stone, ores, and the deeper resources of the world."
 				""
-				"With stronger tools come new horizons.  "
-				" Every strike of the pickaxe is a step toward mastery."
+				"{@pagebreak}"
+				"These early tools enable you to upgrade your equipment, expand your capabilities, and prepare for increasingly complex tasks. Each improvement marks a step forward in your progression through &6Create - Forge Frontier&r."
+				""
+				"Establish your tools, and open the path to greater engineering challenges ahead."
 			]
 			icon: {
 				Count: 1
@@ -133,7 +135,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft a crafting table and your first pickaxe-forge the tools to shape your future. Click me for more info!"
+			subtitle: "Craft a crafting table and your first pickaxe—establish the tools that begin your progression. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -164,21 +166,19 @@
 					type: "item"
 				}
 			]
-			title: "Tools of the Trade"
+			title: "&6Tools of the Trade&r"
 			x: -19.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["62BFFEB56245C2F3"]
 			description: [
-				"When the sun dips below the horizon, the Overworld awakens in shadow."
+				"Nightfall introduces your first major survival challenge. Hostile mobs emerge in darkness, making preparation essential for continued progression."
 				""
-				"Darkness brings danger-&ccreatures of the night&r emerge, hunting the unprepared.  "
-				"To survive, you must create a sanctuary: a shelter to protect you, torches to light the void, and walls to hold back the unknown."
+				"Construct a simple shelter, place torches to maintain visibility, and establish a safe space to operate during early exploration. Even a basic structure provides the protection needed to gather resources, craft tools, and plan future advancements."
 				""
-				"Will your first home be a humble refuge... or the foundation of a future fortress?"
-				""
-				"&nYour safe haven begins with a single block.&r"
+				"{@pagebreak}"
+				"This initial refuge marks the beginning of your infrastructure. Whether temporary or long-term, it forms the foundation for the bases, machines, and systems you will build throughout your journey."
 			]
 			icon: "minecraft:red_bed"
 			id: "14DDC1E6A974F3AD"
@@ -195,7 +195,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Build your first shelter and keep the night at bay. Click me for more info!"
+			subtitle: "Build your first shelter and secure safety during the night. Click for more info!"
 			tasks: [
 				{
 					id: "05079E9EE0A977C1"
@@ -212,21 +212,18 @@
 					value: 4L
 				}
 			]
-			title: "Light in the Darkness"
+			title: "&6Light in the Darkness&r"
 			x: -18.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["14DDC1E6A974F3AD"]
 			description: [
-				"The earth hides its treasures well-but fortune favors the bold."
+				"Stone, coal, and iron form the foundation of your early technological progression. These materials enable improved tools, consistent fuel sources, and the equipment required for more advanced crafting systems."
 				""
-				"Beneath the surface lies a world of &7stone&r, &8coal&r, and &firon&r-essential materials for your rise to power.  "
-				"Venture into the depths, carve through layers of rock, and unearth the riches that will fuel your next great creation."
+				"Explore caves or carve into the terrain to gather these essential resources. Upgrading your tools and maintaining a supply of basic ores will strengthen your ability to survive, expand, and prepare for higher-tier objectives."
 				""
-				"Equip yourself with stronger tools and stay vigilant-&nveins of precious minerals&r await those who dare to dig deeper."
-				""
-				"&nYour journey to greatness begins underground.&r"
+				"Mining these early materials is your first step toward larger infrastructure and more complex engineering later in the journey."
 			]
 			icon: {
 				Count: 1
@@ -255,7 +252,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mine stone, coal, and iron to fuel your survival and unlock progress. Click me for more info!"
+			subtitle: "Mine stone, coal, and iron to support your early progression. Click for more info!"
 			tasks: [
 				{
 					block: "minecraft:stone"
@@ -278,20 +275,19 @@
 					type: "item"
 				}
 			]
-			title: "Depths of Fortune"
+			title: "&6Depths of Fortune&r"
 			x: -16.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["774048801A50E2D4"]
 			description: [
-				"With &fIron&r comes strength, resilience-and the power to face what lies ahead."
+				"Iron marks a major improvement in durability, efficiency, and protection. Smelt your first iron ingots and upgrade your tools to significantly enhance your ability to gather resources and navigate dangerous environments."
 				""
-				"Smelt your first iron ingots and craft a set of tools worthy of a true adventurer.  "
-				"Then take it a step further-&7forge a full suit of armor&r to shield yourself from the growing dangers of the world."
+				"Crafting a full set of iron armor provides essential defense against early threats, allowing you to explore more confidently and tackle increasingly difficult encounters."
 				""
-				"With each ingot, you shape more than metal-you forge your survival.  "
-				" &nStep into the iron age and prepare for the trials to come.&r"
+				"{@pagebreak}"
+				"Advancing into the iron tier establishes a strong foundation for the engineering, automation, and exploration systems that follow."
 				""
 				"Learn more about tools and armor in its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
@@ -315,7 +311,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft your first set of iron tools and armor-harden yourself for what lies ahead. Click me for more info!"
+			subtitle: "Craft your first set of iron tools and armor to prepare for upcoming challenges. Click for more info!"
 			tasks: [
 				{
 					count: 5L
@@ -335,20 +331,19 @@
 					type: "item"
 				}
 			]
-			title: "Forged for Battle"
+			title: "&6Forged for Battle&r"
 			x: -15.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["795BB1A225B65C14"]
 			description: [
-				"Exploration feeds the spirit-but food fuels the body."
+				"Maintaining a reliable food supply is essential for survival and early progression. Consistent access to nourishment allows you to explore, gather resources, and engage in combat without interruption."
 				""
-				"Whether you hunt wild game, cultivate crops, or embrace the art of cooking, one truth remains: &nno journey lasts long on an empty stomach&r.  "
-				"Establish a reliable food source to keep yourself strong, alert, and ready for the challenges ahead."
+				"Establish a stable source of food through hunting, farming, or basic cooking. Each approach strengthens your ability to operate efficiently and prepares you for more demanding tasks as you advance."
 				""
-				"A well-fed adventurer doesn’t just survive-they thrive.  "
-				"&nMaster your meals, and you’ll master the wild.&r"
+				"{@pagebreak}"
+				"A dependable food system supports long-term exploration and provides the foundation for sustained growth throughout your journey."
 			]
 			id: "49D8A4094E06C73A"
 			rewards: [
@@ -365,27 +360,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "Secure a sustainable food source to survive-and thrive-on your adventures. Click me for more info!"
+			subtitle: "Secure a sustainable food source to support continued progression. Click for more info!"
 			tasks: [{
 				count: 10L
 				id: "1CDA8A68DD2C77C5"
 				item: { Count: 10, id: "minecraft:wheat" }
 				type: "item"
 			}]
-			title: "Fuel for the Journey"
+			title: "&6Fuel for the Journey&r"
 			x: -13.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["49D8A4094E06C73A"]
 			description: [
-				"In the absence of light, danger thrives."
+				"Light plays a critical role in early survival and exploration. Hostile mobs spawn in darkness, making unlit areas hazardous during both surface travel and cave expeditions."
 				""
-				"From the deepest caves to the highest peaks, &odarkness conceals threats that can end your journey in an instant&r.  "
-				"Craft torches, lanterns, and campfires to push back the shadows and illuminate the path ahead."
+				"Craft torches, lanterns, or campfires to illuminate your surroundings and establish safe zones as you gather resources or build your base. Proper lighting improves visibility, reduces unexpected encounters, and supports efficient navigation through underground and overworld environments."
 				""
-				"Light is more than comfort-it’s survival.  "
-				" &nShine a light into the unknown, and take control of your fate.&r"
+				"{@pagebreak}"
+				"Integrating reliable light sources into your early progression ensures greater safety and stability as you continue your journey."
 			]
 			icon: {
 				Count: 1
@@ -398,7 +392,7 @@
 				type: "xp"
 				xp: 25
 			}]
-			subtitle: "Craft light sources to reveal the world and keep the shadows at bay. Click me for more info!"
+			subtitle: "Craft light sources to illuminate your surroundings and maintain safety. Click for more info!"
 			tasks: [
 				{
 					count: 16L
@@ -412,19 +406,19 @@
 					type: "item"
 				}
 			]
-			title: "Kindle the Flame"
+			title: "&6Kindle the Flame&r"
 			x: -12.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["19AA16DF731E0652"]
 			description: [
-				"Beneath the stone lies more than ore-&nit holds the keys to your advancement&r."
+				"As you progress underground, key resources begin to shape your ability to access more advanced systems in &6Create - Forge Frontier&r. Gold, redstone, and lapis each play a distinct role in unlocking new mechanics and crafting pathways."
 				""
-				"Delve deeper in search of &6Gold&r, &cRedstone&r, and &9Lapis Lazuli&r-each a vital resource unlocking new paths forward.  "
-				"From powering complex contraptions to fueling enchanting rituals, these treasures are the foundation of your next great leap."
+				"Mine &6Gold&r to support higher-tier components and specialized crafting. Gather &cRedstone&r to enable automation, circuitry, and functional contraptions. Collect &9Lapis Lazuli&r to prepare for enchanting and additional utility systems."
 				""
-				" &nUncover the riches of the deep, and turn raw potential into boundless progress.&r"
+				"{@pagebreak}"
+				"These materials form the backbone of mid-game progression, providing the tools needed to expand your engineering capabilities and refine your approach to exploration and survival."
 			]
 			icon: {
 				Count: 1
@@ -446,7 +440,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Mine gold, redstone, and lapis to unlock the tools of progress and power. Click me for more info!"
+			subtitle: "Mine gold, redstone, and lapis to unlock new crafting and progression systems. Click for more info!"
 			tasks: [
 				{
 					count: 2L
@@ -467,13 +461,19 @@
 					type: "item"
 				}
 			]
-			title: "Secrets in Stone"
+			title: "&6Secrets in Stone&r"
 			x: -10.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["218A44E2EE4B49E4"]
-			description: ["Diamonds-stronger than iron, rarer than gold. These precious gems are the pinnacle of early-game progression. Mine at Y-Level -59 and collect enough diamonds to forge the ultimate tools and armor. More than just a luxury, they are the key to gathering obsidian, the gateway to even greater adventures. "]
+			description: [
+				"Diamonds mark a major milestone in early-to-mid game progression. Found most reliably near Y-Level -59, these durable resources enable the creation of high-tier tools and armor that significantly enhance your mining efficiency and overall survivability."
+				""
+				"Collecting diamonds also grants access to obsidian mining, which serves as a gateway to additional dimensions, crafting systems, and long-term advancement goals within &6Create - Forge Frontier&r."
+				""
+				"Securing a steady supply of diamonds strengthens your foundation for the challenges and technologies ahead."
+			]
 			id: "1C80B7736557D99F"
 			rewards: [
 				{
@@ -502,19 +502,19 @@
 				type: "questsadditions:break"
 				value: 3L
 			}]
-			title: "The Power of Diamonds"
+			title: "&6The Power of Diamonds&r"
 			x: -9.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1C80B7736557D99F"]
 			description: [
-				"True strength lies not only in steel-but in the magic that sharpens it."
+				"Enchantment marks a major progression step, offering powerful upgrades that improve tool efficiency, combat capability, and overall survivability. Craft an &dEnchanting Table&r and enhance its effectiveness by surrounding it with &fBookshelves&r to increase available enchantment levels."
 				""
-				"Forge your path to power by crafting an &dEnchanting Table&r, surrounding it with &fBookshelves&r to amplify its arcane potential.  "
-				"Through enchantments, your tools grow sharper, your armor stronger, and your journey more formidable than ever before."
+				"Through this system, you can refine your equipment to better suit the challenges ahead, preparing for combat encounters, resource gathering, and advanced exploration across multiple dimensions."
 				""
-				" &nEmbrace the art of enchantment, and let magic become your greatest ally.&r"
+				"{@pagebreak}"
+				"Understanding and utilizing enchantments strengthens your foundation for mid-to-late game objectives."
 				""
 				"Want to learn more about enchanting? Check out its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6965F4ABCAB88875\" } }"
@@ -552,7 +552,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft an enchanting table, harness magical power, and turn steel into sorcery. Click me for more info!"
+			subtitle: "Craft an enchanting table and enhance your equipment through magical upgrades. Click for more info!"
 			tasks: [
 				{
 					id: "3E902DA8EAD1597C"
@@ -570,20 +570,21 @@
 					value: 5L
 				}
 			]
-			title: "The Arcane Edge"
+			title: "&6The Arcane Edge&r"
 			x: -7.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7B5086A6EF852DF0"]
 			description: [
-				"Scattered across the world are rare ingredients-&nfragments of power waiting to be distilled&r."
+				"Potioncraft provides essential advantages during exploration and combat, particularly when preparing for the challenges introduced in &cNether Remastered&r. Begin by crafting a &eBrewing Stand&r and collecting reagents such as blaze powder, nether wart, and other specialized ingredients found throughout your journey."
 				""
-				"Craft a &eBrewing Stand&r, gather exotic reagents, and begin your journey into potioncraft. From healing wounds to resisting flame, potions can transform the tide of battle and grant you an edge where brute strength falls short."
+				"Potions offer key benefits—from restoring health to mitigating fire damage—allowing you to approach difficult encounters with improved safety and efficiency."
 				""
-				" These brews aren’t just useful-they’re essential. Use them wisely as you venture into the perilous structures tied to &cNether Remastered&r, where the &lSeal Pieces&r await those prepared for the heat of battle."
+				"{@pagebreak}"
+				"Effective use of potions is important when navigating Nether structures and acquiring &lSeal Pieces&r, ensuring you are equipped to handle the hazards and enemies found within."
 				""
-				"&nMaster the art of alchemy, and let every vial become a weapon in your arsenal.&r"
+				"Mastering basic alchemy strengthens your readiness for mid-game progression."
 			]
 			icon: {
 				Count: 1
@@ -610,7 +611,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft potions to empower your journey and conquer the trials of Nether Remastered. Click me for more info!"
+			subtitle: "Craft potions to support your progression and prepare for Nether Remastered challenges. Click for more info!"
 			tasks: [
 				{
 					id: "704BEEACD337EE9B"
@@ -635,26 +636,22 @@
 					type: "item"
 				}
 			]
-			title: "Elixirs of Survival"
+			title: "&6Elixirs of Survival&r"
 			x: -6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["598B697BDE842B0E"]
 			description: [
-				"The &cNether&r is a realm of immense power and peril-but in this world, its gates are sealed."
+				"The &cNether&r plays a central role in mid-game progression, but access to it is restricted. Instead of lighting a standard obsidian portal, you must locate specific Overworld structures that contain the materials and clues required to obtain the &lSeal of the Underworld&r."
 				""
-				"Unlike traditional Minecraft, you cannot simply ignite obsidian and step through.  "
-				"Instead, you must embark on a journey across the Overworld, seeking out ancient structures that guard the keys to the underworld’s fiery threshold."
-				""
-				"Each ruin holds &6valuable loot&r and clues-fragments of a puzzle that, when assembled, unlock the &lSeal of the Underworld&r."
+				"These sites hold valuable loot and key components needed to advance toward the Nether. Searching each location provides fragments of a larger progression path that ultimately enables dimensional access."
 				""
 				"{@pagebreak}"
 				""
 				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
 				""
-				"These structures are more than ruins-they are trials.  "
-				"Will you rise to the challenge and claim the right to enter the inferno?"
+				"These structures function as early trials, guiding you through exploration, combat encounters, and resource gathering that prepare you for the hazards of the Nether."
 				""
 				"Read more about these locations in the  "
 				"{ \"text\": \"Nether Remastered Chapter!\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
@@ -673,7 +670,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click me for more info!"
+			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -685,21 +682,21 @@
 				title: "Locate a Ruined Portal"
 				type: "structure"
 			}]
-			title: "Sealed in Stone"
+			title: "&6Sealed in Stone&r"
 			x: -4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4196DD5F26401205"]
 			description: [
-				"You have prepared, gathered, and conquered the Overworld-  "
-				"but the true test lies beyond flame and shadow."
+				"With the &cSeal of the Underworld&r in hand, you are ready to progress into the next major stage of your journey. Consuming the seal removes the dimensional barrier and activates the Nether portal, granting access to one of the most resource-rich and hazardous environments in &6Create - Forge Frontier&r."
 				""
-				"Once you hold the &cSeal of the Underworld&r in your grasp, consume it to shatter the final barrier and awaken the ancient portal.  "
-				"What awaits is not merely another dimension-but a realm of blazing chaos, forgotten ruins, and trials that will push your limits."
+				"This transition marks a significant milestone, preparing you for advanced materials, specialized structures, and mid-game challenges that define Nether progression."
 				""
-				" &nAre you ready to cross the threshold and step into the fire?&r  "
-				"The &cNether&r awaits."
+				"{@pagebreak}"
+				"Before entering, ensure you have adequate equipment, supplies, and preparation for the heat, terrain, and hostile encounters that await."
+				""
+				"The &cNether&r is designed to test your readiness and push your progression forward."
 				""
 				"Continue your journey in the next  "
 				"{ \"text\": \"Quest Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
@@ -717,46 +714,43 @@
 					xp_levels: 15
 				}
 			]
-			subtitle: "Consume the Seal of the Underworld and step into the blazing depths of the Nether. Click me for more info!"
+			subtitle: "Consume the Seal of the Underworld to activate the portal and enter the Nether. Click for more info!"
 			tasks: [{
 				id: "25B6FE2FFA6F0622"
 				item: "nether_remastered:seal_of_the_underworld_item"
 				type: "item"
 			}]
-			title: "Through the Inferno"
+			title: "&6Through the Inferno&r"
 			x: -3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["5EDC9934E7D346D8"]
 			description: [
-				" &2The Overworld&r"
+				"&2The Overworld&r"
 				""
 				"{image:ftb:textures/overworld_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
-				"The &2Overworld&r is more than your first step-it's the beating heart of your journey through &6Create - Forge Frontier&r.  "
-				"From that first tree you punch to the moment you forge your first machine, every milestone begins here, in a land teeming with life, danger, and untapped potential."
 				""
-				"Explore lush forests, windswept plains, and winding cave systems as you gather resources, build your first shelter, and lay the groundwork for the adventures ahead.  "
-				"Whether you're crafting your first stone pickaxe or forging iron tools beneath a mountain outpost, the Overworld sets the stage for the trials to come."
+				"The &2Overworld&r serves as the starting point for your progression in &6Create - Forge Frontier&r. It provides essential materials, early-game resources, and the environments needed to establish your initial infrastructure. From basic tool creation to your first attempts at automation, this dimension supports every foundational step of your journey."
 				""
-				"{@pagebreak}"
-				""
-				"&l From Survival to Mastery&r  "
-				"Your time in the Overworld isn’t just about collecting materials-it’s about building resilience.  "
-				"Cook hearty meals, manage your health, and defend against the monsters of the night.  "
-				"Establish farms, secure your base, and experiment with early automation as you progress toward advanced crafting and complex contraptions."
-				""
-				"Each crafted item and conquered danger brings you one step closer to unlocking the greater mysteries of the world."
+				"Explore forests, plains, and expansive cave networks as you gather resources, construct your first shelter, and prepare the systems that will carry you into more advanced content."
 				""
 				"{@pagebreak}"
 				""
-				"&l The Journey Begins Here&r  "
-				"This is where legends are forged.  "
-				"With every block placed and battle won, you grow stronger, smarter, and more prepared for what lies beyond."
+				"&lFrom Survival to Mastery&r"
+				"Progression in the Overworld involves more than resource collection. Managing hunger, preparing reliable food sources, maintaining safety during exploration, and experimenting with early automation all contribute to your long-term success."
 				""
-				"But never forget: the Overworld is not just a place-it’s a proving ground.  "
-				"&nMaster it, and you’ll be ready for the realms that follow.&r "
+				"Establish farms, reinforce your base, and begin integrating Create components as you transition from basic survival toward structured engineering."
+				""
+				"Each improvement you make strengthens your ability to tackle future challenges."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe Journey Begins Here&r"
+				"Your efforts in the Overworld form the groundwork for the dimensions and technologies that follow. The systems you build and the experience you gain here directly support your progression into the Nether, the End, and beyond."
+				""
+				"Master this environment, refine your early infrastructure, and prepare for the increasingly complex objectives ahead."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:grass_block"
@@ -768,7 +762,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Begin your journey in the Overworld and forge the foundation for all that lies ahead. Click me for more info!"
+			subtitle: "Begin your journey in the Overworld and establish the foundation for all progression. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -782,28 +776,25 @@
 				type: "stat"
 				value: 5
 			}]
-			title: "Roots of Adventure"
+			title: "&6Roots of Adventure&r"
 			x: -12.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["486542BF23253839"]
 			description: [
-				"&cThe Nether is no ordinary realm-it is a crucible of fire, fury, and forgotten power.&r"
+				"&cThe Nether&r introduces one of the most challenging progression environments in &6Create - Forge Frontier&r. Its terrain, hostile mobs, and unique resource pools require careful preparation and strategic planning."
 				""
 				"{image:ftb:textures/nether_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
 				""
-				"Unlocked through &cNether Remastered&r, this volatile dimension will challenge your survival instincts at every turn.  "
-				"Here, rivers of &6lava&r carve through blackened stone, &fghasts&r roam the crimson skies, and ancient &5fortresses&r conceal both peril and prize."
+				"Accessed through &cNether Remastered&r, this dimension features dangerous landscapes shaped by lava flows, hostile mobs such as ghasts and blazes, and structures including fortresses and bastions. These locations contain essential materials and progression items needed for mid-game crafting, brewing, and advanced systems."
 				""
-				"But your purpose is greater than survival-&nthis is a conquest of chaos&r.  "
-				"Harvest powerful resources, brave brutal landscapes, and triumph over the monsters that thrive in the flames."
+				"Your goal extends beyond basic survival. Effective exploration, resource collection, and combat readiness are key to advancing through the challenges found here."
 				""
 				"{@pagebreak}"
 				""
-				"Sharpen your blades, fortify your resolve, and embrace the fire.  "
-				"&nThe Nether awaits-will you master it, or be consumed by it?&r "
+				"Equip yourself properly, maintain awareness of your surroundings, and approach each structure with caution. The Nether plays a pivotal role in your progression—master its hazards to unlock the resources and pathways required for future advancement."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:netherrack"
@@ -815,30 +806,30 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Enter the Nether and begin your battle to conquer its chaos. Click me to learn more!"
+			subtitle: "Enter the Nether and begin your progression through its hazards and resources. Click for more info!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "21AF3C45D5058473"
 				type: "dimension"
 			}]
-			title: "Into the Inferno"
+			title: "&6Into the Inferno&r"
 			x: 9.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3F3994EDD215FC99"]
 			description: [
-				"&cYou’ve broken the seal and crossed into the Nether&r-"
-				"but this realm of flame is unforgiving, and survival begins the moment you arrive."
+				"&cYou’ve broken the seal and entered the Nether&r—an environment defined by danger, heat, and limited safe zones. Establishing stability early on is essential for progressing through this dimension."
 				""
-				"Your first task is not conquest-it’s &6resource gathering&r."
+				"Your first objective is resource acquisition. Create a &esafe perimeter&r around your portal, mark your &dreturn location&r, and begin gathering essential Nether materials such as quartz, gold, and glowstone. These resources support brewing, crafting, automation components, and mid-game advancement within &6Create - Forge Frontier&r."
 				""
-				"Establish a &esafe perimeter&r, mark your &dportal’s location&r, and begin mining the &cNether’s rich materials&r-quartz, gold, glowstone, and more-to fuel your survival and progress. Stockpile what you can, for every vein you uncover strengthens your foothold in this hostile world."
+				"{@pagebreak}"
+				"Organizing and stockpiling these materials strengthens your early presence and prepares you for deeper exploration."
 				""
-				"Use the &bLodestone&r and &bCompass&r rewards to anchor your journey and ensure you can always find your way back, even when the twisting caverns threaten to swallow you whole."
+				"The included &bLodestone&r and &bCompass&r rewards ensure reliable navigation, allowing you to relocate your base even within the Nether’s complex cave systems and hazardous terrain."
 				""
-				"&nThis is your foothold in the inferno. Mine it, master it, or be consumed by it.&r"
+				"Securing these foundational resources establishes your foothold in this hostile dimension and prepares you for the challenges ahead."
 			]
 			icon: {
 				Count: 1
@@ -872,7 +863,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mine the Nether’s vital resources and secure what you need to survive. Click me for more info!"
+			subtitle: "Mine the Nether’s vital resources and establish your foothold. Click for more info!"
 			tasks: [
 				{
 					id: "277AEF0B736D28BF"
@@ -898,23 +889,21 @@
 					type: "item"
 				}
 			]
-			title: "Claim the Heat"
+			title: "&6Claim the Heat&r"
 			x: 4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["79796694A2D1F0DE"]
 			description: [
-				"&cThe Nether does not forgive the unprepared&r-&nbut it does reward those who adapt.&r"
+				"Survival in the &cNether&r requires adapting to its unique terrain and materials. Several native resources serve as replacements or upgrades to Overworld materials, making them essential for establishing a stable foothold."
 				""
-				"To survive its harsh terrain, you must gather &6essential materials&r native to this molten realm.  "
-				"&8Blackstone&r can stand in for traditional stone.  "
-				"&4Crimson&r and &2Warped wood&r won’t burn in fire.  "
-				"&6Gold&r may spare you from a Piglin’s wrath."
+				"Collect &8Blackstone&r as an alternative to stone for tool and block crafting. Use &4Crimson&r and &2Warped Wood&r for fire-resistant building materials that reduce structural risk in high-heat environments. Gather &6Gold&r to safely interact with Piglins and to support crafting recipes tied to mid-game progression."
 				""
-				"These resources are your lifeline. Stock up, strategize, and reshape this hostile land into your &nsecond home&r."
+				"{@pagebreak}"
+				"Stockpiling these materials strengthens your infrastructure and enhances your ability to navigate and operate within the Nether’s hazards."
 				""
-				"&nIn the Nether, your survival depends on what you take-and how you use it.&r"
+				"Effective resource management is the key to turning this hostile realm into a functional extension of your base."
 			]
 			icon: {
 				Count: 1
@@ -962,7 +951,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gather the key resources that will help you survive and thrive in the Nether. Click me for more info!"
+			subtitle: "Gather key Nether resources to support your survival and progression. Click for more info!"
 			tasks: [
 				{
 					count: 32L
@@ -971,40 +960,41 @@
 					type: "item"
 				}
 				{
-					count: 10L
-					id: "35E4D827BE56BE55"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:non_flammable_wood"
-						}
-					}
-					title: "Any #minecraft:non_flammable_wood"
-					type: "item"
-				}
-				{
 					count: 8L
 					id: "01BDD83CA3EA1FD5"
 					item: { Count: 8, id: "minecraft:gold_ingot" }
 					type: "item"
 				}
+				{
+					icon: "minecraft:crimson_stem"
+					id: "6E49BCE9EF8FEF81"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create_dd:valid_nether_logs"
+						}
+					}
+					title: "Any #create_dd:valid_nether_logs"
+					type: "item"
+				}
 			]
-			title: "The Essentials of Flame"
+			title: "&6The Essentials of Flame&r"
 			x: 6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4927BD8DBED4A962"]
 			description: [
-				"&8Within the charred stone of &cNether Fortresses&r lie treasures beyond measure-&nbut they are fiercely protected.&r"
+				"&8Nether Fortresses&r are critical progression structures within &6Create - Forge Frontier&r. These strongholds contain essential resources and materials required for brewing, mid-game crafting, and advancing further into Nether Remastered content."
 				""
-				"These towering structures are home to &6Blazes&r, &8Wither Skeletons&r, and swarms of &eZombie Piglins&r, all ready to defend the fortress halls with fire and fury."
+				"Hostile mobs such as &6Blazes&r, &8Wither Skeletons&r, and groups of &eZombie Piglins&r patrol the corridors, making careful preparation and reliable equipment necessary before entering."
 				""
 				"{@pagebreak}"
-				"Yet for those who dare enter, these fortresses hold the &6keys to progression&r: blaze rods, nether wart, and ancient relics hidden in shadowed corridors."
 				""
-				"Do you have the strength to brave the heat, dodge the withering strikes, and claim the prize?"
+				"Within these fortresses, you will find key items including blaze rods, nether wart, and valuable loot hidden throughout the structure. Securing these materials enables potion brewing, unlocks additional crafting pathways, and supports progression toward higher-tier objectives."
+				""
+				"Approach each room with caution, maintain control of your surroundings, and collect the resources needed to advance."
 				""
 				"{image:ftb:textures/fortress.png width:200 height:120 align:center}"
 			]
@@ -1038,7 +1028,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Conquer a Nether Fortress and claim the treasures guarded by fire and bone. Click me for more info!"
+			subtitle: "Conquer a Nether Fortress and obtain the resources required for progression. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -1064,22 +1054,22 @@
 					value: 3L
 				}
 			]
-			title: "Into the Ember Keep"
+			title: "&6Into the Ember Keep&r"
 			x: 7.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1D6068D3F034486B"]
 			description: [
-				"&6Piglins&r are more than just snarling scavengers-they are &ntreasure keepers&r, and their &8Bastion Remnants&r are vaults of unimaginable wealth."
+				"Bastion Remnants are high-risk, high-reward structures found throughout the &cNether&r. These ruined strongholds contain large quantities of &6gold&r, valuable loot, rare materials, and late-game gear that support multiple progression paths within &6Create - Forge Frontier&r."
 				""
-				"Hidden deep within these shattered strongholds are caches of &6gold&r, rare &dweapons&r, and powerful &benchanted gear&r. But this fortune is fiercely protected."
+				"Inside, &6Piglins&r and &cPiglin Brutes&r enforce strict territorial control. Brutes attack on sight, dealing significant damage and requiring strong equipment and careful strategy to defeat. Understanding Piglin behavior and preparing appropriate defenses is essential before entering."
 				""
 				"{@pagebreak}"
-				"&cPiglin Brutes&r show no mercy to intruders. They fight not for survival-but for dominance."
 				""
-				"Will you sneak, strike, or storm your way through?  "
-				"Only the bold leave a Bastion standing behind them."
+				"Exploring a Bastion can provide powerful rewards, including enchanted gear, weapon upgrades, and materials needed for potioncraft and advanced crafting systems. Each room presents unique hazards, encouraging deliberate navigation and situational awareness."
+				""
+				"Enter only when prepared—Bastions test both combat readiness and resource planning, but the rewards significantly strengthen your mid-game progression."
 				""
 				"{image:ftb:textures/bastion_rem.png width:192 height:150 align:center}"
 			]
@@ -1118,7 +1108,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Raid a Bastion Remnant and outwit the Piglins who guard its treasures. Click me for more info!"
+			subtitle: "Raid a Bastion Remnant and outmaneuver the Piglins who guard its treasures. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -1152,21 +1142,21 @@
 					type: "checkmark"
 				}
 			]
-			title: "Gold and Fury"
+			title: "&6Gold and Fury&r"
 			x: 9.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["1665A6E78A71E6F5"]
 			description: [
-				"&cThe Nether&r is more than a realm of fire and fury-it is a crucible of &6rare materials&r and &darcane reagents&r."
+				"The &cNether&r provides several rare materials essential for potion brewing, equipment upgrades, and mid-to-late game crafting within &6Create - Forge Frontier&r. Understanding which resources to collect—and how they support your progression—is key to establishing long-term stability in this dimension."
 				""
-				"From &eNether Wart&r for potions, to &8Netherite scraps&r for armor, to &6glowstone dust&r for amplifying enchantments, this dimension is filled with resources that can tip the scales of power in your favor."
+				"Gather &eNether Wart&r to enable potion production, acquire &8Netherite Scraps&r to upgrade tools and armor, and collect &6Glowstone Dust&r for enhancing potion effects and supporting various crafting recipes. Additional resources such as quartz, basalt, magma blocks, and soul soil further expand your utility and building options."
 				""
-				"But these treasures will not come easy.  "
-				"You must &nlearn what to harvest, what to hoard, and how to survive long enough to use it all&r."
+				"{@pagebreak}"
+				"Surviving the Nether involves knowing what to harvest, managing inventory efficiently, and securing safe locations to process materials. These resources directly strengthen your infrastructure and prepare you for more advanced objectives."
 				""
-				" &nMaster the riches of the Nether-and turn chaos into strength.&r"
+				"Master the dimension’s unique materials to convert its hazards into powerful advantages."
 			]
 			icon: {
 				Count: 1
@@ -1215,7 +1205,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gather and master the rare materials only found in the Nether. Click me for more info!"
+			subtitle: "Gather and utilize the rare materials found exclusively in the Nether. Click for more info!"
 			tasks: [
 				{
 					count: 32L
@@ -1254,24 +1244,23 @@
 					type: "item"
 				}
 			]
-			title: "Harness the Heat"
+			title: "&6Harness the Heat&r"
 			x: 10.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["7BAE261166502E1D"]
 			description: [
-				"&8Buried deep beneath the Nether’s molten crust lies one of the rarest and most powerful materials in existence-&6Ancient Debris&r."
+				"&6Ancient Debris&r is one of the rarest and most valuable resources found within the &cNether&r, serving as the foundation for crafting &8Netherite&r—the highest tier of gear available in standard progression. Its rarity and distribution make it a key milestone in preparing for late-game challenges."
 				""
-				"Used to forge &8Netherite&r, the strongest gear known to adventurers, this resource is no ordinary ore.  "
-				"Its discovery demands &cexplosives&r, &9strategy&r, and &7patience&r."
+				"Ancient Debris most commonly generates near &eY-Level 15&r. Mining it effectively requires careful planning, awareness of lava pockets, and methods such as controlled explosions to clear large areas safely. Patience and preparation significantly increase your efficiency when searching for this material."
 				""
-				"The most effective layer to find Ancient Debris is around &eY-Level 15&r-  "
-				"or, if you dare to venture further, through a  "
-				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }  "
-				"-a geological marvel formed by molten force and rare fortune."
+				"{@pagebreak}"
+				"You may also encounter the resource through an  "
+				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } },  "
+				"a rare geological formation that provides concentrated access to debris-rich zones."
 				""
-				"&nOnly those willing to dig deep and risk everything will wield what lies below.&r"
+				"Securing Ancient Debris advances your equipment to Netherite quality, offering superior durability and strength for the challenges ahead."
 			]
 			icon: {
 				Count: 1
@@ -1297,7 +1286,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mine Ancient Debris and unlock the strength of Netherite. Click me for more info!"
+			subtitle: "Mine Ancient Debris and unlock the strength of Netherite. Click for more info!"
 			tasks: [
 				{
 					count: 4L
@@ -1317,21 +1306,21 @@
 					type: "item"
 				}
 			]
-			title: "Buried Power"
+			title: "&6Buried Power&r"
 			x: 12.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["127DD18CE2DA41ED"]
 			description: [
-				"&cThe Nether breeds monsters unlike any seen on the surface.&r  "
-				"Here, fire-forged beasts test not just your strength-but your will to survive."
+				"The &cNether&r introduces several dangerous mobs that play a key role in your progression. Confronting and defeating these enemies provides essential materials, experience, and components needed for brewing, crafting, and advancing into mid-game systems."
 				""
-				"From the &6relentless Brutes&r to the &8Wither Skeletons&r lurking in fortress shadows, these enemies won’t fall easily.  "
-				"But defeating them is more than survival-it’s a &ndeclaration of dominance&r in a realm ruled by chaos."
+				"Encounters with &6Piglin Brutes&r, &8Wither Skeletons&r, Blazes, and other hostile entities demand reliable equipment and thoughtful combat strategies. These foes deal significant damage and often appear in groups, especially within fortresses and bastions."
 				""
-				"Sharpen your blades, ready your gear, and step boldly into battle.  "
-				"&nOnly those who face the fire head-on will rise as true champions of the Nether.&r"
+				"{@pagebreak}"
+				"Overcoming these adversaries is not only a test of preparedness—it directly supports your ability to gather key drops such as blaze rods, coal, bones, skulls, and other valuable items."
+				""
+				"Approach each fight with caution, maintain control of your surroundings, and use these encounters to reinforce your readiness for the challenges ahead."
 			]
 			icon: {
 				Count: 1
@@ -1380,7 +1369,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defeat the Nether’s deadliest foes and rise above the flames. Click me for more info!"
+			subtitle: "Defeat powerful Nether foes to strengthen your progression. Click for more info!"
 			tasks: [
 				{
 					entity: "minecraft:ghast"
@@ -1407,24 +1396,21 @@
 					value: 1L
 				}
 			]
-			title: "Prove Your Might"
+			title: "&6Prove Your Might&r"
 			x: 13.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3E8BB2ABA5F04447"]
 			description: [
-				"&cYou have survived the inferno.&r"
+				"By overcoming the challenges of the &cNether&r—its fortresses, bastions, and resource demands—you have completed one of the most significant progression tiers in &6Create - Forge Frontier&r. The materials and knowledge gained here form the foundation for several mid- and late-game systems."
 				""
-				"The &4Nether’s horrors&r-its fortresses, bastions, and blazing depths-no longer stand in your way.  "
-				"You’ve carved a path through fire, tamed volatile resources, and emerged not just alive… but &nvictorious&r."
+				"Having secured rare resources, defeated powerful foes, and established safe routes through this volatile dimension, you are now equipped to move beyond survival and toward advanced engineering and exploration."
 				""
-				"The Nether is no longer an obstacle-it is &nyour arsenal&r."
+				"{@pagebreak}"
+				"The Nether is no longer a barrier; it is a resource hub that supports your next major objective."
 				""
-				"But your greatest journey still lies ahead."
-				""
-				"&nLook to the stars.&r  "
-				"The age of survival is behind you. The era of exploration begins now."
+				"Your progression now shifts upward—from the depths of the inferno to the expanse of space."
 				""
 				"Learn more about getting to space in the  "
 				"{ \"text\": \"Ad Astra Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A09B8EFE2811CB9\" } }"
@@ -1465,7 +1451,7 @@
 					type: "advancement"
 				}
 			]
-			subtitle: "Master the Nether, and set your sights on the stars. Click me for more info!"
+			subtitle: "Master the Nether and prepare for your transition into space exploration. Click for more info!"
 			tasks: [
 				{
 					id: "4769E3C8EC817DBE"
@@ -1512,33 +1498,28 @@
 					type: "item"
 				}
 			]
-			title: "From Fire to Flight"
+			title: "&6From Fire to Flight&r"
 			x: 15.0d
 			y: -3.5d
 		}
 		{
 			description: [
-				"&8The Deep Dark is no ordinary biome-it is a place of silence, shadows, and secrets best left buried.&r  "
+				"&8The Deep Dark&r is a specialized late-game biome defined by low visibility, restricted movement, and sound-triggered hazards. Exploration here requires caution, preparation, and an understanding of how the sculk ecosystem responds to player activity."
 				""
 				"{image:ftb:textures/ancient_city_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
-				"Here, only the &nbravest&r dare tread, drawn by whispers of forbidden relics and ancient power."
 				""
-				"Far beneath the Overworld, tucked among the &0lowest caverns&r, lie the &8Ancient Cities&r-once-mighty strongholds now shattered and stalked by the &cWarden&r."
+				"Located within the lowest caverns of the world, &8Ancient Cities&r serve as the primary structures in this biome. These ruins contain valuable loot, unique materials, and the key components required to advance toward the next dimension. However, they are also patrolled by the &cWarden&r—a powerful entity designed to punish noise and detect vibration rather than sight."
 				""
-				"To survive here, you must become a shadow.  "
-				"Make no sound. Leave no trace. For the Warden does not see-&nbut it hears&r."
+				"To operate effectively in the Deep Dark, minimize sound, avoid triggering sculk sensors, and navigate deliberately through each section of the city."
 				""
 				"{@pagebreak}"
 				""
-				"But those who face this monstrosity head-on, those who &nslay the Warden and claim its heart&r, will unlock something far more sinister…"
+				"Defeating the Warden grants access to the &eHeart of the Warden&r, a critical item used to activate the portal leading to the &5Otherside&r. This marks an important progression milestone and opens a path to a dimension featuring new biomes, resources, and late-game challenges."
 				""
-				"A gateway to the &5Otherside&r-a realm of warped magic, hollow echoes, and dangers that defy logic."
+				"Entering the Otherside is not simply another step—it is a transition into content designed to test advanced combat, navigation, and resource management skills."
 				""
-				"This is not just another dimension.  "
-				"It is a &nnightmare reborn&r."
-				""
-				" &nWill you embrace the dark, or be swallowed by it?&r "
+				"Prepare carefully, assess each encounter, and advance only when ready."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:sculk_sensor"
@@ -1550,30 +1531,28 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Descend into the Deep Dark and face the Warden to unlock the path to the Otherside. Click me for more info!"
+			subtitle: "Descend into the Deep Dark, confront the Warden, and unlock access to the Otherside. Click for more info!"
 			tasks: [{
 				biome: "minecraft:deep_dark"
 				icon: "minecraft:sculk_shrieker"
 				id: "15BC7C1F753B1EBB"
 				type: "biome"
 			}]
-			title: "Beneath Silence"
+			title: "&6Beneath Silence&r"
 			x: -13.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["638EF7DB16108237"]
 			description: [
-				"&8This is no ordinary cave.&r  "
-				"You stand at the edge of the &0Deep Dark&r-a realm where light falters and &3Sculk&r spreads like an infection, devouring sound and swallowing the unwary."
+				"The &0Deep Dark&r is a biome defined by low visibility, sculk-based detection systems, and the constant threat of triggering hostile activity. Light sources are limited in effectiveness, and sound plays a critical role in determining your safety."
 				""
-				"Every step echoes with risk.  "
-				"Every breath could summon what lurks beyond the veil."
+				"As you enter this region, movement must be deliberate. Sculk sensors and shriekers react to vibration, alerting nearby threats and escalating the danger with each activation. Navigating quietly is essential to avoiding confrontation and maintaining control of your surroundings."
 				""
-				"Your first task is not to conquer… but to &nsurvive&r.  "
-				"Navigate the shadows, suppress your movements, and find your footing in a world where silence is your only ally."
+				"{@pagebreak}"
+				"Your initial objective is survival—observe the environment, manage noise carefully, and identify safe paths through the terrain. Building familiarity with these mechanics prepares you for the deeper challenges that await within the Ancient Cities."
 				""
-				"&nThe descent begins now.&r Will you make it back… or vanish like those who came before?"
+				"The descent marks the beginning of your progression through one of the world’s most dangerous biomes."
 			]
 			icon: "minecraft:sculk_sensor"
 			id: "516EFC067D776C8A"
@@ -1626,24 +1605,20 @@
 					type: "advancement"
 				}
 			]
-			title: "The Descent"
+			title: "&6The Descent&r"
 			x: -17.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["516EFC067D776C8A"]
 			description: [
-				"&0Deep beneath the world lies the &8Ancient City&r-a shattered monument to forgotten power.&r  "
-				"Buried in silence, it stretches across the darkness like the bones of a lost civilization."
-				""
-				"Its halls are lined with &6treasures&r and &5mysteries&r… but also one terrible truth:"
+				"Deep within the world lies the &8Ancient City&r, a large structure filled with valuable loot, unique materials, and key components for late-game progression in &6Create - Forge Frontier&r. These ruins are densely packed with sculk sensors and shriekers, making noise management essential for survival."
 				""
 				"{@pagebreak}"
-				"&cThe Warden hears everything.&r"
 				""
-				"One misstep, one echo too loud, and the guardian of this ruin will awaken in a fury few survive."
+				"The &cWarden&r responds to repeated sound triggers and can be summoned if sensors are activated too frequently. Once alerted, it becomes a major threat capable of overwhelming unprepared players. Navigating quietly and planning each movement reduces the risk of an encounter."
 				""
-				"Will you sneak through its shadows, plunder its secrets, or become part of the ruin itself?"
+				"Exploring the Ancient City offers significant rewards, but requires awareness, caution, and proper equipment. Treat each section as a controlled challenge—collect what you need, avoid unnecessary noise, and maintain escape routes when possible."
 				""
 				"{image:ftb:textures/ancientcity.png width:192 height:150 align:center}"
 			]
@@ -1696,7 +1671,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enter the Ancient City and uncover its secrets-if you can survive the Warden’s wrath. Click me for more info!"
+			subtitle: "Enter the Ancient City and navigate its hazards to uncover valuable resources. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -1728,29 +1703,24 @@
 					type: "checkmark"
 				}
 			]
-			title: "Ruins Beneath Silence"
+			title: "&6Ruins Beneath Silence&r"
 			x: -16.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["14894ADF77BC554B"]
 			description: [
-				"&0It does not see you.&r  "
-				"It feels you.  "
-				"It hears you.  "
-				"It hunts you."
+				"The &cWarden&r is one of the most dangerous entities in &6Create - Forge Frontier&r, designed to react to sound rather than sight. It detects vibration, movement, and noise, making careful navigation essential during any encounter within the Deep Dark or Ancient Cities."
 				""
-				"The &cWarden&r is not just a monster-it is &nan ancient force of rage and ruin&r, blind to light but drawn to the slightest sound.  "
-				"Its &4heartbeat&r alone sends tremors through the stone… and through your soul."
+				"Stirring the Warden through repeated sculk activations creates a high-risk scenario, as its attacks deal extreme damage and its abilities limit visibility and mobility."
 				""
 				"{@pagebreak}"
-				"There is no outrunning the tension. No outlasting the silence.  "
-				"&nMost will flee.&r Few will survive."
 				""
-				"But for the bold who &dstand their ground&r and fell the beast, a reward awaits-  "
-				"&5a relic of immense power, and the key to another realm.&r"
+				"Most encounters encourage avoidance, but players who choose to confront and defeat the Warden can obtain a valuable reward—the &5Heart of the Warden&r. This item is required to activate the portal leading to the &5Otherside&r dimension, marking a significant progression milestone."
 				""
-				"Will you escape the darkness… or &nconquer it?&r"
+				"Approach the fight only when properly equipped, maintain spacing, and use the terrain to your advantage."
+				""
+				"Surviving the encounter is a challenge; overcoming it unlocks the path to your next major destination."
 			]
 			id: "172253D6E25BB385"
 			rewards: [
@@ -1770,7 +1740,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Face the Warden-and claim the heart of the shadows. Click me for more info!"
+			subtitle: "Face the Warden and obtain the key required to access the Otherside. Click for more info!"
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:warden"
@@ -1779,27 +1749,24 @@
 				type: "questsadditions:killnbt"
 				value: 1L
 			}]
-			title: "The Silence That Hunts"
+			title: "&6The Silence That Hunts&r"
 			x: -14.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["172253D6E25BB385"]
 			description: [
-				"&5The Warden’s Heart&r pulses with more than life-it carries the weight of &nforgotten realms&r and &cursed memory&r."
+				"The &5Warden’s Heart&r is a progression-critical item within &6Create - Forge Frontier&r. Beyond its rarity, it serves a specific mechanical purpose: activating the portal frame composed of &8Reinforced Deepslate&r to grant access to the &5Otherside&r dimension."
 				""
-				"This relic is no mere trophy. It is a &nkey&r."
-				""
-				"Use it upon &8Reinforced Deepslate&r, and you won’t just open a passage…  "
-				"You’ll &nshatter the veil between dimensions&r."
+				"Interacting with the portal using the Heart triggers the dimensional shift, enabling travel to a new environment filled with unique biomes, resources, and late-game challenges."
 				""
 				"{@pagebreak}"
-				"The &5Otherside&r awaits-a world carved from unnatural stone, crawling with twisting roots, flickering lights, and the silent gaze of &dotherworldly entities&r."
 				""
-				"This is no longer survival.  "
-				"This is descent."
+				"The &5Otherside&r features dark, atmospheric terrain, specialized stone variants, and hostile entities not found in the Overworld or Nether. Entering this realm marks a transition into advanced exploration and resource acquisition, requiring proper equipment and preparation."
 				""
-				"&nAre you ready to cross into the unknown?&r"
+				"Before activating the gateway, ensure you are ready to navigate unfamiliar hazards and secure the materials needed for further progression."
+				""
+				"Crossing into the Otherside represents the next major step in your journey."
 			]
 			icon: {
 				Count: 1
@@ -1831,7 +1798,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Use the Warden’s Heart to open the gateway to the Otherside. Click me for more info!"
+			subtitle: "Use the Warden’s Heart to open the gateway to the Otherside. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -1853,30 +1820,24 @@
 					type: "dimension"
 				}
 			]
-			title: "The Key Between Worlds"
+			title: "&6The Key Between Worlds&r"
 			x: -13.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6EA9BDB19D85D796"]
 			description: [
-				"&5The Otherside&r is not a dimension-&nit is a descent into madness.&r"
+				"The &5Otherside&r is a late-game dimension characterized by low visibility, sculk-based terrain, and hostile entities unique to this realm. Its environments introduce unfamiliar movement patterns, specialized stone variants, and structural features that require careful navigation and preparation."
 				""
-				"Here, the &8stone itself pulses with Sculk&r, whispering secrets too ancient to understand.  "
-				"&dUnnatural lifeforms&r roam the shadows, born of void and memory.  "
-				"The rules of the world twist. The silence screams."
-				""
-				"If the Deep Dark was terror…  "
-				"&nthis is what lies beyond terror&r."
+				"This dimension expands upon the themes of the Deep Dark, incorporating additional hazards and resource opportunities that support advanced crafting and progression within &6Create - Forge Frontier&r."
 				""
 				"{@pagebreak}"
-				"But buried within the gloom are &5relics of impossible power&r-  "
-				"tools, resources, and knowledge not meant for mortal hands."
+				""
+				"Within the Otherside, players can discover rare materials, dimension-specific loot, and progression components not obtainable elsewhere. These resources enable late-game upgrades, equipment improvements, and further advancement toward high-tier engineering goals."
 				""
 				"{image:ftb:textures/otherside_screenshot.png width:192 height:150 align:center}"
 				""
-				"&nStep carefully.&r Breathe slowly.  "
-				"And whatever you do-don’t listen too closely."
+				"Move deliberately, monitor your surroundings, and be prepared for encounters with entities that behave differently from those found in other dimensions. Exploration here rewards caution, planning, and adaptability as you work to uncover the full potential of this realm."
 			]
 			icon: {
 				Count: 1
@@ -1930,7 +1891,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enter the Otherside and survive its twisted, alien depths. Click me for more info!"
+			subtitle: "Enter the Otherside and navigate its hazardous, unfamiliar terrain. Click for more info!"
 			tasks: [
 				{
 					biome: "deeperdarker:deeplands"
@@ -1974,27 +1935,25 @@
 					value: 32L
 				}
 			]
-			title: "Echoes Beyond"
+			title: "&6Echoes Beyond&r"
 			x: -11.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["0BDAF6E0DAA27F56"]
 			description: [
-				"&5You have braved the Deep Dark.&r  "
-				"&cYou have conquered the Warden.&r  "
-				"&8And now, you walk freely through the nightmare that is the Otherside.&r"
-				""
-				"No longer a trespasser-you are its &nmaster&r."
+				"Your journey through the &0Deep Dark&r, the defeat of the &cWarden&r, and your exploration of the &5Otherside&r represent a major progression tier within &6Create - Forge Frontier&r. By overcoming these challenges, you have gained access to unique resources, late-game materials, and knowledge that supports advanced crafting and engineering pathways."
 				""
 				"{@pagebreak}"
-				"You have faced &4fear incarnate&r, harnessed ancient relics, and unearthed secrets never meant to be known.  "
-				"Now, with knowledge forged in silence and power claimed from shadows…"
 				""
-				"&nIt is time to build a legacy that will outlive the darkness.&r  "
-				"Not just to survive-but to shape what comes next."
+				"You have acquired dimension-specific loot, mastered navigation in low-visibility environments, and secured relics essential for high-tier upgrades. These accomplishments mark your transition from survival-driven exploration to deliberate, goal-oriented advancement."
 				""
-				" &nFrom the abyss, rise anew.&r"
+				"With the hazards of the abyss behind you, the materials and experience obtained here now serve as the foundation for your next objectives."
+				""
+				"{@pagebreak}"
+				"Use what you have learned and gathered to continue refining your builds, unlocking new technologies, and preparing for the challenges still ahead."
+				""
+				"Your progression through these realms sets the stage for the work to come."
 			]
 			icon: {
 				Count: 1
@@ -2028,7 +1987,7 @@
 					xp_levels: 10
 				}
 			]
-			subtitle: "Turn your journey through darkness into a legacy of power and purpose. Click me for more info!"
+			subtitle: "Complete your progression through the Deep Dark and Otherside. Click for more info!"
 			tasks: [
 				{
 					id: "7EF7E964BC5F9225"
@@ -2075,28 +2034,22 @@
 					type: "item"
 				}
 			]
-			title: "Master of the Abyss"
+			title: "&6Master of the Abyss&r"
 			x: -10.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6AD897F8D2F82187"]
 			description: [
-				"&8The Deep Dark.&r  "
-				"&5The Otherside.&r  "
-				"Realms that defy logic, drown out light, and whisper truths no mind should bear."
+				"Your progression through the &0Deep Dark&r and the &5Otherside&r has provided access to rare materials and advanced resources that support multiple late-game systems in &6Create - Forge Frontier&r. These dimensions serve as preparation for one of the next major challenges—the journey toward unlocking and entering the End."
 				""
-				"You have endured them.  "
-				"You have &nconquered&r them.  "
-				"You now hold the &5power of forgotten worlds&r in your hands."
-				""
-				"But this is not the end-&nit is the threshold.&r"
+				"The items, equipment upgrades, and knowledge gained here position you for upcoming objectives that require durability, mobility, and strategic planning."
 				""
 				"{@pagebreak}"
-				"The skies stir. The End calls.  "
-				"And a final battle looms on the horizon-one that will test all you’ve become."
 				""
-				"Are you ready to face the &dDragon&r?"
+				"As you transition out of the Otherside, the next progression milestone becomes clear: activating and preparing for the End Dimension. This phase introduces new structure exploration, Eye acquisition, and resource gathering that will lead toward the final encounter with the Ender Dragon."
+				""
+				"Ensure your equipment, supplies, and infrastructure are ready before advancing. The challenges ahead will test the full extent of your preparation."
 				""
 				"Learn how to unlock the End in the  "
 				"{ \"text\": \"End Remastered Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"01DD8338C9E8DE75\" } }"
@@ -2119,62 +2072,44 @@
 					xp: 100
 				}
 			]
-			subtitle: "Wield the power of the Otherside-and prepare for the final challenge. Click me for more info!"
+			subtitle: "Harness the resources of the Otherside and prepare for the next progression tier. Click for more info!"
 			tasks: [{
 				id: "7505C3925F18A12D"
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: "Beyond Darkness"
+			title: "&6Beyond Darkness&r"
 			x: -8.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["0135EFA96E7A28A2"]
 			description: [
-				"&5The End&r is not a destination-&nit is a crucible.&r"
+				"The &5End&r represents the beginning of late-game progression within &6Create - Forge Frontier&r. This dimension consists of fractured islands suspended over the void, requiring careful navigation and reliable mobility tools to explore safely."
 				""
 				"{image:ftb:textures/end_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
 				""
-				"A realm of &8floating islands&r, &dendless void&r, and &5cosmic secrets&r suspended in silence.  "
-				"Here, the &cEnder Dragon&r waits-your final test of strength, skill, and resolve."
+				"Your initial objective is the confrontation with the &cEnder Dragon&r. Defeating it provides access to outer islands, specialized structures, and the unique materials found only within this realm. These include &3Radiantite&r, &7Void Shale&r, and &fPalerock&r—resources that support advanced crafting, equipment upgrades, and several endgame systems."
 				""
-				"As the void hums with forgotten power, ancient cities rise from the abyss.  "
-				"Hidden within are &6unimaginable treasures&r-&3Radiantite&r, &7Void Shale&r, and &fPalerock&r-each offering new potential for those bold enough to claim them."
-				""
-				"But this place is no sanctuary.  "
-				"From levitating &dShulkers&r to watchful &8Endermen&r, every step forward is contested by creatures of shadow and fury."
+				"The End features a variety of environmental hazards and hostile entities. &dShulkers&r introduce levitation mechanics that require spatial awareness, while &8Endermen&r react to player interaction and environmental stimuli. Preparation, proper gear, and controlled movement are essential for safe exploration."
 				""
 				"{@pagebreak}"
 				""
-				"Yet this is not the end of your journey-&nit is the evolution of your legacy.&r  "
-				"&5Endgame Progression&r begins here, unlocking powerful technologies, forgotten rituals, and the path to interdimensional mastery."
+				"Progress in the End unlocks late-game opportunities, new technologies, and pathways toward interdimensional expansion. The materials and knowledge gained here form the foundation of higher-tier engineering and long-term progression goals."
 				""
-				" Will you conquer the void-or be swallowed by it?"
-				""
-				"The answers lie beyond the portal…"
+				"Your advancement through this dimension marks the transition into endgame content and the next phase of your journey."
 			]
 			hide_dependent_lines: true
 			id: "7964AB0D39902EFA"
-			rewards: [
-				{
-					id: "681278DA6D713D88"
-					type: "xp"
-					xp: 500
-				}
-				{
-					command: "/end_island reset"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					id: "040777C7B854A2D4"
-					title: "Reset the End Island"
-					type: "command"
-				}
-			]
+			rewards: [{
+				id: "681278DA6D713D88"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Enter the End and forge your path through power, peril, and purpose. Click me for more info!"
+			subtitle: "Enter the End and advance through its unique challenges and resources. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -2186,27 +2121,23 @@
 				title: "Locate the Stronghold"
 				type: "structure"
 			}]
-			title: "Whispers of the Void"
+			title: "&6Whispers of the Void&r"
 			x: 9.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7964AB0D39902EFA"]
 			description: [
-				"&8The End Portal stands before you-silent, ancient, and waiting.&r  "
-				"It is more than a gateway. It is a test. A reckoning."
+				"The &5End Portal&r marks the transition into one of the most challenging stages of progression within &6Create - Forge Frontier&r. Activating the portal grants access to the End Dimension, where both the terrain and its inhabitants demand thorough preparation."
 				""
-				"Beyond its shimmering frame lies &5the most dangerous realm yet&r.  "
-				"But beware-this is &nno ordinary dragon fight&r."
+				"The initial objective upon entry is the confrontation with the &cEnder Dragon&r. This encounter has been enhanced to provide a more demanding experience, requiring reliable equipment, strong defensive options, and a clear strategy for managing both ground and aerial phases of the fight."
 				""
-				"The &cEnder Dragon&r has been enhanced.  "
-				"Its wrath is swift. Its strength is overwhelming.  "
-				"This battle will push you beyond your limits."
+				"{@pagebreak}"
+				"Ensure you have adequate armor, ranged and melee tools, mobility items, and consumables tailored to long engagements. Understanding crystal placement, environmental hazards, and dragon attack patterns will significantly increase your chances of success."
 				""
-				"You stand at the edge of destiny.  "
-				"Make sure you are armed, armored, and prepared to face &nyour greatest challenge yet&r."
+				"This battle represents a major progression milestone. Enter only when fully prepared, as retreat is not an option once you step through."
 				""
-				"&nWhen you leap into the void, there is no turning back.&r"
+				"Proceed with caution and confidence—the path forward begins here."
 			]
 			id: "59AB4308055958B4"
 			rewards: [
@@ -2221,33 +2152,32 @@
 					type: "item"
 				}
 			]
-			subtitle: "Prepare for the enhanced Ender Dragon and step into the End. Click me for more info!"
+			subtitle: "Prepare for the enhanced Ender Dragon encounter and enter the End. Click for more info!"
 			tasks: [{
 				dimension: "minecraft:the_end"
 				icon: "minecraft:end_stone"
 				id: "415D920F9756087C"
 				type: "dimension"
 			}]
-			title: " The Final Gateway"
+			title: "&6The Final Gateway&r"
 			x: 5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["59AB4308055958B4"]
 			description: [
-				"&cThe Ender Dragon&r soars above with &nrenewed fury&r-more powerful, more aggressive, and more dangerous than ever before."
-				""
-				"This is not a fight of brute force alone.  "
-				"It demands &estrategy&r, &9precision&r, and &7unyielding resolve&r."
+				"The enhanced &cEnder Dragon&r presents one of the most demanding encounters in &6Create - Forge Frontier&r. Its increased aggression, improved movement patterns, and higher damage output require a well-prepared loadout and a clear combat strategy."
 				""
 				"{@pagebreak}"
-				"Begin by destroying the &dEnd Crystals&r atop obsidian towers-they fuel the dragon’s regeneration.  "
-				"Only once they’re gone can the true battle begin."
 				""
-				"Wield your &6Totem of Undying&r with wisdom.  "
-				"It may be the only thing standing between you and the void."
+				"Begin the encounter by eliminating the &dEnd Crystals&r located on the obsidian towers. These crystals regenerate the dragon’s health, making them the first critical objective. Use ranged tools or controlled climbing to reach each crystal safely."
 				""
-				"&nThis is your moment.&r Rise, strike, and prove yourself against the apex of all foes."
+				"Once the crystals are destroyed, focus on maintaining consistent damage while managing the dragon’s aerial sweeps, projectile attacks, and knockback effects. Keep awareness of the void edges and use mobility tools to reposition when necessary."
+				""
+				"{@pagebreak}"
+				"A &6Totem of Undying&r, strong armor, and adequate healing supplies significantly increase survivability during the encounter."
+				""
+				"Defeating the dragon marks a major progression milestone and grants access to the outer islands and the endgame materials required for advanced crafting and exploration."
 			]
 			icon: {
 				Count: 1
@@ -2293,7 +2223,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defeat the enhanced Ender Dragon and bring an end to the storm. Click me for more info!"
+			subtitle: "Defeat the enhanced Ender Dragon and complete this major progression milestone. Click for more info!"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "77C29B2176052A23"
@@ -2301,27 +2231,24 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: " Wrath of the Dragon"
+			title: "&6Wrath of the Dragon&r"
 			x: 6.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6720A599B8A32D97"]
 			description: [
-				"&5The Ender Dragon has fallen-but your journey is far from over.&r"
+				"Defeating the &cEnder Dragon&r opens access to the &dEnd Gateway&r—your method of reaching the Outer End. This structure appears above the central island and serves as the transition point to a new region of the End Dimension."
 				""
-				"Floating high above the central island, a new portal shimmers in the void-an &dEnd Gateway&r, pulsing with ancient energy."
-				""
-				"This is your passage to the &nOuter End&r, a region untouched by time, filled with drifting islands, ancient cities, and &6treasures of forgotten power&r."
+				"The gateway leads to the &5Outer End&r, an expansive area composed of scattered islands, End Cities, and valuable late-game resources that support advanced crafting and equipment upgrades within &6Create - Forge Frontier&r."
 				""
 				"{@pagebreak}"
-				"To enter, you’ll need only a single &eEnder Pearl&r.  "
-				"Cast it into the portal-and step beyond the known."
 				""
-				"But beware…  "
-				"What lies past the veil is &nboth wondrous and perilous&r."
+				"To enter, simply throw an &eEnder Pearl&r into the portal. Upon arrival, be prepared for varied terrain, wide void spaces, and hostile mobs that require careful movement and planning."
 				""
-				"Only the bold will claim what waits among the stars."
+				"The Outer End contains critical materials and structure-based loot needed for further progression. Exploration here rewards preparation, mobility tools, and awareness of environmental hazards."
+				""
+				"Continue your advancement by uncovering the secrets and resources found within this region."
 			]
 			id: "75E010388EA41A77"
 			rewards: [
@@ -2343,34 +2270,32 @@
 					xp: 100
 				}
 			]
-			subtitle: "Use an Ender Pearl to enter the Outer End and uncover its secrets. Click me for more info!"
+			subtitle: "Use an Ender Pearl to access the Outer End and continue your progression. Click for more info!"
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
 				id: "48238EAD1D963B2C"
 				type: "advancement"
 			}]
-			title: "Through the Gateway "
+			title: "&6Through the Gateway&r"
 			x: 8.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["75E010388EA41A77"]
 			description: [
-				"&dThe Ender Dragon may have fallen… but the End is far from silent.&r"
-				""
-				"Across the void, rising from the abyss, stand the &5End Cities&r-towering remnants of a forgotten civilization."
-				""
-				"Within their levitating halls lie &6treasures of immense power&r: enchanted loot, rare materials, and the &blegendary Elytra&r-your wings to explore the world like never before."
+				"End Cities are large structures found throughout the Outer End and serve as a major progression point within &6Create - Forge Frontier&r. These towering complexes contain valuable loot, enchanted gear, rare building materials, and the &bElytra&r—a key mobility upgrade that unlocks advanced exploration opportunities across all dimensions."
 				""
 				"{@pagebreak}"
-				"But glory comes at a price."
 				""
-				"&5Shulkers&r, cunning and relentless, guard these cities with eerie precision. Their levitation curse may leave you helpless in the skies if you're not prepared."
+				"Navigating End Cities requires caution. &5Shulkers&r guard the interiors and exterior platforms, using projectiles that inflict levitation. This effect can shift positioning dramatically, making fall damage a significant risk without proper planning or equipment."
 				""
 				"{image:ftb:textures/end_city.png width:192 height:150 align:center}"
 				""
-				"&nStep carefully, fight wisely-and let the End reward your courage.&r"
+				"{@pagebreak}"
+				"Securing the Elytra, typically found within End Ships, marks a major advancement in traversal and resource gathering. With it, long-distance travel, high-altitude building, and interdimensional mobility become substantially more efficient."
+				""
+				"Approach each structure deliberately, manage vertical movement carefully, and be prepared for extended combat. The rewards gained here significantly strengthen your late-game capabilities."
 			]
 			icon: {
 				Count: 1
@@ -2401,7 +2326,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Explore the End Cities and claim the Elytra-if you can survive the Shulkers' wrath. Click me for more info!"
+			subtitle: "Explore End Cities and obtain the Elytra to advance your mobility progression. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -2421,26 +2346,27 @@
 					value: 1L
 				}
 			]
-			title: "Skies of the Forgotten"
+			title: "&6Skies of the Forgotten&r"
 			x: 9.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["2C9F0702A802DBE0"]
 			description: [
-				"&bThe Overworld has diamonds… but the End holds something far more powerful.&r"
-				""
-				"Scattered across the islands lie rare and &5alien materials&r-each vital to your next stage of progression."
-				""
-				"- &dRadiantite&r: A crystalized source of raw End energy, perfect for advanced tools and upgrades.  "
-				"- &7Void Shale&r: Hardened by the vacuum of space, this material is key to structural durability.  "
-				"- &fPalerock Vents&r: Strange geological formations that pulse with dimensional residue-&nnatural generators of exotic elements&r."
+				"The End contains several rare materials that play a critical role in late-game crafting and engineering within &6Create - Forge Frontier&r. These resources appear throughout the End Islands and support advanced upgrades, structural components, and specialized crafting pathways."
 				""
 				"{@pagebreak}"
-				"These are not ordinary resources. They are the &nfoundation of high-tier crafting&r in Forge Frontier."
+				"Key materials include:"
 				""
-				"&nTrack them down. Study their secrets. Unlock their potential.&r  "
-				"The End has more to offer than danger-it holds the keys to your future."
+				"- &dRadiantite&r: A concentrated crystal form of End energy used in tool enhancements and high-tier components.  "
+				"- &7Void Shale&r: A durable stone variant ideal for advanced building applications and reinforced structures.  "
+				"- &fPalerock Vents&r: Geological formations infused with dimensional residue, capable of producing unique byproducts used in endgame crafting."
+				""
+				"{@pagebreak}"
+				""
+				"Each material contributes to systems and recipes that extend beyond standard progression, forming the foundation for late-game equipment and technological development."
+				""
+				"Locate these resources, gather them efficiently, and incorporate them into your crafting pipeline. They are essential for advancing toward the final stages of your journey through Forge Frontier."
 			]
 			icon: {
 				Count: 1
@@ -2461,7 +2387,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover and collect the rare materials hidden among the End Islands. Click me for more info!"
+			subtitle: "Collect rare End materials essential for high-tier crafting. Click for more info!"
 			tasks: [
 				{
 					count: 8L
@@ -2482,27 +2408,20 @@
 					type: "item"
 				}
 			]
-			title: " The End's True Riches"
+			title: "&6The End's True Riches&r"
 			x: 11.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["4DAE1B438A323AFC"]
 			description: [
-				"&5The End was never the end-it was only the beginning.&r"
+				"Defeating the &cEnder Dragon&r and securing resources such as &dRadiantite&r, &7Void Shale&r, and &fPalerock&r marks the beginning of true endgame progression within &6Create - Forge Frontier&r. These materials form the core components required for constructing the &6Tier 5 Rocket&r."
 				""
-				"With the &dEnder Dragon defeated&r and &bRadiantite&r, &7Void Shale&r, and &fPalerock&r in your hands, you've unlocked the keys to &ntrue Endgame progression&r."
-				""
-				"Now, the stars call once more."
+				"This rocket represents a significant advancement in engineering, utilizing rare End-based resources to enable travel far beyond the boundaries of traditional planets. Its construction demands careful automation, refined material processing, and a strong foundation in late-game crafting systems."
 				""
 				"{@pagebreak}"
-				"Your next mission: forge the &6Tier 5 Rocket&r-a marvel of engineering built from the rarest resources the End has to offer."
 				""
-				"This rocket isn’t just a vehicle-it’s a symbol of your mastery, your ingenuity, and your readiness to leave the void behind."
-				""
-				"&nThe Alex’s Caves Planets await.&r  "
-				"Strange worlds. New biomes. Greater challenges.  "
-				"Will you rise?"
+				"Completing the Tier 5 Rocket unlocks access to the &bAlex’s Caves Planets&r—worlds featuring unique biomes, specialized resources, and new environmental challenges. These destinations expand your progression path and introduce materials essential for high-tier upgrades and exploration."
 				""
 				"Read more about crafting the Tier 5 in its  "
 				"{ \"text\": \"Rocket Introduction Quest \", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58AF77D0696B9822\" } }"
@@ -2525,13 +2444,13 @@
 					xp: 100
 				}
 			]
-			subtitle: "Begin crafting the Tier 5 Rocket and prepare to explore the Alex’s Caves Planets. Click me for more info!"
+			subtitle: "Begin crafting the Tier 5 Rocket and prepare to explore the Alex’s Caves Planets. Click for more info!"
 			tasks: [{
 				id: "29C59BD590EF3E33"
 				title: "Check"
 				type: "checkmark"
 			}]
-			title: " Beyond the End"
+			title: "&6Beyond the End&r"
 			x: 12.5d
 			y: 7.0d
 		}
