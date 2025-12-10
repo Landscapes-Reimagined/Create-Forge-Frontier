@@ -1,50 +1,47 @@
 {
     "modId": "collectorsreap",
     "group": {
-      "name": "Collectors Reap Seeds",
+      "name": "Collectors Reap Flowers",
       "enabledByDefault": true,
       "defaultPayment": {
         "item": "minecraft:emerald"
       },
-      "defaultCategory": "farmingforblockheads:seeds"
+      "defaultCategory": "farmingforblockheads:flowers"
     },
     "customEntries": [
     {
         "output": "collectorsreap:pomegranate_seeds"
     },
     {
-        "output": "collectorsreap:lime_seeds"
-    },
-    {
-        "output": "collectorsreap:damselflower_seeds",
+        "output": "collectorsreap:damselflower",
         "payment": {
           "item": "minecraft:emerald",
           "count": 8
         }
     },
     {
-        "output": "collectorsreap:moontear_seeds",
+        "output": "collectorsreap:heartpetals",
         "payment": {
           "item": "minecraft:emerald",
           "count": 8
         }
     },
     {
-        "output": "collectorsreap:skull_lily_seeds",
+        "output": "collectorsreap:moontear",
         "payment": {
           "item": "minecraft:emerald",
           "count": 8
         }
     },
     {
-        "output": "collectorsreap:bulbous_rose_seeds",
+        "output": "collectorsreap:skull_lily",
         "payment": {
           "item": "minecraft:emerald",
           "count": 8
         }
     },
     {
-        "output": "collectorsreap:heartpetals_seeds",
+        "output": "collectorsreap:bulbous_rose",
         "payment": {
           "item": "minecraft:emerald",
           "count": 8
