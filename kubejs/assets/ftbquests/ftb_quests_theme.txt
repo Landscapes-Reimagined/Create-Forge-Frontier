@@ -81,7 +81,7 @@ checkmark_task_inactive: ftblibrary:icons/accept_gray
 [7FDAAF267EECFF92]
 background: ftb:textures/fancymenu_image_1.png
 
-[28ADD89A922E5DC8]
+[15BCAF51F182D972]
 background: ftb:textures/fancymenu_image_2.png 
 
 [430DE687E9BB5176]

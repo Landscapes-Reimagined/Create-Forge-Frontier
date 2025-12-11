@@ -112,7 +112,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "The Harbinger's Workshop"
+			subtitle: "The Harbinger's Workshop."
 			tasks: [
 				{
 					id: "7EA8A38E61BFEA2C"
@@ -280,7 +280,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "A Frozen Forge"
+			subtitle: "A Frozen Forge."
 			tasks: [
 				{
 					id: "78BB92DDA2C30759"
@@ -471,7 +471,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "The Leviathan's Kingdom"
+			subtitle: "The Leviathan's Kingdom."
 			tasks: [
 				{
 					id: "7D39901CE1D66383"
@@ -705,7 +705,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "A Warrior's Battleground"
+			subtitle: "A Warrior's Battleground."
 			tasks: [
 				{
 					id: "7F4D7659317B4524"
@@ -875,7 +875,7 @@
 			id: "563B8AB184A56AE2"
 			optional: true
 			secret: true
-			subtitle: "For Dev Purposes"
+			subtitle: "For Dev Purposes."
 			tasks: [{
 				id: "22E1540B6633BED7"
 				type: "checkmark"
@@ -930,7 +930,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "A Labyrinth of Sand"
+			subtitle: "A Labyrinth of Sand."
 			tasks: [
 				{
 					id: "7FAAF1F8B747AD55"
@@ -1297,7 +1297,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "A Blessing of Amethyst"
+			subtitle: "A Blessing of Amethyst."
 			tasks: [
 				{
 					entity: "cataclysm:amethyst_crab"

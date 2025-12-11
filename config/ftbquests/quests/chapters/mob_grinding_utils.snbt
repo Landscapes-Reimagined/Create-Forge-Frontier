@@ -53,7 +53,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Mob Farms Made Easy"
+			subtitle: "Mob Farms Made Easy."
 			tasks: [{
 				id: "14BA5414FCE84C76"
 				item: {

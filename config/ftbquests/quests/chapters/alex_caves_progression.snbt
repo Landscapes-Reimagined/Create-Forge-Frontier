@@ -111,7 +111,7 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Planet 4546B"
+			subtitle: "Planet 4546B."
 			tasks: [
 				{
 					dimension: "forge_frontier:abyssal_chasm"

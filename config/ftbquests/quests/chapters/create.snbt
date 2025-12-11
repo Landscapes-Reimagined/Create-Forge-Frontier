@@ -58,7 +58,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Rotation Transportation Elevation"
+			subtitle: "Rotation Transportation Elevation."
 			tasks: [
 				{
 					id: "45EF54B8211AC25B"
@@ -97,7 +97,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Basic Beginnings of Create"
+			subtitle: "Basic Beginnings of Create."
 			tasks: [
 				{
 					id: "3690C946EDC458FD"
@@ -136,7 +136,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Foundation of Rotation Transportation "
+			subtitle: "Foundation of Rotation Transportation ."
 			tasks: [{
 				id: "78ACCAFEB5C8FAB0"
 				item: "create:shaft"
@@ -165,7 +165,7 @@
 			]
 			shape: "diamond"
 			size: 1.2d
-			subtitle: "Into The Age of Andesite"
+			subtitle: "Into The Age of Andesite."
 			tasks: [{
 				id: "70567DC2A0CA1731"
 				item: "create:andesite_casing"
@@ -199,7 +199,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "swa *THUNK*"
+			subtitle: "swa *THUNK*."
 			tasks: [{
 				id: "2C184984573B15B4"
 				item: "create:mechanical_press"
@@ -252,7 +252,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Netherlands Moment"
+			subtitle: "Netherlands Moment."
 			tasks: [{
 				id: "7A4E69CE7A662487"
 				item: "create:windmill_bearing"
@@ -305,7 +305,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Water Power... Again"
+			subtitle: "Water Power... Again."
 			tasks: [{
 				id: "2626A3C261BB9FE0"
 				item: "create:large_water_wheel"
@@ -331,7 +331,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "You Spin Me Right Round Baby"
+			subtitle: "You Spin Me Right Round Baby."
 			tasks: [{
 				count: 32L
 				id: "0F8286A466510DBD"
@@ -362,7 +362,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Basic Material Processing"
+			subtitle: "Basic Material Processing."
 			tasks: [
 				{
 					count: 8L
@@ -404,7 +404,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Basic Grinding"
+			subtitle: "Basic Grinding."
 			tasks: [{
 				id: "4863D5A9826C7967"
 				item: "create:millstone"
@@ -443,7 +443,7 @@
 				}
 			]
 			size: 0.85d
-			subtitle: "Basic Block Breaking"
+			subtitle: "Basic Block Breaking."
 			tasks: [{
 				id: "63B6C58D01E18519"
 				item: "create:mechanical_drill"
@@ -464,7 +464,7 @@
 				item: "create_dd:industrial_iron_ingot"
 				type: "item"
 			}]
-			subtitle: "Mixing Time"
+			subtitle: "Mixing Time."
 			tasks: [{
 				id: "6B381786878F6202"
 				item: "create:basin"
@@ -502,7 +502,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Mixing Mastery"
+			subtitle: "Mixing Mastery."
 			tasks: [
 				{
 					id: "2E675FCFBC43AC5B"
@@ -603,7 +603,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Bulk Cooking"
+			subtitle: "Bulk Cooking."
 			tasks: [{
 				id: "39B97F5D24B9936F"
 				item: "create:encased_fan"
@@ -629,7 +629,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "I'm a Fan"
+			subtitle: "I'm a Fan."
 			tasks: [{
 				id: "0CF0CBB4628034D8"
 				item: "create:propeller"
@@ -655,7 +655,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Mix it UP"
+			subtitle: "Mix it UP."
 			tasks: [{
 				id: "0F02894D3810AFC4"
 				item: "create:whisk"
@@ -708,7 +708,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Farming Time"
+			subtitle: "Farming Time."
 			tasks: [{
 				id: "2B7A2B340626D90D"
 				item: "create:mechanical_plough"
@@ -741,7 +741,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Crop Farming"
+			subtitle: "Crop Farming."
 			tasks: [{
 				id: "536D4B0489693125"
 				item: "create:mechanical_harvester"
@@ -894,7 +894,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Like Andesite, but better"
+			subtitle: "Like Andesite, but better."
 			tasks: [{
 				id: "684F85FA2202CA06"
 				item: "create:brass_casing"
@@ -932,7 +932,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Let's Get Moving"
+			subtitle: "Let's Get Moving."
 			tasks: [
 				{
 					id: "6AEE21575554D4EF"
@@ -973,7 +973,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Pushing and pulling"
+			subtitle: "Pushing and pulling."
 			tasks: [
 				{
 					id: "4D15F7F758D0DB1B"
@@ -1007,7 +1007,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Foundations of Fluid"
+			subtitle: "Foundations of Fluid."
 			tasks: [{
 				id: "1DC88706C902F903"
 				item: "minecraft:copper_ingot"
@@ -1034,7 +1034,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Pressure Makes Progress"
+			subtitle: "Pressure Makes Progress."
 			tasks: [{
 				id: "5D705E4818171870"
 				item: "create:copper_sheet"
@@ -1061,7 +1061,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Basic Fluid Transportation"
+			subtitle: "Basic Fluid Transportation."
 			tasks: [{
 				count: 8L
 				id: "2DDE8195E45C9794"
@@ -1089,7 +1089,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Fluid Machines"
+			subtitle: "Fluid Machines."
 			tasks: [{
 				id: "4DD35F63DBDDE1AB"
 				item: "create:copper_casing"
@@ -1116,7 +1116,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Sploosh"
+			subtitle: "Sploosh."
 			tasks: [{
 				id: "30CDEF4215D94BA3"
 				item: "create:spout"
@@ -1147,7 +1147,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Basic Funneling"
+			subtitle: "Basic Funneling."
 			tasks: [
 				{
 					id: "778AB8F9912232BA"
@@ -1181,7 +1181,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Basically a Treadmill"
+			subtitle: "Basically a Treadmill."
 			tasks: [{
 				id: "6C93DC3282DD3447"
 				item: "create:belt_connector"
@@ -1208,7 +1208,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Belt Beginnings"
+			subtitle: "Belt Beginnings."
 			tasks: [
 				{
 					count: 8L
@@ -1282,7 +1282,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "I Drain Things"
+			subtitle: "I Drain Things."
 			tasks: [{
 				id: "7ABAA0BB27E4F67F"
 				item: "create:item_drain"
@@ -1319,7 +1319,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Water Pressure"
+			subtitle: "Water Pressure."
 			tasks: [{
 				id: "5F76BF4849E36122"
 				item: "create:mechanical_pump"
@@ -1412,7 +1412,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			subtitle: "Smart Machines"
+			subtitle: "Smart Machines."
 			tasks: [{
 				id: "70C431DBD0BF57A5"
 				item: "create:electron_tube"
@@ -1447,7 +1447,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Logistical Improvements"
+			subtitle: "Logistical Improvements."
 			tasks: [
 				{
 					id: "0B506EF68E142B6F"
@@ -1523,7 +1523,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Mechanical Hands"
+			subtitle: "Mechanical Hands."
 			tasks: [{
 				id: "0C07B7A0882517D0"
 				item: "create:deployer"
@@ -1535,7 +1535,7 @@
 		}
 		{
 			dependencies: ["4AEB10D458279F94"]
-			description: ["Placing two crushing wheels one block apart and supplying them with opposite rotation directions will form a powerful pair of wheels able to crush almost anything that comes between them — including you! See the ponder for more information."]
+			description: ["Placing two crushing wheels one block apart and supplying them with opposite rotation directions will form a powerful pair of wheels able to crush almost anything that comes between them - including you! See the ponder for more information."]
 			id: "33C7B0F119511D14"
 			rewards: [
 				{
@@ -1550,7 +1550,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "CRUUUUSH IT"
+			subtitle: "CRUUUUSH IT."
 			tasks: [{
 				count: 2L
 				id: "04CB3FF6145B18E3"
@@ -1584,7 +1584,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Squished"
+			subtitle: "Squished."
 			tasks: [{
 				id: "084C7F90483BB994"
 				item: "create:mechanical_roller"
@@ -1617,7 +1617,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Fluid Filtering"
+			subtitle: "Fluid Filtering."
 			tasks: [{
 				id: "3BF6B476CEF0B1B7"
 				item: "create:smart_fluid_pipe"
@@ -1643,7 +1643,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Classy"
+			subtitle: "Classy."
 			tasks: [{
 				id: "65B0ACC5D060ACD2"
 				item: "create:brass_door"
@@ -1735,7 +1735,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Elevated and Descended"
+			subtitle: "Elevated and Descended."
 			tasks: [
 				{
 					id: "3E301901C11ACAD3"
@@ -1801,7 +1801,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Redstone, Reconfigured"
+			subtitle: "Redstone, Reconfigured."
 			tasks: [
 				{
 					id: "4A110D30DC6A4BD0"
@@ -1841,7 +1841,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "For the Smart Ones"
+			subtitle: "For the Smart Ones."
 			tasks: [
 				{
 					id: "29FAC59C1D7225D4"
@@ -1901,7 +1901,7 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Precision Machining"
+			subtitle: "Precision Machining."
 			tasks: [
 				{
 					count: 3L
@@ -1935,7 +1935,7 @@
 					xp: 5
 				}
 			]
-			subtitle: "Decoration has a place here"
+			subtitle: "Decoration has a place here."
 			tasks: [{
 				id: "5129BC3212DA16D5"
 				item: "create:andesite_door"
@@ -1963,7 +1963,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "See Diagram Above"
+			subtitle: "See Diagram Above."
 			tasks: [
 				{
 					count: 2L
@@ -2017,7 +2017,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Pressure Makes Power"
+			subtitle: "Pressure Makes Power."
 			tasks: [{
 				id: "4F70A633117CA1C6"
 				item: "create:sturdy_sheet"
@@ -2043,7 +2043,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "I like &otrains&r"
+			subtitle: "I like &otrains&r."
 			tasks: [{
 				id: "2D18F231342AD58C"
 				item: "create:railway_casing"
@@ -2087,7 +2087,7 @@
 				""
 				"&n&lAssembly&r&r"
 				""
-				"To assemble a train, first open the GUI of the train station and select \"Create new train\". Then, make sure you have at least one bogey — what you call the base of the car that rests on the tracks — and then press assemble train in the GUI."
+				"To assemble a train, first open the GUI of the train station and select \"Create new train\". Then, make sure you have at least one bogey - what you call the base of the car that rests on the tracks - and then press assemble train in the GUI."
 				""
 				"Like any other contraption, you link the blocks together using super glue or slime. Check the ponder for more information!"
 			]
@@ -2105,7 +2105,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Assembly Starts Here"
+			subtitle: "Assembly Starts Here."
 			tasks: [{
 				id: "32BA699FEAFF7F8F"
 				item: "create:track_station"
@@ -2132,7 +2132,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Robotic Help"
+			subtitle: "Robotic Help."
 			tasks: [{
 				id: "2E1DE7889CDC8B11"
 				item: "create:mechanical_arm"
@@ -2220,7 +2220,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Conductor Time"
+			subtitle: "Conductor Time."
 			tasks: [
 				{
 					id: "6A6B5FB6C9E32E28"
@@ -2264,7 +2264,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Stylish"
+			subtitle: "Stylish."
 			tasks: [{
 				id: "19AC52B896009009"
 				item: "create:copper_door"
@@ -2290,7 +2290,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Deep Sea Diving"
+			subtitle: "Deep Sea Diving."
 			tasks: [{
 				id: "7C05F30F5D908BC1"
 				item: {
@@ -2322,7 +2322,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Pressed Perfection"
+			subtitle: "Pressed Perfection."
 			tasks: [{
 				id: "0894A19FE96F0CBE"
 				item: "create:golden_sheet"
@@ -2398,7 +2398,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "The Engineer's Kit"
+			subtitle: "The Engineer's Kit."
 			tasks: [
 				{
 					id: "1ABA8487CCE6E165"
@@ -2438,7 +2438,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Screens and Tubes"
+			subtitle: "Screens and Tubes."
 			tasks: [
 				{
 					id: "35C0F880DE35AA12"
@@ -2483,7 +2483,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Maximum Flow"
+			subtitle: "Maximum Flow."
 			tasks: [{
 				id: "60EDD9508DF0CC89"
 				item: "create:portable_fluid_interface"
@@ -2522,7 +2522,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Boiler Time"
+			subtitle: "Boiler Time."
 			tasks: [{
 				id: "7B797DD770D5F6C1"
 				item: "create:fluid_tank"
@@ -2559,7 +2559,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Boiler Bonanza"
+			subtitle: "Boiler Bonanza."
 			tasks: [{
 				id: "0B7B1FB7C1229A63"
 				item: "create:steam_engine"
@@ -2631,7 +2631,7 @@
 			dependencies: ["7A9D080E21CD57F2"]
 			description: [
 				""
-				"The humble beginnings of cardboard start here — with Pulp. Created by mixing plant matter and water, pulp is the base ingredient for a whole line of cardboard-related machines and items."
+				"The humble beginnings of cardboard start here - with Pulp. Created by mixing plant matter and water, pulp is the base ingredient for a whole line of cardboard-related machines and items."
 				""
 				"To get it, toss common materials like saplings, bamboo, or sugarcane into a Mechanical Mixer with water, and let it churn!"
 				""
@@ -2651,7 +2651,7 @@
 					xp: 15
 				}
 			]
-			subtitle: "From Pulp to Package"
+			subtitle: "From Pulp to Package."
 			tasks: [{
 				count: 4L
 				id: "0C542BB43D3B8A2A"
@@ -2669,11 +2669,11 @@
 				""
 				"Once you’ve got a few, you’re ready to start crafting:"
 				""
-				"📦 Cardboard Packages"
+				" Cardboard Packages"
 				""
-				"🪖 Cardboard Armor"
+				" Cardboard Armor"
 				""
-				"Cardboard Blocks may look simple, but they’re key to building smarter factories — and they’re renewable, cheap, and stylishly industrial."
+				"Cardboard Blocks may look simple, but they’re key to building smarter factories - and they’re renewable, cheap, and stylishly industrial."
 			]
 			icon: "create:cardboard_block"
 			id: "4020155EAE2645DA"
@@ -2714,14 +2714,14 @@
 			description: [
 				"Time to put those Cardboard Blocks to work."
 				""
-				"The Packager takes items from a connected inventory and wraps them into a Cardboard Package — a 9-slot container used across the logistics system. When powered by redstone, the Packager fills the package as much as possible from the inventory it’s touching."
+				"The Packager takes items from a connected inventory and wraps them into a Cardboard Package - a 9-slot container used across the logistics system. When powered by redstone, the Packager fills the package as much as possible from the inventory it’s touching."
 				""
 				"{@pagebreak}"
 				"Want automated sorting and delivery? Add a Stock Link to the Packager and it can begin fulfilling item requests from your Logistics Network, complete with addresses, item filters, and specific counts."
 				""
-				"Place a sign on the Packager to label outgoing packages — essential for routing them via Package Frogports."
+				"Place a sign on the Packager to label outgoing packages - essential for routing them via Package Frogports."
 				""
-				"📘 Ponder Tip: Ponder the Packager to see package creation, labeling, and redstone interaction in action."
+				" Ponder Tip: Ponder the Packager to see package creation, labeling, and redstone interaction in action."
 			]
 			id: "5876B821FE5D9B15"
 			rewards: [
@@ -2736,7 +2736,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Let your machines do the packing"
+			subtitle: "Let your machines do the packing."
 			tasks: [{
 				id: "6DDC8E6462422CD9"
 				item: "create:packager"
@@ -2748,11 +2748,11 @@
 		{
 			dependencies: ["0D4BB30447AEFC1B"]
 			description: [
-				"The Package Frogport is your gateway to automated delivery! It works alongside Chain Conveyors and Packagers to send and receive cardboard packages — no belts, no hands, just frogs."
+				"The Package Frogport is your gateway to automated delivery! It works alongside Chain Conveyors and Packagers to send and receive cardboard packages - no belts, no hands, just frogs."
 				""
 				"To get started, place a Chain Conveyor, right-click the chain, and follow the on-screen placement guide to properly set the Frogport. It must be positioned correctly to dock with the chain and enable transfers."
 				""
-				"🚨 Important: Every sent package must have a destination Frogport! Without a receiving port at the other end of the conveyor, the package will have nowhere to go and delivery will fail."
+				" Important: Every sent package must have a destination Frogport! Without a receiving port at the other end of the conveyor, the package will have nowhere to go and delivery will fail."
 			]
 			id: "13232A19D4478546"
 			rewards: [
@@ -2774,7 +2774,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "I Eat Packages"
+			subtitle: "I Eat Packages."
 			tasks: [{
 				id: "41144C026E32C7CB"
 				item: "create:package_frogport"
@@ -2811,7 +2811,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Become The Box"
+			subtitle: "Become The Box."
 			tasks: [
 				{
 					id: "0AC5D1B69EC1AF01"
@@ -2883,7 +2883,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Easy Emptying"
+			subtitle: "Easy Emptying."
 			tasks: [{
 				id: "13D9A0BB26D0C4B1"
 				item: "create:item_hatch"
@@ -2895,16 +2895,16 @@
 		{
 			dependencies: ["5876B821FE5D9B15"]
 			description: [
-				"Sometimes, your logistics network is just too fast — and your Mechanical Crafter ends up with mismatched inputs. That’s where the Re-Packager comes in."
+				"Sometimes, your logistics network is just too fast - and your Mechanical Crafter ends up with mismatched inputs. That’s where the Re-Packager comes in."
 				""
 				"The Re-Packager collects multiple Cardboard Packages (usually from different senders), waits for a full set to arrive in an adjacent inventory, and merges them into a single package. This guarantees all components of a recipe reach the crafter together, avoiding crafting failures caused by desync."
 				""
 				"{@pagebreak}"
-				"Think of it like a package sorter and combiner — it buffers multi-package orders until they’re complete, then sends them out as one unified bundle."
+				"Think of it like a package sorter and combiner - it buffers multi-package orders until they’re complete, then sends them out as one unified bundle."
 				""
-				"It's the missing link between remote logistics and reliable automation — especially for large or distributed crafting setups."
+				"It's the missing link between remote logistics and reliable automation - especially for large or distributed crafting setups."
 				""
-				"📘 Ponder Tip: Ponder the Re-Packager to see how it buffers, waits for full delivery, and merges for consistent mechanical crafting."
+				" Ponder Tip: Ponder the Re-Packager to see how it buffers, waits for full delivery, and merges for consistent mechanical crafting."
 			]
 			id: "6AE1EA76489B5629"
 			rewards: [
@@ -2979,7 +2979,7 @@
 				""
 				"Choose up to 9 items to sell."
 				""
-				"Place the Table Cloth and set prices using any item (diamonds, emeralds, bread — your choice)."
+				"Place the Table Cloth and set prices using any item (diamonds, emeralds, bread - your choice)."
 				""
 				"{@pagebreak}"
 				"Other players (or you in solo) can:"
@@ -2990,9 +2990,9 @@
 				""
 				"Purchase the items by right-clicking the Stock Keeper with the list"
 				""
-				"They also double as decorative displays — place up to 4 visible items for show by right-clicking the cloth."
+				"They also double as decorative displays - place up to 4 visible items for show by right-clicking the cloth."
 				""
-				"🛒 Ponder Tip: Ponder the Table Cloth or Stock Keeper for a visual guide on how shopping and pricing work!"
+				" Ponder Tip: Ponder the Table Cloth or Stock Keeper for a visual guide on how shopping and pricing work!"
 			]
 			id: "3FF1B6F85DA75E2B"
 			rewards: [
@@ -3008,7 +3008,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "A Market-Keeper's Best Friend"
+			subtitle: "A Market-Keeper's Best Friend."
 			tasks: [{
 				icon: "create:white_table_cloth"
 				id: "0DED6936FA733D98"
@@ -3048,7 +3048,7 @@
 		{
 			dependencies: ["1BADBAE5DC3CCEFC"]
 			description: [
-				"The Chain Conveyor is your go-to for long-range Cardboard Package transportation — connecting distant parts of your factory, even across awkward terrain where belts just won’t work."
+				"The Chain Conveyor is your go-to for long-range Cardboard Package transportation - connecting distant parts of your factory, even across awkward terrain where belts just won’t work."
 				""
 				"To set one up:"
 				""
@@ -3059,11 +3059,11 @@
 				"Packages placed on the conveyor (or delivered via Frogport) will now travel automatically"
 				""
 				"{@pagebreak}"
-				"Chain Conveyors also serve a secondary purpose: they can transmit rotational force over open gaps — great for creative machine layouts without clutter."
+				"Chain Conveyors also serve a secondary purpose: they can transmit rotational force over open gaps - great for creative machine layouts without clutter."
 				""
-				"Players can even ride the chains for fast travel! Just right-click with a wrench and enjoy the ride — just don’t hit a wall."
+				"Players can even ride the chains for fast travel! Just right-click with a wrench and enjoy the ride - just don’t hit a wall."
 				""
-				"📘 Ponder Tip: Ponder the Chain Conveyor for a clear demo of package sorting, chaining distance, and Frogport interaction."
+				" Ponder Tip: Ponder the Chain Conveyor for a clear demo of package sorting, chaining distance, and Frogport interaction."
 			]
 			icon: "create:chain_conveyor"
 			id: "63EA3061E9587925"
@@ -3080,7 +3080,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Advanced Package Transportation"
+			subtitle: "Advanced Package Transportation."
 			tasks: [
 				{
 					count: 2L
@@ -3102,11 +3102,11 @@
 		{
 			dependencies: ["0D4BB30447AEFC1B"]
 			description: [
-				"The Stock Link is the backbone of the Logistics Network — a system that lets Packagers, Stock Tickers, and other logistic blocks communicate across your factory."
+				"The Stock Link is the backbone of the Logistics Network - a system that lets Packagers, Stock Tickers, and other logistic blocks communicate across your factory."
 				""
-				"When you place a Stock Link, it creates a new network. Right-clicking another Stock Link before placing it will link them together, forming one shared system. There’s no range limit — as long as the chunk is loaded, the network stays connected."
+				"When you place a Stock Link, it creates a new network. Right-clicking another Stock Link before placing it will link them together, forming one shared system. There’s no range limit - as long as the chunk is loaded, the network stays connected."
 				""
-				"Attach a Stock Link to a Packager, and it will automatically expose that inventory to the network. Any Ticker, Requester, or Keeper on the same network can now access that inventory — no mechanical belts, funnels, or tunnels required."
+				"Attach a Stock Link to a Packager, and it will automatically expose that inventory to the network. Any Ticker, Requester, or Keeper on the same network can now access that inventory - no mechanical belts, funnels, or tunnels required."
 			]
 			id: "2EDAEA1566841D97"
 			rewards: [
@@ -3122,7 +3122,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Keeping Stock"
+			subtitle: "Keeping Stock."
 			tasks: [{
 				id: "00FC62D495672471"
 				item: "create:stock_link"
@@ -3134,11 +3134,11 @@
 		{
 			dependencies: ["2EDAEA1566841D97"]
 			description: [
-				"Welcome to the age of logistics. The Stock Ticker lets you create smart, redstone-controlled automation based on your inventory levels — and it’s a crucial piece of the Logistics Network puzzle."
+				"Welcome to the age of logistics. The Stock Ticker lets you create smart, redstone-controlled automation based on your inventory levels - and it’s a crucial piece of the Logistics Network puzzle."
 				""
 				"Once connected to a Stock Link, the Ticker monitors a specific item and emits a configurable redstone signal based on how many of that item exist across connected inventories."
 				"{@pagebreak}"
-				"But its power doesn’t stop there — when paired with a Seat or Blaze Burner, the Mob on the seat or the Blaze Burner becomes a Stock Keeper with a full network UI. "
+				"But its power doesn’t stop there - when paired with a Seat or Blaze Burner, the Mob on the seat or the Blaze Burner becomes a Stock Keeper with a full network UI. "
 				""
 				"This interface lets you:"
 				""
@@ -3182,16 +3182,16 @@
 				""
 				"When placed and linked to a Stock Link, the gauge can:"
 				""
-				"🔵 Operate in Restocker Mode, keeping a specific item stocked in an inventory (like a Packager)"
+				" Operate in Restocker Mode, keeping a specific item stocked in an inventory (like a Packager)"
 				""
-				"🟡 Operate in Recipe Mode, managing complex input chains between other Factory Gauges"
+				" Operate in Recipe Mode, managing complex input chains between other Factory Gauges"
 				""
 				"{@pagebreak}"
 				"Factory Gauges monitor stock, send requests, and even wait for promises to ensure no items are sent twice or prematurely. You can fine-tune their thresholds, link them with Redstone Links for signal control, and connect Display Links to show system status at a glance."
 				""
 				"Whether you're keeping 128 logs on hand or coordinating a 9-item mechanical crafting recipe, the Factory Gauge ensures your logistics network stays precise and intelligent."
 				""
-				"📘 Ponder Tip: Use Ponder on the Factory Gauge to understand stock monitoring, promises, and how to link multiple gauges in a recipe chain."
+				" Ponder Tip: Use Ponder on the Factory Gauge to understand stock monitoring, promises, and how to link multiple gauges in a recipe chain."
 			]
 			id: "30A6D792C4102B6C"
 			rewards: [
@@ -3207,7 +3207,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "The Brain of the Logistics Network"
+			subtitle: "The Brain of the Logistics Network."
 			tasks: [{
 				count: 2L
 				id: "5893757911E9BD83"
@@ -3223,7 +3223,7 @@
 			description: [
 				"The Redstone Requester bridges the gap between redstone logic and logistics automation."
 				""
-				"Once connected to a Stock Link or Stock Ticker, the Requester lets you configure a shopping list of up to 9 items, each up to 256 units. When it receives a redstone signal, it sends a request to the network — delivering items in Cardboard Packages to the target address you specify."
+				"Once connected to a Stock Link or Stock Ticker, the Requester lets you configure a shopping list of up to 9 items, each up to 256 units. When it receives a redstone signal, it sends a request to the network - delivering items in Cardboard Packages to the target address you specify."
 				""
 				"{@pagebreak}"
 				"It’s perfect for:"
@@ -3238,7 +3238,7 @@
 				""
 				"No redstone signal = no request. This makes it a powerful on-demand item fetcher for your factory."
 				""
-				"📘 Ponder Tip: Use Ponder on the Redstone Requester to see how to configure and trigger it using redstone signals."
+				" Ponder Tip: Use Ponder on the Redstone Requester to see how to configure and trigger it using redstone signals."
 			]
 			id: "1FA87B67695E65A0"
 			rewards: [{
@@ -3246,7 +3246,7 @@
 				type: "xp"
 				xp: 50
 			}]
-			subtitle: "Signal to Ship"
+			subtitle: "Signal to Ship."
 			tasks: [{
 				id: "5F15937197362F08"
 				item: "create:redstone_requester"
@@ -3278,7 +3278,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "O where art thou fair Andesite Cave"
+			subtitle: "O where art thou fair Andesite Cave."
 			tasks: [{
 				id: "4ED3B53840EA348F"
 				item: {
@@ -3324,7 +3324,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Invisible Logic"
+			subtitle: "Invisible Logic."
 			tasks: [{
 				id: "147CB2D730784F03"
 				item: "create:redstone_link"

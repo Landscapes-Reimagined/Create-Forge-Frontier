@@ -1,0 +1,16 @@
+{
+    "modId": "collectorsreap",
+    "group": {
+      "name": "Collectors Reap Plants",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "plants"
+    },
+    "customEntries": [
+      {
+        "output": "collectorsreap:dragon_bush"
+      }
+    ]
+  }

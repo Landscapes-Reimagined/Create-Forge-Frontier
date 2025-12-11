@@ -156,11 +156,14 @@
 	quests: [
 		{
 			description: [
-				"In the world of &lForge Frontier&r, hidden across the lands are powerful relics— &lArtifacts&r, each imbued with magical properties that enhance your abilities in unique ways. These rare items are scattered throughout dungeons, ruins, and secret vaults, waiting for an adventurer worthy enough to uncover them."
+				"Across the world of &lForge Frontier&r lie powerful relics known as &lArtifacts&r, each infused with unique qualities that enhance your abilities in extraordinary ways. These rare treasures rest within dungeons, ruins, and secret chambers, waiting for explorers bold enough to claim them."
 				""
-				"From boots that let you walk on water to rings that grant you unparalleled speed, each artifact is a game-changer in your journey. Unlike ordinary gear, artifacts don't require armor slots and can be worn alongside your usual equipment, making them invaluable tools for any explorer."
+				"From boots that let you glide across water to rings that grant sudden bursts of speed, every artifact offers a distinct advantage on your journey. Unlike traditional gear, artifacts can be worn alongside your normal equipment, making them invaluable companions for any adventurer."
+				""
 				"{@pagebreak}"
-				"Your quest? &lSeek out these legendary items&r, test their abilities, and harness their power to push the boundaries of what you thought possible. Will you stumble upon a fire-resistant pendant in a Nether fortress? Or perhaps a lucky scarf buried deep within a forgotten ruin?"
+				"Your mission is simple: &lseek out these legendary relics&r, uncover their secrets, and harness their power to expand what is possible. Will you discover a fire-resistant charm deep within a Nether fortress? Or perhaps stumble upon a lucky talisman buried in the heart of a forgotten ruin?"
+				""
+				"The frontier is filled with hidden wonders—go find them."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -181,20 +184,24 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Unlocking Hidden Treasures: The Power of Artifacts, Click me to learn more!"
+			subtitle: "Unlocking Hidden Treasures: The Power of Artifacts — Click me to learn more!"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "4A2E530015E86C2B"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Artifacts"
+			title: "&6Artifacts&r"
 			x: -0.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Acts as a shield without durability, and slows your fall when held. Can be found in buried treasure chests, desert pyramids and village tanneries. Can be found through archaeology in desert wells."]
+			description: [
+				"This versatile artifact functions as a shield without any durability and gently slows your descent when held, offering both protection and mobility in a single tool."
+				""
+				"You can discover the Umbrella within buried treasure chests, desert pyramids, and village tanneries. It may also be uncovered through archaeology in desert wells, rewarding those who explore the sands with patience and curiosity."
+			]
 			id: "551F7FBE16A5CDDF"
 			rewards: [
 				{
@@ -219,7 +226,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "106DDBA2BB51F18C"
 				item: "artifacts:umbrella"
@@ -230,7 +237,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["A food item that does not get consumed when you eat it, with a 15 second cooldown. Everlasting beef drops from cows killed by players with a 1/500 drop rate, not affected by Looting. Can rarely also be found in bastion stables and village butchers."]
+			description: [
+				"A unique food item that never gets consumed when eaten, instead operating on a short 15-second cooldown. The Everlasting Beef provides reliable nourishment during long expeditions without needing to restock supplies."
+				""
+				"This rare artifact can drop from cows slain by players, with a 1 in 500 chance that is not influenced by Looting. It may also appear occasionally within bastion stables or village butcher chests, rewarding those who search diligently for its enduring value."
+			]
 			id: "304AF5F8562E4A5C"
 			rewards: [
 				{
@@ -249,7 +260,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [
 				{
 					id: "076BC2B2C007C355"
@@ -267,7 +278,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Reduces the time it takes to drink drinkable items by 70%, and reduces the time it takes to eat items by 40%. Can be found in abandoned mineshafts, buried treasure chests and nether fortresses. Very rarely worn by naturally spawned skeletons. Can be found through archaeology in desert wells."]
+			description: [
+				"Significantly speeds up consumption, reducing drink times by 70% and eating times by 40%. This makes it far easier to recover health or gain buffs during combat and exploration."
+				""
+				"This artifact can be found in abandoned mineshafts, buried treasure chests, and nether fortresses. It may also be rarely worn by naturally spawned skeletons. Additionally, it can be uncovered through archaeology in desert wells for those patient enough to search their depths."
+			]
 			id: "4AFB48769D3E1EB9"
 			rewards: [
 				{
@@ -286,7 +301,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "07EAA6F92BEE9C37"
 				item: {
@@ -336,7 +351,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "70AF155C793A167C"
 				item: {
@@ -360,7 +375,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Grants a small amount of night vision when worn. Can be found in abandoned mineshafts, shipwrecks and ruined portals. Very rarely worn by naturally spawned skeletons. Can be found through archaeology in desert pyramids."]
+			description: [
+				"Grants improved visibility in low-light environments, allowing you to navigate dark areas with greater ease."
+				"This artifact can be found in plains village temples, jungle pyramids, and buried treasure chests."
+				"It may also occasionally be held by naturally spawned stray skeletons."
+				"Additional copies can be uncovered through archaeology in desert pyramids."
+			]
 			id: "084957F68D52D6A7"
 			rewards: [
 				{
@@ -379,7 +399,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "3C37758007BCA486"
 				item: "artifacts:night_vision_goggles"
@@ -390,7 +410,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Decreases trading prices with villagers. Can be found in villages and igloos. Can be found through archaeology in trail ruins."]
+			description: [
+				"Reduces the trading prices offered by villagers, making resource exchange significantly more efficient."
+				"This artifact can appear in village temples, pillager outposts, and igloos."
+				"It may also be obtained through archaeology in trail ruins."
+			]
 			id: "2BC238F3FDD58DDB"
 			rewards: [
 				{
@@ -410,7 +434,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "2DF676F5F25E72A7"
 				item: {
@@ -434,7 +458,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Applies an extra level of looting to killed entities. Can be found in pillager outposts, strongholds, large underwater ruins and abandoned mineshafts. Can be found through archaeology in desert wells."]
+			description: [
+				"Applies an additional level of looting when you defeat hostile or passive creatures, increasing the amount of items they drop."
+				"This artifact can be found in jungle pyramids, desert pyramids, and abandoned mineshafts."
+				"It may also be uncovered through archaeology in desert wells."
+			]
 			id: "7EEBEE5ADECCC5CB"
 			rewards: [
 				{
@@ -460,7 +488,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "03BA7A46686F077A"
 				item: {
@@ -484,7 +512,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the speed of ridden mounts. Can be found in nether fortresses, bastion stables and ruined portals. Very rarely worn by naturally spawned zombies. Can be found through archaeology in desert pyramids."]
+			description: [
+				"Boosts the speed of any mount you ride, allowing faster travel across a variety of terrains."
+				"This artifact can be found in nether fortresses, village tanneries, and plains village temples."
+				"Naturally spawned zombies may rarely carry one."
+				"Additional copies can be uncovered through archaeology in desert pyramids."
+			]
 			id: "516D480B3D1E4232"
 			rewards: [
 				{
@@ -503,7 +536,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "0EE686322DB74A90"
 				item: "artifacts:cowboy_hat"
@@ -514,7 +547,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Applies an extra level of Lure and Luck of the Sea when fishing. Can be found in village tanneries, buried treasure chests, jungle temples and large underwater ruins. Can be found through archaeology in cold ocean ruins."]
+			description: [
+				"Enhances fishing by granting an additional level of Lure and Luck of the Sea, improving both speed and treasure quality."
+				"This artifact can be found in shipwreck supply chests, cold ocean ruins, and jungle pyramids."
+				"Further copies may be uncovered through archaeology in cold ocean ruins."
+			]
 			id: "2AC644E3091C6EEB"
 			rewards: [
 				{
@@ -549,7 +586,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "6A4D323877D24DF1"
 				item: {
@@ -573,7 +610,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Applies an extra level of fortune to mined blocks. Can be found in treasure chests, ruined portals, strongholds, igloos and underwater ruins. Can be found through archaeology in cold ocean ruins."]
+			description: [
+				"Applies an additional level of fortune when mining blocks, increasing the amount of resources obtained."
+				"This artifact can be found in treasure chests, ruined portals, strongholds, igloos, and underwater ruins."
+				"Additional copies may be uncovered through archaeology in cold ocean ruins."
+			]
 			id: "651C17AD95CCA5BD"
 			rewards: [
 				{
@@ -592,7 +633,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "34F7865E6A414D11"
 				item: {
@@ -616,7 +657,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Turns the player invisible. Can be found in desert pyramids, pillager outposts, shipwrecks and village tanneries. Very rarely worn by naturally spawned zombies."]
+			description: [
+				"Causes the wearer to become invisible, allowing for stealthier movement and safer exploration."
+				"This artifact can be found in desert pyramids, pillager outposts, shipwrecks, and village tanneries."
+				"Naturally spawned zombies may rarely carry one."
+			]
 			id: "363154F272ECBCFD"
 			rewards: [
 				{
@@ -637,7 +682,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "23C29CA00F705EB4"
 				item: {
@@ -665,7 +710,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the length of invincibility after taking damage. Can be found in bastion treasure chests, nether fortresses, pillager outposts and large underwater ruins."]
+			description: [
+				"Extends the duration of invincibility after taking damage, giving you more time to reposition in dangerous encounters."
+				"This artifact can be found in desert pyramids, bastion treasure chests, and strongholds."
+				"Naturally spawned vindicators may rarely carry one."
+				"Additional copies can be uncovered through archaeology in cold ocean ruins."
+			]
 			id: "07535567CA8B5C62"
 			rewards: [
 				{
@@ -690,7 +740,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "2CE64FF923888914"
 				item: "artifacts:cross_necklace"
@@ -701,7 +751,10 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Gives the player a short speed status effect after taking damage. Can be found in abandoned mineshafts, bastion treasure chests and pillager outposts."]
+			description: [
+				"Grants a short burst of speed after taking damage, improving your ability to escape or reengage quickly."
+				"This artifact can be found in abandoned mineshafts, bastion treasure chests, and pillager outposts."
+			]
 			id: "72717A659397B964"
 			rewards: [
 				{
@@ -727,7 +780,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "2AEFE41D50A13ECC"
 				item: "artifacts:panic_necklace"
@@ -738,7 +791,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Has a chance to strike attacking entities with lightning. Can be found in desert pyramids and ancient cities. Can be found through archaeology in desert pyramids."]
+			description: [
+				"Has a chance to strike hostile entities with lightning when they attack you, delivering a powerful reactive effect."
+				"This artifact can be found in desert pyramids and ancient cities."
+				"Additional copies may be uncovered through archaeology in desert pyramids."
+			]
 			id: "7DD3EB098362A2CC"
 			rewards: [
 				{
@@ -763,7 +820,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "156CCD6D5249DCCE"
 				item: "artifacts:shock_pendant"
@@ -774,7 +831,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Has a chance to light attacking entities on fire. Can be found in desert pyramids and bastion stables. Very rarely worn by naturally spawned skeletons. Can be found through archaeology in trail ruins."]
+			description: [
+				"Has a chance to ignite enemies that strike you, adding extra damage over time."
+				"This artifact can be found in desert pyramids and bastion stables."
+				"Naturally spawned skeletons may rarely carry one."
+				"Additional copies can be uncovered through archaeology in trail ruins."
+			]
 			id: "089B63519CD22E49"
 			rewards: [
 				{
@@ -800,7 +862,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "06290B923F0B4F26"
 				item: "artifacts:flame_pendant"
@@ -811,7 +873,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Has a chance to damage attacking entities. Can be found in desert pyramids and ruined portals. Very rarely worn by naturally spawned husks. Can be found through archaeology in trail ruins."]
+			description: [
+				"Has a chance to deal damage back to hostile entities when they attack you."
+				"This artifact can be found in desert pyramids and ruined portals."
+				"Naturally spawned husks may rarely carry one."
+				"Additional copies can be uncovered through archaeology in trail ruins."
+			]
 			id: "2435737159CE92D3"
 			rewards: [
 				{
@@ -832,7 +899,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "47BE53798147F320"
 				item: "artifacts:thorn_pendant"
@@ -843,7 +910,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Allows the player to move freely in fluids. Can be found in desert pyramids, shipwrecks, ancient cities and village temples. Can be found through archaeology in desert wells."]
+			description: [
+				"Allows you to move freely through fluids, improving mobility underwater or in other liquid environments."
+				"This artifact can be found in desert pyramids, shipwrecks, ancient cities, and village temples."
+				"Additional copies may be uncovered through archaeology in desert wells."
+			]
 			id: "23FECF2363C2523D"
 			rewards: [
 				{
@@ -868,7 +939,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "714A8626EA1A6102"
 				item: "artifacts:charm_of_sinking"
@@ -879,7 +950,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Allows the player to double jump. Can be found in pillager outposts, large underwater ruins, end cities and abandoned mineshafts. Can be found through archaeology in trail ruins."]
+			description: [
+				"Grants a small double-jump effect, allowing you to reach higher ledges or reposition quickly."
+				"This artifact can be found in plains village temples, shipwreck supply chests, and the bonus chest at world spawn."
+				"It may also appear within jungle pyramids or be uncovered through archaeology in trail ruins."
+			]
 			id: "3BC08394D7BD5DE6"
 			rewards: [
 				{
@@ -904,7 +979,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "54AB4A749A8E7348"
 				item: "artifacts:cloud_in_a_bottle"
@@ -915,7 +990,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Applies a 30 second fire resistance effect to the player after taking fire damage, with a 60 second cooldown. Can be found in ruined portals, shipwrecks and abandoned mineshafts. Very rarely worn by naturally spawned piglins. Can be found through archaeology in desert pyramids."]
+			description: [
+				"Grants the wearer 30 seconds of fire resistance when they take fire damage, allowing a quick recovery in hazardous situations. This effect has a 60-second cooldown."
+				""
+				"This artifact can be found in ruined portals, shipwrecks, and abandoned mineshafts. It may also rarely be worn by naturally spawned piglins. Additionally, it can be uncovered through archaeology in desert pyramids for those patient enough to sift through ancient sands."
+			]
 			id: "1F62F933D3D69A35"
 			rewards: [
 				{
@@ -940,7 +1019,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "7DC73A063006B37D"
 				item: "artifacts:obsidian_skull"
@@ -951,7 +1030,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Greatly reduces the duration of negative status effects. Can be found in strongholds, bastion treasure chests and village temples. Very rarely worn by naturally spawned wither skeletons. Can be found through archaeology in cold ocean ruins."]
+			description: [
+				"Greatly reduces the duration of harmful status effects, offering valuable protection against many dangerous encounters."
+				""
+				"This artifact can be discovered within strongholds, bastion treasure chests, and village temples. It may also be rarely worn by naturally spawned wither skeletons. In addition, careful archaeology in cold ocean ruins may reveal one hidden among ancient debris."
+			]
 			id: "10975C51192EBF6A"
 			rewards: [
 				{
@@ -970,7 +1053,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "27511EBE5E030C10"
 				item: "artifacts:antidote_vessel"
@@ -981,7 +1064,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Attracts nearby items. Can be found in desert pyramids, ruined portals and shipwrecks. Very rarely worn by naturally spawned piglins. Can be found through archaeology in desert wells."]
+			description: [
+				"Pulls nearby dropped items toward the wearer, making resource collection faster and more convenient."
+				"This artifact can be found in desert pyramids, ruined portals, and shipwrecks."
+				"Naturally spawned piglins may rarely carry one."
+				"Additional copies can be uncovered through archaeology in desert wells."
+			]
 			id: "7A2B21D760F85D2A"
 			rewards: [
 				{
@@ -1000,7 +1088,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "2A80C4627439AF58"
 				item: "artifacts:universal_attractor"
@@ -1011,7 +1099,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the player's maximum health with 5 hearts. Can be found in bastion treasure chests, end cities and pillager outposts."]
+			description: [
+				"Grants the wearer an additional 5 hearts of maximum health, offering a significant boost to survivability in dangerous environments."
+				""
+				"This powerful artifact can be found within bastion treasure chests, end cities, and pillager outposts, rewarding explorers who brave these challenging structures."
+			]
 			id: "236549855FD2818F"
 			rewards: [
 				{
@@ -1030,7 +1122,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "31C6CFDE9B1E346C"
 				item: "artifacts:crystal_heart"
@@ -1041,7 +1133,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["A fatal hit teleports the player somewhere else, consuming the item. Can be found in end cities and woodland mansions."]
+			description: [
+				"Teleports the wearer to a random location upon receiving a fatal blow, consuming the artifact in the process."
+				"This provides a last-resort escape that may save you from certain death."
+				"This artifact can be found in end cities and woodland mansions."
+			]
 			id: "0B2F5DB2E8CF0A32"
 			rewards: [
 				{
@@ -1062,7 +1158,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "7C0A2DDB90E807FA"
 				item: "artifacts:chorus_totem"
@@ -1073,7 +1169,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the players mining speed, and increases the players base mining level to stone. Can be found in abandoned mineshafts, buried treasure chests and village toolsmiths. Can be found through archaeology in cold ocean ruins."]
+			description: [
+				"Increases your mining speed and raises your base mining level to stone, allowing faster early-game progression."
+				"This artifact can be found in abandoned mineshafts, buried treasure chests, and village toolsmith buildings."
+				"Additional copies may be uncovered through archaeology in cold ocean ruins."
+			]
 			id: "1F16C54999AD56A1"
 			rewards: [
 				{
@@ -1098,7 +1198,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "11176A58AB256962"
 				item: "artifacts:digging_claws"
@@ -1109,7 +1209,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the players attack speed. Can be found in shipwrecks, buried treasure chests and village weaponsmiths. Can be found through archaeology in trail ruins."]
+			description: [
+				"Boosts your attack speed, enabling faster follow-up strikes during combat."
+				"This artifact can be found in shipwreck supply chests, buried treasure chests, and village weaponsmith buildings."
+				"It may also be uncovered through archaeology in trail ruins."
+			]
 			id: "50F6CD93C229C356"
 			rewards: [
 				{
@@ -1134,7 +1238,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "666C73F2F5EF26EE"
 				item: "artifacts:feral_claws"
@@ -1145,7 +1249,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["The player's attacks deal 4 additional damage. Can be found in pillager outposts, ruined portals, strongholds and large underwater ruins. Can be found through archaeology in desert pyramids."]
+			description: [
+				"Increases your melee attacks by 4 additional damage, significantly enhancing close-range combat effectiveness."
+				"This artifact can be found in pillager outposts, ruined portals, strongholds, and large underwater ruins."
+				"Additional copies may be uncovered through archaeology in desert pyramids."
+			]
 			id: "28556125D00A894D"
 			rewards: [
 				{
@@ -1164,7 +1272,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "3E8D454F6216C844"
 				item: "artifacts:power_glove"
@@ -1175,7 +1283,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Causes the player's melee attacks to set entities on fire. Can be found in ruined portals, large underwater ruins and bastion treasure chests. Very rarely worn by naturally spawned wither skeletons. Can be found through archaeology in cold ocean ruins."]
+			description: [
+				"Causes your melee attacks to ignite enemies, dealing additional fire damage over time."
+				"This artifact can be found in ruined portals, large underwater ruins, and bastion treasure chests."
+				"Naturally spawned wither skeletons may rarely carry one."
+				"Additional copies can be uncovered through archaeology in cold ocean ruins."
+			]
 			id: "4C233BEEF78A4911"
 			rewards: [
 				{
@@ -1196,7 +1309,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "47999C698048E249"
 				item: "artifacts:fire_gauntlet"
@@ -1207,7 +1320,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases knockback dealt by the player. Can be be found in pillager outposts, nether fortresses and village toolsmiths. Can be found through archaeology in trail ruins."]
+			description: [
+				"Increases the knockback dealt by your attacks, allowing you to push enemies farther away with each strike."
+				"This artifact can be found in pillager outposts, nether fortresses, and village toolsmith buildings."
+				"It may also be uncovered through archaeology in trail ruins."
+			]
 			id: "728434AC176C4EF4"
 			rewards: [
 				{
@@ -1228,7 +1345,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "4FE1D00912CFB146"
 				item: "artifacts:pocket_piston"
@@ -1239,7 +1356,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["The player is healed 20% of the damage dealt by melee attacks. Can be found in abandoned mineshafts, desert pyramids and village armorers. Very rarely worn by naturally spawned husks. Can be found through archaeology in warm ocean ruins."]
+			description: [
+				"Restores 20 percent of the damage you deal with melee attacks, improving sustain during extended combat."
+				"This artifact can be found in abandoned mineshafts, desert pyramids, and village armorer buildings."
+				"Naturally spawned husks may rarely carry one."
+				"Additional copies can be uncovered through archaeology in warm ocean ruins."
+			]
 			id: "39C4D7FA7620C375"
 			rewards: [
 				{
@@ -1258,7 +1380,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "5611F33C2E7344D6"
 				item: "artifacts:vampiric_glove"
@@ -1269,7 +1391,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases experience dropped from creatures by 75%. Can be found in buried treasure chests, shipwrecks and bastion treasure chests. Very rarely worn by naturally spawned piglins."]
+			description: [
+				"Increases experience dropped from defeated creatures by 75 percent, greatly speeding up progression."
+				"This artifact can be found in buried treasure chests, shipwrecks, and bastion treasure chests."
+				"Naturally spawned piglins may rarely carry one."
+			]
 			id: "4A2EB1CE90E85E58"
 			rewards: [
 				{
@@ -1288,7 +1414,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "7D1E45BBFD9DB33D"
 				item: "artifacts:golden_hook"
@@ -1299,7 +1425,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Grants a temporary haste effect after eating food. Can be found in abandoned mineshafts, ancient cities and desert pyramids. Very rarely worn by naturally spawned piglin brutes. Can be found through archaeology in warm ocean ruins."]
+			description: [
+				"Grants a temporary haste effect after eating food, allowing faster block breaking and improved work efficiency."
+				"This artifact can be found in abandoned mineshafts, ancient cities, and desert pyramids."
+				"Naturally spawned piglin brutes may rarely carry one."
+				"Additional copies may be uncovered through archaeology in warm ocean ruins."
+			]
 			id: "406D98F95463C7E0"
 			rewards: [
 				{
@@ -1326,7 +1457,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "78D033966D85FA7D"
 				item: "artifacts:onion_ring"
@@ -1337,7 +1468,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Automatically smelts mined ores. Can be found in abandoned mineshafts, bastion stables, strongholds and ancient cities. Can be found through archaeology in trail ruins."]
+			description: [
+				"Automatically smelts mined ores, converting them into their processed forms instantly upon breaking."
+				"This artifact can be found in abandoned mineshafts, bastion stables, strongholds, and ancient cities."
+				"Additional copies can be uncovered through archaeology in trail ruins."
+			]
 			id: "10D0EC683BD0AEFA"
 			rewards: [
 				{
@@ -1356,7 +1491,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "522F7133BED2ADC8"
 				item: "artifacts:pickaxe_heater"
@@ -1367,7 +1502,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Allows the player to sprint on water and lava. Can be found in abandoned mineshafts, buried treasure chests, ancient cities and strongholds. Can be found through archaeology in warm ocean ruins and trail ruins."]
+			description: [
+				"Allows you to sprint across the surface of water and lava, enabling rapid movement through hazardous terrain."
+				"This artifact can be found in abandoned mineshafts, buried treasure chests, ancient cities, and strongholds."
+				"Additional copies may be uncovered through archaeology in warm ocean ruins and trail ruins."
+			]
 			id: "5A6F33FA75FCEBF6"
 			rewards: [
 				{
@@ -1393,7 +1532,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "5B06841E6182CA75"
 				item: "artifacts:aqua_dashers"
@@ -1404,7 +1543,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the player's jump height and prevents fall damage. Can be found in jungle temples, buried treasure chests, bastion stables and village tanneries. Very rarely worn by naturally spawned zombies. Can be found through archaeology in warm ocean ruins."]
+			description: [
+				"Increases your jump height and prevents fall damage, offering exceptional mobility and safety when traversing vertical spaces."
+				"This artifact can be found in jungle temples, buried treasure chests, bastion stables, and village tanneries."
+				"Naturally spawned zombies may rarely carry one."
+				"Additional copies can be uncovered through archaeology in warm ocean ruins."
+			]
 			id: "6AB6F1516D6BEC66"
 			rewards: [
 				{
@@ -1424,7 +1568,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "6B7091A83489DB5F"
 				item: "artifacts:bunny_hoppers"
@@ -1435,7 +1579,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Creepers don't target and run away from the player. Can be found in jungle temples, buried treasure chests and village tanneries. Can be found through archaeology in desert pyramids."]
+			description: [
+				"Causes creepers to avoid the wearer entirely, preventing them from targeting or approaching you."
+				"This artifact can be found in jungle temples, buried treasure chests, and village tanneries."
+				"Additional copies may be uncovered through archaeology in desert pyramids."
+			]
 			id: "1ED05F2E1E550B23"
 			rewards: [
 				{
@@ -1454,7 +1602,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "1651C6EF70956E71"
 				item: "artifacts:kitty_slippers"
@@ -1465,7 +1613,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the player's movement speed by 40%, and increases the players step height, both while sprinting. Can be found in shipwrecks, nether fortresses and village armorers. Can be found through archaeology in warm ocean ruins."]
+			description: [
+				"Increases movement speed by 40 percent while sprinting and raises your step height, allowing smoother traversal over small obstacles."
+				"This artifact can be found in shipwrecks, nether fortresses, and village armorer buildings."
+				"Additional copies may be uncovered through archaeology in warm ocean ruins."
+			]
 			id: "7FA44BFC7DC01A17"
 			rewards: [
 				{
@@ -1491,7 +1643,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "70751A3E59124CFF"
 				item: "artifacts:running_shoes"
@@ -1502,7 +1654,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Allows the player to walk on powdered snow, and increases the player's movement speed on snow. Can be found in snowy and taiga villages, igloos and ancient cities. Very rarely worn by naturally spawned strays. Can be found through archaeology in trail ruins."]
+			description: [
+				"Allows the wearer to walk on powdered snow and increases movement speed when traveling across snowy terrain."
+				"This artifact can be found in snowy and taiga villages, igloos, and ancient cities."
+				"Naturally spawned strays may rarely carry one."
+				"Additional copies can be uncovered through archaeology in trail ruins."
+			]
 			id: "4AE89A74B46FDF1B"
 			rewards: [
 				{
@@ -1521,7 +1678,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "135D759316A0B771"
 				item: "artifacts:snowshoes"
@@ -1532,7 +1689,12 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the player's knockback resistance to 100%, and makes ice less slippery. Can be found in pillager outposts, shipwrecks, bastion treasure chests and village armorers. Very rarely worn by naturally spawned strays. Can be found through archaeology in trail ruins."]
+			description: [
+				"Grants full knockback resistance and reduces slipperiness when walking on ice, improving control in icy environments."
+				"This artifact can be found in pillager outposts, shipwrecks, bastion treasure chests, and village armorer buildings."
+				"Naturally spawned strays may rarely carry one."
+				"Additional copies can be uncovered through archaeology in trail ruins."
+			]
 			id: "2F72CB515C4AF0DF"
 			rewards: [
 				{
@@ -1557,7 +1719,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "75BE8BC65F45F3FB"
 				item: "artifacts:steadfast_spikes"
@@ -1568,7 +1730,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Slowly restores the player's hunger bar when walking on grass. Can be found in jungle temples, pillager outposts, strongholds and ancient cities. Can be found through archaeology in trail ruins."]
+			description: [
+				"Slowly restores your hunger while walking on grass, providing a passive source of nourishment during exploration."
+				"This artifact can be found in jungle temples, pillager outposts, strongholds, and ancient cities."
+				"Additional copies may be uncovered through archaeology in trail ruins."
+			]
 			id: "6EB889CEDFBD05C7"
 			rewards: [
 				{
@@ -1587,7 +1753,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "52ACE4051E2A5865"
 				item: "artifacts:rooted_boots"
@@ -1598,7 +1764,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Occasionally plays a fart noise when worn. Equipable in the charm slot. Can be found in desert pyramids, village tanneries and the spawn bonus chest. Can be found through archaeology in trail ruins."]
+			description: [
+				"This quirky charm occasionally emits a comedic sound when worn, adding a bit of playful mischief to your adventures. It is equipped in the charm slot and offers a lighthearted touch to your journey."
+				""
+				"You can find this artifact within desert pyramids, village tanneries, and the spawn bonus chest. It may also be uncovered through archaeology in trail ruins, rewarding explorers who enjoy both discovery and humor."
+			]
 			id: "3959426A63A0F441"
 			rewards: [
 				{
@@ -1617,7 +1787,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "2712591D68263532"
 				item: "artifacts:whoopee_cushion"
@@ -1628,7 +1798,11 @@
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
-			description: ["Increases the player's swimming speed by 100%. Can be found in buried treasure chests, shipwrecks and large underwater ruins. Very rarely worn by naturally spawned drowned."]
+			description: [
+				"Increases your swimming speed by 100 percent, enabling rapid movement through water."
+				"This artifact can be found in buried treasure chests, shipwrecks, and large underwater ruins."
+				"Naturally spawned drowned may rarely carry one."
+			]
 			id: "34F551A0011C6DD5"
 			rewards: [
 				{
@@ -1655,7 +1829,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click me to learn about this artifact!"
+			subtitle: "Click to learn about this artifact!"
 			tasks: [{
 				id: "2796E48443C72999"
 				item: "artifacts:flippers"

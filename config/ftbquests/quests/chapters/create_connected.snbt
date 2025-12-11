@@ -45,7 +45,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Links and Leverage"
+			subtitle: "Links and Leverage."
 			tasks: [{
 				id: "1029399E7909E005"
 				title: "Click Me!"
@@ -78,7 +78,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "A Blank Slate"
+			subtitle: "A Blank Slate."
 			tasks: [{
 				id: "7B84A39925AA3295"
 				item: "create_connected:empty_fan_catalyst"
@@ -91,7 +91,7 @@
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"Born from elemental contrast and shaped by raw motion—the Blasting and Washing Catalysts harness opposing forces to refine materials through focused fan-driven processes."
+				"Born from elemental contrast and shaped by raw motion-the Blasting and Washing Catalysts harness opposing forces to refine materials through focused fan-driven processes."
 				""
 				"To view the special interactions they enable, check the uses of the &nEncased Fan&r - which must be used to channel each catalyst’s unique transformative power."
 			]
@@ -116,7 +116,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "The Power of Heat and High Pressure"
+			subtitle: "The Power of Heat and High Pressure."
 			tasks: [
 				{
 					id: "1C2081D3711B570D"
@@ -160,7 +160,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "The Nether, Contained"
+			subtitle: "The Nether, Contained."
 			tasks: [
 				{
 					id: "35CE17A383CEDC7F"
@@ -205,7 +205,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Dreamed and Desired"
+			subtitle: "Dreamed and Desired."
 			tasks: [
 				{
 					id: "69F5D2A2A00BEE90"
@@ -260,7 +260,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Linked Logistics"
+			subtitle: "Linked Logistics."
 			tasks: [
 				{
 					count: 4L
@@ -309,7 +309,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Rewired"
+			subtitle: "Rewired."
 			tasks: [
 				{
 					id: "0A97D02EF1449295"
@@ -449,7 +449,7 @@
 					xp: 75
 				}
 			]
-			subtitle: "Built to Break"
+			subtitle: "Built to Break."
 			tasks: [
 				{
 					id: "672DEA2E4C84F4FF"
@@ -504,7 +504,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Logic in Motion"
+			subtitle: "Logic in Motion."
 			tasks: [
 				{
 					id: "1C00FC20746B6FB0"
@@ -552,7 +552,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Precision Machining"
+			subtitle: "Precision Machining."
 			tasks: [
 				{
 					id: "23F90604630D2538"
@@ -606,7 +606,7 @@
 					xp: 75
 				}
 			]
-			subtitle: "Spinning with Purpose"
+			subtitle: "Spinning with Purpose."
 			tasks: [
 				{
 					id: "68EDEB78890882CF"
@@ -663,7 +663,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Rotation, Your Way"
+			subtitle: "Rotation, Your Way."
 			tasks: [
 				{
 					id: "5C16857179279112"
@@ -721,7 +721,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Separated Stress"
+			subtitle: "Separated Stress."
 			tasks: [{
 				id: "7AFDEAF617087162"
 				item: "create_connected:kinetic_bridge"
@@ -753,7 +753,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Stored Stress"
+			subtitle: "Stored Stress."
 			tasks: [{
 				id: "0EE30858E6288681"
 				item: "create_connected:kinetic_battery"
@@ -785,7 +785,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "The Dragon Contained"
+			subtitle: "The Dragon Contained."
 			tasks: [
 				{
 					id: "51CA4E13CB48F34F"
@@ -805,7 +805,7 @@
 		{
 			dependencies: ["5D6433B36939DADB"]
 			description: [
-				"Drawn from the ocean’s heart and powered by an active conduit, the Conduit Catalyst channels flowing water into a new kind of fan processing—turning byproducts into prismarine, coral, copper, and more renewable riches."
+				"Drawn from the ocean’s heart and powered by an active conduit, the Conduit Catalyst channels flowing water into a new kind of fan processing-turning byproducts into prismarine, coral, copper, and more renewable riches."
 				""
 				"To view the special conversions it enables, check the uses of the &nEncased Fan&r when combined with a Conduit Channeling setup."
 			]
@@ -823,7 +823,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Power of the Sea"
+			subtitle: "Power of the Sea."
 			tasks: [
 				{
 					id: "2BD8CC1B48373EF6"

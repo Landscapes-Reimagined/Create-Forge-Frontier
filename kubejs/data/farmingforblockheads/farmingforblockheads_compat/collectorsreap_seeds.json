@@ -14,6 +14,41 @@
     },
     {
         "output": "collectorsreap:lime_seeds"
+    },
+    {
+        "output": "collectorsreap:damselflower_seeds",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
+    },
+    {
+        "output": "collectorsreap:moontear_seeds",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
+    },
+    {
+        "output": "collectorsreap:skull_lily_seeds",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
+    },
+    {
+        "output": "collectorsreap:bulbous_rose_seeds",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
+    },
+    {
+        "output": "collectorsreap:heartpetals_seeds",
+        "payment": {
+          "item": "minecraft:emerald",
+          "count": 8
+        }
     }
     ]
 }

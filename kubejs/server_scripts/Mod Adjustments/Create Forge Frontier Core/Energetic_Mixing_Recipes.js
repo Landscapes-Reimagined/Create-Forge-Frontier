@@ -3,6 +3,8 @@ ServerEvents.recipes(event =>
         // Remove Recipes
             event.remove({ id: 'forgefrontiercore:test_recipe'})
             event.remove({ id: 'create:mixing/compat/ae2/fluix_crystal'})
+            event.remove({ id: 'advanced_ae:accumulation_processor_chamber'})
+            event.remove({ id: 'advanced_ae:skysteel'})
 
         // Forge Frontier - Energetic Mixing Recipes
             const energeticMixingRecipes = [
@@ -103,6 +105,17 @@ ServerEvents.recipes(event =>
                     results: [{ item: "advanced_ae:quantum_alloy", count: 1 }]
                 },
                 {
+                    id: "sky_steel",
+                    energy: 200000,
+                    ingredients: [
+                        { item: "minecraft:iron_ingot", count: 16 },
+                        { item: "ae2:charged_certus_quartz_crystal", count: 16 },
+                        { item: "ae2:sky_stone_block", count: 16 },
+                        { fluid: "minecraft:lava", amount: 500 }
+                    ],
+                    results: [{ item: "megacells:sky_steel_ingot", count: 64 }]
+                },
+                {
                     id: "calculation_processor",
                     energy: 20000,
                     ingredients: [
@@ -166,6 +179,17 @@ ServerEvents.recipes(event =>
                         { fluid: "minecraft:water", amount: 100 }
                     ],
                     results: [{ item: "advanced_ae:quantum_processor", count: 4 }]
+                },
+                {
+                    id: "accumulation_processor",
+                    energy: 20000,
+                    ingredients: [
+                        { item: "megacells:printed_accumulation_processor", count: 4 },
+                        { item: "ae2:printed_silicon", count: 4 },
+                        { item: "minecraft:redstone", count: 4 },
+                        { fluid: "minecraft:water", amount: 100 }
+                    ],
+                    results: [{ item: "megacells:accumulation_processor", count: 4 }]
                 },
             ];
 

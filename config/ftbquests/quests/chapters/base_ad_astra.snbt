@@ -58,11 +58,11 @@
 		{
 			dependencies: ["0A1C7563FC03C5F6"]
 			description: [
-				"&9🌕 One Small Step...&r"
+				"&9 One Small Step...&r"
 				""
 				"{image:ftb:textures/moon_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
-				"The &fMoon&r—long a symbol of mystery and ambition—awaits your arrival. Thanks to the combined might of &bCreate&r and &dAd Astra&r, you now hold the power to leave the &aOverworld&r behind and launch into a new frontier"
+				"The &fMoon&r-long a symbol of mystery and ambition-awaits your arrival. Thanks to the combined might of &bCreate&r and &dAd Astra&r, you now hold the power to leave the &aOverworld&r behind and launch into a new frontier"
 				""
 				"The &7Moon&r offers no air to breathe, its frigid nights and searing days test even the most prepared explorers. Without proper equipment, shelter, and supplies, you risk being stranded in a crater of silence with no way back."
 				""
@@ -76,10 +76,10 @@
 				""
 				"{@pagebreak}"
 				""
-				"The Moon is no longer a distant dream—&nit’s your first step to the stars.&r  "
+				"The Moon is no longer a distant dream-&nit’s your first step to the stars.&r  "
 				"Will you conquer the void, or become a ghost among the craters?"
 				""
-				"&b🚀 Adventure awaits beyond the sky.&r"
+				"&b Adventure awaits beyond the sky.&r"
 			]
 			hide_dependent_lines: true
 			icon: "ad_astra:moon_globe"
@@ -111,9 +111,9 @@
 		{
 			dependencies: ["1523A7C10CEF69AA"]
 			description: [
-				"&6🚀 Mission Prep: Launch Protocol&r"
+				"&6 Mission Prep: Launch Protocol&r"
 				""
-				"Before you can set foot on the &fMoon&r, you must prepare for the &ccruel reality of space&r. The void offers no second chances—only those who plan ahead will survive."
+				"Before you can set foot on the &fMoon&r, you must prepare for the &ccruel reality of space&r. The void offers no second chances-only those who plan ahead will survive."
 				""
 				"To begin your cosmic journey, you’ll need:"
 				""
@@ -121,7 +121,7 @@
 				"- Enough &bFuel&r to escape the atmosphere  "
 				"- A functioning &3Oxygen System&r to keep you breathing"
 				""
-				"Gather your supplies, refine your engineering, and ensure every piece is in place—&lthere’s no turning back once you hit launch.&r"
+				"Gather your supplies, refine your engineering, and ensure every piece is in place-&lthere’s no turning back once you hit launch.&r"
 				""
 				"{@pagebreak}"
 				""
@@ -140,7 +140,7 @@
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "Fuel up, suit up, and get ready for launch—space waits for no one. Click me for more info!"
+			subtitle: "Fuel up, suit up, and get ready for launch-space waits for no one. Click me for more info!"
 			tasks: [
 				{
 					count: 3L
@@ -170,15 +170,15 @@
 		{
 			dependencies: ["783280C62226C4D6"]
 			description: [
-				"&6🧑🚀 Suit Up for the Stars&r"
+				"&6 Suit Up for the Stars&r"
 				""
-				"Before you set foot on the &fMoon&r, you’ll need more than just courage—you’ll need a fully equipped &bspace suit&r built to withstand the &cdangers of the void&r."
+				"Before you set foot on the &fMoon&r, you’ll need more than just courage-you’ll need a fully equipped &bspace suit&r built to withstand the &cdangers of the void&r."
 				""
 				"The Moon has no oxygen, &4no atmosphere&r, and temperatures that would freeze or scorch the unprepared. Without protection, you won’t survive more than a few moments. Your only defense? A &lcomplete Ad Astra Space Suit&r."
 				""
 				"{@pagebreak}"
 				""
-				"Craft the helmet, chestplate, leggings, and boots, and ensure they're equipped and pressurized before launch. This suit is more than gear—it’s your &9lifeline&r among the stars."
+				"Craft the helmet, chestplate, leggings, and boots, and ensure they're equipped and pressurized before launch. This suit is more than gear-it’s your &9lifeline&r among the stars."
 				""
 				"Only the fully suited survive. Are you ready to breathe among the craters?"
 			]
@@ -206,7 +206,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Craft and equip your space suit—your survival depends on it. Click me for more info!"
+			subtitle: "Craft and equip your space suit-your survival depends on it. Click me for more info!"
 			tasks: [
 				{
 					id: "105848CC9BDD1D0E"
@@ -260,9 +260,9 @@
 		{
 			dependencies: ["6977AFD24DE103EE"]
 			description: [
-				"&b🌬 Prepare Your Oxygen Supply&r"
+				"&b Prepare Your Oxygen Supply&r"
 				""
-				"A space suit might shield you from the vacuum, but without &9oxygen&r, your mission ends before it begins. Survival in the stars requires more than armor—it demands &lifesupport&r."
+				"A space suit might shield you from the vacuum, but without &9oxygen&r, your mission ends before it begins. Survival in the stars requires more than armor-it demands &lifesupport&r."
 				""
 				"To thrive on the &fMoon&r and beyond, you’ll need to set up &lAd Astra’s&r oxygen infrastructure. Use &aOxygen Loaders&r to fill your suit’s tanks, and place &aOxygen Distributors&r to create breathable pockets within your lunar outposts."
 				""
@@ -270,7 +270,7 @@
 				""
 				"Build your system, power it up, and test your oxygen flow. Only then will you be truly &lready for liftoff&r."
 				""
-				"The void won’t wait—&fsecure your air&r before you soar. 🌌"
+				"The void won’t wait-&fsecure your air&r before you soar. "
 			]
 			icon: "ad_astra:oxygen_bucket"
 			id: "3FD22E0DECD5522C"
@@ -315,17 +315,17 @@
 		{
 			dependencies: ["3FD22E0DECD5522C"]
 			description: [
-				"&f🌕 First Steps on the Moon&r"
+				"&f First Steps on the Moon&r"
 				""
 				"&lYou did it!&r You’ve shattered the bounds of Earth’s sky and landed upon the silent, cratered surface of the &fMoon&r."
 				""
-				"The terrain is alien—&7low gravity&r, &7no atmosphere&r, and &7dangers hiding in the dust&r. With each step, you etch your legacy into the lunar soil, but survival won't wait."
+				"The terrain is alien-&7low gravity&r, &7no atmosphere&r, and &7dangers hiding in the dust&r. With each step, you etch your legacy into the lunar soil, but survival won't wait."
 				""
 				"{@pagebreak}"
 				""
 				"Before exploring the vast unknown, focus on securing a &asafe lunar base&r. Establish &boxygen zones&r, build &ddefenses&r, and prepare for whatever the Moon has in store."
 				""
-				"The Earth is behind you. The cosmos lies ahead. &fYour mission begins now.&r 🚀🛰"
+				"The Earth is behind you. The cosmos lies ahead. &fYour mission begins now.&r "
 			]
 			icon: "ad_astra:moon_sand"
 			id: "576F413F0C3117B1"
@@ -371,17 +371,17 @@
 		{
 			dependencies: ["576F413F0C3117B1"]
 			description: [
-				"&f🌑 Relics of a Forgotten Moon&r"
+				"&f Relics of a Forgotten Moon&r"
 				""
-				"The Moon may appear desolate, but its silence hides the echoes of a bygone age. Scattered across its dusty plains lie &7Ancient Factories&r and &7derelict Pipelines&r—remnants of a once-thriving lunar civilization."
+				"The Moon may appear desolate, but its silence hides the echoes of a bygone age. Scattered across its dusty plains lie &7Ancient Factories&r and &7derelict Pipelines&r-remnants of a once-thriving lunar civilization."
 				""
-				"These structures aren't just ruins—they’re &6gateways to rare technology&r and &6valuable loot&r. Explore carefully; the Moon guards its secrets well."
+				"These structures aren't just ruins-they’re &6gateways to rare technology&r and &6valuable loot&r. Explore carefully; the Moon guards its secrets well."
 				""
 				"{@pagebreak}"
 				""
 				"Whether you're delving into a &cMoon Dungeon&r, breaching an &eAncient Factory&r, or navigating the &bPipeline systems&r, expect &cdanger at every turn&r. Guardians, traps, and hostile forces lie in wait for the unprepared."
 				""
-				"&lWill you uncover lost knowledge or be buried with it?&r The Moon's mysteries are yours to claim—if you survive. 🌘🔧"
+				"&lWill you uncover lost knowledge or be buried with it?&r The Moon's mysteries are yours to claim-if you survive. "
 			]
 			icon: {
 				Count: 1
@@ -473,19 +473,19 @@
 		{
 			dependencies: ["229BA6C2D9B46694"]
 			description: [
-				"&f🌒 Lunar Riches Await&r"
+				"&f Lunar Riches Await&r"
 				""
-				"The Moon isn’t just a stepping stone—it’s a treasure trove of &6exclusive resources&r vital to your progression in space and automation."
+				"The Moon isn’t just a stepping stone-it’s a treasure trove of &6exclusive resources&r vital to your progression in space and automation."
 				""
-				"Deep within the lunar surface, you’ll discover &eAubrum&r—an ore found only in &cMolten Vents&r across the Moon’s terrain. This material is crucial for crafting &ladvanced machinery&r and powering your interplanetary ambitions."
+				"Deep within the lunar surface, you’ll discover &eAubrum&r-an ore found only in &cMolten Vents&r across the Moon’s terrain. This material is crucial for crafting &ladvanced machinery&r and powering your interplanetary ambitions."
 				""
 				"{@pagebreak}"
 				""
 				"But Aubrum isn’t the only lunar gem. &bMoon Ice&r can be harvested for water, which is essential for &aoxygen generation&r and even used in producing &9Cryo Fuel&r to power your future rockets."
 				""
-				"And don’t forget the rare &eCheese Ore&r—it might not fuel machines, but it’s a cosmic delicacy worth collecting just for the laughs. 🧀🌕"
+				"And don’t forget the rare &eCheese Ore&r-it might not fuel machines, but it’s a cosmic delicacy worth collecting just for the laughs. "
 				""
-				"&lThe Moon offers more than mystery—it offers opportunity. Mine wisely, survive the elements, and turn lunar stone into starlit progress! 🚀"
+				"&lThe Moon offers more than mystery-it offers opportunity. Mine wisely, survive the elements, and turn lunar stone into starlit progress! "
 			]
 			icon: {
 				Count: 1
@@ -571,7 +571,7 @@
 		{
 			dependencies: ["45077F865A2C8C02"]
 			description: [
-				"&f🚀 Next Stop: The Red Frontier&r"
+				"&f Next Stop: The Red Frontier&r"
 				""
 				"Your time on the Moon has taught you how to survive in space, gather rare materials, and build a foothold beyond the Overworld. But this is only the beginning."
 				""
@@ -579,9 +579,9 @@
 				""
 				"{@pagebreak}"
 				""
-				"The path to Mars demands preparation—craft new fuel, reinforce your equipment, and brace for a world both harsh and full of potential."
+				"The path to Mars demands preparation-craft new fuel, reinforce your equipment, and brace for a world both harsh and full of potential."
 				""
-				"&lYour space journey continues—read more about conquering Mars in its&r  "
+				"&lYour space journey continues-read more about conquering Mars in its&r  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
 			]
 			icon: {
@@ -617,19 +617,19 @@
 		{
 			dependencies: ["2DC61E3DC8AF2A42"]
 			description: [
-				"&f🪐 Welcome to Mars: The Crimson Frontier&r"
+				"&f Welcome to Mars: The Crimson Frontier&r"
 				""
 				"{image:ftb:textures/mars_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
-				"After conquering the Moon, your next destination lies farther and more forbidding—&cMars&r. A planet of &4red sands&r, jagged canyons, and windswept mountains, it holds the remnants of forgotten civilizations and the promise of untapped power."
+				"After conquering the Moon, your next destination lies farther and more forbidding-&cMars&r. A planet of &4red sands&r, jagged canyons, and windswept mountains, it holds the remnants of forgotten civilizations and the promise of untapped power."
 				""
-				"Beneath its desolate surface lie &6ancient secrets&r and &eexclusive resources&r essential for your interstellar progression. But be warned—Mars is no place for the unprepared."
+				"Beneath its desolate surface lie &6ancient secrets&r and &eexclusive resources&r essential for your interstellar progression. But be warned-Mars is no place for the unprepared."
 				""
 				"{@pagebreak}"
 				""
 				"The &catmosphere is thin&r, the &cenvironment is brutal&r, and the dangers are far deadlier than anything you’ve faced before. You’ll need your best armor, oxygen supplies, and unwavering resolve to survive."
 				""
-				"&lReady your gear, fuel your rocket, and prepare to step into the unknown—the red frontier awaits.&r"
+				"&lReady your gear, fuel your rocket, and prepare to step into the unknown-the red frontier awaits.&r"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -655,11 +655,11 @@
 		{
 			dependencies: ["6169F8EB0E600750"]
 			description: [
-				"🚀 &cTier 2 Rocket: Breaking Mars’ Orbit&r"
+				" &cTier 2 Rocket: Breaking Mars’ Orbit&r"
 				""
-				"Mars lies farther across the void than the Moon—and reaching it demands more than just ambition. Your &7Tier 1 Rocket&r served you well, but it lacks the &cfuel capacity&r and &cengine power&r to brave the longer journey."
+				"Mars lies farther across the void than the Moon-and reaching it demands more than just ambition. Your &7Tier 1 Rocket&r served you well, but it lacks the &cfuel capacity&r and &cengine power&r to brave the longer journey."
 				""
-				"To pierce the Martian skies, you’ll need to &lupgrade&r to a &cTier 2 Rocket&r—engineered for deeper space, tougher conditions, and greater resilience. This next step in your &ointerstellar journey&r marks a turning point in your cosmic legacy."
+				"To pierce the Martian skies, you’ll need to &lupgrade&r to a &cTier 2 Rocket&r-engineered for deeper space, tougher conditions, and greater resilience. This next step in your &ointerstellar journey&r marks a turning point in your cosmic legacy."
 				""
 				"{@pagebreak}"
 				""
@@ -704,17 +704,17 @@
 		{
 			dependencies: ["2D130C99B5D7C5FF"]
 			description: [
-				"🪓 &4Digging Deeper: Martian Foundations&r"
+				" &4Digging Deeper: Martian Foundations&r"
 				""
-				"Before you build among the stars, you must carve your place into the Martian dust. Mars may appear lifeless, but its crimson crust is rich with &cMartian Stone&r—an essential material for constructing outposts and unlocking advanced planetary tech."
+				"Before you build among the stars, you must carve your place into the Martian dust. Mars may appear lifeless, but its crimson crust is rich with &cMartian Stone&r-an essential material for constructing outposts and unlocking advanced planetary tech."
 				""
-				"This versatile resource is not just for walls—it’s the key to &lreinforced builds&r, &odecorative architecture&r, and the foundations of your future Martian empire."
+				"This versatile resource is not just for walls-it’s the key to &lreinforced builds&r, &odecorative architecture&r, and the foundations of your future Martian empire."
 				""
 				"{@pagebreak}"
 				""
 				"Begin your excavation and gather what you need to &orest&r, &odevelop&r, and &ouncover the secrets&r buried beneath the red sands. Some of the &6rare minerals&r that lie beneath may change your journey forever."
 				""
-				"📦 &lYour Martian colony begins with a single stone.&r"
+				" &lYour Martian colony begins with a single stone.&r"
 			]
 			icon: "ad_astra:mars_stone"
 			id: "11B8EF9631422774"
@@ -764,28 +764,28 @@
 		{
 			dependencies: ["11B8EF9631422774"]
 			description: [
-				"The red planet hides more than dust and stone. Scattered across Mars lie relics of a fallen civilization, each guarding secrets of &cfire, spirit, and steel&r. To master the Martian Flame, you must unravel three trials—sanctuary, forge, and altar—each deadlier than the last."
+				"The red planet hides more than dust and stone. Scattered across Mars lie relics of a fallen civilization, each guarding secrets of &cfire, spirit, and steel&r. To master the Martian Flame, you must unravel three trials-sanctuary, forge, and altar-each deadlier than the last."
 				""
 				"{@pagebreak}"
 				""
-				"⛩ &6Martian Temples&r"
+				" &6Martian Temples&r"
 				"Shadows of a Lost Faith"
 				""
-				"Simple ruins scattered across the surface, the &6Martian Temples&r offer fragments of a forgotten culture. Their halls contain a little loot—&osmall treasures&r left behind in dusty chests—but no great challenge."
+				"Simple ruins scattered across the surface, the &6Martian Temples&r offer fragments of a forgotten culture. Their halls contain a little loot-&osmall treasures&r left behind in dusty chests-but no great challenge."
 				"Yet they mark the path to something far greater, guiding explorers toward the trials that lie deeper within Mars."
 				""
 				"{@pagebreak}"
 				""
-				"🔥 &cSoul Blacksmith&r"
+				" &cSoul Blacksmith&r"
 				"Relics of a Forgotten Forge"
 				""
-				"Amid scorched cliffs rises the &4Soul Blacksmith&r—&lforged in flame&r and protected by ruthless defenders."
+				"Amid scorched cliffs rises the &4Soul Blacksmith&r-&lforged in flame&r and protected by ruthless defenders."
 				"Here, the ancients shaped &opowerful relics&r and &crare artifacts&r, binding steel to soul. Yet the forge itself is alive: traps, guardians, and echoes of war wait within."
 				"Conquer the Blacksmith, and you carry the key to the altar."
 				""
 				"{@pagebreak}"
 				""
-				"🩸 &4Infernal Altar&r"
+				" &4Infernal Altar&r"
 				"The Gateway to the Inferno"
 				""
 				"On Mars lies the &4Infernal Altar&r, its heart lit by eternal fire. A mysterious tome rests upon the lectern, its faded script whispering the ancient rite:"
@@ -794,7 +794,7 @@
 				"A warrior must be worthy of strength."
 				"Only then may they endure this blazing terror’s ire.”"
 				""
-				"To awaken the guardian, a &fNether Star&r must be offered. Drop it onto the lectern, and from the fire rises the &cHovering Inferno&r—the final trial, a blazing terror of relentless fury."
+				"To awaken the guardian, a &fNether Star&r must be offered. Drop it onto the lectern, and from the fire rises the &cHovering Inferno&r-the final trial, a blazing terror of relentless fury."
 				"Defeat it, and the Martian Flame itself will bend to your will."
 			]
 			icon: {
@@ -822,7 +822,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Uncover the secrets of a lost Martian civilization—and claim the fire-forged relics hidden within. Click me for more info!"
+			subtitle: "Uncover the secrets of a lost Martian civilization-and claim the fire-forged relics hidden within. Click me for more info!"
 			tasks: [
 				{
 					icon: {
@@ -865,17 +865,17 @@
 		{
 			dependencies: ["598BD03BE0D0347B"]
 			description: [
-				"⛏ &cRedstone Riches: Mining the Depths of Mars&r"
+				" &cRedstone Riches: Mining the Depths of Mars&r"
 				""
-				"Mars is far more than a lifeless desert—&lit’s a planet of hidden potential&r, waiting to be unearthed by those bold enough to dig deep."
+				"Mars is far more than a lifeless desert-&lit’s a planet of hidden potential&r, waiting to be unearthed by those bold enough to dig deep."
 				""
 				"Beneath its crimson surface lies a cache of &6rare materials&r, each vital to your continued progression. Discover &fStellaris&r, a mysterious celestial metal with untapped power. Mine &dMars Ostrum Ore&r, a crucial ingredient for crafting high-tier components. Unearth &bMars Ice Shard Ore&r, a frozen enigma that could hold the key to survival in extreme environments."
 				""
 				"{@pagebreak}"
 				""
-				"&lGear up&r and establish a forward mining base—&oyou'll need it&r. Mars is as hostile as it is rich, and the creatures lurking in its caves don’t take kindly to trespassers."
+				"&lGear up&r and establish a forward mining base-&oyou'll need it&r. Mars is as hostile as it is rich, and the creatures lurking in its caves don’t take kindly to trespassers."
 				""
-				"&lWill you brave the depths and emerge with riches—or be buried beneath the red dust?&r"
+				"&lWill you brave the depths and emerge with riches-or be buried beneath the red dust?&r"
 			]
 			icon: {
 				Count: 1
@@ -932,19 +932,19 @@
 		{
 			dependencies: ["75F33C79A51D73A7"]
 			description: [
-				"🚀 &6Forward to Fire: Mercury Awaits&r"
+				" &6Forward to Fire: Mercury Awaits&r"
 				""
 				"Your mission on Mars has tested your resolve and rewarded your ambition. But in the grand expanse of the cosmos, &othis is only the beginning&r."
 				""
-				"Armed with &6rare Martian resources&r and the wisdom of ancient ruins, it’s time to set your sights on the next frontier: &cMercury&r—&la world of blazing heat, volatile terrain, and secrets long buried beneath scorched stone&r."
+				"Armed with &6rare Martian resources&r and the wisdom of ancient ruins, it’s time to set your sights on the next frontier: &cMercury&r-&la world of blazing heat, volatile terrain, and secrets long buried beneath scorched stone&r."
 				""
 				"{@pagebreak}"
 				""
 				"&lThe path forward will not be easy.&r Mercury offers &ounique opportunities and lethal hazards&r in equal measure. You’ll need upgraded tech, advanced protection, and an unshakable will to thrive."
 				""
-				"Ready your rocket and steel your spirit—the next phase of your cosmic journey lies beyond the sunlit horizon."
+				"Ready your rocket and steel your spirit-the next phase of your cosmic journey lies beyond the sunlit horizon."
 				""
-				"🌑 To learn more, explore the  "
+				" To learn more, explore the  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B54577F45BDF5E7\" } }"
 			]
 			icon: {
@@ -980,18 +980,18 @@
 		{
 			dependencies: ["4AD1CCF2DA9C58B2"]
 			description: [
-				"☀ &cMercury: Trial by Fire&r"
+				" &cMercury: Trial by Fire&r"
 				""
 				"{image:ftb:textures/mercury_screenshot.png width:565 height:400 align:center fit:true}"
 				""
 				"{@pagebreak}"
-				"Mercury is not a land of welcome—it is a crucible of &cscorching heat&r, &obarren terrain&r, and &6relentless solar fury&r. With no natural ores to harvest, every moment spent here is a trial of endurance and resilience."
+				"Mercury is not a land of welcome-it is a crucible of &cscorching heat&r, &obarren terrain&r, and &6relentless solar fury&r. With no natural ores to harvest, every moment spent here is a trial of endurance and resilience."
 				""
-				"Yet, amid the &oblighted surface&r lies a structure of immense significance: &lthe Burning Arena&r—&oa fiery coliseum of chaos, mystery, and rare spoils&r. It is the planet’s only landmark, and it holds challenges that few return from unscathed."
+				"Yet, amid the &oblighted surface&r lies a structure of immense significance: &lthe Burning Arena&r-&oa fiery coliseum of chaos, mystery, and rare spoils&r. It is the planet’s only landmark, and it holds challenges that few return from unscathed."
 				""
 				"Before you descend into the inferno, ensure you’ve &lprepared for the worst&r. &cHeat resistance, oxygen, and powerful gear&r are your only allies here. Mercury does not forgive mistakes."
 				""
-				"🔥 Will you endure the flame—or be consumed by it?"
+				" Will you endure the flame-or be consumed by it?"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1017,17 +1017,17 @@
 		{
 			dependencies: ["6B54577F45BDF5E7"]
 			description: [
-				"🔥 &6Mercury Arrival: Enter the Inferno&r"
+				" &6Mercury Arrival: Enter the Inferno&r"
 				""
-				"Your journey across the stars has brought you to &6Mercury&r—a planet where &cblistering heat&r and &ohostile conditions&r rule without mercy. Unlike the rich veins of Mars or the frozen secrets of the Moon, Mercury offers no mineable resources—only &oa battle for survival&r."
+				"Your journey across the stars has brought you to &6Mercury&r-a planet where &cblistering heat&r and &ohostile conditions&r rule without mercy. Unlike the rich veins of Mars or the frozen secrets of the Moon, Mercury offers no mineable resources-only &oa battle for survival&r."
 				""
 				"{@pagebreak}"
 				""
-				"But this planet is not without purpose. Beneath the scorched surface lies the &lBurning Arena&r—&oa treacherous structure filled with powerful adversaries and coveted treasures&r. It is a proving ground for only the boldest of explorers."
+				"But this planet is not without purpose. Beneath the scorched surface lies the &lBurning Arena&r-&oa treacherous structure filled with powerful adversaries and coveted treasures&r. It is a proving ground for only the boldest of explorers."
 				""
 				"Before touching down, ensure your &lTier 3 Rocket&r is ready, and your gear is prepared for the intense heat. Mercury will test every ounce of your strength, strategy, and determination."
 				""
-				"☀ *Can you survive the blaze and uncover the secrets of the flame?*"
+				" *Can you survive the blaze and uncover the secrets of the flame?*"
 				""
 				"Learn how to craft the Tier 3 Rocket in its  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4F05B719FF46DED2\" } }"
@@ -1038,7 +1038,7 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "Step onto the sun-scorched surface of Mercury—where survival is the only treasure you begin with. Click me for more info!"
+			subtitle: "Step onto the sun-scorched surface of Mercury-where survival is the only treasure you begin with. Click me for more info!"
 			tasks: [{
 				id: "148326B2EA153CFB"
 				item: {
@@ -1055,17 +1055,17 @@
 		{
 			dependencies: ["767ED8F286B517B6"]
 			description: [
-				"🧱 &6Forge the Flameproof Suit&r"
+				" &6Forge the Flameproof Suit&r"
 				""
 				"Mercury’s searing heat makes it one of the most unforgiving worlds in the entire solar system. The moment you leave your rocket, the planet's atmosphere will try to cook you alive. &cWithout the right protection, you won’t survive long enough to take a step!&r"
 				""
 				"{@pagebreak}"
 				""
-				"To endure this &ohellish environment&r, you’ll need the &lNetherite Space Suit&r—a reinforced upgrade designed to withstand the sun-scorched landscape. This suit isn't just an armor piece—it’s your lifeline."
+				"To endure this &ohellish environment&r, you’ll need the &lNetherite Space Suit&r-a reinforced upgrade designed to withstand the sun-scorched landscape. This suit isn't just an armor piece-it’s your lifeline."
 				""
-				"Crafting the Netherite Space Suit is not optional—it’s your &cfinal barrier between survival and ash&r."
+				"Crafting the Netherite Space Suit is not optional-it’s your &cfinal barrier between survival and ash&r."
 				""
-				"🔥 *Forge the flameshield, face the heat, and claim Mercury’s challenge head-on!*"
+				" *Forge the flameshield, face the heat, and claim Mercury’s challenge head-on!*"
 			]
 			icon: {
 				Count: 1
@@ -1097,7 +1097,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Only the well-armored survive Mercury’s wrath—suit up or burn out. Click me for more info!"
+			subtitle: "Only the well-armored survive Mercury’s wrath-suit up or burn out. Click me for more info!"
 			tasks: [
 				{
 					id: "25B298539D4C71F1"
@@ -1151,17 +1151,17 @@
 		{
 			dependencies: ["2F4C788DE0133300"]
 			description: [
-				"☀ &cWelcome to Mercury&r"
+				" &cWelcome to Mercury&r"
 				""
-				"You’ve conquered space, donned the &lNetherite Space Suit&r, and now stand upon the sun-scorched soil of Mercury. This world is a relentless furnace—&cthere is no shade, no softness, only fire and stone&r. The blazing sun dominates the sky, and the landscape offers no comfort."
+				"You’ve conquered space, donned the &lNetherite Space Suit&r, and now stand upon the sun-scorched soil of Mercury. This world is a relentless furnace-&cthere is no shade, no softness, only fire and stone&r. The blazing sun dominates the sky, and the landscape offers no comfort."
 				""
 				"{@pagebreak}"
 				""
-				"Unlike the Moon or Mars, Mercury yields no ores—&oit gives nothing for free&r. Every step forward here is earned through resilience and preparation."
+				"Unlike the Moon or Mars, Mercury yields no ores-&oit gives nothing for free&r. Every step forward here is earned through resilience and preparation."
 				""
 				"Before venturing into the planet’s infernal heart, check your &boxygen supply&r, &ffortify your gear&r, and &esurvey the terrain&r. Because ahead lies your next trial:"
 				""
-				"🔥 &lThe Burning Arena&r—where only the strongest emerge victorious."
+				" &lThe Burning Arena&r-where only the strongest emerge victorious."
 				""
 				"Are you ready to step into the flame?"
 			]
@@ -1171,7 +1171,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "This scorched world shows no mercy—only the prepared survive. Click me for more info!"
+			subtitle: "This scorched world shows no mercy-only the prepared survive. Click me for more info!"
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
@@ -1185,24 +1185,24 @@
 		{
 			dependencies: ["4854DCBA109D4460"]
 			description: [
-				"🔥 &6The Burning Arena&r"
+				" &6The Burning Arena&r"
 				"Mercury’s Trial of Fire"
 				""
-				"Beneath Mercury’s scorched surface lies an ancient battleground shrouded in mystery—the &lBurning Arena&r. Carved from fire and fury, this brutal arena challenges only the most fearless adventurers."
+				"Beneath Mercury’s scorched surface lies an ancient battleground shrouded in mystery-the &lBurning Arena&r. Carved from fire and fury, this brutal arena challenges only the most fearless adventurers."
 				""
 				"{@pagebreak}"
 				""
-				"💠 &3The AE2 Meteorite&r"
+				" &3The AE2 Meteorite&r"
 				"Key to Lost Technology"
 				""
-				"Within the heart of the arena lies the &3AE2 Meteorite&r—an alien relic unlike any other. Its crystalline core unlocks access to a long-lost &9technological storage system&r, granting mastery over &oancient, advanced automation&r through Applied Energistics 2. For those who seize it, entire worlds of organization and power open at their command."
+				"Within the heart of the arena lies the &3AE2 Meteorite&r-an alien relic unlike any other. Its crystalline core unlocks access to a long-lost &9technological storage system&r, granting mastery over &oancient, advanced automation&r through Applied Energistics 2. For those who seize it, entire worlds of organization and power open at their command."
 				""
 				"{@pagebreak}"
 				""
-				"🏰 &5The Forbidden Castle&r"
+				" &5The Forbidden Castle&r"
 				"Stronghold of Shadows"
 				""
-				"Hidden beyond the flames stands the ominous &5Forbidden Castle&r. Cloaked in darkness and guarded by spectral wardens, this fortress conceals secrets long banished from mortal knowledge. To breach its halls is to gamble with fate itself—yet the treasures within may shape the destiny of empires."
+				"Hidden beyond the flames stands the ominous &5Forbidden Castle&r. Cloaked in darkness and guarded by spectral wardens, this fortress conceals secrets long banished from mortal knowledge. To breach its halls is to gamble with fate itself-yet the treasures within may shape the destiny of empires."
 			]
 			icon: {
 				Count: 1
@@ -1258,17 +1258,17 @@
 		{
 			dependencies: ["36EE0ABAB607D1F3"]
 			description: [
-				"🌋 &6Mercury Mastered&r"
+				" &6Mercury Mastered&r"
 				""
 				"You have survived the searing heat of Mercury, conquered the trials of the &lBurning Arena&r, and carved your name among the stars. Though this scorched world offers no traditional ores, it has rewarded you with &6rare artifacts&r and &eancient knowledge&r that will shape the rest of your journey."
 				""
 				"{@pagebreak}"
 				""
-				"Your time here has tested not just your survival—but your strength, your strategy, and your will to overcome. Few can say they’ve endured Mercury’s wrath and emerged victorious."
+				"Your time here has tested not just your survival-but your strength, your strategy, and your will to overcome. Few can say they’ve endured Mercury’s wrath and emerged victorious."
 				""
 				"But your odyssey is far from complete..."
 				""
-				"&lVenus awaits&r—shrouded in poison, mystery, and unimaginable danger. Are you ready to face what lies ahead?"
+				"&lVenus awaits&r-shrouded in poison, mystery, and unimaginable danger. Are you ready to face what lies ahead?"
 				""
 				"Learn more about your next destination in the  "
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25721A33E1238EBD\" } }"
@@ -1293,7 +1293,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "You’ve endured the heat—now brave the storms of Venus. Click me for more info!"
+			subtitle: "You’ve endured the heat-now brave the storms of Venus. Click me for more info!"
 			tasks: [{
 				id: "2940BC82B0A1562C"
 				title: "Check"
@@ -1310,13 +1310,13 @@
 				"{image:ftb:textures/venus_screenshot.png width:565 height:400 align:center fit:true}"
 				""
 				"{@pagebreak}"
-				"This is not just a new frontier—it’s a battlefield where the very air seeks to bring your journey to an end."
+				"This is not just a new frontier-it’s a battlefield where the very air seeks to bring your journey to an end."
 				""
 				"Unlike Mars or the Moon, Venus is a land of extremes with &ono natural ores&r and &ccorrosive storms that never cease&r. But beneath the sulfuric haze lie the ruins of a &olegend long lost to flame and thunder&r. What secrets will you uncover beneath the ash?"
 				""
 				"&lOnly those clad in Netherite and armed with courage&r will survive the descent. With your &bTier 3 Rocket&r and &8Netherite Space Suit&r, you are among the first to step onto this hostile ground."
 				""
-				"⚡ &dWill you master the storm—or be swept away by it?&r"
+				" &dWill you master the storm-or be swept away by it?&r"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1329,7 +1329,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Step onto scorched earth—Venus awaits the bold. Click me for more info!"
+			subtitle: "Step onto scorched earth-Venus awaits the bold. Click me for more info!"
 			tasks: [{
 				id: "552B723D05755AAC"
 				item: "ad_astra:ostrum_ingot"
@@ -1346,11 +1346,11 @@
 				""
 				"{@pagebreak}"
 				""
-				"To walk upon this cursed land, you’ll need more than bravery—&lyou’ll need the best gear science can offer&r. Only the &bTier 3 Rocket&r and the &8Netherite Space Suit&r can shield you from Venus’ &cexplosive heat&r and &6hostile terrain&r."
+				"To walk upon this cursed land, you’ll need more than bravery-&lyou’ll need the best gear science can offer&r. Only the &bTier 3 Rocket&r and the &8Netherite Space Suit&r can shield you from Venus’ &cexplosive heat&r and &6hostile terrain&r."
 				""
 				"&lWithout proper preparation, you will not survive&r. Gather your supplies, &oreinforce your protections&r, and &lbrace for a descent into planetary chaos&r."
 				""
-				"☠ &dCan you endure the fury of Venus—or be vaporized by it?&r"
+				" &dCan you endure the fury of Venus-or be vaporized by it?&r"
 			]
 			icon: {
 				Count: 1
@@ -1426,18 +1426,18 @@
 		{
 			dependencies: ["66B44ACF05B64947"]
 			description: [
-				"Beneath the searing crust of Venus, &otwo extraordinary resources&r pulse with raw energy—awaiting only the boldest miners to claim them."
+				"Beneath the searing crust of Venus, &otwo extraordinary resources&r pulse with raw energy-awaiting only the boldest miners to claim them."
 				""
 				"- &6Calorite Ore&r – A durable, high-performance metal, essential for &ladvanced machinery&r and &ointerplanetary tech&r.  "
-				"- &cPyroclast Ore&r – A volatile mineral infused with intense heat, used to enhance energy systems—and &oprocessed into Calorite&r for high-tier crafting."
+				"- &cPyroclast Ore&r – A volatile mineral infused with intense heat, used to enhance energy systems-and &oprocessed into Calorite&r for high-tier crafting."
 				""
 				"{@pagebreak}"
 				""
 				"These ores are &rthe heart of Venus’s technological potential&r, but reaching them is no small feat. The molten terrain &lshifts beneath your feet&r, heat threatens to overwhelm, and pockets of lava lie hidden in wait."
 				""
-				"Suit up, mine deep, and &cclaim the flame-born treasures&r of Venus—if you can survive long enough to use them."
+				"Suit up, mine deep, and &cclaim the flame-born treasures&r of Venus-if you can survive long enough to use them."
 				""
-				"🔥 &oOnly the fire-hardened will thrive beneath the blaze.&r"
+				" &oOnly the fire-hardened will thrive beneath the blaze.&r"
 			]
 			icon: {
 				Count: 1
@@ -1460,7 +1460,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Mine Venus’s most powerful materials—or be consumed by the fire. Click me for more info!"
+			subtitle: "Mine Venus’s most powerful materials-or be consumed by the fire. Click me for more info!"
 			tasks: [
 				{
 					block: "ad_astra:venus_calorite_ore"
@@ -1486,21 +1486,21 @@
 		{
 			dependencies: ["38F29404BDF3073A"]
 			description: [
-				"Even in a world as hostile as Venus, &olost history smolders beneath the ash&r. Scattered across this scorched planet lie the remnants of &cpowerful civilizations&r and &6forgotten constructs&r—each whispering tales of knowledge, energy, and danger."
+				"Even in a world as hostile as Venus, &olost history smolders beneath the ash&r. Scattered across this scorched planet lie the remnants of &cpowerful civilizations&r and &6forgotten constructs&r-each whispering tales of knowledge, energy, and danger."
 				""
 				"{@pagebreak}"
 				""
 				"Explore the surface and you may uncover:"
 				""
-				"- &6Pygro Villages and Towers&r — Settlements of flame-born beings. Some trade. Others attack. All are watching."
-				"- &cIncendium Reactor&r — A volatile power hub, pulsing with unstable energy. Approach with caution."
-				"- &4The Cursed Pyramid&r — An ancient tomb sealed with &odark power&r. Inside, a guardian sleeps… and waits."
+				"- &6Pygro Villages and Towers&r - Settlements of flame-born beings. Some trade. Others attack. All are watching."
+				"- &cIncendium Reactor&r - A volatile power hub, pulsing with unstable energy. Approach with caution."
+				"- &4The Cursed Pyramid&r - An ancient tomb sealed with &odark power&r. Inside, a guardian sleeps… and waits."
 				""
 				"{@pagebreak}"
 				""
-				"These ruins are &olittered with traps, secrets, and long-lost relics&r. &lOnly the bold&r—and the prepared—will return with their findings."
+				"These ruins are &olittered with traps, secrets, and long-lost relics&r. &lOnly the bold&r-and the prepared-will return with their findings."
 				""
-				"🔥 &6Can you survive the past… while walking through fire?&r"
+				" &6Can you survive the past… while walking through fire?&r"
 			]
 			icon: {
 				Count: 1
@@ -1527,7 +1527,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Explore Venus’ scorched legacy—and live to tell the tale. Click me for more info!"
+			subtitle: "Explore Venus’ scorched legacy-and live to tell the tale. Click me for more info!"
 			tasks: [
 				{
 					icon: {
@@ -1581,15 +1581,15 @@
 		{
 			dependencies: ["4EC8B97375383D51"]
 			description: [
-				"Venus is no place for the unprepared—its &cscorching surface&r, &odense atmosphere&r, and &emolten terrain&r make even the simplest tasks a deadly challenge. Yet beneath this hellish crust lies a critical resource: &lVenusian Stone&r."
+				"Venus is no place for the unprepared-its &cscorching surface&r, &odense atmosphere&r, and &emolten terrain&r make even the simplest tasks a deadly challenge. Yet beneath this hellish crust lies a critical resource: &lVenusian Stone&r."
 				""
 				"{@pagebreak}"
 				""
 				"Mining here isn’t like the Overworld. &cLava pockets&r bubble beneath your feet, the heat threatens to crack your suit, and the terrain shifts with &ounstable fury&r. This is a planet that fights back."
 				""
-				"&lEquip your heat-resistant suit&r, stay vigilant, and begin collecting Venus’ raw essence. &6Only those who adapt will survive—and thrive.&r"
+				"&lEquip your heat-resistant suit&r, stay vigilant, and begin collecting Venus’ raw essence. &6Only those who adapt will survive-and thrive.&r"
 				""
-				"🌋 &cWill you master the mines—or be swallowed by the fire?&r"
+				" &cWill you master the mines-or be swallowed by the fire?&r"
 			]
 			icon: "ad_astra:venus_stone"
 			id: "38F29404BDF3073A"
@@ -1606,7 +1606,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Dig deep—but don’t let the planet dig your grave. Click me for more info!"
+			subtitle: "Dig deep-but don’t let the planet dig your grave. Click me for more info!"
 			tasks: [
 				{
 					dimension: "ad_astra:venus"
@@ -1630,9 +1630,9 @@
 		{
 			dependencies: ["2F2B03E58524C01A"]
 			description: [
-				"You’ve endured the burning fury of Venus, braved molten storms, and emerged stronger—but the galaxy still holds one final frontier."
+				"You’ve endured the burning fury of Venus, braved molten storms, and emerged stronger-but the galaxy still holds one final frontier."
 				""
-				"Beyond the flames lies &bGlacio&r—&oa frozen world of silence and mystery&r. This planet, locked in eternal frost, awaits only the most resilient explorers. Here, you’ll face &owhite-out blizzards&r, &btreacherous ice fields&r, and &cchilling secrets&r buried deep beneath the tundra."
+				"Beyond the flames lies &bGlacio&r-&oa frozen world of silence and mystery&r. This planet, locked in eternal frost, awaits only the most resilient explorers. Here, you’ll face &owhite-out blizzards&r, &btreacherous ice fields&r, and &cchilling secrets&r buried deep beneath the tundra."
 				""
 				"{@pagebreak}"
 				"Your journey has carried you through:"
@@ -1641,13 +1641,13 @@
 				"- &5The End&r  "
 				"- &6The blazing worlds of Ad Astra&r  "
 				""
-				"Now it leads you to &bGlacio&r—&oyour final test of survival and ingenuity&r."
+				"Now it leads you to &bGlacio&r-&oyour final test of survival and ingenuity&r."
 				""
 				"{@pagebreak}"
 				""
 				"Suit up, steel your nerves, and &bbrace for a planet where warmth is a memory&r and danger lurks beneath the snow."
 				""
-				"🧊 &oThis is where legends freeze—or are forged anew.&r"
+				" &oThis is where legends freeze-or are forged anew.&r"
 				""
 				"{ \"text\": \"Discover more in its \", \"color\": \"white\" }"
 				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } }"
@@ -1685,11 +1685,11 @@
 		{
 			dependencies: ["094EA96520B42095"]
 			description: [
-				"&b❄ Glacio, the frozen wastelands&r"
+				"&b Glacio, the frozen wastelands&r"
 				""
 				"{image:ftb:textures/glacio_screenshot.png width:565 height:400 align:center fit:true}"
 				"{@pagebreak}"
-				"The instant your ship touches down, you feel it—&9Glacio&r is no ordinary world. It is a realm of &bfrostbitten silence&r, where &ojagged ice peaks&r loom and &obiting winds&r carve through ancient stone."
+				"The instant your ship touches down, you feel it-&9Glacio&r is no ordinary world. It is a realm of &bfrostbitten silence&r, where &ojagged ice peaks&r loom and &obiting winds&r carve through ancient stone."
 				""
 				"Armed with your &lTier 4 Rocket&r and &lcutting-edge survival gear&r, you are among the elite few who dare to set foot here. But survival is only the beginning."
 				""
@@ -1704,7 +1704,7 @@
 				""
 				"Yet, danger lurks in the cold. The &oguardians of Glacio&r are as merciless as the weather, and only those with &lresilience and preparation&r will uncover the truth buried beneath the snow."
 				""
-				"🧊 &oWill you forge ahead—or be frozen in time?&r"
+				" &oWill you forge ahead-or be frozen in time?&r"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1730,9 +1730,9 @@
 		{
 			dependencies: ["05B5C7A592D2E3DA"]
 			description: [
-				"You’ve conquered the &cscorching fury of Venus&r—now brace yourself for the &bglacial silence of Glacio&r. This frozen world is both breathtaking and brutal, where every step across its icy surface tests your resolve."
+				"You’ve conquered the &cscorching fury of Venus&r-now brace yourself for the &bglacial silence of Glacio&r. This frozen world is both breathtaking and brutal, where every step across its icy surface tests your resolve."
 				""
-				"To set foot on this frigid frontier, you’ll need a &lTier 4 Rocket&r—crafted from the &rrare ores of &6Venus&r and &4Mars&r. But even the finest technology offers no comfort from the biting winds and hidden dangers that await."
+				"To set foot on this frigid frontier, you’ll need a &lTier 4 Rocket&r-crafted from the &rrare ores of &6Venus&r and &4Mars&r. But even the finest technology offers no comfort from the biting winds and hidden dangers that await."
 				""
 				"{@pagebreak}"
 				"Prepare for a new era of exploration as you uncover:"
@@ -1741,7 +1741,7 @@
 				"- &bGlacio Ice Shards&r – crystalline remnants infused with chilling energy  "
 				"- &7Ancient structures&r buried beneath the snow, guarding powerful secrets"
 				""
-				"🧊 &oThe cold does not forgive the unprepared. Will you master the frost—or fall to its silence?&r"
+				" &oThe cold does not forgive the unprepared. Will you master the frost-or fall to its silence?&r"
 			]
 			id: "324219AF4569EA85"
 			rewards: [{
@@ -1749,7 +1749,7 @@
 				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
-			subtitle: "From burning storms to frozen silence—your next trial begins. Click me for more info!"
+			subtitle: "From burning storms to frozen silence-your next trial begins. Click me for more info!"
 			tasks: [{
 				id: "270EB929D00ED077"
 				item: {
@@ -1766,11 +1766,11 @@
 		{
 			dependencies: ["324219AF4569EA85"]
 			description: [
-				"The surface of Glacio is a relentless expanse of &bsolid ice and stone&r—&oGlacio Stone&r, to be precise. This brittle yet resilient material forms the &lbedrock of survival&r on this planet, offering both protection and opportunity."
+				"The surface of Glacio is a relentless expanse of &bsolid ice and stone&r-&oGlacio Stone&r, to be precise. This brittle yet resilient material forms the &lbedrock of survival&r on this planet, offering both protection and opportunity."
 				""
 				"While it may seem unassuming at first, Glacio Stone is &lkey to future construction&r. From durable bases to reinforced machinery foundations, this frost-hardened rock will support your endeavors on this icy world."
 				""
-				"&7Chip away at the cold crust and gather what you can&r—&oit’s time to build a stronghold in the snow.&r ❄🔨"
+				"&7Chip away at the cold crust and gather what you can&r-&oit’s time to build a stronghold in the snow.&r "
 			]
 			icon: "ad_astra:glacio_stone"
 			id: "417ACFE42707F7EF"
@@ -1811,16 +1811,16 @@
 		{
 			dependencies: ["0AFEDCD0BAB4CCE9"]
 			description: [
-				"Beneath Glacio’s &ofrostbitten crust&r lies more than stone and snow—&lancient power&r pulses within the planet’s veins. Brave the cold, dig deep, and &ldiscover the rare resources&r hidden below the surface."
+				"Beneath Glacio’s &ofrostbitten crust&r lies more than stone and snow-&lancient power&r pulses within the planet’s veins. Brave the cold, dig deep, and &ldiscover the rare resources&r hidden below the surface."
 				""
 				"{@pagebreak}"
-				"❄ &lValuable Resources&r:"
+				" &lValuable Resources&r:"
 				""
-				"- &bFrostite Ore&r — A resilient, high-tier material used in &ladvanced machinery and specialized gear&r. Durable as it is rare."
+				"- &bFrostite Ore&r - A resilient, high-tier material used in &ladvanced machinery and specialized gear&r. Durable as it is rare."
 				""
-				"- &bGlacio Ice Shard Ore&r — A shimmering fuel component with ties to &lend-game enhancements&r and &lCryo Fuel production&r. Handle with care—its chill cuts to the core."
+				"- &bGlacio Ice Shard Ore&r - A shimmering fuel component with ties to &lend-game enhancements&r and &lCryo Fuel production&r. Handle with care-its chill cuts to the core."
 				""
-				"&7As the wind howls above, only the brave descend into the ice. Will you be the one to &lunearth Glacio’s buried power&r? ⚒❄"
+				"&7As the wind howls above, only the brave descend into the ice. Will you be the one to &lunearth Glacio’s buried power&r? "
 			]
 			icon: {
 				Count: 1
@@ -1849,7 +1849,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Mine rare ores hidden deep beneath the ice—if you can survive the cold. Click me for more info!"
+			subtitle: "Mine rare ores hidden deep beneath the ice-if you can survive the cold. Click me for more info!"
 			tasks: [
 				{
 					block: "ad_astra:glacio_ice_shard_ore"
@@ -1875,17 +1875,17 @@
 		{
 			dependencies: ["417ACFE42707F7EF"]
 			description: [
-				"Beneath the snow-laden skies of Glacio lie the &oburied echoes of civilizations long lost&r. Their structures—entombed in frost and mystery—await those bold enough to uncover their secrets. But beware—these frozen ruins are &lnot unguarded&r."
+				"Beneath the snow-laden skies of Glacio lie the &oburied echoes of civilizations long lost&r. Their structures-entombed in frost and mystery-await those bold enough to uncover their secrets. But beware-these frozen ruins are &lnot unguarded&r."
 				""
 				"{@pagebreak}"
 				""
-				"❄ &lStructures to Brave&r:"
+				" &lStructures to Brave&r:"
 				""
 				"- &bIncendium Sanctum&r: A towering &ochilling fortress&r veiled in snow, protecting &opowerful treasures&r deep within its icy halls."
 				""
 				"- &bCataclysm Frosted Prison&r: A forsaken dungeon where &cfrozen horrors&r prowl the shadows. Inside await &rare loot&r, &oblueprints&r, and &ldangers that bite deeper than the cold&r."
 				""
-				"&7Steel your nerves, adventurer—these icy tombs are not for the faint of heart. But those who endure the frost will emerge with &lknowledge, power, and the keys to the stars.&r 🌨🗝"
+				"&7Steel your nerves, adventurer-these icy tombs are not for the faint of heart. But those who endure the frost will emerge with &lknowledge, power, and the keys to the stars.&r "
 			]
 			icon: {
 				Count: 1
@@ -1943,19 +1943,19 @@
 		{
 			dependencies: ["58CFB703A2216D9F"]
 			description: [
-				"&7Prepare for your descent into darkness—and your rise to the End.&r"
+				"&7Prepare for your descent into darkness-and your rise to the End.&r"
 				""
-				"With &bGlacio’s frozen frontier&r behind you, a new challenge begins. The path forward leads not into the stars, but deep below—to the realm of shadows and silence. It’s time to descend into the &8Deep Dark&r, face the &cWarden&r, and uncover the secret to unlocking the End."
+				"With &bGlacio’s frozen frontier&r behind you, a new challenge begins. The path forward leads not into the stars, but deep below-to the realm of shadows and silence. It’s time to descend into the &8Deep Dark&r, face the &cWarden&r, and uncover the secret to unlocking the End."
 				""
 				"{@pagebreak}"
 				""
-				"⚔ &lYour Objective&r:"
+				" &lYour Objective&r:"
 				""
 				"- Gather your best equipment, sharpen your wits, and &lbrace yourself for the Warden&r."
-				"- Defeat it and claim the &dHeart of the Warden&r—your key to breaching reality itself."
+				"- Defeat it and claim the &dHeart of the Warden&r-your key to breaching reality itself."
 				"- Prepare for the trials that await in the &5End Dimension&r."
 				""
-				"&7From frozen peaks to abyssal depths, your journey now shifts toward a realm of ancient magic, forgotten ruins, and a final confrontation. Are you ready to &lunlock the End&r? 🌑🗝"
+				"&7From frozen peaks to abyssal depths, your journey now shifts toward a realm of ancient magic, forgotten ruins, and a final confrontation. Are you ready to &lunlock the End&r? "
 			]
 			icon: {
 				Count: 1
