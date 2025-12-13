@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>
                 T: 'create:transmitter',
                 F: 'create:encased_fan',
                 S: '#forge:ingots/steel',
-                C: 'create:chromatic_compound'
+                C: 'create_dd:chromatic_compound'
             }
         ).id( 'forge_frontier:shaped/mob_fan' )
 
@@ -34,7 +34,7 @@ ServerEvents.recipes(event =>
             {
                 B: 'create_sa:brass_sword',
                 I: 'mob_grinding_utils:spikes',
-                C: 'create:chromatic_compound',
+                C: 'create_dd:chromatic_compound',
                 S: '#forge:ingots/steel'
             }
         ).id( 'forge_frontier:shaped/mob_masher' )

@@ -81,7 +81,7 @@
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "create:chromatic_compound",
+          "name": "create_dd:chromatic_compound",
           "functions": [
             {
               "function": "minecraft:set_count",

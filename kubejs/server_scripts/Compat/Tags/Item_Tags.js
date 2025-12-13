@@ -1,5 +1,11 @@
 ServerEvents.tags('item', event => 
     {
+        // Steel Block
+            event.add('forge:storage_blocks/steel', [
+                'ad_astra:steel_block',
+                'create_dd:steel_block'
+            ])
+
         // Pipe Connector Placeable Tag
             event.add('pipe_connector:placeable_items', [
                 'create_new_age:heat_pipe',
@@ -394,7 +400,7 @@ ServerEvents.tags('item', event =>
                 "deeperdarker:sculk_grime",
                 "enlightened_end:void_shale", 
                 "minecraft:ancient_debris", 
-                "forge_frontier:resonite"
+                "forge_frontier:resonite",
             ];
 
             createStones.forEach(stone => {

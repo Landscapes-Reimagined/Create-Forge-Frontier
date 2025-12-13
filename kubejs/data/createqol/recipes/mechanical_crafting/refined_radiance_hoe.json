@@ -1,0 +1,50 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "createqol:feature_loaded",
+          "feature": "shadow_radiance"
+        }
+      ],
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          "TTNT ",
+          "  OT ",
+          "  S  ",
+          "  B  ",
+          "  S  "
+        ],
+        "key": {
+          "T": {
+            "item": "create_dd:refined_radiance"
+          },
+          "B": {
+            "tag": "forge:ingots/brass"
+          },
+          "S": {
+            "tag": "forge:plates/obsidian"
+          },
+          "O": {
+            "item": "minecraft:netherite_hoe"
+          },
+          "N": {
+            "item": "create:mechanical_harvester"
+          }
+        },
+        "result": {
+          "count": 1,
+          "item": "createqol:refined_radiance_hoe"
+        },
+        "accept_mirrored": false,
+        "copied_slot": 6,
+        "copied_nbts": [
+          "Enchantments",
+          "display.Name"
+        ]
+      }
+    }
+  ]
+}

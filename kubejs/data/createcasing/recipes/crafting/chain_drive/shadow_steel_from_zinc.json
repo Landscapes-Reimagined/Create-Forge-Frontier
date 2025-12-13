@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_dd:shadow_steel_casing"
+    },
+    {
+      "tag": "forge:nuggets/zinc"
+    },
+    {
+      "tag": "forge:nuggets/zinc"
+    },
+    {
+      "tag": "forge:nuggets/zinc"
+    }
+  ],
+  "result": {
+    "item": "createcasing:shadow_steel_encased_chain_drive"
+  }
+}

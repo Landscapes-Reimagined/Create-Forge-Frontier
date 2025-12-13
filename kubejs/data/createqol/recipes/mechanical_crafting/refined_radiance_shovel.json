@@ -1,0 +1,50 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "createqol:feature_loaded",
+          "feature": "shadow_radiance"
+        }
+      ],
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          "  T  ",
+          " TNT ",
+          " TOT ",
+          "  B  ",
+          "  S  "
+        ],
+        "key": {
+          "T": {
+            "item": "create_dd:refined_radiance"
+          },
+          "B": {
+            "tag": "forge:ingots/brass"
+          },
+          "S": {
+            "tag": "forge:plates/obsidian"
+          },
+          "O": {
+            "item": "minecraft:netherite_shovel"
+          },
+          "N": {
+            "item": "minecraft:lava_bucket"
+          }
+        },
+        "result": {
+          "count": 1,
+          "item": "createqol:refined_radiance_shovel"
+        },
+        "accept_mirrored": false,
+        "copied_slot": 7,
+        "copied_nbts": [
+          "Enchantments",
+          "display.Name"
+        ]
+      }
+    }
+  ]
+}

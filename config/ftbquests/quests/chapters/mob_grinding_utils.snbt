@@ -451,11 +451,7 @@
 				{
 					count: 4
 					id: "38890E20A2EB31D9"
-					item: {
-						Count: 1
-						id: "create:chromatic_compound"
-						tag: { }
-					}
+					item: "create_dd:chromatic_compound"
 					type: "item"
 				}
 				{
