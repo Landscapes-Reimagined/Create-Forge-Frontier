@@ -1,5 +1,11 @@
 ServerEvents.tags('block', event => 
     {
+        // Steel Block
+            event.add('forge:storage_blocks/steel', [
+                'ad_astra:steel_block',
+                'create_dd:steel_block'
+            ])
+
         // Building Gadgets Deny Tag
             event.add('buildinggadgets2:deny', 'minecraft:spawner')
             

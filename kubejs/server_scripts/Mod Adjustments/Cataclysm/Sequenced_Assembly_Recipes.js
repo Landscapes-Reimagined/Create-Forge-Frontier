@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
         sequence: [
             {
                 type: "create:deploying",
-                ingredients: [{ item: "minecraft:ender_eye" }, { item: "create:shadow_steel" }],
+                ingredients: [{ item: "minecraft:ender_eye" }, { item: "create_dd:shadow_steel" }],
                 results: [{ item: "cataclysm:incomplete_abyss_eye" }]
             },
             {

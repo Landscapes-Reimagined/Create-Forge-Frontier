@@ -1,0 +1,30 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "createqol:feature_loaded",
+          "feature": "shadow_radiance"
+        }
+      ],
+      "recipe": {
+        "type": "create:mixing",
+        "heatRequirement": "superheated",
+        "ingredients": [
+          {
+            "item": "create_dd:refined_radiance"
+          },
+          {
+            "item": "create_dd:shadow_steel"
+          }
+        ],
+        "results": [
+          {
+            "item": "createqol:shadow_radiance"
+          }
+        ]
+      }
+    }
+  ]
+}

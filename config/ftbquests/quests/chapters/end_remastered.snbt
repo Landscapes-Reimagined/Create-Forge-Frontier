@@ -1620,11 +1620,7 @@
 				{
 					count: 9
 					id: "0C010A514793A5F7"
-					item: {
-						Count: 1
-						id: "create:chromatic_compound"
-						tag: { }
-					}
+					item: "create_dd:chromatic_compound"
 					type: "item"
 				}
 				{

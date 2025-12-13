@@ -1,0 +1,52 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "createqol:feature_loaded",
+          "feature": "shadow_radiance"
+        }
+      ],
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          "TTTTT",
+          "TSBST",
+          "TNONT",
+          " TST ",
+          " TTT "
+        ],
+        "key": {
+          "T": {
+            "item": "create_dd:shadow_steel"
+          },
+          "S": {
+            "tag": "forge:plates/obsidian"
+          },
+          "O": {
+            "item": "create:netherite_backtank"
+          },
+          "N": {
+            "item": "create:encased_fan"
+          },
+          "B": {
+            "item": "create:blaze_burner"
+          }
+        },
+        "result": {
+          "count": 1,
+          "item": "createqol:shadow_steel_chestplate"
+        },
+        "accept_mirrored": false,
+        "copied_slot": 12,
+        "copied_nbts": [
+          "Enchantments",
+          "display.Name",
+          "Air",
+          "Trim"
+        ]
+      }
+    }
+  ]
+}

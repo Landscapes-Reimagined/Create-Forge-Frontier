@@ -18,7 +18,7 @@ ServerEvents.recipes(event =>
                     c: Ingredient.of('minecraft:chain').toJson(),
                     I: Ingredient.of('create_dd:industrial_iron_ingot').toJson(),
                     P: Ingredient.of('create:precision_mechanism').toJson(),
-                    R: Ingredient.of('create:refined_radiance').toJson()
+                    R: Ingredient.of('create_dd:refined_radiance').toJson()
                 },
                 result: Ingredient.of('create_mob_spawners:mechanical_spawner').toJson(),
                 acceptMirrored: false
