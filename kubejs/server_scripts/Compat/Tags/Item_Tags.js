@@ -1,5 +1,16 @@
 ServerEvents.tags('item', event => 
     {
+        // Brass Chunk Loader Tag
+            event.add('forge_frontier:chunk_loader/brass', [
+                'create_power_loader:brass_chunk_loader',
+                'create_power_loader:empty_brass_chunk_loader'
+            ])
+        // Mini Dimension Tag
+            event.add('forge_frontier:mini_dimension',[
+                'hyperbox:hyperbox',
+                'compactmachines:machine_maximum'
+            ])
+
         // Steel Block
             event.add('forge:storage_blocks/steel', [
                 'ad_astra:steel_block',
