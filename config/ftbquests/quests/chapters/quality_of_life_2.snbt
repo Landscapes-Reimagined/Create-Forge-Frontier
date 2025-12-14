@@ -405,6 +405,277 @@
 			x: 7.5d
 			y: 9.0d
 		}
+		{
+			id: "2A591FCEC3872EDA"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "3DA3950CA92C66D6"
+				item: "measurements:tape_measure"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			id: "0664611E9C7C1927"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "0CE28CB8C7D88B7A"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			id: "2B7B9AF464F63EE8"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "437943B0C92E2F73"
+				item: "utilitarian:angel_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			id: "28DEB5C4A57AFEC5"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "44CB5FD3B065D7E9"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			id: "4E95E4317312740D"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "78B4B1B0AEE94396"
+				item: "buildinggadgets2:gadget_building"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			id: "42263542CA42D5A3"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "1B3A0D2482FC0E12"
+				item: {
+					Count: 1
+					id: "gag:time_sand_pouch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			id: "5F79790A6011AFCA"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "3FD311D98499336F"
+				item: {
+					Count: 1
+					id: "gag:escape_rope"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			id: "4FED6304FF08304C"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "307E9F7282F9B6FF"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "6CD25FB8DEE66BFF"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "4268DC11EACE6B65"
+				item: {
+					Count: 1
+					id: "utilitarian:no_soliciting_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [{
+								Color: 14
+								Pattern: "cr"
+							}]
+							id: "utilitarian:no_soliciting_banner"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			id: "7A478793A7066CE1"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "20A46FCFAC0B9A72"
+				item: "hyperbox:hyperbox"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			id: "6FABC78F59FDE6C3"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "75FD5D36A4C84AE2"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			id: "60F1517A22DBC588"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "2CBD4CC26F4B000A"
+				item: "entangled:item"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			id: "5293751E5CD5D576"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "307C4C10D99FCF10"
+				item: "cable_facades:facade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "6475F2A488935B09"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "552F4ACAE85CA28B"
+				item: "handcrafted:spruce_bench"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			id: "526C2FC0A6AE739C"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "5FB76FDA0E26C91A"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			id: "08ADA887E65E00B1"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "5D69FAE484864029"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "529224382E63C5F3"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "4BD1BE0FF9B51633"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			id: "429A29A4974D7045"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "74CD8FAA44EDDF6C"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			id: "172972517CF533C1"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "01E9E1B34C32C5BC"
+				item: "pipe_connector:pipe_connector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
 	]
 	title: "Quality of Life"
 }
