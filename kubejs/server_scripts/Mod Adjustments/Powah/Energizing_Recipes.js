@@ -1,6 +1,12 @@
 ServerEvents.recipes(event => {
     const blockRecipes = [
         {
+            id: "raw_uraninite",
+            ingredients: [{item: "forge_frontier:raw_uraninite_block"}],
+            energy: 2000 * 9,
+            result: {item: "powah:uraninite_block", count: 2}
+        },
+        {
             id: "energized_steel",
             ingredients: [{item: "ad_astra:steel_ingot"}],
             energy: 10000,

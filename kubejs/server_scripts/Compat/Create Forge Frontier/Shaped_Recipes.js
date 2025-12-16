@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => 
     {
+        // Raw Uraninite Block Recipe
+            event.shaped(
+                Item.of('forge_frontier:raw_uraninite_block'),
+                [
+                    'UUU',
+                    'UUU',
+                    'UUU'
+                ],
+                {
+                    U: "powah:uraninite_raw"
+                }
+            ).id('forge_frontier:shaped/raw_uraninite_block') 
+
         // Hyper Experience Block Recipe
             event.shaped(
                 Item.of('create_enchantment_industry:hyper_experience_block'),

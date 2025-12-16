@@ -1,5 +1,19 @@
 ServerEvents.recipes(event => 
     {
+        // Raw Uraninite Recipe
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:raw_uraninite_block'
+                    }
+                ],
+                result: {
+                    item: 'powah:uraninite_raw',
+                    count: 9
+                }
+            }).id( 'forge_frontier:shapeless/uraninite_raw' ) 
+                    
         // Hyper Experience Block Recipe
             event.custom({
                 type: 'minecraft:crafting_shapeless',
