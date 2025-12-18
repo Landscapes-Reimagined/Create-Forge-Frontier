@@ -3,6 +3,7 @@ StartupEvents.registry('item', event => {
         event.create('create_enchantment_industry:hyper_experience_nugget')
             .displayName('Hyper Experience Nugget')
             .maxStackSize(64)
+            .tooltip("This is used for crafting, not consumption")
             .texture("forge_frontier:item/hyper_experience_nugget")
     
     // Leather Elytra
