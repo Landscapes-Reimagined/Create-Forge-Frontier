@@ -1,5 +1,8 @@
 ServerEvents.tags('item', event => 
     {
+        // Industial Iron Tag
+            event.add('forge:ingots/industrial_iron', 'createdeco:industrial_iron_ingot')
+            
         // Brass Chunk Loader Tag
             event.add('forge_frontier:chunk_loader/brass', [
                 'create_power_loader:brass_chunk_loader',

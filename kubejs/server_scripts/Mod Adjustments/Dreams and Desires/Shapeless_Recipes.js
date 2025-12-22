@@ -191,7 +191,22 @@ ServerEvents.recipes(event =>
                 item: 'create_dd:refined_radiance_casing',
             }
 
-            }).id( 'forge_frontier:shapeless/refined_radiance_casing_conversion' )   
+            }).id( 'forge_frontier:shapeless/refined_radiance_casing_conversion' )
+            
+        // Industrial Ingot Recipe	
+            event.custom({
+                type: 'minecraft:crafting_shapeless',
+                ingredients: [
+                    {
+                        item: "create_dd:industrial_iron_block"
+                    }
+                ],
+                result: {
+                    item: "createdeco:industrial_iron_ingot",
+                    count: 9
+                }
+
+            }).id( 'forge_frontier:shapeless/industial_block_ingot' )            
 
     }
 )
