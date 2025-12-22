@@ -67,7 +67,7 @@ ServerEvents.recipes(event =>
                     },
                     {
                         type: 'create_new_age:energising',
-                        energyNeeded: 50000,
+                        energy_needed: 50000,
                         ingredients: [
                             { item: 'create:empty_blaze_burner' }
                         ],
