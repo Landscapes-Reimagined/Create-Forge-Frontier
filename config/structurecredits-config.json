@@ -3,6 +3,16 @@
   "showOnlyOneTime": true,
   "chatMessage": true,
   "showCreator": true,
+  "requireDifferentStructure": true,
+  "continuousDisplay": false,
+  "autoCalculateDuration": true,
+  "textSize": 1.0,
+  "labelColor": 11184810,
+  "nameColor": 16777215,
+  "displayDuration": 60,
+  "displayPosition": "BOTTOM_CENTER",
+  "displayOffsetX": 0,
+  "displayOffsetY": 40,
   "customStructureName": {
     "minecraft:swamp_hut": "a_cat:cat_hut"
   },

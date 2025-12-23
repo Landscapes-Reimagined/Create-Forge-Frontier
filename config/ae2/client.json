@@ -5,6 +5,8 @@
     "enableFacadesInJEI": false,
     "enableFacadeRecipesInJEI_comment": "Show facade recipes in JEI for supported blocks",
     "enableFacadeRecipesInJEI": false,
+    "exposeInventoryToEmi_comment": "Expose the full network inventory to EMI, which might cause performance problems.",
+    "exposeInventoryToEmi": false,
     "enableEffects": true,
     "useTerminalUseLargeFont": false,
     "useColoredCraftingStatus": true,
@@ -22,7 +24,7 @@
     "terminalMargin": 25
   },
   "terminals": {
-    "terminalStyle": "medium",
+    "terminalStyle": "full",
     "pinAutoCraftedItems_comment": "Pin items that the player auto-crafts to the top of the terminal",
     "pinAutoCraftedItems": true
   },
