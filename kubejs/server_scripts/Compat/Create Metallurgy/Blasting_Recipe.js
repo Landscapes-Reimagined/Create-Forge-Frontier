@@ -11,11 +11,11 @@ ServerEvents.recipes(event => {
     }).id("forge_frontier:blasting/coal_to_coke");
 
     // Blasting Recipe: Coal Block -> Coke Block
-    /* event.custom({
+    event.custom({
         type: "minecraft:blasting",
         ingredient: { item: "minecraft:coal_block"},
         result: { item: "createmetallurgy:coke_block", count: 1},
         experience: 0.1,
         cookingtime: 900
-    }).id("forge_frontier:blasting/coal_block_to_coke_block") */
+    }).id("forge_frontier:blasting/coal_block_to_coke_block")
 });
