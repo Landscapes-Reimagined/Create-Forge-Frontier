@@ -3,9 +3,9 @@ ServerEvents.recipes(event =>
         // Recipe Removals
         event.remove ({ id: 'create_new_age:shaped/basic_motor'})
         event.remove ({ id: 'create_new_age:shaped/advanced_motor'})
-        event.remove ({ id: 'create_new_age:reinforced_motor'})
+        event.remove ({ id: 'create_new_age:mechanical_crafting/reinforced_motor'})
         event.remove ({ id: 'create_new_age:shaped/basic_motor_extension'})
-        event.remove ({ id: 'create_new_age:advanced_motor_extension'})
+        event.remove ({ id: 'create_new_age:mechanical_crafting/advanced_motor_extension'})
 
         // Shaped Recipes for Overcharged Blocks
         const overchargedBlocks = {
@@ -30,7 +30,7 @@ ServerEvents.recipes(event =>
         });
         
         // Basic Solar Heating Plate Recipe
-        event.remove ({ id: 'create_new_age:shaped/basic_solar_plate'})
+        event.remove ({ id: 'create_new_age:shaped/basic_solar_heating_plate'})
             event.shaped(
             Item.of('create_new_age:basic_solar_heating_plate'),
             [
@@ -46,7 +46,7 @@ ServerEvents.recipes(event =>
         ).id( 'forge_frontier:shaped/basic_solar_heating_plate' )
         
         // Advanced Solar Heating Plate Recipe
-        event.remove ({ id: 'create_new_age:shaped/advanced_solar_plate'})
+        event.remove ({ id: 'create_new_age:shaped/advanced_solar_heating_plate'})
             event.shaped(
             Item.of('create_new_age:advanced_solar_heating_plate'),
             [

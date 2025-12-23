@@ -61,7 +61,7 @@ ServerEvents.recipes(event =>
             });
 
             // Enchanted Golden Apple Recipe
-                event.remove({ id: 'create_new_age:enchanted_golden_apple'})
+                event.remove({ id: 'create_new_age:sequenced_assembly/enchanted_golden_apple'})
                 event.custom({
                     type: "create:sequenced_assembly",
 

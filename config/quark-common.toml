@@ -253,7 +253,7 @@
 		"Ignore Anti Overlap" = false
 
 	[building.variant_chests]
-		"Enable Reverting Wooden Chests" = false
+		"Enable Reverting Wooden Chests" = true
 		"Replace Worldgen Chests" = false
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = []
@@ -1664,7 +1664,7 @@
 		"Shiny Sparkles" = true
 
 [experimental]
-	"Adjustable Chat" = true
+	"Adjustable Chat" = false
 	"Climate Control Remover" = false
 	#This feature generates Resource Pack Item Model predicates on the items defined in 'Items to Change'
 	#for the Enchantments defined in 'Enchantments to Register'.

@@ -1,0 +1,15 @@
+
+[General]
+	#Enable/Disable consuming of the seal when used.
+	"Consume Seal" = true
+
+["Nether Essence Drops"]
+	#Mobs that drop nether essence.
+	"Nether Essence" = ["minecraft:zombie", "minecraft:skeleton", "minecraft:husk", "minecraft:zombie_villager", "minecraft:zombified_piglin", "minecraft:zoglin", "minecraft:stray", "minecraft:skeleton_horse", "minecraft:drowned"]
+
+["Shards Drops"]
+	#Enable/Disable consuming of the seal when used.
+	"Top Right Piece" = "minecraft:witch"
+	#Enable/Disable consuming of the seal when used.
+	"Bottom Left Piece" = "minecraft:evoker"
+

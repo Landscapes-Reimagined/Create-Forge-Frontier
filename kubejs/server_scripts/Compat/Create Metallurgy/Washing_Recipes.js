@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'shale',
-            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
+            secondary: { chance: 0.5, item: 'enlightened_end:adamantite_nugget' }
         },
         {
             name: 'palerock',

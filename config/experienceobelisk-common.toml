@@ -106,3 +106,8 @@
 	#This list has to be identical on both client and server for valid items to be viewed in JEI
 	AllowedItems = ["forbidden_arcanus:xpetrified_orb = 91.0f", "mysticalagriculture:experience_droplet = 12.5f", "actuallyadditions:solidified_experience = 8.0f"]
 
+["Cognitive Bow"]
+	#Whether to show the projectile velocity & accuracy boost in the tooltip. Default = true
+	#Disable this if tooltip components are being displayed in the wrong order.
+	Show = true
+
