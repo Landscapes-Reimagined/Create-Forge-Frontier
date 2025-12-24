@@ -12,10 +12,20 @@
 ---
 
 ### **Key Improvements**
+- **Create v6.0.8 Server Alignment**: Fully updated server-side dependencies and configurations to support Create v6.0.8, ensuring stability and compatibility across automation, contraptions, and integrations.
+- **Improved Tick Stability and Performance**: Integrated multiple performance-focused mod updates and JVM optimizations to reduce TPS drops, improve tick consistency, and minimize lag in automation-heavy environments.
+- **Refined Automation and Progression Systems**: Server-side KubeJS changes unify progression across Create, Metallurgy, Mega Cells, Powah, and Dreams and Desires, providing consistent automation behavior and balanced late-game scaling.
+- **Quest System Reliability Improvements**: Updated quest logic, dependencies, and onboarding systems ensure reliable quest syncing, including automatic quest book distribution per world or server.
+- **Cross-Loader Compatibility Cleanup**: Removed or deprecated mods relying on embedded Fabric APIs, significantly improving server stability and reducing crash risk.
 
 ---
 
-### **General Fixes & Enhancements** 
+### **General Fixes & Enhancements**
+- **Recipe and Tag Consistency Fixes**: Corrected and standardized item and block tags across multiple mods to ensure predictable automation behavior and prevent recipe conflicts.
+- **Server-Safe Recipe Adjustments**: Reworked and validated shaped, shapeless, mechanical crafting, mixing, and blasting recipes to ensure they function correctly in dedicated server environments.
+- **World and Structure Stability Enhancements**: Updated structure data and loot tables to improve reliability, progression clarity, and compatibility with server-generated worlds.
+- **Asset and Data Synchronization Improvements**: Ensured blockstates, models, textures, and data files are correctly synchronized between server and client to prevent desync issues.
+- **Quality-of-Life Server Fixes**: Reduced startup overhead, improved JEI sorting consistency, and eliminated duplicate or conflicting recipes that could impact long-running servers.
 
 ---
 
