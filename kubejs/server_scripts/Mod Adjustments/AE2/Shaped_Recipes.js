@@ -18,25 +18,6 @@ ServerEvents.recipes(event =>
                 }
             ).id('forge_frontier:shaped/spatial_io_port')
 
-        // Spatial Anchor Recipe
-            event.remove({ id: 'ae2:network/blocks/spatial_anchor' })
-            event.shaped(
-                Item.of('ae2:spatial_anchor'),
-                [
-                    'PLP',
-                    'CcC',
-                    'IEI'
-                ],
-                {   
-                    P: 'ae2:spatial_pylon',
-                    L: '#forge_frontier:chunk_loader/brass',
-                    C: 'ae2:fluix_glass_cable',
-                    c: 'ae2:spatial_cell_component_128',
-                    I: 'minecraft:iron_ingot',
-                    E: 'ae2:engineering_processor'
-                }
-            ).id('forge_frontier:shaped/spatial_anchor')
-
         // Charger Recipe
             event.remove({ id: "ae2:network/blocks/crystal_processing_charger"})
             event.shaped(
