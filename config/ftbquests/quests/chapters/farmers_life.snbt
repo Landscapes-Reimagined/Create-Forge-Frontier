@@ -681,7 +681,7 @@
 				{
 					count: 4
 					id: "32036BBFD73BD928"
-					item: "apotheotic_additions:infused_coin"
+					item: "apotheotic_additions:apotheotic_coin"
 					type: "item"
 				}
 				{
@@ -1691,8 +1691,9 @@
 			id: "45B9A3C70B7338C3"
 			rewards: [
 				{
+					count: 2
 					id: "50E9648D9D1A42B8"
-					item: "sculkcatalyticchamber:chamber"
+					item: "cagedmobs:warden_receptor"
 					type: "item"
 				}
 				{
@@ -1837,7 +1838,7 @@
 			id: "4197351E0B5DC36C"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "6BB3CF49C4C9255F"
 					item: "ends_delight:non_hatchable_dragon_egg"
 					type: "item"
