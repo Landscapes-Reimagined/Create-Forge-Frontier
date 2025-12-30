@@ -12,7 +12,7 @@
 			image: "ftb:textures/cat_factory_title.png"
 			rotation: 0.0d
 			width: 16.0d
-			x: -12.5d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -20,23 +20,23 @@
 			image: "ftb:textures/cat_blacksmith_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 5.0d
-			y: -3.0d
+			x: -11.5d
+			y: 6.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/cat_city_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 5.5d
-			y: 25.5d
+			x: 5.0d
+			y: 26.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/cat_arena_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -12.0d
+			x: 5.0d
 			y: 6.5d
 		}
 		{
@@ -44,16 +44,16 @@
 			image: "ftb:textures/cat_pyramid_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 5.0d
-			y: 6.5d
+			x: -12.0d
+			y: 16.0d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/cat_prison_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -12.0d
-			y: 15.5d
+			x: 5.0d
+			y: 16.0d
 		}
 		{
 			height: 10.0d
@@ -68,15 +68,14 @@
 			image: "ftb:textures/acropolis_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 5.0d
-			y: 15.5d
+			x: -12.5d
+			y: -3.0d
 		}
 	]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3015758342C6A8B4"]
 			description: [
 				"Once a testament to the brilliance of the Lunarians, the Ancient Factory on the Moon now lies abandoned and overrun. "
 				""
@@ -115,29 +114,27 @@
 			subtitle: "The Harbinger's Workshop."
 			tasks: [
 				{
-					id: "7EA8A38E61BFEA2C"
-					item: {
-						Count: 1
-						id: "cataclysm:mech_eye"
-						tag: { }
-					}
+					id: "2AC9EA791AB813E0"
+					item: "cataclysm:mech_eye"
 					title: "Forge the Eye of Mech"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: { }
-					}
-					id: "537000CE564A2F22"
+					icon: "minecraft:compass"
+					id: "2B3B21727DEEA296"
 					structure: "cataclysm:ancient_factory"
 					title: "Use The Eye To Locate the Ancient Factory"
 					type: "structure"
 				}
+				{
+					dimension: "ad_astra:moon"
+					icon: "ad_astra:moon_globe"
+					id: "61FE9234D31E38E2"
+					type: "dimension"
+				}
 			]
 			title: "Locate the Ancient Factory"
-			x: -12.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -164,7 +161,7 @@
 				type: "item"
 			}]
 			title: "Obtain A Nether Star"
-			x: -17.0d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -202,7 +199,7 @@
 				value: 1L
 			}]
 			title: "Eliminate The Prowler"
-			x: -12.0d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -240,11 +237,10 @@
 				value: 1L
 			}]
 			title: "Defeat The Harbinger"
-			x: -7.0d
+			x: 9.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["5D7C7953A26FF5E2"]
 			description: [
 				"Nestled within the frozen peaks of Mars' Polar Ice Caps, the Netherite Monstrosity is building a new fortress."
 				""
@@ -283,30 +279,28 @@
 			subtitle: "A Frozen Forge."
 			tasks: [
 				{
-					id: "78BB92DDA2C30759"
-					item: {
-						Count: 1
-						id: "cataclysm:monstrous_eye"
-						tag: { }
-					}
+					id: "61ACF76806E01130"
+					item: "cataclysm:monstrous_eye"
 					title: "Forge the Eye of Monstrous"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: { }
-					}
-					id: "4D4A7332C2F97B1F"
+					icon: "minecraft:compass"
+					id: "1F41CA3BA817D5BB"
 					structure: "cataclysm:soul_black_smith"
 					title: "Use The Eye To Locate the Soul Blacksmith"
 					type: "structure"
 				}
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "673B3AFC2479BEBE"
+					type: "dimension"
+				}
 			]
 			title: "Locate the Soul Blacksmith"
-			x: 5.0d
-			y: 0.0d
+			x: -12.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5C5AE7819F0DBBB3"]
@@ -351,8 +345,8 @@
 				value: 1L
 			}]
 			title: "Defeat the Netherite Monstrosity"
-			x: 0.0d
-			y: 3.0d
+			x: -17.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["1973823FA60F2E23"]
@@ -395,8 +389,8 @@
 				value: 4L
 			}]
 			title: "Loot the Secret Vault"
-			x: 10.0d
-			y: 3.0d
+			x: -7.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["27D206C52EB054F2"]
@@ -435,11 +429,10 @@
 				}
 			]
 			title: "Loot the Minecart Contraptions"
-			x: 5.0d
-			y: 3.0d
+			x: -12.0d
+			y: 12.0d
 		}
 		{
-			dependencies: ["7BBBCF8A23D903C6"]
 			description: [
 				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared."
 				""
@@ -474,25 +467,23 @@
 			subtitle: "The Leviathan's Kingdom."
 			tasks: [
 				{
-					id: "7D39901CE1D66383"
-					item: {
-						Count: 1
-						id: "cataclysm:abyss_eye"
-						tag: { }
-					}
+					id: "157F2A7ECD32C5E9"
+					item: "cataclysm:abyss_eye"
 					title: "Forge the Eye of Abyss"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: { }
-					}
-					id: "4580915DA7F91257"
+					icon: "minecraft:compass"
+					id: "6651AAD280E16017"
 					structure: "cataclysm:sunken_city"
 					title: "Use the Eye to Locate the Sunken City"
 					type: "structure"
+				}
+				{
+					dimension: "forge_frontier:abyssal_chasm"
+					icon: "alexscaves:submarine"
+					id: "2777DE83AA1FCB54"
+					type: "dimension"
 				}
 			]
 			title: "Locate the Sunken City"
@@ -669,7 +660,6 @@
 			y: 31.0d
 		}
 		{
-			dependencies: ["3D9B8268396970D8"]
 			description: [
 				"Standing tall upon the fiery crust of Mercury is the Burning Arena. This is not just any arena, it is home to the powerful warrior Ignis. "
 				""
@@ -708,29 +698,27 @@
 			subtitle: "A Warrior's Battleground."
 			tasks: [
 				{
-					id: "7F4D7659317B4524"
-					item: {
-						Count: 1
-						id: "cataclysm:flame_eye"
-						tag: { }
-					}
+					id: "3C0AE144C68EC7BB"
+					item: "cataclysm:flame_eye"
 					title: "Forge the Eye of Flame"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: { }
-					}
-					id: "0C0B58E734104527"
+					icon: "minecraft:compass"
+					id: "371DD371AB4B9B2F"
 					structure: "cataclysm:burning_arena"
 					title: "Use the Eye to Locate the Burning Arena"
 					type: "structure"
 				}
+				{
+					dimension: "ad_astra:mercury"
+					icon: "ad_astra:mercury_globe"
+					id: "380E60E5A9AF36A0"
+					type: "dimension"
+				}
 			]
 			title: "Locate the Burning Arena"
-			x: -12.0d
+			x: 5.0d
 			y: 9.0d
 		}
 		{
@@ -763,7 +751,7 @@
 				type: "item"
 			}]
 			title: "Dying Embers"
-			x: -17.0d
+			x: 0.0d
 			y: 12.0d
 		}
 		{
@@ -785,7 +773,7 @@
 				title: "Craft the Burning Ashes"
 				type: "item"
 			}]
-			x: -12.0d
+			x: 5.0d
 			y: 12.0d
 		}
 		{
@@ -824,7 +812,7 @@
 				value: 1L
 			}]
 			title: "Defeat Ignis"
-			x: -7.0d
+			x: 10.0d
 			y: 12.0d
 		}
 		{
@@ -868,8 +856,8 @@
 				value: 10L
 			}]
 			title: "Slay Ten Koboleten"
-			x: 0.0d
-			y: 12.0d
+			x: -17.0d
+			y: 22.0d
 		}
 		{
 			id: "563B8AB184A56AE2"
@@ -885,7 +873,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7BC843CB75014821"]
 			description: [
 				"Perched upon the dunes of Venus lies the Cursed Pyramid. Its outer layers have been damaged by the acid rain, but its inner corridors remain untouched. "
 				""
@@ -953,10 +940,16 @@
 					title: "Use the Eye to Locate the Cursed Pyramid"
 					type: "structure"
 				}
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "20D1E1447FCB3472"
+					type: "dimension"
+				}
 			]
 			title: "Locate the Cursed Pyramid"
-			x: 5.0d
-			y: 9.0d
+			x: -12.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["53671A0360665A81"]
@@ -989,8 +982,8 @@
 				type: "item"
 			}]
 			title: "Uncover the Necklace of the Desert"
-			x: 3.5d
-			y: 12.0d
+			x: -13.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["01088646E888FB2D"]
@@ -1040,8 +1033,8 @@
 				}
 			]
 			title: "Eliminate the Guards"
-			x: 6.5d
-			y: 12.0d
+			x: -10.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["26DD866CC53A3A0A"]
@@ -1077,11 +1070,10 @@
 				value: 1L
 			}]
 			title: "Defeat the Ancient Remnant"
-			x: 10.0d
-			y: 12.0d
+			x: -7.0d
+			y: 22.0d
 		}
 		{
-			dependencies: ["3AB2D041111CBCF4"]
 			description: [
 				"Upon the frozen crust of Glacio lies the Frosted Prison-a bleak fortress reserved for the most vile criminals. After his defeat, the infamous Maledictus was entombed deep within its icy depths, his body sealed away in the heart of the prison."
 				""
@@ -1119,29 +1111,27 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "74BD953BE7DBBB98"
-					item: {
-						Count: 1
-						id: "cataclysm:cursed_eye"
-						tag: { }
-					}
+					id: "6A80C50997DE249B"
+					item: "cataclysm:cursed_eye"
 					title: "Forge the Eye of Curse"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: { }
-					}
-					id: "752E09F0907B94DE"
+					icon: "minecraft:compass"
+					id: "3948FFB8ECDC2F72"
 					structure: "cataclysm:frosted_prison"
 					title: "Use the Eye to Locate the Frosted Prison"
 					type: "structure"
 				}
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "3A8CF3BFB9D9D2DA"
+					type: "dimension"
+				}
 			]
 			title: "Locate the Frosted Prison"
-			x: -12.0d
+			x: 5.0d
 			y: 19.0d
 		}
 		{
@@ -1174,7 +1164,7 @@
 				value: 10L
 			}]
 			title: "Slay Ten Draugr"
-			x: -17.0d
+			x: 0.0d
 			y: 22.0d
 		}
 		{
@@ -1215,7 +1205,7 @@
 				}
 			]
 			title: "Eliminate the Aptrgangr"
-			x: -12.0d
+			x: 5.0d
 			y: 22.0d
 		}
 		{
@@ -1256,7 +1246,7 @@
 				value: 1L
 			}]
 			title: "Defeat Maledictus"
-			x: -7.0d
+			x: 10.0d
 			y: 22.0d
 		}
 		{
@@ -1385,10 +1375,16 @@
 					title: "Use the Eye to Locate Acropolis"
 					type: "structure"
 				}
+				{
+					dimension: "minecraft:overworld"
+					icon: "ad_astra:earth_globe"
+					id: "7EC9DB7D74EBE6AD"
+					type: "dimension"
+				}
 			]
 			title: "Locate Acropolis"
-			x: 5.0d
-			y: 19.0d
+			x: -12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5F05530DA01EEECA"]
@@ -1435,8 +1431,8 @@
 				value: 1L
 			}]
 			title: "Slay 5 Hippocamptus"
-			x: 0.0d
-			y: 22.0d
+			x: -17.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["704CEFD446B9F7F9"]
@@ -1482,8 +1478,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.0d
-			y: 22.0d
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2AB5E63B21E85F83"]
@@ -1553,11 +1549,10 @@
 				}
 			]
 			title: "Defeat Scylla"
-			x: 10.0d
-			y: 22.0d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["28D44A364EE4B948"]
 			description: [
 				"The winds of the End whisper of a fortress long forgotten. Legends tell of the Ruined Citadel, where ancient power lies sealed behind shattered walls. To uncover its secrets, you must follow the Eye into the Void and seek out this forsaken stronghold."
 				""
@@ -1596,25 +1591,23 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "7C64370138616001"
-					item: {
-						Count: 1
-						id: "cataclysm:void_eye"
-						tag: { }
-					}
+					id: "4FBA015002DAA2FF"
+					item: "cataclysm:void_eye"
 					title: "Forge the Eye of Void"
 					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "minecraft:compass"
-						tag: { }
-					}
-					id: "1BB3353131038BF5"
+					icon: "minecraft:compass"
+					id: "611D67028C329B9D"
 					structure: "cataclysm:ruined_citadel"
 					title: "Use the Eye to Locate the Ruined Citadel"
 					type: "structure"
+				}
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_stone"
+					id: "19F44C179677561E"
+					type: "dimension"
 				}
 			]
 			title: "Locate the Ruined Citadel"
