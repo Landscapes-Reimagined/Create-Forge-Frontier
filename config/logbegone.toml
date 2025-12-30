@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels "]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels "]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Insufficient number of affixes to satisfy the loot rules", "Failed to execute LootRule", "Couldn't parse element loot_tables", "Couldn't load tag"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Insufficient number of affixes to satisfy the loot rules", "Failed to execute LootRule", "Couldn't parse element loot_tables", "Couldn't load tag"]
 

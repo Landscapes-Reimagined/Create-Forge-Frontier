@@ -2908,37 +2908,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"050A7CBA9C26468E"
-				"08192F52ACC5FA21"
-			]
-			description: ["The Spatial Anchor keeps the chunk containing your Spatial IO setup loaded at all times. It also chunk-loads any connected chunks containing AE2 devices or cables, ensuring your entire network stays powered and online. Without it, your Spatial IO operations could fail mid-transfer when you’re far away or in another dimension."]
-			id: "6549A7416BA658ED"
-			rewards: [
-				{
-					id: "63C189709E2DF2B6"
-					item: "ae2:spatial_cell_component_16"
-					type: "item"
-				}
-				{
-					id: "72172B60D4DCB5A6"
-					type: "xp"
-					xp: 300
-				}
-			]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "Create: Power Loader Who?"
-			tasks: [{
-				id: "4A5736611A3D8103"
-				item: "ae2:spatial_anchor"
-				type: "item"
-			}]
-			title: "AE2 Chunkloading"
-			x: 8.5d
-			y: 4.0d
-		}
-		{
 			dependencies: ["2182B348FE0E32CA"]
 			description: [
 				"The Spatial IO Port is the heart of any Spatial IO setup. It controls the cut-and-paste operation that moves entire areas into the spatial storage dimension. It displays important stats like energy usage, required capacity, and setup efficiency. Insert a properly sized Spatial Storage Cell into its input slot and give the port a redstone pulse to swap the defined volume with whatever is saved in the cell."
