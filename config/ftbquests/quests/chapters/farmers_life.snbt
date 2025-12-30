@@ -2747,6 +2747,19 @@
 		{
 			dependencies: ["5D4331057516BA83"]
 			id: "3C157129B8A8B1CB"
+			rewards: [
+				{
+					count: 2
+					id: "490F580F942F4C97"
+					item: "alexsmobs:lobster_bucket"
+					type: "item"
+				}
+				{
+					id: "23F24B466FFCD7A4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1C1DEC5A8A755B0D"
 				item: "alexsdelight:lobster_pasta"
@@ -2782,6 +2795,24 @@
 		{
 			dependencies: ["5D4331057516BA83"]
 			id: "6418A3D8C1F399D4"
+			rewards: [
+				{
+					count: 2
+					id: "6ACD8794AA21AC2C"
+					item: "minecraft:rabbit_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "710677FAA7E185A7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1C4F28464F7339DD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "617EB879AA2D3C69"
 				item: "alexsdelight:bunfungus_sandwich"
@@ -2793,6 +2824,19 @@
 		{
 			dependencies: ["5D4331057516BA83"]
 			id: "19276D19DE4B8196"
+			rewards: [
+				{
+					count: 4
+					id: "2DADA1F1537DD0C7"
+					item: "alexsmobs:leafcutter_ant_pupa"
+					type: "item"
+				}
+				{
+					id: "51E844D7096CE727"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "51A454267E55120B"
 				item: "alexsdelight:gongylidia_bruschetta"
@@ -2804,6 +2848,24 @@
 		{
 			dependencies: ["5D4331057516BA83"]
 			id: "454498C2E8A9F218"
+			rewards: [
+				{
+					id: "1C4B894C025DA47D"
+					item: "alexscaves:flytrap"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CF399CB9778648F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1E3EEAB81B1A1A68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "1DF1140E18EDD1B0"
 				item: "alexsdelight:maggot_salad"
