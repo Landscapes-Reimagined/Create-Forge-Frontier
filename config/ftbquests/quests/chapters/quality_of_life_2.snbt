@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4502395245E04EEE"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "quality_of_life_2"
@@ -7,22 +8,20 @@
 	id: "15BCAF51F182D972"
 	images: [
 		{
-			dev: true
-			height: 10.0d
+			height: 8.0d
 			image: "ftb:textures/decoration_title.png"
 			rotation: 0.0d
-			width: 15.0d
-			x: 7.5d
-			y: 5.0d
+			width: 11.0d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
-			dev: true
 			height: 10.0d
 			image: "ftb:textures/tools_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -4.0d
-			y: 5.5d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			height: 10.0d
@@ -66,6 +65,7 @@
 				"Follow the gears. Blaze your trail.  "
 				"Forge your path to greatness-&6FTB Quests&r transforms your journey into a true epic! "
 			]
+			hide_dependency_lines: true
 			icon: "ftbquests:book"
 			id: "6F8E433E11AB988B"
 			rewards: [
@@ -88,8 +88,8 @@
 				value: 100
 			}]
 			title: "Forging Your Path"
-			x: 3.0d
-			y: 2.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -117,6 +117,7 @@
 				""
 				"Build your legacy, explore fearlessly, and make every corner of the world your own! "
 			]
+			hide_dependency_lines: true
 			icon: "handcrafted:oak_fancy_bed"
 			id: "0152665A72057299"
 			rewards: [{
@@ -132,8 +133,8 @@
 				type: "advancement"
 			}]
 			title: "Forge Your Network"
-			x: -3.0d
-			y: 2.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -176,6 +177,7 @@
 				""
 				"Secure your legacy, manage your empire, and explore fearlessly-&6FTB Chunks&r is your ultimate ally in building the future! "
 			]
+			hide_dependency_lines: true
 			icon: "minecraft:map"
 			id: "484FC6F80FEDC87E"
 			rewards: [{
@@ -192,7 +194,7 @@
 			}]
 			title: "Claim Your Legacy"
 			x: 1.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -301,6 +303,7 @@
 				""
 				"Seize the tools of mastery. Explore with confidence. Adventure without limits! "
 			]
+			hide_dependency_lines: true
 			icon: "minecraft:oak_sign"
 			id: "3459B4FBA6296581"
 			rewards: [{
@@ -316,8 +319,8 @@
 				type: "advancement"
 			}]
 			title: "Mastering the Essentials"
-			x: -1.0d
-			y: 2.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2A0238D4FDD5FF80"]
@@ -347,6 +350,7 @@
 				"&nOne press. A hundred blocks. Infinite possibilities.&r  "
 				"With FTB Ultimine, the world bends to your will. "
 			]
+			hide_dependency_lines: true
 			id: "19FA24B07EA17024"
 			rewards: [
 				{
@@ -368,120 +372,199 @@
 				type: "advancement"
 			}]
 			title: "Mines of Innovation"
-			x: 5.0d
-			y: 2.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
+			description: ["This pack includes a wide range of mods that introduce helpful tools and gadgets designed to enhance everyday gameplay, delivering small but meaningful improvements that significantly improve the overall experience."]
+			icon: {
+				Count: 1
+				id: "supplementaries:wrench"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "6EE09A4C8D827BE0"
-			optional: true
-			secret: true
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
-				id: "0BAD94A5F780065F"
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				id: "7A7DC0C31ABC4998"
+				type: "advancement"
+			}]
+			title: "Handy Tools"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			description: ["This pack includes a wide variety of decorative mods that enhance the visual appeal of your factories and living spaces, allowing for greater customization and creative expression."]
+			icon: "beautify:botanist_workbench"
+			id: "524AB2AB34C92E0E"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				count: 4L
+				id: "17581518DE8E2500"
 				item: {
 					Count: 1
-					id: "supplementaries:wrench"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "minecraft:planks"
 					}
 				}
+				title: "Any #minecraft:planks"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.0d
+			title: "Decorational Blocks"
+			x: 6.5d
+			y: 7.0d
 		}
 		{
-			id: "524AB2AB34C92E0E"
-			optional: true
-			secret: true
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "1060D34878DF1E78"
-				item: "handcrafted:mangrove_chair"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 9.0d
-		}
-		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["This tool allows you to measure the dimensions of your builds by providing the length, width, and height of a selected area."]
+			hide_dependency_lines: true
 			id: "2A591FCEC3872EDA"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "5383D5F3DF4290DB"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "32C44C296446962C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Measuring your builds"
 			tasks: [{
 				id: "3DA3950CA92C66D6"
 				item: "measurements:tape_measure"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 12.5d
+			title: "Tape Measure"
+			x: -6.5d
+			y: 9.5d
 		}
 		{
-			id: "0664611E9C7C1927"
-			optional: true
-			secret: true
-			tasks: [{
-				id: "0CE28CB8C7D88B7A"
-				item: {
-					Count: 1
-					id: "supplementaries:wrench"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: 13.5d
-		}
-		{
+			dependencies: ["524AB2AB34C92E0E"]
+			description: ["Angel Blocks is a simple mod that allows you to place a temporary block in midair, enabling construction without ground support. This makes it ideal for projects such as floating island bases, without the need to build large temporary scaffolding or pillars."]
+			hide_dependency_lines: true
 			id: "2B7B9AF464F63EE8"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					count: 7
+					id: "17A552F637B9C5D4"
+					item: "supplementaries:feather_block"
+					type: "item"
+				}
+				{
+					id: "4CF85D95817BD0A8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "437943B0C92E2F73"
 				item: "utilitarian:angel_block"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.0d
+			x: 6.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["The Construction Wand enables you to place multiple blocks at once—up to 1,024—by extending your build in the direction you are facing. For greater flexibility, the wand can be upgraded with additional cores, allowing you to place blocks behind existing ones, build in midair, or rapidly remove large numbers of blocks."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
 			id: "28DEB5C4A57AFEC5"
-			optional: true
-			secret: true
+			rewards: [{
+				id: "0231E2CCE13ADE58"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Building with Blocks"
 			tasks: [{
-				id: "44CB5FD3B065D7E9"
+				id: "0D81DAFA2F1DB369"
 				item: {
 					Count: 1
-					id: "constructionwand:stone_wand"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
-						wand_options: { }
+						value: "forge_frontier:construction_wands"
 					}
 				}
+				title: "Any #forge_frontier:construction_wands"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.5d
+			title: "Construction Wands"
+			x: -3.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["Constructing large structures can be time-consuming and labor-intensive. Dire’s Building Gadgets is designed to streamline the building process by providing tools that simplify placement and reduce manual effort. All gadgets require energy, so setting up wireless charging through Powah is recommended for uninterrupted use."]
+			hide_dependency_lines: true
+			icon: "buildinggadgets2:gadget_building"
 			id: "4E95E4317312740D"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "08844FEBCADB67A3"
+					item: "powah:player_transmitter_starter"
+					type: "item"
+				}
+				{
+					id: "071CCE4574DC5019"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Building with Tech"
 			tasks: [{
 				id: "78B4B1B0AEE94396"
-				item: "buildinggadgets2:gadget_building"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:building_gadgets"
+					}
+				}
+				title: "Any #forge_frontier:building_gadgets"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 12.5d
+			title: "Building Gadgets"
+			x: -4.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["This Temporal Pouch allows time to be accumulated while it remains in your inventory, which can then be used to temporarily accelerate the tick rate of selected blocks—making it especially useful for speeding up processes such as Metallurgy casting basins."]
+			hide_dependency_lines: true
 			id: "42263542CA42D5A3"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "01782A6CC8DAF239"
+					item: "create_dd:refined_radiance"
+					type: "item"
+				}
+				{
+					command: "/gag give_time @p 78000"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "minecraft:clock"
+					id: "22EFFDF4C100F85E"
+					title: "Free 1hr of Time"
+					type: "command"
+				}
+			]
+			subtitle: "Time in a Pouch"
 			tasks: [{
 				id: "1B3A0D2482FC0E12"
 				item: {
@@ -491,13 +574,28 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: 12.5d
+			title: "Temporal Pouch"
+			x: -5.5d
+			y: 9.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["The Escape Rope is a useful tool that allows you to quickly teleport to the surface while underground, making it especially helpful for safely escaping dangerous situations."]
+			hide_dependency_lines: true
 			id: "5F79790A6011AFCA"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					count: 3
+					id: "3F61577059730955"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					id: "0AE3480B30ECB734"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3FD311D98499336F"
 				item: {
@@ -509,172 +607,308 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 13.5d
+			x: -5.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["This mod provides portable access to all standard vanilla workbench blocks, allowing you to use essential crafting utilities wherever you go."]
+			hide_dependency_lines: true
+			icon: "crafting_on_a_stick:crafting_table"
 			id: "4FED6304FF08304C"
-			optional: true
-			secret: true
+			rewards: [{
+				id: "47AE119FE6FBFD9F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "307E9F7282F9B6FF"
-				item: "crafting_on_a_stick:crafting_table"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 14.5d
-		}
-		{
-			id: "6CD25FB8DEE66BFF"
-			optional: true
-			secret: true
-			tasks: [{
-				id: "4268DC11EACE6B65"
 				item: {
 					Count: 1
-					id: "utilitarian:no_soliciting_banner"
+					id: "itemfilters:tag"
 					tag: {
-						BlockEntityTag: {
-							Patterns: [{
-								Color: 14
-								Pattern: "cr"
-							}]
-							id: "utilitarian:no_soliciting_banner"
-						}
+						value: "curios:crafting_on_a_stick"
 					}
 				}
+				title: "Any #curios:crafting_on_a_stick"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 14.5d
+			title: "On A Stick"
+			x: -4.0d
+			y: 11.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["The Hyperbox functions as a portal to a dedicated pocket dimension. Each Hyperbox contains its own linked dimension, which remains preserved and accessible even if the block is mined and placed elsewhere."]
+			hide_dependency_lines: true
 			id: "7A478793A7066CE1"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "1C296FB67039B6B9"
+					item: "create_dd:chromatic_block"
+					type: "item"
+				}
+				{
+					id: "67A0C851526802AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "20A46FCFAC0B9A72"
 				item: "hyperbox:hyperbox"
 				type: "item"
 			}]
 			x: -6.0d
-			y: 14.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["Similar to the Hyperbox, Compact Machines allow you to create pocket dimensions contained within a single block. The key differences are the availability of multiple size options and a generally lower cost, making them a more flexible and accessible alternative."]
+			hide_dependency_lines: true
 			id: "6FABC78F59FDE6C3"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "0A6B642CD498E3E0"
+					item: "create_dd:chromatic_block"
+					type: "item"
+				}
+				{
+					id: "210DA84C185D0612"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "75FD5D36A4C84AE2"
 				item: "compactmachines:personal_shrinking_device"
 				type: "item"
 			}]
+			title: "Compact Machines"
 			x: -5.0d
-			y: 14.5d
+			y: 11.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["Entangled provides the materials needed to bind two blocks together, allowing them to be interacted with as if they were a single block. This enables instant transfer of items, energy, fluids, and other resources, offers additional interaction sides, and makes it easy to conceal complex cabling—opening up a wide range of practical applications."]
+			hide_dependency_lines: true
 			id: "60F1517A22DBC588"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					count: 2
+					id: "6918F16AAB78C9C4"
+					item: "create_dd:refined_radiance"
+					type: "item"
+				}
+				{
+					id: "4FDCC10565728D9B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2CBD4CC26F4B000A"
 				item: "entangled:item"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 13.5d
+			title: "Entagled"
+			x: -3.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["524AB2AB34C92E0E"]
+			description: ["Facades allow you to conceal pipes of any type, resulting in cleaner and more visually polished builds. Additional alternatives in this pack include Copycat Blocks and the camouflage features provided by Sophisticated Storage."]
+			hide_dependency_lines: true
 			id: "5293751E5CD5D576"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					count: 32
+					id: "400F8F2EE2197F98"
+					item: "cable_facades:facade"
+					type: "item"
+				}
+				{
+					id: "0C393C9A53243EC3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "307C4C10D99FCF10"
 				item: "cable_facades:facade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.0d
+			title: "Facades"
+			x: 5.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["524AB2AB34C92E0E"]
+			description: ["Handscrafting is a decorative block mod that adds a variety of detailed furniture pieces, enhancing the visual depth and style of your builds."]
+			hide_dependency_lines: true
+			icon: "handcrafted:oak_bench"
 			id: "6475F2A488935B09"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "47B69CCD6A72BC7D"
+					item: "handcrafted:spruce_couch"
+					type: "item"
+				}
+				{
+					id: "278D7A9D89EBA449"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
-				id: "552F4ACAE85CA28B"
-				item: "handcrafted:spruce_bench"
+				id: "12AC334B7872773D"
+				item: "handcrafted:hammer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.0d
+			title: "Handcrafted"
+			x: 6.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["524AB2AB34C92E0E"]
+			description: ["Chipped is a building-focused mod that adds a wide range of textured variants for many vanilla blocks. With support from mods such as Every Compat and Stone Zone, these decorative options are also extended to modded block variants, greatly expanding building possibilities."]
+			hide_dependency_lines: true
+			icon: "chipped:carpenters_table"
 			id: "526C2FC0A6AE739C"
-			optional: true
-			secret: true
+			rewards: [{
+				id: "0452FA303C7BDD1F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
-				id: "5FB76FDA0E26C91A"
-				item: "chipped:botanist_workbench"
+				id: "2C0E464653156DD3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge_frontier:chipped_tables"
+					}
+				}
+				title: "Any #forge_frontier:chipped_tables"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.0d
+			title: "Chipped"
+			x: 7.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["524AB2AB34C92E0E"]
+			description: ["Easy Villagers makes it possible to create compact and efficient villager farms by allowing villagers to be picked up and stored within specialized blocks. Its companion mod, Easy Piglins, offers the same functionality for Piglins, enabling streamlined and space-efficient farm designs."]
+			hide_dependency_lines: true
 			id: "08ADA887E65E00B1"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "584453AB4D16FA59"
+					item: "easy_villagers:trader"
+					type: "item"
+				}
+				{
+					id: "338EA22F0294A7F1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "5D69FAE484864029"
 				item: "easy_villagers:villager"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 12.0d
+			title: "Easy Villagers"
+			x: 8.0d
+			y: 9.5d
 		}
 		{
-			id: "529224382E63C5F3"
-			optional: true
-			secret: true
-			tasks: [{
-				id: "4BD1BE0FF9B51633"
-				item: {
-					Count: 1
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -7.0d
-			y: 13.5d
-		}
-		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: [
+				"This pack includes several types of compasses, each serving a distinct purpose:"
+				""
+				"- Vanilla Compass – Primarily used as a crafting ingredient."
+				""
+				"- Biome Compass – Allows you to locate any biome available in the pack."
+				""
+				"- Structure Compass – Used to locate generated structures throughout the world."
+				""
+				"- Recovery Compass – Helps you locate your grave and recover lost items."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:compass"
 			id: "429A29A4974D7045"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					id: "22DE1AFAD2A6FE2D"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "58680BF3643EF4F2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "74CD8FAA44EDDF6C"
 				item: {
 					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:compasses"
+					}
 				}
+				title: "Any #minecraft:compasses"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 13.5d
+			title: "Compasses"
+			x: -6.5d
+			y: 10.5d
 		}
 		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["This tool automatically places pipes along a selected route, with the option to define the placement depth, making it ideal for building clean and organized networks without the need for manual placement."]
+			hide_dependency_lines: true
 			id: "172972517CF533C1"
-			optional: true
-			secret: true
+			rewards: [
+				{
+					count: 8
+					id: "21FF757DC7F94160"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5B68CC3C70C16A56"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "6724E90AA7F2004D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "01E9E1B34C32C5BC"
 				item: "pipe_connector:pipe_connector"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 13.5d
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			id: "4502395245E04EEE"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "573446524319DD47"
+				title: "Center"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 5.0d
 		}
 	]
 	title: "Quality of Life"
