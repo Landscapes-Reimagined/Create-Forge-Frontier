@@ -1289,7 +1289,13 @@
 			rewards: [
 				{
 					id: "3E6ACFC06C0939BD"
-					item: "alexscaves:sack_of_sating"
+					item: {
+						Count: 1
+						id: "alexscaves:candy_cane_hook"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
