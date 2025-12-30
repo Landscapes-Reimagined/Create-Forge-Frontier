@@ -26,6 +26,9 @@ StartupEvents.registry('item', event =>
             { id: 'forge_frontier:incomplete_printed_accumulation_processor', name: 'Incomplete Printed Accumulation Processor' },
             { id: 'forge_frontier:incomplete_accumulation_processor_press', name: 'Incomplete Accumulation Processor Press' },
 
+            // Random Items
+            { id: 'forge_frontier:incomplete_conveyor_boots', name: 'Incomplete Conveyor Boots' }
+
         ];
 
         items.forEach(item => {
