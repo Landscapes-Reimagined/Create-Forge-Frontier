@@ -1,5 +1,32 @@
 ServerEvents.tags('item', event => 
     {
+        // Chipped Tables
+            event.add('forge_frontier:chipped_tables',[
+                "chipped:botanist_workbench",
+                "chipped:glassblower",
+                "chipped:carpenters_table",
+                "chipped:loom_table",
+                "chipped:mason_table",
+                "chipped:alchemy_bench",
+                "chipped:tinkering_table"
+            ])
+        // Construction Wands
+            event.add('forge_frontier:construction_wands', [
+                "constructionwand:stone_wand",
+                "constructionwand:iron_wand",
+                "constructionwand:diamond_wand",
+                "constructionwand:infinity_wand"
+            ])
+
+        // Building Gadgets
+            event.add('forge_frontier:building_gadgets',[
+                "buildinggadgets2:gadget_building",
+                "buildinggadgets2:gadget_exchanging",
+                "buildinggadgets2:gadget_copy_paste",
+                "buildinggadgets2:gadget_cut_paste",
+                "buildinggadgets2:gadget_destruction"
+            ])
+
         // Industial Iron Tag
             event.add('forge:ingots/industrial_iron', 'createdeco:industrial_iron_ingot')
             
