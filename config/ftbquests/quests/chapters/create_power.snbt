@@ -255,7 +255,7 @@
 				""
 				"Use the Ponder menu if you get stuck!"
 			]
-			icon: "create_new_age:energiser_t1"
+			icon: "create_new_age:basic_energiser"
 			id: "472F303E962BE330"
 			rewards: [
 				{
@@ -274,7 +274,7 @@
 			tasks: [
 				{
 					id: "0582B934B8822414"
-					item: "create_new_age:energiser_t1"
+					item: "create_new_age:basic_energiser"
 					type: "item"
 				}
 				{
@@ -311,7 +311,7 @@
 			subtitle: "Supercharged Solutions."
 			tasks: [{
 				id: "1B616EF7B1E56371"
-				item: "create_new_age:energiser_t2"
+				item: "create_new_age:advanced_energiser"
 				type: "item"
 			}]
 			title: "Advanced Energizer - Tier 2"
@@ -344,7 +344,7 @@
 			subtitle: "Industrial Infusion."
 			tasks: [{
 				id: "2B3AE69388180F95"
-				item: "create_new_age:energiser_t3"
+				item: "create_new_age:reinforced_energiser"
 				type: "item"
 			}]
 			title: "Reinforced Energizer - Tier 3"
