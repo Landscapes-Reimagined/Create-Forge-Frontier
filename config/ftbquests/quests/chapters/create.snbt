@@ -85,8 +85,9 @@
 			id: "66E9DB5E9D5CD5EC"
 			rewards: [
 				{
+					count: 3
 					id: "3EF1E52A4C9D387E"
-					item: "createcompression:compressed_andesite_alloy_1x"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
