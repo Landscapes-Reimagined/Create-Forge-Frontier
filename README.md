@@ -1,131 +1,139 @@
 # **Create - Forge Frontier: Redefining Minecraft Automation**
 
 ![Create - Forge Frontier Logo with gears](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Header.webp)
-## ⚠️ Issues and Suggestions
-Have any issues or suggestions you'd like to report visit our centralized area to do so: [Landscapes Reimagined - Issues and Suggestions](https://github.com/Landscapes-Reimagined/Issues-and-Suggestions)
+
+## **Issues and Suggestions**
+If you have issues to report or suggestions to share, please use our centralized reporting repository:  
+**[Landscapes Reimagined - Issues and Suggestions](https://github.com/Landscapes-Reimagined/Issues-and-Suggestions)**
+
 ---
 
-## 🌟 **About Create - Forge Frontier**
+## **About Create - Forge Frontier**
 
 ![Description Banner](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Description.webp)
 
-**Create - Forge Frontier** is a meticulously crafted **Create-focused modpack**, blending immersive automation, exploration, and creativity into one cohesive experience. It combines the engineering depth of the **Create mod** with expanded progression systems, custom resources, and new frontiers to explore.
+**Create - Forge Frontier** is a carefully designed Create-focused modpack that blends large-scale factory automation, extensive exploration, and challenging combat encounters into a cohesive, progression-driven experience. The pack is built for players who enjoy designing complex production lines, exploring diverse dimensions and structures, and engaging in frequent boss fights as part of long-term progression.
 
-Forge Frontier delivers:
+It combines the engineering depth of the Create mod with custom progression systems, new resources, and multiple endgame frontiers, creating a balanced experience that rewards planning, exploration, and mastery of automation.
 
-* 🌄 A **stunning Overworld** powered by **Tectonic** terrain generation and enriched with enhanced dungeons, villages, and smarter **Villager AI**.  
-* 🏆 A structured progression path via **FTB Quests**, guiding players through engineering milestones, exploration, and late-game challenges.  
-* ⚙️ **Custom stone ore variants** such as **Ochrum** and **Crimsite**, **Resource Vents**, and advanced **rocket tiers**, ensuring meaningful resource automation and rewarding progression.  
-* 🎨 Polished **interfaces, menus, and loading screens**, giving the pack a consistent and immersive presentation.
+Forge Frontier offers:
 
-**Whether you’re an automation enthusiast, explorer, or builder—Forge Frontier offers the ultimate Create-based Minecraft adventure.**
+- Large-scale factory automation centered around Create, with progression-driven systems designed for scalable production  
+- Extensive exploration across the Overworld, Nether, End, and space, featuring custom terrain generation, structures, and progression gates  
+- Frequent boss encounters integrated into progression, including reworked Nether and End challenges and late-game combat milestones  
+- A visually enhanced Overworld powered by **Tectonic** terrain generation, expanded structures, improved villages, and enhanced Villager AI  
+- A guided progression system through **FTB Quests**, leading players from early engineering concepts to advanced automation and endgame challenges  
+- **Custom stone ore variants inspired by the well-known Create ore stones**, expanding automation beyond traditional resources. New variants such as **Glacium** and **Verdantine** unlock automated production chains for materials including **diamonds, emeralds, and even netherite**, along with many other resources tied directly to endgame progression  
+- Polished interfaces, menus, and loading screens that provide a consistent and immersive presentation  
 
----
-
-## 📜 **Features at a Glance**
-
-* 🌄 **World Generation:** Reimagined terrain with **Tectonic**, enhanced structures, and smarter Villagers.  
-* 🏛️ **Core Progression Pillars:**  
-  * 🔥 **Nether Remastered** – Fully reworked progression, requiring **Overworld structure exploration and looting** before unlocking access.  
-  * 🌌 **End Remastered** – A **custom integration exclusive to this pack**, with Create-driven progression, exploration, structure-based loot, and unique boss fights.  
-  * 🚀 **Space Exploration** – Powered by **Ad Astra**, with **tiered rockets** unlocking **six custom-designed planets**, each featuring unique resources and challenges.  
-* ⚙️ **Create Automation:** Seamlessly integrate Create-based systems with custom recipes and progression.  
-* 🏆 **FTB Quests:** A rich questline to guide your adventure and challenge your skills.  
-* 🪐 **Endgame Automation:** **Resource Vents**, **Advanced Rockets**, and unique stone variants like **Ochrum** and **Crimsite**.  
-* 🎨 **Refined Interface:** Polished menus, loading screens, and settings for a cohesive experience.
+Whether your focus is large-scale automation, deep exploration, or challenging boss encounters, **Create - Forge Frontier** delivers a structured and rewarding Create-based Minecraft experience.
 
 ---
 
-## ❓ **FAQ**
+## **Features at a Glance**
+
+- **World Generation:** Reimagined terrain using **Tectonic**, enhanced structures, and improved Villager behavior  
+- **Core Progression Pillars:**  
+  - **Nether Remastered:** A fully reworked progression system that requires Overworld structure exploration and loot acquisition before unlocking Nether access  
+  - **End Remastered:** A custom integration exclusive to this pack, featuring Create-driven progression, exploration-based advancement, structure loot, and unique boss encounters  
+  - **Space Exploration:** Powered by **Ad Astra**, introducing tiered rockets that unlock six custom-designed planets with unique resources and challenges  
+- **Create Automation:** Deep integration with Create through custom recipes, progression gating, and automation pathways  
+- **FTB Quests:** A structured quest system that guides progression from early gameplay through endgame automation  
+- **Endgame Systems:** Resource Vents, advanced rocket technology, and expanded stone variants that support long-term automation and progression  
+- **Refined Interface:** Professionally styled menus, loading screens, and configuration layouts  
+
+---
+
+## **FAQ**
 
 ![FAQ Banner](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Faq.webp)
 
 ### **1. Is my world compatible between versions?**
-World compatibility depends on the update. Some major versions introduce changes to world generation or progression that may require starting fresh. When in doubt, always check the changelog and back up your world before updating.
+World compatibility depends on the scope of each update. Major updates may introduce changes to world generation or progression systems that require starting a new world. Always review the changelog and back up your saves before updating.
 
 ### **2. How much RAM should I allocate?**
-For optimal performance, allocate at least **4GB of RAM**. For smoother gameplay, especially in automation-heavy or multiplayer setups, **6–8GB** is recommended.
+A minimum of **4GB of RAM** is recommended. For smoother gameplay, especially with automation-heavy builds or multiplayer servers, **6 to 8GB** is advised.
 
 ### **3. Is there a questline?**
-Yes! The pack includes a structured questline through **FTB Quests**, designed to guide players through early, mid, and late-game progression. New quests are regularly added to support new content and features.
+Yes. The pack includes a structured **FTB Quests** progression system that supports early, mid, and late-game advancement. New quests are added regularly alongside new content.
 
 ### **4. Can I host a server with this modpack?**
-Absolutely! We recommend using **BisectHosting**, our official server partner, for the easiest setup with pre-configured servers. Alternatively, you can use the provided server files included with each release to host your own.
+Yes. **BisectHosting** is our official server partner and provides pre-configured server setups for easy deployment. Server files are also included with each release for self-hosting.
 
-### **5. How does Nether and End progression work in this pack?**
-Both dimensions are **customized specifically for Forge Frontier**:
+### **5. How do Nether and End progression work?**
+Both dimensions are fully customized for Forge Frontier:
 
-* 🔥 **Nether Remastered** has been fully reworked. You must first engage in **Overworld structure exploration and looting** before unlocking access to the Nether, making it a true milestone in progression.  
-* 🌌 **End Remastered** is fully integrated with Create, adding **exploration challenges, structure-based loot progression, and unique boss fights** that tie directly into late-game advancement.
+- **Nether Remastered** requires Overworld exploration and loot progression before access is granted, making Nether entry a meaningful milestone  
+- **End Remastered** integrates Create-based mechanics, structured exploration, loot progression, and unique boss encounters tied directly to late-game advancement  
 
-### **6. How does space exploration work?**
-Space progression is built around **Ad Astra with custom integration**:
+### **6. How does space exploration function?**
+Space progression is built around **Ad Astra** with custom integration:
 
-* 🚀 You’ll unlock **tiered rockets**, each granting access to new planets.  
-* 🪐 Each planet offers **unique biomes, resources, and challenges**, many of which are tied to Create-driven automation and late-game crafting.  
-* 🏗️ Progression is designed so that **space exploration, the Nether, and the End all interconnect**, ensuring a cohesive journey through engineering, exploration, and discovery.
+- Tiered rockets unlock access to new planets  
+- Each planet features unique biomes, resources, and challenges  
+- Space, Nether, and End progression are interconnected to create a unified progression path  
 
 ---
 
-## 🤝 **Join the Community on Discord!**
+## **Join the Community on Discord**
 
 ![Discord Banner](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Discord.webp)
 
-Connect with other players, get support, and stay updated with the latest news and updates by joining our **[Discord community](https://discord.gg/quenZthXgy)**.
+Join our **[Discord community](https://discord.gg/quenZthXgy)** to connect with other players, receive support, and stay informed about updates and development news.
 
 ---
 
-## 📥 **Installation Instructions**
+## **Installation Instructions**
 
 ![Installation Banner](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Installation.webp)
 
 ### **CurseForge Launcher**
-1. Install the **[CurseForge App](https://curseforge.overwolf.com/)**.  
-2. Search for **Create - Forge Frontier** in the Minecraft modpacks section.  
-3. Click **Install** and allocate at least **4–8GB of RAM** for optimal performance.  
-4. Launch Minecraft and enjoy your adventure!
+1. Install the **[CurseForge App](https://curseforge.overwolf.com/)**  
+2. Search for **Create - Forge Frontier** under Minecraft modpacks  
+3. Click **Install** and allocate **4 to 8GB of RAM**  
+4. Launch Minecraft and begin playing  
 
-### **Manual Installation (Advanced Users)**
-1. Download the modpack file from **[CurseForge](https://www.curseforge.com/minecraft/modpacks/forge-frontier)**.  
-2. Install Minecraft Forge (version compatible with the pack).  
-3. Move the modpack files into the `mods` folder within your Minecraft directory.  
-4. Allocate **4–8GB of RAM** in your Minecraft launcher settings.
+### **Manual Installation**
+1. Download the modpack from **[CurseForge](https://www.curseforge.com/minecraft/modpacks/forge-frontier)**  
+2. Install the Forge version compatible with the pack  
+3. Place the modpack files into the `mods` directory  
+4. Allocate **4 to 8GB of RAM** in your launcher settings  
 
 ---
 
-## 🖼️ **Screenshots & Visuals**
+## **Screenshots and Visuals**
 
 ![Screenshot Banner](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Screenshots.webp)
 
 | ![Overworld Tectonic Generation](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/kubejs/assets/ftb/textures/fancymenu_image_2.png) | ![Custom End Remastered Integration](https://media.forgecdn.net/attachments/1082/952/endframe_screenshot.png) |
-|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|
-| *Explore stunning Overworld landscapes generated by **Tectonic**.* | *Experience a **fully reworked End Remastered integration**, designed exclusively for this pack.* |
+|:--:|:--:|
+| *Explore Overworld landscapes generated using Tectonic.* | *Experience a fully reworked End Remastered integration designed exclusively for this pack.* |
 
-✨ These previews highlight only part of the adventure — from the **reimagined Nether** to new **Ad Astra planets** and advanced **Create-powered dungeons**.
+These previews highlight only a portion of the content, including the reimagined Nether, custom Ad Astra planets, and Create-driven structures.
 
-👉 Explore the complete gallery of visuals here:  
-**[CurseForge Gallery →](https://www.curseforge.com/minecraft/modpacks/forge-frontier/gallery)**
-
----
-
-## 🎮 **Get Started Today!**
-
-**Download** [Create - Forge Frontier](https://www.curseforge.com/minecraft/modpacks/forge-frontier) now and redefine your Minecraft experience with creativity, exploration, and automation. The frontier awaits!
-
-> **Note:** Ensure you back up your saves before updating. Some major updates may require new worlds for full compatibility.
-
-💎 **Looking for exclusive perks?** Join our **[Patreon](https://www.patreon.com/landscapesreimagined)** and enjoy supporter benefits, early access, and more!
+View the full gallery here:  
+**[CurseForge Gallery](https://www.curseforge.com/minecraft/modpacks/forge-frontier/gallery)**
 
 ---
 
-## 🚀 **Host Your Own Server with BisectHosting!**
+## **Get Started Today**
 
-Set up a **Create - Forge Frontier** server effortlessly with our official partner, **BisectHosting**. Click the banner below to get started!
+Download **[Create - Forge Frontier](https://www.curseforge.com/minecraft/modpacks/forge-frontier)** and experience a progression-focused Create modpack built around engineering, exploration, and long-term automation.
+
+> **Note:** Always back up your saves before updating. Some major updates may require starting a new world.
+
+Supporter benefits and early access are available through **[Patreon](https://www.patreon.com/landscapesreimagined)**.
+
+---
+
+## **Host Your Own Server with BisectHosting**
+
+Deploy a **Create - Forge Frontier** server quickly using our official hosting partner, **BisectHosting**.
 
 [![BisectHosting Code](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
 
 ---
 
-**"Engineering Tomorrow’s Worlds, One Creative Block at a Time."**  
-— **M0nkeyPr0grammer**  
-_Lead Developer, Landscapes Reimagined Team_
+**Engineering Tomorrow’s Worlds, One Creative Block at a Time**  
+**M0nkeyPr0grammer**  
+*Lead Developer, Landscapes Reimagined*
