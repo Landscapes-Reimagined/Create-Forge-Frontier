@@ -54,7 +54,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Molten Metal Mastery"
+			subtitle: "Molten Metal Mastery."
 			tasks: [{
 				id: "38793FCFB80C1C6D"
 				item: {

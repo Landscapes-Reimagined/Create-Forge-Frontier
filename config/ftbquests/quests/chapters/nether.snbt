@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "nether"
-	group: "1CB9F27D7DE0AEE8"
+	group: "18D089BBC98AE6DA"
 	icon: "nether_remastered:seal_of_the_underworld_item"
 	id: "4939BBE1CB170C9D"
 	images: [
@@ -24,29 +24,29 @@
 			y: -9.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["72FE4921BBC7E437"]
 			description: [
-				"Buried beneath stone and silence, the &9Ruins of the Deep&r lie forgotten—  "
-				"a lost relic of a once-mighty civilization swallowed by time and tide."
+				"The &9Ruins of the Deep&r are an Overworld structure that introduce early exposure to sculk-themed environments and submerged exploration. These ruins contain valuable loot, early progression materials, and clues tied to later ventures into the Deep Dark."
 				""
-				"These submerged halls once echoed with arcane rituals and the hum of ancient power. Now, only darkness remains.  "
-				"Yet beneath the sediment and shattered stone, something still lingers—&nsecrets sealed behind waterlogged vaults and winding labyrinths&r."
+				"Once part of a larger underground complex, the chambers now sit partially collapsed and waterlogged, requiring careful navigation and preparation for underwater exploration."
 				""
 				"{@pagebreak}"
-				"To descend into the depths is to challenge the unknown.  "
-				"But for those with courage—and cunning—the &6treasures of the deep&r await.  "
-				"Just beware: not all things left behind are truly lost."
+				""
+				"Within the ruins, players may find enchanted items, brewing components, and relics that support mid-game resource gathering and survivability. Hidden chambers and sealed sections often contain higher-value loot, rewarding methodical exploration."
 				""
 				"{image:ftb:textures/ruins_of_the_deep.png width:200 height:134 align:center}"
+				""
+				"{@pagebreak}"
+				"Approach these structures with caution—reduced visibility, limited mobility, and tight corridors can introduce additional risks. However, the materials and knowledge recovered here provide meaningful advantages as you progress toward more challenging biomes and structures."
 			]
 			icon: "minecraft:heart_of_the_sea"
 			id: "7CE7BBA16C2E61E1"
 			shape: "pentagon"
-			subtitle: "Explore the Ruins of the Deep and uncover relics buried in silence and shadow. Click me for more info!"
+			subtitle: "Explore the Ruins of the Deep and uncover their hidden resources. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -58,29 +58,30 @@
 				title: "Ruins of the Deep"
 				type: "structure"
 			}]
-			title: "Whispers Beneath the Stone"
+			title: "&6Whispers Beneath the Stone&r"
 			x: -3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
 			description: [
-				"Once a thriving forge of invention, the &6Tinkers Workshop&r now stands silent—its chimneys cold, its anvil still."
+				"The &6Tinkers Workshop&r is an Overworld structure that introduces players to early engineering themes within &6Create - Forge Frontier&r. While the surface appears abandoned, the true value of the workshop lies below, where a network of chambers contains materials and tools left behind by past artisans."
 				""
-				"But the surface tells only part of the story.  "
-				"Beneath this weathered structure lies a forgotten labyrinth, where the sparks of innovation still linger in the shadows."
+				"These lower sections may include rare components, partially completed equipment, and resources useful for weapon crafting, metallurgy, and early automation."
 				""
 				"{@pagebreak}"
-				"Abandoned for reasons unknown, its depths conceal rare materials, experimental tools, and the remnants of a workshop that pushed the boundaries of creation."
 				""
-				"Will you descend into the ruins of genius and reclaim what was left behind?"
+				"Exploring the workshop’s underground areas requires attention to layout, environmental hazards, and potential mob presence. The rewards found here support mid-game crafting paths and provide an early advantage in developing advanced tools and functional machinery."
 				""
 				"{image:ftb:textures/tinkersworkshop.png width:200 height:106 align:center}"
+				""
+				"{@pagebreak}"
+				"Investigate each room carefully, gather what remains of the workshop’s innovations, and integrate these findings into your broader progression."
 			]
 			icon: "handcrafted:hammer"
 			id: "5619CB9F89C25C87"
 			shape: "pentagon"
-			subtitle: "Uncover the secrets buried beneath the Tinkers Workshop and reignite forgotten brilliance. Click me for more info!"
+			subtitle: "Explore the Tinkers Workshop and uncover the resources hidden beneath it. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -92,23 +93,25 @@
 				title: "Tinkers Workshop"
 				type: "structure"
 			}]
-			title: "Ashes of Innovation"
+			title: "&6Ashes of Innovation&r"
 			x: 3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
 			description: [
-				"Sealed in stone and shadow, the &8Ancient Mines&r have long been forgotten—  "
-				"once famed for their endless wealth, now entombed after a cataclysm none dare to name."
+				"The &8Ancient Mines&r are a sealed Overworld structure containing valuable ores, specialized materials, and remnants of early mining infrastructure. Once a major excavation site, the mines were closed following structural collapse and increasing subterranean hazards."
 				""
-				"Their gates were locked to protect the surface from what stirred beneath…  "
-				"but for those bold enough to shatter the barrier, the depths may still yield &6untold riches&r, ancient technologies, and buried truths long erased from history."
+				"Accessing the interior requires breaking through the barrier at the entrance. Inside, players will encounter layered tunnels, storage chambers, and abandoned equipment that offer a variety of resources useful for mid-game crafting and automation."
 				""
 				"{@pagebreak}"
-				"Will you risk the descent and awaken what sleeps below?"
+				""
+				"The deeper sections may contain higher-value materials, rare loot, or components tied to advanced crafting systems within &6Create - Forge Frontier&r. Careful navigation is recommended, as limited visibility and uneven terrain can introduce environmental risks."
 				""
 				"{image:ftb:textures/ancientmines.png width:200 height:110 align:center}"
+				""
+				"{@pagebreak}"
+				"Approach the mines prepared for exploration, gather the resources left behind, and integrate them into your progression as you unlock the full potential of this forgotten excavation site."
 			]
 			icon: {
 				Count: 1
@@ -119,7 +122,7 @@
 			}
 			id: "10E12D942E6F9B1B"
 			shape: "pentagon"
-			subtitle: "Break the barrier and reclaim the forgotten wealth of the Ancient Mines. Click me for more info!"
+			subtitle: "Unseal the Ancient Mines and recover the resources hidden within. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -131,32 +134,30 @@
 				title: "Ancient Mines"
 				type: "structure"
 			}]
-			title: "Depths Sealed in Silence"
+			title: "&6Depths Sealed in Silence&r"
 			x: -3.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["72FE4921BBC7E437"]
 			description: [
-				"Once a &6shining bastion of invention&r, the &eTinker’s Citadel&r rose above the world—its halls alive with the hammer’s ring and the spark of genius."
+				"The &eTinker’s Citadel&r is a large, late-game Overworld structure featuring multiple floors, crafting halls, and secured chambers once used by master artisans. Though now abandoned, the Citadel contains advanced materials, tool components, and engineering resources that support high-tier crafting progression within &6Create - Forge Frontier&r."
 				""
-				"Here, master artisans redefined creation itself, building wonders that shaped empires.  "
-				"But time has turned brilliance to ruin. The spires crumble. The forges grow cold. Silence now rules where innovation once thrived."
-				""
-				"And yet… not all is lost."
+				"Players will encounter specialized workstations, storage rooms, and mechanical assemblies that contain valuable loot and components suited for metallurgy, equipment upgrades, and advanced automation."
 				""
 				"{@pagebreak}"
-				"Deep within the Citadel’s heart, &nancient machines still stir&r—guarding relics of immense power, knowledge, and mystery.  "
-				"Hidden vaults, sealed chambers, and forgotten blueprints await only the boldest explorers."
 				""
-				"⚙&nEnter the Citadel, and claim the legacy of the world’s greatest craftsmen.&r"
+				"The deeper sections of the Citadel may include sealed vaults or protected chambers holding rare items, experimental tools, and relics of early technological development. These areas often require careful navigation and combat readiness due to environmental hazards or hostile entities."
 				""
 				"{image:ftb:textures/tinkers_citadel.png width:172 height:200 align:center}"
+				""
+				"{@pagebreak}"
+				"Thorough exploration provides significant advantages for mid-to-late game progression. Gather available resources, document the layout, and integrate the Citadel’s findings into your broader crafting and engineering goals."
 			]
 			icon: "create:cuckoo_clock"
 			id: "2C7C1C96546AD211"
 			shape: "pentagon"
-			subtitle: "Uncover the lost inventions and secrets buried within the Tinker’s Citadel. Click me for more info!"
+			subtitle: "Explore the Tinker’s Citadel and uncover its advanced crafting resources. Click for more info!"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -168,7 +169,7 @@
 				title: "Tinker's Citadel"
 				type: "structure"
 			}]
-			title: "The Citadel’s Legacy"
+			title: "&6The Citadel’s Legacy&r"
 			x: 3.0d
 			y: 3.5d
 		}
@@ -186,7 +187,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Found in Treasure Loot Chest in a hidden chamber"
+			subtitle: "Found in Treasure Loot Chest in a hidden chamber."
 			tasks: [{
 				id: "664D542ADAFAE4EA"
 				item: "nether_remastered:seal_piece_1"
@@ -210,7 +211,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Found in Loot Chest in the Vault"
+			subtitle: "Found in Loot Chest in the Vault."
 			tasks: [{
 				id: "5F41087530C12B64"
 				item: "nether_remastered:seal_piece_2"
@@ -234,7 +235,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Found in Minecart Loot Chest in the Hall"
+			subtitle: "Found in Minecart Loot Chest in the Hall."
 			tasks: [{
 				id: "09CF563870F3E88A"
 				item: "nether_remastered:seal_piece_3"
@@ -258,7 +259,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Found in Loot Chest in the Vault"
+			subtitle: "Found in Loot Chest in the Vault."
 			tasks: [{
 				id: "7AD9905782A48872"
 				item: "nether_remastered:seal_piece_4"
@@ -274,42 +275,40 @@
 				"767465A8B1032AB3"
 			]
 			description: [
-				"&8The second of four.&r"
+				"With the first essence secured, your next task is to attune the Obsidian Bottle to a different source of lingering energy. Equip the bottle in your off-hand and defeat Nether-native creatures. Their ambient heat and residual force may infuse the vessel, forming the second Bottle of Nether Essence."
 				""
-				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
-				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
-				""
-				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+				"This step continues your progression through spectral alchemy, broadening the range of energies required for advanced crafting and dimensional reagents."
 			]
 			hide_dependency_lines: true
 			id: "425E9DAFBC3666BD"
-			subtitle: "Claim the second of four mystical bottles and step into a world beyond the veil. Click me for more info! "
+			subtitle: "Claim the second of four mystical bottles and step into a world beyond the veil. Click me for more info!."
 			tasks: [{
 				count: 2L
 				id: "09D74AF14E861835"
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
+			title: "&6Bottled Nether Essence&r"
 			x: -1.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["767465A8B1032AB3"]
 			description: [
-				"&8The first of four.&r"
+				"This step begins your progression into spectral alchemy. With an &0Obsidian Bottle&r equipped in your off-hand, defeat undead enemies to allow the bottle to absorb residual energy from their demise."
 				""
-				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
-				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
+				"Successful absorption transforms it into the first &5Bottle of Shadows&r—one of four components required for advancing through this branch of magical crafting."
 				""
-				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+				"This milestone establishes the foundation for acquiring additional essences and unlocking recipes tied to spectral materials and higher-tier alchemical processes."
 			]
 			id: "541250A87BFC169D"
-			subtitle: "Claim the first of four mystical bottles and step into a world beyond the veil. Click me for more info! "
+			subtitle: "Obtain the first spectral bottle and begin the path toward advanced alchemy. Click for more info!"
 			tasks: [{
 				id: "77F8FFD4713F2151"
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
+			title: "&6Bottled Nether Essence&r"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -319,22 +318,20 @@
 				"767465A8B1032AB3"
 			]
 			description: [
-				"&8The third of four.&r"
+				"To obtain the third essence, the Obsidian Bottle must resonate with entities bound to soul energy. While held in your off-hand, defeat foes originating from soul-infused biomes or structures. Their release may impart the spectral signature needed to complete the third Bottle of Nether Essence."
 				""
-				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
-				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
-				""
-				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+				"Collecting this component brings you closer to stabilizing the full set of essences needed for high-tier alchemical synthesis."
 			]
 			hide_dependency_lines: true
 			id: "2E63B61B39D2A0B6"
-			subtitle: "Claim the third of four mystical bottles and step into a world beyond the veil. Click me for more info! "
+			subtitle: "Claim the third of four mystical bottles and step into a world beyond the veil. Click me for more info!."
 			tasks: [{
 				count: 3L
 				id: "00617FA68CBA4E09"
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
+			title: "&6Bottled Nether Essence&r"
 			x: 1.5d
 			y: 0.5d
 		}
@@ -344,22 +341,20 @@
 				"767465A8B1032AB3"
 			]
 			description: [
-				"&8The final of four.&r"
+				"The final essence requires harmonizing the Obsidian Bottle with entities tied to the Nether’s deepest regions. With the bottle equipped in your off-hand, confront advanced or elite Nether mobs whose defeat may yield the final spectral imprint. When absorbed, the vessel becomes the fourth Bottle of Nether Essence."
 				""
-				"Wielding an &0Obsidian Bottle&r in your off-hand, you must confront the &7undead&r.  "
-				"Upon their defeat, the bottle may absorb their lingering essence—forming the first &5Bottle of Shadows&r."
-				""
-				"&nThis marks the beginning of your journey into forgotten magic and spectral alchemy.&r"
+				"Securing all four essences completes the foundation for spectral alchemy, unlocking recipes and materials reserved for late-game crafting and magical refinement."
 			]
 			hide_dependency_lines: true
 			id: "764CD6B79DF80F96"
-			subtitle: "Claim the final of four mystical bottles and step into a world beyond the veil. Click me for more info! "
+			subtitle: "Claim the final of four mystical bottles and step into a world beyond the veil. Click me for more info!."
 			tasks: [{
 				count: 4L
 				id: "514135D89AA84C1C"
 				item: "nether_remastered:bottled_nether_essence"
 				type: "item"
 			}]
+			title: "&6Bottled Nether Essence&r"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -372,14 +367,16 @@
 				"786B2E479D58EC68"
 			]
 			description: [
-				"The time has come."
+				"With the &cSeal of the Underworld&r crafted, you are now ready to unlock access to the Nether in &6Create - Forge Frontier&r. Unlike a traditional obsidian portal, this gateway remains inactive until the seal is used."
 				""
-				"With the &cSeal of the Underworld&r in hand, you now hold the power to shatter the ancient barrier that guards the gateway to flame and shadow."
+				"Consuming the Seal breaks the dimensional lock placed on the structure, enabling the portal and allowing travel into the &cNether Remastered&r dimension."
 				""
-				"Consume the seal to &nbreak the dimensional threshold&r and awaken the portal long sealed by time.  "
-				"Beyond it lies the &cNether Remastered&r—a realm of fire, ruin, and untold power."
+				"{@pagebreak}"
+				"This step marks a key progression milestone, transitioning you from Overworld exploration into mid-game resource gathering, brewing advancement, and structure-based challenges."
 				""
-				"🔥 &nThis is your rite of passage. Step through the flames, and begin your infernal ascent.&r"
+				"Ensure you are properly equipped before crossing the threshold. The Nether introduces new biomes, hostiles, and mechanics that require preparation and situational awareness."
+				""
+				"Activating the portal is your formal entry into the next phase of progression—begin your advancement with confidence."
 			]
 			hide_dependency_lines: true
 			id: "486542BF23253839"
@@ -397,14 +394,14 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Consume the Seal of the Underworld and unlock the blazing path into the Nether. Click me for more info!"
+			subtitle: "Consume the Seal of the Underworld to activate the Nether portal. Click for more info!"
 			tasks: [{
 				consume_items: false
 				id: "06F42DEDCFD6E7F9"
 				item: "nether_remastered:seal_of_the_underworld_item"
 				type: "item"
 			}]
-			title: "Breaking the Seal"
+			title: "&6Breaking the Seal&r"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -422,12 +419,13 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Obtained by Crafting Crying Obsidian with Glass"
+			subtitle: "Obtained by Crafting Crying Obsidian with Glass."
 			tasks: [{
 				id: "0C9566FCC4B60DB4"
-				item: "nether_remastered:obisidian_infused_bottle"
+				item: "nether_remastered:obsidian_infused_bottle"
 				type: "item"
 			}]
+			title: "&6Obsidian Infused Bottle&r"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -443,17 +441,17 @@
 				"2904FAB7D1EEF9DA"
 			]
 			description: [
-				"The final piece of the &cSeal of the Underworld&r lies within the &5loot chests&r of &cHopo’s Nether Portal&r structures.  "
-				"Search carefully—this relic does not reveal itself easily."
+				"The final component required to craft the &cSeal of the Underworld&r can be found within the &5loot chests&r of &cHopo’s Nether Portal&r structures. These areas often contain guarded or partially hidden containers, so explore each chamber thoroughly."
 				""
 				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
 				""
 				"{@pagebreak}"
-				"&nWith all pieces in hand, your preparation is complete.&r  "
-				"Craft the &cSeal of the Underworld&r, consume it, and unlock the ancient gateway to flame and shadow."
 				""
-				"This portal—once dormant—may now serve as your passage into the &4Nether Remastered&r.  "
-				"🔥 &nStep through, and begin your journey into the inferno.&r"
+				"Once all fragments are collected, you can assemble the completed Seal. Consuming it removes the dimensional restriction placed on the Nether portal frame, enabling access to the &4Nether Remastered&r dimension."
+				""
+				"This marks the conclusion of the Overworld-side preparation phase and the beginning of mid-game progression. Before activating the portal, ensure your gear, resources, and supplies are ready for the hazards that await."
+				""
+				"With the seal complete, your path forward is clear—unlock the gateway and advance into the Nether."
 			]
 			icon: {
 				Count: 1
@@ -467,7 +465,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Claim the last piece of the seal and unlock the blazing path ahead. Click me for more info!"
+			subtitle: "Obtain the last component of the Seal of the Underworld. Click for more info!"
 			tasks: [
 				{
 					icon: {
@@ -486,32 +484,26 @@
 					type: "item"
 				}
 			]
-			title: "The Final Fragment"
+			title: "&6The Final Fragment&r"
 			x: 0.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["598B697BDE842B0E"]
 			description: [
-				"&cGone are the days of flint and fire—&rthe Nether is no longer a dimension you simply walk into."
+				"In &cNether Remastered&r, access to the Nether is no longer achieved through a standard obsidian portal. Instead, entry is tied to a progression system inspired by the structure-based design of End Remastered. This approach transforms the Nether from an early-game shortcut into a meaningful mid-game milestone."
 				""
-				"In &cNether Remastered&r, inspired by the brilliance of End Remastered, entering the inferno becomes a true rite of passage.  "
-				"Accessing this realm now demands &npreparation, exploration, and triumph&r over hidden trials scattered across the Overworld."
-				""
-				"To begin your journey, you must hunt down ancient structures, unearth rare artifacts, and forge the &6Seal of the Underworld&r—  "
-				"a powerful relic that, when consumed, will awaken the long-dormant gateway to this fiery realm."
+				"To activate the portal, you must explore the Overworld, locate designated structures, and obtain the components required to craft the &6Seal of the Underworld&r. Consuming this seal unlocks the gateway and grants controlled entry into the dimension."
 				""
 				"{@pagebreak}"
 				""
-				"Once inside, you’ll find a Nether transformed.  "
-				"Thanks to a rich combination of mods, its biomes have been reborn: glowing magma fields, shadowed lava caves, and forgotten ruins stretch across the horizon."
+				"Once inside, the Nether has been significantly expanded through multiple mods, offering new biomes, updated terrain, and enhanced structure variety. These additions introduce fresh opportunities for resource gathering, brewing materials, and mid-game technological progression."
 				""
-				"With new threats, unique mechanics, and treasures unlike anything in the Overworld, this dimension is now a crucible—  "
-				"&na place where only the bold survive, and only the prepared will thrive.&r"
-				""
-				"🔥 &nThe Nether is no longer a destination—it’s a challenge. A conquest. An earned victory.&r"
+				"The dimension now features unique mechanics, environmentally driven challenges, and a broader selection of enemies and loot. Successful navigation requires preparation, defensive planning, and the ability to adapt to rapidly changing terrain."
 				""
 				"{@pagebreak}"
+				""
+				"The reworked Nether serves as a progression test rather than a simple travel point. Completing its objectives and securing its resources provides the foundation for crafting systems, engineering paths, and future dimensional advancement."
 				""
 				"{image:nether_remastered:textures/nether_remastered.png width:100 height:100 align:center}"
 			]
@@ -524,13 +516,13 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Unlock the fiery realm through strength, strategy, and a seal born of trials. Click me for more info!"
+			subtitle: "Unlock the Nether through structured progression, exploration, and a crafted dimensional seal. Click for more info!"
 			tasks: [{
 				id: "1186A47D567C2EB8"
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			title: "Nether Remastered"
+			title: "&6Nether Remastered&r"
 			x: 0.0d
 			y: -6.0d
 		}

@@ -1,6 +1,6 @@
 ServerEvents.recipes(function (event) {
     var INGOT_MB = 90;
-    var BLOCK_MB = INGOT_MB * 9;
+    var BLOCK_MB_DEFAULT = INGOT_MB * 9; // 810 mB for normal metal blocks
 
     // --- Block Casting Section (Fluid → Block only) ---
     var basinCasts = [
@@ -27,15 +27,23 @@ ServerEvents.recipes(function (event) {
         { name: "netherite_emerald", fluid: "forge_frontier:molten_netherite_emerald", result: "advancednetherite:netherite_emerald_block" },
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block" },
         { name: "coal", fluid: "forge_frontier:molten_carbon", result: "minecraft:coal_block" },
-        { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" }
+        { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" },
+        { name: "dielectric", fluid: "forge_frontier:molten_dielectric_paste", result: "forge_frontier:dielectric_paste_block" },
+
+        // Hyper Experience – special amount (27 mB instead of 810)
+        { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", result: "create_enchantment_industry:hyper_experience_block", amount: 27 },
+        { name: "experience", fluid: "create_enchantment_industry:experience", result: "create:experience_block", amount: 27 }
     ];
 
     basinCasts.forEach(function (cast) {
         if (!Ingredient.of(cast.result).stacks.empty) {
+            // Use per-entry override amount if present, otherwise default block amount
+            var fluidAmount = cast.amount ? cast.amount : BLOCK_MB_DEFAULT;
+
             event.custom({
                 type: "createmetallurgy:casting_in_basin",
                 ingredients: [
-                    { amount: BLOCK_MB, fluid: cast.fluid, nbt: {} }
+                    { amount: fluidAmount, fluid: cast.fluid, nbt: {} }
                 ],
                 processingTime: 320,
                 result: { item: cast.result }
@@ -55,7 +63,8 @@ ServerEvents.recipes(function (event) {
         { name: "desh_rocket_casing", fluid: "forge_frontier:molten_desh", solid: { item: "forge_frontier:steel_rocket_casing" }, result: "forge_frontier:desh_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "ostrum_rocket_casing", fluid: "forge_frontier:molten_ostrum", solid: { item: "forge_frontier:desh_rocket_casing" }, result: "forge_frontier:ostrum_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "calorite_rocket_casing", fluid: "forge_frontier:molten_calorite", solid: { item: "forge_frontier:ostrum_rocket_casing" }, result: "forge_frontier:calorite_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "malachite_rocket_casing", fluid: "forge_frontier:molten_malachite", solid: { item: "forge_frontier:calorite_rocket_casing" }, result: "forge_frontier:malachite_rocket_casing", amount: INGOT_MB, time: 70 }
+        { name: "malachite_rocket_casing", fluid: "forge_frontier:molten_malachite", solid: { item: "forge_frontier:calorite_rocket_casing" }, result: "forge_frontier:malachite_rocket_casing", amount: INGOT_MB, time: 70 },
+        { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 }
     ];
 
     casingCasts.forEach(function (cast) {

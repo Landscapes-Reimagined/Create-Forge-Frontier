@@ -48,7 +48,7 @@ ServerEvents.recipes(event =>
                     "A": { item: "create:andesite_alloy" },
                     "C": { item: "createaddition:capacitor" },
                     "S": { item: "create_new_age:overcharged_golden_sheet" },
-                    "R": { item: "create_new_age:energiser_t3" },
+                    "R": { item: "create_new_age:reinforced_energiser" },
                     "W": { item: "create_new_age:copper_wire" },
                     "E": { item: "create:electron_tube" }
                 },

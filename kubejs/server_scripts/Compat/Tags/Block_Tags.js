@@ -1,9 +1,19 @@
 ServerEvents.tags('block', event => 
     {
+        // Steel Block
+            event.add('forge:storage_blocks/steel', [
+                'ad_astra:steel_block',
+                'create_dd:steel_block'
+            ])
+
         // Building Gadgets Deny Tag
             event.add('buildinggadgets2:deny', 'minecraft:spawner')
+            
         // Beacon Base Blocks
-            event.add('minecraft:beacon_base_blocks','forge_frontier:forge_rocket_casing')
+            event.add('minecraft:beacon_base_blocks',[
+                'forge_frontier:forge_rocket_casing',
+                'create_enchantement_industry:hyper_experience_block'])
+
         // Spatial IO Blacklist
             event.add('ae2:blacklisted/spatial', 'minecraft:spawner')
         

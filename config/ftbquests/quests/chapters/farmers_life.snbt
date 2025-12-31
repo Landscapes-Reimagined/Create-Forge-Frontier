@@ -1,9 +1,8 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "farmers_life"
-	group: "47881FC157552E6E"
+	group: "37A1080736831E36"
 	icon: {
 		Count: 1
 		id: "solcarrot:food_book"
@@ -16,90 +15,248 @@
 		rotation: 0.0d
 		width: 8.0d
 		x: -1.5d
-		y: -2.0d
+		y: -3.0d
 	}]
-	order_index: 1
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["This special villager market is a place where you can trade those useless emeralds for &onearly&r any seed or sapling on the market."]
 			id: "529FA5C3502DBF4D"
+			rewards: [
+				{
+					count: 16
+					id: "2A1086E72A9BD14E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "05B4545724BCA2BF"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "2D9D4FE92F2096F9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "62B614931DDB6161"
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			title: "Shopping for Seeds"
+			x: 5.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["This warm nests automatically collects nearby chicken eggs when dropped, allowing you to preserve them instead of letting them despawn."]
 			id: "16FED75C44853ECA"
+			rewards: [
+				{
+					count: 4
+					id: "061D2E9379737CF7"
+					item: "minecraft:chicken_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "64FC1E65D16AD8F0"
+					item: "casualness_delight:potato_bobo_chicken"
+					type: "item"
+				}
+				{
+					id: "76539FF00E8B4651"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5F2ADAA3F72E4D09"
 				item: "farmingforblockheads:chicken_nest"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			title: "A Warm Nest"
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["This feeder automatically feeds any mob that does not have the breeding cooldown, as long as it is supplied with the right food for the right mob."]
 			id: "2607DEA382FF044E"
+			rewards: [
+				{
+					count: 16
+					id: "34088560493C43C2"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "081849B3FF718260"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					id: "5E793CB9A0B7C652"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "755F341295669BDC"
 				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			title: "Feeding your Farm Animals"
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["A special bag of &aGreen Fertilizer&r, it gives a chance to get extra drops from any crop planted into the soil it is mixed into. This effect can be combined with the &eYellow Fertilizer&r by mixing both into your farmland."]
 			id: "14D42EDBFFCED86E"
+			rewards: [
+				{
+					count: 32
+					id: "475FBEDBA43FF078"
+					item: "minecraft:cactus"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "68FD62B386494E2E"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "56327C1A13E84136"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "1604ECD381B21CFB"
 				item: "farmingforblockheads:green_fertilizer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["A special bag of &cRed Fertilizer&r, it accelerates the growth rate of any crop planted into the soil it is mixed into. This can be combined with the &eYellow Fertilizer&r by mixing both into your farmland."]
 			id: "4AE1EA3349567401"
+			rewards: [
+				{
+					id: "4D619CBC607EB651"
+					item: "utilitarian:red_soliciting_carpet"
+					type: "item"
+				}
+				{
+					id: "659E4D8FB13F7A7F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "443CD4678AE9D27A"
 				item: "farmingforblockheads:red_fertilizer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["A bag of special fertilizer that makes it so farmland will no longer be trampled when jumped onto. Allowing for easier movement around your fields."]
 			id: "6AA43062AC98B59B"
+			rewards: [
+				{
+					count: 3
+					id: "3DA2CA2C06EF7653"
+					item: "farmersrespite:strong_yellow_tea"
+					type: "item"
+				}
+				{
+					id: "384BED9C4025B957"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "0C1F44E719A323DC"
 				item: "farmingforblockheads:yellow_fertilizer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.5d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
+			dependencies: ["331DDF60E6FD9C80"]
+			description: [
+				"The Stove is the centre piece of the kitchen, it is used to cook many different dishes in this world. Careful however as it's surface is hot and can burn you. Much like the campfire, it doesn't require any fuel to stay alight."
+				""
+				"Placing a cooking pot, skillet, kettle or copper pot on top will let you start your journey into the nearly endless depths of ingredients you can discover in the corners of every world available to you."
+			]
 			id: "1E2F74C7110CFEB3"
+			rewards: [
+				{
+					id: "7C5CF92519787E30"
+					item: "handcrafted:kitchen_hood"
+					type: "item"
+				}
+				{
+					id: "4C1F678A6F2A8759"
+					item: "handcrafted:kitchen_hood_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "472B3B7822FBCC25"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+				{
+					id: "55CEFA89B664EC56"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "5A1D040B9E5B9377"
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
+			title: "The Heart of the Kitchen"
 			x: -1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1E2F74C7110CFEB3"]
+			description: [
+				"The Cooking Pot is the most important tool in your kitchen. It can be used to prepare a plethora of dishes using the ingredients you can find everywhere you look. "
+				""
+				"Placing it on a heatsource such as the stove, a campfire, blaze burner, magma, lava or even fire is used to start the cookling process"
+			]
 			id: "35E469F2C71CB316"
+			rewards: [
+				{
+					count: 16
+					id: "789DCB59F31335EC"
+					item: "minecraft:bowl"
+					type: "item"
+				}
+				{
+					id: "3225FC001A744D23"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "5B3FB7270A0C2AFF"
 				item: "farmersdelight:cooking_pot"
@@ -110,6 +267,11 @@
 		}
 		{
 			dependencies: ["269F584D763A19F2"]
+			description: [
+				"Knives are one of the main cooking tools in your toolkit. It is used in combination with the cutting board to prepare your ingredients for further cooking. "
+				""
+				"Knives also function as a weapon, certain ingredient's wont drop unless a mob is killed with a Knife. Examples of these are the dragon leg, or ham. These only drop when they are last hit using a Knife."
+			]
 			icon: {
 				Count: 1
 				id: "farmersdelight:iron_knife"
@@ -118,6 +280,25 @@
 				}
 			}
 			id: "40D208636397F225"
+			rewards: [
+				{
+					count: 4
+					id: "072D73920C96B48C"
+					item: "farmersdelight:minced_beef"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0C73087D9393B1FA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "45F2B32E38A91574"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "1657EB25803CC07C"
 				item: {
@@ -131,33 +312,87 @@
 			}]
 			title: "Knives"
 			x: -1.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E2F74C7110CFEB3"]
+			description: ["The Cutting board is a crafting surface that can be used with several tools. The default is the knife, this is used for many recipes to prepare ingredients for a dish you want to make. However one can also use an axe to strip logs, or a shovel to turn gravel into flint."]
 			id: "269F584D763A19F2"
+			rewards: [
+				{
+					count: 8
+					id: "4319303DE0BA3B11"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "48F739A085120F4F"
+					item: "minecraft:stripped_oak_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2C26729CD4C8CBC7"
+					item: "aquaculture:fish_fillet_raw"
+					type: "item"
+				}
+				{
+					id: "796895507895F3A9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "30AC1D443725C929"
 				item: "farmersdelight:cutting_board"
 				type: "item"
 			}]
+			title: "Slicing and Dicing"
 			x: -1.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["35E469F2C71CB316"]
+			description: ["Beef stew just like our ancestors used to eat. Nutrition but with a side of comfort, since ancient times."]
 			id: "210C7B26E2D85627"
+			rewards: [
+				{
+					count: 2
+					id: "6D743994347A561E"
+					item: "miners_delight:beef_stew_cup"
+					type: "item"
+				}
+				{
+					id: "31EDE436D19C0846"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "3D9F9D499E5CE19B"
 				item: "farmersdelight:beef_stew"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["35E469F2C71CB316"]
+			description: ["The famous chicken soup, a comforting and warm dish we all know and love."]
 			id: "55C29372761230D3"
+			rewards: [
+				{
+					id: "4F49E64F8ABF5DC6"
+					item: "betterarcheology:chicken_fossil_head"
+					type: "item"
+				}
+				{
+					id: "749A67CFE0C6401B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "713E63D9B89E8134"
 				item: "farmersdelight:chicken_soup"
@@ -168,7 +403,21 @@
 		}
 		{
 			dependencies: ["35E469F2C71CB316"]
+			description: ["A nutritious and warm vegetable soup, feels just like home."]
 			id: "1AD31F8DCDD75836"
+			rewards: [
+				{
+					count: 4
+					id: "45055652698D9542"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "53A2EFE636814A7C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "63FC5B92886A99C4"
 				item: "farmersdelight:vegetable_soup"
@@ -179,10 +428,54 @@
 		}
 		{
 			dependencies: ["35E469F2C71CB316"]
+			description: ["Delicious and simple egg fried rice, though it doesn't contain too many vegetables."]
 			id: "5AD4991F7FFA6CA2"
+			rewards: [
+				{
+					count: 2
+					id: "01F1B219F042C95A"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+				{
+					id: "23E064203659C33B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "44BE1F122B66955C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "2D404FDB11C7C55E"
-				item: "farmersdelight:pumpkin_soup"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35E469F2C71CB316"]
+			description: ["A classic comfort food, noodle soup is beloved across the entire world."]
+			id: "37AA8C2B0C3AA1F2"
+			rewards: [
+				{
+					count: 2
+					id: "743EBBFAB25ADB21"
+					item: "quark:potato_crate"
+					type: "item"
+				}
+				{
+					id: "26F8F6DD36A06248"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "220C287EA8EA4D01"
+				item: "farmersdelight:noodle_soup"
 				type: "item"
 			}]
 			x: 1.5d
@@ -190,10 +483,23 @@
 		}
 		{
 			dependencies: ["35E469F2C71CB316"]
-			id: "37AA8C2B0C3AA1F2"
+			description: ["A warm and nutritious bowl of fresh fish stew, delicious and comforting."]
+			id: "2101F61C1D473438"
+			rewards: [
+				{
+					id: "52B4D2B6003F0927"
+					item: "collectorsreap:cod_ceviche"
+					type: "item"
+				}
+				{
+					id: "665A69C8B2FB5FA4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
-				id: "220C287EA8EA4D01"
-				item: "farmersdelight:noodle_soup"
+				id: "51A2D639CA7DAC1E"
+				item: "farmersdelight:fish_stew"
 				type: "item"
 			}]
 			x: 2.5d
@@ -201,18 +507,21 @@
 		}
 		{
 			dependencies: ["35E469F2C71CB316"]
-			id: "2101F61C1D473438"
-			tasks: [{
-				id: "51A2D639CA7DAC1E"
-				item: "farmersdelight:fish_stew"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["35E469F2C71CB316"]
+			description: ["Baking the cod before using it in a stew creates greater flavour to cherish. A hearty comforting dish."]
 			id: "449410724E7BEEBE"
+			rewards: [
+				{
+					count: 4
+					id: "75B4B1BBCE342849"
+					item: "aquaculture:oak_fish_mount"
+					type: "item"
+				}
+				{
+					id: "798DEAB6B39AE0E1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "3B7C4E95E20B48B4"
 				item: "farmersdelight:baked_cod_stew"
@@ -222,12 +531,40 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Seeds are the cornerstone of farming, use them to grow new crops and discover both functional, and delicious ways of using them."
+				""
+				""
+				"{@pagebreak}"
+				"An important thing to note is the Seasons! &6Create - Forge Frontier&r uses the mod Serene Seasons. These seasons can be seen on your HUD or through the Calendar item. "
+				""
+				"The season affects crop growth, each crop has the best fertile season for them as shown in their tooltip! If you want to grow crops out of season they will grow much slower, though there are some ways of improving this:"
+				""
+				"1. Underground farms (Below y = 48) with no exposure to the open sky."
+				""
+				"2. Bees will still pollinate crops regardless of season"
+				""
+				"3. Building a roof of Glass or Stained Glass a maximum of 16 blocks above the crops, like a sort of greenhouse. "
+			]
 			icon: {
 				Count: 1
 				id: "minecraft:wheat_seeds"
 				tag: { }
 			}
 			id: "0A00F834972CF915"
+			rewards: [
+				{
+					count: 5
+					id: "7DCD8FBD874DB99C"
+					item: "quark:seed_pouch"
+					type: "item"
+				}
+				{
+					id: "104F70C8737678A5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "40044327EE186829"
 				item: {
@@ -240,12 +577,32 @@
 				title: "Any Seeds"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E2F74C7110CFEB3"]
+			description: [
+				"The Skillet needs to be placed on top of a Campfire, Stove, Magma Block or Blaze Burner. These heat sources will let you cook any recipe that the Campfire allows, but faster. "
+				""
+				"The skillet can also be enchanted, fire aspect shortens cooking time. Other potential enchantments that can be infused, are the same list as those of a Sword. "
+				""
+				"A blaze burner will passively heat the skillet and does not need to be fed any fuel."
+			]
 			id: "4246E57D7C1F2D75"
+			rewards: [
+				{
+					count: 8
+					id: "53E8758B84390E6F"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "484207A6C18D5E37"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "6AD21D0B4BD78D15"
 				item: {
@@ -257,11 +614,13 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			title: "Fried Foods"
+			x: -4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: ["The hoe is the most important tool in a farmer, or a gardener's life. Use it to till the ground and prepare it for crop planting."]
 			icon: {
 				Count: 1
 				id: "cataclysm:black_steel_hoe"
@@ -270,6 +629,23 @@
 				}
 			}
 			id: "79CA2EF5588528EA"
+			rewards: [
+				{
+					id: "005F8292F262192F"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "090C1265B876AA45"
+					item: "sereneseasons:calendar"
+					type: "item"
+				}
+				{
+					id: "2710800AF2987DD5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "47B0CED19ADAA93C"
 				item: {
@@ -279,15 +655,41 @@
 						value: "forge:tools/hoes"
 					}
 				}
+				title: "Any Hoe"
 				type: "item"
 			}]
 			title: "A Farmer's Favorite Tool"
-			x: 3.5d
-			y: 7.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0A00F834972CF915"]
+			description: [
+				"Rich Soil can be used as a replacement for Dirt, it comes with the benefits of both &cRed&r and &eYellow&r Fertilizer built in. It also interacts in special ways with mushrooms, allowing them to grow into larger Mushroom colonies"
+				""
+				"To accelerate it's creation you can either use Create to mix all the requirements together, or place your organic compost in direct sunlight, adjacent to water or close to mushrooms, podzol, or existing rich soil blocks. All of these can accelerate the in world formation of rich soil from compost."
+				" "
+			]
 			id: "0A495CFF036C0EB0"
+			rewards: [
+				{
+					count: 16
+					id: "14D6201EDC3DC61B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32036BBFD73BD928"
+					item: "apotheotic_additions:apotheotic_coin"
+					type: "item"
+				}
+				{
+					id: "524F67F0B889875B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
 			tasks: [{
 				id: "140089C3B6700100"
 				item: {
@@ -297,8 +699,2654 @@
 				}
 				type: "item"
 			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["The humble but delicious egg. Great for on a sandwich or in a noodle soup."]
+			id: "1BD75080AAAAA8AF"
+			rewards: [
+				{
+					count: 2
+					id: "6BC12E7FEB4682A2"
+					item: "minecraft:turtle_egg"
+					type: "item"
+				}
+				{
+					id: "16C77EAFC1798189"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "44635F36B536D561"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The Campfire is a primitive cooking method. It might be slow, but it's fuel efficiency is essentially near infinite as once it's lit, it won't burn out unless the player uses a shovel to put it out. "
+				""
+				"It can be relit using a Flint and Steel. Compatible items can be placed on it using right click."
+			]
+			id: "331DDF60E6FD9C80"
+			rewards: [
+				{
+					id: "47AA92DAC25BE1F2"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41CC580DAD75960D"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+				{
+					id: "11F802CD6B7B3D60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0573830B60ED306B"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Primitive Cooking"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40D208636397F225"]
+			description: ["This golden tool comes with Fortune 2 preinstalled. It might not be durable, but it does provide extra drops early game (and a good use for gold)."]
+			id: "690FBAE8DBE9DFF3"
+			rewards: [
+				{
+					id: "7836D9C462F20EB3"
+					item: "aquaculture:gold_hook"
+					type: "item"
+				}
+				{
+					id: "5CB7AFF3B0B3371B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1AE3967CDE48BA2F"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40D208636397F225"]
+			description: ["A special knife with the ability to magically double the amount of filets you get when using it on any fish added by Aquaculture 2."]
+			id: "7F6622A2172BC8CD"
+			rewards: [
+				{
+					id: "0F702F1068F663C3"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B0B345462014D49"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7FC3EDF75DABD74E"
+				item: {
+					Count: 1
+					id: "aquaculturedelight:neptunium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40D208636397F225"]
+			description: ["A special fiery knife that will set anything on fire that it touches!"]
+			id: "0B1D75F6AFB3478A"
+			rewards: [
+				{
+					count: 5
+					id: "336680533F2A35A8"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "7E02AF984963D1AD"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "7706D82AF2833098"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "68556D714062A6C1"
+				item: {
+					Count: 1
+					id: "delightful:blazing_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40D208636397F225"]
+			description: ["The Pearlescent Knife has the ability to extend it's reach beyond that of a normal knife. Useful for mobs that are dangerous up close."]
+			id: "320E3F58089E5549"
+			rewards: [
+				{
+					count: 4
+					id: "64E9E9D5B7FFF12E"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "406232E735AD8C31"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "772397487029828A"
+				item: {
+					Count: 1
+					id: "delightful:pearlescent_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["The Nether is home to all sorts of life, it is more than just a wasteland filled with Lava. Discover what ingredients Hell itself has to offer. "]
+			icon: "minecraft:crimson_fungus"
+			id: "42D0B2EDBB3546C4"
+			rewards: [
+				{
+					id: "23F4549505B9D93F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "apotheosis:natures_blessing"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+							]
+							RepairCost: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76CAAD8DF6405C99"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:warped_fungus"
+				id: "465A26C47BEF5609"
+				title: "Visit the Fiery Pits of Hell"
+				type: "dimension"
+			}]
+			title: "The Fiery Foods of Hell"
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"The Overworld is home to the largest diversity of ingredients, spread far and wild across biomes, the depths of the oceans and land. "
+				""
+				"The search for new flavours never ends in this infinite expanse for those who are not afraid to try new things."
+			]
+			icon: "minecraft:flowering_azalea"
+			id: "5D4331057516BA83"
+			rewards: [
+				{
+					id: "64AF144FED5F6F59"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "703C657E8D878D37"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "4C62CAD9B97EEF32"
+				title: "Explore the Overworld"
+				type: "dimension"
+			}]
+			title: "Home is where the Food is"
 			x: 6.5d
-			y: 7.0d
+			y: 9.0d
+		}
+		{
+			description: ["Even in the Void, some ingredients still exist on it's floating islands and lost cities. The builders of these pieces of history needed to eat after all."]
+			icon: "minecraft:popped_chorus_fruit"
+			id: "400562BAC65177F0"
+			rewards: [
+				{
+					count: 3
+					id: "0EDDB6E2A471E43F"
+					item: "minecraft:endermite_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5D0B043912353A5C"
+					item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
+					type: "item"
+				}
+				{
+					id: "7B121E47D6124A30"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:ender_eye"
+				id: "78BFF92CAB322377"
+				title: "Visit the Dimension of the End"
+				type: "dimension"
+			}]
+			title: "Eating across the End"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			description: ["The Ocean is full of life and ingredients to discover. Dive into the different plants and creatures and use them to create new dishes."]
+			id: "2DAA1EC75E9BBAEE"
+			rewards: [
+				{
+					id: "27EE461B8F66B1FF"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+							RepairCost: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BC828241C2C856B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				biome: "#minecraft:is_ocean"
+				icon: "minecraft:tube_coral"
+				id: "2CCB547C7E4AE796"
+				title: "Exploring the Oceans"
+				type: "biome"
+			}]
+			title: "Ocean's Cuisine"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["Unusual but quite delicious ribs. Some of your carnivorous pets might enjoy it too."]
+			id: "76B1F50B560CF348"
+			rewards: [
+				{
+					id: "172775EC054DF9EF"
+					item: "alexsdelight:kangaroo_pasta"
+					type: "item"
+				}
+				{
+					id: "78B344CB74FAE655"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1A8DB33582C710F8"
+				item: "alexsmobs:cooked_moose_ribs"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["A special type of dish, harvesting the ham requires the last hit to use a knife instead of a regular weapon. Smoked to perfection, perfect for any occasion."]
+			id: "6D6E928C10B7C015"
+			rewards: [
+				{
+					id: "38F6B4BC16FE7582"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "7CA7B8DF47FAB892"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0BF16B6E160F1DDF"
+				item: "farmersdelight:smoked_ham"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["A tasty and nutritious snack, works with any type of banana!"]
+			id: "67ECE88A3B2C458A"
+			rewards: [
+				{
+					count: 3
+					id: "753A14089CBECB0E"
+					item: "neapolitan:banana_frond"
+					type: "item"
+				}
+				{
+					id: "062B1C4722546E2B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "2F625396016B7EEB"
+				item: "neapolitan:dried_banana"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["A piece of roasted goat, said to be quite delicious."]
+			id: "6288E3D29A68AB68"
+			rewards: [
+				{
+					id: "719549165F9F530D"
+					item: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:sing_goat_horn"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1272F019F60359B0"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "577460F64BD8631C"
+				item: "delightful:cooked_goat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["A premium piece of beautifully cooked bass."]
+			id: "46DB8453C49434A6"
+			rewards: [
+				{
+					count: 4
+					id: "551F9067FC4F50C1"
+					item: "farmersdelight:salmon_slice"
+					type: "item"
+				}
+				{
+					id: "4CE7AD45B2A0502C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "7A96A7369003EC0D"
+				item: "collectorsreap:cooked_platinum_bass_slice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4246E57D7C1F2D75"]
+			description: ["Protein made accessible for the vegeterians and vegans!"]
+			id: "0DA591D02739F67A"
+			rewards: [
+				{
+					id: "7A281E9A7465CDC4"
+					item: "miners_delight:vegetable_soup_cup"
+					type: "item"
+				}
+				{
+					id: "385BDE59A01D6625"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "60CA86D0D3C230CC"
+				item: "casualness_delight:roast_gluten"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			description: ["Found in the Ancient Depths and a place even Deeper and Darker. These ingredients were probably not originally meant for consumption, but are surprisingly nutritious for those who dare."]
+			icon: "cagedmobs:warden_receptor"
+			id: "3F1002D4FC11428A"
+			rewards: [
+				{
+					count: 2
+					id: "37A87EA22999B9EF"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A3DD3DB134C2A0C"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					id: "7DB6BB256FD33C94"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				icon: "deeperdarker:heart_of_the_deep"
+				id: "31205C3FA735DB2C"
+				structure: "minecraft:ancient_city"
+				title: "Discover The Lost City in the Dark"
+				type: "structure"
+			}]
+			title: "Deeper and Dark Dishes"
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			description: ["The various Cave worlds contain new and old exotic creatures and strange plants to discover. Some may not seem edible, but don't knock it until you've tried it. Just because it's alien doesn't mean it's not nutritious."]
+			icon: "create_confectionery:candy_cane"
+			id: "115A780976611B87"
+			rewards: [
+				{
+					count: 4
+					id: "5E353CA37482C360"
+					item: "sliceanddice:slicer"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7795228AC84E39C0"
+					item: "create_dd:smoking_sail"
+					type: "item"
+				}
+				{
+					id: "23BD4C690584F11A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				id: "38570BDBA65EE8A4"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 3000L
+								Fluid: "ad_astra:fuel"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Otherworldly Foods"
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"The Kettle is the main tool for steeping and preparing a variety of drinks. It allows for making both cold and warm drinks. "
+				""
+				"Much like the skillet or cooking pot it requires a heat source block below to make it function. Some of it's recipes can also be further processed into foods!"
+			]
+			id: "36A672ECB4CE8AC4"
+			rewards: [
+				{
+					count: 4
+					id: "4F3941DC7310D047"
+					item: "minecraft:bee_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "146B45FE13D8A5A7"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "244075042D396B28"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "6EFB44DDCA08E6D7"
+				item: "farmersrespite:kettle"
+				type: "item"
+			}]
+			title: "Farmer's Respite"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "322FD8E32428B420"
+			rewards: [
+				{
+					id: "6BC82231F67EA010"
+					item: "nethersdelight:hoglin_trophy"
+					type: "item"
+				}
+				{
+					id: "2D3B6F254C8EBEBE"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "55DD3A5B5CF1BEFD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "0AD708C40E013957"
+				item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "0A0E18CB4A097166"
+			rewards: [
+				{
+					count: 2
+					id: "47D1D44A862DFA5E"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7FD75D68E6C17FE4"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+				{
+					id: "3415A619330F24E3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4A07B83AF0F81AE6"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "185197296E446B30"
+			rewards: [
+				{
+					count: 3
+					id: "20D272FCB1C51C3F"
+					item: "collectorsreap:pomegranate_seeds"
+					type: "item"
+				}
+				{
+					id: "31CB23FFEA7876CA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "567257BEA377A962"
+				item: "collectorsreap:glazed_strider"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "330C92714C795E23"
+			rewards: [
+				{
+					count: 2
+					id: "5C94BA6CC31D9D5D"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "688F38A110A41F56"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "239371E29326AC4B"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "5EA5CB3562EBF5AF"
+			rewards: [
+				{
+					count: 3
+					id: "0D2EDFE0DE9D72E1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "01AAF515306B0C59"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "406E6652EA0E1714"
+				item: "nethersdelight:strider_moss_stew"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "413E3A305E274591"
+			rewards: [
+				{
+					count: 3
+					id: "0558A0DD4B10A6DB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6899529C593A5E9E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0F9531CAFFFF8C98"
+				item: "nethersdelight:hoglin_sirloin"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "68469D64995EE157"
+			rewards: [
+				{
+					count: 3
+					id: "5090AC2E6D3F924C"
+					item: "alexscavesdelight:magma_jem"
+					type: "item"
+				}
+				{
+					id: "05304C2726C803C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0DF79BE91A6FFF50"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42D0B2EDBB3546C4"]
+			id: "55344E8ECD928760"
+			rewards: [
+				{
+					id: "698865169F8223F5"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "722EEC013608F2FC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3FAD6B821B915469"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5411F9C446CE21D4"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "54BED0410FB02E2C"
+			rewards: [
+				{
+					count: 2
+					id: "460B1C8196EE7BB9"
+					item: "silentsdelight:sculk_barbecue_stick"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0EC2800A0DB4693C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "300B0C824E1C1C24"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "2A7862E6713CC6F8"
+				item: "silentsdelight:plate_of_warden_heart"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "06A7D143C2B7B992"
+			rewards: [
+				{
+					count: 2
+					id: "2C0C1506AC4C6887"
+					item: "farmersdelight:rice_bag"
+					type: "item"
+				}
+				{
+					id: "1AA88713320878EB"
+					item: "sculkcatalyticchamber:mechanical_shrieker"
+					type: "item"
+				}
+				{
+					id: "28984F4A53E24835"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "223B82488D47A3F5"
+				item: "silentsdelight:warden_ear_fried_rice"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "1ACB88B1F468B56C"
+			rewards: [
+				{
+					id: "72126466C800C980"
+					item: "silentsdelight:warden_heart"
+					type: "item"
+				}
+				{
+					id: "2E56891F5C649B99"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "382252E10DA24D55"
+				item: "silentsdelight:heartburger"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "0F2158B05625DA54"
+			rewards: [
+				{
+					count: 16
+					id: "4CFC25EEC2E02E9D"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+				{
+					id: "01DDF29C6A41E2ED"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "79D82378CE03386C"
+				item: "silentsdelight:sculk_catalyst_pie"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "0A6B95B362813320"
+			rewards: [
+				{
+					count: 8
+					id: "62187C468538CEF1"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					id: "437F3EBCCB92EA02"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "67EC891A93D4124C"
+				item: "silentsdelight:sculk_sensor_tendril_roll"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "25380BB13AC7EE4A"
+			rewards: [
+				{
+					count: 3
+					id: "7F9AB89B351559B4"
+					item: "minecraft:sculk_shrieker"
+					type: "item"
+				}
+				{
+					id: "567EBA674E3162E4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3C99563B5D909F33"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "347854E219E72E70"
+				item: "silentsdelight:sculk_shrieker_shake"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "45B9A3C70B7338C3"
+			rewards: [
+				{
+					count: 2
+					id: "50E9648D9D1A42B8"
+					item: "cagedmobs:warden_receptor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "08521BD4FA2EE571"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "09E47928C7EEEF4B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5742CAECF0791A5C"
+				item: "silentsdelight:sculk_vein_salad"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3F1002D4FC11428A"]
+			id: "069AFA8C7C39F67F"
+			rewards: [
+				{
+					count: 64
+					id: "6317CAF2EADBC7A1"
+					item: "deeperdarker:sculk_stone"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "033ECAED63182C31"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16F57DB2C81445EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0FF5DA8FB4FB9815"
+				item: "silentsdelight:sculk_soup"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "4D38EAA75E2B9D94"
+			rewards: [
+				{
+					count: 4
+					id: "3E88F22562B41027"
+					item: "miners_delight:vegan_patty"
+					type: "item"
+				}
+				{
+					id: "0EB373660D9E63DE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2C5DB1B5E8835B77"
+				item: "miners_delight:baked_cave_carrot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "1B3D9C6BE2E46D57"
+			rewards: [
+				{
+					count: 2
+					id: "17A90FB4A341BB68"
+					item: "delightful:field_salad"
+					type: "item"
+				}
+				{
+					id: "55A5D95EC2A52B2D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4EE507844DDF7E75"
+				item: "phantasm:chorus_fruit_salad"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "657FFE36F1533B6A"
+			rewards: [
+				{
+					count: 4
+					id: "2197B0EE94251505"
+					item: "collectorsreap:dragon_fruit_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D8AE560EF07B81A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "404B3D1CE845B563"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4C4042E0028C562D"
+				item: "ends_delight:smoked_dragon_leg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "4197351E0B5DC36C"
+			rewards: [
+				{
+					count: 8
+					id: "6BB3CF49C4C9255F"
+					item: "ends_delight:non_hatchable_dragon_egg"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3BEBEAC0E4825634"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "05651A009EC21592"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4574C4FB2BCDD885"
+				item: "ends_delight:dragon_leg_with_sauce_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "47D98FDC7728F051"
+			rewards: [
+				{
+					count: 8
+					id: "40D353DF42BD0F4B"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+				{
+					id: "3A09BDD207A5517E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3BEBB2E244E774C6"
+				item: "ends_delight:stir_fried_shulker_meat"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "7383BC080B6C8BF3"
+			rewards: [
+				{
+					count: 2
+					id: "741FB7ABFF9DC0B1"
+					item: "minecraft:sniffer_egg"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20E1FB1E53FC212A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "656EB2FCD1666A15"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0AD7C0C3EA15AAF9"
+				item: "ends_delight:shulker_omelette"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "422E45E3F9D4410F"
+			rewards: [
+				{
+					count: 4
+					id: "7CF56AFBEE54979F"
+					item: "unusualend:chorus_cane"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5EC4DAF97E70E736"
+					item: "ends_delight:chorus_fruit_crate"
+					type: "item"
+				}
+				{
+					id: "78E490440B6472B2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "6B552BBE807171C0"
+				item: "ends_delight:chorus_fruit_pie"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "69645EB3670C665E"
+			rewards: [
+				{
+					count: 16
+					id: "78261D7D3A9CD3D5"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73F808912C2B6A40"
+					item: "minecraft:chorus_flower"
+					type: "item"
+				}
+				{
+					id: "014242BA72A07366"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3C282F0A36599524"
+				item: "ends_delight:chorus_flower_tea"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["400562BAC65177F0"]
+			id: "6F5455B7F3312960"
+			rewards: [
+				{
+					id: "0D5A4BD4DBC3A0F9"
+					item: {
+						Count: 1
+						id: "betterarcheology:diamond_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E211920AC26FA0E"
+					item: "powah:ender_core"
+					type: "item"
+				}
+				{
+					id: "525DD2117E8EB057"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "322BBC74F4BD9DB5"
+				item: "ends_delight:assorted_salad"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40D208636397F225"]
+			description: ["The sharpest and most durable knife to date, essentially the ultimate upgrade."]
+			id: "48EEB6920768E5B2"
+			rewards: [
+				{
+					count: 4
+					id: "4D02E3BE5E0F82E0"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "68F355BA3501ABD5"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "52439351185DA204"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "3EBE31796C332D1B"
+				item: {
+					Count: 1
+					id: "delightful:warden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "6698C77B37390D6A"
+			rewards: [
+				{
+					count: 4
+					id: "0AA675A1DE7A7BBE"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0D1FE4FE2C48456A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "363CBF1FA0D23CC4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2D746663F7036171"
+				item: "alexscavesdelight:spelunkie_shake"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "3C1F400BD04E8FA3"
+			rewards: [
+				{
+					count: 8
+					id: "157FE24AF2132E40"
+					item: "alexscaves:tremorsaurus_egg"
+					type: "item"
+				}
+				{
+					id: "51CBB80E7B45C9EC"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "520A0E83D443BA07"
+				item: "alexscavesdelight:toxic_glazed_tremorzilla_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "79E1C548D1745149"
+			rewards: [
+				{
+					count: 4
+					id: "42A4EFB4AFC96B3C"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					id: "1C46F9FFD861B9E0"
+					item: {
+						Count: 1
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BBAD0FED4383209"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "66ACAB5B292B49D2"
+				item: "alexscavesdelight:pure_darkness_pie"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "01921EEAF8B3D5A3"
+			rewards: [
+				{
+					count: 4
+					id: "6C5B0EDF973DEFDC"
+					item: "alexscaves:radiant_essence"
+					type: "item"
+				}
+				{
+					id: "28B771E5151F0ECE"
+					item: "alexscaves:confection_oven"
+					type: "item"
+				}
+				{
+					id: "2A1D8652B82E5BC9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "13816F019522A766"
+				item: "alexscaves:alex_meal"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "1C74975888D009D5"
+			rewards: [
+				{
+					count: 4
+					id: "078ACE639C08ABA0"
+					item: "minecraft:slime_ball"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "353DF370B5C87271"
+					item: "alexscaves:gelatin_red"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B6CB36F0D467418"
+					item: "alexscaves:gelatin_green"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C2A2FF0464E5145"
+					item: "alexscaves:gelatin_yellow"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "02558B91D4E9839D"
+					item: "alexscaves:gelatin_blue"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A6CEC932D079095"
+					item: "alexscaves:gelatin_pink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "332580C4DD5FB48E"
+				item: "alexscavesdelight:mix_gelatin_pumpkin_block"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "51F8729B4FCC10CF"
+			rewards: [
+				{
+					count: 4
+					id: "35E4CD37FF921178"
+					item: "alexscavesdelight:magma_jem"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65D0667547C6FFD8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "766685ED45EBF852"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "3BFB31B8D8022985"
+				item: "alexscavesdelight:honey_glazed_dinosaur_chop_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "16D2C4DB7B49A4D7"
+			rewards: [
+				{
+					count: 4
+					id: "7FC1E1FB896AC107"
+					item: "delightful:cooked_marshmallow_stick"
+					type: "item"
+				}
+				{
+					id: "4871FB0ECE80CD38"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "746772BCE21A62EC"
+				item: "alexscavesdelight:meat_stick"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["115A780976611B87"]
+			id: "48F45E5FCBDD1D97"
+			rewards: [
+				{
+					count: 3
+					id: "71D109B7C65E3ABE"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexscaves:long_sugar_rush"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "145149222A5BE727"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "6EC85C91FCBE110B"
+				item: "alexscavesdelight:extra_sugar_rush_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "40111AB36303CC4C"
+			rewards: [
+				{
+					id: "51763E1E7F739F6E"
+					item: "farmersrespite:yellow_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "505FF8431FF11A18"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2BCA84FC86D19BC2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7F0C8FEB02258F57"
+				item: "farmersrespite:tea_curry"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "599D9803B69ADAEE"
+			rewards: [
+				{
+					count: 8
+					id: "1FE20B0EB309EA57"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4F88547B8C62149D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3274AD13F84A6F70"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "48D9ED23EB2F1919"
+				item: "farmersrespite:coffee_cake"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "55CE687265308992"
+			rewards: [
+				{
+					count: 4
+					id: "24301A01F210EFA7"
+					item: "collectorsreap:apple_gummy"
+					type: "item"
+				}
+				{
+					id: "79B6B333ABF73835"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2B7D69A4470E0F6C"
+				item: "collectorsreap:green_tea_gummy"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "02F93A8DFE71295D"
+			rewards: [
+				{
+					count: 3
+					id: "763962F0AFDA08A4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3F86592C83C53780"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "5014E0CB45882194"
+				item: "farmersrespite:black_cod"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "1FF330A17E63F130"
+			rewards: [
+				{
+					count: 2
+					id: "038C735E4976B861"
+					item: "neapolitan:mint_sprout"
+					type: "item"
+				}
+				{
+					id: "57B71D8865897F7A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7044ED3570E1B558"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "6339035A7524B6E7"
+				item: "farmersrespite:rose_hip_pie"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "36644086FE6ED8BD"
+			rewards: [
+				{
+					count: 2
+					id: "25110360E84DAEA9"
+					item: "cratedelight:cocoabeans_bag"
+					type: "item"
+				}
+				{
+					id: "6D43C9A18CC82000"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4D297FCFC77B88B4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "41D6A5A46A9D00D3"
+				item: "farmersrespite:strong_hot_cocoa"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "2CEC0C82F50C58BA"
+			rewards: [
+				{
+					count: 3
+					id: "1BC3A18FF757B4F9"
+					item: "farmersdelight:melon_popsicle"
+					type: "item"
+				}
+				{
+					id: "5DBE525D91D9812C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0A21D13AD60126FC"
+				item: "farmersrespite:strong_melon_juice"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36A672ECB4CE8AC4"]
+			id: "4811148881C94038"
+			rewards: [
+				{
+					id: "42A725712C486A52"
+					item: "farmersrespite:green_tea_leaves_sack"
+					type: "item"
+				}
+				{
+					id: "49B0CF6E25A8E0CD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "66377965359416A2"
+				item: "farmersrespite:long_dandelion_tea"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "37EE0ECC822FB156"
+			rewards: [
+				{
+					id: "412503F45DE6EB05"
+					item: "handcrafted:silverfish_trophy"
+					type: "item"
+				}
+				{
+					id: "177B2221E7A532CA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "26DB267F76846614"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "09549D2828E76330"
+				item: "miners_delight:seasoned_arthropods"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "08AC56A18A141B0D"
+			rewards: [
+				{
+					count: 2
+					id: "3D2D7A20146BE469"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "48C1ADA4620EBD41"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "62626A4160864282"
+				item: "miners_delight:takoyaki"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			description: ["Even below ground, there is food to discover. Within the caverns, there is still life that grows. Scavenge these rare and strange ingredients to explore the culinary depths you can descend into."]
+			icon: "miners_delight:cave_soup_cup"
+			id: "4978474A42771E08"
+			rewards: [
+				{
+					count: 3
+					id: "0988A490CC2B3E36"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1D1D2C91027FCA70"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "42A16FAE5CB9A050"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [
+				{
+					biome: "#forge:is_cave"
+					id: "417225EB6A72F9EF"
+					title: "Discover a Cave Biome"
+					type: "biome"
+				}
+				{
+					id: "72656C79F949905A"
+					item: "miners_delight:copper_pot"
+					type: "item"
+				}
+			]
+			title: "Cooking Down Below"
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "7FC15380434AB595"
+			rewards: [
+				{
+					count: 4
+					id: "4037185CDBB6D07C"
+					item: "miners_delight:squid"
+					type: "item"
+				}
+				{
+					id: "5DE4B9C78B615B07"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "1D624C0B22811925"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "32A1FEF1A560D0C5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "51EE12F90A8CBBE6"
+				item: "miners_delight:stuffed_squid"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "7CC95F075156F415"
+			rewards: [
+				{
+					count: 2
+					id: "225C06754B45A405"
+					item: "cratedelight:glowberry_crate"
+					type: "item"
+				}
+				{
+					id: "39056B80ABBCFC51"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "5B0B4E98D20AFB77"
+				item: "miners_delight:glow_ink_pasta"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "662FA9EEB82E03F1"
+			rewards: [
+				{
+					count: 2
+					id: "3604506785329D43"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "5BFB4A8BB3736439"
+					item: "alexscavesdelight:vanilla_ice_cream"
+					type: "item"
+				}
+				{
+					id: "664B38C751F3EC28"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "4D8BFAB79D6B1427"
+				item: "miners_delight:vegan_steak_and_potatoes"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4978474A42771E08"]
+			id: "7E0E26A1D514946B"
+			rewards: [
+				{
+					count: 2
+					id: "18821C101F953A2F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4EE79A98E6FF4799"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "76E0BB62E3E46AE8"
+				item: "miners_delight:improvised_barbecue_stick"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			id: "4DF72DCC43C39276"
+			rewards: [
+				{
+					count: 4
+					id: "60F2166FB8E1EA0D"
+					item: "farmersdelight:wheat_dough"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C3FBAA5EECA25B5"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7DB900DC32C26FC2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "73C02162C9AE7623"
+				item: "alexsdelight:bison_burger"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			id: "3C157129B8A8B1CB"
+			rewards: [
+				{
+					count: 2
+					id: "490F580F942F4C97"
+					item: "alexsmobs:lobster_bucket"
+					type: "item"
+				}
+				{
+					id: "23F24B466FFCD7A4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1C1DEC5A8A755B0D"
+				item: "alexsdelight:lobster_pasta"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			id: "66571BCED3E4950C"
+			rewards: [
+				{
+					count: 4
+					id: "019E2954CEE06E0A"
+					item: "neapolitan:mint_leaves"
+					type: "item"
+				}
+				{
+					id: "376699799E287561"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "061E986BAF914780"
+				item: "alexsdelight:acacia_blossom_soup"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			id: "6418A3D8C1F399D4"
+			rewards: [
+				{
+					count: 2
+					id: "6ACD8794AA21AC2C"
+					item: "minecraft:rabbit_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "710677FAA7E185A7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1C4F28464F7339DD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "617EB879AA2D3C69"
+				item: "alexsdelight:bunfungus_sandwich"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			id: "19276D19DE4B8196"
+			rewards: [
+				{
+					count: 4
+					id: "2DADA1F1537DD0C7"
+					item: "alexsmobs:leafcutter_ant_pupa"
+					type: "item"
+				}
+				{
+					id: "51E844D7096CE727"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "51A454267E55120B"
+				item: "alexsdelight:gongylidia_bruschetta"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D4331057516BA83"]
+			id: "454498C2E8A9F218"
+			rewards: [
+				{
+					id: "1C4B894C025DA47D"
+					item: "alexscaves:flytrap"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CF399CB9778648F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1E3EEAB81B1A1A68"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "1DF1140E18EDD1B0"
+				item: "alexsdelight:maggot_salad"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "756C8744ADDC2C8E"
+			rewards: [
+				{
+					count: 4
+					id: "40D5735161F3B334"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "162EC36D0027E164"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3CE5D441E7E32E91"
+				item: "aquaculturedelight:fish_chorba"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"The Keg is a new method for you to discover new foods. These recipes involve aging, fermenting, brewing and infusing ingredients together. Allowing you to create products such as cheese, kimchi, mead or ales. "
+				""
+				"The recipes for these also contain a temperature system that is explained further in the quest below."
+			]
+			id: "2E08BAD338814105"
+			rewards: [
+				{
+					count: 2
+					id: "1452B7B252EEF13F"
+					item: "quark:apple_crate"
+					type: "item"
+				}
+				{
+					id: "429AF2F71C9DA39C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "786FECE031BC9DB6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0B59A1B44F8C034F"
+				item: "brewinandchewin:keg"
+				type: "item"
+			}]
+			title: "A Different kind of Barrel"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "3392F1CC07C6621E"
+			rewards: [
+				{
+					count: 2
+					id: "28CE3E5D64232A47"
+					item: "minecraft:turtle_egg"
+					type: "item"
+				}
+				{
+					id: "3843DF666A24B974"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1E9340416948594C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "29ECDB091DFF690F"
+				item: "aquaculturedelight:turtle_meat_dish"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "0B8589D48A5AD508"
+			rewards: [
+				{
+					id: "1A9159CBC09EA7D5"
+					item: {
+						Count: 1
+						id: "minecraft:carrot_on_a_stick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4B02B4496B6D5CBB"
+					item: "alexsmobs:fish_bones"
+					type: "item"
+				}
+				{
+					id: "68CB202754039CE7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3424248ECA8060B3"
+				item: "aquaculturedelight:baked_pollock_with_carrots"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "7FE352BEBC25EB52"
+			rewards: [
+				{
+					count: 2
+					id: "0E1CD16B2F627D1F"
+					item: "quark:potato_crate"
+					type: "item"
+				}
+				{
+					id: "09E443682B22C704"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "38A4D02DF4C02465"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2048328E0C173AB7"
+				item: "casualness_delight:fish_and_chips"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "711C6086E6AC966C"
+			rewards: [
+				{
+					count: 4
+					id: "37B52B0220585C4D"
+					item: "collectorsreap:portobello"
+					type: "item"
+				}
+				{
+					id: "00535700212C3065"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7AEDB27050D8EF4D"
+				item: "oceansdelight:cooked_stuffed_cod"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "6CFAAA3F5415BD10"
+			rewards: [
+				{
+					id: "39B90A83D9A21354"
+					item: "collectorsreap:tropical_shaved_ice"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "448D30E5A4FFA384"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "782EC0152CA384D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "23010809428B90D8"
+				item: "oceansdelight:squid_rings"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2DAA1EC75E9BBAEE"]
+			id: "309158FFE56A088A"
+			rewards: [
+				{
+					count: 8
+					id: "0B496CF36950EC72"
+					item: "apotheosis:fishing_tome"
+					type: "item"
+				}
+				{
+					id: "4A3C8C4B6E451E1A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "23A4C3DCBF0BAA35"
+				item: "oceansdelight:cabbage_wrapped_elder_guardian"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "3D0DEBB19BD96ADD"
+			rewards: [
+				{
+					count: 2
+					id: "4B83D8C54D35E270"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "446B07B58DAB7060"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "241C86293A00D8F5"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "234EE80FA06488B4"
+				item: "brewinandchewin:pizza"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "7CF5CDA0079045FA"
+			rewards: [
+				{
+					count: 16
+					id: "274C44E24803E2D8"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "145A2497F88ED582"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "15BBB810E553BB71"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "75DA28ACF7D17E29"
+				item: "brewinandchewin:saccharine_rum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "783BA8532FDE1E25"
+			rewards: [
+				{
+					count: 2
+					id: "5E0B3224469C8EA6"
+					item: "farmersdelight:cabbage_crate"
+					type: "item"
+				}
+				{
+					id: "23F0859C7A97E7B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "78C795F895CC6423"
+				item: "brewinandchewin:kimchi"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "15811DF4EB515AD6"
+			rewards: [
+				{
+					count: 2
+					id: "152B0A1900D20E4B"
+					item: "farmersdelight:onion_crate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7F681528463D5ABC"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "6BC1A3C7C9DFE5BB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "50CE3F6CFDCB67DE"
+				item: "brewinandchewin:fiery_fondue_pot"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "41566F7A46C81722"
+			rewards: [
+				{
+					id: "1F96F237D6860BFA"
+					item: "createaddition:electrum_amulet"
+					type: "item"
+				}
+				{
+					id: "51B0C6ADDE2A2BBB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "288D13C5E5D8C97C"
+				item: "brewinandchewin:pale_jane"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "7E7C2F9AA945FB7B"
+			rewards: [
+				{
+					count: 2
+					id: "14759C4C9FA87715"
+					item: "ad_astra:cheese_block"
+					type: "item"
+				}
+				{
+					id: "05203CB26F299560"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2DF9BA688C399CCF"
+				item: "brewinandchewin:flaxen_cheese_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			id: "24305A279EA3ADE4"
+			rewards: [
+				{
+					count: 3
+					id: "357E444DDB0E181A"
+					item: "brewinandchewin:beer"
+					type: "item"
+				}
+				{
+					id: "6B5966D113111C98"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "553442C93FD8596E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "36A91DA75B534F14"
+				item: "brewinandchewin:mead"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2E08BAD338814105"]
+			description: [
+				"Certain recipes require precise temperature management as can be seen in their recipe. This &nHeating Cask&r and &nIce Crate&r can be placed within a 3x3 of the Keg to alter it's temperature attribute. This ranges from -2 towards cold, and +2 towards hot."
+				""
+				"Other block alternatives such as fire, lava and forms of ice can also replace these. However the crates are a more controlled and fine way of doing so."
+			]
+			id: "1221A22DE6A98EF4"
+			rewards: [
+				{
+					count: 4
+					id: "6228CEB4BE22A434"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					id: "72283B9810BE42D1"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4847B416006FDD7E"
+					item: "create_new_age:heater"
+					type: "item"
+				}
+				{
+					id: "4263B753E1F6F930"
+					type: "xp"
+					xp: 1
+				}
+			]
+			tasks: [
+				{
+					id: "69BC1FA0915F29EC"
+					item: "brewinandchewin:heating_cask"
+					type: "item"
+				}
+				{
+					id: "761BC72AB3F115C0"
+					item: "brewinandchewin:ice_crate"
+					type: "item"
+				}
+			]
+			title: "Fire and Ice"
+			x: -1.5d
+			y: 15.0d
 		}
 	]
 	title: "Farmer's Life"

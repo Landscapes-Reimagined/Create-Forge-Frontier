@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "dimensional_progression"
-	group: ""
+	group: "18D089BBC98AE6DA"
 	icon: "ad_astra:earth_globe"
 	id: "430DE687E9BB5176"
 	images: [{
@@ -13,19 +13,17 @@
 		x: 0.0d
 		y: -9.0d
 	}]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["4FA0AF313BCCF95C"]
 			description: [
-				"The &aOverworld&r is where your legend begins—a sprawling, vibrant realm of endless possibility.  "
-				"From rolling hills to shadowed forests, vast oceans to treacherous caves, this dimension overflows with resources, biomes, and secrets waiting to be uncovered."
+				"The &aOverworld&r is the starting point of your journey, offering a diverse environment filled with essential resources, custom biomes, and early progression opportunities. From forests and plains to oceans and cave systems, each area provides materials and challenges that form the foundation of your advancement."
 				""
-				"Here, you’ll gather the essentials, carve your first shelter, and lay the foundation for your future masterpieces.  "
-				"Unearth valuable ores, encounter rare creatures, and shape breathtaking landscapes as you forge your story from the ground up."
+				"In this dimension, you will gather basic tools, secure shelter, and begin establishing your first automated setups. Explore for valuable ores, interact with unique structures, and prepare the groundwork for the complex engineering systems you will develop later."
 				""
-				"The Overworld is your canvas—&nshape it, build upon it, and let your dreams soar across the horizon.&r 🗺✨"
+				"The Overworld serves as your primary workspace—shape it, build within it, and use it to support every stage of your progression."
 				""
 				"{@pagebreak}"
 				""
@@ -54,40 +52,37 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Begin your adventure in the Overworld and carve your legend into the land. Click me for more info!"
+			subtitle: "Begin your adventure in the Overworld and carve your legend into the land. Click for more info!"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				icon: "minecraft:grass_block"
 				id: "5CF9F9D9EE1AA90A"
 				type: "dimension"
 			}]
-			title: "A World of Endless Horizons"
+			title: "&6A World of Endless Horizons&r"
 			x: -9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["391748CCFCB25D1A"]
 			description: [
-				"The &cNether Dimension&r is a realm of searing heat, twisted landscapes, and unimaginable treasures waiting to be uncovered.  "
+				"The &cNether Dimension&r is a challenging environment defined by extreme heat, hazardous terrain, and valuable resources essential for mid-game progression. Each biome introduces new mechanics, encounters, and opportunities for material gathering."
 				""
-				"Navigate the chaotic beauty of &eCrimson Forests&r, &eBasalt Deltas&r, &eSoul-Sand Valleys&r, and newly forged realms teeming with danger and discovery.  "
-				"Each biome holds rare resources, hidden secrets, and perilous threats lurking just beyond the next corner."
-				""
-				"{@pagebreak}"
-				""
-				"&l🏰 Brave the Strongholds of the Nether&r  "
-				"Face the dangers of mighty fortress strongholds and treasure-laden bastions.  "
-				"These revamped structures are more than mere battlegrounds—they are essential stages in your progression, brimming with powerful loot, hidden lore, and the materials needed to advance your journey."
-				""
-				"The Nether is no longer just a waypoint—it’s a pivotal and unforgettable chapter in your conquest of &6Create - Forge Frontier&r."
+				"Explore regions such as the &eCrimson Forest&r, &eBasalt Deltas&r, and &eSoul-Sand Valley&r, alongside newly introduced sub-biomes designed to expand resource variety and exploration depth. These areas contain rare materials, unique environmental hazards, and structural features that support multiple advancement paths."
 				""
 				"{@pagebreak}"
 				""
-				"&l🔥 Will You Rise Above the Flames?&r  "
-				"Explore the infernal depths, harvest rare materials, and prepare yourself for the greater challenges that lie ahead.  "
-				"The Nether has been reborn into an immersive, treacherous frontier—perfect for those who seek adventure, mastery, and glory."
+				"&lBrave the Strongholds of the Nether&r"
+				"Fortress structures and bastions play a critical role in your progression. These revamped locations offer powerful loot, unique drops, and materials required for several advancement steps. Their layouts and encounters have been adjusted to encourage careful navigation, combat readiness, and strategic resource collection."
 				""
-				"Conquer the inferno, or be consumed by it—the choice is yours. 🔥✨"
+				"Within these structures, you will obtain key components that support both Create-based systems and late-game dimensional progression."
+				""
+				"{@pagebreak}"
+				""
+				"&lPreparing for the Challenges Ahead&r"
+				"Investigate the Nether’s biomes, secure specialized resources, and refine your equipment for upcoming objectives. The Nether has been redesigned as a significant mid-game milestone in &6Create - Forge Frontier&r, providing a structured progression route rather than serving as a simple transition point."
+				""
+				"Master the environment, gather the materials you need, and prepare for the increasingly complex challenges ahead."
 				""
 				"{@pagebreak}"
 				""
@@ -111,50 +106,44 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Master the remastered Nether and uncover the secrets within the fire. Click me for more info!"
+			subtitle: "Master the remastered Nether and uncover the systems and challenges within. Click for more info!"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:netherrack"
 				id: "34938F192D4ABC3F"
 				type: "dimension"
 			}]
-			title: "Forged in Flame"
+			title: "&6Forged in Flame&r"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["09EEADB48E883801"]
 			description: [
-				"The &5End Dimension&r in &6Create - Forge Frontier&r has been completely reimagined to deliver an awe-inspiring and unforgettable adventure.  "
-				"Gone are the days of a barren void—this realm now boasts enhanced, breathtaking terrain, filled with towering spires, sprawling islands, and alien landscapes that beckon you to explore."
+				"The &5End Dimension&r in &6Create - Forge Frontier&r has been redesigned to provide a more engaging and expansive progression experience. Its terrain now features enhanced island structures, new verticality, and unique generation patterns that support exploration and late-game resource acquisition."
 				""
-				"The End is no longer a final stop—it is a vibrant, living frontier crafted to test your spirit of adventure and mastery."
-				""
-				"{@pagebreak}"
-				""
-				"&l🐲 The Battle for Destiny&r  "
-				"Prepare for the ultimate test: the &eEnder Dragon&r fight, now fiercer and more thrilling than ever before.  "
-				"The dragon boasts new strategies, heightened aggression, and punishing difficulty.  "
-				"You’ll need the finest gear, sharp tactics, and unyielding courage to overcome this iconic foe and claim victory over the skies."
-				""
-				"Slaying the dragon is no small feat—but it paves the way to even greater opportunities beyond."
+				"The End is no longer a simple conclusion—it serves as a substantial progression tier with new systems, challenges, and opportunities."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌌 Beyond the Portal Lies Opportunity&r  "
-				"The End is no longer the end—it’s the gateway to &nEnd Game progression&r.  "
-				"Beyond the dragon’s lair, the sprawling islands await, filled with hidden treasures, new adversaries, and secrets shrouded in the mists of this alien world."
+				"&lThe Battle for Destiny&r"
+				"The encounter with the &eEnder Dragon&r has been updated to introduce new attack patterns, improved behavior, and a more challenging combat sequence. Proper equipment, careful planning, and effective strategy are essential to completing this fight."
 				""
-				"Unlock exclusive late-game content, challenge your ingenuity, and push your ambitions to their very limits as you explore deeper into the End’s mysterious expanses."
+				"Defeating the dragon unlocks additional pathways for progression and grants access to advanced materials and exploration areas within the dimension."
 				""
 				"{@pagebreak}"
 				""
-				"&l🏆 Rise Among the Stars&r  "
-				"The End Dimension has been reborn into a dynamic battleground, a mystical frontier, and a gateway to your ultimate destiny.  "
-				"Seize the challenge. Embrace the unknown.  "
-				"Forge your name into legend in a world where only the brave dare tread."
+				"&lBeyond the Portal Lies Opportunity&r"
+				"After the dragon is defeated, the End islands provide further exploration potential. These regions contain unique materials, additional structures, and resources required for endgame crafting and technological advancement."
 				""
-				"This is not your end—this is the beginning of your greatness! 🌠✨"
+				"Progressing through the End encourages continued exploration while preparing you for higher-tier objectives."
+				""
+				"{@pagebreak}"
+				""
+				"&lAdvancing Through the Endgame&r"
+				"The redesigned End functions as both a testing ground and a launch point for your final progression stages. Overcoming its challenges enables access to specialized crafting chains, enhanced gear, and dimensional content required for the most advanced goals in &6Create - Forge Frontier&r."
+				""
+				"This is not the end of your journey—it is the route forward into your late-game objectives."
 				""
 				"{@pagebreak}"
 				""
@@ -178,7 +167,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Conquer the End Dimension and unlock your true destiny. Click me for more info!"
+			subtitle: "Conquer the End Dimension and progress into true endgame content. Click for more info!"
 			tasks: [
 				{
 					dimension: "minecraft:the_end"
@@ -193,37 +182,30 @@
 					type: "advancement"
 				}
 			]
-			title: "Ascend Beyond the End"
+			title: "&6Ascend Beyond the End&r"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0428643E0C764D8B"]
 			description: [
-				"Step beyond the veil into the &5Otherside&r—an enigmatic dimension cloaked in eternal darkness and boundless mystery.  "
-				"Brought to life by the &5Deeper and Darker&r mod, this shadowed world can only be reached by those who have claimed the &eHeart of the Warden&r and triumphed over the ancient guardian of the Deep Dark."
+				"Enter the &5Otherside&r, a specialized dimension introduced by the &5Deeper and Darker&r mod. Access to this realm is granted by obtaining the &eHeart of the Warden&r, making it a mid-to-late game milestone tied directly to Deep Dark progression."
 				""
-				"In the Otherside, haunting beauty and perilous secrets intertwine.  "
-				"Bioluminescent flora glows faintly against the abyss, while colossal &eSculk Constructs&r and forgotten treasures rise from the mist.  "
-				"Rare materials like &eWardenite&r and Otherside-exclusive ores offer the chance to craft weapons and tools that rival anything forged in the Overworld or Nether."
+				"The Otherside features dark, atmospheric landscapes with bioluminescent flora, unique terrain formations, and structures guarded by advanced hostile entities. These environments contain rare materials such as &eWardenite&r and other dimension-specific resources used for powerful equipment and late-game crafting."
 				""
 				"{@pagebreak}"
 				""
-				"&l🖤 A Realm of Shadows and Wonders&r  "
-				"Yet beauty is not without danger.  "
-				"New, relentless foes prowl the gloom—guardians of secrets lost to time.  "
-				"Every step you take in the Otherside could lead to priceless rewards—or to a swift and silent end."
+				"&lA Realm of Shadows and Wonders&r"
+				"The dimension introduces new enemies, environmental hazards, and structural challenges designed to test both combat readiness and resource management. Exploration rewards players with unique loot, materials, and progression items not found elsewhere."
 				""
-				"Only those with courage, cunning, and resilience will uncover the true power hidden within these forgotten halls."
+				"Each area encourages careful navigation and strategic decision-making as you gather resources required for further advancement."
 				""
 				"{@pagebreak}"
 				""
-				"&l⚔ Will You Master the Darkness?&r  "
-				"The Otherside is more than a place to explore—it is a &ntrial&r to conquer, a mystery to unravel, and a proving ground to elevate your legend."
+				"&lManaging the Challenges Ahead&r"
+				"The Otherside serves as a transitional tier in your overall progression, offering access to high-value materials and crafting components. Mastering this realm requires proper preparation, upgraded equipment, and familiarity with its hostile inhabitants."
 				""
-				"Dare to tread the paths where few have survived.  "
-				"Unlock the secrets that echo through the darkness.  "
-				"Shape your destiny in a world where light is fleeting—and only the brave prevail. 🖤✨"
+				"Progress through its biomes, secure its rare resources, and prepare for the advanced technologies and exploration routes that follow."
 				""
 				"{@pagebreak}"
 				""
@@ -235,42 +217,37 @@
 			icon: "minecraft:reinforced_deepslate"
 			id: "090A156A3CB027A3"
 			shape: "hexagon"
-			subtitle: "Conquer the mysteries of the Otherside and forge your legend in darkness. Click me for more info!"
+			subtitle: "Conquer the mysteries of the Otherside and progress through its unique challenges. Click for more info!"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "minecraft:reinforced_deepslate"
 				id: "09160BE9EBA13AB9"
 				type: "dimension"
 			}]
-			title: "Beyond the Shadows"
+			title: "&6Beyond the Shadows&r"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3A09B8EFE2811CB9"]
 			description: [
-				"Embark on an extraordinary journey across the &6Ad Astra Planets&r—a breathtaking collection of celestial worlds teeming with opportunities for exploration, discovery, and triumph.  "
-				"From the desolate craters of the Moon to the fiery depths of Venus and the rust-colored sands of Mars, each planet presents unique terrains, challenges, and secrets waiting to be uncovered."
+				"The &6Ad Astra&r planets form the core of your early and mid-game space progression. Each world introduces distinct environments, hazards, and opportunities for resource acquisition. From the cratered surface of the Moon to the harsh conditions of Venus and the mineral-rich terrain of Mars, these celestial bodies play a critical role in advancing your off-world technology."
 				""
-				"These distant worlds are rich with rare materials, hidden relics, and untold stories.  "
-				"Every voyage into the stars offers a thrilling new frontier to conquer."
+				"Exploring these planets provides access to specialized materials, progression items, and unique environmental challenges that expand your engineering and survival capabilities."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌍 Thrive Among the Stars&r  "
-				"Establish thriving colonies, mine exotic resources, and unlock the technologies needed to survive against overwhelming odds.  "
-				"Each environment will test your ingenuity and resilience—demanding creativity, courage, and the spirit of a true pioneer."
+				"&lThrive Among the Stars&r"
+				"Establish functional bases, gather extraterrestrial resources, and unlock systems required for sustained off-world travel. Each location requires adaptability and planning, testing your ability to manage energy, life support, and material production under different planetary conditions."
 				""
-				"The Ad Astra Planets are more than mere destinations—they are canvases for your ambition and stepping stones toward mastering the cosmos."
+				"The Ad Astra planets serve as both exploration targets and key progression steps toward more advanced rocketry and long-distance travel."
 				""
 				"{@pagebreak}"
 				""
-				"&l🚀 Claim the Final Frontier&r  "
-				"With every rocket launch, a new horizon opens before you.  "
-				"The universe isn’t just something to gaze at—it’s yours to explore, to shape, and to conquer."
+				"&lClaim the Final Frontier&r"
+				"Each rocket launch unlocks new environments and new challenges, gradually expanding your reach across the system. As you collect resources, complete objectives, and upgrade your equipment, you will gain the tools needed to push farther into the cosmos."
 				""
-				"Ad Astra invites you to forge your legacy among the stars.  "
-				"Venture forth, brave explorer, and claim your place in the ever-expanding tapestry of the universe! 🚀✨"
+				"Your journey through Ad Astra is designed to build technical mastery and prepare you for the increasingly complex worlds that lie ahead."
 				""
 				"{@pagebreak}"
 				""
@@ -282,50 +259,48 @@
 			icon: "ad_astra:moon_globe"
 			id: "43160A0A3268A07D"
 			shape: "hexagon"
-			subtitle: "Explore the Ad Astra Planets and forge your destiny among the stars. Click me for more info!"
+			subtitle: "Explore the Ad Astra planets and progress through interplanetary exploration. Click for more info!"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				icon: "ad_astra:moon_globe"
 				id: "3CEF90C695890536"
 				type: "dimension"
 			}]
-			title: "Pioneers of the Cosmos"
+			title: "&6Pioneers of the Cosmos&r"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["58AF77D0696B9822"]
 			description: [
-				"Set course for the &bAlex’s Caves Planets&r—celestial worlds unlike anything you've encountered before.  "
-				"Each planet is a breathtaking fusion of distinct surface terrains and rare subterranean biomes, offering extraordinary opportunities for exploration, discovery, and survival."
+				"The &bAlex’s Caves Planets&r introduce a set of late-game environments designed to expand your exploration and resource-gathering options. Each world combines customized surface terrain with complex subterranean biomes, providing a wide range of materials, adversaries, and discovery-focused challenges."
 				""
-				"These worlds are crafted to showcase the exotic biomes introduced by Alex’s Caves, blending alien beauty with hidden dangers that will test your skills and ingenuity."
-				""
-				"{@pagebreak}"
-				""
-				"&l🌌 Planetary Expeditions&r  "
-				""
-				"- &3Abyssal Chasm Planet&r: Endless oceans conceal Tube Worms, Deep Ones, and the monstrous Hullbreaker in the crushing dark."
-				""
-				"- &5Forlorn Hollows Planet&r: A cursed land of Guanostone, where Underzealots, Watchers, and Forsaken roam amidst shadows and sorrow."
-				""
-				"- &2Primordial Caves Planet&r: Ancient, lush landscapes lit by glowing Ambersol, teeming with prehistoric beasts like Grottoceratops and Tremorsaurus."
+				"These planets integrate the exotic biomes from Alex’s Caves into an interplanetary context, offering new opportunities for progression while testing your adaptability and preparedness."
 				""
 				"{@pagebreak}"
 				""
-				"- &dMagnetic Caves Planet&r: Glimmering Neodymium crystals and rich Galena deposits dominate the surface, while magnetic creatures like Teletors and Magnetrons lurk below."
+				"&lPlanetary Expeditions&r"
 				""
-				"- &2Toxic Caves Planet&r: Wastelands of Uranium and bubbling Acid lakes, where mutants like Brainiacs and Nucleepers prowl the deadly haze."
+				"- &3Abyssal Chasm Planet&r: A water-dominated world where deep ocean environments house Tube Worms, Deep Ones, and the Hullbreaker—hostile lifeforms adapted to extreme depths."
 				""
-				"- &dCandy Cavity Planet&r: A whimsical land above hides formidable Licowitches below, guarding sweet yet sinister secrets."
+				"- &5Forlorn Hollows Planet&r: A desolate region defined by Guanostone formations and dangerous inhabitants such as Underzealots, Watchers, and Forsaken."
+				""
+				"- &2Primordial Caves Planet&r: A prehistoric biome illuminated by Ambersol, featuring creatures like Grottoceratops and Tremorsaurus in ancient cavern systems."
 				""
 				"{@pagebreak}"
 				""
-				"&l🛠 Adventure Beyond the Stars&r  "
-				"Each planet holds unique resources, rare materials, and critical challenges essential for your late-game progression.  "
-				"Reaching these distant worlds demands the &6Tier 5 Rocket&r—crafted from treasures and materials wrested from the End Dimension."
+				"- &dMagnetic Caves Planet&r: A landscape rich with Neodymium crystals and Galena deposits, inhabited by magnetic-based entities including Teletors and Magnetrons."
 				""
-				"Embark on an interstellar adventure, master extraordinary biomes, and uncover the hidden legacies of the Alex’s Caves Planets—where every step is a bold leap into the unknown. 🚀✨"
+				"- &2Toxic Caves Planet&r: A hazardous environment of Uranium deposits and acidic pools where mutants such as Brainiacs and Nucleepers pose significant threats."
+				""
+				"- &dCandy Cavity Planet&r: A deceptive world where a colorful surface conceals Licowitches and other dangerous entities within its lower layers."
+				""
+				"{@pagebreak}"
+				""
+				"&lAdvancing Through Alien Frontiers&r"
+				"Each planet provides specialized resources, unique conditions, and biome-specific challenges that support late-game crafting and engineering systems. Accessing these worlds requires the &6Tier 5 Rocket&r, constructed through End-level progression and advanced material processing."
+				""
+				"Explore these environments to gather rare materials, complete high-level objectives, and continue expanding your technological reach across the cosmos."
 				""
 				"{@pagebreak}"
 				""
@@ -349,14 +324,14 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Explore the exotic biomes of Alex’s Caves Planets and uncover their secrets. Click me for more info!"
+			subtitle: "Explore the exotic biomes of Alex’s Caves Planets and uncover their unique resources. Click for more info!"
 			tasks: [{
 				dimension: "forge_frontier:abyssal_chasm"
 				icon: "alexscaves:submarine"
 				id: "7BBBCF8A23D903C6"
 				type: "dimension"
 			}]
-			title: "Worlds Beneath the Stars"
+			title: "&6Worlds Beneath the Stars&r"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -369,7 +344,7 @@
 			icon: "forge_frontier:trophy_block"
 			id: "65764771C8DA0EF1"
 			shape: "hexagon"
-			subtitle: "The Forge, will be coming in v3.0.0"
+			subtitle: "The Forge, will be coming in v3.0.0."
 			tasks: [{
 				id: "3C6583D0D04AB9CB"
 				title: "The Forge (Future Final Planet)"
@@ -381,25 +356,21 @@
 		{
 			dependencies: ["0B3F87B20695A777"]
 			description: [
-				"The &6Tier 1 Rocket&r marks your first triumphant step beyond the skies, breaking free from the Overworld and launching you into the vast expanse of &6Ad Astra&r.  "
-				"As the foundation of your interstellar journey, this rocket unlocks the Moon and Mars—worlds brimming with new resources, hidden challenges, and breathtaking landscapes."
+				"The &6Tier 1 Rocket&r represents your initial transition from planetary exploration to space travel. As the entry point into &6Ad Astra&r progression, this vehicle enables travel to the Moon and Mars, each offering unique resources, environmental conditions, and new advancement paths."
 				""
-				"Crafting the Tier 1 Rocket demands &ninnovation and determination&r, as you piece together advanced components and master the art of space engineering.  "
-				"When your rocket stands ready on the launchpad, all that remains is to ignite the engines and soar into the unknown."
+				"Constructing the Tier 1 Rocket requires gathering specialized materials, assembling precision components, and completing the first stage of space engineering. Once the rocket is fully built and positioned on the launchpad, you will be equipped to begin off-world exploration."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌑 The First Frontier Awaits&r  "
-				"The Moon and Mars are just the beginning of your cosmic odyssey.  "
-				"Harvest critical resources, establish footholds across alien worlds, and prepare for the next leap toward even greater destinations.  "
-				"Each step across these new frontiers lays the groundwork for future rocket tiers—and for forging a legacy among the stars."
+				"&lThe First Frontier Awaits&r"
+				"The Moon and Mars introduce essential mid-game materials and challenges that support the next stages of progression. Establish outposts, gather extraterrestrial resources, and begin producing the components required for higher-tier rockets."
+				""
+				"Progress through these early celestial bodies forms a critical foundation for deeper interplanetary travel."
 				""
 				"{@pagebreak}"
 				""
-				"&l🚀 Ignite the Engines of Destiny&r  "
-				"With the Tier 1 Rocket, the universe opens before you.  "
-				"Take the leap, leave behind the familiar, and carve your path through the heavens.  "
-				"The stars are no longer distant dreams—they are destinations waiting for your courage to reach them. 🌌✨"
+				"&lPreparing for Further Exploration&r"
+				"With the Tier 1 Rocket operational, you gain access to your first extraterrestrial environments and the tools necessary to expand beyond the Overworld. These early missions are designed to familiarize you with off-world hazards, energy systems, and resource chains that will become increasingly important as you advance."
 				""
 				"{@pagebreak}"
 				""
@@ -421,7 +392,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft the Tier 1 Rocket and begin your interstellar adventure. Click me for more info!"
+			subtitle: "Craft the Tier 1 Rocket and begin your interstellar progression. Click for more info!"
 			tasks: [{
 				id: "55F22A8D2A9B213B"
 				item: {
@@ -431,35 +402,30 @@
 				}
 				type: "item"
 			}]
-			title: "First Steps Beyond Earth"
+			title: "&6First Steps Beyond Earth&r"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["43160A0A3268A07D"]
 			description: [
-				"Descend into the foreboding depths of the &8Ancient Cities&r—vast, crumbling ruins buried within the shadows of the &8Deep Dark&r.  "
-				"These eerie strongholds whisper of a forgotten age, housing treasures beyond imagination and dangers beyond compare."
+				"Explore the &8Ancient Cities&r found deep within the &8Deep Dark&r, a dangerous region characterized by low visibility, unique mechanics, and highly lethal encounters. These structures contain valuable loot, progression items, and rare materials, but navigating them requires caution and preparation."
 				""
-				"Silent yet unstoppable, the &9Warden&r prowls these ruins, punishing all who dare to disturb the darkness with devastating fury.  "
-				"To survive here is a feat in itself—but true glory lies in &nconquering&r the Warden and seizing the prize it guards."
+				"Among their dangers is the &9Warden&r, a powerful entity designed to punish noise and movement. Confronting this foe is a major progression milestone and demands strategic planning, proper equipment, and advanced survival skills."
 				""
 				"{@pagebreak}"
 				""
-				"&l🖤 The Path to the Otherside&r  "
-				"Defeating the Warden grants you the elusive &eHeart of the Warden&r—a relic of immense power, and the key to unlocking a portal to another world: the mysterious &5Otherside&r."
+				"&lThe Path to the Otherside&r"
+				"Defeating the Warden rewards you with the &eHeart of the Warden&r, a key item used to activate the portal leading to the &5Otherside&r dimension. This realm introduces new biomes, materials, and progression mechanics that expand your mid-to-late game objectives."
 				""
-				"This is no ordinary victory; it is a transformation.  "
-				"Beyond the shattered ruins lies a realm of untold wonders, unique biomes, and unparalleled resources—waiting only for those bold enough to master the darkness."
+				"Unlocking the Otherside marks a significant step forward, providing access to resources and systems unavailable in other dimensions."
 				""
 				"{@pagebreak}"
 				""
-				"&l⚔️ Will You Brave the Abyss?&r  "
-				"The journey into the Deep Dark is not just about survival—it’s a trial of courage, ingenuity, and strength.  "
-				"Step into the shadows. Face the ancient terror.  "
-				"And if you prevail, step through the veil into a world reborn beyond the darkness."
+				"&lPreparing for the Challenges Ahead&r"
+				"The Deep Dark emphasizes stealth, planning, and environmental awareness. Success requires careful navigation, noise management, and a methodical approach to exploration. Overcoming its challenges prepares you for the advanced systems and hazards found within the Otherside."
 				""
-				"The &5Otherside&r awaits—&nclaim your destiny in the realm where few dare to tread.&r ⚔"
+				"Progress through this region at your own pace, gather the materials you need, and ensure your equipment is ready for the encounter that follows."
 				""
 				"{@pagebreak}"
 				""
@@ -481,48 +447,48 @@
 					type: "item"
 				}
 			]
-			subtitle: "Defeat the Warden and unlock the mysteries of the Otherside. Click me for more info!"
+			subtitle: "Defeat the Warden and unlock access to the Otherside. Click for more info!"
 			tasks: [{
 				id: "310BD6F382F22641"
 				item: "deeperdarker:heart_of_the_deep"
 				type: "item"
 			}]
-			title: "Conqueror of the Deep"
+			title: "&6Conqueror of the Deep&r"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["090A156A3CB027A3"]
 			description: [
-				"In &5Create - Forge Frontier&r, &5End Remastered&r has been completely reforged into a bold new adventure—transforming every element of the beloved mod into a uniquely crafted journey.  "
+				"In &5Create - Forge Frontier&r, &5End Remastered&r has been completely reforged into a bold new adventure-transforming every element of the beloved mod into a uniquely crafted journey.  "
 				"From reimagined Eye recipes to enhanced lore and mechanics, every piece has been meticulously redesigned to challenge your ingenuity and captivate your spirit of discovery."
 				""
-				"The road to the End is no longer a simple search for strongholds—it is an expedition demanding courage, exploration, and mastery of custom-crafted relics."
+				"The road to the End is no longer a simple search for strongholds-it is an expedition demanding courage, exploration, and mastery of custom-crafted relics."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌌 Fifteen Eyes, Fifteen Legends&r  "
+				"&lFifteen Eyes, Fifteen Legends&r  "
 				"To awaken the End Portal, you must gather &e15 unique Ender Eyes&r, each with its own story, lore, and hidden trials.  "
 				"Crafting each Eye requires venturing into dangerous biomes, overcoming powerful foes, and unlocking creative new crafting techniques."
 				""
-				"Every Eye tells a tale—adding depth, mystery, and rich progression to your quest for the End.  "
+				"Every Eye tells a tale-adding depth, mystery, and rich progression to your quest for the End.  "
 				"Prepare for a journey where each discovery is a victory, and each crafted Eye is a chapter of your legend."
 				""
 				"{@pagebreak}"
 				""
-				"&l🏰 A Portal Reborn&r  "
+				"&lA Portal Reborn&r  "
 				"Strongholds have been transformed, their ancient halls reshaped to reflect your epic journey.  "
 				"New mechanics and revamped layouts ensure that no two adventures will ever feel the same.  "
-				"The path to the End Portal is now an achievement to be earned—a testament to your perseverance, wit, and bravery."
+				"The path to the End Portal is now an achievement to be earned-a testament to your perseverance, wit, and bravery."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌀 Rise to the Endgame&r  "
-				"The Forge Frontier edition of End Remastered is not just an overhaul—it is a celebration of the journey itself.  "
+				"&lRise to the Endgame&r  "
+				"The Forge Frontier edition of End Remastered is not just an overhaul-it is a celebration of the journey itself.  "
 				"Gather your strength. Forge your destiny.  "
 				"Step boldly toward an Endgame adventure unlike anything you’ve faced before."
 				""
-				"The path awaits—&nwill you rise to the occasion?&r 🌀"
+				"The path awaits-&nwill you rise to the occasion?&r"
 				""
 				"{@pagebreak}"
 				""
@@ -538,42 +504,36 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Conquer the reimagined journey to the End and forge your legend. Click me for more info!"
+			subtitle: "Conquer the reimagined journey to the End and progress through its unique challenges. Click for more info!"
 			tasks: [{
 				id: "7239EA06CCC9AF48"
 				item: "minecraft:ender_pearl"
 				type: "item"
 			}]
-			title: "Eyes of Destiny"
+			title: "&6Eyes of Destiny&r"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["58F4190183C467EE"]
 			description: [
-				"The &6Tier 5 Rocket&r, exclusive to &6Create - Forge Frontier&r, marks the next great leap in your journey—a triumph of engineering, exploration, and perseverance.  "
-				"This is not merely a rocket—it is the culmination of your mastery over the End and beyond, forged through rare resources, strategic progression, and the innovative power of the Create ecosystem."
+				"The &6Tier 5 Rocket&r serves as a major late-game milestone within &6Create - Forge Frontier&r. This advanced spacecraft is exclusive to the pack and represents the next significant step in interplanetary progression. Constructing it requires materials sourced from the End Dimension, alongside specialized components obtained throughout your earlier exploration tiers."
 				""
-				"Unlocking this marvel requires more than skill; it demands &ncourage and ingenuity&r.  "
-				"Only by conquering the End Dimension, defeating the Ender Dragon, and securing the treasures hidden within the vast, reshaped End can you begin crafting this masterpiece of technology."
+				"Reaching this stage indicates mastery of key systems, including resource automation, combat readiness, and multi-dimensional navigation."
 				""
 				"{@pagebreak}"
 				""
-				"&l🚀 The Gateway to Alien Worlds&r  "
-				"The &6Tier 5 Rocket&r unlocks the &bAlex’s Caves Biome Planets&r—uncharted alien worlds teeming with life, mystery, and opportunity.  "
-				"Explore lush underground forests, shimmering crystalline caverns, dynamic biomes, and unearth forgotten treasures scattered among the stars."
+				"&lThe Gateway to Alien Worlds&r"
+				"With the Tier 5 Rocket, you gain access to the &bAlex’s Caves Biome Planets&r—unique worlds featuring specialized biomes, rare materials, and new exploration challenges. These planets include underground forests, crystalline caverns, and other environments designed to expand your late-game resource pool and progression options."
 				""
-				"Each planet offers unique challenges, breathtaking landscapes, and rare resources, making your achievement of the Tier 5 Rocket truly legendary."
+				"Each destination provides new opportunities for gathering advanced materials required for higher tiers of engineering and exploration."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌌 More Than a Rocket—A Legacy&r  "
-				"This rocket is more than a vessel; it is a &nsymbol of your progress&r, a testament to the adventures you've conquered, and a key to unlocking the next era of interplanetary discovery."
+				"&lA Late-Game Milestone&r"
+				"The Tier 5 Rocket functions as both a technological achievement and a progression gateway. Its construction demonstrates your advancement across multiple dimensions and systems while granting access to the rarest resources available in the pack."
 				""
-				"The Tier 5 Rocket fuses exploration, creativity, and engineering into one awe-inspiring achievement.  "
-				"Prepare to soar beyond familiar skies, carve your mark across alien worlds, and set your legend among the stars."
-				""
-				"Gear up. Launch forth. &nThe next chapter of your adventure awaits in the boundless cosmos!&r 🚀✨"
+				"Use this rocket to push deeper into late-game exploration, secure specialized materials, and continue developing the infrastructure needed for future objectives."
 				""
 				"{@pagebreak}"
 				""
@@ -595,7 +555,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft the Tier 5 Rocket and unlock the wonders of distant alien worlds. Click me for more info!"
+			subtitle: "Craft the Tier 5 Rocket and access distant alien worlds. Click for more info!"
 			tasks: [{
 				id: "32A8E231B0798A84"
 				item: {
@@ -605,42 +565,38 @@
 				}
 				type: "item"
 			}]
-			title: "Forging the Cosmic Frontier"
+			title: "&6Forging the Cosmic Frontier&r"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E5C57802F26496D"]
 			description: [
-				"The &6Forge Rocket&r stands as the pinnacle of innovation, mastery, and ambition within &6Create - Forge Frontier&r.  "
-				"Painstakingly crafted from elements across the entire modpack, this completely custom rocket is a testament to your journey—the culmination of every challenge you’ve conquered and every skill you’ve honed."
+				"The &6Forge Rocket&r represents the highest tier of engineering within &6Create - Forge Frontier&r. It is a custom-designed spacecraft that draws upon materials, mechanics, and systems found throughout the entire modpack. Constructing it signifies a major late-game milestone and reflects mastery over automation, dimensional progression, and resource refinement."
 				""
-				"Built through the synergy of multiple mods, resources, and complex mechanics, the Forge Rocket demands automation, exploration, and resource refinement at the highest level.  "
-				"Every intricate component, every roaring booster, is a reflection of your relentless pursuit of the skies."
+				"Every component of the Forge Rocket requires advanced infrastructure, efficient material processing, and integration of multiple modded systems."
 				""
 				"{@pagebreak}"
 				""
-				"&l🚀 A Gateway to New Frontiers&r  "
-				"The Forge Rocket is not just a marvel of engineering—it is the key to unlocking an entirely new world: the mysterious planet known as &6The Forge&r.  "
-				"While currently inaccessible, this realm promises to offer unparalleled challenges, rare resources, and the grand culmination of your adventure across the stars."
+				"&lA Gateway to New Frontiers&r"
+				"The Forge Rocket is designed to access &6The Forge&r—a future endgame destination planned to introduce new challenges, rare resources, and high-tier progression content. While this world is not yet available, preparing the rocket establishes the foundation for upcoming expansions and future objectives."
 				""
-				"The journey does not end with liftoff—it is only just beginning."
-				""
-				"{@pagebreak}"
-				""
-				"&l🛠 Prepare for Greatness&r  "
-				""
-				"- Gather rare materials scattered across the Overworld, Nether, and End Dimensions."
-				"- Master the most advanced crafting systems using &eCreate&r and its powerful addons."
-				"- Assemble the mighty Forge Rocket—the vessel that will propel you toward your ultimate destiny."
+				"Building the Forge Rocket ensures that your late-game infrastructure is ready for the next phase of exploration."
 				""
 				"{@pagebreak}"
 				""
-				"&l🌌 More Than a Rocket—A Legend Forged&r  "
-				"The Forge Rocket is more than a tool of exploration—it is the embodiment of your adventure, your resilience, and your limitless creativity."
+				"&lPrepare for Greatness&r"
 				""
-				"Build it. Launch it.  "
-				"And prepare yourself for the wonders—and challenges—that await beyond the stars. 🌌✨"
+				"- Acquire rare materials from the Overworld, Nether, and End Dimensions."
+				"- Utilize advanced automation and processing systems powered by &eCreate&r and its addon ecosystem."
+				"- Assemble the Forge Rocket using high-tier components crafted from late-game materials and multi-stage production chains."
+				""
+				"{@pagebreak}"
+				""
+				"&lA Defining Milestone&r"
+				"The Forge Rocket serves as both a technical achievement and a symbol of progression. Completing it demonstrates your ability to manage complex resource systems, refine high-tier components, and integrate a broad range of mechanics."
+				""
+				"Construct the rocket, prepare your equipment, and set the stage for future exploration as new content becomes available."
 				""
 				"{@pagebreak}"
 				""
@@ -655,7 +611,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Assemble the ultimate rocket and prepare to conquer the stars. Click me for more info!"
+			subtitle: "Assemble the ultimate rocket and advance toward late-game exploration. Click for more info!"
 			tasks: [{
 				id: "3F4794BFDCC200A7"
 				item: {
@@ -665,45 +621,42 @@
 				}
 				type: "item"
 			}]
-			title: "Forging the Final Frontier"
+			title: "&6Forging the Final Frontier&r"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"Your journey begins in the &aOverworld&r—a vibrant, living world brimming with resources, custom biomes, and ancient structures waiting to be uncovered.  "
-				"As you master this land, you’ll unlock the mysteries of &cNether Remastered&r, where powerful Overworld artifacts open the gateway to a dimension of fire, danger, and unimaginable reward."
+				"Your adventure begins in the &aOverworld&r, a diverse and resource-rich environment filled with custom biomes, ancient structures, and new opportunities for progression. As you establish your footing, you will uncover the path to &cNether Remastered&r, where a set of unique Overworld artifacts unlocks access to a challenging dimension shaped by heat, danger, and valuable materials."
 				""
-				"Each step forward brings new challenges, new discoveries, and new horizons to chase."
-				""
-				"{@pagebreak}"
-				""
-				"&l🚀 Journey Beyond the Sky&r  "
-				"With the construction of your first &eTier 1 Rocket&r, the stars themselves become your next frontier.  "
-				"Travel to the planets of &6Ad Astra&r, where every world brings its own challenges, dangers, and opportunities for rare resource gathering."
-				""
-				"Venture even deeper into the unknown by braving the darkness and defeating the &9Warden&r—unlocking the portal to the &5Otherside&r, an eerie, spectral dimension brimming with forbidden secrets and ancient mysteries."
+				"Each milestone expands your capabilities and prepares you for the worlds ahead."
 				""
 				"{@pagebreak}"
 				""
-				"&l🐲 Conquer the End—and Beyond&r  "
-				"Enter the reimagined &5End Remastered&r, where new progression mechanics and an intense Dragon Fight await.  "
-				"Face revamped terrain, hidden dangers, and breathtaking exploration as you claim rare treasures from this unforgiving realm."
+				"&lJourney Beyond the Sky&r"
+				"Once you construct your first &eTier 1 Rocket&r, interplanetary travel becomes possible. The &6Ad Astra&r system introduces a range of planets, each with distinct hazards, environmental mechanics, and rare resources essential for advanced crafting and engineering."
 				""
-				"Craft the mighty &eTier 5 Rocket&r from the spoils of the End, and prepare to pierce the veil once again—this time journeying to the worlds hidden within &bAlex’s Caves&r, where each planet houses extraordinary biomes and untapped wonders."
-				""
-				"{@pagebreak}"
-				""
-				"&l🔥 Forge Your Ultimate Legacy&r  "
-				"Finally, ascend to your greatest challenge yet—constructing the &6Forge Rocket&r, a masterpiece of engineering that draws upon the strength, creativity, and perseverance forged across your entire journey."
-				""
-				"The &6Forge Planet&r awaits—a mysterious world shaped by the ambitions of adventurers like you, setting the stage for a future filled with limitless exploration and new adventures."
+				"Further progression leads you to confront the &9Warden&r and secure access to the &5Otherside&r, a spectral dimension housing powerful materials and late-game progression routes."
 				""
 				"{@pagebreak}"
 				""
-				"🌌 &nYour journey is only just beginning.&r  "
-				"Conquer dimensions. Claim the stars.  "
-				"Forge your destiny and carve your legacy among the worlds—this chapter is your guide to mastering the frontier and beyond! 🚀✨"
+				"&lConquer the End and Advance Further&r"
+				"The redesigned &5End Remastered&r presents new progression mechanics and a more strategic Dragon Fight. Navigate altered terrain, uncover hidden structures, and obtain specialized materials that enable critical late-game technologies."
+				""
+				"With the rewards gathered here, you can construct the &eTier 5 Rocket&r and journey into &bAlex’s Caves&r, where each world features unique biomes, environmental challenges, and specialized resources required for high-tier advancement."
+				""
+				"{@pagebreak}"
+				""
+				"&lForge Your Ultimate Legacy&r"
+				"Your final major objective is the construction of the &6Forge Rocket&r, a culmination of everything you have achieved so far. This advanced vessel grants access to the &6Forge Planet&r, a specialized endgame world designed to test your engineering, resource management, and exploration skills."
+				""
+				"This destination serves as the launch point for future expansions, greater challenges, and long-term mastery of the pack."
+				""
+				"{@pagebreak}"
+				""
+				"&nYour journey continues from here.&r"
+				"Explore every dimension. Push deeper into progression.  "
+				"Forge your legacy across worlds and rise to meet the frontier ahead."
 			]
 			hide_dependent_lines: true
 			icon: "ad_astra:earth_globe"
@@ -715,7 +668,7 @@
 			}]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Master the dimensions, conquer the skies, and forge your legacy. Click me to learn more!"
+			subtitle: "Master the dimensions, expand your reach, and push your journey forward. Click to learn more!"
 			tasks: [{
 				id: "6C2D675A19C834AB"
 				secret: true
@@ -723,20 +676,18 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Beyond Worlds, Beyond Stars"
+			title: "&6Beyond Worlds, Beyond Stars&r"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5EDC9934E7D346D8"]
 			description: [
-				"In &cNether Remastered&r, the path to unlocking the Nether becomes an epic adventure all its own.  "
-				"Before you can step into the fiery depths, you must first explore key structures scattered across the Overworld—each one hiding treasures crucial to your progression."
+				"In &cNether Remastered&r, accessing the Nether is no longer immediate. Instead, your progression begins in the &aOverworld&r, where specific structures hold the components required to unlock this dimension. These locations contain valuable relics, resources, and clues that guide you toward the next stage of advancement."
 				""
-				"Seek out these hidden relics, uncover ancient secrets, and gather rare resources as you prepare for the final step: consuming the &eSeal of the Underworld&r—a powerful artifact that shatters the boundary between worlds and unlocks the gateway to the Nether."
+				"Your objective is to explore these structures, collect the necessary materials, and assemble the items needed to prepare for entry. Once the final components are secured, you must obtain and consume the &eSeal of the Underworld&r—a specialized artifact that removes the dimensional barrier and grants access to the Nether."
 				""
-				"This carefully crafted journey transforms the Nether from a simple destination into a &ntrue milestone&r—one earned through exploration, challenge, and perseverance.  "
-				"Will you rise to the challenge and claim your place in the heart of the underworld? 🌋✨"
+				"This process transforms the Nether into a true progression milestone, ensuring that your entry is earned through exploration, preparation, and deliberate advancement."
 				""
 				"{@pagebreak}"
 				""
@@ -765,16 +716,16 @@
 					xp: 100
 				}
 			]
-			subtitle: "Embark on an epic journey to break the seal and claim the power of the Nether. Click me for more info!"
+			subtitle: "Embark on a structured journey to break the seal and access the Nether. Click for more info!"
 			tasks: [{
 				id: "747844B5BB8915E0"
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
-			title: "Unlocking the Depths"
+			title: "&6Unlocking the Depths&r"
 			x: -7.5d
 			y: 0.0d
 		}
 	]
-	title: "Dimensional Progression"
+	title: "Overall Progression"
 }

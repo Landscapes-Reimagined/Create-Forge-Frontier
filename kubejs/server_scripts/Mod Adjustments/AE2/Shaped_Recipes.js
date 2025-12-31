@@ -1,5 +1,23 @@
 ServerEvents.recipes(event => 
     {
+        // Spatial IO Port Recipe
+            event.remove({ id: 'ae2:network/blocks/spatial_io_port' })
+            event.shaped(
+                Item.of('ae2:spatial_io_port'),
+                [
+                    'GGG',
+                    'CmC',
+                    'IEI'
+                ],
+                {
+                    G: '#c:glass_blocks',
+                    C: 'ae2:fluix_glass_cable',
+                    m: '#forge_frontier:mini_dimension',
+                    I: 'minecraft:iron_ingot',
+                    E: 'ae2:engineering_processor'
+                }
+            ).id('forge_frontier:shaped/spatial_io_port')
+
         // Charger Recipe
             event.remove({ id: "ae2:network/blocks/crystal_processing_charger"})
             event.shaped(

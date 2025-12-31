@@ -39,7 +39,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Useful Power Additions"
+			subtitle: "Useful Power Additions."
 			tasks: [{
 				id: "5C47662063AF3A86"
 				title: "Check Me after Reading!"
@@ -78,7 +78,7 @@
 			]
 			shape: "circle"
 			size: 1.0d
-			subtitle: "Magnetic Machinations"
+			subtitle: "Magnetic Machinations."
 			tasks: [
 				{
 					id: "767A19C407967F2C"
@@ -119,7 +119,7 @@
 			]
 			shape: "pentagon"
 			size: 1.0d
-			subtitle: "Stone to Power"
+			subtitle: "Stone to Power."
 			tasks: [{
 				count: 6L
 				id: "0D8BCB0504FF47AE"
@@ -147,7 +147,7 @@
 					xp_levels: 2
 				}
 			]
-			subtitle: "First Sparks"
+			subtitle: "First Sparks."
 			tasks: [{
 				count: 12L
 				id: "1619E366144848A4"
@@ -175,7 +175,7 @@
 					xp_levels: 3
 				}
 			]
-			subtitle: "Gold Rush"
+			subtitle: "Gold Rush."
 			tasks: [{
 				count: 12L
 				id: "023145B68FC6764A"
@@ -203,7 +203,7 @@
 					xp_levels: 4
 				}
 			]
-			subtitle: "Gem-Cracked Potential"
+			subtitle: "Gem-Cracked Potential."
 			tasks: [{
 				count: 12L
 				id: "43D2E22803997416"
@@ -232,7 +232,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Ultimate Polarity"
+			subtitle: "Ultimate Polarity."
 			tasks: [{
 				count: 12L
 				id: "1A8EED1AB0487A31"
@@ -249,13 +249,13 @@
 				"6A8DA61B15FB4C3C"
 			]
 			description: [
-				"To get started with energizing, craft a Basic Energizer — the machine responsible for infusing blocks with magnetic potential. Use an Andesite Casing and a Lightning Rod to make it. Once placed, provide it with rotational force and energy."
+				"To get started with energizing, craft a Basic Energizer - the machine responsible for infusing blocks with magnetic potential. Use an Andesite Casing and a Lightning Rod to make it. Once placed, provide it with rotational force and energy."
 				""
 				"Attach an Electrical Connector to the Carbon Brushes and set it to Pull by right clicking with the Wrench. Then, place another connector on the side or top of the Energizer and set it to Push. Connect them with any wire to complete the circuit and begin energizing."
 				""
 				"Use the Ponder menu if you get stuck!"
 			]
-			icon: "create_new_age:energiser_t1"
+			icon: "create_new_age:basic_energiser"
 			id: "472F303E962BE330"
 			rewards: [
 				{
@@ -270,11 +270,11 @@
 					xp: 10
 				}
 			]
-			subtitle: "Kickstart the Current"
+			subtitle: "Kickstart the Current."
 			tasks: [
 				{
 					id: "0582B934B8822414"
-					item: "create_new_age:energiser_t1"
+					item: "create_new_age:basic_energiser"
 					type: "item"
 				}
 				{
@@ -308,10 +308,10 @@
 					xp: 30
 				}
 			]
-			subtitle: "Supercharged Solutions"
+			subtitle: "Supercharged Solutions."
 			tasks: [{
 				id: "1B616EF7B1E56371"
-				item: "create_new_age:energiser_t2"
+				item: "create_new_age:advanced_energiser"
 				type: "item"
 			}]
 			title: "Advanced Energizer - Tier 2"
@@ -324,7 +324,7 @@
 				"0A97CA02BB7E91FB"
 			]
 			description: [
-				"The Reinforced Energizer kicks production into overdrive — boasting a blazing 4x speed increase over the Advanced Energizer, and a massive 1M SU internal buffer. "
+				"The Reinforced Energizer kicks production into overdrive - boasting a blazing 4x speed increase over the Advanced Energizer, and a massive 1M SU internal buffer. "
 				""
 				"This beast is built for high-throughput energizing and will energize materials faster than anything before it."
 			]
@@ -341,10 +341,10 @@
 					xp: 100
 				}
 			]
-			subtitle: "Industrial Infusion"
+			subtitle: "Industrial Infusion."
 			tasks: [{
 				id: "2B3AE69388180F95"
-				item: "create_new_age:energiser_t3"
+				item: "create_new_age:reinforced_energiser"
 				type: "item"
 			}]
 			title: "Reinforced Energizer - Tier 3"
@@ -372,7 +372,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Supercharged Simplicity"
+			subtitle: "Supercharged Simplicity."
 			tasks: [{
 				id: "71EB3E9538E74A38"
 				item: "create_new_age:overcharged_iron"
@@ -402,7 +402,7 @@
 					xp: 30
 				}
 			]
-			subtitle: "Golden Age"
+			subtitle: "Golden Age."
 			tasks: [{
 				id: "2D78B518F6EC8208"
 				item: "create_new_age:overcharged_gold"
@@ -432,7 +432,7 @@
 					xp: 50
 				}
 			]
-			subtitle: "Conductive Carbon"
+			subtitle: "Conductive Carbon."
 			tasks: [{
 				id: "07B2E44DA6D738AF"
 				item: "create_new_age:overcharged_diamond"
@@ -508,7 +508,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Blaze Burners... Without the Blaze"
+			subtitle: "Blaze Burners... Without the Blaze."
 			tasks: [
 				{
 					id: "05D891E3FA0A4755"
@@ -550,7 +550,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "More Heat, Same Sun"
+			subtitle: "More Heat, Same Sun."
 			tasks: [{
 				id: "74EA8FD1B6AFCA81"
 				item: "create_new_age:advanced_solar_heating_plate"
@@ -615,7 +615,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Heat In, Power Out"
+			subtitle: "Heat In, Power Out."
 			tasks: [{
 				id: "2CBC2654897C15E2"
 				item: "create_new_age:stirling_engine"
@@ -649,7 +649,7 @@
 			]
 			shape: "pentagon"
 			size: 1.5d
-			subtitle: "Harnessing the Sun"
+			subtitle: "Harnessing the Sun."
 			tasks: [
 				{
 					id: "157D5BCC89DE07BE"
@@ -731,7 +731,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Feeding and Venting Your Reactor"
+			subtitle: "Feeding and Venting Your Reactor."
 			tasks: [
 				{
 					id: "7C7E5632F3C97694"
@@ -771,7 +771,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Handle With Care"
+			subtitle: "Handle With Care."
 			tasks: [
 				{
 					count: 4L
@@ -809,7 +809,7 @@
 			]
 			shape: "pentagon"
 			size: 0.75d
-			subtitle: "The Basics of Power"
+			subtitle: "The Basics of Power."
 			tasks: [{
 				count: 4L
 				id: "239C5089E2E927FC"
@@ -838,7 +838,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "Improved Throughput"
+			subtitle: "Improved Throughput."
 			tasks: [{
 				count: 4L
 				id: "65256C0B4220C923"
@@ -873,7 +873,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "Greater Throughput"
+			subtitle: "Greater Throughput."
 			tasks: [{
 				count: 4L
 				id: "2D28906ED7AE253C"
@@ -902,7 +902,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "Maximum Throughput"
+			subtitle: "Maximum Throughput."
 			tasks: [{
 				count: 4L
 				id: "20D419259D8F0643"
@@ -944,7 +944,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Heat and High Voltage"
+			subtitle: "Heat and High Voltage."
 			tasks: [{
 				id: "54811945BD0F9E5C"
 				title: "Click Me!"
@@ -983,7 +983,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Connecting Current"
+			subtitle: "Connecting Current."
 			tasks: [
 				{
 					count: 3L
@@ -1011,7 +1011,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Cheap Transfer"
+			subtitle: "Cheap Transfer."
 			tasks: [{
 				id: "3FF9EFC18F421DAF"
 				item: {
@@ -1071,7 +1071,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Superior Sanding"
+			subtitle: "Superior Sanding."
 			tasks: [{
 				id: "6A7D453B0B6886A9"
 				item: {
@@ -1104,7 +1104,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Power in a Pinch"
+			subtitle: "Power in a Pinch."
 			tasks: [{
 				id: "4D4184D82AAE6172"
 				item: "createaddition:alternator"
@@ -1135,7 +1135,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "The Inferior Motor"
+			subtitle: "The Inferior Motor."
 			tasks: [{
 				id: "470DE10D2EFDA28C"
 				item: "createaddition:electric_motor"
@@ -1161,7 +1161,7 @@
 					xp: 20
 				}
 			]
-			subtitle: "Power Storage"
+			subtitle: "Power Storage."
 			tasks: [{
 				id: "77B2B72C651887DB"
 				item: "createaddition:modular_accumulator"
@@ -1192,7 +1192,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "The Cooler Energizer"
+			subtitle: "The Cooler Energizer."
 			tasks: [{
 				id: "55F96AFEF20E16D7"
 				item: "createaddition:tesla_coil"
@@ -1224,7 +1224,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Contraption Connection"
+			subtitle: "Contraption Connection."
 			tasks: [{
 				id: "6425B59B093817D7"
 				item: "createaddition:portable_energy_interface"
@@ -1279,7 +1279,7 @@
 					xp: 25
 				}
 			]
-			subtitle: "Basic Fuel"
+			subtitle: "Basic Fuel."
 			tasks: [
 				{
 					count: 10L
@@ -1320,7 +1320,7 @@
 					xp: 10
 				}
 			]
-			subtitle: "Organic Power"
+			subtitle: "Organic Power."
 			tasks: [{
 				id: "295890A789D9AB75"
 				item: "createaddition:biomass"
@@ -1347,7 +1347,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "Eco - Friendly Fuel"
+			subtitle: "Eco - Friendly Fuel."
 			tasks: [{
 				id: "7A4DCCD83B5AC35F"
 				item: "createaddition:bioethanol_bucket"
@@ -1394,7 +1394,7 @@
 				xp: 10
 			}]
 			size: 1.0d
-			subtitle: "Logical Energy"
+			subtitle: "Logical Energy."
 			tasks: [{
 				id: "5E978660BF95B488"
 				item: "createaddition:redstone_relay"
@@ -1422,7 +1422,7 @@
 				}
 			]
 			size: 0.9d
-			subtitle: "Sustainable Fuel"
+			subtitle: "Sustainable Fuel."
 			tasks: [
 				{
 					id: "0045CA41B8ECC52C"
@@ -1462,7 +1462,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Electricity and Heat"
+			subtitle: "Electricity and Heat."
 			tasks: [{
 				id: "623C763F2EDF3AB5"
 				title: "Click Me!"

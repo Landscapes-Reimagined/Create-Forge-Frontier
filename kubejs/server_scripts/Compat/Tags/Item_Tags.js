@@ -1,5 +1,61 @@
 ServerEvents.tags('item', event => 
     {
+        // Chipped Tables
+            event.add('forge_frontier:chipped_tables',[
+                "chipped:botanist_workbench",
+                "chipped:glassblower",
+                "chipped:carpenters_table",
+                "chipped:loom_table",
+                "chipped:mason_table",
+                "chipped:alchemy_bench",
+                "chipped:tinkering_table"
+            ])
+        // Construction Wands
+            event.add('forge_frontier:construction_wands', [
+                "constructionwand:stone_wand",
+                "constructionwand:iron_wand",
+                "constructionwand:diamond_wand",
+                "constructionwand:infinity_wand"
+            ])
+
+        // Building Gadgets
+            event.add('forge_frontier:building_gadgets',[
+                "buildinggadgets2:gadget_building",
+                "buildinggadgets2:gadget_exchanging",
+                "buildinggadgets2:gadget_copy_paste",
+                "buildinggadgets2:gadget_cut_paste",
+                "buildinggadgets2:gadget_destruction"
+            ])
+
+        // Industial Iron Tag
+            event.add('forge:ingots/industrial_iron', 'createdeco:industrial_iron_ingot')
+            
+        // Brass Chunk Loader Tag
+            event.add('forge_frontier:chunk_loader/brass', [
+                'create_power_loader:brass_chunk_loader',
+                'create_power_loader:empty_brass_chunk_loader'
+            ])
+        // Mini Dimension Tag
+            event.add('forge_frontier:mini_dimension',[
+                'hyperbox:hyperbox',
+                'compactmachines:machine_maximum'
+            ])
+
+        // Steel Block
+            event.add('forge:storage_blocks/steel', [
+                'ad_astra:steel_block',
+                'create_dd:steel_block'
+            ])
+
+        // Pipe Connector Placeable Tag
+            event.add('pipe_connector:placeable_items', [
+                'create_new_age:heat_pipe',
+                'ad_astra:desh_fluid_pipe',
+                'ad_astra:ostrum_fluid_pipe',
+                'ad_astra:fluid_pipe_duct',
+                'copycats:copycat_fluid_pipe'
+            ])
+
         // Forge Wrench Tags
             event.add('forge:wrenches', 'prettypipes:wrench')
             event.add('forge:tools/wrench', 'prettypipes:wrench')
@@ -385,7 +441,7 @@ ServerEvents.tags('item', event =>
                 "deeperdarker:sculk_grime",
                 "enlightened_end:void_shale", 
                 "minecraft:ancient_debris", 
-                "forge_frontier:resonite"
+                "forge_frontier:resonite",
             ];
 
             createStones.forEach(stone => {

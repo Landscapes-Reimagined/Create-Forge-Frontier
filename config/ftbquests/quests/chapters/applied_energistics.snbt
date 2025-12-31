@@ -13,7 +13,7 @@
 		x: 0.5d
 		y: -10.5d
 	}]
-	order_index: 6
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,7 +41,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "Mercury's Best Kept Secret"
+			subtitle: "Mercury's Best Kept Secret."
 			tasks: [{
 				dimension: "ad_astra:mercury"
 				icon: "ad_astra:mercury_globe"
@@ -74,7 +74,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Unearth The Mystery"
+			subtitle: "Unearth The Mystery."
 			tasks: [
 				{
 					icon: "ae2:meteorite_compass"
@@ -185,7 +185,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "More Certus Quartz"
+			subtitle: "More Certus Quartz."
 			tasks: [{
 				id: "63FF453D3AAB682C"
 				item: "ae2:growth_accelerator"
@@ -215,7 +215,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Powering Your Devices"
+			subtitle: "Powering Your Devices."
 			tasks: [{
 				id: "3C0886946963ADBB"
 				item: "ae2:charger"
@@ -247,7 +247,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Powering Your Network"
+			subtitle: "Powering Your Network."
 			tasks: [{
 				id: "5F9360158D220342"
 				item: "ae2:energy_acceptor"
@@ -272,7 +272,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Powdered Potential"
+			subtitle: "Powdered Potential."
 			tasks: [{
 				id: "3A64588C20B234C7"
 				item: "ae2:certus_quartz_dust"
@@ -310,7 +310,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Processor Beginnings"
+			subtitle: "Processor Beginnings."
 			tasks: [{
 				id: "07FAFFCEC801D0F2"
 				item: "ae2:silicon"
@@ -337,7 +337,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Tiny Chips"
+			subtitle: "Tiny Chips."
 			tasks: [
 				{
 					id: "347E1B5FEA41E910"
@@ -394,7 +394,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Logic, Calculation, and Engineering"
+			subtitle: "Logic, Calculation, and Engineering."
 			tasks: [
 				{
 					id: "390696F276786C83"
@@ -440,7 +440,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Chaos Crystals"
+			subtitle: "Chaos Crystals."
 			tasks: [
 				{
 					id: "773D17FA21CAB816"
@@ -474,7 +474,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Power Without Channels"
+			subtitle: "Power Without Channels."
 			tasks: [{
 				id: "795DC27BE0D64B86"
 				item: "ae2:quartz_fiber"
@@ -507,7 +507,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Easy Connectivity"
+			subtitle: "Easy Connectivity."
 			tasks: [
 				{
 					id: "2821041F5B307C80"
@@ -574,7 +574,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Monitor Your Usage"
+			subtitle: "Monitor Your Usage."
 			tasks: [
 				{
 					id: "11FECCF69D7A3B02"
@@ -639,7 +639,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Smart Computer"
+			subtitle: "Smart Computer."
 			tasks: [{
 				id: "14AAC027BF15D626"
 				item: "ae2:controller"
@@ -676,7 +676,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "The ME Chest and Drive"
+			subtitle: "The ME Chest and Drive."
 			tasks: [
 				{
 					id: "72EBE2CEC463B14B"
@@ -710,7 +710,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Separation"
+			subtitle: "Separation."
 			tasks: [{
 				id: "7F44EA7AC5C7C057"
 				item: "ae2:io_port"
@@ -739,7 +739,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Tier 1"
+			subtitle: "Tier 1."
 			tasks: [{
 				id: "69D9A5A4C9830230"
 				item: "ae2:cell_component_1k"
@@ -765,7 +765,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Tier 2"
+			subtitle: "Tier 2."
 			tasks: [{
 				id: "4B28767CB07E9F0E"
 				item: "ae2:cell_component_4k"
@@ -790,7 +790,7 @@
 					xp: 300
 				}
 			]
-			subtitle: "Tier 3"
+			subtitle: "Tier 3."
 			tasks: [{
 				id: "6C98BADE2F4E35A1"
 				item: "ae2:cell_component_16k"
@@ -815,7 +815,7 @@
 					xp: 350
 				}
 			]
-			subtitle: "Tier 4"
+			subtitle: "Tier 4."
 			tasks: [{
 				id: "6F524422592374B6"
 				item: "ae2:cell_component_64k"
@@ -840,7 +840,7 @@
 					xp: 400
 				}
 			]
-			subtitle: "Tier 5"
+			subtitle: "Tier 5."
 			tasks: [{
 				id: "529FF3589F08B770"
 				item: "ae2:cell_component_256k"
@@ -865,7 +865,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.25d
-			subtitle: "A Smarter Table"
+			subtitle: "A Smarter Table."
 			tasks: [{
 				id: "685CCD98824A37CE"
 				item: "ae2:cell_workbench"
@@ -904,7 +904,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Stored Potential"
+			subtitle: "Stored Potential."
 			tasks: [{
 				id: "32B06C46D867AD57"
 				item: {
@@ -935,7 +935,7 @@
 					xp: 250
 				}
 			]
-			subtitle: "Now We're Getting Somewhere"
+			subtitle: "Now We're Getting Somewhere."
 			tasks: [{
 				id: "1C0D817D6CF1BA68"
 				item: "ae2:crafting_terminal"
@@ -965,7 +965,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Faster Separation"
+			subtitle: "Faster Separation."
 			tasks: [{
 				id: "1C74581AA3EF7E0B"
 				item: "expatternprovider:ex_io_port"
@@ -990,7 +990,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "No More 2x2 Water Hole"
+			subtitle: "No More 2x2 Water Hole."
 			tasks: [{
 				id: "12BC0674E90DC232"
 				item: {
@@ -1031,7 +1031,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Accessing Your System"
+			subtitle: "Accessing Your System."
 			tasks: [{
 				id: "1187C4DDEF47935B"
 				item: "ae2:terminal"
@@ -1058,7 +1058,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Digital Fluids"
+			subtitle: "Digital Fluids."
 			tasks: [{
 				id: "3B83D8D34EDC220F"
 				item: "ae2:fluid_cell_housing"
@@ -1084,7 +1084,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Digital Items"
+			subtitle: "Digital Items."
 			tasks: [{
 				id: "2A7C3D64E9AA42F6"
 				item: "ae2:item_cell_housing"
@@ -1121,7 +1121,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "The Beginnings of Automation"
+			subtitle: "The Beginnings of Automation."
 			tasks: [{
 				id: "237691D6F3D3C3C9"
 				item: "ae2:pattern_provider"
@@ -1329,7 +1329,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "No Types Necessary"
+			subtitle: "No Types Necessary."
 			tasks: [{
 				id: "6E659090D7356E99"
 				item: "ae2things:disk_housing"
@@ -1356,7 +1356,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Another Server Rack"
+			subtitle: "Another Server Rack."
 			tasks: [{
 				id: "47E7163C17434B8D"
 				item: "expatternprovider:ex_drive"
@@ -1391,7 +1391,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Manipulating Matter"
+			subtitle: "Manipulating Matter."
 			tasks: [
 				{
 					id: "25898213439396BF"
@@ -1553,7 +1553,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Subnet Recommended"
+			subtitle: "Subnet Recommended."
 			tasks: [{
 				id: "5E05A595D1E52021"
 				item: "ae2:formation_plane"
@@ -1579,7 +1579,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "No Subnet Necessary"
+			subtitle: "No Subnet Necessary."
 			tasks: [{
 				id: "38D1FFF809600B45"
 				item: "expatternprovider:active_formation_plane"
@@ -1609,7 +1609,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Subnet Recommended"
+			subtitle: "Subnet Recommended."
 			tasks: [{
 				id: "3F84CEB32B55093C"
 				item: "ae2:annihilation_plane"
@@ -1682,7 +1682,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Aperture Science"
+			subtitle: "Aperture Science."
 			tasks: [
 				{
 					id: "51788FF0C21B9CEB"
@@ -1737,7 +1737,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "ME Chute"
+			subtitle: "ME Chute."
 			tasks: [{
 				id: "6C53A523D2435256"
 				item: "ae2:export_bus"
@@ -1763,7 +1763,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Faster Exporting"
+			subtitle: "Faster Exporting."
 			tasks: [{
 				id: "350E2A88741E252D"
 				item: "expatternprovider:ex_export_bus_part"
@@ -1795,7 +1795,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Create, Digitized"
+			subtitle: "Create, Digitized."
 			tasks: [{
 				id: "6457D317B1D8F73D"
 				item: "createstockbridge:ae_bridge"
@@ -1821,7 +1821,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "ME Funnel"
+			subtitle: "ME Funnel."
 			tasks: [{
 				id: "36183DE57EA4CAF1"
 				item: "ae2:import_bus"
@@ -1847,7 +1847,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Faster Importing"
+			subtitle: "Faster Importing."
 			tasks: [{
 				id: "1978A3C3F457B78B"
 				item: "expatternprovider:ex_import_bus_part"
@@ -2015,7 +2015,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "No More Long Cable Lines"
+			subtitle: "No More Long Cable Lines."
 			tasks: [
 				{
 					count: 2L
@@ -2088,7 +2088,7 @@
 					xp: 300
 				}
 			]
-			subtitle: "Option 2"
+			subtitle: "Option 2."
 			tasks: [
 				{
 					id: "27EACDFFBD0CDA98"
@@ -2127,7 +2127,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Black Hole Maker"
+			subtitle: "Black Hole Maker."
 			tasks: [{
 				id: "718C6FB081D3625C"
 				item: "ae2:condenser"
@@ -2160,7 +2160,7 @@
 					xp: 150
 				}
 			]
-			subtitle: "Breaking The Laws of Physics"
+			subtitle: "Breaking The Laws of Physics."
 			tasks: [
 				{
 					id: "0BA0F8143BC1373F"
@@ -2249,7 +2249,7 @@
 					xp: 300
 				}
 			]
-			subtitle: "Option 1"
+			subtitle: "Option 1."
 			tasks: [
 				{
 					count: 8L
@@ -2292,7 +2292,7 @@
 					xp: 200
 				}
 			]
-			subtitle: "Massive Potential"
+			subtitle: "Massive Potential."
 			tasks: [{
 				id: "466A0B29CDCAC26C"
 				item: {
@@ -2908,37 +2908,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"050A7CBA9C26468E"
-				"08192F52ACC5FA21"
-			]
-			description: ["The Spatial Anchor keeps the chunk containing your Spatial IO setup loaded at all times. It also chunk-loads any connected chunks containing AE2 devices or cables, ensuring your entire network stays powered and online. Without it, your Spatial IO operations could fail mid-transfer when you’re far away or in another dimension."]
-			id: "6549A7416BA658ED"
-			rewards: [
-				{
-					id: "63C189709E2DF2B6"
-					item: "ae2:spatial_cell_component_16"
-					type: "item"
-				}
-				{
-					id: "72172B60D4DCB5A6"
-					type: "xp"
-					xp: 300
-				}
-			]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "Create: Power Loader Who?"
-			tasks: [{
-				id: "4A5736611A3D8103"
-				item: "ae2:spatial_anchor"
-				type: "item"
-			}]
-			title: "AE2 Chunkloading"
-			x: 8.5d
-			y: 4.0d
-		}
-		{
 			dependencies: ["2182B348FE0E32CA"]
 			description: [
 				"The Spatial IO Port is the heart of any Spatial IO setup. It controls the cut-and-paste operation that moves entire areas into the spatial storage dimension. It displays important stats like energy usage, required capacity, and setup efficiency. Insert a properly sized Spatial Storage Cell into its input slot and give the port a redstone pulse to swap the defined volume with whatever is saved in the cell."
@@ -3497,7 +3466,7 @@
 					xp: 100
 				}
 			]
-			subtitle: "Beautify Your Network"
+			subtitle: "Beautify Your Network."
 			tasks: [{
 				count: 4L
 				id: "1394E16E21F9BEB0"

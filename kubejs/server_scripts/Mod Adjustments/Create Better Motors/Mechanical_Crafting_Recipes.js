@@ -53,7 +53,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("minecraft:gold_block"),
+                B: Ingredient.of("ad_astra:steel_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_hardened"),
                 M: Ingredient.of("create_better_motors:basic_motor"),
@@ -74,7 +74,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("quark:blaze_lantern"),
+                B: Ingredient.of("ad_astra:calorite_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_blazing"),
                 M: Ingredient.of("create_better_motors:hardened_motor"),
@@ -95,7 +95,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("minecraft:diamond_block"),
+                B: Ingredient.of("forge_frontier:echo_shard_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_niotic"),
                 M: Ingredient.of("create_better_motors:blazing_motor"),
@@ -116,7 +116,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("minecraft:emerald_block"),
+                B: Ingredient.of("enlightened_end:malachite_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_spirited"),
                 M: Ingredient.of("create_better_motors:niotic_motor"),
@@ -137,7 +137,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("createcompression:nether_star_block"),
+                B: Ingredient.of("alexscaves:block_of_scarlet_neodymium"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_nitro"),
                 M: Ingredient.of("create_better_motors:spirited_motor"),
@@ -198,7 +198,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("minecraft:gold_block"),
+                B: Ingredient.of("ad_astra:steel_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_hardened"),
                 T: Ingredient.of("create_better_motors:lava_tube")
@@ -218,7 +218,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("quark:blaze_lantern"),
+                B: Ingredient.of("ad_astra:calorite_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_blazing"),
                 T: Ingredient.of("create_better_motors:lava_tube")
@@ -238,7 +238,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("minecraft:diamond_block"),
+                B: Ingredient.of("forge_frontier:echo_shard_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_niotic"),
                 T: Ingredient.of("create_better_motors:lava_tube")
@@ -258,7 +258,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("minecraft:emerald_block"),
+                B: Ingredient.of("enlightened_end:malachite_block"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_spirited"),
                 T: Ingredient.of("create_better_motors:lava_tube")
@@ -278,7 +278,7 @@ ServerEvents.recipes(event =>
                 " UTU "
             ],
             key: {
-                B: Ingredient.of("createcompression:nether_star_block"),
+                B: Ingredient.of("alexscaves:block_of_scarlet_neodymium"),
                 U: Ingredient.of("powah:uraninite"),
                 C: Ingredient.of("powah:capacitor_nitro"),
                 T: Ingredient.of("create_better_motors:lava_tube")

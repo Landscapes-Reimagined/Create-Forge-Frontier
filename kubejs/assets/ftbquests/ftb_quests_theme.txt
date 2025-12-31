@@ -81,7 +81,7 @@ checkmark_task_inactive: ftblibrary:icons/accept_gray
 [7FDAAF267EECFF92]
 background: ftb:textures/fancymenu_image_1.png
 
-[28ADD89A922E5DC8]
+[15BCAF51F182D972]
 background: ftb:textures/fancymenu_image_2.png 
 
 [430DE687E9BB5176]
@@ -96,8 +96,8 @@ background: ftb:textures/storage_screenshot.png
 [09122EB4ABF3FEBA]
 background: ftb:textures/ae_screenshot.png
 
-[0684E7A732E3B8B1]
-background: ftb:textures/overworld_screenshot.png
+[01EDC3E6B1950771]
+background: ftb:textures/general_dim_background.png
 
 [4939BBE1CB170C9D]
 background: ftb:textures/nether_rem_background.png
@@ -113,6 +113,9 @@ background: ftb:textures/endportalframe.png
 
 [1432839292A29F32]
 background: ftb:textures/end_screenshot.png
+
+[4327F67CBAA5C812]
+background: ftb:textures/ad_astra_background.png
 
 [7187AADA58DBAAC6]
 background: ftb:textures/moon_screenshot.png

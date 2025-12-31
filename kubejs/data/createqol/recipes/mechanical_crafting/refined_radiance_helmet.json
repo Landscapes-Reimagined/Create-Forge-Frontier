@@ -1,0 +1,50 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "createqol:feature_loaded",
+          "feature": "shadow_radiance"
+        }
+      ],
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          "TTTTT",
+          "TNBNT",
+          "TSOST",
+          "T   T"
+        ],
+        "key": {
+          "T": {
+            "item": "create_dd:refined_radiance"
+          },
+          "S": {
+            "tag": "forge:plates/obsidian"
+          },
+          "O": {
+            "item": "create:netherite_diving_helmet"
+          },
+          "N": {
+            "item": "minecraft:tinted_glass"
+          },
+          "B": {
+            "item": "create:goggles"
+          }
+        },
+        "result": {
+          "count": 1,
+          "item": "createqol:refined_radiance_helmet"
+        },
+        "accept_mirrored": false,
+        "copied_slot": 12,
+        "copied_nbts": [
+          "Enchantments",
+          "display.Name",
+          "Trim"
+        ]
+      }
+    }
+  ]
+}

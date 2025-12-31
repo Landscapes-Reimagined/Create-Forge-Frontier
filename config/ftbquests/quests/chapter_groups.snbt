@@ -1,13 +1,8 @@
 {
 	chapter_groups: [
 		{ id: "37A1080736831E36", title: "Informational" }
-		{ id: "1CB9F27D7DE0AEE8", title: "General Progression" }
-		{ id: "522267C8B93A6C20", title: "Ad Astra Progression" }
 		{ id: "3D5393E3938A9DF4", title: "Create Progression" }
+		{ id: "18D089BBC98AE6DA", title: "Exploration Progression" }
 		{ id: "4FAD6EACDA300DDE", title: "Structure Exploration" }
-		{ id: "6D14B55347D8E96C", title: "Boss Progression" }
-		{ id: "7DFCA375E9018DB1", title: "Transportation Progression" }
-		{ id: "47881FC157552E6E", title: "Food Progression" }
-		{ id: "644FFCB546187AB9", title: "Armor and Tool Progression" }
 	]
 }

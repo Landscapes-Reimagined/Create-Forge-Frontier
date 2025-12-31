@@ -1,5 +1,44 @@
 ServerEvents.recipes(event => 
     {
+        // Raw Uraninite Block Recipe
+            event.shaped(
+                Item.of('forge_frontier:raw_uraninite_block'),
+                [
+                    'UUU',
+                    'UUU',
+                    'UUU'
+                ],
+                {
+                    U: "powah:uraninite_raw"
+                }
+            ).id('forge_frontier:shaped/raw_uraninite_block') 
+
+        // Hyper Experience Block Recipe
+            event.shaped(
+                Item.of('create_enchantment_industry:hyper_experience_block'),
+                [
+                    'NNN',
+                    'NNN',
+                    'NNN'
+                ],
+                {
+                    N: 'create_enchantment_industry:hyper_experience_nugget'
+                }
+            ).id('forge_frontier:shaped/hyper_experience_block')
+                    
+        // Dielectric Paste Block Recipe
+            event.shaped(
+                Item.of('forge_frontier:dielectric_paste_block'),
+                [
+                    'PPP',
+                    'PPP',
+                    'PPP'
+                ],
+                {
+                    P: 'powah:dielectric_paste'
+                }
+            ).id('forge_frontier:shaped/dielectric_paste_block')
+
         // Echo Shard Block Recipe
             event.shaped(
                 Item.of('forge_frontier:echo_shard_block'),

@@ -30,10 +30,10 @@ ServerEvents.recipes(event =>
 
     // === Removes broken recipes ===
     [
-      'create_new_age:cutting/copper_sheet',
-      'create_new_age:cutting/overcharged_iron_sheet',
-      'create_new_age:cutting/overcharged_golden_sheet',
-      'create_new_age:diamond_wire'
+      'create_new_age:cutting/copper_wire',
+      'create_new_age:cutting/overcharged_iron_wire',
+      'create_new_age:cutting/overcharged_golden_wire',
+      'create_new_age:sequenced_assembly/overcharged_diamond_wire'
     ].forEach(id => event.remove({ id: id }));
 
     // === Copper Wire Recipe ===

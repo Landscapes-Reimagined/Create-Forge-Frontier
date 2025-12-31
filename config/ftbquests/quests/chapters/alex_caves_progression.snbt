@@ -1,10 +1,11 @@
 {
+	always_invisible: true
 	autofocus_id: "101545B472A483E0"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	default_quest_size: 1.5d
 	filename: "alex_caves_progression"
-	group: "522267C8B93A6C20"
+	group: "18D089BBC98AE6DA"
 	icon: {
 		Count: 1
 		id: "alexscaves:primordial_helmet"
@@ -71,7 +72,7 @@
 			y: 13.5d
 		}
 	]
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -111,7 +112,7 @@
 			]
 			shape: "gear"
 			size: 3.0d
-			subtitle: "Planet 4546B"
+			subtitle: "Planet 4546B."
 			tasks: [
 				{
 					dimension: "forge_frontier:abyssal_chasm"
@@ -338,6 +339,7 @@
 		}
 		{
 			id: "101545B472A483E0"
+			optional: true
 			secret: true
 			tasks: [{
 				id: "71D21BDEEB8C3C2C"

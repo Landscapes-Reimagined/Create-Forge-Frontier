@@ -1,5 +1,30 @@
 ServerEvents.recipes(event => 
     {
+        // Oxygen Mixing Recipe
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        item: 'ad_astra:gas_tank',
+                    },
+                    {
+                        fluid: 'minecraft:water',
+                        amount: 1000
+                    }
+                ],
+                results: [
+                    {
+                         item: 'ad_astra:gas_tank'
+                    },
+                    {
+                        fluid: 'ad_astra:oxygen',
+                        amount: 1000
+                    }
+                ],
+                processingTime: 100, 
+                heatRequirement: "superheated"
+            }).id('forge_frontier:mixing/oxygen') 
+
         // Cryo Fuel Mixing Recipe
             event.custom({
                 type: "create:mixing",

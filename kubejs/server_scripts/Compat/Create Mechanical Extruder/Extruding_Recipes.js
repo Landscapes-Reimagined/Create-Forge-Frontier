@@ -1,5 +1,194 @@
 ServerEvents.recipes(event => 
     {
+        // Sculk Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'deeperdarker:sculk_stone'
+                },
+                result: {
+                item: 'deeperdarker:sculk_stone'
+                }
+            }).id('forge_frontier:extruding/sculk_stone')
+
+        // Moon Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'ad_astra:moon_stone'
+                },
+                result: {
+                item: 'ad_astra:moon_stone'
+                }
+            }).id('forge_frontier:extruding/moon_stone')
+
+        // Mars Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'ad_astra:mars_stone'
+                },
+                result: {
+                item: 'ad_astra:mars_stone'
+                }
+            }).id('forge_frontier:extruding/mars_stone')
+
+        // Venus Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'ad_astra:venus_stone'
+                },
+                result: {
+                item: 'ad_astra:venus_stone'
+                }
+            }).id('forge_frontier:extruding/venus_stone')
+
+        // Mercury Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'ad_astra:mercury_stone'
+                },
+                result: {
+                item: 'ad_astra:mercury_stone'
+                }
+            }).id('forge_frontier:extruding/mercury_stone')
+
+        // Glacio Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'ad_astra:glacio_stone'
+                },
+                result: {
+                item: 'ad_astra:glacio_stone'
+                }
+            }).id('forge_frontier:extruding/glacio_stone')        
+
+        // Limestone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'quark:limestone'
+                },
+                result: {
+                item: 'quark:limestone'
+                }
+            }).id('forge_frontier:extruding/quark_limestone') 
+
+        // Warped Stone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'unusualend:warped_stone'
+                },
+                result: {
+                item: 'unusualend:warped_stone'
+                }
+            }).id('forge_frontier:extruding/warped_stone') 
+
+        // Gloopstone
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: 'unusualend:gloopstone'
+                },
+                result: {
+                item: 'unusualend:gloopstone'
+                }
+            }).id('forge_frontier:extruding/gloopstone') 
+
         // Sky Stone
             event.custom({
                 type: 'create_mechanical_extruder:extruding',

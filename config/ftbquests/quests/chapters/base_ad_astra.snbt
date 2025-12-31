@@ -1,0 +1,2002 @@
+{
+	autofocus_id: "623E3160C2E0D4DD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "base_ad_astra"
+	group: "18D089BBC98AE6DA"
+	icon: {
+		Count: 1
+		id: "ad_astra:moon_globe"
+		tag: { }
+	}
+	id: "4327F67CBAA5C812"
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/mars_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/moon_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -17.0d
+			y: -6.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/mercury_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -18.0d
+			y: 5.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/venus_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			height: 10.0d
+			image: "ftb:textures/glacio_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 4.5d
+			y: 5.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0A1C7563FC03C5F6"]
+			description: [
+				"&9 One Small Step...&r"
+				""
+				"{image:ftb:textures/moon_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
+				"The &fMoon&r-long a symbol of mystery and ambition-awaits your arrival. Thanks to the combined might of &bCreate&r and &dAd Astra&r, you now hold the power to leave the &aOverworld&r behind and launch into a new frontier"
+				""
+				"The &7Moon&r offers no air to breathe, its frigid nights and searing days test even the most prepared explorers. Without proper equipment, shelter, and supplies, you risk being stranded in a crater of silence with no way back."
+				""
+				"{@pagebreak}"
+				"Your mission is clear:"
+				""
+				"- Build your first &6Tier 1 Rocket&r.  "
+				"- Launch from the surface and survive lunar landing.  "
+				"- Explore strange structures and claim powerful resources.  "
+				"- Discover &6Molten Vents&r and hidden relics buried beneath the dust."
+				""
+				"{@pagebreak}"
+				""
+				"The Moon is no longer a distant dream-&nit’s your first step to the stars.&r  "
+				"Will you conquer the void, or become a ghost among the craters?"
+				""
+				"&b Adventure awaits beyond the sky.&r"
+			]
+			hide_dependent_lines: true
+			icon: "ad_astra:moon_globe"
+			id: "1523A7C10CEF69AA"
+			rewards: [{
+				id: "74CD2A7EF2939CB2"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Build your rocket, conquer the Moon, and prepare for your journey among the stars. Click me for more info!"
+			tasks: [{
+				id: "604120E836DCC685"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Any #forge:ingots/steel"
+				type: "item"
+			}]
+			title: "Lunar Awakening"
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1523A7C10CEF69AA"]
+			description: [
+				"&6 Mission Prep: Launch Protocol&r"
+				""
+				"Before you can set foot on the &fMoon&r, you must prepare for the &ccruel reality of space&r. The void offers no second chances-only those who plan ahead will survive."
+				""
+				"To begin your cosmic journey, you’ll need:"
+				""
+				"- A fully assembled &6Tier 1 Rocket&r  "
+				"- Enough &bFuel&r to escape the atmosphere  "
+				"- A functioning &3Oxygen System&r to keep you breathing"
+				""
+				"Gather your supplies, refine your engineering, and ensure every piece is in place-&lthere’s no turning back once you hit launch.&r"
+				""
+				"{@pagebreak}"
+				""
+				"Learn how to build your rocket and more in the  "
+				"{ \"text\": \"Tier 1 Rocket Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A1C7563FC03C5F6\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "783280C62226C4D6"
+			rewards: [{
+				count: 3
+				id: "2FE57727F5E8BD15"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "Fuel up, suit up, and get ready for launch-space waits for no one. Click me for more info!"
+			tasks: [
+				{
+					count: 3L
+					id: "6DA9DF18EDF59F48"
+					item: { Count: 3, id: "ad_astra:fuel_bucket" }
+					type: "item"
+				}
+				{
+					id: "5763367C6B642883"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "79C7F19E093B3116"
+					item: "ad_astra:coal_generator"
+					type: "item"
+				}
+			]
+			title: "Final Checks Before Liftoff"
+			x: -21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783280C62226C4D6"]
+			description: [
+				"&6 Suit Up for the Stars&r"
+				""
+				"Before you set foot on the &fMoon&r, you’ll need more than just courage-you’ll need a fully equipped &bspace suit&r built to withstand the &cdangers of the void&r."
+				""
+				"The Moon has no oxygen, &4no atmosphere&r, and temperatures that would freeze or scorch the unprepared. Without protection, you won’t survive more than a few moments. Your only defense? A &lcomplete Ad Astra Space Suit&r."
+				""
+				"{@pagebreak}"
+				""
+				"Craft the helmet, chestplate, leggings, and boots, and ensure they're equipped and pressurized before launch. This suit is more than gear-it’s your &9lifeline&r among the stars."
+				""
+				"Only the fully suited survive. Are you ready to breathe among the craters?"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6977AFD24DE103EE"
+			rewards: [{
+				id: "3DDD0F5C15D117C9"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 500L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft and equip your space suit-your survival depends on it. Click me for more info!"
+			tasks: [
+				{
+					id: "105848CC9BDD1D0E"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ACC21182D2C6942"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B2A5AC785B83D50"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E3D2C3C63ABD11F"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Suit Up, Astronaut"
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6977AFD24DE103EE"]
+			description: [
+				"&b Prepare Your Oxygen Supply&r"
+				""
+				"A space suit might shield you from the vacuum, but without &9oxygen&r, your mission ends before it begins. Survival in the stars requires more than armor-it demands &lifesupport&r."
+				""
+				"To thrive on the &fMoon&r and beyond, you’ll need to set up &lAd Astra’s&r oxygen infrastructure. Use &aOxygen Loaders&r to fill your suit’s tanks, and place &aOxygen Distributors&r to create breathable pockets within your lunar outposts."
+				""
+				"{@pagebreak}"
+				""
+				"Build your system, power it up, and test your oxygen flow. Only then will you be truly &lready for liftoff&r."
+				""
+				"The void won’t wait-&fsecure your air&r before you soar. "
+			]
+			icon: "ad_astra:oxygen_bucket"
+			id: "3FD22E0DECD5522C"
+			rewards: [{
+				id: "60258491EAE30F9B"
+				item: {
+					Count: 1
+					id: "ad_astra_giselle_addon:oxygen_can"
+					tag: {
+						BotariumData: {
+							StoredFluids: [{
+								Amount: 500L
+								Fluid: "ad_astra:oxygen"
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Establish your oxygen systems to survive the void. Click me for more info!"
+			tasks: [
+				{
+					id: "2481D27E401F80BC"
+					item: "ad_astra:oxygen_loader"
+					type: "item"
+				}
+				{
+					id: "6737600668752273"
+					item: "ad_astra:water_pump"
+					type: "item"
+				}
+				{
+					id: "106DABD9C5487676"
+					title: "Fill Space Suit with Oxygen"
+					type: "checkmark"
+				}
+			]
+			title: "Oxygen Is Life"
+			x: -18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FD22E0DECD5522C"]
+			description: [
+				"&f First Steps on the Moon&r"
+				""
+				"&lYou did it!&r You’ve shattered the bounds of Earth’s sky and landed upon the silent, cratered surface of the &fMoon&r."
+				""
+				"The terrain is alien-&7low gravity&r, &7no atmosphere&r, and &7dangers hiding in the dust&r. With each step, you etch your legacy into the lunar soil, but survival won't wait."
+				""
+				"{@pagebreak}"
+				""
+				"Before exploring the vast unknown, focus on securing a &asafe lunar base&r. Establish &boxygen zones&r, build &ddefenses&r, and prepare for whatever the Moon has in store."
+				""
+				"The Earth is behind you. The cosmos lies ahead. &fYour mission begins now.&r "
+			]
+			icon: "ad_astra:moon_sand"
+			id: "576F413F0C3117B1"
+			rewards: [
+				{
+					count: 16
+					id: "3D9834A7AC5753FB"
+					item: "ad_astra:moon_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "332E6DEB71498BD6"
+					item: "ad_astra:solar_panel"
+					type: "item"
+				}
+				{
+					id: "4036A777223CE167"
+					item: "ad_astra:oxygen_distributor"
+					type: "item"
+				}
+			]
+			subtitle: "Secure your lunar landing site and prepare for survival. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					icon: "ad_astra:moon_globe"
+					id: "3015758342C6A8B4"
+					type: "dimension"
+				}
+				{
+					block: "ad_astra:moon_stone"
+					block_type: 0
+					checkItem: false
+					id: "76942D8BD5AAFC56"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Moonfall"
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["576F413F0C3117B1"]
+			description: [
+				"&f Relics of a Forgotten Moon&r"
+				""
+				"The Moon may appear desolate, but its silence hides the echoes of a bygone age. Scattered across its dusty plains lie &7Ancient Factories&r and &7derelict Pipelines&r-remnants of a once-thriving lunar civilization."
+				""
+				"These structures aren't just ruins-they’re &6gateways to rare technology&r and &6valuable loot&r. Explore carefully; the Moon guards its secrets well."
+				""
+				"{@pagebreak}"
+				""
+				"Whether you're delving into a &cMoon Dungeon&r, breaching an &eAncient Factory&r, or navigating the &bPipeline systems&r, expect &cdanger at every turn&r. Guardians, traps, and hostile forces lie in wait for the unprepared."
+				""
+				"&lWill you uncover lost knowledge or be buried with it?&r The Moon's mysteries are yours to claim-if you survive. "
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:mech_eye"
+				tag: { }
+			}
+			id: "229BA6C2D9B46694"
+			rewards: [
+				{
+					count: 3
+					id: "30F2B7A6484222E1"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4631CFE849D1B4DE"
+					item: "ad_astra:moon_sand"
+					type: "item"
+				}
+				{
+					id: "0EE5596DC20583E1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Explore ancient structures and face what lies hidden beneath the dust. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:mech_eye"
+						tag: { }
+					}
+					id: "3B13E9816B7BBC01"
+					structure: "cataclysm:ancient_factory"
+					title: "Locate an Ancient Factory"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "407CF07886BCB364"
+					structure: "incendium:pipeline"
+					title: "Locate a Pipeline"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "6F0555498AA9A4F6"
+					structure: "ad_astra:lunar_tower"
+					title: "Locate a Lunar Tower"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "2FD837043821995D"
+					structure: "ad_astra:lunarian_village"
+					title: "Locate a Lunarian Village"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "3214B52881CDBCA4"
+					structure: "ad_astra:moon_dungeon"
+					title: "Locate a Moon Dungeon"
+					type: "structure"
+				}
+			]
+			title: "Moonbound Mysteries"
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["229BA6C2D9B46694"]
+			description: [
+				"&f Lunar Riches Await&r"
+				""
+				"The Moon isn’t just a stepping stone-it’s a treasure trove of &6exclusive resources&r vital to your progression in space and automation."
+				""
+				"Deep within the lunar surface, you’ll discover &eAubrum&r-an ore found only in &cMolten Vents&r across the Moon’s terrain. This material is crucial for crafting &ladvanced machinery&r and powering your interplanetary ambitions."
+				""
+				"{@pagebreak}"
+				""
+				"But Aubrum isn’t the only lunar gem. &bMoon Ice&r can be harvested for water, which is essential for &aoxygen generation&r and even used in producing &9Cryo Fuel&r to power your future rockets."
+				""
+				"And don’t forget the rare &eCheese Ore&r-it might not fuel machines, but it’s a cosmic delicacy worth collecting just for the laughs. "
+				""
+				"&lThe Moon offers more than mystery-it offers opportunity. Mine wisely, survive the elements, and turn lunar stone into starlit progress! "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45077F865A2C8C02"
+			rewards: [
+				{
+					id: "173BD636E1254A9C"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3421EF99C4C51B87"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					id: "27851CA8DBE1F918"
+					item: "ad_astra:cheese_block"
+					type: "item"
+				}
+				{
+					id: "403C44D239996F76"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine rare moon-bound materials and fuel your journey to the stars. Click me for more info!"
+			tasks: [
+				{
+					block: "forge_frontier:aubrum"
+					block_type: 0
+					checkItem: false
+					id: "5AB1D17D8BB60898"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:moon_ice_shard_ore"
+					block_type: 0
+					checkItem: false
+					id: "1C7FD159A26897B9"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:moon_desh_ore"
+					block_type: 0
+					checkItem: false
+					id: "18F8C200DABC0C69"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:moon_cheese_ore"
+					block_type: 0
+					checkItem: false
+					id: "24C986F9BAF0896B"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Lunar Harvest"
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45077F865A2C8C02"]
+			description: [
+				"&f Next Stop: The Red Frontier&r"
+				""
+				"Your time on the Moon has taught you how to survive in space, gather rare materials, and build a foothold beyond the Overworld. But this is only the beginning."
+				""
+				"Armed with &6lunar knowledge&r and &evaluable resources&r like Aubrum and Moon Ice, you're now ready to set your sights on the &4Red Planet&r. Mars presents new biomes, brutal conditions, and thrilling challenges that will push your ingenuity even further."
+				""
+				"{@pagebreak}"
+				""
+				"The path to Mars demands preparation-craft new fuel, reinforce your equipment, and brace for a world both harsh and full of potential."
+				""
+				"&lYour space journey continues-read more about conquering Mars in its&r  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:mars_globe"
+				tag: { }
+			}
+			id: "2DC61E3DC8AF2A42"
+			rewards: [{
+				id: "51FEE375DD08737A"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_breathing"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Use what you’ve learned on the Moon to prepare for a new planetary challenge. Click me for more info!"
+			tasks: [{
+				id: "67DCFC3AEAB3B985"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Next Step: Mars"
+			x: -12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DC61E3DC8AF2A42"]
+			description: [
+				"&f Welcome to Mars: The Crimson Frontier&r"
+				""
+				"{image:ftb:textures/mars_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
+				"After conquering the Moon, your next destination lies farther and more forbidding-&cMars&r. A planet of &4red sands&r, jagged canyons, and windswept mountains, it holds the remnants of forgotten civilizations and the promise of untapped power."
+				""
+				"Beneath its desolate surface lie &6ancient secrets&r and &eexclusive resources&r essential for your interstellar progression. But be warned-Mars is no place for the unprepared."
+				""
+				"{@pagebreak}"
+				""
+				"The &catmosphere is thin&r, the &cenvironment is brutal&r, and the dangers are far deadlier than anything you’ve faced before. You’ll need your best armor, oxygen supplies, and unwavering resolve to survive."
+				""
+				"&lReady your gear, fuel your rocket, and prepare to step into the unknown-the red frontier awaits.&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ad_astra:mars_globe"
+			id: "6169F8EB0E600750"
+			rewards: [{
+				id: "4F14F474001409EB"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Explore, adapt, and uncover ancient secrets beneath the red sands. Click me for more info!"
+			tasks: [{
+				id: "4C252279091771C2"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			title: "Mars: The Crimson Frontier"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			description: [
+				" &cTier 2 Rocket: Breaking Mars’ Orbit&r"
+				""
+				"Mars lies farther across the void than the Moon-and reaching it demands more than just ambition. Your &7Tier 1 Rocket&r served you well, but it lacks the &cfuel capacity&r and &cengine power&r to brave the longer journey."
+				""
+				"To pierce the Martian skies, you’ll need to &lupgrade&r to a &cTier 2 Rocket&r-engineered for deeper space, tougher conditions, and greater resilience. This next step in your &ointerstellar journey&r marks a turning point in your cosmic legacy."
+				""
+				"{@pagebreak}"
+				""
+				"&lGather rare materials, refine your designs, and prepare for the power of a true planetary vessel.&r  "
+				"The stars are calling once again."
+				""
+				"Learn how to craft the &cTier 2 Rocket&r in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"67026EE366909C22\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "2D130C99B5D7C5FF"
+			rewards: [{
+				id: "737B61DE7499688A"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "Upgrade your ship, boost your range, and prepare for a world of red sand and ancient secrets. Click me for more info!"
+			tasks: [
+				{
+					id: "777183747D4C8E89"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "669F615F29AB50E8"
+					title: "Fuel your Rocket!"
+					type: "checkmark"
+				}
+			]
+			title: "Tier 2 Rocket: Powering Toward Mars"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D130C99B5D7C5FF"]
+			description: [
+				" &4Digging Deeper: Martian Foundations&r"
+				""
+				"Before you build among the stars, you must carve your place into the Martian dust. Mars may appear lifeless, but its crimson crust is rich with &cMartian Stone&r-an essential material for constructing outposts and unlocking advanced planetary tech."
+				""
+				"This versatile resource is not just for walls-it’s the key to &lreinforced builds&r, &odecorative architecture&r, and the foundations of your future Martian empire."
+				""
+				"{@pagebreak}"
+				""
+				"Begin your excavation and gather what you need to &orest&r, &odevelop&r, and &ouncover the secrets&r buried beneath the red sands. Some of the &6rare minerals&r that lie beneath may change your journey forever."
+				""
+				" &lYour Martian colony begins with a single stone.&r"
+			]
+			icon: "ad_astra:mars_stone"
+			id: "11B8EF9631422774"
+			rewards: [
+				{
+					count: 16
+					id: "381E67749D0F09D1"
+					item: "ad_astra:mars_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "17600605596EA6D1"
+					item: {
+						Count: 1
+						id: "ad_astra:energizer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7F18D779556C4379"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine the stone, build your base, and prepare for the buried wonders of the Red Planet. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "5D7C7953A26FF5E2"
+					type: "dimension"
+				}
+				{
+					block: "ad_astra:mars_stone"
+					block_type: 0
+					checkItem: false
+					id: "019290B4E28E0C6A"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Digging Deeper: Martian Foundations"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B8EF9631422774"]
+			description: [
+				"The red planet hides more than dust and stone. Scattered across Mars lie relics of a fallen civilization, each guarding secrets of &cfire, spirit, and steel&r. To master the Martian Flame, you must unravel three trials-sanctuary, forge, and altar-each deadlier than the last."
+				""
+				"{@pagebreak}"
+				""
+				" &6Martian Temples&r"
+				"Shadows of a Lost Faith"
+				""
+				"Simple ruins scattered across the surface, the &6Martian Temples&r offer fragments of a forgotten culture. Their halls contain a little loot-&osmall treasures&r left behind in dusty chests-but no great challenge."
+				"Yet they mark the path to something far greater, guiding explorers toward the trials that lie deeper within Mars."
+				""
+				"{@pagebreak}"
+				""
+				" &cSoul Blacksmith&r"
+				"Relics of a Forgotten Forge"
+				""
+				"Amid scorched cliffs rises the &4Soul Blacksmith&r-&lforged in flame&r and protected by ruthless defenders."
+				"Here, the ancients shaped &opowerful relics&r and &crare artifacts&r, binding steel to soul. Yet the forge itself is alive: traps, guardians, and echoes of war wait within."
+				"Conquer the Blacksmith, and you carry the key to the altar."
+				""
+				"{@pagebreak}"
+				""
+				" &4Infernal Altar&r"
+				"The Gateway to the Inferno"
+				""
+				"On Mars lies the &4Infernal Altar&r, its heart lit by eternal fire. A mysterious tome rests upon the lectern, its faded script whispering the ancient rite:"
+				""
+				"“To summon the &cINFERNO&r, stand firm in flame."
+				"A warrior must be worthy of strength."
+				"Only then may they endure this blazing terror’s ire.”"
+				""
+				"To awaken the guardian, a &fNether Star&r must be offered. Drop it onto the lectern, and from the fire rises the &cHovering Inferno&r-the final trial, a blazing terror of relentless fury."
+				"Defeat it, and the Martian Flame itself will bend to your will."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:monstrous_eye"
+				tag: { }
+			}
+			id: "598BD03BE0D0347B"
+			rewards: [
+				{
+					count: 3
+					id: "3309A6E6D0F4800D"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4438ACDDBC99BB1E"
+					item: "ad_astra:mars_sand"
+					type: "item"
+				}
+				{
+					id: "7A6CB150FA9E6464"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Uncover the secrets of a lost Martian civilization-and claim the fire-forged relics hidden within. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "65A8BB675F2C805C"
+					structure: "ad_astra:mars_temple"
+					title: "Locate a Mars Temple"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:monstrous_eye"
+						tag: { }
+					}
+					id: "1E84DED28051B3B3"
+					structure: "cataclysm:soul_black_smith"
+					title: "Locate a Soul Blacksmith"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "725518AA7338F879"
+					structure: "incendium:infernal_altar"
+					title: "Locate an Infernal Altar"
+					type: "structure"
+				}
+			]
+			title: "&cTrial of the Martian Flame&r"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["598BD03BE0D0347B"]
+			description: [
+				" &cRedstone Riches: Mining the Depths of Mars&r"
+				""
+				"Mars is far more than a lifeless desert-&lit’s a planet of hidden potential&r, waiting to be unearthed by those bold enough to dig deep."
+				""
+				"Beneath its crimson surface lies a cache of &6rare materials&r, each vital to your continued progression. Discover &fStellaris&r, a mysterious celestial metal with untapped power. Mine &dMars Ostrum Ore&r, a crucial ingredient for crafting high-tier components. Unearth &bMars Ice Shard Ore&r, a frozen enigma that could hold the key to survival in extreme environments."
+				""
+				"{@pagebreak}"
+				""
+				"&lGear up&r and establish a forward mining base-&oyou'll need it&r. Mars is as hostile as it is rich, and the creatures lurking in its caves don’t take kindly to trespassers."
+				""
+				"&lWill you brave the depths and emerge with riches-or be buried beneath the red dust?&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75F33C79A51D73A7"
+			rewards: [
+				{
+					count: 4
+					id: "1D0943A7D0088DD4"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					id: "6EDB15A6FCA0B727"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Dig deep, uncover powerful ores, and forge the future beneath the Martian crust. Click me for more info!"
+			tasks: [
+				{
+					block: "forge_frontier:stellaris"
+					block_type: 0
+					checkItem: false
+					id: "42CFB1D514B88587"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:mars_ostrum_ore"
+					block_type: 0
+					checkItem: false
+					id: "400EBB867E219409"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "ad_astra:mars_ice_shard_ore"
+					block_type: 0
+					checkItem: false
+					id: "0FA4D2C98651BA6F"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Redstone Riches: Mining the Depths of Mars"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75F33C79A51D73A7"]
+			description: [
+				" &6Forward to Fire: Mercury Awaits&r"
+				""
+				"Your mission on Mars has tested your resolve and rewarded your ambition. But in the grand expanse of the cosmos, &othis is only the beginning&r."
+				""
+				"Armed with &6rare Martian resources&r and the wisdom of ancient ruins, it’s time to set your sights on the next frontier: &cMercury&r-&la world of blazing heat, volatile terrain, and secrets long buried beneath scorched stone&r."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe path forward will not be easy.&r Mercury offers &ounique opportunities and lethal hazards&r in equal measure. You’ll need upgraded tech, advanced protection, and an unshakable will to thrive."
+				""
+				"Ready your rocket and steel your spirit-the next phase of your cosmic journey lies beyond the sunlit horizon."
+				""
+				" To learn more, explore the  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B54577F45BDF5E7\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:mercury_globe"
+				tag: { }
+			}
+			id: "4AD1CCF2DA9C58B2"
+			rewards: [{
+				id: "0DE9D92CE9BA4BC8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:gravity_normalizing"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Your Martian legacy leads to a new world of blazing challenges and cosmic opportunity. Click me for more info!"
+			tasks: [{
+				id: "6605C2E4245717B9"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Forward to Fire: Mercury Awaits"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4AD1CCF2DA9C58B2"]
+			description: [
+				" &cMercury: Trial by Fire&r"
+				""
+				"{image:ftb:textures/mercury_screenshot.png width:565 height:400 align:center fit:true}"
+				""
+				"{@pagebreak}"
+				"Mercury is not a land of welcome-it is a crucible of &cscorching heat&r, &obarren terrain&r, and &6relentless solar fury&r. With no natural ores to harvest, every moment spent here is a trial of endurance and resilience."
+				""
+				"Yet, amid the &oblighted surface&r lies a structure of immense significance: &lthe Burning Arena&r-&oa fiery coliseum of chaos, mystery, and rare spoils&r. It is the planet’s only landmark, and it holds challenges that few return from unscathed."
+				""
+				"Before you descend into the inferno, ensure you’ve &lprepared for the worst&r. &cHeat resistance, oxygen, and powerful gear&r are your only allies here. Mercury does not forgive mistakes."
+				""
+				" Will you endure the flame-or be consumed by it?"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ad_astra:mercury_globe"
+			id: "6B54577F45BDF5E7"
+			rewards: [{
+				id: "4775B3C1EAEB1FF3"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Endure the extremes. Conquer the arena. Prove your worth in the heart of the solar flame. Click me for more info!"
+			tasks: [{
+				id: "42455C9E0B92FBD0"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "Mercury: Trial by Fire"
+			x: -18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6B54577F45BDF5E7"]
+			description: [
+				" &6Mercury Arrival: Enter the Inferno&r"
+				""
+				"Your journey across the stars has brought you to &6Mercury&r-a planet where &cblistering heat&r and &ohostile conditions&r rule without mercy. Unlike the rich veins of Mars or the frozen secrets of the Moon, Mercury offers no mineable resources-only &oa battle for survival&r."
+				""
+				"{@pagebreak}"
+				""
+				"But this planet is not without purpose. Beneath the scorched surface lies the &lBurning Arena&r-&oa treacherous structure filled with powerful adversaries and coveted treasures&r. It is a proving ground for only the boldest of explorers."
+				""
+				"Before touching down, ensure your &lTier 3 Rocket&r is ready, and your gear is prepared for the intense heat. Mercury will test every ounce of your strength, strategy, and determination."
+				""
+				" *Can you survive the blaze and uncover the secrets of the flame?*"
+				""
+				"Learn how to craft the Tier 3 Rocket in its  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4F05B719FF46DED2\" } }"
+			]
+			id: "767ED8F286B517B6"
+			rewards: [{
+				id: "099B9A1732F569A3"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "Step onto the sun-scorched surface of Mercury-where survival is the only treasure you begin with. Click me for more info!"
+			tasks: [{
+				id: "148326B2EA153CFB"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mercury Arrival: Enter the Inferno"
+			x: -21.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["767ED8F286B517B6"]
+			description: [
+				" &6Forge the Flameproof Suit&r"
+				""
+				"Mercury’s searing heat makes it one of the most unforgiving worlds in the entire solar system. The moment you leave your rocket, the planet's atmosphere will try to cook you alive. &cWithout the right protection, you won’t survive long enough to take a step!&r"
+				""
+				"{@pagebreak}"
+				""
+				"To endure this &ohellish environment&r, you’ll need the &lNetherite Space Suit&r-a reinforced upgrade designed to withstand the sun-scorched landscape. This suit isn't just an armor piece-it’s your lifeline."
+				""
+				"Crafting the Netherite Space Suit is not optional-it’s your &cfinal barrier between survival and ash&r."
+				""
+				" *Forge the flameshield, face the heat, and claim Mercury’s challenge head-on!*"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:netherite_space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F4C788DE0133300"
+			rewards: [
+				{
+					id: "519F97944B221183"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:netherite_oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "12CC1C361E83069D"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Only the well-armored survive Mercury’s wrath-suit up or burn out. Click me for more info!"
+			tasks: [
+				{
+					id: "25B298539D4C71F1"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2414DAA94CE69346"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "442BBBDC30F61E0C"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03C8ECD8913C9C78"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forge the Flameproof Suit"
+			x: -19.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2F4C788DE0133300"]
+			description: [
+				" &cWelcome to Mercury&r"
+				""
+				"You’ve conquered space, donned the &lNetherite Space Suit&r, and now stand upon the sun-scorched soil of Mercury. This world is a relentless furnace-&cthere is no shade, no softness, only fire and stone&r. The blazing sun dominates the sky, and the landscape offers no comfort."
+				""
+				"{@pagebreak}"
+				""
+				"Unlike the Moon or Mars, Mercury yields no ores-&oit gives nothing for free&r. Every step forward here is earned through resilience and preparation."
+				""
+				"Before venturing into the planet’s infernal heart, check your &boxygen supply&r, &ffortify your gear&r, and &esurvey the terrain&r. Because ahead lies your next trial:"
+				""
+				" &lThe Burning Arena&r-where only the strongest emerge victorious."
+				""
+				"Are you ready to step into the flame?"
+			]
+			id: "4854DCBA109D4460"
+			rewards: [{
+				id: "097C4F747D5A81DF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "This scorched world shows no mercy-only the prepared survive. Click me for more info!"
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "3D9B8268396970D8"
+				type: "dimension"
+			}]
+			title: "Welcome to Mercury"
+			x: -18.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4854DCBA109D4460"]
+			description: [
+				" &6The Burning Arena&r"
+				"Mercury’s Trial of Fire"
+				""
+				"Beneath Mercury’s scorched surface lies an ancient battleground shrouded in mystery-the &lBurning Arena&r. Carved from fire and fury, this brutal arena challenges only the most fearless adventurers."
+				""
+				"{@pagebreak}"
+				""
+				" &3The AE2 Meteorite&r"
+				"Key to Lost Technology"
+				""
+				"Within the heart of the arena lies the &3AE2 Meteorite&r-an alien relic unlike any other. Its crystalline core unlocks access to a long-lost &9technological storage system&r, granting mastery over &oancient, advanced automation&r through Applied Energistics 2. For those who seize it, entire worlds of organization and power open at their command."
+				""
+				"{@pagebreak}"
+				""
+				" &5The Forbidden Castle&r"
+				"Stronghold of Shadows"
+				""
+				"Hidden beyond the flames stands the ominous &5Forbidden Castle&r. Cloaked in darkness and guarded by spectral wardens, this fortress conceals secrets long banished from mortal knowledge. To breach its halls is to gamble with fate itself-yet the treasures within may shape the destiny of empires."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:flame_eye"
+				tag: { }
+			}
+			id: "36EE0ABAB607D1F3"
+			rewards: [{
+				id: "01B68D579C8C4304"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			subtitle: "Brave Mercury’s trial, harness alien power, and storm the Forbidden Castle. Click here to learn more!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:flame_eye"
+						tag: { }
+					}
+					id: "438D481D85851815"
+					structure: "cataclysm:burning_arena"
+					title: "Locate the Burning Arena"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ae2:meteorite_compass"
+						tag: { }
+					}
+					id: "2A2011145D1F9BC1"
+					structure: "ae2:meteorite"
+					title: "Locate a Meteorite"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "14817A01C1DA00C8"
+					structure: "incendium:forbidden_castle"
+					title: "Locate a Forbidden Castle"
+					type: "structure"
+				}
+			]
+			title: "&dQuest of the Lost Realms&r"
+			x: -16.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["36EE0ABAB607D1F3"]
+			description: [
+				" &6Mercury Mastered&r"
+				""
+				"You have survived the searing heat of Mercury, conquered the trials of the &lBurning Arena&r, and carved your name among the stars. Though this scorched world offers no traditional ores, it has rewarded you with &6rare artifacts&r and &eancient knowledge&r that will shape the rest of your journey."
+				""
+				"{@pagebreak}"
+				""
+				"Your time here has tested not just your survival-but your strength, your strategy, and your will to overcome. Few can say they’ve endured Mercury’s wrath and emerged victorious."
+				""
+				"But your odyssey is far from complete..."
+				""
+				"&lVenus awaits&r-shrouded in poison, mystery, and unimaginable danger. Are you ready to face what lies ahead?"
+				""
+				"Learn more about your next destination in the  "
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25721A33E1238EBD\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:venus_globe"
+				tag: { }
+			}
+			id: "08573BBF32BBB660"
+			rewards: [{
+				id: "74EAB2F47BE2FAC8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:space_fire_proof"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You’ve endured the heat-now brave the storms of Venus. Click me for more info!"
+			tasks: [{
+				id: "2940BC82B0A1562C"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Mercury Mastered"
+			x: -14.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["08573BBF32BBB660"]
+			description: [
+				"Venus is a world of &dpoisoned skies&r, &oflaming winds&r, and &6unrelenting electrical fury&r."
+				"{image:ftb:textures/venus_screenshot.png width:565 height:400 align:center fit:true}"
+				""
+				"{@pagebreak}"
+				"This is not just a new frontier-it’s a battlefield where the very air seeks to bring your journey to an end."
+				""
+				"Unlike Mars or the Moon, Venus is a land of extremes with &ono natural ores&r and &ccorrosive storms that never cease&r. But beneath the sulfuric haze lie the ruins of a &olegend long lost to flame and thunder&r. What secrets will you uncover beneath the ash?"
+				""
+				"&lOnly those clad in Netherite and armed with courage&r will survive the descent. With your &bTier 3 Rocket&r and &8Netherite Space Suit&r, you are among the first to step onto this hostile ground."
+				""
+				" &dWill you master the storm-or be swept away by it?&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ad_astra:venus_globe"
+			id: "25721A33E1238EBD"
+			rewards: [{
+				id: "64C966A204199D70"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Step onto scorched earth-Venus awaits the bold. Click me for more info!"
+			tasks: [{
+				id: "552B723D05755AAC"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			title: "Into the Fire: Arrival on Venus"
+			x: -6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25721A33E1238EBD"]
+			description: [
+				"The scorching &6hellscape of Venus&r is among the most unforgiving planets in the system. Its atmosphere is a &ounrelenting furnace&r, torn by &cvicious storms&r and laced with &dpoisonous clouds&r that test the limits of both technology and survival."
+				""
+				"{@pagebreak}"
+				""
+				"To walk upon this cursed land, you’ll need more than bravery-&lyou’ll need the best gear science can offer&r. Only the &bTier 3 Rocket&r and the &8Netherite Space Suit&r can shield you from Venus’ &cexplosive heat&r and &6hostile terrain&r."
+				""
+				"&lWithout proper preparation, you will not survive&r. Gather your supplies, &oreinforce your protections&r, and &lbrace for a descent into planetary chaos&r."
+				""
+				" &dCan you endure the fury of Venus-or be vaporized by it?&r"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "4EC8B97375383D51"
+			rewards: [{
+				id: "30A9E391A664E61E"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "Only the strongest suits and bravest explorers survive here. Click me for more info!"
+			tasks: [
+				{
+					id: "5997EA48D86A67AA"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0D1FD2506C7AC1AC"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15BD7A73BBE68983"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F5BF3ED5CF2632D"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4613A228D3B47D06"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Venus: Descent Into Ruin"
+			x: -10.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["66B44ACF05B64947"]
+			description: [
+				"Beneath the searing crust of Venus, &otwo extraordinary resources&r pulse with raw energy-awaiting only the boldest miners to claim them."
+				""
+				"- &6Calorite Ore&r – A durable, high-performance metal, essential for &ladvanced machinery&r and &ointerplanetary tech&r.  "
+				"- &cPyroclast Ore&r – A volatile mineral infused with intense heat, used to enhance energy systems-and &oprocessed into Calorite&r for high-tier crafting."
+				""
+				"{@pagebreak}"
+				""
+				"These ores are &rthe heart of Venus’s technological potential&r, but reaching them is no small feat. The molten terrain &lshifts beneath your feet&r, heat threatens to overwhelm, and pockets of lava lie hidden in wait."
+				""
+				"Suit up, mine deep, and &cclaim the flame-born treasures&r of Venus-if you can survive long enough to use them."
+				""
+				" &oOnly the fire-hardened will thrive beneath the blaze.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F2B03E58524C01A"
+			rewards: [
+				{
+					count: 4
+					id: "3F8F113AC8CCE3E4"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					id: "7D4E9D7B58EA8403"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine Venus’s most powerful materials-or be consumed by the fire. Click me for more info!"
+			tasks: [
+				{
+					block: "ad_astra:venus_calorite_ore"
+					block_type: 0
+					checkItem: false
+					id: "5D958A6127605617"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "forge_frontier:pyroclast"
+					block_type: 0
+					checkItem: false
+					id: "229E2BF7466F34EF"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Forged in Flame"
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["38F29404BDF3073A"]
+			description: [
+				"Even in a world as hostile as Venus, &olost history smolders beneath the ash&r. Scattered across this scorched planet lie the remnants of &cpowerful civilizations&r and &6forgotten constructs&r-each whispering tales of knowledge, energy, and danger."
+				""
+				"{@pagebreak}"
+				""
+				"Explore the surface and you may uncover:"
+				""
+				"- &6Pygro Villages and Towers&r - Settlements of flame-born beings. Some trade. Others attack. All are watching."
+				"- &cIncendium Reactor&r - A volatile power hub, pulsing with unstable energy. Approach with caution."
+				"- &4The Cursed Pyramid&r - An ancient tomb sealed with &odark power&r. Inside, a guardian sleeps… and waits."
+				""
+				"{@pagebreak}"
+				""
+				"These ruins are &olittered with traps, secrets, and long-lost relics&r. &lOnly the bold&r-and the prepared-will return with their findings."
+				""
+				" &6Can you survive the past… while walking through fire?&r"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:desert_eye"
+				tag: { }
+			}
+			id: "66B44ACF05B64947"
+			rewards: [
+				{
+					count: 3
+					id: "7615E90D05B80A65"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4BE4EB6E18B71E97"
+					item: "ad_astra:venus_sandstone"
+					type: "item"
+				}
+				{
+					id: "41A49FB86A704FC8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Explore Venus’ scorched legacy-and live to tell the tale. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "4D15CF2752EB5192"
+					structure: "ad_astra:pygro_tower"
+					title: "Locate a Pygro Tower"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "558150F44035CDA2"
+					structure: "ad_astra:pygro_village"
+					title: "Locate a Pygro Village"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "68130BE7123FCAF2"
+					structure: "incendium:nether_reactor"
+					title: "Locate a Nether Reactor"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:desert_eye"
+						tag: { }
+					}
+					id: "48BC33B2CE6B7D63"
+					structure: "cataclysm:cursed_pyramid"
+					title: "Locate a Cursed Pyramid"
+					type: "structure"
+				}
+			]
+			title: "Ruins Beneath the Flame"
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EC8B97375383D51"]
+			description: [
+				"Venus is no place for the unprepared-its &cscorching surface&r, &odense atmosphere&r, and &emolten terrain&r make even the simplest tasks a deadly challenge. Yet beneath this hellish crust lies a critical resource: &lVenusian Stone&r."
+				""
+				"{@pagebreak}"
+				""
+				"Mining here isn’t like the Overworld. &cLava pockets&r bubble beneath your feet, the heat threatens to crack your suit, and the terrain shifts with &ounstable fury&r. This is a planet that fights back."
+				""
+				"&lEquip your heat-resistant suit&r, stay vigilant, and begin collecting Venus’ raw essence. &6Only those who adapt will survive-and thrive.&r"
+				""
+				" &cWill you master the mines-or be swallowed by the fire?&r"
+			]
+			icon: "ad_astra:venus_stone"
+			id: "38F29404BDF3073A"
+			rewards: [
+				{
+					count: 16
+					id: "783C87F037601812"
+					item: "ad_astra:venus_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "158FC00B8736AB96"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Dig deep-but don’t let the planet dig your grave. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "7BC843CB75014821"
+					type: "dimension"
+				}
+				{
+					block: "ad_astra:venus_stone"
+					block_type: 0
+					checkItem: false
+					id: "7ABFE1D3147B23A3"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Venusian Stonebound"
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2F2B03E58524C01A"]
+			description: [
+				"You’ve endured the burning fury of Venus, braved molten storms, and emerged stronger-but the galaxy still holds one final frontier."
+				""
+				"Beyond the flames lies &bGlacio&r-&oa frozen world of silence and mystery&r. This planet, locked in eternal frost, awaits only the most resilient explorers. Here, you’ll face &owhite-out blizzards&r, &btreacherous ice fields&r, and &cchilling secrets&r buried deep beneath the tundra."
+				""
+				"{@pagebreak}"
+				"Your journey has carried you through:"
+				"- &aThe Overworld&r  "
+				"- &4The Nether&r  "
+				"- &5The End&r  "
+				"- &6The blazing worlds of Ad Astra&r  "
+				""
+				"Now it leads you to &bGlacio&r-&oyour final test of survival and ingenuity&r."
+				""
+				"{@pagebreak}"
+				""
+				"Suit up, steel your nerves, and &bbrace for a planet where warmth is a memory&r and danger lurks beneath the snow."
+				""
+				" &oThis is where legends freeze-or are forged anew.&r"
+				""
+				"{ \"text\": \"Discover more in its \", \"color\": \"white\" }"
+				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } }"
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:glacio_globe"
+				tag: { }
+			}
+			id: "094EA96520B42095"
+			rewards: [{
+				id: "282F506C1D0C11F2"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "ad_astra_giselle_addon:acid_rain_proof"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Survive the tundra. Conquer Glacio. Click me for more info!"
+			tasks: [{
+				id: "4BF590B48BF2AD4D"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Frozen Threshold"
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["094EA96520B42095"]
+			description: [
+				"&b Glacio, the frozen wastelands&r"
+				""
+				"{image:ftb:textures/glacio_screenshot.png width:565 height:400 align:center fit:true}"
+				"{@pagebreak}"
+				"The instant your ship touches down, you feel it-&9Glacio&r is no ordinary world. It is a realm of &bfrostbitten silence&r, where &ojagged ice peaks&r loom and &obiting winds&r carve through ancient stone."
+				""
+				"Armed with your &lTier 4 Rocket&r and &lcutting-edge survival gear&r, you are among the elite few who dare to set foot here. But survival is only the beginning."
+				""
+				"{@pagebreak}"
+				"Beneath the shimmering ice and glacial cliffs lie:"
+				""
+				"- &bFrostite&r – a rare mineral hidden deep in the frost.  "
+				"- &bGlacio Ice Shards&r – essential for advanced crafting.  "
+				"- &7Ancient, frozen ruins&r – brimming with forgotten power and secrets."
+				""
+				"{@pagebreak}"
+				""
+				"Yet, danger lurks in the cold. The &oguardians of Glacio&r are as merciless as the weather, and only those with &lresilience and preparation&r will uncover the truth buried beneath the snow."
+				""
+				" &oWill you forge ahead-or be frozen in time?&r"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "ad_astra:glacio_globe"
+			id: "05B5C7A592D2E3DA"
+			rewards: [{
+				id: "3F8A09033C8C274B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Endure the cold. Discover what sleeps beneath the ice. Click me for more info!"
+			tasks: [{
+				id: "3074F6246F1E821A"
+				item: "ad_astra:calorite_ingot"
+				type: "item"
+			}]
+			title: "Glacio: Frozen Frontier"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["05B5C7A592D2E3DA"]
+			description: [
+				"You’ve conquered the &cscorching fury of Venus&r-now brace yourself for the &bglacial silence of Glacio&r. This frozen world is both breathtaking and brutal, where every step across its icy surface tests your resolve."
+				""
+				"To set foot on this frigid frontier, you’ll need a &lTier 4 Rocket&r-crafted from the &rrare ores of &6Venus&r and &4Mars&r. But even the finest technology offers no comfort from the biting winds and hidden dangers that await."
+				""
+				"{@pagebreak}"
+				"Prepare for a new era of exploration as you uncover:"
+				""
+				"- &bFrostite Ore&r – a frost-hardened material found only on Glacio  "
+				"- &bGlacio Ice Shards&r – crystalline remnants infused with chilling energy  "
+				"- &7Ancient structures&r buried beneath the snow, guarding powerful secrets"
+				""
+				" &oThe cold does not forgive the unprepared. Will you master the frost-or fall to its silence?&r"
+			]
+			id: "324219AF4569EA85"
+			rewards: [{
+				id: "729A02690EC6D559"
+				item: "ad_astra:cryo_fuel_bucket"
+				type: "item"
+			}]
+			subtitle: "From burning storms to frozen silence-your next trial begins. Click me for more info!"
+			tasks: [{
+				id: "270EB929D00ED077"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Glacio: Into the Icebound Unknown"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["324219AF4569EA85"]
+			description: [
+				"The surface of Glacio is a relentless expanse of &bsolid ice and stone&r-&oGlacio Stone&r, to be precise. This brittle yet resilient material forms the &lbedrock of survival&r on this planet, offering both protection and opportunity."
+				""
+				"While it may seem unassuming at first, Glacio Stone is &lkey to future construction&r. From durable bases to reinforced machinery foundations, this frost-hardened rock will support your endeavors on this icy world."
+				""
+				"&7Chip away at the cold crust and gather what you can&r-&oit’s time to build a stronghold in the snow.&r "
+			]
+			icon: "ad_astra:glacio_stone"
+			id: "417ACFE42707F7EF"
+			rewards: [
+				{
+					count: 16
+					id: "16A9F2F74FD54A95"
+					item: "ad_astra:glacio_stone_bricks"
+					type: "item"
+				}
+				{
+					id: "5B25A396BFD33F74"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Begin your survival with the stone beneath the snow. Click me for more info!"
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "3AB2D041111CBCF4"
+					type: "dimension"
+				}
+				{
+					block: "ad_astra:glacio_stone"
+					block_type: 0
+					checkItem: false
+					id: "2CA0F213B263E100"
+					type: "questsadditions:break"
+					value: 32L
+				}
+			]
+			title: "Glacio Stone: Shaping the Frozen Foundation"
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0AFEDCD0BAB4CCE9"]
+			description: [
+				"Beneath Glacio’s &ofrostbitten crust&r lies more than stone and snow-&lancient power&r pulses within the planet’s veins. Brave the cold, dig deep, and &ldiscover the rare resources&r hidden below the surface."
+				""
+				"{@pagebreak}"
+				" &lValuable Resources&r:"
+				""
+				"- &bFrostite Ore&r - A resilient, high-tier material used in &ladvanced machinery and specialized gear&r. Durable as it is rare."
+				""
+				"- &bGlacio Ice Shard Ore&r - A shimmering fuel component with ties to &lend-game enhancements&r and &lCryo Fuel production&r. Handle with care-its chill cuts to the core."
+				""
+				"&7As the wind howls above, only the brave descend into the ice. Will you be the one to &lunearth Glacio’s buried power&r? "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58CFB703A2216D9F"
+			rewards: [
+				{
+					count: 16
+					id: "5377246C64BAFD90"
+					item: "ad_astra:ice_shard"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "30D009130FDE6421"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "4013971432C456FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Mine rare ores hidden deep beneath the ice-if you can survive the cold. Click me for more info!"
+			tasks: [
+				{
+					block: "ad_astra:glacio_ice_shard_ore"
+					block_type: 0
+					checkItem: false
+					id: "306C16F005CC0EF0"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "forge_frontier:frostite"
+					block_type: 0
+					checkItem: false
+					id: "067125685FF2D0D8"
+					type: "questsadditions:break"
+					value: 16L
+				}
+			]
+			title: "Glacio's Frozen Core"
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["417ACFE42707F7EF"]
+			description: [
+				"Beneath the snow-laden skies of Glacio lie the &oburied echoes of civilizations long lost&r. Their structures-entombed in frost and mystery-await those bold enough to uncover their secrets. But beware-these frozen ruins are &lnot unguarded&r."
+				""
+				"{@pagebreak}"
+				""
+				" &lStructures to Brave&r:"
+				""
+				"- &bIncendium Sanctum&r: A towering &ochilling fortress&r veiled in snow, protecting &opowerful treasures&r deep within its icy halls."
+				""
+				"- &bCataclysm Frosted Prison&r: A forsaken dungeon where &cfrozen horrors&r prowl the shadows. Inside await &rare loot&r, &oblueprints&r, and &ldangers that bite deeper than the cold&r."
+				""
+				"&7Steel your nerves, adventurer-these icy tombs are not for the faint of heart. But those who endure the frost will emerge with &lknowledge, power, and the keys to the stars.&r "
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:cursed_eye"
+				tag: { }
+			}
+			id: "0AFEDCD0BAB4CCE9"
+			rewards: [
+				{
+					id: "20B3C30C25190E85"
+					item: "friendsandfoes:totem_of_freezing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "491D89DAE3B0E2DB"
+					item: "quark:permafrost"
+					type: "item"
+				}
+				{
+					id: "751B70DC51D46E76"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Explore ancient ruins locked in ice and guarded by frostbitten foes. Click me for more info!"
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "7922B1BB31DD61DB"
+					structure: "incendium:sanctum"
+					title: "Locate a Sanctum"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "cataclysm:cursed_eye"
+						tag: { }
+					}
+					id: "14E293FB17B73132"
+					structure: "cataclysm:frosted_prison"
+					title: "Locate a Frosted Prison"
+					type: "structure"
+				}
+			]
+			title: "Frozen Relics: Glacio's Icy Bastions"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["58CFB703A2216D9F"]
+			description: [
+				"&7Prepare for your descent into darkness-and your rise to the End.&r"
+				""
+				"With &bGlacio’s frozen frontier&r behind you, a new challenge begins. The path forward leads not into the stars, but deep below-to the realm of shadows and silence. It’s time to descend into the &8Deep Dark&r, face the &cWarden&r, and uncover the secret to unlocking the End."
+				""
+				"{@pagebreak}"
+				""
+				" &lYour Objective&r:"
+				""
+				"- Gather your best equipment, sharpen your wits, and &lbrace yourself for the Warden&r."
+				"- Defeat it and claim the &dHeart of the Warden&r-your key to breaching reality itself."
+				"- Prepare for the trials that await in the &5End Dimension&r."
+				""
+				"&7From frozen peaks to abyssal depths, your journey now shifts toward a realm of ancient magic, forgotten ruins, and a final confrontation. Are you ready to &lunlock the End&r? "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:ender_eye"
+				tag: { }
+			}
+			id: "65D12057D044A1DB"
+			rewards: [
+				{
+					id: "4E8024BDEEAF5F37"
+					item: "silentsdelight:sculk_catalyst_pie"
+					type: "item"
+				}
+				{
+					id: "36AB51B4104352A5"
+					item: "unusualend:ender_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Face the Warden, unlock the portal, and step into the final frontier. Click me for more info!"
+			tasks: [{
+				id: "6AE63DA15B79AA64"
+				title: "Check"
+				type: "checkmark"
+			}]
+			title: "Toward the End"
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			id: "623E3160C2E0D4DD"
+			optional: true
+			secret: true
+			tasks: [{
+				id: "18484AC493AC5820"
+				title: "Center"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+	]
+	title: "Ad Astra"
+}

@@ -1,0 +1,50 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "createqol:feature_loaded",
+          "feature": "shadow_radiance"
+        }
+      ],
+      "recipe": {
+        "type": "create:mechanical_crafting",
+        "pattern": [
+          " T ",
+          " N ",
+          " T ",
+          "SBS",
+          " O "
+        ],
+        "key": {
+          "T": {
+            "item": "create_dd:refined_radiance"
+          },
+          "B": {
+            "tag": "forge:ingots/brass"
+          },
+          "S": {
+            "tag": "forge:plates/obsidian"
+          },
+          "O": {
+            "item": "minecraft:netherite_sword"
+          },
+          "N": {
+            "item": "create:nozzle"
+          }
+        },
+        "result": {
+          "count": 1,
+          "item": "createqol:refined_radiance_sword"
+        },
+        "accept_mirrored": false,
+        "copied_slot": 13,
+        "copied_nbts": [
+          "Enchantments",
+          "display.Name"
+        ]
+      }
+    }
+  ]
+}

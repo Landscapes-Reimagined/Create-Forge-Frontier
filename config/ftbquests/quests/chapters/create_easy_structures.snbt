@@ -1,29 +1,50 @@
 {
+	autofocus_id: "3F12B0DCFA1F67A5"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_easy_structures"
 	group: "4FAD6EACDA300DDE"
 	icon: "create:cogwheel"
 	id: "4987F30DFAF2A99F"
-	images: [{
-		height: 10.0d
-		image: "ftb:textures/easy_structures_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 0.0d
-		y: -9.5d
-	}]
-	order_index: 0
+	images: [
+		{
+			height: 10.0d
+			image: "ftb:textures/easy_structures_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dev: true
+			height: 10.0d
+			image: "ftb:textures/idas_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dev: true
+			height: 10.0d
+			image: "ftb:textures/villages_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: 12.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"The world is filled with remnants of progress—abandoned camps, forgotten factories, and rustic homesteads. These structures were once bustling hubs of creativity, powered by ingenuity and the mechanical marvels of Create. Though time has worn them down, they now stand as treasure troves for those daring enough to explore."
+				"The world is filled with remnants of progress-abandoned camps, forgotten factories, and rustic homesteads. These structures were once bustling hubs of creativity, powered by ingenuity and the mechanical marvels of Create. Though time has worn them down, they now stand as treasure troves for those daring enough to explore."
 				""
 				"Within these structures, you'll find valuable Create components, rare materials, and clues about the world’s industrial past. Campsites offer supplies and shelter, factories hold advanced machinery, and windmills stand tall as monuments to progress."
 				""
 				"{@pagebreak}"
-				"But exploration is only the beginning. Each structure is more than just a waypoint—it's an opportunity. Uncover contraptions, recover lost technology, and transform these relics into the heart of your own creations."
+				"But exploration is only the beginning. Each structure is more than just a waypoint-it's an opportunity. Uncover contraptions, recover lost technology, and transform these relics into the heart of your own creations."
 			]
 			hide_dependent_lines: true
 			id: "7A0AA0B019DD2B6C"
@@ -186,7 +207,7 @@
 		{
 			dependencies: ["7A0AA0B019DD2B6C"]
 			description: [
-				"Long-abandoned homesteads dot the landscape, offering shelter, storage, and remnants of old technology. These homes once served as workshops and rest stops for travelers—now they hold supplies for those willing to reclaim them"
+				"Long-abandoned homesteads dot the landscape, offering shelter, storage, and remnants of old technology. These homes once served as workshops and rest stops for travelers-now they hold supplies for those willing to reclaim them"
 				"{image:ftb:textures/house_1.png width:250 height:150 align:center}"
 			]
 			icon: "minecraft:red_bed"
@@ -286,6 +307,34 @@
 			x: 4.0d
 			y: 0.0d
 		}
+		{
+			id: "4C3A778B5ECB1EE1"
+			optional: true
+			secret: true
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "2B1649A9F024169B"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "34C6D04687F001A3"
+			optional: true
+			secret: true
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "3CD564725F64C8C2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
 	]
-	title: "Create Easy Structures"
+	title: "Create Structures"
 }

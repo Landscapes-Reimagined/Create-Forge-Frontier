@@ -54,6 +54,10 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
   "create_mechanical_chicken": {
     "data": true
   },
@@ -69,6 +73,9 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "entangled": {
+    "entangled_block_component": true
   },
   "endertanks": {
     "hud.basic": true,
@@ -136,9 +143,6 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "petrolpark": {
-    "contamination": true
   },
   "corpse": {
     "corpse": true
