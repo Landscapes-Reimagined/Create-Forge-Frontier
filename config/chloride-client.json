@@ -50,7 +50,7 @@
   "entityDistanceCulling": true,
   "entityCullingDistanceX": 4096,
   "entityCullingDistanceY": 32,
-  "monsterDistanceCulling": false,
+  "monsterDistanceCulling": true,
   "monsterCullingDistanceX": 16384,
   "monsterCullingDistanceY": 64,
   "entityWhitelist": [
