@@ -8,5 +8,7 @@ ServerEvents.recipes(event =>
         event.remove({ id: 'create_additions_synthetics:ma_casing_wood'})
         event.remove({ id: 'create_additions_synthetics:ma_alloy_iron'})
         event.remove({ id: 'create_additions_synthetics:ma_alloy_zinc'})
+        event.remove({ id: 'create_additions_synthetics:c_qtblock'})
+        event.remove({ id: 'create_additions_synthetics:c_qtquartz'})
     }
 )
