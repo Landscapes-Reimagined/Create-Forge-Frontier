@@ -140,4 +140,4 @@ ServerEvents.recipes(event =>
                 }
             }).id('forge_frontier:sequenced_assembly/conveyor_boots');
     }
-);
+);  
