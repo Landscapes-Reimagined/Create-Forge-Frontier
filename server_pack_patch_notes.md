@@ -2,32 +2,42 @@
 
 ---
 
-### **What’s Included**
-- 
+## **Introduction**
+The Forge Frontier v2.6.1 Server Pack is a stability-focused hotfix release designed to ensure smooth multiplayer operation following recent Create and core mod updates. This server pack consolidates configuration updates, scripting fixes, and performance improvements to provide a reliable environment for both new and existing servers.
 
 ---
 
-### **Key Improvements**
-- 
+## **What’s Included**
+- Updated server configurations aligned with Forge Frontier v2.6.1
+- Optimized scripts and datapacks for Create v6.0.8 compatibility
+- Performance and stability improvements for long-running servers
+- Updated core files to match the latest modpack release
 
 ---
 
-### **General Fixes & Enhancements**
-- 
+## **Key Improvements**
+- Improved Create system stability in multiplayer environments
+- Better synchronization between automation systems and server tick handling
+- Reduced risk of desyncs and progression-related issues during extended play sessions
 
 ---
 
-### **Need Help?**
-If you encounter setup issues or gameplay bugs, join our official **[Discord Community](https://discord.gg/quenZthXgy)** for support from the **Forge Frontier Dev Team** and other server admins.
-
-> Forge Frontier v2.6.1 continues to refine and stabilize the Create-based experience - offering improved automation systems, balanced gameplay loops, and a smoother environment for both players and server operators. 
+## **General Fixes & Enhancements**
+- Addressed server-side script inconsistencies
+- Improved compatibility with updated mods and libraries
+- Minor configuration refinements to ensure consistent behavior across server restarts
 
 ---
 
-### **Looking for Hassle-Free Hosting?**
-Deploy your **Forge Frontier v2.6.1** server instantly with our **official partner - BisectHosting**.  
-Their servers are pre-optimized for this modpack, featuring one-click installation, 24/7 technical support, and automatic backups.
+## **Need Help?**
+If you encounter setup issues or gameplay bugs, join our official **[Discord Community](https://discord.gg/quenZthXgy)** for support from the **Forge Frontier Dev Team** and other server administrators.
 
-**Click below to get started:**
+> Forge Frontier v2.6.1 continues to refine and stabilize the Create-based experience, offering improved automation systems, balanced gameplay loops, and a smoother environment for both players and server operators.
+
+---
+
+## **Looking for Hassle-Free Hosting?**
+Deploy your **Forge Frontier v2.6.1** server instantly with our **official partner, BisectHosting**.  
+Their servers are pre-optimized for this modpack and include one-click installation, 24/7 support, and automatic backups.
 
 [![BisectHosting Promo](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog)
