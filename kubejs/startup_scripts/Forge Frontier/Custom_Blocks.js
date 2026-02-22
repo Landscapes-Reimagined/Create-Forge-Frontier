@@ -1,17 +1,5 @@
 StartupEvents.registry('block', event => {
 
-    // Raw Uraninite Block
-    event.create('forge_frontier:raw_uraninite_block')
-        .displayName('Raw Uraninite Block')
-        .soundType('stone') 
-        .mapColor('PLANT') 
-        .hardness(2.0)
-        .model('forge_frontier:block/raw_uraninite_block')
-        .requiresTool(true)
-        .renderType('solid')
-        .tagBlock("mineable/pickaxe")
-        .fullBlock(true);
-
     // Hyper Experience Block
     event.create('create_enchantment_industry:hyper_experience_block')
         .displayName('Hyper Experience Block')
@@ -19,18 +7,6 @@ StartupEvents.registry('block', event => {
         .mapColor('DIAMOND') 
         .hardness(2.0)
         .model('forge_frontier:block/hyper_experience_block')
-        .requiresTool(true)
-        .renderType('solid')
-        .tagBlock("mineable/pickaxe")
-        .fullBlock(true);
-
-    // Dielectric Paste Block
-    event.create('forge_frontier:dielectric_paste_block')
-        .displayName('Dielectric Paste Block')
-        .soundType('honey_block') 
-        .mapColor('COLOR_GRAY') 
-        .hardness(2.0)
-        .model('forge_frontier:block/dielectric_paste_block')
         .requiresTool(true)
         .renderType('solid')
         .tagBlock("mineable/pickaxe")
