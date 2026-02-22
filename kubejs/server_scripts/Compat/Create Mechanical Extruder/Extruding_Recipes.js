@@ -189,27 +189,6 @@ ServerEvents.recipes(event =>
                 }
             }).id('forge_frontier:extruding/gloopstone') 
 
-        // Sky Stone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'ae2:sky_stone_block'
-                },
-                result: {
-                item: 'ae2:sky_stone_block'
-                }
-            }).id('forge_frontier:extruding/sky_stone')
-
         // Gabbro
             event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/gabbro' })
             event.custom({

@@ -19,6 +19,8 @@ ServerEvents.tags('block', event =>
         
         // Create Wrenchable
             event.add('create:wrench_pickup', [
+                "sophisticatedstorage:chest",
+                "sophisticatedstorage:barrel",
                 "enderchests:ender_chest",
                 "endertanks:ender_tank",
                 'prettypipes:pressurizer',

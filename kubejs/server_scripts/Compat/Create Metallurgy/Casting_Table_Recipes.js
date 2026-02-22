@@ -38,7 +38,6 @@ ServerEvents.recipes(function (event) {
         { name: "uranium", fluid: "forge_frontier:molten_uranium", ingot: "alexscaves:uranium", nugget: "forge_frontier:uranium_nugget", plate: "forge_frontier:uranium_sheet", rodTag: "forge:rods/uranium", wireTag: "forge:wires/uranium" },
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", ingot: "create_better_motors:reggarfonite_gem", nugget: "create_better_motors:reggarfonite_nugget", plate: "create_better_motors:reggarfonite_sheet", rodTag: "forge:rods/reggarfonite", wireTag: "forge:wires/reggarfonite" },
         { name: "ostrum", fluid: "forge_frontier:molten_ostrum", ingot: "ad_astra:ostrum_ingot", nugget: "ad_astra:ostrum_nugget", plate: "ad_astra:ostrum_plate", rodTag: "forge:rods/ostrum", wireTag: "forge:wires/ostrum" },
-        { name: "dielectric_paste", fluid: "forge_frontier:molten_dielectric_paste", ingot: "powah:dielectric_paste", rod: "powah:dielectric_rod"},
         { name: "bronze", fluid: "createmetallurgy:molten_bronze", ingot: "create_dd:bronze_ingot", nugget: "create_dd:bronze_nugget", plate: "create_dd:bronze_sheet"},
         { name: "tungsten", fluid: "createmetallurgy:molten_tungsten", wire: "createmetallurgy:tungsten_wire"},
         { name: "electrum", fluid: "createmetallurgy:molten_electrum", wireTag: "forge:wires/electrum"},

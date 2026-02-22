@@ -28,7 +28,6 @@ ServerEvents.recipes(function (event) {
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block" },
         { name: "coal", fluid: "forge_frontier:molten_carbon", result: "minecraft:coal_block" },
         { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" },
-        { name: "dielectric", fluid: "forge_frontier:molten_dielectric_paste", result: "forge_frontier:dielectric_paste_block" },
 
         // Hyper Experience – special amount (27 mB instead of 810)
         { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", result: "create_enchantment_industry:hyper_experience_block", amount: 27 },

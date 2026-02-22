@@ -163,25 +163,6 @@ ServerEvents.recipes(event =>
         // Removed Pocket Dimension Remote Recipe
             event.remove({ id: 'createteleporters:pocket_dimension_recipe'})
 
-        // Botany Pots
-            event.remove({ id: "botanypots:enlightend/soil/chorloam" })
-            event.custom({
-                type:"botanypots:soil",
-                input:
-                {
-                    item: "enlightened_end:chorloam"
-                },
-                display:
-                {
-                    block: "enlightened_end:chorloam"
-                },
-                categories:
-                [
-                    "chorloam"
-                ],
-                growthModifier:1
-            }).id('botanypots:enlightend/soil/chorloam')
-
         // Removes Conflicting Recipes
             event.remove({ id: 'cratedelight:minecraft/crafting/wheat_flour_bag'})
             event.remove({ id: 'cratedelight:minecraft/crafting/cinder_flour_bag'})

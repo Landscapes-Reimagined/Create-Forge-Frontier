@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         key: {
             "P": { tag: "forge:ender_pearls" },
             "R": { item: "create_dd:refined_radiance_casing" },
-            "C": { item: "enderchests:ender_bag" }
+            "C": { item: "createutilities:void_chest" }
         },
         result: {
             item: "entangled:block"

@@ -1,17 +1,5 @@
 ServerEvents.recipes(event => 
     {
-        // Powah Rod
-        event.custom({
-            type:"createaddition:rolling",
-            input: {
-                item: "powah:dielectric_paste"
-            },
-            result: {
-                item: "powah:dielectric_rod",
-                count: 2
-            }
-        }).id("forge_frontier:rolling/dielectric_rod")
-
         // Steel Rod
         event.custom({
             type:"createaddition:rolling",
