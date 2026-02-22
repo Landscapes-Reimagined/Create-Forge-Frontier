@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:shulker_box"
+    }
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:chests"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "pattern": [
+    " S",
+    "LC",
+    " S"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:shulker_box"
+  }
+}

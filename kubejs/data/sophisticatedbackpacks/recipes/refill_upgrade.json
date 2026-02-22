@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:refill_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " E ",
+    "IBI",
+    "RCR"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:refill_upgrade"
+  }
+}

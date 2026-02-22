@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DLD",
+    "DDD"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+  }
+}

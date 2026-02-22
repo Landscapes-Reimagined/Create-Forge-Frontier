@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:iron_to_gold_tier_upgrade"
+    }
+  ],
+  "key": {
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GLG",
+    "GGG"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:iron_to_gold_tier_upgrade"
+  }
+}

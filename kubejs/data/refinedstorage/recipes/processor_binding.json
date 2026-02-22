@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "SLS",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "create:cogwheel"
+    },
+    "L": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:processor_binding",
+    "count": 12
+  }
+}

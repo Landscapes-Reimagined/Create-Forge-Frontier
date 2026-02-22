@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:blasting_upgrade"
+    }
+  ],
+  "key": {
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "sophisticatedstorage:smelting_upgrade"
+    },
+    "T": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "TTT"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:blasting_upgrade"
+  }
+}

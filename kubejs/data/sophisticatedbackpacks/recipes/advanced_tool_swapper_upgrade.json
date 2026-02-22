@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+        "G": {
+      "item": "create:brass_ingot"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    },
+    "V": {
+      "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GVG",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+  }
+}

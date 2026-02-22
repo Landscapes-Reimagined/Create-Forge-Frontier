@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:basic_to_copper_tier_upgrade"
+    }
+  ],
+  "key": {
+    "C": {
+      "tag": "forge:ingots/copper"
+    },
+    "L": {
+      "item": "minecraft:lever"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CLC",
+    "CCC"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:basic_to_copper_tier_upgrade"
+  }
+}

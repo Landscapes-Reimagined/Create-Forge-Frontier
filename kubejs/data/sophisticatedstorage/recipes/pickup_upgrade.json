@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:pickup_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "L": {
+      "tag": "minecraft:planks"
+    },
+    "P": {
+      "item": "minecraft:sticky_piston"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " P ",
+    "LBL",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:pickup_upgrade"
+  }
+}

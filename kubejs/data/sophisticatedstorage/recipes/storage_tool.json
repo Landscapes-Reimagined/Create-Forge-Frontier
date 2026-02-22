@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:storage_tool"
+    }
+  ],
+  "key": {
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "R": {
+      "item": "minecraft:redstone_torch"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    " EI",
+    " SR",
+    "S  "
+  ],
+  "result": {
+    "item": "sophisticatedstorage:storage_tool"
+  }
+}

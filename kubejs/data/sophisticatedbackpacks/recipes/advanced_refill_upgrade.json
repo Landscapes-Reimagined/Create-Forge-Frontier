@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_refill_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "item": "sophisticatedbackpacks:refill_upgrade"
+    },
+        "G": {
+      "item": "create:brass_ingot"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GFG",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_refill_upgrade"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:stack_upgrade_tier_2"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "create:andesite_alloy_block"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_1"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "BIB"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_2"
+  }
+}

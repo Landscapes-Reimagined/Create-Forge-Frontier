@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:blasting_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedstorage:upgrade_base"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "RIR",
+    "IBI",
+    "RFR"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:blasting_upgrade"
+  }
+}

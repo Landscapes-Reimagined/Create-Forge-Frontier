@@ -1,0 +1,25 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GBG",
+    "GGG"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "sophisticatedstorage:shulker_box_from_vanilla_shapeless",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:shulker_box"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "minecraft:black_shulker_box"
+    },
+    {
+      "item": "minecraft:lever"
+    }
+  ],
+  "result": {
+    "item": "sophisticatedstorage:shulker_box",
+    "nbt": "{accentColor:1908001,mainColor:1908001}"
+  }
+}

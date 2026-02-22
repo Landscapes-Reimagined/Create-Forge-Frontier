@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:stack_upgrade_tier_4"
+    }
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "S": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_3"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DSD",
+    "BDB"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_4"
+  }
+}

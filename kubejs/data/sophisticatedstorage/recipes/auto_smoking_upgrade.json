@@ -1,0 +1,34 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:auto_smoking_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "H": {
+      "item": "create:chute"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "sophisticatedstorage:smoking_upgrade"
+    }
+  },
+  "pattern": [
+    "DHD",
+    "RSH",
+    "GHG"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:auto_smoking_upgrade"
+  }
+}

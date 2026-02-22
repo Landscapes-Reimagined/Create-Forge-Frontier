@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:tool_swapper_upgrade"
+    }
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wooden_axe"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "P": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    },
+    "W": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "pattern": [
+    "RWR",
+    "PBA",
+    "ISI"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:tool_swapper_upgrade"
+  }
+}

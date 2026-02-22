@@ -1,0 +1,34 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:advanced_hopper_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "H": {
+      "item": "sophisticatedstorage:hopper_upgrade"
+    },
+    "O": {
+      "item": "minecraft:dropper"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GHG",
+    "ROR"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:advanced_hopper_upgrade"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:gold_barrel"
+    }
+  ],
+  "key": {
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "S": {
+      "item": "sophisticatedstorage:iron_barrel"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    "GGG"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:gold_barrel"
+  }
+}

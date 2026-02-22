@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedstorage:double_chest_tier_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:iron_chest"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "create:andesite_alloy_block"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "sophisticatedstorage:chest"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "IBI"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:iron_chest"
+  }
+}

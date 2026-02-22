@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:basic_tier_upgrade"
+    }
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SLS",
+    " S "
+  ],
+  "result": {
+    "item": "sophisticatedstorage:basic_tier_upgrade"
+  }
+}

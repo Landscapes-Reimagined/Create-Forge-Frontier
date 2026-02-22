@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:jukebox_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "J": {
+      "item": "minecraft:jukebox"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " J ",
+    "IBI",
+    " R "
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:jukebox_upgrade"
+  }
+}

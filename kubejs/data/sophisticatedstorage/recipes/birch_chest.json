@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:chest"
+    }
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "P": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PLP",
+    "PPP"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:chest",
+    "nbt": "{woodType:\"birch\"}"
+  }
+}

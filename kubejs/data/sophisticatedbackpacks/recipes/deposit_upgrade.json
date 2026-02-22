@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:deposit_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "tag": "forge:chests/wooden"
+    },
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " P ",
+    "IBI",
+    "RCR"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:deposit_upgrade"
+  }
+}

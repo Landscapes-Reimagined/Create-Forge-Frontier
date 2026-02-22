@@ -1,0 +1,34 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_pump_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:gems/diamond"
+    },
+        "G": {
+      "item": "create:brass_ingot"
+    },
+    "I": {
+      "item": "minecraft:dispenser"
+    },
+    "P": {
+      "item": "sophisticatedbackpacks:pump_upgrade"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "DID",
+    "GPG",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_pump_upgrade"
+  }
+}
