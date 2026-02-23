@@ -37,7 +37,6 @@ const materials = [
     'Netherite-Gold',
     'Netherite-Emerald',
     'Netherite-Diamond',
-    'Star_Infused_Netherite',
     'Etrium', 
 
     // New Compressed Create Blocks

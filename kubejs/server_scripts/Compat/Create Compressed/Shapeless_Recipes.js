@@ -37,7 +37,6 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        'star_infused_netherite',
         'etrium',
         // New Compressed Create Blocks
         'cogwheel_block',
@@ -660,20 +659,5 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_netherite-diamond_block_1x' )      
-
-    // Star Infused Netherite Block
-        // Star Infused Netherite Compressed 1x to Star Infused Netherite Block Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'forge_frontier:compressed_star_infused_netherite_1x'
-                }
-            ],
-            result: {
-                item: 'cagedmobs:star_infused_netherite_block',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/compressed_star_infused_netherite_block_1x' )         
-    
+ 
 })
