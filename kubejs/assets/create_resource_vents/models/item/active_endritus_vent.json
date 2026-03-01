@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "create_resource_vents:block/active_void_shale_vent"
+    "all": "create_resource_vents:block/active_endritus_vent"
     }
   }
 
