@@ -1,5 +1,5 @@
 {
-  "feature": "create_resource_vents:radiantite_vent",
+  "feature": "create_resource_vents:gneiss_vent",
   "placement": [
     {
       "type": "minecraft:rarity_filter",

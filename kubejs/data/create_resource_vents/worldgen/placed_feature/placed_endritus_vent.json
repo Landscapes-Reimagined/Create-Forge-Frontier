@@ -1,5 +1,5 @@
 {
-  "feature": "create_resource_vents:palerock_vent",
+  "feature": "create_resource_vents:endritus_vent",
   "placement": [
     {
       "type": "minecraft:rarity_filter",

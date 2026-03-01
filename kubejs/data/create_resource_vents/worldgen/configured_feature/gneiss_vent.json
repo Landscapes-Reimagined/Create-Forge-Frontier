@@ -13,7 +13,7 @@
       "entries": [
         {
           "data": {
-            "Name": "enlightened_end:void_shale"
+            "Name": "unusualend:gneiss"
           },
           "weight": 70
         }
@@ -25,27 +25,27 @@
         "state": {
           "Name": "create:copycat_step"
         },
-        "nbt": "{Item:{id:\"enlightened_end:void_shale\",Count:1b},Material:{Name:\"enlightened_end:void_shale\"}}"
+        "nbt": "{Item:{id:\"unusualend:gneiss\",Count:1b},Material:{Name:\"unusualend:gneiss\"}}"
       },
       {
         "type": "create_resource_vents:state_data_provider",
         "state": {
           "Name": "copycats:copycat_wall"
         },
-        "nbt": "{Item:{id:\"enlightened_end:void_shale\",Count:1b},Material:{Name:\"enlightened_end:void_shale\"}}"
+        "nbt": "{Item:{id:\"unusualend:gneiss\",Count:1b},Material:{Name:\"unusualend:gneiss\"}}"
       },
       {
         "type": "create_resource_vents:state_data_provider",
         "state": {
           "Name": "create:copycat_panel"
         },
-        "nbt": "{Item:{id:\"enlightened_end:void_shale\",Count:1b},Material:{Name:\"enlightened_end:void_shale\"}}"
+        "nbt": "{Item:{id:\"unusualend:gneiss\",Count:1b},Material:{Name:\"unusualend:gneiss\"}}"
       }
     ],
     "vent": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "create_resource_vents:dormant_void_shale_vent"
+        "Name": "create_resource_vents:dormant_gneiss_vent"
       }
     },
     "depth": {
@@ -57,7 +57,7 @@
     },
     "liquidBlock": {
       "type": "create_resource_vents:vent_fluid",
-      "vent": "create_resource_vents:void_shale"
+      "vent": "create_resource_vents:gneiss"
     }
   }
 }

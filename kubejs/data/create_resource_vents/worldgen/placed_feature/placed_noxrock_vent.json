@@ -1,5 +1,5 @@
 {
-  "feature": "create_resource_vents:void_shale_vent",
+  "feature": "create_resource_vents:noxrock_vent",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
