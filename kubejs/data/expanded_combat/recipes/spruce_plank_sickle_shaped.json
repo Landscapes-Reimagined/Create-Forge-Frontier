@@ -1,0 +1,13 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "expanded_combat:config_boolean",
+          "config_entry": "weapon"
+        }
+      ]
+    }
+  ]
+}
