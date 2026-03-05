@@ -1,12 +1,5 @@
 ServerEvents.recipes(event => 
     {
-        // Recipe Removals
-        event.remove ({ id: 'create_new_age:shaped/basic_motor'})
-        event.remove ({ id: 'create_new_age:shaped/advanced_motor'})
-        event.remove ({ id: 'create_new_age:mechanical_crafting/reinforced_motor'})
-        event.remove ({ id: 'create_new_age:shaped/basic_motor_extension'})
-        event.remove ({ id: 'create_new_age:mechanical_crafting/advanced_motor_extension'})
-
         // Shaped Recipes for Overcharged Blocks
         const overchargedBlocks = {
             overcharged_iron_block: "create_new_age:overcharged_iron",
