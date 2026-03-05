@@ -24,10 +24,6 @@ ServerEvents.recipes(function (event) {
         { base: 'minecraft:carrot', result: 'minecraft:golden_carrot', amount: 13.6, count: 2, id: 'golden_carrot' },
 
         // Apotheotic Additions / Apotheosis items
-        { base: 'apotheotic_additions:thornshelf', result: 'apotheotic_additions:infused_thornshelf', amount: 41.7, count: 2, id: 'infused_thornshelf' },
-        { base: 'apotheosis:inert_trident', result: 'minecraft:trident', amount:  18.4, count: 2, id: 'trident' },
-        { base: 'apotheotic_additions:apotheotic_coin', result: 'apotheotic_additions:infused_coin', amount:  18.4, count: 2, id: 'infused_coin' },
-        { base: 'apotheotic_additions:infused_coin', result: 'apotheotic_additions:ascended_coin', amount:  217.2, count: 2, id: 'ascended_coin' },
         { base: 'apotheosis:hellshelf', result: 'apotheosis:infused_hellshelf', amount:  68.7, count: 2, id: 'infused_hellshelf' },
         { base: 'apotheosis:scrap_tome', result: 'apotheosis:improved_scrap_tome', amount:  68.7, count: 5, id: 'improved_scrap_tome' },
         { base: 'apotheosis:seashelf', result: 'apotheosis:infused_seashelf', amount:  68.7, count: 2, id: 'infused_seashelf' },
