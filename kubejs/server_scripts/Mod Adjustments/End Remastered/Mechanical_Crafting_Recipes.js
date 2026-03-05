@@ -202,7 +202,7 @@ ServerEvents.recipes(event =>
                 ' S '
                 ],
                 key: {
-                N: Ingredient.of('cagedmobs:star_infused_netherite_nugget'),
+                N: Ingredient.of("minecraft:nether_star"),
                 U: Ingredient.of('endrem:undead_soul'),
                 W: Ingredient.of('minecraft:wither_skeleton_skull'),
                 S: Ingredient.of('minecraft:soul_sand'),

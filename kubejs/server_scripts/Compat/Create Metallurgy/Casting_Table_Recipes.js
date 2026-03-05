@@ -15,11 +15,8 @@ ServerEvents.recipes(function (event) {
         { name: "netherite", fluid: "createmetallurgy:molten_netherite", nugget: "createdeco:netherite_nugget", plate: "createdeco:netherite_sheet"},
 
         // Forge Frontier + special ores
-        { name: "bismuth", fluid: "forge_frontier:molten_bismuth", ingot: "enlightened_end:bismuth_ingot", nugget: "enlightened_end:bismuth_nugget", plate: "forge_frontier:bismuth_sheet", rodTag: "forge:rods/bismuth", wireTag: "forge:wires/bismuth" },
         { name: "desh", fluid: "forge_frontier:molten_desh", ingot: "ad_astra:desh_ingot", nugget: "ad_astra:desh_nugget", plate: "ad_astra:desh_plate", rodTag: "forge:rods/desh", wireTag: "forge:wires/desh" },
         { name: "calorite", fluid: "forge_frontier:molten_calorite", ingot: "ad_astra:calorite_ingot", nugget: "ad_astra:calorite_nugget", plate: "ad_astra:calorite_plate", rodTag: "forge:rods/calorite", wireTag: "forge:wires/calorite" },
-        { name: "irradium", fluid: "forge_frontier:molten_irradium", ingot: "enlightened_end:irradium_bar", nugget: "forge_frontier:irradium_nugget", plate: "forge_frontier:irradium_sheet", rodTag: "forge:rods/irradium", wireTag: "forge:wires/irradium" },
-        { name: "malachite", fluid: "forge_frontier:molten_malachite", ingot: "enlightened_end:malachite", nugget: "forge_frontier:malachite_nugget", plate: "forge_frontier:malachite_sheet", rodTag: "forge:rods/malachite", wireTag: "forge:wires/malachite" },
         { name: "etrium", fluid: "forge_frontier:molten_etrium", ingot: "ad_astra:etrium_ingot", nugget: "ad_astra:etrium_nugget", plate: "ad_astra:etrium_plate", rod: "ad_astra:etrium_rod", wireTag: "forge:wires/etrium" },
         { name: "emerald", fluid: "forge_frontier:molten_emerald", ingot: "minecraft:emerald", nugget: "forge_frontier:emerald_nugget", plate: "forge_frontier:emerald_sheet", rodTag: "forge:rods/emerald", wireTag: "forge:wires/emerald" },
         { name: "diamond", fluid: "forge_frontier:molten_diamond", ingot: "minecraft:diamond", nugget: "forge_frontier:diamond_nugget", plate: "forge_frontier:diamond_sheet", rodTag: "forge:rods/diamond", wireTag: "forge:wires/diamond" },

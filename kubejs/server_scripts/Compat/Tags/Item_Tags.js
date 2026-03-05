@@ -282,10 +282,9 @@ ServerEvents.tags('item', event =>
             event.add("excavated_variants:stone_stones",[
                 "forge_frontier:amberlite", "forge_frontier:aubrum", "forge_frontier:azurnium", "forge_frontier:frostite",
                 "forge_frontier:glacium", "forge_frontier:guanite", "forge_frontier:neodymrium", "forge_frontier:pearlyte",
-                "forge_frontier:pyroclast", "forge_frontier:radiantite", "forge_frontier:stellaris",
-                "forge_frontier:sulphite", "forge_frontier:verdantine", "forge_frontier:uraniumnite",
-                "enlightened_end:palerock", "create_dd:potassic", "deeperdarker:sculk_grime",
-                "enlightened_end:void_shale", "forge_frontier:resonite"
+                "forge_frontier:pyroclast", "forge_frontier:stellaris",
+                "forge_frontier:sulphite", "forge_frontier:verdantine", "forge_frontier:uraniumnite","create_dd:potassic", "deeperdarker:sculk_grime",
+                "forge_frontier:resonite"
             ])
         
         // Create Additions Plant Tag
@@ -436,10 +435,8 @@ ServerEvents.tags('item', event =>
                 "forge_frontier:sulphite", 
                 "forge_frontier:verdantine", 
                 "forge_frontier:uraniumnite",
-                "enlightened_end:palerock", 
                 "create_dd:potassic", 
                 "deeperdarker:sculk_grime",
-                "enlightened_end:void_shale", 
                 "minecraft:ancient_debris", 
                 "forge_frontier:resonite",
             ];
@@ -482,18 +479,6 @@ ServerEvents.tags('item', event =>
             event.add("forge:small_cacti",[
                 "creeperoverhaul:tiny_cactus",
                 "regions_unexplored:barrel_cactus"
-            ]);
-
-        // Cassette Tape
-            event.add("iammusicplayer:cassette_tape",[
-                "iammusicplayer:cassette_tape",
-                "iammusicplayer:cassette_tape_glass"
-            ]);
-
-        // Cerulean Stalk Block
-            event.add("enlightened_end:cerulean_stalk_blocks",[
-                "enlightened_end:cerulean_log",
-                "enlightened_end:stripped_cerulean_log"
             ]);
 
         // Magnolia Logs
@@ -542,11 +527,6 @@ ServerEvents.tags('item', event =>
             event.add("forge:ores/coal", "alexscaves:coprolith_coal_ore");
             event.add("forge:ores/uranium", "alexscaves:radrock_uranium_ore");
 
-        // Enlightened End Ores
-            event.add("forge:ores/bismuth", "enlightened_end:bismuth_ore");
-            event.add("forge:ores/irradium", "enlightened_end:irradium_ore");
-            event.add("forge:ores/malachite", "enlightened_end:malachite_ore");
-
         // Forge Templates/Smithing
             event.add("forge:templates/smithing", [
                 "minecraft:netherite_upgrade_smithing_template", 
@@ -554,8 +534,7 @@ ServerEvents.tags('item', event =>
                 "forge_frontier:netherite_gold_upgrade", 
                 "forge_frontier:netherite_emerald_upgrade",
                 "forge_frontier:netherite_diamond_upgrade", 
-                "cataclysm:ignitium_upgrade_smithing_template",
-                "enlightened_end:adamantite_smithing_template", 
+                "cataclysm:ignitium_upgrade_smithing_template", 
                 "endreborn:mysterious_upgrade_template", 
                 "endreborn:curious_upgrade_template", 
                 "deeperdarker:warden_upgrade_smithing_template", 
@@ -581,9 +560,6 @@ ServerEvents.tags('item', event =>
                 "crushed_desh", 
                 "crushed_ostrum", 
                 "crushed_calorite", 
-                "crushed_bismuth", 
-                "crushed_irradium", 
-                "crushed_malachite",
                 "crushed_redstone", 
                 "crushed_verdantine", 
                 "crushed_glacium", 
@@ -593,9 +569,6 @@ ServerEvents.tags('item', event =>
                 "crushed_pyroclast", 
                 "crushed_frostite", 
                 "crushed_stellaris", 
-                "crushed_radiantite", 
-                "crushed_shale",
-                "crushed_palerock", 
                 "crushed_guanite", 
                 "crushed_pearlyte", 
                 "crushed_amberlite", 
@@ -693,8 +666,6 @@ ServerEvents.tags('item', event =>
                 "endreborn:tungsten_ingot",
                 "endreborn:endorium_ingot",
                 "createutilities:void_steel_ingot",
-                "enlightened_end:adamantite_ingot",
-                "enlightened_end:bismuth_ingot",
                 "cataclysm:cursium_ingot",
                 "cataclysm:ignitium_ingot",
                 "cataclysm:black_steel_ingot",

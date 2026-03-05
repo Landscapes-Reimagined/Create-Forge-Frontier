@@ -31,13 +31,6 @@ ServerEvents.recipes(event =>
                     ]
                 },
                 {
-                    id: 'malachite_rocket_casing',
-                    ingredients: [
-                        { item: 'forge_frontier:calorite_rocket_casing' },
-                        { item: 'enlightened_end:malachite' }
-                    ]
-                },
-                {
                     id: 'primal_magma_rocket_casing',
                     ingredients: [
                         { item: 'forge_frontier:malachite_rocket_casing' },

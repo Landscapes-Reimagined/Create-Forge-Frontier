@@ -11,7 +11,6 @@ StartupEvents.registry('block', event => {
             { id: 'neodymrium', name: 'Neodymrium' },
             { id: 'pearlyte', name: 'Pearlyte' },
             { id: 'pyroclast', name: 'Pyroclast' },
-            { id: 'radiantite', name: 'Radiantite' },
             { id: 'stellaris', name: 'Stellaris' },
             { id: 'sulphite', name: 'Sulphite' },
             { id: 'verdantine', name: 'Verdantine' },

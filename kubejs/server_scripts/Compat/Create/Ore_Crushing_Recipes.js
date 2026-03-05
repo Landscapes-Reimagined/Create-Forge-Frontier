@@ -24,55 +24,6 @@ ServerEvents.recipes(event =>
                 ]
             }).id('forge_frontier:crushing/raw_redstone_block');
 
-        // Enlightened End Ores
-        // Bismuth Ore
-            // Crushing Recipe
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { item: 'enlightened_end:bismuth_ore' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'forge_frontier:crushed_bismuth' },
-                        { item: 'forge_frontier:crushed_bismuth', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:end_stone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/bismuth_ore');
-
-        // Malachite Ore
-            // Crushing Recipe
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { item: 'enlightened_end:malachite_ore' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'forge_frontier:crushed_malachite' },
-                        { item: 'forge_frontier:crushed_malachite', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:end_stone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/malachite_ore');
-
-        // Irradium Ore
-            // Crushing Recipe
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { item: 'enlightened_end:irradium_ore' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'forge_frontier:crushed_irradium' },
-                        { item: 'forge_frontier:crushed_irradium', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:end_stone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/irradium_ore');
-
         // Coal Ore
             // Forge:Ores/Coal 
                 event.custom({

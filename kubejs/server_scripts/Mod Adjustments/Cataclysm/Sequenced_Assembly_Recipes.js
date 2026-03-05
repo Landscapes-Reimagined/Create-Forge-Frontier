@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
                 type: "create:filling",
                 ingredients: [
                     { item: "cataclysm:incomplete_void_eye" },
-                    { fluid: "enlightened_end:ooze_fluid", amount: 1000 }
+                    { fluid: "create_ethium:chorus_nectar_fluid", amount: 1000 }
                 ],
                 results: [{ item: "cataclysm:incomplete_void_eye" }]
             },

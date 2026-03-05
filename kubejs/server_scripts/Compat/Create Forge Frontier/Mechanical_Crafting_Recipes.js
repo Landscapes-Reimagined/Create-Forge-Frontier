@@ -143,7 +143,6 @@ ServerEvents.recipes(event =>
                         G: Ingredient.of("alexscaves:gingerbread_helmet"),
                         P: Ingredient.of("alexscaves:primordial_helmet"),
                         E: Ingredient.of("create_ethium:ethium_sword"),
-                        A: Ingredient.of("enlightened_end:adamantite_sword"),
                         D: Ingredient.of("advancednetherite:netherite_diamond_sword"),
                         Q: Ingredient.of("createqol:shadow_radiance_helmet"),
                         F: Ingredient.of("ae2:fluix_sword"),

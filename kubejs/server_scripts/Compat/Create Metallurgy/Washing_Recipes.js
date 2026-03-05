@@ -6,24 +6,12 @@ ServerEvents.recipes(event => {
             secondary: { chance: 0.5, item: 'minecraft:glowstone_dust'}
         },
         {
-            name: 'bismuth',
-            secondary: { chance: 0.5, item: 'minecraft:prismarine_crystals' }
-        },
-        {
             name: 'calorite',
             secondary: { chance: 0.5, item: 'create:brass_nugget' }
         },
         {
             name: 'desh',
             secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
-        },
-        {
-            name: 'irradium',
-            secondary: { chance: 0.5, item: 'minecraft:gunpowder' }
-        },
-        {
-            name: 'malachite',
-            secondary: { chance: 0.5, item: 'minecraft:chorus_fruit' }
         },
         {
             name: 'ostrum',
@@ -61,18 +49,6 @@ ServerEvents.recipes(event => {
         {
             name: 'stellaris',
             secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
-        },
-        {
-            name: 'radiantite',
-            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
-        },
-        {
-            name: 'shale',
-            secondary: { chance: 0.5, item: 'enlightened_end:adamantite_nugget' }
-        },
-        {
-            name: 'palerock',
-            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
         },
         {
             name: 'guanite',

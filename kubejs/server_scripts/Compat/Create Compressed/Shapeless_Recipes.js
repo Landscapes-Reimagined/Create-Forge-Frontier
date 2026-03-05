@@ -16,9 +16,6 @@ ServerEvents.recipes(event => {
     }
     
     const materials = [
-        'malachite',
-        'irradium',
-        'bismuth',
         'desh',
         'ostrum',
         'calorite',
@@ -315,80 +312,6 @@ ServerEvents.recipes(event => {
             count: 9
         }
     }).id('forge_frontier:shapeless/compressed_powdered_obsidian_pile_block_1x')    
-
-    // Malachite
-        // Malachite Block to Malchite Shapeless Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'enlightened_end:malachite_block'
-                }
-            ],
-            result: {
-                item: 'enlightened_end:malachite',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/malachite_block' )
-
-        // Malachite Compressed 1x to Malachite Block Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'forge_frontier:compressed_malachite_1x'
-                }
-            ],
-            result: {
-                item: 'enlightened_end:malachite_block',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/compressed_malachite_block_1x' )
-    
-    // Irradium
-     // Irradium Block to Irradium Shapeless Recipe
-     event.remove({ id: 'enlightened_end:irradium_block_convert' })
-     event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'enlightened_end:irradium_block'
-            }
-        ],
-        result: {
-            item: 'enlightened_end:irradium_bar',
-            count: 9
-        }
-    }).id( 'forge_frontier:shapeless/irradium_block' )
-
-    // Irradium Compressed 1x to Irradium Block Recipe
-    event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'forge_frontier:compressed_irradium_1x'
-            }
-        ],
-        result: {
-            item: 'enlightened_end:irradium_block',
-            count: 9
-        }
-    }).id( 'forge_frontier:shapeless/compressed_irradium_block_1x' )
-
-    // Bismuth
-        // Bismuth Compressed 1x to Bismuth Block Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'forge_frontier:compressed_bismuth_1x'
-                }
-            ],
-            result: {
-                item: 'enlightened_end:bismuth_block',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/compressed_bismuth_block_1x' )
 
     // Desh
         // Desh Compressed 1x to Desh Block Recipe

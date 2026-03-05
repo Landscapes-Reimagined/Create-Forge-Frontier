@@ -2,11 +2,8 @@ StartupEvents.registry('item', event => {
 
     // List of materials
     const materials = [
-        'Bismuth',
         'Calorite',
         'Desh',
-        'Irradium',
-        'Malachite',
         'Ostrum',
         'Verdantine',
         'Glacium',
@@ -16,9 +13,6 @@ StartupEvents.registry('item', event => {
         'Pyroclast',
         'Frostite',
         'Stellaris',
-        'Radiantite',
-        'Shale',
-        'Palerock',
         'Guanite',
         'Pearlyte',
         'Amberlite',

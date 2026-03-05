@@ -22,8 +22,6 @@ ServerEvents.recipes(event =>
                 { type: 'spirit', mod: 'create_dd'},
                 { type: 'rubber', mod: 'create_dd'},
                 { type: 'chorus', mod: 'cataclysm'},
-                { type: 'indigo', mod: 'enlightened_end'},
-                { type: 'cerulean', mod: 'enlightened_end'},
                 { type: 'rotten', mod: 'betterarcheology'},
                 { type: 'echo', mod: 'deeperdarker'},
                 { type: 'bloom', mod: 'deeperdarker'},

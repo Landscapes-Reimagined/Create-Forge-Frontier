@@ -3,8 +3,6 @@ ServerEvents.recipes(function (event) {
         { name: 'bismuth', fluid: 'forge_frontier:molten_bismuth' },
         { name: 'calorite', fluid: 'forge_frontier:molten_calorite' },
         { name: 'desh', fluid: 'forge_frontier:molten_desh' },
-        { name: 'irradium', fluid: 'forge_frontier:molten_irradium' },
-        { name: 'malachite', fluid: 'forge_frontier:molten_malachite' },
         { name: 'ostrum', fluid: 'forge_frontier:molten_ostrum' },
         { name: 'verdantine', fluid: 'forge_frontier:molten_emerald' },
         { name: 'glacium', fluid: 'forge_frontier:molten_diamond' },
@@ -14,8 +12,6 @@ ServerEvents.recipes(function (event) {
         { name: 'pyroclast', fluid: 'forge_frontier:molten_calorite' },
         { name: 'frostite', fluid: 'forge_frontier:molten_etrium' },
         { name: 'stellaris', fluid: 'forge_frontier:molten_ostrum' },
-        { name: 'radiantite', fluid: 'forge_frontier:molten_irradium' },
-        { name: 'shale', fluid: 'forge_frontier:molten_malachite' },
         { name: 'palerock', fluid: 'forge_frontier:molten_bismuth' },
         { name: 'guanite', fluid: 'forge_frontier:molten_guano' },
         { name: 'pearlyte', fluid: 'forge_frontier:molten_pearl' },
@@ -32,15 +28,11 @@ ServerEvents.recipes(function (event) {
     // Hardcoded items that aren’t in forge tags
     var specialItems = {
         nuggets: {
-            etrium: { item: "ad_astra:etrium_nugget", fluid: "forge_frontier:molten_etrium" },
-            bismuth: { item: "enlightened_end:bismuth_nugget", fluid: "forge_frontier:molten_bismuth" }
+            etrium: { item: "ad_astra:etrium_nugget", fluid: "forge_frontier:molten_etrium" }
         },
         ingots: {
             etrium: { item: "ad_astra:etrium_ingot", fluid: "forge_frontier:molten_etrium" },
             scarlet_neodymium: { item: "alexscaves:scarlet_neodymium_ingot", fluid: "forge_frontier:molten_scarlet_neodymium" },
-            bismuth: { item: "enlightened_end:bismuth_ingot", fluid: "forge_frontier:molten_bismuth" },
-            malachite: { item: "enlightened_end:malachite", fluid: "forge_frontier:molten_malachite" },
-            irradium: { item: "enlightened_end:irradium_bar", fluid: "forge_frontier:molten_irradium" },
             diamond: { item: "minecraft:diamond", fluid: "forge_frontier:molten_diamond" },
             emerald: { item: "minecraft:emerald", fluid: "forge_frontier:molten_emerald" },
             echo: { item: "minecraft:echo_shard", fluid: "forge_frontier:molten_echo_shard" },
