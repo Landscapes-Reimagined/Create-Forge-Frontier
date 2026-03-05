@@ -5,6 +5,7 @@ ServerEvents.recipes(event =>
             event.remove({ id: 'ad_astra:compressor'})
             event.remove({ id: 'ad_astra:fuel_refinery'})
             event.remove({ id: 'ad_astra:cryo_freezer'})
+            event.remove({ id: 'ad_astra:nasa_workbench'})
             event.remove({ id: 'ad_astra:compressing/iron_plate_from_compressiong_iron_ingot'})
             event.remove({ id: 'ad_astra:compressing/calorite_plate_from_compressing_calorite_blocks'})
             event.remove({ id: 'ad_astra:compressing/calorite_plate_from_compressing_calorite_ingots'})
