@@ -8,7 +8,7 @@
   ],
   "key": {
     "D": {
-      "tag": "forge:gems/diamond"
+      "item": "create_dd:bronze_ingot"
     },
     "L": {
       "item": "minecraft:lever"

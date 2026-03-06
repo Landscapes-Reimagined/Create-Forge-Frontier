@@ -11,7 +11,7 @@
       "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade"
     },
     {
-      "tag": "forge:ingots/netherite"
+      "item": "create_dd:mithril_ingot"
     }
   ],
   "result": {

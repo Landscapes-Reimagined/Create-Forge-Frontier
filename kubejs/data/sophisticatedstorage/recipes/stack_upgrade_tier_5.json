@@ -8,10 +8,10 @@
   ],
   "key": {
     "B": {
-      "tag": "forge:storage_blocks/netherite"
+      "item": "create_dd:mithril_block"
     },
     "N": {
-      "tag": "forge:ingots/netherite"
+      "item": "create_dd:mithril_ingot"
     },
     "S": {
       "item": "sophisticatedstorage:stack_upgrade_tier_4"

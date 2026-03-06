@@ -11,7 +11,7 @@
       "item": "sophisticatedbackpacks:gold_backpack"
     },
     "D": {
-      "tag": "forge:gems/diamond"
+      "item": "create_dd:bronze_ingot"
     }
   },
   "pattern": [

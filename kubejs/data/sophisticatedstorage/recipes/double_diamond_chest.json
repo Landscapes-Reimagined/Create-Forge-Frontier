@@ -8,10 +8,10 @@
   ],
   "key": {
     "B": {
-      "tag": "forge:storage_blocks/diamond"
+      "item": "create_dd:bronze_block"
     },
     "D": {
-      "tag": "forge:gems/diamond"
+      "item": "create_dd:bronze_ingot"
     },
     "S": {
       "item": "sophisticatedstorage:gold_chest"

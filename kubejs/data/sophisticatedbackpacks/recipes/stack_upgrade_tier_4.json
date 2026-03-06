@@ -8,7 +8,7 @@
   ],
   "key": {
     "N": {
-      "tag": "forge:storage_blocks/netherite"
+      "item": "create_dd:mithril_block"
     },
     "S": {
       "item": "sophisticatedbackpacks:stack_upgrade_tier_3"

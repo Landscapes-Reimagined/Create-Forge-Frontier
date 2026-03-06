@@ -1,7 +1,7 @@
 {
   "type": "sophisticatedbackpacks:smithing_backpack_upgrade",
   "addition": {
-    "item": "minecraft:netherite_ingot"
+    "item": "create_dd:mithril_ingot"
   },
   "base": {
     "item": "sophisticatedbackpacks:diamond_backpack"

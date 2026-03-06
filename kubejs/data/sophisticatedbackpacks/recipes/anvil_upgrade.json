@@ -17,7 +17,7 @@
       "tag": "forge:chests/wooden"
     },
     "D": {
-      "tag": "forge:gems/diamond"
+      "item": "create_dd:bronze_ingot"
     },
     "I": {
       "item": "create:andesite_alloy"

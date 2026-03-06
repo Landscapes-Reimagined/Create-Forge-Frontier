@@ -11,7 +11,7 @@
       "item": "minecraft:lever"
     },
     {
-      "tag": "forge:ingots/netherite"
+      "item": "create_dd:mithril_ingot"
     }
   ],
   "result": {
