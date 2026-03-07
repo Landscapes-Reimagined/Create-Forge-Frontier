@@ -13,7 +13,7 @@ ServerEvents.recipes(event =>
                     type: 'create:deploying',
                     ingredients: [
                         { item: 'create:powdered_obsidian' },
-                        { item: 'create_additions_synthetics:brass_crystal' }
+                        { item: 'create:brass_sheet' }
                     ],
                     results: [{ item: 'forge_frontier:incomplete_flux_dust' }]
                 },
