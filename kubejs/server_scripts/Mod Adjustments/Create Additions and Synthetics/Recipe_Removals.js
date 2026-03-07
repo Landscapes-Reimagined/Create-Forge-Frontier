@@ -10,5 +10,6 @@ ServerEvents.recipes(event =>
         event.remove({ id: 'create_additions_synthetics:ma_alloy_zinc'})
         event.remove({ id: 'create_additions_synthetics:c_qtblock'})
         event.remove({ id: 'create_additions_synthetics:c_qtquartz'})
+        event.remove({ id: 'create_additions_synthetics:log_to_dust'})
     }
 )
