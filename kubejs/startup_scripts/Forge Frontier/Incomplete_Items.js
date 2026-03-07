@@ -13,6 +13,7 @@ StartupEvents.registry('item', event =>
 
             // Random Items
             { id: 'forge_frontier:incomplete_conveyor_boots', name: 'Incomplete Conveyor Boots' },
+            { id: 'forge_frontier:incomplete_flux_dust', name: 'Incomplete Flux Dust' },
 
             // Pretty Pipes and Fluid Items
             { id: 'forge_frontier:incomplete_blank_module', name: 'Incomplete Blank Module' },
