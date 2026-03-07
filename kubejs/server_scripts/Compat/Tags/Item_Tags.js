@@ -1,5 +1,11 @@
 ServerEvents.tags('item', event => 
     {
+        // Black Steel Sword tag
+            event.add('forge:tools/swords/black_steel', 'cataclysm:black_steel_sword')
+
+        // Black Steel Block tag
+            event.add('forge:storage_blocks/black_steel', 'cataclysm:black_steel_block')
+            
         // Chipped Tables
             event.add('forge_frontier:chipped_tables',[
                 "chipped:botanist_workbench",
