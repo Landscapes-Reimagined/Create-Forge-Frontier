@@ -25,6 +25,7 @@ ServerEvents.recipes(function (event) {
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block" },
         { name: "coal", fluid: "forge_frontier:molten_carbon", result: "minecraft:coal_block" },
         { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" },
+        { name: "void_steel", fluid: "createmetallurgy:molten_void_steel", result: "createutilities:void_steel_block" },
 
         // Hyper Experience – special amount (27 mB instead of 810)
         { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", result: "create_enchantment_industry:hyper_experience_block", amount: 27 },
@@ -59,7 +60,8 @@ ServerEvents.recipes(function (event) {
         { name: "desh_rocket_casing", fluid: "forge_frontier:molten_desh", solid: { item: "forge_frontier:steel_rocket_casing" }, result: "forge_frontier:desh_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "ostrum_rocket_casing", fluid: "forge_frontier:molten_ostrum", solid: { item: "forge_frontier:desh_rocket_casing" }, result: "forge_frontier:ostrum_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "calorite_rocket_casing", fluid: "forge_frontier:molten_calorite", solid: { item: "forge_frontier:ostrum_rocket_casing" }, result: "forge_frontier:calorite_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 }
+        { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 },
+        { name: "void_casing", fluid: "createmetallurgy:molten_void_steel", solid: { item: "minecraft:obsidian"}, result: "createutilities:void_casing", amount: INGOT_MB, time: 70 }
     ];
 
     casingCasts.forEach(function (cast) {

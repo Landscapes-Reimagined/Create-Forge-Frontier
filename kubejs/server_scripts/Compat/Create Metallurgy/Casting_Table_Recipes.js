@@ -13,6 +13,7 @@ ServerEvents.recipes(function (event) {
         { name: "debris", fluid: "forge_frontier:molten_debris", ingot: "minecraft:netherite_scrap"},
         { name: "coal", fluid: "forge_frontier:molten_carbon", ingot: "minecraft:coal"},
         { name: "netherite", fluid: "createmetallurgy:molten_netherite", nugget: "createdeco:netherite_nugget", plate: "createdeco:netherite_sheet"},
+        { name: 'void_steel', fluid: "createmetallurgy:molten_void_steel", ingot: "createutilities:void_steel_ingot", plate: "createutilities:void_steel_sheet"},
 
         // Forge Frontier + special ores
         { name: "desh", fluid: "forge_frontier:molten_desh", ingot: "ad_astra:desh_ingot", nugget: "ad_astra:desh_nugget", plate: "ad_astra:desh_plate", rodTag: "forge:rods/desh", wireTag: "forge:wires/desh" },
