@@ -113,27 +113,7 @@ ServerEvents.recipes(event =>
                         result: Ingredient.of("ad_astra:tier_4_rocket"),
                         acceptMirrored: false
                     }).id("forge_frontier:mechanical_crafting/tier_4_rocket")
-                            
-        // Jetsuit Recipe
-            event.remove({ id: 'ad_astra:jet_suit'})
-            event.custom({
-                type: "create:mechanical_crafting",
-                pattern: [
-                    'C C',
-                    'TST',
-                    'EJE'
-                ],
-                key: {
-                    C: Ingredient.of('#ad_astra:calorite_plates').toJson(),
-                    T: Ingredient.of('ad_astra:calorite_tank').toJson(),
-                    S: Ingredient.of('ad_astra:netherite_space_suit').toJson(),
-                    E: Ingredient.of('ad_astra:etrionic_capacitor').toJson(),
-                    J: Ingredient.of('create_sa:andesite_jetpack_chestplate').toJson()
-                },
-                result: Ingredient.of('ad_astra:jet_suit').toJson(),
-                acceptMirrored: false
-            }).id('forge_frontier:mechanical_crafting/jet_suit');
-
+   
         // Coal Generator Recipe
             event.remove({ id: 'ad_astra:coal_generator'})
             event.custom({

@@ -1,6 +1,10 @@
 ServerEvents.recipes(event => 
     {
         // Recipe Removals
+            event.remove({ id: 'ad_astra:jet_suit_helmet'})
+            event.remove({ id: 'ad_astra:jet_suit'})
+            event.remove({ id: 'ad_astra:jet_suit_pants'})
+            event.remove({ id: 'ad_astra:jet_suit_boots'})
             event.remove({ id: 'ad_astra:etrionic_blast_furnace'})
             event.remove({ id: 'ad_astra:compressor'})
             event.remove({ id: 'ad_astra:fuel_refinery'})
