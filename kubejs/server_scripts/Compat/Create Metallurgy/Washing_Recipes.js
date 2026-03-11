@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'verdantine',
-            secondary: { chance: 0.05, item: 'totemfactory:inactive_totem' }
+            secondary: { chance: 0.5, item: "totemfactory:tumbaga_nugget" }
         },
         {
             name: 'glacium',
