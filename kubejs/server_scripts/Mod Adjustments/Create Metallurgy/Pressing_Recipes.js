@@ -6,7 +6,7 @@ ServerEvents.recipes(event =>
                 type: "create:pressing",
                 ingredients: [
                     {
-                        tag: "forge:plates/tungsten"
+                        tag: "forge:ingots/tungsten"
                     }
                 ],
                 results: [
@@ -23,7 +23,7 @@ ServerEvents.recipes(event =>
                 type: "create:pressing",
                 ingredients: [
                     {
-                        tag: "forge:plates/obdurium"
+                        tag: "forge:ingots/obdurium"
                     }
                 ],
                 results: [
