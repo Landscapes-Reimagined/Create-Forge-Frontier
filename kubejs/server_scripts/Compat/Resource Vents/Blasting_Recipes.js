@@ -17,7 +17,10 @@ ServerEvents.recipes(event =>
             { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium', result: 'alexscaves:azure_neodymium_ingot' },
             { name: 'crushed_neodymrium', input: 'forge_frontier:crushed_neodymrium', result: 'alexscaves:scarlet_neodymium_ingot' },
             { name: 'crushed_uraniumnite', input: 'forge_frontier:crushed_uraniumnite', result: 'alexscaves:uranium' },
-            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite', result: 'alexscaves:sulfur_dust' }
+            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite', result: 'alexscaves:sulfur_dust' },
+            { name: 'crushed_noxrock', input: "forge_frontier:crushed_noxrock", result: "endelurgy:luxite"},
+            { name: 'crushed_endritus', input: "forge_frontier:crushed_endritus", result: "endelurgy:adamantite_ingot"},
+            { name: 'crushed_gneiss', input: "forge_frontier:crushed_gneiss", result: "createmetallurgy:tungsten_ingot"},
         ];
 
         // Loop to create the blasting recipes

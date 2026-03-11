@@ -445,6 +445,9 @@ ServerEvents.tags('item', event =>
                 "deeperdarker:sculk_grime",
                 "minecraft:ancient_debris", 
                 "forge_frontier:resonite",
+                "endelurgy:noxrock",
+                "endelurgy:endritus",
+                "unusualend:gneiss"
             ];
 
             createStones.forEach(stone => {

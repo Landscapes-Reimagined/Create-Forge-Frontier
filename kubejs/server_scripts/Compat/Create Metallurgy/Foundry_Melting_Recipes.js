@@ -22,7 +22,13 @@ ServerEvents.recipes(function (event) {
         { name: 'sulphite', fluid: 'forge_frontier:molten_sulfur' },
         { name: 'reggarfonite', fluid: 'forge_frontier:molten_reggarfonite' },
         { name: 'tin', fluid: 'createmetallurgy:molten_tin' },
-        { name: 'coal', fluid: 'forge_frontier:molten_carbon'}
+        { name: 'coal', fluid: 'forge_frontier:molten_carbon'},
+        { name: 'luxite', fluid: 'forge_frontier:molten_luxite'},
+        { name: 'adamantite', fluid: 'forge_frontier:molten_adamantite'},
+        { name: 'noxrock', fluid: 'forge_frontier:molten_luxite'},
+        { name: 'endritus', fluid: 'forge_frontier:molten_adamantite'},
+        { name: 'gneiss', fluid: 'createmetallurgy:molten_tungsten'},
+        { name: 'silver', fluid: 'createmetallurgy:molten_silver'}
     ];
 
     // Hardcoded items that aren’t in forge tags

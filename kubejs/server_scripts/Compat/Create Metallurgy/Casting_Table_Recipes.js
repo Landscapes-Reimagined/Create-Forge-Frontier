@@ -27,6 +27,8 @@ ServerEvents.recipes(function (event) {
         { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", nugget: "create_enchantment_industry:hyper_experience_nugget", amount: 3 },
 
         // Newly added
+        { name: "luxite", fluid: "forge_frontier:molten_luxite", ingot: "endelurgy:luxite", nugget: "endelurgy:luxite_shard" },
+        { name: "adamantite", fluid: "forge_frontier:molten_adamantite", ingot: "endelurgy:adamantite_ingot", nugget: "endelurgy:adamantite_nugget" },
         { name: "sulfur", fluid: "forge_frontier:molten_sulfur", ingot: "alexscaves:sulfur_dust", nugget: "forge_frontier:sulfur_nugget", plate: "forge_frontier:sulfur_sheet", rodTag: "forge:rods/sulfur", wireTag: "forge:wires/sulfur" },
         { name: "amber", fluid: "forge_frontier:molten_amber", ingot: "alexscaves:amber", nugget: "forge_frontier:amber_nugget", plate: "forge_frontier:amber_sheet", rodTag: "forge:rods/amber", wireTag: "forge:wires/amber" },
         { name: "pearl", fluid: "forge_frontier:molten_pearl", ingot: "alexscaves:pearl", nugget: "alexscaves:pearl_nugget", plate: "forge_frontier:pearl_sheet", rodTag: "forge:rods/pearl", wireTag: "forge:wires/pearl" },

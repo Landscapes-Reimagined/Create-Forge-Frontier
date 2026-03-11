@@ -26,6 +26,8 @@ ServerEvents.recipes(function (event) {
         { name: "coal", fluid: "forge_frontier:molten_carbon", result: "minecraft:coal_block" },
         { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" },
         { name: "void_steel", fluid: "createmetallurgy:molten_void_steel", result: "createutilities:void_steel_block" },
+        { name: "luxite", fluid: "forge_frontier:molten_luxite", result: "endelurgy:luxite_block"},
+        { name: "adamantite", fluid: "forge_frontier:molten_adamantite", result: "endelurgy:adamantite_block"},
 
         // Hyper Experience – special amount (27 mB instead of 810)
         { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", result: "create_enchantment_industry:hyper_experience_block", amount: 27 },

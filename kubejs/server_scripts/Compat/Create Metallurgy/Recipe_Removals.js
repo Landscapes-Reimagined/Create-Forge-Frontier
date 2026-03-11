@@ -11,6 +11,7 @@ ServerEvents.recipes(event =>
         event.remove({ id: 'create_compressed:splashing/crushed_raw_iron_pile'})
         event.remove({ id: 'create_compressed:splashing/crushed_raw_zinc_pile'})
         event.remove({ id: 'create_better_motors:items/washing/reggarfonite_nugget_from_ore'})
+        event.remove({ id: 'create_more_additions:silver/silver_nuggets_from_splashing_crushed_raw_silver'})
 
         // Crushing Recipe Removals
         event.remove({ id: 'create:crushing/raw_uranium'})

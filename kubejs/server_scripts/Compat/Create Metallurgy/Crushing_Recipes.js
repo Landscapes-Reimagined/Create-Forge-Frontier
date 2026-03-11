@@ -24,7 +24,10 @@ ServerEvents.recipes(event => {
         'azurnium',
         'neodymrium',
         'uraniumnite',
-        'sulphite'
+        'sulphite',
+        'noxrock',
+        'endritus',
+        'gneiss'
     ];
 
     materials.forEach(material => {
@@ -114,4 +117,17 @@ ServerEvents.recipes(event => {
             ]
         }).id(`forge_frontier:crushing/crushed_tin_to_dirty_dust`);
     }
+    // Crushed Silver
+    if (!Ingredient.of("create_more_additions:crushed_raw_silver").stacks.empty) {
+        event.custom({
+            type: "create:crushing",
+            ingredients: [{ item: 'create_more_additions:crushed_raw_silver' }],
+            processingTime: 250,
+            results: [
+                { item: "forge_frontier:dirty_silver_dust", count: 1 },
+                { item: "forge_frontier:dirty_silver_dust", chance: 0.25 }
+            ]
+        }).id(`forge_frontier:crushing/crushed_silver_to_dirty_dust`);
+    }
+
 });

@@ -22,7 +22,9 @@ ServerEvents.recipes(function (event) {
         { name: 'sulphite', fluid: 'forge_frontier:molten_sulfur' },
         { name: 'reggarfonite', fluid: 'forge_frontier:molten_reggarfonite' },
         { name: 'tin', fluid: 'createmetallurgy:molten_tin' },
-        { name: 'coal', fluid: 'forge_frontier:molten_carbon'}
+        { name: 'coal', fluid: 'forge_frontier:molten_carbon'},
+        { name: 'luxite', fluid: 'forge_frontier:molten_luxite'},
+        { name: 'adamantite', fluid: 'forge_frontier:molten_adamantite'}
     ];
 
     // Hardcoded storage blocks not covered by forge tags

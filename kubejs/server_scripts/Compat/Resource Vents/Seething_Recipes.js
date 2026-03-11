@@ -122,7 +122,39 @@ ServerEvents.recipes(event =>
                     { item: 'alexscaves:sulfur_dust' },
                     { chance: 0.25, item: 'alexscaves:sulfur_dust' }
                 ]
-            }
+            },
+            {
+                name: 'crushed_noxrock',
+                input: 'forge_frontier:crushed_noxrock',
+                results: [
+                    { item: "endelurgy:luxite" },
+                    { chance: 0.25, item: "endelurgy:luxite" }
+                ]
+            },
+            {
+                name: 'crushed_endritus',
+                input: 'forge_frontier:crushed_endritus',
+                results: [
+                    { item: "endelurgy:adamantite_ingot" },
+                    { chance: 0.25, item: "endelurgy:adamantite_ingot" }
+                ]
+            },
+            {
+                name: 'crushed_gneiss',
+                input: 'forge_frontier:crushed_gneiss',
+                results: [
+                    { item: "createmetallurgy:tungsten_ingot" },
+                    { chance: 0.25, item: "createmetallurgy:tungsten_ingot" }
+                ]
+            },
+            {
+                name: 'crushed_silve',
+                input: "create_more_additions:crushed_raw_silver",
+                results: [
+                    { item: "create_more_additions:silver_ingot" },
+                    { chance: 0.25, item: "create_more_additions:silver_ingot" }
+                ]
+            },
         ];
 
         // Loop through the recipes and dynamically generate the custom events

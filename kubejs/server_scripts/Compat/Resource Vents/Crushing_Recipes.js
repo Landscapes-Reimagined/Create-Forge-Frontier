@@ -52,7 +52,10 @@ ServerEvents.recipes(event =>
             { name: 'ancient_debris', input: 'minecraft:ancient_debris', output: 'forge_frontier:crushed_debris', rare: true },
             { name: 'raw_desh', input: 'ad_astra:raw_desh', output: 'forge_frontier:crushed_aubrum', rare: true, stoneType: false  },
             { name: 'raw_ostrum', input: 'ad_astra:raw_ostrum', output: 'forge_frontier:crushed_stellaris', rare: true, stoneType: false  },
-            { name: 'raw_calorite', input: 'ad_astra:raw_calorite', output: 'forge_frontier:crushed_pyroclast', rare: true, stoneType: false }
+            { name: 'raw_calorite', input: 'ad_astra:raw_calorite', output: 'forge_frontier:crushed_pyroclast', rare: true, stoneType: false },
+            { name: 'noxrock', input: "endelurgy:noxrock", output: "forge_frontier:crushed_noxrock", additional: "endelurgy:luxite_shard"},
+            { name: 'endritus', input: "endelurgy:endritus", output: "forge_frontier:crushed_endritus", additional: "endelurgy:adamantite_nugget"},
+            { name: 'gneiss', input: "unusualend:gneiss", output: "forge_frontier:crushed_gneiss", additional: "createmetallurgy:tungsten_nugget"}
         ];
 
         // Loop through materials and create the crushing recipes

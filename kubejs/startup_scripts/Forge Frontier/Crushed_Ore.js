@@ -19,7 +19,10 @@ StartupEvents.registry('item', event => {
         'Azurnium',
         'Neodymrium',
         'Uraniumnite',
-        'Sulphite'
+        'Sulphite',
+        'Noxrock',
+        'Endritus',
+        'Gneiss'
     ];
 
     // Crushed Ores

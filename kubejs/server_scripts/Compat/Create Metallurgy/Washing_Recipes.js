@@ -79,6 +79,22 @@ ServerEvents.recipes(event => {
             secondary: { chance: 0.25, item: 'create_new_age:radioactive_thorium' }
         },
         {
+            name: 'noxrock',
+            secondary: { chance: 0.25, item: "minecraft:gunpowder"}
+        },
+        {
+            name: 'endritus',
+            secondary: { chance: 0.25, item: "create_dd:mithril_nugget"}
+        },
+        {
+            name: 'gneiss',
+            secondary: { chance: 0.25, item: "ad_astra:steel_nugget"}
+        },
+        {
+            name: 'silver',
+            secondary: { chance: 0.25, item: "minecraft:lapis_lazuli"}
+        },
+        {
             name: 'reggarfonite',
             secondary: { chance: 0.5, item: 'create_better_motors:lava_quartz' }
         }

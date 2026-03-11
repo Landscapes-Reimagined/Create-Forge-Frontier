@@ -2,11 +2,30 @@
 StartupEvents.registry('item', event => {
 
     const materials = [
-        'Calorite', 'Desh', 'Ostrum',
-        'Verdantine', 'Glacium', 'Debris', 'Resonite', 'Aubrum', 'Pyroclast',
-        'Frostite', 'Stellaris', 'Guanite',
-        'Pearlyte', 'Amberlite', 'Azurnium', 'Neodymrium', 'Uraniumnite', 'Sulphite',
-        'Reggarfonite', 'Tin'
+        'Calorite',
+        'Desh',
+        'Ostrum',
+        'Verdantine',
+        'Glacium',
+        'Debris',
+        'Resonite',
+        'Aubrum',
+        'Pyroclast',
+        'Frostite',
+        'Stellaris',
+        'Guanite',
+        'Pearlyte',
+        'Amberlite',
+        'Azurnium',
+        'Neodymrium',
+        'Uraniumnite',
+        'Sulphite',
+        'Reggarfonite',
+        'Tin',
+        'Noxrock',
+        'Endritus',
+        'Gneiss',
+        'Silver'
     ];
 
     function createDirtyDust(event, material) {
