@@ -32,10 +32,7 @@ ServerEvents.tags('item', event =>
                 "buildinggadgets2:gadget_cut_paste",
                 "buildinggadgets2:gadget_destruction"
             ])
-
-        // Industial Iron Tag
-            event.add('forge:ingots/industrial_iron', 'createdeco:industrial_iron_ingot')
-            
+           
         // Brass Chunk Loader Tag
             event.add('forge_frontier:chunk_loader/brass', [
                 'create_power_loader:brass_chunk_loader',
@@ -98,14 +95,6 @@ ServerEvents.tags('item', event =>
 
         // Adds Missing Tag for Trim Recipes
             event.add("forge:polished_diamond", "minecraft:diamond")
-
-        // New Nugget Tag
-            event.add("forge:nuggets/industrial_iron", 'createdeco:industrial_iron_nugget')
-
-        // New Sheet Tags
-            event.add("forge:plates/zinc", 'createdeco:zinc_sheet')
-            event.add("forge:plates/andesite_alloy", 'createdeco:andesite_sheet')
-            event.add("forge:plates/industrial_iron", 'createdeco:industrial_iron_sheet')
 
         // Neodymium Ingot Tag
             event.add("forge_frontier:ingot/neodymium", [
@@ -668,7 +657,6 @@ ServerEvents.tags('item', event =>
             event.add("forge:ingots",[
                 "create_ethium:ethium_ingot",
                 "createcasing:chorium_ingot",
-                "createdeco:industrial_iron_ingot",
                 "forge_frontier:overcharged_netherite_ingot",
                 "alexscaves:scarlet_neodymium_ingot",
                 "alexscaves:azure_neodymium_ingot",
