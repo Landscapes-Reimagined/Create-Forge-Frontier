@@ -1,0 +1,1 @@
+Platform.mods.trials.name = 'Minecraft'
