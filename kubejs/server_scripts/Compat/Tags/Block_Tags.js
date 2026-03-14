@@ -19,6 +19,7 @@ ServerEvents.tags('block', event =>
         
         // Create Wrenchable
             event.add('create:wrench_pickup', [
+                '#forge:relocation_not_supported',
                 "toms_storage:ts.crafting_terminal",
                 "toms_storage:ts.inventory_cable_connector_filtered",
                 "toms_storage:ts.inventory_cable_connector_framed",
