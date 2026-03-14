@@ -35,8 +35,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'aubrum',
-            secondary: { chance: 0.5, item: 'create_dd:industrial_iron_nugget' },
-            extra: { chance: 0.25, item: 'ad_astra:cheese' }
+            secondary: { chance: 0.5, item: 'create_dd:industrial_iron_nugget' }
         },
         {
             name: 'pyroclast',
