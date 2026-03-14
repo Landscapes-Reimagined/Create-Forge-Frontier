@@ -249,7 +249,7 @@ ServerEvents.recipes(event =>
                 }
             ],
             transitionalItem: {
-                item: "forge_frontier:incomplete_totem_of_undying"
+                item: "create_more_additions:incomplete_totem"
             }
         }).id("forge_frontier:sequenced_assembly/totem_of_undying")
     }
