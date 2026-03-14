@@ -1,5 +1,22 @@
 ServerEvents.tags('item', event => 
     {
+        // Remove Excess Curios Tag
+            event.remove('curios:curio', [
+                    "universalgrid:wireless_universal_grid",
+                    "universalgrid:creative_wireless_universal_grid",
+                    "refinedstorage:wireless_grid",
+                    "refinedstorage:creative_wireless_grid",
+                    "refinedstorage:wireless_fluid_grid",
+                    "refinedstorage:creative_wireless_fluid_grid",
+                    "refinedstorage:wireless_crafting_monitor",
+                    "refinedstorage:creative_wireless_crafting_monitor",
+                    "refinedstorageaddons:wireless_crafting_grid",
+                    "refinedstorageaddons:creative_wireless_crafting_grid"
+                 ])
+
+        // Remove Excess Curios Belt Tag
+            event.remove('curios:belt', "toms_storage:ts.adv_wireless_terminal")
+
         // Black Steel Sword tag
             event.add('forge:tools/swords/black_steel', 'cataclysm:black_steel_sword')
 
@@ -227,39 +244,25 @@ ServerEvents.tags('item', event =>
         // Adds Charm Tag to Woopie Cushion
             event.add("curios:charm", "artifacts:whoopee_cushion")
 
-        // Freeze Resistance Tag
-            event.add("ad_astra:freeze_resistant_armor",[
-                "advanced_ae:quantum_helmet",
-                "advanced_ae:quantum_chestplate",
-                "advanced_ae:quantum_leggings",
-                "advanced_ae:quantum_boots",
-            ])
-
-        // Heat Resistant Armor Tag
-            event.add("ad_astra:heat_resistant_armor",[
-                "advanced_ae:quantum_helmet",
-                "advanced_ae:quantum_chestplate",
-                "advanced_ae:quantum_leggings",
-                "advanced_ae:quantum_boots",
-            ])
-
-        // Create Nuclear Anti Radiation Tag
-            event.add("createnuclear:all_anti_radiation_armors",[
-                "advanced_ae:quantum_helmet",
-                "advanced_ae:quantum_chestplate",
-                "advanced_ae:quantum_leggings",
-                "advanced_ae:quantum_boots",
-            ])
+        // Radioactive Tag
+            event.add("tact:radioactive_and_acid_resistant_armor", "#create_new_age:hazmat_suit")
 
         // Hazmat Protection Tag
-            event.add("create_new_age:nuclear/hazmat_suit",
-                "#ad_astra:freeze_resistant_armor"
-            )
+            event.add("create_new_age:hazmat_suit",
+                [
+                    "#ad_astra:freeze_resistant_armor",
+                    "alexscaves:hazmat_mask",
+                    "alexscaves:hazmat_chestplate",
+                    "alexscaves:hazmat_leggings",
+                    "alexscaves:hazmat_boots"
+                ])
 
         // Freeze Immune Equipment
-            event.add("minecraft:freeze_immune_wearables",
-                "#ad_astra:freeze_resistant_armor"
-            )
+            event.add("minecraft:freeze_immune_wearables", 
+                [
+                    "#ad_astra:freeze_resistant_armor",
+                    '#tact:radioactive_and_acid_resistant_armor'
+                ])
 
         // Netherite Casing Tag
             event.add("forge_frontier:netherite_casing_application",[
@@ -295,15 +298,6 @@ ServerEvents.tags('item', event =>
                 "ad_astra_rocketed:tier_6_rocket",
                 "ad_astra_rocketed:tier_7_rocket",
                 "ad_astra_giselle_addon:lander_icon"
-            ])
-
-        // AE Terminal Tags
-            event.add("ae2:terminals", [
-                "ae2:wireless_crafting_terminal",
-                "ae2wtlib:wireless_pattern_encoding_terminal",
-                "ae2wtlib:wireless_pattern_access_terminal",
-                "ae2wtlib:wireless_universal_terminal",
-                "expatternprovider:wireless_ex_pat"
             ])
 
         // Filling Tank Tags
@@ -371,7 +365,20 @@ ServerEvents.tags('item', event =>
             ])
 
         // New Curious Terminals Tags
-            event.add("curios:terminals", "#ae2:terminals")
+            event.add("curios:terminals",
+                 [
+                    "universalgrid:wireless_universal_grid",
+                    "universalgrid:creative_wireless_universal_grid",
+                    "refinedstorage:wireless_grid",
+                    "refinedstorage:creative_wireless_grid",
+                    "refinedstorage:wireless_fluid_grid",
+                    "refinedstorage:creative_wireless_fluid_grid",
+                    "refinedstorage:wireless_crafting_monitor",
+                    "refinedstorage:creative_wireless_crafting_monitor",
+                    "refinedstorageaddons:wireless_crafting_grid",
+                    "refinedstorageaddons:creative_wireless_crafting_grid",
+                    "toms_storage:ts.adv_wireless_terminal"
+                 ])
 
         // New Curios Oxgyen Cans Tags
             event.add("curios:oxygen_cans", "#ad_astra_gisselle_addon:oxygen_cans")
