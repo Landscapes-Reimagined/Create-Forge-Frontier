@@ -1,4 +1,76 @@
 StartupEvents.registry('block', event => {
+    // Incomplete Compact Machines
+    // Tiny
+    event.create('forge_frontier:incomplete_machine_tiny')
+        .displayName('Incomplete Tiny Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_tiny')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Small
+    event.create('forge_frontier:incomplete_machine_small')
+        .displayName('Incomplete Small Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_small')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Normal
+    event.create('forge_frontier:incomplete_machine_normal')
+        .displayName('Incomplete Normal Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_normal')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Large
+    event.create('forge_frontier:incomplete_machine_large')
+        .displayName('Incomplete Large Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_large')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Giant
+    event.create('forge_frontier:incomplete_machine_giant')
+        .displayName('Incomplete Giant Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_giant')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Maximum
+    event.create('forge_frontier:incomplete_machine_maximum')
+        .displayName('Incomplete Maximum Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_maximum')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
 
     // Hyper Experience Block
     event.create('create_enchantment_industry:hyper_experience_block')
