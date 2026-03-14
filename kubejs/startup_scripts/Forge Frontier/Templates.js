@@ -5,103 +5,97 @@ StartupEvents.registry('item', event =>
                 event.create('forge_frontier:incomplete_netherite_upgrade')
                     .displayName('Incomplete Netherite Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_netherite_upgrade")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_netherite_upgrade")
 
             // Incomplete mysterious Upgrade
                 event.create('forge_frontier:incomplete_mysterious_upgrade')
                     .displayName('Incomplete Mysterious Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_mysterious_upgrade")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_mysterious_upgrade")
             
             // Incomplete curious Upgrade
                 event.create('forge_frontier:incomplete_curious_upgrade')
                     .displayName('Incomplete Curious Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_curious_upgrade")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_curious_upgrade")
 
             // Incomplete Ancient Armor Trim
                 event.create('forge_frontier:incomplete_ancient_armor_trim')
                     .displayName('Incomplete Ancient Armor Trim')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_ancient_armor_trim")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_ancient_armor_trim")
 
             // Incomplete Adamantite Template
                 event.create('forge_frontier:incomplete_adamantite_template')
                     .displayName('Incomplete Adamantite Template')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_adamantite_template")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_adamantite_template")
 
             // Incomplete Pearlescent Upgrade
                 event.create('forge_frontier:incomplete_pearlescent_upgrade')
                     .displayName('Incomplete Pearlescent Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_pearlescent_upgrade")            
+                    .texture("forge_frontier:item/incomplete_items/incomplete_pearlescent_upgrade")            
 
             // Incomplete Ethium Upgrade
                 event.create('forge_frontier:incomplete_ethium_upgrade')
                     .displayName('Incomplete Ethium Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_ethium_upgrade")            
+                    .texture("forge_frontier:item/incomplete_items/incomplete_ethium_upgrade")            
 
             // Incomplete Polarity Armor Trim
                 event.create('forge_frontier:incomplete_polarity_armor_trim')
                     .displayName('Incomplete Polarity Armor Trim')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_polarity_armor_trim")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_polarity_armor_trim")
             
             // Incomplete Goggle Armor Trim
                 event.create('forge_frontier:incomplete_goggle_armor_trim')
                     .displayName('Incomplete Goggle Armor Trim')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_goggle_armor_trim")            
+                    .texture("forge_frontier:item/incomplete_items/incomplete_goggle_armor_trim")            
 
             // Incomplete Runic Etching
                 event.create('forge_frontier:incomplete_runic_etching')
                     .displayName('Incomplete Runic Etching')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_runic_etching")               
-
-            // Incomplete Fluix Upgrade
-                event.create('forge_frontier:incomplete_fluix_upgrade')
-                    .displayName('Incomplete Fluix Upgrade')
-                    .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_fluix_upgrade") 
+                    .texture("forge_frontier:item/incomplete_items/incomplete_runic_etching")               
 
             // Incomplete Primal Armor Trim
                 event.create('forge_frontier:incomplete_primal_armor_trim')
                     .displayName('Incomplete Primal Armor Trim')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_primal_armor_trim")             
+                    .texture("forge_frontier:item/incomplete_items/incomplete_primal_armor_trim")             
 
             // Incomplete Ignitium Upgrade
                 event.create('forge_frontier:incomplete_ignitium_upgrade')
                     .displayName('Incomplete Ignitium Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_ignitium_upgrade")                
+                    .texture("forge_frontier:item/incomplete_items/incomplete_ignitium_upgrade")                
 
             // Incomplete Cursium Upgrade
                 event.create('forge_frontier:incomplete_cursium_upgrade')
                     .displayName('Incomplete Cursium Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_cursium_upgrade")  
+                    .texture("forge_frontier:item/incomplete_items/incomplete_cursium_upgrade")  
 
             // Incomplete Warden Upgrade
                 event.create('forge_frontier:incomplete_warden_upgrade')
                     .displayName('Incomplete Warden Upgrade')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_warden_upgrade")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_warden_upgrade")
 
             // Incomplete Bolt Armor Trim
                 event.create('forge_frontier:incomplete_bolt_template')
                     .displayName('Incomplete Bolt Armor Trim')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_bolt_template")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_bolt_template")
 
             // Incomplete Flow Armor Trim
                 event.create('forge_frontier:incomplete_flow_template')
                     .displayName('Incomplete Flow Armor Trim')
                     .maxStackSize(64)
-                    .texture("forge_frontier:item/incomplete_flow_template")
+                    .texture("forge_frontier:item/incomplete_items/incomplete_flow_template")
 
         // Custom Shards
             // Copper Shard
