@@ -21,6 +21,7 @@ StartupEvents.registry('item', event =>
             { id: 'forge_frontier:totem_body', name: 'Totem Body' },
             { id: 'forge_frontier:totem_body_casing', name: 'Totem Body Casing' },
             { id: 'forge_frontier:totem_head', name: 'Totem Head' },
+            { id: 'forge_frontier:totem_head_casing', name: 'Totem Head Casing' },
 
             // Pretty Pipes and Fluid Items
             { id: 'forge_frontier:incomplete_blank_module', name: 'Incomplete Blank Module' },
