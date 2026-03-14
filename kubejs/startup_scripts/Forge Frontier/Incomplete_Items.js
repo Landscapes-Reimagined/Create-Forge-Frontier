@@ -14,6 +14,13 @@ StartupEvents.registry('item', event =>
             // Random Items
             { id: 'forge_frontier:incomplete_conveyor_boots', name: 'Incomplete Conveyor Boots' },
             { id: 'forge_frontier:incomplete_flux_dust', name: 'Incomplete Flux Dust' },
+            { id: 'forge_frontier:incomplete_totem_body', name: 'Incomplete Totem Body' },
+            { id: 'forge_frontier:incomplete_totem_body_casing', name: 'Incomplete Totem Body Casing' },
+            { id: 'forge_frontier:incomplete_totem_head', name: 'Incomplete Totem Head' },
+            { id: 'forge_frontier:incomplete_totem_head_casing', name: 'Incomplete Totem Head Casing' },
+            { id: 'forge_frontier:totem_body', name: 'Totem Body' },
+            { id: 'forge_frontier:totem_body_casing', name: 'Totem Body Casing' },
+            { id: 'forge_frontier:totem_head', name: 'Totem Head' },
 
             // Pretty Pipes and Fluid Items
             { id: 'forge_frontier:incomplete_blank_module', name: 'Incomplete Blank Module' },
@@ -59,7 +66,7 @@ StartupEvents.registry('item', event =>
             event.create(item.id)
                 .displayName(item.name)
                 .maxStackSize(1)
-                .texture(`forge_frontier:item/${item.id.split(':')[1]}`);
+                .texture(`forge_frontier:item/incomplete_items/${item.id.split(':')[1]}`);
         });
 
     }
