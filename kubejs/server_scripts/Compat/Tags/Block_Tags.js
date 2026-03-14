@@ -1,5 +1,11 @@
 ServerEvents.tags('block', event => 
     {
+        // Serene Seasons Tag
+            event.add('sereneseasons:greenhouse_glass', '#minecraft:impermeable')
+
+        // Forge Glass Tag
+            event.add('forge:glass', '#minecraft:impermeable')
+            
         // Steel Block
             event.add('forge:storage_blocks/steel', [
                 'ad_astra:steel_block',
