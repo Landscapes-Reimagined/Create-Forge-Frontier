@@ -666,7 +666,7 @@ ServerEvents.recipes(event =>
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'ad_astra:cryo_fuel',
+                    fluid: 'resonant_synthesis:resonarium',
                     amount: 1000
                 },
                 {

@@ -142,7 +142,7 @@
         }
       ],
       "reactantFluids": [
-        "ad_astra:cryo_fuel"
+        "resonant_synthesis:resonarium"
       ],
       "maxGenerationDistance": 1
     },
