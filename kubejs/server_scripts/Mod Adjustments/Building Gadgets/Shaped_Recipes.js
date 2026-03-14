@@ -1,78 +1,79 @@
 ServerEvents.recipes(event => 
     {
-        // Recipe Removals
-        event.remove({ id: 'buildinggadgets2:gadget_building' })
+        event.remove({ id: 'buildinggadgets2:gadget_destruction' })
         event.remove({ id: 'buildinggadgets2:gadget_exchanging' })
+        event.remove({ id: 'buildinggadgets2:gadget_building' })
         event.remove({ id: 'buildinggadgets2:gadget_copy_paste' })
         event.remove({ id: 'buildinggadgets2:gadget_cut_paste' })
-        event.remove({ id: 'buildinggadgets2:gadget_destruction' })
 
-        // Common Materials
-        const I = 'create_new_age:overcharged_iron_sheet'; 
-        const R = 'ae2:fluix_crystal';
-
-        // Helper for Gadget Recipes 
-        function gadget(out, pattern, proc, sidePart, id) {
-            const key = { I: I, R: R, P: proc };
-            if (pattern.join('').includes('L')) key.L = sidePart;
-
-            event.shaped(
-                Item.of(out),
-                pattern,
-                key
-            ).id(`forge_frontier:shaped/gadgets/${id}`);
-        }
-
-        // Building Gadget
-            gadget(
-                'buildinggadgets2:gadget_building',
-                ['IRI', 'RPR', 'ILI'],
-                'ae2:engineering_processor',
-                'ae2:fluix_pearl',
-                'building'
-            );
+        // Destruction Gadget
+        event.shaped(Item.of('buildinggadgets2:gadget_destruction', 1), 
+        [
+            'AEA',
+            'APA',
+            'AGA'
+        ], 
+        {
+            A: 'create:andesite_alloy',
+            E: 'create:electron_tube',
+            P: 'minecraft:ender_pearl',
+            G: 'create:golden_sheet'
+        }).id('forge_frontier:shaped/gadget_destruction')
 
         // Exchanging Gadget
-            gadget(
-                'buildinggadgets2:gadget_exchanging',
-                ['IRI', 'PLP', 'ILI'],
-                'ae2:logic_processor',
-                'ae2:charged_certus_quartz_crystal',
-                'exchanging'
-            );
+        event.shaped(Item.of('buildinggadgets2:gadget_exchanging', 1), 
+        [
+            'SES',
+            'SPS',
+            'SGS'
+        ], 
+        {
+            S: 'create:sturdy_sheet',
+            E: 'create:electron_tube',
+            P: 'create:precision_mechanism',
+            G: 'create:golden_sheet'
+        }).id('forge_frontier:shaped/gadget_exchanging')
+
+        // Building Gadget
+        event.shaped(Item.of('buildinggadgets2:gadget_building', 1), 
+        [
+            'AEA',
+            'ASA',
+            'AGA'
+        ], 
+        {
+            A: 'create:andesite_alloy',
+            E: 'create:electron_tube',
+            S: 'create:schematic_and_quill',
+            G: 'create:golden_sheet'
+        }).id('forge_frontier:shaped/gadget_building')
 
         // Copy Paste Gadget
-            gadget(
-                'buildinggadgets2:gadget_copy_paste',
-                ['IRI', 'PLP', 'ILI'],
-                'ae2:calculation_processor',
-                'ae2:quartz_glass',
-                'copy_paste'
-            );
+        event.shaped(Item.of('buildinggadgets2:gadget_copy_paste', 1), 
+        [
+            'AEA',
+            'ACA',
+            'AGA'
+        ], 
+        {
+            A: 'create:andesite_alloy',
+            E: 'create:electron_tube',
+            C: 'create:clipboard',
+            G: 'create:golden_sheet'
+        }).id('forge_frontier:shaped/gadget_copy_paste')
 
         // Cut Paste Gadget
-            gadget(
-                'buildinggadgets2:gadget_cut_paste',
-                ['IRI', 'RPR', 'ILI'],
-                'ae2:calculation_processor',
-                'ae2:quartz_glass',
-                'cut_paste'
-            );
-
-        // Destruction Gadget 
-            event.shaped(
-                Item.of('buildinggadgets2:gadget_destruction'),
-                [
-                    'IRI',
-                    'RCR',
-                    'IPI'
-                ],
-                {
-                    I: I,
-                    R: R,
-                    P: 'ae2:calculation_processor',
-                    C: 'ae2:annihilation_core'
-                }
-            ).id('forge_frontier:shaped/gadgets/destruction');
+        event.shaped(Item.of('buildinggadgets2:gadget_cut_paste', 1), 
+        [
+            'AEA',
+            'ADA',
+            'AGA'
+        ], 
+        {
+            A: 'create:andesite_alloy',
+            E: 'create:electron_tube',
+            D: 'minecraft:shears',
+            G: 'create:golden_sheet'
+        }).id('forge_frontier:shaped/gadget_cut_paste')
     }
-);
+)
