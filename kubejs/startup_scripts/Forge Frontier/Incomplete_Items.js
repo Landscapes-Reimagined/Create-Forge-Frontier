@@ -28,6 +28,12 @@ StartupEvents.registry('item', event =>
             { id: 'forge_frontier:incomplete_rare_material', name: 'Incomplete Rare Material' },
             { id: 'forge_frontier:incomplete_uncommon_material', name: 'Incomplete Uncommon Material' },
 
+            // Raw Processors
+            { id: 'forge_frontier:incomplete_raw_basic_processor', name: 'Incomplete Raw Basic Processor' },
+            { id: 'forge_frontier:incomplete_raw_improved_processor', name: 'Incomplete Raw Improved Processor' },
+            { id: 'forge_frontier:incomplete_raw_advanced_processor', name: 'Incomplete Raw Advanced Processor' },
+            { id: 'forge_frontier:incomplete_raw_neural_processor', name: 'Incomplete Raw Neural Processor' },
+
             // Pretty Pipes and Fluid Items
             { id: 'forge_frontier:incomplete_blank_module', name: 'Incomplete Blank Module' },
             { id: 'forge_frontier:incomplete_low_extraction_module', name: 'Incomplete Low Extraction Module' },
