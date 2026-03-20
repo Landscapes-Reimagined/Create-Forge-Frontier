@@ -34,7 +34,12 @@ const materials = [
     'Netherite-Gold',
     'Netherite-Emerald',
     'Netherite-Diamond',
-    'Etrium', 
+    'Etrium',
+    'Tin',
+    'Echo_Shard',
+    'Luxite',
+    'Tungsten',
+    'Adamantite', 
 
     // New Compressed Create Blocks
     'Cogwheel_Block',
