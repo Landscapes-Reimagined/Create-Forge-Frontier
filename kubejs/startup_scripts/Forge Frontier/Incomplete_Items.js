@@ -22,6 +22,11 @@ StartupEvents.registry('item', event =>
             { id: 'forge_frontier:totem_body_casing', name: 'Totem Body Casing' },
             { id: 'forge_frontier:totem_head', name: 'Totem Head' },
             { id: 'forge_frontier:totem_head_casing', name: 'Totem Head Casing' },
+            { id: 'forge_frontier:incomplete_common_material', name: 'Incomplete Common Material' },
+            { id: 'forge_frontier:incomplete_epic_material', name: 'Incomplete Epic Material' },
+            { id: 'forge_frontier:incomplete_mythic_material', name: 'Incomplete Mythic Material' },
+            { id: 'forge_frontier:incomplete_rare_material', name: 'Incomplete Rare Material' },
+            { id: 'forge_frontier:incomplete_uncommon_material', name: 'Incomplete Uncommon Material' },
 
             // Pretty Pipes and Fluid Items
             { id: 'forge_frontier:incomplete_blank_module', name: 'Incomplete Blank Module' },

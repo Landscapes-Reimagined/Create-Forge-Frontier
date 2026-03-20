@@ -12,7 +12,7 @@ StartupEvents.registry('item', event => {
             .maxStackSize(1)
             .tooltip("Built for crafting brilliance—not the skies. Too fragile to fly, but perfect for invention!")
             .texture("forge_frontier:item/leather_elytra")
-    
+
     // Wire Mold
         event.create('createmetallurgy:graphite_wire_mold')
             .displayName('Graphite Wire Mold')
