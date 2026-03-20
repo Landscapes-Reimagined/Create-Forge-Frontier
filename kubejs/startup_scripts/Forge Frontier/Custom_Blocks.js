@@ -73,7 +73,7 @@ StartupEvents.registry('block', event => {
         .fullBlock(true)
 
     // Moon Gravel
-    event.create('create_enchantment_industry:moon_gravel')
+    event.create('forge_frontier:moon_gravel')
         .displayName('Moon Gravel')
         .soundType('gravel') 
         .mapColor('STONE') 
