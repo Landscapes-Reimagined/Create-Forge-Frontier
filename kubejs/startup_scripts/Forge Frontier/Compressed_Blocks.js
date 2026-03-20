@@ -39,7 +39,7 @@ const materials = [
     'Echo_Shard',
     'Luxite',
     'Tungsten',
-    'Adamantite', 
+    'Adamantite',
 
     // New Compressed Create Blocks
     'Cogwheel_Block',

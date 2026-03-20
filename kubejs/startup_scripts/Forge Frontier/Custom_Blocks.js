@@ -72,6 +72,18 @@ StartupEvents.registry('block', event => {
         .tagBlock('mineable/pickaxe')
         .fullBlock(true)
 
+    // Moon Gravel
+    event.create('create_enchantment_industry:moon_gravel')
+        .displayName('Moon Gravel')
+        .soundType('gravel') 
+        .mapColor('STONE') 
+        .hardness(2.0)
+        .model('forge_frontier:block/moon_gravel')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock("mineable/shovel")
+        .fullBlock(true);
+
     // Hyper Experience Block
     event.create('create_enchantment_industry:hyper_experience_block')
         .displayName('Hyper Experience Block')
