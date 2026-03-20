@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "expanded_combat:config_boolean",
+          "config_entry": "weapon"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "advancednetherite:netherite_emerald_ingot"
+        },
+        "base": {
+          "item": "ec_an_plugin:netherite-gold_cutlass"
+        },
+        "result": {
+          "item": "ec_an_plugin:netherite-emerald_cutlass"
+        },
+        "template": {
+          "item": "forge_frontier:netherite_emerald_upgrade"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "expanded_combat:config_boolean",
+          "config_entry": "arrow"
+        },
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "expanded_combat:config_material_boolean",
+            "location_path": [
+              "config",
+              "crafting",
+              "is_single_addition"
+            ],
+            "material": "Netherite-Emerald"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "key": {
+          "i": {
+            "item": "advancednetherite:netherite_emerald_ingot"
+          },
+          "l": {
+            "tag": "forge:leather"
+          },
+          "s": {
+            "tag": "forge:string"
+          }
+        },
+        "pattern": [
+          "sl ",
+          "l l",
+          "il "
+        ],
+        "result": {
+          "item": "ec_an_plugin:netherite-emerald_quiver"
+        },
+        "show_notification": true
+      }
+    }
+  ]
+}
