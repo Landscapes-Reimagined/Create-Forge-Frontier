@@ -7,5 +7,6 @@ ServerEvents.recipes(event =>
 		event.remove({ id: 'create_additions_synthetics:tank_conversion' })
 		event.remove({ id: 'createqol:mixing/chromatic_compound'})
 		event.remove({ id: 'alexscavesdelight:block/organic_compost'})
+		event.remove({ id: 'create:crafting/palettes/scorchia' })
 	}
 )
