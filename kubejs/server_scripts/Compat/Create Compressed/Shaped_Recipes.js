@@ -33,7 +33,12 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        'etrium',
+        'etrium',    
+        'tin',
+        'echo_shard',
+        'luxite',
+        'tungsten',
+        'adamantite', 
         // New Compressed Create Blocks
         'cogwheel_block',
         'large_cogwheel_block',
@@ -60,7 +65,70 @@ ServerEvents.recipes(event => {
         }
     });
 // Creates 1x Shaped Recipes
+    // Tin Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_tin_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "create_dd:tin_block"
+        }
+    ).id('forge_frontier:shaped/tin_block_1x');
 
+    // Echo Shard Block
+    event.shaped(
+        Item.of("forge_frontier:compressed_echo_shard_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "forge_frontier:echo_shard_block"
+        }
+    ).id('forge_frontier:shaped/echo_shard_block_1x');
+
+    // Luxite
+    event.shaped(
+        Item.of("forge_frontier:compressed_luxite_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "endelurgy:luxite_block"
+        }
+    ).id('forge_frontier:shaped/luxite_block_1x');
+    
+    // Tungsten
+    event.shaped(
+        Item.of("forge_frontier:compressed_tungsten_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "createmetallurgy:tungsten_block"
+        }
+    ).id('forge_frontier:shaped/tungsten_block_1x');
+    
+    // Adamantite
+    event.shaped(
+        Item.of("forge_frontier:compressed_adamantite_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "endelurgy:adamantite_block"
+        }
+    ).id('forge_frontier:shaped/adamantite_block_1x');    
     // Etrium Block
     event.shaped(
         Item.of('forge_frontier:compressed_etrium_1x'),

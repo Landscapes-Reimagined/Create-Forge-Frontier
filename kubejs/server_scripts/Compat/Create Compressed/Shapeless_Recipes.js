@@ -35,6 +35,11 @@ ServerEvents.recipes(event => {
         'netherite-emerald',
         'netherite-diamond',
         'etrium',
+        'tin',
+        'echo_shard',
+        'luxite',
+        'tungsten',
+        'adamantite', 
         // New Compressed Create Blocks
         'cogwheel_block',
         'large_cogwheel_block',
@@ -60,7 +65,76 @@ ServerEvents.recipes(event => {
             createCompressedBlockShapelessRecipe(event, material, i);
         }
     });
+    // 1x Shapeless Recipes
+    // Tin Block
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_tin_1x"
+            }
+        ],
+        result: {
+            item: "create_dd:tin_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_tin_block_1x')
 
+    // Echo Shard
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_echo_shard_1x"
+            }
+        ],
+        result: {
+            item: "forge_frontier:echo_shard_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_echo_shard_block_1x')    
+
+    // Luxite
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_luxite_1x"
+            }
+        ],
+        result: {
+            item: "endelurgy:luxite_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_luxite_block_1x')  
+    // Tungsten
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_tungsten_1x"
+            }
+        ],
+        result: {
+            item: "createmetallurgy:tungsten_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_tungsten_block_1x')      
+
+    // Adamantite
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_adamantite_1x"
+            }
+        ],
+        result: {
+            item: "endelurgy:adamantite_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_adamantite_block_1x')      
+        
     // Etrium Block
     event.custom({ 
         type: 'minecraft:crafting_shapeless',
