@@ -1,5 +1,20 @@
 ServerEvents.recipes(event => 
     {
+        // Moon Gravel Recipe
+            event.custom({ 
+                type: "create:crushing",
+                ingredients: [
+                    { item: "ad_astra:moon_cobblestone" }
+                ],
+                processingTime: 250,
+                results: [
+                    {
+                        item: "forge_frontier:moon_gravel",
+                        count: 1
+                    }
+                ]
+            })
+            
         // Iron Plating Convertion Recipe
             event.custom({
                 type: 'create:crushing',
