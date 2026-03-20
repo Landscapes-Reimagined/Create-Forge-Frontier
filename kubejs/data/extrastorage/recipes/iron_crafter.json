@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "tag": "refinedstorage:crafter"
+    },
+    "v": {
+      "item": "create_bs:iron_item_vault"
+    },
+    "c": {
+      "item": "extrastorage:neural_processor"
+    }
+  },
+  "pattern": [
+    "ava",
+    "cbc",
+    "a a"
+  ],
+  "result": {
+    "item": "extrastorage:iron_crafter"
+  },
+  "show_notification": true
+}
