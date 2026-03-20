@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'verdantine',
-            secondary: { chance: 0.5, item: "create_more_additions:electrum_nugget" }
+            secondary: { chance: 0.5, item: "createaddition:electrum_nugget" }
         },
         {
             name: 'glacium',
