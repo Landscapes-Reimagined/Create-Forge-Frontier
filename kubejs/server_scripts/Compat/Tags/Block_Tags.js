@@ -1,5 +1,44 @@
 ServerEvents.tags('block', event => 
     {
+        // Create Cobblestone Generator Types
+            event.add('createcobblestone:generator_blocks',[
+                'minecraft:stone',
+                'create:limestone',
+                'minecraft:cobblestone',
+                'minecraft:basalt',
+                'minecraft:dripstone_block',
+                'regions_unexplored:chalk', 
+                'regions_unexplored:mossy_stone', 
+                'endelurgy:voidslate', 
+                'minecraft:tuff', 
+                'quark:jasper', 
+                'minecraft:diorite', 
+                'quark:shale', 
+                'quark:myalite', 
+                'minecraft:granite', 
+                'minecraft:andesite', 
+                'ad_astra:mercury_stone', 
+                'create_dd:aethersite', 
+                'ad_astra:venus_stone', 
+                'quark:limestone', 
+                'minecraft:blackstone', 
+                'minecraft:calcite', 
+                'create_dd:gabbro', 
+                'ad_astra:glacio_stone', 
+                'unusualend:warped_stone', 
+                'minecraft:deepslate', 
+                'ad_astra:mars_stone', 
+                'ad_astra:moon_stone', 
+                'unusualend:gloopstone', 
+                'deeperdarker:gloomslate', 
+                'deeperdarker:sculk_stone', 
+                'alexscaves:limestone', 
+                'unusualend:raw_purpur_block', 
+                'alexscaves:guanostone', 
+                'quark:permafrost', 
+                'regions_unexplored:argillite'
+            ])
+            
         // Serene Seasons Tag
             event.add('sereneseasons:greenhouse_glass', '#minecraft:impermeable')
 
