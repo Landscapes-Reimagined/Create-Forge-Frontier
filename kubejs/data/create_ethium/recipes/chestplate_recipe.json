@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "create_ethium:ethium_smithing_template"
+  },
+  "base": {
+    "item": "resonant_synthesis:otherside_chestplate"
+  },
+  "addition": {
+    "item": "create_ethium:ethium_ingot"
+  },
+  "result": {
+    "item": "create_ethium:ethium_armor_chestplate"
+  }
+}
