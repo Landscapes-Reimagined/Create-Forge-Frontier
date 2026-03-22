@@ -34,6 +34,14 @@ StartupEvents.registry('item', event =>
             { id: 'forge_frontier:incomplete_raw_advanced_processor', name: 'Incomplete Raw Advanced Processor' },
             { id: 'forge_frontier:incomplete_raw_neural_processor', name: 'Incomplete Raw Neural Processor' },
 
+            // Seal Parts
+            { id: 'forge_frontier:incomplete_stabilized_shard_1', name: 'Incomplete Stabilized Shard 1' },
+            { id: 'forge_frontier:incomplete_stabilized_shard_2', name: 'Incomplete Stabilized Shard 2' },
+            { id: 'forge_frontier:incomplete_stabilized_shard_3', name: 'Incomplete Stabilized Shard 3' },
+            { id: 'forge_frontier:incomplete_stabilized_shard_4', name: 'Incomplete Stabilized Shard 4' },
+            { id: 'forge_frontier:incomplete_seal_frame', name: 'Incomplete Seal Frame' },
+            { id: 'forge_frontier:incomplete_nether_seal', name: 'Incomplete Nether Seal' },
+
             // Pretty Pipes and Fluid Items
             { id: 'forge_frontier:incomplete_blank_module', name: 'Incomplete Blank Module' },
             { id: 'forge_frontier:incomplete_low_extraction_module', name: 'Incomplete Low Extraction Module' },
