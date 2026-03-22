@@ -5,7 +5,7 @@
       "modid": "minecraft"
     }
   ],
-  "entity": "minecraft:zombie_villager",
+  "entity": "minecraft:endermite",
   "weight": 8,
   "quality": 2,
   "size": {
@@ -13,15 +13,15 @@
     "height": 4
   },
   "valid_gear_sets": [
-    "#earth"
+    "#end"
   ],
   "dimensions": [
-    "minecraft:overworld"
+    "minecraft:the_end"
   ],
-  "min_rarity": "common",
-  "max_rarity": "common",
+  "min_rarity": "epic",
+  "max_rarity": "epic",
   "stats": {
-    "common": {
+    "epic": {
       "enchant_chance": 0.25,
       "enchantment_levels": [
         12,

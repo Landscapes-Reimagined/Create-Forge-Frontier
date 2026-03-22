@@ -2,10 +2,10 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "minecraft"
+      "modid": "alexscaves"
     }
   ],
-  "entity": "minecraft:zombie_villager",
+  "entity": "alexscaves:caniac",
   "weight": 8,
   "quality": 2,
   "size": {
@@ -13,15 +13,15 @@
     "height": 4
   },
   "valid_gear_sets": [
-    "#earth"
+    "#candy"
   ],
   "dimensions": [
-    "minecraft:overworld"
+    "forge_frontier:candy_cavity"
   ],
-  "min_rarity": "common",
-  "max_rarity": "common",
+  "min_rarity": "mythic",
+  "max_rarity": "mythic",
   "stats": {
-    "common": {
+    "mythic": {
       "enchant_chance": 0.25,
       "enchantment_levels": [
         12,

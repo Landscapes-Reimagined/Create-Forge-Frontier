@@ -5,7 +5,7 @@
       "modid": "minecraft"
     }
   ],
-  "entity": "minecraft:zombie_villager",
+  "entity": "minecraft:skeleton",
   "weight": 8,
   "quality": 2,
   "size": {
