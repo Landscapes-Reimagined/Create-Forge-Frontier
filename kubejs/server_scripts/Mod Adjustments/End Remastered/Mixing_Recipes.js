@@ -85,5 +85,35 @@ ServerEvents.recipes(event =>
                 ],  
                 heatRequirement: "superheated"
             }).id('forge_frontier:mixing/witch_eye')
+
+            event.custom({
+                    type: 'create:mixing',
+                    ingredients: [
+                        { item: 'forge_frontier:unfinished_corrupted_eye' },
+                        { 
+                            fluid: "create:potion",
+                            nbt: {
+                            Potion: "minecraft:weakness"
+                            },
+                            amount: 1000
+                        },
+                    ],
+                    results: [
+                        { item: 'endrem:corrupted_eye' }
+                    ]
+                }).id('forge_frontier:mixing/corrupted_eye')
+
+                event.custom({
+                    type: 'create:mixing',
+                    ingredients: [
+                        Fluid.of('create_enchantment_industry:experience', 250).toJson(),
+                        { item: 'minecraft:totem_of_undying' },
+                        { item: 'minecraft:blaze_powder' },
+                        { item: 'minecraft:glowstone_dust' }
+                    ],
+                    results: [
+                        { item: 'forge_frontier:infused_totem' }
+                    ]
+                }).id('forge_frontier:mixing/infused_totem')            
     }
 )
