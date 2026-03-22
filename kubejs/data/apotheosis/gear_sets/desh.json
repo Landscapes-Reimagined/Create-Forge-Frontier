@@ -7,7 +7,7 @@
         {
             "weight": 1,
             "stack": {
-                "item": "ad_astra:jet_suit_boots"
+                "item": "ad_astra_tools:desh_boots"
             }
         }
     ],
@@ -15,7 +15,7 @@
         {
             "weight": 1,
             "stack": {
-                "item": "ad_astra:jet_suit_pants"
+                "item": "ad_astra_tools:desh_leggings"
             }
         }
     ],
@@ -23,7 +23,7 @@
         {
             "weight": 1,
             "stack": {
-                "item": "ad_astra:jet_suit"
+                "item": "ad_astra_tools:desh_chestplate"
             }
         }
     ],
@@ -31,11 +31,11 @@
         {
             "weight": 1,
             "stack": {
-                "item": "ad_astra:jet_suit_helmet"
+                "item": "ad_astra_tools:desh_helmet"
             }
         }
     ],
     "tags": [
-        "glacio"
+        "moon"
     ]
 }
