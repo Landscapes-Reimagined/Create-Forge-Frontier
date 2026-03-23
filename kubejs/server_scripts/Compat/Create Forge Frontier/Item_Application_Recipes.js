@@ -31,9 +31,16 @@ ServerEvents.recipes(event =>
                     ]
                 },
                 {
+                    id: 'enderite_rocket_casing',
+                    ingredients: [
+                        { item: 'forge_frontier:calorite_rocket_casing' },
+                        { item: 'endelurgy:enderite_ingot'}
+                    ]
+                },
+                {
                     id: 'primal_magma_rocket_casing',
                     ingredients: [
-                        { item: 'forge_frontier:malachite_rocket_casing' },
+                        { item: 'forge_frontier:enderite_rocket_casing' },
                         { item: 'alexscaves:primal_magma' }
                     ]
                 },

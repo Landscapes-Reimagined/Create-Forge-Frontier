@@ -383,7 +383,7 @@ ServerEvents.tags('block', event =>
             'forge_frontier:ostrum_rocket_casing',
             'forge_frontier:calorite_rocket_casing',
             'forge_frontier:primal_magma_rocket_casing',
-            'forge_frontier:malachite_rocket_casing',
+            'forge_frontier:enderite_rocket_casing',
         ]);
 
     // Adds Fan Processing Catalysts
