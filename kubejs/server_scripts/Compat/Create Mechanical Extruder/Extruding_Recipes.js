@@ -1,5 +1,71 @@
 ServerEvents.recipes(event => 
     {
+        // Noxrock
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'create_confectionery:ruby_chocolate',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: "create_resource_vents:active_noxrock_vent"
+                },
+                result: {
+                item: "endelurgy:noxrock"
+                },
+                
+            }).id('forge_frontier:extruding/noxrock')        
+
+        // Gneiss
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'create_confectionery:ruby_chocolate',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: "create_resource_vents:active_gneiss_vent"
+                },
+                result: {
+                item: "unusualend:gneiss"
+                },
+                
+            }).id('forge_frontier:extruding/gneiss') 
+
+        // Endritus
+            event.custom({
+                type: 'create_mechanical_extruder:extruding',
+                ingredients: [
+                {
+                    fluid: 'create_confectionery:ruby_chocolate',
+                    amount: 1000
+                },
+                {
+                    fluid: 'minecraft:lava',
+                    amount: 1000
+                }
+                ],
+                catalyst: {
+                item: "create_resource_vents:active_endritus_vent"
+                },
+                result: {
+                item: "endelurgy:endritus"
+                },
+                
+            }).id('forge_frontier:extruding/endritus')         
+
         // Crimsite
             event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/crimsite_cobble' })
             event.custom({
