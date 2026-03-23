@@ -181,6 +181,26 @@ ServerEvents.recipes(event => {
           ]
         },
         {
+          type: 'create:deploying',
+          ingredients: [
+            { item: recipe.incomplete },
+            { item: 'forge_frontier:compressed_mechanism_block_2x' }
+          ],
+          results: [
+            { item: recipe.incomplete }
+          ]
+        },
+        {
+          type: 'create:deploying',
+          ingredients: [
+            { item: recipe.incomplete },
+            { item: 'createqol:shadow_radiance_block' }
+          ],
+          results: [
+            { item: recipe.incomplete }
+          ]
+        },
+        {
           type: 'create:filling',
           ingredients: [
             { item: recipe.incomplete },
