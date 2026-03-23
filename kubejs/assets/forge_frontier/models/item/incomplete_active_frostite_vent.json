@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "forge_frontier:block/incomplete_active_frostite_vent"
+    }
+  }
+

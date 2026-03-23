@@ -185,4 +185,49 @@ StartupEvents.registry('block', event => {
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
 
+    // Incomplete Active Vents
+    const incompleteVents = [
+        'asurine',
+        'veridium',
+        'crimsite',
+        'ochrum',
+        'scorchia',
+        'scoria',
+        'potassic',
+        'verdantine',
+        'ancient_debris',
+        'resonite',
+        'aubrum',
+        'stellaris',
+        'pyroclast',
+        'frostite',
+        'noxrock',
+        'gneiss',
+        'endritus',
+        'pearlyte',
+        'amberlite',
+        'guanite',
+        'neodymrium',
+        'azurnium',
+        'uraniumnite',
+        'sulphite',
+        'lost_debris',
+        'glacium'
+    ]
+
+    incompleteVents.forEach(name => {
+        const id = `forge_frontier:incomplete_active_${name}_vent`
+
+        event.create(id)
+            .displayName(`Incomplete Active ${name.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')} Vent`)
+            .soundType('stone')
+            .mapColor('STONE')
+            .hardness(2.0)
+            .model(`forge_frontier:block/incomplete_active_${name}_vent`)
+            .requiresTool(true)
+            .renderType('solid')
+            .tagBlock('mineable/pickaxe')
+            .fullBlock(true)
+    })
+
 });
