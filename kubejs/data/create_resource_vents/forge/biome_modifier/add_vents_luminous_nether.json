@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#incendium:all_incendium_biomes",
+  "biomes": "#forge_frontier:luminous_nether",
   "features": [
     "create_resource_vents:placed_ancient_debris_vent"
   ],

@@ -1,6 +1,12 @@
 ServerEvents.tags('worldgen/biome', event => 
     {
         // Additions
+            // Luminous Nether
+                event.add('forge_frontier:luminous_nether', [
+                    'luminous_nether:ash_forest',
+                    'luminous_nether:fungal_plains'
+                ])
+                
             // Regions Unexplored Nether
                 event.add('forge_frontier:regions_unexplored_nether', [
                     'regions_unexplored:mycotoxic_undergrowth',
@@ -14,12 +20,6 @@ ServerEvents.tags('worldgen/biome', event =>
                 event.add('forge_frontier:moon_ore_veins', 'ad_astra:lunar_wastelands');
                 event.add('forge_frontier:venus_ore_veins', 'ad_astra:venus_wastelands');
                 event.add('forge_frontier:glacio_ore_veins', 'ad_astra:glacio_snowy_barrens');
-
-            // Otherside Vein Biome Linkage
-                event.add('forge_frontier:deeper_darker_vein', [
-                    'deeperdarker:deeplands',
-                    'deeperdarker:echoing_forest'
-                ])
 
             // Alex's Caves Vein to Biome Linkage
                 event.add('forge_frontier:toxic_vein', 'alexscaves:toxic_caves');
