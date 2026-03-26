@@ -230,4 +230,32 @@ StartupEvents.registry('block', event => {
             .fullBlock(true)
     })
 
+    // Incomplete Rocket Casings
+    const incompleteRocketCasings = [
+        'steel_rocket_casing',
+        'desh_rocket_casing',
+        'ostrum_rocket_casing',
+        'calorite_rocket_casing',
+        'enderite_rocket_casing',
+        'primal_magma_rocket_casing'
+    ]
+
+    incompleteRocketCasings.forEach(name => {
+        const id = `forge_frontier:incomplete_${name}`
+
+        event.create(id)
+            .displayName(`Incomplete ${name
+                .split('_')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ')}`)
+            .soundType('metal')
+            .mapColor('METAL')
+            .hardness(2.0)
+            .model(`forge_frontier:block/rocket_casing/incomplete_${name}`)
+            .requiresTool(true)
+            .renderType('solid')
+            .tagBlock('mineable/pickaxe')
+            .fullBlock(true)
+    })
+
 });

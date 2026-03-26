@@ -58,10 +58,6 @@ ServerEvents.recipes(function (event) {
         { name: "tin_casing", fluid: "createmetallurgy:molten_tin", solid: { tag: "forge:stripped_logs" }, result: "create_dd:tin_casing", amount: INGOT_MB, time: 70 },
         { name: "netherite_casing", fluid: "createmetallurgy:molten_netherite", solid: { tag: "forge_frontier:netherite_casing_application" }, result: "create_dd:netherite_casing", amount: INGOT_MB, time: 70 },
         { name: "steel_casing", fluid: "createmetallurgy:molten_steel", solid: { tag: "forge:stone" }, result: "create_dd:steel_casing", amount: INGOT_MB, time: 70 },
-        { name: "steel_rocket_casing", fluid: "createmetallurgy:molten_steel", solid: { tag: "forge_frontier:netherite_casing_application" }, result: "forge_frontier:steel_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "desh_rocket_casing", fluid: "forge_frontier:molten_desh", solid: { item: "forge_frontier:steel_rocket_casing" }, result: "forge_frontier:desh_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "ostrum_rocket_casing", fluid: "forge_frontier:molten_ostrum", solid: { item: "forge_frontier:desh_rocket_casing" }, result: "forge_frontier:ostrum_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "calorite_rocket_casing", fluid: "forge_frontier:molten_calorite", solid: { item: "forge_frontier:ostrum_rocket_casing" }, result: "forge_frontier:calorite_rocket_casing", amount: INGOT_MB, time: 70 },
         { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 },
         { name: "void_casing", fluid: "createmetallurgy:molten_void_steel", solid: { item: "minecraft:obsidian"}, result: "createutilities:void_casing", amount: INGOT_MB, time: 70 }
     ];

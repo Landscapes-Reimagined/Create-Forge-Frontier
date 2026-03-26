@@ -33,30 +33,6 @@ StartupEvents.registry('item', event => {
             texture: 'forge_frontier:item/overcharged_netherite_ingot'
         },
         {
-            id: 'forge_frontier:tier_5_engine',
-            name: 'Tier 5 Engine',
-            stack: 64,
-            texture: 'forge_frontier:item/rocket_additions/tier_5_engine'
-        },
-        {
-            id: 'forge_frontier:tier_6_engine',
-            name: 'Tier 6 Engine',
-            stack: 64,
-            texture: 'forge_frontier:item/rocket_additions/tier_6_engine'
-        },
-        {
-            id: 'forge_frontier:tier_5_tank',
-            name: 'Tier 5 Tank',
-            stack: 64,
-            texture: 'forge_frontier:item/rocket_additions/tier_5_tank'
-        },
-        {
-            id: 'forge_frontier:tier_6_tank',
-            name: 'Tier 6 Tank',
-            stack: 64,
-            texture: 'forge_frontier:item/rocket_additions/tier_6_tank'
-        },
-        {
             id: 'forge_frontier:modpack_logo',
             name: 'Forge Frontier Logo',
             stack: 64,

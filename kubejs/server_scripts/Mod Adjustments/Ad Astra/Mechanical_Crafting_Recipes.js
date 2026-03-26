@@ -167,7 +167,7 @@ ServerEvents.recipes(event =>
                 key: {
                     N: Ingredient.of("ad_astra:rocket_nose_cone").toJson(),
                     P: Ingredient.of("forge_frontier:primal_magma_rocket_casing").toJson(),
-                    X: Ingredient.of("forge_frontier:deep_space_stabilizer_core").toJson(),
+                    X: Ingredient.of("forge_frontier:magmatic_reinforcement_core").toJson(),
                     H: Ingredient.of("forge_frontier:thermal_shield_matrix").toJson(),
                     R: Ingredient.of("ad_astra_rocketed:tier_5_rocket").toJson(),
                     S: Ingredient.of("forge_frontier:solar_regulation_array").toJson(),

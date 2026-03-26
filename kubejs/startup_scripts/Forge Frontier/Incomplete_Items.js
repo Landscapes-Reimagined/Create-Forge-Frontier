@@ -1,6 +1,20 @@
 StartupEvents.registry('item', event => {
 
     const existingItems = [
+        // Rocket Incomplete Parts
+        { id: 'forge_frontier:incomplete_rocket_fuel_tank', name: 'Incomplete Rocket Fuel Tank' },
+        { id: 'forge_frontier:incomplete_rocket_engine', name: 'Incomplete Rocket Engine' },
+        { id: 'forge_frontier:incomplete_combustion_chamber', name: 'Incomplete Combustion Chamber' },
+        { id: 'forge_frontier:incomplete_oxidizer_catalyst', name: 'Incomplete Oxidizer Catalyst' },
+        { id: 'forge_frontier:incomplete_thermal_shield_matrix', name: 'Incomplete Thermal Shield Matrix' },
+        { id: 'forge_frontier:incomplete_solar_regulation_array', name: 'Incomplete Solar Regulation Array' },
+        { id: 'forge_frontier:incomplete_deep_space_stabilizer_core', name: 'Incomplete Deep Space Stabilizer Core' },
+        { id: 'forge_frontier:incomplete_dimensional_stability_core', name: 'Incomplete Dimensional Stability Core' },
+        { id: 'forge_frontier:incomplete_magmatic_reinforcement_core', name: 'Incomplete Magmatic Reinforcement Core' },
+
+        // Unfinished Part
+        { id: 'forge_frontier:unfinished_magmatic_reinforcement_core', name: 'Unfinished Magmatic Reinforcement Core'},
+
         // Cataclysm Eyes
         { id: 'cataclysm:incomplete_abyss_eye', name: 'Incomplete Abyss Eye' },
         { id: 'cataclysm:incomplete_cursed_eye', name: 'Incomplete Cursed Eye' },
