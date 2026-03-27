@@ -4,8 +4,7 @@ StartupEvents.registry('item', event => {
         { id: "forge_frontier:forge_rocket_core", name: "Forge Rocket Core", texture: "forge_frontier:item/forge_rocket/forge_rocket_core" },
         { id: "forge_frontier:forge_rocket_door", name: "Forge Rocket Door", texture: "forge_frontier:item/forge_rocket/forge_rocket_door" },
         { id: "forge_frontier:forge_rocket_engine", name: "Forge Rocket Engine", texture: "forge_frontier:item/forge_rocket/forge_rocket_engine" },
-        { id: "forge_frontier:forge_rocket_fin_left", name: "Forge Rocket Fin Left", texture: "forge_frontier:item/forge_rocket/forge_rocket_fin_left" },
-        { id: "forge_frontier:forge_rocket_fin_right", name: "Forge Rocket Fin Right", texture: "forge_frontier:item/forge_rocket/forge_rocket_fin_right" },
+        { id: "forge_frontier:forge_rocket_fin", name: "Forge Rocket Fin", texture: "forge_frontier:item/forge_rocket/forge_rocket_fin" },
         { id: "forge_frontier:forge_rocket_nose_cone", name: "Forge Rocket Nose Cone", texture: "forge_frontier:item/forge_rocket/forge_rocket_nose_cone" },
         { id: "forge_frontier:forge_alloy", name: "Forge Alloy", texture: "forge_frontier:item/forge_rocket/forge_alloy" },
         { id: "forge_frontier:forge_rocket_tank", name: "Forge Rocket Tank", texture: "forge_frontier:item/forge_rocket/forge_rocket_tank" },
@@ -33,7 +32,13 @@ StartupEvents.registry('item', event => {
         { id: "forge_frontier:dimensional_stability_core", name: "Dimensional Stability Core", texture: "forge_frontier:item/rocket_parts/dimensional_stability_core" },
 
         // New Tier 6 parts
-        { id: "forge_frontier:magmatic_reinforcement_core", name: "Magmatic Reinforcement Core", texture: "forge_frontier:item/rocket_parts/magmatic_reinforcement_core" }
+        { id: "forge_frontier:magmatic_reinforcement_core", name: "Magmatic Reinforcement Core", texture: "forge_frontier:item/rocket_parts/magmatic_reinforcement_core" },
+
+        // New Tier 7 parts
+        { id: "forge_frontier:culinary_life_support_matrix", name: "Culinary Life Support Matrix", texture: "forge_frontier:item/forge_rocket/culinary_life_support_matrix" },
+        { id: "forge_frontier:arcane_calibration_matrix", name: "Arcane Calibration Matrix", texture: "forge_frontier:item/forge_rocket/arcane_calibration_matrix" },
+        { id: "forge_frontier:adaptive_reinforcement_matrix", name: "Adaptive Reinforcement Matrix", texture: "forge_frontier:item/forge_rocket/adaptive_reinforcement_matrix" }
+
     ];
 
     // Create each rocket item

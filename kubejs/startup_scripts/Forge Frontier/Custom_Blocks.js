@@ -237,7 +237,8 @@ StartupEvents.registry('block', event => {
         'ostrum_rocket_casing',
         'calorite_rocket_casing',
         'enderite_rocket_casing',
-        'primal_magma_rocket_casing'
+        'primal_magma_rocket_casing',
+        'forge_rocket_casing'
     ]
 
     incompleteRocketCasings.forEach(name => {

@@ -97,4 +97,24 @@ ServerEvents.recipes(event => {
         results: [casing("primal_magma_rocket_casing")],
         loops: 3
     })
+
+    // Forge Rocket Casing
+    event.custom({
+        type: "create:sequenced_assembly",
+        ingredient: Ingredient.of("forge_frontier:primal_magma_rocket_casing").toJson(),
+        transitionalItem: incomplete("forge_rocket_casing"),
+        sequence: [
+            { type: "create:deploying", ingredients: [incomplete("forge_rocket_casing"), Ingredient.of("create:sturdy_sheet").toJson()], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:deploying", ingredients: [incomplete("forge_rocket_casing"), Ingredient.of("forge_frontier:forge_alloy").toJson()], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] },
+            { type: "create:pressing", ingredients: [incomplete("forge_rocket_casing")], results: [incomplete("forge_rocket_casing")] }
+        ],
+        results: [casing("forge_rocket_casing")],
+        loops: 1
+    })
 })

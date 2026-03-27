@@ -11,6 +11,11 @@ StartupEvents.registry('item', event => {
         { id: 'forge_frontier:incomplete_deep_space_stabilizer_core', name: 'Incomplete Deep Space Stabilizer Core' },
         { id: 'forge_frontier:incomplete_dimensional_stability_core', name: 'Incomplete Dimensional Stability Core' },
         { id: 'forge_frontier:incomplete_magmatic_reinforcement_core', name: 'Incomplete Magmatic Reinforcement Core' },
+        { id: 'forge_frontier:incomplete_forge_rocket_engine', name: 'Incomplete Forge Rocket Engine' },
+        { id: 'forge_frontier:incomplete_culinary_life_support_matrix', name: 'Incomplete Culinary Life Support Matrix' },
+        { id: 'forge_frontier:incomplete_arcane_calibration_matrix', name: 'Incomplete Arcane Calibration Matrix' },
+        { id: 'forge_frontier:incomplete_forge_rocket_core', name: 'Incomplete Forge Rocket Core' },
+        { id: 'forge_frontier:incomplete_forge_rocket_door', name: 'Incomplete Forge Rocket Door' },
 
         // Unfinished Part
         { id: 'forge_frontier:unfinished_magmatic_reinforcement_core', name: 'Unfinished Magmatic Reinforcement Core'},

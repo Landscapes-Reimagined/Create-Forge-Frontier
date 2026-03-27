@@ -190,13 +190,15 @@ ServerEvents.recipes(event =>
                         "  CDC  ",
                         "  CRC  ",
                         "  CcC  ",
-                        " CCCCC ",
+                        " CAaLC ",
                         "CCTTTCC",
-                        "F FEf f"
+                        "F FEF F"
                     ],
                     key: {
-                        F: Ingredient.of("forge_frontier:forge_rocket_fin_left"),
-                        f: Ingredient.of("forge_frontier:forge_rocket_fin_right"),
+                        A: Ingredient.of("forge_frontier:adaptive_reinforcement_matrix"),
+                        a: Ingredient.of("forge_frontier:arcane_calibration_matrix"),
+                        L: Ingredient.of("forge_frontier:culinary_life_support_matrix"),
+                        F: Ingredient.of("forge_frontier:forge_rocket_fin"),
                         E: Ingredient.of("forge_frontier:forge_rocket_engine"),
                         T: Ingredient.of("forge_frontier:forge_rocket_tank"),
                         D: Ingredient.of("forge_frontier:forge_rocket_door"),
