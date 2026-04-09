@@ -1,0 +1,72 @@
+{
+  "type": "forge_frontier:archeforge_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "forge_frontier:archeforge_settings",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "regions_unexplored:grassland",
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0,
+              0.3
+            ],
+            "offset": 0
+          }
+        },
+        {
+          "biome": "terralith:cave/andesite_caves",
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.3,
+              1.5
+            ],
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

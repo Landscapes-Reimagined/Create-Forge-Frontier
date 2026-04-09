@@ -1,0 +1,10 @@
+{
+  "dimension": "forge_frontier:archeforge",
+  "gravity": 9.807,
+  "orbit": "forge_frontier:archeforge_orbit",
+  "oxygen": true,
+  "solar_power": 16,
+  "solar_system": "forge_frontier:the_prime_mechanism",
+  "temperature": 15,
+  "tier": 7
+}
