@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         {
             base: 'apotheosis:mythic_material',
             incomplete: 'forge_frontier:incomplete_mythic_material',
-            blocks: ['alexscaves:galena']
+            blocks: ['alexscaves:acidic_radrock']
         }
     ]
 
