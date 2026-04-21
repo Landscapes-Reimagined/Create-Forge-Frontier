@@ -1,69 +1,219 @@
 {
   "type": "forge_frontier:archeforge_type",
   "generator": {
-    "type": "minecraft:noise",
     "settings": "forge_frontier:archeforge_settings",
+    "type": "minecraft:noise",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "regions_unexplored:grassland",
+          "biome": "forge_frontier:brass_expanse",
           "parameters": {
             "weirdness": [
-              -1,
-              1
+              -1.0,
+              0.15
             ],
             "continentalness": [
               -1.2,
-              1
+              1.0
             ],
             "erosion": [
-              -1,
-              1
+              -1.0,
+              1.0
             ],
             "temperature": [
-              -1,
-              1
+              -1.0,
+              0.4
             ],
             "humidity": [
-              -1,
-              1
+              -1.0,
+              1.0
             ],
             "depth": [
-              0,
+              0.0,
               0.3
             ],
-            "offset": 0
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "forge_frontier:aetheric_archipelago",
+          "parameters": {
+            "weirdness": [
+              0.35,
+              1.0
+            ],
+            "continentalness": [
+              -0.3,
+              0.6
+            ],
+            "erosion": [
+              -1.0,
+              0.2
+            ],
+            "temperature": [
+              -0.3,
+              0.5
+            ],
+            "humidity": [
+              0.2,
+              1.0
+            ],
+            "depth": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "forge_frontier:argent_canyons",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.2,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              -0.35
+            ],
+            "temperature": [
+              0.45,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              0.3
+            ],
+            "depth": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "forge_frontier:steamfault_basin",
+          "parameters": {
+            "weirdness": [
+              -0.25,
+              0.65
+            ],
+            "continentalness": [
+              -1.2,
+              1.0
+            ],
+            "erosion": [
+              -0.4,
+              0.35
+            ],
+            "temperature": [
+              0.65,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              0.4
+            ],
+            "depth": [
+              0.0,
+              0.3
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "forge_frontier:great_assembly",
+          "parameters": {
+            "weirdness": [
+              -0.1,
+              0.75
+            ],
+            "continentalness": [
+              0.2,
+              1.0
+            ],
+            "erosion": [
+              -0.15,
+              0.65
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "depth": [
+              0.3,
+              0.8
+            ],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "forge_frontier:prime_heart_chamber",
+          "parameters": {
+            "weirdness": [
+              -1.0,
+              1.0
+            ],
+            "continentalness": [
+              -1.2,
+              1.0
+            ],
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "depth": [
+              0.8,
+              1.1
+            ],
+            "offset": 0.0
           }
         },
         {
           "biome": "terralith:cave/andesite_caves",
           "parameters": {
             "weirdness": [
-              -1,
-              1
+              -1.0,
+              1.0
             ],
             "continentalness": [
               -1.2,
-              1
+              1.0
             ],
             "erosion": [
-              -1,
-              1
+              -1.0,
+              1.0
             ],
             "temperature": [
-              -1,
-              1
+              -1.0,
+              1.0
             ],
             "humidity": [
-              -1,
-              1
+              -1.0,
+              1.0
             ],
             "depth": [
               0.3,
               1.5
             ],
-            "offset": 0
+            "offset": 0.0
           }
         }
       ]
