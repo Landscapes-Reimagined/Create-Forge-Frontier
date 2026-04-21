@@ -1,5 +1,9 @@
 ServerEvents.tags('item', event => 
     {
+        // Removes Infinity Ham for Relic Tags
+            event.remove( 'rarcompat:mimic_loot', 'relics:infinity_ham' )
+            event.remove( 'rarcompat:mimificable', 'relics:infinity_ham' )
+            
         // Remove Excess Curios Tag
             event.remove('curios:curio', [
                     "universalgrid:wireless_universal_grid",
