@@ -186,22 +186,11 @@
 				"5E5285009F4E0981"
 			]
 			description: [
-				" &6Forge Rocket Complete: The Final Frontier Awaits&r  "
-				"&7Your legacy is forged in flame. A new chapter begins.&r"
-				""
 				" Congratulations, fearless adventurer! With the &lForge Rocket&r fully assembled, you’ve achieved a feat few could dream of-unlocking the path to &oThe Forge&r, the final planet steeped in ancient power and untold secrets. This is no ordinary destination. It is the culmination of every trial you've faced, every world you've conquered."
 				""
 				"{@pagebreak}"
 				""
 				"As a reward for your triumph, you’ve earned a &6rare celestial trophy&r-an artifact of immense value. This key unlocks the ability to craft a &llegendary fuel&r, essential for reaching The Forge in a future update. Safeguard it well, for it will be the ignition spark of a journey like no other."
-				""
-				"{@pagebreak}"
-				""
-				" The halls of The Forge await. There, your courage, creativity, and strength will be tested in ways you’ve never known. Within its molten depths lies a final trial-a confrontation with the &clultimate boss&r that will define your legacy."
-				""
-				" The time draws near. Prepare yourself for &6Update v3.0&r-&oan adventure forged in fire, bound in challenge, and crowned in glory&r."
-				""
-				" &lWill you seize your destiny-or be consumed by it?&r"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -251,7 +240,7 @@
 					type: "checkmark"
 				}
 			]
-			title: " Forge Rocket Complete: The Final Frontier Awaits"
+			title: " Forge Rocket Complete: Congrats on Pack Completion!"
 			x: 2.0d
 			y: -17.5d
 		}

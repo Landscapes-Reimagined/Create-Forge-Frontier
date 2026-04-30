@@ -659,11 +659,7 @@
 				}
 				{
 					id: "722016E409FDEFA3"
-					item: {
-						Count: 1
-						id: "createmetallurgy:foundry_unit"
-						tag: { }
-					}
+					item: "createmetallurgy:gauge_attachment"
 					type: "item"
 				}
 			]
@@ -710,7 +706,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:light_bulbs"
+						value: "createmetallurgy:light_bulb"
 					}
 				}
 				title: "Any Light Bulb"

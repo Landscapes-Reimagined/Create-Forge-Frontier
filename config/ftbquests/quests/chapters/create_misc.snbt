@@ -146,88 +146,6 @@
 		{
 			dependencies: ["610FD2C783821A4E"]
 			description: [
-				"The Robo Bee Port allows you to send packages to yourself wirelessly! "
-				""
-				"To use it, address a package to your username using a sign, and then send it into the Robo Bee Port using a Funnel or Item Pipe. "
-				""
-				"[\"\",{\"text\":\"If your name is longer than one line on a sign, you must use the \"},{\"text\":\"Drone Controller.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"64FDF55307789B8B\"},\"color\":\"blue\",\"underlined\":true}]"
-				""
-				"{image:ftb:textures/drone_port.png width:200 height:122 align:center}"
-			]
-			hide_dependency_lines: true
-			icon: "create_mobile_packages:bee_port"
-			id: "0B1AAE6530D495A3"
-			rewards: [
-				{
-					count: 2
-					id: "326326D44E11590D"
-					item: "create:cardboard_block"
-					type: "item"
-				}
-				{
-					id: "0B1B655C4780C686"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Wireless Packages!"
-			tasks: [
-				{
-					id: "0F24DCE4C2DBC277"
-					item: "create_mobile_packages:bee_port"
-					type: "item"
-				}
-				{
-					id: "58216C917CAA600A"
-					item: "create_mobile_packages:robo_bee"
-					type: "item"
-				}
-				{
-					id: "0462614A7944496A"
-					item: "create:packager"
-					type: "item"
-				}
-			]
-			title: "The Drone Port"
-			x: -7.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["0B1AAE6530D495A3"]
-			description: [
-				"The Portable Stock Ticker allows you to request packages from your network when tuned to a frequency by right clicking a Stock Link with the Ticker in your hand."
-				""
-				"To use it, right click, select the items you want to be sent to you, address them to your username in the bottom of the interface, then send the addressed package to the Robo Bee Port. "
-				""
-				"Your package will then be delivered to you via a Robo Bee!"
-			]
-			id: "64FDF55307789B8B"
-			rewards: [
-				{
-					count: 8
-					id: "65A5381F15D5B65A"
-					item: "create:brass_casing"
-					type: "item"
-				}
-				{
-					id: "5CAA7B5E29C80804"
-					type: "xp"
-					xp: 25
-				}
-			]
-			subtitle: "Applied Packages 2."
-			tasks: [{
-				id: "51BD3196E1982973"
-				item: "create_mobile_packages:portable_stock_ticker"
-				type: "item"
-			}]
-			title: "The Drone Controller"
-			x: -7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["610FD2C783821A4E"]
-			description: [
 				"[\"\",{\"text\":\"The Andesite Chunk Loader is your entry-level solution for keeping machines running while you're away. It keeps a 1-chunk radius (a single 16×16 area) constantly loaded, perfect for basic farms or starter contraptions. For more information, see \"},{\"text\":\"Chunk on the Minecraft Wiki\",\"underlined\":true,\"color\":\"blue\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://minecraft.wiki/w/chunk\"}},{\"text\":\".\\n\\nAfter you craft it, you'll need to capture a Ghast by right clicking on it with the Chunk Loader in your hand. \\n\\nPower Requirements:\\n\\nSpeed: 64 RPM\\n\\nStress: 1,024 SU\\n\\nMake sure your system can supply consistent power-if it drops, so does your loaded chunk.\"}]"
 				""
 				"{image:ftb:textures/andesite_loader.png width:200 height:122 align:center}"
@@ -658,7 +576,7 @@
 		{
 			dependencies: ["2839F9B81949DDF4"]
 			description: [
-				"The Bronze Jetpack is your first taste of personal flight."
+				"The Copper Jetpack is your first taste of personal flight."
 				""
 				"Uses water as fuel and lets you fly up to 20 blocks high,"
 				""
@@ -671,7 +589,7 @@
 				{
 					count: 8
 					id: "5B9081365809739C"
-					item: "create_dd:bronze_ingot"
+					item: "minecraft:copper_block"
 					type: "item"
 				}
 				{
@@ -705,7 +623,7 @@
 				"1159D5E78DA10D4F"
 			]
 			description: [
-				"The Mithril Jetpack is a refined and powerful upgrade over the bronze model."
+				"The Andesite Jetpack is a refined and powerful upgrade over the bronze model."
 				""
 				"Uses lava as fuel and is capable of flying up to 25 blocks high."
 				""
@@ -718,7 +636,7 @@
 				{
 					count: 8
 					id: "2BE1416F655A26E4"
-					item: "create_dd:mithril_ingot"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -752,7 +670,7 @@
 				"6B10B08196FEC70B"
 			]
 			description: [
-				"The Bismuth Jetpack trades a bit of speed for greater vertical range."
+				"The Brass Jetpack trades a bit of speed for greater vertical range."
 				""
 				"It is fueled by lava and water, refilled using Tanks or Buckets, to create steam for propulsion. "
 				""
@@ -767,7 +685,7 @@
 				{
 					count: 2
 					id: "32D966C2F95AAE86"
-					item: "create_compressed:sturdy_sheet_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -798,7 +716,7 @@
 		{
 			dependencies: ["3DD2A16629803F49"]
 			description: [
-				"The Netherite Jetpack is the best jetpack in the modpack-no compromises."
+				"The Mithril Jetpack is the best jetpack in the modpack-no compromises."
 				""
 				"It is fueled by lava and water, refilled using Tanks or Buckets, to create steam for propulsion."
 				""
@@ -812,7 +730,7 @@
 			rewards: [
 				{
 					id: "2461B9C2EB2E82EB"
-					item: "minecraft:netherite_block"
+					item: "create_dd:mithril_block"
 					type: "item"
 				}
 				{
@@ -1317,15 +1235,15 @@
 			description: [
 				"Thank you for completing all of the Jetpack Quests!"
 				""
-				"Please accept these Ethium Blocks as a reward!"
+				"Please accept these Mithril Blocks as a reward!"
 			]
-			icon: "create_ethium:ethium_block"
+			icon: "create_dd:mithril_block"
 			id: "60D572EDD957919B"
 			rewards: [
 				{
 					count: 2
 					id: "77B7501235E6EEC1"
-					item: "create_ethium:ethium_block"
+					item: "create_dd:mithril_block"
 					type: "item"
 				}
 				{
@@ -1643,7 +1561,7 @@
 				"To set the coordinates, hold the Advanced Teleportation Link in your hand and look straight down, and while standing in the middle of the block, right click. Then place the link in the Block Teleporter."
 			]
 			hide_dependency_lines: true
-			icon: "createteleporters:block_tp"
+			icon: "createteleporters:block_teleporter"
 			id: "6DAD0133190DB34A"
 			rewards: [
 				{
@@ -1668,7 +1586,7 @@
 			tasks: [
 				{
 					id: "4550BCF455BD423D"
-					item: "createteleporters:block_tp"
+					item: "createteleporters:block_teleporter"
 					type: "item"
 				}
 				{
@@ -1724,7 +1642,7 @@
 				{
 					count: 2L
 					id: "25FBDAF49670938C"
-					item: "createteleporters:custom_portal"
+					item: "createteleporters:custom_portal_base"
 					type: "item"
 				}
 				{
@@ -1947,7 +1865,7 @@
 				}
 			]
 			title: "The Mechanical Pipette"
-			x: -8.5d
+			x: -7.0d
 			y: -3.5d
 		}
 		{
@@ -2012,7 +1930,7 @@
 				}
 			]
 			title: "Fluid Interfaces"
-			x: -8.5d
+			x: -7.0d
 			y: -2.0d
 		}
 		{

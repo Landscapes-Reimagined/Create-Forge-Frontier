@@ -336,24 +336,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7F95771279F2C700"]
-			description: [
-				""
-				"{image:ftb:textures/createforgefrontier_bannerimage.png width:192 height:100 align:center}"
-			]
-			icon: "forge_frontier:trophy_block"
-			id: "65764771C8DA0EF1"
-			shape: "hexagon"
-			subtitle: "The Forge, will be coming in v3.0.0."
-			tasks: [{
-				id: "3C6583D0D04AB9CB"
-				title: "The Forge (Future Final Planet)"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0B3F87B20695A777"]
 			description: [
 				"The &6Tier 1 Rocket&r represents your initial transition from planetary exploration to space travel. As the entry point into &6Ad Astra&r progression, this vehicle enables travel to the Moon and Mars, each offering unique resources, environmental conditions, and new advancement paths."

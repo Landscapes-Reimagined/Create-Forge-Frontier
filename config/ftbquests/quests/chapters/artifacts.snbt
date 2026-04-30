@@ -232,48 +232,7 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3CE72BF099174999"]
-			description: [
-				"A unique food item that never gets consumed when eaten, instead operating on a short 15-second cooldown. The Everlasting Beef provides reliable nourishment during long expeditions without needing to restock supplies."
-				""
-				"This rare artifact can drop from cows slain by players, with a 1 in 500 chance that is not influenced by Looting. It may also appear occasionally within bastion stables or village butcher chests, rewarding those who search diligently for its enduring value."
-			]
-			id: "304AF5F8562E4A5C"
-			rewards: [
-				{
-					id: "2C4B4633D9F02EAE"
-					type: "xp"
-					xp: 250
-				}
-				{
-					id: "79D037C0EADE6474"
-					item: "farmersdelight:cooking_pot"
-					type: "item"
-				}
-				{
-					id: "5A1A6F17B2A706D7"
-					item: "minecraft:enchanted_golden_apple"
-					type: "item"
-				}
-			]
-			subtitle: "Click to learn about this artifact!"
-			tasks: [
-				{
-					id: "076BC2B2C007C355"
-					item: "artifacts:everlasting_beef"
-					type: "item"
-				}
-				{
-					id: "60146246EE772976"
-					item: "artifacts:eternal_steak"
-					type: "item"
-				}
-			]
-			x: -10.0d
+			x: -10.5d
 			y: -1.5d
 		}
 		{

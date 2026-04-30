@@ -2000,7 +2000,7 @@
 		}
 		{
 			dependencies: ["15DD51BFD4480F8D"]
-			icon: "enlightened_end:indigo_eylium"
+			icon: "unusualend:crystal_flower"
 			id: "4770A2BCE4F356A2"
 			rewards: [{
 				id: "4A00BFFCA38BA419"
@@ -3374,7 +3374,7 @@
 			subtitle: "Frozen Energy for Resonite Automation. Click me for more info!"
 			tasks: [{
 				id: "746940CFCDB225E3"
-				item: "ad_astra:cryo_fuel_bucket"
+				item: "resonant_synthesis:resonarium_bucket"
 				type: "item"
 			}]
 			title: "Cryo Fuel: Arctic Alchemy Engine"

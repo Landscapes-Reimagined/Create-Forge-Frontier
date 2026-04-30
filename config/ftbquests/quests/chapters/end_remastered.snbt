@@ -868,11 +868,6 @@
 					type: "item"
 				}
 				{
-					id: "4B761789F5A2075D"
-					item: "easy_villagers:auto_trader"
-					type: "item"
-				}
-				{
 					id: "75D4C3B5E3E16493"
 					type: "xp_levels"
 					xp_levels: 5

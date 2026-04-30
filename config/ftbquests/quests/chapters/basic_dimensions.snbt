@@ -2392,19 +2392,28 @@
 				{
 					count: 8L
 					id: "729DE74782D81485"
-					item: { Count: 8, id: "forge_frontier:radiantite" }
+					item: {
+						Count: 8
+						id: "forge_frontier:radiantite"
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "16377E9A353F20D4"
-					item: { Count: 8, id: "enlightened_end:void_shale" }
+					item: {
+						Count: 8
+						id: "enlightened_end:void_shale"
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "545C120A1AEBD3D7"
-					item: { Count: 8, id: "enlightened_end:palerock" }
+					item: {
+						Count: 8
+						id: "enlightened_end:palerock"
+					}
 					type: "item"
 				}
 			]

@@ -42,7 +42,6 @@
 			id: "1BADBAE5DC3CCEFC"
 			rewards: [
 				{
-					count: 4
 					id: "0CC371B596752467"
 					item: "create_compressed:cogwheel_block"
 					type: "item"
@@ -126,7 +125,7 @@
 			id: "0051FC2DA1337C65"
 			rewards: [
 				{
-					count: 9
+					count: 2
 					id: "17909E51395F684B"
 					item: "create_compressed:shaft_bundle"
 					type: "item"
@@ -189,7 +188,7 @@
 				}
 				{
 					id: "455D527DED0047EA"
-					item: "createcompression:compressed_andesite_alloy_1x"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -269,7 +268,7 @@
 			id: "77F6C51EB12B6075"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "1B20BF3247BEF8D8"
 					item: "create:water_wheel"
 					type: "item"
@@ -296,6 +295,7 @@
 			id: "159659B4B2855DCB"
 			rewards: [
 				{
+					count: 2
 					id: "12CC401DB224D2DB"
 					item: "create:large_water_wheel"
 					type: "item"
@@ -460,9 +460,9 @@
 			hide_dependency_lines: true
 			id: "39CF5A761AFB33F5"
 			rewards: [{
-				count: 18
+				count: 8
 				id: "2FD3488F2B35CC5B"
-				item: "create_dd:industrial_iron_ingot"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			subtitle: "Mixing Time."
@@ -484,13 +484,11 @@
 			id: "7A9D080E21CD57F2"
 			rewards: [
 				{
-					count: 2
 					id: "7912EA5B9D54D34A"
 					item: "create_compressed:cogwheel_block"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "022C6020A52E5032"
 					item: "create_compressed:large_cogwheel_block"
 					type: "item"
@@ -672,7 +670,7 @@
 			rewards: [
 				{
 					id: "6B99943DCDA7E072"
-					item: "createcompression:compressed_andesite_alloy_2x"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -814,7 +812,7 @@
 			rewards: [
 				{
 					id: "2BCFDB9558006FBA"
-					item: "createcompression:compressed_brass_1x"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -846,7 +844,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "31A0DD5A6B34C858"
 					item: "create_compressed:cogwheel_block"
 					type: "item"
@@ -886,7 +883,7 @@
 			rewards: [
 				{
 					id: "17E01FCD646B121D"
-					item: "createcompression:compressed_brass_1x"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -957,7 +954,7 @@
 			id: "7E496DA1FB700F2C"
 			rewards: [
 				{
-					count: 9
+					count: 2
 					id: "0CCB665F64FA584D"
 					item: "create_compressed:shaft_bundle"
 					type: "item"
@@ -1781,7 +1778,7 @@
 				{
 					count: 4
 					id: "16DFF9DE95F0F474"
-					item: "createcompression:compressed_redstone_1x"
+					item: "minecraft:redstone_block"
 					type: "item"
 				}
 				{
@@ -1871,13 +1868,11 @@
 			id: "7DFF7AAA079D4BFC"
 			rewards: [
 				{
-					count: 2
 					id: "2DD729E58C0C2D91"
 					item: "create_compressed:large_cogwheel_block"
 					type: "item"
 				}
 				{
-					count: 2
 					id: "2408BDC7F5E3E905"
 					item: "create_compressed:cogwheel_block"
 					type: "item"
@@ -2122,7 +2117,7 @@
 			id: "11B08625A7B35BFE"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "29E8494282E3C9F6"
 					item: "create:precision_mechanism"
 					type: "item"
@@ -2148,7 +2143,7 @@
 			id: "3B291AFCCF6200D1"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "414081C43CCE9D40"
 					item: "create:precision_mechanism"
 					type: "item"
@@ -2338,7 +2333,7 @@
 			id: "2199CA39A845A583"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "6858BD2E7D1E96A5"
 					item: "create:chute"
 					type: "item"
@@ -2576,7 +2571,7 @@
 			id: "0D4BB30447AEFC1B"
 			rewards: [
 				{
-					count: 16
+					count: 2
 					id: "3129F430B796EC18"
 					item: "create:item_vault"
 					type: "item"
@@ -2916,7 +2911,7 @@
 				}
 				{
 					id: "012F557DAEEF7B00"
-					item: "createcompression:compressed_andesite_alloy_1x"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 			]
@@ -3156,7 +3151,6 @@
 			id: "3C7A3E5D5E7D9110"
 			rewards: [
 				{
-					count: 4
 					id: "4DF30B1E5029245F"
 					item: "create:precision_mechanism"
 					type: "item"

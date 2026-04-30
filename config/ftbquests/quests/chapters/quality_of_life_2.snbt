@@ -32,7 +32,7 @@
 			y: -4.0d
 		}
 	]
-	order_index: 4
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -470,8 +470,8 @@
 				item: "utilitarian:angel_block"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 10.5d
+			x: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6EE09A4C8D827BE0"]
@@ -634,32 +634,7 @@
 				type: "item"
 			}]
 			title: "On A Stick"
-			x: -4.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["6EE09A4C8D827BE0"]
-			description: ["The Hyperbox functions as a portal to a dedicated pocket dimension. Each Hyperbox contains its own linked dimension, which remains preserved and accessible even if the block is mined and placed elsewhere."]
-			hide_dependency_lines: true
-			id: "7A478793A7066CE1"
-			rewards: [
-				{
-					id: "1C296FB67039B6B9"
-					item: "create_dd:chromatic_block"
-					type: "item"
-				}
-				{
-					id: "67A0C851526802AF"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			tasks: [{
-				id: "20A46FCFAC0B9A72"
-				item: "hyperbox:hyperbox"
-				type: "item"
-			}]
-			x: -6.0d
+			x: -4.5d
 			y: 11.5d
 		}
 		{
@@ -685,7 +660,7 @@
 				type: "item"
 			}]
 			title: "Compact Machines"
-			x: -5.0d
+			x: -5.5d
 			y: 11.5d
 		}
 		{
@@ -794,32 +769,6 @@
 			}]
 			title: "Chipped"
 			x: 7.0d
-			y: 9.5d
-		}
-		{
-			dependencies: ["524AB2AB34C92E0E"]
-			description: ["Easy Villagers makes it possible to create compact and efficient villager farms by allowing villagers to be picked up and stored within specialized blocks. Its companion mod, Easy Piglins, offers the same functionality for Piglins, enabling streamlined and space-efficient farm designs."]
-			hide_dependency_lines: true
-			id: "08ADA887E65E00B1"
-			rewards: [
-				{
-					id: "584453AB4D16FA59"
-					item: "easy_villagers:trader"
-					type: "item"
-				}
-				{
-					id: "338EA22F0294A7F1"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			tasks: [{
-				id: "5D69FAE484864029"
-				item: "easy_villagers:villager"
-				type: "item"
-			}]
-			title: "Easy Villagers"
-			x: 8.0d
 			y: 9.5d
 		}
 		{

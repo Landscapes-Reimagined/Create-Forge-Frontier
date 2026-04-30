@@ -422,7 +422,7 @@
 				{
 					count: 2
 					id: "2FDBC80647C1F77B"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -442,10 +442,10 @@
 						value: "forge_frontier:sophisticated_chest_tier_2"
 					}
 				}
-				title: "Any Iron Chest"
+				title: "Any Andesite Chest"
 				type: "item"
 			}]
-			title: "Iron Chest"
+			title: "Andesite Chest"
 			x: 15.75d
 			y: -4.5d
 		}
@@ -464,7 +464,7 @@
 				{
 					count: 2
 					id: "05A7F192AEA74AA6"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -484,10 +484,10 @@
 						value: "forge_frontier:sophisticated_chest_tier_3"
 					}
 				}
-				title: "Any Gold Chest"
+				title: "Any Brass Chest"
 				type: "item"
 			}]
-			title: "Gold Chest"
+			title: "Brass Chest"
 			x: 18.0d
 			y: -4.5d
 		}
@@ -506,7 +506,7 @@
 				{
 					count: 2
 					id: "66D881A7A6BB6D6F"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -526,10 +526,10 @@
 						value: "forge_frontier:sophisticated_chest_tier_4"
 					}
 				}
-				title: "Any Diamond Chest"
+				title: "Any Bronze Chest"
 				type: "item"
 			}]
-			title: "Diamond Chest"
+			title: "Bronze Chest"
 			x: 20.25d
 			y: -4.5d
 		}
@@ -548,7 +548,7 @@
 				{
 					count: 2
 					id: "3FC4C5F8ED87FE11"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -568,10 +568,10 @@
 						value: "forge_frontier:sophisticated_chest_tier_5"
 					}
 				}
-				title: "Any Netherite Chest"
+				title: "Any Mithril Chest"
 				type: "item"
 			}]
-			title: "Netherite Chest"
+			title: "Mithril Chest"
 			x: 22.5d
 			y: -4.5d
 		}
@@ -633,7 +633,7 @@
 				{
 					count: 2
 					id: "2B83C8CEF300BA19"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -653,10 +653,10 @@
 						value: "forge_frontier:sophisticated_barrels_tier_2"
 					}
 				}
-				title: "Any Iron Barrel"
+				title: "Any Andesite Barrel"
 				type: "item"
 			}]
-			title: "Iron Barrel"
+			title: "Andesite Barrel"
 			x: 15.75d
 			y: -1.5d
 		}
@@ -675,7 +675,7 @@
 				{
 					count: 2
 					id: "7B8D0FE97D203A39"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -695,10 +695,10 @@
 						value: "forge_frontier:sophisticated_barrels_tier_3"
 					}
 				}
-				title: "Any Gold Barrel"
+				title: "Any Brass Barrel"
 				type: "item"
 			}]
-			title: "Gold Barrel"
+			title: "Brass Barrel"
 			x: 18.0d
 			y: -1.5d
 		}
@@ -717,7 +717,7 @@
 				{
 					count: 2
 					id: "25BC8D71FCCAB9A6"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -737,10 +737,10 @@
 						value: "forge_frontier:sophisticated_barrels_tier_4"
 					}
 				}
-				title: "Any Diamond Barrel"
+				title: "Any Bronze Barrel"
 				type: "item"
 			}]
-			title: "Diamond Barrel"
+			title: "Bronze Barrel"
 			x: 20.25d
 			y: -1.5d
 		}
@@ -759,7 +759,7 @@
 				{
 					count: 2
 					id: "51CD6527FC980E6D"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -779,10 +779,10 @@
 						value: "forge_frontier:sophisticated_barrels_tier_5"
 					}
 				}
-				title: "Any Netherite Barrel"
+				title: "Any Mithril Barrel"
 				type: "item"
 			}]
-			title: "Netherite Barrel"
+			title: "Mithril Barrel"
 			x: 22.5d
 			y: -1.5d
 		}
@@ -1145,7 +1145,7 @@
 				{
 					count: 2
 					id: "1902F75555DEDEE2"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -1165,10 +1165,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_1_tier_2"
 					}
 				}
-				title: "Any Limited Iron Barrel I"
+				title: "Any Limited Andesite Barrel I"
 				type: "item"
 			}]
-			title: "Limited Iron Barrel I"
+			title: "Limited Andesite Barrel I"
 			x: 15.75d
 			y: 1.5d
 		}
@@ -1187,7 +1187,7 @@
 				{
 					count: 2
 					id: "496B34E92230DDD4"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -1207,10 +1207,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_1_tier_3"
 					}
 				}
-				title: "Any Limited Gold Barrel I"
+				title: "Any Limited Brass Barrel I"
 				type: "item"
 			}]
-			title: "Limited Gold Barrel I"
+			title: "Limited Brass Barrel I"
 			x: 18.0d
 			y: 1.5d
 		}
@@ -1229,7 +1229,7 @@
 				{
 					count: 2
 					id: "51086D485B79D573"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -1249,10 +1249,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_1_tier_4"
 					}
 				}
-				title: "Any Limited Diamond Barrel I"
+				title: "Any Limited Bronze Barrel I"
 				type: "item"
 			}]
-			title: "Limited Diamond Barrel I"
+			title: "Limited Bronze Barrel I"
 			x: 20.25d
 			y: 1.5d
 		}
@@ -1271,7 +1271,7 @@
 				{
 					count: 2
 					id: "532C7E2390EB6BB6"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -1291,10 +1291,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_1_tier_5"
 					}
 				}
-				title: "Any Limited Netherite Barrel I"
+				title: "Any Limited Mithril Barrel I"
 				type: "item"
 			}]
-			title: "Limited Netherite Barrel I"
+			title: "Limited Mithril Barrel I"
 			x: 22.5d
 			y: 1.5d
 		}
@@ -1313,7 +1313,7 @@
 				{
 					count: 2
 					id: "2D444BFD1BB47638"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -1333,10 +1333,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_2_tier_2"
 					}
 				}
-				title: "Any Limited Iron Barrel II"
+				title: "Any Limited Andesite Barrel II"
 				type: "item"
 			}]
-			title: "Limited Iron Barrel II"
+			title: "Limited Andesite Barrel II"
 			x: 15.75d
 			y: 4.5d
 		}
@@ -1355,7 +1355,7 @@
 				{
 					count: 2
 					id: "0AAF16FAFDA722E4"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -1375,10 +1375,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_2_tier_3"
 					}
 				}
-				title: "Any Limited Gold Barrel II"
+				title: "Any Limited Brass Barrel II"
 				type: "item"
 			}]
-			title: "Limited Gold Barrel II"
+			title: "Limited Brass Barrel II"
 			x: 18.0d
 			y: 4.5d
 		}
@@ -1397,7 +1397,7 @@
 				{
 					count: 2
 					id: "4E960326783C48F2"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -1417,10 +1417,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_2_tier_4"
 					}
 				}
-				title: "Any Limited Diamond Barrel II"
+				title: "Any Limited Bronze Barrel II"
 				type: "item"
 			}]
-			title: "Limited Diamond Barrel II"
+			title: "Limited Bronze Barrel II"
 			x: 20.25d
 			y: 4.5d
 		}
@@ -1439,7 +1439,7 @@
 				{
 					count: 2
 					id: "2BB9B630DB8C753A"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -1459,10 +1459,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_2_tier_5"
 					}
 				}
-				title: "Any Limited Netherite Barrel II"
+				title: "Any Limited Mithril Barrel II"
 				type: "item"
 			}]
-			title: "Limited Netherite Barrel II"
+			title: "Limited Mithril Barrel II"
 			x: 22.5d
 			y: 4.5d
 		}
@@ -1481,7 +1481,7 @@
 				{
 					count: 2
 					id: "0F79BF306018D1C5"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -1501,10 +1501,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_3_tier_2"
 					}
 				}
-				title: "Any Limited Iron Barrel III"
+				title: "Any Limited Andesite Barrel III"
 				type: "item"
 			}]
-			title: "Limited Iron Barrel III"
+			title: "Limited Andesite Barrel III"
 			x: 15.75d
 			y: 7.5d
 		}
@@ -1523,7 +1523,7 @@
 				{
 					count: 2
 					id: "0AB99484FBD95755"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -1543,10 +1543,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_3_tier_3"
 					}
 				}
-				title: "Any Limited Gold Barrel III"
+				title: "Any Limited Brass Barrel III"
 				type: "item"
 			}]
-			title: "Limited Gold Barrel III"
+			title: "Limited Brass Barrel III"
 			x: 18.0d
 			y: 7.5d
 		}
@@ -1565,7 +1565,7 @@
 				{
 					count: 2
 					id: "1A0C483942907B5A"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -1585,10 +1585,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_3_tier_4"
 					}
 				}
-				title: "Any Limited Diamond Barrel III"
+				title: "Any Limited Bronze Barrel III"
 				type: "item"
 			}]
-			title: "Limited Diamond Barrel III"
+			title: "Limited Bronze Barrel III"
 			x: 20.25d
 			y: 7.5d
 		}
@@ -1607,7 +1607,7 @@
 				{
 					count: 2
 					id: "7BCE6F4CC372D5B0"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -1627,10 +1627,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_3_tier_5"
 					}
 				}
-				title: "Any Limited Netherite Barrel III"
+				title: "Any Limited Mithril Barrel III"
 				type: "item"
 			}]
-			title: "Limited Netherite Barrel III"
+			title: "Limited Mithril Barrel III"
 			x: 22.5d
 			y: 7.5d
 		}
@@ -1649,7 +1649,7 @@
 				{
 					count: 2
 					id: "273B66431219D29F"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -1669,10 +1669,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_4_tier_2"
 					}
 				}
-				title: "Any Limited Iron Barrel IV"
+				title: "Any Limited Andesite Barrel IV"
 				type: "item"
 			}]
-			title: "Limited Iron Barrel IV"
+			title: "Limited Andesite Barrel IV"
 			x: 15.75d
 			y: 10.5d
 		}
@@ -1691,7 +1691,7 @@
 				{
 					count: 2
 					id: "7EB4903876377338"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -1711,10 +1711,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_4_tier_3"
 					}
 				}
-				title: "Any Limited Gold Barrel IV"
+				title: "Any Limited Brass Barrel IV"
 				type: "item"
 			}]
-			title: "Limited Gold Barrel IV"
+			title: "Limited Brass Barrel IV"
 			x: 18.0d
 			y: 10.5d
 		}
@@ -1733,7 +1733,7 @@
 				{
 					count: 2
 					id: "3FFF08FE71244091"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -1753,10 +1753,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_4_tier_4"
 					}
 				}
-				title: "Any Limited Diamond Barrel IV"
+				title: "Any Limited Bronze Barrel IV"
 				type: "item"
 			}]
-			title: "Limited Diamond Barrel IV"
+			title: "Limited Bronze Barrel IV"
 			x: 20.25d
 			y: 10.5d
 		}
@@ -1775,7 +1775,7 @@
 				{
 					count: 2
 					id: "5D0B6C039A2CEBDA"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -1795,10 +1795,10 @@
 						value: "forge_frontier:sophisticated_limited_barrels_4_tier_5"
 					}
 				}
-				title: "Any Limited Netherite Barrel IV"
+				title: "Any Limited Mithril Barrel IV"
 				type: "item"
 			}]
-			title: "Limited Netherite Barrel IV"
+			title: "Limited Mithril Barrel IV"
 			x: 22.5d
 			y: 10.5d
 		}
@@ -1885,7 +1885,7 @@
 				{
 					count: 2
 					id: "71C681595EFCA1F6"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -1905,10 +1905,10 @@
 						value: "forge_frontier:sophisticated_shulker_box_tier_2"
 					}
 				}
-				title: "Any Iron Shulker Box"
+				title: "Any Andesite Shulker Box"
 				type: "item"
 			}]
-			title: "Iron Shulker Box"
+			title: "Andesite Shulker Box"
 			x: 15.75d
 			y: 13.5d
 		}
@@ -1921,7 +1921,7 @@
 				{
 					count: 2
 					id: "17D3B65A580B4FC5"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -1941,10 +1941,10 @@
 						value: "forge_frontier:sophisticated_shulker_box_tier_3"
 					}
 				}
-				title: "Any Gold Shulker Box"
+				title: "Any Brass Shulker Box"
 				type: "item"
 			}]
-			title: "Gold Shulker Box"
+			title: "Brass Shulker Box"
 			x: 18.0d
 			y: 13.5d
 		}
@@ -1957,7 +1957,7 @@
 				{
 					count: 2
 					id: "2A2C83D062A7E515"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -1977,10 +1977,10 @@
 						value: "forge_frontier:sophisticated_shulker_box_tier_4"
 					}
 				}
-				title: "Any Diamond Shulker Box"
+				title: "Any Bronze Shulker Box"
 				type: "item"
 			}]
-			title: "Diamond Shulker Box"
+			title: "Bronze Shulker Box"
 			x: 20.25d
 			y: 13.5d
 		}
@@ -1993,7 +1993,7 @@
 				{
 					count: 2
 					id: "2BFD6ADBFF07DEA7"
-					item: "minecraft:netherite_ingot"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -2013,10 +2013,10 @@
 						value: "forge_frontier:sophisticated_shulker_box_tier_5"
 					}
 				}
-				title: "Any Netherite Shulker Box"
+				title: "Any Mithril Shulker Box"
 				type: "item"
 			}]
-			title: "Netherite Shulker Box"
+			title: "Mithril Shulker Box"
 			x: 22.5d
 			y: 13.5d
 		}
@@ -2055,7 +2055,7 @@
 				{
 					count: 2
 					id: "7049315D1729AD60"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2082,7 +2082,7 @@
 				{
 					count: 2
 					id: "4A16D5A4867C36C5"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2109,7 +2109,7 @@
 				{
 					count: 2
 					id: "289F5E5668EBF59E"
-					item: "minecraft:diamond_block"
+					item: "create_dd:bronze_block"
 					type: "item"
 				}
 				{
@@ -2134,8 +2134,9 @@
 			id: "405182E6276C8F60"
 			rewards: [
 				{
+					count: 2
 					id: "6A734684658D4A4F"
-					item: "minecraft:netherite_block"
+					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 				{
@@ -2163,7 +2164,7 @@
 				{
 					count: 2
 					id: "6CFB13F6827395E5"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2189,7 +2190,7 @@
 				{
 					count: 2
 					id: "5543EF5DD599B08F"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2267,7 +2268,7 @@
 				{
 					count: 2
 					id: "1CDFBE94A1C25057"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2293,7 +2294,7 @@
 				{
 					count: 2
 					id: "387AC65C672946B0"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2349,7 +2350,7 @@
 				{
 					count: 2
 					id: "4F142C7937FA8FD9"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2375,7 +2376,7 @@
 				{
 					count: 2
 					id: "30CA29CA58B271EC"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2401,7 +2402,7 @@
 				{
 					count: 2
 					id: "2C587C174090E546"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2457,7 +2458,7 @@
 				{
 					count: 2
 					id: "5B8182039A6A0AB3"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2483,7 +2484,7 @@
 				{
 					count: 2
 					id: "3BCC488049634DF4"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2509,7 +2510,7 @@
 				{
 					count: 2
 					id: "0841594D1838C376"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2535,7 +2536,7 @@
 				{
 					count: 2
 					id: "2A04A10BAA92A2EF"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2565,7 +2566,7 @@
 				{
 					count: 2
 					id: "55AF0D66C43FD63F"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2591,7 +2592,7 @@
 				{
 					count: 2
 					id: "16887F094E0D6459"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2623,7 +2624,7 @@
 				{
 					count: 2
 					id: "47DAE62A43E517FC"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2649,7 +2650,7 @@
 				{
 					count: 2
 					id: "233CFE3BC5D1FE95"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2675,7 +2676,7 @@
 				{
 					count: 2
 					id: "5FEF8B903564827C"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2727,7 +2728,7 @@
 				{
 					count: 2
 					id: "70BB07A74AF4395C"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2753,7 +2754,7 @@
 				{
 					count: 2
 					id: "4066D5D3AA9A910E"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2779,7 +2780,7 @@
 				{
 					count: 2
 					id: "2FEFBFA0D586D718"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -2865,7 +2866,7 @@
 				{
 					count: 2
 					id: "4DF60C6486E236E3"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -2957,7 +2958,7 @@
 				{
 					count: 4
 					id: "1DAF0DE359293D15"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -3209,7 +3210,7 @@
 				{
 					count: 2
 					id: "29827D30D8ED2AF4"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -3233,7 +3234,6 @@
 			id: "41CACA8C10887E4F"
 			rewards: [
 				{
-					count: 4
 					id: "26A1D63758D60CBC"
 					item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
 					type: "item"
@@ -3259,7 +3259,6 @@
 			id: "0D8975C0BA0DCCFC"
 			rewards: [
 				{
-					count: 4
 					id: "1243C2EAB7268BAE"
 					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 					type: "item"
@@ -3285,7 +3284,6 @@
 			id: "2871843880C43A6D"
 			rewards: [
 				{
-					count: 2
 					id: "194F8A4D9F78FDC0"
 					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 					type: "item"
@@ -3311,7 +3309,6 @@
 			id: "3EB04E8D5D48FB23"
 			rewards: [
 				{
-					count: 2
 					id: "039FC6F86E82CB81"
 					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 					type: "item"
@@ -3391,7 +3388,7 @@
 				{
 					count: 2
 					id: "0C9758BD6E2E36FD"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -3640,7 +3637,7 @@
 				{
 					count: 2
 					id: "03CE1299670659DD"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -3666,7 +3663,7 @@
 				{
 					count: 2
 					id: "0816D6BE45B078FB"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -3692,7 +3689,7 @@
 				{
 					count: 2
 					id: "07DCD8BA78431BFF"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -3718,7 +3715,7 @@
 				{
 					count: 2
 					id: "64348741B5F98193"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -3826,7 +3823,7 @@
 				{
 					count: 2
 					id: "6400218F96BFEF10"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -3852,7 +3849,7 @@
 				{
 					count: 2
 					id: "757504BCA4DAD3F3"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -3878,7 +3875,7 @@
 				{
 					count: 2
 					id: "51EC5773B250342A"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -4019,7 +4016,7 @@
 				{
 					count: 2
 					id: "681BB8144F6B58F6"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -4045,7 +4042,7 @@
 				{
 					count: 2
 					id: "2617F09CA6F7241A"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -4097,7 +4094,7 @@
 				{
 					count: 2
 					id: "54EB358023B3A801"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -4123,7 +4120,7 @@
 				{
 					count: 2
 					id: "3F500DCE946572AC"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -4149,7 +4146,7 @@
 				{
 					count: 2
 					id: "79F75FE58732DAFA"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -4175,7 +4172,7 @@
 				{
 					count: 2
 					id: "5A5FA1DA19FF6D79"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -4201,7 +4198,7 @@
 				{
 					count: 2
 					id: "1B2324AD1FCB13DA"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -4264,7 +4261,7 @@
 				{
 					count: 2
 					id: "3A4AD9C06950E21D"
-					item: "minecraft:gold_block"
+					item: "create:brass_block"
 					type: "item"
 				}
 				{
@@ -4296,7 +4293,7 @@
 				{
 					count: 2
 					id: "17414CD35DDC3A45"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -4351,7 +4348,6 @@
 			id: "5EB79CA86AC7C5A5"
 			rewards: [
 				{
-					count: 8
 					id: "6213B8EA38B8842A"
 					item: "sophisticatedstorage:stack_upgrade_tier_1"
 					type: "item"
@@ -4377,7 +4373,6 @@
 			id: "7958BB2AF14D6779"
 			rewards: [
 				{
-					count: 6
 					id: "410859CA2D8FE868"
 					item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
 					type: "item"
@@ -4403,7 +4398,6 @@
 			id: "1D91C867C5229F33"
 			rewards: [
 				{
-					count: 4
 					id: "67857C80115A7E94"
 					item: "sophisticatedstorage:stack_upgrade_tier_2"
 					type: "item"
@@ -4429,7 +4423,6 @@
 			id: "7AA3AF96A80EB911"
 			rewards: [
 				{
-					count: 2
 					id: "7007368EC50BFE60"
 					item: "sophisticatedstorage:stack_upgrade_tier_3"
 					type: "item"
@@ -4455,7 +4448,6 @@
 			id: "11BAE619DE15F3DD"
 			rewards: [
 				{
-					count: 2
 					id: "566F03A7A5F2F3CB"
 					item: "sophisticatedstorage:stack_upgrade_tier_4"
 					type: "item"
@@ -4636,7 +4628,7 @@
 				}
 			]
 			title: "Bonus Drops"
-			x: -2.25d
+			x: -1.5d
 			y: 3.75d
 		}
 		{
@@ -4648,7 +4640,7 @@
 				{
 					count: 2
 					id: "6BDAD379CB59C052"
-					item: "minecraft:iron_block"
+					item: "create:andesite_alloy_block"
 					type: "item"
 				}
 				{
@@ -4710,7 +4702,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -4745,7 +4737,7 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: -3.0d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -4780,7 +4772,7 @@
 				type: "item"
 			}]
 			title: "Fluid Pipes"
-			x: -1.5d
+			x: 2.5d
 			y: 0.5d
 		}
 		{
@@ -4815,7 +4807,7 @@
 				type: "item"
 			}]
 			title: "The Pipe Pressurizer"
-			x: -6.5d
+			x: -2.5d
 			y: 0.5d
 		}
 		{
@@ -4869,248 +4861,8 @@
 				type: "item"
 			}]
 			title: "Pipes Made Simple"
-			x: -4.0d
+			x: 0.0d
 			y: -2.0d
-		}
-		{
-			description: [
-				"The &bEnder Chest&r allows you to transport items across time and space."
-				""
-				"The &bEnder Pouch&r allows you to access your &bEnder Chest inventory&r on the go. "
-				""
-				"It can be equipped in a &bCurios&r slot, and a &ekeybind&r can be set to open it straight from your &abelt slot&r, giving you instant access wherever you are."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:ender_chest"
-				tag: { }
-			}
-			id: "250CE0C1B114B1E3"
-			rewards: [
-				{
-					count: 3
-					id: "23D38F35F30C69F8"
-					item: {
-						Count: 1
-						id: "minecraft:ender_pearl"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "1365E0854FCBB27E"
-					type: "xp"
-					xp: 150
-				}
-			]
-			shape: "gear"
-			size: 2.5d
-			subtitle: "Cross-Dimensional Storage."
-			tasks: [{
-				id: "56A058DE6DB4F65A"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge_frontier:chests/ender"
-					}
-				}
-				title: "Obtain an Ender Chest or an Ender Pouch"
-				type: "item"
-			}]
-			title: "Ender Chest"
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6D684201FADC513B"]
-			description: [
-				"The &bEnder Tank&r from the mod &bEnderChests&r is the counterpart to the &bEnder Bucket&r."
-				""
-				"Anything picked up by the bucket will be stored in the linked tank. It allows you to transfer and store fluids across any distance using &bcolor codes&r to link tanks together. Dye the tank by aiming at the three white bands to change its color pattern."
-				""
-				"By default, each tank is accessible to anyone on a server."
-				""
-				"To change this, use a &bDiamond&r to make it &bprivate&r to you, an &bEmerald&r to share it with your &bFTB Team&r, or &bGold&r to return it to the default mode."
-				"{@pagebreak}"
-				"The tank can be upgraded with an &bEnder Pearl&r to add &b8 buckets&r of capacity, or an &bEye of Ender&r to add &b16 buckets&r, up to a maximum of &b256 buckets&r total. It can also be upgraded with &bPistons&r to increase its transfer speed by &b1 bucket per second&r for each piston, up to &b4 buckets per second&r."
-				""
-				"When powered by redstone, the tank’s built-in pump activates, automatically pulling from the top and pushing out the bottom."
-			]
-			id: "43F9D1E0AE072C03"
-			rewards: [
-				{
-					id: "37CE293B50F282C7"
-					item: {
-						Count: 1
-						id: "endertanks:ender_tank"
-						tag: {
-							code: "000"
-							owner: "all"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7C0DB505BB973202"
-					type: "xp"
-					xp: 300
-				}
-			]
-			tasks: [{
-				id: "138162507CC3078D"
-				item: {
-					Count: 1
-					id: "endertanks:ender_tank"
-					tag: {
-						code: "000"
-						owner: "all"
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["250CE0C1B114B1E3"]
-			description: [
-				"The &bEnder Bucket&r links to an &bEnder Tank&r from the mod &bEnderTanks&r."
-				""
-				"It can pick up fluids, and anything collected will be sent directly into the linked tank. &eShift + Right Click&r the tank to link it to a specific frequency."
-				""
-				"You can &esneak + scroll&r to switch between different &bPickup&r and &bPlace&r modes. Any fluid placed using the bucket comes directly from the linked &bEnder Tank&r."
-			]
-			id: "6D684201FADC513B"
-			rewards: [
-				{
-					id: "74A0CD2C02FAF06D"
-					item: {
-						Count: 1
-						id: "endertanks:ender_bucket"
-						tag: {
-							code: "000"
-							mode: "normal"
-							owner: "all"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "58B9552F94A50803"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "22192CD837FB4C97"
-				item: {
-					Count: 1
-					id: "endertanks:ender_bucket"
-					tag: {
-						code: "000"
-						mode: "normal"
-						owner: "all"
-					}
-				}
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["57648C53766E949A"]
-			description: [
-				"The &bEnder Chest&r from the mod &bEnderChests&r is the counterpart to the &bEnder Bag&r."
-				""
-				"It allows you to link storages together using different &bcolor codes&r. Dye the chest by aiming at the three white bands to change its color pattern."
-				""
-				"By default, each chest is accessible to anyone on a server. "
-				""
-				"To change this, use a &bDiamond&r to make it &bprivate&r to you, an &bEmerald&r to share it with your &bFTB Team&r, or &bGold&r to return it to the default mode."
-				""
-				"The chest can be upgraded with an &bEnder Pearl&r to add &b3 slots&r, or an &bEye of Ender&r to add &b9 slots&r, up to a maximum of &b27 slots&r total."
-			]
-			id: "00BC9A3878E46F7E"
-			rewards: [
-				{
-					id: "5355EDEA0F35DDC1"
-					item: {
-						Count: 1
-						id: "enderchests:ender_chest"
-						tag: {
-							code: "000"
-							owner: "all"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "035DA01B9867D0D9"
-					type: "xp"
-					xp: 300
-				}
-			]
-			tasks: [{
-				id: "588F91A91C7254C9"
-				item: {
-					Count: 1
-					id: "enderchests:ender_chest"
-					tag: {
-						code: "000"
-						owner: "all"
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["250CE0C1B114B1E3"]
-			description: [
-				"The &bEnder Bag&r allows you to access any &bEnder Chest&r inventory from the mod &bEnderChests&r."
-				""
-				"It must be linked to a chest before use, otherwise it will use the default frequency. &eShift + Right Click&r a chest to link it, and its &bfrequency&r will automatically match the linked chest."
-				""
-				"The bag can be equipped in a &bCurios&r belt slot, and it has its own &ekeybind&r separate from the &bEnder Pouch&r."
-			]
-			id: "57648C53766E949A"
-			rewards: [
-				{
-					id: "4EAF683AFADBE514"
-					item: {
-						Count: 1
-						id: "enderchests:ender_bag"
-						tag: {
-							code: "000"
-							open: 0b
-							owner: "all"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "76B38ECD55BF4690"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "316FFEBA056BBC07"
-				item: {
-					Count: 1
-					id: "enderchests:ender_bag"
-					tag: {
-						code: "000"
-						open: 0b
-						owner: "all"
-					}
-				}
-				type: "item"
-			}]
-			x: 6.5d
-			y: 0.5d
 		}
 	]
 	title: "Basic Storage"
