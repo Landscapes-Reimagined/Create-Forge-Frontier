@@ -19,12 +19,8 @@ ServerEvents.recipes(event =>
                 ],
                 results: [
                     {
-                        item: "ad_astra_rocketed:tier_7_rocket",
-                        count: 1
-                    },
-                    {
                         fluid: "forge_frontier:creative_energy_fluid",
-                        amount: 250
+                        amount: 1000
                     }
                 ],
                 heatRequirement: "superheated"
@@ -68,17 +64,7 @@ ServerEvents.recipes(event =>
                 input: "ad_astra_giselle_addon:netherite_oxygen_can",
                 output: "ad_astra_giselle_addon:creative_oxygen_can",
                 id: "creative_oxygen_can"
-            },
-            {
-                input: "sophisticatedbackpacks:stack_upgrade_omega_tier",
-                output: "sophisticatedbackpacks:survival_infinity_upgrade",
-                id: "backpack_survival_infinity_upgrade"
-            },
-            {
-                input: "sophisticatedstorage:stack_upgrade_omega_tier",
-                output: "sophisticatedstorage:survival_infinity_upgrade",
-                id: "storage_survival_infinity_upgrade"
-            },
+            }
         ];
 
         CREATIVE_RECIPES.forEach(recipe => {
