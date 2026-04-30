@@ -86,6 +86,15 @@ StartupEvents.registry('fluid', event => {
         .temperature(300)       
         .bucketItem;
 
+    event.create('forge_frontier:creative_energy_fluid')
+        .displayName('Creative Energy Fluid')
+        .color(0xc34bbb)        
+        .bucketColor(0xc34bbb)
+        .thinTexture(0xc34bbb)  
+        .viscosity(1000)        
+        .temperature(300)       
+        .bucketItem;
+
 // === Shared Settings ===
     const milkshakeViscosity = 1200;
     const milkshakeDensity = 1100;
