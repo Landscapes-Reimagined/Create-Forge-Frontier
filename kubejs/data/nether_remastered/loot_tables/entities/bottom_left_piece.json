@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:entity",
+    "pools": [  
+  ],
+  "random_sequence": "nether_remastered:entities/bottom_left_piece"
+}
