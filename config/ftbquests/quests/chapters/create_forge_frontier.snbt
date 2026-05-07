@@ -94,10 +94,9 @@
 		size: 3.0d
 		subtitle: "Click me to learn more about the pack!"
 		tasks: [{
-			dimension: "minecraft:overworld"
-			icon: "minecraft:grass_block"
-			id: "7E4EE542BF13A4DE"
-			type: "dimension"
+			id: "2842409A6A1DB792"
+			title: "Check"
+			type: "checkmark"
 		}]
 		title: "&6Pack Introduction&r"
 		x: 0.0d
