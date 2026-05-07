@@ -1,4 +1,0 @@
-MWName:mw$-182230885:Map 1
-MWName:mw$default:Default
-caveModeType:1
-dimensionTypeId:ad_astra:mercury

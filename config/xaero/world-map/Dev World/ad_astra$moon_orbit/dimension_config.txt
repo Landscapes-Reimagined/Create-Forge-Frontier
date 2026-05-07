@@ -1,2 +1,0 @@
-caveModeType:1
-dimensionTypeId:ad_astra:moon_orbit

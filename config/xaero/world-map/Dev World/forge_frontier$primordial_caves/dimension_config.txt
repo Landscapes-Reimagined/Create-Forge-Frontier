@@ -1,2 +1,0 @@
-caveModeType:1
-dimensionTypeId:forge_frontier:primordial_caves_type
