@@ -1,0 +1,2 @@
+caveModeType:1
+dimensionTypeId:ad_astra:glacio

@@ -9,7 +9,7 @@
 
 ["Shards Drops"]
 	#Enable/Disable consuming of the seal when used.
-	"Top Right Piece" = "minecraft:witch"
+	"Top Right Piece" = ""
 	#Enable/Disable consuming of the seal when used.
-	"Bottom Left Piece" = "minecraft:evoker"
+	"Bottom Left Piece" = ""
 

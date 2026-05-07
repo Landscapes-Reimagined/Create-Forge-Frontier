@@ -1,0 +1,2 @@
+caveModeType:1
+dimensionTypeId:forge_frontier:abyssal_chasm_type

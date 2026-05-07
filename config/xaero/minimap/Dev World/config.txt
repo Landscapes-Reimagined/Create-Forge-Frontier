@@ -1,0 +1,22 @@
+//waypoints config options
+usingMultiworldDetection:false
+ignoreServerLevelId:false
+teleportationEnabled:true
+usingDefaultTeleportCommand:true
+sortType:NONE
+sortReversed:false
+
+//other config options
+ignoreHeightmaps:false
+
+//dimension types (DO NOT EDIT)
+dimensionType:minecraft$the_end:minecraft$the_end
+dimensionType:ad_astra$moon:ad_astra$moon
+dimensionType:create_dd$ponder:create_dd$ponder
+dimensionType:minecraft$overworld:minecraft$overworld
+dimensionType:ad_astra$mercury:ad_astra$mercury
+dimensionType:ad_astra$glacio:ad_astra$glacio
+dimensionType:ad_astra$mars:ad_astra$mars
+dimensionType:ad_astra$venus:ad_astra$venus
+dimensionType:forge_frontier$abyssal_chasm:forge_frontier$abyssal_chasm_type
+//server waypoints

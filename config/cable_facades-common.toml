@@ -2,7 +2,7 @@
 #Range: > 1
 configVersion = 1
 #List of blocks that are allowed to be covered. Supports '*' as a wildcard.
-blocks = ["pipez:*_pipe", "mekanism:*_cable", "mekanism:*_conductor", "mekanism:*_pipe", "mekanism:*_tube", "mekanism:*_transporter", "mekanism_extras:*_cable", "mekanism_extras:*_conductor", "mekanism_extras:*_pipe", "mekanism_extras:*_tube", "mekanism_extras:*_transporter", "thermal:*_duct", "thermal:*_duct_windowed", "powah:energy_cable_*", "create:fluid_pipe", "pneumaticcraft:*_tube", "laserio:laser_*", "cyclic:*_pipe", "embers:*_pipe", "elementalcraft:elementpipe*", "gtceu:*wire", "gtceu:*pipe", "ae2:cable_bus", "ad_astra:*_pipe", "create_new_age:*_pipe", "copycats:*_pipe"]
+blocks = ["pipez:*_pipe", "mekanism:*_cable", "mekanism:*_conductor", "mekanism:*_pipe", "mekanism:*_tube", "mekanism:*_transporter", "mekanism_extras:*_cable", "mekanism_extras:*_conductor", "mekanism_extras:*_pipe", "mekanism_extras:*_tube", "mekanism_extras:*_transporter", "thermal:*_duct", "thermal:*_duct_windowed", "powah:energy_cable_*", "create:fluid_pipe", "pneumaticcraft:*_tube", "laserio:laser_*", "cyclic:*_pipe", "embers:*_pipe", "elementalcraft:elementpipe*", "gtceu:*wire", "gtceu:*pipe", "ad_astra:*_pipe", "create_new_age:*_pipe", "copycats:*_pipe"]
 #List of additional blocks added in this version.
 added_blocks = []
 #List of blocks from the previous version. Do not modify manually.
@@ -14,4 +14,12 @@ lastConfigVersion = 1
 not_allowed_blocks = []
 #Whether the facade should be consumed when placed.
 consumeFacade = true
+#Whether new blocks for the config should be fetched from the network.
+auto_update_config = true
+#List of blocks that need z-fighting fixes. Supports '*' as a wildcard.
+z_fighting = ["ae2:cable_bus"]
+#List of blocks that should not render when covered by a facade. Supports '*' as a wildcard.
+hidden_when_facaded = []
+#List of blocks that need a slight scale-up when facaded (e.g. Create mod blocks). Supports '*' as a wildcard.
+scale_up_blocks = ["*create*"]
 

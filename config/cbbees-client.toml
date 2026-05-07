@@ -1,0 +1,20 @@
+
+#Rendering & Performance Toggles
+[rendering]
+	#Show ghost blocks for active construction jobs
+	showConstructionGhosts = true
+	#Show ghost block preview while browsing schematics
+	showSchematicPreview = true
+	#Show beehive range overlay when looking at a hive
+	showBeehiveRange = true
+	#Show bee target lines when wearing goggles
+	showBeeTargetLines = true
+	#Opacity for all ghost block rendering (0.05 = nearly invisible, 1.0 = fully opaque)
+	#Range: 0.05 ~ 1.0
+	ghostBlockOpacity = 0.5
+	#Render block entities (chests, signs, gearboxes, etc.) in ghost previews. Disable for better performance on large schematics.
+	renderGhostBlockEntities = false
+	#Maximum number of block entities to render per ghost preview. Lower values improve performance.
+	#Range: 1 ~ 1024
+	maxGhostBlockEntities = 64
+

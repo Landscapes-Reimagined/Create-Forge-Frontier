@@ -1,0 +1,296 @@
+[toughHide]
+equipSound = "minecraft:item.armor.equip_leather"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[toughHide.durability]
+toolDurability = 1098
+bowDurability = 0
+addedShieldDurability = 203
+
+[toughHide.enchanting]
+offenseEnchantability = 25
+defenseEnchantability = 25
+
+[toughHide.offense]
+addedAttackDamage = 2.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[toughHide.defense]
+gauntletArmorAmount = 3
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 3.0
+afterBasePercentReduction = 0.6
+
+[toughHide.crafting]
+repairItem = ["alexscaves:tough_hide"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[shadowSilk]
+equipSound = "minecraft:item.armor.equip_leather"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[shadowSilk.durability]
+toolDurability = 823
+bowDurability = 0
+addedShieldDurability = 152
+
+[shadowSilk.enchanting]
+offenseEnchantability = 50
+defenseEnchantability = 50
+
+[shadowSilk.offense]
+addedAttackDamage = 1.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[shadowSilk.defense]
+gauntletArmorAmount = 4
+armorToughness = 0.5
+knockbackResistance = 0.0
+baseProtectionAmmount = 2.4324324
+afterBasePercentReduction = 0.45
+
+[shadowSilk.crafting]
+repairItem = ["alexscaves:dark_tatters"]
+craftingItem = "alexscaves:shadow_silk"
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[scarletNeodymium]
+equipSound = "minecraft:item.armor.equip_generic"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[scarletNeodymium.durability]
+toolDurability = 0
+bowDurability = 0
+addedShieldDurability = 200
+
+[scarletNeodymium.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 15
+
+[scarletNeodymium.offense]
+addedAttackDamage = 0.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[scarletNeodymium.defense]
+gauntletArmorAmount = 0
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 3.5
+afterBasePercentReduction = 0.65
+
+[scarletNeodymium.crafting]
+repairItem = ["alexscaves:scarlet_neodymium_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[azureNeodymium]
+equipSound = "minecraft:item.armor.equip_generic"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[azureNeodymium.durability]
+toolDurability = 0
+bowDurability = 0
+addedShieldDurability = 200
+
+[azureNeodymium.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 15
+
+[azureNeodymium.offense]
+addedAttackDamage = 0.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[azureNeodymium.defense]
+gauntletArmorAmount = 0
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 3.5
+afterBasePercentReduction = 0.65
+
+[azureNeodymium.crafting]
+repairItem = ["alexscaves:azure_neodymium_ingot"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[pewenPlank]
+equipSound = "minecraft:item.armor.equip_generic"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[pewenPlank.durability]
+toolDurability = 89
+bowDurability = 0
+addedShieldDurability = 60
+
+[pewenPlank.enchanting]
+offenseEnchantability = 15
+defenseEnchantability = 0
+
+[pewenPlank.offense]
+addedAttackDamage = 0.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[pewenPlank.defense]
+gauntletArmorAmount = 0
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 3.0
+afterBasePercentReduction = 0.3
+
+[pewenPlank.crafting]
+repairItem = ["alexscaves:pewen_planks"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[thornwood]
+equipSound = "minecraft:item.armor.equip_generic"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[thornwood.durability]
+toolDurability = 89
+bowDurability = 0
+addedShieldDurability = 60
+
+[thornwood.enchanting]
+offenseEnchantability = 15
+defenseEnchantability = 0
+
+[thornwood.offense]
+addedAttackDamage = 1.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[thornwood.defense]
+gauntletArmorAmount = 0
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 3.0
+afterBasePercentReduction = 0.3
+
+[thornwood.crafting]
+repairItem = ["alexscaves:thornwood_planks"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[primitive]
+equipSound = "minecraft:item.armor.equip_generic"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[primitive.durability]
+toolDurability = 120
+bowDurability = 0
+addedShieldDurability = 0
+
+[primitive.enchanting]
+offenseEnchantability = 15
+defenseEnchantability = 0
+
+[primitive.offense]
+addedAttackDamage = 4.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[primitive.defense]
+gauntletArmorAmount = 0
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 0.0
+afterBasePercentReduction = 0.0
+
+[primitive.crafting]
+repairItem = ["alexscaves:cycad", "alexscaves:heavy_bone"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"
+[polymerPlate]
+equipSound = "minecraft:item.armor.equip_generic"
+mendingBonus = 0.0
+fireResistant = false
+quiverSlots = 0
+
+[polymerPlate.durability]
+toolDurability = 0
+bowDurability = 0
+addedShieldDurability = 203
+
+[polymerPlate.enchanting]
+offenseEnchantability = 0
+defenseEnchantability = 25
+
+[polymerPlate.offense]
+addedAttackDamage = 0.0
+arrowDamage = 0.0
+flaming = false
+canBeTipped = true
+multishotLevel = 0
+bowPower = 0
+velocityMultiplier = 1.0
+
+[polymerPlate.defense]
+gauntletArmorAmount = 0
+armorToughness = 0.0
+knockbackResistance = 0.0
+baseProtectionAmmount = 2.5
+afterBasePercentReduction = 0.45
+
+[polymerPlate.crafting]
+repairItem = ["alexscaves:polymer_plate"]
+craftingItem = ""
+isSingleAddition = false
+onlyReplaceResource = []
+smithingTemplate = "minecraft:air"

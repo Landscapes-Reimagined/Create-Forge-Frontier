@@ -18,5 +18,13 @@
   },
   "dontShowAll": [],
   "dontShow": [
+    "create_easy_structures:house_2",
+    "betterarcheology:fossil_wolf",
+    "idas:ruined_well",
+    "create_structures_arise:create_ruined_castle",
+    "create_easy_structures:camp_3",
+    "create_easy_structures:camp_5",
+    "create_easy_structures:house_3",
+    "idas:mason_house"
   ]
 }

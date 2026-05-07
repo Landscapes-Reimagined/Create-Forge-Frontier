@@ -1,0 +1,91 @@
+
+#Frame Trap entity capture settings
+[frameTrap]
+	#List of entity registry names to always allow catching (whitelist). Example: 'minecraft:squid'
+	whitelist = ["minecraft:phantom", "minecraft:squid", "minecraft:spider", "minecraft:cave_spider", "minecraft:silverfish"]
+	#List of entity registry names to never catch (blacklist). Example: 'minecraft:dolphin'
+	blacklist = ["minecraft:dolphin", "minecraft:axolotl", "minecraft:cat", "minecraft:allay"]
+
+#Frame Trap fishing settings
+[fishing]
+	#Enable fishing functionality for Frame Trap
+	enableFishing = true
+	#Enable lava fishing functionality for Frame Trap (requires lava environment)
+	enableLavaFishing = true
+	#Use Nether Depths Upgrade loot tables for lava fishing when available
+	#If false or NDU is not installed, will fall back to default fishing loot table
+	useNDULootTables = true
+	#Multiplier for normal (water) fishing cooldown time
+	#Lower values = faster fishing, higher values = slower fishing
+	#Default: 1.0 (normal speed), 0.5 = twice as fast, 2.0 = twice as slow
+	#Range: 0.1 ~ 10.0
+	fishingCooldownMultiplier = 1.0
+	#Multiplier for lava fishing cooldown time
+	#Lower values = faster fishing, higher values = slower fishing
+	#Default: 1.5 (slower than water fishing), 0.5 = twice as fast, 2.0 = twice as slow
+	#Range: 0.1 ~ 10.0
+	lavaFishingCooldownMultiplier = 1.5
+	#Base success rate for normal (water) fishing attempts (0.0 to 1.0)
+	#Default: 0.25 (25% chance), 1.0 = always succeed, 0.0 = never succeed
+	#Range: 0.0 ~ 1.0
+	fishingSuccessRate = 0.4
+	#Base success rate for lava fishing attempts (0.0 to 1.0)
+	#Default: 0.3 (30% chance, harder than water fishing)
+	#Range: 0.0 ~ 1.0
+	lavaFishingSuccessRate = 0.3
+
+#Diving Equipment settings
+[divingEquipment]
+
+	#Jump Enhancement settings
+	[divingEquipment.jump]
+		#Base jump power when wearing diving equipment in fluids
+		#Default: 1.0 (higher = stronger jump)
+		#Range: 0.1 ~ 2.0
+		baseJumpPower = 1.0
+		#Jump power when sprinting with diving equipment in fluids
+		#Default: 1.0 (higher = stronger jump)
+		#Range: 0.1 ~ 2.0
+		sprintJumpPower = 1.0
+		#Cooldown between enhanced jumps in ticks (20 ticks = 1 second)
+		#Default: 10
+		#Range: 0 ~ 100
+		jumpCooldown = 10
+		#Hunger cost per enhanced jump
+		#Default: 0.05 (1.0 = 1 full hunger point)
+		#Range: 0.0 ~ 1.0
+		jumpHungerCost = 0.05
+
+	#Sprint Enhancement settings
+	[divingEquipment.sprint]
+		#Sprint speed multiplier for Copper Diving Leggings
+		#Default: 0.01 (higher = faster movement)
+		#Range: 0.0 ~ 0.5
+		copperSprintSpeed = 0.01
+		#Sprint speed multiplier for Netherite Diving Leggings
+		#Default: 0.01 (higher = faster movement)
+		#Range: 0.0 ~ 0.5
+		netheriteSprintSpeed = 0.01
+		#Hunger cost per second while sprinting underwater
+		#Default: 0.1 (1.0 = 1 full hunger point per second)
+		#Range: 0.0 ~ 1.0
+		sprintHungerCostPerSecond = 0.1
+		#Time window for double-clicking W to start sprint (in ticks)
+		#Default: 7
+		#Range: 1 ~ 20
+		sprintDoubleClickWindow = 7
+
+	#General Diving Equipment settings
+	[divingEquipment.general]
+		#Prevent fall damage from enhanced jumps
+		#Default: true
+		preventFallDamage = true
+		#Minimum hunger level required for sprint/jump enhancements (0-20)
+		#Default: 6 (3 hunger bars)
+		#Range: 0 ~ 20
+		minHungerLevel = 6
+		#FOV multiplier when underwater sprinting (1.0 = no effect, 1.01 = default sprint effect)
+		#Default: 1.01
+		#Range: 1.0 ~ 2.0
+		sprintFovMultiplier = 1.01
+

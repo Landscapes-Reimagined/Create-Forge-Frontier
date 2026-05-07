@@ -1,0 +1,1 @@
+module;id=xaerominimap:minimap;x=2;y=1;centered=false;fromRight=true;fromBottom=false;flippedVer=false;flippedHor=false;

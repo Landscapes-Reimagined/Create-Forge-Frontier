@@ -1,0 +1,19 @@
+
+[Ranges]
+	#Max Range of Entity Teleporter
+	"Entity Teleporter Range" = 450.0
+	#Max Range of Item Teleporter
+	"Item Teleporter Range" = 500.0
+
+[Integration]
+	#Enable Immersive Portals compatibility. When enabled, quantum portals will use Immersive Portals API instead of vanilla teleportation commands. Requires Immersive Portals mod to be installed.
+	"Immersive Portals Compatibility" = false
+
+[Blocks]
+	#Allow players to break Pocket Dimension Blocks. When disabled, the block becomes unbreakable.
+	"Allow Pocket Dimension Block Breaking" = false
+
+["Portal Binding"]
+	#When enabled, portals will read teleportation coordinates from the Advanced TP Link item placed inside the portal block. When disabled (default), portals will used linked portal coordinates
+	"Force Portal-to-Portal Binding" = true
+

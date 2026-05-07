@@ -176,6 +176,11 @@
 	source_berry_cookie_tile_wall = true
 	source_berry_cookie_tiles = true
 	long_prickly_pear_juice = true
+	aged_fish_roe = true
+	aged_prawn_roe = true
+	roe_blini = true
+	salmon_and_roe_blini = true
+	sinigang_cup = true
 
 ["Baked Good Overhauls"]
 	blueberry_pie_slice = true
@@ -186,4 +191,5 @@
 	passion_fruit_tart_slice = true
 	pumpkin_pie_slice = true
 	source_berry_pie_slice = true
+	mutton_pie_slice = true
 

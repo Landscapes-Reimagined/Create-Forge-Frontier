@@ -1,0 +1,19 @@
+//waypoints config options
+usingMultiworldDetection:false
+ignoreServerLevelId:false
+defaultMultiworldId:mw-2,1,1
+teleportationEnabled:true
+usingDefaultTeleportCommand:true
+sortType:NONE
+sortReversed:false
+
+//other config options
+ignoreHeightmaps:false
+
+//dimension types (DO NOT EDIT)
+dimensionType:minecraft$overworld:minecraft$overworld
+dimensionType:ad_astra$mercury:ad_astra$mercury
+dimensionType:minecraft$the_nether:minecraft$the_nether
+dimensionType:forge_frontier$abyssal_chasm:forge_frontier$abyssal_chasm_type
+dimensionType:create_dd$ponder:create_dd$ponder
+//server waypoints

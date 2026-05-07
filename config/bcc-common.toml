@@ -7,7 +7,7 @@
 	#The name of the modpack
 	modpackName = "Create - Forge Frontier"
 	#The version of the modpack
-	modpackVersion = "v2.6.0"
+	modpackVersion = "v3.0.0"
 	#Use the metadata.json to determine the modpack version
 	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
 	useMetadata = false
