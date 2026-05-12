@@ -332,7 +332,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("forge_rocket_core"),
-                    Ingredient.of("create_factory_logistics:fluid_mechanism").toJson()
+                    Ingredient.of("resonant_synthesis:deeper_mechanism").toJson()
                 ],
                 results: [incomplete("forge_rocket_core")]
             },
