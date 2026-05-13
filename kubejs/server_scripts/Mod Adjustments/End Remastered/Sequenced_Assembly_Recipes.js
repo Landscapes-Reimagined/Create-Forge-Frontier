@@ -34,8 +34,8 @@ ServerEvents.recipes(event => {
             loops: 1,
             deploys: [
                 'createcompression:compressed_gold_2x',
-                'minecraft:diamond_block',
-                'minecraft:emerald_block'
+                'createcompression:compressed_diamond_2x',
+                'createcompression:compressed_emerald_2x'
             ]
         },
         {
@@ -150,7 +150,8 @@ ServerEvents.recipes(event => {
             loops: 3,
             deploys: [
                 'minecraft:amethyst_shard',
-                'minecraft:glowstone_dust'
+                'minecraft:glowstone_dust',
+                'apotheosis:gem_dust'
             ]
         }
     ]
