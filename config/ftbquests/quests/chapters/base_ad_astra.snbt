@@ -56,7 +56,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0A1C7563FC03C5F6"]
 			description: [
 				"&9 One Small Step...&r"
 				""

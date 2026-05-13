@@ -1179,12 +1179,13 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "00AD10C0BBE82EBC"
+					icon: "supplementaries:present"
+					id: "64150CDD1497FDAE"
 					table_id: 343942018869374795L
 					type: "loot"
 				}
 				{
-					id: "78F7998E027504A8"
+					id: "3DB5497E77C4488A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -1739,7 +1740,6 @@
 				"Brimming with the remnants of the Evoker’s lost power, the &dMagical Eye&r pulses with chaotic energy.  "
 				"It is a fragment of ancient, forgotten magic-capable of shaping the world in ways few can comprehend.  "
 				"To forge this wondrous relic, you must master the art of &lArcane Enchanting&r, binding a spark of immortality into something far more potent.  "
-				"{image:ftb:textures/_forge_frontier_enchanting_magical_eye.png width:175 height:100 align:center}"
 				""
 				"{@pagebreak}"
 				"Unlike relics bound by stone and steel, the Magical Eye is born through an enchantment ritual-requiring focus, power, and a heart defiant of death itself.  "
@@ -1748,7 +1748,7 @@
 				"{@pagebreak}"
 				""
 				"- &lRitual of the Totem&r:  "
-				"  Begin by preparing a &eTotem of Undying&r, an artifact imbued with the gift of second chances.  "
+				"  Begin by preparing a &eInfused Totem of Undying&r, an artifact imbued with the gift of second chances.  "
 				"  Then construct your ancient enchanting altar:  "
 				"  - Surround the Enchanting Table with &e8 Apotheosis Hellshelves&r, amplifying the ritual’s magical resonance.  "
 				"  - Place &e8 Standard Bookshelves&r to stabilize and balance the energies.  "
@@ -1797,11 +1797,6 @@
 			subtitle: "Enchant a Totem of Undying to awaken the arcane might of the Magical Eye. Click me for more info!."
 			tasks: [
 				{
-					id: "4A84672A29CA6635"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-				{
 					count: 8L
 					icon: {
 						Count: 1
@@ -1832,7 +1827,12 @@
 					type: "item"
 				}
 				{
-					id: "4E636795E27977FD"
+					id: "3E9CD273613A925B"
+					item: "forge_frontier:infused_totem"
+					type: "item"
+				}
+				{
+					id: "2D9A9AAC232E8CD8"
 					item: {
 						Count: 1
 						id: "endrem:magical_eye"
@@ -1851,10 +1851,7 @@
 			dependencies: ["765B4C05B9DEDC12"]
 			description: [
 				"Born from the fiery clash between the Aether and the Nether, the &cNether Eye&r is a relic of unimaginable power-a fragment of war and dominion that once shaped the realms themselves.  "
-				"To claim this artifact, you must master &lMechanical Crafting&r and retrieve ancient treasures long buried in flame and ruin.  "
-				"{image:ftb:textures/_forge_frontier_mechancial_crafting_nether_eye.png width:200 height:125 align:center}"
 				""
-				"{@pagebreak}"
 				"The components needed to forge the Nether Eye lie scattered across the Nether’s most treacherous ruins.  "
 				"The next pages will guide you through the infernal journey ahead."
 				""
@@ -1876,7 +1873,7 @@
 				""
 				"- &lCerberus’s Fang&r:  "
 				"  Torn from the maw of the infernal guardian of the underworld, this fang pulses with eternal fury and vigilance.  "
-				"  Seek it within the fiery halls of the &eQuartz Kitchen&r, a twisted structure born of &cIncendium’s&r corrupted Nether landscapes.  "
+				"  Seek it within the fiery halls of the &eQuartz Kitchen&r, a twisted structure born within the Soul Sand Valley.  "
 				"{image:ftb:textures/kitchen.png width:150 height:100 align:center}"
 				""
 				"{@pagebreak}"
@@ -1896,12 +1893,27 @@
 			optional: true
 			rewards: [
 				{
-					id: "3A540325E510C9E4"
-					item: "createcompression:compressed_netherite_1x"
+					id: "279F473975D147EA"
+					item: "minecraft:netherite_block"
 					type: "item"
 				}
 				{
-					id: "381A0932AF1BB4A8"
+					id: "398920C457CAB38C"
+					item: "luminous_nether:soul_flag_bottom"
+					type: "item"
+				}
+				{
+					id: "1DB80B83F57AD069"
+					item: "luminous_nether:crimson_flag_bottom"
+					type: "item"
+				}
+				{
+					id: "62DC21CAD6368DC0"
+					item: "luminous_nether:warped_flag_bottom"
+					type: "item"
+				}
+				{
+					id: "20FCD12F694179A0"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -1909,47 +1921,38 @@
 			subtitle: "Reforge the Nether Eye, born from fire and ancient war. Click me for more info!."
 			tasks: [
 				{
-					dimension: "minecraft:the_nether"
-					icon: "minecraft:netherrack"
-					id: "53376422A307985C"
-					title: "Travel to The Nether"
-					type: "dimension"
-				}
-				{
-					icon: {
+					id: "099BBBB95B4FB128"
+					item: {
 						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
+						id: "forge_frontier:hades_bident"
+						tag: {
+							Damage: 0
+						}
 					}
-					id: "3E2BEB2EB4185033"
-					structure: "idas:ancient_portal/nether_ancient_portal"
-					title: "Locate a Nether Ancient Portal"
-					type: "structure"
+					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "61915C8F12152AD8"
-					structure: "hopo:piglin_ruin"
-					title: "Locate a Piglin Ruin"
-					type: "structure"
+					id: "54DE3F1139A9BEA2"
+					item: "forge_frontier:ancient_obol"
+					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "2E1AD6A79DFA9626"
-					structure: "incendium:quartz_kitchen"
-					title: "Locate a Quartz Kitchen"
-					type: "structure"
+					id: "2FE0845EF08313A1"
+					item: "forge_frontier:cerberus_fang"
+					type: "item"
 				}
 				{
-					id: "7F02EF752231963E"
+					id: "15BD86EB933B0BB8"
+					item: "minecraft:red_nether_bricks"
+					type: "item"
+				}
+				{
+					id: "50B6655443D0EDA2"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "3BBEFD804177AF49"
 					item: {
 						Count: 1
 						id: "endrem:nether_eye"
@@ -1968,10 +1971,7 @@
 			dependencies: ["765B4C05B9DEDC12"]
 			description: [
 				"Guarded fiercely by Piglin warlords and ancient oaths, the &4Cursed Eye&r radiates a dark power-promising ruin to its enemies and might to those bold enough to claim it.  "
-				"Forging this forbidden relic will require mastery of &lMechanical Crafting&r and the courage to tear it from the heart of the Nether’s strongest strongholds.  "
-				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cursed_eye.png width:200 height:125 align:center}"
 				""
-				"{@pagebreak}"
 				"Each piece of the Cursed Eye holds a story of conquest, greed, and blood-soaked loyalty.  "
 				"The following pages will guide you into the heart of Piglin dominions where these relics await."
 				""
@@ -1986,7 +1986,7 @@
 				""
 				"- &lTotem of the Crimson Pact&r:  "
 				"  A dark relic bound by ancient oaths and forbidden magic. It thrums with the loyalty-and the curses-of long-fallen Piglin champions.  "
-				"  This totem can be found within the ruins of the &eAbandoned Tower&r, a twisted structure left behind by &cIncendium’s&r corrupted Nether tribes.  "
+				"  This totem can be found within the ruins of the &eAbandoned Tower&r, a twisted structure left behind in the Fungal Plains.  "
 				"{image:ftb:textures/tower.png width:125 height:115 align:center}"
 				""
 				"{@pagebreak}"
@@ -2011,12 +2011,24 @@
 			optional: true
 			rewards: [
 				{
-					id: "34486C263F303671"
-					item: "createcompression:compressed_netherite_1x"
+					count: 3
+					id: "12EA25B3ECBBA997"
+					item: "minecraft:netherite_upgrade_smithing_template"
 					type: "item"
 				}
 				{
-					id: "03E3894426A773D1"
+					id: "1B36AB64445D9770"
+					item: {
+						Count: 1
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06575F878FB8765F"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -2024,71 +2036,38 @@
 			subtitle: "Forge the Cursed Eye and command the legacy of Piglin kings. Click me for more info!."
 			tasks: [
 				{
-					dimension: "minecraft:the_nether"
-					icon: "minecraft:netherrack"
-					id: "13B2BC962FDC44D2"
-					title: "Travel to The Nether"
-					type: "dimension"
+					id: "692F655D1887F5C4"
+					item: "forge_frontier:golden_tusks_crown"
+					type: "item"
 				}
 				{
-					icon: {
+					id: "7F08EC72965A4D35"
+					item: {
 						Count: 1
-						id: "explorerscompass:explorerscompass"
+						id: "forge_frontier:brute_warlord_axe"
 						tag: {
-							DisplayCoordinates: 1b
-							FoundX: 64
-							FoundZ: 192
-							Samples: 4
-							SearchRadius: 1250
-							State: 2
-							StructureKey: "idas:ancient_portal/ancient_portal"
+							Damage: 0
 						}
 					}
-					id: "0044B887B68BFF0B"
-					structure: "#minecraft:bastion_remnant"
-					title: "Locate a Treasure Bastion"
-					type: "structure"
+					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: {
-							DisplayCoordinates: 1b
-							FoundX: 64
-							FoundZ: 192
-							Samples: 4
-							SearchRadius: 1250
-							State: 2
-							StructureKey: "idas:ancient_portal/ancient_portal"
-						}
-					}
-					id: "07D168443D631F33"
-					structure: "incendium:abandoned_tower"
-					title: "Locate an Abandoned Tower"
-					type: "structure"
+					id: "3E6B4E78D878BCD0"
+					item: "forge_frontier:crimson_pact_totem"
+					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: {
-							DisplayCoordinates: 1b
-							FoundX: 64
-							FoundZ: 192
-							Samples: 4
-							SearchRadius: 1250
-							State: 2
-							StructureKey: "idas:ancient_portal/ancient_portal"
-						}
-					}
-					id: "471327733A3AF952"
-					structure: "friendsandfoes:citadel"
-					title: "Locate a Citadel"
-					type: "structure"
+					id: "151584C8CED467DB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
 				}
 				{
-					id: "5092501A213675FE"
+					id: "2FF27A3D7046F696"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "6DBF81ABEB04093A"
 					item: {
 						Count: 1
 						id: "endrem:cursed_eye"
@@ -2157,13 +2136,24 @@
 			optional: true
 			rewards: [
 				{
-					count: 9
-					id: "0C010A514793A5F7"
-					item: "create_dd:chromatic_compound"
+					count: 3
+					id: "5AADBDCF6E6E8BD2"
+					item: "create:blaze_cake"
 					type: "item"
 				}
 				{
-					id: "114E30EAAD068DDB"
+					count: 3
+					id: "2C03FC71D6E67F22"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "79B1519E6B520B67"
+					item: "create_dd:chromatic_block"
+					type: "item"
+				}
+				{
+					id: "14AD292CAE1FEF61"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -2171,7 +2161,41 @@
 			subtitle: "Forge the Witch Eye and awaken the forbidden arts of ancient alchemy. Click me for more info!."
 			tasks: [
 				{
-					id: "21F0B88D7D0A1AAA"
+					id: "0735D85FD3BEC5DD"
+					item: "create_dd:blaze_gold_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F35769154E04644"
+					item: {
+						Count: 4
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:strong_soulsteal"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D14E830B19E95C4"
+					item: {
+						Count: 4
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D844A341525AB2"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "4050B382D7E45634"
 					item: {
 						Count: 1
 						id: "endrem:witch_eye"
@@ -2179,11 +2203,6 @@
 							Damage: 0
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "650E088BE6DA57B4"
-					item: "create_dd:blaze_gold"
 					type: "item"
 				}
 			]
@@ -2196,17 +2215,13 @@
 			description: [
 				"Imbued with the brilliance of ancient minds, the &6Rogue Eye&r is a relic that once illuminated the birth of Redstone itself.  "
 				"It hums softly with the ingenuity and daring of a bygone age-an artifact meant for those bold enough to reforge its legacy.  "
-				"To create this marvel, you must master &lMechanical Crafting&r and gather the finest inventions forged by machine, metal, and mind.  "
-				"{image:ftb:textures/_forge_frontier_mechancial_crafting_rogue_eye.png width:200 height:125 align:center}"
 				""
-				"{@pagebreak}"
 				"Unlike other relics torn from battle or myth, the Rogue Eye is crafted through the spark of invention and the relentless pursuit of progress.  "
 				"The pages ahead will guide you through the path of innovation."
 				""
 				"{@pagebreak}"
 				""
-				"- &lMechanism Block&r:  "
-				"  Forged through a masterpiece of precision engineering, a Mechanism Block requires crafting &e9 Precision Mechanisms&r.  "
+				"- &lPrecision Mechanism&r:   "
 				"  Each Mechanism is created via Sequenced Assembly, where a Gold Sheet is looped five times through:  "
 				"  - Applying a &eGold Nugget&r  "
 				"  - Applying a &eCogwheel&r  "
@@ -2250,17 +2265,18 @@
 			optional: true
 			rewards: [
 				{
-					id: "5C1D466E98423488"
-					item: "create:brass_block"
-					type: "item"
-				}
-				{
 					id: "493E7A348E8B54C7"
 					item: "create_compressed:mechanism_block"
 					type: "item"
 				}
 				{
-					id: "0BD35C7AF84433DE"
+					count: 3
+					id: "03710C898DDF0BBB"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					id: "789CA57DF82DA5D7"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -2268,7 +2284,30 @@
 			subtitle: "Forge the Rogue Eye and reignite the brilliance of ancient innovation. Click me for more info!."
 			tasks: [
 				{
-					id: "1240B40B2BDB0A70"
+					count: 3L
+					id: "6A9240F9171C5635"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1137ABBF0464C230"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "61BA215F4E2FF32D"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					id: "3FF02468ACC5E145"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "3091703FEA717711"
 					item: {
 						Count: 1
 						id: "endrem:rogue_eye"
@@ -2276,16 +2315,6 @@
 							Damage: 0
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "21EF465B7A15739E"
-					item: "create:precision_mechanism"
-					type: "item"
-				}
-				{
-					id: "60FB4EF2792B4FF5"
-					item: "create_dd:mithril_ingot"
 					type: "item"
 				}
 			]
@@ -2298,10 +2327,7 @@
 			description: [
 				"A witness to the fall of empires, the &8Wither Eye&r bears the scars of a thousand lost worlds.  "
 				"It gazes into the abyss of ruin itself, holding echoes of devastation and power beyond reckoning.  "
-				"To forge this relic of destruction, you must master &lMechanical Crafting&r and gather the remnants of battles that shook the realms.  "
-				"{image:ftb:textures/_forge_frontier_mechancial_crafting_wither_eye.png width:200 height:125 align:center}"
 				""
-				"{@pagebreak}"
 				"The path to the Wither Eye is not one of creation-it is one of conquest, sacrifice, and decay.  "
 				"The following pages will guide you into the heart of ruin."
 				""
@@ -2321,15 +2347,10 @@
 				""
 				"{@pagebreak}"
 				""
-				"- &lStar Infused Netherite Nugget&r:  "
-				"  A forbidden alloy, forged from celestial devastation.  "
-				"  Create this ingot by combining:  "
-				"  - &e4 Nether Stars&r  "
-				"  - &e1 Netherite Ingot&r  "
-				"  into a single Star Infused Netherite Nugget.  "
-				"  To harvest Nether Stars efficiently, consider using &eMob Cages&r to capture the Wither’s essence itself and automate its destruction.  "
-				"{image:cagedmobs:item/star_infused_netherite_ingot width:100 height:100 align:center}"
+				"- &lNether Star&r:  "
+				"   Dropped when killing the ancient boss of the Nether, the Wither. Note this pack has increased the difficulty of the Wither so be prepared for a fight like no other."
 				""
+				"{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}"
 				"{@pagebreak}"
 				""
 				" &nRuin is the price of power-and power the price of ruin.&r  "
@@ -2347,18 +2368,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "28A0168020043822"
-					item: {
-						Count: 1
-						id: "cagedmobs:netherite_dna_sampler"
-						tag: {
-							entity: "minecraft:wither"
-						}
-					}
+					count: 3
+					id: "6ADA4895DBD89A3F"
+					item: "minecraft:nether_star"
 					type: "item"
 				}
 				{
-					id: "60ADDF5CDD1098C8"
+					id: "001E7BE96952465B"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -2366,7 +2382,27 @@
 			subtitle: "Forge the Wither Eye and claim the echoes of a thousand fallen worlds. Click me for more info!."
 			tasks: [
 				{
-					id: "46AF35CA74B042ED"
+					id: "037CB47A0665B647"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "516EC4E0C61E893D"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "467255B2B1C98932"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "651C33DAFA6B9B8E"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "5C0C89DF7ABAA1C2"
 					item: {
 						Count: 1
 						id: "endrem:wither_eye"
@@ -2374,11 +2410,6 @@
 							Damage: 0
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "18E426E117BAD23D"
-					item: "minecraft:nether_star"
 					type: "item"
 				}
 			]
@@ -2397,25 +2428,45 @@
 				""
 				"To awaken this fiery titan, locate a &lScorchia Vent&r in any Regions Unexplored Biome and &lfeed a blaze burner a blaze cake on top of it&r. The resulting transformation tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
 				""
-				"Once activated, channel the correct &dsource fluid&r (covered in the next quest) into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal-fueled by the Nether’s own wrath."
+				"Once activated, channel &dHot Chocolate&r into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal-fueled by the Nether’s own wrath."
 				""
 				" &8Coal, reborn from magma-forge your fuel empire from the flames.&r"
 			]
 			icon: "create_resource_vents:dormant_scorchia_vent"
 			id: "10D2ED18910A5579"
-			rewards: [{
-				id: "0474B5D283BE8FF0"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "507659D0EB721292"
+					item: "create:scorchia"
+					type: "item"
+				}
+				{
+					id: "1BDA718F5B388630"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "25C141288C89F9D6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "4C600B94BF8D1FF4"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_scorchia_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "4C600B94BF8D1FF4"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_scorchia_vent"
+					type: "observation"
+				}
+				{
+					id: "4438EA75B0B27920"
+					item: "create_dd:hot_chocolate_bucket"
+					type: "item"
+				}
+			]
 			title: "Flame-Forged Fuel"
 			x: 6.0d
 			y: -1.5d
@@ -2429,30 +2480,220 @@
 				""
 				"{@pagebreak}"
 				""
-				"To begin, seek out a &lDebris Vent&r in any Incendium Biome-its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
+				"To begin, seek out a &lDebris Vent&r in any Luminous Nether Biome-its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
 				""
-				"Once activated, it’s time to channel the correct &dsource fluid&r (revealed in the next quest) into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris-crafted not by pickaxe, but by innovation."
+				"Once activated, it’s time to channel &dsource fluid&r into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris-crafted not by pickaxe, but by innovation."
 				""
 				" &cThe Nether remembers. Now, so will your machines.&r"
 			]
 			icon: "create_resource_vents:dormant_ancient_debris_vent"
 			id: "6C99623FD144B074"
-			rewards: [{
-				id: "364943CAAC5D6F6F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "227825FB5BEBFF1E"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "34EED2AC099C3F9B"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "71B3FDBEA869E3C3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "40D7EB41C2BAD58F"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_ancient_debris_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "40D7EB41C2BAD58F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_ancient_debris_vent"
+					type: "observation"
+				}
+				{
+					id: "4415ED44CB715110"
+					item: "forge_frontier:neapolitan_milkshake_bucket"
+					type: "item"
+				}
+			]
 			title: "Legacy of the Netherite Deep"
 			x: 7.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["79B13E9FA5446394"]
+			description: [
+				"&7Fuel your rocket and prepare for the ultimate lunar adventure.&r"
+				""
+				"Congratulations, astronaut-you’ve built the &fTier 1 Rocket&r, and your path to the stars is finally clear! Now it’s time to bring that rocket to life and &lignite your first launch&r."
+				""
+				"{@pagebreak}"
+				""
+				" &lFueling the Dream&r:  "
+				"Before liftoff, you’ll need to fuel your rocket. Grab a bucket of &eFuel&r and right-click the rocket’s tank while it’s sitting on the launch pad. Once your ship is full and your gear is secured, climb in, look to the stars, and &lhold down the spacebar&r."
+				""
+				" As the engines roar to life, you’ll feel the power of your creation carrying you through the atmosphere and into the great beyond."
+				""
+				" The Moon awaits-but it’s only the beginning."
+				""
+				"{@pagebreak}"
+				"Fuel is crafted by heated mixing oil as shown below:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_oil_fuel.png width:200 height:120 align:center}"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "08F62016A6F246E4"
+			rewards: [
+				{
+					id: "4502C83BCBE1FEF0"
+					item: "ad_astra:moon_desh_ore"
+					type: "item"
+				}
+				{
+					id: "48F3B726915D1D9F"
+					item: "ad_astra:moon_cheese_ore"
+					type: "item"
+				}
+				{
+					id: "06E1E7831F378753"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Fuel your rocket, strap in, and break free from the Overworld! Click me for more info!"
+			tasks: [
+				{
+					id: "4416E9F47934E8B8"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7FC4660D0DBF0389"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+				{
+					id: "591D56D11F34A57F"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: " Tier 1 Launch Sequence: Liftoff"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: [
+				"&7Scattered across the Overworld lie the components needed to build humanity’s first true gateway to the stars.&r"
+				""
+				"The journey toward spaceflight begins long before launch day. Before you can soar beyond the clouds, you must gather the essential components required to construct the &fTier 1 Rocket&r. Every plate forged, every machine assembled, and every material processed brings you one step closer to escaping the planet’s gravity."
+				""
+				"{@pagebreak}"
+				""
+				"&lForging the Rocket&r:"
+				"Your first rocket is not built by hand alone-it is the culmination of your growing factory and engineering expertise. Across your adventure, you will need to craft advanced machinery, process refined metals, and assemble specialized rocket components capable of surviving the harsh conditions of space travel."
+				""
+				"From durable plating to precision-engineered systems, each part plays a critical role in preparing your vessel for launch."
+				""
+				"Exploration, automation, and production will all be necessary if you wish to reach the stars."
+				""
+				"{@pagebreak}"
+				""
+				"As you gather the final pieces and watch your rocket come together for the very first time, you’ll realize something important:"
+				""
+				"This is no longer just a factory."
+				""
+				"It is the beginning of a space program."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "79B13E9FA5446394"
+			rewards: [
+				{
+					count: 5
+					id: "7AB35D4E30103939"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5307B16A817AE669"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "106387B96EF9C7FC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 20L
+					id: "2D1656C25D031376"
+					item: { Count: 20, id: "forge_frontier:steel_rocket_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4534E5AF5B2C4882"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "7628B203FFCD63BC"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2FBFF828F120AD64"
+					item: { Count: 2, id: "forge_frontier:vacuum_structural_frame" }
+					type: "item"
+				}
+				{
+					id: "052C3443E653AAB6"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "4F14A1E92BFDDE0F"
+					item: "forge_frontier:oxygen_module"
+					type: "item"
+				}
+				{
+					id: "7B20A93E6FC764B0"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "62B10E3895640833"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+			]
+			title: "Tier 1 Rocket Parts"
+			x: 9.5d
+			y: -3.0d
 		}
 	]
 	title: "Basic Dimensions"
