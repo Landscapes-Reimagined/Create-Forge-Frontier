@@ -99,6 +99,7 @@
 			y: -6.5d
 		}
 		{
+			dependencies: ["6770F96C1A4490DE"]
 			description: [
 				"&cThe Nether&r introduces one of the most challenging progression environments in &6Create - Forge Frontier&r. Its terrain, hostile mobs, and unique resource pools require careful preparation and strategic planning."
 				""
@@ -113,7 +114,7 @@
 				""
 				"Equip yourself properly, maintain awareness of your surroundings, and approach each structure with caution. The Nether plays a pivotal role in your progression—master its hazards to unlock the resources and pathways required for future advancement."
 			]
-			hide_dependent_lines: true
+			hide_dependency_lines: true
 			icon: "minecraft:netherrack"
 			id: "3F3994EDD215FC99"
 			rewards: [{
@@ -1237,6 +1238,7 @@
 		{
 			dependencies: ["5DA842A1588FB8BE"]
 			description: ["As you journey across the &2Overworld&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
 			icon: "minecraft:oak_sapling"
 			id: "344680EE8BF7C82A"
 			rewards: [{
@@ -1686,6 +1688,771 @@
 			title: "Diamond in the Frost"
 			x: -14.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of the &4Nether&r progression."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:netherrack"
+			id: "765B4C05B9DEDC12"
+			rewards: [{
+				id: "441D8575FEAFC9BB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56A9A733E96AD39A"
+				title: "Eyes of the Nether"
+				type: "checkmark"
+			}]
+			title: "Eyes of the Nether"
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: ["As you journey across the &4Nether&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:crimson_nylium"
+			id: "47199DA52BCB4384"
+			rewards: [{
+				id: "5ADE6063BE85E364"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5ED09FCAF816E61A"
+				title: "Overworld Resource Vents"
+				type: "checkmark"
+			}]
+			title: "Nether Resource Vents"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Brimming with the remnants of the Evoker’s lost power, the &dMagical Eye&r pulses with chaotic energy.  "
+				"It is a fragment of ancient, forgotten magic-capable of shaping the world in ways few can comprehend.  "
+				"To forge this wondrous relic, you must master the art of &lArcane Enchanting&r, binding a spark of immortality into something far more potent.  "
+				"{image:ftb:textures/_forge_frontier_enchanting_magical_eye.png width:175 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike relics bound by stone and steel, the Magical Eye is born through an enchantment ritual-requiring focus, power, and a heart defiant of death itself.  "
+				"The following pages will guide you through the arcane rite."
+				""
+				"{@pagebreak}"
+				""
+				"- &lRitual of the Totem&r:  "
+				"  Begin by preparing a &eTotem of Undying&r, an artifact imbued with the gift of second chances.  "
+				"  Then construct your ancient enchanting altar:  "
+				"  - Surround the Enchanting Table with &e8 Apotheosis Hellshelves&r, amplifying the ritual’s magical resonance.  "
+				"  - Place &e8 Standard Bookshelves&r to stabilize and balance the energies.  "
+				"  - Arrange &e2 sets of 4 Candles&r to channel the forces into the heart of the ritual.  "
+				"{image:ftb:textures/eye_enchanting.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lThe Enchantment&r:  "
+				"  With your altar prepared, offer 40 full levels of experience at the Enchanting Table while holding the Totem of Undying.  "
+				"  If your will is strong and your focus unwavering, the Totem will transform-becoming the &dMagical Eye&r, a vessel of untamed arcane might."
+				""
+				"{@pagebreak}"
+				""
+				" &nBut tread carefully, for power demands a price.&r  "
+				"The Magical Eye is no mere trinket; it holds echoes of the Evoker’s ambitions and hubris.  "
+				"Only those worthy of wielding ancient forces will master its gift and carry the Evoker’s Heart into a new age."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72DBFC6476091A3A"
+			optional: true
+			rewards: [
+				{
+					id: "7B51331C442BED6F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "49C271C09EDC2743"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "337FE49632A4ADC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchant a Totem of Undying to awaken the arcane might of the Magical Eye. Click me for more info!."
+			tasks: [
+				{
+					id: "4A84672A29CA6635"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 8L
+					icon: {
+						Count: 1
+						id: "minecraft:bookshelf"
+						tag: { }
+					}
+					id: "4F79D7A6279DC769"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any Bookshelves"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3A1A7933CBF71792"
+					item: { Count: 8, id: "apotheosis:hellshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57081CEB44F24AC0"
+					item: { Count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "4E636795E27977FD"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Evoker’s Heart"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Born from the fiery clash between the Aether and the Nether, the &cNether Eye&r is a relic of unimaginable power-a fragment of war and dominion that once shaped the realms themselves.  "
+				"To claim this artifact, you must master &lMechanical Crafting&r and retrieve ancient treasures long buried in flame and ruin.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_nether_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The components needed to forge the Nether Eye lie scattered across the Nether’s most treacherous ruins.  "
+				"The next pages will guide you through the infernal journey ahead."
+				""
+				"{@pagebreak}"
+				""
+				"- &lHades' Bident&r:  "
+				"  A weapon of judgment forged in the deepest fires of the underworld. Legends claim the very earth splits beneath its strike.  "
+				"  Seek this fearsome relic within the ruins of the &eAncient Portal Structure&r, from the mod &cIntegrated Dungeons and Structures (IDAS).  "
+				"{image:ftb:textures/nether_portal.png width:150 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Obol&r:  "
+				"  A single coin said to bear the weight of eternity itself-the fare for crossing into the afterlife.  "
+				"  It can be found within the forgotten &eHopo's Piglin Ruin&r, buried among the relics of those who once sought passage between worlds.  "
+				"{image:ftb:textures/piglin_ruin.png width:150 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCerberus’s Fang&r:  "
+				"  Torn from the maw of the infernal guardian of the underworld, this fang pulses with eternal fury and vigilance.  "
+				"  Seek it within the fiery halls of the &eQuartz Kitchen&r, a twisted structure born of &cIncendium’s&r corrupted Nether landscapes.  "
+				"{image:ftb:textures/kitchen.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nSteel yourself for this journey across flame and fury.&r  "
+				"The Nether Eye is a relic not easily claimed. Its pieces are guarded by forces both ancient and wrathful-and the price of failure is steep.  "
+				"Only those who conquer fire, fury, and temptation will earn the Demon’s Gaze and hold the power to shape realms anew."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2037E72162F48338"
+			optional: true
+			rewards: [
+				{
+					id: "3A540325E510C9E4"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "381A0932AF1BB4A8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reforge the Nether Eye, born from fire and ancient war. Click me for more info!."
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "53376422A307985C"
+					title: "Travel to The Nether"
+					type: "dimension"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "3E2BEB2EB4185033"
+					structure: "idas:ancient_portal/nether_ancient_portal"
+					title: "Locate a Nether Ancient Portal"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "61915C8F12152AD8"
+					structure: "hopo:piglin_ruin"
+					title: "Locate a Piglin Ruin"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					id: "2E1AD6A79DFA9626"
+					structure: "incendium:quartz_kitchen"
+					title: "Locate a Quartz Kitchen"
+					type: "structure"
+				}
+				{
+					id: "7F02EF752231963E"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Demon’s Gaze"
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Guarded fiercely by Piglin warlords and ancient oaths, the &4Cursed Eye&r radiates a dark power-promising ruin to its enemies and might to those bold enough to claim it.  "
+				"Forging this forbidden relic will require mastery of &lMechanical Crafting&r and the courage to tear it from the heart of the Nether’s strongest strongholds.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_cursed_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Each piece of the Cursed Eye holds a story of conquest, greed, and blood-soaked loyalty.  "
+				"The following pages will guide you into the heart of Piglin dominions where these relics await."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAxe of the Brute Warlord&r:  "
+				"  Forged in endless war and baptized in blood, this brutal weapon is no symbol of elegance-it is a declaration of raw strength.  "
+				"  Seek it deep within the &eTreasure Bastions&r of the Nether, where the Piglin Warlords still guard their ancestral power.  "
+				"{image:ftb:textures/bastion.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lTotem of the Crimson Pact&r:  "
+				"  A dark relic bound by ancient oaths and forbidden magic. It thrums with the loyalty-and the curses-of long-fallen Piglin champions.  "
+				"  This totem can be found within the ruins of the &eAbandoned Tower&r, a twisted structure left behind by &cIncendium’s&r corrupted Nether tribes.  "
+				"{image:ftb:textures/tower.png width:125 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCrown of the Golden Tusks&r:  "
+				"  Once worn by the Piglin King himself, this golden crown radiates brutal dominion and boundless greed.  "
+				"  To claim it, you must defeat the &eWildfire&r-an infernal guardian lurking within the &eCitadel&r brought forth by &eFriends and Foes&r.  "
+				"{image:ftb:textures/citadel.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				" &nThose who seek the Cursed Eye must tread carefully.&r  "
+				"Victory promises power-but the Eye's curse promises eternal unrest for those too weak to master it. Conquer the Piglin legacies, tear down their empires, and claim the right to wield the ruinous might of the Cursed Eye."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A4D8CFE603872F8"
+			optional: true
+			rewards: [
+				{
+					id: "34486C263F303671"
+					item: "createcompression:compressed_netherite_1x"
+					type: "item"
+				}
+				{
+					id: "03E3894426A773D1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Cursed Eye and command the legacy of Piglin kings. Click me for more info!."
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "13B2BC962FDC44D2"
+					title: "Travel to The Nether"
+					type: "dimension"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
+					id: "0044B887B68BFF0B"
+					structure: "#minecraft:bastion_remnant"
+					title: "Locate a Treasure Bastion"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
+					id: "07D168443D631F33"
+					structure: "incendium:abandoned_tower"
+					title: "Locate an Abandoned Tower"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: {
+							DisplayCoordinates: 1b
+							FoundX: 64
+							FoundZ: 192
+							Samples: 4
+							SearchRadius: 1250
+							State: 2
+							StructureKey: "idas:ancient_portal/ancient_portal"
+						}
+					}
+					id: "471327733A3AF952"
+					structure: "friendsandfoes:citadel"
+					title: "Locate a Citadel"
+					type: "structure"
+				}
+				{
+					id: "5092501A213675FE"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pact of Ashes"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"A remnant of ancient alchemy, the &5Witch Eye&r once gleamed with forbidden knowledge of brewing arts lost to time.  "
+				"It holds within it a spark of mastery-an understanding of transformation and power that few dare even whisper of today.  "
+				"To forge this artifact of ancient wisdom, you must master &lSuper Heated Mixing&r and gather relics born from flame, soul, and brew.  "
+				"{image:ftb:textures/_forge_frontier_mixing_witch_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Witch Eye is not one of brute strength, but of cleverness, patience, and alchemical prowess.  "
+				"The following pages will unveil the arcane steps needed."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlaze Gold Block&r:  "
+				"  A rare alloy formed by consuming the very soul of a Blaze with the power of Chromatic Compound.  "
+				"  Right-click a Blaze while holding &eChromatic Compound&r to bind its burning essence into the golden material.  "
+				"{image:ftbchunks:textures/faces/minecraft/blaze.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Lava Vision&r:  "
+				"  Crafted through secretive brews, this potion grants sight through molten depths.  "
+				"  Brew it by:  "
+				"  - Heated Mixing &eLava Bottles&r with &eBone Serpent Teeth&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eRedstone Dust&r to extend the potion's duration.  "
+				"{image:alexsmobs:item/lava_bottle width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Soul Steel&r:  "
+				"  A potion that hardens the soul itself into an indomitable force.  "
+				"  Brew it by:  "
+				"  - Heated Mixing an &eAwkward Potion&r (created by mixing Water Bottles and Nether Warts) with &eSoul Vulture Hearts&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eGlowstone Dust&r to strengthen its potency.  "
+				"{image:alexsmobs:item/soul_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nTrue mastery lies not just in strength-but in understanding transformation.&r  "
+				"The Witch Eye demands cleverness, patience, and the courage to wield forces forgotten by the world.  "
+				"Only those who brew with precision, and command the elements of fire, soul, and spirit, will ignite its hidden knowledge."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D1F1DB7B6A3DA79"
+			optional: true
+			rewards: [
+				{
+					count: 9
+					id: "0C010A514793A5F7"
+					item: "create_dd:chromatic_compound"
+					type: "item"
+				}
+				{
+					id: "114E30EAAD068DDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Witch Eye and awaken the forbidden arts of ancient alchemy. Click me for more info!."
+			tasks: [
+				{
+					id: "21F0B88D7D0A1AAA"
+					item: {
+						Count: 1
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "650E088BE6DA57B4"
+					item: "create_dd:blaze_gold"
+					type: "item"
+				}
+			]
+			title: "Secrets of the Cauldron"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Imbued with the brilliance of ancient minds, the &6Rogue Eye&r is a relic that once illuminated the birth of Redstone itself.  "
+				"It hums softly with the ingenuity and daring of a bygone age-an artifact meant for those bold enough to reforge its legacy.  "
+				"To create this marvel, you must master &lMechanical Crafting&r and gather the finest inventions forged by machine, metal, and mind.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_rogue_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"Unlike other relics torn from battle or myth, the Rogue Eye is crafted through the spark of invention and the relentless pursuit of progress.  "
+				"The pages ahead will guide you through the path of innovation."
+				""
+				"{@pagebreak}"
+				""
+				"- &lMechanism Block&r:  "
+				"  Forged through a masterpiece of precision engineering, a Mechanism Block requires crafting &e9 Precision Mechanisms&r.  "
+				"  Each Mechanism is created via Sequenced Assembly, where a Gold Sheet is looped five times through:  "
+				"  - Applying a &eGold Nugget&r  "
+				"  - Applying a &eCogwheel&r  "
+				"  - Applying a &eLarge Cogwheel&r  "
+				"  Precision, patience, and a mastery of automation are key.  "
+				"{image:ftb:textures/mechanism.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBrass Block&r:  "
+				"  A gleaming testament to progress, a Brass Block is formed by gathering &e9 Brass Ingots&r.  "
+				"  Create Brass Ingots through Heated Mixing, combining a &eCopper Ingot&r and a &eZinc Ingot&r to yield two brilliant ingots of brass.  "
+				"{image:ftb:textures/brass.png width:50 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lMithril Ingot&r:  "
+				"  A rare alloy, glowing with inner vitality and strength.  "
+				"  Mithril is obtained by Superheated Mixing, combining:  "
+				"  - &eSteel&r  "
+				"  - &eChromatic Compound&r  "
+				"  - &eGlowberry Milkshake&r  "
+				"  - &eXP Nuggets&r  "
+				"  This fusion of metal, light, and experience yields a material unlike any other.  "
+				"{image:ftb:textures/mithril.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nIngenuity is the beating heart of the Rogue Eye.&r  "
+				"To awaken its brilliance, you must master both machine and mind-welding together the achievements of creation to honor the first sparks that gave rise to Redstone itself.  "
+				"Only true inventors will succeed in forging this symbol of progress and legacy."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5094745CE014E74E"
+			optional: true
+			rewards: [
+				{
+					id: "5C1D466E98423488"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "493E7A348E8B54C7"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					id: "0BD35C7AF84433DE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Rogue Eye and reignite the brilliance of ancient innovation. Click me for more info!."
+			tasks: [
+				{
+					id: "1240B40B2BDB0A70"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21EF465B7A15739E"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "60FB4EF2792B4FF5"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+			]
+			title: "Spark of Ingenuity"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"A witness to the fall of empires, the &8Wither Eye&r bears the scars of a thousand lost worlds.  "
+				"It gazes into the abyss of ruin itself, holding echoes of devastation and power beyond reckoning.  "
+				"To forge this relic of destruction, you must master &lMechanical Crafting&r and gather the remnants of battles that shook the realms.  "
+				"{image:ftb:textures/_forge_frontier_mechancial_crafting_wither_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Wither Eye is not one of creation-it is one of conquest, sacrifice, and decay.  "
+				"The following pages will guide you into the heart of ruin."
+				""
+				"{@pagebreak}"
+				""
+				"- &lSoul Sand&r:  "
+				"  A cursed earth infused with sorrow, Soul Sand can be unearthed in the depths of the Nether.  "
+				"  Alternatively, you can create it by &eHaunting ordinary Sand&r with the echoes of the spirit realm.  "
+				"{image:minecraft:block/soul_sand width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWither Skeleton Skulls&r:  "
+				"  Remnants of ancient battles fought against death incarnate.  "
+				"  These can be claimed by &eBeheading Wither Skeletons&r, grim trophies from the shadows of fortress ruins.  "
+				"{image:ftbchunks:textures/faces/minecraft/wither_skeleton.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lStar Infused Netherite Nugget&r:  "
+				"  A forbidden alloy, forged from celestial devastation.  "
+				"  Create this ingot by combining:  "
+				"  - &e4 Nether Stars&r  "
+				"  - &e1 Netherite Ingot&r  "
+				"  into a single Star Infused Netherite Nugget.  "
+				"  To harvest Nether Stars efficiently, consider using &eMob Cages&r to capture the Wither’s essence itself and automate its destruction.  "
+				"{image:cagedmobs:item/star_infused_netherite_ingot width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nRuin is the price of power-and power the price of ruin.&r  "
+				"The Wither Eye is a relic that remembers what the world has tried to forget.  "
+				"Only those who embrace the cost of devastation and command the ashes of fallen realms will wield its hollow gaze."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B63999D63EA981F"
+			optional: true
+			rewards: [
+				{
+					id: "28A0168020043822"
+					item: {
+						Count: 1
+						id: "cagedmobs:netherite_dna_sampler"
+						tag: {
+							entity: "minecraft:wither"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60ADDF5CDD1098C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Wither Eye and claim the echoes of a thousand fallen worlds. Click me for more info!."
+			tasks: [
+				{
+					id: "46AF35CA74B042ED"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18E426E117BAD23D"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Ashes of Empires"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47199DA52BCB4384"]
+			description: [
+				"Hidden in the blazing depths of the Nether, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
+				""
+				"{image:ftb:textures/scorchia_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this fiery titan, locate a &lScorchia Vent&r in any Regions Unexplored Biome and &lfeed a blaze burner a blaze cake on top of it&r. The resulting transformation tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
+				""
+				"Once activated, channel the correct &dsource fluid&r (covered in the next quest) into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal-fueled by the Nether’s own wrath."
+				""
+				" &8Coal, reborn from magma-forge your fuel empire from the flames.&r"
+			]
+			icon: "create_resource_vents:dormant_scorchia_vent"
+			id: "10D2ED18910A5579"
+			rewards: [{
+				id: "0474B5D283BE8FF0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "4C600B94BF8D1FF4"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_scorchia_vent"
+				type: "observation"
+			}]
+			title: "Flame-Forged Fuel"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47199DA52BCB4384"]
+			description: [
+				"Deep within the Nether’s forgotten reaches lies the &8Debris Vent&r-a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
+				""
+				"{image:ftb:textures/debris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin, seek out a &lDebris Vent&r in any Incendium Biome-its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
+				""
+				"Once activated, it’s time to channel the correct &dsource fluid&r (revealed in the next quest) into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris-crafted not by pickaxe, but by innovation."
+				""
+				" &cThe Nether remembers. Now, so will your machines.&r"
+			]
+			icon: "create_resource_vents:dormant_ancient_debris_vent"
+			id: "6C99623FD144B074"
+			rewards: [{
+				id: "364943CAAC5D6F6F"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "40D7EB41C2BAD58F"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_ancient_debris_vent"
+				type: "observation"
+			}]
+			title: "Legacy of the Netherite Deep"
+			x: 7.0d
+			y: -1.5d
 		}
 	]
 	title: "Basic Dimensions"
