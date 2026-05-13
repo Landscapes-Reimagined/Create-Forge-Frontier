@@ -1,0 +1,13 @@
+{
+	icon: "aquaculture:neptunes_bounty"
+	id: "42D4621A0BA16C0E"
+	loot_size: 1
+	order_index: 3
+	rewards: [{
+		command: "/loot give @p loot aquaculture:box/neptunes_bounty"
+		elevate_perms: true
+		title: "Random Bounty Loot"
+		type: "command"
+	}]
+	title: "Neptunes Bounty"
+}

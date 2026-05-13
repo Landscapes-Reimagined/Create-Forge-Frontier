@@ -19,6 +19,7 @@
 					}]
 				}
 			}
+			title: "Looting Enchantment"
 		}
 		{
 			item: {
@@ -31,6 +32,7 @@
 					}]
 				}
 			}
+			title: "Unbreaking Book"
 		}
 	]
 	title: "apoth_tier1"

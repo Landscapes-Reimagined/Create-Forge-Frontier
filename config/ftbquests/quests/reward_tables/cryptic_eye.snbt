@@ -1,0 +1,19 @@
+{
+	icon: {
+		Count: 1
+		id: "endrem:cryptic_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "04C5ED71A20A2F4B"
+	loot_size: 1
+	order_index: 5
+	rewards: [{
+		command: "/loot give @p loot apotheosis:entity/treasure_goblin"
+		elevate_perms: true
+		title: "Apotheosis Treasure Loot"
+		type: "command"
+	}]
+	title: "Cryptic Eye"
+}

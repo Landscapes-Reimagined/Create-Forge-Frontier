@@ -1,4 +1,5 @@
 {
+	icon: "artifacts:mimic_spawn_egg"
 	id: "3628FC13CA707135"
 	loot_size: 1
 	order_index: 0

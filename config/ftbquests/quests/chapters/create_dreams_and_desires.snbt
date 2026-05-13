@@ -1364,12 +1364,7 @@
 		{
 			dependencies: [
 				"7A355AA3FDE025A6"
-				"2E99FE44436A381C"
 				"1D40BCB5E0BF8836"
-				"2BE12AF20FA6DC0D"
-				"1F22F9F9B3D393E1"
-				"38367FF1F1438DED"
-				"571CE6F8667DA48F"
 				"25559A9BCB194A6D"
 			]
 			description: ["{\"text\":\"Shimmer is a luminous fluid created by blending various fluids found throughout the \",\"extra\":[{\"text\":\"Molten Vents\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E4AA685A681F1B0\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" chapter. It is used to craft the Stargaze Singularity Casing, a key component for crafting the \"},{\"text\":\"Mechanical Extruder\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6B0EFB5F45658146\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"]

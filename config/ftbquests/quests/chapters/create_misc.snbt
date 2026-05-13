@@ -1999,6 +1999,74 @@
 			x: -8.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"&lResource vents&r is more than just a feature-it's a revolution in resource automation. This innovative system introduces a renewable method for generating the rare &oore stones&r of the &3Create&r mod, giving you the tools to industrialize your resource pipeline like never before."
+				""
+				"While the base mod focuses on &oBasic Ore Stones&r, this expanded integration unlocks &ohigh-tier Resource vents&r-letting you automate everything from &7Tin&r to &dCalorite&r. Whether you’re building megastructures or refining rare alloys, &lResource vents are the key to sustainable progress&r."
+				""
+				"{@pagebreak}"
+				""
+				" Biome and Dimension Specificity"
+				"Each molten vent is tightly bound to the environment-&oVeridium&r blooms in deserts, &oGlacium&r chills in frozen peaks, and &oAncient Debris&r erupts from the Nether roof. Your challenge is to scour the world for these elemental veins of power."
+				""
+				" Activation Ritual"
+				"Once found, transform a dormant vent into an active one feeding a &4blaze burner&r a &cblaze cake&r directly atop it. When the tranformation is complete, feed it its unique liquid fuel-be it a milkshake or molten blend-and watch as it begins converting &oessence into ore&r."
+				""
+				"{@pagebreak}"
+				""
+				" Helpful Tools and Features"
+				""
+				"Portable Vents – Thanks to custom changes in this pack, you can mine active vents to move them wherever your factory automation requires them."
+				""
+				"Mechanical Extruders – Designed for late-game automation, these machines pull &oorestones&r from a single fluid source block, removing the need for complex setups."
+				""
+				"{@pagebreak}"
+				""
+				"With Resource vents, your world becomes a living forge-&lwhere lava flows into iron, milkshakes into gold, and ambition into industry&r."
+				""
+				" &oThe stone beneath your feet is no longer a limit-it’s a launchpad. Ready to reshape your world?&r"
+			]
+			hide_dependency_lines: true
+			icon: "create_resource_vents:active_asurine_vent"
+			id: "7AC47553B491EE76"
+			rewards: [
+				{
+					id: "044F3A7E366EB2DB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3B12084B5C15151A"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Resource vents: A New Era of Resource Generation, Click me for more info!"
+			tasks: [
+				{
+					id: "77168E2D646C1F11"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "1897B3BF3A210851"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "50CB0982BC4BF504"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "Create Resource Vents"
+			x: -8.5d
+			y: -2.0d
+		}
 	]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"
 }

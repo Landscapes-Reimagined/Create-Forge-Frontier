@@ -181,7 +181,6 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["59AB4308055958B4"]
 			description: [
 				"The Shulker Box functions similarly to the Barrel, but retains any items stored inside when broken. The Shulker Box is crafted with Shulker Shells and a Chest, or you can brave an End City to find Shulker Boxes at the top of any spire."
 				""
