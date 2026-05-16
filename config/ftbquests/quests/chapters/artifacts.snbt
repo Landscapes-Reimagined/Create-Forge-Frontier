@@ -126,153 +126,20 @@
 		}
 		{
 			height: 1.0d
-			hover: ["Item Artifacts"]
-			image: "curios:slot/empty_ring_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.0d
-			y: -3.0d
-		}
-		{
-			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			order: -1
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Belt Slot Artifacts"]
-			image: "curios:slot/empty_belt_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: 10.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Feet Slot Artifacts"]
-			image: "relics:slot/empty_feet_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.5d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Necklace Slot Artifacts"]
-			image: "curios:slot/empty_necklace_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: 3.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Hand Slot Artifacts"]
-			image: "curios:slot/empty_hands_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			hover: ["Charm Slot Artifacts"]
-			image: "curios:slot/empty_charm_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.5d
-			y: 9.5d
+			y: 3.5d
 		}
 		{
 			height: 1.0d
 			hover: ["Item Artifacts"]
-			image: "curios:slot/empty_ring_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -11.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "curios:slot/empty_back_slot"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "jei:textures/jei/atlas/gui/bookmark_list_slot_background.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -0.5d
-			y: 13.5d
-		}
-		{
-			height: 1.0d
 			image: "supplementaries:item/gui_slots/empty_slot_antique_ink"
 			rotation: 0.0d
 			width: 1.0d
 			x: -0.5d
-			y: 13.5d
+			y: 3.5d
 		}
 		{
 			height: 25.0d
@@ -282,15 +149,24 @@
 			x: -0.5d
 			y: -9.0d
 		}
+		{
+			height: 1.0d
+			hover: ["Rings"]
+			image: "curios:slot/empty_ring_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: -3.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"Across the world of &lForge Frontier&r lie powerful relics known as &lArtifacts&r, each infused with unique qualities that enhance your abilities in extraordinary ways. These rare treasures rest within dungeons, ruins, and secret chambers, waiting for explorers bold enough to claim them."
+				"Across the world of &lForge Frontier&r lie powerful Relics and Artifacts. Each is infused with unique qualities that enhance your abilities in extraordinary ways. These rare treasures rest within dungeons, ruins, and secret chambers, waiting for explorers bold enough to claim them."
 				""
-				"From boots that let you glide across water to rings that grant sudden bursts of speed, every artifact offers a distinct advantage on your journey. Unlike traditional gear, artifacts can be worn alongside your normal equipment, making them invaluable companions for any adventurer."
+				"From boots that let you glide across water to rings that grant sudden bursts of speed, every artifact offers a distinct advantage on your journey. Unlike traditional gear, artifacts can be worn alongside your normal equipment, making them invaluable companions for any adventurer. Many of them will even grow with you as you use them."
 				""
 				"{@pagebreak}"
 				"Your mission is simple: &lseek out these legendary relics&r, uncover their secrets, and harness their power to expand what is possible. Will you discover a fire-resistant charm deep within a Nether fortress? Or perhaps stumble upon a lucky talisman buried in the heart of a forgotten ruin?"
@@ -364,8 +240,8 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -1.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
@@ -1930,30 +1806,38 @@
 			y: -0.5d
 		}
 		{
-			hide_dependent_lines: true
-			icon: "relics:relic_experience_bottle"
-			id: "6797E17E89B470F8"
-			optional: true
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "4C70FDE6642934AA"
-				item: {
-					Count: 1
-					id: "itemfilters:mod"
-					tag: {
-						value: "relics"
-					}
-				}
-				type: "item"
-			}]
-			title: "Relics"
-			x: -0.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&3Amphibian Boot&r&r make one much more adjusted to life in water. It will accelerate swimming speed, running speed during rain and gives a percentage chance to not consume oxygen while underwater."]
 			id: "413CC09BA328DC9E"
+			rewards: [
+				{
+					id: "23FD0A9A6B11B1D9"
+					item: {
+						Count: 1
+						id: "minecraft:turtle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FF945C4895049B0"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_fishing_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73BBA74EE1433C8A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "3B3D6EE7B970DC43"
 				item: {
@@ -1987,11 +1871,30 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&9Aqua Walker&r&r allows the user to walk over the surface of the water, after the time limit it will sink and drag the user underwater."]
 			id: "0A2DFA1D08E7ADE0"
+			rewards: [
+				{
+					id: "43CF01EE877F842C"
+					item: "handcrafted:salmon_trophy"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1C421FE642E976A7"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "4626693BC2D4F79C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "2B8E5BBD0CC9D359"
 				item: {
@@ -2011,11 +1914,47 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: [
+				"The &n&8Ice Breaker&r&r will accelerate the speed of your fall, negate slipperiness and increase your knockback resistance. "
+				""
+				"It's secondary ability can only be activated when the player is falling, this active ability will cancel out all fall damage and create a shockwave based on how long the player has been falling."
+			]
 			id: "1044C7917228FD45"
+			rewards: [
+				{
+					id: "2C05411F413E0729"
+					item: "minecraft:heartbreak_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "790C96FE99BD8F16"
+					item: "cratedelight:bread_bag"
+					type: "item"
+				}
+				{
+					id: "1CE9B6B08AC3A2A8"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:core/breach"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73185DB9B047E7C1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "3B88BBA3247C8A96"
 				item: {
@@ -2042,11 +1981,39 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&bIce Skates&r&r increase the wearers movement speed on ice. Scales with how slippery the block is."]
 			id: "1F7FF86AEF197D29"
+			rewards: [
+				{
+					count: 12
+					id: "11619EE5EA9537F7"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "137CE81B7D6C557E"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:frost_walker"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F6C0C240DC2D31F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "6EA47CE467E86B05"
 				item: {
@@ -2073,11 +2040,37 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&4Magma Walker&r&r blocks damage from hot blocks such as magma. It's secondary ability allows the wearer to walk over lava for a limited amount of time."]
 			id: "29D03DBB7BDCB10D"
+			rewards: [
+				{
+					count: 6
+					id: "798BF7DC0A9AEB78"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0039EDA13A843CDD"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DBE017BBC8B82EB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "557564EB11A2B745"
 				item: {
@@ -2097,11 +2090,29 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&aAcid Walker&r&r allows one to walk across the surface of acid and not be affected by the corrosion effect. It is however on a timer and not permanent."]
 			id: "59CF888D8E94A5A4"
+			rewards: [
+				{
+					id: "2E61EB7426835684"
+					item: "alexscavesdelight:acid_pasta"
+					type: "item"
+				}
+				{
+					id: "6FFE81217F419CEF"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+				{
+					id: "6580516FA9C63EAC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "32DF2D47F56EF38F"
 				item: {
@@ -2121,11 +2132,37 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 13.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&6Roller Skates&r&r increase the player acceleration but makes every block act as slippery as ice. Great for getting around the place rapidly, but be careful you don't slip!"]
 			id: "340C03CFA6F04C42"
+			rewards: [
+				{
+					count: 3
+					id: "3A56B73361AD3BD0"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7607400FDDBEDAB5"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					id: "082E932616991F1D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "3F81550BFC786868"
 				item: {
@@ -2146,11 +2183,36 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 13.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&1Polar Boot&r&r has two toggleable modes, Repel and Attract. The active ability allows the wearer to switch between the two. Repel allows the user to float above the ground, Attract will pull the user to the ground faster."]
 			id: "3A9D4C94B6D7F9BA"
+			rewards: [
+				{
+					count: 3
+					id: "027C4DE3D28FBF53"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexscaves:long_magnetizing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54FF59AFABA1ADA9"
+					item: "create_sa:copper_magnet"
+					type: "item"
+				}
+				{
+					id: "31C1883A9A4A394A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "55B313A4BEBE296B"
 				item: {
@@ -2173,11 +2235,30 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: [
+				"The &n&6Holy&r &9&nLocket&r&r&r comes with 3 abilities. The simplest of them is burning the undead near the wearer. "
+				""
+				"The other abilities work in conjunction. The first of the two is a toggle between Sanctity and Unholiness, either of the two triggering will grant a charge. Sanctity redirects some of the wearers healing to damage nearby enemies and reduce damage taken. Unholiness redirects some of the enemies healing and increases damage done."
+				""
+				"The final ability consumes al lcharges from Sanctity/Unholiness and makes the wearer invincible, the duration is dependent on amount of charges."
+			]
 			id: "4F1134556A4C0854"
+			rewards: [
+				{
+					id: "67357C1ADA94AF1D"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "360C1EEE8582C1D5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "2AFB9A9CBE7225EF"
 				item: {
@@ -2216,11 +2297,31 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&9Reflecting Necklace&r&r gains charges in a internal buffer for every damage taken by the wearer. 5 seconds after the last instance of damage, the buffer explodes, shooting obsidian spikes around the wearer."]
 			id: "59843C7A42D4151A"
+			rewards: [
+				{
+					count: 20
+					id: "3E84CCC0B54D78CE"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "41DB3909DD8265E6"
+					item: "supplementaries:bamboo_spikes"
+					type: "item"
+				}
+				{
+					id: "79D2B33506B89E0D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "106D721D1DA0B136"
 				item: {
@@ -2242,11 +2343,31 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The Jellyfish Necklace will make it so the wearer doesn't sink in water. It's secondary ability is a static shock to anyone touching the user, the last upgrade will let that static shock stun the target."]
 			id: "78BF02C3CA8E5B83"
+			rewards: [
+				{
+					count: 4
+					id: "14D573F74108AE40"
+					item: "brewinandchewin:apple_jelly"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24FC5D229C58DFB2"
+					item: "aquaculture:jellyfish_bucket"
+					type: "item"
+				}
+				{
+					id: "6EC08AB56F6BE9FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "411DC27057A41884"
 				item: {
@@ -2275,11 +2396,33 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&4Desolate Pendant&r&r is a powerful combat relic. On hit there is a chance to summon a ghostly blade that repeats 50% of the damage of that strike. It's secondary ability summons multiple of these blades to strike the enemy with the current item the wearer is holding."]
 			id: "53CE3B035F4F9CD3"
+			rewards: [
+				{
+					id: "4B2BABB88D4DE175"
+					item: {
+						Count: 1
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:rare"
+							}
+							gem: "apotheosis:the_nether/inferno"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77642F925365CA24"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "15C4EA987C50A71A"
 				item: {
@@ -2307,11 +2450,31 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["A &n&6Leather Belt&r&r that grants the wearer extra charm slots. Can be upgraded to increase how many!"]
 			id: "688D91E945E96A4E"
+			rewards: [
+				{
+					count: 16
+					id: "3DF870D3F028F0DA"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5167F8BD9159B985"
+					item: "minecraft:leather"
+					type: "item"
+				}
+				{
+					id: "2548CFFA899004BD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "7ED089964F88B44D"
 				item: {
@@ -2331,11 +2494,39 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 11.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: [
+				"The &n&9Drowned Belt&r&r increases the wearer's charm slots. It also increases sinking speed at the cost of reduced swimming speed. "
+				""
+				"It's last two abilities increase damage while underwater and allows for the usage of riptide without rain or water, however it comes with an internal cooldown."
+			]
 			id: "62224C0073BA8A87"
+			rewards: [
+				{
+					id: "30412B7F979F2A51"
+					item: "apotheosis:inert_trident"
+					type: "item"
+				}
+				{
+					id: "558CBFA6BA87A40E"
+					item: {
+						Count: 1
+						id: "alexsmobs:pupfish_locator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6274512AACE65E78"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "535B52837215E283"
 				item: {
@@ -2374,11 +2565,31 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 11.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&2Hunter's Belt&r&r increases the users charm slots. It's secondary ability increases the damage of any tamed pets."]
 			id: "138F4F08B2626F9C"
+			rewards: [
+				{
+					count: 2
+					id: "6984D9FF9DE498C2"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "198DB6C5101D699E"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "71542D94B51C6162"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "49EFACC4D37FF4BF"
 				item: {
@@ -2404,11 +2615,31 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 11.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&2Spore Sack&r&r allows for large area control. When damaged, the user releases an explosive spore that will damage your enemies. Further abilities allow for manual release of charges to create some spores. Future levels also allow spores to split into new smaller spores. "]
 			id: "25C687C6BCCA6A1E"
+			rewards: [
+				{
+					count: 8
+					id: "60E299D7D1E0DCCD"
+					item: "minecraft:spore_blossom"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "493EBF80827E2729"
+					item: "alexsmobs:mungal_spores"
+					type: "item"
+				}
+				{
+					id: "7D1F83AD70BB5A40"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "62B69DF002E58697"
 				item: {
@@ -2452,11 +2683,36 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&eStink Gland&r&r releases a large cloud that forces enemies to flee when the wearer drops below 20% maximum health, also inflicts nausea. A secondary unlocked ability allows for a riptide-like dash on demand, leaving a smaller version of the cloud ability when used."]
 			id: "4FE52F96583F9DBA"
+			rewards: [
+				{
+					id: "773AC03FABFB19DB"
+					item: {
+						Count: 1
+						id: "alexsmobs:stink_ray"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3C7025E7D5003150"
+					item: "alexsmobs:stink_bottle"
+					type: "item"
+				}
+				{
+					id: "02C15C943535A422"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "0AA8C5CF2A2EF4CC"
 				item: {
@@ -2485,11 +2741,35 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&8Tendon Lump&r&r occasionally shoots tendons out to nearby enemies. If the user is using the Tendon whip, it's attack modifiers are applied to these passive tendrils."]
 			id: "6B98F7B7E3B68723"
+			rewards: [
+				{
+					id: "78ECEC0A52CCA043"
+					item: "alexscavesdelight:meat_pie"
+					type: "item"
+				}
+				{
+					id: "33328EE4EA1FF284"
+					item: {
+						Count: 1
+						id: "alexsmobs:tendon_whip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0759C9E2EA67DA4F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "3F988D27AE4C0811"
 				item: {
@@ -2514,11 +2794,36 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&3Wool Mittens&r&r allows the wearer to right click snow to shape special frozen snowballs. These apply a short stun on targets hit."]
 			id: "094F62CBAD9F8011"
+			rewards: [
+				{
+					count: 64
+					id: "2249097360138B88"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5D5C2C072D6D14C1"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7FB791091F57A4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "7B133D3581F0B576"
 				item: {
@@ -2541,11 +2846,41 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: [
+				"The &n&4Rage Clove&r&r come with three abilities. While in combat, every attack made within 3 seconds of the last grants a charge. These charges grant you bonus damage output, but also extra damage taken. "
+				""
+				"The second ability grants movespeed and attack speed based on Rage charges. The final ability is a dash that bleeds the enemy and strikes them with your current item in hand."
+			]
 			id: "6035B652305BFC65"
+			rewards: [
+				{
+					count: 16
+					id: "0B14AEC1B6AB5DE4"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0F5148A6967FDBE6"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13E0932C75520A2C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "1AE4951FFCD23970"
 				item: {
@@ -2583,11 +2918,31 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&5Ender Hand&r&r makes endermen neutral towards the wearer, it also grants the ability to swap positions with any target within a limited distance."]
 			id: "7A18AE6406B92F24"
+			rewards: [
+				{
+					count: 3
+					id: "7957DC6DD047B959"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7B27AC0D68D1DC52"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "439DF22BD4CFA11A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "4C31AF89F0B56DB1"
 				item: {
@@ -2607,11 +2962,29 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The&n &6Bastion Ring&r&r will make nearby Piglins neutral to the wearer and even help you find the nearest Bastion. Once upgraded it will also give a chance to get extra trade rewards from Piglins."]
 			id: "046D7ED7A7D836E4"
+			rewards: [
+				{
+					id: "07844DD6AA65B530"
+					item: "luminous_nether:gilded_piglin_trophy"
+					type: "item"
+				}
+				{
+					id: "65943190BE04208F"
+					item: "createcompression:compressed_gold_1x"
+					type: "item"
+				}
+				{
+					id: "79D429D9DB5A6079"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "2291C6A979D46BFA"
 				item: {
@@ -2631,11 +3004,30 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 11.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&dChorus Inhibitor&r&r changes the behaviour when eating Chorus Fruit, the teleportation will no longer occur randomly but only in the direction the wearer is looking."]
 			id: "174B315A2313268C"
+			rewards: [
+				{
+					id: "3DFB1E3968FAE013"
+					item: "ends_delight:chorus_fruit_popsicle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "505433EA68CA8D09"
+					item: "ends_delight:chorus_fruit_crate"
+					type: "item"
+				}
+				{
+					id: "7D20784A94E756DE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "1848E0F9D8ABEB77"
 				item: {
@@ -2656,11 +3048,30 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 11.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&2Ring of Vines&r&r allows the wearer to grow an instant vine to climb from up from the ground."]
 			id: "70999BD6AD2A3A66"
+			rewards: [
+				{
+					id: "1A0BA8BB84AC7A50"
+					item: "alexsmobs:vine_lasso"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "63BF9FAEC113A3EC"
+					item: "minecraft:vine"
+					type: "item"
+				}
+				{
+					id: "31C1120D431076E9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "131389999072F406"
 				item: {
@@ -2681,11 +3092,30 @@
 				type: "item"
 			}]
 			x: -12.0d
-			y: 11.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["This magical &n&6Quiver&r&r with large amounts of internal space for all sorts of arrows. Later upgrades allow for a leap ability to be unlocked, and a powerful area of effect Arrow Rain of whichever arrow type is stored inside.,"]
 			id: "01E58A4AFCBB26B9"
+			rewards: [
+				{
+					count: 64
+					id: "44FC9EABDC3C92EA"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+				{
+					id: "56C41E2B53BD96B4"
+					item: "minecraft:fletching_table"
+					type: "item"
+				}
+				{
+					id: "414D0A825C547E4A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "00F07C68B058ECE5"
 				item: {
@@ -2727,11 +3157,25 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&7Elytra Booster&r&r provides the ability to boost your Elytra flight, to do so it requires filling the internal charge using any burnable fuel."]
 			id: "7CA1378CD8ED0E8F"
+			rewards: [
+				{
+					count: 6
+					id: "65927C886D5AC5D5"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "014EA853DA02332B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "49AA733214E5E780"
 				item: {
@@ -2752,11 +3196,36 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&5Midnight Robe&r&r allows the user to vanish and move faster in the dark. Higher levels also allow the first attack from stealth to do bonus damage."]
 			id: "2CBF6D3931EEBE01"
+			rewards: [
+				{
+					count: 3
+					id: "2A3ABFEE964452A5"
+					item: "create_confectionery:black_chocolate_glazed_marshmallow"
+					type: "item"
+				}
+				{
+					id: "0C84A36EA545575A"
+					item: {
+						Count: 1
+						id: "alexscaves:desolate_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30E7656D803C1E34"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "5ACD860CF22E4DA2"
 				item: {
@@ -2787,11 +3256,43 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 11.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: [
+				"The&n &bFrost Robe&r&r allows the wearer to walk across powder snow regardless of other attire. It also provides the user with two other unique abilities. "
+				""
+				"One allows for summoning ice spikes on demand. The other is a passive shield that occasionally triggers an ice explosion when the wearer is hit."
+			]
 			id: "1C645D58C1E9B482"
+			rewards: [
+				{
+					id: "32C5ABB4FBD34334"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:frost_walker"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F31079CDB6DC9F4"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "3BBCAE446D8CC725"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "18C39FEC8CBF663F"
 				item: {
@@ -2820,11 +3321,30 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 12.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["This magical &n&6Horse Flute&r&r has the ability to store one horse inside. It can be released by reusing and will automatically re-enter if the distance between the user and horse is too far apart. At higher levels it will also passively regenerate the horse while inside."]
 			id: "3BC7B62C511D4AEA"
+			rewards: [
+				{
+					id: "5646DCCE7171B052"
+					item: "minecraft:diamond_horse_armor"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6461660448246834"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+				{
+					id: "7AA2C0C98B1460D0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "28E074CCE9BB1DFB"
 				item: {
@@ -2843,12 +3363,37 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 15.0d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&bMagic Mirror&r&r allows the user to teleport back to their spawnpoint, has a limited amount of block radius it will work in."]
 			id: "78687196B428B065"
+			rewards: [
+				{
+					count: 32
+					id: "38500CD852F339E5"
+					item: "chipped:clear_leaded_glass"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "70A329492D5A2B5F"
+					item: "quark:soul_bead"
+					type: "item"
+				}
+				{
+					id: "2C77870B522C4575"
+					item: "create_more_additions:silver_block"
+					type: "item"
+				}
+				{
+					id: "1F2B33A84B38DFA0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "447DE19268FCE259"
 				item: {
@@ -2868,23 +3413,61 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 15.0d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["This powerful bottle contains &6&nRelic Experience&r&r in it's raw liquid form. If thrown it will turn it into usable experience for levelling your Relics or Artifacts."]
 			id: "4A0D65C3105EB625"
+			rewards: [
+				{
+					count: 2
+					id: "5A7810D01027307B"
+					item: "relics:relic_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "656F59C95BAD94E4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "012A83DD5DC86EF8"
 				item: "relics:relic_experience_bottle"
 				type: "item"
 			}]
 			x: -0.5d
-			y: 16.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&dShadow Glaive&r&r allows the user to send out blade sections to bounce between enemies and harm them. At higher levels the user will be able to shift right click to send out the entire glaive at once. Regeneration of the sections is disabled when the whole glaive is active in the world. Reusing it will return the glaive to the user."]
 			id: "30AF560BE60C9373"
+			rewards: [
+				{
+					id: "7F4A1987591B9828"
+					item: "minecraft:blade_pottery_sherd"
+					type: "item"
+				}
+				{
+					id: "67B42D31A02C0CA2"
+					item: {
+						Count: 1
+						id: "create_sa:slime_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DF12E362142CDBE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "49C7D8DC66DD07A6"
 				item: {
@@ -2915,11 +3498,29 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 16.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&5Space Dissector&r&r allows the user to open two portals by holding right click and dragging from one place to the other. Entering this portal will launch you towards the portal at the other end"]
 			id: "0B096FDB5F826920"
+			rewards: [
+				{
+					id: "1A1C425CF70ADCD1"
+					item: "ad_astra:space_painting"
+					type: "item"
+				}
+				{
+					id: "79EF6EB6A5FD0621"
+					item: "createteleporters:quantum_fluid_bucket"
+					type: "item"
+				}
+				{
+					id: "7FDF6F8B9E99FA45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "1691238A6165F234"
 				item: {
@@ -2940,11 +3541,36 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 16.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&0Spatial Sign&r&r allows you to travel back along the path you just took. Using it will rewind you through time to where you a little while ago. The amount of time gone back depends on the level."]
 			id: "1B4CAAD51E307AD0"
+			rewards: [
+				{
+					id: "6BF48895AC6D9148"
+					item: "minecraft:clock"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3BBF9BB7CB172895"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_slow_falling"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30EEA28E075E398C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "331FE30D2B6B4941"
 				item: {
@@ -2964,11 +3590,48 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 17.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["6797E17E89B470F8"]
+			dependencies: ["3CE72BF099174999"]
+			description: [
+				"This &n&cBlazing Flask&r&r allows the user to right click a block of fire. This creates an area of effect in which the user will be able to fly similarly to a jetpack using the power of that fire as long as it's burning or the ability times out."
+				""
+				"P.S. this only works on actual fire blocks, no fire pits or campfires."
+			]
 			id: "15412010260C4BDC"
+			rewards: [
+				{
+					count: 16
+					id: "270479578B6128F1"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "09FB8892F6836434"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 4s
+							}]
+							RepairCost: 1
+							display: {
+								Name: "{\"text\":\"Firelighter\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07636F13059C6DBE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "6A0924F62222843D"
 				item: {
@@ -2990,7 +3653,66 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&3Ring of Silence&r&r silences nearly all forms of movements, allowing you to move freely through the Warden's domain. It does not however silence the act of attacking or interacting with blocks."]
+			icon: "resonant_synthesis:ring_silence"
+			id: "77E644D6A1FB767A"
+			rewards: [
+				{
+					count: 2
+					id: "04945A6BDAAB4317"
+					item: "resonant_synthesis:sculk_cake"
+					type: "item"
+				}
+				{
+					id: "023F14FD82964E1C"
+					item: "create_templates_gears:inactive_silence_armor_trim"
+					type: "item"
+				}
+				{
+					id: "3CD3C3B210DCC741"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "083CB96392FEA375"
+				item: "resonant_synthesis:ring_silence"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CE72BF099174999"]
+			description: ["The &n&dPearlescent Ring&r&r spawns a small dragonling to help you fight your enemies. If combined with a Spirit Mask it will spawn 2."]
+			id: "145E4574D01BB4F2"
+			rewards: [
+				{
+					id: "650E6D87E648ACDB"
+					item: "create_connected:fan_ending_catalyst_dragon_head"
+					type: "item"
+				}
+				{
+					id: "7344963382C74B1D"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			tasks: [{
+				id: "582151FAF67E7A0A"
+				item: {
+					Count: 1
+					id: "unusualend:pearlescent_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -0.5d
 		}
 	]
 	title: "Accessories and Baubles"

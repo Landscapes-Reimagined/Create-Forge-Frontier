@@ -24,7 +24,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -364,7 +364,7 @@
 				type: "item"
 			}]
 			title: "The Dormant Deep"
-			x: 6.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -394,8 +394,8 @@
 				type: "item"
 			}]
 			title: "Enchanter's Workbench"
-			x: 7.5d
-			y: 4.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4C2A6292B32562A3"]
@@ -434,8 +434,8 @@
 				type: "item"
 			}]
 			title: "Conduit of the Arcane"
-			x: 12.5d
-			y: 4.5d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2382E5C444E4A12F"]
@@ -461,7 +461,7 @@
 			}]
 			title: "Scraps of Arcana"
 			x: -7.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["16DE76B6F434C16C"]
@@ -492,7 +492,7 @@
 			}]
 			title: "Superior Scrapping"
 			x: -5.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5BFEDB10AB754632"]
@@ -542,6 +542,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "5A2B6166AE8850FC"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "4DEAE188615A8EC6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 			tasks: [{
 				consume_items: false
@@ -552,7 +563,7 @@
 			}]
 			title: "Arcane Extraction"
 			x: -3.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["52E26768C164CA9D"]
@@ -640,7 +651,7 @@
 				type: "item"
 			}]
 			title: "Awakening the Deep"
-			x: 8.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -677,7 +688,7 @@
 				type: "item"
 			}]
 			title: "Visions of the End"
-			x: 12.5d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -725,7 +736,7 @@
 				type: "item"
 			}]
 			title: "Power of the Void"
-			x: 14.0d
+			x: 12.5d
 			y: 1.0d
 		}
 		{
@@ -905,7 +916,7 @@
 			rewards: [{
 				id: "007B7BFBF8CB8797"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "719105D1E15F5D74"
@@ -921,7 +932,7 @@
 			rewards: [{
 				id: "0C82897F6667B000"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5F6FAE2DEE7FE78E"
@@ -937,7 +948,7 @@
 			rewards: [{
 				id: "604266CC7A735046"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0B8FDFA8766A9D7A"
@@ -953,7 +964,7 @@
 			rewards: [{
 				id: "3FB4A5D2486614B8"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "086E980E659A7828"
@@ -969,7 +980,7 @@
 			rewards: [{
 				id: "42298B316CC98EBE"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2B4F10726B43C7E9"
@@ -985,7 +996,7 @@
 			rewards: [{
 				id: "530F1665121C3528"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0977DAE9189A82E0"
@@ -1001,7 +1012,7 @@
 			rewards: [{
 				id: "27B9859CB55BD89D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "6E2B9E9C5C6F7CF4"
@@ -1017,7 +1028,7 @@
 			rewards: [{
 				id: "6399A286EA9E7F44"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "68343FDEF87B3E57"
@@ -1055,7 +1066,7 @@
 				type: "item"
 			}]
 			title: "Whispers of Magic"
-			x: 11.0d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -1080,7 +1091,7 @@
 				type: "item"
 			}]
 			title: "Sounds of the Deep"
-			x: 9.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -1241,7 +1252,7 @@
 			}]
 			title: "Salvaging Your Enchantments"
 			x: -9.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1579,8 +1590,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1613,7 +1624,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1644,8 +1655,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1653,13 +1664,9 @@
 			id: "5E6EA2E978BB67C0"
 			rewards: [
 				{
-					count: 2
+					count: 6
 					id: "346CF22BC1F29FAC"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:artifact_material"
-						tag: { }
-					}
+					item: "apotheosis:rare_material"
 					type: "item"
 				}
 				{
@@ -1677,8 +1684,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1710,41 +1717,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["7B68DD6E1D05B160"]
-			description: ["The &nSigil of Awakening&r is not used on your items but serves as an ingredient in special Boss gems. These each provide unique and powerful effects."]
-			id: "5DD0C6D08A59CA6B"
-			rewards: [
-				{
-					count: 4
-					id: "2F45E27B760D475B"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:ascended_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "28F4DDC6868DA7C9"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "2782960D8938DCE1"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:gemboundsigil"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
 		}
 		{
 			description: ["This &nGem-Fused Slate&r is the blank canvas for you to create sigils on. On its own it does nothing but the sigils you can create with it will let you manipulate affix bonuses, gems, sockets and even the apothic tier of the item."]
@@ -1787,7 +1761,7 @@
 			}]
 			title: "Blank Slate"
 			x: -6.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["578A33A5A5FA8841"]
@@ -1806,11 +1780,7 @@
 				}
 				{
 					id: "5B7BA3872846A61F"
-					item: {
-						Count: 1
-						id: "collectorsreap:shimmering_apple"
-						tag: { }
-					}
+					item: "apotheosis:mythic_material"
 					type: "item"
 				}
 				{
@@ -1854,27 +1824,15 @@
 			id: "687957A3D915C6D3"
 			rewards: [
 				{
-					id: "347EDB293068B006"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:commonapple"
-						tag: { }
-					}
+					count: 4
+					id: "6B7890975898734B"
+					item: "apotheosis:common_material"
 					type: "item"
 				}
 				{
-					id: "0E8A8DBF188E3049"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:uncommonapple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "0D8BE0F2A9030074"
+					id: "107D5756593CCBDC"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -1895,34 +1853,13 @@
 			id: "578A33A5A5FA8841"
 			rewards: [
 				{
-					id: "7C1ED118BFB60A61"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:rareapple"
-						tag: { }
-					}
+					count: 4
+					id: "2AF7B30AAEE2E6B0"
+					item: "apotheosis:epic_material"
 					type: "item"
 				}
 				{
-					id: "400E630C15F4C867"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:epicapple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3EB2E41F94540B5C"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:mythicapple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "1B14BFA981C1FC9A"
+					id: "15057375B83C2BF3"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -1938,251 +1875,6 @@
 			}]
 			x: -9.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["28B7FDAF3F929DB5"]
-			description: ["&n&4The Sacrificial Rune&r&r is the final form of the Hellshelves, improving upon the Blazing Hellshelf. Providing even stronger versions of its bonuses."]
-			id: "2918E0FBF9006F32"
-			rewards: [
-				{
-					count: 3
-					id: "2A6846AEFE4AD45F"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "338F74A13AC1473D"
-					item: {
-						Count: 1
-						id: "handcrafted:blaze_trophy"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "6317D3E9CBDD2C8C"
-					item: {
-						Count: 1
-						id: "handcrafted:wither_skeleton_trophy"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "63239EB7653DA6E8"
-					item: {
-						Count: 1
-						id: "nethersdelight:hoglin_trophy"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "0ADCEB1C2E2D26AC"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "5FE06B59A269036D"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:sacrificial_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7405774A91010E60"]
-			description: ["&n&1The Wavebinder's Rune&r&r is the final evolution of the Ocean shelves. Providing vastly superior stats compared to the Heartforged Seashelf."]
-			id: "365256A397789542"
-			rewards: [
-				{
-					count: 3
-					id: "1F568C76DC9A8556"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_water_breathing"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "2D90684BD47F7233"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_ingot"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "716605175AED1972"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "7EE633D125CC5A58"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:wavebinders_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["366BFABED1D79BF0"]
-			description: ["&n&0The Void Rune&r&r is an upgrade of the Sculkshelf, increasing its powers even further."]
-			id: "696CA666F94CC627"
-			rewards: [
-				{
-					id: "17D3C7579671CC12"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:the_end/endersurge"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "15824BBDD0F0AD7E"
-					item: {
-						Count: 1
-						id: "cataclysm:void_jaw"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "146C893ACB2A4DC2"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "6E61D072B92D5A3E"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:void_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["51195D4772866826"]
-			description: ["&n&2The Terra Rune&r&r, an ancient precursor to the Beeshelf. Its &a&nEterna&r&r debuff is much lower, while still bringing the &4&nQuanta&r&r, and some extra &5&nArcana&r&r"]
-			id: "2298F488E983466D"
-			rewards: [
-				{
-					id: "7F62F3872EF00520"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:overworld/earth"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2425A31665A91123"
-					type: "xp_levels"
-					xp_levels: 8
-				}
-			]
-			tasks: [{
-				id: "4D74BF0C2FD197C0"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:terra_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 12.5d
-			y: 3.0d
-		}
-		{
-			description: ["&e&nApotheotic Coins&r&r can be used for rare trades provided by the Wandering Trader. Look out for these as they are often powerful relics. These coins can also be infused into &6&nInfused Coins&r&r"]
-			id: "464288D982EE9E65"
-			rewards: [
-				{
-					count: 2
-					id: "3808AFBBFE9FD245"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:stack_upgrade_tier_3"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "32B857CF2F5B5025"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:infused_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "25F90CE5736197F9"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			tasks: [
-				{
-					id: "05711CD4A8BA0E68"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:apotheotic_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "4ED793A93B8F959D"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:infused_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "Apotheotic Currency"
-			x: -1.0d
-			y: 2.5d
 		}
 		{
 			description: ["The &nBeeshelf&r is a very efficient way of increasing Quanta, and can be a nice way to randomise your way into strong enchantments early game."]
@@ -2231,55 +1923,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["464288D982EE9E65"]
-			description: ["The most valuable coin found in Apotheosis. These &n&6Ascended Coins&r&r are created through maximum level enchanting and are only used for the rarest of trades from Wandering Traders."]
-			id: "7A23A379FD24B4B1"
-			rewards: [
-				{
-					id: "2A33C3A5FF858200"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheotic_additions:modded/midas"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6B51787F25294D18"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_golden_apple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3A889BEA2CCFD950"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "29A30A9908AB5D0A"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:ascended_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			description: ["The &nPrismatic Cobweb&r allows for the removal of Curses from items."]
@@ -2320,7 +1965,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
