@@ -8,6 +8,7 @@
 	id: "610BFEF0F735DD2C"
 	images: [
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Charm Slot Artifacts"]
 			image: "curios:slot/empty_charm_slot"
@@ -17,6 +18,7 @@
 			y: -3.0d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Necklace Slot Artifacts"]
 			image: "curios:slot/empty_necklace_slot"
@@ -26,6 +28,7 @@
 			y: -3.0d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Head Slot Artifacts"]
 			image: "curios:slot/empty_head_slot"
@@ -35,6 +38,7 @@
 			y: -3.0d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Hand Slot Artifacts"]
 			image: "curios:slot/empty_hands_slot"
@@ -44,6 +48,7 @@
 			y: -3.0d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Feet Slot Artifacts"]
 			image: "relics:slot/empty_feet_slot"
@@ -53,6 +58,7 @@
 			y: -3.0d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Belt Slot Artifacts"]
 			image: "curios:slot/empty_belt_slot"
@@ -133,6 +139,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Item Artifacts"]
 			image: "supplementaries:item/gui_slots/empty_slot_antique_ink"
@@ -144,12 +151,14 @@
 		{
 			height: 25.0d
 			image: "ftb:textures/accessories_title.png"
+			order: -1
 			rotation: 0.0d
 			width: 30.0d
 			x: -0.5d
 			y: -9.0d
 		}
 		{
+			click: "#3CE72BF099174999"
 			height: 1.0d
 			hover: ["Rings"]
 			image: "curios:slot/empty_ring_slot"
@@ -3415,31 +3424,6 @@
 			}]
 			x: 0.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["3CE72BF099174999"]
-			description: ["This powerful bottle contains &6&nRelic Experience&r&r in it's raw liquid form. If thrown it will turn it into usable experience for levelling your Relics or Artifacts."]
-			id: "4A0D65C3105EB625"
-			rewards: [
-				{
-					count: 2
-					id: "5A7810D01027307B"
-					item: "relics:relic_experience_bottle"
-					type: "item"
-				}
-				{
-					id: "656F59C95BAD94E4"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			tasks: [{
-				id: "012A83DD5DC86EF8"
-				item: "relics:relic_experience_bottle"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["3CE72BF099174999"]
