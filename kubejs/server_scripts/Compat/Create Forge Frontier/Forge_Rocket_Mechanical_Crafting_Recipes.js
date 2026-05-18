@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
                     i: Ingredient.of("forge_frontier:compressed_industrial_iron_4x"),
                     V: Ingredient.of("forge_frontier:compressed_mechanism_block_4x"),
                     n: Ingredient.of("forge_frontier:compressed_netherite-diamond_3x"),
-                    E: Ingredient.of("forge_frontier:compressed_ethium_2x"),
+                    E: Ingredient.of("forge_frontier:compressed_ethium_4x"),
                 },
                 result: Ingredient.of("forge_frontier:forge_alloy"),
                 acceptMirrored: false
