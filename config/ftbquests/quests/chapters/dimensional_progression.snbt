@@ -30,7 +30,7 @@
 				"{image:ftb:textures/overworld_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about the Overworld in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DA842A1588FB8BE\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DA842A1588FB8BE\" } }"
 			]
 			icon: "minecraft:grass_block"
 			id: "5EDC9934E7D346D8"
@@ -89,7 +89,7 @@
 				"{image:ftb:textures/nether_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about the Nether in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
 			]
 			icon: "minecraft:netherrack"
 			id: "0B3F87B20695A777"
@@ -150,7 +150,7 @@
 				"{image:ftb:textures/end_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about the End in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
 			]
 			icon: "minecraft:end_stone"
 			id: "58F4190183C467EE"
@@ -212,7 +212,7 @@
 				"{image:ftb:textures/otherside_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about Deeper Darker in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
 			]
 			icon: "minecraft:reinforced_deepslate"
 			id: "090A156A3CB027A3"
@@ -254,7 +254,7 @@
 				"{image:ftb:textures/moon_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about Ad Astra in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7187AADA58DBAAC6\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1523A7C10CEF69AA\" } }"
 			]
 			icon: "ad_astra:moon_globe"
 			id: "43160A0A3268A07D"
@@ -307,7 +307,7 @@
 				"{image:ftb:textures/alexscaves_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about Alex's Caves in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"308B363D1029D44E\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"308B363D1029D44E\" } }"
 			]
 			icon: "alexscaves:spelunkery_table"
 			id: "2E5C57802F26496D"
@@ -359,7 +359,7 @@
 				"{image:ftb:textures/tier_1.png width:130 height:190 align:center}"
 				""
 				"Read more about the Tier 1 Rocket in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"102F526989610441\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79B13E9FA5446394\" } }"
 			]
 			id: "3A09B8EFE2811CB9"
 			rewards: [
@@ -414,7 +414,7 @@
 				"{image:ftb:textures/deepdark_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about Deeper Darker in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
 			]
 			id: "0428643E0C764D8B"
 			rewards: [
@@ -477,7 +477,7 @@
 				"{image:ftb:textures/endframe_screenshot.png width:192 height:100 align:center}"
 				""
 				"Read more about End Remastered in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55E1F170D9933E8F\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55E1F170D9933E8F\" } }"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "09EEADB48E883801"
@@ -522,7 +522,7 @@
 				"{image:ftb:textures/tier_5.png width:130 height:190 align:center}"
 				""
 				"Read more about the Tier 5 Rocket in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7FEE2D38BA934C28\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7FEE2D38BA934C28\" } }"
 			]
 			id: "58AF77D0696B9822"
 			rewards: [
@@ -585,7 +585,7 @@
 				"{image:ftb:textures/forge_rocket.png width:130 height:190 align:center}"
 				""
 				"Read more about the Forge Rocket in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262FF2B00E853521\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262FF2B00E853521\" } }"
 			]
 			id: "7F95771279F2C700"
 			rewards: [{
@@ -676,7 +676,7 @@
 				"{image:ftb:textures/hopoportal.png width:192 height:100 align:center}"
 				""
 				"Read more about Nether Remastered in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
+				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6770F96C1A4490DE\" } }"
 			]
 			icon: "nether_remastered:seal_of_the_underworld_item"
 			id: "391748CCFCB25D1A"
