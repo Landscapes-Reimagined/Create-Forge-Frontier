@@ -1,5 +1,8 @@
 ServerEvents.tags('block', event => 
     {
+        // Removes Scoria Tag from Cobblestone Generator Blocks
+            event.remove('createcobblestone:generator_blocks', 'create:scoria')
+            
         // Create Cobblestone Generator Types
             event.add('createcobblestone:generator_blocks',[
                 'minecraft:stone',
