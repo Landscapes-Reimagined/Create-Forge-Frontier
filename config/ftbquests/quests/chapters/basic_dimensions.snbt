@@ -125,12 +125,20 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Enter the Nether and begin your progression through its hazards and resources. Click for more info!"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: "minecraft:netherrack"
-				id: "21AF3C45D5058473"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "21AF3C45D5058473"
+					type: "dimension"
+				}
+				{
+					advancement: "nether_remastered:seal_of_the_underworld"
+					criterion: ""
+					id: "3113F877C713EC7E"
+					type: "advancement"
+				}
+			]
 			title: "&6Into the Inferno&r"
 			x: 7.0d
 			y: -7.0d
@@ -451,6 +459,7 @@
 		{
 			dependencies: ["5DA842A1588FB8BE"]
 			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of &2Overworld&r progression."]
+			hide_dependent_lines: true
 			icon: "minecraft:grass_block"
 			id: "7E64EF50D212B5C5"
 			rewards: [{
