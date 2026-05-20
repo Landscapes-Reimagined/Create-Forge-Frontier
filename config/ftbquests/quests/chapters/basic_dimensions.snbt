@@ -12,16 +12,16 @@
 			image: "ftb:textures/overworld_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -12.5d
-			y: -10.0d
+			x: -8.5d
+			y: -10.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/nether_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 9.0d
-			y: -9.5d
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			height: 10.0d
@@ -95,8 +95,8 @@
 				type: "item"
 			}]
 			title: "&6Roots of Adventure&r"
-			x: -12.5d
-			y: -6.5d
+			x: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6770F96C1A4490DE"]
@@ -132,8 +132,8 @@
 				type: "dimension"
 			}]
 			title: "&6Into the Inferno&r"
-			x: 9.5d
-			y: -6.5d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -227,8 +227,8 @@
 				title: "Center"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["5DA842A1588FB8BE"]
@@ -347,8 +347,8 @@
 				}
 			]
 			title: "Locate and Conquer Acropolis"
-			x: -13.5d
-			y: -3.0d
+			x: -9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5DA842A1588FB8BE"]
@@ -445,8 +445,8 @@
 				}
 			]
 			title: "Unlocking the Nether"
-			x: -11.5d
-			y: -3.0d
+			x: -7.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["5DA842A1588FB8BE"]
@@ -464,8 +464,8 @@
 				title: "Eyes of the Overworld"
 				type: "checkmark"
 			}]
-			x: -8.5d
-			y: -3.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -573,8 +573,8 @@
 				}
 			]
 			title: "Forging the Black Eye"
-			x: -8.0d
-			y: -1.5d
+			x: -4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -667,8 +667,8 @@
 				}
 			]
 			title: "Cursed Riches"
-			x: -9.0d
-			y: -1.5d
+			x: -5.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -785,8 +785,8 @@
 				}
 			]
 			title: "Blessing of the Ancients"
-			x: -7.0d
-			y: -1.5d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -896,8 +896,8 @@
 				}
 			]
 			title: "Mysteries of the Storm"
-			x: -10.0d
-			y: -1.5d
+			x: -6.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -1043,8 +1043,8 @@
 				}
 			]
 			title: "Echoes of the Deep"
-			x: -9.5d
-			y: -0.5d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -1150,8 +1150,8 @@
 				}
 			]
 			title: "Tears of the Abyss"
-			x: -8.5d
-			y: -0.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -1233,8 +1233,8 @@
 				}
 			]
 			title: "Veilbreaker's Rite"
-			x: -7.5d
-			y: -0.5d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5DA842A1588FB8BE"]
@@ -1253,8 +1253,8 @@
 				title: "Overworld Resource Vents"
 				type: "checkmark"
 			}]
-			x: -16.0d
-			y: -3.0d
+			x: -12.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1307,8 +1307,8 @@
 				}
 			]
 			title: "The Path to Zinc"
-			x: -17.5d
-			y: -1.5d
+			x: -14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1362,8 +1362,8 @@
 				}
 			]
 			title: "Tin from the Earth"
-			x: -17.5d
-			y: -0.5d
+			x: -14.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1416,8 +1416,8 @@
 				}
 			]
 			title: "The Copper Core"
-			x: -16.5d
-			y: -1.5d
+			x: -13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1470,8 +1470,8 @@
 				}
 			]
 			title: "Heart of Iron"
-			x: -16.5d
-			y: -0.5d
+			x: -13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1525,8 +1525,8 @@
 				}
 			]
 			title: "The Gilded Flame"
-			x: -15.5d
-			y: -1.5d
+			x: -12.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1579,8 +1579,8 @@
 				}
 			]
 			title: "The Lapis Flame"
-			x: -15.5d
-			y: -0.5d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1633,8 +1633,8 @@
 				}
 			]
 			title: "The Emerald Pulse"
-			x: -14.5d
-			y: -1.5d
+			x: -11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["344680EE8BF7C82A"]
@@ -1687,8 +1687,8 @@
 				}
 			]
 			title: "Diamond in the Frost"
-			x: -14.5d
-			y: -0.5d
+			x: -11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3F3994EDD215FC99"]
@@ -1709,8 +1709,8 @@
 				type: "checkmark"
 			}]
 			title: "Eyes of the Nether"
-			x: 12.5d
-			y: -3.0d
+			x: 10.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3F3994EDD215FC99"]
@@ -1731,8 +1731,8 @@
 				type: "checkmark"
 			}]
 			title: "Nether Resource Vents"
-			x: 6.5d
-			y: -3.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["765B4C05B9DEDC12"]
@@ -1844,8 +1844,8 @@
 				}
 			]
 			title: "The Evoker’s Heart"
-			x: 11.5d
-			y: -0.5d
+			x: 9.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["765B4C05B9DEDC12"]
@@ -1964,8 +1964,8 @@
 				}
 			]
 			title: "The Demon’s Gaze"
-			x: 12.5d
-			y: -1.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["765B4C05B9DEDC12"]
@@ -2079,8 +2079,8 @@
 				}
 			]
 			title: "Pact of Ashes"
-			x: 13.5d
-			y: -0.5d
+			x: 11.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["765B4C05B9DEDC12"]
@@ -2207,8 +2207,8 @@
 				}
 			]
 			title: "Secrets of the Cauldron"
-			x: 13.5d
-			y: -1.5d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["765B4C05B9DEDC12"]
@@ -2319,8 +2319,8 @@
 				}
 			]
 			title: "Spark of Ingenuity"
-			x: 11.5d
-			y: -1.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["765B4C05B9DEDC12"]
@@ -2414,8 +2414,8 @@
 				}
 			]
 			title: "Ashes of Empires"
-			x: 12.5d
-			y: -0.5d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["47199DA52BCB4384"]
@@ -2468,8 +2468,8 @@
 				}
 			]
 			title: "Flame-Forged Fuel"
-			x: 6.0d
-			y: -1.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["47199DA52BCB4384"]
@@ -2522,8 +2522,8 @@
 				}
 			]
 			title: "Legacy of the Netherite Deep"
-			x: 7.0d
-			y: -1.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["79B13E9FA5446394"]
@@ -2590,8 +2590,8 @@
 				}
 			]
 			title: " Tier 1 Launch Sequence: Liftoff"
-			x: 9.5d
-			y: -1.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3F3994EDD215FC99"]
@@ -2692,8 +2692,8 @@
 				}
 			]
 			title: "Tier 1 Rocket Parts"
-			x: 9.5d
-			y: -3.0d
+			x: 7.0d
+			y: -3.5d
 		}
 	]
 	title: "Basic Dimensions"
