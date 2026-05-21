@@ -78,54 +78,6 @@
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Amid the Moon’s &7desolate craters&r and &7silent plains&r lies a rare celestial anomaly-the &lAubrum Vent&r. Embedded within the rugged lunar surface, this molten vent pulses with a faint &dcosmic shimmer&r, hinting at the powerful resource it contains."
-				""
-				"&6Aubrum&r is a crucial component in &lspace-age machinery&r and &6high-tier automation&r, making this vent an essential milestone in your interstellar progression. Only those bold enough to pierce the heavens and step onto the Moon will be able to harness its power."
-				""
-				"{@pagebreak}"
-				""
-				" Finding the Vent"
-				"The Aubrum Vent is unique to the Moon and can be found nestled among the craters and &7regolith dust&r. Its glowing hue makes it easy to spot-if you're paying attention."
-				""
-				" Ignite the Process"
-				"Activate the dormant vent by feeding blaze cake to a &lblaze burner&r atop it. Once it erupts into its awakened state, it will require a &ospecial liquid&r to begin producing the coveted Aubrum ore through your &lmechanical extruder&r setups."
-				""
-				"{@pagebreak}"
-				""
-				" Conquer the void, claim the shimmer."
-				"Let &6Aubrum&r fuel your ascent into the stars!"
-				""
-				" &oThe Moon holds more than dust-it holds your future.&r"
-			]
-			icon: "ad_astra:moon_globe"
-			id: "470D358D9308FA68"
-			rewards: [
-				{
-					count: 9
-					id: "307327A523E15756"
-					item: "ad_astra:moon_sand"
-					type: "item"
-				}
-				{
-					id: "38D63D2BACBE8128"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "hexagon"
-			subtitle: "The Moon’s Shimmering Secret. Click me for more info!"
-			tasks: [{
-				dimension: "ad_astra:moon"
-				id: "56EE4C23722F5397"
-				type: "dimension"
-			}]
-			title: "Resource Vent of the Moon"
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AC47553B491EE76"]
-			description: [
 				"Beneath the &4crimson dunes&r and jagged cliffs of Mars lies a discovery that redefines space-age engineering-the &lStellaris Vent&r. This molten fissure radiates with &dinterstellar energy&r, its glowing core a gateway to &6rare resources&r essential for your most advanced machines."
 				""
 				"Found only on the &4Martian surface&r, Stellaris Vents are your ticket to unlocking powerful components like &6Ostrum&r, pushing your technological frontier further than ever before."
@@ -646,92 +598,6 @@
 				}
 			]
 			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["705EE64085E20FA2"]
-			description: [
-				"Hidden among the craters and shadows of the Moon’s surface, the &6Aubrum Vent&r quietly pulses with extraterrestrial energy. These celestial ore stones are essential for &lDesh&r production, a key component in early space technology and automation."
-				""
-				"{image:ftb:textures/aubrum_vent.png width:175 height:175 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"To begin automation, locate a &lDormant Aubrum Vent&r under the Moon's pale glow. Feed a blaze burner blaze cake atop its surface to awaken the buried vent and reveal its inner power."
-				""
-				"Once activated, provide the appropriate &dsource fluid&r (revealed in the next quest) and connect it to a &lMechanical Extruder&r to automate Desh like never before."
-				""
-				" &eThe Moon offers its blessing-will you accept the gift of Aubrum and fuel your journey to the stars?&r"
-			]
-			icon: "create_resource_vents:dormant_aubrum_vent"
-			id: "3B0CEEDC47C9AFAE"
-			rewards: [{
-				id: "15F9FBE33E90E6C1"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "432B7C8A59D5BF05"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_aubrum_vent"
-				type: "observation"
-			}]
-			title: "The Core of Lunar Craft"
-			x: -1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["470D358D9308FA68"]
-			icon: "ad_astra:moon_sand"
-			id: "705EE64085E20FA2"
-			rewards: [{
-				id: "31488F0F0C6074DC"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				biome: "ad_astra:lunar_wastelands"
-				id: "4019126602D0E5CE"
-				type: "biome"
-			}]
-			title: "Locate A Lunar Wastelands Biome"
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4DA4B3B5EC216D1B"]
-			icon: {
-				Count: 1
-				id: "ad_astra:desh_ingot"
-				tag: { }
-			}
-			id: "7152ADB146499A96"
-			rewards: [{
-				id: "7CA578E9FD24EB11"
-				item: "ad_astra:desh_block"
-				type: "item"
-			}]
-			subtitle: "Aubrum can be later crushed down to produce Desh."
-			tasks: [
-				{
-					id: "6E823EB8A7C7E3B7"
-					item: "forge_frontier:aubrum"
-					type: "item"
-				}
-				{
-					id: "67FD4897C97BAD6B"
-					item: "forge_frontier:crushed_aubrum"
-					type: "item"
-				}
-				{
-					id: "5FD1210571450A1A"
-					item: "ad_astra:desh_ingot"
-					type: "item"
-				}
-			]
-			x: -1.5d
 			y: 6.0d
 		}
 		{
@@ -1842,47 +1708,6 @@
 			}]
 			title: "Pomegranate Milkshake: Ostrum Goodness"
 			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3B0CEEDC47C9AFAE"]
-			description: [
-				"Cheese serves as the &oessential fluid&r for activating &fAubrum Resource vents&r and powering &6Desh automation&r through mechanical extruders. Though it may sound simple, cheese production is a multi-step culinary-industrial process that starts with the zest of citrus and ends with a hearty dairy product ready for moon-fueled machines."
-				""
-				"{@pagebreak}"
-				""
-				"Your first step is to obtain &aLime Slices&r-tangy ingredients sourced from slicing limes using the method below:"
-				""
-				"{image:ftb:textures/_collectorsreap_cutting_lime.png width:200 height:120 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"Next, compress those slices into a zesty fluid. Compacting the lime slices will yield &aLime Juice&r, perfect for curdling milk into cheese."
-				""
-				"{image:ftb:textures/_forge_frontier_compacting_lime_juice.png width:200 height:120 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"Finally, combine the &aLime Juice&r with &fMilk&r using &lHeated Mixing&r to curdle it into &6Cheese&r-the final automation-ready product used in Aubrum’s molten processes."
-				""
-				"{image:ftb:textures/_forge_frontier_mixing_cheese.png width:200 height:120 align:center}"
-				""
-				"&lFrom citrus to circuitry&r-Cheese turns your dairy dreams into lunar Desh dominance. "
-			]
-			id: "4DA4B3B5EC216D1B"
-			rewards: [{
-				id: "481FFFD896B79362"
-				item: "ad_astra:desh_block"
-				type: "item"
-			}]
-			subtitle: "Tangy Tech for Aubrum Automation. Click me for more info!"
-			tasks: [{
-				id: "694CD9FA6E894B02"
-				item: "forge_frontier:cheese_bucket"
-				type: "item"
-			}]
-			title: "Cheese: Lunar Cream Catalyst"
-			x: -1.5d
 			y: 4.5d
 		}
 		{

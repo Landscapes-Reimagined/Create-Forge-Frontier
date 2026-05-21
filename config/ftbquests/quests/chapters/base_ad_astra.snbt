@@ -56,6 +56,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["08F62016A6F246E4"]
 			description: [
 				"&9 One Small Step...&r"
 				""
@@ -80,6 +81,7 @@
 				""
 				"&b Adventure awaits beyond the sky.&r"
 			]
+			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: "ad_astra:moon_globe"
 			id: "1523A7C10CEF69AA"
@@ -91,64 +93,9 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Build your rocket, conquer the Moon, and prepare for your journey among the stars. Click me for more info!"
-			tasks: [{
-				id: "604120E836DCC685"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:ingots/steel"
-					}
-				}
-				title: "Any #forge:ingots/steel"
-				type: "item"
-			}]
-			title: "Lunar Awakening"
-			x: -17.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["1523A7C10CEF69AA"]
-			description: [
-				"&6 Mission Prep: Launch Protocol&r"
-				""
-				"Before you can set foot on the &fMoon&r, you must prepare for the &ccruel reality of space&r. The void offers no second chances-only those who plan ahead will survive."
-				""
-				"To begin your cosmic journey, you’ll need:"
-				""
-				"- A fully assembled &6Tier 1 Rocket&r  "
-				"- Enough &bFuel&r to escape the atmosphere  "
-				"- A functioning &3Oxygen System&r to keep you breathing"
-				""
-				"Gather your supplies, refine your engineering, and ensure every piece is in place-&lthere’s no turning back once you hit launch.&r"
-				""
-				"{@pagebreak}"
-				""
-				"Learn how to build your rocket and more in the  "
-				"{ \"text\": \"Tier 1 Rocket Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0A1C7563FC03C5F6\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "ad_astra:tier_1_rocket"
-				tag: { }
-			}
-			id: "783280C62226C4D6"
-			rewards: [{
-				count: 3
-				id: "2FE57727F5E8BD15"
-				item: "ad_astra:fuel_bucket"
-				type: "item"
-			}]
-			subtitle: "Fuel up, suit up, and get ready for launch-space waits for no one. Click me for more info!"
 			tasks: [
 				{
-					count: 3L
-					id: "6DA9DF18EDF59F48"
-					item: { Count: 3, id: "ad_astra:fuel_bucket" }
-					type: "item"
-				}
-				{
-					id: "5763367C6B642883"
+					id: "16DE0A0381239908"
 					item: {
 						Count: 1
 						id: "ad_astra:tier_1_rocket"
@@ -157,17 +104,17 @@
 					type: "item"
 				}
 				{
-					id: "79C7F19E093B3116"
-					item: "ad_astra:coal_generator"
+					id: "76632CD0814F7B50"
+					item: "ad_astra:launch_pad"
 					type: "item"
 				}
 			]
-			title: "Final Checks Before Liftoff"
-			x: -21.5d
-			y: 0.0d
+			title: "Lunar Awakening"
+			x: -17.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["783280C62226C4D6"]
+			dependencies: ["1523A7C10CEF69AA"]
 			description: [
 				"&6 Suit Up for the Stars&r"
 				""
@@ -189,22 +136,30 @@
 				}
 			}
 			id: "6977AFD24DE103EE"
-			rewards: [{
-				id: "3DDD0F5C15D117C9"
-				item: {
-					Count: 1
-					id: "ad_astra_giselle_addon:oxygen_can"
-					tag: {
-						BotariumData: {
-							StoredFluids: [{
-								Amount: 500L
-								Fluid: "ad_astra:oxygen"
-							}]
+			rewards: [
+				{
+					id: "3DDD0F5C15D117C9"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 500L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6F50D5FC251CF0FA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
 			subtitle: "Craft and equip your space suit-your survival depends on it. Click me for more info!"
 			tasks: [
 				{
@@ -251,370 +206,21 @@
 					}
 					type: "item"
 				}
+				{
+					id: "1CAE830916F0E1F7"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
 			]
 			title: "Suit Up, Astronaut"
 			x: -20.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6977AFD24DE103EE"]
-			description: [
-				"&b Prepare Your Oxygen Supply&r"
-				""
-				"A space suit might shield you from the vacuum, but without &9oxygen&r, your mission ends before it begins. Survival in the stars requires more than armor-it demands &lifesupport&r."
-				""
-				"To thrive on the &fMoon&r and beyond, you’ll need to set up &lAd Astra’s&r oxygen infrastructure. Use &aOxygen Loaders&r to fill your suit’s tanks, and place &aOxygen Distributors&r to create breathable pockets within your lunar outposts."
-				""
-				"{@pagebreak}"
-				""
-				"Build your system, power it up, and test your oxygen flow. Only then will you be truly &lready for liftoff&r."
-				""
-				"The void won’t wait-&fsecure your air&r before you soar. "
-			]
-			icon: "ad_astra:oxygen_bucket"
-			id: "3FD22E0DECD5522C"
-			rewards: [{
-				id: "60258491EAE30F9B"
-				item: {
-					Count: 1
-					id: "ad_astra_giselle_addon:oxygen_can"
-					tag: {
-						BotariumData: {
-							StoredFluids: [{
-								Amount: 500L
-								Fluid: "ad_astra:oxygen"
-							}]
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Establish your oxygen systems to survive the void. Click me for more info!"
-			tasks: [
-				{
-					id: "2481D27E401F80BC"
-					item: "ad_astra:oxygen_loader"
-					type: "item"
-				}
-				{
-					id: "6737600668752273"
-					item: "ad_astra:water_pump"
-					type: "item"
-				}
-				{
-					id: "106DABD9C5487676"
-					title: "Fill Space Suit with Oxygen"
-					type: "checkmark"
-				}
-			]
-			title: "Oxygen Is Life"
-			x: -18.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3FD22E0DECD5522C"]
-			description: [
-				"&f First Steps on the Moon&r"
-				""
-				"&lYou did it!&r You’ve shattered the bounds of Earth’s sky and landed upon the silent, cratered surface of the &fMoon&r."
-				""
-				"The terrain is alien-&7low gravity&r, &7no atmosphere&r, and &7dangers hiding in the dust&r. With each step, you etch your legacy into the lunar soil, but survival won't wait."
-				""
-				"{@pagebreak}"
-				""
-				"Before exploring the vast unknown, focus on securing a &asafe lunar base&r. Establish &boxygen zones&r, build &ddefenses&r, and prepare for whatever the Moon has in store."
-				""
-				"The Earth is behind you. The cosmos lies ahead. &fYour mission begins now.&r "
-			]
-			icon: "ad_astra:moon_sand"
-			id: "576F413F0C3117B1"
-			rewards: [
-				{
-					count: 16
-					id: "3D9834A7AC5753FB"
-					item: "ad_astra:moon_stone_bricks"
-					type: "item"
-				}
-				{
-					id: "332E6DEB71498BD6"
-					item: "ad_astra:solar_panel"
-					type: "item"
-				}
-				{
-					id: "4036A777223CE167"
-					item: "ad_astra:oxygen_distributor"
-					type: "item"
-				}
-			]
-			subtitle: "Secure your lunar landing site and prepare for survival. Click me for more info!"
-			tasks: [
-				{
-					dimension: "ad_astra:moon"
-					icon: "ad_astra:moon_globe"
-					id: "3015758342C6A8B4"
-					type: "dimension"
-				}
-				{
-					block: "ad_astra:moon_stone"
-					block_type: 0
-					checkItem: false
-					id: "76942D8BD5AAFC56"
-					type: "questsadditions:break"
-					value: 32L
-				}
-			]
-			title: "Moonfall"
-			x: -17.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["576F413F0C3117B1"]
-			description: [
-				"&f Relics of a Forgotten Moon&r"
-				""
-				"The Moon may appear desolate, but its silence hides the echoes of a bygone age. Scattered across its dusty plains lie &7Ancient Factories&r and &7derelict Pipelines&r-remnants of a once-thriving lunar civilization."
-				""
-				"These structures aren't just ruins-they’re &6gateways to rare technology&r and &6valuable loot&r. Explore carefully; the Moon guards its secrets well."
-				""
-				"{@pagebreak}"
-				""
-				"Whether you're delving into a &cMoon Dungeon&r, breaching an &eAncient Factory&r, or navigating the &bPipeline systems&r, expect &cdanger at every turn&r. Guardians, traps, and hostile forces lie in wait for the unprepared."
-				""
-				"&lWill you uncover lost knowledge or be buried with it?&r The Moon's mysteries are yours to claim-if you survive. "
-			]
-			icon: {
-				Count: 1
-				id: "cataclysm:mech_eye"
-				tag: { }
-			}
-			id: "229BA6C2D9B46694"
-			rewards: [
-				{
-					count: 3
-					id: "30F2B7A6484222E1"
-					item: "ad_astra:desh_block"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "4631CFE849D1B4DE"
-					item: "ad_astra:moon_sand"
-					type: "item"
-				}
-				{
-					id: "0EE5596DC20583E1"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Explore ancient structures and face what lies hidden beneath the dust. Click me for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "cataclysm:mech_eye"
-						tag: { }
-					}
-					id: "3B13E9816B7BBC01"
-					structure: "cataclysm:ancient_factory"
-					title: "Locate an Ancient Factory"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "407CF07886BCB364"
-					structure: "incendium:pipeline"
-					title: "Locate a Pipeline"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "6F0555498AA9A4F6"
-					structure: "ad_astra:lunar_tower"
-					title: "Locate a Lunar Tower"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "2FD837043821995D"
-					structure: "ad_astra:lunarian_village"
-					title: "Locate a Lunarian Village"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "3214B52881CDBCA4"
-					structure: "ad_astra:moon_dungeon"
-					title: "Locate a Moon Dungeon"
-					type: "structure"
-				}
-			]
-			title: "Moonbound Mysteries"
-			x: -15.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["229BA6C2D9B46694"]
-			description: [
-				"&f Lunar Riches Await&r"
-				""
-				"The Moon isn’t just a stepping stone-it’s a treasure trove of &6exclusive resources&r vital to your progression in space and automation."
-				""
-				"Deep within the lunar surface, you’ll discover &eAubrum&r-an ore found only in &cMolten Vents&r across the Moon’s terrain. This material is crucial for crafting &ladvanced machinery&r and powering your interplanetary ambitions."
-				""
-				"{@pagebreak}"
-				""
-				"But Aubrum isn’t the only lunar gem. &bMoon Ice&r can be harvested for water, which is essential for &aoxygen generation&r and even used in producing &9Cryo Fuel&r to power your future rockets."
-				""
-				"And don’t forget the rare &eCheese Ore&r-it might not fuel machines, but it’s a cosmic delicacy worth collecting just for the laughs. "
-				""
-				"&lThe Moon offers more than mystery-it offers opportunity. Mine wisely, survive the elements, and turn lunar stone into starlit progress! "
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "45077F865A2C8C02"
-			rewards: [
-				{
-					id: "173BD636E1254A9C"
-					item: {
-						Count: 1
-						id: "ad_astra_giselle_addon:oxygen_can"
-						tag: {
-							BotariumData: {
-								StoredFluids: [{
-									Amount: 500L
-									Fluid: "ad_astra:oxygen"
-								}]
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "3421EF99C4C51B87"
-					item: "ad_astra:desh_block"
-					type: "item"
-				}
-				{
-					id: "27851CA8DBE1F918"
-					item: "ad_astra:cheese_block"
-					type: "item"
-				}
-				{
-					id: "403C44D239996F76"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Mine rare moon-bound materials and fuel your journey to the stars. Click me for more info!"
-			tasks: [
-				{
-					block: "forge_frontier:aubrum"
-					block_type: 0
-					checkItem: false
-					id: "5AB1D17D8BB60898"
-					type: "questsadditions:break"
-					value: 16L
-				}
-				{
-					block: "ad_astra:moon_ice_shard_ore"
-					block_type: 0
-					checkItem: false
-					id: "1C7FD159A26897B9"
-					type: "questsadditions:break"
-					value: 16L
-				}
-				{
-					block: "ad_astra:moon_desh_ore"
-					block_type: 0
-					checkItem: false
-					id: "18F8C200DABC0C69"
-					type: "questsadditions:break"
-					value: 16L
-				}
-				{
-					block: "ad_astra:moon_cheese_ore"
-					block_type: 0
-					checkItem: false
-					id: "24C986F9BAF0896B"
-					type: "questsadditions:break"
-					value: 16L
-				}
-			]
-			title: "Lunar Harvest"
-			x: -14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["45077F865A2C8C02"]
-			description: [
-				"&f Next Stop: The Red Frontier&r"
-				""
-				"Your time on the Moon has taught you how to survive in space, gather rare materials, and build a foothold beyond the Overworld. But this is only the beginning."
-				""
-				"Armed with &6lunar knowledge&r and &evaluable resources&r like Aubrum and Moon Ice, you're now ready to set your sights on the &4Red Planet&r. Mars presents new biomes, brutal conditions, and thrilling challenges that will push your ingenuity even further."
-				""
-				"{@pagebreak}"
-				""
-				"The path to Mars demands preparation-craft new fuel, reinforce your equipment, and brace for a world both harsh and full of potential."
-				""
-				"&lYour space journey continues-read more about conquering Mars in its&r  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "ad_astra:mars_globe"
-				tag: { }
-			}
-			id: "2DC61E3DC8AF2A42"
-			rewards: [{
-				id: "51FEE375DD08737A"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "ad_astra_giselle_addon:space_breathing"
-							lvl: 1
-						}]
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Use what you’ve learned on the Moon to prepare for a new planetary challenge. Click me for more info!"
-			tasks: [{
-				id: "67DCFC3AEAB3B985"
-				title: "Check"
-				type: "checkmark"
-			}]
-			title: "Next Step: Mars"
-			x: -12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2DC61E3DC8AF2A42"]
 			description: [
 				"&f Welcome to Mars: The Crimson Frontier&r"
 				""
@@ -1995,6 +1601,454 @@
 			}]
 			x: -6.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1523A7C10CEF69AA"]
+			description: [
+				"&7The Moon is far from lifeless. Beneath its silent surface and across its endless craters lie the remnants of forgotten civilizations, abandoned industrial operations, and dangerous strongholds waiting to be explored.&r"
+				""
+				"As you begin your journey across the lunar landscape, you will encounter a variety of structures filled with valuable resources, advanced technology, powerful enemies, and clues about those who once inhabited the Moon."
+				""
+				"Each structure offers unique rewards - but also unique dangers."
+				""
+				"{@pagebreak}"
+				""
+				"&lMoon Tower Dungeon&r"
+				"Constructed high above the lunar surface, the &fMoon Tower Dungeon&r stands as one of the Moon’s most dangerous ruins. Filled with hostile enemies and valuable loot, these towering structures challenge adventurers willing to climb their darkened halls in search of powerful rewards."
+				""
+				"Surviving the ascent may provide rare resources critical for future progression."
+				""
+				"{image:ftb:textures/moon_tower_dungeon.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lPipeline&r"
+				"Stretching across the barren lunar terrain, the massive industrial &6Pipeline&r appears to be a remnant of a forgotten mining or transport operation. Though partially abandoned, these structures still contain useful supplies and hidden loot for explorers willing to investigate their metallic corridors."
+				""
+				"Be cautious-many of these industrial routes are no longer stable."
+				""
+				"{image:ftb:textures/moon_pipeline.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lLunar Tower&r"
+				"The imposing &7Lunar Tower&r rises from the Moon’s surface as a relic of ancient lunar engineering. Within its walls, you may uncover advanced technology, valuable materials, and dangerous foes protecting what remains inside."
+				""
+				"Exploring these towers can greatly aid your progression across the Moon and beyond."
+				""
+				"{image:ftb:textures/lunar_tower.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lLunarian Village&r"
+				"Not all remnants of the Moon are hostile. Hidden among the craters, you may discover a &eLunarian Village&r - a rare settlement inhabited by lunar villagers attempting to survive the harsh conditions of space."
+				""
+				"These villages can provide shelter, trading opportunities, and valuable supplies for weary explorers far from home."
+				""
+				"{image:ftb:textures/lunarian_village.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lMoon Dungeon&r"
+				"Deep beneath the Moon’s quiet surface lie the dangerous &8Moon Dungeons&r. These underground strongholds are filled with hostile creatures, traps, and hidden treasures waiting to be uncovered."
+				""
+				"Those brave enough to delve into these ruins may discover rare loot and resources essential for advancing further into the stars."
+				""
+				"Prepare carefully before entering-these dungeons are not forgiving."
+				""
+				"{image:ftb:textures/moon_dungeon.png width:225 height:140 align:center}"
+			]
+			icon: "ad_astra:white_flag"
+			id: "4CECCB12E4C1A67C"
+			rewards: [
+				{
+					count: 3
+					id: "559F2914FCF0DC97"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "195C680CC8D8FB0D"
+					item: "ad_astra:cheese_block"
+					type: "item"
+				}
+				{
+					id: "2DDD0587D6A05AD9"
+					item: "ad_astra:ti_69"
+					type: "item"
+				}
+				{
+					id: "66A59FD2336EE9F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0013A47F616AC48A"
+					structure: "ad_astra_more_structures:moon_tower_dungeon"
+					type: "structure"
+				}
+				{
+					id: "397A15C5B9A43125"
+					structure: "ad_astra:moon_dungeon"
+					type: "structure"
+				}
+				{
+					id: "6DBD9C15DD17EB52"
+					structure: "ad_astra:lunar_tower"
+					type: "structure"
+				}
+				{
+					id: "46E4CE87C5ACA462"
+					structure: "ad_astra:lunarian_village"
+					type: "structure"
+				}
+				{
+					id: "58B7CBED6FC43EF8"
+					structure: "incendium:pipeline"
+					type: "structure"
+				}
+			]
+			title: "Lunar Structures"
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1523A7C10CEF69AA"]
+			description: [
+				"&7With the Moon now behind you, humanity’s next great challenge awaits among the crimson sands of Mars.&r"
+				""
+				"Your journey deeper into the stars continues with the construction of the &cTier 2 Rocket&r, a far more advanced spacecraft designed to endure the dangers of interplanetary travel. Reaching Mars will demand stronger materials, greater automation, and a factory capable of supporting an expanding space program."
+				""
+				"Every machine you improve and every resource you refine pushes you closer to setting foot on another world."
+				""
+				"{@pagebreak}"
+				""
+				"&lEngineering for Mars&r:"
+				"Unlike your first rocket, the &cTier 2 Rocket&r requires significantly more advanced engineering and infrastructure. The harsh environment of deep space demands reinforced plating, upgraded propulsion systems, and highly specialized components capable of surviving the long journey to Mars."
+				""
+				"Your growing factory must now operate on an entirely new scale, producing the machinery and materials necessary to support humanity’s expansion beyond the Moon."
+				""
+				"Automation, exploration, and technological progression will all play a critical role in completing this monumental achievement."
+				""
+				"{@pagebreak}"
+				""
+				"As the final systems come online and your new rocket stands prepared upon the launch pad, one thing becomes clear:"
+				""
+				"This is no longer a simple mission to reach space."
+				""
+				"It is the beginning of interplanetary exploration."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
+			id: "59D5B8DD8372D306"
+			rewards: [
+				{
+					count: 5
+					id: "04AB7BCF41FE882C"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					id: "04CC8BEE4DFEA833"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "343E9DAE2F73B2DF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "273717494E342EFF"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "5E421E977ACCAB47"
+					item: { Count: 20, id: "forge_frontier:desh_rocket_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "49D1065D8F1E5F6D"
+					item: "forge_frontier:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "02D74BAFA9998393"
+					item: "forge_frontier:oxidizer_catalyst"
+					type: "item"
+				}
+				{
+					id: "3B26E77D9E4CA832"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "70EAD2272B8F7726"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "41597F3520FD9AAF"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "0EE1B0129AAAE359"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1523A7C10CEF69AA"]
+			description: ["As you journey across the &8Lunar Surface&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "ad_astra:moon_sand"
+			id: "68C7C94DC68BF22E"
+			rewards: [{
+				id: "46671C5FEB2CAD7E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "58C5AA07DD412F1D"
+				title: "Moon Resource Vent"
+				type: "checkmark"
+			}]
+			title: "Moon Resource Vents"
+			x: -18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1523A7C10CEF69AA"]
+			description: [
+				"Once a shining testament to the ingenuity of the Lunarians, the Ancient Factory upon the Moon now stands silent and abandoned."
+				""
+				"Over the centuries, its halls have fallen into ruin, consumed by darkness and overtaken by &cThe Harbinger&r and its legion of corrupted machines. These demonic constructs now patrol the factory’s shattered corridors, protecting the secrets and riches left behind by a forgotten civilization."
+				""
+				"Will you rise to reclaim the Ancient Factory and uncover what still remains within?"
+				""
+				"{image:ftb:textures/ancient_factory_bg.png width:225 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Before you can confront &cThe Harbinger&r, you must first defeat its relentless guardian: &4The Prowler&r."
+				""
+				"This deadly machine stands as the final barrier between you and the heart of the factory. Defeat it, press deeper into the ruins, and prepare yourself for the battle ahead."
+				""
+				"{@pagebreak}"
+				""
+				"To awaken &cThe Harbinger&r, a powerful offering is required."
+				""
+				"You must sacrifice a &6Nether Star&r - a relic obtained by defeating the &8Wither&r. Approach the dormant form of The Harbinger and right-click it while holding the Nether Star to begin the encounter."
+				""
+				"Once awakened, the factory will tremble as the battle begins."
+				""
+				"Defeating The Harbinger rewards you with rare &cWitherite&r, a powerful material capable of being forged into advanced weaponry worthy of the challenges yet to come."
+			]
+			icon: "cataclysm:mech_eye"
+			id: "6A6CBE62C6E115C6"
+			rewards: [
+				{
+					id: "00C1E60DCD163229"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "25BB70B1849A46F4"
+					item: {
+						Count: 1
+						id: "cataclysm:laser_gatling"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2CCDB21F680E7741"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2184EC72B253AFFA"
+					item: "cataclysm:mech_eye"
+					type: "item"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "180FB29E9822A474"
+					structure: "cataclysm:ancient_factory"
+					title: "Use the Eye to locate the Ancient Factory"
+					type: "structure"
+				}
+				{
+					id: "412D67A6ED2CFD80"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:the_prowler"
+					icon: "cataclysm:the_prowler_spawn_egg"
+					id: "1F83C98B732F65D2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:meat_shredder"
+					id: "7ECFC30903B7BB18"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Locate and Conquer the Ancient Factory"
+			x: -17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C7C94DC68BF22E"]
+			description: [
+				"Hidden among the craters and shadows of the Moon’s surface, the &6Aubrum Vent&r quietly pulses with extraterrestrial energy. These celestial ore stones are essential for &lDesh&r production, a key component in early space technology and automation."
+				""
+				"{image:ftb:textures/aubrum_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin automation, locate a &lDormant Aubrum Vent&r under the Moon's pale glow. Feed a blaze burner blaze cake atop its surface to awaken the buried vent and reveal its inner power."
+				""
+				"Once activated, provide &dcheese&r and connect it to a &lMechanical Extruder&r to automate Desh like never before."
+				""
+				" &eThe Moon offers its blessing-will you accept the gift of Aubrum and fuel your journey to the stars?&r"
+			]
+			icon: "create_resource_vents:dormant_aubrum_vent"
+			id: "3B0CEEDC47C9AFAE"
+			rewards: [
+				{
+					count: 9
+					id: "7621CFCFFB003F6A"
+					item: "forge_frontier:aubrum"
+					type: "item"
+				}
+				{
+					id: "2E88072307659B48"
+					item: "ad_astra:desh_block"
+					type: "item"
+				}
+				{
+					id: "409A02C1AED4C4C9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "432B7C8A59D5BF05"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_aubrum_vent"
+					type: "observation"
+				}
+				{
+					id: "74C54E33CE680821"
+					item: "forge_frontier:cheese_bucket"
+					type: "item"
+				}
+			]
+			title: "The Core of Lunar Craft"
+			x: -18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59D5B8DD8372D306"]
+			description: [
+				"&7Begin your next great leap into the cosmos as Mars opens its ancient gates.&r"
+				""
+				" Congratulations, &ospace pioneer&r! You’ve crafted the mighty &cTier 2 Rocket&r, and now it’s time to set your course for &4Mars&r-a world veiled in dust, mystery, and untold riches."
+				""
+				"{@pagebreak}"
+				""
+				" &lTouch Down and Explore&r:  "
+				"Fuel up, strap in, and ignite your thrusters-your journey to the &cRed Planet&r begins now. Upon arrival, a realm of adventure unfolds:"
+				""
+				"-  &oAncient Structures&r hide forgotten lore.  "
+				"-  &oHidden Relics&r await beneath the sands.  "
+				"-  &oTreasure Caches&r lie in wait for the bold."
+				""
+				"Mars is not just another step-it’s a leap into a frontier shaped by time, danger, and discovery."
+				""
+				" Will you claim its secrets or vanish into the crimson dust?"
+			]
+			icon: "ad_astra:mars_globe"
+			id: "5B64CE917218050A"
+			rewards: [
+				{
+					count: 2
+					id: "62E16E386FD90BE7"
+					item: "ad_astra:mars_ostrum_ore"
+					type: "item"
+				}
+				{
+					id: "0D7C61E5321D8626"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Land, explore, and uncover relics of a lost world! Click me for more info!"
+			tasks: [
+				{
+					id: "447EA71C3E876E28"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "477E734724654F47"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "5BBD59FF3A062DDF"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: " Marsbound: First Steps on the Red Planet"
+			x: -15.5d
+			y: 1.5d
 		}
 	]
 	title: "Ad Astra"
