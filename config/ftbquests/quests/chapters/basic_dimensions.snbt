@@ -184,7 +184,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0135EFA96E7A28A2"]
 			description: [
 				"The &5End&r represents the beginning of late-game progression within &6Create - Forge Frontier&r. This dimension consists of fractured islands suspended over the void, requiring careful navigation and reliable mobility tools to explore safely."
 				""
@@ -2711,6 +2710,73 @@
 			title: "Tier 1 Rocket Parts"
 			x: 7.0d
 			y: -3.5d
+		}
+		{
+			description: [
+				"End Remastered within &6Create - Forge Frontier&r isn’t just a mod-it’s a fully reimagined journey, meticulously overhauled to deliver an unparalleled adventure.  "
+				"Every piece of its original design has been reforged, creating a progression system that is both challenging and deeply rewarding.  "
+				"Prepare to embark on a quest where each step forges your legend."
+				""
+				"{@pagebreak}"
+				""
+				"&l A New Era for the Eyes of Ender&r  "
+				"Gone are the days of simply crafting Eyes with Blaze Powder and Ender Pearls.  "
+				"In this enhanced version, every Eye is tied to a unique recipe, a distinct story, and an epic purpose.  "
+				"Scattered across the farthest reaches of the world, these Eyes will lead you into forgotten ruins, perilous dungeons, and the heart of ancient mysteries.  "
+				"Mastering combat, exploration, and crafting ingenuity will be essential as each Eye adds new depth and triumph to your journey."
+				""
+				"{@pagebreak}"
+				""
+				"&l Progression Redefined&r  "
+				"To unlock the path to the End, you must gather all the Eyes by following the quests woven throughout your journey.  "
+				"Each quest delivers hints, lore, and guidance-blending discovery with purpose.  "
+				"Hunting down the Eyes and piecing them together to awaken the End Portal transforms your adventure into a true epic, filled with milestones and unforgettable victories."
+				""
+				"{@pagebreak}"
+				""
+				"&l Exclusive Features in Forge Frontier&r  "
+				"This version of End Remastered is packed with custom enhancements tailored specifically for &6Create - Forge Frontier&r:"
+				"- &eCustom Recipes&r: Every Eye now requires a unique crafting method that seamlessly integrates Create’s mechanical brilliance."
+				"- &eDetailed Lore Descriptions&r: Each Eye is infused with rich storytelling, giving weight and meaning to every discovery."
+				"- &eImmersive World Exploration&r: From sun-scorched temples to submerged ruins, your quest will stretch to every corner of the Overworld and beyond."
+				""
+				"{@pagebreak}"
+				""
+				"&l The Journey Beyond the Portal&r  "
+				"Activating the End Portal is not the final goal-it’s just the beginning.  "
+				"Inside the End, you’ll face a dragon battle reimagined for greater challenge and strategy, pushing your skills to the limit.  "
+				"Victory will unlock deeper layers of the \"End Game\" progression, unveiling powerful rewards and even greater adventures."
+				""
+				"{@pagebreak}"
+				""
+				"&l Forge Your Legend Among the Stars&r  "
+				"End Remastered in Create - Forge Frontier is more than just an expansion-it's an odyssey.  "
+				"Every Eye, every quest, and every battle is crafted to be a meaningful step in your saga.  "
+				"The End is not a destination-it’s a gateway to a new horizon, where perseverance, creativity, and daring forge a legacy worthy of legend."
+				""
+				"{@pagebreak}"
+				""
+				" Venture into the unknown. Embrace the challenge.  "
+				"Unravel the mysteries of the End-and write your story among the stars.   "
+				"{image:ftb:textures/end_screenshot.png width:192 height:100 align:center}"
+			]
+			hide_dependent_lines: true
+			id: "55E1F170D9933E8F"
+			rewards: [{
+				id: "6DB26E5588DAF15F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			subtitle: "End Remastered: A New Chapter of Adventure Awaits, Click me for more info!"
+			tasks: [{
+				id: "5D22C1E60BB0C3FF"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
 		}
 	]
 	title: "Basic Dimensions"
