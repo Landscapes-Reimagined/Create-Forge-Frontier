@@ -71,7 +71,7 @@ ServerEvents.recipes(event =>
                     "  OSO  ",
                     "  ORO  ",
                     "  OHO  ",
-                    " OOOO  ",
+                    " OOOOO ",
                     "OOtttOO",
                     "f fEf f"
                 ],
