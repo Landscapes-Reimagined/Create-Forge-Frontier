@@ -619,40 +619,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["02912A82870B46F7"]
-			description: [
-				"Hidden atop the red sands of Mars lies the &5Stellaris Vent&r, a radiant molten geyser glowing with interplanetary power. These vents form the foundation of &dOstrum&r automation, an advanced alloy vital to space-age engineering."
-				""
-				"{image:ftb:textures/stellaris_vent.png width:175 height:175 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"To awaken this vent’s potential, place &la Blaze Burner&r atop its dormant shell and feed it a blaze cake causing it to transform it into an active conduit of molten force.&r"
-				""
-				"Once activated, provide the necessary &dsource fluid&r (covered in the next quest) to fuel your &lMechanical Extruders&r and kickstart Ostrum production."
-				""
-				" &5The sands of Mars conceal ancient power-will you unearth it and forge your legacy among the stars?&r"
-			]
-			icon: "create_resource_vents:dormant_stellaris_vent"
-			id: "3C81772B0834E434"
-			rewards: [{
-				id: "5FEB1450A30908DF"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "313920FA593F382C"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_stellaris_vent"
-				type: "observation"
-			}]
-			title: "Flame of Martian Ambition"
-			x: 0.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["1B5FB4BFC3366093"]
 			icon: {
 				Count: 1

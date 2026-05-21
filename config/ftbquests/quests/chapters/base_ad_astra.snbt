@@ -221,6 +221,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5B64CE917218050A"]
 			description: [
 				"&f Welcome to Mars: The Crimson Frontier&r"
 				""
@@ -258,332 +259,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6169F8EB0E600750"]
-			description: [
-				" &cTier 2 Rocket: Breaking Mars’ Orbit&r"
-				""
-				"Mars lies farther across the void than the Moon-and reaching it demands more than just ambition. Your &7Tier 1 Rocket&r served you well, but it lacks the &cfuel capacity&r and &cengine power&r to brave the longer journey."
-				""
-				"To pierce the Martian skies, you’ll need to &lupgrade&r to a &cTier 2 Rocket&r-engineered for deeper space, tougher conditions, and greater resilience. This next step in your &ointerstellar journey&r marks a turning point in your cosmic legacy."
-				""
-				"{@pagebreak}"
-				""
-				"&lGather rare materials, refine your designs, and prepare for the power of a true planetary vessel.&r  "
-				"The stars are calling once again."
-				""
-				"Learn how to craft the &cTier 2 Rocket&r in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"67026EE366909C22\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "ad_astra:tier_2_rocket"
-				tag: { }
-			}
-			id: "2D130C99B5D7C5FF"
-			rewards: [{
-				id: "737B61DE7499688A"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
-			subtitle: "Upgrade your ship, boost your range, and prepare for a world of red sand and ancient secrets. Click me for more info!"
-			tasks: [
-				{
-					id: "777183747D4C8E89"
-					item: {
-						Count: 1
-						id: "ad_astra:tier_2_rocket"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "669F615F29AB50E8"
-					title: "Fuel your Rocket!"
-					type: "checkmark"
-				}
-			]
-			title: "Tier 2 Rocket: Powering Toward Mars"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2D130C99B5D7C5FF"]
-			description: [
-				" &4Digging Deeper: Martian Foundations&r"
-				""
-				"Before you build among the stars, you must carve your place into the Martian dust. Mars may appear lifeless, but its crimson crust is rich with &cMartian Stone&r-an essential material for constructing outposts and unlocking advanced planetary tech."
-				""
-				"This versatile resource is not just for walls-it’s the key to &lreinforced builds&r, &odecorative architecture&r, and the foundations of your future Martian empire."
-				""
-				"{@pagebreak}"
-				""
-				"Begin your excavation and gather what you need to &orest&r, &odevelop&r, and &ouncover the secrets&r buried beneath the red sands. Some of the &6rare minerals&r that lie beneath may change your journey forever."
-				""
-				" &lYour Martian colony begins with a single stone.&r"
-			]
-			icon: "ad_astra:mars_stone"
-			id: "11B8EF9631422774"
-			rewards: [
-				{
-					count: 16
-					id: "381E67749D0F09D1"
-					item: "ad_astra:mars_stone_bricks"
-					type: "item"
-				}
-				{
-					id: "17600605596EA6D1"
-					item: {
-						Count: 1
-						id: "ad_astra:energizer"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "7F18D779556C4379"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Mine the stone, build your base, and prepare for the buried wonders of the Red Planet. Click me for more info!"
-			tasks: [
-				{
-					dimension: "ad_astra:mars"
-					icon: "ad_astra:mars_globe"
-					id: "5D7C7953A26FF5E2"
-					type: "dimension"
-				}
-				{
-					block: "ad_astra:mars_stone"
-					block_type: 0
-					checkItem: false
-					id: "019290B4E28E0C6A"
-					type: "questsadditions:break"
-					value: 32L
-				}
-			]
-			title: "Digging Deeper: Martian Foundations"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["11B8EF9631422774"]
-			description: [
-				"The red planet hides more than dust and stone. Scattered across Mars lie relics of a fallen civilization, each guarding secrets of &cfire, spirit, and steel&r. To master the Martian Flame, you must unravel three trials-sanctuary, forge, and altar-each deadlier than the last."
-				""
-				"{@pagebreak}"
-				""
-				" &6Martian Temples&r"
-				"Shadows of a Lost Faith"
-				""
-				"Simple ruins scattered across the surface, the &6Martian Temples&r offer fragments of a forgotten culture. Their halls contain a little loot-&osmall treasures&r left behind in dusty chests-but no great challenge."
-				"Yet they mark the path to something far greater, guiding explorers toward the trials that lie deeper within Mars."
-				""
-				"{@pagebreak}"
-				""
-				" &cSoul Blacksmith&r"
-				"Relics of a Forgotten Forge"
-				""
-				"Amid scorched cliffs rises the &4Soul Blacksmith&r-&lforged in flame&r and protected by ruthless defenders."
-				"Here, the ancients shaped &opowerful relics&r and &crare artifacts&r, binding steel to soul. Yet the forge itself is alive: traps, guardians, and echoes of war wait within."
-				"Conquer the Blacksmith, and you carry the key to the altar."
-				""
-				"{@pagebreak}"
-				""
-				" &4Infernal Altar&r"
-				"The Gateway to the Inferno"
-				""
-				"On Mars lies the &4Infernal Altar&r, its heart lit by eternal fire. A mysterious tome rests upon the lectern, its faded script whispering the ancient rite:"
-				""
-				"“To summon the &cINFERNO&r, stand firm in flame."
-				"A warrior must be worthy of strength."
-				"Only then may they endure this blazing terror’s ire.”"
-				""
-				"To awaken the guardian, a &fNether Star&r must be offered. Drop it onto the lectern, and from the fire rises the &cHovering Inferno&r-the final trial, a blazing terror of relentless fury."
-				"Defeat it, and the Martian Flame itself will bend to your will."
-			]
-			icon: {
-				Count: 1
-				id: "cataclysm:monstrous_eye"
-				tag: { }
-			}
-			id: "598BD03BE0D0347B"
-			rewards: [
-				{
-					count: 3
-					id: "3309A6E6D0F4800D"
-					item: "ad_astra:ostrum_block"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "4438ACDDBC99BB1E"
-					item: "ad_astra:mars_sand"
-					type: "item"
-				}
-				{
-					id: "7A6CB150FA9E6464"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Uncover the secrets of a lost Martian civilization-and claim the fire-forged relics hidden within. Click me for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "65A8BB675F2C805C"
-					structure: "ad_astra:mars_temple"
-					title: "Locate a Mars Temple"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "cataclysm:monstrous_eye"
-						tag: { }
-					}
-					id: "1E84DED28051B3B3"
-					structure: "cataclysm:soul_black_smith"
-					title: "Locate a Soul Blacksmith"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "725518AA7338F879"
-					structure: "incendium:infernal_altar"
-					title: "Locate an Infernal Altar"
-					type: "structure"
-				}
-			]
-			title: "&cTrial of the Martian Flame&r"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["598BD03BE0D0347B"]
-			description: [
-				" &cRedstone Riches: Mining the Depths of Mars&r"
-				""
-				"Mars is far more than a lifeless desert-&lit’s a planet of hidden potential&r, waiting to be unearthed by those bold enough to dig deep."
-				""
-				"Beneath its crimson surface lies a cache of &6rare materials&r, each vital to your continued progression. Discover &fStellaris&r, a mysterious celestial metal with untapped power. Mine &dMars Ostrum Ore&r, a crucial ingredient for crafting high-tier components. Unearth &bMars Ice Shard Ore&r, a frozen enigma that could hold the key to survival in extreme environments."
-				""
-				"{@pagebreak}"
-				""
-				"&lGear up&r and establish a forward mining base-&oyou'll need it&r. Mars is as hostile as it is rich, and the creatures lurking in its caves don’t take kindly to trespassers."
-				""
-				"&lWill you brave the depths and emerge with riches-or be buried beneath the red dust?&r"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "75F33C79A51D73A7"
-			rewards: [
-				{
-					count: 4
-					id: "1D0943A7D0088DD4"
-					item: "ad_astra:ostrum_block"
-					type: "item"
-				}
-				{
-					id: "6EDB15A6FCA0B727"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Dig deep, uncover powerful ores, and forge the future beneath the Martian crust. Click me for more info!"
-			tasks: [
-				{
-					block: "forge_frontier:stellaris"
-					block_type: 0
-					checkItem: false
-					id: "42CFB1D514B88587"
-					type: "questsadditions:break"
-					value: 16L
-				}
-				{
-					block: "ad_astra:mars_ostrum_ore"
-					block_type: 0
-					checkItem: false
-					id: "400EBB867E219409"
-					type: "questsadditions:break"
-					value: 16L
-				}
-				{
-					block: "ad_astra:mars_ice_shard_ore"
-					block_type: 0
-					checkItem: false
-					id: "0FA4D2C98651BA6F"
-					type: "questsadditions:break"
-					value: 16L
-				}
-			]
-			title: "Redstone Riches: Mining the Depths of Mars"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["75F33C79A51D73A7"]
-			description: [
-				" &6Forward to Fire: Mercury Awaits&r"
-				""
-				"Your mission on Mars has tested your resolve and rewarded your ambition. But in the grand expanse of the cosmos, &othis is only the beginning&r."
-				""
-				"Armed with &6rare Martian resources&r and the wisdom of ancient ruins, it’s time to set your sights on the next frontier: &cMercury&r-&la world of blazing heat, volatile terrain, and secrets long buried beneath scorched stone&r."
-				""
-				"{@pagebreak}"
-				""
-				"&lThe path forward will not be easy.&r Mercury offers &ounique opportunities and lethal hazards&r in equal measure. You’ll need upgraded tech, advanced protection, and an unshakable will to thrive."
-				""
-				"Ready your rocket and steel your spirit-the next phase of your cosmic journey lies beyond the sunlit horizon."
-				""
-				" To learn more, explore the  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B54577F45BDF5E7\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "ad_astra:mercury_globe"
-				tag: { }
-			}
-			id: "4AD1CCF2DA9C58B2"
-			rewards: [{
-				id: "0DE9D92CE9BA4BC8"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "ad_astra_giselle_addon:gravity_normalizing"
-							lvl: 1
-						}]
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Your Martian legacy leads to a new world of blazing challenges and cosmic opportunity. Click me for more info!"
-			tasks: [{
-				id: "6605C2E4245717B9"
-				title: "Check"
-				type: "checkmark"
-			}]
-			title: "Forward to Fire: Mercury Awaits"
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4AD1CCF2DA9C58B2"]
 			description: [
 				" &cMercury: Trial by Fire&r"
 				""
@@ -2049,6 +1724,198 @@
 			]
 			title: " Marsbound: First Steps on the Red Planet"
 			x: -15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			hide_dependent_lines: true
+			icon: "ad_astra:mars_sand"
+			id: "0FD77C737AFB7625"
+			shape: "pentagon"
+			tasks: [{
+				id: "12605661642EC838"
+				title: "Mars Resource Vents"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			id: "3843F282DA492092"
+			shape: "pentagon"
+			tasks: [{
+				id: "77297BDFE50DB29A"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "Locate and Conquer the Soul Blacksmith"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7027C684425A18"]
+			id: "533BF352B104BF8B"
+			tasks: [{
+				id: "0CEFF200C7518F38"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0FD77C737AFB7625"]
+			description: [
+				"Hidden atop the red sands of Mars lies the &5Stellaris Vent&r, a radiant molten geyser glowing with interplanetary power. These vents form the foundation of &dOstrum&r automation, an advanced alloy vital to space-age engineering."
+				""
+				"{image:ftb:textures/stellaris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this vent’s potential, place &la Blaze Burner&r atop its dormant shell and feed it a blaze cake causing it to transform it into an active conduit of molten force.&r"
+				""
+				"Once activated, provide the necessary &dsource fluid&r (covered in the next quest) to fuel your &lMechanical Extruders&r and kickstart Ostrum production."
+				""
+				" &5The sands of Mars conceal ancient power-will you unearth it and forge your legacy among the stars?&r"
+			]
+			icon: "create_resource_vents:dormant_stellaris_vent"
+			id: "3C81772B0834E434"
+			rewards: [{
+				id: "5FEB1450A30908DF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "313920FA593F382C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_stellaris_vent"
+				type: "observation"
+			}]
+			title: "Flame of Martian Ambition"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			hide_dependent_lines: true
+			icon: "ad_astra:mars_stone"
+			id: "3A7027C684425A18"
+			shape: "pentagon"
+			tasks: [{
+				id: "154AF3F9040D2411"
+				title: "Eyes of Mars"
+				type: "checkmark"
+			}]
+			title: "Eyes of Mars"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			id: "7A77DB9E2A635701"
+			shape: "pentagon"
+			tasks: [{
+				id: "603D191C7798D785"
+				item: "ad_astra:orange_flag"
+				type: "item"
+			}]
+			title: "Martian Structures"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6169F8EB0E600750"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
+			id: "586133B7C1877C61"
+			shape: "pentagon"
+			tasks: [{
+				id: "54A9015CAEFB9007"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "Tier 3 Rocket Parts"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["586133B7C1877C61"]
+			description: [
+				"&7With flame at your feet and stars overhead, it’s time to enter the crucible of space.&r"
+				""
+				" &eCongratulations, fearless adventurer!&r With your &lTier 3 Rocket&r complete, you’re prepared to journey into the most extreme and enigmatic worlds yet."
+				""
+				"{@pagebreak}"
+				""
+				" &lMercury&r  "
+				"Buckle up and &6launch toward Mercury&r-its &cblistering surface&r hides &otreacherous ruins&r and &6rare treasures&r, buried beneath the relentless glare of the sun."
+				""
+				" &lVenus&r  "
+				"Continue your voyage to the &ofiery atmosphere&r of Venus, a planet teeming with:"
+				""
+				"-  &oAncient ruins&r pulsing with forgotten energy  "
+				"-  Valuable loot scattered across scorched landscapes  "
+				"-  &cDangerous challenges&r for only the most daring explorers"
+				""
+				"{@pagebreak}"
+				""
+				"These planets are not for the faint of heart-but for those who dare, they offer &orare finds&r and &6untold secrets&r. Will you rise above the heat and uncover their mysteries?"
+				""
+				" &lThe stars are watching-are you ready to push the boundaries of exploration?&r"
+			]
+			icon: "ad_astra:mercury_globe"
+			id: "5930A1E4723BBE2A"
+			rewards: [
+				{
+					count: 2
+					id: "4CB5D119B6C10934"
+					item: "ad_astra:venus_calorite_ore"
+					type: "item"
+				}
+				{
+					id: "22751366BB914409"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.0d
+			subtitle: "Mercury and Venus await-heat, history, and hidden riches lie beyond the flame. Click me for more info!"
+			tasks: [
+				{
+					id: "24C9487D8333CE87"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7008E82F561FFD43"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "3A0A3FF9460C7E41"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: " Tier 3 Rocket: Blazing the Path Forward"
+			x: 7.0d
 			y: 1.5d
 		}
 	]
