@@ -249,11 +249,22 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Explore, adapt, and uncover ancient secrets beneath the red sands. Click me for more info!"
-			tasks: [{
-				id: "4C252279091771C2"
-				item: "ad_astra:desh_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68D5B0830CE4B51A"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7AD8D5CEC9DFA618"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
 			title: "Mars: The Crimson Frontier"
 			x: 4.0d
 			y: -3.0d
@@ -1728,9 +1739,15 @@
 		}
 		{
 			dependencies: ["6169F8EB0E600750"]
+			description: ["As you journey across the &6Martian Surface&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
 			hide_dependent_lines: true
 			icon: "ad_astra:mars_sand"
 			id: "0FD77C737AFB7625"
+			rewards: [{
+				id: "6EC354B0E2759D60"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "12605661642EC838"
@@ -1742,33 +1759,81 @@
 		}
 		{
 			dependencies: ["6169F8EB0E600750"]
+			description: [
+				"Buried deep within the frozen wastes of Mars’ Polar Ice Caps lies a fortress forged from blackstone, lava, and steel."
+				""
+				"Here, the &4Netherite Monstrosity&r has taken refuge."
+				""
+				"Once a devastating force within the Nether, the Monstrosity fled across the stars in an attempt to escape the destruction left in its wake. Yet even upon the frozen surface of Mars, its rage continues to grow, corrupting the surrounding fortress with fire and ruin."
+				""
+				"To continue your journey toward &5The End&r, you must track the beast through the icy wastelands and bring an end to its reign."
+				""
+				"{image:ftb:textures/soul_blacksmith_bg.png width:225 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Unlike many foes, the &4Netherite Monstrosity&r requires no ritual or summoning."
+				""
+				"Simply entering its domain is enough to awaken the beast."
+				""
+				"The moment it senses your presence, the fortress will erupt into chaos as molten fury and crushing strength are unleashed upon you. Prepare carefully before approaching - this battle is one of endurance, positioning, and survival."
+				""
+				"Once you step forward, there is no turning back."
+				""
+				"{@pagebreak}"
+				""
+				"Beyond the Monstrosity’s throne lies a hidden reward for those observant enough to seek it out."
+				""
+				"Concealed behind the massive lavafalls on either side of the arena is a secret vault containing valuable loot and mysterious &dExperience Blocks&r."
+				""
+				"Break the experience blocks hidden within the vault to claim the forgotten riches buried beneath the fortress."
+				""
+				"{image:ftb:textures/experience_blocks.png width:175 height:175 align:center}"
+			]
+			icon: "cataclysm:monstrous_eye"
 			id: "3843F282DA492092"
+			rewards: [
+				{
+					id: "2FFE8A08ED05323B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "63A77190ECD5BD70"
+					item: "cataclysm:infernal_forge"
+					type: "item"
+				}
+				{
+					id: "76A7490D55B5624F"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "77297BDFE50DB29A"
-				item: "cataclysm:monstrous_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77297BDFE50DB29A"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "7370A0F411064DDA"
+					structure: "cataclysm:soul_black_smith"
+					title: "Use the Eye to Locate the Soul Blacksmith"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: "cataclysm:netherite_effigy"
+					id: "2CB749DE08533189"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "Locate and Conquer the Soul Blacksmith"
 			x: 2.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["3A7027C684425A18"]
-			id: "533BF352B104BF8B"
-			tasks: [{
-				id: "0CEFF200C7518F38"
-				item: {
-					Count: 1
-					id: "endrem:lost_eye"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["0FD77C737AFB7625"]
@@ -1781,34 +1846,60 @@
 				""
 				"To awaken this vent’s potential, place &la Blaze Burner&r atop its dormant shell and feed it a blaze cake causing it to transform it into an active conduit of molten force.&r"
 				""
-				"Once activated, provide the necessary &dsource fluid&r (covered in the next quest) to fuel your &lMechanical Extruders&r and kickstart Ostrum production."
+				"Once activated, provide &dpomegranate milkshake&r to fuel your &lMechanical Extruders&r and kickstart Ostrum production."
 				""
 				" &5The sands of Mars conceal ancient power-will you unearth it and forge your legacy among the stars?&r"
 			]
 			icon: "create_resource_vents:dormant_stellaris_vent"
 			id: "3C81772B0834E434"
-			rewards: [{
-				id: "5FEB1450A30908DF"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "1870386F93008A97"
+					item: "forge_frontier:stellaris"
+					type: "item"
+				}
+				{
+					id: "5233A7CA638C1A20"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					id: "2F60DB06D9953775"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "313920FA593F382C"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_stellaris_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "313920FA593F382C"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_stellaris_vent"
+					type: "observation"
+				}
+				{
+					id: "3B953ED6CB23676F"
+					item: "forge_frontier:pomegranate_milkshake_bucket"
+					type: "item"
+				}
+			]
 			title: "Flame of Martian Ambition"
 			x: 1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6169F8EB0E600750"]
+			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of &6Mars&r progression."]
 			hide_dependent_lines: true
 			icon: "ad_astra:mars_stone"
 			id: "3A7027C684425A18"
+			rewards: [{
+				id: "67ED5704CCDB1037"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "154AF3F9040D2411"
@@ -1821,19 +1912,131 @@
 		}
 		{
 			dependencies: ["6169F8EB0E600750"]
+			description: [
+				"&7The surface of Mars is filled with the ruins of forgotten civilizations, ancient temples, and dangerous strongholds buried beneath endless crimson sands.&r"
+				""
+				"As you explore the harsh Martian landscape, you will uncover mysterious structures containing powerful enemies, valuable loot, and long-lost secrets hidden deep within the planet’s ruins."
+				""
+				"Each discovery may provide the resources and knowledge needed to continue your expansion deeper into the solar system."
+				""
+				"{@pagebreak}"
+				""
+				"&lMars Temple&r"
+				"Scattered across the deserts of Mars, the ancient &cMars Temple&r stands as a relic of a forgotten age. Though worn down by time and endless sandstorms, these temples still contain hidden treasures and dangerous guardians protecting what remains inside."
+				""
+				"Explorers willing to brave the temple’s halls may uncover valuable resources and rare rewards essential for future progression."
+				""
+				"{image:ftb:textures/mars_temple.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lMars Tower Dungeon&r"
+				"Rising high above the Martian surface, the &4Mars Tower Dungeon&r is one of the most dangerous structures found on the planet. These towering fortresses are filled with hostile enemies, difficult encounters, and valuable loot awaiting those strong enough to reach the summit."
+				""
+				"Each level presents greater danger, but also greater reward."
+				""
+				"Only the prepared will survive the climb."
+				""
+				"{image:ftb:textures/mars_tower_dungeon.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lInfernal Altar&r"
+				"Hidden among the wastelands of Mars lies the ominous &6Infernal Altar&r, a corrupted structure radiating dangerous energy. Its origins remain unknown, but the creatures surrounding it suggest something far darker once took place here."
+				""
+				"Those brave enough to investigate may uncover rare loot and powerful materials unlike anything found elsewhere on the planet."
+				""
+				"Approach carefully - not all ruins were meant to be disturbed, if adventorous right click a nether star on the altar to summon the beast within."
+				""
+				"{image:ftb:textures/infernal_altar.png width:225 height:140 align:center}"
+			]
+			icon: "ad_astra:orange_flag"
 			id: "7A77DB9E2A635701"
+			rewards: [
+				{
+					count: 3
+					id: "416A4189B80E54B2"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7A559DEB945D2348"
+					item: "ad_astra:mars_ice_shard_ore"
+					type: "item"
+				}
+				{
+					id: "73BF63A2D8B6E7CC"
+					item: {
+						Count: 1
+						id: "ad_astra:zip_gun"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 3000L
+									Fluid: "ad_astra:oxygen"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "028BB33CCD00CFDD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "603D191C7798D785"
-				item: "ad_astra:orange_flag"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6125032244B9882E"
+					structure: "ad_astra:mars_temple"
+					type: "structure"
+				}
+				{
+					id: "104C63E67B24A6A2"
+					structure: "ad_astra_more_structures:mars_tower_dungeon"
+					type: "structure"
+				}
+				{
+					id: "382CE0009B891678"
+					structure: "incendium:infernal_altar"
+					type: "structure"
+				}
+			]
 			title: "Martian Structures"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6169F8EB0E600750"]
+			description: [
+				"&7Beyond the red deserts of Mars lie two vastly different worlds - one consumed by scorching heat, the other hidden beneath toxic clouds.&r"
+				""
+				"With the construction of the &6Tier 3 Rocket&r, your space program enters a dangerous new era of exploration. Mercury and Venus present challenges unlike anything encountered before, demanding stronger engineering, more advanced production lines, and a factory capable of supporting increasingly hostile expeditions."
+				""
+				"The journey ahead will test both your technology and your ability to survive the extremes of the inner solar system."
+				""
+				"{@pagebreak}"
+				""
+				"&lPreparing for the Inner Planets&r:"
+				"The &6Tier 3 Rocket&r is designed for long-range travel and extreme environmental resistance. Reaching Mercury and Venus requires upgraded propulsion systems, reinforced structural plating, and highly specialized components capable of enduring immense heat and hazardous atmospheric conditions."
+				""
+				"Your factory must continue to evolve, producing advanced materials and automation systems powerful enough to sustain deep-space operations on hostile worlds."
+				""
+				"Every machine, assembly line, and resource network now serves a greater purpose:"
+				""
+				"Expanding humanity’s reach across the solar system."
+				""
+				"{@pagebreak}"
+				""
+				"As the engines ignite and your newest spacecraft rises from the launch pad, you begin to understand the true scale of your journey."
+				""
+				"This is no longer exploration of nearby worlds."
+				""
+				"It is the conquest of an entire planetary system."
+			]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -1841,12 +2044,75 @@
 				tag: { }
 			}
 			id: "586133B7C1877C61"
+			rewards: [
+				{
+					count: 5
+					id: "5FB1FC708310A26C"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					id: "6D296199B5EDE18F"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "058E987167B8D96A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "54A9015CAEFB9007"
-				item: "ad_astra:rocket_nose_cone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "54A9015CAEFB9007"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "0B51049EA16D1909"
+					item: { Count: 20, id: "forge_frontier:ostrum_rocket_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "70D0C373B6A3DDCA"
+					item: { Count: 2, id: "forge_frontier:thermal_shield_matrix" }
+					type: "item"
+				}
+				{
+					id: "0D0BD29E7C551726"
+					item: "forge_frontier:solar_regulation_array"
+					type: "item"
+				}
+				{
+					id: "791676760B4555FD"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_2_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "62419AC2C4798AE4"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7FAB9C0D6B44346B"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "02573FA2B520DE90"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
 			title: "Tier 3 Rocket Parts"
 			x: 7.0d
 			y: 0.0d
@@ -1916,6 +2182,104 @@
 			]
 			title: " Tier 3 Rocket: Blazing the Path Forward"
 			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A7027C684425A18"]
+			description: [
+				"Forged by the first blacksmiths at the dawn of creation, the &6Lost Eye&r stands as a testament to divine craftsmanship-an artifact glowing with the fire of the earth’s very soul.  "
+				""
+				"The pieces you seek are scattered between the molten depths of the Nether and the barren ruins of &cAd Astra’s Mars&r, where ancient battles of fire and stone still echo.  "
+				"The next few pages will guide you to reclaim the tools of the ancients."
+				""
+				"{@pagebreak}"
+				""
+				"- &lInfernal Forge&r and &lMonstrous Horn&r:  "
+				"  Both are prized trophies obtained by defeating the fearsome &eNetherite Monstrosity&r, a creature of molten rage found lurking within the &eSoul Blacksmith&r structure on Mars.  "
+				"  Its defeat is no small feat-steel your spirit and prepare for battle against a relic of chaos.  "
+				"{image:ftb:textures/smith.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lChisel of the Deep Forge&r:  "
+				"  Crafted in silence beneath the world’s crust, this legendary chisel shapes not just stone-but destiny itself.  "
+				"  It can be unearthed from the sacred ruins hidden among &eMars Temple&r treasures. "
+				""
+				"- &lAncient Debris&r:  "
+				"  Raw fragments of creation’s earliest forges, Ancient Debris can be found deep in the Nether, either in natural generation or at an Ancient Debris Resource Vent."
+				""
+				"{@pagebreak}"
+				""
+				" &nOnly those who can endure fire and fury may claim the Lost Eye.&r  "
+				"The path will test your mettle, your will, and your soul. But those who succeed will wield a relic forged by gods-the ember of creation itself, reborn through your triumph."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:lost_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "40C0805A32D59455"
+			optional: true
+			rewards: [
+				{
+					id: "79FE5FFEC52429A0"
+					item: "cataclysm:netherite_ministrosity_bucket"
+					type: "item"
+				}
+				{
+					id: "01E1EE3B008011CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Restore the Lost Eye and awaken the fire of the world's first forge. Click me for more info!."
+			tasks: [
+				{
+					id: "17E4278B73BCB4A9"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "1A9A6CFAAB09F284"
+					item: "forge_frontier:deep_forge_chisel"
+					type: "item"
+				}
+				{
+					id: "47A0800B6852E627"
+					item: "cataclysm:infernal_forge"
+					type: "item"
+				}
+				{
+					id: "54627045CE33FAC4"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+				{
+					id: "13BA1FE44008B40F"
+					item: "cataclysm:monstrous_eye"
+					type: "item"
+				}
+				{
+					id: "75CDC6D9F75BF6B1"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "3A69B26748964962"
+					item: {
+						Count: 1
+						id: "endrem:lost_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ember of Creation"
+			x: 4.0d
 			y: 1.5d
 		}
 	]

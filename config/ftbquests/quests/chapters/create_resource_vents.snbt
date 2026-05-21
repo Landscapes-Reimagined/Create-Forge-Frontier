@@ -78,54 +78,6 @@
 		{
 			dependencies: ["7AC47553B491EE76"]
 			description: [
-				"Beneath the &4crimson dunes&r and jagged cliffs of Mars lies a discovery that redefines space-age engineering-the &lStellaris Vent&r. This molten fissure radiates with &dinterstellar energy&r, its glowing core a gateway to &6rare resources&r essential for your most advanced machines."
-				""
-				"Found only on the &4Martian surface&r, Stellaris Vents are your ticket to unlocking powerful components like &6Ostrum&r, pushing your technological frontier further than ever before."
-				""
-				"{@pagebreak}"
-				""
-				" Venture Across the Red World"
-				"To locate a Stellaris Vent, you’ll need to brave Mars’s &cdust-choked plains&r and &7hostile terrain&r. Once discovered, feed a blaze burner blaze cake atop the vent to activate it, transforming it into a pulsing source of molten energy."
-				""
-				" Refined Power, Endless Potential"
-				"Feed the awakened vent its &oliquid catalyst&r-crafted through resourceful engineering-and you’ll be able to automate &6Ostrum&r production using &lmechanical extruders&r."
-				""
-				"{@pagebreak}"
-				""
-				" Mars holds the keys to your next great leap."
-				"Unleash the power of &dStellaris&r and fuel your rise through the cosmos."
-				""
-				"&4The Red Planet awaits-are you ready to claim its molten legacy?&r"
-			]
-			icon: "ad_astra:mars_globe"
-			id: "7339FE49A994B794"
-			rewards: [
-				{
-					count: 9
-					id: "1464006920E05211"
-					item: "ad_astra:mars_sand"
-					type: "item"
-				}
-				{
-					id: "2B74E66886345D78"
-					type: "xp"
-					xp: 25
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Martian Treasure: The Stellaris Vent, Click me for more info!"
-			tasks: [{
-				dimension: "ad_astra:mars"
-				id: "1EEB22ACE1F951D6"
-				type: "dimension"
-			}]
-			title: "Resource Vent of Mars"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7AC47553B491EE76"]
-			description: [
 				"Amid the &cscorching storms&r and &6volcanic terrain&r of Venus lies a molten marvel-the &lPyroclast Vent&r. This superheated fissure pulses with &cfire-infused energy&r, radiating with volatile power and the promise of &6rare progression materials&r."
 				""
 				"Found exclusively on the &6surface of Venus&r, the Pyroclast Vent is not just a resource node-it’s a &ltrial by fire&r, offering &dCalorite potential&r to those resilient enough to endure the planet’s wrath."
@@ -598,58 +550,6 @@
 				}
 			]
 			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["7339FE49A994B794"]
-			icon: "ad_astra:mars_sand"
-			id: "02912A82870B46F7"
-			rewards: [{
-				id: "15F7BC52B44DC35E"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				biome: "#ad_astra:has_structure/mars_temple"
-				id: "2847E25810905D45"
-				type: "biome"
-			}]
-			title: "Locate A Martian Wastelands Biome"
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1B5FB4BFC3366093"]
-			icon: {
-				Count: 1
-				id: "ad_astra:ostrum_ingot"
-				tag: { }
-			}
-			id: "01B665D8F9A316F5"
-			rewards: [{
-				id: "303CB47A1C4B7F06"
-				item: "ad_astra:ostrum_block"
-				type: "item"
-			}]
-			subtitle: "Stellaris can be later crushed down to produce Ostrum."
-			tasks: [
-				{
-					id: "2BCEFEC51E11BDE3"
-					item: "forge_frontier:stellaris"
-					type: "item"
-				}
-				{
-					id: "458451B75056E22C"
-					item: "forge_frontier:crushed_stellaris"
-					type: "item"
-				}
-				{
-					id: "16CB7AB35FB0BBBD"
-					item: "ad_astra:ostrum_ingot"
-					type: "item"
-				}
-			]
-			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -1640,40 +1540,6 @@
 			}]
 			title: "Adzuki Milkshake: Calorite Catalyst"
 			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3C81772B0834E434"]
-			description: [
-				"&dPomegranate Milkshake&r is the vital fluid used to activate &5Stellaris Resource vents&r, powering the &3mechanical extruders&r responsible for automating the production of &eOstrum&r. This vibrant and tart infusion begins with a heated blend of fresh ingredients to produce &opomegranate milk&r."
-				""
-				"Begin by crafting the base milk through &lHeated Mixing&r using the recipe below:"
-				""
-				"{image:ftb:textures/_forge_frontier_mixing_pomegranate_milk.png width:200 height:120 align:center}"
-				""
-				"{@pagebreak}"
-				""
-				"With your pomegranate milk prepared, continue the process by mixing in the final ingredients to create the completed milkshake-an essential fluid in Ostrum’s high-tech automation."
-				""
-				"{image:ftb:textures/_forge_frontier_mixing_pomegranate_milkshake.png width:200 height:120 align:center}"
-				""
-				"&lRefined, radiant, and reactor-ready&r-Pomegranate Milkshake delivers the power needed to push your automation further than ever before. "
-			]
-			hide_dependency_lines: true
-			id: "1B5FB4BFC3366093"
-			rewards: [{
-				id: "41CCA2D68B774410"
-				item: "ad_astra:ostrum_block"
-				type: "item"
-			}]
-			subtitle: "Igniting the Path to Ostrum."
-			tasks: [{
-				id: "7AC498FDC5FAD53D"
-				item: "forge_frontier:pomegranate_milkshake_bucket"
-				type: "item"
-			}]
-			title: "Pomegranate Milkshake: Ostrum Goodness"
-			x: 0.0d
 			y: 4.5d
 		}
 		{
