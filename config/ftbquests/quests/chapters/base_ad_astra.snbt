@@ -629,7 +629,7 @@
 				}
 			]
 			title: "Lunar Structures"
-			x: -7.5d
+			x: -10.5d
 			y: 0.0d
 		}
 		{
@@ -847,7 +847,7 @@
 				}
 			]
 			title: "Locate and Conquer the Ancient Factory"
-			x: -10.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -1062,7 +1062,7 @@
 				}
 			]
 			title: "Locate and Conquer the Soul Blacksmith"
-			x: 9.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -1236,7 +1236,7 @@
 				}
 			]
 			title: "Martian Structures"
-			x: 12.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -1661,7 +1661,7 @@
 				type: "item"
 			}]
 			title: "Locate and Conquer the Burning Arena"
-			x: -10.5d
+			x: -9.0d
 			y: 11.5d
 		}
 		{
@@ -1674,7 +1674,7 @@
 				type: "item"
 			}]
 			title: "Locate and Conquer the Cursed Pyramid"
-			x: -1.5d
+			x: 1.5d
 			y: 11.5d
 		}
 		{
@@ -1683,7 +1683,7 @@
 			id: "305D28C167DCC07E"
 			shape: "pentagon"
 			title: "Mercurian Structures"
-			x: -9.0d
+			x: -10.5d
 			y: 11.5d
 		}
 		{
@@ -1692,7 +1692,7 @@
 			id: "0906E1B09441C0CB"
 			shape: "pentagon"
 			title: "Venusian Structures"
-			x: 1.5d
+			x: -1.5d
 			y: 11.5d
 		}
 		{
@@ -1862,7 +1862,7 @@
 			id: "120B595432CA7CEE"
 			shape: "pentagon"
 			title: "Glacian Structures"
-			x: 12.0d
+			x: 10.0d
 			y: 11.5d
 		}
 		{
@@ -1875,7 +1875,7 @@
 				type: "item"
 			}]
 			title: "Locate and Conquer the Frosted Prison"
-			x: 10.0d
+			x: 12.0d
 			y: 11.5d
 		}
 		{
