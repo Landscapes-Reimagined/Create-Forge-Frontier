@@ -339,15 +339,21 @@
 					type: "item"
 				}
 				{
-					count: 6
-					id: "3C2479C984596471"
-					item: "mob_grinding_utils:entity_conveyor"
+					count: 2
+					id: "2DF45DD2A3A94634"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:weakness"
+						}
+					}
 					type: "item"
 				}
 				{
-					id: "7521964105A265F1"
+					id: "64B80D77023AB477"
 					type: "xp"
-					xp: 25
+					xp: 100
 				}
 			]
 			subtitle: "Captured Critters."
@@ -1265,34 +1271,35 @@
 		{
 			dependencies: ["610FD2C783821A4E"]
 			description: [
-				"      One Giant Leap For Mine-Kind!"
+				"Collecting a &dChorus Fruit&r begins your journey with Create Teleporters."
 				""
-				"Collecting a Strophar Mushroom begins your journey with Create Teleporters."
-				""
-				"{\"text\":\"Purchase a Strophar Mushroom from the Market using 8 pieces of \",\"extra\":[{\"text\":\"Cheese.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"24C986F9BAF0896B\"},\"color\":\"blue\",\"underlined\":true}]}"
+				"You can craft &dchorus fruit&r using a Dragon Head Catalyst to convert an apple, or use Skulk Catalytic Chamber to convert enderpearls to &dchorus fruit&r, or of course find them in the end."
 			]
 			hide_dependency_lines: true
 			id: "4D7F40A185C13F17"
 			rewards: [
 				{
-					count: 8
 					id: "4D326E91D41BF22D"
-					item: "create:sturdy_sheet"
+					item: "minecraft:chorus_flower"
 					type: "item"
 				}
 				{
-					id: "7191E0DA175C6718"
+					id: "6E9FD8A33EDAB512"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "60968E363A54B1BB"
 					type: "xp"
-					xp: 50
+					xp: 25
 				}
 			]
-			subtitle: "One Small Shroom For Man..."
 			tasks: [{
 				id: "1E8CBEE5C5D32655"
-				item: "ad_astra:strophar_mushroom"
+				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			title: "Strophar Mushrooms"
+			title: "Chorus Fruit"
 			x: 5.0d
 			y: -3.5d
 		}
@@ -1306,9 +1313,8 @@
 			id: "6C7CFED90BB69C06"
 			rewards: [
 				{
-					count: 8
 					id: "739E11544CF4BB85"
-					item: "create:sturdy_sheet"
+					item: "createteleporters:quantum_fluid_bucket"
 					type: "item"
 				}
 				{
@@ -1474,11 +1480,6 @@
 					type: "item"
 				}
 				{
-					id: "5C1BA82D27478CE8"
-					item: "createteleporters:tp_rec"
-					type: "item"
-				}
-				{
 					id: "4D6E354956B33056"
 					item: "createteleporters:tp_link"
 					type: "item"
@@ -1531,11 +1532,6 @@
 				{
 					id: "36251FC43D2D1109"
 					item: "createteleporters:item_tp"
-					type: "item"
-				}
-				{
-					id: "641AB5500FEEB824"
-					item: "createteleporters:item_tp_rec"
 					type: "item"
 				}
 				{

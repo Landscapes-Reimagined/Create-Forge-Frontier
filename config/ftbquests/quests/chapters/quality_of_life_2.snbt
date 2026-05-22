@@ -82,10 +82,9 @@
 			]
 			subtitle: "Master FTB Quests and turn your journey into a legendary adventure. Click me to learn more!"
 			tasks: [{
-				id: "6764FBD81806FBBD"
-				stat: "minecraft:sprint_one_cm"
-				type: "stat"
-				value: 100
+				id: "4ED96C4FB0B73BA0"
+				title: "FTB Quests Check"
+				type: "checkmark"
 			}]
 			title: "Forging Your Path"
 			x: 2.0d
@@ -127,10 +126,9 @@
 			}]
 			subtitle: "Master FTB Homes and unlock the freedom to roam, build, and thrive. Click me to learn more!"
 			tasks: [{
-				advancement: "minecraft:adventure/sleep_in_bed"
-				criterion: ""
-				id: "16F8B441C6369F1D"
-				type: "advancement"
+				id: "7A694C353258333E"
+				title: "FTB Homes Check"
+				type: "checkmark"
 			}]
 			title: "Forge Your Network"
 			x: -1.0d
@@ -187,10 +185,9 @@
 			}]
 			subtitle: "Master land protection and team collaboration with FTB Chunks. Click me for more info!"
 			tasks: [{
-				advancement: "lootr:1barrel"
-				criterion: ""
-				id: "438746993C0538B9"
-				type: "advancement"
+				id: "281BAC80EC4662DB"
+				title: "FTB Chunks Check"
+				type: "checkmark"
 			}]
 			title: "Claim Your Legacy"
 			x: 1.0d
@@ -260,10 +257,9 @@
 			size: 3.0d
 			subtitle: "Learn the powerful features that will guide, protect, and elevate your journey. Click me to learn more!"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: "minecraft:grass_block"
-				id: "569E10C16812CA8B"
-				type: "dimension"
+				id: "1F7E051D9DE0E18B"
+				title: "Learning about FTB"
+				type: "checkmark"
 			}]
 			title: "Mastering Essential Tools"
 			x: 1.0d
@@ -313,10 +309,9 @@
 			}]
 			subtitle: "Unlock powerful survival tools and thrive across every frontier. Click me to learn more!"
 			tasks: [{
-				advancement: "lootr:1barrel"
-				criterion: ""
-				id: "07235051A143B2D6"
-				type: "advancement"
+				id: "4303A55FFD970ED4"
+				title: "FTB Essentials Check"
+				type: "checkmark"
 			}]
 			title: "Mastering the Essentials"
 			x: 0.0d
@@ -351,6 +346,13 @@
 				"With FTB Ultimine, the world bends to your will. "
 			]
 			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "19FA24B07EA17024"
 			rewards: [
 				{
@@ -366,10 +368,9 @@
 			]
 			subtitle: "Unlock the power of FTB Ultimine and reshape the world with speed and precision. Click me for more info!"
 			tasks: [{
-				advancement: "minecraft:story/mine_stone"
-				criterion: ""
-				id: "6C45C8A68D817DEA"
-				type: "advancement"
+				id: "3602DB70FC24DA1D"
+				title: "FTB Ultimine Check"
+				type: "checkmark"
 			}]
 			title: "Mines of Innovation"
 			x: 3.0d
@@ -385,6 +386,11 @@
 				}
 			}
 			id: "6EE09A4C8D827BE0"
+			rewards: [{
+				id: "1778A6B6EE4D2D97"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -401,6 +407,11 @@
 			description: ["This pack includes a wide variety of decorative mods that enhance the visual appeal of your factories and living spaces, allowing for greater customization and creative expression."]
 			icon: "beautify:botanist_workbench"
 			id: "524AB2AB34C92E0E"
+			rewards: [{
+				id: "3463FF7DFD098FF6"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -454,9 +465,9 @@
 			id: "2B7B9AF464F63EE8"
 			rewards: [
 				{
-					count: 7
+					count: 3
 					id: "17A552F637B9C5D4"
-					item: "supplementaries:feather_block"
+					item: "utilitarian:angel_block"
 					type: "item"
 				}
 				{
@@ -516,8 +527,9 @@
 			id: "4E95E4317312740D"
 			rewards: [
 				{
+					count: 3
 					id: "08844FEBCADB67A3"
-					item: "powah:player_transmitter_starter"
+					item: "fluxnetworks:flux_dust"
 					type: "item"
 				}
 				{
@@ -697,7 +709,7 @@
 			id: "5293751E5CD5D576"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "400F8F2EE2197F98"
 					item: "cable_facades:facade"
 					type: "item"
@@ -781,36 +793,47 @@
 				"- Biome Compass – Allows you to locate any biome available in the pack."
 				""
 				"- Structure Compass – Used to locate generated structures throughout the world."
-				""
-				"- Recovery Compass – Helps you locate your grave and recover lost items."
 			]
 			hide_dependency_lines: true
 			icon: "minecraft:compass"
 			id: "429A29A4974D7045"
 			rewards: [
 				{
-					id: "22DE1AFAD2A6FE2D"
-					item: "minecraft:diamond_block"
+					id: "63E12F91C058B541"
+					item: "createcompression:compressed_andesite_alloy_1x"
 					type: "item"
 				}
 				{
-					id: "58680BF3643EF4F2"
+					id: "55A86E13FADC356F"
 					type: "xp"
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "74CD8FAA44EDDF6C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:compasses"
-					}
+			tasks: [
+				{
+					id: "58962109D4C23A4B"
+					item: "minecraft:compass"
+					type: "item"
 				}
-				title: "Any #minecraft:compasses"
-				type: "item"
-			}]
+				{
+					id: "3433AFF75A40F0F8"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "609819071690A4D7"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "Compasses"
 			x: -6.5d
 			y: 10.5d

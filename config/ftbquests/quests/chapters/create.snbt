@@ -788,11 +788,6 @@
 					type: "item"
 				}
 				{
-					dimension: "minecraft:the_nether"
-					id: "5C2F12F5D81C0652"
-					type: "dimension"
-				}
-				{
 					id: "432C2384AFEEC69D"
 					item: "create:blaze_burner"
 					type: "item"
@@ -3275,13 +3270,11 @@
 			]
 			subtitle: "O where art thou fair Andesite Cave."
 			tasks: [{
-				id: "4ED3B53840EA348F"
-				item: {
-					Count: 1
-					id: "naturescompass:naturescompass"
-					tag: { }
-				}
-				type: "item"
+				biome: "terralith:cave/andesite_caves"
+				icon: "minecraft:andesite"
+				id: "7C8B7C6504D60882"
+				title: "Locate an Adesite Cave using a Biome Compass"
+				type: "biome"
 			}]
 			title: "Where to find Andesite? "
 			x: 1.0d
