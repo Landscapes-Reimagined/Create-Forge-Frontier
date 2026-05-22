@@ -614,14 +614,12 @@
 				"Each milestone expands your capabilities and prepares you for the worlds ahead."
 				""
 				"{@pagebreak}"
-				""
 				"&lJourney Beyond the Sky&r"
 				"Once you construct your first &eTier 1 Rocket&r, interplanetary travel becomes possible. The &6Ad Astra&r system introduces a range of planets, each with distinct hazards, environmental mechanics, and rare resources essential for advanced crafting and engineering."
 				""
 				"Further progression leads you to confront the &9Warden&r and secure access to the &5Otherside&r, a spectral dimension housing powerful materials and late-game progression routes."
 				""
 				"{@pagebreak}"
-				""
 				"&lConquer the End and Advance Further&r"
 				"The redesigned &5End Remastered&r presents new progression mechanics and a more strategic Dragon Fight. Navigate altered terrain, uncover hidden structures, and obtain specialized materials that enable critical late-game technologies."
 				""
@@ -630,9 +628,7 @@
 				"{@pagebreak}"
 				""
 				"&lForge Your Ultimate Legacy&r"
-				"Your final major objective is the construction of the &6Forge Rocket&r, a culmination of everything you have achieved so far. This advanced vessel grants access to the &6Forge Planet&r, a specialized endgame world designed to test your engineering, resource management, and exploration skills."
-				""
-				"This destination serves as the launch point for future expansions, greater challenges, and long-term mastery of the pack."
+				"Your final major objective is the construction of the &6Forge Rocket&r, a culmination of everything you have achieved so far. This advanced vessel is a specialized endgame rocket designed to test your engineering, resource management, and exploration skills."
 				""
 				"{@pagebreak}"
 				""
@@ -652,11 +648,9 @@
 			size: 3.0d
 			subtitle: "Master the dimensions, expand your reach, and push your journey forward. Click to learn more!"
 			tasks: [{
-				id: "6C2D675A19C834AB"
-				secret: true
-				stat: "minecraft:total_world_time"
-				type: "stat"
-				value: 1
+				elapsedTime: 180L
+				id: "3A76B17E3FB7293E"
+				type: "questsadditions:time"
 			}]
 			title: "&6Beyond Worlds, Beyond Stars&r"
 			x: 0.0d
