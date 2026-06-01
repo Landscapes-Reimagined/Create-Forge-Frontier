@@ -1,5 +1,5 @@
 
 [logbegone]
-	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Insufficient number of affixes to satisfy the loot rules", "Failed to execute LootRule", "Couldn't parse element loot_tables", "Couldn't load tag", "POI data mismatch", "SculkSensorBlockEntity"]
-	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Insufficient number of affixes to satisfy the loot rules", "Failed to execute LootRule", "Couldn't parse element loot_tables", "Couldn't load tag", "POI data mismatch", "SculkSensorBlockEntity"]
+	phrases = ["Disconnecting VANILLA connection attempt", "Channels ", "Insufficient number of affixes to satisfy the loot rules", "Failed to execute LootRule", "Couldn't parse element loot_tables", "Couldn't load tag", "POI data mismatch", "SculkSensorBlockEntity", "Underlying Exception", "Integrated API Error: Couldn't parse spawner mob list"]
+	regex = ["Disconnecting VANILLA connection attempt", "Channels ", "Insufficient number of affixes to satisfy the loot rules", "Failed to execute LootRule", "Couldn't parse element loot_tables", "Couldn't load tag", "POI data mismatch", "SculkSensorBlockEntity", "Underlying Exception", "Integrated API Error: Couldn't parse spawner mob list"]
 
