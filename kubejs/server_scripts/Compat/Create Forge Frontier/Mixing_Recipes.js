@@ -38,7 +38,7 @@ ServerEvents.recipes(event =>
                         item: 'minecraft:nether_wart'
                     },
                     {
-                        item: 'minecraft:turtle_egg'
+                        item: "minecraft:phantom_membrane"
                     },
                     {
                         item: 'minecraft:fermented_spider_eye'
