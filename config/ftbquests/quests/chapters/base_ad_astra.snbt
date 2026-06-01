@@ -2223,11 +2223,46 @@
 			]
 			id: "3A49270C1C435ADA"
 			shape: "pentagon"
-			tasks: [{
-				id: "25EA2942943CF524"
-				item: "cataclysm:cursed_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25EA2942943CF524"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "5DB93611083A0A97"
+					structure: "cataclysm:frosted_prison"
+					title: "Use the Eye to Locate the Frosted Prison"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:draugr"
+					icon: "cataclysm:draugr_head"
+					id: "624FA5C647D1B268"
+					type: "kill"
+					value: 7L
+				}
+				{
+					entity: "cataclysm:aptrgangr"
+					icon: "cataclysm:aptrgangr_head"
+					id: "355F8979A4A74DF9"
+					type: "kill"
+					value: 2L
+				}
+				{
+					id: "5C46B58B2B8EB471"
+					item: "cataclysm:strange_key"
+					type: "item"
+				}
+				{
+					entity: "cataclysm:maledictus"
+					icon: "cataclysm:cursed_tombstone"
+					id: "44CAC14616BFD04F"
+					type: "kill"
+					value: 1L
+				}
+			]
 			title: "Locate and Conquer the Frosted Prison"
 			x: 12.0d
 			y: 11.5d
@@ -2308,25 +2343,32 @@
 			subtitle: "Unearth the Cold Eye, last echo of the vanished Iceologers. Click me for more info!"
 			tasks: [
 				{
-					dimension: "ad_astra:glacio"
-					icon: "ad_astra:glacio_globe"
-					id: "59B58EB151B1BD54"
-					title: "Travel to Glacio"
-					type: "dimension"
+					id: "0BA010777C0685C6"
+					item: "ad_astra:permafrost"
+					type: "item"
 				}
 				{
-					icon: {
-						Count: 1
-						id: "cataclysm:cursed_eye"
-						tag: { }
-					}
-					id: "78B4A9DCA43E1834"
-					structure: "cataclysm:frosted_prison"
-					title: "Locate a Frosted Prison"
-					type: "structure"
+					id: "67BE1D6282A68FC7"
+					item: "cataclysm:black_steel_block"
+					type: "item"
 				}
 				{
-					id: "42E04B55553DB601"
+					id: "5283F023459AFB81"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "412F875A896AAF91"
+					item: "cataclysm:cursed_eye"
+					type: "item"
+				}
+				{
+					id: "1AB9FF7104C7B186"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "22EF2ABCB6770689"
 					item: {
 						Count: 1
 						id: "endrem:cold_eye"

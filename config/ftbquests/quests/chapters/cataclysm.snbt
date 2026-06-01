@@ -12,24 +12,16 @@
 			image: "ftb:textures/cat_city_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 5.0d
-			y: 26.0d
-		}
-		{
-			height: 10.0d
-			image: "ftb:textures/cat_prison_title.png"
-			rotation: 0.0d
-			width: 15.0d
-			x: 5.0d
-			y: 16.0d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/cat_ruin_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -12.0d
-			y: 25.5d
+			x: -11.5d
+			y: 2.0d
 		}
 	]
 	order_index: 4
@@ -90,8 +82,8 @@
 				}
 			]
 			title: "Locate the Sunken City"
-			x: 5.0d
-			y: 28.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["449BC30FBCC42249"]
@@ -123,8 +115,8 @@
 				value: 1L
 			}]
 			title: "Eliminate the Coralssus"
-			x: 0.0d
-			y: 31.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3ED05EA56DCB62C2"]
@@ -187,8 +179,8 @@
 				}
 			]
 			title: "Obtain the Athame"
-			x: 2.5d
-			y: 31.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["57127B69D7C5134B"]
@@ -206,8 +198,8 @@
 				type: "item"
 			}]
 			title: "Craft the Abyssal Sacrifice"
-			x: 7.5d
-			y: 31.0d
+			x: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["381A81F03F347383"]
@@ -259,8 +251,8 @@
 				}
 			]
 			title: "Defeat the Leviathan"
-			x: 10.0d
-			y: 31.0d
+			x: 10.5d
+			y: 7.5d
 		}
 		{
 			id: "563B8AB184A56AE2"
@@ -274,182 +266,6 @@
 			title: "Autofocus Quest"
 			x: -3.0d
 			y: 3.0d
-		}
-		{
-			description: [
-				"Upon the frozen crust of Glacio lies the Frosted Prison-a bleak fortress reserved for the most vile criminals. After his defeat, the infamous Maledictus was entombed deep within its icy depths, his body sealed away in the heart of the prison."
-				""
-				"Legend warns that those who breach the prison’s defenses and reach the inner sanctum may awaken him once more. Should you disturb his slumber, prepare for wrath unlike any other."
-				""
-				"Steel your nerves, and press forward. Maledictus must be defeated."
-				""
-				"{image:ftb:textures/frosted_prison_bg.png width:225 height:175 align:center}"
-			]
-			icon: {
-				Count: 1
-				id: "cataclysm:cursed_eye"
-				tag: { }
-			}
-			id: "659C5018DD271450"
-			rewards: [
-				{
-					id: "4EE20378927E3CB3"
-					item: {
-						Count: 1
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "450B750E9CB06A8B"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "gear"
-			size: 2.0d
-			tasks: [
-				{
-					id: "6A80C50997DE249B"
-					item: "cataclysm:cursed_eye"
-					title: "Forge the Eye of Curse"
-					type: "item"
-				}
-				{
-					icon: "minecraft:compass"
-					id: "3948FFB8ECDC2F72"
-					structure: "cataclysm:frosted_prison"
-					title: "Use the Eye to Locate the Frosted Prison"
-					type: "structure"
-				}
-				{
-					dimension: "ad_astra:glacio"
-					icon: "ad_astra:glacio_globe"
-					id: "3A8CF3BFB9D9D2DA"
-					type: "dimension"
-				}
-			]
-			title: "Locate the Frosted Prison"
-			x: 5.0d
-			y: 19.0d
-		}
-		{
-			dependencies: ["659C5018DD271450"]
-			description: [
-				"The Draugr guard the prison, hoping to keep those who wish to resurrect Maledictus away. "
-				""
-				"You must defeat them and push to the depths of the prison."
-			]
-			hide_dependency_lines: true
-			id: "32228548B00A1BC3"
-			rewards: [
-				{
-					id: "145E7F19E3B316BA"
-					item: "cataclysm:cursed_eye"
-					type: "item"
-				}
-				{
-					id: "1BF40E875301966F"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				entity: "cataclysm:draugr"
-				icon: "cataclysm:draugr_head"
-				id: "79768C925E31CDB7"
-				title: "Slay Ten Draugr"
-				type: "kill"
-				value: 10L
-			}]
-			title: "Slay Ten Draugr"
-			x: 0.0d
-			y: 22.0d
-		}
-		{
-			dependencies: ["32228548B00A1BC3"]
-			description: [
-				"The Aptrgangr holds the key you need to enter the chamber where Maledictus was laid to rest. "
-				""
-				"Defeat the Aptrgangr, and use the Strange Key to open the Door of Seal."
-			]
-			icon: "cataclysm:strange_key"
-			id: "17BC07BBD8289751"
-			rewards: [
-				{
-					count: 2
-					id: "3974DF750FD8E860"
-					item: "cataclysm:cursium_upgrade_smithing_template"
-					type: "item"
-				}
-				{
-					id: "31B37B7AB127E0F3"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [
-				{
-					entity: "cataclysm:aptrgangr"
-					icon: "cataclysm:aptrgangr_head"
-					id: "7624EF7B4C993F2D"
-					title: "Eliminate the Aptrgangr"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "7E57AB8C971706F7"
-					item: "cataclysm:strange_key"
-					type: "item"
-				}
-			]
-			title: "Eliminate the Aptrgangr"
-			x: 5.0d
-			y: 22.0d
-		}
-		{
-			dependencies: ["17BC07BBD8289751"]
-			description: [
-				"Right click the Cursed Tombstone to awaken Maledictus from his slumber. "
-				""
-				"Beware his bow attacks, they are quick and deal massive amounts of damage. "
-				""
-				"Should you prevail, you will be one step closer to unlocking The End."
-			]
-			icon: {
-				Count: 1
-				id: "cataclysm:cursed_tombstone"
-				tag: { }
-			}
-			id: "2C285EA25E9E97ED"
-			rewards: [
-				{
-					count: 4
-					id: "5AA95FAD2E8BBD34"
-					item: "cataclysm:cursium_ingot"
-					type: "item"
-				}
-				{
-					id: "74655088029E4E7E"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.0d
-			tasks: [{
-				entity: "cataclysm:maledictus"
-				icon: "cataclysm:maledictus_spawn_egg"
-				id: "28D44A364EE4B948"
-				title: "Defeat Maledictus"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat Maledictus"
-			x: 10.0d
-			y: 22.0d
 		}
 		{
 			dependencies: ["4E26DD51B9FBDAC7"]
@@ -516,8 +332,8 @@
 				}
 			]
 			title: "Slay Amethyst Crabs"
-			x: 5.0d
-			y: 31.0d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
 			description: [
@@ -578,8 +394,8 @@
 				}
 			]
 			title: "Locate the Ruined Citadel"
-			x: -12.0d
-			y: 28.0d
+			x: -11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["285453E58AFF48B7"]
@@ -620,8 +436,8 @@
 				title: "Loot Some Chests!"
 				type: "checkmark"
 			}]
-			x: -17.0d
-			y: 31.0d
+			x: -16.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5FFF41B9B9D5FA13"]
@@ -668,8 +484,8 @@
 				value: 1L
 			}]
 			title: "Eliminate the Ender Golem"
-			x: -12.0d
-			y: 31.0d
+			x: -11.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["326B4A7C0547EA69"]
@@ -712,8 +528,8 @@
 				value: 1L
 			}]
 			title: "Defeat the Ender Guardian"
-			x: -7.0d
-			y: 31.0d
+			x: -6.5d
+			y: 7.5d
 		}
 	]
 	title: "Cataclysm"
