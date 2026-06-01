@@ -15,10 +15,6 @@ ServerEvents.recipes(event =>
                     { 
                         item: 'createornithopterglider:elytra_piece',
                         chance: 0.75  
-                    },
-                    {
-                        item: 'minecraft:phantom_membrane',
-                        chance: 0.25
                     }
                 ]
             }).id('forge_frontier:crushing/elytra_piece');
