@@ -1,4 +1,3 @@
-// Dusts.js
 StartupEvents.registry('item', event => {
 
     const materials = [
