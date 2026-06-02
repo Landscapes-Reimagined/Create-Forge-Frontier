@@ -597,9 +597,15 @@
 			id: "5F79790A6011AFCA"
 			rewards: [
 				{
-					count: 3
+					count: 2
 					id: "3F61577059730955"
-					item: "farmersdelight:rope"
+					item: {
+						Count: 1
+						id: "gag:escape_rope"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -651,7 +657,25 @@
 		}
 		{
 			dependencies: ["6EE09A4C8D827BE0"]
-			description: ["Similar to the Hyperbox, Compact Machines allow you to create pocket dimensions contained within a single block. The key differences are the availability of multiple size options and a generally lower cost, making them a more flexible and accessible alternative."]
+			description: [
+				"&7Compact Machines allow you to create fully functional pocket dimensions contained within a single block, opening up entirely new possibilities for factory design and automation.&r"
+				""
+				"Each Compact Machine contains its own private interior space, allowing you to build machinery, storage systems, farms, and production lines without consuming valuable space in the Overworld."
+				""
+				"{@pagebreak}"
+				""
+				"&lA Factory Within a Block&r:"
+				""
+				"Compact Machines are available in multiple sizes, ranging from small utility rooms to massive industrial spaces capable of housing entire production facilities."
+				""
+				"Their flexibility makes them ideal for organizing complex automation systems, separating lag-intensive machinery, or simply keeping your base clean and organized."
+				""
+				"{@pagebreak}"
+				""
+				"Whether you're creating a dedicated processing facility, a centralized storage hub, or an entire factory hidden within a single block, Compact Machines provide a powerful solution for engineers seeking to maximize efficiency."
+				""
+				"Sometimes the biggest factories are found in the smallest spaces."
+			]
 			hide_dependency_lines: true
 			id: "6FABC78F59FDE6C3"
 			rewards: [
@@ -677,7 +701,25 @@
 		}
 		{
 			dependencies: ["6EE09A4C8D827BE0"]
-			description: ["Entangled provides the materials needed to bind two blocks together, allowing them to be interacted with as if they were a single block. This enables instant transfer of items, energy, fluids, and other resources, offers additional interaction sides, and makes it easy to conceal complex cabling—opening up a wide range of practical applications."]
+			description: [
+				"&7Entangled introduces a unique way to connect machines, storage systems, and automation networks by linking two blocks together across any distance.&r"
+				""
+				"Once entangled, both blocks behave as if they were the same block, allowing interactions performed on one to instantly affect the other. This creates powerful opportunities for simplifying logistics, reducing clutter, and designing more compact automation systems."
+				""
+				"{@pagebreak}"
+				""
+				"&lLinking the Impossible&r:"
+				""
+				"Entangled blocks can transfer items, fluids, energy, and other interactions without the need for long cable runs, pipes, or exposed infrastructure."
+				""
+				"By creating a direct connection between two locations, you can access machines remotely, extend automation systems into confined spaces, and route resources throughout your factory with minimal visual clutter."
+				""
+				"{@pagebreak}"
+				""
+				"Whether you're hiding complex infrastructure, expanding the number of accessible sides on a machine, or building advanced automation networks across multiple locations, Entangled provides an elegant solution to otherwise complicated engineering challenges."
+				""
+				"Sometimes the most powerful connections are the ones you cannot see."
+			]
 			hide_dependency_lines: true
 			id: "60F1517A22DBC588"
 			rewards: [
