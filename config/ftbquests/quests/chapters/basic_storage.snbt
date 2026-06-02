@@ -44,7 +44,7 @@
 			rotation: 0.0d
 			width: 12.0d
 			x: 0.0d
-			y: 8.0d
+			y: 5.5d
 		}
 	]
 	order_index: 1
@@ -3444,7 +3444,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3462,7 +3462,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3480,7 +3480,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			description: ["Craft a Storage Tool to easily link, lock, and fine-tune your storage setup."]
@@ -3511,7 +3511,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			description: ["Craft a Decoration Table to add custom colors and accents to your storage."]
@@ -3548,7 +3548,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			description: ["Use a Paintbrush and dye to add a personal touch to your chests, barrels, and shulkers."]
@@ -3585,7 +3585,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3611,7 +3611,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["73D9AB50CAC7B7D5"]
@@ -3637,7 +3637,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3663,7 +3663,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["0F3EA33A1FD0DD53"]
@@ -3689,7 +3689,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3715,7 +3715,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["46789BBC15E2A058"]
@@ -3741,7 +3741,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3771,7 +3771,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["53185CF266579CF7"]
@@ -3797,7 +3797,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3823,7 +3823,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["4C5A81EAECF06C1F"]
@@ -3849,7 +3849,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3879,7 +3879,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["64E6D29158E1BCA7"]
@@ -3908,7 +3908,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3934,7 +3934,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0D4BD7F7D727FB60"]
@@ -3964,7 +3964,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -3990,7 +3990,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["550E54866C2FD8E6"]
@@ -4016,7 +4016,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4042,7 +4042,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5815347B53119A8F"]
@@ -4068,7 +4068,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4094,7 +4094,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["11FB8340768BF00D"]
@@ -4120,7 +4120,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4146,7 +4146,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["2A63FB19B55825E9"]
@@ -4172,7 +4172,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4209,7 +4209,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1B6C38B59CD83A35"]
@@ -4235,7 +4235,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 19.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4267,7 +4267,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 16.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4292,7 +4292,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5EB79CA86AC7C5A5"]
@@ -4317,7 +4317,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7958BB2AF14D6779"]
@@ -4342,7 +4342,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1D91C867C5229F33"]
@@ -4367,7 +4367,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7AA3AF96A80EB911"]
@@ -4392,7 +4392,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["11BAE619DE15F3DD"]
@@ -4417,7 +4417,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2769F2BC9A8B240C"]
@@ -4442,7 +4442,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 13.0d
+			y: 10.5d
 		}
 		{
 			description: [
@@ -4481,7 +4481,7 @@
 				}
 			]
 			x: 1.5d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			description: [
@@ -4512,7 +4512,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6204BAFA02ECF1D0"]
@@ -4552,7 +4552,7 @@
 			]
 			title: "Stack Downgrades"
 			x: 4.5d
-			y: 14.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
