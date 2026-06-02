@@ -1,235 +1,250 @@
-ServerEvents.recipes(event => 
+ServerEvents.recipes(event => {
+
+  const ORES = [
     {
-        // Removes Old Recipes
-            event.remove({ id: 'create:crushing/coal_ore'})
-            event.remove({ id: 'create:crushing/deepslate_coal_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_coal_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_coal_ore'})
-            event.remove({ id: 'create:crushing/glacio_coal_ore'})
-            event.remove({ id: 'create:crushing/venus_coal_ore'})
-            event.remove({ id: 'create_oppenheimered:crushing/guanostone_redstone_ore' })
-            event.remove({ id: 'create_oppenheimered:crushing/uranium_ore' })
-            event.remove({ id: 'tfmg:milling/charcoal_dust'})
-            event.remove({ id: 'create:crushing/uranium_ore'})
+      type: 'emerald',
+      output: { item: 'minecraft:emerald', count: 1 },
+      bonus: { item: 'minecraft:emerald', chance: 0.75 },
+      variants: [
+        ['minecraft:emerald_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_emerald_ore', 'minecraft:cobbled_deepslate'],
+        ["deeperdarker:sculk_stone_emerald_ore","deeperdarker:cobbled_sculk_stone"],
+        ["deeperdarker:gloomslate_emerald_ore","deeperdarker:cobbled_gloomslate"],
+        ["enhanced_ore_variety:granite_emerald_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_emerald_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_emerald_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_emerald_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_emerald_ore", "minecraft:blackstone"]
+      ]
+    },
+    {
+      type: 'coal',
+      output: { item: 'minecraft:coal', count: 1 },
+      bonus: { item: 'minecraft:coal', chance: 0.75 },
+      variants: [
+        ['minecraft:coal_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_coal_ore', 'minecraft:cobbled_deepslate'],
+        ['deeperdarker:gloomslate_coal_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_coal_ore', 'deeperdarker:cobbled_sculk_stone'],
+        ["phantasm:raw_purpur_coal_ore", "endelurgy:raw_purpur_block"],
+        ['ad_astra:glacio_coal_ore', 'ad_astra:glacio_cobblestone'],
+        ['ad_astra:venus_coal_ore', 'ad_astra:venus_cobblestone'],
+        ["enhanced_ore_variety:granite_coal_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_coal_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_coal_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_coal_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_coal_ore", "minecraft:blackstone"]
+      ]
+    },
+    {
+      type: 'iron',
+      output: { item: 'create:crushed_raw_iron', count: 1 },
+      bonus: { item: 'create:crushed_raw_iron', chance: 0.75 },
+      variants: [
+        ['minecraft:iron_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_iron_ore', 'minecraft:cobbled_deepslate'],
+        ['deeperdarker:gloomslate_iron_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_iron_ore', 'deeperdarker:cobbled_sculk_stone'],
+        ['ad_astra:glacio_iron_ore', 'ad_astra:glacio_cobblestone'],
+        ['ad_astra:mercury_iron_ore', 'ad_astra:mercury_cobblestone'],
+        ['ad_astra:mars_iron_ore', 'ad_astra:mars_cobblestone'],
+        ["enhanced_ore_variety:granite_iron_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_iron_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_iron_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_iron_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_iron_ore", "minecraft:blackstone"],
+        ["phantasm:cirite_iron_ore", "phantasm:cirite"],
+        ["ad_astra:moon_iron_ore", "ad_astra:moon_cobblestone"],
+        ["alexscaves:galena_iron_ore", "alexscaves:galena"],
+      ]
+    },
+    {
+      type: 'lapis',
+      output: { item: "minecraft:lapis_lazuli", count: 10 },
+      bonus: { item: "minecraft:lapis_lazuli", chance: 0.75 },
+      variants: [
+        ['minecraft:lapis_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_lapis_ore', 'minecraft:cobbled_deepslate'],
+        ['deeperdarker:gloomslate_lapis_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_lapis_ore', 'deeperdarker:cobbled_sculk_stone'],
+        ['ad_astra:glacio_lapis_ore', 'ad_astra:glacio_cobblestone'],
+        ["enhanced_ore_variety:granite_lapis_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_lapis_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_lapis_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_lapis_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_lapis_ore", "minecraft:blackstone"]
+      ]
+    },
+    {
+      type: 'copper',
+      output: { item: 'create:crushed_raw_copper', count: 5 },
+      bonus: { item: 'create:crushed_raw_copper', chance: 0.75 },
+      variants: [
+        ['minecraft:copper_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_copper_ore', 'minecraft:cobbled_deepslate'],
+        ['deeperdarker:gloomslate_copper_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_copper_ore', 'deeperdarker:cobbled_sculk_stone'],
+        ['ad_astra:glacio_copper_ore', 'ad_astra:glacio_cobblestone'],
+        ["enhanced_ore_variety:granite_copper_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_copper_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_copper_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_copper_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_copper_ore", "minecraft:blackstone"],
+      ]
+    },
+    {
+      type: 'gold',
+      output: { item: 'create:crushed_raw_gold', count: 1 },
+      bonus: { item: 'create:crushed_raw_gold', chance: 0.75 },
+      variants: [
+        ['minecraft:gold_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_gold_ore', 'minecraft:cobbled_deepslate'],
+        ['minecraft:nether_gold_ore', 'minecraft:netherrack'],
+        ['deeperdarker:gloomslate_gold_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_gold_ore', 'deeperdarker:cobbled_sculk_stone'],
+        ['ad_astra:venus_gold_ore', 'ad_astra:venus_cobblestone'],
+        ["enhanced_ore_variety:granite_gold_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_gold_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_gold_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_gold_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_gold_ore", "minecraft:blackstone"],
+      ]
+    },
+    {
+      type: 'diamond',
+      output: { item: 'minecraft:diamond', count: 1 },
+      bonus: { item: 'minecraft:diamond', chance: 0.75 },
+      variants: [
+        ['minecraft:diamond_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_diamond_ore', 'minecraft:cobbled_deepslate'],
+        ['deeperdarker:gloomslate_diamond_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_diamond_ore', 'deeperdarker:cobbled_sculk_stone'],
+        ['ad_astra:venus_diamond_ore', 'ad_astra:venus_cobblestone'],
+        ["ad_astra:mars_diamond_ore", 'ad_astra:mars_cobblestone'],
+        ["enhanced_ore_variety:granite_diamond_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_diamond_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_diamond_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_diamond_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_diamond_ore", "minecraft:blackstone"],
+      ]
+    },
+    {
+      type: 'redstone',
+      output: { item: 'minecraft:redstone', count: 6 },
+      bonus: { item: 'minecraft:redstone', chance: 0.75 },
+      variants: [
+        ['minecraft:redstone_ore', 'minecraft:cobblestone'],
+        ['minecraft:deepslate_redstone_ore', 'minecraft:cobbled_deepslate'],
+        ['deeperdarker:gloomslate_redstone_ore', 'deeperdarker:cobbled_gloomslate'],
+        ['deeperdarker:sculk_stone_redstone_ore', 'deeperdarker:cobbled_sculk_stone'],,
+        ["enhanced_ore_variety:granite_redstone_ore", 'minecraft:granite'],
+        ["enhanced_ore_variety:diorite_redstone_ore", 'minecraft:diorite'],
+        ["enhanced_ore_variety:andesite_redstone_ore", 'minecraft:andesite'],
+        ["enhanced_ore_variety:tuff_redstone_ore", "minecraft:tuff"],
+        ["enhanced_ore_variety:blackstone_redstone_ore", "minecraft:blackstone"],
+        ["alexscaves:guanostone_redstone_ore", "alexscaves:guanostone"]
+      ]
+    },
+    {
+      type: 'zinc',
+      output: { item: 'create:crushed_raw_zinc', count: 1 },
+      bonus: { item: 'create:crushed_raw_zinc', chance: 0.75 },
+      variants: [
+        ['create:zinc_ore', 'minecraft:cobblestone'],
+        ['create:deepslate_zinc_ore', 'minecraft:cobbled_deepslate']
+      ]
+    },
+    {
+      type: 'tin',
+      output: { item: 'create:crushed_raw_tin', count: 1 },
+      bonus: { item: 'create:crushed_raw_tin', chance: 0.75 },
+      variants: [
+        ['create_dd:tin_ore', 'minecraft:cobblestone'],
+        ['create_dd:deepslate_tin_ore', 'minecraft:cobbled_deepslate']
+      ]
+    },
+    {
+      type: 'reggarfonite',
+      output: { item: 'create_better_motors:crushed_raw_reggarfonite', count: 1 },
+      bonus: { item: 'create_better_motors:crushed_raw_reggarfonite', chance: 0.75 },
+      variants: [
+        ['create_better_motors:deepslate_reggarfonite_ore', 'minecraft:cobbled_deepslate']
+      ]
+    },
+    {
+      type: 'tungsten',
+      output: { item: 'createmetallurgy:crushed_raw_tungsten', count: 1 },
+      bonus: { item: 'createmetallurgy:crushed_raw_tungsten', chance: 0.75 },
+      variants: [
+        ["createmetallurgy:wolframite_ore", 'minecraft:netherrack'],
+        ["endreborn:tungsten_ore", "minecraft:end_stone"]
+      ]
+    },
+    {
+      type: 'quartz',
+      output: { item: "minecraft:quartz", count: 2 },
+      bonus: { item: "minecraft:quartz", chance: 0.75 },
+      variants: [
+        ["minecraft:nether_quartz_ore", 'minecraft:netherrack'],
+        ["enhanced_ore_variety:blackstone_quartz_ore", "minecraft:blackstone"]
+      ]
+    },
+    {
+      type: 'uranium',
+      output: { item: "create:crushed_raw_uranium", count: 1 },
+      bonus: { item: "create:crushed_raw_uranium", chance: 0.75 },
+      variants: [
+        ["alexscaves:radrock_uranium_ore", "alexscaves:radrock"]
+      ]
+    },
+  ];
 
-        // Creates Raw Redstone Block Crushing Recipe
-            event.custom({
-                type: "create:crushing",
-                ingredients: [
-                    { item: 'regions_unexplored:raw_redstone_block' }
-                ],
-                processingTime: 400,
-                results: [
-                    { item: 'minecraft:redstone', count: 4 }
-                ]
-            }).id('forge_frontier:crushing/raw_redstone_block');
+  function resultOf(result) {
+    let output = {
+      item: result.item,
+      count: result.count || 1
+    };
 
-        // Coal Ore
-            // Forge:Ores/Coal 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/coal' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'minecraft:coal' },
-                        { item: 'minecraft:coal', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/coal_ore');
-
-        // Removes Old Iron Ore Recipes
-            event.remove({ id: 'create:crushing/iron_ore'})
-            event.remove({ id: 'create:crushing/deepslate_iron_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_iron_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_iron_ore'})
-            event.remove({ id: 'create:crushing/glacio_iron_ore'})
-            event.remove({ id: 'create:crushing/mercury_iron_ore'})
-            event.remove({ id: 'create:crushing/mars_iron_ore'})
-
-        // Iron Ore
-            // Forge:Ores/Iron 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/iron' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'create:crushed_raw_iron' },
-                        { item: 'create:crushed_raw_iron', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/iron_ore');
-
-
-        // Removes Old Copper Ore Recipes
-            event.remove({ id: 'create:crushing/copper_ore'})
-            event.remove({ id: 'create:crushing/deepslate_copper_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_copper_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_copper_ore'})
-            event.remove({ id: 'create:crushing/glacio_copper_ore'})
-            event.remove({ id: 'create:crushing/venus_copper_ore'})
-
-        // Copper Ore
-            // Forge:Ores/Copper 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/copper' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'create:crushed_raw_copper', count: 5 },
-                        { item: 'create:crushed_raw_copper', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/copper_ore');
-
-        // Removes Old Gold Ore Recipes
-            event.remove({ id: 'create:crushing/gold_ore'})
-            event.remove({ id: 'create:crushing/deepslate_gold_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_gold_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_gold_ore'})
-            event.remove({ id: 'create:crushing/glacio_gold_ore'})
-            event.remove({ id: 'create:crushing/venus_gold_ore'})
-            event.remove({ id: 'create:crushing/nether_gold_ore'})
-
-        // Gold Ore
-            // Forge:Ores/Gold 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/gold' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'create:crushed_raw_gold' },
-                        { item: 'create:crushed_raw_gold', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/gold_ore');
-
-        // Removes Old Redstone Ore Recipes
-            event.remove({ id: 'create:crushing/redstone_ore'})
-            event.remove({ id: 'create:crushing/deepslate_redstone_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_redstone_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_redstone_ore'})
-            event.remove({ id: 'create:crushing/glacio_redstone_ore'})
-            event.remove({ id: 'create:crushing/venus_redstone_ore'})
-
-        // Redstone Ore
-            // Forge:Ores/Redstone 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/redstone' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'minecraft:redstone', count: 6 },
-                        { item: 'minecraft:redstone', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/redstone_ore');
-
-        // Removes Old Emerald Ore Recipes
-            event.remove({ id: 'create:crushing/emerald_ore'})
-            event.remove({ id: 'create:crushing/deepslate_emerald_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_emerald_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_emerald_ore'})
-            event.remove({ id: 'create:crushing/glacio_emerald_ore'})
-            event.remove({ id: 'create:crushing/venus_emerald_ore'})
-
-        // Emerald Ore
-            // Forge:Ores/Emerald 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/emerald' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'minecraft:emerald'},
-                        { item: 'minecraft:emerald', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/emerald_ore');
-
-        // Removes Old Lapis Ore Recipes
-            event.remove({ id: 'create:crushing/lapis_ore'})
-            event.remove({ id: 'create:crushing/deepslate_lapis_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_lapis_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_lapis_ore'})
-            event.remove({ id: 'create:crushing/glacio_lapis_ore'})
-            event.remove({ id: 'create:crushing/venus_lapis_ore'})
-
-
-        // Lapis Ore
-            // Forge:Ores/Lapis 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/lapis' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'minecraft:lapis_lazuli', count: 10},
-                        { item: 'minecraft:lapis_lazuli', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/lapis_ore');
-
-        // Removes Old Diamond Ore Recipes
-            event.remove({ id: 'create:crushing/diamond_ore'})
-            event.remove({ id: 'create:crushing/deepslate_diamond_ore'})
-            event.remove({ id: 'create:crushing/gloomslate_diamond_ore'})
-            event.remove({ id: 'create:crushing/sculk_stone_diamond_ore'})
-            event.remove({ id: 'create:crushing/venus_diamond_ore'})
-            event.remove({ id: 'create:crushing/mars_diamond_ore'})
-
-        // Diamond Ore
-            // Forge:Ores/Diamond 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/diamond' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'minecraft:diamond'},
-                        { item: 'minecraft:diamond', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/diamond_ore');
-
-        // Removes Old Quartz Ore Recipes
-            event.remove({ id: 'create:crushing/nether_quartz_ore'})
-
-        // Quartz Ore
-            // Forge:Ores/Quartz 
-                event.custom({
-                    type: 'create:crushing',
-                    ingredients: [
-                        { tag: 'forge:ores/quartz' },
-                    ],
-                    processingTime: 400,
-                    results: [
-                        { item: 'minecraft:quartz', count: 2},
-                        { item: 'minecraft:quartz', chance: 0.75 },
-                        { item: 'create:experience_nugget', chance: 0.75 },
-                        { item: 'minecraft:cobblestone', chance: 0.12 },
-                    ],
-                }).id('forge_frontier:crushing/quartz_ore');
-        
+    if (result.chance !== undefined) {
+      output.chance = result.chance;
     }
-)
+
+    return output;
+  }
+
+  ORES.forEach(ore => {
+    ore.variants.forEach(variant => {
+      const oreId = variant[0];
+      const byproduct = variant[1];
+      const recipeName = oreId.split(':')[1];
+
+      event.remove({ id: `create:crushing/${recipeName}` });
+
+      event.custom({
+        type: 'create:crushing',
+        ingredients: [
+          { item: oreId }
+        ],
+        processingTime: 400,
+        results: [
+          resultOf(ore.output),
+          resultOf(ore.bonus),
+          { item: 'create:experience_nugget', chance: 0.75 },
+          { item: byproduct, chance: 0.12 }
+        ]
+      }).id(`forge_frontier:crushing/${recipeName}`);
+    });
+  });
+
+  event.custom({
+    type: 'create:crushing',
+    ingredients: [
+      { item: 'regions_unexplored:raw_redstone_block' }
+    ],
+    processingTime: 400,
+    results: [
+      { item: 'minecraft:redstone', count: 4 }
+    ]
+  }).id('forge_frontier:crushing/raw_redstone_block');
+
+});
