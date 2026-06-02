@@ -4311,37 +4311,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["183F457F923574A9"]
-			description: ["This Quest serves to remind you that you do not have to break your existing chests or barrels to upgrade them! Instead, craft the proper storage upgrade and right click to upgrade your existing storage!"]
-			hide_dependency_lines: true
-			icon: "sophisticatedstorage:basic_tier_upgrade"
-			id: "6B690848B1CE0F3E"
-			rewards: [
-				{
-					count: 2
-					id: "332B8AF94D8BCF1B"
-					item: "sophisticatedstorage:basic_tier_upgrade"
-					type: "item"
-				}
-				{
-					id: "643DF401329CDF69"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "Upgradable Storages."
-			tasks: [{
-				id: "70B0BBA9D93269EC"
-				item: "sophisticatedstorage:basic_tier_upgrade"
-				type: "item"
-			}]
-			title: "Tiered Upgrades"
-			x: 1.5d
-			y: 3.75d
-		}
-		{
 			dependencies: ["6204BAFA02ECF1D0"]
 			description: ["Increases max stack size to 2× the normal amount."]
 			id: "5EB79CA86AC7C5A5"
@@ -4587,50 +4556,6 @@
 			y: 11.5d
 		}
 		{
-			description: ["Ever had a mob just... not drop how much it should? Inventory getting a little full? That won't be a problem any longer!"]
-			icon: "sophisticatedbackpacks:backpack"
-			id: "006012AB72D73251"
-			rewards: [
-				{
-					count: 4
-					id: "77738084CB70FF56"
-					item: "minecraft:leather"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4E87C2B50124436C"
-					item: "minecraft:string"
-					type: "item"
-				}
-				{
-					id: "349160170D6DD686"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "octagon"
-			size: 1.5d
-			subtitle: "A Backpack or your Money Back."
-			tasks: [
-				{
-					entity: "minecraft:cow"
-					id: "4121F5F9096C7411"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:spider"
-					id: "27BF237852ADE9C2"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "Bonus Drops"
-			x: -1.5d
-			y: 3.75d
-		}
-		{
 			dependencies: ["6204BAFA02ECF1D0"]
 			description: ["The Stack Downgrades allow you to store less in a single stack."]
 			icon: "sophisticatedstorage:stack_downgrade_tier_1"
@@ -4672,40 +4597,6 @@
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
-			description: ["The Item Terminal allows you to view all items in any inventory connected to your pipe network. It has an internal inventory you can request items from your network to be deposited into where you can then retrieve them. It can also send items back into your pipe network with its return inventory."]
-			id: "07A94C06EEA9EDA4"
-			rewards: [
-				{
-					count: 4
-					id: "29FC72CA80F8BB57"
-					item: {
-						Count: 1
-						id: "prettypipes:blank_module"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "5222CE3303386C74"
-					type: "xp"
-					xp: 100
-				}
-			]
-			size: 1.0d
-			tasks: [{
-				id: "68BC6F641B363755"
-				item: {
-					Count: 1
-					id: "prettypipes:item_terminal"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["37AE9C979711C40C"]
 			description: ["Pretty Pipes adds in Item Pipes that can move your items from point A to point B way easier! There are many upgrades that can be applied to make the pipes pull faster or add more filtering options. Use a pipe wrench to configure their inputs and outputs."]
 			id: "635DF7BE35B8AF68"
 			rewards: [
@@ -4736,8 +4627,8 @@
 				type: "item"
 			}]
 			title: "Item Pipes"
-			x: 1.0d
-			y: 0.5d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
@@ -4771,8 +4662,8 @@
 				type: "item"
 			}]
 			title: "Fluid Pipes"
-			x: 2.5d
-			y: 0.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["37AE9C979711C40C"]
@@ -4806,8 +4697,8 @@
 				type: "item"
 			}]
 			title: "The Pipe Pressurizer"
-			x: -2.5d
-			y: 0.5d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -4860,8 +4751,334 @@
 				type: "item"
 			}]
 			title: "Pipes Made Simple"
-			x: 0.0d
-			y: -2.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&7As your factory grows, so too does the challenge of managing the countless resources flowing through it. Chests quickly become cluttered, items become difficult to locate, and valuable time is wasted searching for materials.&r"
+				""
+				"This is where &6Tom's Simple Storage&r comes in."
+				""
+				"Designed to simplify storage management without requiring advanced technology, Tom's allows you to connect large collections of chests, barrels, and storage blocks into a single, easy-to-use network."
+				""
+				"{@pagebreak}"
+				""
+				"&lBuilding a Storage Network&r:"
+				""
+				"At the heart of every storage system is the &6Inventory Connector&r and a network of connected inventories."
+				""
+				"By linking your storage together, you can access items from multiple containers through a single interface rather than searching through dozens of individual chests."
+				""
+				"This system serves as the backbone of your factory's logistics and will continue to grow alongside your automation infrastructure."
+				""
+				"{@pagebreak}"
+				""
+				"While simple in design, Tom's Simple Storage provides powerful organization tools that will help keep your factory running efficiently."
+				""
+				"Mastering storage management today will save countless headaches tomorrow."
+				""
+				"After all, a successful factory is only as organized as the engineer who built it."
+			]
+			id: "59346870E40EDF60"
+			rewards: [
+				{
+					count: 8
+					id: "599AAE733A524D41"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "7F29E616BF1365EA"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "42A2EAF89BF65E4E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Expansion of Vanilla Storage"
+			tasks: [{
+				count: 16L
+				id: "00AEC13A60223418"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			title: "Tom's Simple Storage Mod"
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["59346870E40EDF60"]
+			description: [
+				"&7Now that your storage network is connected, it's time to make accessing your resources far more convenient.&r"
+				""
+				"The &6Storage Terminal&r and &6Crafting Terminal&r allow you to interact with your entire storage system from a single location, giving you instant access to every connected inventory."
+				""
+				"No more digging through rows of chests."
+				""
+				"{@pagebreak}"
+				""
+				"&lStorage Terminal&r:"
+				""
+				"The Storage Terminal acts as a central access point for your network, allowing you to view, search, and retrieve items from all connected inventories."
+				""
+				"As your factory expands, this terminal will quickly become one of your most frequently used tools."
+				""
+				"Finding resources has never been easier."
+				""
+				"{@pagebreak}"
+				""
+				"&lCrafting Terminal&r:"
+				""
+				"The Crafting Terminal builds upon the Storage Terminal by integrating a crafting grid directly into the interface."
+				""
+				"This allows you to craft items using materials stored throughout your entire network without manually gathering ingredients first."
+				""
+				"With everything available from a single screen, crafting becomes significantly faster and more efficient."
+				""
+				"A true engineer works smarter, not harder."
+			]
+			id: "1732D4CD99D8D34C"
+			rewards: [
+				{
+					count: 4
+					id: "601DCAF6FF4F66B8"
+					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06841E8EFB6034AD"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6EB80E0138463F70"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "15FDED46914D6387"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "316604243D6AC23D"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "5FAE3B6F325F10B7"
+					item: "toms_storage:ts.crafting_terminal"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59346870E40EDF60"]
+			description: [
+				"&7A stationary terminal is useful, but the true power of a storage network is the ability to access it from anywhere.&r"
+				""
+				"As your factory expands and your adventures take you farther from home, constantly returning to your storage room becomes increasingly inefficient. Whether you're exploring distant planets, constructing massive production lines, or gathering resources far from base, your storage network should always be within reach."
+				""
+				"The solution lies in wireless technology."
+				""
+				"{@pagebreak}"
+				""
+				"&lWireless Terminals&r:"
+				""
+				"Using the &6Wireless Terminal&r, you can remotely access your storage network without being physically connected to it. This allows you to retrieve resources, organize items, and manage your inventory while working elsewhere in your factory or exploring the world around you."
+				""
+				"For many engineers, the Wireless Terminal quickly becomes an indispensable tool."
+				""
+				"{@pagebreak}"
+				""
+				"&lAdvanced Wireless Terminals&r:"
+				""
+				"As your needs grow, you can further upgrade your remote access capabilities through &6Advanced Wireless Terminals&r."
+				""
+				"These powerful upgrades provide enhanced range and functionality, allowing your storage network to remain accessible across larger distances and more demanding environments. Whether you're managing multiple factory complexes or preparing for off-world expeditions, advanced wireless access ensures your resources are always close at hand."
+				""
+				"{@pagebreak}"
+				""
+				"With wireless storage technology fully deployed, your network evolves beyond a simple warehouse."
+				""
+				"No matter where your journey takes you—from the depths of a mine to the farthest reaches of the solar system—your resources remain only a few clicks away."
+				""
+				"A truly advanced factory doesn't just store items."
+				""
+				"It keeps them available wherever they're needed."
+			]
+			id: "3D6BB5B244F2FB32"
+			rewards: [
+				{
+					count: 6
+					id: "35866AA3BC39EE86"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A578D5A6B70A691"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6533AF2FD0070C01"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "418D49281FF83EE5"
+					item: "toms_storage:ts.wireless_terminal"
+					type: "item"
+				}
+				{
+					id: "01343924D996564F"
+					item: "toms_storage:ts.adv_wireless_terminal"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59346870E40EDF60"]
+			description: [
+				"&7A storage system is only as effective as the connections that hold it together.&r"
+				""
+				"As your factory grows, so too will the number of inventories you need to manage. Chests, barrels, drawers, and other storage blocks can all be linked together into a single network through the use of &6Cable Connectors&r."
+				""
+				"These components serve as the foundation of a scalable storage infrastructure, allowing your network to expand alongside your factory."
+				""
+				"{@pagebreak}"
+				""
+				"&lCable Connectors&r:"
+				""
+				"Cable Connectors allow you to link inventories to your storage network, making their contents accessible through your terminals and wireless devices."
+				""
+				"By strategically placing connectors and cables, you can create large, centralized storage systems spanning entire buildings or even multiple factory sections."
+				""
+				"The larger your operation becomes, the more important a well-designed network will be."
+				""
+				"{@pagebreak}"
+				""
+				"A properly connected storage network eliminates clutter, improves efficiency, and keeps resources organized as production increases."
+				""
+				"Every great factory begins with a solid foundation—and every storage network begins with proper connections."
+			]
+			id: "22F4D859FC0289D9"
+			rewards: [
+				{
+					count: 2
+					id: "1F56D417C02C2AD9"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "50BCDBE74685DB50"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2F3286F9B8EA9125"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+				{
+					id: "2219A357903EA81D"
+					item: "toms_storage:ts.inventory_cable_connector_filtered"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59346870E40EDF60"]
+			description: [
+				"&7As your storage network grows, organization becomes just as important as capacity.&r"
+				""
+				"Without proper sorting, valuable resources can quickly become lost among thousands of items. Fortunately, Tom's Simple Storage provides powerful filtering tools to help keep your network organized and efficient."
+				""
+				"Filters allow you to control how items move through your storage system and determine where specific resources should be stored."
+				""
+				"{@pagebreak}"
+				""
+				"&lUsing Filters&r:"
+				""
+				"Filters can be applied to storage inventories to prioritize specific items, ensuring resources are directed exactly where you want them."
+				""
+				"Whether you're separating ores from building materials, organizing processed goods, or reserving storage space for critical resources, filters provide precise control over your logistics network."
+				""
+				"A well-filtered storage system is easier to manage and significantly more efficient."
+				""
+				"{@pagebreak}"
+				""
+				"As your factory expands, effective filtering becomes increasingly important."
+				""
+				"Taking the time to organize your storage today will save countless hours in the future."
+				""
+				"After all, the difference between a messy warehouse and an industrial empire is organization."
+			]
+			id: "7EB7D2F926E15F51"
+			rewards: [
+				{
+					count: 2
+					id: "211935888D253B5F"
+					item: "toms_storage:ts.item_filter"
+					type: "item"
+				}
+				{
+					id: "04398CA7AF3206CC"
+					item: {
+						Count: 1
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62DF0FB1EC22650E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "73E4584B2677B3ED"
+					item: "toms_storage:ts.item_filter"
+					type: "item"
+				}
+				{
+					id: "29B93E9F4A97A738"
+					item: "toms_storage:ts.polymorphic_item_filter"
+					type: "item"
+				}
+				{
+					id: "7DD10B97D3BB7E32"
+					item: "toms_storage:ts.tag_item_filter"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "Basic Storage"
