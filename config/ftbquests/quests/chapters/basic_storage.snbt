@@ -3483,47 +3483,6 @@
 			y: 19.0d
 		}
 		{
-			description: [
-				"Craft some Packing Tape to safely store all items and upgrades inside a container."
-				""
-				"Break the taped container to drop it as an item. Placing it back down will automatically remove the tape."
-			]
-			id: "313832C0F71DC061"
-			rewards: [
-				{
-					count: 4
-					id: "36CA8D3F6C989EB7"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:packing_tape"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "721F2BD2CE47C3CD"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "Going Somewhere?"
-			tasks: [{
-				id: "12991927E90D9F75"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:packing_tape"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 11.5d
-		}
-		{
 			description: ["Craft a Storage Tool to easily link, lock, and fine-tune your storage setup."]
 			id: "6BBDA828DE91458D"
 			rewards: [
@@ -3588,7 +3547,7 @@
 				item: "sophisticatedstorage:decoration_table"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.25d
 			y: 11.5d
 		}
 		{
@@ -3625,7 +3584,7 @@
 				item: "sophisticatedstorage:paintbrush"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.75d
 			y: 11.5d
 		}
 		{
