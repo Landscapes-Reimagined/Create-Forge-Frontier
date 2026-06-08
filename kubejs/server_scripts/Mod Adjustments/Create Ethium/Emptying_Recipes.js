@@ -81,19 +81,15 @@ ServerEvents.recipes(event =>
                 type: 'create:emptying',
                 ingredients: [
                 {
-                    item: 'minecraft:chorus_flower'
+                    item: 'minecraft:chorus_fruit'
                 }
                 ],
                 results: [
                 {
                     amount: 250,
                     fluid: 'create_ethium:chorus_nectar_fluid'
-                },
-                {
-                    item: 'minecraft:chorus_fruit',
-                    chance: 0.25
                 }
                 ]
-            }).id( 'forge_frontier:emptying/chorus_nectar_from_flower' )
+            }).id( 'forge_frontier:emptying/chorus_nectar_from_fruit' )
     }
 )
