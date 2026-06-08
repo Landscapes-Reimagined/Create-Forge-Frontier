@@ -81,7 +81,7 @@ ServerEvents.recipes(event =>
                 type: 'create:emptying',
                 ingredients: [
                 {
-                    item: 'minecraft:chorus_fruit'
+                    item: "minecraft:popped_chorus_fruit"
                 }
                 ],
                 results: [
