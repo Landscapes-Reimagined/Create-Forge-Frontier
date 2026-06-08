@@ -320,17 +320,33 @@
 		{
 			dependencies: ["6B54577F45BDF5E7"]
 			description: [
-				" &6Forge the Flameproof Suit&r"
+				"&6Forge the Netherite Space Suit&r"
 				""
-				"Mercury’s searing heat makes it one of the most unforgiving worlds in the entire solar system. The moment you leave your rocket, the planet's atmosphere will try to cook you alive. &cWithout the right protection, you won’t survive long enough to take a step!&r"
+				"Mercury is one of the most hostile planets in the solar system. Its blistering temperatures and relentless solar exposure make the planet extremely dangerous for unprepared explorers. The moment you step onto its scorched surface, the environment itself becomes your greatest enemy."
+				""
+				"Without proper protection, survival will be short-lived."
 				""
 				"{@pagebreak}"
 				""
-				"To endure this &ohellish environment&r, you’ll need the &lNetherite Space Suit&r-a reinforced upgrade designed to withstand the sun-scorched landscape. This suit isn't just an armor piece-it’s your lifeline."
+				"&lPreparing for Mercury&r"
 				""
-				"Crafting the Netherite Space Suit is not optional-it’s your &cfinal barrier between survival and ash&r."
+				"To safely explore Mercury, you must upgrade your equipment and craft the &6Netherite Space Suit&r. This specialized suit is engineered to withstand the planet's extreme conditions, providing the protection necessary to survive its unforgiving environment."
 				""
-				" *Forge the flameshield, face the heat, and claim Mercury’s challenge head-on!*"
+				"Unlike previous worlds, Mercury cannot simply be conquered through preparation alone—you must have the proper gear before setting foot on the planet."
+				""
+				"The Netherite Space Suit is not a luxury."
+				""
+				"It is a necessity."
+				""
+				"{@pagebreak}"
+				""
+				"With your suit complete, you will finally be ready to brave Mercury's blazing wastelands, explore its ancient structures, and uncover the resources hidden beneath its scorched surface."
+				""
+				"The heat is relentless."
+				""
+				"The challenge is immense."
+				""
+				"But the rewards awaiting those who endure are well worth the risk."
 			]
 			icon: {
 				Count: 1
@@ -497,11 +513,22 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Endure the cold. Discover what sleeps beneath the ice. Click me for more info!"
-			tasks: [{
-				id: "3074F6246F1E821A"
-				item: "ad_astra:calorite_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3EBA9B3BF066CC37"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "33638EA42BEB4C2C"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
 			title: "Glacio: Frozen Frontier"
 			x: 11.0d
 			y: 8.5d
@@ -907,22 +934,38 @@
 		{
 			dependencies: ["59D5B8DD8372D306"]
 			description: [
-				"&7Begin your next great leap into the cosmos as Mars opens its ancient gates.&r"
+				"&7With the &cTier 2 Rocket&r complete, a new frontier awaits beyond the stars.&r"
 				""
-				" Congratulations, &ospace pioneer&r! You’ve crafted the mighty &cTier 2 Rocket&r, and now it’s time to set your course for &4Mars&r-a world veiled in dust, mystery, and untold riches."
+				"Congratulations, explorer! Your growing space program has reached another major milestone. The path to &4Mars&r is now open, granting access to a world of ancient ruins, hidden treasures, and dangerous challenges waiting to be uncovered."
+				""
+				"The Red Planet marks the next stage of your journey across the solar system."
 				""
 				"{@pagebreak}"
 				""
-				" &lTouch Down and Explore&r:  "
-				"Fuel up, strap in, and ignite your thrusters-your journey to the &cRed Planet&r begins now. Upon arrival, a realm of adventure unfolds:"
+				"&lSet Course for Mars&r"
 				""
-				"-  &oAncient Structures&r hide forgotten lore.  "
-				"-  &oHidden Relics&r await beneath the sands.  "
-				"-  &oTreasure Caches&r lie in wait for the bold."
+				"Fuel your rocket, prepare your equipment, and begin the journey to humanity's next great destination."
 				""
-				"Mars is not just another step-it’s a leap into a frontier shaped by time, danger, and discovery."
+				"Upon arrival, you'll discover a harsh and mysterious world shaped by countless ages of history. Throughout the planet, you'll encounter:"
 				""
-				" Will you claim its secrets or vanish into the crimson dust?"
+				"* &oAncient structures&r hiding valuable loot and forgotten secrets."
+				"* &oDangerous enemies&r guarding powerful resources."
+				"* &oRare materials&r required for future technological advancements."
+				"* &oUnique challenges&r unlike anything found on the Moon."
+				""
+				"Every expedition into the Martian wilderness offers new opportunities for discovery."
+				""
+				"{@pagebreak}"
+				""
+				"Mars is more than just another planet."
+				""
+				"It is a proving ground for explorers seeking to push beyond the limits of known space."
+				""
+				"Its crimson deserts conceal powerful relics, ancient mysteries, and the resources needed to continue your journey deeper into the cosmos."
+				""
+				"The question is no longer whether you can reach Mars."
+				""
+				"The question is what you will discover when you arrive."
 			]
 			icon: "ad_astra:mars_globe"
 			id: "5B64CE917218050A"
@@ -1350,27 +1393,51 @@
 		{
 			dependencies: ["586133B7C1877C61"]
 			description: [
-				"&7With flame at your feet and stars overhead, it’s time to enter the crucible of space.&r"
+				"&7With the &6Tier 3 Rocket&r complete, your journey carries you deeper into the solar system than ever before.&r"
 				""
-				" &eCongratulations, fearless adventurer!&r With your &lTier 3 Rocket&r complete, you’re prepared to journey into the most extreme and enigmatic worlds yet."
+				"Congratulations, explorer! You have unlocked access to two of the most hostile and mysterious worlds known to humanity: &6Mercury&r and &eVenus&r. Each planet offers unique resources, dangerous environments, and powerful challenges that will test both your preparation and your determination."
 				""
-				"{@pagebreak}"
-				""
-				" &lMercury&r  "
-				"Buckle up and &6launch toward Mercury&r-its &cblistering surface&r hides &otreacherous ruins&r and &6rare treasures&r, buried beneath the relentless glare of the sun."
-				""
-				" &lVenus&r  "
-				"Continue your voyage to the &ofiery atmosphere&r of Venus, a planet teeming with:"
-				""
-				"-  &oAncient ruins&r pulsing with forgotten energy  "
-				"-  Valuable loot scattered across scorched landscapes  "
-				"-  &cDangerous challenges&r for only the most daring explorers"
+				"The age of true planetary exploration has begun."
 				""
 				"{@pagebreak}"
 				""
-				"These planets are not for the faint of heart-but for those who dare, they offer &orare finds&r and &6untold secrets&r. Will you rise above the heat and uncover their mysteries?"
+				"&lMercury&r"
 				""
-				" &lThe stars are watching-are you ready to push the boundaries of exploration?&r"
+				"Scorched by the relentless heat of the sun, &6Mercury&r is a world of blazing wastelands, ancient ruins, and hidden treasures waiting to be uncovered."
+				""
+				"Those capable of surviving its extreme environment will discover:"
+				""
+				"* &oAncient structures&r filled with valuable loot."
+				"* &oRare resources&r required for future progression."
+				"* &oPowerful enemies&r guarding forgotten secrets."
+				"* Unique challenges unlike anything encountered on previous planets."
+				""
+				"Mercury rewards only the most prepared explorers."
+				""
+				"{@pagebreak}"
+				""
+				"&lVenus&r"
+				""
+				"Beneath its toxic atmosphere and hostile surface lies a world rich with mystery and discovery."
+				""
+				"Across Venus, you will encounter:"
+				""
+				"* &oAncient ruins&r hidden beneath the clouds."
+				"* &oDangerous structures&r filled with valuable rewards."
+				"* Unique resources essential for advanced technology."
+				"* Powerful enemies protecting the planet's secrets."
+				""
+				"Though its environment is harsh, Venus offers opportunities that cannot be found anywhere else in the solar system."
+				""
+				"{@pagebreak}"
+				""
+				"Mercury and Venus represent a significant step forward in your journey among the stars."
+				""
+				"Their resources will fuel future advancements, their challenges will test your abilities, and their secrets will prepare you for the worlds that still lie ahead."
+				""
+				"The frontier grows ever larger."
+				""
+				"Now it's time to discover what awaits beyond the horizon."
 			]
 			icon: "ad_astra:mercury_globe"
 			id: "5930A1E4723BBE2A"
@@ -1549,11 +1616,24 @@
 			]
 			icon: "create_resource_vents:dormant_pyroclast_vent"
 			id: "0526FF8AE3C0EA67"
-			rewards: [{
-				id: "09F8DC99FADEE584"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "7CFBD78C0B7AB94A"
+					item: "forge_frontier:pyroclast"
+					type: "item"
+				}
+				{
+					id: "287A8E3E57FC4673"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					id: "54C78D6296031BEC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [
 				{
@@ -1607,12 +1687,79 @@
 				tag: { }
 			}
 			id: "18FE88DC4331C399"
+			rewards: [
+				{
+					count: 5
+					id: "4C3E6DD9E7602591"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					id: "1027F40B155CECAC"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "171A6AA3FDDC1378"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "0EFB75D3BB70B9FC"
-				item: "ad_astra:rocket_nose_cone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0EFB75D3BB70B9FC"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "76F3CB46E1E86648"
+					item: { Count: 20, id: "forge_frontier:calorite_rocket_casing" }
+					type: "item"
+				}
+				{
+					id: "7023C43E7F5AED2D"
+					item: "forge_frontier:deep_space_stabilizer_core"
+					type: "item"
+				}
+				{
+					id: "3C3B61A0E214662B"
+					item: "forge_frontier:thermal_shield_matrix"
+					type: "item"
+				}
+				{
+					id: "5B49747027008713"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_3_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5AE8736539DD36F4"
+					item: "forge_frontier:solar_regulation_array"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "593EF690DD20F493"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1760E0A66590A396"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "7D3B1BDAF2F19466"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
 			title: "Tier 4 Rocket Parts"
 			x: 3.0d
 			y: 11.5d
@@ -1620,26 +1767,46 @@
 		{
 			dependencies: ["18FE88DC4331C399"]
 			description: [
-				"&7The ice calls to those bold enough to brave its silence and storms.&r"
+				"&7With the &bTier 4 Rocket&r complete, you are ready to journey to the outermost frontier of the solar system.&r"
 				""
-				" &bCongratulations, daring adventurer!&r  "
-				"With the &lTier 4 Rocket&r now at your command, the &ofrozen realm of Glacio&r awaits your arrival! Fuel up, strap in, and prepare to break through the stratosphere into a world of snow, silence, and ancient power."
+				"Congratulations, explorer! Your growing space program has reached its final destination within the known worlds of Ad Astra. Beyond the inner planets lies &bGlacio&r, a frozen world shrouded in snowstorms, ancient ruins, and mysteries locked beneath centuries of ice."
 				""
-				"{@pagebreak}"
-				""
-				" Upon landing, you’ll face a landscape of &bglacial beauty&r and &ohidden peril&r. Scattered across the terrain are:"
-				""
-				"-  &3Ancient structures&r steeped in mystery  "
-				"-  Rare &oAE2 meteorites&r containing lost technologies  "
-				"-  Secrets frozen in time, waiting for the brave"
+				"Prepare your equipment, fuel your rocket, and set course for the solar system's most distant frontier."
 				""
 				"{@pagebreak}"
 				""
-				"With every step across this icy world, you’ll uncover rare resources, powerful artifacts, and forgotten knowledge buried beneath the frost."
+				"&lWelcome to Glacio&r"
 				""
-				" &lThe Frozen Frontier&r beckons-will you seize its secrets or succumb to the cold?"
+				"Upon arrival, you will find yourself in a harsh and unforgiving environment where survival is as important as exploration."
 				""
-				" &bGlacio awaits-ignite the engines and conquer the cold.&r"
+				"Scattered throughout the frozen landscape are:"
+				""
+				"* &oAncient structures&r containing valuable loot and forgotten secrets."
+				"* &oDangerous enemies&r guarding powerful rewards."
+				"* &oRare resources&r required for advanced progression."
+				"* &oMysterious landmarks&r hidden beneath the snow and ice."
+				""
+				"Every expedition into Glacio's frozen wilderness offers new opportunities for discovery."
+				""
+				"{@pagebreak}"
+				""
+				"Though its surface may appear lifeless, Glacio hides countless secrets beneath its frozen crust."
+				""
+				"From abandoned ruins to ancient relics preserved by the cold, the planet rewards those willing to brave its harsh environment and venture into the unknown."
+				""
+				"The challenges here are significant, but so are the rewards."
+				""
+				"{@pagebreak}"
+				""
+				"Glacio represents the final frontier of your planetary journey."
+				""
+				"Its resources, structures, and mysteries will prepare you for the challenges that lie beyond the End and the worlds that await afterward."
+				""
+				"The cold is relentless."
+				""
+				"The frontier is unforgiving."
+				""
+				"But great discoveries await those willing to push onward."
 			]
 			hide_dependency_lines: true
 			icon: "ad_astra:glacio_globe"
@@ -1727,6 +1894,23 @@
 			]
 			icon: "cataclysm:flame_eye"
 			id: "29B52E50E3FDF75E"
+			rewards: [
+				{
+					id: "5DE48ECFD8C8030A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "3FF4DCC8CE685482"
+					item: "cataclysm:blazing_grips"
+					type: "item"
+				}
+				{
+					id: "49990C3FEF5BE6AD"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -1811,6 +1995,23 @@
 			]
 			icon: "cataclysm:desert_eye"
 			id: "18C76E4350AC3CBC"
+			rewards: [
+				{
+					id: "38130FBB65F91ED7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "5EE9DA09D38C52F1"
+					item: "cataclysm:vitality_ankh"
+					type: "item"
+				}
+				{
+					id: "5E20C6407D8CA85B"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -1902,6 +2103,30 @@
 			]
 			icon: "ad_astra:red_flag"
 			id: "305D28C167DCC07E"
+			rewards: [
+				{
+					count: 3
+					id: "2847291DD7B0CC26"
+					item: "ad_astra:ostrum_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6BDC2C68E5C0A431"
+					item: "ad_astra:mercury_iron_ore"
+					type: "item"
+				}
+				{
+					id: "3F87CAB14E8C2E4A"
+					item: "ad_astra:radio"
+					type: "item"
+				}
+				{
+					id: "270A23A3AD8CC5D7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -1961,6 +2186,38 @@
 			]
 			icon: "ad_astra:yellow_flag"
 			id: "0906E1B09441C0CB"
+			rewards: [
+				{
+					count: 3
+					id: "536024A732AE829E"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1147AE0F802C4A07"
+					item: "ad_astra:venus_diamond_ore"
+					type: "item"
+				}
+				{
+					id: "00201E356D6FFD7E"
+					item: {
+						Count: 1
+						id: "ad_astra:etrionic_capacitor"
+						tag: {
+							BotariumData: {
+								Energy: 250000L
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "233E4F38F8F3B84C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2158,6 +2415,34 @@
 			]
 			icon: "ad_astra:light_blue_flag"
 			id: "120B595432CA7CEE"
+			rewards: [
+				{
+					count: 3
+					id: "3481718268E37E00"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "70D75B0B6815FB8A"
+					item: "endreborn:tungsten_ore"
+					type: "item"
+				}
+				{
+					id: "18AB7A06FCE2147C"
+					item: {
+						Count: 1
+						id: "ad_astra:energizer"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "44C0122A4BAB4CA3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2221,7 +2506,26 @@
 				""
 				"Should you prevail against Maledictus, you will move one step closer to unlocking the path to &5The End&r."
 			]
+			icon: "cataclysm:cursed_eye"
 			id: "3A49270C1C435ADA"
+			rewards: [
+				{
+					id: "7D53DC48381DD995"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "58B6140B19A3EBFB"
+					item: "cataclysm:sturdy_boots"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "32C8E10245CDFAC4"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2420,11 +2724,24 @@
 			]
 			icon: "create_resource_vents:dormant_frostite_vent"
 			id: "350F1E84CF8BB524"
-			rewards: [{
-				id: "057CA8C95048DC5A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "08D5AFB27646834E"
+					item: "forge_frontier:frostite"
+					type: "item"
+				}
+				{
+					id: "05C4F6C721F26A5A"
+					item: "ad_astra:etrium_block"
+					type: "item"
+				}
+				{
+					id: "74E34FC3F3F9A005"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [
 				{
