@@ -2778,6 +2778,202 @@
 			x: 7.0d
 			y: 9.5d
 		}
+		{
+			description: [
+				"The winds of the End whisper of a fortress long forgotten. Legends tell of the Ruined Citadel, where ancient power lies sealed behind shattered walls. To uncover its secrets, you must follow the Eye into the Void and seek out this forsaken stronghold."
+				""
+				"But beware! Deep within the Citadel lurks the Ender Guardian, a foe of immense strength who has claimed the lives of many who came chasing fortune."
+				""
+				"Will you venture forward and face the Guardian, or retreat to the safety of the Overworld and leave the Citadel’s mysteries undiscovered?"
+				""
+				"{image:ftb:textures/ruined_citadel.png width:200 height:120 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "cataclysm:void_eye"
+				tag: { }
+			}
+			id: "285453E58AFF48B7"
+			rewards: [
+				{
+					id: "680023E12E286D46"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4152ED8EDCB9B959"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4FBA015002DAA2FF"
+					item: "cataclysm:void_eye"
+					title: "Forge the Eye of Void"
+					type: "item"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "611D67028C329B9D"
+					structure: "cataclysm:ruined_citadel"
+					title: "Use the Eye to Locate the Ruined Citadel"
+					type: "structure"
+				}
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_stone"
+					id: "19F44C179677561E"
+					type: "dimension"
+				}
+			]
+			title: "Locate the Ruined Citadel"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["285453E58AFF48B7"]
+			description: [
+				"The Ruined Citadel is littered with treasure, its halls lined with forgotten riches. There are loot chests filled with gear and even solid blocks of diamond and gold just waiting to be claimed."
+				""
+				"But such wealth is never left unguarded. As you plunder the Citadel, beware the Ender Golems, ever watchful and ready to strike you down."
+				""
+				"Once you've looted to your heart's content, click the checkmark to proceed."
+				""
+				"{image:ftb:textures/ruined_citadel_loot.png width:200 height:120 align:center}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "lootr:trophy"
+				tag: { }
+			}
+			id: "5FFF41B9B9D5FA13"
+			rewards: [
+				{
+					id: "26A19E16DAE55D48"
+					item: {
+						Count: 1
+						id: "ends_delight:grilled_shulker_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "48AA73699C5179B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0BF5E96F7305938D"
+				title: "Loot Some Chests!"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5FFF41B9B9D5FA13"]
+			description: [
+				"Your pillaging does not go unnoticed. As you round the corner the Ender Golem awakens. You must defeat it to prove yourself worthy of pressing deeper into the Citadel. "
+				""
+				"From its remains you will claim a Void Core, a rare material said to be essential in crafting the Forge Rocket Nose Cone."
+				""
+				"{image:ftb:textures/ender_golem.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:ender_golem_spawn_egg"
+				tag: { }
+			}
+			id: "326B4A7C0547EA69"
+			rewards: [
+				{
+					count: 2
+					id: "13E7BA65F552DE0C"
+					item: {
+						Count: 1
+						id: "ends_delight:assorted_salad"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "412DB575B16659B9"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: {
+					Count: 1
+					id: "cataclysm:ender_golem_spawn_egg"
+					tag: { }
+				}
+				id: "6DCA44BBBFBCAE92"
+				title: "Eliminate the Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eliminate the Ender Golem"
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["326B4A7C0547EA69"]
+			description: [
+				"Deep within the Citadel stands the Ender Guardian, a towering foe strong enough to withstand the mightiest blows. Many have faced it... none have returned. "
+				""
+				"The Ender Guardian’s attacks are brutal. It can send you flying into the air, rush through the arena with a devastating charge, and call upon Void Runes that unleash blasts of energy. At half health, it will shatter the very floor of the arena, dragging you into a lower level where the battle rages on."
+				""
+				"Should you be victorious, the Guardian will fall and drop the Gauntlet of the Guard. This relic grants you the ability to construct the Tier 5 Rocket, the key to advancing beyond the End."
+				""
+				"{image:ftb:textures/ender_guardian.png width:200 height:120 align:center}"
+			]
+			id: "01281CDF6BEF857C"
+			rewards: [
+				{
+					id: "07EEA470ED5E8883"
+					item: {
+						Count: 1
+						id: "cataclysm:gauntlet_of_guard"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "503352B581A1D839"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					Count: 1
+					id: "cataclysm:gauntlet_of_guard"
+					tag: { }
+				}
+				id: "4AC8C4CB4F37FB7C"
+				title: "Defeat the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the Ender Guardian"
+			x: 12.0d
+			y: 14.5d
+		}
 	]
 	title: "Basic Dimensions"
 }

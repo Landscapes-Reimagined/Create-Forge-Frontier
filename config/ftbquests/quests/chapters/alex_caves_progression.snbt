@@ -6,13 +6,7 @@
 	default_quest_size: 1.5d
 	filename: "alex_caves_progression"
 	group: "18D089BBC98AE6DA"
-	icon: {
-		Count: 1
-		id: "alexscaves:primordial_helmet"
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "alexscaves:spelunkery_table"
 	id: "44EFA82E2251DE57"
 	images: [
 		{
@@ -72,7 +66,7 @@
 			y: 13.5d
 		}
 	]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1097,6 +1091,301 @@
 			}]
 			title: "Slay the Forsaken"
 			x: 24.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Beware the Sunken City, as it is said to be home of the Leviathan, a dangerous monster that has claimed the lives of many adventurers who were unprepared."
+				""
+				"Will you emerge victorious, or will the jaws of the Leviathan prove to be too powerful? Only one way to find out."
+				""
+				"The Sunken City is located in the Oceans of the Abyssal Chasm. You must brave the vast seas and slay The Leviathan if you wish to progress further."
+				""
+				"{image:ftb:textures/sunken_city_bg.png width:225 height:175 align:center}"
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "449BC30FBCC42249"
+			rewards: [
+				{
+					id: "1735BC343D3399C2"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6570512198776AF1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Leviathan's Kingdom."
+			tasks: [
+				{
+					id: "157F2A7ECD32C5E9"
+					item: "cataclysm:abyss_eye"
+					title: "Forge the Eye of Abyss"
+					type: "item"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "6651AAD280E16017"
+					structure: "cataclysm:sunken_city"
+					title: "Use the Eye to Locate the Sunken City"
+					type: "structure"
+				}
+				{
+					dimension: "forge_frontier:abyssal_chasm"
+					icon: "alexscaves:submarine"
+					id: "2777DE83AA1FCB54"
+					type: "dimension"
+				}
+			]
+			title: "Locate the Sunken City"
+			x: -27.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["449BC30FBCC42249"]
+			description: [
+				"First, you must obtain a Coral Chunk by eliminating the Coralssus, a powerful Mini-Boss that can be found locked away in the prison guarded by Deeplings."
+				""
+				"{image:ftb:textures/coralssus.png width:175 height:175 align:center}"
+			]
+			hide_dependency_lines: true
+			id: "3ED05EA56DCB62C2"
+			rewards: [
+				{
+					id: "5A43B14BF9E50838"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					id: "3CE0EA0ECC0BADBC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				icon: "cataclysm:coral_chunk"
+				id: "37C5F76BF382858F"
+				title: "Eliminate the Coralssus"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Eliminate the Coralssus"
+			x: -32.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3ED05EA56DCB62C2"]
+			description: [
+				"The Athame is an Ancient Blade forged by the Deeplings and given only to their most powerful warriors-the Deepling Warlock and Deepling Priest. "
+				""
+				"You must track down and defeat these warriors, and then reforge their blade into a sacrifice worthy of summoning the Leviathan."
+				""
+				"{image:ftb:textures/deepling_warlock.png width:175 height:175 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E26DD51B9FBDAC7"
+			rewards: [
+				{
+					count: 2
+					id: "15EEBAF105A7BEE8"
+					item: "minecraft:sea_lantern"
+					type: "item"
+				}
+				{
+					id: "6C61ED828C6C9A5A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling_warlock"
+					icon: "cataclysm:deepling_warlock_spawn_egg"
+					id: "230E5705DCDE1247"
+					title: "Eliminate a Deepling Warlock"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					icon: "cataclysm:deepling_priest_spawn_egg"
+					id: "5377F235E89BD8B7"
+					title: "Eliminate a Deepling Priest"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2F4C84AF71B24E24"
+					item: {
+						Count: 1
+						id: "cataclysm:athame"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Obtain the Athame"
+					type: "item"
+				}
+			]
+			title: "Obtain the Athame"
+			x: -29.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E26DD51B9FBDAC7"]
+			description: [
+				"Amethyst Crabs can be found in the Altar room, alongside the Deepling Priests. They drop Amethyst Crab Meat, which can greatly assist you in your fight against the Leviathan. "
+				""
+				"{image:ftb:textures/amethyst_crab.png width:200 height:120 align:center}"
+				""
+				"Learn more on the next page."
+				"{@pagebreak}"
+				"You can bless the Amethyst Crab Meat using the Altar of Amethyst. Simply right click the Altar with Amethyst Crab Meat in your hand."
+				""
+				"Eating the Blessed Amethyst Crab Meat will give you the buff \"&5Blessing of Amethyst&r,\" which negates all 3 debuffs the Leviathan inflicts while you are battling it."
+				""
+				"{image:ftb:textures/blessed_crab_meat.png width:200 height:120 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:blessed_amethyst_crab_meat"
+				tag: { }
+			}
+			id: "57127B69D7C5134B"
+			rewards: [
+				{
+					count: 2
+					id: "6AFC32250436DD48"
+					item: {
+						Count: 1
+						id: "cataclysm:blessed_amethyst_crab_meat"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C1B9E698362FCCE"
+					type: "xp"
+					xp: 250
+				}
+			]
+			subtitle: "A Blessing of Amethyst."
+			tasks: [
+				{
+					entity: "cataclysm:amethyst_crab"
+					icon: {
+						Count: 1
+						id: "cataclysm:amethyst_crab_shell"
+						tag: { }
+					}
+					id: "13D3B85CC0311EEE"
+					title: "Slay Two Amethyst Crabs"
+					type: "kill"
+					value: 2L
+				}
+				{
+					count: 2L
+					id: "01A1670A8BF1A8B6"
+					item: {
+						Count: 2
+						id: "cataclysm:blessed_amethyst_crab_meat"
+						tag: { }
+					}
+					title: "Bless The Crab Meat"
+					type: "item"
+				}
+			]
+			title: "Slay Amethyst Crabs"
+			x: -27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57127B69D7C5134B"]
+			description: ["Now, you must craft the &5Abyssal Sacrifice&r, and offer it to the Altar of Abyss in the center of the city."]
+			id: "381A81F03F347383"
+			rewards: [{
+				id: "2B48022474B9BCE6"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "51A44B7D82AC9E6F"
+				item: "cataclysm:abyssal_sacrifice"
+				title: "Craft the Abyssal Sacrifice"
+				type: "item"
+			}]
+			title: "Craft the Abyssal Sacrifice"
+			x: -24.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["381A81F03F347383"]
+			description: [
+				"The Leviathan has claimed many lives. You must be the one to end its cruel reign over the Deeplings."
+				""
+				"Beware... The Leviathan has attacks that can shake you to your core, rendering you unable to move. Consider bringing ender pearls to escape the grasp of The Leviathan. They can also be used to avoid its deadly lazer and tentacle attacks."
+				""
+				"Defeating The Leviathan will award you with the &5Tidal Claws&r - a powerful weapon that doubles as a grappling hook."
+				""
+				"The Leviathan will also drop its Abyssal Egg, which is used in making the Tier 6 rocket."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:tidal_claws"
+				tag: { }
+			}
+			id: "7CA6CB6425E43C01"
+			rewards: [
+				{
+					id: "488C53440E880900"
+					item: "cataclysm:the_baby_leviathan_bucket"
+					type: "item"
+				}
+				{
+					id: "06A708CF065054BE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:the_leviathan_spawn_egg"
+					id: "5A0D2F3CBD7BC10B"
+					title: "Defeat the Leviathan"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "59C011C826E7908D"
+					item: {
+						Count: 1
+						id: "cataclysm:abyssal_egg"
+						tag: { }
+					}
+					title: "Obtain the Abyssal Egg"
+					type: "item"
+				}
+			]
+			title: "Defeat the Leviathan"
+			x: -22.0d
 			y: -3.0d
 		}
 	]
