@@ -28,7 +28,7 @@
 			y: -19.5d
 		}
 	]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -68,11 +68,43 @@
 				"7B5C06E2EFBDDAFC"
 			]
 			description: [
-				" Congratulations, fearless adventurer! With the &lForge Rocket&r fully assembled, you’ve achieved a feat few could dream of-unlocking the path to &oThe Forge&r, the final planet steeped in ancient power and untold secrets. This is no ordinary destination. It is the culmination of every trial you've faced, every world you've conquered."
+				"&7Congratulations, engineer. By completing the &6Forge Rocket&r, you have reached the final milestone of &6Create - Forge Frontier&r.&r"
+				""
+				"What began as a small workshop has grown into a sprawling industrial empire capable of spanning worlds. Through determination, ingenuity, and countless hours of automation, you have conquered every major challenge the pack has placed before you."
+				""
+				"Very few will ever reach this point."
 				""
 				"{@pagebreak}"
 				""
-				"As a reward for your triumph, you’ve earned a &6rare celestial trophy&r-an artifact of immense value. This key unlocks the ability to craft a &llegendary fuel&r, essential for reaching The Forge in a future update. Safeguard it well, for it will be the ignition spark of a journey like no other."
+				"&lA Monument to Mastery&r"
+				""
+				"The Forge Rocket is more than a machine—it is a symbol of everything you have accomplished."
+				""
+				"You have explored distant planets, defeated legendary foes, mastered advanced production chains, and built the infrastructure required to support interplanetary industry."
+				""
+				"Every factory, every machine, and every resource gathered has contributed to this achievement."
+				""
+				"This rocket stands as proof of your mastery."
+				""
+				"{@pagebreak}"
+				""
+				"&lYour Journey Continues&r"
+				""
+				"As a reward for completing this monumental challenge, you have earned a &6Celestial Trophy&r—a rare artifact commemorating your accomplishment."
+				""
+				"Display it proudly as a reminder of the worlds you explored, the challenges you overcame, and the legacy you forged among the stars."
+				""
+				"Few engineers possess the skill, patience, and determination required to earn such a reward."
+				""
+				"{@pagebreak}"
+				""
+				"Though your adventure may be complete, the factory you built and the empire you created will stand as a testament to your achievement for years to come."
+				""
+				"The stars have been conquered."
+				""
+				"The machines stand silent."
+				""
+				"And your legacy has been forged forever."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -118,21 +150,37 @@
 		}
 		{
 			description: [
-				"&7Forged in ambition and bound for legend, the &eForge Rocket&r is your gateway to the most elusive destination yet-&6The Forge&r. Launching with the &lv3.0 update&r, this powerful vessel is more than transportation-it's your &ofinal test of mastery&r."
+				"&7Forged through countless hours of automation, exploration, engineering, and discovery, the &6Forge Rocket&r represents the pinnacle of technological achievement.&r"
+				""
+				"This is not simply another rocket."
+				""
+				"It is the culmination of everything you have learned throughout your journey."
+				""
+				"From your first mechanical contraptions to sprawling industrial complexes, every challenge, every planet, and every factory has led to this moment."
 				""
 				"{@pagebreak}"
 				""
-				"Upon arrival, you’ll descend into &6an ancient stronghold&r built to challenge every ounce of your strength, cunning, and resilience. Within the maze-like halls of The Forge lie powerful mechanisms, intricate trials, and a &lcustom final boss encounter&r forged to push even the greatest adventurers to their limits."
+				"&lThe Ultimate Achievement&r:"
 				""
-				"Conquer these trials, and you’ll earn more than glory-you’ll receive a &brare relic&r capable of unlocking the ultimate reward: the &lability to craft Creative-tier items&r."
+				"Constructing the Forge Rocket is no small feat. It requires advanced materials gathered from across the solar system, mastery of complex production chains, and the full power of your automation network."
+				""
+				"Only those who have conquered the stars, defeated powerful foes, and mastered industrial engineering will possess the knowledge and resources necessary to complete it."
+				""
+				"The Forge Rocket stands as proof that you have overcome every obstacle placed before you."
 				""
 				"{@pagebreak}"
 				""
-				"This isn’t just a journey to a new planet-it’s a battle for legacy. A proving ground for those who seek to ascend beyond mortal limits."
+				"More than any boss, planet, or machine, the Forge Rocket serves as the ultimate symbol of your accomplishments."
 				""
-				" &lWill you master The Forge and unlock the power of creation-or fall beneath the weight of its challenges?&r"
+				"It is the final milestone of your adventure—a testament to your creativity, perseverance, and engineering skill."
 				""
-				"The stars have watched your journey. Now, they watch your final trial."
+				"As the engines ignite for the final time, take a moment to look back at everything you have built."
+				""
+				"The factory is complete."
+				""
+				"The stars have been conquered."
+				""
+				"And your legacy has been forged."
 			]
 			hide_dependent_lines: true
 			id: "262FF2B00E853521"

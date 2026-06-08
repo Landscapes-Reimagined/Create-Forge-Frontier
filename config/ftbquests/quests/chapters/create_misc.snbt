@@ -1258,7 +1258,7 @@
 					xp: 300
 				}
 			]
-			subtitle: "Extra Ethium."
+			subtitle: "Extra Mithril."
 			tasks: [{
 				id: "2131D7685AD74234"
 				title: "Click Me!"
