@@ -28,7 +28,7 @@
 			y: -19.5d
 		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -226,6 +226,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 1/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "6FD657A15F92CA16"
 			tasks: [{
 				id: "64B75E8D1CC47D75"
@@ -238,6 +250,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 2/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "061009F5566F4B61"
 			tasks: [{
 				count: 2L
@@ -251,6 +275,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 3/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "0FDC6A34028ACA9D"
 			tasks: [{
 				count: 3L
@@ -264,6 +300,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 4/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "3A504DD3A5170FFA"
 			tasks: [{
 				count: 4L
@@ -277,6 +325,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 5/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "00B3222F85844A67"
 			tasks: [{
 				count: 5L
@@ -290,6 +350,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 6/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "71D802D7D38AF882"
 			tasks: [{
 				count: 6L
@@ -303,6 +375,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 7/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "5DC4F747D9DBECD5"
 			tasks: [{
 				count: 7L
@@ -316,6 +400,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 9/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "3F3C7BD6B4D4CD6D"
 			tasks: [{
 				count: 9L
@@ -329,6 +425,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 8/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "65B36D176068B345"
 			tasks: [{
 				count: 8L
@@ -342,6 +450,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 10/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "71EFAE0D372D5B0E"
 			tasks: [{
 				count: 10L
@@ -355,6 +475,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 11/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "3B33D45AB5EE4F6C"
 			tasks: [{
 				count: 11L
@@ -368,6 +500,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 12/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "2E9CD106979B53E9"
 			tasks: [{
 				count: 12L
@@ -381,6 +525,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 13/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "49D9B48B25A4A62F"
 			tasks: [{
 				count: 13L
@@ -394,6 +550,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"Forge Rocket Casing 14/18"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "594EEFC863A734D8"
 			tasks: [{
 				count: 14L
@@ -407,6 +575,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 16/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "335C4EED4427D84F"
 			tasks: [{
 				count: 16L
@@ -420,6 +600,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"Forge Rocket Casing 15/18"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "153338FE8E3AABB7"
 			tasks: [{
 				count: 15L
@@ -433,6 +625,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 17/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "1370D9EC058E1497"
 			tasks: [{
 				count: 17L
@@ -446,6 +650,18 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&nForge Rocket Casing 18/18&r"
+				""
+				"&7The &6Forge Rocket Casing&r is the backbone of the &6Forge Rocket&r and one of the largest resource sinks in the entire pack.&r"
+				""
+				"Each casing requires enormous quantities of materials sourced from across your adventure, making large-scale automation and resource production essential."
+				""
+				"You will need to craft multiple casings to complete the Forge Rocket, so now is the time to put your factory to the test."
+				""
+				"Need help understanding the recipe? Check out the"
+				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
+			]
 			id: "6FE67C581C1C498F"
 			tasks: [{
 				count: 18L
@@ -459,6 +675,17 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&7The &6Forge Rocket Door&r serves as the primary access point to the &6Forge Rocket&r and symbolizes the many worlds you have explored throughout your journey.&r"
+				""
+				"Unlike many other Forge Rocket components, the door is crafted using stone and structural materials gathered from numerous dimensions and planets. Each material represents a milestone in your adventure, from the Overworld to the farthest reaches of the cosmos."
+				""
+				"To complete the Forge Rocket, you must prove that you have truly explored every frontier."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Door Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"47C19D9E0F6234DB\" } }"
+			]
 			id: "7B5C06E2EFBDDAFC"
 			tasks: [{
 				id: "78B35BBFB51EF003"
@@ -492,6 +719,17 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&7The &6Forge Rocket Core&r is the heart of the &6Forge Rocket&r, bringing together the countless mechanical systems required to power humanity's greatest achievement.&r"
+				""
+				"Unlike structural components that rely on raw materials, the Core focuses on advanced engineering and automation. Its construction requires a wide variety of mechanisms produced throughout your journey, representing the machines, technologies, and production chains you have mastered."
+				""
+				"This is where your engineering expertise truly shines."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Core Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5666A48E904B4ADC\" } }"
+			]
 			id: "33FD946C9EF7394E"
 			tasks: [{
 				id: "17C94250ED87EB3F"
@@ -503,6 +741,17 @@
 		}
 		{
 			dependencies: ["262FF2B00E853521"]
+			description: [
+				"&7The &6Adaptive Reinforcement Matrix&r is a specialized Forge Rocket component designed to embody the defensive technologies developed throughout your journey.&r"
+				""
+				"Constructing this matrix requires chestplates gathered from multiple stages of progression, representing the armor, materials, and challenges overcome across countless dimensions and planets."
+				""
+				"Every piece used in its construction tells the story of an obstacle conquered and a frontier explored."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Adaptive Reinforcement Matrix Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3CF3784A4CD11C55\" } }"
+			]
 			id: "238FB229AE099112"
 			tasks: [{
 				id: "385308B3B04A14F5"
@@ -634,6 +883,943 @@
 			x: 2.0d
 			y: -2.5d
 		}
+		{
+			dependencies: [
+				"7E3DDF8DC16EA1BF"
+				"43A131C10479073D"
+				"72A9138E5CE15163"
+				"1E158452712976C6"
+				"4307D55941B5BD61"
+				"762D80FC4A16746C"
+				"49023DC089464DC8"
+				"0788DEF6CF81E751"
+				"78E43DAF971E7045"
+				"34EF28DB671515F0"
+				"414E0B9B85033224"
+				"7634F259127DB344"
+				"49F1A85E6FFAF420"
+				"71E0111AA5AC5900"
+				"42D5F07E83214ADD"
+				"776537C1EB6F5AD1"
+				"6B1C95E5C0E2E2C1"
+				"14A43A2D2529C93E"
+				"5EF630FBC1089A3B"
+				"0A4BC02149D14384"
+			]
+			description: [
+				"&7The Forge Rocket Casing requires a massive amount of resources and advanced manufacturing processes.&r"
+				""
+				"This component is intended to be a long-term goal that rewards players who have fully embraced automation and large-scale production."
+				""
+				"{@pagebreak}"
+				""
+				"Before beginning construction, ensure you have established:"
+				""
+				"- Large-scale resource generation."
+				"- Advanced Create production lines."
+				"- Extensive storage infrastructure."
+				"- Reliable transportation and logistics systems."
+				""
+				"Every part of your factory will contribute to this project."
+				""
+				"{@pagebreak}"
+				""
+				"Review the recipe carefully and begin scaling production accordingly."
+				""
+				"The Forge Rocket Casing is not crafted through effort alone—it is earned through industrial mastery."
+			]
+			hide_dependency_lines: true
+			icon: "forge_frontier:forge_rocket_casing"
+			id: "242B2CB4BC5EF187"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3B612306BA76693D"
+					item: "forge_frontier:forge_alloy"
+					type: "item"
+				}
+				{
+					id: "1B37DD554F9A225A"
+					item: "forge_frontier:forge_rocket_casing"
+					type: "item"
+				}
+			]
+			title: "Forge Rocket Casing Assembly Guide"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "5EF630FBC1089A3B"
+			tasks: [{
+				id: "10D7055EE948B57C"
+				item: "createcompression:compressed_experience_4x"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			id: "49F1A85E6FFAF420"
+			tasks: [{
+				id: "0A5FB34747FBF4B1"
+				item: "forge_frontier:compressed_etrium_4x"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			id: "7634F259127DB344"
+			tasks: [{
+				id: "2C83D84707AAB7B0"
+				item: "forge_frontier:compressed_adamantite_4x"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			id: "0788DEF6CF81E751"
+			tasks: [{
+				id: "332FDEA3E0E2E43B"
+				item: "forge_frontier:compressed_luxite_4x"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "6B1C95E5C0E2E2C1"
+			tasks: [{
+				id: "5A77E47E9F382775"
+				item: "forge_frontier:compressed_tungsten_4x"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			id: "71E0111AA5AC5900"
+			tasks: [{
+				id: "1C01B8710B363E1A"
+				item: "forge_frontier:compressed_desh_4x"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			id: "1E158452712976C6"
+			tasks: [{
+				id: "76D46E923912CD8B"
+				item: "forge_frontier:compressed_ostrum_4x"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			id: "43A131C10479073D"
+			tasks: [{
+				id: "7D2CB4B2B35B8DE2"
+				item: "forge_frontier:compressed_calorite_4x"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "14A43A2D2529C93E"
+			tasks: [{
+				id: "3D24E0406A6696CC"
+				item: "forge_frontier:compressed_scarlet_neodymium_4x"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			id: "72A9138E5CE15163"
+			tasks: [{
+				id: "16EFAADEC2CDCA62"
+				item: "forge_frontier:compressed_azure_neodymium_4x"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			id: "42D5F07E83214ADD"
+			tasks: [{
+				id: "45809F9C7B904276"
+				item: "forge_frontier:compressed_uranium_4x"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			id: "0A4BC02149D14384"
+			tasks: [{
+				id: "5852DE3506479916"
+				item: "forge_frontier:compressed_amber_5x"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "776537C1EB6F5AD1"
+			tasks: [{
+				id: "5931CBF3BDB65ACB"
+				item: "forge_frontier:compressed_sulfur_4x"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			id: "78E43DAF971E7045"
+			tasks: [{
+				id: "2189F3051D4767D5"
+				item: "forge_frontier:compressed_pearl_4x"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			id: "762D80FC4A16746C"
+			tasks: [{
+				id: "6E8A24AFFFF49C44"
+				item: "forge_frontier:compressed_guano_4x"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			id: "4307D55941B5BD61"
+			tasks: [{
+				id: "107B4CFA00604105"
+				item: "forge_frontier:compressed_mithril_2x"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "7E3DDF8DC16EA1BF"
+			tasks: [{
+				id: "2D7DC78B0D06CBA5"
+				item: "forge_frontier:compressed_industrial_iron_4x"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			id: "414E0B9B85033224"
+			tasks: [{
+				id: "7640F7FF48729ABB"
+				item: "forge_frontier:compressed_tungsten_4x"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			id: "49023DC089464DC8"
+			tasks: [{
+				id: "6A1E4DE42F266EC8"
+				item: "forge_frontier:compressed_netherite-diamond_3x"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			id: "34EF28DB671515F0"
+			tasks: [{
+				id: "0EBCA85B2EB0BC96"
+				item: "forge_frontier:compressed_ethium_4x"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"23D14945F46515B1"
+				"01287F40D7A670AC"
+				"2952C2385B543CFD"
+				"14EF7DD1AA08D650"
+				"1F92F7027A090AB5"
+				"045029C87AB50D79"
+				"5E84AE1F7E6BA145"
+				"506CD4AEEBC3D8F7"
+				"23870B55014EBE2A"
+				"58A62FC0B9EA3DDB"
+				"5FD3CFA851139071"
+				"66DC09163869EF7A"
+				"70977C5EEE11F742"
+				"2407A6D2C67E2557"
+				"155D72A81E5982D2"
+				"2008D9D0FF1BAEF7"
+			]
+			description: [
+				"&7The Forge Rocket Door is constructed using a collection of stone and building materials obtained from the many dimensions and planets visited throughout your adventure.&r"
+				""
+				"Unlike components focused on mass production, this recipe emphasizes exploration and progression, requiring resources gathered from across the entire pack."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have collected materials from:"
+				""
+				"- The Overworld"
+				"- The Nether"
+				"- The Otherside"
+				"- The End"
+				"- Ad Astra planets"
+				"- Post-End worlds"
+				""
+				"{@pagebreak}"
+				"Every block used in its construction tells the story of a world you conquered and a challenge you overcame."
+				""
+				"Review the recipe carefully and begin gathering the materials needed to complete this important piece of the Forge Rocket."
+			]
+			hide_dependency_lines: true
+			id: "47C19D9E0F6234DB"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "561ABEA73417AA51"
+				item: "forge_frontier:forge_rocket_door"
+				type: "item"
+			}]
+			title: "Forge Rocket Door Assembly Guide"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "5E84AE1F7E6BA145"
+			tasks: [{
+				count: 32L
+				id: "0CF6BA9BBC60DF6A"
+				item: { Count: 32, id: "minecraft:stone" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			id: "2407A6D2C67E2557"
+			tasks: [{
+				count: 32L
+				id: "36B39F4DD309D1C6"
+				item: { Count: 32, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "5FD3CFA851139071"
+			tasks: [{
+				count: 32L
+				id: "637A1FF23743C5ED"
+				item: { Count: 32, id: "deeperdarker:sculk_stone" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "14EF7DD1AA08D650"
+			tasks: [{
+				count: 32L
+				id: "53310987EAA258AE"
+				item: { Count: 32, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "506CD4AEEBC3D8F7"
+			tasks: [{
+				count: 32L
+				id: "0BBAE11E3869DC7F"
+				item: { Count: 32, id: "ad_astra:moon_stone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "70977C5EEE11F742"
+			tasks: [{
+				count: 32L
+				id: "5C1563469C51DBA0"
+				item: { Count: 32, id: "ad_astra:mars_stone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			id: "58A62FC0B9EA3DDB"
+			tasks: [{
+				count: 32L
+				id: "106A04696EF51592"
+				item: { Count: 32, id: "ad_astra:mercury_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			id: "01287F40D7A670AC"
+			tasks: [{
+				count: 32L
+				id: "44BCF497FA85B572"
+				item: { Count: 32, id: "ad_astra:venus_stone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "1F92F7027A090AB5"
+			tasks: [{
+				count: 32L
+				id: "2B1C8E745AE59882"
+				item: { Count: 32, id: "ad_astra:glacio_stone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "045029C87AB50D79"
+			tasks: [{
+				count: 32L
+				id: "3AE476BB823793FE"
+				item: { Count: 32, id: "alexscaves:muck" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			id: "23D14945F46515B1"
+			tasks: [{
+				count: 32L
+				id: "7F682B634439DAC0"
+				item: { Count: 32, id: "alexscaves:guanostone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "66DC09163869EF7A"
+			tasks: [{
+				count: 32L
+				id: "41FAB87F2D19B691"
+				item: { Count: 32, id: "alexscaves:limestone" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			id: "2952C2385B543CFD"
+			tasks: [{
+				count: 32L
+				id: "385DF1AED6394022"
+				item: { Count: 32, id: "alexscaves:cake_layer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "23870B55014EBE2A"
+			tasks: [{
+				count: 32L
+				id: "1B9B3381D6155CAA"
+				item: { Count: 32, id: "alexscaves:galena" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			id: "155D72A81E5982D2"
+			tasks: [{
+				count: 32L
+				id: "2F87285147EA453A"
+				item: { Count: 32, id: "alexscaves:radrock" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "2008D9D0FF1BAEF7"
+			shape: "hexagon"
+			tasks: [{
+				id: "49C5F5D95B5C46C0"
+				item: "createteleporters:custom_portal_base"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0144DE2A6F6EA9D0"
+				"4411430C1180816F"
+				"014335E1C64BF5AA"
+				"1CDED9EB2A44E162"
+				"6F57F555F0764451"
+				"51A58697BD43DB17"
+				"06AD83D5B2E414E5"
+				"48B7EC2444B0EDC9"
+				"5A0E6F7175CF225A"
+				"33202D4315C71278"
+				"0DC87F4D7B1CD584"
+			]
+			description: [
+				"&7The Forge Rocket Core is built using a collection of advanced mechanisms and specialized components crafted throughout the pack.&r"
+				""
+				"This recipe is designed to test your mastery of automation, requiring components produced through multiple manufacturing processes and progression systems."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have established production for:"
+				""
+				"- Precision Mechanisms"
+				"- Planetary mechanisms and components"
+				"- Advanced Create manufacturing chains"
+				"- Specialized late-game machinery"
+				"- High-tier crafted materials"
+				""
+				"The Core serves as a culmination of your engineering journey, combining technologies from across your entire adventure into a single component."
+				""
+				"Review the recipe carefully and prepare the necessary production lines before assembly begins."
+			]
+			hide_dependency_lines: true
+			id: "5666A48E904B4ADC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1AB0E70D1F788AE7"
+				item: "forge_frontier:forge_rocket_core"
+				type: "item"
+			}]
+			title: "Forge Rocket Core Assembly Guide"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "1CDED9EB2A44E162"
+			shape: "pentagon"
+			tasks: [{
+				id: "795EDC1642C56D39"
+				item: "forge_frontier:magmatic_reinforcement_core"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "6F57F555F0764451"
+			tasks: [{
+				count: 10L
+				id: "45010EEB2CC78E59"
+				item: { Count: 10, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "0DC87F4D7B1CD584"
+			tasks: [{
+				count: 10L
+				id: "264A554744812E0C"
+				item: { Count: 10, id: "createteleporters:quantum_mechanism" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "06AD83D5B2E414E5"
+			tasks: [{
+				count: 10L
+				id: "4FC4B91232E77EF8"
+				item: { Count: 10, id: "create_dd:integrated_mechanism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "51A58697BD43DB17"
+			tasks: [{
+				count: 10L
+				id: "73A7CDBE9FA313C0"
+				item: { Count: 10, id: "create_dd:calculation_mechanism" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "0144DE2A6F6EA9D0"
+			tasks: [{
+				count: 10L
+				id: "07DD3F930CB8063A"
+				item: { Count: 10, id: "create_dd:inductive_mechanism" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "5A0E6F7175CF225A"
+			tasks: [{
+				count: 10L
+				id: "4F6EF79D3DF81C62"
+				item: { Count: 10, id: "create_dd:infernal_mechanism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "014335E1C64BF5AA"
+			tasks: [{
+				count: 10L
+				id: "38D019A93569DF81"
+				item: { Count: 10, id: "create_dd:sealed_mechanism" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "33202D4315C71278"
+			tasks: [{
+				count: 10L
+				id: "622BB5F86D02B26C"
+				item: { Count: 10, id: "create_things_and_misc:vibration_mechanism" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "4411430C1180816F"
+			tasks: [{
+				count: 10L
+				id: "3E0476CF8121B0CA"
+				item: { Count: 10, id: "resonant_synthesis:deeper_mechanism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "48B7EC2444B0EDC9"
+			shape: "hexagon"
+			tasks: [{
+				count: 10L
+				id: "310D7A7C13DF0B80"
+				item: { Count: 10, id: "create_dd:shimmer_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7A2319DDDB074D5D"
+				"4888082138190D35"
+				"55127CD055348D5F"
+				"4606E6356B9CD006"
+				"02E63913443AB025"
+				"576A5C0F49008508"
+				"4EA7364AB7AD8A30"
+				"2EA3C2272B4E19DB"
+				"5FDFA4F532C59ADC"
+				"22DCB6A19F038DCA"
+				"04743F9EE65D86A2"
+				"18DDC2B04D02A95A"
+				"56A15D4080AF5256"
+				"480A7DEA63BAD564"
+				"4D7BEEEF954D9286"
+			]
+			description: [
+				"&7The Adaptive Reinforcement Matrix is crafted using a collection of chestplates obtained throughout your adventure.&r"
+				""
+				"Rather than focusing on automation or resource production, this component emphasizes progression, exploration, and the equipment that carried you through each stage of the pack."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have collected chestplates from multiple sources, including:"
+				""
+				"- Early-game progression"
+				"- Mid-game exploration"
+				"- Planetary expeditions"
+				"- Boss encounters"
+				"- Late-game dimensions"
+				""
+				"Each armor piece contributes its unique strengths to the matrix, creating a component worthy of the Forge Rocket itself."
+				""
+				"Review the recipe carefully and begin gathering the equipment needed to complete this powerful assembly."
+			]
+			hide_dependency_lines: true
+			id: "3CF3784A4CD11C55"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "474CEA111265DC08"
+				item: "forge_frontier:adaptive_reinforcement_matrix"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "7A2319DDDB074D5D"
+			tasks: [{
+				id: "316A06B79F611749"
+				item: {
+					Count: 1
+					id: "create:cardboard_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "56A15D4080AF5256"
+			tasks: [{
+				id: "55794268D986586A"
+				item: {
+					Count: 1
+					id: "createqol:shadow_radiance_chestplate"
+					tag: {
+						Air: 900.0f
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "576A5C0F49008508"
+			tasks: [{
+				id: "11C2793FAEC9B982"
+				item: {
+					Count: 1
+					id: "create_ethium:ethium_armor_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			id: "55127CD055348D5F"
+			tasks: [{
+				id: "31B0C95DBE45B4E2"
+				item: {
+					Count: 1
+					id: "alexscaves:gingerbread_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "2EA3C2272B4E19DB"
+			tasks: [{
+				id: "6C244225A7E8434C"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "5FDFA4F532C59ADC"
+			tasks: [{
+				id: "4A22B9A416120DB0"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			id: "4606E6356B9CD006"
+			tasks: [{
+				id: "3ECF79EF2DF2C823"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			id: "22DCB6A19F038DCA"
+			tasks: [{
+				id: "1021E0516B56D9FA"
+				item: "cataclysm:ignitium_elytra_chestplate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			id: "480A7DEA63BAD564"
+			tasks: [{
+				id: "18D2BDB4F1D928EC"
+				item: "cataclysm:cursium_chestplate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			id: "04743F9EE65D86A2"
+			tasks: [{
+				id: "25DF5AF6B68DF85D"
+				item: {
+					Count: 1
+					id: "experienceobelisk:cognitive_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "4D7BEEEF954D9286"
+			tasks: [{
+				id: "28A8F0A7769620BA"
+				item: {
+					Count: 1
+					id: "endelurgy:enderite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			id: "18DDC2B04D02A95A"
+			tasks: [{
+				id: "61C99B26046E799A"
+				item: {
+					Count: 1
+					id: "unusualend:warped_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.0d
+		}
+		{
+			id: "4EA7364AB7AD8A30"
+			tasks: [{
+				id: "29FC78D3A4B23644"
+				item: {
+					Count: 1
+					id: "ad_astra_tools:calorite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			id: "02E63913443AB025"
+			tasks: [{
+				id: "44E1927EEC2A3B9E"
+				item: {
+					Count: 1
+					id: "create_sa:brass_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			id: "4888082138190D35"
+			tasks: [{
+				id: "5281EFC1636B9FB3"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
 	]
-	title: "Mastery of the Forge"
+	title: "The Final Rocket"
 }
