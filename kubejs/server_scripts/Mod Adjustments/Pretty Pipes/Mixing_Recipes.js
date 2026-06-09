@@ -36,8 +36,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'create:pressing',
         ingredients: [
-            { item: 'create:iron_sheet' },
-            { item: 'create:andesite_alloy' }
+            { item: 'create:iron_sheet' }
         ],
         results: [
             { item: 'prettypipes:pipe_frame' }
