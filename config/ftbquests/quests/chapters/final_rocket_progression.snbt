@@ -1,5 +1,5 @@
 {
-	autofocus_id: "7B5C06E2EFBDDAFC"
+	autofocus_id: "262FF2B00E853521"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "final_rocket_progression"
@@ -16,7 +16,7 @@
 			image: "ftb:textures/forge_rocket.png"
 			rotation: 0.0d
 			width: 12.5d
-			x: 2.0d
+			x: 0.0d
 			y: -9.5d
 		}
 		{
@@ -24,8 +24,8 @@
 			image: "ftb:textures/forge_rocket_title.png"
 			rotation: 0.0d
 			width: 25.0d
-			x: 2.0d
-			y: -19.5d
+			x: 1.0d
+			y: -18.5d
 		}
 	]
 	order_index: 4
@@ -145,7 +145,7 @@
 				}
 			]
 			title: " Forge Rocket Complete: Congrats on Pack Completion!"
-			x: 2.0d
+			x: 0.0d
 			y: -18.0d
 		}
 		{
@@ -182,7 +182,6 @@
 				""
 				"And your legacy has been forged."
 			]
-			hide_dependent_lines: true
 			id: "262FF2B00E853521"
 			rewards: [
 				{
@@ -210,22 +209,34 @@
 				type: "dimension"
 			}]
 			title: "The Final Frontier: The Forge Rocket"
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["0917C06AA703535A"]
+			description: [
+				"&7The &6Forge Rocket Nose Cone&r serves as the crowning piece of the &6Forge Rocket&r, representing the many challenges conquered throughout your journey.&r"
+				""
+				"Forged from powerful boss trophies and advanced aerospace components, the Nose Cone symbolizes the knowledge, experience, and determination required to reach the end of your adventure."
+				""
+				"Every battle fought and every world explored has contributed to its construction."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Nose Cone Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0917C06AA703535A\" } }"
+			]
+			hide_dependency_lines: true
 			id: "20F05FB6BA144DA0"
 			tasks: [{
 				id: "3AC0B6F750EB5591"
 				item: "forge_frontier:forge_rocket_nose_cone"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -16.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 1/18&r"
 				""
@@ -238,6 +249,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "6FD657A15F92CA16"
 			tasks: [{
 				id: "64B75E8D1CC47D75"
@@ -245,11 +257,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 1/18"
-			x: 1.0d
+			x: -1.0d
 			y: -14.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 2/18&r"
 				""
@@ -262,6 +274,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "061009F5566F4B61"
 			tasks: [{
 				count: 2L
@@ -270,11 +283,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 2/18"
-			x: 2.0d
+			x: 0.0d
 			y: -14.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 3/18&r"
 				""
@@ -287,6 +300,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "0FDC6A34028ACA9D"
 			tasks: [{
 				count: 3L
@@ -295,11 +309,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 3/18"
-			x: 3.0d
+			x: 1.0d
 			y: -14.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 4/18&r"
 				""
@@ -312,6 +326,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "3A504DD3A5170FFA"
 			tasks: [{
 				count: 4L
@@ -320,11 +335,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 4/18"
-			x: 1.0d
+			x: -1.0d
 			y: -12.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 5/18&r"
 				""
@@ -337,6 +352,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "00B3222F85844A67"
 			tasks: [{
 				count: 5L
@@ -345,11 +361,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 5/18"
-			x: 2.0d
+			x: 0.0d
 			y: -12.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 6/18&r"
 				""
@@ -362,6 +378,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "71D802D7D38AF882"
 			tasks: [{
 				count: 6L
@@ -370,11 +387,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 6/18"
-			x: 3.0d
+			x: 1.0d
 			y: -12.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 7/18&r"
 				""
@@ -387,6 +404,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "5DC4F747D9DBECD5"
 			tasks: [{
 				count: 7L
@@ -395,11 +413,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 7/18"
-			x: 1.0d
+			x: -1.0d
 			y: -11.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 9/18&r"
 				""
@@ -412,6 +430,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "3F3C7BD6B4D4CD6D"
 			tasks: [{
 				count: 9L
@@ -420,11 +439,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 9/18"
-			x: 1.0d
+			x: -1.0d
 			y: -9.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 8/18&r"
 				""
@@ -437,6 +456,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "65B36D176068B345"
 			tasks: [{
 				count: 8L
@@ -445,11 +465,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 8/18"
-			x: 3.0d
+			x: 1.0d
 			y: -11.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 10/18&r"
 				""
@@ -462,6 +482,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "71EFAE0D372D5B0E"
 			tasks: [{
 				count: 10L
@@ -470,11 +491,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 10/18"
-			x: 3.0d
+			x: 1.0d
 			y: -9.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 11/18&r"
 				""
@@ -487,6 +508,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "3B33D45AB5EE4F6C"
 			tasks: [{
 				count: 11L
@@ -495,11 +517,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 11/18"
-			x: 1.0d
+			x: -1.0d
 			y: -8.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 12/18&r"
 				""
@@ -512,6 +534,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "2E9CD106979B53E9"
 			tasks: [{
 				count: 12L
@@ -520,11 +543,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 12/18"
-			x: 3.0d
+			x: 1.0d
 			y: -8.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 13/18&r"
 				""
@@ -537,6 +560,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "49D9B48B25A4A62F"
 			tasks: [{
 				count: 13L
@@ -545,11 +569,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 13/18"
-			x: 0.0d
+			x: -2.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"Forge Rocket Casing 14/18"
 				""
@@ -562,6 +586,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "594EEFC863A734D8"
 			tasks: [{
 				count: 14L
@@ -570,11 +595,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 14/18"
-			x: 4.0d
+			x: 2.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 16/18&r"
 				""
@@ -587,6 +612,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "335C4EED4427D84F"
 			tasks: [{
 				count: 16L
@@ -595,11 +621,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 16/18"
-			x: 4.0d
+			x: 2.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"Forge Rocket Casing 15/18"
 				""
@@ -612,6 +638,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "153338FE8E3AABB7"
 			tasks: [{
 				count: 15L
@@ -620,11 +647,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 15/18"
-			x: 0.0d
+			x: -2.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 17/18&r"
 				""
@@ -637,6 +664,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "1370D9EC058E1497"
 			tasks: [{
 				count: 17L
@@ -645,11 +673,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 17/18"
-			x: -1.0d
+			x: -3.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["242B2CB4BC5EF187"]
 			description: [
 				"&nForge Rocket Casing 18/18&r"
 				""
@@ -662,6 +690,7 @@
 				"Need help understanding the recipe? Check out the"
 				"{ \"text\": \"Forge Rocket Casing Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"242B2CB4BC5EF187\" } }"
 			]
+			hide_dependency_lines: true
 			id: "6FE67C581C1C498F"
 			tasks: [{
 				count: 18L
@@ -670,11 +699,11 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Casing 18/18"
-			x: 5.0d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["47C19D9E0F6234DB"]
 			description: [
 				"&7The &6Forge Rocket Door&r serves as the primary access point to the &6Forge Rocket&r and symbolizes the many worlds you have explored throughout your journey.&r"
 				""
@@ -686,17 +715,17 @@
 				""
 				"{ \"text\": \"Forge Rocket Door Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"47C19D9E0F6234DB\" } }"
 			]
+			hide_dependency_lines: true
 			id: "7B5C06E2EFBDDAFC"
 			tasks: [{
 				id: "78B35BBFB51EF003"
 				item: "forge_frontier:forge_rocket_door"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -11.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
 			id: "1B6C9F5CFC397765"
 			tasks: [{
 				id: "702FD69EA9A78A1B"
@@ -714,11 +743,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -9.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["5666A48E904B4ADC"]
 			description: [
 				"&7The &6Forge Rocket Core&r is the heart of the &6Forge Rocket&r, bringing together the countless mechanical systems required to power humanity's greatest achievement.&r"
 				""
@@ -730,17 +759,18 @@
 				""
 				"{ \"text\": \"Forge Rocket Core Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5666A48E904B4ADC\" } }"
 			]
+			hide_dependency_lines: true
 			id: "33FD946C9EF7394E"
 			tasks: [{
 				id: "17C94250ED87EB3F"
 				item: "forge_frontier:forge_rocket_core"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["3CF3784A4CD11C55"]
 			description: [
 				"&7The &6Adaptive Reinforcement Matrix&r is a specialized Forge Rocket component designed to embody the defensive technologies developed throughout your journey.&r"
 				""
@@ -752,39 +782,76 @@
 				""
 				"{ \"text\": \"Adaptive Reinforcement Matrix Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3CF3784A4CD11C55\" } }"
 			]
+			hide_dependency_lines: true
 			id: "238FB229AE099112"
 			tasks: [{
 				id: "385308B3B04A14F5"
 				item: "forge_frontier:adaptive_reinforcement_matrix"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["5957439310EE1ED8"]
+			description: [
+				"&7The &5Arcane Calibration Matrix&r represents the culmination of magical knowledge and enchanting mastery acquired throughout your adventure.&r"
+				""
+				"While much of the Forge Rocket is built through engineering and industrial production, this component draws upon powerful enchanted artifacts, mystical devices, and advanced magical infrastructure gathered from across the pack."
+				""
+				"Only those who have mastered both technology and arcane power will be capable of assembling it."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Arcane Calibration Matrix Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5957439310EE1ED8\" } }"
+			]
+			hide_dependency_lines: true
 			id: "0E88DBC1E5E7BBF5"
 			tasks: [{
 				id: "2FA5D2C45EA7C7ED"
 				item: "forge_frontier:arcane_calibration_matrix"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["705726E4927E5916"]
+			description: [
+				"&7The &6Culinary Life Support Matrix&r is a unique Forge Rocket component that celebrates one of the most overlooked aspects of exploration: survival.&r"
+				""
+				"Throughout your journey, food has fueled every expedition, sustained every factory expansion, and kept you alive through countless challenges. This matrix brings together culinary creations from every stage of progression, transforming them into a vital component of the Forge Rocket."
+				""
+				"After all, even the greatest explorers need something to eat."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Culinary Life Support Matrix Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"705726E4927E5916\" } }"
+			]
+			hide_dependency_lines: true
 			id: "13569CE6B0C6A347"
 			tasks: [{
 				id: "3BA9663CB49E8EB8"
 				item: "forge_frontier:culinary_life_support_matrix"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["2B31AE8B09964125"]
+			description: [
+				"&7The &3Forge Rocket Tank&r serves as the primary storage vessel of the &6Forge Rocket&r, embodying the countless storage technologies developed throughout your journey.&r"
+				""
+				"From humble chests to advanced storage systems capable of holding vast quantities of resources, every stage of progression has contributed toward the knowledge required to construct this component."
+				""
+				"The Forge Rocket Tank stands as a testament to your ability to organize, store, and manage resources on an industrial scale."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Tank Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B31AE8B09964125\" } }"
+			]
+			hide_dependency_lines: true
 			id: "32C70FAB07E7B11F"
 			tasks: [{
 				id: "33E0F996DCE39E80"
@@ -792,11 +859,23 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Tank 1/3"
-			x: 1.0d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["2B31AE8B09964125"]
+			description: [
+				"&7The &3Forge Rocket Tank&r serves as the primary storage vessel of the &6Forge Rocket&r, embodying the countless storage technologies developed throughout your journey.&r"
+				""
+				"From humble chests to advanced storage systems capable of holding vast quantities of resources, every stage of progression has contributed toward the knowledge required to construct this component."
+				""
+				"The Forge Rocket Tank stands as a testament to your ability to organize, store, and manage resources on an industrial scale."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Tank Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B31AE8B09964125\" } }"
+			]
+			hide_dependency_lines: true
 			id: "47F9679094C6CD3C"
 			tasks: [{
 				count: 2L
@@ -805,11 +884,23 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Tank 2/3"
-			x: 2.0d
+			x: 0.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["2B31AE8B09964125"]
+			description: [
+				"&7The &3Forge Rocket Tank&r serves as the primary storage vessel of the &6Forge Rocket&r, embodying the countless storage technologies developed throughout your journey.&r"
+				""
+				"From humble chests to advanced storage systems capable of holding vast quantities of resources, every stage of progression has contributed toward the knowledge required to construct this component."
+				""
+				"The Forge Rocket Tank stands as a testament to your ability to organize, store, and manage resources on an industrial scale."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Tank Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2B31AE8B09964125\" } }"
+			]
+			hide_dependency_lines: true
 			id: "1789BEEF548A321E"
 			tasks: [{
 				count: 3L
@@ -818,11 +909,23 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Tank 3/3"
-			x: 3.0d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["5517C59F6C9603D4"]
+			description: [
+				"&7The &6Forge Rocket Fin&r represents the challenges you have overcome throughout your adventure, combining powerful boss trophies with advanced rocket engineering into a single component.&r"
+				""
+				"Every major foe defeated and every rocket constructed has led to this moment. The Fin serves as a symbol of both exploration and conquest, requiring materials obtained from some of the most dangerous encounters in the pack."
+				""
+				"Only those who have proven themselves against powerful enemies will be capable of assembling it."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Fin Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5517C59F6C9603D4\" } }"
+			]
+			hide_dependency_lines: true
 			id: "135DA211A3F2E975"
 			tasks: [{
 				id: "258B8AA1F0FAD5DC"
@@ -830,11 +933,23 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Fin 1/4"
-			x: -1.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["5517C59F6C9603D4"]
+			description: [
+				"&7The &6Forge Rocket Fin&r represents the challenges you have overcome throughout your adventure, combining powerful boss trophies with advanced rocket engineering into a single component.&r"
+				""
+				"Every major foe defeated and every rocket constructed has led to this moment. The Fin serves as a symbol of both exploration and conquest, requiring materials obtained from some of the most dangerous encounters in the pack."
+				""
+				"Only those who have proven themselves against powerful enemies will be capable of assembling it."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Fin Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5517C59F6C9603D4\" } }"
+			]
+			hide_dependency_lines: true
 			id: "66BA56EEB0DD010D"
 			tasks: [{
 				count: 2L
@@ -843,11 +958,23 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Fin 2/4"
-			x: 1.0d
+			x: -1.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["5517C59F6C9603D4"]
+			description: [
+				"&7The &6Forge Rocket Fin&r represents the challenges you have overcome throughout your adventure, combining powerful boss trophies with advanced rocket engineering into a single component.&r"
+				""
+				"Every major foe defeated and every rocket constructed has led to this moment. The Fin serves as a symbol of both exploration and conquest, requiring materials obtained from some of the most dangerous encounters in the pack."
+				""
+				"Only those who have proven themselves against powerful enemies will be capable of assembling it."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Fin Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5517C59F6C9603D4\" } }"
+			]
+			hide_dependency_lines: true
 			id: "5D922D0AF1BA2919"
 			tasks: [{
 				count: 3L
@@ -856,11 +983,23 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Fin 3/4"
-			x: 3.0d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["5517C59F6C9603D4"]
+			description: [
+				"&7The &6Forge Rocket Fin&r represents the challenges you have overcome throughout your adventure, combining powerful boss trophies with advanced rocket engineering into a single component.&r"
+				""
+				"Every major foe defeated and every rocket constructed has led to this moment. The Fin serves as a symbol of both exploration and conquest, requiring materials obtained from some of the most dangerous encounters in the pack."
+				""
+				"Only those who have proven themselves against powerful enemies will be capable of assembling it."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Fin Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5517C59F6C9603D4\" } }"
+			]
+			hide_dependency_lines: true
 			id: "63F32DF9AC5AFA34"
 			tasks: [{
 				count: 4L
@@ -869,18 +1008,30 @@
 				type: "item"
 			}]
 			title: "Forge Rocket Fin 4/4"
-			x: 5.0d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["262FF2B00E853521"]
+			dependencies: ["7CD0FE9F902D5F04"]
+			description: [
+				"&7The &6Forge Rocket Engine&r is the driving force behind the &6Forge Rocket&r, bringing together the most powerful fuels and energy sources discovered throughout your journey.&r"
+				""
+				"From your earliest experiments with fuel production to the advanced compounds required for interplanetary travel, every stage of progression has contributed to the knowledge needed to construct this extraordinary engine."
+				""
+				"Without fuel, a rocket is little more than a monument."
+				""
+				"Need help understanding the recipe? Check out the"
+				""
+				"{ \"text\": \"Forge Rocket Engine Assembly Guide\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7CD0FE9F902D5F04\" } }"
+			]
+			hide_dependency_lines: true
 			id: "64B1081036A47CBD"
 			tasks: [{
 				id: "1541BD0D54A43B32"
 				item: "forge_frontier:forge_rocket_engine"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -905,6 +1056,7 @@
 				"14A43A2D2529C93E"
 				"5EF630FBC1089A3B"
 				"0A4BC02149D14384"
+				"262FF2B00E853521"
 			]
 			description: [
 				"&7The Forge Rocket Casing requires a massive amount of resources and advanced manufacturing processes.&r"
@@ -932,7 +1084,8 @@
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "242B2CB4BC5EF187"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "Crafted using Mechanical Crafters"
 			tasks: [
 				{
 					id: "3B612306BA76693D"
@@ -946,8 +1099,8 @@
 				}
 			]
 			title: "Forge Rocket Casing Assembly Guide"
-			x: -6.5d
-			y: 3.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			id: "5EF630FBC1089A3B"
@@ -956,7 +1109,7 @@
 				item: "createcompression:compressed_experience_4x"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 5.0d
 		}
 		{
@@ -966,7 +1119,7 @@
 				item: "forge_frontier:compressed_etrium_4x"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 5.0d
 		}
 		{
@@ -976,7 +1129,7 @@
 				item: "forge_frontier:compressed_adamantite_4x"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -986,7 +1139,7 @@
 				item: "forge_frontier:compressed_luxite_4x"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 5.0d
 		}
 		{
@@ -996,7 +1149,7 @@
 				item: "forge_frontier:compressed_tungsten_4x"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 6.0d
 		}
 		{
@@ -1006,7 +1159,7 @@
 				item: "forge_frontier:compressed_desh_4x"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 6.0d
 		}
 		{
@@ -1016,7 +1169,7 @@
 				item: "forge_frontier:compressed_ostrum_4x"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 6.0d
 		}
 		{
@@ -1026,7 +1179,7 @@
 				item: "forge_frontier:compressed_calorite_4x"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 6.0d
 		}
 		{
@@ -1036,7 +1189,7 @@
 				item: "forge_frontier:compressed_scarlet_neodymium_4x"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 7.0d
 		}
 		{
@@ -1046,7 +1199,7 @@
 				item: "forge_frontier:compressed_azure_neodymium_4x"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 7.0d
 		}
 		{
@@ -1056,7 +1209,7 @@
 				item: "forge_frontier:compressed_uranium_4x"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 7.0d
 		}
 		{
@@ -1066,7 +1219,7 @@
 				item: "forge_frontier:compressed_amber_5x"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 7.0d
 		}
 		{
@@ -1076,7 +1229,7 @@
 				item: "forge_frontier:compressed_sulfur_4x"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 8.0d
 		}
 		{
@@ -1086,7 +1239,7 @@
 				item: "forge_frontier:compressed_pearl_4x"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 8.0d
 		}
 		{
@@ -1096,7 +1249,7 @@
 				item: "forge_frontier:compressed_guano_4x"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 8.0d
 		}
 		{
@@ -1106,7 +1259,7 @@
 				item: "forge_frontier:compressed_mithril_2x"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 8.0d
 		}
 		{
@@ -1116,7 +1269,7 @@
 				item: "forge_frontier:compressed_industrial_iron_4x"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 9.0d
 		}
 		{
@@ -1126,7 +1279,7 @@
 				item: "forge_frontier:compressed_tungsten_4x"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 9.0d
 		}
 		{
@@ -1136,7 +1289,7 @@
 				item: "forge_frontier:compressed_netherite-diamond_3x"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 9.0d
 		}
 		{
@@ -1146,7 +1299,7 @@
 				item: "forge_frontier:compressed_ethium_4x"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 9.0d
 		}
 		{
@@ -1167,6 +1320,7 @@
 				"2407A6D2C67E2557"
 				"155D72A81E5982D2"
 				"2008D9D0FF1BAEF7"
+				"262FF2B00E853521"
 			]
 			description: [
 				"&7The Forge Rocket Door is constructed using a collection of stone and building materials obtained from the many dimensions and planets visited throughout your adventure.&r"
@@ -1191,191 +1345,209 @@
 			hide_dependency_lines: true
 			id: "47C19D9E0F6234DB"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "Crafted Using a Sequenced Assebly Recipe"
 			tasks: [{
 				id: "561ABEA73417AA51"
 				item: "forge_frontier:forge_rocket_door"
 				type: "item"
 			}]
 			title: "Forge Rocket Door Assembly Guide"
-			x: -1.5d
-			y: 3.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "5E84AE1F7E6BA145"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "0CF6BA9BBC60DF6A"
 				item: { Count: 32, id: "minecraft:stone" }
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
 			id: "2407A6D2C67E2557"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "36B39F4DD309D1C6"
 				item: { Count: 32, id: "minecraft:netherrack" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
 			id: "5FD3CFA851139071"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "637A1FF23743C5ED"
 				item: { Count: 32, id: "deeperdarker:sculk_stone" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 1.0d
 			y: 6.0d
 		}
 		{
 			id: "14EF7DD1AA08D650"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "53310987EAA258AE"
 				item: { Count: 32, id: "minecraft:end_stone" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 7.0d
 		}
 		{
 			id: "506CD4AEEBC3D8F7"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "0BBAE11E3869DC7F"
 				item: { Count: 32, id: "ad_astra:moon_stone" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 7.0d
 		}
 		{
 			id: "70977C5EEE11F742"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "5C1563469C51DBA0"
 				item: { Count: 32, id: "ad_astra:mars_stone" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: 7.0d
 		}
 		{
 			id: "58A62FC0B9EA3DDB"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "106A04696EF51592"
 				item: { Count: 32, id: "ad_astra:mercury_stone" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
 			id: "01287F40D7A670AC"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "44BCF497FA85B572"
 				item: { Count: 32, id: "ad_astra:venus_stone" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 8.0d
 		}
 		{
 			id: "1F92F7027A090AB5"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "2B1C8E745AE59882"
 				item: { Count: 32, id: "ad_astra:glacio_stone" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 8.0d
 		}
 		{
 			id: "045029C87AB50D79"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "3AE476BB823793FE"
 				item: { Count: 32, id: "alexscaves:muck" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: 8.0d
 		}
 		{
 			id: "23D14945F46515B1"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "7F682B634439DAC0"
 				item: { Count: 32, id: "alexscaves:guanostone" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 8.0d
 		}
 		{
 			id: "66DC09163869EF7A"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "41FAB87F2D19B691"
 				item: { Count: 32, id: "alexscaves:limestone" }
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.5d
 			y: 9.0d
 		}
 		{
 			id: "2952C2385B543CFD"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "385DF1AED6394022"
 				item: { Count: 32, id: "alexscaves:cake_layer" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
 			id: "23870B55014EBE2A"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "1B9B3381D6155CAA"
 				item: { Count: 32, id: "alexscaves:galena" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{
 			id: "155D72A81E5982D2"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
 				id: "2F87285147EA453A"
 				item: { Count: 32, id: "alexscaves:radrock" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.5d
 			y: 9.0d
 		}
 		{
 			id: "2008D9D0FF1BAEF7"
 			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Starting Ingredient"
 			tasks: [{
 				id: "49C5F5D95B5C46C0"
 				item: "createteleporters:custom_portal_base"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: 0.0d
+			y: 4.75d
 		}
 		{
 			dependencies: [
@@ -1390,6 +1562,7 @@
 				"5A0E6F7175CF225A"
 				"33202D4315C71278"
 				"0DC87F4D7B1CD584"
+				"262FF2B00E853521"
 			]
 			description: [
 				"&7The Forge Rocket Core is built using a collection of advanced mechanisms and specialized components crafted throughout the pack.&r"
@@ -1412,137 +1585,151 @@
 			hide_dependency_lines: true
 			id: "5666A48E904B4ADC"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "Crafted Using a Sequenced Assebly Recipe"
 			tasks: [{
 				id: "1AB0E70D1F788AE7"
 				item: "forge_frontier:forge_rocket_core"
 				type: "item"
 			}]
 			title: "Forge Rocket Core Assembly Guide"
-			x: 3.0d
-			y: 3.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			id: "1CDED9EB2A44E162"
 			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Starting Ingredient"
 			tasks: [{
 				id: "795EDC1642C56D39"
 				item: "forge_frontier:magmatic_reinforcement_core"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 4.5d
+			y: 4.75d
 		}
 		{
 			id: "6F57F555F0764451"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "45010EEB2CC78E59"
-				item: { Count: 10, id: "create:precision_mechanism" }
+				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 6.0d
 		}
 		{
 			id: "0DC87F4D7B1CD584"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "264A554744812E0C"
 				item: { Count: 10, id: "createteleporters:quantum_mechanism" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: 6.0d
 		}
 		{
 			id: "06AD83D5B2E414E5"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "4FC4B91232E77EF8"
 				item: { Count: 10, id: "create_dd:integrated_mechanism" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 6.0d
 		}
 		{
 			id: "51A58697BD43DB17"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "73A7CDBE9FA313C0"
 				item: { Count: 10, id: "create_dd:calculation_mechanism" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 7.0d
 		}
 		{
 			id: "0144DE2A6F6EA9D0"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "07DD3F930CB8063A"
 				item: { Count: 10, id: "create_dd:inductive_mechanism" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: 7.0d
 		}
 		{
 			id: "5A0E6F7175CF225A"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "4F6EF79D3DF81C62"
 				item: { Count: 10, id: "create_dd:infernal_mechanism" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 7.0d
 		}
 		{
 			id: "014335E1C64BF5AA"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "38D019A93569DF81"
 				item: { Count: 10, id: "create_dd:sealed_mechanism" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 8.0d
 		}
 		{
 			id: "33202D4315C71278"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "622BB5F86D02B26C"
 				item: { Count: 10, id: "create_things_and_misc:vibration_mechanism" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.5d
 			y: 8.0d
 		}
 		{
 			id: "4411430C1180816F"
+			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
 				id: "3E0476CF8121B0CA"
 				item: { Count: 10, id: "resonant_synthesis:deeper_mechanism" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 8.0d
 		}
 		{
 			id: "48B7EC2444B0EDC9"
 			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Spouted Last"
 			tasks: [{
 				count: 10L
 				id: "310D7A7C13DF0B80"
 				item: { Count: 10, id: "create_dd:shimmer_bucket" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 4.5d
+			y: 9.25d
 		}
 		{
 			dependencies: [
@@ -1561,6 +1748,7 @@
 				"56A15D4080AF5256"
 				"480A7DEA63BAD564"
 				"4D7BEEEF954D9286"
+				"262FF2B00E853521"
 			]
 			description: [
 				"&7The Adaptive Reinforcement Matrix is crafted using a collection of chestplates obtained throughout your adventure.&r"
@@ -1583,14 +1771,16 @@
 			hide_dependency_lines: true
 			id: "3CF3784A4CD11C55"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
+			subtitle: "Crafted using Mechanical Crafters"
 			tasks: [{
 				id: "474CEA111265DC08"
 				item: "forge_frontier:adaptive_reinforcement_matrix"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.5d
+			title: "Adaptive Reinforcement Matrix Assembly Guide"
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			id: "7A2319DDDB074D5D"
@@ -1605,7 +1795,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 5.0d
 		}
 		{
@@ -1621,7 +1811,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 5.0d
 		}
 		{
@@ -1637,7 +1827,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 5.0d
 		}
 		{
@@ -1653,7 +1843,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -1669,7 +1859,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 6.0d
 		}
 		{
@@ -1685,7 +1875,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -1701,7 +1891,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 7.0d
 		}
 		{
@@ -1711,7 +1901,7 @@
 				item: "cataclysm:ignitium_elytra_chestplate"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 7.0d
 		}
 		{
@@ -1721,7 +1911,7 @@
 				item: "cataclysm:cursium_chestplate"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 7.0d
 		}
 		{
@@ -1737,7 +1927,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -1753,7 +1943,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 8.0d
 		}
 		{
@@ -1769,7 +1959,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 8.0d
 		}
 		{
@@ -1785,7 +1975,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 9.0d
 		}
 		{
@@ -1801,7 +1991,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: 9.0d
 		}
 		{
@@ -1817,8 +2007,816 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4D9107541810BA76"
+				"23484A12184A0C33"
+				"5A1DCBC82EFFAC6C"
+				"3DF2DEE92DCB91B9"
+				"5AD8F9482A259738"
+				"5511042C0CF988F4"
+				"3AE6E102DD3D6CEB"
+				"1EF63B59A6D4C528"
+				"7D188D153541825F"
+				"6DA2603687FABBD8"
+				"67F447A10D7C13D1"
+				"50DA53DF1A11BB4C"
+				"31CED8BD080978C2"
+				"5A23296E87B8AC0E"
+				"02651E0F895D5968"
+				"262FF2B00E853521"
+			]
+			description: [
+				"&7The Arcane Calibration Matrix is crafted using a collection of powerful enchanting-related items, advanced magical components, and specialized blocks obtained during the late stages of progression.&r"
+				""
+				"This component serves as a celebration of the magical and enchanting systems encountered throughout your journey, bringing together some of the most powerful arcane technologies available."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have acquired:"
+				""
+				"- Advanced enchanting infrastructure"
+				"- High-tier enchanted artifacts"
+				"- Late-game magical blocks"
+				"- Rare experience-based components"
+				"- Powerful arcane materials"
+				""
+				"Every ingredient contributes a fragment of magical knowledge, creating a matrix capable of guiding the Forge Rocket through the final stages of its construction."
+				""
+				"Review the recipe carefully and gather the required artifacts before beginning assembly."
+			]
+			hide_dependency_lines: true
+			id: "5957439310EE1ED8"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crafted Using a Sequenced Assebly Recipe"
+			tasks: [{
+				id: "767C78882E39933B"
+				item: "forge_frontier:arcane_calibration_matrix"
+				type: "item"
+			}]
+			title: "Arcane Calibration Matrix Assembly Guide"
+			x: -9.5d
+			y: 11.5d
+		}
+		{
+			id: "3AE6E102DD3D6CEB"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "6ECE1206949CAAFF"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			id: "3DF2DEE92DCB91B9"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "76C0492842866857"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			id: "5AD8F9482A259738"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "6A5FCD4C51BAF75E"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			id: "5511042C0CF988F4"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "5A674A46FED04B8E"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			id: "6DA2603687FABBD8"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "07F62C1D8B1AA414"
+				item: "apotheosis:rectifier_t3"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 15.5d
+		}
+		{
+			id: "1EF63B59A6D4C528"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "489BAF7F726AE8F4"
+				item: "apotheosis:filtering_shelf"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 15.5d
+		}
+		{
+			id: "4D9107541810BA76"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "77E27E7A5F89EBA5"
+				item: "apotheosis:treasure_shelf"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 15.5d
+		}
+		{
+			id: "7D188D153541825F"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "19C4809112EE0577"
+				item: "apotheosis:extraction_tome"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 16.5d
+		}
+		{
+			id: "5A23296E87B8AC0E"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "71A13D70EEA5F0CB"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 16.5d
+		}
+		{
+			id: "67F447A10D7C13D1"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "347F03C663F50DE7"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.5d
+		}
+		{
+			id: "5A1DCBC82EFFAC6C"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "7A82A47719F46334"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 17.5d
+		}
+		{
+			id: "23484A12184A0C33"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "2BCA90567206A7BD"
+				item: "experienceobelisk:nightmare_bottle"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 17.5d
+		}
+		{
+			id: "50DA53DF1A11BB4C"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 4L
+				id: "0DA69ADEC7557C0D"
+				item: "experienceobelisk:daydream_bottle"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 17.5d
+		}
+		{
+			id: "02651E0F895D5968"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Starting Ingredient"
+			tasks: [{
+				id: "3A7750EEA422C075"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.25d
+		}
+		{
+			id: "31CED8BD080978C2"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Spouted Last"
+			tasks: [{
+				count: 400L
+				id: "16F8A549C2961042"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			title: "4000mb of Hyper Experience"
+			x: -9.5d
+			y: 18.75d
+		}
+		{
+			dependencies: [
+				"59C93D957F591CD4"
+				"018B0B50CCACBCE4"
+				"7CE15772992C4A78"
+				"4B188462399B0596"
+				"15946D62B29FC261"
+				"7BEB234DEF4D5221"
+				"5D234923BEF35B48"
+				"404D6ACBC4623F9A"
+				"3FCC97B303E217B2"
+				"262FF2B00E853521"
+			]
+			description: [
+				"&7The Culinary Life Support Matrix is crafted using a wide variety of food ingredients and prepared meals collected throughout your adventure.&r"
+				""
+				"Rather than focusing on a single production chain, this component highlights the many culinary systems encountered across the pack, requiring foods from different stages of progression and multiple sources of production."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have gathered foods from:"
+				""
+				"- Early-game farming and cooking"
+				"- Mid-game food production"
+				"- Advanced culinary recipes"
+				"- Planetary exploration rewards"
+				"- Late-game food ingredients and meals"
+				""
+				"Each ingredient represents a different chapter of your journey, combining into a matrix designed to sustain humanity's greatest voyage."
+				""
+				"Review the recipe carefully and begin preparing the ingredients needed for assembly."
+			]
+			hide_dependency_lines: true
+			id: "705726E4927E5916"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crafted Using a Sequenced Assebly Recipe"
+			tasks: [{
+				id: "43FC12EAD3648BAD"
+				item: "forge_frontier:culinary_life_support_matrix"
+				type: "item"
+			}]
+			title: "Culinary Life Support Matrix Assembly Guide"
+			x: -5.0d
+			y: 11.5d
+		}
+		{
+			id: "7CE15772992C4A78"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Starting Ingredient"
+			tasks: [{
+				id: "19C70FC519EAB72B"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.25d
+		}
+		{
+			id: "4B188462399B0596"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "4AFDC774A932A063"
+				item: { Count: 8, id: "delightful:baklava" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			id: "15946D62B29FC261"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "623417649DD46EA4"
+				item: "oceansdelight:squid_rings"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.5d
+		}
+		{
+			id: "5D234923BEF35B48"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "5B8A00C429051954"
+				item: { Count: 8, id: "nethersdelight:stuffed_hoglin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.5d
+		}
+		{
+			id: "404D6ACBC4623F9A"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "0A4B9BCA27EF297F"
+				item: { Count: 8, id: "silentsdelight:heartburger" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			id: "3FCC97B303E217B2"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "59D3D96B2FFE4A7D"
+				item: { Count: 8, id: "ends_delight:grilled_shulker_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			id: "018B0B50CCACBCE4"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "177A5A3C5ADC1481"
+				item: { Count: 8, id: "alexscavesdelight:pure_darkness_pie" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			id: "7BEB234DEF4D5221"
+			subtitle: "Deployed Ingredients"
+			tasks: [{
+				count: 8L
+				id: "47038D2B0DF0A987"
+				item: { Count: 8, id: "alexscavesdelight:extra_sugar_rush_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			id: "59C93D957F591CD4"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Spouted Last"
+			tasks: [{
+				count: 8L
+				id: "6E002BC0627635AE"
+				item: { Count: 8, id: "alexscaves:purple_soda_bucket" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.75d
+		}
+		{
+			dependencies: [
+				"403264A315A09171"
+				"4A2FA618FAF86C0E"
+				"4E0278A0DACA281F"
+				"0CCA64EFC4616AAF"
+				"32D767F2A499FC02"
+				"45889FCCEC2B9A40"
+				"262FF2B00E853521"
+			]
+			description: [
+				"&7The Forge Rocket Tank is crafted using a collection of advanced storage components and high-capacity storage technologies acquired throughout the late game.&r"
+				""
+				"This component highlights the storage solutions that have supported your factory from the beginning, bringing together some of the most powerful storage items available within the pack."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have acquired:"
+				""
+				"- Advanced storage containers"
+				"- High-capacity storage systems"
+				"- Late-game storage upgrades"
+				"- Specialized storage components"
+				"- Endgame logistical technologies"
+				""
+				"Every ingredient represents a different approach to resource management, combining into a storage vessel worthy of the Forge Rocket itself."
+				""
+				"Review the recipe carefully and gather the necessary components before assembly begins."
+			]
+			hide_dependency_lines: true
+			id: "2B31AE8B09964125"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crafted Using Super-Heated Mixing"
+			tasks: [{
+				id: "0E967B4F125AA26A"
+				item: { Count: 3, id: "forge_frontier:forge_rocket_tank" }
+				type: "item"
+			}]
+			title: "Forge Rocket Tank Assembly Guide"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			id: "32D767F2A499FC02"
+			tasks: [{
+				id: "1D7783C46265BF13"
+				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			id: "403264A315A09171"
+			tasks: [{
+				id: "1F5E512962116DB6"
+				item: "create_bs:netherite_item_vault"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "4E0278A0DACA281F"
+			tasks: [{
+				id: "266E9A0C593CD839"
+				item: "deeperdarker:sculk_transmitter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			id: "45889FCCEC2B9A40"
+			tasks: [{
+				id: "6885EF9CC36E2B96"
+				item: "forge_frontier:rocket_fuel_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			id: "0CCA64EFC4616AAF"
+			tasks: [{
+				id: "575376EDE4F5071E"
+				item: "extrastorage:storagepart_1024k"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			id: "4A2FA618FAF86C0E"
+			tasks: [{
+				id: "766220A4662CFC42"
+				item: "extrastorage:storagepart_65536k_fluid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"08CAF05DB71306E0"
+				"0944A0317F519B21"
+				"17E73DE47FA1CACB"
+				"7D2BBB6DCCA33A1F"
+				"36E1FC204679E935"
+				"262FF2B00E853521"
+			]
+			description: [
+				"&7The Forge Rocket Fin is crafted using a collection of boss drops gathered throughout your progression, combined with advanced rocket components developed during your journey across the stars.&r"
+				""
+				"This component is designed to celebrate the many powerful foes you have defeated and the technological milestones you have achieved along the way."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have obtained:"
+				""
+				"- Rare boss drops from key progression encounters"
+				"- Materials earned through exploration and combat"
+				"- Advanced rocket components"
+				"- High-tier engineering materials"
+				"- Specialized endgame resources"
+				""
+				"Every ingredient represents a victory hard-earned through skill, preparation, and perseverance."
+				""
+				"Review the recipe carefully and gather the trophies needed to complete this final aerospace component."
+			]
+			hide_dependency_lines: true
+			id: "5517C59F6C9603D4"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crafted using Mechanical Crafters"
+			tasks: [{
+				id: "7E3ECF780ABF9EC2"
+				item: "forge_frontier:forge_rocket_fin"
+				type: "item"
+			}]
+			title: "Forge Rocket Fin Assembly Guide"
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"262FF2B00E853521"
+				"6800B04483CC4F89"
+				"4D915665BE13AE64"
+				"5C543595C7173620"
+				"2DE05EE3487A320E"
+				"4518B2A50C95BED3"
+			]
+			description: [
+				"&7The Forge Rocket Engine is crafted using a collection of advanced fuels, refined energy sources, and late-game propulsion materials acquired throughout the pack.&r"
+				""
+				"This component represents the evolution of your fuel production infrastructure, combining some of the most powerful combustible and energetic materials available."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have acquired:"
+				""
+				"- Advanced rocket fuels"
+				"- High-energy fluid compounds"
+				"- Late-game refined fuels"
+				"- Specialized propulsion materials"
+				"- Endgame energy resources"
+				""
+				"Every ingredient contributes a piece of the immense power required to propel the Forge Rocket toward its final destination."
+				""
+				"Review the recipe carefully and prepare the fuels necessary to bring the ultimate engine to life."
+			]
+			hide_dependency_lines: true
+			id: "7CD0FE9F902D5F04"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crafted Using a Sequenced Assebly Recipe"
+			tasks: [{
+				id: "1C885E4E828DB396"
+				item: "forge_frontier:forge_rocket_engine"
+				type: "item"
+			}]
+			title: "Forge Rocket Engine Assembly Guide"
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			id: "0944A0317F519B21"
+			tasks: [{
+				id: "448728E185BC70D0"
+				item: "forge_frontier:solar_regulation_array"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			id: "08CAF05DB71306E0"
+			tasks: [{
+				count: 4L
+				id: "3132792FC395AFFE"
+				item: { Count: 4, id: "alexscaves:tectonic_shard" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			id: "7D2BBB6DCCA33A1F"
+			tasks: [{
+				id: "1D50AEE826AF751C"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			id: "36E1FC204679E935"
+			tasks: [{
+				count: 4L
+				id: "4AC7C9170D858F00"
+				item: { Count: 4, id: "cataclysm:witherite_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			id: "17E73DE47FA1CACB"
+			tasks: [{
+				count: 4L
+				id: "0E78C6A21F064CB8"
+				item: { Count: 4, id: "forge_frontier:primal_magma_rocket_casing" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			id: "148FFFA8FA38D1EA"
+			tasks: [{
+				count: 2L
+				id: "25A6DCE55F317692"
+				item: { Count: 2, id: "cataclysm:essence_of_the_storm" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"262FF2B00E853521"
+				"7E6B57B7AE90C06D"
+				"441F3C4CB2AFB9AF"
+				"6F1455DB0271D79B"
+				"753F7128569E478C"
+				"02E0E2FB57DD9B8F"
+				"67E79D25FD8C4AC3"
+			]
+			description: [
+				"&7The Forge Rocket Nose Cone is crafted using a collection of rare boss drops gathered from major encounters throughout the pack, combined with advanced rocket components and high-tier materials.&r"
+				""
+				"Like the Forge Rocket Fin, this component is intended to showcase your progression through the many challenges and adventures encountered along the way."
+				""
+				"{@pagebreak}"
+				"Before beginning construction, ensure you have obtained:"
+				""
+				"- Rare boss trophies and drops"
+				"- Materials earned through exploration and combat"
+				"- Advanced rocket components"
+				"- High-tier engineering materials"
+				"- Specialized endgame resources"
+				""
+				"Every ingredient serves as proof of a challenge overcome and a milestone achieved."
+				""
+				"Review the recipe carefully and gather the materials required to complete the final exterior component of the Forge Rocket."
+			]
+			hide_dependency_lines: true
+			id: "0917C06AA703535A"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Crafted using Mechanical Crafters"
+			tasks: [{
+				id: "61CA74965693E083"
+				item: "forge_frontier:forge_rocket_nose_cone"
+				type: "item"
+			}]
+			title: "Forge Rocket Nose Cone Assembly Guide"
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "4D915665BE13AE64"
+			subtitle: "Spouting Ingredient"
+			tasks: [{
+				count: 10L
+				id: "4E5DE3EBB1404C15"
+				item: { Count: 10, id: "createaddition:bioethanol_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			description: [""]
+			id: "4518B2A50C95BED3"
+			subtitle: "Spouting Ingredient"
+			tasks: [{
+				count: 10L
+				id: "63EADC4EC05B1930"
+				item: { Count: 10, id: "createdieselgenerators:diesel_bucket" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			id: "2DE05EE3487A320E"
+			subtitle: "Spouting Ingredient"
+			tasks: [{
+				count: 10L
+				id: "1269F9519C0EB512"
+				item: { Count: 10, id: "ad_astra:cryo_fuel_bucket" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			id: "6800B04483CC4F89"
+			subtitle: "Spouting Ingredient"
+			tasks: [{
+				count: 10L
+				id: "6526B057A927121E"
+				item: { Count: 10, id: "alexscaves:acid_bucket" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			id: "5C543595C7173620"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Starting Ingredient"
+			tasks: [{
+				id: "1476C64B50BB90F1"
+				item: "forge_frontier:rocket_engine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.25d
+		}
+		{
+			id: "67E79D25FD8C4AC3"
+			tasks: [{
+				id: "688F189D95B52DFF"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			id: "6F1455DB0271D79B"
+			tasks: [{
+				id: "07FA0BFF8B788025"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			id: "441F3C4CB2AFB9AF"
+			tasks: [{
+				id: "403F066487A42248"
+				item: "forge_frontier:deep_space_stabilizer_core"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			id: "753F7128569E478C"
+			tasks: [{
+				id: "78BF18A51C22CED7"
+				item: "cataclysm:abyssal_egg"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			id: "02E0E2FB57DD9B8F"
+			tasks: [{
+				count: 4L
+				id: "570CFA3AF05A7B48"
+				item: { Count: 4, id: "forge_frontier:primal_magma_rocket_casing" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			id: "7E6B57B7AE90C06D"
+			tasks: [{
+				id: "1BE04C2BBD954BFC"
+				item: "forge_frontier:dimensional_stability_core"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.0d
 		}
 	]
 	title: "The Final Rocket"
