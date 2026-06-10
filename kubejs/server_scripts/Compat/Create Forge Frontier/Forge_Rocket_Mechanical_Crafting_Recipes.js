@@ -34,7 +34,7 @@ ServerEvents.recipes(event => {
         pattern: [
             "  S  ",
             " TRT ",
-            "TMWMT",
+            "TEWET",
             "PWWWP",
             "P   P"
         ],
@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
             S: Ingredient.of("forge_frontier:solar_regulation_array").toJson(),
             T: Ingredient.of("alexscaves:tectonic_shard").toJson(),
             R: Ingredient.of("ad_astra:rocket_fin").toJson(),
-            M: Ingredient.of("forge_frontier:magmatic_reinforcement_core").toJson(),
+            E: Ingredient.of("cataclysm:essence_of_the_storm").toJson(),
             W: Ingredient.of("cataclysm:witherite_ingot").toJson(),
             P: Ingredient.of("forge_frontier:primal_magma_rocket_casing").toJson()
         },

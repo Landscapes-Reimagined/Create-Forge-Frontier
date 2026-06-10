@@ -60,14 +60,6 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("culinary_life_support_matrix"),
-                    Ingredient.of("alexscavesdelight:pure_darkness_pie").toJson()
-                ],
-                results: [incomplete("culinary_life_support_matrix")]
-            },
-            {
-                type: "create:deploying",
-                ingredients: [
-                    incomplete("culinary_life_support_matrix"),
                     Ingredient.of("delightful:baklava").toJson()
                 ],
                 results: [incomplete("culinary_life_support_matrix")]
@@ -76,10 +68,10 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("culinary_life_support_matrix"),
-                    Ingredient.of("ends_delight:grilled_shulker_block").toJson()
+                    Ingredient.of("oceansdelight:squid_rings").toJson()
                 ],
                 results: [incomplete("culinary_life_support_matrix")]
-            },
+            }, 
             {
                 type: "create:deploying",
                 ingredients: [
@@ -100,7 +92,23 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("culinary_life_support_matrix"),
-                    Ingredient.of("oceansdelight:squid_rings").toJson()
+                    Ingredient.of("ends_delight:grilled_shulker_block").toJson()
+                ],
+                results: [incomplete("culinary_life_support_matrix")]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    incomplete("culinary_life_support_matrix"),
+                    Ingredient.of("alexscavesdelight:pure_darkness_pie").toJson()
+                ],
+                results: [incomplete("culinary_life_support_matrix")]
+            },
+            {
+                type: "create:deploying",
+                ingredients: [
+                    incomplete("culinary_life_support_matrix"),
+                    Ingredient.of("alexscavesdelight:extra_sugar_rush_block").toJson()
                 ],
                 results: [incomplete("culinary_life_support_matrix")]
             },
@@ -119,7 +127,7 @@ ServerEvents.recipes(event => {
             }
         ],
         results: [item("culinary_life_support_matrix")],
-        loops: 3
+        loops: 8
     }).id("forge_frontier:sequenced_assembly/culinary_life_support_matrix")
 
     // Arcane Calibration Matrix
@@ -196,14 +204,6 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("arcane_calibration_matrix"),
-                    Ingredient.of("create_enchantment_industry:hyper_experience_bottle").toJson()
-                ],
-                results: [incomplete("arcane_calibration_matrix")]
-            },
-            {
-                type: "create:deploying",
-                ingredients: [
-                    incomplete("arcane_calibration_matrix"),
                     Ingredient.of("create_enchantment_industry:disenchanter").toJson()
                 ],
                 results: [incomplete("arcane_calibration_matrix")]
@@ -255,7 +255,7 @@ ServerEvents.recipes(event => {
             }
         ],
         results: [item("arcane_calibration_matrix")],
-        loops: 3
+        loops: 4
     }).id("forge_frontier:sequenced_assembly/arcane_calibration_matrix")
 
     // Forge Rocket Core
