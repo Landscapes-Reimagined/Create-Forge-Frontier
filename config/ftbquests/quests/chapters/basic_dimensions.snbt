@@ -2974,6 +2974,138 @@
 			x: 12.0d
 			y: 14.5d
 		}
+		{
+			description: [
+				"Hidden within the swirling void of the &5End Dimension&r, the &dVent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lIrradium&r-a radiant resource found nowhere else in the multiverse."
+				""
+				"{image:ftb:textures/radiantite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its celestial core, place &la blaze burner&r on top of the vent and feed it blaze cake. With a burst of arcane force, the vent will erupt into an active state, ready to receive molten fluids."
+				""
+				"Once activated, supply the correct &dsource fluid&r (revealed in the next quest) to begin Irradium automation using &lMechanical Extruders&r."
+				""
+				" &dWill you channel the light of the End-or be lost in its shadows?&r"
+			]
+			icon: "create_resource_vents:dormant_endritus_vent"
+			id: "0886729EE4407B1B"
+			rewards: [{
+				id: "6B3D0431A731E119"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "3E922327B6F978BA"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_endritus_vent"
+				type: "observation"
+			}]
+			title: "Unleashing Endlight Energy"
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"Lurking in the &5outer reaches of the End Dimension&r, the &8Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lMalachite&r-if you dare to awaken it."
+				""
+				"{image:ftb:textures/void_shale_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To breathe life into the shale, place &lblaze burner&r atop the vent and feed it blaze cake. The resulting tranformation cracks open the darkness, activating the vent and readying it for molten infusion."
+				""
+				"Once active, the right &dsource fluid&r (revealed in the next quest) must be supplied to begin automation using &lMechanical Extruders&r."
+				""
+				" &8Descend into silence, ignite the shadows, and let Malachite rise from the void.&r"
+			]
+			icon: "create_resource_vents:dormant_gneiss_vent"
+			id: "177FD83E945AE2BE"
+			rewards: [{
+				id: "7285F2D75656FEB1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "5993EC5234DA3722"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_gneiss_vent"
+				type: "observation"
+			}]
+			title: "Awakening the Gneiss Below"
+			x: 13.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"These stone-white relics rest in stillness across the void, untouched by time yet filled with untapped potential. The &fVent&r -while seemingly inert-is one of the final pieces in your industrial arsenal."
+				""
+				"{image:ftb:textures/palerock_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this silent monument, you must &lfeed a blaze burner blaze cake&r directly atop the dormant vent. The resulting transformation fractures the pale crust, transforming the structure into an active state ready to receive its specialized molten fluid."
+				""
+				"Once activated, providing the proper &dsource fluid&r (detailed in the next quest) will allow you to channel its energy via &lMechanical Extruders&r-fueling your bismuth automation pipeline."
+				""
+				" &7Silent. Still. Powerful. Awaken the pale-&lunlock the hidden ore of the End&r."
+			]
+			icon: "create_resource_vents:dormant_noxrock_vent"
+			id: "0F87A00F314DD547"
+			rewards: [{
+				id: "4D18DF8A625E8A5E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "37B1D1C7B27E941B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_noxrock_vent"
+				type: "observation"
+			}]
+			title: "Whispers of the Noxrock Core"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"Hidden deep within the caves of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
+				""
+				"{image:ftb:textures/resonite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unleash its potential, locate a &lDormant Resonite Vent&r in the Otherside. Consider using Freecam to locate the vertical column of vent fluid. Feed a blaze burner blaze cake atop its core to awaken the ancient signal buried deep within."
+				""
+				"Once activated, supply it with the correct &dmystic fluid&r (explained in the next quest) to channel its energy through &lMechanical Extruders&r. Watch as the Resonite pulses to life, converting sound and soul into Echo Shards with mechanical precision."
+				""
+				" &5Resonance stirs, and with it-the automation of silence.&r"
+			]
+			icon: "create_resource_vents:dormant_resonite_vent"
+			id: "66C50363340B22B0"
+			rewards: [{
+				id: "5B2A072CD74851D2"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "68F38195DCD117B9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_resonite_vent"
+				type: "observation"
+			}]
+			title: "Pulse of the Otherside"
+			x: -8.0d
+			y: 9.5d
+		}
 	]
 	title: "Basic Dimensions"
 }

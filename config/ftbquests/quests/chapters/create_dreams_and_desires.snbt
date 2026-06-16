@@ -431,34 +431,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3696F1B5E0C16F29"]
-			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, and can be crafted in bulk themselves with overburden casing."]
-			icon: "create:item_vault"
-			id: "449C4C4A589B69B3"
-			rewards: [
-				{
-					count: 8
-					id: "07829932F865453B"
-					item: "create:item_vault"
-					type: "item"
-				}
-				{
-					id: "696F41F49AA2DEC2"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Smart Storage Starts Here."
-			tasks: [{
-				id: "462F0A5899089C17"
-				item: "create:item_vault"
-				type: "item"
-			}]
-			title: "Storage Logistics"
-			x: -4.0d
-			y: -0.5d
-		}
-		{
 			dependencies: ["0157A9E38B635A46"]
 			description: ["Tin is a key part of bronze and a new addition in Dreams \\& Desires. It’s a soft, silvery metal that’s easy to process and alloy. You’ll need a steady supply, so keep an eye out while mining."]
 			id: "26F62AF949EFE491"

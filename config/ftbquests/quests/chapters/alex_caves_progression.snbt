@@ -1388,6 +1388,271 @@
 			x: -22.0d
 			y: -3.0d
 		}
+		{
+			description: [
+				"Formed in ancient currents and nestled among deep-sea ruins and tube worm colonies, these vents radiate a soft luminescence. The &bPearlyte Vent&r holds the key to underwater industry-but only for those bold enough to descend into the pressure-filled unknown."
+				""
+				"{image:ftb:textures/pearlyte_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To breathe life into this dormant marine relic, place &la blaze cake&r atop its core and feed it a blaze cake. The transformation will crack open the shell of inactivity, revealing a living vent ready for fluid infusion."
+				""
+				"Once activated, the vent will await its &dsource fluid&r (explained in the next quest). When supplied, it will enable &lMechanical Extruder&r automation of pearls, allowing you to harvest this deep-sea treasure on demand."
+				""
+				" &7Beneath the waves lies brilliance. Ignite the deep. Harness the pearls of the abyss.&r"
+			]
+			icon: "create_resource_vents:dormant_pearlyte_vent"
+			id: "6AE156D8DE1D619A"
+			rewards: [{
+				id: "1F4B2E46FAFCF587"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "01D19050FCD28992"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_pearlyte_vent"
+				type: "observation"
+			}]
+			title: "Secrets of the Sunken Core"
+			x: -4.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Radiating a golden warmth, these vents are woven into the fossil-rich stone of a biome untouched by time. Surrounded by prehistoric giants and luminous flora, the &6Amberlite Vent&r pulses with the energy of a lost age, waiting to be awakened."
+				""
+				"{image:ftb:textures/amberlite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this fossilized furnace, feed a blaze burner blaze cake directly atop the vent’s surface. The resulting transformation will rupture the ancient crust, activating the vent and making it receptive to molten input."
+				""
+				"Once active, the vent will accept its required &dsource fluid&r (detailed in the next quest). Feed it well, and you'll unlock fully automated &6Amber&r generation through &lMechanical Extruders&r."
+				""
+				" &7Dig deep. Ignite the ancient spark. Harvest the treasures of a world long forgotten.&r"
+			]
+			icon: "create_resource_vents:dormant_amberlite_vent"
+			id: "2589CF5251858E63"
+			rewards: [{
+				id: "1841FEDEBB5CE955"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "7A5864AB8EEF58FE"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_amberlite_vent"
+				type: "observation"
+			}]
+			title: "Flame of the Forgotten World"
+			x: -2.5d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Encrusted in the foul rock of a cursed biome, the &7Guanite Vent&r emanates a putrid stillness. Amid twisted stone and rotting echoes, these vents represent decay reborn into utility-ready to fuel automation for those who dare to delve too deep."
+				""
+				"{image:ftb:textures/guanite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its vile potential, &lfeed a blaze burner blaze cake&r upon the vent’s dormant surface. The transformation will stir the festering stone into an active state, transforming it into a viable node for molten fluid input."
+				""
+				"Once active, supplying the correct &dsource fluid&r (covered in the next quest) will allow &fGuano&r to be fully automated via &lMechanical Extruders&r."
+				""
+				" &7From waste comes worth. Will you claim the power buried beneath decay?&r"
+			]
+			icon: "create_resource_vents:dormant_guanite_vent"
+			id: "229D3F7596608800"
+			rewards: [{
+				id: "71A239892B06EA58"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "6D8986CA3F92874C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:active_guanite_vent"
+				type: "observation"
+			}]
+			title: "Decay Beneath the Hollows"
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Hidden deep within a realm of charged stone and shifting magnetism, the &cNeodymrium Vent&r hums with potential. Its scarlet glow flickers with kinetic tension, offering a gateway to automating one of the most advanced resources in the known dimensions."
+				""
+				"{image:ftb:textures/neodymrium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To harness this volatile power, place &la blaze burner&r directly atop the dormant vent and feed it blaze cake. The resulting transformation awakens the vent, charging it with the ability to accept molten input for automated processing."
+				""
+				"Once activated, the proper &dsource fluid&r (revealed in the next quest) will allow you to extract &4Scarlet Neodymrium&r using &lMechanical Extruders&r."
+				""
+				" &7Tame the pulse of magnetism and unleash the might of automation.&r"
+			]
+			icon: "create_resource_vents:dormant_neodymrium_vent"
+			id: "08A5AEA1CB0268D8"
+			rewards: [{
+				id: "61E8BF13EF0E0E63"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "1461FFEDE382BC3A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_neodymrium_vent"
+				type: "observation"
+			}]
+			title: "Pulse of the Magnetic Core"
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Tucked among twisting stone and humming circuitry, the &bAzurnium Vent&r radiates with a cool, charged brilliance. Its azure glow pulses gently with mechanical elegance-awaiting activation by a bold adventurer prepared to shape raw energy into refined potential."
+				""
+				"{image:ftb:textures/azurnium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken the power within, &lplace a blaze burner on the vent&r and feed it blaze cake. This surge of force will ignite its dormant state, transforming it into an operational conduit for molten infusion."
+				""
+				"Once activated, you’ll need to deliver the correct &dsource fluid&r-explained in the next quest-to begin generating &3Azure Neodymrium&r with &lMechanical Extruders&r."
+				""
+				" &7Stabilize the current. Channel the flow. And craft with the clarity of precision engineering.&r"
+			]
+			icon: "create_resource_vents:dormant_azurnium_vent"
+			id: "1F8D8293900A159B"
+			rewards: [{
+				id: "66DD1C46AB326BD4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "0CAB7BA29B5E946A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_azurnium_vent"
+				type: "observation"
+			}]
+			title: "The Echo of Azure Currents"
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Dormant yet brimming with latent power, the &aUraniumnite Vent&r rests beneath the toxic bogs and irradiated swamps, hidden in plain sight. Its presence is marked by faint radiation and a slow, rhythmic pulsing that warns of the energy buried within."
+				""
+				"{image:ftb:textures/uraniumnite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin, place &la blaze burner&r atop a dormant Uraniumnite Vent and feed it blaze cake. The resulting transformation will jolt the vent to life, converting it into an active node ready for automation."
+				""
+				"Once awakened, infuse the vent with its proper &dsource fluid&r, detailed in the next quest, and begin harnessing its energy with &lMechanical Extruders&r to produce Uranium."
+				""
+				" &7Can you endure the rot, outwit the poison, and refine power from peril? The reactor is waiting.&r"
+			]
+			icon: "create_resource_vents:dormant_uraniumnite_vent"
+			id: "70DF75B6AEEF8D39"
+			rewards: [{
+				id: "7F29F47D0A197B90"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "6000D0FCF2A4250B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_uraniumnite_vent"
+				type: "observation"
+			}]
+			title: "The Core of Contagion"
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			description: [
+				"Tucked amid the noxious terrain and acidic pools, the &eSulphite Vent&r gives off a faint, sulfurous hiss. These dormant formations conceal volatile potential, waiting for a spark to awaken their burning core."
+				""
+				"{image:ftb:textures/sulphite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To ignite the process, place &la blaze burner&r directly on top of a dormant Sulphite Vent and feed it blaze cake. The transformation force will awaken the vent, converting it into an active conduit for molten extraction."
+				""
+				"Once activated, supplying the correct &dsource fluid&r-explained in the following quest-will enable &lMechanical Extruders&r to refine sulfur endlessly from the depths of corruption."
+				""
+				" &7Sulfur waits in silence-but not for long. Will you brave the fumes and harness its sting?&r"
+			]
+			icon: "create_resource_vents:dormant_sulphite_vent"
+			id: "19D60673B8DCB77D"
+			rewards: [{
+				id: "19B9F2CA3B7CEEAD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [{
+				id: "2B68EEA976EB1A79"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_sulphite_vent"
+				type: "observation"
+			}]
+			title: "The Stinging Vein of Sulfur"
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"&dFound deep in the Candy Cavity caves-your gateway to Ethium automation!"
+				""
+				"Hidden beneath the whimsical yet dangerous layers of the &dCandy Cavity&r lies the &5Lost Debris Vent&r-a bizarre and rare geyser steeped in sugary sediment, essential for automating &dEthium&r. Though playful in appearance, this vent holds serious power for those who dare to extract it."
+				""
+				"{image:ftb:textures/lost_debris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this confection-powered vent, place &la blaze burner&r directly on top and feed it a blaze cake. The sweet crust will shatter open, revealing the vent’s molten potential."
+				""
+				"Once active, provide the proper &dsource fluid&r (revealed in the next quest) to fuel &lMechanical Extruders&r and begin your Lost Debris conversion process."
+				""
+				" &5The cavity cracks-are you ready to extract the essence of Ethium from this delicious core?&r"
+			]
+			icon: "create_resource_vents:dormant_lost_debris_vent"
+			id: "23CC3D007074DBEB"
+			rewards: [{
+				id: "05DB3E65D553A3FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "390690AC9C57DE1D"
+				observe_type: 0
+				timer: 0L
+				to_observe: "create_resource_vents:dormant_lost_debris_vent"
+				type: "observation"
+			}]
+			title: "Lost Debris Vent: Sweet Core of Ethium"
+			x: 7.0d
+			y: 15.0d
+		}
 	]
 	title: "Alex's Caves"
 }

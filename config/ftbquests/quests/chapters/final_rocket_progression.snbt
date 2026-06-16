@@ -127,7 +127,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "The path to The Forge is open. Prepare for the final battle in update v3.0! Click me for more info!"
+			subtitle: "Final Rocket Completion!"
 			tasks: [
 				{
 					id: "490CDBFC42DC01C1"
@@ -1083,6 +1083,19 @@
 			hide_dependency_lines: true
 			icon: "forge_frontier:forge_rocket_casing"
 			id: "242B2CB4BC5EF187"
+			rewards: [
+				{
+					count: 2
+					id: "7853D83DDBB69BBB"
+					item: "forge_frontier:forge_alloy"
+					type: "item"
+				}
+				{
+					id: "1D33374CBA238B67"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted using Mechanical Crafters"
@@ -1103,7 +1116,31 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"&7Compressed Experience Block&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Experience Blocks can be crafted using Experience Nuggets and Experience Blocks obtained through various automation and processing methods."
+				""
+				"&lNotes:&r"
+				"Experience is produced as a byproduct of several resource processing chains, including Resource Vent stone processing. Additional methods of obtaining Experience can be discovered through JEI."
+				""
+				"Experiment with different production chains to find the method that best suits your factory."
+			]
 			id: "5EF630FBC1089A3B"
+			rewards: [
+				{
+					count: 4
+					id: "400EAD08FE78370E"
+					item: "createcompression:compressed_experience_3x"
+					type: "item"
+				}
+				{
+					id: "7D8314ED683421BB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "10D7055EE948B57C"
 				item: "createcompression:compressed_experience_4x"
@@ -1113,7 +1150,31 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Compressed Etrium&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Etrium is crafted using large quantities of &bEtrium&r, a valuable material obtained through &bFrostite&r processing."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Frostite and processing it into Etrium?"
+				""
+				"{ \"text\": \"Frostite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"350F1E84CF8BB524\" } }"
+			]
 			id: "49F1A85E6FFAF420"
+			rewards: [
+				{
+					count: 4
+					id: "7E1D55916E912C40"
+					item: "forge_frontier:compressed_etrium_3x"
+					type: "item"
+				}
+				{
+					id: "2B3BA84F9F04A5D2"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "0A5FB34747FBF4B1"
 				item: "forge_frontier:compressed_etrium_4x"
@@ -1123,7 +1184,31 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Compressed Adamantite&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Adamantite is crafted using large quantities of &5Adamantite&r, a rare material obtained through processing &5Endritus&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Endritus and processing it into Adamantite?"
+				""
+				"{ \"text\": \"Endritus Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0886729EE4407B1B\" } }"
+			]
 			id: "7634F259127DB344"
+			rewards: [
+				{
+					count: 4
+					id: "5833B883A6CDDA5D"
+					item: "forge_frontier:compressed_adamantite_3x"
+					type: "item"
+				}
+				{
+					id: "29B9B6027FB33B48"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2C83D84707AAB7B0"
 				item: "forge_frontier:compressed_adamantite_4x"
@@ -1133,7 +1218,31 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Compressed Luxite&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Luxite is crafted using large quantities of &eLuxite&r, a valuable material obtained through processing &8Noxrock&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Noxrock and processing it into Luxite?"
+				""
+				"{ \"text\": \"Noxrock Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F87A00F314DD547\" } }"
+			]
 			id: "0788DEF6CF81E751"
+			rewards: [
+				{
+					count: 4
+					id: "546DB03606A3D9A7"
+					item: "forge_frontier:compressed_luxite_3x"
+					type: "item"
+				}
+				{
+					id: "3973A8D8C16096EB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "332FDEA3E0E2E43B"
 				item: "forge_frontier:compressed_luxite_4x"
@@ -1143,7 +1252,31 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Compressed Tungsten&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Tungsten is crafted using large quantities of &7Tungsten&r, a durable metal obtained through processing &8Gneiss&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Gneiss and processing it into Tungsten?"
+				""
+				"{ \"text\": \"Gneiss Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"177FD83E945AE2BE\" } }"
+			]
 			id: "6B1C95E5C0E2E2C1"
+			rewards: [
+				{
+					count: 4
+					id: "32DC309A7978E09B"
+					item: "forge_frontier:compressed_tungsten_3x"
+					type: "item"
+				}
+				{
+					id: "3FAD5F59A0F03FFC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5A77E47E9F382775"
 				item: "forge_frontier:compressed_tungsten_4x"
@@ -1153,7 +1286,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Compressed Desh&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Desh is crafted using large quantities of &6Desh&r, a space-age metal obtained through processing &6Aubrum&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Aubrum and processing it into Desh?"
+				""
+				"{ \"text\": \"Aubrum Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B0CEEDC47C9AFAE\" } }"
+			]
 			id: "71E0111AA5AC5900"
+			rewards: [
+				{
+					count: 4
+					id: "5C99E23B7C1A2424"
+					item: "forge_frontier:compressed_desh_3x"
+					type: "item"
+				}
+				{
+					id: "7B114ECB4EEDEBFC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1C01B8710B363E1A"
 				item: "forge_frontier:compressed_desh_4x"
@@ -1163,7 +1320,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Compressed Ostrum&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Ostrum is crafted using large quantities of &cOstrum&r, an advanced planetary metal obtained through processing &dStellaris&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Stellaris and processing it into Ostrum?"
+				""
+				"{ \"text\": \"Stellaris Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3C81772B0834E434\" } }"
+			]
 			id: "1E158452712976C6"
+			rewards: [
+				{
+					count: 4
+					id: "471E003BF251F00C"
+					item: "forge_frontier:compressed_ostrum_3x"
+					type: "item"
+				}
+				{
+					id: "59F4E566EA2E14B4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "76D46E923912CD8B"
 				item: "forge_frontier:compressed_ostrum_4x"
@@ -1173,7 +1354,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Compressed Calorite&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Calorite is crafted using large quantities of &4Calorite&r, a powerful late-game metal obtained through processing &cPyroclast&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Pyroclast and processing it into Calorite?"
+				""
+				"{ \"text\": \"Pyroclast Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0526FF8AE3C0EA67\" } }"
+			]
 			id: "43A131C10479073D"
+			rewards: [
+				{
+					count: 4
+					id: "3F9A004A2BDA3AB1"
+					item: "forge_frontier:compressed_calorite_3x"
+					type: "item"
+				}
+				{
+					id: "2AB2AA1BFD32EDEC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7D2CB4B2B35B8DE2"
 				item: "forge_frontier:compressed_calorite_4x"
@@ -1183,7 +1388,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Compressed Scarlet Neodymium&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Scarlet Neodymium is crafted using large quantities of &cScarlet Neodymium&r, a specialized material obtained through processing &4Neodymrium&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Neodymrium and processing it into Scarlet Neodymium?"
+				""
+				"{ \"text\": \"Neodymrium Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"08A5AEA1CB0268D8\" } }"
+			]
 			id: "14A43A2D2529C93E"
+			rewards: [
+				{
+					count: 4
+					id: "1027DF2A51F8409E"
+					item: "forge_frontier:compressed_scarlet_neodymium_3x"
+					type: "item"
+				}
+				{
+					id: "00AD29A0306ED972"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3D24E0406A6696CC"
 				item: "forge_frontier:compressed_scarlet_neodymium_4x"
@@ -1193,7 +1422,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Compressed Azure Neodymium&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Azure Neodymium is crafted using large quantities of &bAzure Neodymium&r, a specialized material obtained through processing &9Azurnium&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Azurnium and processing it into Azure Neodymium?"
+				""
+				"{ \"text\": \"Azurnium Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1F8D8293900A159B\" } }"
+			]
 			id: "72A9138E5CE15163"
+			rewards: [
+				{
+					count: 4
+					id: "5F612471AFBC069E"
+					item: "forge_frontier:compressed_azure_neodymium_3x"
+					type: "item"
+				}
+				{
+					id: "5E8FC1A9EB738EA0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "16EFAADEC2CDCA62"
 				item: "forge_frontier:compressed_azure_neodymium_4x"
@@ -1203,7 +1456,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Compressed Uranium&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Uranium is crafted using large quantities of &aUranium&r, a radioactive material obtained through processing &2Uraniumnite&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Uraniumnite and processing it into Uranium?"
+				""
+				"{ \"text\": \"Uraniumnite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70DF75B6AEEF8D39\" } }"
+			]
 			id: "42D5F07E83214ADD"
+			rewards: [
+				{
+					count: 4
+					id: "0C4BE6A9D481194C"
+					item: "forge_frontier:compressed_uranium_3x"
+					type: "item"
+				}
+				{
+					id: "124930274101A343"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "45809F9C7B904276"
 				item: "forge_frontier:compressed_uranium_4x"
@@ -1213,7 +1490,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Compressed Amber&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Amber is crafted using large quantities of &6Amber&r, a valuable material obtained through processing &eAmberlite&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Amberlite and processing it into Amber?"
+				""
+				"{ \"text\": \"Amberlite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2589CF5251858E63\" } }"
+			]
 			id: "0A4BC02149D14384"
+			rewards: [
+				{
+					count: 5
+					id: "4D978E8E4AAB65CF"
+					item: "forge_frontier:compressed_amber_4x"
+					type: "item"
+				}
+				{
+					id: "46FE897979B9D74B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5852DE3506479916"
 				item: "forge_frontier:compressed_amber_5x"
@@ -1223,7 +1524,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Compressed Sulfur&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Sulfur is crafted using large quantities of &eSulfur&r, a useful industrial material obtained through processing &6Sulphite&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Sulphite and processing it into Sulfur?"
+				""
+				"{ \"text\": \"Sulphite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D60673B8DCB77D\" } }"
+			]
 			id: "776537C1EB6F5AD1"
+			rewards: [
+				{
+					count: 4
+					id: "2A4D201C34C001F9"
+					item: "forge_frontier:compressed_sulfur_3x"
+					type: "item"
+				}
+				{
+					id: "631BEDF69C8A84B8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5931CBF3BDB65ACB"
 				item: "forge_frontier:compressed_sulfur_4x"
@@ -1233,7 +1558,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Compressed Pearl&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Pearl is crafted using large quantities of &fPearl&r, a valuable material obtained through processing &bPearlyte&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Pearlyte and processing it into Pearl?"
+				""
+				"{ \"text\": \"Pearlyte Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6AE156D8DE1D619A\" } }"
+			]
 			id: "78E43DAF971E7045"
+			rewards: [
+				{
+					count: 4
+					id: "658F4F6F6A9A7633"
+					item: "forge_frontier:compressed_pearl_3x"
+					type: "item"
+				}
+				{
+					id: "5FA78EA1DA822187"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2189F3051D4767D5"
 				item: "forge_frontier:compressed_pearl_4x"
@@ -1243,7 +1592,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Compressed Guano&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Guano is crafted using large quantities of &6Guano&r, an organic material obtained through processing &eGuanite&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Guanite and processing it into Guano?"
+				""
+				"{ \"text\": \"Guanite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"229D3F7596608800\" } }"
+			]
 			id: "762D80FC4A16746C"
+			rewards: [
+				{
+					count: 4
+					id: "44B3247F71AC32A8"
+					item: "forge_frontier:compressed_guano_3x"
+					type: "item"
+				}
+				{
+					id: "3646B25A4B5C9584"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6E8A24AFFFF49C44"
 				item: "forge_frontier:compressed_guano_4x"
@@ -1253,7 +1626,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Compressed Mithril&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Mithril is crafted using large quantities of &bMithril&r, an advanced alloy created from Experience Nuggets, Glowberry Milkshakes, Steel, Bronze, and Chromatic Compound."
+				""
+				"&lNotes:&r"
+				"Need help producing Mithril?"
+				""
+				"{ \"text\": \"Mithril Production\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4DE3DBCBE4DE92D9\" } }"
+			]
 			id: "4307D55941B5BD61"
+			rewards: [
+				{
+					count: 2
+					id: "57A3F5B568015256"
+					item: "forge_frontier:compressed_mithril_1x"
+					type: "item"
+				}
+				{
+					id: "742D23791B63C544"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "107B4CFA00604105"
 				item: "forge_frontier:compressed_mithril_2x"
@@ -1263,7 +1660,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Compressed Industrial Iron&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Industrial Iron is crafted using large quantities of &7Industrial Iron&r, which is produced by heated compacting &7Iron Sheets&r."
+				""
+				"&lNotes:&r"
+				"Need help producing Industrial Iron?"
+				""
+				"{ \"text\": \"Industrial Iron Production\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E16FEE8C7907853\" } }"
+			]
 			id: "7E3DDF8DC16EA1BF"
+			rewards: [
+				{
+					count: 4
+					id: "3AE3434EE715FC49"
+					item: "forge_frontier:compressed_industrial_iron_3x"
+					type: "item"
+				}
+				{
+					id: "0F53F1A26BF385FC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2D7DC78B0D06CBA5"
 				item: "forge_frontier:compressed_industrial_iron_4x"
@@ -1273,17 +1694,73 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Compressed Coal&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Coal is crafted using large quantities of &8Coal&r. Coal can be obtained through processing &8Scorchia&r or by farming coal-producing mobs using &6Create Mechanical Spawners&r."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Scorchia?"
+				""
+				"{ \"text\": \"Scorchia Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"10D2ED18910A5579\" } }"
+			]
 			id: "414E0B9B85033224"
+			rewards: [
+				{
+					count: 5
+					id: "1D9EF22B1718205E"
+					item: "createcompression:compressed_coal_4x"
+					type: "item"
+				}
+				{
+					id: "7049AA5BF05C1C6B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7640F7FF48729ABB"
-				item: "forge_frontier:compressed_tungsten_4x"
+				item: "createcompression:compressed_coal_5x"
 				type: "item"
 			}]
 			x: -5.5d
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Compressed Netherite Diamond&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Netherite Diamond is crafted using large quantities of &5Netherite Diamond&r, an advanced alloy produced through Create Metallurgy processing of Molten Netherite, Molten Diamond, Molten Gold, Molten Emerald, and Molten Iron."
+				""
+				"&lNotes:&r"
+				"Need help obtaining the resources required for Netherite Diamond production?"
+				""
+				"{ \"text\": \"Debris Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }"
+				""
+				"{ \"text\": \"Glacium Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0037549384F9FCCF\" } }"
+				""
+				"{ \"text\": \"Verdantine Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12C001857356FF60\" } }"
+				""
+				"{ \"text\": \"Ochrum Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"070BAAF36335CB39\" } }"
+				""
+				"{ \"text\": \"Crimsite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1091314A5D575D4B\" } }"
+			]
 			id: "49023DC089464DC8"
+			rewards: [
+				{
+					count: 3
+					id: "2A221FA2E981F53A"
+					item: "forge_frontier:compressed_netherite-diamond_2x"
+					type: "item"
+				}
+				{
+					id: "5FB9E1FFA4F3D668"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6A1E4DE42F266EC8"
 				item: "forge_frontier:compressed_netherite-diamond_3x"
@@ -1293,7 +1770,37 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Compressed Ethium&r is a required component used in the construction of &6Forge Alloy&r."
+				""
+				"&lHow to Obtain:&r"
+				"Compressed Ethium is crafted using large quantities of &dEthium&r, an advanced alloy created from Dragon Charges, Echo Compound, Nectar Fluid, Stellarite, Netherite, and Brass."
+				""
+				"&lNotes:&r"
+				"Need help obtaining some of the resources required for Ethium production?"
+				""
+				"{ \"text\": \"Resonsite Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66C50363340B22B0\" } }"
+				""
+				"{ \"text\": \"Debris Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } }"
+				""
+				"{ \"text\": \"Lost Debris Resource Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"23CC3D007074DBEB\" } }"
+				""
+				"For information on crafting the remaining ingredients, consult &6JEI&r for their recipes and production chains."
+			]
 			id: "34EF28DB671515F0"
+			rewards: [
+				{
+					count: 4
+					id: "2F12704ACBE9804F"
+					item: "forge_frontier:compressed_ethium_3x"
+					type: "item"
+				}
+				{
+					id: "5099E31A68A10BD3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "0EBCA85B2EB0BC96"
 				item: "forge_frontier:compressed_ethium_4x"
@@ -1344,6 +1851,11 @@
 			]
 			hide_dependency_lines: true
 			id: "47C19D9E0F6234DB"
+			rewards: [{
+				id: "7D3F38757E1FA8FC"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted Using a Sequenced Assebly Recipe"
@@ -1357,7 +1869,31 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"&7Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Stone can be produced by generating Cobblestone with a Create Cobblestone Generator and processing it into Stone."
+				""
+				"&lNotes:&r"
+				"Need help getting started in the Overworld and setting up basic resource generation?"
+				""
+				"{ \"text\": \"The Overworld Awaits\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DA842A1588FB8BE\" } }"
+			]
 			id: "5E84AE1F7E6BA145"
+			rewards: [
+				{
+					count: 64
+					id: "3714277DA0D023DA"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "483240B2BCC9F73E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1369,7 +1905,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Netherrack&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Netherrack can be produced using a Create Cobblestone Generator configured to generate Netherrack, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help gaining access to the Nether and its resources?"
+				""
+				"{ \"text\": \"Nether\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
+			]
 			id: "2407A6D2C67E2557"
+			rewards: [
+				{
+					count: 64
+					id: "618D30A91060D701"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "41736195D57CC5E5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1381,7 +1941,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Sculk Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Sculk Stone can be produced using a Create Cobblestone Generator configured to generate Sculk Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help progressing through the Deeper Darker dimension?"
+				""
+				"{ \"text\": \"Deeper Darker\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+			]
 			id: "5FD3CFA851139071"
+			rewards: [
+				{
+					count: 64
+					id: "4B15083BA3713CCD"
+					item: "deeperdarker:sculk_stone"
+					type: "item"
+				}
+				{
+					id: "3CE59E8E0B27896D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1393,7 +1977,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7End Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"End Stone can be produced using a Create Cobblestone Generator configured to generate End Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help progressing through The End?"
+				""
+				"{ \"text\": \"The End\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
+			]
 			id: "14EF7DD1AA08D650"
+			rewards: [
+				{
+					count: 64
+					id: "5706CAE046C79A8A"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					id: "29C4D06E6322DCCB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1405,7 +2013,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Moon Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Moon Stone can be produced using a Create Cobblestone Generator configured to generate Moon Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Moon?"
+				""
+				"{ \"text\": \"Journey to the Moon\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1523A7C10CEF69AA\" } }"
+			]
 			id: "506CD4AEEBC3D8F7"
+			rewards: [
+				{
+					count: 64
+					id: "3BE6B6A6F65115CA"
+					item: "ad_astra:moon_stone"
+					type: "item"
+				}
+				{
+					id: "7BE82DF380F8DE1A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1417,7 +2049,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Mars Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Mars Stone can be produced using a Create Cobblestone Generator configured to generate Mars Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching Mars?"
+				""
+				"{ \"text\": \"Journey to Mars\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
+			]
 			id: "70977C5EEE11F742"
+			rewards: [
+				{
+					count: 64
+					id: "484CAA44EB742EFC"
+					item: "ad_astra:mars_stone"
+					type: "item"
+				}
+				{
+					id: "4DA82B1C5EFB7761"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1429,7 +2085,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Mercury Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Mercury Stone can be produced using a Create Cobblestone Generator configured to generate Mercury Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching Mercury?"
+				""
+				"{ \"text\": \"Journey to Mercury\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B54577F45BDF5E7\" } }"
+			]
 			id: "58A62FC0B9EA3DDB"
+			rewards: [
+				{
+					count: 64
+					id: "0707DE5DA31D3576"
+					item: "ad_astra:mercury_stone"
+					type: "item"
+				}
+				{
+					id: "49373DD56D226D37"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1441,7 +2121,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Venus Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Venus Stone can be produced using a Create Cobblestone Generator configured to generate Venus Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching Venus?"
+				""
+				"{ \"text\": \"Journey to Venus\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25721A33E1238EBD\" } }"
+			]
 			id: "01287F40D7A670AC"
+			rewards: [
+				{
+					count: 64
+					id: "4BC57F6FE8DF5CF5"
+					item: "ad_astra:venus_stone"
+					type: "item"
+				}
+				{
+					id: "1C4C72C5CE955491"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1453,7 +2157,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Glacio Stone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Glacio Stone can be produced using a Create Cobblestone Generator configured to generate Glacio Stone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching Glacio?"
+				""
+				"{ \"text\": \"Journey to Glacio\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } }"
+			]
 			id: "1F92F7027A090AB5"
+			rewards: [
+				{
+					count: 64
+					id: "605B03403678E048"
+					item: "ad_astra:glacio_stone"
+					type: "item"
+				}
+				{
+					id: "06AB7D62CABA5322"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1465,7 +2193,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Muck&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Muck can be produced using a Create Cobblestone Generator configured to generate Muck, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Abyssal Chasm?"
+				""
+				"{ \"text\": \"Abyssal Chasm\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"308B363D1029D44E\" } }"
+			]
 			id: "045029C87AB50D79"
+			rewards: [
+				{
+					count: 64
+					id: "5828CB10A1E30F16"
+					item: "alexscaves:muck"
+					type: "item"
+				}
+				{
+					id: "7FE6782C64860A2A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1477,7 +2229,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Guanostone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Guanostone can be produced using a Create Cobblestone Generator configured to generate Guanostone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Forlorn Hollows?"
+				""
+				"{ \"text\": \"Forlorn Hollows\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"172EE8617C59F90A\" } }"
+			]
 			id: "23D14945F46515B1"
+			rewards: [
+				{
+					count: 64
+					id: "29C6589C992F038D"
+					item: "alexscaves:guanostone"
+					type: "item"
+				}
+				{
+					id: "6609F978A1CDB3CB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1489,7 +2265,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Ancient Limestone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Ancient Limestone can be produced using a Create Cobblestone Generator configured to generate Ancient Limestone, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Primordial Caves?"
+				""
+				"{ \"text\": \"Primordial Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE777D1CAD0CE01\" } }"
+			]
 			id: "66DC09163869EF7A"
+			rewards: [
+				{
+					count: 64
+					id: "25E6F750148F0F2F"
+					item: "alexscaves:limestone"
+					type: "item"
+				}
+				{
+					id: "5F79F09E3F405F13"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1501,7 +2301,31 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Cake Layer&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Cake Layer can be produced using a Create Cobblestone Generator configured to generate Cake Layer, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Candy Cavity?"
+				""
+				"{ \"text\": \"Candy Cavity\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B1D694ADAF367E0\" } }"
+			]
 			id: "2952C2385B543CFD"
+			rewards: [
+				{
+					count: 64
+					id: "02D7D2A3C4397D21"
+					item: "alexscaves:cake_layer"
+					type: "item"
+				}
+				{
+					id: "0D8A0FABA7F44302"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1513,7 +2337,31 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Galena&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Galena can be produced using a Create Cobblestone Generator configured to generate Galena, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Magnetic Caves?"
+				""
+				"{ \"text\": \"Magnetic Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"14077793D0743DF5\" } }"
+			]
 			id: "23870B55014EBE2A"
+			rewards: [
+				{
+					count: 64
+					id: "62ADD91C178D2286"
+					item: "alexscaves:galena"
+					type: "item"
+				}
+				{
+					id: "5DF6E8F6B06CDC95"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1525,7 +2373,31 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Radrock&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"Radrock can be produced using a Create Cobblestone Generator configured to generate Radrock, allowing it to be automated and produced in large quantities."
+				""
+				"&lNotes:&r"
+				"Need help reaching the Toxic Caves?"
+				""
+				"{ \"text\": \"Toxic Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A2C4E8DD4FA3A3A\" } }"
+			]
 			id: "155D72A81E5982D2"
+			rewards: [
+				{
+					count: 64
+					id: "677CAF0207CBFD5C"
+					item: "alexscaves:radrock"
+					type: "item"
+				}
+				{
+					id: "0BCC796F28F0F5AB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 32L
@@ -1537,7 +2409,30 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Create Teleporter Portal Base&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Create Teleporter Portal Base is crafted through an advanced Mechanical Crafting recipe that requires a variety of late-game materials and components."
+				""
+				"&lNotes:&r"
+				"Need help crafting the Create Teleporter Portal Base?"
+				""
+				"{ \"text\": \"Create Teleporters\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44F0C841699000CB\" } }"
+			]
 			id: "2008D9D0FF1BAEF7"
+			rewards: [
+				{
+					id: "365006D55571AC53"
+					item: "createteleporters:custom_portal_base"
+					type: "item"
+				}
+				{
+					id: "58BDA4EC15EE502C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Starting Ingredient"
@@ -2683,6 +3578,11 @@
 			]
 			hide_dependency_lines: true
 			id: "0917C06AA703535A"
+			rewards: [{
+				id: "7B7E275E0B5E0542"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted using Mechanical Crafters"
@@ -2758,7 +3658,31 @@
 			y: 13.25d
 		}
 		{
+			description: [
+				"&7Rocket Nose Cone&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the Rocket Nose Cone using &7Steel&r, which is produced through the Create Metallurgy progression chain."
+				""
+				"&lNotes:&r"
+				"Need help obtaining Steel?"
+				""
+				"{ \"text\": \"Steel Progression\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3970E3D9DAD23FF4\" } }"
+			]
 			id: "67E79D25FD8C4AC3"
+			rewards: [
+				{
+					count: 4
+					id: "0843325BC595E210"
+					item: "ad_astra:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "175E1756BB4C7A56"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "688F189D95B52DFF"
 				item: "ad_astra:rocket_nose_cone"
@@ -2768,7 +3692,30 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Ignitium&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				""
+				"&lHow to Obtain:&r"
+				"Ignitium is obtained by defeating &cIgnis&r within the Burning Arena on Mercury."
+				""
+				"&lNotes:&r"
+				"Need help locating Ignis and summoning the encounter?"
+				""
+				"{ \"text\": \"Ignis, Guardian of the Burning Arena\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"29B52E50E3FDF75E\" } }"
+			]
 			id: "6F1455DB0271D79B"
+			rewards: [
+				{
+					id: "0C66601D935420D5"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "3079903E1FD1415E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "07FA0BFF8B788025"
 				item: "cataclysm:ignitium_ingot"
@@ -2778,7 +3725,37 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Deep Space Stabilizer Core&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Deep Space Stabilizer Core is crafted using materials obtained through progression on &6Mercury&r and &eVenus&r, including resources gathered from planetary exploration, structures, and boss encounters."
+				""
+				"&lNotes:&r"
+				"Need help progressing through Mercury and Venus?"
+				""
+				"{ \"text\": \"Ad Astra: Mercury & Venus\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4327F67CBAA5C812\" } }"
+			]
 			id: "441F3C4CB2AFB9AF"
+			rewards: [
+				{
+					count: 2
+					id: "31DE926C30807869"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61FB9B686B019CF3"
+					item: "ad_astra:calorite_ingot"
+					type: "item"
+				}
+				{
+					id: "39927DB3D0ADB4FD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "403F066487A42248"
 				item: "forge_frontier:deep_space_stabilizer_core"
@@ -2788,7 +3765,23 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Abyssal Egg&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Abyssal Egg is obtained by defeating &9The Leviathan&r, one of the most powerful foes encountered throughout your adventure."
+				""
+				"&lNotes:&r"
+				"Need help locating The Leviathan and surviving the encounter?"
+				""
+				"{ \"text\": \"The Leviathan\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_LEVIATHAN_QUEST_ID\" } }"
+			]
 			id: "753F7128569E478C"
+			rewards: [{
+				id: "1769AF23852F6D05"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			tasks: [{
 				id: "78BF18A51C22CED7"
 				item: "cataclysm:abyssal_egg"
@@ -2798,7 +3791,34 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Primal Magma Rocket Casing&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Primal Magma Rocket Casing is crafted using materials obtained throughout the entire rocket progression chain, from the Moon to the Alex Caves Planets."
+				""
+				"&lNotes:&r"
+				"This component represents the culmination of your journey through the Ad Astra planets, including our custom planets, and their associated resources."
+			]
 			id: "02E0E2FB57DD9B8F"
+			rewards: [
+				{
+					count: 3
+					id: "347D9454F1391B81"
+					item: "alexscaves:primal_magma"
+					type: "item"
+				}
+				{
+					id: "2C346C278A0696A0"
+					item: "forge_frontier:compressed_sturdy_sheet_block_2x"
+					type: "item"
+				}
+				{
+					id: "3EF3600362AC63A3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "570CFA3AF05A7B48"
@@ -2809,7 +3829,35 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Dimensional Stability Core&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Dimensional Stability Core is crafted using materials obtained through progression on &bGlacio&r and within &5The End&r, including resources earned through exploration, structures, and boss encounters."
+				""
+				"&lNotes:&r"
+				"This component requires you to conquer some of the most challenging content found beyond the Overworld."
+				""
+				"Need help progressing through Glacio and The End?"
+				""
+				"{ \"text\": \"Journey to Glacio\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05B5C7A592D2E3DA\" } }"
+				""
+				"{ \"text\": \"The Path to The End\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
+			]
 			id: "7E6B57B7AE90C06D"
+			rewards: [
+				{
+					count: 2
+					id: "281C3DA0B656C874"
+					item: "minecraft:dragon_head"
+					type: "item"
+				}
+				{
+					id: "38804A08D65CA778"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "1BE04C2BBD954BFC"
 				item: "forge_frontier:dimensional_stability_core"
