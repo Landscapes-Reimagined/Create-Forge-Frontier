@@ -98,7 +98,7 @@ ServerEvents.recipes(event => {
                     G: Ingredient.of("forge_frontier:compressed_guano_4x"),
                     m: Ingredient.of("forge_frontier:compressed_mithril_2x"),
                     i: Ingredient.of("forge_frontier:compressed_industrial_iron_4x"),
-                    V: Ingredient.of("forge_frontier:compressed_tungsten_4x"),
+                    V: Ingredient.of("createcompression:compressed_coal_5x"),
                     n: Ingredient.of("forge_frontier:compressed_netherite-diamond_3x"),
                     E: Ingredient.of("forge_frontier:compressed_ethium_4x"),
                 },
