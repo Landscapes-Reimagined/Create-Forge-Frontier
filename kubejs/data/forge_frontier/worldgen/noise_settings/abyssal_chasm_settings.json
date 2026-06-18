@@ -35,16 +35,46 @@
       "type": "minecraft:add",
       "argument1": {
         "type": "minecraft:y_clamped_gradient",
-        "from_y": 12,
-        "to_y": 20,
-        "from_value": 1.5,
-        "to_value": -1.5
+        "from_y": -54,
+        "to_y": 24,
+        "from_value": 1.35,
+        "to_value": -1.85
       },
       "argument2": {
-        "type": "minecraft:noise",
-        "noise": "minecraft:gravel",
-        "xz_scale": 0.25,
-        "y_scale": 0
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:mul",
+          "argument1": 0.42,
+          "argument2": {
+            "type": "minecraft:noise",
+            "noise": "minecraft:surface",
+            "xz_scale": 0.09,
+            "y_scale": 0
+          }
+        },
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:mul",
+            "argument1": 0.34,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "minecraft:gravel",
+              "xz_scale": 0.35,
+              "y_scale": 0
+            }
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 0.28,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "minecraft:cave_layer",
+              "xz_scale": 0.8,
+              "y_scale": 1.6
+            }
+          }
+        }
       }
     },
     "vein_toggle": 0,
@@ -77,112 +107,6 @@
       {
         "type": "minecraft:condition",
         "if_true": {
-          "type": "minecraft:not",
-          "invert": {
-            "type": "minecraft:vertical_gradient",
-            "random_name": "minecraft:bedrock_roof",
-            "true_at_and_below": {
-              "below_top": 5
-            },
-            "false_at_and_above": {
-              "below_top": 0
-            }
-          }
-        },
-        "then_run": {
-          "type": "minecraft:block",
-          "result_state": {
-            "Name": "minecraft:bedrock"
-          }
-        }
-      },
-      {
-        "type": "minecraft:condition",
-        "if_true": {
-          "type": "minecraft:above_preliminary_surface"
-        },
-        "then_run": {
-          "type": "minecraft:condition",
-          "if_true": {
-            "type": "minecraft:stone_depth",
-            "offset": 0,
-            "surface_type": "floor",
-            "add_surface_depth": false,
-            "secondary_depth_range": 0
-          },
-          "then_run": {
-            "type": "minecraft:condition",
-            "if_true": {
-              "type": "minecraft:water",
-              "offset": -1,
-              "surface_depth_multiplier": 0,
-              "add_stone_depth": false
-            },
-            "then_run": {
-              "type": "minecraft:sequence",
-              "sequence": [
-                {
-                  "type": "minecraft:condition",
-                  "if_true": {
-                    "type": "minecraft:water",
-                    "offset": 0,
-                    "surface_depth_multiplier": 0,
-                    "add_stone_depth": false
-                  },
-                  "then_run": {
-                    "type": "minecraft:block",
-                    "result_state": {
-                      "Name": "minecraft:grass_block",
-                      "Properties": {
-                        "snowy": "false"
-                      }
-                    }
-                  }
-                },
-                {
-                  "type": "minecraft:block",
-                  "result_state": {
-                    "Name": "minecraft:dirt"
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "type": "minecraft:condition",
-        "if_true": {
-          "type": "minecraft:water",
-          "offset": -6,
-          "surface_depth_multiplier": -1,
-          "add_stone_depth": true
-        },
-        "then_run": {
-          "type": "minecraft:condition",
-          "if_true": {
-            "type": "minecraft:stone_depth",
-            "offset": 0,
-            "surface_type": "floor",
-            "add_surface_depth": true,
-            "secondary_depth_range": 0
-          },
-          "then_run": {
-            "type": "minecraft:sequence",
-            "sequence": [
-              {
-                "type": "minecraft:block",
-                "result_state": {
-                  "Name": "minecraft:dirt"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "type": "minecraft:condition",
-        "if_true": {
           "type": "minecraft:stone_depth",
           "offset": 0,
           "surface_type": "floor",
@@ -195,23 +119,37 @@
             {
               "type": "minecraft:condition",
               "if_true": {
-                "type": "minecraft:stone_depth",
-                "offset": 0,
-                "surface_type": "ceiling",
-                "add_surface_depth": false,
-                "secondary_depth_range": 0
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:gravel",
+                "min_threshold": 0.18,
+                "max_threshold": 0.62
               },
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "alexscaves:abyssmarine"
+                  "Name": "minecraft:gravel"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "noise": "minecraft:surface",
+                "min_threshold": -0.5,
+                "max_threshold": -0.12
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "alexscaves:muck"
                 }
               }
             },
             {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "alexscaves:muck"
+                "Name": "alexscaves:abyssmarine"
               }
             }
           ]
@@ -221,21 +159,18 @@
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:vertical_gradient",
-          "random_name": "minecraft:deepslate",
+          "random_name": "forge_frontier:deep_muck",
           "true_at_and_below": {
-            "absolute": -25
+            "absolute": -46
           },
           "false_at_and_above": {
-            "absolute": 8
+            "absolute": -22
           }
         },
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "alexscaves:muck",
-            "Properties": {
-              "axis": "y"
-            }
+            "Name": "alexscaves:muck"
           }
         }
       }
