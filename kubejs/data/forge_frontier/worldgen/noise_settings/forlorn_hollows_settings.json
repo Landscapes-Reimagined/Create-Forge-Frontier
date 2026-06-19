@@ -335,7 +335,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:sandstone"
+                  "Name": "minecraft:smooth_sandstone"
                 }
               }
             }
