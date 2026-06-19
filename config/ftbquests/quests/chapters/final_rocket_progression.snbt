@@ -2492,6 +2492,17 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"&7Magmatic Reinforcement Core&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Magmatic Reinforcement Core is crafted using materials obtained through progression in &6Alex's Caves&r, including resources earned from boss encounters, exploration, and advanced rocket progression."
+				""
+				"&lNotes:&r"
+				"This component combines some of the most challenging materials obtained throughout your post-End adventure."
+				""
+				"For detailed information on the required ingredients and crafting chains, review &6JEI&r."
+			]
 			id: "1CDED9EB2A44E162"
 			shape: "pentagon"
 			size: 1.5d
