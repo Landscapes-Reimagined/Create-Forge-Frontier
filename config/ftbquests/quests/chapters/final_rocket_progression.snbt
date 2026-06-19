@@ -185,19 +185,20 @@
 			id: "262FF2B00E853521"
 			rewards: [
 				{
-					id: "00F1861ABC6FF80E"
-					type: "xp_levels"
-					xp_levels: 10
+					id: "5862EF9B991CAA6B"
+					item: "alexscaves:shot_gum"
+					type: "item"
 				}
 				{
-					id: "01B911DEBC4A7B75"
-					item: {
-						Count: 1
-						id: "forge_frontier:forge_alloy"
-						tag: { }
-					}
-					team_reward: true
+					count: 32
+					id: "079F3CD1CB149C1A"
+					item: "alexscaves:gumball_pile"
 					type: "item"
+				}
+				{
+					id: "165EBD1368A66B5E"
+					type: "xp_levels"
+					xp_levels: 7
 				}
 			]
 			shape: "gear"
