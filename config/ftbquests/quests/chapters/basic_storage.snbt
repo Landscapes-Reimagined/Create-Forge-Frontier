@@ -5094,7 +5094,6 @@
 				"Each &6Wooden Item Vault&r holds &e10 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:wooden_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5132,7 +5131,6 @@
 				"Each &6Copper Item Vault&r holds &e30 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:copper_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5170,7 +5168,6 @@
 				"Each &7Iron Item Vault&r holds &e40 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:iron_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5208,7 +5205,6 @@
 				"Each &aEmerald Item Vault&r holds &e50 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:emerald_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5246,7 +5242,6 @@
 				"Each &eGold Item Vault&r holds &e60 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:gold_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5284,7 +5279,6 @@
 				"Each &bCrystal Item Vault&r holds &e70 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:crystal_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5322,7 +5316,6 @@
 				"Each &bDiamond Item Vault&r holds &e80 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:diamond_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5360,7 +5353,6 @@
 				"Each &5Obsidian Item Vault&r holds &e90 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:obsidian_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
@@ -5398,7 +5390,6 @@
 				"Each &8Netherite Item Vault&r holds &e100 stacks&r of items."
 				""
 				"&lNotes:&r"
-				"Item ID: &7create_bs:netherite_item_vault&r"
 				""
 				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
 			]
