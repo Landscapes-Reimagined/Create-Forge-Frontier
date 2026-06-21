@@ -2480,6 +2480,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5666A48E904B4ADC"
+			rewards: [{
+				id: "5A6DF1F404793F37"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted Using a Sequenced Assebly Recipe"
@@ -2505,6 +2510,24 @@
 				"For detailed information on the required ingredients and crafting chains, review &6JEI&r."
 			]
 			id: "1CDED9EB2A44E162"
+			rewards: [
+				{
+					id: "648C4EF6E7017BC3"
+					item: "alexscaves:tectonic_shard"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3CC22F14DF706FFA"
+					item: "alexscaves:pure_darkness"
+					type: "item"
+				}
+				{
+					id: "37427FBEC6E1B644"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "Starting Ingredient"
@@ -2517,7 +2540,31 @@
 			y: 4.75d
 		}
 		{
+			description: [
+				"&7Precision Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Precision Mechanisms are crafted through Create's &6Sequenced Assembly&r process using Gold Sheets, Cogwheels, Large Cogwheels, and Iron Nuggets."
+				""
+				"&lNotes:&r"
+				"Need help getting started with Sequenced Assembly and Precision Mechanisms?"
+				""
+				"{ \"text\": \"Create: Precision Mechanisms\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"477EF84B4DD97BF9\" } }"
+			]
 			id: "6F57F555F0764451"
+			rewards: [
+				{
+					count: 3
+					id: "3F5EC8530C793F2F"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "4165A201C7803BE5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2529,7 +2576,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Quantum Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Quantum Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Sturdy Sheets, Quantum Fluid, and other specialized components."
+				""
+				"&lNotes:&r"
+				"Need help producing Quantum Mechanisms and progressing through Create Teleporters?"
+				""
+				"{ \"text\": \"Create Teleporters: Quantum Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"674E786854612FB7\" } }"
+			]
 			id: "0DC87F4D7B1CD584"
+			rewards: [
+				{
+					count: 3
+					id: "1B17D63EA6D64454"
+					item: "createteleporters:quantum_mechanism"
+					type: "item"
+				}
+				{
+					id: "726C9B4793D4F2EE"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2541,7 +2612,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Integrated Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Integrated Mechanisms are crafted through Create's &6Sequenced Assembly&r process using Brass Sheets, Integrated Circuits, Cogwheels, and Electron Tubes."
+				""
+				"&lNotes:&r"
+				"Need help producing Integrated Mechanisms and the components required for their assembly?"
+				""
+				"{ \"text\": \"Integrated Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E9D0705CA550997\" } }"
+			]
 			id: "06AD83D5B2E414E5"
+			rewards: [
+				{
+					count: 3
+					id: "51E3047E5AD6BD27"
+					item: "create_dd:integrated_mechanism"
+					type: "item"
+				}
+				{
+					id: "782DEA937615392E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2553,7 +2648,31 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Calculation Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Calculation Mechanisms are crafted through Create's &6Sequenced Assembly&r process using Tin Sheets, Integrated Circuits, Cogwheels, Copper Nuggets, and Iron Nuggets."
+				""
+				"&lNotes:&r"
+				"Need help producing Calculation Mechanisms and the components required for their assembly?"
+				""
+				"{ \"text\": \"Calculation Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7B030CB530E6C806\" } }"
+			]
 			id: "51A58697BD43DB17"
+			rewards: [
+				{
+					count: 3
+					id: "4D625ED9EE1B9DCF"
+					item: "create_dd:calculation_mechanism"
+					type: "item"
+				}
+				{
+					id: "35CDC15F9DE717BC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2565,7 +2684,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Logistics Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Logistics Mechanisms are crafted through Create's &6Sequenced Assembly&r process using Zinc Sheets, Cogwheels, Zinc Nuggets, and Slimeballs."
+				""
+				"&lNotes:&r"
+				"Need help producing Logistics Mechanisms and the components required for their assembly?"
+				""
+				"{ \"text\": \"Logistics Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6BAFE533ABE5A0F8\" } }"
+			]
 			id: "0144DE2A6F6EA9D0"
+			rewards: [
+				{
+					count: 3
+					id: "561C8567828E8F29"
+					item: "create_dd:inductive_mechanism"
+					type: "item"
+				}
+				{
+					id: "19C5380802280418"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2577,7 +2720,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Infernal Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Infernal Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Industrial Iron Sheets, Cogwheels, Rubber, Ember Alloys, Zinc Nuggets, and Lava."
+				""
+				"&lNotes:&r"
+				"Need help producing Infernal Mechanisms and the components required for their assembly?"
+				""
+				"{ \"text\": \"Infernal Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7936020BBC03AFD9\" } }"
+			]
 			id: "5A0E6F7175CF225A"
+			rewards: [
+				{
+					count: 3
+					id: "6517A8CDA0CE1858"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+				{
+					id: "3570CDF8D1245425"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2589,7 +2756,31 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Sealed Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Sealed Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Rubber, Cogwheels, Dried Kelp, Copper Sheets, and Glass."
+				""
+				"&lNotes:&r"
+				"Need help producing Sealed Mechanisms and the components required for their assembly?"
+				""
+				"{ \"text\": \"Sealed Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"32854DA1332D942D\" } }"
+			]
 			id: "014335E1C64BF5AA"
+			rewards: [
+				{
+					count: 3
+					id: "20B8F25ACD91F276"
+					item: "create_dd:sealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "34663F50719BCA6B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2601,7 +2792,31 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Vibration Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Vibration Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Rose Quartz Sheets, Amethyst Shards, Cogwheels, and Redstone Dust."
+				""
+				"&lNotes:&r"
+				"Need help producing Vibration Mechanisms or any of their ingredients?"
+				""
+				"Consult &6JEI&r for detailed recipes and production chains."
+			]
 			id: "33202D4315C71278"
+			rewards: [
+				{
+					count: 3
+					id: "244C527AC6DA71EF"
+					item: "create_things_and_misc:vibration_mechanism"
+					type: "item"
+				}
+				{
+					id: "6CD504526BBA65B4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2613,7 +2828,33 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Deeper Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Deeper Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Sheets of the Deeper, Deeper Cogwheels, Large Deeper Cogwheels, Otherside Nuggets, and other specialized components."
+				""
+				"&lNotes:&r"
+				"All materials required for the Deeper Mechanism are obtained through progression in the &5Deeper and Darker&r dimension."
+				""
+				"Need help producing Deeper Mechanisms or any of their ingredients?"
+				""
+				"Consult &6JEI&r for detailed recipes and production chains."
+			]
 			id: "4411430C1180816F"
+			rewards: [
+				{
+					count: 3
+					id: "43217B36D1051C74"
+					item: "resonant_synthesis:deeper_mechanism"
+					type: "item"
+				}
+				{
+					id: "6784B5BDB0CBE291"
+					type: "xp"
+					xp: 300
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 10L
@@ -2625,7 +2866,36 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Bucket of Shimmer&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				""
+				"&lHow to Obtain:&r"
+				"Buckets of Shimmer are crafted through an advanced &6Mechanical Crafting&r recipe using Vanilla Milkshakes, Hot Chocolate, Chocolate Milkshakes, Glowberry Milkshakes, Masses of Experience, Sap, Strawberry Milkshakes, Chromatic Waste, Caramel Milkshakes, and other specialized ingredients."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Bucket of Shimmer combines ingredients gathered from multiple stages of progression and production chains throughout the pack."
+				""
+				"Need help producing Bucket of Shimmer or any of its ingredients?"
+				""
+				"Consult the quest below and use &6JEI&r for detailed recipes and production chains."
+				""
+				"{ \"text\": \"Bucket of Shimmer\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B1463B8ECBB6CF1\" } }"
+			]
 			id: "48B7EC2444B0EDC9"
+			rewards: [
+				{
+					count: 2
+					id: "02357154118ACB31"
+					item: "create_dd:stargaze_singularity"
+					type: "item"
+				}
+				{
+					id: "7CE69AE1F462FD47"
+					type: "xp"
+					xp: 500
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Spouted Last"
@@ -2677,6 +2947,11 @@
 			]
 			hide_dependency_lines: true
 			id: "3CF3784A4CD11C55"
+			rewards: [{
+				id: "3F0BB77CD87D4C37"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted using Mechanical Crafters"
@@ -2690,7 +2965,31 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"&7Cardboard Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Cardboard Chestplate is crafted using &6Create Cardboard&r, a lightweight material produced through Create's crafting and processing systems."
+				""
+				"&lNotes:&r"
+				"Need help producing Cardboard and its related components?"
+				""
+				"{ \"text\": \"Create Cardboard\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4020155EAE2645DA\" } }"
+			]
 			id: "7A2319DDDB074D5D"
+			rewards: [
+				{
+					count: 2
+					id: "5B32AFDB953EAAE2"
+					item: "create:cardboard_block"
+					type: "item"
+				}
+				{
+					id: "403EAFB744365F51"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "316A06B79F611749"
 				item: {
@@ -2706,7 +3005,31 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Shadow Radiance Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Shadow Radiance Chestplate is crafted through an advanced &6Sequenced Assembly&r process using either a Shadow Steel Chestplate or Refined Radiance Chestplate, along with a Block of Shadow Radiance and other specialized components."
+				""
+				"&lNotes:&r"
+				"Need help producing Refined Radiance, Shadow Steel, or Shadow Radiance?"
+				""
+				"Consult the &6Dreams and Desires&r chapter and use &6JEI&r for detailed recipes and production chains."
+				"{ \"text\": \"Dreams and Desires\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4AE33E17677F1FB8\" } }"
+			]
 			id: "56A15D4080AF5256"
+			rewards: [
+				{
+					id: "1F5BB6E4F2BC5719"
+					item: "createqol:shadow_radiance_block"
+					type: "item"
+				}
+				{
+					id: "3769023A3272EC55"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "55794268D986586A"
 				item: {
@@ -2722,7 +3045,32 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Ethium Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Ethium Chestplate is crafted using &dEthium&r, a powerful late-game alloy produced through &6Superheated Mixing&r. Ethium is created using Dragon Charges, Echo Compound, Chorus Nectar, Polished Stellarite, Netherite Ingots, and Brass Ingots."
+				""
+				"&lNotes:&r"
+				"Ethium is one of the most advanced materials in the pack, requiring resources gathered from multiple dimensions and stages of progression."
+				""
+				"Need help producing Ethium or any of its ingredients?"
+				""
+				"Consult &6JEI&r for detailed recipes and production chains."
+			]
 			id: "576A5C0F49008508"
+			rewards: [
+				{
+					id: "060D39AD6BC3D96E"
+					item: "create_ethium:ethium_block"
+					type: "item"
+				}
+				{
+					id: "0A9929FB66EE17C9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "11C2793FAEC9B982"
 				item: {
@@ -2738,7 +3086,32 @@
 			y: 5.0d
 		}
 		{
+			description: [
+				"&7Gingerbread Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Gingerbread Chestplate can be obtained by trading sweets with the Gingerbread Men that inhabit the &dCandy Cavity&r. These friendly inhabitants value sugary treats and may reward persistent traders with unique equipment unavailable anywhere else."
+				""
+				"&lNotes:&r"
+				"The Gingerbread Chestplate is exclusive to the Candy Cavity and cannot be crafted through conventional means. Be sure to bring plenty of sweets before setting out, as multiple trades may be required before obtaining one."
+				""
+				"Need help reaching the Candy Cavity?"
+				""
+				"{ \"text\": \"Candy Cavity\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B1D694ADAF367E0\" } }"
+			]
 			id: "55127CD055348D5F"
+			rewards: [
+				{
+					id: "675AA7BE073CC8E3"
+					item: "alexscaves:music_disc_tasty"
+					type: "item"
+				}
+				{
+					id: "3A69E4FAD145E49F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "31B0C95DBE45B4E2"
 				item: {
@@ -2754,7 +3127,33 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Hazmat Suit&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Hazmat Suit is crafted using &aPolymer&r, a specialized material produced through &6Sequenced Assembly&r using Iron Sheets, Radon Bottles, Toxic Paste, and Sulfur Dust."
+				""
+				"&lNotes:&r"
+				"All key ingredients required for Polymer production are obtained through progression on the &2Toxic Caves&r planet, making it a necessary destination before crafting the Hazmat Suit."
+				""
+				"Need help reaching the Toxic Caves and obtaining its resources?"
+				""
+				"{ \"text\": \"Toxic Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A2C4E8DD4FA3A3A\" } }"
+			]
 			id: "2EA3C2272B4E19DB"
+			rewards: [
+				{
+					count: 5
+					id: "503A653D37CF2722"
+					item: "alexscaves:polymer_plate"
+					type: "item"
+				}
+				{
+					id: "7A2FA21A072D1C6B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6C244225A7E8434C"
 				item: {
@@ -2770,7 +3169,33 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Neptunium Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Neptunium Chestplate can be obtained through several methods. It may be obtained from fishing Neptune's Bounty, Conduit Channeling Hyper Experience Nuggets, or nuggets discovered as rare loot within the &bAcropolis&r structure."
+				""
+				"&lNotes:&r"
+				"Exploring the Acropolis is often one of the most reliable ways to obtain Neptunium equipment while progressing toward The End."
+				""
+				"Need help locating and conquering the Acropolis?"
+				""
+				"{ \"text\": \"Acropolis\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F05530DA01EEECA\" } }"
+			]
 			id: "5FDFA4F532C59ADC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A4B4DD612134A09"
+					table_id: 4815581765569702926L
+					type: "loot"
+				}
+				{
+					id: "55F962BD67A93278"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "4A22B9A416120DB0"
 				item: {
@@ -2786,7 +3211,39 @@
 			y: 6.0d
 		}
 		{
+			description: [
+				"&7Bone Reptile Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Bone Reptile Chestplate is crafted using materials dropped by the ancient reptilian creatures and other hostile inhabitants found within the &6Cursed Pyramid&r on &eVenus&r."
+				""
+				"&lNotes:&r"
+				"Obtaining this armor requires exploring the depths of the Cursed Pyramid and defeating the creatures that lurk within its halls."
+				""
+				"Need help locating and conquering the Cursed Pyramid?"
+				""
+				"{ \"text\": \"Cursed Pyramid\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18C76E4350AC3CBC\" } }"
+			]
 			id: "4606E6356B9CD006"
+			rewards: [
+				{
+					count: 2
+					id: "41F5FAFC176EA3ED"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "701358D6FBA17FCC"
+					item: "cataclysm:koboleton_bone"
+					type: "item"
+				}
+				{
+					id: "0D944E2D9D1C39B1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3ECF79EF2DF2C823"
 				item: {
@@ -2802,7 +3259,35 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Ignitium Elytra Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Ignitium Elytra Chestplate is created using a &6Mechanical Fusion Anvil&r to combine an Elytra with an &cIgnitium Chestplate&r."
+				""
+				"The Ignitium Chestplate itself is crafted using &cIgnitium&r, a rare material obtained exclusively from defeating &6Ignis&r within the Burning Arena on &6Mercury&r."
+				""
+				"&lNotes:&r"
+				"Before crafting the Ignitium Elytra Chestplate, you must first defeat Ignis and obtain enough Ignitium to create the base chestplate."
+				""
+				"Need help locating Ignis and conquering the Burning Arena?"
+				""
+				"{ \"text\": \"Burning Arena\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"29B52E50E3FDF75E\" } }"
+			]
 			id: "22DCB6A19F038DCA"
+			rewards: [
+				{
+					count: 2
+					id: "2FFEF344CC65A2B3"
+					item: "cataclysm:ignitium_ingot"
+					type: "item"
+				}
+				{
+					id: "632436B60D7DB483"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1021E0516B56D9FA"
 				item: "cataclysm:ignitium_elytra_chestplate"
@@ -2812,7 +3297,35 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Cursium Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Cursium Chestplate is crafted using &5Cursium&r, a powerful material obtained exclusively from defeating &dMaledictus&r."
+				""
+				"Maledictus lies imprisoned within the &bFrosted Prison&r on &bGlacio&r, awaiting those brave enough to challenge him."
+				""
+				"&lNotes:&r"
+				"Before crafting the Cursium Chestplate, you must venture into the Frosted Prison, defeat Maledictus, and collect the Cursium required for its construction."
+				""
+				"Need help locating the Frosted Prison and defeating Maledictus?"
+				""
+				"{ \"text\": \"Frosted Prison\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A49270C1C435ADA\" } }"
+			]
 			id: "480A7DEA63BAD564"
+			rewards: [
+				{
+					count: 2
+					id: "590A715A9207406D"
+					item: "cataclysm:cursium_ingot"
+					type: "item"
+				}
+				{
+					id: "1EC1627672BAE340"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "18D2BDB4F1D928EC"
 				item: "cataclysm:cursium_chestplate"
@@ -2822,7 +3335,32 @@
 			y: 7.0d
 		}
 		{
+			description: [
+				"&7Cognition Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Cognition Chestplate is crafted using a variety of cognition-related materials and advanced components obtained throughout your progression."
+				""
+				"&lNotes:&r"
+				"The Cognition Chestplate draws upon several unique crafting chains and specialized ingredients."
+				""
+				"Need help producing the required materials?"
+				""
+				"Consult &6JEI&r for detailed recipes and production chains."
+			]
 			id: "04743F9EE65D86A2"
+			rewards: [
+				{
+					id: "6EC6D79A10B0CC1A"
+					item: "experienceobelisk:cognitive_alloy_block"
+					type: "item"
+				}
+				{
+					id: "34112304F99090B8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "25DF5AF6B68DF85D"
 				item: {
@@ -2838,7 +3376,34 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Enderite Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Enderite Chestplate is crafted using &5Enderite&r, an advanced alloy produced through &6Superheated Mixing&r of Adamantite, Luxite, and Ender Eyes."
+				""
+				"Adamantite and Luxite are obtained by processing resources found at specialized Resource Vents scattered throughout &5The End&r."
+				""
+				"&lNotes:&r"
+				"Before crafting the Enderite Chestplate, you must explore The End and establish production for both Adamantite and Luxite."
+				""
+				"Need help progressing through The End and locating its resources?"
+				""
+				"{ \"text\": \"The End\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
+			]
 			id: "4D7BEEEF954D9286"
+			rewards: [
+				{
+					id: "00C9754CB5FF679A"
+					item: "endelurgy:enderite_block"
+					type: "item"
+				}
+				{
+					id: "3ABAF4CF9ADADC28"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "28A8F0A7769620BA"
 				item: {
@@ -2854,7 +3419,35 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Warped Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Warped Chestplate is crafted using &3Bolok Scales&r and &5Spunkler Spines&r, rare materials obtained from creatures found throughout the biomes and structures of &5The End&r."
+				""
+				"These materials can be acquired by defeating their respective mobs or discovered as loot within structures generated by Unusual End."
+				""
+				"&lNotes:&r"
+				"Exploring the many biomes and structures scattered throughout The End is essential for obtaining the components required to craft the Warped Chestplate."
+				""
+				"Need help progressing through The End?"
+				""
+				"{ \"text\": \"The End\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7964AB0D39902EFA\" } }"
+			]
 			id: "18DDC2B04D02A95A"
+			rewards: [
+				{
+					count: 4
+					id: "4E8F817AE4872618"
+					item: "unusualend:warped_stew"
+					type: "item"
+				}
+				{
+					id: "0DB52A8289660ACF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "61C99B26046E799A"
 				item: {
@@ -2870,7 +3463,34 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"&7Calorite Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Calorite Chestplate is crafted using &4Calorite&r, a powerful planetary metal found on &eVenus&r."
+				""
+				"Calorite can be obtained by mining Calorite Ore directly on Venus or by processing &cPyroclast&r gathered from Resource Vents found across the planet."
+				""
+				"&lNotes:&r"
+				"Establishing a reliable source of Calorite is highly recommended, as it is used in numerous advanced recipes beyond the Calorite Chestplate."
+				""
+				"Need help reaching Venus and obtaining its resources?"
+				""
+				"{ \"text\": \"Journey to Venus\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"25721A33E1238EBD\" } }"
+			]
 			id: "4EA7364AB7AD8A30"
+			rewards: [
+				{
+					id: "5553285132E216ED"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					id: "3BD9955333FDA13F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "29FC78D3A4B23644"
 				item: {
@@ -2886,7 +3506,32 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Brass Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Brass Chestplate is crafted using &6Brass&r, one of the core materials introduced by &6Create&r."
+				""
+				"Brass is produced by mixing Copper and Zinc through the Create progression chain and serves as a key material for many advanced machines and components."
+				""
+				"&lNotes:&r"
+				"Need help producing Brass and progressing through Create's automation systems?"
+				""
+				"{ \"text\": \"Brass Production\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"17BABE8F2B2BD008\" } }"
+			]
 			id: "02E63913443AB025"
+			rewards: [
+				{
+					id: "2D14F917856F264F"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					id: "45D11C5DB201F906"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "44E1927EEC2A3B9E"
 				item: {
@@ -2902,7 +3547,41 @@
 			y: 9.0d
 		}
 		{
+			description: [
+				"&7Resonarium Chestplate&r is a required component used in the construction of the &6Adaptive Reinforcement Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Resonarium Chestplate is crafted using &bResonarium&r and &aScutes&r."
+				""
+				"Resonarium is obtained by defeating &2Sludges&r found within the &5Otherside&r dimension. Scutes are acquired through traditional Minecraft methods by raising baby turtles until they mature into adults, at which point they will shed Scutes."
+				""
+				"&lNotes:&r"
+				"Before crafting the Resonarium Chestplate, you will need to establish a source of both Resonarium and Turtle Scutes."
+				""
+				"Need help reaching the Otherside and obtaining Resonarium?"
+				""
+				"{ \"text\": \"The Otherside\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+			]
 			id: "4888082138190D35"
+			rewards: [
+				{
+					count: 7
+					id: "2C2F4B8619B4C5CC"
+					item: "deeperdarker:resonarium"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "4849A65D393A834B"
+					item: "minecraft:scute"
+					type: "item"
+				}
+				{
+					id: "27977F2460DBA4F4"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5281EFC1636B9FB3"
 				item: {
