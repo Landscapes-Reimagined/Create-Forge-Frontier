@@ -5040,8 +5040,36 @@
 			y: 1.5d
 		}
 		{
+			description: [
+				"&7As your factory grows, so too does the need for efficient storage. While Create's standard Item Vaults provide an excellent foundation, &6Create Better Storage&r expands upon the system with a wide range of upgraded vault tiers capable of holding significantly more resources."
+				""
+				"Whether you're processing thousands of ores, storing bulk building materials, or preparing for large-scale automation, these upgraded vaults provide the capacity needed to keep your factory running smoothly."
+				""
+				"{@pagebreak}"
+				""
+				"&lStorage for Every Stage&r"
+				""
+				"Create Better Storage introduces multiple vault tiers, each offering increased storage capacity over the last. From simple Wooden Vaults to massive Netherite Vaults, there is a storage solution for every stage of progression."
+				""
+				"As your production lines expand and resource demands increase, upgrading your storage infrastructure becomes just as important as upgrading your machines."
+				""
+				"A well-organized factory is an efficient factory."
+			]
 			icon: "create:item_vault"
 			id: "39BA959AD112A051"
+			rewards: [
+				{
+					count: 7
+					id: "258A733BB49BE1FE"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "73665105399AAEE9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -5050,13 +5078,40 @@
 				item: { Count: 2, id: "create:item_vault" }
 				type: "item"
 			}]
-			title: "Create Bigger Storage - Vaults"
+			title: "Create Better Storage - Vaults"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Wooden Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &6Wooden Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &6Wooden Item Vault&r holds &e10 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:wooden_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "6DBD56585B55820A"
+			rewards: [
+				{
+					count: 3
+					id: "6FEAE7ED7B623586"
+					item: "create_bs:wooden_item_vault"
+					type: "item"
+				}
+				{
+					id: "0AADFC3ED07CE292"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "05B33551CF144EC8"
 				item: "create_bs:wooden_item_vault"
@@ -5067,7 +5122,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Copper Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &6Copper Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &6Copper Item Vault&r holds &e30 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:copper_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "7A80E921647E62FA"
+			rewards: [
+				{
+					count: 3
+					id: "28A88AF42F82904A"
+					item: "create_bs:copper_item_vault"
+					type: "item"
+				}
+				{
+					id: "47EFFF66CDD56DBF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "24ED1A71F7380DBD"
 				item: "create_bs:copper_item_vault"
@@ -5078,7 +5160,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Iron Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &7Iron Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &7Iron Item Vault&r holds &e40 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:iron_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "20115A4D75DDD863"
+			rewards: [
+				{
+					count: 3
+					id: "30B243176AA722FA"
+					item: "create_bs:iron_item_vault"
+					type: "item"
+				}
+				{
+					id: "2CF0263677D5CA36"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2295A05687F5F9BB"
 				item: "create_bs:iron_item_vault"
@@ -5089,7 +5198,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Emerald Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &aEmerald Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &aEmerald Item Vault&r holds &e50 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:emerald_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "05CF085C8877B9F5"
+			rewards: [
+				{
+					count: 3
+					id: "2B1C8BCDB3FCB672"
+					item: "create_bs:emerald_item_vault"
+					type: "item"
+				}
+				{
+					id: "4CFCFAC36ED433E7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "12237F13FCE72F83"
 				item: "create_bs:emerald_item_vault"
@@ -5100,7 +5236,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Gold Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &eGold Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &eGold Item Vault&r holds &e60 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:gold_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "772054FC31D32CD2"
+			rewards: [
+				{
+					count: 3
+					id: "2F0B8199723AD1DC"
+					item: "create_bs:gold_item_vault"
+					type: "item"
+				}
+				{
+					id: "0DF797A22B80B2F6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3F5E87F1CF8358E3"
 				item: "create_bs:gold_item_vault"
@@ -5111,7 +5274,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Crystal Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &bCrystal Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &bCrystal Item Vault&r holds &e70 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:crystal_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "4B52BF44E6B3BC4B"
+			rewards: [
+				{
+					count: 3
+					id: "061AF3B360246D08"
+					item: "create_bs:crystal_item_vault"
+					type: "item"
+				}
+				{
+					id: "4F737C984B4CBF8D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7900578E501D905C"
 				item: "create_bs:crystal_item_vault"
@@ -5122,7 +5312,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Diamond Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &bDiamond Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &bDiamond Item Vault&r holds &e80 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:diamond_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "20D10E362467DE40"
+			rewards: [
+				{
+					count: 3
+					id: "75F30EDCC9D67BFA"
+					item: "create_bs:diamond_item_vault"
+					type: "item"
+				}
+				{
+					id: "4FCBEF611F7525A1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "4A9A4C0FA45EC9B5"
 				item: "create_bs:diamond_item_vault"
@@ -5133,7 +5350,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Obsidian Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &5Obsidian Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &5Obsidian Item Vault&r holds &e90 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:obsidian_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "71EBC882708D26F6"
+			rewards: [
+				{
+					count: 3
+					id: "4AACF9090DB8D5C5"
+					item: "create_bs:obsidian_item_vault"
+					type: "item"
+				}
+				{
+					id: "2FF1A17F567B6905"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "77CBF3CAEA10DA51"
 				item: "create_bs:obsidian_item_vault"
@@ -5144,7 +5388,34 @@
 		}
 		{
 			dependencies: ["39BA959AD112A051"]
+			description: [
+				"&7Netherite Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
+				""
+				"&lHow to Obtain:&r"
+				"Craft the &8Netherite Item Vault&r using its required materials. Check &6JEI&r for the exact recipe and any progression requirements."
+				""
+				"&lStorage Capacity:&r"
+				"Each &8Netherite Item Vault&r holds &e100 stacks&r of items."
+				""
+				"&lNotes:&r"
+				"Item ID: &7create_bs:netherite_item_vault&r"
+				""
+				"Use upgraded vault tiers as your storage needs grow and your factory begins producing resources at a larger scale."
+			]
 			id: "70CEC6891FFEFB0C"
+			rewards: [
+				{
+					count: 3
+					id: "7EF17950C5BFCB52"
+					item: "create_bs:netherite_item_vault"
+					type: "item"
+				}
+				{
+					id: "7FABA407DCA7A008"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6F1AAA03D426B88D"
 				item: "create_bs:netherite_item_vault"
