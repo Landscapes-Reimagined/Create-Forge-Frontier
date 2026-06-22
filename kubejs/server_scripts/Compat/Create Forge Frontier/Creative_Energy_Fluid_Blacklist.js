@@ -25,7 +25,9 @@ const BANNED_ITEMS = [
 ];
 
 const BLOCKED_CONTAINERS = [
-  "create:creative_crate"
+  "create:creative_crate",
+  "create:creative_fluid_tank",
+  "create_connected:creative_fluid_vessel"
 ];
 
 function isBannedItem(id) {
@@ -33,9 +35,7 @@ function isBannedItem(id) {
 }
 
 function isBlockedContainer(blockId) {
-  return (
-    BLOCKED_CONTAINERS.includes(blockId) 
-  );
+  return BLOCKED_CONTAINERS.includes(blockId);
 }
 
 function cleanContainer(player) {
@@ -72,7 +72,9 @@ BlockEvents.rightClicked(event => {
 
   event.cancel();
 
-  player.tell(Text.red("Creative/endgame items are disabled for this container."));
+  player.tell(
+    Text.red("Creative/endgame items are disabled for this container.")
+  );
 });
 
 PlayerEvents.tick(event => {
@@ -90,12 +92,13 @@ PlayerEvents.tick(event => {
   if (itemToReturn !== null) {
     player.persistentData.ff_blockingCreativeItems = true;
 
-    // Return only ONE item total
     player.give(Item.of(itemToReturn, 1));
 
-    player.tell(Text.red("Creative/endgame items are not allowed in this container."));
+    player.tell(
+      Text.red("Creative/endgame items are not allowed in this container.")
+    );
 
-    event.server.scheduleInTicks(20, callback => {
+    event.server.scheduleInTicks(20, () => {
       player.persistentData.ff_blockingCreativeItems = false;
     });
   }
