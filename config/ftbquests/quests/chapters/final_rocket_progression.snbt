@@ -4279,6 +4279,11 @@
 			]
 			hide_dependency_lines: true
 			id: "705726E4927E5916"
+			rewards: [{
+				id: "3A213EBEC9C46F46"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted Using a Sequenced Assebly Recipe"
@@ -4292,7 +4297,33 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"&7Chocolate Pie&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Chocolate Pie is crafted using Chocolate and traditional pie ingredients."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "7CE15772992C4A78"
+			rewards: [
+				{
+					id: "6A6EE1C90D1B76E2"
+					item: "create:chocolate_bucket"
+					type: "item"
+				}
+				{
+					id: "380E35DD100318FC"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "74854168188926E8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "Starting Ingredient"
@@ -4305,7 +4336,28 @@
 			y: 13.25d
 		}
 		{
+			description: [
+				"&7Baklava&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Baklava is crafted using Honey, Acorns, Lime, Dough, and Hot Spices."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "4B188462399B0596"
+			rewards: [
+				{
+					id: "5D05D825EF662314"
+					item: "delightful:acorn_sack"
+					type: "item"
+				}
+				{
+					id: "77197DA9CCA161C9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 8L
@@ -4317,7 +4369,29 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Squid Rings&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Squid Rings are crafted using Dough and Cut Tentacles obtained from Squids."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "15946D62B29FC261"
+			rewards: [
+				{
+					count: 3
+					id: "548FE629E9D16007"
+					item: "oceansdelight:tentacle_on_a_stick"
+					type: "item"
+				}
+				{
+					id: "228401883471BF7F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 8L
@@ -4329,7 +4403,29 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Stuffed Hoglin&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Stuffed Hoglin is crafted using Raw Stuffed Hoglin and Nether Salad."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "5D234923BEF35B48"
+			rewards: [
+				{
+					count: 3
+					id: "70E6D3F9BBB034AA"
+					item: "nethersdelight:grilled_strider"
+					type: "item"
+				}
+				{
+					id: "5E356334155AA023"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 8L
@@ -4341,6 +4437,15 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Heartburger&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Heartburgers are crafted using Warden Heart Patties and a variety of burger ingredients."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "404D6ACBC4623F9A"
 			subtitle: "Deployed Ingredients"
 			tasks: [{
@@ -4353,7 +4458,31 @@
 			y: 15.5d
 		}
 		{
+			description: [
+				"&7Grilled Shulker&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Grilled Shulker is crafted using Shulker Shells, Shulker Meat, and other fresh ingredients found throughout The End."
+				""
+				"Shulker Meat can be obtained by defeating Shulkers using a Knife."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "3FCC97B303E217B2"
+			rewards: [
+				{
+					count: 3
+					id: "417B7F9F1E7ED2D7"
+					item: "ends_delight:shulker_soup"
+					type: "item"
+				}
+				{
+					id: "2D9141D260CA0790"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 8L
@@ -4365,7 +4494,31 @@
 			y: 15.5d
 		}
 		{
+			description: [
+				"&7Pure Darkness Pie&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Pure Darkness Pie is crafted using Pure Darkness and traditional pie ingredients."
+				""
+				"Pure Darkness is obtained from the boss found within the &8Forlorn Hollows&r of Alex's Caves."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "018B0B50CCACBCE4"
+			rewards: [
+				{
+					count: 3
+					id: "76EB5E379375E4D2"
+					item: "alexscavesdelight:pure_darkness_shake"
+					type: "item"
+				}
+				{
+					id: "089CC6627BD8A2D5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 8L
@@ -4377,7 +4530,34 @@
 			y: 16.5d
 		}
 		{
+			description: [
+				"&7Extra Sugar Rush&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Extra Sugar Rush is crafted using a wide assortment of sweets and candies gathered from the &dCandy Cavity&r."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "7BEB234DEF4D5221"
+			rewards: [
+				{
+					id: "6EFB84D67086E79C"
+					item: {
+						Count: 1
+						id: "alexscaves:sugar_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79521F3147297314"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 8L
@@ -4389,7 +4569,35 @@
 			y: 16.5d
 		}
 		{
+			description: [
+				"&7Purple Soda&r is a required component used in the construction of the &6Culinary Life Support Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Purple Soda is crafted using Honey Sprinkles and Sweet Berries."
+				""
+				"&lNotes:&r"
+				"Consult &6JEI&r for detailed recipes and ingredient requirements."
+			]
 			id: "59C93D957F591CD4"
+			rewards: [
+				{
+					count: 3
+					id: "629177AC833B1F05"
+					item: "ends_delight:dragon_breath_soda"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13690E9F3CB01133"
+					item: "alexscaves:purple_soda_bottle_rocket"
+					type: "item"
+				}
+				{
+					id: "40B499A323C35DFC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Spouted Last"
