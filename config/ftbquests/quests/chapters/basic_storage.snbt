@@ -3547,7 +3547,7 @@
 				item: "sophisticatedstorage:decoration_table"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -1.5d
 			y: 13.5d
 		}
 		{
@@ -3584,7 +3584,7 @@
 				item: "sophisticatedstorage:paintbrush"
 				type: "item"
 			}]
-			x: -3.75d
+			x: -3.0d
 			y: 13.5d
 		}
 		{
