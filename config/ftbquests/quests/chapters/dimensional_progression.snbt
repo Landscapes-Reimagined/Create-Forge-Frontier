@@ -758,6 +758,51 @@
 		}
 		{
 			dependencies: ["7F95771279F2C700"]
+			description: [
+				"&7You have reached the absolute pinnacle of progression. Beyond the Forge Rocket, beyond the stars, and beyond every challenge the pack has placed before you lies one final objective: &6Creative Technology&r."
+				""
+				"These items are not required to complete the pack. Instead, they exist as an optional challenge for players who wish to push their factories to the absolute limit and achieve full completion."
+				""
+				"{@pagebreak}"
+				""
+				"&lCreative Energy Fluid&r"
+				""
+				"Every Creative item in the pack begins with a single resource: &dCreative Energy Fluid&r."
+				""
+				"This fluid is created by combining a &6Forge Rocket&r with two specialized late-game fluids. The process consumes one of the most valuable items in the entire pack, making each bucket of Creative Energy Fluid a significant investment."
+				""
+				"Obtaining enough of this fluid will require a fully automated factory capable of producing resources on a truly massive scale."
+				""
+				"{@pagebreak}"
+				""
+				"&lCreative Components&r"
+				""
+				"To prove mastery over every major progression path, you must craft the following Creative-tier devices:"
+				""
+				"* &6Creative Motor&r"
+				"* &6Creative Fluid Tank&r"
+				"* &6Creative Crate&r"
+				"* &6Creative Energy Cell&r"
+				"* &6Creative Filling Tank&r"
+				"* &6Creative Oxygen Can&r"
+				""
+				"Each represents mastery of a different system, technology, or resource chain encountered throughout your adventure."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe Ultimate Reward&r"
+				""
+				"Upon obtaining every Creative component, you will unlock the final reward of &6Create - Forge Frontier&r:"
+				""
+				"&eThe Creative Worldshaper&r."
+				""
+				"This legendary tool stands as a symbol of complete mastery over automation, exploration, engineering, and progression. It is not simply an item—it is proof that you have conquered every challenge the pack has to offer."
+				""
+				"Congratulations."
+				""
+				"You have truly forged your frontier."
+			]
+			icon: "create:creative_blaze_cake"
 			id: "359CD118C8EEA846"
 			rewards: [{
 				id: "70FFAC9F80D1970D"
@@ -766,11 +811,47 @@
 			}]
 			shape: "none"
 			size: 1.5d
-			tasks: [{
-				id: "1BD8FF0ADBE190EC"
-				item: "create:creative_blaze_cake"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1BD8FF0ADBE190EC"
+					item: "create:creative_blaze_cake"
+					type: "item"
+				}
+				{
+					id: "7B50A57BDB29557B"
+					item: "create:creative_motor"
+					type: "item"
+				}
+				{
+					id: "30B0CF8BA741D910"
+					item: "create:creative_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3155BDCF4BDB0CCE"
+					item: "create:creative_crate"
+					type: "item"
+				}
+				{
+					id: "7F3F5248ECB4553B"
+					item: "createaddition:creative_energy"
+					type: "item"
+				}
+				{
+					id: "3D3D21B708FC0B56"
+					item: "create_sa:creative_filling_tank"
+					type: "item"
+				}
+				{
+					id: "2A7F5A80C085ED5C"
+					item: {
+						Count: 1
+						id: "ad_astra_giselle_addon:creative_oxygen_can"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "Creative Items"
 			x: 9.0d
 			y: 0.0d
