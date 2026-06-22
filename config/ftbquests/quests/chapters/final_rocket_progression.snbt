@@ -3635,6 +3635,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5957439310EE1ED8"
+			rewards: [{
+				id: "23DA15A8CA9713D4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted Using a Sequenced Assebly Recipe"
@@ -3648,7 +3653,35 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"&7Library of Alexandria&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Library of Alexandria is an advanced Apotheosis enchanting utility designed to store large numbers of enchanted books in a single location."
+				""
+				"&lNotes:&r"
+				"The Library of Alexandria is one of the most powerful enchanting tools available to dedicated enchanters."
+				""
+				"After crafting your first Library of Alexandria, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Library of Alexandria\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"526375684367F60A\" } }"
+			]
 			id: "3AE6E102DD3D6CEB"
+			rewards: [
+				{
+					count: 8
+					id: "5294322454999365"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "63788DA8421DC6A5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3660,7 +3693,35 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Pearlescent Endshelf&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Pearlescent Endshelf is an advanced Apotheosis shelf focused on improving high-tier enchanting setups."
+				""
+				"&lNotes:&r"
+				"This shelf provides powerful enchanting bonuses when incorporated into a properly designed enchanting room."
+				""
+				"After crafting your first Pearlescent Endshelf, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Pearlescent Endshelf\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2BB609061B5F6578\" } }"
+			]
 			id: "3DF2DEE92DCB91B9"
+			rewards: [
+				{
+					count: 6
+					id: "641CF33AAF453CE1"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "121735DBECE3DDE7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3672,7 +3733,35 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Draconic Endshelf&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Draconic Endshelf is a powerful late-game Apotheosis shelf designed for advanced enchanting configurations."
+				""
+				"&lNotes:&r"
+				"This shelf is commonly used in high-end enchanting rooms seeking maximum performance."
+				""
+				"After crafting your first Draconic Endshelf, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Draconic Endshelf\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1ECDC56233E230D9\" } }"
+			]
 			id: "5AD8F9482A259738"
+			rewards: [
+				{
+					count: 6
+					id: "5E10B76D2D264218"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "4C846A572AC9AF71"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3684,7 +3773,35 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Hellshelf of Masterful Sight&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Hellshelf of Masterful Sight is an advanced Apotheosis shelf that enhances specialized enchanting statistics."
+				""
+				"&lNotes:&r"
+				"It is particularly valuable for players seeking greater control over advanced enchantment outcomes."
+				""
+				"After crafting your first Hellshelf of Masterful Sight, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Hellshelf of Masterful Sight\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"31988C061862DB85\" } }"
+			]
 			id: "5511042C0CF988F4"
+			rewards: [
+				{
+					count: 4
+					id: "6A9D567072DE75DD"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "0BB98D02C1562082"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3696,7 +3813,35 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Shelf of End-Fused Rectification&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Shelf of End-Fused Rectification is an advanced Apotheosis shelf used to refine and balance enchanting setups."
+				""
+				"&lNotes:&r"
+				"This shelf is often incorporated into optimized enchanting rooms to improve overall enchantment quality."
+				""
+				"After crafting your first Shelf of End-Fused Rectification, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Shelf of End-Fused Rectification\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"34A4B27F08B6CD92\" } }"
+			]
 			id: "6DA2603687FABBD8"
+			rewards: [
+				{
+					count: 2
+					id: "6679F09FFB90E585"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "1584CEC1E519F6C9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3708,7 +3853,35 @@
 			y: 15.5d
 		}
 		{
+			description: [
+				"&7Seashelf of Aquatic Filtration&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Seashelf of Aquatic Filtration is an Apotheosis enchanting shelf that provides specialized enchanting bonuses."
+				""
+				"&lNotes:&r"
+				"It can play an important role in advanced enchanting room configurations."
+				""
+				"After crafting your first Seashelf of Aquatic Filtration, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Seashelf of Aquatic Filtration\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"722D72A914A3A75B\" } }"
+			]
 			id: "1EF63B59A6D4C528"
+			rewards: [
+				{
+					count: 4
+					id: "78B6F88047429CB6"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "15BADCBB56241870"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3720,7 +3893,35 @@
 			y: 15.5d
 		}
 		{
+			description: [
+				"&7Deepshelf of Arcane Treasures&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Deepshelf of Arcane Treasures is an advanced Apotheosis shelf designed to support powerful late-game enchanting setups."
+				""
+				"&lNotes:&r"
+				"This shelf is especially useful when pursuing rare and valuable enchantments."
+				""
+				"After crafting your first Deepshelf of Arcane Treasures, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Deepshelf of Arcane Treasures\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37EF4656BB766E72\" } }"
+			]
 			id: "4D9107541810BA76"
+			rewards: [
+				{
+					count: 4
+					id: "2572605022B6610B"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "7A0052B56C81AA5C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3732,7 +3933,35 @@
 			y: 15.5d
 		}
 		{
+			description: [
+				"&7Tome of Extraction&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Tome of Extraction is an Apotheosis utility item used to transfer enchantments from equipment onto enchanted books."
+				""
+				"&lNotes:&r"
+				"This tool is invaluable for preserving powerful enchantments and building advanced enchanting libraries."
+				""
+				"After crafting your first Tome of Extraction, additional copies can be created using custom duplication recipes."
+				""
+				"Need help learning Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Tome of Extraction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0781CC49C7E615F8\" } }"
+			]
 			id: "7D188D153541825F"
+			rewards: [
+				{
+					count: 4
+					id: "75483F4EF32E90EA"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "2BF43DE9EA247110"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3744,7 +3973,33 @@
 			y: 16.5d
 		}
 		{
+			description: [
+				"&7Disenchanter&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Disenchanter is a useful machine from &6Create Enchantment Industry&r that can be crafted early using a Copper Casing, Sandpaper, and a few additional Create components."
+				""
+				"&lNotes:&r"
+				"The Disenchanter can be used to extract &dLiquid Experience&r from a wide variety of items. This makes it an essential tool for powering advanced enchanting setups and experience-based automation."
+				""
+				"Need help finding additional uses for the Disenchanter?"
+				""
+				"Consult &6JEI&r for recipes, supported inputs, and automation opportunities."
+			]
 			id: "5A23296E87B8AC0E"
+			rewards: [
+				{
+					count: 4
+					id: "080D5DEC1311D05A"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "4259390C849AA40B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3756,7 +4011,33 @@
 			y: 16.5d
 		}
 		{
+			description: [
+				"&7Molecular Metamorpher&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Molecular Metamorpher is an advanced machine from &5Cognition&r used for manipulating and transforming cognition-related materials into more powerful forms."
+				""
+				"&lNotes:&r"
+				"This machine serves as a cornerstone of late-game Cognition progression and is often required for producing advanced cognition resources and components."
+				""
+				"Need help learning Cognition?"
+				""
+				"{ \"text\": \"Molecular Metamorpher\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_MOLECULAR_METAMORPHER_QUEST_ID\" } }"
+			]
 			id: "67F447A10D7C13D1"
+			rewards: [
+				{
+					count: 16
+					id: "429920F7D4B5F9F6"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "7DB6428DE915C53C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3772,7 +4053,33 @@
 			y: 16.5d
 		}
 		{
+			description: [
+				"&7Bipliophage&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Bipliophage is a specialized Cognition machine involved in processing and manipulating cognitive energies and advanced thought-based materials."
+				""
+				"&lNotes:&r"
+				"As progression advances, the Bipliophage becomes an important tool for producing higher-tier Cognition resources and supporting complex cognition production chains."
+				""
+				"Need help learning Cognition?"
+				""
+				"{ \"text\": \"Bipliophage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BIPLIOPHAGE_QUEST_ID\" } }"
+			]
 			id: "5A1DCBC82EFFAC6C"
+			rewards: [
+				{
+					count: 16
+					id: "0A1637C5E91957DE"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "78D0E69D9070A24B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3784,7 +4091,33 @@
 			y: 17.5d
 		}
 		{
+			description: [
+				"&7Bottle o' Nightmare&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Bottle o' Nightmare is a Cognition item that captures concentrated negative cognitive energy and dream essence for use in increasing insomnia levels almost guaranteeing phantom spawning."
+				""
+				"&lNotes:&r"
+				"This item plays an important role in several higher-tier Cognition production chains and magical crafting processes."
+				""
+				"Need help learning Cognition?"
+				""
+				"{ \"text\": \"Bottle o' Nightmare\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BOTTLE_O_NIGHTMARE_QUEST_ID\" } }"
+			]
 			id: "23484A12184A0C33"
+			rewards: [
+				{
+					count: 16
+					id: "790BABF6743355A5"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "665B43E78B96C938"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3796,7 +4129,33 @@
 			y: 17.5d
 		}
 		{
+			description: [
+				"&7Bottle o' Daydream&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Bottle o' Daydream is a Cognition item containing concentrated positive cognitive energy and dream essence used in resetting insomnia levels preventing phantoms from spawning."
+				""
+				"&lNotes:&r"
+				"Together with Bottle o' Nightmare, it forms a key part of many advanced Cognition crafting chains and progression systems."
+				""
+				"Need help learning Cognition?"
+				""
+				"{ \"text\": \"Bottle o' Daydream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BOTTLE_O_DAYDREAM_QUEST_ID\" } }"
+			]
 			id: "50DA53DF1A11BB4C"
+			rewards: [
+				{
+					count: 16
+					id: "279D72FA3209145D"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "6C0C1B75493A246F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Deployed Ingredients"
 			tasks: [{
 				count: 4L
@@ -3808,7 +4167,33 @@
 			y: 17.5d
 		}
 		{
+			description: [
+				"&7Enchanting Table&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Enchanting Table is crafted using the traditional Minecraft recipe of Diamonds, Obsidian, and a Book."
+				""
+				"&lNotes:&r"
+				"With the addition of &5Apotheosis&r, the Enchanting Table gains powerful new functionality beyond vanilla Minecraft. Advanced enchanting setups can significantly improve enchantment quality, unlock stronger enchantments, and provide greater control over the enchanting process."
+				""
+				"Need help mastering Apotheosis enchanting?"
+				""
+				"{ \"text\": \"Apotheosis Enchanting\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2172A6251E7C57A8\" } }"
+			]
 			id: "02651E0F895D5968"
+			rewards: [
+				{
+					count: 16
+					id: "6953BD7ED226C81B"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "0D7FAA3CE3671D8E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "Starting Ingredient"
@@ -3821,7 +4206,33 @@
 			y: 13.25d
 		}
 		{
+			description: [
+				"&7Hyper Experience&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				""
+				"&lHow to Obtain:&r"
+				"Hyper Experience is created through &6Superheated Mixing&r using Lapis, Glow Squid Ink, and Liquid Experience. Once mixed, the resulting fluid must be collected and bottled using a &6Spout&r."
+				""
+				"&lNotes:&r"
+				"Hyper Experience is used in a variety of advanced crafting recipes and progression systems throughout the pack."
+				""
+				"Need help finding additional uses for Hyper Experience?"
+				""
+				"Consult &6JEI&r for detailed recipes, production chains, and crafting applications."
+			]
 			id: "31CED8BD080978C2"
+			rewards: [
+				{
+					count: 16
+					id: "670D8E2A15B8F82C"
+					item: "create_enchantment_industry:hyper_experience_block"
+					type: "item"
+				}
+				{
+					id: "56D96A4DD3FFBD98"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Spouted Last"
