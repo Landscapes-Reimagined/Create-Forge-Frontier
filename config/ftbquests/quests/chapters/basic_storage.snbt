@@ -5120,7 +5120,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["6DBD56585B55820A"]
 			description: [
 				"&7Copper Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5157,7 +5157,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["7A80E921647E62FA"]
 			description: [
 				"&7Iron Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5194,7 +5194,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["20115A4D75DDD863"]
 			description: [
 				"&7Emerald Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5231,7 +5231,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["05CF085C8877B9F5"]
 			description: [
 				"&7Gold Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5268,7 +5268,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["772054FC31D32CD2"]
 			description: [
 				"&7Crystal Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5305,7 +5305,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["4B52BF44E6B3BC4B"]
 			description: [
 				"&7Diamond Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5342,7 +5342,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["20D10E362467DE40"]
 			description: [
 				"&7Obsidian Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
@@ -5379,7 +5379,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["39BA959AD112A051"]
+			dependencies: ["71EBC882708D26F6"]
 			description: [
 				"&7Netherite Item Vault&r is a storage block from &6Create Better Storage&r used to hold large amounts of items in a compact space."
 				""
