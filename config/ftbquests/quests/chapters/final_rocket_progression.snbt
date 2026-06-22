@@ -4640,6 +4640,11 @@
 			]
 			hide_dependency_lines: true
 			id: "2B31AE8B09964125"
+			rewards: [{
+				id: "6173996BE074B58A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted Using Super-Heated Mixing"
@@ -4653,17 +4658,77 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"&7Sophisticated Storage Stack Omega Tier Upgrade&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Stack Omega Tier Upgrade is the highest storage upgrade available from &6Sophisticated Storage&r."
+				""
+				"It is crafted by progressing through the Copper, Brass, Bronze, and Mithril upgrade tiers, with the final recipe requiring nine Mithril Tier Upgrades."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"This upgrade represents the pinnacle of storage expansion technology."
+				""
+				"Need help progressing through Sophisticated Storage?"
+				""
+				"Consult the appropriate storage quests and &6JEI&r for detailed recipes and upgrade paths."
+				""
+				"{ \"text\": \"Sophisticated Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A24E51D79139CC0\" } }"
+			]
 			id: "32D767F2A499FC02"
+			rewards: [
+				{
+					id: "46262339A2CE941F"
+					item: "sophisticatedstorage:stack_upgrade_omega_tier"
+					type: "item"
+				}
+				{
+					id: "3A88B2B011C9C4BC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1D7783C46265BF13"
-				item: "sophisticatedbackpacks:stack_upgrade_omega_tier"
+				item: "sophisticatedstorage:stack_upgrade_omega_tier"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 13.5d
 		}
 		{
+			description: [
+				"&7Netherite Item Vault&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Netherite Item Vault is the highest storage tier available from &6Create Better Storage&r."
+				""
+				"It is crafted by progressing through every previous Item Vault tier, ultimately upgrading into the Netherite variant."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"This vault provides the greatest storage capacity available within Create Better Storage."
+				""
+				"Need help progressing through Item Vault upgrades?"
+				""
+				"Consult the Create Better Storage quests and &6JEI&r for detailed recipes."
+				""
+				"{ \"text\": \"Create Better Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70CEC6891FFEFB0C\" } }"
+			]
 			id: "403264A315A09171"
+			rewards: [
+				{
+					id: "61B24CF30801DD06"
+					item: "create_bs:netherite_item_vault"
+					type: "item"
+				}
+				{
+					id: "6E0A71BDD878914D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1F5E512962116DB6"
 				item: "create_bs:netherite_item_vault"
@@ -4673,7 +4738,35 @@
 			y: 13.5d
 		}
 		{
+			description: [
+				"&7Sculk Transmitter&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Sculk Transmitter is a rare device from &5Deeper and Darker&r used for linking storage and transmitting information across long distances."
+				""
+				"It can only be found within the loot chests of the &5Ancient Temple&r located in the Otherside dimension."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Because it cannot be crafted normally, exploration of the Otherside is required to obtain this component."
+				""
+				"Need help reaching the Otherside?"
+				""
+				"{ \"text\": \"The Otherside\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"638EF7DB16108237\" } }"
+			]
 			id: "4E0278A0DACA281F"
+			rewards: [
+				{
+					id: "6AE74CA8EE06AE40"
+					item: "deeperdarker:sculk_transmitter"
+					type: "item"
+				}
+				{
+					id: "1BC8B7C843919D61"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "266E9A0C593CD839"
 				item: "deeperdarker:sculk_transmitter"
@@ -4683,7 +4776,35 @@
 			y: 13.5d
 		}
 		{
+			description: [
+				"&7Rocket Fuel Tank&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				""
+				"&lHow to Obtain:&r"
+				"Rocket Fuel Tanks are created by spouting &6Fuel&r onto a &7Create Utilities Void Tank&r and then pressing the resulting component twice."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Fuel Tanks are used throughout the rocket progression system and form a key component of larger spacecraft designs."
+				""
+				"Need help producing Fuel or progressing through rocket construction?"
+				""
+				"Consult the rocket progression quests and &6JEI&r for detailed recipes."
+				""
+				"{ \"text\": \"Rocket Progression\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79B13E9FA5446394\" } }"
+			]
 			id: "45889FCCEC2B9A40"
+			rewards: [
+				{
+					id: "247A47407D981076"
+					item: "forge_frontier:rocket_fuel_tank"
+					type: "item"
+				}
+				{
+					id: "6D83C5F09D5B3745"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6885EF9CC36E2B96"
 				item: "forge_frontier:rocket_fuel_tank"
@@ -4693,7 +4814,37 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7 1024k Storage Part&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				""
+				"&lHow to Obtain:&r"
+				"The 1024k Storage Part is a high-capacity storage component from &6Refined Storage&r."
+				""
+				"Its production requires automated processing of Moon Stone, including crushing and washing operations, alongside numerous Create and vanilla ingredients."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Large-scale automation is highly recommended before attempting to produce storage components of this tier."
+				""
+				"Need help progressing through Refined Storage?"
+				""
+				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
+				""
+				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_REFINED_STORAGE_QUEST_ID\" } }"
+			]
 			id: "0CCA64EFC4616AAF"
+			rewards: [
+				{
+					id: "5693CAE8DB6AE0EB"
+					item: "extrastorage:storagepart_1024k"
+					type: "item"
+				}
+				{
+					id: "6A980332B49BA532"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "575376EDE4F5071E"
 				item: "extrastorage:storagepart_1024k"
@@ -4703,7 +4854,37 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&765536k Fluid Storage Part&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				""
+				"&lHow to Obtain:&r"
+				"The 65536k Fluid Storage Part is an advanced fluid storage component from &6Refined Storage&r."
+				""
+				"Its production requires automated Moon Stone processing through crushing and washing, combined with numerous Create and vanilla ingredients."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"This component represents one of the highest tiers of fluid storage available and benefits greatly from a fully automated production chain."
+				""
+				"Need help progressing through Refined Storage?"
+				""
+				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
+				""
+				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_REFINED_STORAGE_QUEST_ID\" } }"
+			]
 			id: "4A2FA618FAF86C0E"
+			rewards: [
+				{
+					id: "1DC73997567D25B5"
+					item: "extrastorage:storagepart_65536k_fluid"
+					type: "item"
+				}
+				{
+					id: "46DAC1ACC419C10E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "766220A4662CFC42"
 				item: "extrastorage:storagepart_65536k_fluid"
