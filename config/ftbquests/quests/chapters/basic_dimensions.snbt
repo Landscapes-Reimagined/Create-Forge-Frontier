@@ -627,7 +627,7 @@
 				}
 			]
 			title: "Forging the Black Eye"
-			x: -4.5d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -721,7 +721,7 @@
 				}
 			]
 			title: "Cursed Riches"
-			x: -5.5d
+			x: -5.0d
 			y: -2.0d
 		}
 		{
@@ -839,8 +839,8 @@
 				}
 			]
 			title: "Blessing of the Ancients"
-			x: -3.5d
-			y: -2.0d
+			x: -6.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -950,11 +950,11 @@
 				}
 			]
 			title: "Mysteries of the Storm"
-			x: -6.5d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["7E64EF50D212B5C5"]
+			dependencies: ["130260CCAEEF6F7C"]
 			description: [
 				"Torn from the depths of the ancient darkness, the &9Warden's Eye&r burns with sorrow and silence.  "
 				"Taken centuries ago from a creature now doomed to wander blindly through eternal night, this relic pulses with lost grief and forgotten strength.  "
@@ -1098,7 +1098,7 @@
 			]
 			title: "Echoes of the Deep"
 			x: -6.0d
-			y: -1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7E64EF50D212B5C5"]
@@ -3109,6 +3109,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["4669B8B378A79459"]
 			description: [
 				"Hidden deep within the caves of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
 				""
@@ -3118,28 +3119,170 @@
 				""
 				"To unleash its potential, locate a &lDormant Resonite Vent&r in the Otherside. Consider using Freecam to locate the vertical column of vent fluid. Feed a blaze burner blaze cake atop its core to awaken the ancient signal buried deep within."
 				""
-				"Once activated, supply it with the correct &dmystic fluid&r (explained in the next quest) to channel its energy through &lMechanical Extruders&r. Watch as the Resonite pulses to life, converting sound and soul into Echo Shards with mechanical precision."
+				"Once activated, supply it with &dresonarium&r to channel its energy through &lMechanical Extruders&r. Watch as the Resonite pulses to life, converting sound and soul into Echo Shards with mechanical precision."
 				""
 				" &5Resonance stirs, and with it-the automation of silence.&r"
 			]
 			icon: "create_resource_vents:dormant_resonite_vent"
 			id: "66C50363340B22B0"
+			rewards: [
+				{
+					count: 9
+					id: "7C0639D868BB8DF0"
+					item: "forge_frontier:resonite"
+					type: "item"
+				}
+				{
+					id: "593727ADF90B3E41"
+					item: "forge_frontier:echo_shard_block"
+					type: "item"
+				}
+				{
+					id: "10045CF9B2B693F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "68F38195DCD117B9"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_resonite_vent"
+					type: "observation"
+				}
+				{
+					id: "07409A71AC711831"
+					item: "resonant_synthesis:resonarium_bucket"
+					type: "item"
+				}
+			]
+			title: "Pulse of the Otherside"
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: ["As you journey across the &bOtherside&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "deeperdarker:lily_flower"
+			id: "4669B8B378A79459"
 			rewards: [{
-				id: "5B2A072CD74851D2"
+				id: "6CDCE76EF027D062"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			shape: "pentagon"
 			tasks: [{
-				id: "68F38195DCD117B9"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_resonite_vent"
-				type: "observation"
+				id: "23B3BCC428EE9062"
+				title: "Otherside Resource Vents"
+				type: "checkmark"
 			}]
-			title: "Pulse of the Otherside"
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: [
+				"&7Beneath the Overworld lies a forgotten civilization swallowed by darkness. The ruins they left behind hold powerful relics, dangerous secrets, and the key to reaching an entirely new dimension.&r"
+				""
+				"The &5Deeper and Darker&r progression begins within the Deep Dark, where ancient structures and mysterious technology await those brave enough to descend into the darkness."
+				""
+				"{@pagebreak}"
+				""
+				"&lAncient City&r"
+				""
+				"Hidden deep beneath the Overworld, the &8Ancient City&r stands as the first major step into Deeper and Darker progression."
+				""
+				"These vast underground ruins are filled with valuable loot, rare resources, and clues surrounding the mysterious portal frame found at their center. As you explore, you will encounter powerful Sculk-infested threats and the terrifying &0Warden&r itself."
+				""
+				"Defeating the Warden and claiming its heart is essential for unlocking the path forward."
+				""
+				"{image:ftb:textures/ancient_city_screenshot.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lAncient Temple&r"
+				""
+				"Beyond the portal lies the &5Otherside&r, a mysterious dimension unlike anything found within the Overworld."
+				""
+				"Scattered throughout this strange realm are &5Ancient Temples&r, massive structures containing valuable treasures, unique resources, and powerful artifacts unavailable anywhere else. Among their rewards is the rare &dSculk Transmitter&r, a component required for some of the most advanced technologies in the pack."
+				""
+				"Exploration of these temples will reward those willing to brave the dangers of the Otherside."
+				""
+				"{image:ftb:textures/otherside_screenshot.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To access the Otherside, you must first defeat the &0Warden&r within an Ancient City."
+				""
+				"Once defeated, place the Warden's Heart into the dormant portal frame found at the center of the city. The ancient gateway will awaken, granting passage into a realm forgotten by time."
+				""
+				"What awaits beyond is up to you to discover."
+				""
+				"{image:ftb:textures/otherside_portal.png width:225 height:140 align:center}"
+			]
+			icon: "ad_astra:black_flag"
+			id: "501BD9C57DEF57BF"
+			rewards: [
+				{
+					count: 4
+					id: "0739E06E4CE31AD3"
+					item: "resonant_synthesis:sculk_stone_sculk_ore"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49D0B93CF4630632"
+					item: "resonant_synthesis:sculk_stone_otherside_ore"
+					type: "item"
+				}
+				{
+					id: "4C53B39DF6D62FD6"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "696644B62B25A74B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "33688FCB6FD2F6BD"
+					structure: "#minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					id: "1A2A3C8C8423BAB8"
+					structure: "deeperdarker:ancient_temple"
+					type: "structure"
+				}
+			]
+			title: "Deep Dark Structures"
 			x: -8.0d
-			y: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of the &bDeep Dark progression."]
+			icon: "minecraft:sculk"
+			id: "130260CCAEEF6F7C"
+			rewards: [{
+				id: "215383BAC2B39215"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7D7D42246BB41CB9"
+				title: "Eyes of the Deep Dark"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 9.0d
 		}
 	]
 	title: "Basic Dimensions"
