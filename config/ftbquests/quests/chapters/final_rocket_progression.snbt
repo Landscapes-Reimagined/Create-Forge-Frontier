@@ -4922,6 +4922,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5517C59F6C9603D4"
+			rewards: [{
+				id: "2B841B946B475CF2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted using Mechanical Crafters"
@@ -4963,6 +4968,11 @@
 			]
 			hide_dependency_lines: true
 			id: "7CD0FE9F902D5F04"
+			rewards: [{
+				id: "3C064775341B58AE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Crafted Using a Sequenced Assebly Recipe"
@@ -4976,6 +4986,22 @@
 			y: 11.5d
 		}
 		{
+			description: [
+				"&7Solar Regulation Array&r is a required component used in the construction of the &6Forge Rocket Fin&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Solar Regulation Array is crafted using advanced Create components and materials obtained through progression on &cMars&r."
+				""
+				"Its construction combines engineering expertise with resources gathered from exploration, automation, and boss encounters found throughout the Red Planet."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Several ingredients required for the Solar Regulation Array are obtained through Mars progression, including resources earned from challenging structures and powerful enemies."
+				""
+				"Need help reaching Mars and obtaining its resources?"
+				""
+				"{ \"text\": \"Journey to Mars\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
+			]
 			id: "0944A0317F519B21"
 			tasks: [{
 				id: "448728E185BC70D0"
@@ -4986,6 +5012,22 @@
 			y: 13.5d
 		}
 		{
+			description: [
+				"&7Tectonic Shard&r is a required component used in the construction of the &6Forge Rocket Fin&r."
+				""
+				"&lHow to Obtain:&r"
+				"Tectonic Shards are obtained from a rare creature found exclusively within the &6Primordial Caves&r of Alex's Caves."
+				""
+				"These ancient caverns are home to prehistoric lifeforms and unique resources unavailable anywhere else, making exploration of the dimension necessary for acquiring this component."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Because Tectonic Shards are tied to a specific Primordial Caves creature, establishing a reliable method of farming or hunting the mob may be beneficial if multiple shards are required."
+				""
+				"Need help reaching the Primordial Caves?"
+				""
+				"{ \"text\": \"Primordial Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE777D1CAD0CE01\" } }"
+			]
 			id: "08CAF05DB71306E0"
 			tasks: [{
 				count: 4L
@@ -4997,6 +5039,20 @@
 			y: 13.5d
 		}
 		{
+			description: [
+				"&7Rocket Fin&r is a required component used in the construction of the &6Forge Rocket Fin&r."
+				""
+				"&lHow to Obtain:&r"
+				"Rocket Fins are crafted using &7Steel Plates&r. These aerodynamic components provide stability and control during launch, making them an essential part of any spacecraft design."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Steel production serves as an important milestone in your technological progression and is used throughout many advanced crafting chains, including rocket construction."
+				""
+				"Need help producing Steel and Steel Plates?"
+				""
+				"{ \"text\": \"Steel Production\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3970E3D9DAD23FF4\" } }"
+			]
 			id: "7D2BBB6DCCA33A1F"
 			tasks: [{
 				id: "1D50AEE826AF751C"
@@ -5007,6 +5063,24 @@
 			y: 13.5d
 		}
 		{
+			description: [
+				"&7Witherite Ingot&r is a required component used in the construction of the &6Forge Rocket Fin&r."
+				""
+				"&lHow to Obtain:&r"
+				"Witherite Ingots are crafted using &8Witherite&r, a rare material dropped exclusively by &cThe Harbinger&r."
+				""
+				"The Harbinger resides within the &7Ancient Factory&r on the &fMoon&r, where he commands an army of corrupted machines and guards some of the most valuable resources found throughout lunar progression."
+				""
+				"After defeating The Harbinger, collect the Witherite he drops and refine it into Witherite Ingots for use in advanced crafting recipes."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Witherite is one of the key materials obtained through Moon boss progression and serves as an important ingredient in several late-game components."
+				""
+				"Need help locating the Ancient Factory and defeating The Harbinger?"
+				""
+				"{ \"text\": \"Ancient Factory\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A6CBE62C6E115C6\" } }"
+			]
 			id: "36E1FC204679E935"
 			tasks: [{
 				count: 4L
@@ -5018,6 +5092,24 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Primal Magma Casing&r is a required component used in the construction of the &6Forge Rocket Fin&r."
+				""
+				"&lHow to Obtain:&r"
+				"The Primal Magma Casing is the final evolution of the rocket casing progression chain, representing the culmination of every spacecraft constructed throughout your journey."
+				""
+				"To craft it, you must progress through the entire series of rocket casings, upgrading each tier until you reach the Primal Magma variant. This process incorporates materials and technologies gathered from multiple planets, dimensions, and stages of progression."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"A key ingredient in the Primal Magma Casing is &6Primal Magma&r, a rare material obtained from the &6Primordial Caves&r of Alex's Caves."
+				""
+				"The Primal Magma Casing serves as a testament to your mastery of rocket engineering, combining knowledge gained from every previous spacecraft into a single advanced component."
+				""
+				"Need help reaching the Primordial Caves and obtaining Primal Magma?"
+				""
+				"{ \"text\": \"Primordial Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE777D1CAD0CE01\" } }"
+			]
 			id: "17E73DE47FA1CACB"
 			tasks: [{
 				count: 4L
@@ -5029,6 +5121,22 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Essence of the Storm&r is a required component used in the construction of the &6Forge Rocket Fin&r."
+				""
+				"&lHow to Obtain:&r"
+				"Essence of the Storm is obtained by defeating &3Scylla&r, the powerful Cataclysm boss that resides atop the floating city of &bAcropolis&r."
+				""
+				"Unlike many progression structures found on distant planets, Acropolis can be discovered within the &aOverworld&r, floating high above the oceans. After overcoming the creatures that guard the city and defeating Scylla, you can claim the Essence of the Storm—a fragment of her immense power and one of the key materials required for advanced rocket construction."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Obtaining this item requires conquering one of the most challenging Overworld encounters."
+				""
+				"Need help locating Acropolis and defeating Scylla?"
+				""
+				"{ \"text\": \"Acropolis\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F05530DA01EEECA\" } }"
+			]
 			id: "148FFFA8FA38D1EA"
 			tasks: [{
 				count: 2L
@@ -5087,7 +5195,34 @@
 			y: 3.0d
 		}
 		{
+			description: [
+				"&7Biofuel&r is a required component used in the construction of the &6Forge Rocket Engine&r."
+				""
+				"&lHow to Obtain:&r"
+				"Biofuel is crafted using Sugar, Cinder Flour, and Biomass. This renewable fuel serves as one of the foundational ingredients required for advanced fuel production."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Biofuel relies on several intermediate materials obtained through Create processing chains and agricultural production."
+				""
+				"Need help obtaining the required ingredients?"
+				""
+				"Consult &6JEI&r for detailed recipes and production methods."
+			]
 			id: "4D915665BE13AE64"
+			rewards: [
+				{
+					count: 3
+					id: "01CD23061A324F37"
+					item: "createaddition:biomass_pellet_block"
+					type: "item"
+				}
+				{
+					id: "7ED880EAB50FC6ED"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Spouting Ingredient"
 			tasks: [{
 				count: 10L
@@ -5099,8 +5234,36 @@
 			y: 14.5d
 		}
 		{
-			description: [""]
+			description: [
+				"&7Diesel&r is a required component used in the construction of the &6Forge Rocket Engine&r."
+				""
+				"&lHow to Obtain:&r"
+				"Diesel is produced by processing Oil through the &6Distillation Setup&r from Create: Diesel Generators."
+				""
+				"By refining crude Oil into various products, Diesel can be extracted and used in advanced fuel production chains."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Establishing a reliable Oil supply is essential for large-scale Diesel production."
+				""
+				"Need help obtaining Oil and building the distillation process?"
+				""
+				"Consult &6JEI&r for detailed recipes and production methods."
+			]
 			id: "4518B2A50C95BED3"
+			rewards: [
+				{
+					count: 8
+					id: "411070D93908C22F"
+					item: "ad_astra:oil_bucket"
+					type: "item"
+				}
+				{
+					id: "249BA5CF9B46CCBD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Spouting Ingredient"
 			tasks: [{
 				count: 10L
@@ -5112,7 +5275,42 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Cryofuel&r is a required component used in the construction of the &6Forge Rocket Engine&r."
+				""
+				"&lHow to Obtain:&r"
+				"Cryofuel is produced by &6Superheated Mixing&r Ice Shards and Fuel."
+				""
+				"Fuel itself is obtained by superheating Oil through advanced processing chains, making Cryofuel a significant upgrade over earlier fuel sources."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Cryofuel combines planetary resources with industrial fuel production, making it a valuable late-game ingredient."
+				""
+				"Need help obtaining Oil, Fuel, or Ice Shards?"
+				""
+				"Consult &6JEI&r for detailed recipes and production methods."
+			]
 			id: "2DE05EE3487A320E"
+			rewards: [
+				{
+					count: 4
+					id: "6B6E4242FA14B48C"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2224B443F8269FDC"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "321B5A197E15DBA6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Spouting Ingredient"
 			tasks: [{
 				count: 10L
@@ -5124,7 +5322,36 @@
 			y: 14.5d
 		}
 		{
+			description: [
+				"&7Acid&r is a required component used in the construction of the &6Forge Rocket Engine&r."
+				""
+				"&lHow to Obtain:&r"
+				"Acid is produced through &6Heated Mixing&r of Water and Sulfur."
+				""
+				"Sulfur is a specialized resource obtained from the &2Toxic Caves&r, making progression through this planet necessary before large-scale Acid production becomes possible."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"Acid is used throughout a variety of advanced processing chains and industrial recipes."
+				""
+				"Need help reaching the Toxic Caves and obtaining Sulfur?"
+				""
+				"{ \"text\": \"Toxic Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1A2C4E8DD4FA3A3A\" } }"
+			]
 			id: "6800B04483CC4F89"
+			rewards: [
+				{
+					count: 16
+					id: "18FE376FE3495B02"
+					item: "forge_frontier:sulphite"
+					type: "item"
+				}
+				{
+					id: "63C5BDBD3EF56DDC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Spouting Ingredient"
 			tasks: [{
 				count: 10L
@@ -5136,7 +5363,44 @@
 			y: 15.5d
 		}
 		{
+			description: [
+				"&7Rocket Engine&r is a required component used in the construction of the &6Forge Rocket Engine&r."
+				""
+				"&lHow to Obtain:&r"
+				"Rocket Engines are crafted through an advanced &6Sequenced Assembly&r process, combining Engine Pistons, Engine Turbochargers, Precision Mechanisms, Infernal Mechanisms, Sealed Mechanisms, and a Blaze Cake."
+				""
+				"Each assembly step further enhances the engine, transforming basic mechanical components into a propulsion system capable of powering spacecraft across the stars."
+				""
+				"{@pagebreak}"
+				"&lNotes:&r"
+				"The Rocket Engine serves as a core component throughout the rocket progression system and represents the culmination of several Create production chains."
+				""
+				"Its construction requires mastery of Sequenced Assembly, advanced mechanisms, and large-scale automation."
+				""
+				"Need help crafting the required components?"
+				""
+				"Consult &6JEI&r for detailed recipes, production chains, and ingredient requirements."
+			]
 			id: "5C543595C7173620"
+			rewards: [
+				{
+					count: 2
+					id: "0E66E61F8CCD6988"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "21375D8DA4C0EB20"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					id: "7B9B92DE21098280"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			size: 1.5d
 			subtitle: "Starting Ingredient"
