@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = welcomescreen_welcome
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1782216809994
+  last_edited_time = 1782218883359
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:2477fe98-2310-48dc-8a03-060ada94cf6c-1782216733776] = [groups:][instances:]
+  [loading_requirement_container_meta:22355208-5256-44f8-ba05-dfec2b65c3be-1782218810031] = [groups:][instances:]
 }
 
 menu_background {
@@ -735,8 +735,8 @@ element {
 
 element {
   button_element_executable_block_identifier = 00aa833c-ef3d-4b6d-9c47-0c72e98c38ea-1746034773431
-  [executable_action_instance:9bc0873b-94e0-4084-8b4c-73b38dd88c8e-1746034923326][action_type:closegui] = 
-  [executable_block:00aa833c-ef3d-4b6d-9c47-0c72e98c38ea-1746034773431][type:generic] = [executables:9bc0873b-94e0-4084-8b4c-73b38dd88c8e-1746034923326;]
+  [executable_action_instance:4a6fd202-a345-4861-a15a-2dd35dd17132-1782218869438][action_type:closegui] = 
+  [executable_block:00aa833c-ef3d-4b6d-9c47-0c72e98c38ea-1746034773431][type:generic] = [executables:4a6fd202-a345-4861-a15a-2dd35dd17132-1782218869438;]
   restartbackgroundanimations = true
   nine_slice_custom_background = false
   nine_slice_border_x = 5
