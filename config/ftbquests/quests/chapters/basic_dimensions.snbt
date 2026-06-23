@@ -29,7 +29,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: -8.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			height: 10.0d
@@ -180,7 +180,7 @@
 				type: "biome"
 			}]
 			title: "&6Beneath Silence&r"
-			x: -8.0d
+			x: -8.5d
 			y: 6.0d
 		}
 		{
@@ -3159,7 +3159,7 @@
 				}
 			]
 			title: "Pulse of the Otherside"
-			x: -10.5d
+			x: -11.0d
 			y: 10.5d
 		}
 		{
@@ -3179,7 +3179,7 @@
 				title: "Otherside Resource Vents"
 				type: "checkmark"
 			}]
-			x: -10.5d
+			x: -11.0d
 			y: 9.0d
 		}
 		{
@@ -3263,7 +3263,7 @@
 				}
 			]
 			title: "Deep Dark Structures"
-			x: -8.0d
+			x: -8.5d
 			y: 9.0d
 		}
 		{
