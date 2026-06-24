@@ -39,7 +39,9 @@ ServerEvents.tags('block', event =>
                 'unusualend:raw_purpur_block', 
                 'alexscaves:guanostone', 
                 'quark:permafrost', 
-                'regions_unexplored:argillite'
+                'regions_unexplored:argillite',
+                "echovoids:corrode_stone",
+                "echovoids:corroded_entropite"
             ])
             
         // Serene Seasons Tag
