@@ -2875,33 +2875,53 @@
 		{
 			dependencies: ["22ADB76FDC911F77"]
 			description: [
-				"Hidden within the swirling void of the &5End Dimension&r, the &dVent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lIrradium&r-a radiant resource found nowhere else in the multiverse."
+				"Hidden within the swirling void of the &5End Dimension&r, the &dVent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lAdamantite&r-a radiant resource found nowhere else in the multiverse."
 				""
-				"{image:ftb:textures/radiantite_vent.png width:175 height:175 align:center}"
+				"{image:ftb:textures/endritus_vent.png width:250 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken its celestial core, place &la blaze burner&r on top of the vent and feed it blaze cake. With a burst of arcane force, the vent will erupt into an active state, ready to receive molten fluids."
 				""
-				"Once activated, supply the correct &dsource fluid&r (revealed in the next quest) to begin Irradium automation using &lMechanical Extruders&r."
+				"Once activated, supply &druby chocolate&r to begin Irradium automation using &lMechanical Extruders&r."
 				""
 				" &dWill you channel the light of the End-or be lost in its shadows?&r"
 			]
 			icon: "create_resource_vents:dormant_endritus_vent"
 			id: "0886729EE4407B1B"
-			rewards: [{
-				id: "6B3D0431A731E119"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "1C70E888D54B0BD1"
+					item: "endelurgy:endritus"
+					type: "item"
+				}
+				{
+					id: "43CB939D66A530C3"
+					item: "endelurgy:adamantite_block"
+					type: "item"
+				}
+				{
+					id: "049398898356325A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "3E922327B6F978BA"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_endritus_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "3E922327B6F978BA"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_endritus_vent"
+					type: "observation"
+				}
+				{
+					id: "786FA96D9B01E230"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
+				}
+			]
 			title: "Unleashing Endlight Energy"
 			x: 9.5d
 			y: 11.0d
@@ -2909,33 +2929,53 @@
 		{
 			dependencies: ["22ADB76FDC911F77"]
 			description: [
-				"Lurking in the &5outer reaches of the End Dimension&r, the &8Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lMalachite&r-if you dare to awaken it."
+				"Lurking in the &5outer reaches of the End Dimension&r, the &8Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lTungsten&r-if you dare to awaken it."
 				""
-				"{image:ftb:textures/void_shale_vent.png width:175 height:175 align:center}"
+				"{image:ftb:textures/gneiss_vent.png width:250 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To breathe life into the shale, place &lblaze burner&r atop the vent and feed it blaze cake. The resulting tranformation cracks open the darkness, activating the vent and readying it for molten infusion."
 				""
-				"Once active, the right &dsource fluid&r (revealed in the next quest) must be supplied to begin automation using &lMechanical Extruders&r."
+				"Once active, supply &druby chocolate&r must be supplied to begin automation using &lMechanical Extruders&r."
 				""
-				" &8Descend into silence, ignite the shadows, and let Malachite rise from the void.&r"
+				" &8Descend into silence, ignite the shadows, and let Tungsten rise from the void.&r"
 			]
 			icon: "create_resource_vents:dormant_gneiss_vent"
 			id: "177FD83E945AE2BE"
-			rewards: [{
-				id: "7285F2D75656FEB1"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "18B5AF3531D172F1"
+					item: "unusualend:gneiss"
+					type: "item"
+				}
+				{
+					id: "2BE96A6590B9FFEC"
+					item: "createmetallurgy:tungsten_block"
+					type: "item"
+				}
+				{
+					id: "0508D3C39E1A7E9F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "5993EC5234DA3722"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_gneiss_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "5993EC5234DA3722"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_gneiss_vent"
+					type: "observation"
+				}
+				{
+					id: "7A4ED882FFF108B9"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
+				}
+			]
 			title: "Awakening the Gneiss Below"
 			x: 11.5d
 			y: 11.0d
@@ -2945,31 +2985,51 @@
 			description: [
 				"These stone-white relics rest in stillness across the void, untouched by time yet filled with untapped potential. The &fVent&r -while seemingly inert-is one of the final pieces in your industrial arsenal."
 				""
-				"{image:ftb:textures/palerock_vent.png width:175 height:175 align:center}"
+				"{image:ftb:textures/noxrock_vent.png width:250 height:175 align:center}"
 				""
 				"{@pagebreak}"
 				""
 				"To awaken this silent monument, you must &lfeed a blaze burner blaze cake&r directly atop the dormant vent. The resulting transformation fractures the pale crust, transforming the structure into an active state ready to receive its specialized molten fluid."
 				""
-				"Once activated, providing the proper &dsource fluid&r (detailed in the next quest) will allow you to channel its energy via &lMechanical Extruders&r-fueling your bismuth automation pipeline."
+				"Once activated, providing &druby chocolate&r will allow you to channel its energy via &lMechanical Extruders&r-fueling your bismuth automation pipeline."
 				""
 				" &7Silent. Still. Powerful. Awaken the pale-&lunlock the hidden ore of the End&r."
 			]
 			icon: "create_resource_vents:dormant_noxrock_vent"
 			id: "0F87A00F314DD547"
-			rewards: [{
-				id: "4D18DF8A625E8A5E"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "3B19BD46B8B41ECC"
+					item: "endelurgy:noxrock"
+					type: "item"
+				}
+				{
+					id: "3CAE2E075B1014E0"
+					item: "endelurgy:luxite_block"
+					type: "item"
+				}
+				{
+					id: "630080CD9BCA37BC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "37B1D1C7B27E941B"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_noxrock_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "37B1D1C7B27E941B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_noxrock_vent"
+					type: "observation"
+				}
+				{
+					id: "1C7CDD7405B4C11C"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
+				}
+			]
 			title: "Whispers of the Noxrock Core"
 			x: 10.5d
 			y: 11.0d
@@ -3153,8 +3213,14 @@
 		}
 		{
 			dependencies: ["7964AB0D39902EFA"]
+			description: ["As you journey across the &eEnd&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
 			icon: "unusualend:warped_end_stone"
 			id: "22ADB76FDC911F77"
+			rewards: [{
+				id: "7AB349B0A41AF432"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "21B9B5A1D60077BA"
@@ -3166,43 +3232,373 @@
 		}
 		{
 			dependencies: ["7964AB0D39902EFA"]
+			description: [
+				"&7The End is far more than a barren wasteland of floating islands. Scattered throughout the void are the remnants of forgotten civilizations, abandoned outposts, and mysterious structures filled with powerful loot and rare materials.&r"
+				""
+				"Exploration is a critical part of End progression. Many valuable resources, unique equipment, and rare crafting ingredients can only be found within these ancient ruins."
+				""
+				"Those willing to venture into the void will be richly rewarded."
+				""
+				"{@pagebreak}"
+				""
+				"&lAncient End Tower&r"
+				""
+				"Rising above the islands of the End, the &5Ancient End Tower&r stands as a relic of a civilization long lost to time."
+				""
+				"These towering structures contain valuable loot, rare resources, and dangerous defenders guarding their treasures. Adventurers who reach the upper levels will often find rewards worthy of the journey."
+				""
+				"Explore carefully—many dangers lurk within the tower's halls."
+				""
+				"{image:ftb:textures/ancient_end_tower.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lEnd Ships&r"
+				""
+				"Drifting through the void are abandoned vessels left behind by forgotten explorers."
+				""
+				"Both the &dFlying End Ship&r and the corrupted &5Warped Flying End Ship&r contain valuable loot, rare equipment, and resources useful throughout End progression. Their isolated locations make them difficult to reach, but the rewards often justify the risk."
+				""
+				"The void below offers little forgiveness to those who fall."
+				""
+				"{image:ftb:textures/flying_end_ship.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lEnd City&r"
+				""
+				"The iconic &5End City&r remains one of the most valuable structures found throughout The End."
+				""
+				"Its towering spires contain enchanted equipment, rare materials, and treasures useful for both exploration and progression. Powerful Shulkers defend these ancient cities, making preparation essential before attempting to raid them."
+				""
+				"Many adventurers make their fortune within these towering ruins."
+				""
+				"{image:ftb:textures/end_city.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lWarped Station&r"
+				""
+				"Among the strangest structures in the End is the &5Warped Station&r, a mysterious outpost suspended within the void."
+				""
+				"Little remains of its original inhabitants, but valuable loot and resources can still be found within its abandoned halls. These stations serve as excellent locations for gathering supplies while exploring the outer islands."
+				""
+				"No one knows who built them—or why they were abandoned."
+				""
+				"{image:ftb:textures/warped_station.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Each of these structures contains unique loot, resources, and opportunities for progression."
+				""
+				"Whether you're searching for equipment, rare crafting ingredients, or simply seeking adventure among the stars, exploration of The End is highly encouraged."
+				""
+				"The void holds many secrets."
+				""
+				"All that remains is for you to discover them."
+			]
 			icon: "ad_astra:pink_flag"
 			id: "7A752AF0D3E9431F"
+			rewards: [
+				{
+					count: 4
+					id: "7A1DEB2E50171021"
+					item: "endelurgy:end_adamantite_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11DE2C32CEC2D7F0"
+					item: "endreborn:tungsten_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55A29171591F1D37"
+					item: "endelurgy:noxrock_luxite_ore"
+					type: "item"
+				}
+				{
+					id: "41DFA3D41C2753B5"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DA2220E504D4B10"
+					item: "quark:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "566D7E7EE3052893"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "28F81862F5DA1162"
-				structure: "minecraft:end_city"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "4BD6ED1A9699859F"
+					structure: "unusualend:ancient_end_tower"
+					type: "structure"
+				}
+				{
+					id: "712CAC83C2FF5214"
+					structure: "unusualend:flying_end_ship"
+					type: "structure"
+				}
+				{
+					id: "0C9CC381E7A82DB8"
+					structure: "unusualend:warped_flying_end_ship"
+					type: "structure"
+				}
+				{
+					id: "7CFCBA6461F609FC"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+				{
+					id: "2030514BD1F85C93"
+					structure: "unusualend:warped_station"
+					type: "structure"
+				}
+			]
 			title: "End Structures"
 			x: 5.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7964AB0D39902EFA"]
+			description: [
+				"&7With both &5The End&r and &bGlacio&r conquered, a new frontier emerges beyond the known reaches of the Ad Astra solar system.&r"
+				""
+				"The construction of the &dTier 5 Rocket&r marks the beginning of a completely new chapter in your adventure. Built using materials gathered from End exploration, powerful bosses, and the frozen landscapes of Glacio, this spacecraft serves as the gateway to worlds unlike anything encountered before."
+				""
+				"What lies ahead is no longer traditional space exploration."
+				""
+				"It is the exploration of entirely new realms."
+				""
+				"{@pagebreak}"
+				""
+				"&lConstructing the Tier 5 Rocket&r"
+				""
+				"The Tier 5 Rocket is assembled using advanced components obtained through both End and Glacio progression. Many of its parts require rare materials, boss drops, specialized machinery, and extensive automation networks to produce."
+				""
+				"By this stage, your factory should be capable of handling complex production chains spanning multiple dimensions and planets."
+				""
+				"Need help crafting a specific rocket component?"
+				""
+				"Consult &6JEI&r for detailed recipes, ingredient requirements, and production chains for all rocket parts."
+				""
+				"{@pagebreak}"
+				""
+				"Upon completing the Tier 5 Rocket, you will unlock access to the first three &6Alex's Caves&r planets:"
+				""
+				"* &1Abyssal Chasm&r"
+				"* &6Primordial Caves&r"
+				"* &8Forlorn Hollows&r"
+				""
+				"Each world offers unique resources, dangerous creatures, powerful structures, and progression opportunities unavailable anywhere else."
+				""
+				"Prepare carefully before departure."
+				""
+				"These worlds operate by their own rules."
+				""
+				"{@pagebreak}"
+				""
+				"As the launch sequence begins and your newest spacecraft rises from the pad, you leave the familiar solar system behind."
+				""
+				"The Moon, Mars, Mercury, Venus, Glacio, and The End have prepared you for this moment."
+				""
+				"Now, the true unknown awaits."
+				""
+				"Your journey into Alex's Caves begins here."
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_5_rocket"
+				tag: { }
+			}
 			id: "699FEE9775A89BE5"
+			rewards: [
+				{
+					count: 5
+					id: "3279370E97E1E6A8"
+					item: "endelurgy:enderite_block"
+					type: "item"
+				}
+				{
+					id: "777901EE27E08463"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "012CFF0CE45E5FB9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "pentagon"
-			tasks: [{
-				id: "0BBE04FB866F4256"
-				item: "ad_astra:rocket_nose_cone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BBE04FB866F4256"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7FA6AFC75AFFBF82"
+					item: "forge_frontier:enderite_rocket_casing"
+					type: "item"
+				}
+				{
+					id: "4421D2C975B29C51"
+					item: "forge_frontier:dimensional_stability_core"
+					type: "item"
+				}
+				{
+					id: "373978EC7B1C068E"
+					item: "forge_frontier:thermal_shield_matrix"
+					type: "item"
+				}
+				{
+					id: "1EE4D225E309A632"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DB0F34B4FCCC153"
+					item: "forge_frontier:solar_regulation_array"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "49190842A9F3F63C"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "684121D34966607C"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "7966519ADDF48DD1"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
 			title: "Tier 5 Rocket Parts"
 			x: 3.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["699FEE9775A89BE5"]
+			description: [
+				"&7With the &dTier 5 Rocket&r complete, your journey expands beyond the familiar worlds of Ad Astra and into entirely new frontiers.&r"
+				""
+				"Congratulations, explorer! You have unlocked access to the first three &6Alex's Caves&r planets: &1Abyssal Chasm&r, &6Primordial Caves&r, and &8Forlorn Hollows&r. These worlds are unlike anything encountered throughout the solar system, each containing unique ecosystems, powerful resources, dangerous creatures, and progression opportunities that cannot be found anywhere else."
+				""
+				"A new era of exploration begins now."
+				""
+				"{@pagebreak}"
+				""
+				"&lAbyssal Chasm&r"
+				""
+				"Beneath endless oceans and crushing depths lies the &1Abyssal Chasm&r, a world consumed by darkness and ancient aquatic life."
+				""
+				"Those willing to brave its depths will discover:"
+				""
+				"* &oUnique underwater environments&r unlike any previous planet."
+				"* &oRare resources&r required for advanced progression."
+				"* &oAncient structures&r hidden beneath the waters."
+				"* &oPowerful creatures&r lurking within the abyss."
+				""
+				"The deeper you descend, the greater the rewards—and the dangers."
+				""
+				"{@pagebreak}"
+				""
+				"&lPrimordial Caves&r"
+				""
+				"Step into a lost world where prehistoric life still roams the land."
+				""
+				"Throughout the &6Primordial Caves&r, you will encounter:"
+				""
+				"* &oAncient creatures&r from a forgotten age."
+				"* &oPowerful resources&r unavailable anywhere else."
+				"* &oUnique structures&r hidden throughout the wilderness."
+				"* Dangerous encounters with some of the largest creatures in the pack."
+				""
+				"Survival here requires caution, preparation, and respect for the ancient world around you."
+				""
+				"{@pagebreak}"
+				""
+				"&lForlorn Hollows&r"
+				""
+				"Shrouded in darkness and mystery, the &8Forlorn Hollows&r is a realm where strange creatures and ancient horrors dwell."
+				""
+				"Within this haunting world you will find:"
+				""
+				"* &oRare materials&r used in advanced crafting."
+				"* &oUnique structures&r filled with valuable loot."
+				"* &oPowerful enemies&r guarding hidden secrets."
+				"* Progression opportunities essential for future rocket construction."
+				""
+				"Many enter the Hollows seeking treasure. Not all return."
+				""
+				"{@pagebreak}"
+				""
+				"Abyssal Chasm, Primordial Caves, and Forlorn Hollows represent the next major stage of your adventure."
+				""
+				"Their resources will unlock powerful new technologies, their dangers will challenge even experienced explorers, and their secrets will pave the way toward the worlds that still remain undiscovered."
+				""
+				"The stars no longer mark the end of your journey."
+				""
+				"They were only the beginning."
+			]
+			icon: "alexscaves:spelunkery_table"
 			id: "4E10DE76A5C435BA"
-			tasks: [{
-				id: "237A4D488DE37ECD"
-				item: {
-					Count: 1
-					id: "ad_astra_rocketed:tier_5_rocket"
-					tag: { }
+			rewards: [
+				{
+					count: 3
+					id: "5D9BB80501DBC09F"
+					item: "alexscaves:amber"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "77B78A8D37317FF7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Three strange new worlds await—explore forgotten depths, prehistoric lands, and realms shrouded in darkness. Click me for more info!"
+			tasks: [
+				{
+					id: "237A4D488DE37ECD"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "241A3E7CC5037078"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Rocket: The Alex's Caves Expedition"
 			x: 3.0d
 			y: 11.0d
 		}
