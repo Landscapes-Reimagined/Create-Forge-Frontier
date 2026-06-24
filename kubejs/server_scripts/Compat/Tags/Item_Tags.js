@@ -1,5 +1,9 @@
 ServerEvents.tags('item', event => 
     {
+        // Rare Package Tag
+            event.add('create:packages/rare',
+                ['create:rare_creeper_package', 'create:rare_darcy_package', 'create:rare_evan_package', 'create:rare_jinx_package', 'create:rare_kryppers_package', 'create:rare_simi_package', 'create:rare_starlotte_package', 'create:rare_thunder_package', 'create:rare_vector_package', 'createmetallurgy:restingphantom_transfer_ladle', 'createmetallurgy:the_cooler_transfer_ladle', 'createqol:rare_iglee_package', 'createqol:rare_furti_package', 'createqol:rare_delta_package']
+            )
         // Removes Infinity Ham for Relic Tags
             event.remove( 'rarcompat:mimic_loot', 'relics:infinity_ham' )
             event.remove( 'rarcompat:mimificable', 'relics:infinity_ham' )
