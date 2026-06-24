@@ -37,7 +37,7 @@
 			rotation: 0.0d
 			width: 15.0d
 			x: 7.0d
-			y: 2.5d
+			y: 3.0d
 		}
 	]
 	order_index: 1
@@ -201,6 +201,7 @@
 				"Your advancement through this dimension marks the transition into endgame content and the next phase of your journey."
 			]
 			hide_dependent_lines: true
+			icon: "minecraft:end_portal_frame"
 			id: "7964AB0D39902EFA"
 			rewards: [{
 				id: "681278DA6D713D88"
@@ -210,17 +211,25 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Enter the End and advance through its unique challenges and resources. Click for more info!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:end_portal_frame"
-					tag: { }
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:end_portal_frame"
+						tag: { }
+					}
+					id: "28FEAB937642EDAC"
+					structure: "integrated_stronghold:stronghold"
+					title: "Locate the Stronghold"
+					type: "structure"
 				}
-				id: "28FEAB937642EDAC"
-				structure: "integrated_stronghold:stronghold"
-				title: "Locate the Stronghold"
-				type: "structure"
-			}]
+				{
+					advancement: "endrem:main/root"
+					criterion: ""
+					id: "087A6A01448BE166"
+					type: "advancement"
+				}
+			]
 			title: "&6Whispers of the Void&r"
 			x: 7.0d
 			y: 6.0d
@@ -512,7 +521,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "hexagon"
+			shape: "pentagon"
 			tasks: [{
 				id: "6055E8FE7B5B12F0"
 				title: "Eyes of the Overworld"
@@ -1756,7 +1765,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "hexagon"
+			shape: "pentagon"
 			tasks: [{
 				id: "56A9A733E96AD39A"
 				title: "Eyes of the Nether"
@@ -2747,83 +2756,64 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["7964AB0D39902EFA"]
 			description: [
-				"End Remastered within &6Create - Forge Frontier&r isn’t just a mod-it’s a fully reimagined journey, meticulously overhauled to deliver an unparalleled adventure.  "
-				"Every piece of its original design has been reforged, creating a progression system that is both challenging and deeply rewarding.  "
-				"Prepare to embark on a quest where each step forges your legend."
+				"The void winds of &5The End&r carry whispers of a forgotten fortress drifting among the islands."
 				""
-				"{@pagebreak}"
+				"Known as the &8Ruined Citadel&r, this ancient stronghold stands as one of the greatest challenges within the End. Its shattered walls conceal vast treasures, powerful relics, and a guardian whose strength rivals even the mightiest foes encountered throughout your journey."
 				""
-				"&l A New Era for the Eyes of Ender&r  "
-				"Gone are the days of simply crafting Eyes with Blaze Powder and Ender Pearls.  "
-				"In this enhanced version, every Eye is tied to a unique recipe, a distinct story, and an epic purpose.  "
-				"Scattered across the farthest reaches of the world, these Eyes will lead you into forgotten ruins, perilous dungeons, and the heart of ancient mysteries.  "
-				"Mastering combat, exploration, and crafting ingenuity will be essential as each Eye adds new depth and triumph to your journey."
+				"Many adventurers have entered seeking glory."
 				""
-				"{@pagebreak}"
-				""
-				"&l Progression Redefined&r  "
-				"To unlock the path to the End, you must gather all the Eyes by following the quests woven throughout your journey.  "
-				"Each quest delivers hints, lore, and guidance-blending discovery with purpose.  "
-				"Hunting down the Eyes and piecing them together to awaken the End Portal transforms your adventure into a true epic, filled with milestones and unforgettable victories."
-				""
-				"{@pagebreak}"
-				""
-				"&l Exclusive Features in Forge Frontier&r  "
-				"This version of End Remastered is packed with custom enhancements tailored specifically for &6Create - Forge Frontier&r:"
-				"- &eCustom Recipes&r: Every Eye now requires a unique crafting method that seamlessly integrates Create’s mechanical brilliance."
-				"- &eDetailed Lore Descriptions&r: Each Eye is infused with rich storytelling, giving weight and meaning to every discovery."
-				"- &eImmersive World Exploration&r: From sun-scorched temples to submerged ruins, your quest will stretch to every corner of the Overworld and beyond."
-				""
-				"{@pagebreak}"
-				""
-				"&l The Journey Beyond the Portal&r  "
-				"Activating the End Portal is not the final goal-it’s just the beginning.  "
-				"Inside the End, you’ll face a dragon battle reimagined for greater challenge and strategy, pushing your skills to the limit.  "
-				"Victory will unlock deeper layers of the \"End Game\" progression, unveiling powerful rewards and even greater adventures."
-				""
-				"{@pagebreak}"
-				""
-				"&l Forge Your Legend Among the Stars&r  "
-				"End Remastered in Create - Forge Frontier is more than just an expansion-it's an odyssey.  "
-				"Every Eye, every quest, and every battle is crafted to be a meaningful step in your saga.  "
-				"The End is not a destination-it’s a gateway to a new horizon, where perseverance, creativity, and daring forge a legacy worthy of legend."
-				""
-				"{@pagebreak}"
-				""
-				" Venture into the unknown. Embrace the challenge.  "
-				"Unravel the mysteries of the End-and write your story among the stars.   "
-				"{image:ftb:textures/end_screenshot.png width:192 height:100 align:center}"
-			]
-			hide_dependent_lines: true
-			id: "55E1F170D9933E8F"
-			rewards: [{
-				id: "6DB26E5588DAF15F"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "pentagon"
-			size: 1.0d
-			subtitle: "End Remastered: A New Chapter of Adventure Awaits, Click me for more info!"
-			tasks: [{
-				id: "5D22C1E60BB0C3FF"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 9.5d
-		}
-		{
-			description: [
-				"The winds of the End whisper of a fortress long forgotten. Legends tell of the Ruined Citadel, where ancient power lies sealed behind shattered walls. To uncover its secrets, you must follow the Eye into the Void and seek out this forsaken stronghold."
-				""
-				"But beware! Deep within the Citadel lurks the Ender Guardian, a foe of immense strength who has claimed the lives of many who came chasing fortune."
-				""
-				"Will you venture forward and face the Guardian, or retreat to the safety of the Overworld and leave the Citadel’s mysteries undiscovered?"
+				"Few have ever returned."
 				""
 				"{image:ftb:textures/ruined_citadel.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"As you explore the ruined halls of the &8Ruined Citadel&r, you will discover immense riches hidden among its crumbling corridors."
+				""
+				"Treasure chests filled with valuable equipment line the fortress, while blocks of gold and diamond remain scattered throughout the structure, untouched for centuries."
+				""
+				"Yet such wealth does not go unprotected."
+				""
+				"The Citadel is patrolled by powerful &5Ender Golems&r, ancient constructs tasked with guarding its secrets against intruders. Loot what you can, but remain vigilant."
+				""
+				"Every corridor brings you closer to the fortress's true master."
+				""
+				"{image:ftb:textures/ruined_citadel_loot.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Deeper within the Citadel, one of the ancient guardians will awaken to challenge your advance."
+				""
+				"The &5Ender Golem&r is a formidable opponent capable of delivering devastating attacks while defending the heart of the fortress. Defeat it to prove your worth and continue your journey into the depths of the Citadel."
+				""
+				"Upon its defeat, the guardian will relinquish a &dVoid Core&r, a rare artifact infused with the energy of the End itself and a vital ingredient in advanced rocket construction."
+				""
+				"{image:ftb:textures/ender_golem.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"At the heart of the &8Ruined Citadel&r awaits the fortress's final protector: the &5Ender Guardian&r."
+				""
+				"This colossal warrior has stood watch over the Citadel for ages beyond memory, crushing all who dared challenge its authority. To claim the Citadel's greatest treasures, you must defeat it."
+				""
+				"The Guardian wields immense power. It can launch you into the air, charge across the arena with incredible force, and summon destructive Void Runes that erupt with volatile energy."
+				""
+				"As the battle progresses, the very arena itself will begin to collapse. At half health, the Guardian will shatter the floor beneath your feet, dragging the fight into the ruins below where the battle continues."
+				""
+				"{image:ftb:textures/ender_guardian.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Only by defeating the &5Ender Guardian&r can you claim the legendary &dGauntlet of the Guard&r."
+				""
+				"This powerful relic serves as one of the final components required to construct the &6Tier 5 Rocket&r, opening the path beyond the End and into the strange worlds that await among the stars."
+				""
+				"Stand your ground. Watch for the Guardian's attacks. Survive the collapse of the arena."
+				""
+				"The future of your journey depends on it."
 			]
-			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "cataclysm:void_eye"
@@ -2832,24 +2822,23 @@
 			id: "285453E58AFF48B7"
 			rewards: [
 				{
-					id: "680023E12E286D46"
-					item: {
-						Count: 1
-						id: "minecraft:lingering_potion"
-						tag: {
-							Potion: "minecraft:strong_healing"
-						}
-					}
+					id: "5C7FF01FFFD849C2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "324FBE2111138FE2"
+					item: "cataclysm:void_assault_shoulder_weapon"
 					type: "item"
 				}
 				{
-					id: "4152ED8EDCB9B959"
-					type: "xp"
-					xp: 50
+					id: "4881017FCB540B07"
+					item: "cataclysm:void_core"
+					type: "item"
 				}
 			]
-			shape: "gear"
-			size: 2.0d
+			shape: "pentagon"
+			size: 1.0d
 			tasks: [
 				{
 					id: "4FBA015002DAA2FF"
@@ -2865,151 +2854,26 @@
 					type: "structure"
 				}
 				{
-					dimension: "minecraft:the_end"
-					icon: "minecraft:end_stone"
-					id: "19F44C179677561E"
-					type: "dimension"
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:void_core"
+					id: "27078DD1737B8E69"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:gauntlet_of_guard"
+					id: "090C39F3B0DA49D5"
+					type: "kill"
+					value: 1L
 				}
 			]
-			title: "Locate the Ruined Citadel"
-			x: 7.0d
-			y: 11.5d
+			title: "Locate and Conquer the Ruined Citadel"
+			x: 8.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["285453E58AFF48B7"]
-			description: [
-				"The Ruined Citadel is littered with treasure, its halls lined with forgotten riches. There are loot chests filled with gear and even solid blocks of diamond and gold just waiting to be claimed."
-				""
-				"But such wealth is never left unguarded. As you plunder the Citadel, beware the Ender Golems, ever watchful and ready to strike you down."
-				""
-				"Once you've looted to your heart's content, click the checkmark to proceed."
-				""
-				"{image:ftb:textures/ruined_citadel_loot.png width:200 height:120 align:center}"
-			]
-			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				id: "lootr:trophy"
-				tag: { }
-			}
-			id: "5FFF41B9B9D5FA13"
-			rewards: [
-				{
-					id: "26A19E16DAE55D48"
-					item: {
-						Count: 1
-						id: "ends_delight:grilled_shulker_block"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "48AA73699C5179B0"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "0BF5E96F7305938D"
-				title: "Loot Some Chests!"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["5FFF41B9B9D5FA13"]
-			description: [
-				"Your pillaging does not go unnoticed. As you round the corner the Ender Golem awakens. You must defeat it to prove yourself worthy of pressing deeper into the Citadel. "
-				""
-				"From its remains you will claim a Void Core, a rare material said to be essential in crafting the Forge Rocket Nose Cone."
-				""
-				"{image:ftb:textures/ender_golem.png width:175 height:175 align:center}"
-			]
-			icon: {
-				Count: 1
-				id: "cataclysm:ender_golem_spawn_egg"
-				tag: { }
-			}
-			id: "326B4A7C0547EA69"
-			rewards: [
-				{
-					count: 2
-					id: "13E7BA65F552DE0C"
-					item: {
-						Count: 1
-						id: "ends_delight:assorted_salad"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "412DB575B16659B9"
-					type: "xp"
-					xp: 250
-				}
-			]
-			tasks: [{
-				entity: "cataclysm:ender_golem"
-				icon: {
-					Count: 1
-					id: "cataclysm:ender_golem_spawn_egg"
-					tag: { }
-				}
-				id: "6DCA44BBBFBCAE92"
-				title: "Eliminate the Ender Golem"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Eliminate the Ender Golem"
-			x: 7.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["326B4A7C0547EA69"]
-			description: [
-				"Deep within the Citadel stands the Ender Guardian, a towering foe strong enough to withstand the mightiest blows. Many have faced it... none have returned. "
-				""
-				"The Ender Guardian’s attacks are brutal. It can send you flying into the air, rush through the arena with a devastating charge, and call upon Void Runes that unleash blasts of energy. At half health, it will shatter the very floor of the arena, dragging you into a lower level where the battle rages on."
-				""
-				"Should you be victorious, the Guardian will fall and drop the Gauntlet of the Guard. This relic grants you the ability to construct the Tier 5 Rocket, the key to advancing beyond the End."
-				""
-				"{image:ftb:textures/ender_guardian.png width:200 height:120 align:center}"
-			]
-			id: "01281CDF6BEF857C"
-			rewards: [
-				{
-					id: "07EEA470ED5E8883"
-					item: {
-						Count: 1
-						id: "cataclysm:gauntlet_of_guard"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "503352B581A1D839"
-					type: "xp"
-					xp: 500
-				}
-			]
-			tasks: [{
-				entity: "cataclysm:ender_guardian"
-				icon: {
-					Count: 1
-					id: "cataclysm:gauntlet_of_guard"
-					tag: { }
-				}
-				id: "4AC8C4CB4F37FB7C"
-				title: "Defeat the Ender Guardian"
-				type: "kill"
-				value: 1L
-			}]
-			title: "Defeat the Ender Guardian"
-			x: 12.0d
-			y: 14.5d
-		}
-		{
+			dependencies: ["22ADB76FDC911F77"]
 			description: [
 				"Hidden within the swirling void of the &5End Dimension&r, the &dVent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lIrradium&r-a radiant resource found nowhere else in the multiverse."
 				""
@@ -3039,10 +2903,11 @@
 				type: "observation"
 			}]
 			title: "Unleashing Endlight Energy"
-			x: 10.0d
+			x: 9.5d
 			y: 11.0d
 		}
 		{
+			dependencies: ["22ADB76FDC911F77"]
 			description: [
 				"Lurking in the &5outer reaches of the End Dimension&r, the &8Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lMalachite&r-if you dare to awaken it."
 				""
@@ -3072,10 +2937,11 @@
 				type: "observation"
 			}]
 			title: "Awakening the Gneiss Below"
-			x: 13.0d
+			x: 11.5d
 			y: 11.0d
 		}
 		{
+			dependencies: ["22ADB76FDC911F77"]
 			description: [
 				"These stone-white relics rest in stillness across the void, untouched by time yet filled with untapped potential. The &fVent&r -while seemingly inert-is one of the final pieces in your industrial arsenal."
 				""
@@ -3105,7 +2971,7 @@
 				type: "observation"
 			}]
 			title: "Whispers of the Noxrock Core"
-			x: 11.5d
+			x: 10.5d
 			y: 11.0d
 		}
 		{
@@ -3276,6 +3142,7 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "7D7D42246BB41CB9"
 				title: "Eyes of the Deep Dark"
@@ -3283,6 +3150,61 @@
 			}]
 			x: -6.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			icon: "unusualend:warped_end_stone"
+			id: "22ADB76FDC911F77"
+			shape: "pentagon"
+			tasks: [{
+				id: "21B9B5A1D60077BA"
+				title: "End Resource Vents"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			icon: "ad_astra:pink_flag"
+			id: "7A752AF0D3E9431F"
+			shape: "pentagon"
+			tasks: [{
+				id: "28F81862F5DA1162"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			title: "End Structures"
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			id: "699FEE9775A89BE5"
+			shape: "pentagon"
+			tasks: [{
+				id: "0BBE04FB866F4256"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			title: "Tier 5 Rocket Parts"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["699FEE9775A89BE5"]
+			id: "4E10DE76A5C435BA"
+			tasks: [{
+				id: "237A4D488DE37ECD"
+				item: {
+					Count: 1
+					id: "ad_astra_rocketed:tier_5_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
 		}
 	]
 	title: "Basic Dimensions"
