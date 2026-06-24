@@ -4802,6 +4802,7 @@
 				""
 				"A true engineer works smarter, not harder."
 			]
+			icon: "toms_storage:ts.storage_terminal"
 			id: "1732D4CD99D8D34C"
 			rewards: [
 				{
@@ -4878,6 +4879,7 @@
 				""
 				"It keeps them available wherever they're needed."
 			]
+			icon: "toms_storage:ts.wireless_terminal"
 			id: "3D6BB5B244F2FB32"
 			rewards: [
 				{
@@ -4994,6 +4996,7 @@
 				""
 				"After all, the difference between a messy warehouse and an industrial empire is organization."
 			]
+			icon: "toms_storage:ts.item_filter"
 			id: "7EB7D2F926E15F51"
 			rewards: [
 				{
