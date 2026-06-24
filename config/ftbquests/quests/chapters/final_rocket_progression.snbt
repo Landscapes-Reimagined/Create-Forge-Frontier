@@ -228,6 +228,11 @@
 			]
 			hide_dependency_lines: true
 			id: "20F05FB6BA144DA0"
+			rewards: [{
+				id: "54D8850A16152F91"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3AC0B6F750EB5591"
 				item: "forge_frontier:forge_rocket_nose_cone"
@@ -252,6 +257,11 @@
 			]
 			hide_dependency_lines: true
 			id: "6FD657A15F92CA16"
+			rewards: [{
+				id: "381FF5492F302956"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "64B75E8D1CC47D75"
 				item: "forge_frontier:forge_rocket_casing"
@@ -277,6 +287,11 @@
 			]
 			hide_dependency_lines: true
 			id: "061009F5566F4B61"
+			rewards: [{
+				id: "7CB089353320D529"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 2L
 				id: "598216C90F7A9CB8"
@@ -303,6 +318,11 @@
 			]
 			hide_dependency_lines: true
 			id: "0FDC6A34028ACA9D"
+			rewards: [{
+				id: "26209B16675ABCDA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 3L
 				id: "537EAA4B04DBA0CC"
@@ -329,6 +349,11 @@
 			]
 			hide_dependency_lines: true
 			id: "3A504DD3A5170FFA"
+			rewards: [{
+				id: "5E97CA3BD2C29C48"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 4L
 				id: "533A387063E6A3D8"
@@ -355,6 +380,11 @@
 			]
 			hide_dependency_lines: true
 			id: "00B3222F85844A67"
+			rewards: [{
+				id: "101A4634BA9F810D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 5L
 				id: "3F2A235E3D3C78C9"
@@ -381,6 +411,11 @@
 			]
 			hide_dependency_lines: true
 			id: "71D802D7D38AF882"
+			rewards: [{
+				id: "6423D4AD4E07742D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 6L
 				id: "4892AB447E3943AB"
@@ -407,6 +442,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5DC4F747D9DBECD5"
+			rewards: [{
+				id: "5ECE002BE6CC3AAF"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 7L
 				id: "547DA044A082F945"
@@ -433,6 +473,11 @@
 			]
 			hide_dependency_lines: true
 			id: "3F3C7BD6B4D4CD6D"
+			rewards: [{
+				id: "411377DAA99124B9"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 9L
 				id: "551CD76892062A00"
@@ -459,6 +504,11 @@
 			]
 			hide_dependency_lines: true
 			id: "65B36D176068B345"
+			rewards: [{
+				id: "5F85ACC00458E28B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 8L
 				id: "56C6F5BABF80AA7E"
@@ -485,6 +535,11 @@
 			]
 			hide_dependency_lines: true
 			id: "71EFAE0D372D5B0E"
+			rewards: [{
+				id: "5CDA21B67D3A1155"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 10L
 				id: "608314ABD1FA9577"
@@ -511,6 +566,11 @@
 			]
 			hide_dependency_lines: true
 			id: "3B33D45AB5EE4F6C"
+			rewards: [{
+				id: "2BE4CD04B526F2E7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 11L
 				id: "7F9FAE35C1544C0A"
@@ -537,6 +597,11 @@
 			]
 			hide_dependency_lines: true
 			id: "2E9CD106979B53E9"
+			rewards: [{
+				id: "7CBCF6E0B5631F7C"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 12L
 				id: "10815CBA7AC759A2"
@@ -563,6 +628,11 @@
 			]
 			hide_dependency_lines: true
 			id: "49D9B48B25A4A62F"
+			rewards: [{
+				id: "09C8CD8CDAC3908D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 13L
 				id: "21E168F343D639CB"
@@ -589,6 +659,11 @@
 			]
 			hide_dependency_lines: true
 			id: "594EEFC863A734D8"
+			rewards: [{
+				id: "0F327AB6C02F157B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 14L
 				id: "669300C00A32FEC9"
@@ -615,6 +690,11 @@
 			]
 			hide_dependency_lines: true
 			id: "335C4EED4427D84F"
+			rewards: [{
+				id: "397A529446AEB51F"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 16L
 				id: "064B150D1750BF56"
@@ -641,6 +721,11 @@
 			]
 			hide_dependency_lines: true
 			id: "153338FE8E3AABB7"
+			rewards: [{
+				id: "60BAFC44260D4CFB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 15L
 				id: "27D6C1167E850BC8"
@@ -667,6 +752,11 @@
 			]
 			hide_dependency_lines: true
 			id: "1370D9EC058E1497"
+			rewards: [{
+				id: "5471162BC67EA20E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 17L
 				id: "73D1D1BCB1EE4CB6"
@@ -693,6 +783,11 @@
 			]
 			hide_dependency_lines: true
 			id: "6FE67C581C1C498F"
+			rewards: [{
+				id: "20673CAD66D9E94A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 18L
 				id: "303C34DE3E995571"
@@ -718,6 +813,11 @@
 			]
 			hide_dependency_lines: true
 			id: "7B5C06E2EFBDDAFC"
+			rewards: [{
+				id: "29EF76F9DD1E26C0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "78B35BBFB51EF003"
 				item: "forge_frontier:forge_rocket_door"
@@ -728,6 +828,11 @@
 		}
 		{
 			id: "1B6C9F5CFC397765"
+			rewards: [{
+				id: "0910F05E5149E94E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "702FD69EA9A78A1B"
 				item: {
@@ -762,6 +867,11 @@
 			]
 			hide_dependency_lines: true
 			id: "33FD946C9EF7394E"
+			rewards: [{
+				id: "0BCBB2B5126E0D4B"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "17C94250ED87EB3F"
 				item: "forge_frontier:forge_rocket_core"
@@ -785,6 +895,11 @@
 			]
 			hide_dependency_lines: true
 			id: "238FB229AE099112"
+			rewards: [{
+				id: "122EC188B0C1E434"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "385308B3B04A14F5"
 				item: "forge_frontier:adaptive_reinforcement_matrix"
@@ -808,6 +923,11 @@
 			]
 			hide_dependency_lines: true
 			id: "0E88DBC1E5E7BBF5"
+			rewards: [{
+				id: "5C59E7FC0FE6E74A"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "2FA5D2C45EA7C7ED"
 				item: "forge_frontier:arcane_calibration_matrix"
@@ -831,6 +951,11 @@
 			]
 			hide_dependency_lines: true
 			id: "13569CE6B0C6A347"
+			rewards: [{
+				id: "5FA906D31C6BE546"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3BA9663CB49E8EB8"
 				item: "forge_frontier:culinary_life_support_matrix"
@@ -854,6 +979,11 @@
 			]
 			hide_dependency_lines: true
 			id: "32C70FAB07E7B11F"
+			rewards: [{
+				id: "79A041A58ABD3C28"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "33E0F996DCE39E80"
 				item: "forge_frontier:forge_rocket_tank"
@@ -903,6 +1033,11 @@
 			]
 			hide_dependency_lines: true
 			id: "1789BEEF548A321E"
+			rewards: [{
+				id: "0AAB9CDFBFBA9584"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 3L
 				id: "2138A03BE5F5EBC3"
@@ -928,6 +1063,11 @@
 			]
 			hide_dependency_lines: true
 			id: "135DA211A3F2E975"
+			rewards: [{
+				id: "761022401999E3F3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "258B8AA1F0FAD5DC"
 				item: "forge_frontier:forge_rocket_fin"
@@ -952,6 +1092,11 @@
 			]
 			hide_dependency_lines: true
 			id: "66BA56EEB0DD010D"
+			rewards: [{
+				id: "42DC1F26E9243353"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 2L
 				id: "4443104031E8DECB"
@@ -977,6 +1122,11 @@
 			]
 			hide_dependency_lines: true
 			id: "5D922D0AF1BA2919"
+			rewards: [{
+				id: "45E3C68F0E1C247D"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 3L
 				id: "2F9B110748EF85C0"
@@ -1002,6 +1152,11 @@
 			]
 			hide_dependency_lines: true
 			id: "63F32DF9AC5AFA34"
+			rewards: [{
+				id: "07E1C48A473F4954"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				count: 4L
 				id: "32D5E22EE201AFF9"
@@ -1027,6 +1182,11 @@
 			]
 			hide_dependency_lines: true
 			id: "64B1081036A47CBD"
+			rewards: [{
+				id: "7FA3E77BE3E2E0A0"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "1541BD0D54A43B32"
 				item: "forge_frontier:forge_rocket_engine"
