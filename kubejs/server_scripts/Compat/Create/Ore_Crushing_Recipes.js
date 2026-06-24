@@ -26,7 +26,6 @@ ServerEvents.recipes(event => {
         ['minecraft:deepslate_coal_ore', 'minecraft:cobbled_deepslate'],
         ['deeperdarker:gloomslate_coal_ore', 'deeperdarker:cobbled_gloomslate'],
         ['deeperdarker:sculk_stone_coal_ore', 'deeperdarker:cobbled_sculk_stone'],
-        ["phantasm:raw_purpur_coal_ore", "endelurgy:raw_purpur_block"],
         ['ad_astra:glacio_coal_ore', 'ad_astra:glacio_cobblestone'],
         ['ad_astra:venus_coal_ore', 'ad_astra:venus_cobblestone'],
         ["enhanced_ore_variety:granite_coal_ore", 'minecraft:granite'],
@@ -53,7 +52,6 @@ ServerEvents.recipes(event => {
         ["enhanced_ore_variety:andesite_iron_ore", 'minecraft:andesite'],
         ["enhanced_ore_variety:tuff_iron_ore", "minecraft:tuff"],
         ["enhanced_ore_variety:blackstone_iron_ore", "minecraft:blackstone"],
-        ["phantasm:cirite_iron_ore", "phantasm:cirite"],
         ["ad_astra:moon_iron_ore", "ad_astra:moon_cobblestone"],
         ["alexscaves:galena_iron_ore", "alexscaves:galena"],
       ]

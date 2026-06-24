@@ -13,7 +13,6 @@ ServerEvents.recipes(event =>
                 { type: 'mangrove', mod: 'minecraft'},
                 { type: 'cherry', mod: 'minecraft'},
                 { type: 'bamboo', mod: 'minecraft'},
-                { type: 'pream', mod: 'phantasm'},
                 { type: 'aeronos', mod: 'ad_astra'},
                 { type: 'strophar', mod: 'ad_astra'},
                 { type: 'glacian', mod: 'ad_astra'},
