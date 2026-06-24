@@ -3195,6 +3195,7 @@
 		{
 			dependencies: ["638EF7DB16108237"]
 			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of the &bDeep Dark progression."]
+			hide_dependent_lines: true
 			icon: "minecraft:sculk"
 			id: "130260CCAEEF6F7C"
 			rewards: [{
@@ -3214,6 +3215,7 @@
 		{
 			dependencies: ["7964AB0D39902EFA"]
 			description: ["As you journey across the &eEnd&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
 			icon: "unusualend:warped_end_stone"
 			id: "22ADB76FDC911F77"
 			rewards: [{
@@ -3419,6 +3421,7 @@
 				""
 				"Your journey into Alex's Caves begins here."
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_5_rocket"
