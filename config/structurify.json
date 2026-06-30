@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.25",
-  "config_datetime": "2026-06-23_02-50-22",
+  "config_version": "2.0.28",
+  "config_datetime": "2026-06-30_04-51-20",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -23,6 +23,14 @@
     }
   ],
   "structures": [
+    {
+      "name": "minecraft:bastion_remnant",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "minecraft:mansion",
+      "terrain_adaptation": "beard_box"
+    },
     {
       "name": "ad_astra:oil_well",
       "is_disabled": true
@@ -107,6 +115,10 @@
       "blacklisted_biomes": [
         "incendium:quartz_flats"
       ],
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "incendium:piglin_village",
       "terrain_adaptation": "beard_box"
     },
     {
