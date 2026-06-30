@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.19",
-  "config_datetime": "2026-03-13_14-41-49",
+  "config_version": "2.0.25",
+  "config_datetime": "2026-06-23_01-39-53",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -25,27 +25,17 @@
   "structures": [
     {
       "name": "ad_astra:oil_well",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
+      "is_disabled": true
     },
     {
       "name": "ad_astra_more_structures:abandoned_base",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "ad_astra:glacio_ice_peaks",
         "ad_astra:glacio_snowy_barrens"
-      ],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
+      ]
     },
     {
       "name": "ad_astra_more_structures:mystical_tree",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "ad_astra:lunar_wastelands",
         "ad_astra:martian_canyon_creek",
@@ -53,14 +43,10 @@
         "ad_astra:martian_wastelands",
         "ad_astra:mercury_deltas",
         "ad_astra:venus_wastelands"
-      ],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
+      ]
     },
     {
       "name": "ad_astra_more_structures:rocket_launch_t1",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
       "blacklisted_biomes": [
         "ad_astra:glacio_ice_peaks",
         "ad_astra:glacio_snowy_barrens",
@@ -70,131 +56,79 @@
         "ad_astra:martian_wastelands",
         "ad_astra:mercury_deltas",
         "ad_astra:venus_wastelands"
-      ],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
+      ]
     },
     {
       "name": "create_pillagers_arise:createpillagerblimp",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none",
-      "max_distance_from_center": 20,
+      "terrain_adaptation": "beard_thin",
       "max_horizontal_distance_from_center": 128,
       "max_vertical_distance_from_center": 128
     },
     {
       "name": "create_structures_arise:create_copper_statue",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
+      "is_disabled": true
     },
     {
       "name": "create_structures_arise:createairdrop",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
+      "is_disabled": true
     },
     {
       "name": "create_structures_arise:createlittleman",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
+      "is_disabled": true
     },
     {
       "name": "create_structures_arise:createminiskyvillage",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
+      "is_disabled": true
     },
     {
       "name": "create_structures_arise:obsidiantemple",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_box"
+      "is_disabled": true
     },
     {
       "name": "create_structures_arise:pillagersteampunkairship",
-      "is_disabled": false,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none",
-      "max_distance_from_center": 20,
       "max_horizontal_distance_from_center": 128,
       "max_vertical_distance_from_center": 128
     },
     {
       "name": "idas:ars_nouveau/archmages_tower",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
+      "is_disabled": true
     },
     {
       "name": "idas:iceandfire/dread_citadel",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "beard_thin"
+      "is_disabled": true
     },
     {
       "name": "idas:iceandfire/sirens_cove",
-      "is_disabled": true,
-      "whitelisted_biomes": [],
-      "blacklisted_biomes": [],
-      "step": "surface_structures",
-      "terrain_adaptation": "none"
+      "is_disabled": true
     },
     {
       "name": "incendium:abandoned_tower",
-      "is_disabled": false,
       "whitelisted_biomes": [
         "luminous_nether:fungal_plains"
       ],
       "blacklisted_biomes": [
         "incendium:quartz_flats"
       ],
-      "step": "underground_decoration",
       "terrain_adaptation": "beard_box"
     },
     {
       "name": "incendium:quartz_kitchen",
-      "is_disabled": false,
       "whitelisted_biomes": [
         "minecraft:soul_sand_valley"
       ],
       "blacklisted_biomes": [
         "incendium:quartz_flats"
       ],
-      "step": "underground_decoration",
-      "terrain_adaptation": "none"
+      "terrain_adaptation": "beard_box"
     },
     {
       "name": "incendium:ruined_lab",
-      "is_disabled": false,
       "whitelisted_biomes": [
         "luminous_nether:ash_forest"
       ],
       "blacklisted_biomes": [
         "incendium:withered_forest"
-      ],
-      "step": "underground_decoration",
-      "terrain_adaptation": "beard_thin"
+      ]
     }
   ],
   "structure_sets": [
@@ -438,5 +372,6 @@
         "idas:ancient_mines": 10
       }
     }
-  ]
+  ],
+  "structure_template_pools": []
 }

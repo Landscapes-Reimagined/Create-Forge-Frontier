@@ -1,0 +1,4 @@
+#Number of cooldown ticks after the glider flaps its wings.
+#Range: 20 ~ 1200
+coolDownBoostTicks = 40
+

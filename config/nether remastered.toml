@@ -2,6 +2,10 @@
 [General]
 	#Enable/Disable consuming of the seal when used.
 	"Consume Seal" = true
+	#Displays a message when a player tries to enter the nether without first using a seal.
+	"Unworthy Message" = true
+	#Displays a message when consuming the seal.
+	"Seal Consumption Messages" = true
 
 ["Nether Essence Drops"]
 	#Mobs that drop nether essence.

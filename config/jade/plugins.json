@@ -58,9 +58,6 @@
   "create_mechanical_chicken": {
     "data": true
   },
-  "cagedmobs": {
-    "cagedmobs_jade": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -99,19 +96,11 @@
   "balm": {
     "jade": true
   },
-  "create_mobile_packages": {
-    "bee_port": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
   "jadeaddons.lootr": {
     "info": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
   },
   "easy_villagers": {
     "villager": true,

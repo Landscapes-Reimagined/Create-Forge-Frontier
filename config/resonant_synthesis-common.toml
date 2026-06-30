@@ -6,3 +6,15 @@
 	#Range: 0.0 ~ 0.2
 	othersideSpeedBonus = 0.07
 
+["Deeper Press Settings"]
+	#Speed multiplier for Deeper Press (how many times faster than regular press)
+	#Default: 2 (2x speed = 50% processing time)
+	#Set to 1 for normal speed, 3 for 3x speed, etc.
+	#Range: 1 ~ 10
+	deeperPressSpeedMultiplier = 2
+	#Stress multiplier for Deeper Press (lower = more efficient)
+	#Default: 0.5 (uses 50% of normal SU)
+	#Set to 1.0 for normal stress, 0.25 for 4x efficiency, etc.
+	#Range: 0.1 ~ 2.0
+	deeperPressStressMultiplier = 0.5
+

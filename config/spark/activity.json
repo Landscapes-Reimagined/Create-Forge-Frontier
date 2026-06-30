@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "M0nkeyPr0grammer",
-      "uniqueId": "3230493c-a1c6-4005-885c-033dbc72681b"
-    },
-    "time": 1776760816611,
-    "type": "Profiler (live)",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/sJcZDuapl1"
-    }
-  }
-]
+[]

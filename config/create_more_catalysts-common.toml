@@ -1,0 +1,227 @@
+
+[CoreCcontent]
+
+	[CoreCcontent.WitheringFan]
+		#Enable Batch Withering Fan
+		enableWitheringFan = true
+		#Batch Withering entity transformation list, format: input_entity_id->output_entity_id
+		witheringEntityTransforms = ["minecraft:skeleton->minecraft:wither_skeleton"]
+		#Batch Withering entity healing list and amount, format: entity_id->heal_amount
+		witheringHealEntities = ["minecraft:wither->10.0", "minecraft:wither_skeleton->2.0"]
+		#Batch Withering potion effects to apply, format: effect_id duration amplifier
+		witheringPotionEffects = ["minecraft:wither 100 0", ""]
+
+	[CoreCcontent.SnowFlowFan]
+		#Enable Batch Snow Flow Fan
+		enableSnowFlowFan = true
+		#Batch Snow Flow entity transformation list, format: input_entity_id->output_entity_id
+		snowFlowEntityTransforms = ["minecraft:skeleton->minecraft:stray", "minecraft:villager->minecraft:snow_golem"]
+		#Batch Snow Flow entity healing list and amount, format: entity_id->heal_amount
+		snowFlowHealEntities = ["minecraft:stray->2.0", "minecraft:snow_golem->4.0"]
+		#Batch Snow Flow potion effects to apply, format: effect_id duration amplifier
+		snowFlowPotionEffects = ["minecraft:slowness 120 0", ""]
+
+	[CoreCcontent.PurifyingFan]
+		#Enable Batch Purifying Fan
+		enablePurifyingFan = true
+		#Whether Batch Purifying removes negative effects from entities
+		purifyingRemoveNegativeEffects = true
+		#Batch Purifying entity transformation list, format: input_entity_id->output_entity_id
+		purifyingEntityTransforms = ["minecraft:zombie_villager->minecraft:villager", "minecraft:vex->minecraft:allay", "minecraft:hoglin->minecraft:pig", "minecraft:ravager->minecraft:cow", "minecraft:elder_guardian->minecraft:guardian", "minecraft:vindicator->minecraft:villager", "minecraft:phantom->minecraft:bat", "minecraft:zombie_horse->minecraft:horse", "minecraft:endermite->minecraft:silverfish"]
+		#Batch Purifying entity healing list and amount, format: entity_id->heal_amount
+		purifyingHealEntities = ["minecraft:villager->2.0", ""]
+		#Batch Purifying potion effects to apply, format: effect_id duration amplifier
+		purifyingPotionEffects = ["minecraft:regeneration 120 0", ""]
+
+	[CoreCcontent.SculkingFan]
+		#Enable Batch Sculking Fan
+		enableSculkingFan = true
+		#Batch Sculking entity transformation list, format: input_entity_id->output_entity_id
+		sculkingEntityTransforms = ["minecraft:iron_golem'->minecraft:warden", ""]
+		#Batch Sculking entity healing list and amount, format: entity_id->heal_amount
+		sculkingHealEntities = ["minecraft:warden->10.0", ""]
+		#Batch Sculking potion effects to apply, format: effect_id duration amplifier
+		sculkingPotionEffects = ["minecraft:darkness 80 0", "minecraft:blindness 80 0"]
+
+	[CoreCcontent.ResonanceFan]
+		#Enable Batch Resonance Fan
+		enableResonanceFan = true
+		#Batch Resonance entity transformation list, format: input_entity_id->output_entity_id
+		resonanceEntityTransforms = ["", ""]
+		#Batch Resonance entity healing list and amount, format: entity_id->heal_amount
+		resonanceHealEntities = ["", ""]
+		#Batch Resonance potion effects to apply, format: effect_id duration amplifier
+		resonancePotionEffects = ["", ""]
+
+	[CoreCcontent.SandBlowFan]
+		#Enable Batch Sand Blow Fan
+		enableSandBlowFan = true
+		#Batch Sand Blow entity transformation list, format: input_entity_id->output_entity_id
+		sandBlowEntityTransforms = ["minecraft:zombie->minecraft:husk", ""]
+		#Batch Sand Blow entity healing list and amount, format: entity_id->heal_amount
+		sandBlowHealEntities = ["minecraft:husk->2.0", ""]
+		#Batch Sand Blow potion effects to apply, format: effect_id duration amplifier
+		sandBlowPotionEffects = ["minecraft:slowness 120 0", ""]
+
+	[CoreCcontent.BreathedWindFan]
+		#Enable Batch Breathed Wind Fan
+		enableBreathedWindFan = true
+		#Batch Breathed Wind entity transformation list, format: input_entity_id->output_entity_id
+		breathedWindEntityTransforms = ["", ""]
+		#Batch Breathed Wind entity healing list and amount, format: entity_id->heal_amount
+		breathedWindHealEntities = ["", ""]
+		#Batch Breathed potion effects to apply, format: effect_id duration amplifier
+		breathedPotionEffects = ["", ""]
+
+	[CoreCcontent.ExplodingFan]
+		#Enable Batch Exploding Fan
+		enableExplodingFan = true
+		#Batch Exploding entity transformation list, format: input_entity_id->output_entity_id
+		explodingEntityTransforms = ["", ""]
+		#Batch Exploding entity healing list and amount, format: entity_id->heal_amount
+		explodingHealEntities = ["", ""]
+		#Batch Exploding potion effects to apply, format: effect_id duration amplifier
+		explodingPotionEffects = ["", ""]
+
+	[CoreCcontent.TidalFan]
+		#Enable Batch Tidal Fan
+		enableTidalFan = true
+		#Batch Tidal entity transformation list, format: input_entity_id->output_entity_id
+		tidalEntityTransforms = ["", ""]
+		#Batch Tidal entity healing list and amount, format: entity_id->heal_amount
+		tidalHealEntities = ["", ""]
+		#Batch Tidal potion effects to apply, format: effect_id duration amplifier
+		tidalPotionEffects = ["minecraft:conduit_power 160 0", ""]
+
+	[CoreCcontent.TearFan]
+		#Enable Batch Tear Fan
+		enableTearFan = true
+		#Batch Tear entity transformation list, format: input_entity_id->output_entity_id
+		tearEntityTransforms = ["minecraft:phantom->minecraft:ghast", ""]
+		#Batch Tear entity healing list and amount, format: entity_id->heal_amount
+		tearHealEntities = ["", ""]
+		#Batch Tear potion effects to apply, format: effect_id duration amplifier
+		tearPotionEffects = ["minecraft:blindness 80 0", ""]
+
+	[CoreCcontent.MossifyFan]
+		#Enable Batch Mossify Fan
+		enableMossifyFan = true
+		#Batch Mossify entity transformation list, format: input_entity_id->output_entity_id
+		mossifyEntityTransforms = ["minecraft:skeleton->minecraft:bogged", ""]
+		#Batch Mossify entity healing list and amount, format: entity_id->heal_amount
+		mossifyHealEntities = ["minecraft:bogged->2.0", ""]
+		#Batch Mossify potion effects to apply, format: effect_id duration amplifier
+		mossifyPotionEffects = ["", ""]
+
+	[CoreCcontent.HoneyCoatingFan]
+		#Enable Batch Honey Coating Fan
+		enableHoneyCoatingFan = true
+		#Batch Honey Coating entity transformation list, format: input_entity_id->output_entity_id
+		honeyCoatingEntityTransforms = ["", ""]
+		#Batch Honey Coating entity healing list and amount, format: entity_id->heal_amount
+		honeyCoatingHealEntities = ["minecraft:bee->5.0", ""]
+		#Batch Honey potion effects to apply, format: effect_id duration amplifier
+		honeyPotionEffects = ["", ""]
+
+	[CoreCcontent.ChocolateCoatingFan]
+		#Enable Batch Chocolate Coating Fan
+		enableChocolateCoatingFan = true
+		#Batch Chocolate Coating entity transformation list, format: input_entity_id->output_entity_id
+		chocolateCoatingEntityTransforms = ["", ""]
+		#Batch Chocolate Coating entity healing list and amount, format: entity_id->heal_amount
+		chocolateCoatingHealEntities = ["", ""]
+		#Batch Chocolate potion effects to apply, format: effect_id duration amplifier
+		chocolatePotionEffects = ["", ""]
+
+["Integration Mod"]
+
+	["Integration Mod".SaloutFan]
+		#Enable Batch Salout Fan (Requires Mekanism)
+		enableSaloutFan = true
+		#Batch Salout entity transformation list, format: input_entity_id->output_entity_id
+		saloutEntityTransforms = ["", ""]
+		#Batch Salout entity healing list and amount, format: entity_id->heal_amount
+		saloutHealEntities = ["", ""]
+		#Batch Salout potion effects to apply, format: effect_id duration amplifier
+		saloutPotionEffects = ["", ""]
+
+	["Integration Mod".EtchFan]
+		#Enable Batch Etch Fan (Requires Mekanism)
+		enableEtchFan = true
+		#Batch Etch entity transformation list, format: input_entity_id->output_entity_id
+		etchEntityTransforms = ["", ""]
+		#Batch Etch entity healing list and amount, format: entity_id->heal_amount
+		etchHealEntities = ["", ""]
+		#Batch Etch potion effects to apply, format: effect_id duration amplifier
+		etchPotionEffects = ["minecraft:poison 100 3", "minecraft:mining_fatigue 100 2", "minecraft:weakness 100 1"]
+
+	["Integration Mod".SulfonFan]
+		#Enable Batch Sulfon Fan (Requires Mekanism)
+		enableSulfonFan = true
+		#Batch Sulfon entity transformation list, format: input_entity_id->output_entity_id
+		sulfonEntityTransforms = ["", ""]
+		#Batch Sulfon entity healing list and amount, format: entity_id->heal_amount
+		sulfonHealEntities = ["", ""]
+		#Batch Sulfon potion effects to apply, format: effect_id duration amplifier
+		sulfonPotionEffects = ["", ""]
+
+	["Integration Mod".DehydFan]
+		#Enable Batch Dehyd Fan (Requires Mekanism)
+		enableDehydFan = true
+		#Batch Dehyd entity transformation list, format: input_entity_id->output_entity_id
+		dehydEntityTransforms = ["", ""]
+		#Batch Dehyd entity healing list and amount, format: entity_id->heal_amount
+		dehydHealEntities = ["", ""]
+		#Batch Dehyd potion effects to apply, format: effect_id duration amplifier
+		dehydPotionEffects = ["", ""]
+
+	["Integration Mod".OxidizeFan]
+		#Enable Batch Oxidize Fan (Requires Mekanism)
+		enableOxidizeFan = true
+		#Batch Oxidize entity transformation list, format: input_entity_id->output_entity_id
+		oxidizeEntityTransforms = ["", ""]
+		#Batch Oxidize entity healing list and amount, format: entity_id->heal_amount
+		oxidizeHealEntities = ["", ""]
+		#Batch Oxidize potion effects to apply, format: effect_id duration amplifier
+		oxidizePotionEffects = ["", ""]
+
+	["Integration Mod".ReduceFan]
+		#Enable Batch Reduce Fan (Requires Mekanism)
+		enableReduceFan = true
+		#Batch Reduce entity transformation list, format: input_entity_id->output_entity_id
+		reduceEntityTransforms = ["", ""]
+		#Batch Reduce entity healing list and amount, format: entity_id->heal_amount
+		reduceHealEntities = ["", ""]
+		#Batch Reduce potion effects to apply, format: effect_id duration amplifier
+		reducePotionEffects = ["", ""]
+
+	["Integration Mod".FermentFan]
+		#Enable Batch Ferment Fan (Requires Mekanism Generators)
+		enableFermentFan = true
+		#Batch Ferment entity transformation list, format: input_entity_id->output_entity_id
+		fermentEntityTransforms = ["", ""]
+		#Batch Ferment entity healing list and amount, format: entity_id->heal_amount
+		fermentHealEntities = ["", ""]
+		#Batch Ferment potion effects to apply, format: effect_id duration amplifier
+		fermentPotionEffects = ["", ""]
+
+	["Integration Mod".PreservationFan]
+		#Enable Batch Preservation Fan (Requires Immersive Engineering)
+		enablePreservationFan = true
+		#Batch Preservation entity transformation list, format: input_entity_id->output_entity_id
+		preservationEntityTransforms = []
+		#Batch Preservation entity healing list and amount, format: entity_id->heal_amount
+		preservationHealEntities = ["", ""]
+		#Batch Preservation potion effects to apply, format: effect_id duration amplifier
+		preservationPotionEffects = ["", ""]
+
+	["Integration Mod".CorruptedFan]
+		#Enable Batch Corrupted Fan (Requires Anvilcraft or L2hostility)
+		enableCorruptedFan = true
+		#Batch Corrupted entity transformation list, format: input_entity_id->output_entity_id
+		corruptedEntityTransforms = ["minecraft:pig->minecraft:hoglin", "minecraft:cow->minecraft:ravager", "minecraft:guardian->minecraft:elder_guardian", "minecraft:villager->minecraft:vindicator", "minecraft:allay->minecraft:vex", "minecraft:bat->minecraft:phantom", "minecraft:horse->minecraft:zombie_horse", "minecraft:silverfish->minecraft:endermite"]
+		#Batch Corrupted entity healing list and amount, format: entity_id->heal_amount
+		corruptedHealEntities = ["", ""]
+		#Batch Corrupted potion effects to apply, format: effect_id duration amplifier
+		corruptedPotionEffects = ["minecraft:wither 120 1", ""]
+

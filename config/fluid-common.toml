@@ -10,19 +10,32 @@
 	#Whether gutter outlet can collect world fluid sources from above
 	collectWorldFluid = true
 
-	#Copper Sink settings
-	[gutter_outlet.copper_sink]
-		#Whether the Copper Sink provides infinite water (if false, it's just a normal 2000mB tank)
-		infiniteWater = true
+#Copper Sink settings
+[copper_sink]
+	#Whether the Copper Sink provides infinite water (if false, it's just a normal 2000mB tank)
+	infiniteWater = true
 
-	#Centrifugal Pump settings
-	[gutter_outlet.centrifugal_pump]
-		#Maximum transport distance in blocks for the Centrifugal Pump.
-		#Range: > 1
-		centrifugalPumpRange = 20
+#Communicating Vessel settings
+[communicating_vessel]
+	#Whether infinite fluid sources connected to a Communicating Vessel are rate-limited
+	infiniteSourceRateLimitEnabled = true
+	#Maximum mB per tick transferred from an infinite fluid source through a Communicating Vessel
+	#Range: > 1
+	infiniteSourceRateLimit = 64000
 
-	#Copper Tap Experience Release settings
-	[gutter_outlet.copper_tap_experience]
+#Centrifugal Pump settings
+[centrifugal_pump]
+	#Maximum transport distance in blocks for the Centrifugal Pump.
+	#Range: > 1
+	centrifugalPumpRange = 20
+
+#Copper Tap settings
+[copper_tap]
+	#Whether the Copper Tap uses low speed mode, increasing item filling time to 30 ticks.
+	lowSpeedMode = false
+
+	#Copper Tap experience release settings
+	[copper_tap.experience]
 		#Whether the Copper Tap can release experience orbs when open and no valid target is present.
 		enabled = true
 		#How many mB of experience fluid are consumed per release.
@@ -30,5 +43,11 @@
 		rate = 10
 		#Tick interval between each experience orb release.
 		#Range: 1 ~ 100
-		interval = 1
+		interval = 5
+
+#Can Filler settings
+[can_filler]
+	#Maximum mB of fluid one fluid package can hold. Packages can be created with less than this amount.
+	#Range: 1000 ~ 100000
+	fluidPerPackage = 4000
 

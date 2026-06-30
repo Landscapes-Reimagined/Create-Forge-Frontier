@@ -119,9 +119,6 @@
 			yellow_blossom = true
 			red_blossom = true
 
-		[types.leaves_type.phantasm]
-			pream = true
-
 		[types.leaves_type.ad_astra]
 			glacian = true
 
@@ -133,6 +130,10 @@
 
 		[types.leaves_type.luminous_nether]
 			ash = true
+
+		[types.leaves_type.echovoids]
+			nillow = true
+			chorus_petal = true
 
 	[types.wood_type]
 
@@ -180,9 +181,6 @@
 			willow = true
 			yellow_bioshroom = true
 
-		[types.wood_type.phantasm]
-			pream = true
-
 		[types.wood_type.unusualend]
 			chorus_nest = true
 
@@ -206,6 +204,11 @@
 		[types.wood_type.luminous_nether]
 			mushroom = true
 			withered = true
+
+		[types.wood_type.echovoids]
+			nillow = true
+			magnachorus = true
+			phantotaxite = true
 
 	[types.cake]
 
@@ -243,6 +246,8 @@
 			radrock = true
 			abyssmarine = true
 			guanostone = true
+			limestone = true
+			gingerbread = true
 
 		[types.stone_type.quark]
 			soul_sandstone = true
@@ -255,9 +260,6 @@
 		[types.stone_type.regions_unexplored]
 			argillite = true
 			chalk = true
-
-		[types.stone_type.phantasm]
-			cirite = true
 
 		[types.stone_type.ad_astra]
 			moon_stone = true
@@ -273,6 +275,7 @@
 			gloopstone = true
 			gloopslate = true
 			warped_stone = true
+			citrine = true
 
 		[types.stone_type.endreborn]
 			farstone = true
@@ -289,15 +292,56 @@
 
 		[types.stone_type.luminous_nether]
 			driprot = true
+			fungirrack = true
 
 		[types.stone_type.endelurgy]
 			noxrock = true
 			voidslate = true
 
+		[types.stone_type.neapolitan]
+			chocolate = true
+
 	[types.mud_type]
 
 		[types.mud_type.deeperdarker]
 			sculk_grime = true
+
+		[types.mud_type.chipped]
+			angry_mud = true
+			arrow_mud = true
+			button_mud = true
+			carved_mud = true
+			centered_mud = true
+			chiseled_mud = true
+			crying_mud = true
+			duh_mud = true
+			engraved_mud = true
+			eye_mud = true
+			fancy_mud = true
+			glad_mud = true
+			heart_mud = true
+			horned_mud = true
+			inlayed_mud = true
+			keyhole_mud = true
+			leaning_mud = true
+			pancake_mud = true
+			panelled_mud = true
+			placed_mud = true
+			polished_mud = true
+			quad_mud = true
+			rough_mud = true
+			rune_mud = true
+			sad_mud = true
+			sigil_mud = true
+			smooth_mud = true
+			spiral_mud = true
+			star_mud = true
+			symbol_mud = true
+			unamused_mud = true
+			bordered_mud = true
+			hard_mud = true
+			scaly_mud = true
+			loreful_mud = true
 
 #Disables specific entries
 [entries]
@@ -512,9 +556,6 @@
 			picture_frame = true
 			trellis = true
 
-		[entries.wood_type.copperagebackport]
-			shelf = true
-
 	[entries.stone_type]
 
 		[entries.stone_type.chipped]
@@ -651,6 +692,76 @@
 			smooth_tiles_connecting = true
 			smooth_tiles = true
 			small_tiles = true
+			brick_paving_slab_connecting = true
+			brick_paving_slab = true
+			bordered_slab = true
+			smooth_rotated_bricks_stairs = true
+			bordered_slab_connecting = true
+			path_stairs = true
+			squares_slab = true
+			bordered_stairs_connecting = true
+			diagonal_bricks_slab_connecting = true
+			waves_slab = true
+			diagonal_bricks_stairs = true
+			small_tiles_slab = true
+			rotated_bricks_slab = true
+			brick_paving_stairs = true
+			waves_stairs = true
+			big_tiles_stairs_connecting = true
+			small_tiles_stairs_connecting = true
+			smooth_tiles_stairs = true
+			small_bricks_slab = true
+			big_tiles_slab_connecting = true
+			rotated_bricks_slab_connecting = true
+			brick_pattern_slab_connecting = true
+			smooth_large_tiles_slab_connecting = true
+			smooth_brick_paving_slab_connecting = true
+			smooth_tiles_stairs_connecting = true
+			smooth_large_tiles_stairs_connecting = true
+			tiles_slab_connecting = true
+			smooth_rotated_bricks_slab_connecting = true
+			smooth_large_tiles_slab = true
+			smooth_tiles_slab_connecting = true
+			waves_slab_connecting = true
+			smooth_large_tiles_stairs = true
+			path_slab = true
+			diagonal_bricks_slab = true
+			smooth_brick_paving_stairs = true
+			brick_pattern_stairs = true
+			rotated_bricks_stairs = true
+			smooth_rotated_bricks_slab = true
+			squares_slab_connecting = true
+			smooth_tiles_slab = true
+			squares_stairs = true
+			slated_stairs = true
+			tiles_stairs_connecting = true
+			small_tiles_slab_connecting = true
+			small_bricks_stairs = true
+			small_tiles_stairs = true
+			brick_paving_stairs_connecting = true
+			small_bricks_stairs_connecting = true
+			smooth_rotated_bricks_stairs_connecting = true
+			crushed_stairs = true
+			slated_slab = true
+			diagonal_bricks_stairs_connecting = true
+			path_stairs_connecting = true
+			bordered_stairs = true
+			waves_stairs_connecting = true
+			squares_stairs_connecting = true
+			crushed_slab_connecting = true
+			crushed_slab = true
+			smooth_brick_paving_slab = true
+			tiles_stairs = true
+			smooth_brick_paving_stairs_connecting = true
+			crushed_stairs_connecting = true
+			tiles_slab = true
+			path_slab_connecting = true
+			small_bricks_slab_connecting = true
+			big_tiles_slab = true
+			big_tiles_stairs = true
+			brick_pattern_stairs_connecting = true
+			rotated_bricks_stairs_connecting = true
+			brick_pattern_slab = true
 
 	[entries.mud_type]
 
