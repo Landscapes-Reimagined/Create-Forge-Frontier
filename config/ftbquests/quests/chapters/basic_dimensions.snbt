@@ -2483,7 +2483,7 @@
 		{
 			dependencies: ["47199DA52BCB4384"]
 			description: [
-				"Hidden in the blazing depths of the Nether, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
+				"Hidden in the depths of Luminous Nether biomes, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
 				""
 				"{image:ftb:textures/scorchia_vent.png width:175 height:175 align:center}"
 				""
@@ -2537,7 +2537,7 @@
 		{
 			dependencies: ["47199DA52BCB4384"]
 			description: [
-				"Deep within the Nether’s forgotten reaches lies the &8Debris Vent&r-a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
+				"Deep within the Region's Unexplored Nether Biomes lies the &8Debris Vent&r-a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
 				""
 				"{image:ftb:textures/debris_vent.png width:175 height:175 align:center}"
 				""
@@ -3037,7 +3037,7 @@
 		{
 			dependencies: ["4669B8B378A79459"]
 			description: [
-				"Hidden deep within the caves of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
+				"Hidden deep within the Blooming Caverns of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
 				""
 				"{image:ftb:textures/resonite_vent.png width:175 height:175 align:center}"
 				""
