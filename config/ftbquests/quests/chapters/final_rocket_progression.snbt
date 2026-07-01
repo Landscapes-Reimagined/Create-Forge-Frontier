@@ -5608,21 +5608,21 @@
 		}
 		{
 			description: [
-				"&7Ignitium&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
+				"The &7Dread Bow&r is a required component used in the construction of the &6Forge Rocket Nose Cone&r."
 				""
 				"&lHow to Obtain:&r"
-				"Ignitium is obtained by defeating &cIgnis&r within the Burning Arena on Mercury."
+				"The Dread bow is obtained by crafting ingredients from different mob drops found in the Forlorn Hollows."
 				""
 				"&lNotes:&r"
-				"Need help locating Ignis and summoning the encounter?"
+				"Need help getting to the Forlorn Hollows?"
 				""
-				"{ \"text\": \"Ignis, Guardian of the Burning Arena\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"29B52E50E3FDF75E\" } }"
+				"{ \"text\": \"Forlorn Hollows\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"172EE8617C59F90A\" } }"
 			]
 			id: "6F1455DB0271D79B"
 			rewards: [
 				{
 					id: "0C66601D935420D5"
-					item: "cataclysm:ignitium_ingot"
+					item: "alexscaves:pure_darkness"
 					type: "item"
 				}
 				{
@@ -5633,7 +5633,13 @@
 			]
 			tasks: [{
 				id: "07FA0BFF8B788025"
-				item: "cataclysm:ignitium_ingot"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: -9.5d
