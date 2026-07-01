@@ -919,7 +919,7 @@
 				value: 1L
 			}]
 			title: "Slay the Watcher"
-			x: 20.5d
+			x: 19.5d
 			y: -3.0d
 		}
 		{
@@ -1018,7 +1018,7 @@
 				}
 			]
 			title: "Slay the Forsaken"
-			x: 22.5d
+			x: 21.0d
 			y: -3.0d
 		}
 		{
@@ -1746,7 +1746,7 @@
 				}
 			]
 			title: "Creatures of the Hollows"
-			x: 18.5d
+			x: 18.0d
 			y: -3.0d
 		}
 		{
@@ -1768,6 +1768,239 @@
 			}]
 			x: 16.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["172EE8617C59F90A"]
+			description: [
+				"&7With the first three &6Alex's Caves&r planets now explored, humanity's journey presses even deeper into worlds shaped by ancient power and forgotten civilizations.&r"
+				""
+				"The construction of the &cTier 6 Rocket&r represents the culmination of everything you've accomplished throughout the Abyssal Chasm, Primordial Caves, and Forlorn Hollows. Every prehistoric relic, abyssal artifact, and corrupted resource you've gathered now comes together to create a spacecraft capable of reaching even more extraordinary destinations."
+				""
+				"Your factory has evolved beyond an industrial complex."
+				""
+				"It has become a gateway to entirely new worlds."
+				""
+				"{@pagebreak}"
+				""
+				"&lConstructing the Tier 6 Rocket&r"
+				""
+				"The Tier 6 Rocket is assembled using advanced components crafted from the unique resources of the first Alex's Caves planets. Many of its ingredients require powerful boss drops, rare materials, complex Create automation, and extensive processing chains spanning multiple dimensions."
+				""
+				"By now, your factory should be capable of producing sophisticated components through sequenced assembly, mechanical crafting, metallurgy, and advanced fluid processing."
+				""
+				"Need help crafting a specific rocket component?"
+				""
+				"Consult &6JEI&r for detailed recipes, ingredient requirements, and production chains for every part used in the Tier 6 Rocket."
+				""
+				"{@pagebreak}"
+				""
+				"Upon completing the Tier 6 Rocket, you will unlock access to the remaining &6Alex's Caves&r planets:"
+				""
+				"* &dCandy Cavity&r"
+				"* &2Toxic Caves&r"
+				"* &9Magnetic Caves&r"
+				""
+				"Each of these worlds introduces entirely new mechanics, powerful resources, dangerous creatures, and unique progression paths required to continue your journey toward constructing the &5Forge Rocket&r."
+				""
+				"New discoveries—and even greater dangers—await."
+				""
+				"{@pagebreak}"
+				""
+				"As your newest spacecraft lifts from the launch pad, you leave the prehistoric worlds behind and set your course toward the final frontiers of Alex's Caves."
+				""
+				"Every boss you've defeated, every factory you've expanded, and every resource you've automated has prepared you for this moment."
+				""
+				"The path toward the &5Forge Rocket&r is now within reach."
+				""
+				"The final expedition begins now."
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_6_rocket"
+				tag: { }
+			}
+			id: "0273B1FC084BD73A"
+			rewards: [
+				{
+					count: 3
+					id: "63CB855841C68A2F"
+					item: "forge_frontier:primal_magma_rocket_casing"
+					type: "item"
+				}
+				{
+					id: "5A5EFAF820A1BC17"
+					item: "alexscavesdelight:extra_sugar_rush_block"
+					type: "item"
+				}
+				{
+					id: "5AF7912E3B4CB3BE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "518E795A87448BE1"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1B99223A37EAA987"
+					item: { Count: 20, id: "forge_frontier:primal_magma_rocket_casing" }
+					type: "item"
+				}
+				{
+					id: "0CAA42DE125F8B01"
+					item: "forge_frontier:magmatic_reinforcement_core"
+					type: "item"
+				}
+				{
+					id: "0EB5997F5132E2DC"
+					item: "forge_frontier:thermal_shield_matrix"
+					type: "item"
+				}
+				{
+					id: "66B12EB332630F85"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4FD7864B22CA4B40"
+					item: "forge_frontier:solar_regulation_array"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "076D1BA3F7D67322"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "426C5F2CEF1B3EDA"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "4C04F6E7F15F251A"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
+			title: "Tier 6 Rocket Parts"
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0273B1FC084BD73A"]
+			description: [
+				"&7With the &cTier 6 Rocket&r complete, your journey enters its final chapter as you prepare to explore the last three worlds of &6Alex's Caves&r.&r"
+				""
+				"Congratulations, explorer! You have unlocked access to &dCandy Cavity&r, &2Toxic Caves&r, and &9Magnetic Caves&r. These extraordinary planets introduce entirely new mechanics, advanced resources, and unique progression systems that will test every skill you've developed throughout your adventure."
+				""
+				"The road to the &5Forge Rocket&r begins here."
+				""
+				"{@pagebreak}"
+				""
+				"&lCandy Cavity&r"
+				""
+				"Beneath layers of sugary terrain lies the whimsical yet surprisingly dangerous &dCandy Cavity&r."
+				""
+				"Within this colorful world you will discover:"
+				""
+				"* &oUnique food ingredients&r used in advanced cooking."
+				"* &oGingerbread Men&r willing to trade valuable rewards."
+				"* &oSweet-themed resources&r required for late-game progression."
+				"* Rare crafting materials essential for the &6Culinary Life Support Matrix&r."
+				""
+				"Don't let its cheerful appearance fool you."
+				""
+				"Even the sweetest worlds hide dangerous secrets."
+				""
+				"{@pagebreak}"
+				""
+				"&lToxic Caves&r"
+				""
+				"The &2Toxic Caves&r are a hazardous world where poisonous swamps, radioactive resources, and dangerous wildlife dominate the landscape."
+				""
+				"Those brave enough to enter will discover:"
+				""
+				"* &oRare chemical resources&r including Sulfur and other industrial materials."
+				"* &oPowerful crafting ingredients&r for advanced engineering."
+				"* Unique mechanics centered around &oPolymer&r, &oAcid&r, and protective equipment."
+				"* Dangerous creatures guarding valuable progression materials."
+				""
+				"Preparation is the difference between survival and contamination."
+				""
+				"{@pagebreak}"
+				""
+				"&lMagnetic Caves&r"
+				""
+				"Hidden beneath towering cliffs lies the &9Magnetic Caves&r, a world shaped by immense magnetic forces and rich mineral deposits."
+				""
+				"Here you will encounter:"
+				""
+				"* &oRare ores&r such as Galena and other specialized metals."
+				"* &oAdvanced metallurgy&r required for powerful alloys."
+				"* Unique geological formations unlike any previous planet."
+				"* Resources essential for late-game automation and Forge Rocket construction."
+				""
+				"Every expedition into the Magnetic Caves brings you one step closer to mastering the most advanced engineering in the pack."
+				""
+				"{@pagebreak}"
+				""
+				"Candy Cavity, Toxic Caves, and Magnetic Caves represent the final worlds of your Alex's Caves expedition."
+				""
+				"Their resources will unlock the last major technologies, complete your Forge Rocket components, and prepare you for the ultimate objective of Create: Forge Frontier."
+				""
+				"The end of your journey is finally within sight."
+				""
+				"Now it's time to build the impossible."
+			]
+			icon: "alexscaves:scarlet_magnet"
+			id: "3CE5D8246A1E4666"
+			rewards: [
+				{
+					count: 3
+					id: "522C5888BBD4A6FE"
+					item: "alexscavesdelight:toxic_glazed_tremorzilla_block"
+					type: "item"
+				}
+				{
+					id: "09F3447A3E2D86FF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "28F23BB90B8017A6"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2EEB9F0A42829CE9"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "08590C2FCA1A2D68"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: -1.5d
 		}
 	]
 	title: "Alex's Caves"
