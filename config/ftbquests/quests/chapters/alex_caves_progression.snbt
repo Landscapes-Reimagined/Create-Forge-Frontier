@@ -188,7 +188,7 @@
 			]
 			title: "Welcome to the Forlorn Hollows"
 			x: 19.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			description: [
@@ -259,7 +259,7 @@
 			]
 			title: "Welcome to the Primordial Caves"
 			x: 1.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			icon: {
@@ -910,6 +910,7 @@
 					xp: 500
 				}
 			]
+			shape: "pentagon"
 			tasks: [{
 				entity: "alexscaves:watcher"
 				icon: "alexscaves:occult_gem"
@@ -988,6 +989,7 @@
 					xp: 500
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					icon: "alexscaves:dark_tatters"
@@ -1719,6 +1721,7 @@
 					xp: 250
 				}
 			]
+			shape: "pentagon"
 			tasks: [
 				{
 					entity: "alexscaves:gloomoth"
