@@ -60,7 +60,7 @@ ServerEvents.recipes(event => {
         ],
         key: {
             C: Ingredient.of("ad_astra:rocket_nose_cone").toJson(),
-            I: Ingredient.of("cataclysm:ignitium_ingot").toJson(),
+            I: Ingredient.of("alexscaves:dreadbow").toJson(),
             D: Ingredient.of("forge_frontier:deep_space_stabilizer_core").toJson(),
             V: Ingredient.of("cataclysm:abyssal_egg").toJson(),
             E: Ingredient.of("forge_frontier:primal_magma_rocket_casing").toJson(),
