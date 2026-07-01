@@ -1971,6 +1971,11 @@
 		{
 			id: "6141BAD50E3492BE"
 			optional: true
+			rewards: [{
+				id: "2F40576576BFC1CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			secret: true
 			shape: "gear"
 			size: 3.0d
@@ -1981,6 +1986,445 @@
 			}]
 			x: -1.0d
 			y: 11.5d
+		}
+		{
+			dependencies: ["6141BAD50E3492BE"]
+			id: "41BEE2ACD8F4F254"
+			rewards: [
+				{
+					count: 16
+					id: "178F903FB9D82553"
+					item: "experienceobelisk:cognitive_flux"
+					type: "item"
+				}
+				{
+					id: "2E69B5478AEBD5AD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "509FAA985266D4CD"
+				item: { Count: 4, id: "experienceobelisk:cognitive_amalgam" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["41BEE2ACD8F4F254"]
+			id: "7B3FB85A0A34D883"
+			rewards: [
+				{
+					id: "00814E3CB3384367"
+					item: {
+						Count: 1
+						id: "experienceobelisk:cognitive_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F91822AEAD78080"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2B70CDD3F9ACCF83"
+				item: "experienceobelisk:cognitive_alloy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7B3FB85A0A34D883"]
+			id: "513CEDA19D71F82C"
+			tasks: [{
+				id: "5C07CE9B34841EAD"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			id: "24B26A59FD9E5CD6"
+			tasks: [{
+				id: "2FBF0F0C026A37D2"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			id: "5311BBD54A367C2D"
+			tasks: [{
+				id: "2DB30C0059811B3D"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			id: "392878964F02EBF1"
+			tasks: [{
+				id: "72A8F9CBDEEE4AC1"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			id: "4AD660E6F370A7B5"
+			tasks: [{
+				id: "2FD2E31C76D62201"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			id: "556893DFE1DA18EC"
+			tasks: [{
+				id: "73724EFA1808C112"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			id: "26F3021264050933"
+			tasks: [{
+				id: "2790DFA5488A9173"
+				item: {
+					Count: 1
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			id: "7A8237626C81EDA1"
+			tasks: [{
+				id: "42AD383EDCE021FD"
+				item: "experienceobelisk:accelerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			id: "0592C54DF2B57D18"
+			tasks: [{
+				id: "6591EA04EB435048"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			id: "7D724F27275BF5C6"
+			tasks: [{
+				id: "452822117D9CE519"
+				item: "experienceobelisk:archivers_bookshelf"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["0592C54DF2B57D18"]
+			id: "043A69B7115AB7FE"
+			tasks: [{
+				block: "minecraft:bookshelf"
+				block_type: 0
+				checkItem: true
+				id: "48BDFE285615C2A1"
+				isItemInteraction: true
+				item: "experienceobelisk:bibliophage"
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["043A69B7115AB7FE"]
+			id: "6E6F387D05330965"
+			tasks: [{
+				id: "3056E23D75780229"
+				item: "experienceobelisk:forgotten_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 19.0d
+		}
+		{
+			id: "0FB45A4B4F2BDCAC"
+			tasks: [{
+				id: "494746DD6D2580FD"
+				item: "experienceobelisk:experience_jelly"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 19.0d
+		}
+		{
+			id: "2271EF8E4463B2D6"
+			rewards: [
+				{
+					count: 2
+					id: "156A319748716468"
+					item: "experienceobelisk:bibliophage"
+					type: "item"
+				}
+				{
+					id: "0DFAC5412A6FBA38"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "78F1DF3382D0EB94"
+				item: "experienceobelisk:fluorescent_agar"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2271EF8E4463B2D6"]
+			id: "0CB61435B17B7A76"
+			rewards: [
+				{
+					count: 4
+					id: "2991A177CA0859C0"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "2EDAF628B579A8CA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				block: "experienceobelisk:fluorescent_agar"
+				block_type: 0
+				checkItem: true
+				id: "3A990BF68E9747D6"
+				isItemInteraction: true
+				item: "experienceobelisk:bibliophage"
+				type: "questsadditions:use"
+				value: 8L
+			}]
+			x: -8.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0FB45A4B4F2BDCAC"]
+			id: "6A6F0540F85969B3"
+			rewards: [
+				{
+					count: 6
+					id: "521A31EBF3AD34DD"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "29828F4E038BCAE5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7FCE108AC40DB9CE"
+				item: "experienceobelisk:insightful_agar"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["6A6F0540F85969B3"]
+			id: "3B156CF051A5DFC0"
+			rewards: [
+				{
+					count: 16
+					id: "6722205922675373"
+					item: "create_enchantment_industry:hyper_experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5DF71658EFCB310D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "0516C99CC546F781"
+				item: "experienceobelisk:extravagant_agar"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 23.0d
+		}
+		{
+			id: "1631C67EA4EB1220"
+			tasks: [{
+				id: "7677DE9BC437056C"
+				item: "experienceobelisk:flask_of_poseidon"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 23.0d
+		}
+		{
+			id: "2BE3879C42F7AB0C"
+			tasks: [{
+				id: "3C3AE4A5E091E75B"
+				item: "experienceobelisk:flask_of_hades"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 20.5d
+		}
+		{
+			id: "333F5A02D64B504A"
+			tasks: [{
+				id: "4B73E86E983BBF64"
+				item: "experienceobelisk:flask_of_chaos"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 22.0d
+		}
+		{
+			id: "45D7E9014C5A7D52"
+			tasks: [{
+				id: "43C1C61EC6831E2D"
+				item: "experienceobelisk:mending_neurogel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 20.5d
+		}
+		{
+			id: "281B17D57747E4A4"
+			tasks: [{
+				id: "50CE3290967440EB"
+				item: "experienceobelisk:daydream_bottle"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 22.0d
+		}
+		{
+			id: "05AED35DDD1D2EED"
+			tasks: [{
+				id: "7DE1284B3D1300EE"
+				item: "experienceobelisk:nightmare_bottle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 23.0d
+		}
+		{
+			id: "462B6229E87FAA19"
+			rewards: [
+				{
+					id: "6CDD4E615685BC6C"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21A8F8FA1C6DB350"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "7CB3FCE9931FF86E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "3EAE522D72AA4773"
+				item: "experienceobelisk:calcarine_matrix"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 22.0d
+		}
+		{
+			id: "596888C6F9193534"
+			tasks: [{
+				id: "69D63DC8245EF449"
+				item: {
+					Count: 1
+					id: "experienceobelisk:transforming_focus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["462B6229E87FAA19"]
+			id: "54B058AC61F7D9B6"
+			tasks: [{
+				id: "49E86419132B9085"
+				item: {
+					Count: 1
+					id: "experienceobelisk:fortuitous_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["462B6229E87FAA19"]
+			id: "1A158727695A13A5"
+			tasks: [{
+				id: "6B83EF73968DEE4A"
+				item: "experienceobelisk:memory_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.5d
 		}
 	]
 	title: "Enchanting"

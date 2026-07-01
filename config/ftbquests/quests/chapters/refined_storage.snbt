@@ -1,0 +1,90 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "37A1080736831E36"
+	icon: "extrastorage:disk_16384k"
+	id: "07C976892BBBECC6"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/refined_storage.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -0.5d
+		y: -11.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "refinedstorage:silicon"
+			id: "45EFAF44704837D5"
+			tasks: [
+				{
+					id: "4A520B69BC46D3C8"
+					item: "forge_frontier:moon_gravel"
+					type: "item"
+				}
+				{
+					id: "47200DBE7816BF01"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "089684A82CFD78E3"
+			tasks: [{
+				id: "7438915FC91C6778"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			id: "667A728D7A64B312"
+			tasks: [{
+				id: "1FD82BA09D4C7029"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "7EEECACB3CF28AE2"
+			tasks: [{
+				id: "531D2C7AE1B9FBE3"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "117BCFE34C41DC49"
+			tasks: [{
+				id: "0869AF020BCBAF6C"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "57E51FFF0CEA6172"
+			tasks: [{
+				id: "23E93B3E33C655E0"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "Refined Storage"
+}
