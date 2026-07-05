@@ -286,6 +286,23 @@
 			y: 7.5d
 		}
 		{
+			description: [
+				"Hidden deep beneath an ancient mountain range lies the &9Magnetic Caves&r, a subterranean world unlike any you've explored before."
+				""
+				"Immense magnetic crystals, floating islands of &8Galena&r, and the remnants of forgotten mining operations fill these caverns, each shaped by forces far beyond ordinary geology. Strange magnetic anomalies influence everything around them, turning even the landscape itself into part of the challenge."
+				""
+				"Every expedition into these caves is as much about understanding the environment as it is surviving it."
+				""
+				"{@pagebreak}"
+				""
+				"The Magnetic Caves are among the richest sources of industrial materials found anywhere in Create: Forge Frontier."
+				""
+				"Powerful ores, rare minerals, and unique magnetic resources found here become essential for advanced metallurgy, Create machinery, and several late-game Forge Rocket components. Mastering these caverns will provide everything needed to complete the final stages of your factory."
+				""
+				"The age of exploration is coming to an end."
+				""
+				"The age of engineering begins here."
+			]
 			icon: {
 				Count: 1
 				id: "alexscaves:telecore"
@@ -294,17 +311,24 @@
 			id: "14077793D0743DF5"
 			shape: "gear"
 			size: 3.0d
-			tasks: [{
-				dimension: "forge_frontier:magnetic_caves"
-				icon: {
-					Count: 1
-					id: "ad_astra_rocketed:tier_6_rocket"
-					tag: { }
+			tasks: [
+				{
+					id: "59ABC1089166EA15"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: { }
+					}
+					type: "item"
 				}
-				id: "67A8EDC62E71543E"
-				title: "Travel to the Magnetic Caves Planet"
-				type: "dimension"
-			}]
+				{
+					dimension: "forge_frontier:magnetic_caves"
+					icon: "alexscaves:energized_galena_neutral"
+					id: "4CB3FF7945345083"
+					type: "dimension"
+				}
+			]
+			title: "Welcome to Magnetic Caves"
 			x: -15.5d
 			y: 7.5d
 		}
@@ -1332,7 +1356,7 @@
 				""
 				"To harness this volatile power, place &la blaze burner&r directly atop the dormant vent and feed it blaze cake. The resulting transformation awakens the vent, charging it with the ability to accept molten input for automated processing."
 				""
-				"Once activated, the proper &dsource fluid&r (revealed in the next quest) will allow you to extract &4Scarlet Neodymrium&r using &lMechanical Extruders&r."
+				"Once activated, &dmolten iron&r will allow you to extract &4Scarlet Neodymrium&r using &lMechanical Extruders&r."
 				""
 				" &7Tame the pulse of magnetism and unleash the might of automation.&r"
 			]
@@ -1344,16 +1368,23 @@
 				xp: 10
 			}]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "1461FFEDE382BC3A"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_neodymrium_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "1461FFEDE382BC3A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_neodymrium_vent"
+					type: "observation"
+				}
+				{
+					id: "5CE9EA2C62B03669"
+					item: "createmetallurgy:molten_iron_bucket"
+					type: "item"
+				}
+			]
 			title: "Pulse of the Magnetic Core"
-			x: -16.5d
-			y: 11.0d
+			x: -16.0d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -1365,7 +1396,7 @@
 				""
 				"To awaken the power within, &lplace a blaze burner on the vent&r and feed it blaze cake. This surge of force will ignite its dormant state, transforming it into an operational conduit for molten infusion."
 				""
-				"Once activated, you’ll need to deliver the correct &dsource fluid&r-explained in the next quest-to begin generating &3Azure Neodymrium&r with &lMechanical Extruders&r."
+				"Once activated, you’ll need to deliver &dmolten iron&r-to begin generating &3Azure Neodymrium&r with &lMechanical Extruders&r."
 				""
 				" &7Stabilize the current. Channel the flow. And craft with the clarity of precision engineering.&r"
 			]
@@ -1377,16 +1408,23 @@
 				xp: 10
 			}]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "0CAB7BA29B5E946A"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_azurnium_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "0CAB7BA29B5E946A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_azurnium_vent"
+					type: "observation"
+				}
+				{
+					id: "2DF394DA708D20D6"
+					item: "createmetallurgy:molten_iron_bucket"
+					type: "item"
+				}
+			]
 			title: "The Echo of Azure Currents"
 			x: -15.0d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -2001,6 +2039,222 @@
 			]
 			x: 22.5d
 			y: -1.5d
+		}
+		{
+			description: [
+				"The laws of nature behave differently within the &9Magnetic Caves&r."
+				""
+				"Towering crystals of &cScarlet&r and &bAzure Neodymium&r generate powerful magnetic fields capable of influencing players wearing iron or netherite equipment. Learning how these strange forces work is essential before venturing too deep into the caverns."
+				""
+				"What first appears to be an obstacle soon becomes one of your greatest tools."
+				""
+				"{@pagebreak}"
+				""
+				"Scarlet Neodymium attracts metallic equipment, allowing explorers wearing heavy armor to walk across walls and even ceilings. Azure Neodymium produces the opposite effect, repelling nearby metal and dramatically altering movement through the caves."
+				""
+				"Scattered throughout the biome are volatile &eTesla Bulbs&r, strange plants capable of releasing powerful bolts of lightning. Disturb them carelessly and they may explode, making the environment itself just as dangerous as the creatures that inhabit it."
+				""
+				"{@pagebreak}"
+				""
+				"Beneath these magnetic wonders lies &8Galena&r, the defining resource of the Magnetic Caves."
+				""
+				"Mine it in abundance and process it using your growing Create factory to unlock advanced alloys and powerful engineering materials. Many late-game crafting recipes—and several Forge Rocket components—begin with the resources gathered here."
+				""
+				"Sometimes the greatest challenge isn't defeating a monster."
+				""
+				"It's learning to master the world around you."
+			]
+			icon: "alexscaves:scarlet_magnet"
+			id: "0FE8700B43E1C90A"
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 16L
+					id: "3D3E80D5A754A802"
+					item: { Count: 8, id: "alexscaves:energized_galena_scarlet" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0CC8BD31EC436FB2"
+					item: { Count: 16, id: "alexscaves:energized_galena_azure" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1282DD67DC9ABD4E"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+			]
+			title: "Mastering Magnetic Forces"
+			x: -18.5d
+			y: 11.0d
+		}
+		{
+			description: [
+				"Although the Magnetic Caves appear quiet at first glance, countless strange creatures have adapted to life among the powerful magnetic fields."
+				""
+				"Metallic slimes roam the cavern floor while forgotten constructs continue carrying out duties assigned long ago. High above, mysterious machines silently observe every explorer who dares enter their domain."
+				""
+				"Even in abandonment, the caves remain well defended."
+				""
+				"{@pagebreak}"
+				""
+				"Defeat &6Ferrouslimes&r to obtain valuable Ferrouslime Balls used throughout advanced crafting. Beware the relentless &7Boundroids&r and their ceiling-dwelling &7Boundroid Winches&r, ancient constructs that protect the ruins with surprising strength. Keep an eye on the skies as well—the mysterious &9Notor&r patrols the caverns from above, waiting for careless explorers to let down their guard."
+				""
+				"Each creature provides valuable resources while preparing you for the greatest guardian that still awaits deeper within the caves."
+				""
+				"Every expedition begins with understanding those who already call this place home."
+			]
+			icon: "alexscaves:quarry_smasher"
+			id: "53A164E6CFAB1AF4"
+			shape: "pentagon"
+			tasks: [
+				{
+					entity: "alexscaves:ferrouslime"
+					icon: "alexscaves:ferrouslime_ball"
+					id: "0FA5FA170DF5A0A7"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "alexscaves:boundroid"
+					icon: "alexscaves:heavyweight"
+					id: "7DE897443D650E0D"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "alexscaves:notor"
+					icon: "alexscaves:notor_gizmo"
+					id: "656B16069B3675D0"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Creatures of the Magnetic Caves"
+			x: -17.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"Hidden among the metallic landscape lies the &6Magnetron&r, an ancient construct created to defend the Magnetic Caves from intruders."
+				""
+				"At first glance it appears to be nothing more than a harmless &6Heart of Iron&r resting upon the cavern floor. Disturb it, however, and nearby metal is violently pulled together, assembling a towering guardian determined to eliminate any threat."
+				""
+				"Appearances can be deceiving."
+				""
+				"{@pagebreak}"
+				""
+				"The Magnetron manipulates the very metal surrounding it, delivering crushing blows while using the cave's magnetic energy against its opponents. Bring powerful equipment and plenty of healing supplies before challenging this formidable guardian."
+				""
+				"Victory rewards the rare &6Heart of Iron&r, an advanced crafting component required for powerful Create machinery, late-game engineering, and several Forge Rocket components."
+				""
+				"Only those capable of mastering the Magnetic Caves may claim its greatest treasure."
+			]
+			icon: "alexscaves:heart_of_iron"
+			id: "721783DE90F95E38"
+			shape: "pentagon"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: "alexscaves:spawn_egg_magnetron"
+				id: "53DFCD3F649F0BD3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Magnetron"
+			x: -14.0d
+			y: 11.0d
+		}
+		{
+			description: [
+				"The strange magnetic forces permeating the &9Magnetic Caves&r have inspired the creation of remarkable tools unlike anything found elsewhere in the Overworld."
+				""
+				"Forged from the unique materials harvested throughout these caverns, these inventions allow explorers to manipulate the environment, traverse impossible terrain, and uncover secrets hidden deep within the ancient mines."
+				""
+				"Mastering these tools is just as important as mastering the caves themselves."
+				""
+				"{@pagebreak}"
+				""
+				"One of the most iconic inventions is the &6Galena Gauntlet&r."
+				""
+				"Powered by the magnetic properties of Galena and Neodymium, the gauntlet allows its wielder to interact with metallic objects from a distance, making exploration of the Magnetic Caves significantly easier. It can pull certain entities and blocks toward you, manipulate metallic objects, and help overcome many of the biome's environmental challenges."
+				""
+				"Experiment with the Galena Gauntlet as you explore—you may discover uses far beyond its intended purpose."
+				""
+				"{@pagebreak}"
+				""
+				"Not every invention found within the Magnetic Caves is built for mining."
+				""
+				"The remarkable &eSeeking Arrows&r harness the same magnetic principles to seek out nearby targets, making them invaluable for hunting fast-moving creatures or engaging enemies from a safe distance. When paired with a bow or crossbow, these arrows can dramatically improve your accuracy against elusive foes."
+				""
+				"For explorers who prefer a defensive approach, the &bResistor Shield&r provides excellent protection while utilizing the cave's unique magnetic technology. Its specialized design makes it an invaluable companion when facing the powerful creatures and hazards scattered throughout the Magnetic Caves."
+				""
+				"{@pagebreak}"
+				""
+				"The Magnetic Caves contain several other unique tools and pieces of equipment designed around the biome's unusual magnetic properties."
+				""
+				"The greatest engineers don't simply conquer their environment—"
+				""
+				"They learn to work alongside it."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:resistor_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1C983520F90CBD1A"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5F1C739E299FF9D6"
+					item: {
+						Count: 1
+						id: "alexscaves:galena_gauntlet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "39EE6DDD9EC43463"
+					item: { Count: 16, id: "alexscaves:seeking_arrow" }
+					type: "item"
+				}
+				{
+					id: "5F1B4B81A70051A7"
+					item: {
+						Count: 1
+						id: "alexscaves:resistor_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools of Magnetic Discovery"
+			x: -12.5d
+			y: 11.0d
+		}
+		{
+			description: ["As you journey across the &4Magnetic&r &1Caves&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "alexscaves:galena"
+			id: "68C365750F63A231"
+			shape: "pentagon"
+			tasks: [{
+				id: "653809C820A327BC"
+				title: "Magnetic Cave Vents"
+				type: "checkmark"
+			}]
+			x: -15.5d
+			y: 11.0d
 		}
 	]
 	title: "Alex's Caves"
