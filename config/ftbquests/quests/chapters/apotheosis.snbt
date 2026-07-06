@@ -1977,7 +1977,6 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			secret: true
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
