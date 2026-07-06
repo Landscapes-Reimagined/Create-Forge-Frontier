@@ -262,25 +262,47 @@
 			y: -7.0d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "alexscaves:candy_cane"
-				tag: { }
-			}
+			description: [
+				"Hidden beneath layers of frosting, chocolate, and sugary stone lies the &dCandy Cavity&r, a whimsical world unlike any you've explored before."
+				""
+				"Towering candy cane forests, rivers of melted chocolate, mountains of cake, and fields of colorful sweets stretch across the landscape. At first glance this sugary paradise appears peaceful, but beneath its cheerful appearance lie dangerous creatures, mysterious machines, and ingredients unlike anything found elsewhere in the galaxy."
+				""
+				"Don't let its sweetness fool you."
+				""
+				"{@pagebreak}"
+				""
+				"The Candy Cavity is home to countless culinary ingredients used throughout late-game progression. Chocolate, Honey Sprinkles, Rock Candy, Frosting, and many other confectionery resources harvested here become essential for crafting powerful foods used in the &6Culinary Life Support Matrix&r and other advanced recipes."
+				""
+				"Nearly every corner of this world offers something worth collecting."
+				""
+				"{@pagebreak}"
+				""
+				"Take your time exploring every hill, cave, and village."
+				""
+				"The greatest rewards of the Candy Cavity aren't always hidden inside chests—many are growing right out of the landscape itself."
+			]
+			hide_dependent_lines: true
+			icon: "alexscaves:large_peppermint"
 			id: "6B1D694ADAF367E0"
 			shape: "gear"
 			size: 3.0d
-			tasks: [{
-				dimension: "forge_frontier:candy_cavity"
-				icon: {
-					Count: 1
-					id: "ad_astra_rocketed:tier_6_rocket"
-					tag: { }
+			tasks: [
+				{
+					id: "792F96170B237A12"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: { }
+					}
+					type: "item"
 				}
-				id: "78C12971C508C87E"
-				title: "Travel to the Candy Cavity Planet"
-				type: "dimension"
-			}]
+				{
+					dimension: "forge_frontier:candy_cavity"
+					icon: "alexscaves:large_peppermint"
+					id: "7F5ACE5DC5B7A9BF"
+					type: "dimension"
+				}
+			]
 			title: "Welcome to the Candy Cavity"
 			x: 18.5d
 			y: 7.5d
@@ -967,7 +989,7 @@
 				value: 1L
 			}]
 			title: "Slay the Watcher"
-			x: 18.5d
+			x: 17.0d
 			y: -3.0d
 		}
 		{
@@ -1535,6 +1557,7 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["485B737D88E98470"]
 			description: [
 				"&dFound deep in the Candy Cavity caves-your gateway to Ethium automation!"
 				""
@@ -1546,7 +1569,7 @@
 				""
 				"To awaken this confection-powered vent, place &la blaze burner&r directly on top and feed it a blaze cake. The sweet crust will shatter open, revealing the vent’s molten potential."
 				""
-				"Once active, provide the proper &dsource fluid&r (revealed in the next quest) to fuel &lMechanical Extruders&r and begin your Lost Debris conversion process."
+				"Once active, provide &dchorus nectar fluid&r to fuel &lMechanical Extruders&r and begin your Lost Debris conversion process."
 				""
 				" &5The cavity cracks-are you ready to extract the essence of Ethium from this delicious core?&r"
 			]
@@ -1557,16 +1580,23 @@
 				type: "xp"
 				xp: 10
 			}]
-			tasks: [{
-				id: "390690AC9C57DE1D"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_lost_debris_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "390690AC9C57DE1D"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_lost_debris_vent"
+					type: "observation"
+				}
+				{
+					id: "7751F30DF7736F13"
+					item: "create_ethium:chorus_nectar_fluid_bucket"
+					type: "item"
+				}
+			]
 			title: "Lost Debris Vent: Sweet Core of Ethium"
 			x: 18.5d
-			y: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["308B363D1029D44E"]
@@ -1826,7 +1856,7 @@
 				}
 			]
 			title: "Creatures of the Hollows"
-			x: 17.0d
+			x: 18.5d
 			y: -3.0d
 		}
 		{
@@ -2563,7 +2593,7 @@
 			dependencies: ["1A2C4E8DD4FA3A3A"]
 			description: ["As you journey across the &aToxic Caves&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
 			hide_dependent_lines: true
-			icon: "alexscaves:galena"
+			icon: "alexscaves:acidic_radrock"
 			id: "0B861C7DE0B810FB"
 			shape: "pentagon"
 			tasks: [{
@@ -2572,6 +2602,258 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B1D694ADAF367E0"]
+			description: [
+				"Unlike every planet you've explored so far, nearly everything inside the Candy Cavity can be harvested."
+				""
+				"Candy blocks, chocolate, frosting, cookie dough, honey sprinkles, and colorful sweets naturally generate throughout the biome, creating an endless supply of ingredients for adventurous chefs and factory engineers alike."
+				""
+				"{@pagebreak}"
+				""
+				"Many of these resources are used to prepare powerful foods later in your adventure, including &dExtra Sugar Rush&r, &5Purple Soda&r, Chocolate Pie, and numerous other meals required for the &6Forge Rocket&r."
+				""
+				"As you continue exploring, harvest everything that looks edible—you'll likely need it sooner than you think."
+				""
+				"{@pagebreak}"
+				""
+				"Consult &6JEI&r whenever you're unsure what a particular ingredient is used for."
+				""
+				"The Candy Cavity contains more unique foods than any other planet, and experimenting with its resources is half the fun."
+			]
+			icon: "alexscaves:block_of_frosted_chocolate"
+			id: "6D2E4D08BF71AA0B"
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 32L
+					id: "189D5A790999D6C1"
+					item: { Count: 16, id: "alexscaves:sprinkles" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "11DDA3D60B3AFA6F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "alexscaves:frosting"
+						}
+					}
+					title: "Any #alexscaves:frosting"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "132C9FD913B1E9A1"
+					item: { Count: 16, id: "alexscaves:block_of_chocolate" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0867428DA23386CC"
+					item: "alexscaves:candy_cane_block"
+					type: "item"
+				}
+				{
+					id: "07245D508564905C"
+					item: "alexscavesdelight:extra_sugar_rush_block"
+					type: "item"
+				}
+			]
+			title: "Harvesting the Sweetlands"
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B1D694ADAF367E0"]
+			description: ["As you journey across the &5Candy Cavity&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "alexscaves:cake_layer"
+			id: "485B737D88E98470"
+			shape: "pentagon"
+			tasks: [{
+				id: "6157EF70DAE63329"
+				title: "Candy Cavity Vents"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B1D694ADAF367E0"]
+			description: [
+				"Scattered throughout the rolling hills of the &dCandy Cavity&r are the charming &6Gingerbread Towns&r, peaceful settlements built entirely from sweets and inhabited by industrious &6Gingerbread Men&r."
+				""
+				"These delightful villages stand in stark contrast to the dangerous wilderness surrounding them. Their colorful homes, candy-crafted architecture, and bustling residents make them one of the safest places to rest while exploring the Candy Cavity."
+				""
+				"Don't rush past these settlements—they have far more to offer than meets the eye."
+				""
+				"{image:ftb:textures/gingerbread_town.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Each Gingerbread Town is home to a variety of &6Gingerbread Men&r, each with their own profession and unique trades."
+				""
+				"Spend some time meeting the townsfolk and browsing their offers. Many sell useful supplies, decorative blocks, food ingredients, and other valuable items that can simplify your adventure or support your growing factory."
+				""
+				"Trading regularly will not only reward you with useful resources, but also provide access to items that may be difficult to acquire elsewhere."
+				""
+				"{@pagebreak}"
+				""
+				"At the center of every town resides the distinguished &6Gingerbread Mayor&r, the leader responsible for overseeing the settlement and its cheerful inhabitants."
+				""
+				"Take time to explore every building, interact with the villagers, and appreciate the incredible craftsmanship that has gone into these sugary communities. Hidden throughout the town you'll find valuable loot, unique decorations, and plenty of sweet treats worth collecting before continuing your journey."
+				""
+				"Sometimes exploration is about more than finding powerful artifacts."
+				""
+				"Sometimes it's about discovering the people who call these remarkable worlds home."
+			]
+			icon: "alexscaves:frosted_gingerbread_block"
+			id: "7B4590618DE61BFE"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "6350440022D69ED6"
+					structure: "alexscaves:gingerbread_town"
+					type: "structure"
+				}
+				{
+					icon: "alexscaves:spawn_egg_gingerbread_man"
+					id: "5A22BD9C9FA5E1A0"
+					observe_type: 5
+					timer: 0L
+					title: "Spot a Gingerbread Man"
+					to_observe: "alexscaves:gingerbread_man"
+					type: "observation"
+				}
+			]
+			title: "Gingerbread Friends"
+			x: 17.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B1D694ADAF367E0"]
+			description: [
+				"The &dCandy Cavity&r may appear to be a land of endless sweets, but its sugary landscape is home to a surprising variety of creatures."
+				""
+				"Some peacefully roam the colorful hills in search of treats, while others fiercely defend their confectionery home from any explorer brave enough to enter. Understanding these unusual inhabitants is just as important as harvesting the biome's delicious resources."
+				""
+				"Even paradise has its predators."
+				""
+				"{@pagebreak}"
+				""
+				"Among the most recognizable residents is the majestic &dCandicorn&r, a magical creature that wanders the candy-coated plains."
+				""
+				"While normally peaceful, Candicorns will defend themselves if threatened. Their rare drops are used in several advanced crafting recipes and make every encounter worthwhile. Treat these beautiful creatures with respect—you may find yourself returning for their valuable resources later in your adventure."
+				""
+				"Not every treasure comes from a chest."
+				""
+				"{@pagebreak}"
+				""
+				"Beneath the colorful surface lurks the enormous &6Gum Worm&r."
+				""
+				"These colossal worms burrow through the soft candy terrain, occasionally bursting from beneath the ground to surprise unsuspecting explorers. Though intimidating in size, defeating a Gum Worm rewards valuable materials used in several late-game recipes and demonstrates your mastery of one of the Candy Cavity's most iconic inhabitants."
+				""
+				"Always watch where you step."
+				""
+				"{@pagebreak}"
+				""
+				"The sugary rivers and lakes are inhabited by the peculiar &bSweetish Fish&r, a colorful species perfectly adapted to life within the Candy Cavity."
+				""
+				"These unusual fish can be caught like their Overworld counterparts and are used in a variety of culinary recipes unique to this biome."
+				""
+				"Every ingredient has a purpose."
+				""
+				"{@pagebreak}"
+				""
+				"As you continue your exploration, defeat the creatures of the Candy Cavity and collect their unique drops."
+				""
+				"Whether you're preparing elaborate meals, crafting advanced components, or simply completing every challenge the biome has to offer, the wildlife of this sugary world plays an important role in your continued progression toward the &5Forge Rocket&r."
+				""
+				"Sometimes the sweetest worlds leave the strongest impressions."
+			]
+			icon: "alexscaves:candy_cane"
+			id: "2137F38B93B8EAF0"
+			shape: "pentagon"
+			tasks: [
+				{
+					entity: "alexscaves:gum_worm"
+					icon: "alexscaves:sweet_tooth"
+					id: "1C70A55B60C035F3"
+					type: "kill"
+					value: 1L
+				}
+				{
+					icon: "alexscaves:spawn_egg_candicorn"
+					id: "5D182F161DFE18C7"
+					observe_type: 6
+					timer: 0L
+					title: "Find a Candicorn"
+					to_observe: "alexscaves:candicorn"
+					type: "observation"
+				}
+				{
+					id: "66D957015B47346B"
+					item: "alexscaves:sweetish_fish_red_bucket"
+					title: "Capture a Red Sweetish Fish"
+					type: "item"
+				}
+			]
+			title: "Creatures of the Candy Cavity"
+			x: 20.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6B1D694ADAF367E0"]
+			description: [
+				"Beneath the sugary hills and cheerful landscape of the &dCandy Cavity&r lurks a creature that embodies the darker side of this confectionery world."
+				""
+				"Known as the &5Lichowitch&r, this sinister sorcerer has mastered strange candy-infused magic, twisting the sweet resources surrounding it into dangerous weapons. Though the Candy Cavity may appear whimsical, the Lichowitch serves as a reminder that even the sweetest places can conceal terrible evil."
+				""
+				"If you hope to master every challenge this world has to offer, you'll need to seek out and defeat this powerful foe."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The Lichowitch can be found wandering the Candy Cavity, often surrounded by the sugary landscape it has corrupted through its dark magic."
+				""
+				"Unlike many of the creatures you've encountered throughout Alex's Caves, this foe relies on powerful ranged attacks and summoned magical projectiles rather than brute strength. Stay mobile during the fight, watch for incoming spells, and avoid allowing yourself to become cornered."
+				""
+				"Patience and careful positioning are often more valuable than overwhelming force."
+				""
+				"{@pagebreak}"
+				""
+				"Defeating the &5Lichowitch&r rewards several valuable magical ingredients used throughout Create: Forge Frontier, making repeated encounters worthwhile for ambitious explorers."
+				""
+				"Be sure to consult &6JEI&r to discover the many recipes that make use of its unique drops, as several late-game crafting chains rely upon materials obtained from this mysterious spellcaster."
+				""
+				"Even after your first victory, the Candy Cavity still holds many secrets waiting to be uncovered."
+				""
+				"{@pagebreak}"
+				""
+				"The Lichowitch stands as one of the greatest challenges hidden within the &dCandy Cavity&r."
+				""
+				"Whether you're searching for powerful crafting materials, completing every Alex's Caves encounter, or simply proving yourself against one of the biome's strongest inhabitants, defeating this twisted sorcerer marks another major milestone on your journey toward constructing the &5Forge Rocket&r."
+				""
+				"Even in a world built from sweets..."
+				""
+				"The greatest dangers often wear the sweetest disguise."
+			]
+			id: "2B43FBAC6F28DDFF"
+			shape: "pentagon"
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: "alexscaves:spawn_egg_licowitch"
+				id: "5934A51729952B6E"
+				type: "kill"
+				value: 2L
+			}]
+			title: "The Lichowitch"
+			x: 21.5d
 			y: 11.0d
 		}
 	]
