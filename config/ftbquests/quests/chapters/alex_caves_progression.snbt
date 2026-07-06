@@ -12,7 +12,7 @@
 			image: "ftb:textures/alex_caves_abyssal_chasm_title.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: -15.0d
+			x: -16.0d
 			y: -10.5d
 		}
 		{
@@ -20,7 +20,7 @@
 			image: "ftb:textures/alex_caves_primordial_caves_title.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: 1.5d
+			x: 0.5d
 			y: -10.5d
 		}
 		{
@@ -28,7 +28,7 @@
 			image: "ftb:textures/alex_caves_forlorn_hollows_title.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: 19.5d
+			x: 18.5d
 			y: -10.5d
 		}
 		{
@@ -36,7 +36,7 @@
 			image: "ftb:textures/alex_caves_magnetic_caves_title.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: -15.5d
+			x: -16.0d
 			y: 4.5d
 		}
 		{
@@ -52,7 +52,7 @@
 			image: "ftb:textures/alex_caves_toxic_caves_title.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: 2.5d
+			x: 0.0d
 			y: 4.5d
 		}
 	]
@@ -118,7 +118,7 @@
 				}
 			]
 			title: "Welcome to the Abyssal Chasm"
-			x: -15.0d
+			x: -16.0d
 			y: -7.0d
 		}
 		{
@@ -187,7 +187,7 @@
 				}
 			]
 			title: "Welcome to the Forlorn Hollows"
-			x: 19.5d
+			x: 18.5d
 			y: -7.0d
 		}
 		{
@@ -258,7 +258,7 @@
 				}
 			]
 			title: "Welcome to the Primordial Caves"
-			x: 1.5d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
@@ -303,6 +303,7 @@
 				""
 				"The age of engineering begins here."
 			]
+			hide_dependent_lines: true
 			icon: {
 				Count: 1
 				id: "alexscaves:telecore"
@@ -329,33 +330,57 @@
 				}
 			]
 			title: "Welcome to Magnetic Caves"
-			x: -15.5d
+			x: -16.0d
 			y: 7.5d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "alexscaves:hazmat_mask"
-				tag: {
-					Damage: 0
-				}
-			}
+			description: [
+				"Beyond the lush forests of the Primordial Caves lies a world forever changed by radiation, pollution, and unchecked scientific ambition."
+				""
+				"The &2Toxic Caves&r are a wasteland where glowing rivers wind through poisoned marshes, strange fungi thrive upon contaminated soil, and mutated creatures roam an ecosystem that should no longer exist. Every step deeper into these caverns reveals the scars left behind by an ancient catastrophe."
+				""
+				"Few worlds in the galaxy are as hostile—or as fascinating."
+				""
+				"{@pagebreak}"
+				""
+				"Despite their desolate appearance, the Toxic Caves contain an abundance of valuable chemical resources unavailable anywhere else in Create: Forge Frontier."
+				""
+				"Rare compounds, radioactive elements, and biological materials harvested throughout the biome form the foundation of advanced engineering projects, powerful protective equipment, and several Forge Rocket components."
+				""
+				"Every expedition into this wasteland yields discoveries capable of transforming your factory."
+				""
+				"{@pagebreak}"
+				""
+				"Surviving here requires preparation above all else."
+				""
+				"Powerful creatures, hazardous terrain, and radioactive materials await around every corner. Take your time, explore carefully, and never underestimate the dangers hidden beneath the glowing landscape."
+				""
+				"Only those willing to embrace the wasteland will uncover its greatest secrets."
+			]
+			hide_dependent_lines: true
+			icon: "alexscaves:waste_drum"
 			id: "1A2C4E8DD4FA3A3A"
 			shape: "gear"
 			size: 3.0d
-			tasks: [{
-				dimension: "forge_frontier:toxic_caves"
-				icon: {
-					Count: 1
-					id: "ad_astra_rocketed:tier_6_rocket"
-					tag: { }
+			tasks: [
+				{
+					id: "261CAEAE467B43F6"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_6_rocket"
+						tag: { }
+					}
+					type: "item"
 				}
-				id: "103BCC114B56BEF8"
-				title: "Travel to the Toxic Caves Planet"
-				type: "dimension"
-			}]
+				{
+					dimension: "forge_frontier:toxic_caves"
+					icon: "alexscaves:waste_drum"
+					id: "24E08F7621B6AC16"
+					type: "dimension"
+				}
+			]
 			title: "Welcome to the Toxic Caves"
-			x: 2.5d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
@@ -367,7 +392,7 @@
 				title: "Autofocus Quest"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -438,7 +463,6 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Friend or Foe?"
 			tasks: [
 				{
 					icon: {
@@ -463,7 +487,7 @@
 				}
 			]
 			title: "The Abyssal Altar"
-			x: -16.5d
+			x: -17.5d
 			y: -3.5d
 		}
 		{
@@ -535,7 +559,7 @@
 				value: 1L
 			}]
 			title: "Hunt the Hullbreaker"
-			x: -13.5d
+			x: -14.5d
 			y: -3.5d
 		}
 		{
@@ -619,7 +643,7 @@
 				}
 			]
 			title: "Visit different Structures"
-			x: -1.5d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -694,7 +718,7 @@
 				type: "item"
 			}]
 			title: "Slay Some Dinosaurs"
-			x: 0.0d
+			x: -1.5d
 			y: -3.0d
 		}
 		{
@@ -785,7 +809,7 @@
 				}
 			]
 			title: "Tame the Tremorsaurus"
-			x: 3.0d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -885,7 +909,7 @@
 				}
 			]
 			title: "Slay the Luxtructosaurus"
-			x: 4.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -943,7 +967,7 @@
 				value: 1L
 			}]
 			title: "Slay the Watcher"
-			x: 19.5d
+			x: 18.5d
 			y: -3.0d
 		}
 		{
@@ -1042,7 +1066,7 @@
 				}
 			]
 			title: "Slay the Forsaken"
-			x: 21.0d
+			x: 20.0d
 			y: -3.0d
 		}
 		{
@@ -1181,7 +1205,7 @@
 				}
 			]
 			title: "Locate and Conquer the Sunken City"
-			x: -12.0d
+			x: -13.0d
 			y: -3.5d
 		}
 		{
@@ -1235,7 +1259,7 @@
 				}
 			]
 			title: "Secrets of the Sunken Core"
-			x: -15.0d
+			x: -16.0d
 			y: -2.0d
 		}
 		{
@@ -1289,7 +1313,7 @@
 				}
 			]
 			title: "Flame of the Forgotten World"
-			x: 1.5d
+			x: 0.0d
 			y: -1.5d
 		}
 		{
@@ -1343,10 +1367,11 @@
 				}
 			]
 			title: "Decay Beneath the Hollows"
-			x: 16.5d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["68C365750F63A231"]
 			description: [
 				"Hidden deep within a realm of charged stone and shifting magnetism, the &cNeodymrium Vent&r hums with potential. Its scarlet glow flickers with kinetic tension, offering a gateway to automating one of the most advanced resources in the known dimensions."
 				""
@@ -1383,10 +1408,11 @@
 				}
 			]
 			title: "Pulse of the Magnetic Core"
-			x: -16.0d
+			x: -16.5d
 			y: 12.5d
 		}
 		{
+			dependencies: ["68C365750F63A231"]
 			description: [
 				"Tucked among twisting stone and humming circuitry, the &bAzurnium Vent&r radiates with a cool, charged brilliance. Its azure glow pulses gently with mechanical elegance-awaiting activation by a bold adventurer prepared to shape raw energy into refined potential."
 				""
@@ -1423,10 +1449,11 @@
 				}
 			]
 			title: "The Echo of Azure Currents"
-			x: -15.0d
+			x: -15.5d
 			y: 12.5d
 		}
 		{
+			dependencies: ["0B861C7DE0B810FB"]
 			description: [
 				"Dormant yet brimming with latent power, the &aUraniumnite Vent&r rests beneath the toxic bogs and irradiated swamps, hidden in plain sight. Its presence is marked by faint radiation and a slow, rhythmic pulsing that warns of the energy buried within."
 				""
@@ -1436,7 +1463,7 @@
 				""
 				"To begin, place &la blaze burner&r atop a dormant Uraniumnite Vent and feed it blaze cake. The resulting transformation will jolt the vent to life, converting it into an active node ready for automation."
 				""
-				"Once awakened, infuse the vent with its proper &dsource fluid&r, detailed in the next quest, and begin harnessing its energy with &lMechanical Extruders&r to produce Uranium."
+				"Once awakened, infuse the vent with &dacid&r, and begin harnessing its energy with &lMechanical Extruders&r to produce Uranium."
 				""
 				" &7Can you endure the rot, outwit the poison, and refine power from peril? The reactor is waiting.&r"
 			]
@@ -1448,18 +1475,26 @@
 				xp: 10
 			}]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "6000D0FCF2A4250B"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_uraniumnite_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "6000D0FCF2A4250B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_uraniumnite_vent"
+					type: "observation"
+				}
+				{
+					id: "4AE05F36D1F0DF2F"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+			]
 			title: "The Core of Contagion"
-			x: 1.5d
-			y: 10.5d
+			x: -0.5d
+			y: 12.5d
 		}
 		{
+			dependencies: ["0B861C7DE0B810FB"]
 			description: [
 				"Tucked amid the noxious terrain and acidic pools, the &eSulphite Vent&r gives off a faint, sulfurous hiss. These dormant formations conceal volatile potential, waiting for a spark to awaken their burning core."
 				""
@@ -1469,7 +1504,7 @@
 				""
 				"To ignite the process, place &la blaze burner&r directly on top of a dormant Sulphite Vent and feed it blaze cake. The transformation force will awaken the vent, converting it into an active conduit for molten extraction."
 				""
-				"Once activated, supplying the correct &dsource fluid&r-explained in the following quest-will enable &lMechanical Extruders&r to refine sulfur endlessly from the depths of corruption."
+				"Once activated, supplying &dacid&r-will enable &lMechanical Extruders&r to refine sulfur endlessly from the depths of corruption."
 				""
 				" &7Sulfur waits in silence-but not for long. Will you brave the fumes and harness its sting?&r"
 			]
@@ -1481,16 +1516,23 @@
 				xp: 10
 			}]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
-			tasks: [{
-				id: "2B68EEA976EB1A79"
-				observe_type: 0
-				timer: 0L
-				to_observe: "create_resource_vents:dormant_sulphite_vent"
-				type: "observation"
-			}]
+			tasks: [
+				{
+					id: "2B68EEA976EB1A79"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_sulphite_vent"
+					type: "observation"
+				}
+				{
+					id: "2B162CDB73B89EBB"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+			]
 			title: "The Stinging Vein of Sulfur"
-			x: 3.0d
-			y: 10.5d
+			x: 0.5d
+			y: 12.5d
 		}
 		{
 			description: [
@@ -1543,7 +1585,7 @@
 				title: "Abyssal Chasm Vents"
 				type: "checkmark"
 			}]
-			x: -15.0d
+			x: -16.0d
 			y: -3.5d
 		}
 		{
@@ -1686,7 +1728,7 @@
 				}
 			]
 			title: "Preparing for the Depths"
-			x: -18.0d
+			x: -19.0d
 			y: -3.5d
 		}
 		{
@@ -1701,7 +1743,7 @@
 				title: "Primordial Cave Vents"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -1784,7 +1826,7 @@
 				}
 			]
 			title: "Creatures of the Hollows"
-			x: 18.0d
+			x: 17.0d
 			y: -3.0d
 		}
 		{
@@ -1804,7 +1846,7 @@
 				title: "Forlorn Hollows Vents"
 				type: "checkmark"
 			}]
-			x: 16.5d
+			x: 15.5d
 			y: -3.0d
 		}
 		{
@@ -1932,7 +1974,7 @@
 				}
 			]
 			title: "Tier 6 Rocket Parts"
-			x: 22.5d
+			x: 21.5d
 			y: -3.0d
 		}
 		{
@@ -2037,10 +2079,11 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
+			x: 21.5d
 			y: -1.5d
 		}
 		{
+			dependencies: ["14077793D0743DF5"]
 			description: [
 				"The laws of nature behave differently within the &9Magnetic Caves&r."
 				""
@@ -2088,10 +2131,11 @@
 				}
 			]
 			title: "Mastering Magnetic Forces"
-			x: -18.5d
+			x: -19.0d
 			y: 11.0d
 		}
 		{
+			dependencies: ["14077793D0743DF5"]
 			description: [
 				"Although the Magnetic Caves appear quiet at first glance, countless strange creatures have adapted to life among the powerful magnetic fields."
 				""
@@ -2134,10 +2178,11 @@
 				}
 			]
 			title: "Creatures of the Magnetic Caves"
-			x: -17.0d
+			x: -17.5d
 			y: 11.0d
 		}
 		{
+			dependencies: ["14077793D0743DF5"]
 			description: [
 				"Hidden among the metallic landscape lies the &6Magnetron&r, an ancient construct created to defend the Magnetic Caves from intruders."
 				""
@@ -2164,10 +2209,11 @@
 				value: 1L
 			}]
 			title: "The Magnetron"
-			x: -14.0d
+			x: -14.5d
 			y: 11.0d
 		}
 		{
+			dependencies: ["14077793D0743DF5"]
 			description: [
 				"The strange magnetic forces permeating the &9Magnetic Caves&r have inspired the creation of remarkable tools unlike anything found elsewhere in the Overworld."
 				""
@@ -2239,10 +2285,11 @@
 				}
 			]
 			title: "Tools of Magnetic Discovery"
-			x: -12.5d
+			x: -13.0d
 			y: 11.0d
 		}
 		{
+			dependencies: ["14077793D0743DF5"]
 			description: ["As you journey across the &4Magnetic&r &1Caves&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
 			hide_dependent_lines: true
 			icon: "alexscaves:galena"
@@ -2253,7 +2300,278 @@
 				title: "Magnetic Cave Vents"
 				type: "checkmark"
 			}]
-			x: -15.5d
+			x: -16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A2C4E8DD4FA3A3A"]
+			description: [
+				"The greatest danger within the Toxic Caves isn't always the wildlife."
+				""
+				"Radioactive minerals, corrosive chemicals, and hazardous gases have transformed the environment into a constant threat. Venturing too far without proper equipment can quickly turn a promising expedition into disaster."
+				""
+				"Preparation is your greatest weapon."
+				""
+				"{@pagebreak}"
+				""
+				"As you explore, gather the resources unique to this polluted world. Mine &eSulfur&r, harvest &aToxic Paste&r, and manufacture &bPolymer&r using your growing Create factory."
+				""
+				"One of the most important resources you'll need is &2Radon&r. It can be collected by filling a &fGlass Bottle&r at a &2Geothermal Vent&r, which can be found rising from the &2Acid Pools&r scattered throughout the Toxic Caves. Simply right-click the vent while holding a bottle to capture the radioactive gas."
+				""
+				"These materials combine to create the &aHazmat Suit&r, specialized protective equipment designed to shield you from the dangers of the Toxic Caves while allowing extended exploration of its hazardous environment."
+				""
+				"{@pagebreak}"
+				""
+				"You'll also learn to produce &2Acid&r, an important industrial chemical used throughout advanced engineering and later Forge Rocket progression."
+				""
+				"Consult &6JEI&r whenever you need assistance crafting these materials or discovering additional recipes that make use of Toxic Caves resources."
+				""
+				"Master the environment first..."
+				""
+				"Then conquer everything living within it."
+			]
+			icon: {
+				Count: 1
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2D448B463CD18D1F"
+			shape: "pentagon"
+			tasks: [
+				{
+					count: 24L
+					id: "0ADC997E5232EEEA"
+					item: "alexscaves:polymer_plate"
+					type: "item"
+				}
+				{
+					id: "1A5C2843065CB7AE"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E03CC6ABDB0D081"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18030BF781FA5E05"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB43AC9F277A463"
+					item: {
+						Count: 1
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Surviving the Wasteland"
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A2C4E8DD4FA3A3A"]
+			description: [
+				"Radiation has transformed every living creature that calls the &2Toxic Caves&r home."
+				""
+				"Some have adapted to thrive within the poisoned landscape, while others have evolved into dangerous mutations capable of overwhelming even experienced explorers. Understanding these creatures is just as important as surviving the hostile environment they inhabit."
+				""
+				"Every encounter teaches another lesson about life within the wasteland."
+				""
+				"{@pagebreak}"
+				""
+				"The passive &bRadgill&r swims through the polluted waters of the Toxic Caves and serves as an important food source for the mysterious &6Raycat&r."
+				""
+				"Although Raycats appear intimidating with their glowing skeletal bodies, they are peaceful creatures that can be tamed by feeding them Radgills. Once befriended, a Raycat becomes an invaluable companion, keeping &aNucleepers&r at a safe distance while occasionally curing your &2Irradiated&r status effect."
+				""
+				"Even in the harshest environments, unlikely allies can still be found."
+				""
+				"{@pagebreak}"
+				""
+				"Not every inhabitant of the Toxic Caves is so welcoming."
+				""
+				"Swarms of &2Gammaroaches&r thrive among the radioactive terrain, leaving behind useful &aToxic Paste&r used in numerous crafting recipes. Meanwhile, the devastating &aNucleeper&r stalks the wasteland, slowly charging a catastrophic nuclear explosion capable of devastating anything nearby if not stopped in time."
+				""
+				"Defeating these creatures rewards valuable materials while preparing you for the far greater dangers that await deeper within the Toxic Caves."
+				""
+				"Life always finds a way..."
+				""
+				"Even in the most toxic places imaginable."
+			]
+			icon: "alexscaves:radgill"
+			id: "237BA5F33CF87FF1"
+			shape: "pentagon"
+			tasks: [
+				{
+					entity: "alexscaves:gammaroach"
+					icon: "alexscaves:spawn_egg_gammaroach"
+					id: "69C7DC7A873A8CB9"
+					type: "kill"
+					value: 6L
+				}
+				{
+					entity: "alexscaves:nucleeper"
+					icon: "alexscaves:spawn_egg_nucleeper"
+					id: "6675B37D3AC15C91"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5AEEDDC9559EE023"
+					item: "alexscaves:radgill_bucket"
+					title: "Capture a Radgill"
+					type: "item"
+				}
+				{
+					icon: "alexscaves:spawn_egg_raycat"
+					id: "1BC5F3D21EC8E059"
+					observe_type: 5
+					timer: 0L
+					title: "Find a Raycat"
+					to_observe: "alexscaves:raycat"
+					type: "observation"
+				}
+			]
+			title: "Creatures of the Toxic Caves"
+			x: -1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A2C4E8DD4FA3A3A"]
+			description: [
+				"Your journey through the &2Primordial Caves&r has finally led to this moment."
+				""
+				"The legendary &dTremorzilla Egg&r you recovered is unlike any other egg you've encountered. It cannot hatch naturally—instead, it requires an immense burst of radiation to awaken the ancient creature sealed within."
+				""
+				"Fortunately, the &2Toxic Caves&r provide exactly what is needed. Exposing the egg to the explosion of a &aNucleeper&r, a &2Nuclear Furnace&r, or even a &4Nuclear Bomb&r will provide enough radioactive energy to bring the sleeping titan to life."
+				""
+				"A legend millions of years in the making is about to awaken."
+				""
+				"{@pagebreak}"
+				""
+				"Once hatched, your newborn &dTremorzilla&r will rapidly grow into one of the largest creatures you'll encounter throughout your adventure."
+				""
+				"Unlike its prehistoric relatives, Tremorzilla cannot be tamed with food alone. Instead, it must be fed &2Waste Drums&r recovered from the Toxic Caves. It will consume a minimum of four Waste Drums before it begins to trust you, with each additional drum increasing the chance that the creature finally accepts you as its owner."
+				""
+				"Persistence—and a healthy supply of radioactive waste—will eventually earn its loyalty."
+				""
+				"{@pagebreak}"
+				""
+				"Once tamed, Tremorzilla becomes one of the most powerful companions in the entire pack."
+				""
+				"You can command it to &oFollow&r, &oStay&r, or &oWander&r, ride it across the landscape, and unleash its devastating radioactive energy beam once it has fully charged. Its immense strength makes it invaluable for exploration, combat, and overcoming many of the greatest challenges still awaiting you."
+				""
+				"The greatest beasts are not always your enemies."
+				""
+				"Sometimes, they become your greatest allies."
+			]
+			icon: "alexscaves:tremorzilla_egg"
+			id: "3E80C3119E22417C"
+			shape: "pentagon"
+			tasks: [
+				{
+					icon: "alexscaves:tremorzilla_egg"
+					id: "59A1C11907354ED9"
+					observe_type: 0
+					timer: 0L
+					to_observe: "alexscaves:tremorzilla_egg"
+					type: "observation"
+				}
+				{
+					count: 4L
+					id: "1D9B98C3090B7978"
+					item: { Count: 4, id: "alexscaves:waste_drum" }
+					type: "item"
+				}
+				{
+					id: "746EF37C4E81567A"
+					title: "Tame your Tremorzilla"
+					type: "checkmark"
+				}
+			]
+			title: "Tremorzilla Awakens"
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A2C4E8DD4FA3A3A"]
+			description: [
+				"Deep within the radioactive heart of the Toxic Caves lurks the twisted genius known only as the &5Brainiac&r."
+				""
+				"Once a brilliant scientist, this horrifying mutant has become the embodiment of unchecked experimentation. Surrounded by toxic chemicals and grotesque creations, the Brainiac continues its endless pursuit of knowledge without regard for the destruction left in its wake."
+				""
+				"Every failed experiment has led to this monster."
+				""
+				"{@pagebreak}"
+				""
+				"Prepare carefully before confronting the Brainiac."
+				""
+				"Bring your best armor, plentiful healing supplies, and equipment capable of withstanding the hazardous environment. Knowledge of the Toxic Caves' dangers—and a fully equipped Hazmat Suit—will greatly improve your chances of surviving the encounter."
+				""
+				"This is not a battle for the unprepared."
+				""
+				"{@pagebreak}"
+				""
+				"Defeating the Brainiac rewards valuable materials required for advanced crafting and the final stages of Forge Rocket progression."
+				""
+				"With another of Alex's Caves' greatest threats defeated, your journey draws ever closer to its ultimate destination."
+				""
+				"Some experiments should never have existed."
+				""
+				"It's time to bring this one to an end."
+			]
+			id: "423EEE01F62296D8"
+			shape: "pentagon"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: "alexscaves:spawn_egg_brainiac"
+				id: "0A6BB8144D60FCBE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Brainiac"
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A2C4E8DD4FA3A3A"]
+			description: ["As you journey across the &aToxic Caves&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "alexscaves:galena"
+			id: "0B861C7DE0B810FB"
+			shape: "pentagon"
+			tasks: [{
+				id: "049E44D6F15559FF"
+				title: "Toxic Cave Vents"
+				type: "checkmark"
+			}]
+			x: 0.0d
 			y: 11.0d
 		}
 	]
