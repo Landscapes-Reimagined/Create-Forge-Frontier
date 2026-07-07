@@ -199,7 +199,6 @@
 			]
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "swa *THUNK*."
 			tasks: [{
 				id: "2C184984573B15B4"
 				item: "create:mechanical_press"
