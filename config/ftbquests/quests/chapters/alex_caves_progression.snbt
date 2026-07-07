@@ -284,6 +284,19 @@
 			hide_dependent_lines: true
 			icon: "alexscaves:large_peppermint"
 			id: "6B1D694ADAF367E0"
+			rewards: [
+				{
+					count: 3
+					id: "5EE7285157813A03"
+					item: "alexscavesdelight:licoroot_juice"
+					type: "item"
+				}
+				{
+					id: "10BAF3C4BE0D3FF1"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [
@@ -332,6 +345,19 @@
 				tag: { }
 			}
 			id: "14077793D0743DF5"
+			rewards: [
+				{
+					count: 3
+					id: "6E6C4BCF66DEEC57"
+					item: "alexscavesdelight:ferrouslime_shake"
+					type: "item"
+				}
+				{
+					id: "2ADAB116AB1EDFE8"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [
@@ -382,6 +408,19 @@
 			hide_dependent_lines: true
 			icon: "alexscaves:waste_drum"
 			id: "1A2C4E8DD4FA3A3A"
+			rewards: [
+				{
+					count: 3
+					id: "076DE5990597D678"
+					item: "alexscavesdelight:acid_juice"
+					type: "item"
+				}
+				{
+					id: "4FE0A129B4D35D72"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "gear"
 			size: 3.0d
 			tasks: [
@@ -564,7 +603,7 @@
 				{
 					id: "12B8514FD7BC8F5F"
 					type: "xp"
-					xp: 500
+					xp: 750
 				}
 			]
 			shape: "pentagon"
@@ -894,7 +933,7 @@
 				{
 					id: "334755480D1AAD90"
 					type: "xp"
-					xp: 500
+					xp: 750
 				}
 			]
 			shape: "pentagon"
@@ -1056,7 +1095,7 @@
 				{
 					id: "053D3EB29D0CB65A"
 					type: "xp"
-					xp: 500
+					xp: 750
 				}
 			]
 			shape: "pentagon"
@@ -1409,11 +1448,24 @@
 			]
 			icon: "create_resource_vents:dormant_neodymrium_vent"
 			id: "08A5AEA1CB0268D8"
-			rewards: [{
-				id: "61E8BF13EF0E0E63"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "6EFD3E987D6240FC"
+					item: "forge_frontier:neodymrium"
+					type: "item"
+				}
+				{
+					id: "4767569B911F1269"
+					item: "alexscaves:block_of_scarlet_neodymium"
+					type: "item"
+				}
+				{
+					id: "54F89BF1629F67A7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [
 				{
@@ -1450,11 +1502,24 @@
 			]
 			icon: "create_resource_vents:dormant_azurnium_vent"
 			id: "1F8D8293900A159B"
-			rewards: [{
-				id: "66DD1C46AB326BD4"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "6B9363756E556F1B"
+					item: "forge_frontier:azurnium"
+					type: "item"
+				}
+				{
+					id: "38BE4BADA2357AAB"
+					item: "alexscaves:block_of_azure_neodymium"
+					type: "item"
+				}
+				{
+					id: "798C68AB1C61A7CA"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [
 				{
@@ -1491,11 +1556,24 @@
 			]
 			icon: "create_resource_vents:dormant_uraniumnite_vent"
 			id: "70DF75B6AEEF8D39"
-			rewards: [{
-				id: "7F29F47D0A197B90"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "43BCEC279DF3074F"
+					item: "forge_frontier:uraniumnite"
+					type: "item"
+				}
+				{
+					id: "65E56F4DDC4F58CA"
+					item: "alexscaves:block_of_uranium"
+					type: "item"
+				}
+				{
+					id: "6DA7051176B7E5C8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [
 				{
@@ -1532,11 +1610,24 @@
 			]
 			icon: "create_resource_vents:dormant_sulphite_vent"
 			id: "19D60673B8DCB77D"
-			rewards: [{
-				id: "19B9F2CA3B7CEEAD"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "069E03F6CE7CFEA9"
+					item: "forge_frontier:sulphite"
+					type: "item"
+				}
+				{
+					id: "67B75157C6F95FAF"
+					item: "alexscaves:sulfur"
+					type: "item"
+				}
+				{
+					id: "05D4069B0C6E7D9D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
 			tasks: [
 				{
@@ -1575,11 +1666,24 @@
 			]
 			icon: "create_resource_vents:dormant_lost_debris_vent"
 			id: "23CC3D007074DBEB"
-			rewards: [{
-				id: "05DB3E65D553A3FE"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 9
+					id: "27CE76529B74FC00"
+					item: "create_ethium:lost_debris"
+					type: "item"
+				}
+				{
+					id: "1187B388B84063AD"
+					item: "create_ethium:ethium_block"
+					type: "item"
+				}
+				{
+					id: "191A69767FE87816"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "390690AC9C57DE1D"
@@ -1700,7 +1804,7 @@
 				{
 					id: "18E1991DB8B24CCB"
 					type: "xp"
-					xp: 500
+					xp: 50
 				}
 			]
 			shape: "pentagon"
@@ -2139,6 +2243,29 @@
 			]
 			icon: "alexscaves:scarlet_magnet"
 			id: "0FE8700B43E1C90A"
+			rewards: [
+				{
+					id: "258AD4470B69E55C"
+					item: "alexscaves:block_of_scarlet_neodymium"
+					type: "item"
+				}
+				{
+					id: "6A0FC0B585BF883E"
+					item: "alexscaves:block_of_azure_neodymium"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7986DF68B732AF7F"
+					item: "alexscavesdelight:ferrouslime_ball_sandwich"
+					type: "item"
+				}
+				{
+					id: "21C6D3C4F1D7A710"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2183,6 +2310,19 @@
 			]
 			icon: "alexscaves:quarry_smasher"
 			id: "53A164E6CFAB1AF4"
+			rewards: [
+				{
+					id: "607AE6D1B699A582"
+					item: "alexscaves:hologram_projector"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7C820A332989A29C"
+					item: "alexscaves:holocoder"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2230,6 +2370,19 @@
 			]
 			icon: "alexscaves:heart_of_iron"
 			id: "721783DE90F95E38"
+			rewards: [
+				{
+					count: 4
+					id: "5724EBEA2A4828C2"
+					item: "alexscavesdelight:heart_of_iron_humburger"
+					type: "item"
+				}
+				{
+					id: "1C617604ADD71A02"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "alexscaves:magnetron"
@@ -2283,6 +2436,29 @@
 				}
 			}
 			id: "1C983520F90CBD1A"
+			rewards: [
+				{
+					id: "1A95401E03BBB050"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					id: "50ECE09C95D607DF"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "73A34E16122D9864"
+					item: "alexscaves:magnetic_light"
+					type: "item"
+				}
+				{
+					id: "66E1B0B4889345EA"
+					type: "xp"
+					xp: 500
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2324,6 +2500,11 @@
 			hide_dependent_lines: true
 			icon: "alexscaves:galena"
 			id: "68C365750F63A231"
+			rewards: [{
+				id: "2AD1DBED77B164D2"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "653809C820A327BC"
@@ -2368,6 +2549,18 @@
 				}
 			}
 			id: "2D448B463CD18D1F"
+			rewards: [
+				{
+					id: "64227E7906A53AC3"
+					item: "alexscaves:raygun"
+					type: "item"
+				}
+				{
+					id: "0B56F2B526BDB469"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2456,6 +2649,24 @@
 			]
 			icon: "alexscaves:radgill"
 			id: "237BA5F33CF87FF1"
+			rewards: [
+				{
+					id: "31AAC6ECC1B2DDBD"
+					item: "alexscaves:remote_detonator"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12454E6FFA4290BB"
+					item: "alexscavesdelight:toxic_noodle_soup"
+					type: "item"
+				}
+				{
+					id: "3A5CFA45B45FCA13"
+					type: "xp"
+					xp: 500
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2523,6 +2734,25 @@
 			]
 			icon: "alexscaves:tremorzilla_egg"
 			id: "3E80C3119E22417C"
+			rewards: [
+				{
+					count: 4
+					id: "5849F77E27ACDC96"
+					item: "alexscavesdelight:toxic_glazed_tremorzilla_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "556C31F158AAED57"
+					item: "alexscaves:spelunkie"
+					type: "item"
+				}
+				{
+					id: "4CC3992A2E5E9C6C"
+					type: "xp"
+					xp: 750
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2577,6 +2807,24 @@
 				"It's time to bring this one to an end."
 			]
 			id: "423EEE01F62296D8"
+			rewards: [
+				{
+					count: 3
+					id: "68480D2233F6081B"
+					item: "alexscavesdelight:acid_juice"
+					type: "item"
+				}
+				{
+					id: "69C65C222E759CFC"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+				{
+					id: "410AEB4ED84ACFFE"
+					type: "xp"
+					xp: 750
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "alexscaves:brainiac"
@@ -2595,6 +2843,11 @@
 			hide_dependent_lines: true
 			icon: "alexscaves:acidic_radrock"
 			id: "0B861C7DE0B810FB"
+			rewards: [{
+				id: "2184CB8DC8DF1546"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "049E44D6F15559FF"
@@ -2625,6 +2878,18 @@
 			]
 			icon: "alexscaves:block_of_frosted_chocolate"
 			id: "6D2E4D08BF71AA0B"
+			rewards: [
+				{
+					id: "304323B79A104B01"
+					item: "alexscavesdelight:extra_sugar_rush_block"
+					type: "item"
+				}
+				{
+					id: "4D6BB0E60363A163"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2674,6 +2939,11 @@
 			hide_dependent_lines: true
 			icon: "alexscaves:cake_layer"
 			id: "485B737D88E98470"
+			rewards: [{
+				id: "6C4240ED09009B51"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "6157EF70DAE63329"
@@ -2714,6 +2984,24 @@
 			]
 			icon: "alexscaves:frosted_gingerbread_block"
 			id: "7B4590618DE61BFE"
+			rewards: [
+				{
+					count: 3
+					id: "7C6A703ABBC04BF0"
+					item: "alexscaves:sundae"
+					type: "item"
+				}
+				{
+					id: "45135C46E3E0FD09"
+					item: "alexscaves:shot_gum"
+					type: "item"
+				}
+				{
+					id: "5ACA03565335DB2E"
+					type: "xp"
+					xp: 250
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2778,6 +3066,36 @@
 			]
 			icon: "alexscaves:candy_cane"
 			id: "2137F38B93B8EAF0"
+			rewards: [
+				{
+					count: 2
+					id: "24D9EBFE4826D0D1"
+					item: {
+						Count: 1
+						id: "alexscaves:candy_cane_hook"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36C52C3834BAEB73"
+					item: {
+						Count: 1
+						id: "alexscaves:rainbounce_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0053B7B430D3A3FA"
+					type: "xp"
+					xp: 500
+				}
+			]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -2844,6 +3162,18 @@
 				"The greatest dangers often wear the sweetest disguise."
 			]
 			id: "2B43FBAC6F28DDFF"
+			rewards: [
+				{
+					id: "401D9C09B78DE90E"
+					item: "alexscaves:sack_of_sating"
+					type: "item"
+				}
+				{
+					id: "760EE32128817017"
+					type: "xp"
+					xp: 1000
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "alexscaves:licowitch"
