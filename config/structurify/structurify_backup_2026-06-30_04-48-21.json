@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.25",
-  "config_datetime": "2026-06-23_01-40-59",
+  "config_version": "2.0.28",
+  "config_datetime": "2026-06-30_04-48-11",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -23,6 +23,14 @@
     }
   ],
   "structures": [
+    {
+      "name": "minecraft:bastion_remnant",
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "minecraft:end_city",
+      "terrain_adaptation": "beard_box"
+    },
     {
       "name": "ad_astra:oil_well",
       "is_disabled": true
@@ -59,17 +67,15 @@
       ]
     },
     {
-      "name": "create_pillagers_arise:createpillagerblimp",
-      "terrain_adaptation": "beard_box",
-      "max_horizontal_distance_from_center": 128,
-      "max_vertical_distance_from_center": 128
-    },
-    {
       "name": "create_structures_arise:create_copper_statue",
       "is_disabled": true
     },
     {
       "name": "create_structures_arise:createairdrop",
+      "is_disabled": true
+    },
+    {
+      "name": "create_structures_arise:createfluidtank",
       "is_disabled": true
     },
     {
@@ -109,6 +115,10 @@
       "blacklisted_biomes": [
         "incendium:quartz_flats"
       ],
+      "terrain_adaptation": "beard_box"
+    },
+    {
+      "name": "incendium:piglin_village",
       "terrain_adaptation": "beard_box"
     },
     {

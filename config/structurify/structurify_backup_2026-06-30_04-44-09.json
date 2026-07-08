@@ -1,6 +1,6 @@
 {
-  "config_version": "2.0.25",
-  "config_datetime": "2026-06-23_01-52-25",
+  "config_version": "2.0.28",
+  "config_datetime": "2026-06-30_04-44-01",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
@@ -67,6 +67,10 @@
       "is_disabled": true
     },
     {
+      "name": "create_structures_arise:createfluidtank",
+      "is_disabled": true
+    },
+    {
       "name": "create_structures_arise:createlittleman",
       "is_disabled": true
     },
@@ -106,6 +110,10 @@
       "terrain_adaptation": "beard_box"
     },
     {
+      "name": "incendium:piglin_village",
+      "terrain_adaptation": "beard_box"
+    },
+    {
       "name": "incendium:quartz_kitchen",
       "whitelisted_biomes": [
         "minecraft:soul_sand_valley"
@@ -123,6 +131,10 @@
       "blacklisted_biomes": [
         "incendium:withered_forest"
       ]
+    },
+    {
+      "name": "incendium:sanctum",
+      "terrain_adaptation": "beard_box"
     }
   ],
   "structure_sets": [
