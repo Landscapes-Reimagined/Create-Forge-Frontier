@@ -43,6 +43,13 @@
 	quests: [
 		{
 			description: ["The well known starting point. Without wooden tools how can one progress?"]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "569043F767BA788D"
 			rewards: [
 				{
@@ -109,12 +116,20 @@
 					type: "item"
 				}
 			]
+			title: "Wood Tool Set"
 			x: 1.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["569043F767BA788D"]
 			description: ["Stone is the first step up from wood. From here on out you can mine anything below diamond level."]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7A856B1E97E0FFDB"
 			rewards: [
 				{
@@ -181,12 +196,20 @@
 					type: "item"
 				}
 			]
+			title: "Stone Tool Set"
 			x: -1.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7A856B1E97E0FFDB"]
 			description: ["A slight step up from Stone tools. It has more durability and marginally faster. But still weaker than iron."]
+			icon: {
+				Count: 1
+				id: "create_sa:copper_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7805EAE8556E1F67"
 			rewards: [
 				{
@@ -247,12 +270,20 @@
 					type: "item"
 				}
 			]
+			title: "Copper Tool Set"
 			x: -3.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["7805EAE8556E1F67"]
 			description: ["Iron is the bread and butter tool, not too expensive, good durability and speed."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "0DCC1B96D6DE7F39"
 			rewards: [
 				{
@@ -312,12 +343,20 @@
 					type: "item"
 				}
 			]
+			title: "Iron Tool Set"
 			x: -5.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["0DCC1B96D6DE7F39"]
 			description: ["Gold is one of the fastest tools, and has the highest enchantability. However it also has lower durability."]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "00D7E3D85CA25847"
 			rewards: [
 				{
@@ -377,12 +416,20 @@
 					type: "item"
 				}
 			]
+			title: "Gold Tool Set"
 			x: -5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["00D7E3D85CA25847"]
 			description: ["Diamond tools have incredible durability and much faster speed than iron."]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "784CFB70D39FFE00"
 			rewards: [
 				{
@@ -442,16 +489,24 @@
 					type: "item"
 				}
 			]
+			title: "Diamond Tool Set"
 			x: -3.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["784CFB70D39FFE00"]
 			description: ["An ancient upgrade applied to diamond, netherite tools will also not burn in lava. Beware around cacti however."]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "333B011BA1AE3F82"
 			rewards: [
 				{
-					count: 6
+					count: 4
 					id: "180ABBB7C39AD71C"
 					item: "minecraft:netherite_ingot"
 					type: "item"
@@ -472,6 +527,7 @@
 							Damage: 0
 						}
 					}
+					title: "Netherite Tool Set"
 					type: "item"
 				}
 				{
@@ -580,6 +636,7 @@
 					type: "item"
 				}
 			]
+			title: "Copper Armor Set"
 			x: 8.5d
 			y: -5.5d
 		}
@@ -653,6 +710,7 @@
 					type: "item"
 				}
 			]
+			title: "Iron Armor Set"
 			x: 10.5d
 			y: -5.5d
 		}
@@ -726,6 +784,7 @@
 					type: "item"
 				}
 			]
+			title: "Gold Armor Set"
 			x: 12.5d
 			y: -5.5d
 		}
@@ -799,6 +858,7 @@
 					type: "item"
 				}
 			]
+			title: "Diamond Armor Set"
 			x: 14.5d
 			y: -5.5d
 		}
@@ -872,6 +932,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite Armor Set"
 			x: 14.5d
 			y: -3.5d
 		}
@@ -884,10 +945,17 @@
 				""
 				"The hoe will also have a chance to get extra crop for Wheat, Carrot, Potatoes and Beetroots."
 			]
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "715D458FCAFB6481"
 			rewards: [
 				{
-					count: 6
+					count: 4
 					id: "0B1EB6F60B7B690E"
 					item: "advancednetherite:netherite_iron_ingot"
 					type: "item"
@@ -944,6 +1012,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Iron Tool Set"
 			x: 1.0d
 			y: -1.5d
 		}
@@ -1029,6 +1098,7 @@
 					type: "item"
 				}
 			]
+			title: "Warden Armor Set"
 			x: 12.5d
 			y: -3.5d
 		}
@@ -1102,6 +1172,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Iron Armor Set"
 			x: 10.5d
 			y: -3.5d
 		}
@@ -1175,6 +1246,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Gold Armor Set"
 			x: 8.5d
 			y: -3.5d
 		}
@@ -1191,7 +1263,7 @@
 			id: "367C81CC3E673330"
 			rewards: [
 				{
-					count: 6
+					count: 8
 					id: "0201DDF724A4612F"
 					item: "advancednetherite:netherite_diamond_ingot"
 					type: "item"
@@ -1248,6 +1320,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Diamond Armor Set"
 			x: 11.5d
 			y: -1.5d
 		}
@@ -1264,9 +1337,9 @@
 			id: "7F1F14E8D8433B45"
 			rewards: [
 				{
-					count: 2
+					count: 7
 					id: "43F5C7845A41B1F9"
-					item: "resonant_synthesis:otherside_block"
+					item: "resonant_synthesis:otherside_ingot"
 					type: "item"
 				}
 				{
@@ -1326,6 +1399,7 @@
 					type: "item"
 				}
 			]
+			title: "Otherside Armor Set"
 			x: 11.5d
 			y: 0.0d
 		}
@@ -1400,6 +1474,7 @@
 					type: "item"
 				}
 			]
+			title: "Ethium Armor Set"
 			x: 11.5d
 			y: 1.5d
 		}
@@ -1410,10 +1485,17 @@
 				""
 				"The Hoe will also have a chance to drop extra crops, just like in Netherite-Iron form."
 			]
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_gold_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5BAE422E00FF78D9"
 			rewards: [
 				{
-					count: 6
+					count: 4
 					id: "0065C366204E5ED1"
 					item: "advancednetherite:netherite_gold_ingot"
 					type: "item"
@@ -1470,6 +1552,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Gold Tool Set"
 			x: -0.5d
 			y: -1.5d
 		}
@@ -1480,10 +1563,17 @@
 				""
 				"The Hoe retains previous ability, whereas the Pickaxe now drops bonus diamonds when mining Diamond Ore."
 			]
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2A10474EE1CDC9CD"
 			rewards: [
 				{
-					count: 5
+					count: 4
 					id: "4A1B9E374968BD8B"
 					item: "advancednetherite:netherite_diamond_ingot"
 					type: "item"
@@ -1540,16 +1630,24 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Diamond Tool Set"
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2A10474EE1CDC9CD"]
 			description: ["The Final evolution of your toolset. Ethium is the highest durability and speed of all tools available for crafting."]
+			icon: {
+				Count: 1
+				id: "create_ethium:ethium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "165F9B1B169397E4"
 			rewards: [
 				{
-					count: 3
+					count: 4
 					id: "78E8C53BF9E11B53"
 					item: "create_ethium:ethium_ingot"
 					type: "item"
@@ -1607,6 +1705,7 @@
 					type: "item"
 				}
 			]
+			title: "Ethium Tool Set"
 			x: -2.0d
 			y: 1.5d
 		}
@@ -1616,6 +1715,19 @@
 				""
 				"This includes several new tiers of shields. Each level offering more defensiveness than the previous. It also allows for more visual customisation of your shields such as different wood types."
 			]
+			icon: {
+				Count: 1
+				id: "expanded_combat:shield_1"
+				tag: {
+					DL_Material: "Rabbit Leather"
+					DR_Material: "Rabbit Leather"
+					Damage: 0
+					Last_Repair_Number: 0
+					M_Material: "Iron"
+					UL_Material: "Rabbit Leather"
+					UR_Material: "Rabbit Leather"
+				}
+			}
 			id: "45EE3DD07DD3345F"
 			rewards: [
 				{
@@ -1687,6 +1799,13 @@
 		}
 		{
 			description: ["The Bows added by Expanded Combat allow the user to shoot much further and create much more durable bows. Although they will not do much more damage, some variants might have improved mending efficiency."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_bow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "764CA281D788647D"
 			rewards: [
 				{
@@ -1719,6 +1838,13 @@
 		}
 		{
 			description: ["The Crossbows from expanded combat are more powerful versions of the standard vanilla crossbow. These can be upgraded into successive tiers for more damage and arrow velocity"]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7F1D0EBC15C6E721"
 			rewards: [
 				{
@@ -1760,6 +1886,15 @@
 				""
 				"It can be infused with lingering potions to apply that potion effect on hit."
 			]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_scythe"
+				tag: {
+					Damage: 0
+					MaxPotionUses: 0
+					PotionUses: 0
+				}
+			}
 			id: "7CC43DFDD48B853E"
 			rewards: [
 				{
@@ -1801,6 +1936,13 @@
 				""
 				"It however comes with higher entity knockback, and a large sweeping area."
 			]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_battle_staff"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "78D032897B902274"
 			rewards: [
 				{
@@ -1833,6 +1975,13 @@
 		}
 		{
 			description: ["The Broad Sword is a larger, more powerful version of a regular sword. It is however much slower to swing around due to it's increased size."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_broad_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "38400FD11DF1EE5E"
 			rewards: [
 				{
@@ -1865,6 +2014,13 @@
 		}
 		{
 			description: ["The Cutlass is much like a normal sword, with a slight trade off due to slightly shorter range, for slightly faster attack speed."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "028D55A09D0D202B"
 			rewards: [
 				{
@@ -1896,6 +2052,13 @@
 		}
 		{
 			description: ["The Dancer's Swords are a more powerful alternative to a regular sword, similar range, faster attack speed and more damage. It however costs two blades to construct."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "650E0B136AC77AB3"
 			rewards: [
 				{
@@ -1928,6 +2091,13 @@
 		}
 		{
 			description: ["The Flail weapon is much like a mace, trading higher damage for slower attack speed. It delivers high impact hits with a slight increase in knockback compared to vanilla swords."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_flail"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5491DF8385693170"
 			rewards: [
 				{
@@ -1965,6 +2135,13 @@
 		}
 		{
 			description: ["The Spears have an improved range compared to most weapons, this comes at the cost of a smaller sweeping range and slower attack speed."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_spear"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "48DE5B348668EE72"
 			rewards: [
 				{
@@ -2012,6 +2189,13 @@
 				}
 			]
 			tasks: [{
+				icon: {
+					Count: 1
+					id: "expanded_combat:iron_great_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "730821AE6F0AB0D1"
 				item: {
 					Count: 1
@@ -2029,13 +2213,20 @@
 		}
 		{
 			description: ["The Mace is a blunt weapon that slightly increases weapon knockback and does higher impact damage than a regular sword. It however attacks slower due to it's weight and is much more expensive to craft."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_mace"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3A66F98ED9174938"
 			rewards: [
 				{
-					id: "0C016AE528DDCC75"
+					id: "2077C9D1C868063B"
 					item: {
 						Count: 1
-						id: "quark:flamerang"
+						id: "aquaculture:diamond_fishing_rod"
 						tag: {
 							Damage: 0
 						}
@@ -2043,7 +2234,7 @@
 					type: "item"
 				}
 				{
-					id: "28333CDB7C8DB05D"
+					id: "69BF2949C7878A5F"
 					type: "xp_levels"
 					xp_levels: 1
 				}
@@ -2066,6 +2257,13 @@
 		}
 		{
 			description: ["The Katana is a upgrade to the regular sword by adding a slighty longer range and higher damage to the existing sword. "]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_katana"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "17ED4BE2BFC759D7"
 			rewards: [
 				{
@@ -2102,6 +2300,13 @@
 				""
 				"The Netherite-Alloy variants have a chance of extra drops, similarly to the powers of their armor and tool sets."
 			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2C84BCB169CD5B2B"
 			rewards: [
 				{
@@ -2140,6 +2345,13 @@
 		}
 		{
 			description: ["The Claymore is a longer range and heavier version of a regular sword. Good for those who want to do slow heavy hits, but find the Broad Sword too slow."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "13D918D1D1A1C6E0"
 			rewards: [
 				{
@@ -2172,6 +2384,13 @@
 		}
 		{
 			description: ["These Daggers might be smaller than a regular sword, but are much faster and lighter to swing, and cheaper to craft. "]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "007829A818462C9F"
 			rewards: [
 				{
@@ -2203,6 +2422,13 @@
 		}
 		{
 			description: ["A Curved Sword once meant for harvesting grain. Sickle weapons are slightly shorter range than a regular sword, but much faster to swing."]
+			icon: {
+				Count: 1
+				id: "expanded_combat:iron_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "5F93BE52E8ECD072"
 			rewards: [
 				{
@@ -2240,6 +2466,13 @@
 		{
 			dependencies: ["333B011BA1AE3F82"]
 			description: ["An upgrade from the Depths, the next evolution from your regular netherite tools."]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2D9B1C3FB0882602"
 			rewards: [
 				{
@@ -2306,13 +2539,34 @@
 					type: "item"
 				}
 			]
+			title: "Warden Tool Set"
 			x: 1.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["3AA8AD0807010C42"]
 			description: ["The next step after Netherite-Gold. Netherite-Emerald makes Endermen passive unless provoked, including looking them in their eyes. It of course also comes with increased defensive capabilities."]
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_emerald_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "12FF7E35AC51535A"
+			rewards: [
+				{
+					count: 8
+					id: "2C12E920F5487B04"
+					item: "advancednetherite:netherite_emerald_ingot"
+					type: "item"
+				}
+				{
+					id: "0F27A7F3BA9E5C17"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [
 				{
 					id: "790172F9846FD534"
@@ -2359,6 +2613,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Emerald Armor Set"
 			x: 8.5d
 			y: -1.5d
 		}
@@ -2369,7 +2624,27 @@
 				""
 				"The Pickaxe's ability is to have a chance at extra emeralds when mining emerald ore. The hoe's ability remains unchanged."
 			]
+			icon: {
+				Count: 1
+				id: "advancednetherite:netherite_emerald_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "2EBE94C99122A3CD"
+			rewards: [
+				{
+					count: 4
+					id: "246F45AF110FC498"
+					item: "advancednetherite:netherite_emerald_ingot"
+					type: "item"
+				}
+				{
+					id: "46A8A8898B012AD5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [
 				{
 					id: "40DC0972E356DFCC"
@@ -2416,6 +2691,7 @@
 					type: "item"
 				}
 			]
+			title: "Netherite-Emerald Tool Set"
 			x: -2.0d
 			y: -1.5d
 		}
