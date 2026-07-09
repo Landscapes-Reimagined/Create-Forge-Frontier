@@ -2046,6 +2046,19 @@
 		{
 			description: ["The cognitive crystal is one of the key elements in most crafted items in Cognition."]
 			id: "513CEDA19D71F82C"
+			rewards: [
+				{
+					count: 4
+					id: "0AFA507A987CFAF1"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "5E35205F59EF11F3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "5C07CE9B34841EAD"
 				item: "experienceobelisk:cognitive_crystal"
@@ -2062,6 +2075,19 @@
 				"Can be linked using the Staff of Attunement to power other Cognition machinery."
 			]
 			id: "24B26A59FD9E5CD6"
+			rewards: [
+				{
+					count: 24
+					id: "51CBA5525DFFFA50"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "7D0D534C420B99F0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "2FBF0F0C026A37D2"
 				item: {
@@ -2078,6 +2104,19 @@
 			dependencies: ["513CEDA19D71F82C"]
 			description: ["Much like a wrench in a tech mod, this staff is used to attune and interact with many blocks within Cognition. Including linking of the &nExperience Obelisk&r to various machinery. This can be done by shift right clicking the obelisk and then the machine that needs linking."]
 			id: "5311BBD54A367C2D"
+			rewards: [
+				{
+					count: 16
+					id: "56768F4D34BDC2FA"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "6D86B38DA148DB44"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2DB30C0059811B3D"
 				item: "experienceobelisk:attunement_staff"
@@ -2090,6 +2129,19 @@
 			dependencies: ["513CEDA19D71F82C"]
 			description: ["The fountain can dispense experience stored within an experience obelisk it is bound to. The rate can be adjusted and the device can be redstone controlled."]
 			id: "392878964F02EBF1"
+			rewards: [
+				{
+					count: 4
+					id: "722E17EDED94E595"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "63ABFE8E9B1B51DB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "72A8F9CBDEEE4AC1"
 				item: "experienceobelisk:experience_fountain"
@@ -2102,6 +2154,19 @@
 			dependencies: ["513CEDA19D71F82C"]
 			description: ["This is a very advanced version of grindstones. Allowing for selective removal of enchantments but also allowing the user to remove curses."]
 			id: "4AD660E6F370A7B5"
+			rewards: [
+				{
+					count: 2
+					id: "2BA268298EB76D73"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "28CE3BCCD1FDD8D6"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "2FD2E31C76D62201"
 				item: "experienceobelisk:precision_dispeller"
@@ -2118,6 +2183,19 @@
 				"Requires linking to an &nExperience Obelisk&r using a &nStaff of Attunement&r."
 			]
 			id: "556893DFE1DA18EC"
+			rewards: [
+				{
+					count: 4
+					id: "3F9B6CB620046AE6"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "36E339AF27B30BE1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "73724EFA1808C112"
 				item: {
@@ -2134,6 +2212,18 @@
 			dependencies: ["513CEDA19D71F82C"]
 			description: ["This amulet teleports nearby experience orbs to the user, allowing for quicker and longer range absorption of XP."]
 			id: "26F3021264050933"
+			rewards: [
+				{
+					id: "44F31CCE7523D820"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "6FF3CA9BD9B19470"
+					type: "xp"
+					xp: 200
+				}
+			]
 			tasks: [{
 				id: "2790DFA5488A9173"
 				item: {
@@ -2150,6 +2240,19 @@
 			dependencies: ["513CEDA19D71F82C"]
 			description: ["This block accelerates entities in the direction it's facing, can be turned into a linear version that launches in the direction it is pointing."]
 			id: "7A8237626C81EDA1"
+			rewards: [
+				{
+					count: 4
+					id: "122B560D14642ECB"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "7AD5D1A8C3E353C7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "42AD383EDCE021FD"
 				item: "experienceobelisk:accelerator"
@@ -2162,6 +2265,19 @@
 			dependencies: ["513CEDA19D71F82C"]
 			description: ["The &nBibliophage&r feeds on bookshelves. Some types of bookshelves from Cognition can be digested into more experience by these phages."]
 			id: "0592C54DF2B57D18"
+			rewards: [
+				{
+					count: 8
+					id: "68A101FEE8EDCCE0"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "5380C8C787677DE6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6591EA04EB435048"
 				item: "experienceobelisk:bibliophage"
@@ -2173,6 +2289,19 @@
 		{
 			description: ["A bookshelf with more knowledge, and thus more for the bibliophage to consume."]
 			id: "7D724F27275BF5C6"
+			rewards: [
+				{
+					count: 4
+					id: "2BBC5CD0317E6E46"
+					item: "experienceobelisk:archivers_bookshelf"
+					type: "item"
+				}
+				{
+					id: "46C4251BCB35BB29"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "452822117D9CE519"
 				item: "experienceobelisk:archivers_bookshelf"
@@ -2185,6 +2314,12 @@
 			dependencies: ["0592C54DF2B57D18"]
 			description: ["Infecting your bookshelf with a Bibliophage will slowly consume the shelf and passively release the stored knowledge as experience orbs."]
 			id: "043A69B7115AB7FE"
+			rewards: [{
+				count: 4
+				id: "41B3A2E452570906"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
 			tasks: [{
 				block: "minecraft:bookshelf"
 				block_type: 0
@@ -2206,6 +2341,19 @@
 				"An important resource in crafting nutritious agar for bibliophages to breed in passively and the powerful calcarine matrix."
 			]
 			id: "6E6F387D05330965"
+			rewards: [
+				{
+					count: 16
+					id: "6BBC5CF63E13D9A4"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "5DF7BC44F77A937A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "3056E23D75780229"
 				item: "experienceobelisk:forgotten_dust"
@@ -2217,6 +2365,19 @@
 		{
 			description: ["This fruit infused jelly can be eaten instantly, making it a very rapid source of food for the player. It is also the base ingredient in the nutritious agar that allows the player to have a permanent colony of phages."]
 			id: "0FB45A4B4F2BDCAC"
+			rewards: [
+				{
+					count: 4
+					id: "67BCC1B248CA2B1F"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "725346B584C3D9B9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
 			tasks: [{
 				id: "494746DD6D2580FD"
 				item: "experienceobelisk:experience_jelly"
@@ -2344,6 +2505,19 @@
 		{
 			description: ["The Flask of Poseidon allows the user to place a block of water at the cost of 7 experience points per block. Can also be used on cauldrons or waterloggable blocks."]
 			id: "1631C67EA4EB1220"
+			rewards: [
+				{
+					count: 8
+					id: "432FC679AF2E0C27"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "7DC9A76BE737519D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "7677DE9BC437056C"
 				item: "experienceobelisk:flask_of_poseidon"
@@ -2355,6 +2529,19 @@
 		{
 			description: ["The Flask of Hades allows the player to place a lava source block wherever they please. This also works on cauldrons or fluid containers. It is much more expensive than the Flask of Poseidon at 160 experience points per usage."]
 			id: "2BE3879C42F7AB0C"
+			rewards: [
+				{
+					count: 8
+					id: "71491521C2DB6E53"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "026E106504FBBC1C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "3C3AE4A5E091E75B"
 				item: "experienceobelisk:flask_of_hades"
@@ -2366,6 +2553,19 @@
 		{
 			description: ["The Flask of Chaos is the inverse of the other Flasks. It allows for deletion of any fluid source, careful around your expensive resource vents! Only costs 1 experience point per use."]
 			id: "333F5A02D64B504A"
+			rewards: [
+				{
+					count: 8
+					id: "37EAC771649535D9"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "5532BB23D58C4604"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "4B73E86E983BBF64"
 				item: "experienceobelisk:flask_of_chaos"
@@ -2385,6 +2585,19 @@
 				"It can also be split into blobs of neurogel to split its restorative powers into 4 instances."
 			]
 			id: "45D7E9014C5A7D52"
+			rewards: [
+				{
+					count: 8
+					id: "11F5580837F04319"
+					item: "experienceobelisk:forgotten_dust"
+					type: "item"
+				}
+				{
+					id: "346CCF85EA289438"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "43C1C61EC6831E2D"
 				item: "experienceobelisk:mending_neurogel"
@@ -2396,6 +2609,19 @@
 		{
 			description: ["This flask resets your internal rest counter to 0, meaning phantoms will not spawn on the player. Much like a real night's sleep."]
 			id: "281B17D57747E4A4"
+			rewards: [
+				{
+					count: 4
+					id: "68AD49D90FE8AB86"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "2C4791DEF2B5D64C"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "50CE3290967440EB"
 				item: "experienceobelisk:daydream_bottle"
@@ -2407,6 +2633,19 @@
 		{
 			description: ["The counterpart to the Bottle o' Daydream. This powerful potion sets your rest time far into the future, resulting in a 99.6% chance of phantoms spawning in the following nights."]
 			id: "05AED35DDD1D2EED"
+			rewards: [
+				{
+					count: 4
+					id: "3BF53DBFE555DB30"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "60BE89596FF38F47"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "7DE1284B3D1300EE"
 				item: "experienceobelisk:nightmare_bottle"
@@ -2448,6 +2687,19 @@
 			dependencies: ["556893DFE1DA18EC"]
 			description: ["This focus is used for crafting of many items inside of the Molecular Metamorpher. Allowing for focussing of the experience's energy into the material the desired end result."]
 			id: "596888C6F9193534"
+			rewards: [
+				{
+					count: 8
+					id: "1D17CFA4EB8B7C98"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "6F700A7179E7CBE2"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "69D63DC8245EF449"
 				item: {
@@ -2466,6 +2718,19 @@
 			dependencies: ["462B6229E87FAA19"]
 			description: ["This amulet provides powerful boons to the player. A permanent luck 2 buff, improved experience from mobs and the same experience orb collecting powers of the Enlightened Amulet to collect XP from further away."]
 			id: "54B058AC61F7D9B6"
+			rewards: [
+				{
+					count: 2
+					id: "7066D7F8F53596F9"
+					item: "experienceobelisk:calcarine_matrix"
+					type: "item"
+				}
+				{
+					id: "547E625F2008D78A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "49E86419132B9085"
 				item: {
@@ -2482,6 +2747,19 @@
 			dependencies: ["462B6229E87FAA19"]
 			description: ["The Memory Tablet allows for access to any Obelisk up to 48 blocks away. Shift right click to bind the tablet to an obelisk."]
 			id: "1A158727695A13A5"
+			rewards: [
+				{
+					count: 8
+					id: "5D2ADAAFD3164816"
+					item: "experienceobelisk:forgotten_dust"
+					type: "item"
+				}
+				{
+					id: "6250EF44E3487D71"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "6B83EF73968DEE4A"
 				item: "experienceobelisk:memory_tablet"
@@ -2494,6 +2772,19 @@
 			dependencies: ["7D724F27275BF5C6"]
 			description: ["The evolution of the archivers bookshelf. The enchanted knowledge kept within leads to even more for the bibliophage to consume."]
 			id: "0AD8EF8AA3F1B4F3"
+			rewards: [
+				{
+					count: 2
+					id: "09C2C47F4E60CE8F"
+					item: "experienceobelisk:enchanted_bookshelf"
+					type: "item"
+				}
+				{
+					id: "6C22B503F2D6BA4D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "40A17AAB091708B9"
 				item: "experienceobelisk:enchanted_bookshelf"
