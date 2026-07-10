@@ -1654,7 +1654,7 @@
 				{
 					count: 2
 					id: "17A90FB4A341BB68"
-					item: "delightful:field_salad"
+					item: "ends_delight:stuffed_rice_cake"
 					type: "item"
 				}
 				{
@@ -1665,7 +1665,7 @@
 			]
 			tasks: [{
 				id: "4EE507844DDF7E75"
-				item: "phantasm:chorus_fruit_salad"
+				item: "ends_delight:chorus_flower_pie"
 				type: "item"
 			}]
 			x: -7.5d
@@ -2609,6 +2609,7 @@
 				""
 				"Other block alternatives such as fire, lava and forms of ice can also replace these. However the crates are a more controlled and fine way of doing so."
 			]
+			icon: "brewinandchewin:heating_cask"
 			id: "1221A22DE6A98EF4"
 			rewards: [
 				{
