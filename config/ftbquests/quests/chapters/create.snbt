@@ -1062,7 +1062,7 @@
 			}]
 			title: "Stress Progression: Copper Pipe"
 			x: -3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5E955070872C95FC"]
@@ -1318,8 +1318,8 @@
 				type: "item"
 			}]
 			title: "Stress Progression: Mechanical Pump"
-			x: -4.0d
-			y: 1.0d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1CE141F1163EC938"]
@@ -1353,7 +1353,7 @@
 			]
 			title: "Stress Progression: Fluid Valve"
 			x: -4.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["66E9DB5E9D5CD5EC"]
@@ -2519,7 +2519,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["52994525D9DF88FA"]

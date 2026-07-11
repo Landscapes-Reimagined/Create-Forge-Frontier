@@ -152,7 +152,7 @@
 				item: "refinedstorage:1k_storage_part"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -7.5d
 		}
 		{
@@ -169,7 +169,7 @@
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -6.5d
 		}
 		{
@@ -186,7 +186,7 @@
 				item: { Count: 2, id: "refinedstorage:16k_storage_part" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -5.5d
 		}
 		{
@@ -203,7 +203,7 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -220,7 +220,7 @@
 				item: "extrastorage:storagepart_256k"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -237,7 +237,7 @@
 				item: "extrastorage:storagepart_1024k"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -254,7 +254,7 @@
 				item: "extrastorage:storagepart_4096k"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
@@ -278,7 +278,7 @@
 				item: "extrastorage:storagepart_16384k"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -582,6 +582,12 @@
 			]
 			description: ["An upgrade to the previous Grid. All functions are the same but it now has an added crafting system that can also be configured to pull from your inventory or directly from the system."]
 			id: "03BB2FE81305FDF9"
+			rewards: [{
+				count: 4
+				id: "0CEA5F3ADE634227"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5CD313245BAD87D4"
 				item: "refinedstorage:crafting_grid"
@@ -603,6 +609,24 @@
 			]
 			icon: "refinedstorage:crafter"
 			id: "0B3F771B2D1CF021"
+			rewards: [
+				{
+					count: 16
+					id: "0AE91240B9C98A62"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03A2212DFA9DC40C"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "202A28CE93BFE740"
@@ -637,6 +661,20 @@
 				"The storage part teir can go up to 16384k in this pack, check the storage part quests for more information!"
 			]
 			id: "398E2EB1472CF371"
+			rewards: [
+				{
+					count: 4
+					id: "4E7FB53FBF71003B"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2077EEB8D3B1A446"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28ED69FC675CCCAE"
 				item: "refinedstorage:disk_drive"
@@ -659,7 +697,7 @@
 				item: "refinedstorage:64k_fluid_storage_part"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -7.5d
 		}
 		{
@@ -676,7 +714,7 @@
 				item: "refinedstorage:256k_fluid_storage_part"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -6.5d
 		}
 		{
@@ -694,7 +732,7 @@
 				item: "refinedstorage:1024k_fluid_storage_part"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -5.5d
 		}
 		{
@@ -711,7 +749,7 @@
 				item: "refinedstorage:4096k_fluid_storage_part"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -728,7 +766,7 @@
 				item: "extrastorage:storagepart_16384k_fluid"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -3.5d
 		}
 		{
@@ -745,7 +783,7 @@
 				item: "extrastorage:storagepart_65536k_fluid"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -762,7 +800,7 @@
 				item: "extrastorage:storagepart_262144k_fluid"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -779,13 +817,31 @@
 				item: "extrastorage:storagepart_1048576k_fluid"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0B3F771B2D1CF021"]
 			description: ["This block keeps resources in stock so that you never run out, by requesting their crafting recipies through your storage system!"]
 			id: "3158A9D4BF9BD8A4"
+			rewards: [
+				{
+					count: 8
+					id: "7B1AFF9EB4EE6914"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "232BC394C89CFA02"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "47636D2918ABF093"
 				item: "rsrequestify:requester"
@@ -864,8 +920,22 @@
 		}
 		{
 			dependencies: ["3158A9D4BF9BD8A4"]
-			description: ["The upgrade to the first tier of requester!"]
+			description: ["Through CableTeirs, you can upgrade the requester! Each teir provides two new filter rows, and is faster than the last."]
 			id: "1115FC02948353E6"
+			rewards: [
+				{
+					count: 4
+					id: "64F537A5188150B0"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0273D95DB9CF5E7F"
+					item: "rsrequestify:requester"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2CEEB4CD0491F543"
 				item: "cabletiers:elite_requester"
@@ -882,6 +952,12 @@
 			]
 			description: ["The crafter can be upgraded as well, each providing more slots and higher speeds."]
 			id: "0956D7D58078352C"
+			rewards: [{
+				count: 8
+				id: "3EF03B808103372D"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "161346F5A65A7B93"
@@ -917,6 +993,19 @@
 			]
 			icon: "refinedstorage:network_card"
 			id: "0DE5E52E317D76DE"
+			rewards: [
+				{
+					id: "0AF2C20904FC8B96"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E550F5CE95E27B4"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5F232F9AD04A4F3C"
@@ -947,6 +1036,20 @@
 			]
 			icon: "refinedstorage:wireless_transmitter"
 			id: "0599FA05034040E9"
+			rewards: [
+				{
+					count: 8
+					id: "25B96E0DFB08FCD8"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7664830C90994E5A"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6C316FDFAE4BB45E"
@@ -1000,6 +1103,20 @@
 				"Depends on the presence of a transmitter and wireless card to function long range or across dimensions."
 			]
 			id: "1AA756630B5BA7D1"
+			rewards: [
+				{
+					count: 4
+					id: "651619598DADD8D8"
+					item: "refinedstorage:quartz_enriched_iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "444FA021DC22BF99"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7FE3E85CFF98353A"
 				item: "universalgrid:wireless_universal_grid"
@@ -1044,7 +1161,7 @@
 				}
 			]
 			title: "Digital Storage"
-			x: 4.5d
+			x: 3.5d
 			y: -6.5d
 		}
 		{
@@ -1082,7 +1199,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 7.0d
 			y: -6.5d
 		}
 		{
@@ -1288,6 +1405,48 @@
 			}]
 			x: -0.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0DE5E52E317D76DE"]
+			description: [
+				"The security manager is used to manage access to your storage network! Once you place it down, your network becomes restricted to the players with bound security cards inside of it, &oincluding the player who placed it&r. &lThe player who placed the Security Manager can always open its interface.&r"
+				""
+				"There is more information on how they work on the next page!"
+				""
+				"{@pagebreak}"
+				""
+				"To set permissions, you use the Security Card. If a security card isn't bound to a player, you can use it in your hand to automatically bind it to you. To bind it to another online player, click the player button at the top of the screen. Once it's configured, you can insert it into your security manager!"
+			]
+			icon: "refinedstorage:security_card"
+			id: "7E45559DF9CB2BA7"
+			rewards: [
+				{
+					count: 4
+					id: "24D155A8EDD91085"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "298243D848665721"
+					item: "refinedstorage:security_card"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C73657170382AB9"
+					item: { Count: 4, id: "refinedstorage:security_card" }
+					type: "item"
+				}
+				{
+					id: "04C93D3997EC752E"
+					item: "refinedstorage:security_manager"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
 		}
 	]
 	title: "Refined Storage"
