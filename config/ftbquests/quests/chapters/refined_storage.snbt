@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["The gravel found on the moon contains the raw resource required to create Silicon. A base ingredient in developing digital technologies. Extract it and build on from there!"]
+			description: ["Moon gravel, processed from moon stone found on the moon contains the raw resource required to create Silicon. A base ingredient in developing digital technologies. Extract it and build on from there!"]
 			icon: "refinedstorage:silicon"
 			id: "45EFAF44704837D5"
 			rewards: [{
@@ -143,7 +143,6 @@
 			]
 			id: "2FEAD1F3614172B6"
 			rewards: [{
-				count: 2
 				id: "1BE37EC703DB379E"
 				item: "refinedstorage:1k_storage_part"
 				type: "item"
@@ -161,7 +160,6 @@
 			description: ["The 4k storage part leads to items that can store 4096 items, regardless of item types. The first upgrade from the 1k storage part."]
 			id: "4F8073EF6593BD7D"
 			rewards: [{
-				count: 2
 				id: "0B2074E16DC6F725"
 				item: "refinedstorage:4k_storage_part"
 				type: "item"
@@ -179,7 +177,6 @@
 			description: ["Storage blocks and drives made using the 16k component can store 16384 items regardless of types."]
 			id: "2291FC0B14AF94BC"
 			rewards: [{
-				count: 2
 				id: "27B3507537992F4B"
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
@@ -197,7 +194,6 @@
 			description: ["The 64k storage part will lead to a storage capacity of 65536 items regardless of type."]
 			id: "58D785190A33AD44"
 			rewards: [{
-				count: 2
 				id: "3D129F6E97557D1A"
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
@@ -215,7 +211,6 @@
 			description: ["The 256k component when crafted into a drive or block will store up to 262144 items regardless of item types. "]
 			id: "163EE2FED17DF32C"
 			rewards: [{
-				count: 2
 				id: "04C9B5217C124F49"
 				item: "extrastorage:storagepart_256k"
 				type: "item"
@@ -233,7 +228,6 @@
 			description: ["Drives and blocks crafted using the 1024k part will provide a storage capacity of 1048576 items."]
 			id: "6163DD05DDF6B56E"
 			rewards: [{
-				count: 2
 				id: "370A84ADBC2EB9F9"
 				item: "extrastorage:storagepart_1024k"
 				type: "item"
@@ -251,7 +245,6 @@
 			description: ["This upgraded storage part will provide 4194304 item storage when turned into a drive or storage block."]
 			id: "52B024501AA56D25"
 			rewards: [{
-				count: 2
 				id: "4C1C3F0F9028231E"
 				item: "extrastorage:storagepart_4096k"
 				type: "item"
@@ -270,7 +263,6 @@
 			id: "7E292C0270FE8E08"
 			rewards: [
 				{
-					count: 2
 					id: "2FC154D6ED7FE3E6"
 					item: "extrastorage:storagepart_16384k"
 					type: "item"
@@ -658,7 +650,6 @@
 			description: ["Each bucket in minecraft is exactly 1000 millibuckets. The beginner 64k fluid storage part can store 64 of these buckets."]
 			id: "54CC8EECE224DDB5"
 			rewards: [{
-				count: 2
 				id: "7FCCA64542461A3A"
 				item: "refinedstorage:64k_fluid_storage_part"
 				type: "item"
@@ -676,7 +667,6 @@
 			description: ["This first upgrade can store a maximum of 256 buckets when turned into a drive or block."]
 			id: "0879F649A4388C4D"
 			rewards: [{
-				count: 2
 				id: "78675DDDA49F1046"
 				item: "refinedstorage:256k_fluid_storage_part"
 				type: "item"
@@ -712,7 +702,6 @@
 			description: ["This part will contribute 4096 buckets of storage capacity when inserted into a drive or block in your network."]
 			id: "1587D17ED1D376C8"
 			rewards: [{
-				count: 2
 				id: "4D660BBDFC7BF238"
 				item: "refinedstorage:4096k_fluid_storage_part"
 				type: "item"
@@ -730,7 +719,6 @@
 			description: ["A total of 16384 buckets can fit inside containers such as the drive or block when crafted using this part."]
 			id: "1FC8E3CC6906C255"
 			rewards: [{
-				count: 2
 				id: "4F2AB16A2399C9F4"
 				item: "extrastorage:storagepart_16384k_fluid"
 				type: "item"
@@ -748,7 +736,6 @@
 			description: ["65536 buckets in a single drive or block made using this part."]
 			id: "56AA7C8B464EF828"
 			rewards: [{
-				count: 2
 				id: "69AD8754C402804B"
 				item: "extrastorage:storagepart_65536k_fluid"
 				type: "item"
@@ -766,7 +753,6 @@
 			description: ["The penultimate fluid storage part. Drives and blocks crafted wit this can store 262144 buckets."]
 			id: "416DBF0A6118A61C"
 			rewards: [{
-				count: 2
 				id: "76FC111F6564EED3"
 				item: "extrastorage:storagepart_262144k_fluid"
 				type: "item"
@@ -784,7 +770,6 @@
 			description: ["The ultimate storage for fluids... 1048576 buckets in a single drive or block. Thankfully it's digital (otherwise this would be denser than the sun's core)."]
 			id: "07925709A06B7A1C"
 			rewards: [{
-				count: 2
 				id: "1DFB9F07E3EE5ABA"
 				item: "extrastorage:storagepart_1048576k_fluid"
 				type: "item"
