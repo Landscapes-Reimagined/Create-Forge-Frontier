@@ -722,7 +722,6 @@
 			description: ["Fluid drives and blocks made with this part will contribute 1024 buckets of capacity."]
 			id: "3B1AA01E691CF4B1"
 			rewards: [{
-				count: 2
 				id: "53E032848EC9017D"
 				item: "refinedstorage:1024k_fluid_storage_part"
 				type: "item"
