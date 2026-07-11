@@ -71,19 +71,19 @@
 			id: "6B0EFB5F45658146"
 			rewards: [
 				{
-					id: "01FF0820975F5F04"
-					item: "create_dd:stargaze_singularity"
+					id: "45AB2351B2E8ED0B"
+					item: "create_dd:shadow_steel"
 					type: "item"
 				}
 				{
-					id: "1F42063A131736A3"
-					item: "create_dd:shimmer_bucket"
+					id: "27B06802CBBA10D6"
+					item: "create_dd:refined_radiance"
 					type: "item"
 				}
 				{
-					id: "3277EB3D8A970FD8"
+					id: "0C78021C32481CE5"
 					type: "xp"
-					xp: 5
+					xp: 100
 				}
 			]
 			subtitle: "Infinite Resource Generation."
@@ -1757,12 +1757,9 @@
 			id: "5FC151F423C7A66E"
 			rewards: [
 				{
+					count: 3
 					id: "2618228732ED44B9"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_upgrade_smithing_template"
-						tag: { }
-					}
+					item: "resonant_synthesis:sculk_cake"
 					type: "item"
 				}
 				{
@@ -1949,11 +1946,7 @@
 				{
 					count: 16
 					id: "041BCF684BF465EC"
-					item: {
-						Count: 1
-						id: "excavated_variants:create_asurine_copper_ore"
-						tag: { }
-					}
+					item: "enhanced_ore_variety:andesite_copper_ore"
 					type: "item"
 				}
 				{

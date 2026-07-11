@@ -561,7 +561,7 @@
 			id: "50588486100A469E"
 			rewards: [
 				{
-					count: 32
+					count: 16
 					id: "084CAF97B9155D83"
 					item: "create_new_age:thorium_ore"
 					type: "item"

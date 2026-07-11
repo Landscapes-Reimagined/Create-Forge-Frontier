@@ -99,9 +99,8 @@
 			id: "06F63FC2DEF3AAEE"
 			rewards: [
 				{
-					count: 32
 					id: "2A476C3D0410C37D"
-					item: "excavated_variants:create_crimsite_iron_ore"
+					item: "create_connected:empty_fan_catalyst"
 					type: "item"
 				}
 				{
@@ -113,7 +112,7 @@
 				{
 					id: "1E7E3F5D491C00F5"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			subtitle: "The Power of Heat and High Pressure."
@@ -144,20 +143,19 @@
 			id: "2A43C321D945E480"
 			rewards: [
 				{
-					count: 32
-					id: "79875A854E180CE2"
-					item: "minecraft:nether_gold_ore"
+					id: "746ADEA77431B156"
+					item: "create_connected:empty_fan_catalyst"
 					type: "item"
 				}
 				{
-					id: "2D0CB68711B8CD02"
+					id: "2AE4FBCD8EFAEE04"
 					item: "minecraft:wither_skeleton_skull"
 					type: "item"
 				}
 				{
-					id: "5A9C22CC1E98CBD2"
+					id: "7E90FE0D33CC0C3C"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			subtitle: "The Nether, Contained."
@@ -202,7 +200,7 @@
 				{
 					id: "1F3BE97B445F669A"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			subtitle: "Dreamed and Desired."
@@ -774,15 +772,19 @@
 			id: "3DDD6DC93E62E70F"
 			rewards: [
 				{
-					count: 7
 					id: "7B4CF829140CEF47"
-					item: "minecraft:dragon_breath"
+					item: "minecraft:dragon_head"
 					type: "item"
 				}
 				{
-					id: "3D79AC4AF32F23F1"
+					id: "00FF1F0B4D6AF28B"
+					item: "ends_delight:dragon_meat_stew_block"
+					type: "item"
+				}
+				{
+					id: "50DF00A46AB4DA0D"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			subtitle: "The Dragon Contained."
@@ -820,7 +822,7 @@
 				{
 					id: "28AE1F99DB5F280E"
 					type: "xp"
-					xp: 50
+					xp: 100
 				}
 			]
 			subtitle: "Power of the Sea."

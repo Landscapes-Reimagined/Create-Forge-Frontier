@@ -495,7 +495,7 @@
 				{
 					count: 8
 					id: "4BC100E0E610C577"
-					item: "excavated_variants:create_crimsite_iron_ore"
+					item: "enhanced_ore_variety:andesite_iron_ore"
 					type: "item"
 				}
 				{
@@ -1154,11 +1154,37 @@
 			]
 			icon: "create_dd:superheating_sail"
 			id: "53016A184649213E"
-			rewards: [{
-				id: "52EF26876F6B34EB"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2E1E4E6FF081B5F9"
+					item: "create_dd:rubber"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A3C66F28C2D42C5"
+					item: "create_dd:chromatic_compound"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "786381138720C873"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "347121F9FE6070AE"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+				{
+					id: "1B2B91E14C8BF6B3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Wind at Work."
 			tasks: [
 				{

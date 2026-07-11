@@ -54,11 +54,13 @@
 			id: "5EDC9934E7D346D8"
 			rewards: [
 				{
+					count: 16
 					id: "2A8D0644CF360EFD"
 					item: "minecraft:oak_log"
 					type: "item"
 				}
 				{
+					count: 4
 					id: "6F18DD41F5BDD8D9"
 					item: "minecraft:spruce_sapling"
 					type: "item"
@@ -289,6 +291,23 @@
 			]
 			icon: "minecraft:reinforced_deepslate"
 			id: "090A156A3CB027A3"
+			rewards: [
+				{
+					id: "1E6C35003258423A"
+					item: "silentsdelight:sculk_catalyst_pie"
+					type: "item"
+				}
+				{
+					id: "2E52DAF91D7B4F8B"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "6CE0D726910D3A45"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Conquer the mysteries of the Otherside and progress through its unique challenges. Click for more info!"
 			tasks: [{
@@ -349,6 +368,18 @@
 			]
 			icon: "ad_astra:moon_globe"
 			id: "43160A0A3268A07D"
+			rewards: [
+				{
+					id: "495E3677AB4D181E"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "2AB2F44D0B16E6BF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Explore the Ad Astra planets and progress through interplanetary exploration. Click for more info!"
 			tasks: [{

@@ -91,11 +91,7 @@
 				{
 					count: 16
 					id: "50280DE35A5E2A7F"
-					item: {
-						Count: 1
-						id: "excavated_variants:andesite_iron_ore"
-						tag: { }
-					}
+					item: "enhanced_ore_variety:andesite_iron_ore"
 					type: "item"
 				}
 				{

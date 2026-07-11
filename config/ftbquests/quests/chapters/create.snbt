@@ -3256,9 +3256,9 @@
 			id: "6AE92109DA4B2A76"
 			rewards: [
 				{
-					count: 8
+					count: 16
 					id: "3F012C43CEAA634B"
-					item: "create:andesite_alloy"
+					item: "minecraft:andesite"
 					type: "item"
 				}
 				{
