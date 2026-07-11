@@ -18,6 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["The gravel found on the moon contains the raw resource required to create Silicon. A base ingredient in developing digital technologies. Extract it and build on from there!"]
 			icon: "refinedstorage:silicon"
 			id: "45EFAF44704837D5"
 			rewards: [{
@@ -42,6 +43,7 @@
 			y: -7.5d
 		}
 		{
+			description: ["The base material for all processors in Refined Storage. "]
 			id: "089684A82CFD78E3"
 			rewards: [{
 				count: 16
@@ -62,6 +64,7 @@
 				"089684A82CFD78E3"
 				"45EFAF44704837D5"
 			]
+			description: ["The very first beginner processor. Used in some of the earliest stages in your digital storage system."]
 			id: "667A728D7A64B312"
 			rewards: [{
 				count: 8
@@ -79,6 +82,7 @@
 		}
 		{
 			dependencies: ["667A728D7A64B312"]
+			description: ["The second stage of processor technology! Used in the more advanced logistics and control equipment for the digital system."]
 			id: "7EEECACB3CF28AE2"
 			rewards: [{
 				count: 8
@@ -96,6 +100,7 @@
 		}
 		{
 			dependencies: ["7EEECACB3CF28AE2"]
+			description: ["The Advanced Processor is the third and penultimate step in processor technology. It grants access to powerful logistics options within the system such as colour coding, security and even wireless access."]
 			id: "117BCFE34C41DC49"
 			rewards: [{
 				count: 8
@@ -113,6 +118,7 @@
 		}
 		{
 			dependencies: ["117BCFE34C41DC49"]
+			description: ["The most advanced Processor in your storage setup. This grants access to powerful autocrafting uprades to process items even faster!"]
 			id: "57E51FFF0CEA6172"
 			rewards: [{
 				count: 8
@@ -130,6 +136,11 @@
 		}
 		{
 			dependencies: ["45EFAF44704837D5"]
+			description: [
+				"The most basic beginner unit for digital storage.. In Refined Storage there is no item type limited, a 1k storage item can store 1024 items, upgrades being counted in binary number jumps."
+				" "
+				"Use this part to craft into a drive or into a block."
+			]
 			id: "2FEAD1F3614172B6"
 			rewards: [{
 				count: 2
@@ -147,6 +158,7 @@
 		}
 		{
 			dependencies: ["2FEAD1F3614172B6"]
+			description: ["The 4k storage part leads to items that can store 4096 items, regardless of item types. The first upgrade from the 1k storage part."]
 			id: "4F8073EF6593BD7D"
 			rewards: [{
 				count: 2
@@ -164,6 +176,7 @@
 		}
 		{
 			dependencies: ["4F8073EF6593BD7D"]
+			description: ["Storage blocks and drives made using the 16k component can store 16384 items regardless of types."]
 			id: "2291FC0B14AF94BC"
 			rewards: [{
 				count: 2
@@ -181,6 +194,7 @@
 		}
 		{
 			dependencies: ["2291FC0B14AF94BC"]
+			description: ["The 64k storage part will lead to a storage capacity of 65536 items regardless of type."]
 			id: "58D785190A33AD44"
 			rewards: [{
 				count: 2
@@ -198,6 +212,7 @@
 		}
 		{
 			dependencies: ["58D785190A33AD44"]
+			description: ["The 256k component when crafted into a drive or block will store up to 262144 items regardless of item types. "]
 			id: "163EE2FED17DF32C"
 			rewards: [{
 				count: 2
@@ -215,6 +230,7 @@
 		}
 		{
 			dependencies: ["163EE2FED17DF32C"]
+			description: ["Drives and blocks crafted using the 1024k part will provide a storage capacity of 1048576 items."]
 			id: "6163DD05DDF6B56E"
 			rewards: [{
 				count: 2
@@ -232,6 +248,7 @@
 		}
 		{
 			dependencies: ["6163DD05DDF6B56E"]
+			description: ["This upgraded storage part will provide 4194304 item storage when turned into a drive or storage block."]
 			id: "52B024501AA56D25"
 			rewards: [{
 				count: 2
@@ -249,6 +266,7 @@
 		}
 		{
 			dependencies: ["52B024501AA56D25"]
+			description: ["The ultimate item storage part. Crafting a drive or storage block out of this component will contribute an item storage capacity of 16777216 items, regardless of type."]
 			id: "7E292C0270FE8E08"
 			rewards: [
 				{
@@ -341,6 +359,7 @@
 		}
 		{
 			dependencies: ["15029CE6176E43DD"]
+			description: ["A simple casing used to house machinery components or storage parts."]
 			id: "52A7770B5CF4F0DB"
 			rewards: [{
 				count: 8
@@ -379,6 +398,7 @@
 				""
 				"Constructor - Places blocks in the world from your storage system."
 			]
+			icon: "refinedstorage:importer"
 			id: "6D52CC43A0EF083E"
 			rewards: [
 				{
@@ -428,6 +448,7 @@
 		{
 			dependencies: ["6D52CC43A0EF083E"]
 			description: ["These give double the filter space as a normal importer/exporter and improved speed!"]
+			icon: "extrastorage:advanced_importer"
 			id: "320A83D987854249"
 			rewards: [{
 				count: 8
@@ -507,6 +528,11 @@
 		}
 		{
 			dependencies: ["7EEECACB3CF28AE2"]
+			description: [
+				"The Detector will output a redstone signal based on the amount of a specified resource within the storage network."
+				""
+				"The Crafting Emitter will output redstone when an item in the filter is being crafted."
+			]
 			id: "32374F97AD2EC499"
 			rewards: [
 				{
@@ -562,6 +588,7 @@
 				"117BCFE34C41DC49"
 				"118EBA1966E23DE1"
 			]
+			description: ["An upgrade to the previous Grid. All functions are the same but it now has an added crafting system that can also be configured to pull from your inventory or directly from the system."]
 			id: "03BB2FE81305FDF9"
 			tasks: [{
 				id: "5CD313245BAD87D4"
@@ -628,6 +655,7 @@
 		}
 		{
 			dependencies: ["45EFAF44704837D5"]
+			description: ["Each bucket in minecraft is exactly 1000 millibuckets. The beginner 64k fluid storage part can store 64 of these buckets."]
 			id: "54CC8EECE224DDB5"
 			rewards: [{
 				count: 2
@@ -645,6 +673,7 @@
 		}
 		{
 			dependencies: ["54CC8EECE224DDB5"]
+			description: ["This first upgrade can store a maximum of 256 buckets when turned into a drive or block."]
 			id: "0879F649A4388C4D"
 			rewards: [{
 				count: 2
@@ -662,6 +691,7 @@
 		}
 		{
 			dependencies: ["0879F649A4388C4D"]
+			description: ["Fluid drives and blocks made with this part will contribute 1024 buckets of capacity."]
 			id: "3B1AA01E691CF4B1"
 			rewards: [{
 				count: 2
@@ -679,6 +709,7 @@
 		}
 		{
 			dependencies: ["3B1AA01E691CF4B1"]
+			description: ["This part will contribute 4096 buckets of storage capacity when inserted into a drive or block in your network."]
 			id: "1587D17ED1D376C8"
 			rewards: [{
 				count: 2
@@ -696,6 +727,7 @@
 		}
 		{
 			dependencies: ["1587D17ED1D376C8"]
+			description: ["A total of 16384 buckets can fit inside containers such as the drive or block when crafted using this part."]
 			id: "1FC8E3CC6906C255"
 			rewards: [{
 				count: 2
@@ -713,6 +745,7 @@
 		}
 		{
 			dependencies: ["1FC8E3CC6906C255"]
+			description: ["65536 buckets in a single drive or block made using this part."]
 			id: "56AA7C8B464EF828"
 			rewards: [{
 				count: 2
@@ -730,6 +763,7 @@
 		}
 		{
 			dependencies: ["56AA7C8B464EF828"]
+			description: ["The penultimate fluid storage part. Drives and blocks crafted wit this can store 262144 buckets."]
 			id: "416DBF0A6118A61C"
 			rewards: [{
 				count: 2
@@ -747,6 +781,7 @@
 		}
 		{
 			dependencies: ["416DBF0A6118A61C"]
+			description: ["The ultimate storage for fluids... 1048576 buckets in a single drive or block. Thankfully it's digital (otherwise this would be denser than the sun's core)."]
 			id: "07925709A06B7A1C"
 			rewards: [{
 				count: 2
@@ -826,7 +861,7 @@
 		}
 		{
 			dependencies: ["3483D429B8178D9B"]
-			description: ["Exactly like an interface but for fluids"]
+			description: ["Exactly like an interface but for importing and exporting of fluids from your storage system."]
 			id: "61EF669F64B04C52"
 			rewards: [{
 				count: 4
@@ -844,7 +879,7 @@
 		}
 		{
 			dependencies: ["3158A9D4BF9BD8A4"]
-			description: ["The requester can be upgraded!"]
+			description: ["The upgrade to the first tier of requester!"]
 			id: "1115FC02948353E6"
 			tasks: [{
 				id: "2CEEB4CD0491F543"
@@ -895,6 +930,7 @@
 				""
 				"To connect the transmitter to a reciever, right-click the reciever with the network card and put it in your transmitter. Both sides of the connection must remain loaded for the connection to be active."
 			]
+			icon: "refinedstorage:network_card"
 			id: "0DE5E52E317D76DE"
 			tasks: [
 				{
@@ -961,7 +997,7 @@
 		}
 		{
 			dependencies: ["3E6898926DE95608"]
-			description: ["This does function across dimensions!"]
+			description: ["This card will fully function across dimensions as long as it is chunkloaded. A true universal storage transmitter."]
 			id: "7980B05D8F7577E7"
 			tasks: [{
 				id: "244F30F62EB6A699"
@@ -973,7 +1009,11 @@
 		}
 		{
 			dependencies: ["0599FA05034040E9"]
-			description: ["This functions as a Wireless Grid, Wireless Fluid Grid, and a Wireless Crafting Grid. Perfect for your multifacted on-the-go storage needs!"]
+			description: [
+				"This functions as a Wireless Grid, Wireless Fluid Grid, and a Wireless Crafting Grid. Perfect for your multifacted on-the-go storage needs! "
+				""
+				"Depends on the presence of a transmitter and wireless card to function long range or across dimensions."
+			]
 			id: "1AA756630B5BA7D1"
 			tasks: [{
 				id: "7FE3E85CFF98353A"
@@ -985,7 +1025,12 @@
 		}
 		{
 			dependencies: ["2FEAD1F3614172B6"]
-			description: ["Convert your Storage Parts into Storage Disks or Storage Blocks so that you can store items with them!"]
+			description: [
+				"Convert your Storage Parts into Storage Disks or Storage Blocks so that you can store items with them!"
+				""
+				"Storage components can be extracted from Storage Blocks by sneak right clicking the item in the air."
+			]
+			icon: "refinedstorage:1k_storage_disk"
 			id: "1AA75E15A73234B4"
 			rewards: [
 				{
@@ -1019,7 +1064,12 @@
 		}
 		{
 			dependencies: ["54CC8EECE224DDB5"]
-			description: ["Convert your Fluid Storage Parts into Discs or Blocks to store fluids with them!"]
+			description: [
+				"Convert your Fluid Storage Parts into Discs or Blocks to store fluids with them!"
+				""
+				"The storage component can be withdrawn by sneak right clicking the block in the air."
+			]
+			icon: "refinedstorage:64k_fluid_storage_disk"
 			id: "7917F2FF3B410BA4"
 			rewards: [
 				{
@@ -1053,6 +1103,7 @@
 		{
 			dependencies: ["6D52CC43A0EF083E"]
 			description: ["The Elite teir of cable components are the same as the Advanced components, but they can be futher upgraded!"]
+			icon: "cabletiers:elite_exporter"
 			id: "0E84894127347CBA"
 			rewards: [{
 				count: 8
