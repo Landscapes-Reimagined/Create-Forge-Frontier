@@ -1,0 +1,25 @@
+{
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:gold_shulker_box"
+    }
+  ],
+  "key": {
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "S": {
+      "item": "sophisticatedstorage:iron_shulker_box"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    "GGG"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:gold_shulker_box"
+  }
+}

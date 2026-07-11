@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#incendium:all_incendium_biomes",
-  "features": [
-    "create_resource_vents:placed_ancient_debris_vent"
-  ],
-  "step": "vegetal_decoration"
-}

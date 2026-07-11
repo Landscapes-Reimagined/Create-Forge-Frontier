@@ -1,11 +1,11 @@
 ServerEvents.recipes(event => 
     {
-        // Sculk Stone
+        // Noxrock
             event.custom({
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'minecraft:water',
+                    fluid: 'create_confectionery:ruby_chocolate',
                     amount: 1000
                 },
                 {
@@ -14,19 +14,20 @@ ServerEvents.recipes(event =>
                 }
                 ],
                 catalyst: {
-                item: 'deeperdarker:sculk_stone'
+                item: "create_resource_vents:active_noxrock_vent"
                 },
                 result: {
-                item: 'deeperdarker:sculk_stone'
-                }
-            }).id('forge_frontier:extruding/sculk_stone')
+                item: "endelurgy:noxrock"
+                },
+                
+            }).id('forge_frontier:extruding/noxrock')        
 
-        // Moon Stone
+        // Gneiss
             event.custom({
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'minecraft:water',
+                    fluid: 'create_confectionery:ruby_chocolate',
                     amount: 1000
                 },
                 {
@@ -35,19 +36,20 @@ ServerEvents.recipes(event =>
                 }
                 ],
                 catalyst: {
-                item: 'ad_astra:moon_stone'
+                item: "create_resource_vents:active_gneiss_vent"
                 },
                 result: {
-                item: 'ad_astra:moon_stone'
-                }
-            }).id('forge_frontier:extruding/moon_stone')
+                item: "unusualend:gneiss"
+                },
+                
+            }).id('forge_frontier:extruding/gneiss') 
 
-        // Mars Stone
+        // Endritus
             event.custom({
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'minecraft:water',
+                    fluid: 'create_confectionery:ruby_chocolate',
                     amount: 1000
                 },
                 {
@@ -56,181 +58,13 @@ ServerEvents.recipes(event =>
                 }
                 ],
                 catalyst: {
-                item: 'ad_astra:mars_stone'
+                item: "create_resource_vents:active_endritus_vent"
                 },
                 result: {
-                item: 'ad_astra:mars_stone'
-                }
-            }).id('forge_frontier:extruding/mars_stone')
-
-        // Venus Stone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
+                item: "endelurgy:endritus"
                 },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'ad_astra:venus_stone'
-                },
-                result: {
-                item: 'ad_astra:venus_stone'
-                }
-            }).id('forge_frontier:extruding/venus_stone')
-
-        // Mercury Stone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'ad_astra:mercury_stone'
-                },
-                result: {
-                item: 'ad_astra:mercury_stone'
-                }
-            }).id('forge_frontier:extruding/mercury_stone')
-
-        // Glacio Stone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'ad_astra:glacio_stone'
-                },
-                result: {
-                item: 'ad_astra:glacio_stone'
-                }
-            }).id('forge_frontier:extruding/glacio_stone')        
-
-        // Limestone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'quark:limestone'
-                },
-                result: {
-                item: 'quark:limestone'
-                }
-            }).id('forge_frontier:extruding/quark_limestone') 
-
-        // Warped Stone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'unusualend:warped_stone'
-                },
-                result: {
-                item: 'unusualend:warped_stone'
-                }
-            }).id('forge_frontier:extruding/warped_stone') 
-
-        // Gloopstone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'unusualend:gloopstone'
-                },
-                result: {
-                item: 'unusualend:gloopstone'
-                }
-            }).id('forge_frontier:extruding/gloopstone') 
-
-        // Sky Stone
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'ae2:sky_stone_block'
-                },
-                result: {
-                item: 'ae2:sky_stone_block'
-                }
-            }).id('forge_frontier:extruding/sky_stone')
-
-        // Gabbro
-            event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/gabbro' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_dd:strawberry',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'create_dd:gabbro'
-                },
-                result: {
-                item: 'create_dd:gabbro'
-                }
-            }).id('forge_frontier:extruding/gabbro')
+                
+            }).id('forge_frontier:extruding/endritus')         
 
         // Crimsite
             event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/crimsite_cobble' })
@@ -254,72 +88,6 @@ ServerEvents.recipes(event =>
                 },
                 
             }).id('forge_frontier:extruding/crimsite')
-
-        // Deepslate
-            event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/deepslate' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_dd:vanilla',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'minecraft:deepslate'
-                },
-                result: {
-                item: 'minecraft:deepslate'
-                }
-            }).id('forge_frontier:extruding/deepslate')
-
-        // Dripstone Block
-            event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/dripstone' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_dd:glowberry',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'minecraft:dripstone_block'
-                },
-                result: {
-                item: 'minecraft:dripstone_block'
-                }
-            }).id('forge_frontier:extruding/dripstone')
-
-        // Calcite
-            event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/calcite' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_dd:condense_milk',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'minecraft:calcite'
-                },
-                result: {
-                item: 'minecraft:calcite'
-                },
-            }).id('forge_frontier:extruding/calcite')
 
         // Scoria
             event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/scoria_milkshake' })
@@ -369,28 +137,6 @@ ServerEvents.recipes(event =>
                 },
                 
             }).id('forge_frontier:extruding/scorchia')
-
-        // Cobblestone
-            event.remove({ id: 'create_mechanical_extruder:extruding/cobblestone' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'minecraft:cobblestone'
-                },
-                result: {
-                item: 'minecraft:cobblestone'
-                }
-            }).id('forge_frontier:extruding/cobblestone')
 
         // Potassic
             event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/potassic_cobble' })
@@ -461,28 +207,6 @@ ServerEvents.recipes(event =>
                 
             }).id('forge_frontier:extruding/ochrum')
 
-        // Blackstone
-            event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/blackstone' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_dd:caramel',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'minecraft:blackstone'
-                },
-                result: {
-                item: 'minecraft:blackstone'
-                }
-            }).id('forge_frontier:extruding/blackstone')
-
         // Veridium
             event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/veridium_cobble' })
             event.custom({
@@ -505,72 +229,6 @@ ServerEvents.recipes(event =>
                 },
                 
             }).id('forge_frontier:extruding/veridium')
-
-        // Limestone
-            event.remove({ id: 'create_dd:acompat/create_mechanical_extruder/extruding/limestone' })
-            event.remove({ id: 'create_mechanical_extruder:extruding/limestone' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create:honey',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'create:limestone'
-                },
-                result: {
-                item: 'create:limestone'
-                }
-            }).id('forge_frontier:extruding/limestone')
-
-        // Stone
-            event.remove({ id: 'create_mechanical_extruder:extruding/stone' })
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'minecraft:water',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'minecraft:stone'
-                },
-                result: {
-                item: 'minecraft:stone'
-                }
-            }).id('forge_frontier:extruding/stone')
-
-        // Aethersite
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_dd:shimmer',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'create_dd:aethersite'
-                },
-                result: {
-                item: 'create_dd:aethersite'
-                }
-            }).id('forge_frontier:extruding/aethersite')
 
         // Crying Obsidian
             event.custom({
@@ -682,12 +340,12 @@ ServerEvents.recipes(event =>
                 
             }).id('forge_frontier:extruding/ancient_debris')
 
-        // Sculk Grime
+        // Resonite
             event.custom({
                 type: 'create_mechanical_extruder:extruding',
                 ingredients: [
                 {
-                    fluid: 'ad_astra:cryo_fuel',
+                    fluid: 'resonant_synthesis:resonarium',
                     amount: 1000
                 },
                 {
@@ -791,72 +449,6 @@ ServerEvents.recipes(event =>
                 },
                 
             }).id('forge_frontier:extruding/stellaris')
-            
-        // Radiantite
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_confectionery:ruby_chocolate',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'create_resource_vents:active_radiantite_vent'
-                },
-                result: {
-                item: 'forge_frontier:radiantite'
-                },
-                
-            }).id('forge_frontier:extruding/radiantite')
-            
-        // Void Shale
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_confectionery:ruby_chocolate',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'create_resource_vents:active_void_shale_vent'
-                },
-                result: {
-                item: 'enlightened_end:void_shale'
-                },
-                
-            }).id('forge_frontier:extruding/void_shale')
-            
-        // Palerock
-            event.custom({
-                type: 'create_mechanical_extruder:extruding',
-                ingredients: [
-                {
-                    fluid: 'create_confectionery:ruby_chocolate',
-                    amount: 1000
-                },
-                {
-                    fluid: 'minecraft:lava',
-                    amount: 1000
-                }
-                ],
-                catalyst: {
-                item: 'create_resource_vents:active_palerock_vent'
-                },
-                result: {
-                item: 'enlightened_end:palerock'
-                },
-                
-            }).id('forge_frontier:extruding/palerock')
             
         // Guanite
             event.custom({

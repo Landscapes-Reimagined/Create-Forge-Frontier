@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "expanded_combat:config_boolean",
+          "config_entry": "weapon"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "advancednetherite:netherite_diamond_ingot"
+        },
+        "base": {
+          "item": "ec_an_plugin:netherite-emerald_claymore"
+        },
+        "result": {
+          "item": "ec_an_plugin:netherite-diamond_claymore"
+        },
+        "template": {
+          "item": "forge_frontier:netherite_diamond_upgrade"
+        }
+      }
+    }
+  ]
+}

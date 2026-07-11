@@ -24,7 +24,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 5
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -364,7 +364,7 @@
 				type: "item"
 			}]
 			title: "The Dormant Deep"
-			x: 6.5d
+			x: 5.0d
 			y: 1.0d
 		}
 		{
@@ -394,8 +394,8 @@
 				type: "item"
 			}]
 			title: "Enchanter's Workbench"
-			x: 7.5d
-			y: 4.5d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4C2A6292B32562A3"]
@@ -434,8 +434,8 @@
 				type: "item"
 			}]
 			title: "Conduit of the Arcane"
-			x: 12.5d
-			y: 4.5d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2382E5C444E4A12F"]
@@ -461,7 +461,7 @@
 			}]
 			title: "Scraps of Arcana"
 			x: -7.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["16DE76B6F434C16C"]
@@ -492,7 +492,7 @@
 			}]
 			title: "Superior Scrapping"
 			x: -5.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5BFEDB10AB754632"]
@@ -542,6 +542,17 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2
+					id: "5A2B6166AE8850FC"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "4DEAE188615A8EC6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
 			]
 			tasks: [{
 				consume_items: false
@@ -552,7 +563,7 @@
 			}]
 			title: "Arcane Extraction"
 			x: -3.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["52E26768C164CA9D"]
@@ -640,7 +651,7 @@
 				type: "item"
 			}]
 			title: "Awakening the Deep"
-			x: 8.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -677,7 +688,7 @@
 				type: "item"
 			}]
 			title: "Visions of the End"
-			x: 12.5d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -725,7 +736,7 @@
 				type: "item"
 			}]
 			title: "Power of the Void"
-			x: 14.0d
+			x: 12.5d
 			y: 1.0d
 		}
 		{
@@ -905,7 +916,7 @@
 			rewards: [{
 				id: "007B7BFBF8CB8797"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "719105D1E15F5D74"
@@ -921,7 +932,7 @@
 			rewards: [{
 				id: "0C82897F6667B000"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "5F6FAE2DEE7FE78E"
@@ -937,7 +948,7 @@
 			rewards: [{
 				id: "604266CC7A735046"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0B8FDFA8766A9D7A"
@@ -953,7 +964,7 @@
 			rewards: [{
 				id: "3FB4A5D2486614B8"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "086E980E659A7828"
@@ -969,7 +980,7 @@
 			rewards: [{
 				id: "42298B316CC98EBE"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "2B4F10726B43C7E9"
@@ -985,7 +996,7 @@
 			rewards: [{
 				id: "530F1665121C3528"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "0977DAE9189A82E0"
@@ -1001,7 +1012,7 @@
 			rewards: [{
 				id: "27B9859CB55BD89D"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "6E2B9E9C5C6F7CF4"
@@ -1017,7 +1028,7 @@
 			rewards: [{
 				id: "6399A286EA9E7F44"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			tasks: [{
 				id: "68343FDEF87B3E57"
@@ -1055,7 +1066,7 @@
 				type: "item"
 			}]
 			title: "Whispers of Magic"
-			x: 11.0d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -1080,7 +1091,7 @@
 				type: "item"
 			}]
 			title: "Sounds of the Deep"
-			x: 9.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
@@ -1241,7 +1252,7 @@
 			}]
 			title: "Salvaging Your Enchantments"
 			x: -9.0d
-			y: 5.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1579,8 +1590,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1613,7 +1624,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1644,8 +1655,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1653,13 +1664,9 @@
 			id: "5E6EA2E978BB67C0"
 			rewards: [
 				{
-					count: 2
+					count: 6
 					id: "346CF22BC1F29FAC"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:artifact_material"
-						tag: { }
-					}
+					item: "apotheosis:rare_material"
 					type: "item"
 				}
 				{
@@ -1677,8 +1684,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7B68DD6E1D05B160"]
@@ -1710,41 +1717,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["7B68DD6E1D05B160"]
-			description: ["The &nSigil of Awakening&r is not used on your items but serves as an ingredient in special Boss gems. These each provide unique and powerful effects."]
-			id: "5DD0C6D08A59CA6B"
-			rewards: [
-				{
-					count: 4
-					id: "2F45E27B760D475B"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:ascended_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "28F4DDC6868DA7C9"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			tasks: [{
-				id: "2782960D8938DCE1"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:gemboundsigil"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
 		}
 		{
 			description: ["This &nGem-Fused Slate&r is the blank canvas for you to create sigils on. On its own it does nothing but the sigils you can create with it will let you manipulate affix bonuses, gems, sockets and even the apothic tier of the item."]
@@ -1787,7 +1761,7 @@
 			}]
 			title: "Blank Slate"
 			x: -6.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["578A33A5A5FA8841"]
@@ -1806,11 +1780,7 @@
 				}
 				{
 					id: "5B7BA3872846A61F"
-					item: {
-						Count: 1
-						id: "collectorsreap:shimmering_apple"
-						tag: { }
-					}
+					item: "apotheosis:mythic_material"
 					type: "item"
 				}
 				{
@@ -1854,27 +1824,15 @@
 			id: "687957A3D915C6D3"
 			rewards: [
 				{
-					id: "347EDB293068B006"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:commonapple"
-						tag: { }
-					}
+					count: 4
+					id: "6B7890975898734B"
+					item: "apotheosis:common_material"
 					type: "item"
 				}
 				{
-					id: "0E8A8DBF188E3049"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:uncommonapple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "0D8BE0F2A9030074"
+					id: "107D5756593CCBDC"
 					type: "xp_levels"
-					xp_levels: 2
+					xp_levels: 3
 				}
 			]
 			tasks: [{
@@ -1895,34 +1853,13 @@
 			id: "578A33A5A5FA8841"
 			rewards: [
 				{
-					id: "7C1ED118BFB60A61"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:rareapple"
-						tag: { }
-					}
+					count: 4
+					id: "2AF7B30AAEE2E6B0"
+					item: "apotheosis:epic_material"
 					type: "item"
 				}
 				{
-					id: "400E630C15F4C867"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:epicapple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3EB2E41F94540B5C"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:mythicapple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "1B14BFA981C1FC9A"
+					id: "15057375B83C2BF3"
 					type: "xp_levels"
 					xp_levels: 3
 				}
@@ -1938,251 +1875,6 @@
 			}]
 			x: -9.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["28B7FDAF3F929DB5"]
-			description: ["&n&4The Sacrificial Rune&r&r is the final form of the Hellshelves, improving upon the Blazing Hellshelf. Providing even stronger versions of its bonuses."]
-			id: "2918E0FBF9006F32"
-			rewards: [
-				{
-					count: 3
-					id: "2A6846AEFE4AD45F"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "338F74A13AC1473D"
-					item: {
-						Count: 1
-						id: "handcrafted:blaze_trophy"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "6317D3E9CBDD2C8C"
-					item: {
-						Count: 1
-						id: "handcrafted:wither_skeleton_trophy"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "63239EB7653DA6E8"
-					item: {
-						Count: 1
-						id: "nethersdelight:hoglin_trophy"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "0ADCEB1C2E2D26AC"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "5FE06B59A269036D"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:sacrificial_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7405774A91010E60"]
-			description: ["&n&1The Wavebinder's Rune&r&r is the final evolution of the Ocean shelves. Providing vastly superior stats compared to the Heartforged Seashelf."]
-			id: "365256A397789542"
-			rewards: [
-				{
-					count: 3
-					id: "1F568C76DC9A8556"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_water_breathing"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "2D90684BD47F7233"
-					item: {
-						Count: 1
-						id: "aquaculture:neptunium_ingot"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "716605175AED1972"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "7EE633D125CC5A58"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:wavebinders_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["366BFABED1D79BF0"]
-			description: ["&n&0The Void Rune&r&r is an upgrade of the Sculkshelf, increasing its powers even further."]
-			id: "696CA666F94CC627"
-			rewards: [
-				{
-					id: "17D3C7579671CC12"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:the_end/endersurge"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "15824BBDD0F0AD7E"
-					item: {
-						Count: 1
-						id: "cataclysm:void_jaw"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "146C893ACB2A4DC2"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "6E61D072B92D5A3E"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:void_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["51195D4772866826"]
-			description: ["&n&2The Terra Rune&r&r, an ancient precursor to the Beeshelf. Its &a&nEterna&r&r debuff is much lower, while still bringing the &4&nQuanta&r&r, and some extra &5&nArcana&r&r"]
-			id: "2298F488E983466D"
-			rewards: [
-				{
-					id: "7F62F3872EF00520"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheosis:overworld/earth"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2425A31665A91123"
-					type: "xp_levels"
-					xp_levels: 8
-				}
-			]
-			tasks: [{
-				id: "4D74BF0C2FD197C0"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:terra_shelf"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 12.5d
-			y: 3.0d
-		}
-		{
-			description: ["&e&nApotheotic Coins&r&r can be used for rare trades provided by the Wandering Trader. Look out for these as they are often powerful relics. These coins can also be infused into &6&nInfused Coins&r&r"]
-			id: "464288D982EE9E65"
-			rewards: [
-				{
-					count: 2
-					id: "3808AFBBFE9FD245"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:stack_upgrade_tier_3"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "32B857CF2F5B5025"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:infused_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "25F90CE5736197F9"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			tasks: [
-				{
-					id: "05711CD4A8BA0E68"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:apotheotic_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "4ED793A93B8F959D"
-					item: {
-						Count: 1
-						id: "apotheotic_additions:infused_coin"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
-			title: "Apotheotic Currency"
-			x: -1.0d
-			y: 2.5d
 		}
 		{
 			description: ["The &nBeeshelf&r is a very efficient way of increasing Quanta, and can be a nice way to randomise your way into strong enchantments early game."]
@@ -2231,55 +1923,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["464288D982EE9E65"]
-			description: ["The most valuable coin found in Apotheosis. These &n&6Ascended Coins&r&r are created through maximum level enchanting and are only used for the rarest of trades from Wandering Traders."]
-			id: "7A23A379FD24B4B1"
-			rewards: [
-				{
-					id: "2A33C3A5FF858200"
-					item: {
-						Count: 1
-						id: "apotheosis:gem"
-						tag: {
-							affix_data: {
-								rarity: "apotheosis:ancient"
-							}
-							gem: "apotheotic_additions:modded/midas"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6B51787F25294D18"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_golden_apple"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					id: "3A889BEA2CCFD950"
-					type: "xp_levels"
-					xp_levels: 6
-				}
-			]
-			tasks: [{
-				id: "29A30A9908AB5D0A"
-				item: {
-					Count: 1
-					id: "apotheotic_additions:ascended_coin"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 4.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			description: ["The &nPrismatic Cobweb&r allows for the removal of Curses from items."]
@@ -2320,13 +1965,18 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
+			description: ["Cognitive Dust is the initial resource for exploring the science of manipulating experience. This dust leads to machinery that lets the player store, produce and use experience for crafting useful items."]
 			id: "6141BAD50E3492BE"
 			optional: true
-			secret: true
+			rewards: [{
+				id: "2F40576576BFC1CF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -2336,6 +1986,812 @@
 			}]
 			x: -1.0d
 			y: 11.5d
+		}
+		{
+			dependencies: ["6141BAD50E3492BE"]
+			description: ["Cognitive Amalgam is the next step in resource technology to unlock items in Cognition. Leading to more advanced items for the user for manipulation of experience."]
+			id: "41BEE2ACD8F4F254"
+			rewards: [
+				{
+					count: 16
+					id: "178F903FB9D82553"
+					item: "experienceobelisk:cognitive_flux"
+					type: "item"
+				}
+				{
+					id: "2E69B5478AEBD5AD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "509FAA985266D4CD"
+				item: { Count: 4, id: "experienceobelisk:cognitive_amalgam" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["41BEE2ACD8F4F254"]
+			description: ["The final and strongest resource in Cognition's resource base, can be used to upgrade tools and provide structure to some of the tools for experience manipulation."]
+			id: "7B3FB85A0A34D883"
+			rewards: [
+				{
+					id: "00814E3CB3384367"
+					item: {
+						Count: 1
+						id: "experienceobelisk:cognitive_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F91822AEAD78080"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "2B70CDD3F9ACCF83"
+				item: "experienceobelisk:cognitive_alloy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			description: ["The cognitive crystal is one of the key elements in most crafted items in Cognition."]
+			id: "513CEDA19D71F82C"
+			rewards: [
+				{
+					count: 4
+					id: "0AFA507A987CFAF1"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "5E35205F59EF11F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5C07CE9B34841EAD"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: [
+				"The main experience storage in Cognition. This allows for retrieval, depositing and storing experience. It will also passively draw in and absorb nearby free experience orbs in a smal radius. "
+				""
+				"Can be linked using the Staff of Attunement to power other Cognition machinery."
+			]
+			id: "24B26A59FD9E5CD6"
+			rewards: [
+				{
+					count: 24
+					id: "51CBA5525DFFFA50"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "7D0D534C420B99F0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "2FBF0F0C026A37D2"
+				item: {
+					Count: 1
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: ["Much like a wrench in a tech mod, this staff is used to attune and interact with many blocks within Cognition. Including linking of the &nExperience Obelisk&r to various machinery. This can be done by shift right clicking the obelisk and then the machine that needs linking."]
+			id: "5311BBD54A367C2D"
+			rewards: [
+				{
+					count: 16
+					id: "56768F4D34BDC2FA"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "6D86B38DA148DB44"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2DB30C0059811B3D"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: ["The fountain can dispense experience stored within an experience obelisk it is bound to. The rate can be adjusted and the device can be redstone controlled."]
+			id: "392878964F02EBF1"
+			rewards: [
+				{
+					count: 4
+					id: "722E17EDED94E595"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "63ABFE8E9B1B51DB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "72A8F9CBDEEE4AC1"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: ["This is a very advanced version of grindstones. Allowing for selective removal of enchantments but also allowing the user to remove curses."]
+			id: "4AD660E6F370A7B5"
+			rewards: [
+				{
+					count: 2
+					id: "2BA268298EB76D73"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "28CE3BCCD1FDD8D6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2FD2E31C76D62201"
+				item: "experienceobelisk:precision_dispeller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: [
+				"The Molecular Metamorpher allows for experience to transform existing materials into more advanced ones. Manipulating the matter itself using the power of experience."
+				""
+				"Requires linking to an &nExperience Obelisk&r using a &nStaff of Attunement&r."
+			]
+			id: "556893DFE1DA18EC"
+			rewards: [
+				{
+					count: 4
+					id: "3F9B6CB620046AE6"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "36E339AF27B30BE1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "73724EFA1808C112"
+				item: {
+					Count: 1
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: ["This amulet teleports nearby experience orbs to the user, allowing for quicker and longer range absorption of XP."]
+			id: "26F3021264050933"
+			rewards: [
+				{
+					id: "44F31CCE7523D820"
+					item: "experienceobelisk:cognitive_crystal"
+					type: "item"
+				}
+				{
+					id: "6FF3CA9BD9B19470"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2790DFA5488A9173"
+				item: {
+					Count: 1
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: ["This block accelerates entities in the direction it's facing, can be turned into a linear version that launches in the direction it is pointing."]
+			id: "7A8237626C81EDA1"
+			rewards: [
+				{
+					count: 4
+					id: "122B560D14642ECB"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "7AD5D1A8C3E353C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "42AD383EDCE021FD"
+				item: "experienceobelisk:accelerator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["513CEDA19D71F82C"]
+			description: ["The &nBibliophage&r feeds on bookshelves. Some types of bookshelves from Cognition can be digested into more experience by these phages."]
+			id: "0592C54DF2B57D18"
+			rewards: [
+				{
+					count: 8
+					id: "68A101FEE8EDCCE0"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "5380C8C787677DE6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6591EA04EB435048"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			description: ["A bookshelf with more knowledge, and thus more for the bibliophage to consume."]
+			id: "7D724F27275BF5C6"
+			rewards: [
+				{
+					count: 4
+					id: "2BBC5CD0317E6E46"
+					item: "experienceobelisk:archivers_bookshelf"
+					type: "item"
+				}
+				{
+					id: "46C4251BCB35BB29"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "452822117D9CE519"
+				item: "experienceobelisk:archivers_bookshelf"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["0592C54DF2B57D18"]
+			description: ["Infecting your bookshelf with a Bibliophage will slowly consume the shelf and passively release the stored knowledge as experience orbs."]
+			id: "043A69B7115AB7FE"
+			rewards: [{
+				count: 4
+				id: "41B3A2E452570906"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			tasks: [{
+				block: "minecraft:bookshelf"
+				block_type: 0
+				checkItem: true
+				id: "48BDFE285615C2A1"
+				isItemInteraction: true
+				item: "experienceobelisk:bibliophage"
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["043A69B7115AB7FE"]
+			description: [
+				"After the bookshelf is fully consumed by the bibliophage it has a 50 percent chance to drop, or 100 percent if an infested shelf is manually broken."
+				""
+				"An important resource in crafting nutritious agar for bibliophages to breed in passively and the powerful calcarine matrix."
+			]
+			id: "6E6F387D05330965"
+			rewards: [
+				{
+					count: 16
+					id: "6BBC5CF63E13D9A4"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "5DF7BC44F77A937A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3056E23D75780229"
+				item: "experienceobelisk:forgotten_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 19.0d
+		}
+		{
+			description: ["This fruit infused jelly can be eaten instantly, making it a very rapid source of food for the player. It is also the base ingredient in the nutritious agar that allows the player to have a permanent colony of phages."]
+			id: "0FB45A4B4F2BDCAC"
+			rewards: [
+				{
+					count: 4
+					id: "67BCC1B248CA2B1F"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+				{
+					id: "725346B584C3D9B9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "494746DD6D2580FD"
+				item: "experienceobelisk:experience_jelly"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["0FB45A4B4F2BDCAC"]
+			description: ["This agar substrate can be infected by passive spread or manual usage of bibliophages. One colonised it will passively infect any nearby agar or bookshelves permanently."]
+			id: "2271EF8E4463B2D6"
+			rewards: [
+				{
+					count: 2
+					id: "156A319748716468"
+					item: "experienceobelisk:bibliophage"
+					type: "item"
+				}
+				{
+					id: "0DFAC5412A6FBA38"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "78F1DF3382D0EB94"
+				item: "experienceobelisk:fluorescent_agar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["2271EF8E4463B2D6"]
+			description: [
+				"All of the agars in Cognition need to be infected 8 times to estabilish a permanent population of Bibliophage. "
+				""
+				"Phage colonisation can be achieved through passive spread from shelves being digested, or through manual introduction of the phages to get the fastest result."
+			]
+			id: "0CB61435B17B7A76"
+			rewards: [
+				{
+					count: 6
+					id: "2991A177CA0859C0"
+					item: "experienceobelisk:cognitive_alloy"
+					type: "item"
+				}
+				{
+					id: "2EDAF628B579A8CA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				block: "experienceobelisk:fluorescent_agar"
+				block_type: 0
+				checkItem: true
+				id: "3A990BF68E9747D6"
+				isItemInteraction: true
+				item: "experienceobelisk:bibliophage"
+				type: "questsadditions:use"
+				value: 8L
+			}]
+			x: -4.0d
+			y: 20.5d
+		}
+		{
+			description: [
+				"This more advanced Insightful Agar functions just like the nutrient agar by providing a home for a &nBibliophage&r colony. "
+				""
+				"This Agar however has higher infectivity, and decreased spawn delay for the bibliophage that spawn from it."
+			]
+			id: "6A6F0540F85969B3"
+			rewards: [
+				{
+					count: 6
+					id: "521A31EBF3AD34DD"
+					item: "create:experience_block"
+					type: "item"
+				}
+				{
+					id: "29828F4E038BCAE5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "7FCE108AC40DB9CE"
+				item: "experienceobelisk:insightful_agar"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["6A6F0540F85969B3"]
+			description: [
+				"The most advanced and Extravagant Agar home for your &nBibliophages&r. "
+				""
+				"It possess the highest passive infection rate to nearby shelves and increases the value of experience orbs produced from shelves infected from this Agar."
+			]
+			id: "3B156CF051A5DFC0"
+			rewards: [
+				{
+					count: 16
+					id: "6722205922675373"
+					item: "create_enchantment_industry:hyper_experience_nugget"
+					type: "item"
+				}
+				{
+					id: "5DF71658EFCB310D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "0516C99CC546F781"
+				item: "experienceobelisk:extravagant_agar"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 23.5d
+		}
+		{
+			description: ["The Flask of Poseidon allows the user to place a block of water at the cost of 7 experience points per block. Can also be used on cauldrons or waterloggable blocks."]
+			id: "1631C67EA4EB1220"
+			rewards: [
+				{
+					count: 8
+					id: "432FC679AF2E0C27"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "7DC9A76BE737519D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "7677DE9BC437056C"
+				item: "experienceobelisk:flask_of_poseidon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 19.0d
+		}
+		{
+			description: ["The Flask of Hades allows the player to place a lava source block wherever they please. This also works on cauldrons or fluid containers. It is much more expensive than the Flask of Poseidon at 160 experience points per usage."]
+			id: "2BE3879C42F7AB0C"
+			rewards: [
+				{
+					count: 8
+					id: "71491521C2DB6E53"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "026E106504FBBC1C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3C3AE4A5E091E75B"
+				item: "experienceobelisk:flask_of_hades"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			description: ["The Flask of Chaos is the inverse of the other Flasks. It allows for deletion of any fluid source, careful around your expensive resource vents! Only costs 1 experience point per use."]
+			id: "333F5A02D64B504A"
+			rewards: [
+				{
+					count: 8
+					id: "37EAC771649535D9"
+					item: "experienceobelisk:cognitive_amalgam"
+					type: "item"
+				}
+				{
+					id: "5532BB23D58C4604"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "4B73E86E983BBF64"
+				item: "experienceobelisk:flask_of_chaos"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 23.5d
+		}
+		{
+			dependencies: [
+				"462B6229E87FAA19"
+				"0FB45A4B4F2BDCAC"
+			]
+			description: [
+				"This mending gel restoers either 320 or 25% percent of an items durability, whichever option is higher. It is applied by hovering and left clicking on the damaged item while holding the neurogel. "
+				""
+				"It can also be split into blobs of neurogel to split its restorative powers into 4 instances."
+			]
+			id: "45D7E9014C5A7D52"
+			rewards: [
+				{
+					count: 8
+					id: "11F5580837F04319"
+					item: "experienceobelisk:forgotten_dust"
+					type: "item"
+				}
+				{
+					id: "346CCF85EA289438"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "43C1C61EC6831E2D"
+				item: "experienceobelisk:mending_neurogel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 20.5d
+		}
+		{
+			description: ["This flask resets your internal rest counter to 0, meaning phantoms will not spawn on the player. Much like a real night's sleep."]
+			id: "281B17D57747E4A4"
+			rewards: [
+				{
+					count: 4
+					id: "68AD49D90FE8AB86"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "2C4791DEF2B5D64C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "50CE3290967440EB"
+				item: "experienceobelisk:daydream_bottle"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 22.0d
+		}
+		{
+			description: ["The counterpart to the Bottle o' Daydream. This powerful potion sets your rest time far into the future, resulting in a 99.6% chance of phantoms spawning in the following nights."]
+			id: "05AED35DDD1D2EED"
+			rewards: [
+				{
+					count: 4
+					id: "3BF53DBFE555DB30"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "60BE89596FF38F47"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7DE1284B3D1300EE"
+				item: "experienceobelisk:nightmare_bottle"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 23.5d
+		}
+		{
+			description: ["A powerful matrix used to craft the most advanced items available in Cognition."]
+			id: "462B6229E87FAA19"
+			rewards: [
+				{
+					id: "6CDD4E615685BC6C"
+					item: "minecraft:enchanted_book"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21A8F8FA1C6DB350"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "7CB3FCE9931FF86E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "3EAE522D72AA4773"
+				item: "experienceobelisk:calcarine_matrix"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["556893DFE1DA18EC"]
+			description: ["This focus is used for crafting of many items inside of the Molecular Metamorpher. Allowing for focussing of the experience's energy into the material the desired end result."]
+			id: "596888C6F9193534"
+			rewards: [
+				{
+					count: 8
+					id: "1D17CFA4EB8B7C98"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "6F700A7179E7CBE2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "69D63DC8245EF449"
+				item: {
+					Count: 1
+					id: "experienceobelisk:transforming_focus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["462B6229E87FAA19"]
+			description: ["This amulet provides powerful boons to the player. A permanent luck 2 buff, improved experience from mobs and the same experience orb collecting powers of the Enlightened Amulet to collect XP from further away."]
+			id: "54B058AC61F7D9B6"
+			rewards: [
+				{
+					count: 2
+					id: "7066D7F8F53596F9"
+					item: "experienceobelisk:calcarine_matrix"
+					type: "item"
+				}
+				{
+					id: "547E625F2008D78A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "49E86419132B9085"
+				item: {
+					Count: 1
+					id: "experienceobelisk:fortuitous_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["462B6229E87FAA19"]
+			description: ["The Memory Tablet allows for access to any Obelisk up to 48 blocks away. Shift right click to bind the tablet to an obelisk."]
+			id: "1A158727695A13A5"
+			rewards: [
+				{
+					count: 8
+					id: "5D2ADAAFD3164816"
+					item: "experienceobelisk:forgotten_dust"
+					type: "item"
+				}
+				{
+					id: "6250EF44E3487D71"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "6B83EF73968DEE4A"
+				item: "experienceobelisk:memory_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["7D724F27275BF5C6"]
+			description: ["The evolution of the archivers bookshelf. The enchanted knowledge kept within leads to even more for the bibliophage to consume."]
+			id: "0AD8EF8AA3F1B4F3"
+			rewards: [
+				{
+					count: 2
+					id: "09C2C47F4E60CE8F"
+					item: "experienceobelisk:enchanted_bookshelf"
+					type: "item"
+				}
+				{
+					id: "6C22B503F2D6BA4D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "40A17AAB091708B9"
+				item: "experienceobelisk:enchanted_bookshelf"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 23.0d
 		}
 	]
 	title: "Enchanting"

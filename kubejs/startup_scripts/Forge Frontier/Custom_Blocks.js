@@ -1,15 +1,87 @@
 StartupEvents.registry('block', event => {
-
-    // Raw Uraninite Block
-    event.create('forge_frontier:raw_uraninite_block')
-        .displayName('Raw Uraninite Block')
-        .soundType('stone') 
-        .mapColor('PLANT') 
+    // Incomplete Compact Machines
+    // Tiny
+    event.create('forge_frontier:incomplete_machine_tiny')
+        .displayName('Incomplete Tiny Machine')
+        .soundType('metal')
+        .mapColor('METAL')
         .hardness(2.0)
-        .model('forge_frontier:block/raw_uraninite_block')
+        .model('forge_frontier:block/incomplete_machine_tiny')
         .requiresTool(true)
         .renderType('solid')
-        .tagBlock("mineable/pickaxe")
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Small
+    event.create('forge_frontier:incomplete_machine_small')
+        .displayName('Incomplete Small Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_small')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Normal
+    event.create('forge_frontier:incomplete_machine_normal')
+        .displayName('Incomplete Normal Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_normal')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Large
+    event.create('forge_frontier:incomplete_machine_large')
+        .displayName('Incomplete Large Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_large')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Giant
+    event.create('forge_frontier:incomplete_machine_giant')
+        .displayName('Incomplete Giant Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_giant')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Maximum
+    event.create('forge_frontier:incomplete_machine_maximum')
+        .displayName('Incomplete Maximum Machine')
+        .soundType('metal')
+        .mapColor('METAL')
+        .hardness(2.0)
+        .model('forge_frontier:block/incomplete_machine_maximum')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock('mineable/pickaxe')
+        .fullBlock(true)
+
+    // Moon Gravel
+    event.create('forge_frontier:moon_gravel')
+        .displayName('Moon Gravel')
+        .soundType('gravel') 
+        .mapColor('STONE') 
+        .hardness(2.0)
+        .model('forge_frontier:block/moon_gravel')
+        .requiresTool(true)
+        .renderType('solid')
+        .tagBlock("mineable/shovel")
         .fullBlock(true);
 
     // Hyper Experience Block
@@ -19,18 +91,6 @@ StartupEvents.registry('block', event => {
         .mapColor('DIAMOND') 
         .hardness(2.0)
         .model('forge_frontier:block/hyper_experience_block')
-        .requiresTool(true)
-        .renderType('solid')
-        .tagBlock("mineable/pickaxe")
-        .fullBlock(true);
-
-    // Dielectric Paste Block
-    event.create('forge_frontier:dielectric_paste_block')
-        .displayName('Dielectric Paste Block')
-        .soundType('honey_block') 
-        .mapColor('COLOR_GRAY') 
-        .hardness(2.0)
-        .model('forge_frontier:block/dielectric_paste_block')
         .requiresTool(true)
         .renderType('solid')
         .tagBlock("mineable/pickaxe")
@@ -124,5 +184,79 @@ StartupEvents.registry('block', event => {
         .tagItem('tooltiprareness:epic_item')
         .tagBlock("mineable/pickaxe")
         .fullBlock(true);
+
+    // Incomplete Active Vents
+    const incompleteVents = [
+        'asurine',
+        'veridium',
+        'crimsite',
+        'ochrum',
+        'scorchia',
+        'scoria',
+        'potassic',
+        'verdantine',
+        'ancient_debris',
+        'resonite',
+        'aubrum',
+        'stellaris',
+        'pyroclast',
+        'frostite',
+        'noxrock',
+        'gneiss',
+        'endritus',
+        'pearlyte',
+        'amberlite',
+        'guanite',
+        'neodymrium',
+        'azurnium',
+        'uraniumnite',
+        'sulphite',
+        'lost_debris',
+        'glacium'
+    ]
+
+    incompleteVents.forEach(name => {
+        const id = `forge_frontier:incomplete_active_${name}_vent`
+
+        event.create(id)
+            .displayName(`Incomplete Active ${name.split('_').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')} Vent`)
+            .soundType('stone')
+            .mapColor('STONE')
+            .hardness(2.0)
+            .model(`forge_frontier:block/incomplete_active_${name}_vent`)
+            .requiresTool(true)
+            .renderType('solid')
+            .tagBlock('mineable/pickaxe')
+            .fullBlock(true)
+    })
+
+    // Incomplete Rocket Casings
+    const incompleteRocketCasings = [
+        'steel_rocket_casing',
+        'desh_rocket_casing',
+        'ostrum_rocket_casing',
+        'calorite_rocket_casing',
+        'enderite_rocket_casing',
+        'primal_magma_rocket_casing',
+        'forge_rocket_casing'
+    ]
+
+    incompleteRocketCasings.forEach(name => {
+        const id = `forge_frontier:incomplete_${name}`
+
+        event.create(id)
+            .displayName(`Incomplete ${name
+                .split('_')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                .join(' ')}`)
+            .soundType('metal')
+            .mapColor('METAL')
+            .hardness(2.0)
+            .model(`forge_frontier:block/rocket_casing/incomplete_${name}`)
+            .requiresTool(true)
+            .renderType('solid')
+            .tagBlock('mineable/pickaxe')
+            .fullBlock(true)
+    })
 
 });

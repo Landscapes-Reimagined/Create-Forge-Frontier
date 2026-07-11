@@ -39,5 +39,5 @@
 	#        "chipped:.*"					COMMENT: .* is an regex which will exclude all of EntrySets from one Module
 	#    ]
 	#
-	blacklist = []
+	blacklist = ["rechiseled:brick_pattern", "rechiseled:brick_pattern_connecting"]
 

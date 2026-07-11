@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+  "base": {
+    "item": "ad_astra_tools:desh_helmet"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "ad_astra_tools:desherite_helmet"
+  }
+}

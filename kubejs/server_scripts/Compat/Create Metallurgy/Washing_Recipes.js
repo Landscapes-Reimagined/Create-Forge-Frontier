@@ -6,10 +6,6 @@ ServerEvents.recipes(event => {
             secondary: { chance: 0.5, item: 'minecraft:glowstone_dust'}
         },
         {
-            name: 'bismuth',
-            secondary: { chance: 0.5, item: 'minecraft:prismarine_crystals' }
-        },
-        {
             name: 'calorite',
             secondary: { chance: 0.5, item: 'create:brass_nugget' }
         },
@@ -18,20 +14,12 @@ ServerEvents.recipes(event => {
             secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
         },
         {
-            name: 'irradium',
-            secondary: { chance: 0.5, item: 'minecraft:gunpowder' }
-        },
-        {
-            name: 'malachite',
-            secondary: { chance: 0.5, item: 'minecraft:chorus_fruit' }
-        },
-        {
             name: 'ostrum',
             secondary: { chance: 0.5, item: 'create_dd:bronze_nugget' }
         },
         {
             name: 'verdantine',
-            secondary: { chance: 0.05, item: 'totemfactory:inactive_totem' }
+            secondary: { chance: 0.5, item: "createaddition:electrum_nugget" }
         },
         {
             name: 'glacium',
@@ -47,8 +35,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'aubrum',
-            secondary: { chance: 0.5, item: 'create_dd:industrial_iron_nugget' },
-            extra: { chance: 0.25, item: 'ad_astra:cheese' }
+            secondary: { chance: 0.5, item: 'create_dd:industrial_iron_nugget' }
         },
         {
             name: 'pyroclast',
@@ -61,18 +48,6 @@ ServerEvents.recipes(event => {
         {
             name: 'stellaris',
             secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
-        },
-        {
-            name: 'radiantite',
-            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
-        },
-        {
-            name: 'shale',
-            secondary: { chance: 0.5, item: 'enlightened_end:adamantite_nugget' }
-        },
-        {
-            name: 'palerock',
-            secondary: { chance: 0.5, item: 'create_dd:mithril_nugget' }
         },
         {
             name: 'guanite',
@@ -101,6 +76,22 @@ ServerEvents.recipes(event => {
         {
             name: 'sulphite',
             secondary: { chance: 0.25, item: 'create_new_age:radioactive_thorium' }
+        },
+        {
+            name: 'noxrock',
+            secondary: { chance: 0.25, item: "minecraft:gunpowder"}
+        },
+        {
+            name: 'endritus',
+            secondary: { chance: 0.25, item: "create_dd:mithril_nugget"}
+        },
+        {
+            name: 'gneiss',
+            secondary: { chance: 0.25, item: "ad_astra:steel_nugget"}
+        },
+        {
+            name: 'silver',
+            secondary: { chance: 0.25, item: "minecraft:lapis_lazuli"}
         },
         {
             name: 'reggarfonite',

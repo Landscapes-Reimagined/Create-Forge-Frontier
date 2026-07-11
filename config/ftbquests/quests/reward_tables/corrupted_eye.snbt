@@ -1,0 +1,11 @@
+{
+	id: "74E3923F61A934B2"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "createcompression:compressed_diamond_3x" }
+		{ item: "createcompression:compressed_emerald_3x" }
+		{ item: "createcompression:compressed_gold_3x" }
+	]
+	title: "Corrupted Eye Random Pool"
+}

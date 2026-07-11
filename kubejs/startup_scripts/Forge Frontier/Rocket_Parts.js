@@ -1,0 +1,78 @@
+StartupEvents.registry('item', event => {
+    // Define an array of rocket items with their properties
+    const rocketItems = [
+        { id: "forge_frontier:forge_rocket_core", name: "Forge Rocket Core", texture: "forge_frontier:item/forge_rocket/forge_rocket_core" },
+        { id: "forge_frontier:forge_rocket_door", name: "Forge Rocket Door", texture: "forge_frontier:item/forge_rocket/forge_rocket_door" },
+        { id: "forge_frontier:forge_rocket_engine", name: "Forge Rocket Engine", texture: "forge_frontier:item/forge_rocket/forge_rocket_engine" },
+        { id: "forge_frontier:forge_rocket_fin", name: "Forge Rocket Fin", texture: "forge_frontier:item/forge_rocket/forge_rocket_fin" },
+        { id: "forge_frontier:forge_rocket_nose_cone", name: "Forge Rocket Nose Cone", texture: "forge_frontier:item/forge_rocket/forge_rocket_nose_cone" },
+        { id: "forge_frontier:forge_alloy", name: "Forge Alloy", texture: "forge_frontier:item/forge_rocket/forge_alloy" },
+        { id: "forge_frontier:forge_rocket_tank", name: "Forge Rocket Tank", texture: "forge_frontier:item/forge_rocket/forge_rocket_tank" },
+
+        // New shared parts
+        { id: "forge_frontier:rocket_fuel_tank", name: "Rocket Fuel Tank", texture: "forge_frontier:item/rocket_parts/rocket_fuel_tank" },
+        { id: "forge_frontier:rocket_engine", name: "Rocket Engine", texture: "forge_frontier:item/rocket_parts/rocket_engine" },
+
+        // New Tier 1 parts
+        { id: "forge_frontier:vacuum_structural_frame", name: "Vacuum Structural Frame", texture: "forge_frontier:item/rocket_parts/vacuum_structural_frame" },
+        { id: "forge_frontier:oxygen_module", name: "Oxygen Module", texture: "forge_frontier:item/rocket_parts/oxygen_module" },
+
+        // New Tier 2 parts
+        { id: "forge_frontier:combustion_chamber", name: "Combustion Chamber", texture: "forge_frontier:item/rocket_parts/combustion_chamber" },
+        { id: "forge_frontier:oxidizer_catalyst", name: "Oxidizer Catalyst", texture: "forge_frontier:item/rocket_parts/oxidizer_catalyst" },
+
+        // New Tier 3 parts
+        { id: "forge_frontier:thermal_shield_matrix", name: "Thermal Shield Matrix", texture: "forge_frontier:item/rocket_parts/thermal_shield_matrix" },
+        { id: "forge_frontier:solar_regulation_array", name: "Solar Regulation Array", texture: "forge_frontier:item/rocket_parts/solar_regulation_array" },
+
+        // New Tier 4 parts
+        { id: "forge_frontier:deep_space_stabilizer_core", name: "Deep Space Stabilizer Core", texture: "forge_frontier:item/rocket_parts/deep_space_stabilizer_core" },
+
+        // New Tier 5 parts
+        { id: "forge_frontier:dimensional_stability_core", name: "Dimensional Stability Core", texture: "forge_frontier:item/rocket_parts/dimensional_stability_core" },
+
+        // New Tier 6 parts
+        { id: "forge_frontier:magmatic_reinforcement_core", name: "Magmatic Reinforcement Core", texture: "forge_frontier:item/rocket_parts/magmatic_reinforcement_core" },
+
+        // New Tier 7 parts
+        { id: "forge_frontier:culinary_life_support_matrix", name: "Culinary Life Support Matrix", texture: "forge_frontier:item/forge_rocket/culinary_life_support_matrix" },
+        { id: "forge_frontier:arcane_calibration_matrix", name: "Arcane Calibration Matrix", texture: "forge_frontier:item/forge_rocket/arcane_calibration_matrix" },
+        { id: "forge_frontier:adaptive_reinforcement_matrix", name: "Adaptive Reinforcement Matrix", texture: "forge_frontier:item/forge_rocket/adaptive_reinforcement_matrix" }
+
+    ];
+
+    // Create each rocket item
+    rocketItems.forEach(item => {
+        event.create(item.id)
+            .displayName(item.name)
+            .texture(item.texture);
+    });
+});
+
+
+StartupEvents.registry('block', event => {
+    // Rocket Casing
+    const casings = [
+        { id: "forge_rocket_casing", name: "Forge Rocket Casing" },
+        { id: "desh_rocket_casing", name: "Desh Rocket Casing" },
+        { id: "ostrum_rocket_casing", name: "Ostrum Rocket Casing" },
+        { id: "calorite_rocket_casing", name: "Calorite Rocket Casing" },
+        { id: "steel_rocket_casing", name: "Steel Rocket Casing" },
+        { id: "enderite_rocket_casing", name: "Enderite Rocket Casing" },
+        { id: "primal_magma_rocket_casing", name: "Primal Magma Rocket Casing" }
+    ];
+
+    casings.forEach(casing => {
+        event.create(`forge_frontier:${casing.id}`)
+            .displayName(casing.name)
+            .soundType("metal")
+            .mapColor("stone")
+            .hardness(2.0)
+            .model(`forge_frontier:block/rocket_casing/${casing.id}`)
+            .requiresTool(true)
+            .renderType("solid")
+            .tagBlock("mineable/pickaxe")
+            .tagBlock("mineable/axe")
+            .fullBlock(true);
+    });
+});

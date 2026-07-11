@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "create_resource_vents:block/active_palerock_vent"
-    }
-  }
-

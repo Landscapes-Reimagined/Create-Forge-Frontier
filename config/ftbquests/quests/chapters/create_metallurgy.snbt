@@ -91,11 +91,7 @@
 				{
 					count: 16
 					id: "50280DE35A5E2A7F"
-					item: {
-						Count: 1
-						id: "excavated_variants:andesite_iron_ore"
-						tag: { }
-					}
+					item: "enhanced_ore_variety:andesite_iron_ore"
 					type: "item"
 				}
 				{
@@ -659,11 +655,7 @@
 				}
 				{
 					id: "722016E409FDEFA3"
-					item: {
-						Count: 1
-						id: "createmetallurgy:foundry_unit"
-						tag: { }
-					}
+					item: "createmetallurgy:gauge_attachment"
 					type: "item"
 				}
 			]
@@ -710,7 +702,7 @@
 					Count: 1
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:light_bulbs"
+						value: "createmetallurgy:light_bulb"
 					}
 				}
 				title: "Any Light Bulb"

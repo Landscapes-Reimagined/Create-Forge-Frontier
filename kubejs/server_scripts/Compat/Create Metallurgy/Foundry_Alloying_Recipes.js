@@ -34,14 +34,6 @@ ServerEvents.recipes(function (event) {
             ],
             result: { fluid: "forge_frontier:molten_netherite_diamond", amount: INGOT_MB }
         },
-        {
-            id: "dielectric_paste",
-            ingredients: [
-                { amount: 2 * INGOT_MB, fluid: "forge_frontier:molten_carbon" },
-                { item: "minecraft:clay_ball" }
-            ],
-            result: { fluid: "forge_frontier:molten_dielectric_paste", amount: INGOT_MB * 4 }
-        }
     ];
 
     // --- Remove old Netherite base recipe ---

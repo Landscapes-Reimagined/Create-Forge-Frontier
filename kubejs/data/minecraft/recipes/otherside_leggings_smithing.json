@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "resonant_synthesis:otherside_ingot"
+  },
+  "base": {
+    "item": "advancednetherite:netherite_diamond_leggings"
+  },
+  "result": {
+    "item": "resonant_synthesis:otherside_leggings"
+  },
+  "template": {
+    "item": "resonant_synthesis:otherside_upgrade_smithing_template"
+  }
+}

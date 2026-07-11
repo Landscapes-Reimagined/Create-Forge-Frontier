@@ -1,0 +1,27 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [],
+    "offhands": [],
+    "boots": [],
+    "leggings": [],
+    "chestplates": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "cataclysm:bone_reptile_chestplate"
+            }
+        }
+    ],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "cataclysm:bone_reptile_helmet"
+            }
+        }
+    ],
+    "tags": [
+        "venus"
+    ]
+}

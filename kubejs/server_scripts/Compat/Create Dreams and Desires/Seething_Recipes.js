@@ -3,11 +3,6 @@ ServerEvents.recipes(event =>
         // Polished Items Seething Recipes
             const seethingRecipes = [
                 {
-                    name: "irradium_bar",
-                    input: "enlightened_end:depleted_irradium_bar",
-                    output: "enlightened_end:irradium_bar"
-                },
-                {
                     name: "polished_stellarite",
                     input: "create_ethium:stellarite_chunk",
                     output: "create_ethium:polished_stellarite"

@@ -1,0 +1,20 @@
+{
+  "parent": "block/cube",
+  "type": "fusion:connecting",
+  "connections": [
+    {
+      "type": "fusion:is_same_block"
+    }
+  ],
+  "loader": "fusion:model",
+  "textures": {
+    "down": "compactmachines:block/wall",
+    "up": "compactmachines:block/wall",
+    "north": "compactmachines:block/wall",
+    "east": "compactmachines:block/wall",
+    "south": "compactmachines:block/wall",
+    "west": "compactmachines:block/wall",
+    "particle": "compactmachines:block/wall"
+  },
+  "render_type": "solid"
+}

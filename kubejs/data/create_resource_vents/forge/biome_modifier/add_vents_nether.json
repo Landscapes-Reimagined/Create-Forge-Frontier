@@ -4,5 +4,5 @@
   "features": [
     "create_resource_vents:placed_scorchia_vent"
   ],
-  "step": "underground_decoration"
+  "step": "vegetal_decoration"
 }

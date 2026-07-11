@@ -191,3 +191,10 @@ background: ftb:textures/alexscaves_screenshot.png
 
 [14AD7CCF86F19D90]
 background: ftb:textures/mob_grinding_utils_bg.png
+
+[0D8C559800E87271]
+background: ftb:textures/tool_armor_vault_background.png
+
+[07C976892BBBECC6]
+background: ftb:textures/refined_storage_background.png
+

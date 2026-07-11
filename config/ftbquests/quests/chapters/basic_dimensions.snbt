@@ -12,745 +12,83 @@
 			image: "ftb:textures/overworld_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -12.5d
-			y: -10.0d
+			x: -8.5d
+			y: -10.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/nether_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 9.0d
-			y: -9.5d
+			x: 7.0d
+			y: -10.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/otherside_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: -13.0d
-			y: 0.5d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			height: 10.0d
 			image: "ftb:textures/end_title.png"
 			rotation: 0.0d
 			width: 15.0d
-			x: 9.5d
-			y: 1.0d
+			x: 7.0d
+			y: 3.0d
 		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5DA842A1588FB8BE"]
-			description: [
-				"Every journey begins with fundamental survival steps."
-				""
-				"Gathering wood is your first essential task, enabling you to craft basic tools and begin shaping the environment around you. These early resources provide the foundation for shelter, exploration, and your initial progression through &6Create - Forge Frontier&r."
-				""
-				"{@pagebreak}"
-				"Punch trees, collect materials, and craft your first set of tools. These early actions establish the groundwork for the automation, engineering, and exploration systems you will unlock throughout your adventure."
-				""
-				"Small beginnings lead to major milestones—start here, and build toward the challenges that await."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:oak_log"
-				tag: { }
-			}
-			id: "1881B38A98C580A3"
-			rewards: [
-				{
-					count: 10
-					id: "6D465748953AAF39"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-				{
-					id: "47C327802D4606ED"
-					item: {
-						Count: 1
-						id: "minecraft:stone_axe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Punch a tree. Gather wood. Begin your progression. Click for more info!"
-			tasks: [{
-				count: 10L
-				id: "092E8C7657E57E80"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-				title: "Gather 10 of Any Log"
-				type: "item"
-			}]
-			title: "&6First Light&r"
-			x: -21.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1881B38A98C580A3"]
-			description: [
-				"Progress begins with the ability to craft and shape your surroundings."
-				""
-				"Start by gathering basic materials and creating a &fCrafting Table&r—your primary workstation and the foundation for nearly every tool and device you will build. From there, craft your first &6Wooden Pickaxe&r to begin accessing stone, ores, and the deeper resources of the world."
-				""
-				"{@pagebreak}"
-				"These early tools enable you to upgrade your equipment, expand your capabilities, and prepare for increasingly complex tasks. Each improvement marks a step forward in your progression through &6Create - Forge Frontier&r."
-				""
-				"Establish your tools, and open the path to greater engineering challenges ahead."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:crafting_table"
-				tag: { }
-			}
-			id: "62BFFEB56245C2F3"
-			rewards: [
-				{
-					id: "096F961908F4F4C1"
-					item: {
-						Count: 1
-						id: "minecraft:stone_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "66D5574E1B576131"
-					item: "minecraft:oak_log"
-					type: "item"
-				}
-			]
-			subtitle: "Craft a crafting table and your first pickaxe—establish the tools that begin your progression. Click for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "minecraft:crafting_table"
-						tag: { }
-					}
-					id: "6BABAA13A39290BB"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "mctb:revertable_workbench"
-						}
-					}
-					title: "Make A Crafting Table"
-					type: "item"
-				}
-				{
-					id: "52B16A7C737F5386"
-					item: {
-						Count: 1
-						id: "minecraft:wooden_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6Tools of the Trade&r"
-			x: -19.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["62BFFEB56245C2F3"]
-			description: [
-				"Nightfall introduces your first major survival challenge. Hostile mobs emerge in darkness, making preparation essential for continued progression."
-				""
-				"Construct a simple shelter, place torches to maintain visibility, and establish a safe space to operate during early exploration. Even a basic structure provides the protection needed to gather resources, craft tools, and plan future advancements."
-				""
-				"{@pagebreak}"
-				"This initial refuge marks the beginning of your infrastructure. Whether temporary or long-term, it forms the foundation for the bases, machines, and systems you will build throughout your journey."
-			]
-			icon: "minecraft:red_bed"
-			id: "14DDC1E6A974F3AD"
-			rewards: [
-				{
-					count: 8
-					id: "13F444CADE509797"
-					item: "minecraft:torch"
-					type: "item"
-				}
-				{
-					id: "663C0728607DEE77"
-					item: "handcrafted:oak_fancy_bed"
-					type: "item"
-				}
-			]
-			subtitle: "Build your first shelter and secure safety during the night. Click for more info!"
-			tasks: [
-				{
-					id: "05079E9EE0A977C1"
-					title: "Build a Small Shelter"
-					type: "checkmark"
-				}
-				{
-					block: "minecraft:torch"
-					block_type: 0
-					id: "630485DDD692DA96"
-					replace: false
-					replaced: "minecraft:air"
-					type: "questsadditions:place"
-					value: 4L
-				}
-			]
-			title: "&6Light in the Darkness&r"
-			x: -18.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["14DDC1E6A974F3AD"]
-			description: [
-				"Stone, coal, and iron form the foundation of your early technological progression. These materials enable improved tools, consistent fuel sources, and the equipment required for more advanced crafting systems."
-				""
-				"Explore caves or carve into the terrain to gather these essential resources. Upgrading your tools and maintaining a supply of basic ores will strengthen your ability to survive, expand, and prepare for higher-tier objectives."
-				""
-				"Mining these early materials is your first step toward larger infrastructure and more complex engineering later in the journey."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:stone_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "774048801A50E2D4"
-			rewards: [
-				{
-					id: "3675E78B35E99BA1"
-					item: {
-						Count: 1
-						id: "minecraft:iron_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "0581BC4AE2B2D751"
-					item: "minecraft:cooked_porkchop"
-					type: "item"
-				}
-			]
-			subtitle: "Mine stone, coal, and iron to support your early progression. Click for more info!"
-			tasks: [
-				{
-					block: "minecraft:stone"
-					block_type: 0
-					checkItem: false
-					id: "496F054FD5B2BFD4"
-					type: "questsadditions:break"
-					value: 32L
-				}
-				{
-					count: 5L
-					id: "00CEAB39365D1456"
-					item: { Count: 5, id: "minecraft:coal" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "0FD86F6A93F34FA0"
-					item: "minecraft:raw_iron"
-					type: "item"
-				}
-			]
-			title: "&6Depths of Fortune&r"
-			x: -16.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["774048801A50E2D4"]
-			description: [
-				"Iron marks a major improvement in durability, efficiency, and protection. Smelt your first iron ingots and upgrade your tools to significantly enhance your ability to gather resources and navigate dangerous environments."
-				""
-				"Crafting a full set of iron armor provides essential defense against early threats, allowing you to explore more confidently and tackle increasingly difficult encounters."
-				""
-				"{@pagebreak}"
-				"Advancing into the iron tier establishes a strong foundation for the engineering, automation, and exploration systems that follow."
-				""
-				"Learn more about tools and armor in its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7734042A9B46C0E8\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:iron_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "795BB1A225B65C14"
-			rewards: [{
-				id: "762B37CFA80EDEEC"
-				item: {
-					Count: 1
-					id: "minecraft:shield"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Craft your first set of iron tools and armor to prepare for upcoming challenges. Click for more info!"
-			tasks: [
-				{
-					count: 5L
-					id: "42594DBCA3BD0D52"
-					item: { Count: 5, id: "minecraft:iron_ingot" }
-					type: "item"
-				}
-				{
-					id: "2464618087F15517"
-					item: {
-						Count: 1
-						id: "minecraft:iron_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6Forged for Battle&r"
-			x: -15.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["795BB1A225B65C14"]
-			description: [
-				"Maintaining a reliable food supply is essential for survival and early progression. Consistent access to nourishment allows you to explore, gather resources, and engage in combat without interruption."
-				""
-				"Establish a stable source of food through hunting, farming, or basic cooking. Each approach strengthens your ability to operate efficiently and prepares you for more demanding tasks as you advance."
-				""
-				"{@pagebreak}"
-				"A dependable food system supports long-term exploration and provides the foundation for sustained growth throughout your journey."
-			]
-			id: "49D8A4094E06C73A"
-			rewards: [
-				{
-					count: 5
-					id: "1E275FDF81CBABF0"
-					item: "minecraft:bread"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "3C877D89CA6ED33D"
-					item: "minecraft:wheat_seeds"
-					type: "item"
-				}
-			]
-			subtitle: "Secure a sustainable food source to support continued progression. Click for more info!"
-			tasks: [{
-				count: 10L
-				id: "1CDA8A68DD2C77C5"
-				item: { Count: 10, id: "minecraft:wheat" }
-				type: "item"
-			}]
-			title: "&6Fuel for the Journey&r"
-			x: -13.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["49D8A4094E06C73A"]
-			description: [
-				"Light plays a critical role in early survival and exploration. Hostile mobs spawn in darkness, making unlit areas hazardous during both surface travel and cave expeditions."
-				""
-				"Craft torches, lanterns, or campfires to illuminate your surroundings and establish safe zones as you gather resources or build your base. Proper lighting improves visibility, reduces unexpected encounters, and supports efficient navigation through underground and overworld environments."
-				""
-				"{@pagebreak}"
-				"Integrating reliable light sources into your early progression ensures greater safety and stability as you continue your journey."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:campfire"
-				tag: { }
-			}
-			id: "19AA16DF731E0652"
-			rewards: [{
-				id: "420CDEA480DE2278"
-				type: "xp"
-				xp: 25
-			}]
-			subtitle: "Craft light sources to illuminate your surroundings and maintain safety. Click for more info!"
-			tasks: [
-				{
-					count: 16L
-					id: "290B366E98424CB7"
-					item: { Count: 16, id: "minecraft:torch" }
-					type: "item"
-				}
-				{
-					id: "711E4EE09742DA33"
-					item: "minecraft:campfire"
-					type: "item"
-				}
-			]
-			title: "&6Kindle the Flame&r"
-			x: -12.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["19AA16DF731E0652"]
-			description: [
-				"As you progress underground, key resources begin to shape your ability to access more advanced systems in &6Create - Forge Frontier&r. Gold, redstone, and lapis each play a distinct role in unlocking new mechanics and crafting pathways."
-				""
-				"Mine &6Gold&r to support higher-tier components and specialized crafting. Gather &cRedstone&r to enable automation, circuitry, and functional contraptions. Collect &9Lapis Lazuli&r to prepare for enchanting and additional utility systems."
-				""
-				"{@pagebreak}"
-				"These materials form the backbone of mid-game progression, providing the tools needed to expand your engineering capabilities and refine your approach to exploration and survival."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:iron_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "218A44E2EE4B49E4"
-			rewards: [
-				{
-					id: "3DDC490BB8403C67"
-					item: "minecraft:golden_apple"
-					type: "item"
-				}
-				{
-					id: "6772138CBE6B609F"
-					type: "xp"
-					xp: 50
-				}
-			]
-			subtitle: "Mine gold, redstone, and lapis to unlock new crafting and progression systems. Click for more info!"
-			tasks: [
-				{
-					count: 2L
-					id: "664649795BFCAF28"
-					item: { Count: 2, id: "minecraft:gold_ingot" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "01AA5F249C144D19"
-					item: { Count: 5, id: "minecraft:redstone" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "105AB1480425CEFB"
-					item: { Count: 3, id: "minecraft:lapis_lazuli" }
-					type: "item"
-				}
-			]
-			title: "&6Secrets in Stone&r"
-			x: -10.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["218A44E2EE4B49E4"]
-			description: [
-				"Diamonds mark a major milestone in early-to-mid game progression. Found most reliably near Y-Level -59, these durable resources enable the creation of high-tier tools and armor that significantly enhance your mining efficiency and overall survivability."
-				""
-				"Collecting diamonds also grants access to obsidian mining, which serves as a gateway to additional dimensions, crafting systems, and long-term advancement goals within &6Create - Forge Frontier&r."
-				""
-				"Securing a steady supply of diamonds strengthens your foundation for the challenges and technologies ahead."
-			]
-			id: "1C80B7736557D99F"
-			rewards: [
-				{
-					id: "25EDF2B8B4099438"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "1F410510C5CCF927"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_pickaxe"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Click me for more info!"
-			tasks: [{
-				block: "minecraft:deepslate_diamond_ore"
-				block_type: 0
-				checkItem: false
-				id: "40161655B5A64B14"
-				type: "questsadditions:break"
-				value: 3L
-			}]
-			title: "&6The Power of Diamonds&r"
-			x: -9.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1C80B7736557D99F"]
-			description: [
-				"Enchantment marks a major progression step, offering powerful upgrades that improve tool efficiency, combat capability, and overall survivability. Craft an &dEnchanting Table&r and enhance its effectiveness by surrounding it with &fBookshelves&r to increase available enchantment levels."
-				""
-				"Through this system, you can refine your equipment to better suit the challenges ahead, preparing for combat encounters, resource gathering, and advanced exploration across multiple dimensions."
-				""
-				"{@pagebreak}"
-				"Understanding and utilizing enchantments strengthens your foundation for mid-to-late game objectives."
-				""
-				"Want to learn more about enchanting? Check out its  "
-				"{ \"text\": \"Dedicated Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6965F4ABCAB88875\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:enchanting_table"
-				tag: { }
-			}
-			id: "7B5086A6EF852DF0"
-			rewards: [
-				{
-					id: "6EE397BB9DE2B6B6"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:mending"
-								lvl: 1s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5B1366A72B1F6E9C"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					count: 5
-					id: "0894B1E3F2277AEF"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-			]
-			subtitle: "Craft an enchanting table and enhance your equipment through magical upgrades. Click for more info!"
-			tasks: [
-				{
-					id: "3E902DA8EAD1597C"
-					item: "minecraft:enchanting_table"
-					type: "item"
-				}
-				{
-					block: "forge:bookshelves"
-					block_type: 1
-					id: "30D2BEFD1555E4A3"
-					replace: false
-					replaced: "minecraft:air"
-					title: "Place 5 of Any Bookshelf"
-					type: "questsadditions:place"
-					value: 5L
-				}
-			]
-			title: "&6The Arcane Edge&r"
-			x: -7.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7B5086A6EF852DF0"]
-			description: [
-				"Potioncraft provides essential advantages during exploration and combat, particularly when preparing for the challenges introduced in &cNether Remastered&r. Begin by crafting a &eBrewing Stand&r and collecting reagents such as blaze powder, nether wart, and other specialized ingredients found throughout your journey."
-				""
-				"Potions offer key benefits—from restoring health to mitigating fire damage—allowing you to approach difficult encounters with improved safety and efficiency."
-				""
-				"{@pagebreak}"
-				"Effective use of potions is important when navigating Nether structures and acquiring &lSeal Pieces&r, ensuring you are equipped to handle the hazards and enemies found within."
-				""
-				"Mastering basic alchemy strengthens your readiness for mid-game progression."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:brewing_stand"
-				tag: { }
-			}
-			id: "598B697BDE842B0E"
-			rewards: [
-				{
-					id: "1E014541FFA87665"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "0595710CBC1C9334"
-					item: "minecraft:blaze_powder"
-					type: "item"
-				}
-			]
-			subtitle: "Craft potions to support your progression and prepare for Nether Remastered challenges. Click for more info!"
-			tasks: [
-				{
-					id: "704BEEACD337EE9B"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:strength"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3E6DC9B542ABDE80"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:invisibility"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6Elixirs of Survival&r"
-			x: -6.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["598B697BDE842B0E"]
-			description: [
-				"The &cNether&r plays a central role in mid-game progression, but access to it is restricted. Instead of lighting a standard obsidian portal, you must locate specific Overworld structures that contain the materials and clues required to obtain the &lSeal of the Underworld&r."
-				""
-				"These sites hold valuable loot and key components needed to advance toward the Nether. Searching each location provides fragments of a larger progression path that ultimately enables dimensional access."
-				""
-				"{@pagebreak}"
-				""
-				"{image:ftb:textures/hopoportal.png width:200 height:111 align:center}"
-				""
-				"These structures function as early trials, guiding you through exploration, combat encounters, and resource gathering that prepare you for the hazards of the Nether."
-				""
-				"Read more about these locations in the  "
-				"{ \"text\": \"Nether Remastered Chapter!\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72FE4921BBC7E437\" } }"
-			]
-			id: "4196DD5F26401205"
-			rewards: [
-				{
-					count: 5
-					id: "3FC02F2B4C6715DC"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-				{
-					id: "5820B29105FC1358"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Seek ancient Overworld structures to unlock the path to the Nether. Click for more info!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
-				id: "58D5FAE01CBFA872"
-				structure: "#minecraft:ruined_portal"
-				title: "Locate a Ruined Portal"
-				type: "structure"
-			}]
-			title: "&6Sealed in Stone&r"
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["4196DD5F26401205"]
-			description: [
-				"With the &cSeal of the Underworld&r in hand, you are ready to progress into the next major stage of your journey. Consuming the seal removes the dimensional barrier and activates the Nether portal, granting access to one of the most resource-rich and hazardous environments in &6Create - Forge Frontier&r."
-				""
-				"This transition marks a significant milestone, preparing you for advanced materials, specialized structures, and mid-game challenges that define Nether progression."
-				""
-				"{@pagebreak}"
-				"Before entering, ensure you have adequate equipment, supplies, and preparation for the heat, terrain, and hostile encounters that await."
-				""
-				"The &cNether&r is designed to test your readiness and push your progression forward."
-				""
-				"Continue your journey in the next  "
-				"{ \"text\": \"Quest Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3F3994EDD215FC99\" } }"
-			]
-			id: "40C18D4807A0E1D2"
-			rewards: [
-				{
-					id: "088A2C9276DA68F3"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-				{
-					id: "78F312E885600625"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-			]
-			subtitle: "Consume the Seal of the Underworld to activate the portal and enter the Nether. Click for more info!"
-			tasks: [{
-				id: "25B6FE2FFA6F0622"
-				item: "nether_remastered:seal_of_the_underworld_item"
-				type: "item"
-			}]
-			title: "&6Through the Inferno&r"
-			x: -3.0d
-			y: -3.5d
-		}
-		{
 			dependencies: ["5EDC9934E7D346D8"]
 			description: [
 				"&2The Overworld&r"
 				""
 				"{image:ftb:textures/overworld_screenshot.png width:565 height:400 align:center fit:true}"
-				"{@pagebreak}"
-				""
-				"The &2Overworld&r serves as the starting point for your progression in &6Create - Forge Frontier&r. It provides essential materials, early-game resources, and the environments needed to establish your initial infrastructure. From basic tool creation to your first attempts at automation, this dimension supports every foundational step of your journey."
-				""
-				"Explore forests, plains, and expansive cave networks as you gather resources, construct your first shelter, and prepare the systems that will carry you into more advanced content."
 				""
 				"{@pagebreak}"
 				""
-				"&lFrom Survival to Mastery&r"
-				"Progression in the Overworld involves more than resource collection. Managing hunger, preparing reliable food sources, maintaining safety during exploration, and experimenting with early automation all contribute to your long-term success."
+				"The &2Overworld&r is where every great adventure begins."
 				""
-				"Establish farms, reinforce your base, and begin integrating Create components as you transition from basic survival toward structured engineering."
+				"This familiar world serves as the heart of your entire journey, providing the resources, landscapes, and opportunities needed to transform a simple campsite into a thriving industrial empire. From towering mountain ranges and dense forests to sprawling cave systems and ancient ruins, every biome holds valuable materials and hidden secrets waiting to be discovered."
 				""
-				"Each improvement you make strengthens your ability to tackle future challenges."
+				"Every journey starts with a single step."
 				""
 				"{@pagebreak}"
 				""
-				"&lThe Journey Begins Here&r"
-				"Your efforts in the Overworld form the groundwork for the dimensions and technologies that follow. The systems you build and the experience you gain here directly support your progression into the Nether, the End, and beyond."
+				"&lBuilding Your Foundation&r"
 				""
-				"Master this environment, refine your early infrastructure, and prepare for the increasingly complex objectives ahead."
+				"Your first days are spent gathering resources, crafting basic tools, and establishing a safe place to call home."
+				""
+				"As your confidence grows, so too will your ambitions. Begin constructing farms, processing ores, and experimenting with your first &6Create&r machines. Every gearbox placed, every conveyor assembled, and every resource automated brings you one step closer to the incredible factory you'll eventually build."
+				""
+				"Every great factory begins with a single machine."
+				""
+				"{@pagebreak}"
+				""
+				"&lA World Worth Exploring&r"
+				""
+				"The Overworld is filled with more than just resources."
+				""
+				"Venture beyond your base to uncover ancient structures, forgotten civilizations, valuable loot, and rare materials hidden throughout the landscape. Exploration rewards those willing to leave the safety of home, offering powerful equipment, progression items, and the knowledge needed to unlock the dimensions that await beyond."
+				""
+				"Sometimes the greatest discoveries lie just over the next hill."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe Heart of Your Adventure&r"
+				""
+				"Although your journey will eventually carry you across planets, dimensions, and alien worlds, the Overworld will always remain the center of your operation."
+				""
+				"Here your factories will grow, your automation networks will expand, and your greatest engineering projects will take shape. Every resource gathered from distant worlds eventually returns here, fueling the machines that make your continued exploration possible."
+				""
+				"The stars may call your name..."
+				""
+				"But the Overworld will always be home."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:grass_block"
@@ -764,39 +102,63 @@
 			size: 3.0d
 			subtitle: "Begin your journey in the Overworld and establish the foundation for all progression. Click for more info!"
 			tasks: [{
-				icon: {
+				id: "761B1BC0C077AD23"
+				item: {
 					Count: 1
-					id: "minecraft:leather_boots"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "minecraft:logs"
 					}
 				}
-				id: "7E192CBBA67B0C1A"
-				stat: "minecraft:walk_one_cm"
-				type: "stat"
-				value: 5
+				title: "Any #minecraft:logs"
+				type: "item"
 			}]
 			title: "&6Roots of Adventure&r"
-			x: -12.5d
-			y: -6.5d
+			x: -8.5d
+			y: -7.0d
 		}
 		{
-			dependencies: ["486542BF23253839"]
+			dependencies: ["6770F96C1A4490DE"]
 			description: [
-				"&cThe Nether&r introduces one of the most challenging progression environments in &6Create - Forge Frontier&r. Its terrain, hostile mobs, and unique resource pools require careful preparation and strategic planning."
+				"&cThe Nether&r"
 				""
 				"{image:ftb:textures/nether_screenshot.png width:565 height:400 align:center fit:true}"
-				"{@pagebreak}"
-				""
-				"Accessed through &cNether Remastered&r, this dimension features dangerous landscapes shaped by lava flows, hostile mobs such as ghasts and blazes, and structures including fortresses and bastions. These locations contain essential materials and progression items needed for mid-game crafting, brewing, and advanced systems."
-				""
-				"Your goal extends beyond basic survival. Effective exploration, resource collection, and combat readiness are key to advancing through the challenges found here."
 				""
 				"{@pagebreak}"
 				""
-				"Equip yourself properly, maintain awareness of your surroundings, and approach each structure with caution. The Nether plays a pivotal role in your progression—master its hazards to unlock the resources and pathways required for future advancement."
+				"The &cNether&r is where your adventure truly begins to test your resolve."
+				""
+				"No longer accessed at the very start of your journey, this fiery dimension must first be earned through exploration and progression. Beyond the portal lies a world of molten landscapes, ancient fortresses, and forgotten civilizations, where every expedition carries both immense risk and incredible reward."
+				""
+				"Only those prepared for its dangers will survive."
+				""
+				"{@pagebreak}"
+				""
+				"&lInto the Inferno&r"
+				""
+				"The Nether is home to a wide variety of hostile environments, from the crimson growth of the &cCrimson Forest&r to the unstable terrain of the &8Basalt Deltas&r and the haunting silence of the &7Soul Sand Valley&r. Alongside these familiar biomes, &cNether Remastered&r introduces additional regions filled with unique resources and exploration opportunities."
+				""
+				"Ancient &6Nether Fortresses&r and &8Bastion Remnants&r hold valuable treasures, rare crafting materials, and progression items essential for brewing, advanced machinery, and future dimensions."
+				""
+				"Every structure conquered brings new opportunities."
+				""
+				"{@pagebreak}"
+				""
+				"&lForged by Fire&r"
+				""
+				"The Nether rewards preparation above all else."
+				""
+				"Come equipped with reliable armor, plentiful food, and the tools needed to survive its unforgiving environment. Gather its rare resources, conquer its powerful inhabitants, and use everything you've learned to strengthen your growing factory."
+				""
+				"The materials recovered here will pave the way toward &5The End&r, interplanetary travel, and the extraordinary adventures still waiting beyond the horizon."
+				""
+				"Master the flames."
+				""
+				"Claim their riches."
+				""
+				"Then forge your path toward the stars."
 			]
-			hide_dependent_lines: true
+			hide_dependency_lines: true
 			icon: "minecraft:netherrack"
 			id: "3F3994EDD215FC99"
 			rewards: [{
@@ -807,719 +169,61 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Enter the Nether and begin your progression through its hazards and resources. Click for more info!"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: "minecraft:netherrack"
-				id: "21AF3C45D5058473"
-				type: "dimension"
-			}]
-			title: "&6Into the Inferno&r"
-			x: 9.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["3F3994EDD215FC99"]
-			description: [
-				"&cYou’ve broken the seal and entered the Nether&r—an environment defined by danger, heat, and limited safe zones. Establishing stability early on is essential for progressing through this dimension."
-				""
-				"Your first objective is resource acquisition. Create a &esafe perimeter&r around your portal, mark your &dreturn location&r, and begin gathering essential Nether materials such as quartz, gold, and glowstone. These resources support brewing, crafting, automation components, and mid-game advancement within &6Create - Forge Frontier&r."
-				""
-				"{@pagebreak}"
-				"Organizing and stockpiling these materials strengthens your early presence and prepares you for deeper exploration."
-				""
-				"The included &bLodestone&r and &bCompass&r rewards ensure reliable navigation, allowing you to relocate your base even within the Nether’s complex cave systems and hazardous terrain."
-				""
-				"Securing these foundational resources establishes your foothold in this hostile dimension and prepares you for the challenges ahead."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:diamond_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "79796694A2D1F0DE"
-			rewards: [
-				{
-					id: "718D5579B9E549A9"
-					item: "minecraft:compass"
-					type: "item"
-				}
-				{
-					id: "76F12C2A5F462BF9"
-					item: "minecraft:lodestone"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "0EBF6378DE8A4871"
-					item: "minecraft:cooked_porkchop"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "174A2170FDCD0C99"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-			]
-			subtitle: "Mine the Nether’s vital resources and establish your foothold. Click for more info!"
 			tasks: [
 				{
-					id: "277AEF0B736D28BF"
-					title: "Secure the Portal"
-					type: "checkmark"
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "21AF3C45D5058473"
+					type: "dimension"
 				}
 				{
-					count: 32L
-					id: "511B41481AE29722"
-					item: { Count: 32, id: "minecraft:netherrack" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "4B648195BDFACC18"
-					item: { Count: 5, id: "minecraft:quartz" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "34412006DA23ED7A"
-					item: { Count: 3, id: "minecraft:glowstone_dust" }
-					type: "item"
-				}
-			]
-			title: "&6Claim the Heat&r"
-			x: 4.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["79796694A2D1F0DE"]
-			description: [
-				"Survival in the &cNether&r requires adapting to its unique terrain and materials. Several native resources serve as replacements or upgrades to Overworld materials, making them essential for establishing a stable foothold."
-				""
-				"Collect &8Blackstone&r as an alternative to stone for tool and block crafting. Use &4Crimson&r and &2Warped Wood&r for fire-resistant building materials that reduce structural risk in high-heat environments. Gather &6Gold&r to safely interact with Piglins and to support crafting recipes tied to mid-game progression."
-				""
-				"{@pagebreak}"
-				"Stockpiling these materials strengthens your infrastructure and enhances your ability to navigate and operate within the Nether’s hazards."
-				""
-				"Effective resource management is the key to turning this hostile realm into a functional extension of your base."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:blackstone"
-				tag: { }
-			}
-			id: "4927BD8DBED4A962"
-			rewards: [
-				{
-					id: "67E9093F44243D3A"
-					item: {
-						Count: 1
-						id: "minecraft:golden_helmet"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:mending"
-									lvl: 1s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 10
-					id: "4887421CE86A960F"
-					item: "minecraft:soul_torch"
-					type: "item"
-				}
-				{
-					id: "1B459589DCEAEDA6"
-					item: "minecraft:respawn_anchor"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1C9DD00954E7CBBD"
-					item: "minecraft:glowstone"
-					type: "item"
-				}
-			]
-			subtitle: "Gather key Nether resources to support your survival and progression. Click for more info!"
-			tasks: [
-				{
-					count: 32L
-					id: "66C27B3C4C56FBF7"
-					item: { Count: 32, id: "minecraft:blackstone" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "01BDD83CA3EA1FD5"
-					item: { Count: 8, id: "minecraft:gold_ingot" }
-					type: "item"
-				}
-				{
-					icon: "minecraft:crimson_stem"
-					id: "6E49BCE9EF8FEF81"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "create_dd:valid_nether_logs"
-						}
-					}
-					title: "Any #create_dd:valid_nether_logs"
-					type: "item"
-				}
-			]
-			title: "&6The Essentials of Flame&r"
-			x: 6.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["4927BD8DBED4A962"]
-			description: [
-				"&8Nether Fortresses&r are critical progression structures within &6Create - Forge Frontier&r. These strongholds contain essential resources and materials required for brewing, mid-game crafting, and advancing further into Nether Remastered content."
-				""
-				"Hostile mobs such as &6Blazes&r, &8Wither Skeletons&r, and groups of &eZombie Piglins&r patrol the corridors, making careful preparation and reliable equipment necessary before entering."
-				""
-				"{@pagebreak}"
-				""
-				"Within these fortresses, you will find key items including blaze rods, nether wart, and valuable loot hidden throughout the structure. Securing these materials enables potion brewing, unlocks additional crafting pathways, and supports progression toward higher-tier objectives."
-				""
-				"Approach each room with caution, maintain control of your surroundings, and collect the resources needed to advance."
-				""
-				"{image:ftb:textures/fortress.png width:200 height:120 align:center}"
-			]
-			icon: {
-				Count: 1
-				id: "explorerscompass:explorerscompass"
-				tag: { }
-			}
-			id: "1D6068D3F034486B"
-			rewards: [
-				{
-					id: "4B4BB01429146538"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4CAB377E155DAAB3"
-					item: "minecraft:wither_skeleton_skull"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "0A54C70F28F7B513"
-					item: "minecraft:blaze_rod"
-					type: "item"
-				}
-			]
-			subtitle: "Conquer a Nether Fortress and obtain the resources required for progression. Click for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "39D03DC70B2598BB"
-					structure: "betterfortresses:fortress"
-					title: "Locate a Nether Fortress"
-					type: "structure"
-				}
-				{
-					entity: "minecraft:blaze"
-					id: "01A68FD024DADB2C"
-					type: "kill"
-					value: 3L
-				}
-				{
-					entity: "minecraft:wither_skeleton"
-					id: "71E0515F36442FA6"
-					type: "kill"
-					value: 3L
-				}
-			]
-			title: "&6Into the Ember Keep&r"
-			x: 7.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1D6068D3F034486B"]
-			description: [
-				"Bastion Remnants are high-risk, high-reward structures found throughout the &cNether&r. These ruined strongholds contain large quantities of &6gold&r, valuable loot, rare materials, and late-game gear that support multiple progression paths within &6Create - Forge Frontier&r."
-				""
-				"Inside, &6Piglins&r and &cPiglin Brutes&r enforce strict territorial control. Brutes attack on sight, dealing significant damage and requiring strong equipment and careful strategy to defeat. Understanding Piglin behavior and preparing appropriate defenses is essential before entering."
-				""
-				"{@pagebreak}"
-				""
-				"Exploring a Bastion can provide powerful rewards, including enchanted gear, weapon upgrades, and materials needed for potioncraft and advanced crafting systems. Each room presents unique hazards, encouraging deliberate navigation and situational awareness."
-				""
-				"Enter only when prepared—Bastions test both combat readiness and resource planning, but the rewards significantly strengthen your mid-game progression."
-				""
-				"{image:ftb:textures/bastion_rem.png width:192 height:150 align:center}"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:golden_axe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "1665A6E78A71E6F5"
-			rewards: [
-				{
-					count: 16
-					id: "337D91E6057BDBA2"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					id: "08A537B59B5EE3A3"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:soul_speed"
-								lvl: 3s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1D581F97BE07CB4F"
-					item: "minecraft:netherite_scrap"
-					type: "item"
-				}
-			]
-			subtitle: "Raid a Bastion Remnant and outmaneuver the Piglins who guard its treasures. Click for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "30840877FC473F29"
-					structure: "minecraft:bastion_remnant"
-					title: "Locate a Bastion"
-					type: "structure"
-				}
-				{
-					block: "minecraft:chest"
-					block_type: 0
-					checkItem: false
-					id: "6FCD80C64F93BC60"
-					isItemInteraction: false
-					title: "Loot 1 Chest"
-					type: "questsadditions:use"
-					value: 1L
-				}
-				{
-					id: "1C3DF09E97010D4E"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-				{
-					id: "1BBCB545380D7A22"
-					title: "Trade with Piglins"
-					type: "checkmark"
-				}
-			]
-			title: "&6Gold and Fury&r"
-			x: 9.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1665A6E78A71E6F5"]
-			description: [
-				"The &cNether&r provides several rare materials essential for potion brewing, equipment upgrades, and mid-to-late game crafting within &6Create - Forge Frontier&r. Understanding which resources to collect—and how they support your progression—is key to establishing long-term stability in this dimension."
-				""
-				"Gather &eNether Wart&r to enable potion production, acquire &8Netherite Scraps&r to upgrade tools and armor, and collect &6Glowstone Dust&r for enhancing potion effects and supporting various crafting recipes. Additional resources such as quartz, basalt, magma blocks, and soul soil further expand your utility and building options."
-				""
-				"{@pagebreak}"
-				"Surviving the Nether involves knowing what to harvest, managing inventory efficiently, and securing safe locations to process materials. These resources directly strengthen your infrastructure and prepare you for more advanced objectives."
-				""
-				"Master the dimension’s unique materials to convert its hazards into powerful advantages."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:soul_sand"
-				tag: { }
-			}
-			id: "7BAE261166502E1D"
-			rewards: [
-				{
-					count: 2
-					id: "3912CF6661E05D85"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:strong_strength"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "6765DDC943CDFA2F"
-					item: "minecraft:magma_cream"
-					type: "item"
-				}
-				{
-					id: "40974CA47256504D"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_pickaxe"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:fortune"
-									lvl: 5s
-								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Gather and utilize the rare materials found exclusively in the Nether. Click for more info!"
-			tasks: [
-				{
-					count: 32L
-					id: "6F42FF8347458CBB"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:soul_fire_base_blocks"
-						}
-					}
-					title: "Any #minecraft:soul_fire_base_blocks"
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "2CCD9F4220F368C4"
-					item: { Count: 32, id: "minecraft:basalt" }
-					type: "item"
-				}
-				{
-					count: 32L
-					id: "484F2A38F524B3C0"
-					item: "minecraft:magma_block"
-					type: "item"
-				}
-				{
-					id: "0C628689F71C6733"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:fire_resistance"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6Harness the Heat&r"
-			x: 10.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7BAE261166502E1D"]
-			description: [
-				"&6Ancient Debris&r is one of the rarest and most valuable resources found within the &cNether&r, serving as the foundation for crafting &8Netherite&r—the highest tier of gear available in standard progression. Its rarity and distribution make it a key milestone in preparing for late-game challenges."
-				""
-				"Ancient Debris most commonly generates near &eY-Level 15&r. Mining it effectively requires careful planning, awareness of lava pockets, and methods such as controlled explosions to clear large areas safely. Patience and preparation significantly increase your efficiency when searching for this material."
-				""
-				"{@pagebreak}"
-				"You may also encounter the resource through an  "
-				"{ \"text\": \"Ancient Debris Vent\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6C99623FD144B074\" } },  "
-				"a rare geological formation that provides concentrated access to debris-rich zones."
-				""
-				"Securing Ancient Debris advances your equipment to Netherite quality, offering superior durability and strength for the challenges ahead."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:netherite_ingot"
-				tag: { }
-			}
-			id: "127DD18CE2DA41ED"
-			rewards: [
-				{
-					id: "16855C63CD004045"
-					item: "minecraft:netherite_upgrade_smithing_template"
-					type: "item"
-				}
-				{
-					id: "581B201BEFFC0531"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "4F819F553FA58034"
-					item: "minecraft:tnt"
-					type: "item"
-				}
-			]
-			subtitle: "Mine Ancient Debris and unlock the strength of Netherite. Click for more info!"
-			tasks: [
-				{
-					count: 4L
-					id: "692E38C34E785133"
-					item: { Count: 4, id: "minecraft:ancient_debris" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "048AB15638784FD0"
-					item: { Count: 4, id: "minecraft:netherite_scrap" }
-					type: "item"
-				}
-				{
-					id: "6865762C4DFF5D3C"
-					item: "minecraft:netherite_ingot"
-					type: "item"
-				}
-			]
-			title: "&6Buried Power&r"
-			x: 12.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["127DD18CE2DA41ED"]
-			description: [
-				"The &cNether&r introduces several dangerous mobs that play a key role in your progression. Confronting and defeating these enemies provides essential materials, experience, and components needed for brewing, crafting, and advancing into mid-game systems."
-				""
-				"Encounters with &6Piglin Brutes&r, &8Wither Skeletons&r, Blazes, and other hostile entities demand reliable equipment and thoughtful combat strategies. These foes deal significant damage and often appear in groups, especially within fortresses and bastions."
-				""
-				"{@pagebreak}"
-				"Overcoming these adversaries is not only a test of preparedness—it directly supports your ability to gather key drops such as blaze rods, coal, bones, skulls, and other valuable items."
-				""
-				"Approach each fight with caution, maintain control of your surroundings, and use these encounters to reinforce your readiness for the challenges ahead."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:iron_sword"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3E8BB2ABA5F04447"
-			rewards: [
-				{
-					count: 3
-					id: "36F1E99BA9F6AABE"
-					item: "minecraft:ghast_tear"
-					type: "item"
-				}
-				{
-					id: "503CA0B769F26434"
-					item: {
-						Count: 1
-						id: "minecraft:diamond_sword"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:sharpness"
-									lvl: 5s
-								}
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:looting"
-									lvl: 3s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 10
-					id: "5391C2ED934AE99D"
-					item: "minecraft:cooked_porkchop"
-					type: "item"
-				}
-			]
-			subtitle: "Defeat powerful Nether foes to strengthen your progression. Click for more info!"
-			tasks: [
-				{
-					entity: "minecraft:ghast"
-					id: "5C778B0D25B4E62E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:magma_cube"
-					id: "5C43F34B6BC975C9"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:hoglin"
-					id: "3D4A5FA866D28A0F"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "minecraft:piglin_brute"
-					id: "68B3664207C122A2"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "&6Prove Your Might&r"
-			x: 13.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["3E8BB2ABA5F04447"]
-			description: [
-				"By overcoming the challenges of the &cNether&r—its fortresses, bastions, and resource demands—you have completed one of the most significant progression tiers in &6Create - Forge Frontier&r. The materials and knowledge gained here form the foundation for several mid- and late-game systems."
-				""
-				"Having secured rare resources, defeated powerful foes, and established safe routes through this volatile dimension, you are now equipped to move beyond survival and toward advanced engineering and exploration."
-				""
-				"{@pagebreak}"
-				"The Nether is no longer a barrier; it is a resource hub that supports your next major objective."
-				""
-				"Your progression now shifts upward—from the depths of the inferno to the expanse of space."
-				""
-				"Learn more about getting to space in the  "
-				"{ \"text\": \"Ad Astra Introduction\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A09B8EFE2811CB9\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:netherite_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "4C84AE74FCD29D66"
-			rewards: [
-				{
-					id: "5AF5ABD7A4C09799"
-					item: "minecraft:ender_chest"
-					type: "item"
-				}
-				{
-					id: "0523409D1C4C6DC5"
-					item: "ad_astra:launch_pad"
-					type: "item"
-				}
-				{
-					id: "10EE50D3D1DFDF26"
-					item: "minecraft:nether_star"
-					type: "item"
-				}
-				{
-					id: "013E21A7CB377E6D"
-					type: "xp_levels"
-					xp_levels: 15
-				}
-				{
-					advancement: "minecraft:nether/netherite_armor"
+					advancement: "nether_remastered:seal_of_the_underworld"
 					criterion: ""
-					id: "2BE9562E0D0D4A70"
+					id: "3113F877C713EC7E"
 					type: "advancement"
 				}
 			]
-			subtitle: "Master the Nether and prepare for your transition into space exploration. Click for more info!"
-			tasks: [
-				{
-					id: "4769E3C8EC817DBE"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1C5A0B127EF07BC3"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7CE398A3DCE042A9"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "00A78981247AB950"
-					item: {
-						Count: 1
-						id: "minecraft:netherite_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6From Fire to Flight&r"
-			x: 15.0d
-			y: -3.5d
+			title: "&6Into the Inferno&r"
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			description: [
-				"&8The Deep Dark&r is a specialized late-game biome defined by low visibility, restricted movement, and sound-triggered hazards. Exploration here requires caution, preparation, and an understanding of how the sculk ecosystem responds to player activity."
+				"&8The Deep Dark&r"
 				""
 				"{image:ftb:textures/ancient_city_screenshot.png width:565 height:400 align:center fit:true}"
-				"{@pagebreak}"
-				""
-				"Located within the lowest caverns of the world, &8Ancient Cities&r serve as the primary structures in this biome. These ruins contain valuable loot, unique materials, and the key components required to advance toward the next dimension. However, they are also patrolled by the &cWarden&r—a powerful entity designed to punish noise and detect vibration rather than sight."
-				""
-				"To operate effectively in the Deep Dark, minimize sound, avoid triggering sculk sensors, and navigate deliberately through each section of the city."
 				""
 				"{@pagebreak}"
 				""
-				"Defeating the Warden grants access to the &eHeart of the Warden&r, a critical item used to activate the portal leading to the &5Otherside&r. This marks an important progression milestone and opens a path to a dimension featuring new biomes, resources, and late-game challenges."
+				"Far beneath the surface of the Overworld lies a forgotten civilization consumed by darkness."
 				""
-				"Entering the Otherside is not simply another step—it is a transition into content designed to test advanced combat, navigation, and resource management skills."
+				"The &8Deep Dark&r is a silent and unforgiving realm where ancient cities rest abandoned beneath layers of Sculk, preserving the remnants of a long-lost people. Every corridor, ruined hallway, and hidden chamber tells the story of a civilization that vanished long ago, leaving behind only mysterious technology and dangerous secrets."
 				""
-				"Prepare carefully, assess each encounter, and advance only when ready."
+				"Some places were never meant to be disturbed."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe Ancient Cities&r"
+				""
+				"Hidden throughout the Deep Dark are the sprawling &8Ancient Cities&r, massive underground ruins filled with valuable loot, rare resources, and clues surrounding the mysterious portal frame at their center."
+				""
+				"Exploration here demands patience and caution. The Sculk responds to sound and vibration, meaning every careless step could awaken the biome's terrifying guardian. Move deliberately, avoid unnecessary noise, and search every corner for the treasures hidden throughout these forgotten halls."
+				""
+				"In the Deep Dark..."
+				""
+				"Silence is your greatest ally."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe Warden Awaits&r"
+				""
+				"Protecting these ancient ruins is the fearsome &0Warden&r, one of the most dangerous creatures you'll encounter throughout your adventure."
+				""
+				"Though blind, the Warden possesses an incredible ability to detect vibrations, hunting down careless explorers with devastating strength. Defeating this ancient guardian rewards the &eWarden's Heart&r, the powerful relic required to awaken the dormant portal leading to the &5Otherside&r."
+				""
+				"Conquering the Deep Dark is more than another victory."
+				""
+				"It is the gateway to an entirely new dimension, where even greater mysteries and challenges await those brave enough to continue their journey."
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:sculk_sensor"
@@ -1539,568 +243,59 @@
 				type: "biome"
 			}]
 			title: "&6Beneath Silence&r"
-			x: -13.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["638EF7DB16108237"]
-			description: [
-				"The &0Deep Dark&r is a biome defined by low visibility, sculk-based detection systems, and the constant threat of triggering hostile activity. Light sources are limited in effectiveness, and sound plays a critical role in determining your safety."
-				""
-				"As you enter this region, movement must be deliberate. Sculk sensors and shriekers react to vibration, alerting nearby threats and escalating the danger with each activation. Navigating quietly is essential to avoiding confrontation and maintaining control of your surroundings."
-				""
-				"{@pagebreak}"
-				"Your initial objective is survival—observe the environment, manage noise carefully, and identify safe paths through the terrain. Building familiarity with these mechanics prepares you for the deeper challenges that await within the Ancient Cities."
-				""
-				"The descent marks the beginning of your progression through one of the world’s most dangerous biomes."
-			]
-			icon: "minecraft:sculk_sensor"
-			id: "516EFC067D776C8A"
-			rewards: [
-				{
-					count: 2
-					id: "3CF129C09BBDB53E"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "minecraft:long_night_vision"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "338EA45EC0197294"
-					item: "minecraft:music_disc_otherside"
-					type: "item"
-				}
-				{
-					id: "5387F5CF7D765481"
-					item: "neapolitan:scream_pottery_sherd"
-					type: "item"
-				}
-			]
-			subtitle: "Enter the Deep Dark and survive its chilling silence. Click me for more info!"
-			tasks: [
-				{
-					block: "minecraft:sculk_sensor"
-					block_type: 0
-					checkItem: false
-					id: "698D918286AC80C7"
-					type: "questsadditions:break"
-					value: 3L
-				}
-				{
-					block: "minecraft:sculk"
-					block_type: 0
-					checkItem: false
-					id: "446A7557DC72C583"
-					type: "questsadditions:break"
-					value: 32L
-				}
-				{
-					advancement: "minecraft:adventure/avoid_vibration"
-					criterion: ""
-					id: "64442F1A60B0A5F2"
-					type: "advancement"
-				}
-			]
-			title: "&6The Descent&r"
-			x: -17.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["516EFC067D776C8A"]
-			description: [
-				"Deep within the world lies the &8Ancient City&r, a large structure filled with valuable loot, unique materials, and key components for late-game progression in &6Create - Forge Frontier&r. These ruins are densely packed with sculk sensors and shriekers, making noise management essential for survival."
-				""
-				"{@pagebreak}"
-				""
-				"The &cWarden&r responds to repeated sound triggers and can be summoned if sensors are activated too frequently. Once alerted, it becomes a major threat capable of overwhelming unprepared players. Navigating quietly and planning each movement reduces the risk of an encounter."
-				""
-				"Exploring the Ancient City offers significant rewards, but requires awareness, caution, and proper equipment. Treat each section as a controlled challenge—collect what you need, avoid unnecessary noise, and maintain escape routes when possible."
-				""
-				"{image:ftb:textures/ancientcity.png width:192 height:150 align:center}"
-			]
-			icon: {
-				Count: 1
-				id: "explorerscompass:explorerscompass"
-				tag: { }
-			}
-			id: "14894ADF77BC554B"
-			rewards: [
-				{
-					id: "46736823FF069F77"
-					item: {
-						Count: 1
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:swift_sneak"
-								lvl: 3s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4DA556D415E8951E"
-					item: "minecraft:echo_shard"
-					type: "item"
-				}
-				{
-					id: "07C8F85132361E88"
-					item: {
-						Count: 1
-						id: "minecraft:bow"
-						tag: {
-							Damage: 0
-							Enchantments: [
-								{
-									id: "minecraft:unbreaking"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:power"
-									lvl: 5s
-								}
-							]
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Enter the Ancient City and navigate its hazards to uncover valuable resources. Click for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "25BF5C4FA5E7E1A3"
-					structure: "minecraft:ancient_city"
-					title: "Locate an Ancient City"
-					type: "structure"
-				}
-				{
-					icon: {
-						Count: 1
-						id: "minecraft:warden_spawn_egg"
-						tag: { }
-					}
-					id: "434F6F2D7EFA2D82"
-					observe_type: 5
-					timer: 0L
-					title: "Look at a Warden"
-					to_observe: "minecraft:warden"
-					type: "observation"
-				}
-				{
-					id: "26AF61A1C9C3537B"
-					title: "Loot Chests"
-					type: "checkmark"
-				}
-			]
-			title: "&6Ruins Beneath Silence&r"
-			x: -16.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["14894ADF77BC554B"]
-			description: [
-				"The &cWarden&r is one of the most dangerous entities in &6Create - Forge Frontier&r, designed to react to sound rather than sight. It detects vibration, movement, and noise, making careful navigation essential during any encounter within the Deep Dark or Ancient Cities."
-				""
-				"Stirring the Warden through repeated sculk activations creates a high-risk scenario, as its attacks deal extreme damage and its abilities limit visibility and mobility."
-				""
-				"{@pagebreak}"
-				""
-				"Most encounters encourage avoidance, but players who choose to confront and defeat the Warden can obtain a valuable reward—the &5Heart of the Warden&r. This item is required to activate the portal leading to the &5Otherside&r dimension, marking a significant progression milestone."
-				""
-				"Approach the fight only when properly equipped, maintain spacing, and use the terrain to your advantage."
-				""
-				"Surviving the encounter is a challenge; overcoming it unlocks the path to your next major destination."
-			]
-			id: "172253D6E25BB385"
-			rewards: [
-				{
-					id: "263C2236711EAD43"
-					item: "deeperdarker:heart_of_the_deep"
-					type: "item"
-				}
-				{
-					id: "14CBEF3197DCD7D8"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-				{
-					id: "733ADC3D13F2D981"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "Face the Warden and obtain the key required to access the Otherside. Click for more info!"
-			tasks: [{
-				checkItem: false
-				entity: "minecraft:warden"
-				id: "732CA6F42E7169E5"
-				nbt: { }
-				type: "questsadditions:killnbt"
-				value: 1L
-			}]
-			title: "&6The Silence That Hunts&r"
-			x: -14.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["172253D6E25BB385"]
-			description: [
-				"The &5Warden’s Heart&r is a progression-critical item within &6Create - Forge Frontier&r. Beyond its rarity, it serves a specific mechanical purpose: activating the portal frame composed of &8Reinforced Deepslate&r to grant access to the &5Otherside&r dimension."
-				""
-				"Interacting with the portal using the Heart triggers the dimensional shift, enabling travel to a new environment filled with unique biomes, resources, and late-game challenges."
-				""
-				"{@pagebreak}"
-				""
-				"The &5Otherside&r features dark, atmospheric terrain, specialized stone variants, and hostile entities not found in the Overworld or Nether. Entering this realm marks a transition into advanced exploration and resource acquisition, requiring proper equipment and preparation."
-				""
-				"Before activating the gateway, ensure you are ready to navigate unfamiliar hazards and secure the materials needed for further progression."
-				""
-				"Crossing into the Otherside represents the next major step in your journey."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:reinforced_deepslate"
-				tag: { }
-			}
-			id: "6EA9BDB19D85D796"
-			rewards: [
-				{
-					count: 2
-					id: "1877454CF8B82E2E"
-					item: "forge_frontier:resonite"
-					type: "item"
-				}
-				{
-					id: "68153EB9FAAFC595"
-					item: "deeperdarker:ancient_vase"
-					type: "item"
-				}
-				{
-					id: "733789462144F843"
-					item: {
-						Count: 1
-						id: "minecraft:potion"
-						tag: {
-							Potion: "alexsmobs:speed_iii"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Use the Warden’s Heart to open the gateway to the Otherside. Click for more info!"
-			tasks: [
-				{
-					icon: {
-						Count: 1
-						id: "minecraft:reinforced_deepslate"
-						tag: { }
-					}
-					id: "0238DC307F972017"
-					observe_type: 0
-					timer: 0L
-					title: "Look at Reinforced Deepslate"
-					to_observe: "minecraft:reinforced_deepslate"
-					type: "observation"
-				}
-				{
-					dimension: "deeperdarker:otherside"
-					id: "7DF81B683529C80F"
-					title: "Travel to the Otherside"
-					type: "dimension"
-				}
-			]
-			title: "&6The Key Between Worlds&r"
-			x: -13.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6EA9BDB19D85D796"]
-			description: [
-				"The &5Otherside&r is a late-game dimension characterized by low visibility, sculk-based terrain, and hostile entities unique to this realm. Its environments introduce unfamiliar movement patterns, specialized stone variants, and structural features that require careful navigation and preparation."
-				""
-				"This dimension expands upon the themes of the Deep Dark, incorporating additional hazards and resource opportunities that support advanced crafting and progression within &6Create - Forge Frontier&r."
-				""
-				"{@pagebreak}"
-				""
-				"Within the Otherside, players can discover rare materials, dimension-specific loot, and progression components not obtainable elsewhere. These resources enable late-game upgrades, equipment improvements, and further advancement toward high-tier engineering goals."
-				""
-				"{image:ftb:textures/otherside_screenshot.png width:192 height:150 align:center}"
-				""
-				"Move deliberately, monitor your surroundings, and be prepared for encounters with entities that behave differently from those found in other dimensions. Exploration here rewards caution, planning, and adaptability as you work to uncover the full potential of this realm."
-			]
-			icon: {
-				Count: 1
-				id: "deeperdarker:sculk_stone"
-				tag: { }
-			}
-			id: "0BDAF6E0DAA27F56"
-			rewards: [
-				{
-					id: "01A6C4F36A36D200"
-					item: "deeperdarker:reinforced_echo_shard"
-					type: "item"
-				}
-				{
-					id: "43F315F473A755B9"
-					item: {
-						Count: 1
-						id: "relics:midnight_robe"
-						tag: {
-							abilities: {
-								backstab: {
-									points: 0
-									stats: {
-										damage: 1.564d
-										distance: 16.34395d
-									}
-								}
-								vanish: {
-									points: 0
-									stats: {
-										light: 1.83776d
-										speed: 0.33252d
-									}
-									temp: {
-										ticking: 1b
-									}
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4FC9BA6D1705D2D9"
-					item: "deeperdarker:warden_upgrade_smithing_template"
-					type: "item"
-				}
-				{
-					id: "6A4FC06088D0DA99"
-					item: "deeperdarker:resonarium_plate"
-					type: "item"
-				}
-			]
-			subtitle: "Enter the Otherside and navigate its hazardous, unfamiliar terrain. Click for more info!"
-			tasks: [
-				{
-					biome: "deeperdarker:deeplands"
-					id: "0BD88A5F1F649205"
-					title: "Visit a Deeplands Biome"
-					type: "biome"
-				}
-				{
-					entity: "deeperdarker:sculk_centipede"
-					icon: {
-						Count: 1
-						id: "deeperdarker:sculk_centipede_spawn_egg"
-						tag: { }
-					}
-					id: "69E65A630BC6D75A"
-					type: "kill"
-					value: 1L
-				}
-				{
-					icon: {
-						Count: 1
-						id: "explorerscompass:explorerscompass"
-						tag: { }
-					}
-					id: "7C68283CEFD35E8A"
-					structure: "deeperdarker:ancient_temple"
-					title: "Locate an Ancient Temple"
-					type: "structure"
-				}
-				{
-					block: "deeperdarker:sculk_stone"
-					block_type: 0
-					checkItem: false
-					icon: {
-						Count: 1
-						id: "deeperdarker:sculk_stone"
-						tag: { }
-					}
-					id: "707467CA5CB9C8F5"
-					type: "questsadditions:break"
-					value: 32L
-				}
-			]
-			title: "&6Echoes Beyond&r"
-			x: -11.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["0BDAF6E0DAA27F56"]
-			description: [
-				"Your journey through the &0Deep Dark&r, the defeat of the &cWarden&r, and your exploration of the &5Otherside&r represent a major progression tier within &6Create - Forge Frontier&r. By overcoming these challenges, you have gained access to unique resources, late-game materials, and knowledge that supports advanced crafting and engineering pathways."
-				""
-				"{@pagebreak}"
-				""
-				"You have acquired dimension-specific loot, mastered navigation in low-visibility environments, and secured relics essential for high-tier upgrades. These accomplishments mark your transition from survival-driven exploration to deliberate, goal-oriented advancement."
-				""
-				"With the hazards of the abyss behind you, the materials and experience obtained here now serve as the foundation for your next objectives."
-				""
-				"{@pagebreak}"
-				"Use what you have learned and gathered to continue refining your builds, unlocking new technologies, and preparing for the challenges still ahead."
-				""
-				"Your progression through these realms sets the stage for the work to come."
-			]
-			icon: {
-				Count: 1
-				id: "deeperdarker:warden_chestplate"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "6AD897F8D2F82187"
-			rewards: [
-				{
-					count: 32
-					id: "7D41991997B67D83"
-					item: "forge_frontier:resonite"
-					type: "item"
-				}
-				{
-					id: "028E2E8BCDB403DA"
-					item: {
-						Count: 1
-						id: "alexsmobs:echolocator"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "405E6BA311620DC6"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			subtitle: "Complete your progression through the Deep Dark and Otherside. Click for more info!"
-			tasks: [
-				{
-					id: "7EF7E964BC5F9225"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "410C896DEEB5B3B6"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4050C7DF54A7185A"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0B3F5D75DEAE9FBC"
-					item: {
-						Count: 1
-						id: "deeperdarker:warden_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&6Master of the Abyss&r"
-			x: -10.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6AD897F8D2F82187"]
-			description: [
-				"Your progression through the &0Deep Dark&r and the &5Otherside&r has provided access to rare materials and advanced resources that support multiple late-game systems in &6Create - Forge Frontier&r. These dimensions serve as preparation for one of the next major challenges—the journey toward unlocking and entering the End."
-				""
-				"The items, equipment upgrades, and knowledge gained here position you for upcoming objectives that require durability, mobility, and strategic planning."
-				""
-				"{@pagebreak}"
-				""
-				"As you transition out of the Otherside, the next progression milestone becomes clear: activating and preparing for the End Dimension. This phase introduces new structure exploration, Eye acquisition, and resource gathering that will lead toward the final encounter with the Ender Dragon."
-				""
-				"Ensure your equipment, supplies, and infrastructure are ready before advancing. The challenges ahead will test the full extent of your preparation."
-				""
-				"Learn how to unlock the End in the  "
-				"{ \"text\": \"End Remastered Chapter\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"01DD8338C9E8DE75\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:ender_eye"
-				tag: { }
-			}
-			id: "5C36A2466A3B6973"
-			rewards: [
-				{
-					id: "3CF920D0EF7B3572"
-					item: "minecraft:ender_pearl"
-					type: "item"
-				}
-				{
-					id: "6F03681E39AA6E72"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Harness the resources of the Otherside and prepare for the next progression tier. Click for more info!"
-			tasks: [{
-				id: "7505C3925F18A12D"
-				title: "Check"
-				type: "checkmark"
-			}]
-			title: "&6Beyond Darkness&r"
 			x: -8.5d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["0135EFA96E7A28A2"]
 			description: [
-				"The &5End&r represents the beginning of late-game progression within &6Create - Forge Frontier&r. This dimension consists of fractured islands suspended over the void, requiring careful navigation and reliable mobility tools to explore safely."
+				"&5The End&r"
 				""
 				"{image:ftb:textures/end_screenshot.png width:565 height:400 align:center fit:true}"
-				"{@pagebreak}"
-				""
-				"Your initial objective is the confrontation with the &cEnder Dragon&r. Defeating it provides access to outer islands, specialized structures, and the unique materials found only within this realm. These include &3Radiantite&r, &7Void Shale&r, and &fPalerock&r—resources that support advanced crafting, equipment upgrades, and several endgame systems."
-				""
-				"The End features a variety of environmental hazards and hostile entities. &dShulkers&r introduce levitation mechanics that require spatial awareness, while &8Endermen&r react to player interaction and environmental stimuli. Preparation, proper gear, and controlled movement are essential for safe exploration."
 				""
 				"{@pagebreak}"
 				""
-				"Progress in the End unlocks late-game opportunities, new technologies, and pathways toward interdimensional expansion. The materials and knowledge gained here form the foundation of higher-tier engineering and long-term progression goals."
+				"The &5End&r is no longer the final destination of your adventure."
 				""
-				"Your advancement through this dimension marks the transition into endgame content and the next phase of your journey."
+				"Beyond the ancient portal lies a mysterious world of floating islands, forgotten civilizations, and powerful creatures unlike anything found throughout the Overworld. Every expedition into this strange realm offers new discoveries, valuable resources, and the opportunity to push your engineering capabilities further than ever before."
+				""
+				"The journey doesn't end here."
+				""
+				"It evolves."
+				""
+				"{@pagebreak}"
+				""
+				"&lThe Dragon's Domain&r"
+				""
+				"Your first objective is to confront the legendary &5Ender Dragon&r, the ancient guardian of the End."
+				""
+				"This climactic battle serves as one of the greatest milestones in &6Create - Forge Frontier&r. Come prepared with powerful equipment, ample supplies, and a well-developed factory capable of supporting your expedition. Defeating the Dragon unlocks access to the distant Outer End Islands, where even greater adventures await."
+				""
+				"Only by conquering the Dragon can your true exploration begin."
+				""
+				"{@pagebreak}"
+				""
+				"&lBeyond the Main Island&r"
+				""
+				"The Outer End Islands are rich with valuable resources found nowhere else in the pack."
+				""
+				"Mine deposits of &3Radiantite&r, harvest &7Void Shale&r, and collect &fPalerock&r as you explore the fractured landscape. Along the way you'll discover ancient structures, powerful enemies, and rare treasures essential for advanced crafting, higher-tier rockets, and the legendary &6Forge Rocket&r."
+				""
+				"The further you travel into the void, the greater the rewards become."
+				""
+				"{@pagebreak}"
+				""
+				"&lA New Beginning&r"
+				""
+				"Although the End has long represented Minecraft's final dimension, it is merely another milestone within &6Create - Forge Frontier&r."
+				""
+				"The knowledge, resources, and experience gained here prepare you for the extraordinary worlds beyond the Ad Astra solar system. With the Dragon defeated and the End fully explored, you'll soon begin constructing the &dTier 5 Rocket&r and journeying to the six incredible planets inspired by &bAlex's Caves&r."
+				""
+				"The End is no longer the end."
+				""
+				"It is the gateway to your greatest adventures yet."
 			]
 			hide_dependent_lines: true
+			icon: "minecraft:end_portal_frame"
 			id: "7964AB0D39902EFA"
 			rewards: [{
 				id: "681278DA6D713D88"
@@ -2110,349 +305,29 @@
 			shape: "gear"
 			size: 3.0d
 			subtitle: "Enter the End and advance through its unique challenges and resources. Click for more info!"
-			tasks: [{
-				icon: {
-					Count: 1
-					id: "minecraft:end_portal_frame"
-					tag: { }
-				}
-				id: "28FEAB937642EDAC"
-				structure: "integrated_stronghold:stronghold"
-				title: "Locate the Stronghold"
-				type: "structure"
-			}]
-			title: "&6Whispers of the Void&r"
-			x: 9.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7964AB0D39902EFA"]
-			description: [
-				"The &5End Portal&r marks the transition into one of the most challenging stages of progression within &6Create - Forge Frontier&r. Activating the portal grants access to the End Dimension, where both the terrain and its inhabitants demand thorough preparation."
-				""
-				"The initial objective upon entry is the confrontation with the &cEnder Dragon&r. This encounter has been enhanced to provide a more demanding experience, requiring reliable equipment, strong defensive options, and a clear strategy for managing both ground and aerial phases of the fight."
-				""
-				"{@pagebreak}"
-				"Ensure you have adequate armor, ranged and melee tools, mobility items, and consumables tailored to long engagements. Understanding crystal placement, environmental hazards, and dragon attack patterns will significantly increase your chances of success."
-				""
-				"This battle represents a major progression milestone. Enter only when fully prepared, as retreat is not an option once you step through."
-				""
-				"Proceed with caution and confidence—the path forward begins here."
-			]
-			id: "59AB4308055958B4"
-			rewards: [
-				{
-					id: "4BCF93B6EB921266"
-					item: "minecraft:totem_of_undying"
-					type: "item"
-				}
-				{
-					id: "7253D5D3651986C5"
-					item: "minecraft:ender_chest"
-					type: "item"
-				}
-			]
-			subtitle: "Prepare for the enhanced Ender Dragon encounter and enter the End. Click for more info!"
-			tasks: [{
-				dimension: "minecraft:the_end"
-				icon: "minecraft:end_stone"
-				id: "415D920F9756087C"
-				type: "dimension"
-			}]
-			title: "&6The Final Gateway&r"
-			x: 5.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["59AB4308055958B4"]
-			description: [
-				"The enhanced &cEnder Dragon&r presents one of the most demanding encounters in &6Create - Forge Frontier&r. Its increased aggression, improved movement patterns, and higher damage output require a well-prepared loadout and a clear combat strategy."
-				""
-				"{@pagebreak}"
-				""
-				"Begin the encounter by eliminating the &dEnd Crystals&r located on the obsidian towers. These crystals regenerate the dragon’s health, making them the first critical objective. Use ranged tools or controlled climbing to reach each crystal safely."
-				""
-				"Once the crystals are destroyed, focus on maintaining consistent damage while managing the dragon’s aerial sweeps, projectile attacks, and knockback effects. Keep awareness of the void edges and use mobility tools to reposition when necessary."
-				""
-				"{@pagebreak}"
-				"A &6Totem of Undying&r, strong armor, and adequate healing supplies significantly increase survivability during the encounter."
-				""
-				"Defeating the dragon marks a major progression milestone and grants access to the outer islands and the endgame materials required for advanced crafting and exploration."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:dragon_head"
-				tag: { }
-			}
-			id: "6720A599B8A32D97"
-			rewards: [
-				{
-					id: "61BF74832C51A06E"
-					item: {
-						Count: 1
-						id: "minecraft:elytra"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4B44AA65A4655629"
-					item: "minecraft:dragon_head"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "16E901BA13E493C2"
-					item: "minecraft:dragon_breath"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "625DC73A932FFA6C"
-					item: {
-						Count: 1
-						id: "minecraft:firework_rocket"
-						tag: {
-							Fireworks: {
-								Flight: 1b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Defeat the enhanced Ender Dragon and complete this major progression milestone. Click for more info!"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "77C29B2176052A23"
-				title: "Slay the Ender Dragon"
-				type: "kill"
-				value: 1L
-			}]
-			title: "&6Wrath of the Dragon&r"
-			x: 6.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["6720A599B8A32D97"]
-			description: [
-				"Defeating the &cEnder Dragon&r opens access to the &dEnd Gateway&r—your method of reaching the Outer End. This structure appears above the central island and serves as the transition point to a new region of the End Dimension."
-				""
-				"The gateway leads to the &5Outer End&r, an expansive area composed of scattered islands, End Cities, and valuable late-game resources that support advanced crafting and equipment upgrades within &6Create - Forge Frontier&r."
-				""
-				"{@pagebreak}"
-				""
-				"To enter, simply throw an &eEnder Pearl&r into the portal. Upon arrival, be prepared for varied terrain, wide void spaces, and hostile mobs that require careful movement and planning."
-				""
-				"The Outer End contains critical materials and structure-based loot needed for further progression. Exploration here rewards preparation, mobility tools, and awareness of environmental hazards."
-				""
-				"Continue your advancement by uncovering the secrets and resources found within this region."
-			]
-			id: "75E010388EA41A77"
-			rewards: [
-				{
-					count: 2
-					id: "1E24B97C85BF5C80"
-					item: "minecraft:shulker_shell"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "6DB7B6BACFCDB160"
-					item: "minecraft:chorus_fruit"
-					type: "item"
-				}
-				{
-					id: "487B3C20933382AB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Use an Ender Pearl to access the Outer End and continue your progression. Click for more info!"
-			tasks: [{
-				advancement: "minecraft:end/enter_end_gateway"
-				criterion: ""
-				id: "48238EAD1D963B2C"
-				type: "advancement"
-			}]
-			title: "&6Through the Gateway&r"
-			x: 8.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["75E010388EA41A77"]
-			description: [
-				"End Cities are large structures found throughout the Outer End and serve as a major progression point within &6Create - Forge Frontier&r. These towering complexes contain valuable loot, enchanted gear, rare building materials, and the &bElytra&r—a key mobility upgrade that unlocks advanced exploration opportunities across all dimensions."
-				""
-				"{@pagebreak}"
-				""
-				"Navigating End Cities requires caution. &5Shulkers&r guard the interiors and exterior platforms, using projectiles that inflict levitation. This effect can shift positioning dramatically, making fall damage a significant risk without proper planning or equipment."
-				""
-				"{image:ftb:textures/end_city.png width:192 height:150 align:center}"
-				""
-				"{@pagebreak}"
-				"Securing the Elytra, typically found within End Ships, marks a major advancement in traversal and resource gathering. With it, long-distance travel, high-altitude building, and interdimensional mobility become substantially more efficient."
-				""
-				"Approach each structure deliberately, manage vertical movement carefully, and be prepared for extended combat. The rewards gained here significantly strengthen your late-game capabilities."
-			]
-			icon: {
-				Count: 1
-				id: "minecraft:purpur_block"
-				tag: { }
-			}
-			id: "2C9F0702A802DBE0"
-			rewards: [
-				{
-					count: 2
-					id: "06BF44F8892D9E64"
-					item: "minecraft:shulker_box"
-					type: "item"
-				}
-				{
-					id: "48118C47FF005A55"
-					item: "createcompression:compressed_diamond_1x"
-					type: "item"
-				}
-				{
-					id: "10512FDA29C3CE1D"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "745A1A9C829D63C0"
-					item: "artifacts:chorus_totem"
-					type: "item"
-				}
-			]
-			subtitle: "Explore End Cities and obtain the Elytra to advance your mobility progression. Click for more info!"
 			tasks: [
 				{
 					icon: {
 						Count: 1
-						id: "explorerscompass:explorerscompass"
+						id: "minecraft:end_portal_frame"
 						tag: { }
 					}
-					id: "18EA67C756E991CA"
-					structure: "minecraft:end_city"
-					title: "Locate an End City"
+					id: "28FEAB937642EDAC"
+					structure: "integrated_stronghold:stronghold"
+					title: "Locate the Stronghold"
 					type: "structure"
 				}
 				{
-					entity: "minecraft:shulker"
-					id: "1B9C945CE79B4903"
-					type: "kill"
-					value: 1L
+					advancement: "endrem:main/root"
+					criterion: ""
+					id: "087A6A01448BE166"
+					title: "Obtain 1 End Remastered Eye"
+					type: "advancement"
 				}
 			]
-			title: "&6Skies of the Forgotten&r"
-			x: 9.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2C9F0702A802DBE0"]
-			description: [
-				"The End contains several rare materials that play a critical role in late-game crafting and engineering within &6Create - Forge Frontier&r. These resources appear throughout the End Islands and support advanced upgrades, structural components, and specialized crafting pathways."
-				""
-				"{@pagebreak}"
-				"Key materials include:"
-				""
-				"- &dRadiantite&r: A concentrated crystal form of End energy used in tool enhancements and high-tier components.  "
-				"- &7Void Shale&r: A durable stone variant ideal for advanced building applications and reinforced structures.  "
-				"- &fPalerock Vents&r: Geological formations infused with dimensional residue, capable of producing unique byproducts used in endgame crafting."
-				""
-				"{@pagebreak}"
-				""
-				"Each material contributes to systems and recipes that extend beyond standard progression, forming the foundation for late-game equipment and technological development."
-				""
-				"Locate these resources, gather them efficiently, and incorporate them into your crafting pipeline. They are essential for advancing toward the final stages of your journey through Forge Frontier."
-			]
-			icon: {
-				Count: 1
-				id: "enlightened_end:void_shale"
-				tag: { }
-			}
-			id: "4DAE1B438A323AFC"
-			rewards: [
-				{
-					count: 4
-					id: "22F26A5449722AF8"
-					item: "create_ethium:ethium_ingot"
-					type: "item"
-				}
-				{
-					id: "3A8A35FD7A4B3E44"
-					item: "create_ethium:lost_debris"
-					type: "item"
-				}
-			]
-			subtitle: "Collect rare End materials essential for high-tier crafting. Click for more info!"
-			tasks: [
-				{
-					count: 8L
-					id: "729DE74782D81485"
-					item: { Count: 8, id: "forge_frontier:radiantite" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "16377E9A353F20D4"
-					item: { Count: 8, id: "enlightened_end:void_shale" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "545C120A1AEBD3D7"
-					item: { Count: 8, id: "enlightened_end:palerock" }
-					type: "item"
-				}
-			]
-			title: "&6The End's True Riches&r"
-			x: 11.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["4DAE1B438A323AFC"]
-			description: [
-				"Defeating the &cEnder Dragon&r and securing resources such as &dRadiantite&r, &7Void Shale&r, and &fPalerock&r marks the beginning of true endgame progression within &6Create - Forge Frontier&r. These materials form the core components required for constructing the &6Tier 5 Rocket&r."
-				""
-				"This rocket represents a significant advancement in engineering, utilizing rare End-based resources to enable travel far beyond the boundaries of traditional planets. Its construction demands careful automation, refined material processing, and a strong foundation in late-game crafting systems."
-				""
-				"{@pagebreak}"
-				""
-				"Completing the Tier 5 Rocket unlocks access to the &bAlex’s Caves Planets&r—worlds featuring unique biomes, specialized resources, and new environmental challenges. These destinations expand your progression path and introduce materials essential for high-tier upgrades and exploration."
-				""
-				"Read more about crafting the Tier 5 in its  "
-				"{ \"text\": \"Rocket Introduction Quest \", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"58AF77D0696B9822\" } }"
-			]
-			icon: {
-				Count: 1
-				id: "ad_astra_rocketed:tier_5_rocket"
-				tag: { }
-			}
-			id: "0F51715DD2602DD1"
-			rewards: [
-				{
-					id: "40BF830E626467CE"
-					item: "ad_astra:cryo_fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "326BAA690F52703B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Begin crafting the Tier 5 Rocket and prepare to explore the Alex’s Caves Planets. Click for more info!"
-			tasks: [{
-				id: "29C59BD590EF3E33"
-				title: "Check"
-				type: "checkmark"
-			}]
-			title: "&6Beyond the End&r"
-			x: 12.5d
-			y: 7.0d
+			title: "&6Whispers of the Void&r"
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			id: "671AEE4592973C16"
@@ -2463,8 +338,3367 @@
 				title: "Center"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DA842A1588FB8BE"]
+			description: [
+				"High above the oceans of the Overworld drifts &bAcropolis&r, an ancient city suspended among the clouds and overflowing with mythological creatures."
+				""
+				"Built from towering seastone structures and surrounded by endless skies, this forgotten stronghold has become the domain of &3Scylla - The Ancient Storm Empress&r, a powerful entity standing between you and the path to &5The End&r."
+				""
+				"Will you brave the heights of &bAcropolis&r and challenge the storm itself, or fall from the skies in defeat?"
+				""
+				"{image:ftb:textures/acropolis.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"As you ascend deeper into the upper reaches of &bAcropolis&r, you will discover that its treasures are fiercely protected by terrifying guardians known as the &dHippocamptus&r."
+				""
+				"These swift and dangerous creatures patrol the city’s ancient halls, striking down any who dare plunder its riches. Defeat at least 5 Hippocamptus as you continue your climb toward the summit."
+				""
+				"Every step upward brings you closer to the storm."
+				""
+				"{@pagebreak}"
+				""
+				"Further within the city, you will encounter the fearsome &cClawdian&r - a colossal crab wielding a massive war hammer capable of crushing even the strongest adventurers."
+				""
+				"Be wary of its devastating charge attack. Use your speed potion wisely to evade its assault and create openings to strike back."
+				""
+				"Defeat the Clawdian and continue your ascent through the skies above."
+				""
+				"{image:ftb:textures/clawdian.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"At the highest point of &bAcropolis&r rests an ancient anchor, dormant and silent amidst the raging winds."
+				""
+				"Prepare yourself carefully, for interacting with the anchor will awaken the ruler of the storm itself. When you are ready, right-click the anchor to summon &3Scylla&r."
+				""
+				"In an explosion of thunder and lightning, Scylla will descend from the skies to challenge you in a furious battle."
+				""
+				"Only by defeating her can you obtain the &bEssence of Storm&r, a fragment of Scylla’s immense power. This rare material is required to forge the &3Aetheric Eye&r, bringing you one step closer to unlocking &5The End&r."
+				""
+				"{image:ftb:textures/scylla_1.png width:200 height:120 align:center}"
+				""
+				"Learn more on the next page."
+				""
+				"{@pagebreak}"
+				""
+				"Scylla commands the fury of the storm itself, wielding powerful lightning and tidal attacks capable of overwhelming unprepared adventurers."
+				""
+				"Be especially cautious of her wave attack. If struck, you will receive the &9Wetness&r debuff, greatly increasing the damage taken from her lightning abilities. You can avoid or block this attack using shields or nearby blocks for cover."
+				""
+				"Stay mobile, watch the skies, and prepare for a relentless battle."
+				""
+				"Good luck. You will need it."
+				""
+				"{image:ftb:textures/scylla_2.png width:200 height:120 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:storm_eye"
+				tag: { }
+			}
+			id: "5F05530DA01EEECA"
+			rewards: [
+				{
+					id: "39062785EC9DAD90"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "74D846F857218B23"
+					item: {
+						Count: 1
+						id: "cataclysm:azure_sea_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55528273A6562ECD"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3CC7A437A124BF65"
+					item: {
+						Count: 1
+						id: "cataclysm:storm_eye"
+						tag: { }
+					}
+					title: "Forge the Eye of Storm"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:compass"
+						tag: { }
+					}
+					id: "74F1727DFCD53028"
+					structure: "cataclysm:acropolis"
+					title: "Use the Eye to Locate Acropolis"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:hippocamtus"
+					icon: "cataclysm:azure_seastone_mural_hippocamtus"
+					id: "5AFC741B488A372A"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "cataclysm:clawdian"
+					icon: "cataclysm:azure_seastone_mural_clawdian"
+					id: "3500C452120C71DD"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					icon: "cataclysm:ceraunus"
+					id: "46D783E889CD2ADA"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Locate and Conquer Acropolis"
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DA842A1588FB8BE"]
+			description: [
+				"In &cNether Remastered&r, access to the Nether is no longer achieved through a standard obsidian portal. Instead, entry is tied to a progression system inspired by &5End Remastered&r, transforming the Nether from an early-game destination into a meaningful milestone on your journey."
+				""
+				"To unlock the dimension, you must explore the Overworld, conquer structures, and gather the components required to craft the &6Seal of the Underworld&r. Only by consuming this powerful artifact can the gateway be opened."
+				""
+				"{@pagebreak}"
+				""
+				"&lPreparing the Seal&r"
+				""
+				"Crafting the &6Seal of the Underworld&r requires several unique components obtained through exploration and adventure."
+				""
+				"The most important tool for this journey is the &6Structure Compass&r. Many of the required materials are hidden within specific structures scattered throughout the Overworld, and the Structure Compass can greatly assist in locating them."
+				""
+				"Several components, including the various &dMysterious Shards&r required for progression, can all be found within the loot chests of these key structures."
+				""
+				"{@pagebreak}"
+				""
+				"Other ingredients can also be discovered through exploration."
+				""
+				"The &5Nether Crystal&r can be found within the chests of any &dHopo Portal&r structure, while &bChromatic Compound&r can be discovered in the loot chests of many Create-themed structures throughout the world."
+				""
+				"One of the most important crafting components is the &6Deployer&r, which serves as a gateway into Sequenced Assembly. While Deployers can be crafted normally, they can also be found as loot within many Create-themed structures, allowing explorers to begin progression much sooner."
+				""
+				"Likewise, &6Crushing Wheels&r required for Electrum production can frequently be discovered as structure loot."
+				""
+				"{@pagebreak}"
+				""
+				"Another key ingredient is &cBottled Nether Essence&r."
+				""
+				"To obtain it, place an &8Obsidian Infused Bottle&r in your offhand and defeat undead creatures. As they fall, their lingering essence will be captured within the bottle, providing the material required to complete the Seal."
+				""
+				"You will also need access to &6Electrum&r, which can be obtained through processing chains involving crushed Tuff and other materials. Crushing Wheels discovered during exploration can greatly simplify this process."
+				""
+				"{@pagebreak}"
+				""
+				"Once inside, the Nether has been dramatically expanded through multiple mods, introducing new biomes, enhanced terrain generation, and dangerous structures filled with valuable rewards."
+				""
+				"These additions provide new opportunities for resource gathering, brewing ingredients, automation progression, and exploration. The dimension now features unique environmental hazards, challenging enemies, and valuable loot that cannot be found elsewhere."
+				""
+				"Success will require preparation, planning, and the ability to adapt to an increasingly hostile environment."
+				""
+				"{@pagebreak}"
+				""
+				"The reimagined Nether is no longer a simple travel destination."
+				""
+				"It is a test of exploration, progression, and survival. The resources and knowledge gained here will provide the foundation for future engineering projects, dimensional advancement, and your eventual journey to the stars."
+				""
+				"{image:nether_remastered:textures/nether_remastered.png width:100 height:100 align:center}"
+			]
+			icon: "nether_remastered:seal_of_the_underworld_item"
+			id: "6770F96C1A4490DE"
+			rewards: [
+				{
+					id: "3DCD7136B9FFEE4B"
+					item: "createcompression:compressed_brass_1x"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "094E89DFCCF44EB5"
+					item: "createcompression:compressed_obsidian_1x"
+					type: "item"
+				}
+				{
+					id: "7B83DC0381089F86"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "64F47856B32245D4"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					icon: "minecraft:heart_of_the_sea"
+					id: "35B1117A351F9D74"
+					structure: "idas:ruins_of_the_deep"
+					title: "Locate the Ruins of the Deep"
+					type: "structure"
+				}
+				{
+					icon: "handcrafted:hammer"
+					id: "5718B761D4A984C4"
+					structure: "idas:tinkers_workshop"
+					title: "Locate the Tinkers Workshop"
+					type: "structure"
+				}
+				{
+					icon: "create:cuckoo_clock"
+					id: "0641D629B7A2B3DA"
+					structure: "idas:tinkers_citadel"
+					title: "Locate the Tinkers Citadel"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "create_sa:brass_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "32BC44EB7BB04EE0"
+					structure: "idas:ancient_mines"
+					title: "Locate the Ancient Mines"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:obsidian"
+					id: "5FCF0604CFFF91F0"
+					structure: "#minecraft:ruined_portal"
+					title: "Locate any Ruined Portal from Hopo"
+					type: "structure"
+				}
+				{
+					id: "4A6DDBFE0C5A614C"
+					item: "nether_remastered:seal_of_the_underworld_item"
+					title: "Obtain the Seal of the Underworld"
+					type: "item"
+				}
+			]
+			title: "Unlocking the Nether"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DA842A1588FB8BE"]
+			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of &2Overworld&r progression."]
+			hide_dependent_lines: true
+			icon: "minecraft:grass_block"
+			id: "7E64EF50D212B5C5"
+			rewards: [{
+				id: "07DDE9C2B164E6FF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "6055E8FE7B5B12F0"
+				title: "Eyes of the Overworld"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7E64EF50D212B5C5"]
+			description: [
+				"Plundered from the depths of legend, the &0Black Eye&r once granted the Black Pearl its ghostly sight-guiding it through storms, shadows, and uncharted waters.  "
+				""
+				"{@pagebreak}"
+				"Each sacred component lies hidden within the cursed pirate ships scattered across the Seven Seas, brought forth by the mod &6When Dungeons Arise: Seven Seas&r.  "
+				"The next few pages will guide you to each relic needed to awaken the Black Eye."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlackbeard’s Musket&r, a legendary firearm said to echo with the roar of the high seas, can be found within the treacherous halls of the &ePirate Junk&r.  "
+				"Forged for fear rather than finesse, it was a symbol of terror worth a king’s ransom.  "
+				"{image:ftb:textures/junk_ship.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlackbeard’s Cutlass&r, a fearsome blade that sailed across countless bloody raids, rests aboard the mighty &eCorsair Corvette&r.  "
+				"Its edge has tasted gold, command, and countless tales of the high seas. Few who crossed its path lived to tell the tale.  "
+				"{image:ftb:textures/corvette.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCursed Cannonballs&r, heavy iron relics of devastation, are said to be found within the ghostly &eUnicorn Galleon&r.  "
+				"The cannonball carries not just brute force-but the weight of dread, leaving behind echoes of thunder and ghostly flames. "
+				"{image:ftb:textures/unicorn.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nPrepare yourself before venturing into these haunted ships.&r  "
+				"They are heavily fortified with treacherous spawners, summoning ruthless pirate crews, spectral guardians, and ancient curses.  "
+				"Only the bravest-and the cleverest-will claim the fragments needed to forge the Black Eye and command the shadows of the seas!"
+			]
+			icon: {
+				Count: 1
+				id: "endrem:black_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "56C98E29485174A1"
+			optional: true
+			rewards: [
+				{
+					id: "155889DF3E753FB0"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "2605E503675CE9EE"
+					item: "supplementaries:cannon"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "548BC46D6C69C390"
+					item: "supplementaries:cannonball"
+					type: "item"
+				}
+				{
+					id: "62CC6AEB0E29D154"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Plunder the cursed seas and reclaim the relic that sees beyond storms and shadows. Click me for more info!"
+			tasks: [
+				{
+					id: "26981D9597965029"
+					item: "forge_frontier:blackbeards_musket"
+					type: "item"
+				}
+				{
+					id: "14900EBE98B48270"
+					item: "forge_frontier:cursed_cannon_ball"
+					type: "item"
+				}
+				{
+					id: "5A85C3D49B1829D9"
+					item: {
+						Count: 1
+						id: "forge_frontier:blackbeards_cutlass"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73AE9A4FFF07880D"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "5B539A84761FA604"
+					item: {
+						Count: 1
+						id: "endrem:black_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Forging the Black Eye"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E64EF50D212B5C5"]
+			description: [
+				"Twisted by greed and ambition, the &2Corrupted Eye&r once belonged to a king whose lust for riches knew no bounds. Though it promises great wealth, it leaves behind a curse that stains the soul of any who dare claim it.  "
+				""
+				"The fragments required to complete the Corrupted Eye are tied to the veins of the world-where molten riches flow beneath the surface.  "
+				"The pages ahead will reveal where to find each gleaming piece of this cursed legacy."
+				""
+				"{@pagebreak}"
+				""
+				"- &lGold&r:  "
+				"  Harness the molten wealth of the Savanna by tapping into &eOchrum Molten Vents&r, natural wells of golden essence scattered across the biome.  "
+				"  Alternatively, mine deep within the caves to uncover raw gold waiting to be claimed.  "
+				"{image:ftb:textures/ochrum_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lDiamonds&r:  "
+				"  The brilliance of diamonds can be seized by tapping into &eGlacium Molten Vents&r, found high within the frozen peaks of mountainous biomes.  "
+				"  For the bold, spelunking through underground caverns can also yield these precious gems.  "
+				"{image:ftb:textures/glacium_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lEmeralds&r:  "
+				"  Emeralds shimmer in the veins of mountains, drawn forth by &eVerdantine Molten Vents&r.  "
+				"  Seek them atop lofty heights or bargain with Villagers to amass your share of these coveted stones.  "
+				"{image:ftb:textures/verdantine_vent.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nBut beware&r-the allure of gold, diamonds, and emeralds is not without cost.  "
+				"The shadow of the Corrupted Eye lingers, whispering of endless riches... and endless ruin. Only those strong enough to resist its call will forge their fortune without losing themselves to its eternal hunger."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:corrupted_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "06710D734D0988CB"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73BABE99B2E8084E"
+					table_id: 8422736529032033458L
+					type: "choice"
+				}
+				{
+					id: "55DE2798D4C693CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Corrupted Eye and claim fortune at the risk of your soul. Click me for more info!."
+			tasks: [
+				{
+					id: "60576AAB9D624EEE"
+					item: "createcompression:compressed_gold_2x"
+					type: "item"
+				}
+				{
+					id: "500CD7B5822671B5"
+					item: "createcompression:compressed_diamond_2x"
+					type: "item"
+				}
+				{
+					id: "62128A4510F04926"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "299A606325614659"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "3286C65FED769C21"
+					item: {
+						Count: 1
+						id: "endrem:corrupted_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cursed Riches"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E64EF50D212B5C5"]
+			description: [
+				"Revered as a holy artifact from ancient times, the &aEvil Eye&r is no simple trinket-it is a powerful talisman said to shield its bearer from misfortune and turn aside dark intentions.  "
+				""
+				"The pieces required to complete the Evil Eye are bound to civilizations that once sought divine protection against the darkness.  "
+				"The following pages will guide you on your sacred journey."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Vases (Green and Blue)&r:  "
+				"  Preserved treasures of forgotten civilizations, these vases carry the whispers of prayers and rituals from a lost age.  "
+				"  They can be found hidden within the &eCatacombs&r of &eBetter Archeology&r, or obtained through careful trade with Villagers.  "
+				"{image:ftb:textures/catacombs.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lVillager Hat&r:  "
+				"  A relic buried within timeworn settlements, often discovered in &eTrail Ruins&r through careful sifting of suspicious sand and gravel.  "
+				"  They can also sometimes be found among the relics scattered through &eIntegrated Villages&r.  "
+				"{image:ftb:textures/trail_ruins.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lVillager Fossil Skull&r:  "
+				"  The sacred remains of ancient villagers, fossilized and hidden within &eFossiliferous Dirt&r found deep within the &eVillager Graves&r of &eBetter Archeology&r.  "
+				"  These skulls serve as a grim testament to forgotten generations who sought the blessings of the Evil Eye.  "
+				"{image:ftb:textures/villager_grave.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nThe Evil Eye is a gift-but one not granted lightly.&r  "
+				"You must honor the ruins of the past, brave the forgotten catacombs, and unearth sacred relics to forge this talisman of protection.  "
+				"Only those with pure determination and careful hands can claim the blessing of the ancients and wield the Evil Eye’s warding power."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3B18C690B23D4C39"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "0173BD4BA679ABCC"
+					item: "easy_villagers:villager"
+					type: "item"
+				}
+				{
+					id: "41F03F15E4F64A1C"
+					item: "createcompression:compressed_emerald_2x"
+					type: "item"
+				}
+				{
+					id: "57B9E51FFE753732"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Evil Eye and stand shielded against misfortune and darkness. Click me for more info!."
+			tasks: [
+				{
+					id: "3E9F8BB8BDACC1D7"
+					item: {
+						Count: 1
+						id: "artifacts:villager_hat"
+						tag: {
+							abilities: {
+								discount: {
+									points: 0
+									stats: {
+										multiplier: 12.89557d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12049942C8D27CF5"
+					item: "betterarcheology:villager_fossil_head"
+					type: "item"
+				}
+				{
+					id: "00ABC3756BD93462"
+					item: "betterarcheology:vase_green"
+					type: "item"
+				}
+				{
+					id: "42A6237CF8F7A785"
+					item: "betterarcheology:vase"
+					type: "item"
+				}
+				{
+					id: "28D7F5E768E12579"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "1109E3770C8C1D11"
+					item: {
+						Count: 1
+						id: "endrem:evil_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Blessing of the Ancients"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E64EF50D212B5C5"]
+			description: [
+				"Glittering with the allure of the unknown, the &bAetheric Eye&r has guided countless explorers to their destinies-some to treasures hidden within the &eCataclysm Acropolis&r, others to fates lost beneath its storm-shrouded halls."
+				"It shimmers with elemental power and whispers of secrets long drowned by the tides."
+				""
+				"The Aetheric Eye is not gifted by fortune-it must be claimed through strength, sacrifice, and mastery of the storm."
+				"The following pages will reveal the path to awakening its shimmering light."
+				""
+				"{@pagebreak}"
+				"&lEssence of the Storm&r:"
+				"The raw breath of a sea tempest, ripped from the heart of &eScylla&r-the guardian of the Acropolis."
+				"Only by defeating this monstrous horror can you harvest the &eEssence of the Storm&r, a keystone in the Eye’s awakening."
+				"{image:ftb:textures/scylla_2.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lEye of Storm&r:"
+				"Born not in battle, but through artifice."
+				"A &eSequenced Assembly&r upon an &eEye of Ender&r will reveal it, using:"
+				""
+				"A &eConduit&r,"
+				""
+				"A &eSea Lantern&r,"
+				""
+				"Washed in &eSpouting Water&r,"
+				""
+				"Then sealed with the press of automation."
+				"{image:cataclysm:item/storm_eye width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lLacrima&r:"
+				"Crystallized sorrow shed by the Acropolis itself."
+				"It may be uncovered within its storm-drowned chests, or torn from the essence of any creature that dares to lurk within its halls."
+				"{image:cataclysm:item/lacrima width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lUndead Soul&r:"
+				"A whisper of the drowned, bound within the Acropolis’s cursed warriors."
+				"This essence is all that remains of those claimed by the sea, and it answers only to those who strike them down."
+				"{image:endrem:item/undead_soul width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nThe storm keeps its secrets-but you must seize them.&r"
+				"The Aetheric Eye glimmers not for the timid, but for those who conquer the wrath of the Acropolis and bind its relics into their command."
+				"Only the bold who withstand the sea’s fury will awaken its guiding light."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:exotic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "10232D5D9959E8A5"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C6228E76509EC86"
+					table_id: 4815581765569702926L
+					title: "Neptunes Bounty"
+					type: "loot"
+				}
+				{
+					id: "3BC6DABC3BDC8FAB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the &bAetheric Eye&r and uncover the secrets bound within the Acropolis. Click me for more info!."
+			tasks: [
+				{
+					id: "5CAF88E4D38A9FD7"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					id: "24878CFA861B6F79"
+					item: "cataclysm:storm_eye"
+					type: "item"
+				}
+				{
+					id: "4910AEC5044AF356"
+					item: "cataclysm:lacrima"
+					type: "item"
+				}
+				{
+					id: "52B87D6EF2EBAE80"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "2E2C8CE0A1141F02"
+					item: {
+						Count: 1
+						id: "endrem:exotic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mysteries of the Storm"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["130260CCAEEF6F7C"]
+			description: [
+				"Torn from the depths of the ancient darkness, the &9Warden's Eye&r burns with sorrow and silence.  "
+				"Taken centuries ago from a creature now doomed to wander blindly through eternal night, this relic pulses with lost grief and forgotten strength.  "
+				""
+				"The relics you seek are hidden within the ancient ruins of civilization's last breath-and guarded by a titan whose sorrow shakes the earth itself.  "
+				"The following pages will guide you into the abyss."
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Carapace&r:  "
+				"  A hardened fragment of the Warden's monstrous form, imbued with the echoes of countless battles.  "
+				"  Defeat the Warden to claim this precious shard of the abyss.  "
+				"{image:deeperdarker:item/warden_carapace width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Tendril&r:  "
+				"  A tendril steeped in darkness and sensory magic, vital to the Warden’s ability to hunt in blindness.  "
+				"  Slay the Warden to rip this twisted appendage from its form.  "
+				"{image:apotheosis:items/warden_tendril width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWarden Ear&r:  "
+				"  A relic of ancient hearing, attuned to the faintest vibrations of the world.  "
+				"  Recovered only by defeating the Warden in its own domain-the silent ruins of the Deep Dark.  "
+				"{image:silentsdelight:item/warden_ear width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lHeart of the Deep&r and &lWarden Heart&r:  "
+				"  The very core of the Warden’s existence, pulsing with sorrow and unspoken rage.  "
+				"  Only through triumph over the Warden’s wrath can these hearts be claimed.  "
+				"{image:silentsdelight:item/warden_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lEcho Shard&r:  "
+				"  Silent fragments of forgotten knowledge, still humming with the faint vibrations of the Deep Dark.  "
+				"  Found within the loot caches of the ancient cities buried beneath the earth.  "
+				"{image:minecraft:item/echo_shard width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nTo forge the Warden's Eye is to tread upon sorrow itself.&r  "
+				"The Deep Dark does not forgive intruders lightly-and the Warden remembers.  "
+				"Only those who brave the silence, conquer despair, and honor the forgotten will ignite the Eye’s somber flame."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:undead_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B7C6A4F2D966F69"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "7A379EB126837B93"
+					item: "silentsdelight:warden_ear_fried_rice"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0FF5284DA576AFEB"
+					item: "silentsdelight:plate_of_warden_heart"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1AF1875EFE2C2F4F"
+					item: "silentsdelight:baked_warden_ear_on_a_stick"
+					type: "item"
+				}
+				{
+					id: "399EA22C555CD72A"
+					item: "resonant_synthesis:sculk_cake"
+					type: "item"
+				}
+				{
+					id: "14A109DD934AD35D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Warden's Eye and awaken the sorrow of the forgotten titan. Click me for more info!."
+			tasks: [
+				{
+					id: "5B670C221765D2A4"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					id: "565EC721DCB6378F"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+				{
+					id: "090C609192EF0594"
+					item: "silentsdelight:warden_ear"
+					type: "item"
+				}
+				{
+					id: "2D77CE39E3D836DA"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					id: "2B0AC764A2A651C8"
+					item: "silentsdelight:warden_heart"
+					type: "item"
+				}
+				{
+					id: "16FA63D2E8BD4D9E"
+					item: "apotheosis:warden_tendril"
+					type: "item"
+				}
+				{
+					id: "726889C4674E1169"
+					item: "minecraft:sculk_catalyst"
+					type: "item"
+				}
+				{
+					id: "2E6B33EB6C0FD90F"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "7CAB00EA58BFC085"
+					item: {
+						Count: 1
+						id: "endrem:undead_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Echoes of the Deep"
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7E64EF50D212B5C5"]
+			description: [
+				"Torn from the abyssal depths, the &3Guardian Eye&r is a relic that has borne witness to countless warriors dragged beneath the waves.  "
+				"It glistens with sorrow and power-the eternal memory of the ocean's silent grasp.  "
+				""
+				"The ocean hides more than shipwrecks and ruins-it harbors ancient guardians and treasures untouched by the sun.  "
+				"The following pages will chart your path into the deep."
+				""
+				"{@pagebreak}"
+				""
+				"- &lGuardian Soup&r:  "
+				"  A potent broth crafted from the remains of fallen Guardians, mixed with rare ingredients from the depths.  "
+				"  Slay Guardians and gather the bounty needed at the &eOcean Monuments&r, reimagined by &eBetter Oceans Monuments&r.  "
+				"{image:ftb:textures/guardian.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCabbage Wrapped Elder Guardian&r:  "
+				"  A rare delicacy crafted from slices of Elder Guardians-creatures whose bulk and fury once terrified the seas.  "
+				"  Elder Guardian slices can be obtained only by killing Elder Guardians with a precise &eKnife&r.  "
+				"{image:ftb:textures/elder.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lSponges&r:  "
+				"  Ancient sponges, capable of absorbing the very life of the ocean, can be recovered from the hidden chambers within the &eBetter Oceans Monuments&r.  "
+				"  These natural relics hold the spirit of the drowned and are essential in the Eye's restoration.  "
+				"{image:ftb:textures/sponge.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nThe ocean remembers.&r  "
+				"To forge the Guardian Eye, you must brave the depths, face down ancient titans, and claim the sorrowful treasures of the abyss.  "
+				"Only those who embrace the ocean’s trials-without fear of its grasp-will awaken the power hidden within its tears."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:guardian_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7BAB96552BE32CC7"
+			optional: true
+			rewards: [
+				{
+					id: "311360BA9F6EC566"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+				{
+					id: "6EB6C71C98E77CB3"
+					item: "create_aquatic_ambitions:mechanical_conduit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3404115DB39EA02F"
+					item: "oceansdelight:elder_guardian_roll"
+					type: "item"
+				}
+				{
+					id: "2D39CC0F3D1191B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Guardian Eye and command the sorrow and strength of the deep. Click me for more info!."
+			tasks: [
+				{
+					id: "4F9A01CE37642E23"
+					item: "oceansdelight:guardian_soup"
+					type: "item"
+				}
+				{
+					id: "6FCFEE0D8E6B6063"
+					item: "oceansdelight:cabbage_wrapped_elder_guardian"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65B4F6FA18A215C8"
+					item: "minecraft:conduit"
+					type: "item"
+				}
+				{
+					id: "3795193D79FB21A5"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "55238ED350D65BA5"
+					item: {
+						Count: 1
+						id: "endrem:guardian_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tears of the Abyss"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E64EF50D212B5C5"]
+			description: [
+				"Shrouded in enigmatic energies, the &5Cryptic Eye&r is a relic that whispers truths no mortal was ever meant to know.  "
+				"Its gaze pierces the veil of reality itself, unraveling forgotten secrets and forbidden knowledge.  "
+				""
+				"Unlike other relics, the Cryptic Eye cannot simply be found-it must be awakened through a ritual of focus, knowledge, and risk. "
+				""
+				"{@pagebreak}"
+				""
+				"&nBut beware&r-this ritual stirs forces beyond comprehension.  "
+				"The Cryptic Eye does not merely reveal hidden truths-it tests the will of those who seek to wield them.  "
+				"Only the wise, the patient, and the daring will endure its gaze and emerge with knowledge once thought lost forever."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D9A77A2F4BA4951"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: "supplementaries:present"
+					id: "64150CDD1497FDAE"
+					table_id: 343942018869374795L
+					type: "loot"
+				}
+				{
+					id: "3DB5497E77C4488A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Eye of Ender to awaken the secrets of the Cryptic Eye. Click me for more info!."
+			tasks: [
+				{
+					id: "2D9D481B9C5E7E23"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "66C43B7FEBDA503F"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3B18A5CE421008FB"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3662A0C22EB34926"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "5ACE98952179E8E6"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "7A5879AD0936ACB6"
+					item: {
+						Count: 1
+						id: "endrem:cryptic_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Veilbreaker's Rite"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5DA842A1588FB8BE"]
+			description: ["As you journey across the &2Overworld&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "minecraft:oak_sapling"
+			id: "344680EE8BF7C82A"
+			rewards: [{
+				id: "33413C9C5F1C4F41"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "75EBB87DDA2BD26D"
+				title: "Overworld Resource Vents"
+				type: "checkmark"
+			}]
+			x: -12.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Hidden within the Forest lies the &9Asurine Vent&r-one of the precious ore stones essential to &fZinc&r automation. Though it may appear dormant at first glance, it holds the &omineral potential to jumpstart your production line&r."
+				""
+				"{image:ftb:textures/asurine_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unlock its power, you must &lignite the dormant vent feeding a blaze burner blaze cake&r. This fiery activation awakens the Asurine Vent, transforming it into a functioning source ready to receive molten fluid."
+				""
+				"Once activated, supplying &dcream&r (covered in the next quest) will enable full zinc automation using &lMechanical Extruders&r."
+				""
+				" The frost runs deep-but with fire, you awaken the ore. Will you rise to command the might of Asurine?"
+			]
+			icon: "create_resource_vents:dormant_asurine_vent"
+			id: "58E37D66B86362FD"
+			rewards: [
+				{
+					count: 9
+					id: "04D40114143AD529"
+					item: "create:asurine"
+					type: "item"
+				}
+				{
+					id: "7EC55DC79BC86F13"
+					item: "create:zinc_block"
+					type: "item"
+				}
+				{
+					id: "27952C27238917D4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "5A45884CDA0E6655"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_asurine_vent"
+					type: "observation"
+				}
+				{
+					id: "0DC5EE22D3B94157"
+					item: "create_dd:cream_bucket"
+					type: "item"
+				}
+			]
+			title: "The Path to Zinc"
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Hidden within the Forest lies the &6Potassic Vent&r-one of the rare &dore stones&r crucial for automating &7Tin&r production. Though dormant at first glance, within it flows the &oessence of subterranean power&r waiting to be unleashed."
+				""
+				"{image:ftb:textures/potassic_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this dormant vent, you'll need to &lfeed a blaze burner a blaze cake on top of it&r. This fiery catalyst transforms the vent into an active node, ready to accept molten fluids for automation."
+				""
+				"Once activated, providing &bVanilla Milkshake&r allows you to begin your &ltin automation&r pipeline using &lMechanical Extruders&r."
+				""
+				" A volatile spark. A precious resource. Are you ready to unlock the full potential of Potassic?"
+			]
+			icon: "create_resource_vents:dormant_potassic_vent"
+			id: "79632EC457A3A88D"
+			rewards: [
+				{
+					count: 9
+					id: "6B731F90A496BD45"
+					item: "create_dd:potassic"
+					type: "item"
+				}
+				{
+					id: "6DC4D9B8960D75CD"
+					item: "create_dd:tin_block"
+					type: "item"
+				}
+				{
+					id: "5D5F721B4BF69167"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "297A3F832F65C94D"
+					observe_type: 0
+					timer: 0L
+					title: "Find a Potassic Vent"
+					to_observe: "create_resource_vents:dormant_potassic_vent"
+					type: "observation"
+				}
+				{
+					id: "13594B5209F28670"
+					item: "create_dd:vanilla_milkshake_bucket"
+					type: "item"
+				}
+			]
+			title: "Tin from the Earth"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Hidden in the heat of the Desert lies the &aVeridium Vent&r-one of the precious ore stones vital to &6Copper&r automation. These dormant geysers may seem inert at first, but within them stirs the &opower to fuel your machinery&r."
+				""
+				"{image:ftb:textures/veridium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin your journey toward copper automation, you'll need to &lfeed a blaze burner a blaze cake on top of it&r. This transformation awakens the vent, transforming it into a functional node capable of accepting molten fluids."
+				""
+				"Once activated, providing &dcarmel milkshake&r will bring your copper pipeline to life using &lmechanical extruders&r."
+				""
+				" The stone is set. The fuse is lit. Are you ready to harness the power of Veridium?"
+			]
+			icon: "create_resource_vents:dormant_veridium_vent"
+			id: "6BF481A48C136085"
+			rewards: [
+				{
+					count: 9
+					id: "378294A4C3EADF1F"
+					item: "create:veridium"
+					type: "item"
+				}
+				{
+					id: "5C6A0C0B082F6F56"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "3F0591E410700BF9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "7F552CF0B2FEDCDC"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_veridium_vent"
+					type: "observation"
+				}
+				{
+					id: "7C30744D9DC107F7"
+					item: "create_dd:caramel_milkshake_bucket"
+					type: "item"
+				}
+			]
+			title: "The Copper Core"
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Hidden amongst the grass of the Plains is the &cCrimsite Vent&r-one of the ancient ore stones essential for automating &cIron&r production. These silent vents pulse with potential, just waiting to be brought to life by an adventurer brave enough to harness their power."
+				""
+				"{image:ftb:textures/crimsite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unlock the full potential of a Crimsite Vent, you must &lfeed a blaze burner blaze cake directly on its surface&r. This fiery ignition transforms the dormant vent into an &oactive source of molten power&r."
+				""
+				"Once activated, all that remains is to provide &dStrawberry Milkshake&r. With the right setup, you’ll be able to channel its molten flow through &lmechanical extruders&r to fully automate iron."
+				""
+				" Strike the stone. Spark the forge. &lIron automation begins here.&r"
+			]
+			icon: "create_resource_vents:dormant_crimsite_vent"
+			id: "1091314A5D575D4B"
+			rewards: [
+				{
+					count: 9
+					id: "773D9994DBCD644D"
+					item: "create:crimsite"
+					type: "item"
+				}
+				{
+					id: "71C3F085032E5130"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					id: "6FC54C94E4263E1B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Awaken the Forge. Click me for more info!"
+			tasks: [
+				{
+					id: "4EA85341DAED5477"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_crimsite_vent"
+					type: "observation"
+				}
+				{
+					id: "4B567A2A5AB2467B"
+					item: "create_dd:strawberry_milkshake_bucket"
+					type: "item"
+				}
+			]
+			title: "Heart of Iron"
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Hidden within the Savanna lies the &6Ochrum Vent&r-one of the most precious molten ore stones, essential for unlocking &eyour gold automation pipeline&r. While it may appear dormant at first glance, within it simmers the molten potential of &lwealth and industry&r."
+				""
+				"{image:ftb:textures/ochrum_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its golden promise, you must &lfeed a blaze burner blaze cake&r, transforming it from a silent stone into a blazing source of automation."
+				""
+				"Once activated, the vent will begin accepting &dGlowberry Milkshake&r, use the &lMechanical Extruders&r to produce a steady flow of valuable resources."
+				""
+				" &6Strike the spark. Feed the flame. And let gold pour from the heart of Ochrum.&r"
+			]
+			icon: "create_resource_vents:dormant_ochrum_vent"
+			id: "070BAAF36335CB39"
+			rewards: [
+				{
+					count: 9
+					id: "44C53E58C4AB9CF6"
+					item: "create:ochrum"
+					type: "item"
+				}
+				{
+					id: "3B4660718A855A41"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "3C813C66F574948A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "7E9F73B48C50234A"
+					observe_type: 0
+					timer: 0L
+					title: "Find a Ochrum Vent"
+					to_observe: "create_resource_vents:dormant_ochrum_vent"
+					type: "observation"
+				}
+				{
+					id: "0423F8C47FB4289C"
+					item: "create_dd:glowberry_milkshake_bucket"
+					type: "item"
+				}
+			]
+			title: "The Gilded Flame"
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Hidden among the Mountains is the &9Scoria Vent&r-a rare molten ore stone crucial for automating &9Lapis Lazuli&r. Though silent in its dormant form, it holds within it the &oinfernal energy to fuel your progression&r."
+				""
+				"{image:ftb:textures/scoria_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its potential, you must &lfeed a blaze burner a blaze cake on top of it&r. The transformation will convert the silent stone into an active vent, ready to receive molten fluid and begin its cycle of production."
+				""
+				"Once active, the vent will require &dChocolate Milkshake&r to drive the &lMechanical Extruder&r and begin generating lapis automatically."
+				""
+				" &9Strike the spark. Illuminate the depths. Let the blue flame of Scoria power your factory of wisdom.&r"
+			]
+			icon: "create_resource_vents:dormant_scoria_vent"
+			id: "20EDD6DD2BDC5F24"
+			rewards: [
+				{
+					count: 9
+					id: "420463CA8E13E815"
+					item: "create:scoria"
+					type: "item"
+				}
+				{
+					id: "596195CA6800A96B"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+				{
+					id: "36A6036A7D21CB8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "6652F4098EB5E691"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_scoria_vent"
+					type: "observation"
+				}
+				{
+					id: "37A0073BA31D73B0"
+					item: "create_dd:chocolate_milkshake_bucket"
+					type: "item"
+				}
+			]
+			title: "The Lapis Flame"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"Nestled between the peaks of the Mountains is the &aVerdantine Vent&r-an essential molten stone used in &aEmerald&r automation. Though quiet in its dormant form, it hums faintly with the promise of riches and trade."
+				""
+				"{image:ftb:textures/verdantine_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To bring this vent to life, you’ll need to &lfeed a blaze burner a blaze cake on top of it&r. The transformation shatters the surface shell, activating the vent and preparing it for molten infusion."
+				""
+				"Once active, channel &dwhite chocolate&r into the vent, and with the help of &lMechanical Extruders&r, you’ll begin generating emerald orestones-automatically and efficiently."
+				""
+				" &2Let the green spark flow. Trade, build, and automate with the wealth of the wilds.&r"
+			]
+			icon: "create_resource_vents:dormant_verdantine_vent"
+			id: "12C001857356FF60"
+			rewards: [
+				{
+					count: 9
+					id: "0CE8D6F038584BD7"
+					item: "forge_frontier:verdantine"
+					type: "item"
+				}
+				{
+					id: "4EA5561A2CA3E22B"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "227563C7BBCD7836"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "4B3EE39DAE300EF8"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_verdantine_vent"
+					type: "observation"
+				}
+				{
+					id: "15B3755A825C814B"
+					item: "create_confectionery:white_chocolate_bucket"
+					type: "item"
+				}
+			]
+			title: "The Emerald Pulse"
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["344680EE8BF7C82A"]
+			description: [
+				"In the most frigid corners of the Mountains, the &bGlacium Vent&r slumbers-an icy ore stone vital to &bDiamond&r automation. This frozen vent holds the potential to fuel your most powerful machines with shimmering crystal."
+				""
+				"{image:ftb:textures/glacium_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin harnessing its potential, locate a &lGlacium Vent in a mountain biome&r and &lfeed a blaze burner a blaze cake on top of it&r. The transformation breaks the icy seal, awakening the vent and preparing it for molten channeling."
+				""
+				"Once activated, feed the vent with &dDark Chocolate&r. With the help of &lMechanical Extruders&r, this glacial marvel will begin automating diamonds-transforming frost into fortune."
+				""
+				" &bLet the ice crack, the diamonds flow, and your empire rise from the cold.&r"
+			]
+			icon: "create_resource_vents:dormant_glacium_vent"
+			id: "0037549384F9FCCF"
+			rewards: [
+				{
+					count: 9
+					id: "38B052D23EA22CCB"
+					item: "forge_frontier:glacium"
+					type: "item"
+				}
+				{
+					id: "07921580895F526B"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "2A0772AC18D73ED3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "02E1DD773E40DFAF"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_glacium_vent"
+					type: "observation"
+				}
+				{
+					id: "73680E3518F29E83"
+					item: "create_confectionery:black_chocolate_bucket"
+					type: "item"
+				}
+			]
+			title: "Diamond in the Frost"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of the &4Nether&r progression."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:netherrack"
+			id: "765B4C05B9DEDC12"
+			rewards: [{
+				id: "441D8575FEAFC9BB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "56A9A733E96AD39A"
+				title: "Eyes of the Nether"
+				type: "checkmark"
+			}]
+			title: "Eyes of the Nether"
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: ["As you journey across the &4Nether&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:crimson_nylium"
+			id: "47199DA52BCB4384"
+			rewards: [{
+				id: "5ADE6063BE85E364"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5ED09FCAF816E61A"
+				title: "Nether Resource Vents"
+				type: "checkmark"
+			}]
+			title: "Nether Resource Vents"
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Brimming with the remnants of the Evoker’s lost power, the &dMagical Eye&r pulses with chaotic energy.  "
+				"It is a fragment of ancient, forgotten magic-capable of shaping the world in ways few can comprehend.  "
+				"To forge this wondrous relic, you must master the art of &lArcane Enchanting&r, binding a spark of immortality into something far more potent.  "
+				""
+				"{@pagebreak}"
+				"Unlike relics bound by stone and steel, the Magical Eye is born through an enchantment ritual-requiring focus, power, and a heart defiant of death itself.  "
+				"The following pages will guide you through the arcane rite."
+				""
+				"{@pagebreak}"
+				""
+				"- &lRitual of the Totem&r:  "
+				"  Begin by preparing a &eInfused Totem of Undying&r, an artifact imbued with the gift of second chances.  "
+				"  Then construct your ancient enchanting altar:  "
+				"  - Surround the Enchanting Table with &e8 Apotheosis Hellshelves&r, amplifying the ritual’s magical resonance.  "
+				"  - Place &e8 Standard Bookshelves&r to stabilize and balance the energies.  "
+				"  - Arrange &e2 sets of 4 Candles&r to channel the forces into the heart of the ritual.  "
+				"{image:ftb:textures/eye_enchanting.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lThe Enchantment&r:  "
+				"  With your altar prepared, offer 40 full levels of experience at the Enchanting Table while holding the Totem of Undying.  "
+				"  If your will is strong and your focus unwavering, the Totem will transform-becoming the &dMagical Eye&r, a vessel of untamed arcane might."
+				""
+				"{@pagebreak}"
+				""
+				" &nBut tread carefully, for power demands a price.&r  "
+				"The Magical Eye is no mere trinket; it holds echoes of the Evoker’s ambitions and hubris.  "
+				"Only those worthy of wielding ancient forces will master its gift and carry the Evoker’s Heart into a new age."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:magical_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72DBFC6476091A3A"
+			optional: true
+			rewards: [
+				{
+					id: "7B51331C442BED6F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					count: 9
+					id: "49C271C09EDC2743"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					type: "item"
+				}
+				{
+					id: "337FE49632A4ADC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Enchant a Totem of Undying to awaken the arcane might of the Magical Eye. Click me for more info!."
+			tasks: [
+				{
+					count: 8L
+					icon: {
+						Count: 1
+						id: "minecraft:bookshelf"
+						tag: { }
+					}
+					id: "4F79D7A6279DC769"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:bookshelves"
+						}
+					}
+					title: "Any Bookshelves"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3A1A7933CBF71792"
+					item: { Count: 8, id: "apotheosis:hellshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "57081CEB44F24AC0"
+					item: { Count: 8, id: "minecraft:candle" }
+					type: "item"
+				}
+				{
+					id: "3E9CD273613A925B"
+					item: "forge_frontier:infused_totem"
+					type: "item"
+				}
+				{
+					id: "2D9A9AAC232E8CD8"
+					item: {
+						Count: 1
+						id: "endrem:magical_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Evoker’s Heart"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Born from the fiery clash between the Aether and the Nether, the &cNether Eye&r is a relic of unimaginable power-a fragment of war and dominion that once shaped the realms themselves.  "
+				""
+				"The components needed to forge the Nether Eye lie scattered across the Nether’s most treacherous ruins.  "
+				"The next pages will guide you through the infernal journey ahead."
+				""
+				"{@pagebreak}"
+				""
+				"- &lHades' Bident&r:  "
+				"  A weapon of judgment forged in the deepest fires of the underworld. Legends claim the very earth splits beneath its strike.  "
+				"  Seek this fearsome relic within the ruins of the &eAncient Portal Structure&r, from the mod &cIntegrated Dungeons and Structures (IDAS).  "
+				"{image:ftb:textures/nether_portal.png width:150 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lAncient Obol&r:  "
+				"  A single coin said to bear the weight of eternity itself-the fare for crossing into the afterlife.  "
+				"  It can be found within the forgotten &eHopo's Piglin Ruin&r, buried among the relics of those who once sought passage between worlds.  "
+				"{image:ftb:textures/piglin_ruin.png width:150 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCerberus’s Fang&r:  "
+				"  Torn from the maw of the infernal guardian of the underworld, this fang pulses with eternal fury and vigilance.  "
+				"  Seek it within the fiery halls of the &eQuartz Kitchen&r, a twisted structure born within the Soul Sand Valley.  "
+				"{image:ftb:textures/kitchen.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nSteel yourself for this journey across flame and fury.&r  "
+				"The Nether Eye is a relic not easily claimed. Its pieces are guarded by forces both ancient and wrathful-and the price of failure is steep.  "
+				"Only those who conquer fire, fury, and temptation will earn the Demon’s Gaze and hold the power to shape realms anew."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:nether_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2037E72162F48338"
+			optional: true
+			rewards: [
+				{
+					id: "279F473975D147EA"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "398920C457CAB38C"
+					item: "luminous_nether:soul_flag_bottom"
+					type: "item"
+				}
+				{
+					id: "1DB80B83F57AD069"
+					item: "luminous_nether:crimson_flag_bottom"
+					type: "item"
+				}
+				{
+					id: "62DC21CAD6368DC0"
+					item: "luminous_nether:warped_flag_bottom"
+					type: "item"
+				}
+				{
+					id: "20FCD12F694179A0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Reforge the Nether Eye, born from fire and ancient war. Click me for more info!."
+			tasks: [
+				{
+					id: "099BBBB95B4FB128"
+					item: {
+						Count: 1
+						id: "forge_frontier:hades_bident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54DE3F1139A9BEA2"
+					item: "forge_frontier:ancient_obol"
+					type: "item"
+				}
+				{
+					id: "2FE0845EF08313A1"
+					item: "forge_frontier:cerberus_fang"
+					type: "item"
+				}
+				{
+					id: "15BD86EB933B0BB8"
+					item: "minecraft:red_nether_bricks"
+					type: "item"
+				}
+				{
+					id: "50B6655443D0EDA2"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "3BBEFD804177AF49"
+					item: {
+						Count: 1
+						id: "endrem:nether_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Demon’s Gaze"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Guarded fiercely by Piglin warlords and ancient oaths, the &4Cursed Eye&r radiates a dark power-promising ruin to its enemies and might to those bold enough to claim it.  "
+				""
+				"Each piece of the Cursed Eye holds a story of conquest, greed, and blood-soaked loyalty.  "
+				"The following pages will guide you into the heart of Piglin dominions where these relics await."
+				""
+				"{@pagebreak}"
+				""
+				"- &lAxe of the Brute Warlord&r:  "
+				"  Forged in endless war and baptized in blood, this brutal weapon is no symbol of elegance-it is a declaration of raw strength.  "
+				"  Seek it deep within the &eTreasure Bastions&r of the Nether, where the Piglin Warlords still guard their ancestral power.  "
+				"{image:ftb:textures/bastion.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lTotem of the Crimson Pact&r:  "
+				"  A dark relic bound by ancient oaths and forbidden magic. It thrums with the loyalty-and the curses-of long-fallen Piglin champions.  "
+				"  This totem can be found within the ruins of the &eAbandoned Tower&r, a twisted structure left behind in the Fungal Plains.  "
+				"{image:ftb:textures/tower.png width:125 height:115 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lCrown of the Golden Tusks&r:  "
+				"  Once worn by the Piglin King himself, this golden crown radiates brutal dominion and boundless greed.  "
+				"  To claim it, you must defeat the &eWildfire&r-an infernal guardian lurking within the &eCitadel&r brought forth by &eFriends and Foes&r.  "
+				"{image:ftb:textures/citadel.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				" &nThose who seek the Cursed Eye must tread carefully.&r  "
+				"Victory promises power-but the Eye's curse promises eternal unrest for those too weak to master it. Conquer the Piglin legacies, tear down their empires, and claim the right to wield the ruinous might of the Cursed Eye."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A4D8CFE603872F8"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "12EA25B3ECBBA997"
+					item: "minecraft:netherite_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "1B36AB64445D9770"
+					item: {
+						Count: 1
+						id: "friendsandfoes:wildfire_crown"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06575F878FB8765F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Cursed Eye and command the legacy of Piglin kings. Click me for more info!."
+			tasks: [
+				{
+					id: "692F655D1887F5C4"
+					item: "forge_frontier:golden_tusks_crown"
+					type: "item"
+				}
+				{
+					id: "7F08EC72965A4D35"
+					item: {
+						Count: 1
+						id: "forge_frontier:brute_warlord_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6B4E78D878BCD0"
+					item: "forge_frontier:crimson_pact_totem"
+					type: "item"
+				}
+				{
+					id: "151584C8CED467DB"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "2FF27A3D7046F696"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "6DBF81ABEB04093A"
+					item: {
+						Count: 1
+						id: "endrem:cursed_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pact of Ashes"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"A remnant of ancient alchemy, the &5Witch Eye&r once gleamed with forbidden knowledge of brewing arts lost to time.  "
+				"It holds within it a spark of mastery-an understanding of transformation and power that few dare even whisper of today.  "
+				"To forge this artifact of ancient wisdom, you must master &lSuper Heated Mixing&r and gather relics born from flame, soul, and brew.  "
+				"{image:ftb:textures/_forge_frontier_mixing_witch_eye.png width:200 height:125 align:center}"
+				""
+				"{@pagebreak}"
+				"The path to the Witch Eye is not one of brute strength, but of cleverness, patience, and alchemical prowess.  "
+				"The following pages will unveil the arcane steps needed."
+				""
+				"{@pagebreak}"
+				""
+				"- &lBlaze Gold Block&r:  "
+				"  A rare alloy formed by consuming the very soul of a Blaze with the power of Chromatic Compound.  "
+				"  Right-click a Blaze while holding &eChromatic Compound&r to bind its burning essence into the golden material.  "
+				"{image:ftbchunks:textures/faces/minecraft/blaze.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Lava Vision&r:  "
+				"  Crafted through secretive brews, this potion grants sight through molten depths.  "
+				"  Brew it by:  "
+				"  - Heated Mixing &eLava Bottles&r with &eBone Serpent Teeth&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eRedstone Dust&r to extend the potion's duration.  "
+				"{image:alexsmobs:item/lava_bottle width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lPotion of Soul Steel&r:  "
+				"  A potion that hardens the soul itself into an indomitable force.  "
+				"  Brew it by:  "
+				"  - Heated Mixing an &eAwkward Potion&r (created by mixing Water Bottles and Nether Warts) with &eSoul Vulture Hearts&r (from Alex’s Mobs).  "
+				"  - Then, Heated Mixing in &eGlowstone Dust&r to strengthen its potency.  "
+				"{image:alexsmobs:item/soul_heart width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nTrue mastery lies not just in strength-but in understanding transformation.&r  "
+				"The Witch Eye demands cleverness, patience, and the courage to wield forces forgotten by the world.  "
+				"Only those who brew with precision, and command the elements of fire, soul, and spirit, will ignite its hidden knowledge."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:witch_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D1F1DB7B6A3DA79"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "5AADBDCF6E6E8BD2"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C03FC71D6E67F22"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "79B1519E6B520B67"
+					item: "create_dd:chromatic_block"
+					type: "item"
+				}
+				{
+					id: "14AD292CAE1FEF61"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Witch Eye and awaken the forbidden arts of ancient alchemy. Click me for more info!."
+			tasks: [
+				{
+					id: "0735D85FD3BEC5DD"
+					item: "create_dd:blaze_gold_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F35769154E04644"
+					item: {
+						Count: 4
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:strong_soulsteal"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1D14E830B19E95C4"
+					item: {
+						Count: 4
+						id: "minecraft:potion"
+						tag: {
+							Potion: "alexsmobs:long_lava_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D844A341525AB2"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "4050B382D7E45634"
+					item: {
+						Count: 1
+						id: "endrem:witch_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Secrets of the Cauldron"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"Imbued with the brilliance of ancient minds, the &6Rogue Eye&r is a relic that once illuminated the birth of Redstone itself.  "
+				"It hums softly with the ingenuity and daring of a bygone age-an artifact meant for those bold enough to reforge its legacy.  "
+				""
+				"Unlike other relics torn from battle or myth, the Rogue Eye is crafted through the spark of invention and the relentless pursuit of progress.  "
+				"The pages ahead will guide you through the path of innovation."
+				""
+				"{@pagebreak}"
+				""
+				"- &lPrecision Mechanism&r:   "
+				"  Each Mechanism is created via Sequenced Assembly, where a Gold Sheet is looped five times through:  "
+				"  - Applying a &eGold Nugget&r  "
+				"  - Applying a &eCogwheel&r  "
+				"  - Applying a &eLarge Cogwheel&r  "
+				"  Precision, patience, and a mastery of automation are key.  "
+				"{image:ftb:textures/mechanism.png width:150 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lBrass Block&r:  "
+				"  A gleaming testament to progress, a Brass Block is formed by gathering &e9 Brass Ingots&r.  "
+				"  Create Brass Ingots through Heated Mixing, combining a &eCopper Ingot&r and a &eZinc Ingot&r to yield two brilliant ingots of brass.  "
+				"{image:ftb:textures/brass.png width:50 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lMithril Ingot&r:  "
+				"  A rare alloy, glowing with inner vitality and strength.  "
+				"  Mithril is obtained by Superheated Mixing, combining:  "
+				"  - &eSteel&r  "
+				"  - &eChromatic Compound&r  "
+				"  - &eGlowberry Milkshake&r  "
+				"  - &eXP Nuggets&r  "
+				"  This fusion of metal, light, and experience yields a material unlike any other.  "
+				"{image:ftb:textures/mithril.png width:200 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				" &nIngenuity is the beating heart of the Rogue Eye.&r  "
+				"To awaken its brilliance, you must master both machine and mind-welding together the achievements of creation to honor the first sparks that gave rise to Redstone itself.  "
+				"Only true inventors will succeed in forging this symbol of progress and legacy."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:rogue_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5094745CE014E74E"
+			optional: true
+			rewards: [
+				{
+					id: "493E7A348E8B54C7"
+					item: "create_compressed:mechanism_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "03710C898DDF0BBB"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					id: "789CA57DF82DA5D7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Rogue Eye and reignite the brilliance of ancient innovation. Click me for more info!."
+			tasks: [
+				{
+					count: 3L
+					id: "6A9240F9171C5635"
+					item: "create:brass_block"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1137ABBF0464C230"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "61BA215F4E2FF32D"
+					item: "create_dd:mithril_ingot"
+					type: "item"
+				}
+				{
+					id: "3FF02468ACC5E145"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "3091703FEA717711"
+					item: {
+						Count: 1
+						id: "endrem:rogue_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spark of Ingenuity"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["765B4C05B9DEDC12"]
+			description: [
+				"A witness to the fall of empires, the &8Wither Eye&r bears the scars of a thousand lost worlds.  "
+				"It gazes into the abyss of ruin itself, holding echoes of devastation and power beyond reckoning.  "
+				""
+				"The path to the Wither Eye is not one of creation-it is one of conquest, sacrifice, and decay.  "
+				"The following pages will guide you into the heart of ruin."
+				""
+				"{@pagebreak}"
+				""
+				"- &lSoul Sand&r:  "
+				"  A cursed earth infused with sorrow, Soul Sand can be unearthed in the depths of the Nether.  "
+				"  Alternatively, you can create it by &eHaunting ordinary Sand&r with the echoes of the spirit realm.  "
+				"{image:minecraft:block/soul_sand width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lWither Skeleton Skulls&r:  "
+				"  Remnants of ancient battles fought against death incarnate.  "
+				"  These can be claimed by &eBeheading Wither Skeletons&r, grim trophies from the shadows of fortress ruins.  "
+				"{image:ftbchunks:textures/faces/minecraft/wither_skeleton.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"- &lNether Star&r:  "
+				"   Dropped when killing the ancient boss of the Nether, the Wither. Note this pack has increased the difficulty of the Wither so be prepared for a fight like no other."
+				""
+				"{image:minecraft:textures/painting/wither.png width:100 height:100 align:center}"
+				"{@pagebreak}"
+				""
+				" &nRuin is the price of power-and power the price of ruin.&r  "
+				"The Wither Eye is a relic that remembers what the world has tried to forget.  "
+				"Only those who embrace the cost of devastation and command the ashes of fallen realms will wield its hollow gaze."
+			]
+			icon: {
+				Count: 1
+				id: "endrem:wither_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B63999D63EA981F"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "6ADA4895DBD89A3F"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "001E7BE96952465B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Forge the Wither Eye and claim the echoes of a thousand fallen worlds. Click me for more info!."
+			tasks: [
+				{
+					id: "037CB47A0665B647"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "516EC4E0C61E893D"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					id: "467255B2B1C98932"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "651C33DAFA6B9B8E"
+					item: "endrem:undead_soul"
+					type: "item"
+				}
+				{
+					id: "5C0C89DF7ABAA1C2"
+					item: {
+						Count: 1
+						id: "endrem:wither_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ashes of Empires"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47199DA52BCB4384"]
+			description: [
+				"Hidden in the depths of Luminous Nether biomes, the &6Scorchia Vent&r burns with dormant potential. This ore stone is essential for automating &8Coal&r, offering a renewable supply of fuel for all your industrial ambitions."
+				""
+				"{image:ftb:textures/scorchia_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this fiery titan, locate a &lScorchia Vent&r in any Regions Unexplored Biome and &lfeed a blaze burner a blaze cake on top of it&r. The resulting transformation tears through its brittle shell, converting it into an active vent ready to accept molten fluid."
+				""
+				"Once activated, channel &dHot Chocolate&r into the vent. With the help of &lMechanical Extruders&r, you'll unlock a stable and automated source of coal-fueled by the Nether’s own wrath."
+				""
+				" &8Coal, reborn from magma-forge your fuel empire from the flames.&r"
+			]
+			icon: "create_resource_vents:dormant_scorchia_vent"
+			id: "10D2ED18910A5579"
+			rewards: [
+				{
+					count: 9
+					id: "507659D0EB721292"
+					item: "create:scorchia"
+					type: "item"
+				}
+				{
+					id: "1BDA718F5B388630"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					id: "25C141288C89F9D6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "4C600B94BF8D1FF4"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_scorchia_vent"
+					type: "observation"
+				}
+				{
+					id: "4438EA75B0B27920"
+					item: "create_dd:hot_chocolate_bucket"
+					type: "item"
+				}
+			]
+			title: "Flame-Forged Fuel"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47199DA52BCB4384"]
+			description: [
+				"Deep within the Region's Unexplored Nether Biomes lies the &8Debris Vent&r-a molten geyser brimming with the raw essence of ancient strength. This precious ore stone is your key to automating the collection of &cAncient Debris&r, the foundation of Netherite itself."
+				""
+				"{image:ftb:textures/debris_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To begin, seek out a &lDebris Vent&r in any Luminous Nether Biome-its dormant core still untouched by time. Place &la blaze burner&r atop its surface and feed it blaze cake to shatter the vent's seal, awakening it for automation."
+				""
+				"Once activated, it’s time to channel &dsource fluid&r into the vent. With the help of &lMechanical Extruders&r, you’ll forge an endless supply of Ancient Debris-crafted not by pickaxe, but by innovation."
+				""
+				" &cThe Nether remembers. Now, so will your machines.&r"
+			]
+			icon: "create_resource_vents:dormant_ancient_debris_vent"
+			id: "6C99623FD144B074"
+			rewards: [
+				{
+					count: 9
+					id: "227825FB5BEBFF1E"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "34EED2AC099C3F9B"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "71B3FDBEA869E3C3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "40D7EB41C2BAD58F"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_ancient_debris_vent"
+					type: "observation"
+				}
+				{
+					id: "4415ED44CB715110"
+					item: "forge_frontier:neapolitan_milkshake_bucket"
+					type: "item"
+				}
+			]
+			title: "Legacy of the Netherite Deep"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["79B13E9FA5446394"]
+			description: [
+				"&7Fuel your rocket and prepare for the ultimate lunar adventure.&r"
+				""
+				"Congratulations, astronaut-you’ve built the &fTier 1 Rocket&r, and your path to the stars is finally clear! Now it’s time to bring that rocket to life and &lignite your first launch&r."
+				""
+				"{@pagebreak}"
+				""
+				" &lFueling the Dream&r:  "
+				"Before liftoff, you’ll need to fuel your rocket. Grab a bucket of &eFuel&r and right-click the rocket’s tank while it’s sitting on the launch pad. Once your ship is full and your gear is secured, climb in, look to the stars, and &lhold down the spacebar&r."
+				""
+				" As the engines roar to life, you’ll feel the power of your creation carrying you through the atmosphere and into the great beyond."
+				""
+				" The Moon awaits-but it’s only the beginning."
+				""
+				"{@pagebreak}"
+				"Fuel is crafted by heated mixing oil as shown below:"
+				""
+				"{image:ftb:textures/_forge_frontier_mixing_oil_fuel.png width:200 height:120 align:center}"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "08F62016A6F246E4"
+			rewards: [
+				{
+					id: "4502C83BCBE1FEF0"
+					item: "ad_astra:moon_desh_ore"
+					type: "item"
+				}
+				{
+					id: "48F3B726915D1D9F"
+					item: "ad_astra:moon_cheese_ore"
+					type: "item"
+				}
+				{
+					id: "06E1E7831F378753"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Fuel your rocket, strap in, and break free from the Overworld! Click me for more info!"
+			tasks: [
+				{
+					id: "4416E9F47934E8B8"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "591D56D11F34A57F"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+			]
+			title: " Tier 1 Launch Sequence: Liftoff"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F3994EDD215FC99"]
+			description: [
+				"&7Every great journey begins with a single launch. Before you can leave the Overworld behind and set foot among the stars, you must first construct the &fTier 1 Rocket&r—the foundation of humanity's expansion into space."
+				""
+				"Building this rocket is more than a crafting task. It is the culmination of everything you have learned so far, from resource gathering and automation to machinery and material processing."
+				""
+				"{@pagebreak}"
+				""
+				"&lConstructing Your First Rocket&r"
+				""
+				"The Tier 1 Rocket is assembled from a variety of specialized components, each representing a different stage of technological progression. From reinforced structural parts to advanced engineering systems, every piece plays a vital role in preparing your spacecraft for launch."
+				""
+				"Many of these components require automation, processing chains, and Create machinery to produce efficiently."
+				""
+				"Need help crafting a specific rocket component?"
+				""
+				"Consult &6JEI&r for detailed recipes and production requirements for all rocket parts."
+				""
+				"{@pagebreak}"
+				""
+				"As the final components come together and your rocket stands assembled upon the launch pad, a new reality begins to take shape."
+				""
+				"Your machines are no longer serving a simple factory."
+				""
+				"They are fueling a space program."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "79B13E9FA5446394"
+			rewards: [
+				{
+					count: 5
+					id: "7AB35D4E30103939"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+				{
+					id: "5307B16A817AE669"
+					item: "ad_astra:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "106387B96EF9C7FC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "6AE65C56F196D34D"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "50E732C8F273CDCB"
+					item: { Count: 20, id: "forge_frontier:steel_rocket_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0B5B54D19E5EB025"
+					item: { Count: 2, id: "ad_astra:engine_frame" }
+					type: "item"
+				}
+				{
+					id: "71C5D0029CA3E356"
+					item: "forge_frontier:oxygen_module"
+					type: "item"
+				}
+				{
+					id: "66452B2DEA8D8E2D"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4FEAA516664BE95F"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "09CAF1C009F6F79E"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "78174E41B313DB91"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
+			title: "Tier 1 Rocket Parts"
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			description: [
+				"The void winds of &5The End&r carry whispers of a forgotten fortress drifting among the islands."
+				""
+				"Known as the &8Ruined Citadel&r, this ancient stronghold stands as one of the greatest challenges within the End. Its shattered walls conceal vast treasures, powerful relics, and a guardian whose strength rivals even the mightiest foes encountered throughout your journey."
+				""
+				"Many adventurers have entered seeking glory."
+				""
+				"Few have ever returned."
+				""
+				"{image:ftb:textures/ruined_citadel.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"As you explore the ruined halls of the &8Ruined Citadel&r, you will discover immense riches hidden among its crumbling corridors."
+				""
+				"Treasure chests filled with valuable equipment line the fortress, while blocks of gold and diamond remain scattered throughout the structure, untouched for centuries."
+				""
+				"Yet such wealth does not go unprotected."
+				""
+				"The Citadel is patrolled by powerful &5Ender Golems&r, ancient constructs tasked with guarding its secrets against intruders. Loot what you can, but remain vigilant."
+				""
+				"Every corridor brings you closer to the fortress's true master."
+				""
+				"{image:ftb:textures/ruined_citadel_loot.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Deeper within the Citadel, one of the ancient guardians will awaken to challenge your advance."
+				""
+				"The &5Ender Golem&r is a formidable opponent capable of delivering devastating attacks while defending the heart of the fortress. Defeat it to prove your worth and continue your journey into the depths of the Citadel."
+				""
+				"Upon its defeat, the guardian will relinquish a &dVoid Core&r, a rare artifact infused with the energy of the End itself and a vital ingredient in advanced rocket construction."
+				""
+				"{image:ftb:textures/ender_golem.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"At the heart of the &8Ruined Citadel&r awaits the fortress's final protector: the &5Ender Guardian&r."
+				""
+				"This colossal warrior has stood watch over the Citadel for ages beyond memory, crushing all who dared challenge its authority. To claim the Citadel's greatest treasures, you must defeat it."
+				""
+				"The Guardian wields immense power. It can launch you into the air, charge across the arena with incredible force, and summon destructive Void Runes that erupt with volatile energy."
+				""
+				"As the battle progresses, the very arena itself will begin to collapse. At half health, the Guardian will shatter the floor beneath your feet, dragging the fight into the ruins below where the battle continues."
+				""
+				"{image:ftb:textures/ender_guardian.png width:200 height:120 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Only by defeating the &5Ender Guardian&r can you claim the legendary &dGauntlet of the Guard&r."
+				""
+				"This powerful relic serves as one of the final components required to construct the &6Tier 5 Rocket&r, opening the path beyond the End and into the strange worlds that await among the stars."
+				""
+				"Stand your ground. Watch for the Guardian's attacks. Survive the collapse of the arena."
+				""
+				"The future of your journey depends on it."
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:void_eye"
+				tag: { }
+			}
+			id: "285453E58AFF48B7"
+			rewards: [
+				{
+					id: "5C7FF01FFFD849C2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "324FBE2111138FE2"
+					item: "cataclysm:void_assault_shoulder_weapon"
+					type: "item"
+				}
+				{
+					id: "4881017FCB540B07"
+					item: "cataclysm:void_core"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4FBA015002DAA2FF"
+					item: "cataclysm:void_eye"
+					title: "Forge the Eye of Void"
+					type: "item"
+				}
+				{
+					icon: "minecraft:compass"
+					id: "611D67028C329B9D"
+					structure: "cataclysm:ruined_citadel"
+					title: "Use the Eye to Locate the Ruined Citadel"
+					type: "structure"
+				}
+				{
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:void_core"
+					id: "27078DD1737B8E69"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:gauntlet_of_guard"
+					id: "090C39F3B0DA49D5"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Locate and Conquer the Ruined Citadel"
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["22ADB76FDC911F77"]
+			description: [
+				"Hidden within the swirling void of the &5End Dimension&r, the &dVent&r pulses with &oluminous power&r. Though dormant at first, it holds the energy needed to automate &lAdamantite&r-a radiant resource found nowhere else in the multiverse."
+				""
+				"{image:ftb:textures/endritus_vent.png width:250 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken its celestial core, place &la blaze burner&r on top of the vent and feed it blaze cake. With a burst of arcane force, the vent will erupt into an active state, ready to receive molten fluids."
+				""
+				"Once activated, supply &druby chocolate&r to begin Irradium automation using &lMechanical Extruders&r."
+				""
+				" &dWill you channel the light of the End-or be lost in its shadows?&r"
+			]
+			icon: "create_resource_vents:dormant_endritus_vent"
+			id: "0886729EE4407B1B"
+			rewards: [
+				{
+					count: 9
+					id: "1C70E888D54B0BD1"
+					item: "endelurgy:endritus"
+					type: "item"
+				}
+				{
+					id: "43CB939D66A530C3"
+					item: "endelurgy:adamantite_block"
+					type: "item"
+				}
+				{
+					id: "049398898356325A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "3E922327B6F978BA"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_endritus_vent"
+					type: "observation"
+				}
+				{
+					id: "786FA96D9B01E230"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
+				}
+			]
+			title: "Unleashing Endlight Energy"
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["22ADB76FDC911F77"]
+			description: [
+				"Lurking in the &5outer reaches of the End Dimension&r, the &8Vent&r is cloaked in mystery. Dormant to the eye, but brimming with hidden power, it offers a path to renewable &lTungsten&r-if you dare to awaken it."
+				""
+				"{image:ftb:textures/gneiss_vent.png width:250 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To breathe life into the shale, place &lblaze burner&r atop the vent and feed it blaze cake. The resulting tranformation cracks open the darkness, activating the vent and readying it for molten infusion."
+				""
+				"Once active, supply &druby chocolate&r must be supplied to begin automation using &lMechanical Extruders&r."
+				""
+				" &8Descend into silence, ignite the shadows, and let Tungsten rise from the void.&r"
+			]
+			icon: "create_resource_vents:dormant_gneiss_vent"
+			id: "177FD83E945AE2BE"
+			rewards: [
+				{
+					count: 9
+					id: "18B5AF3531D172F1"
+					item: "unusualend:gneiss"
+					type: "item"
+				}
+				{
+					id: "2BE96A6590B9FFEC"
+					item: "createmetallurgy:tungsten_block"
+					type: "item"
+				}
+				{
+					id: "0508D3C39E1A7E9F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "5993EC5234DA3722"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_gneiss_vent"
+					type: "observation"
+				}
+				{
+					id: "7A4ED882FFF108B9"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
+				}
+			]
+			title: "Awakening the Gneiss Below"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["22ADB76FDC911F77"]
+			description: [
+				"These stone-white relics rest in stillness across the void, untouched by time yet filled with untapped potential. The &fVent&r -while seemingly inert-is one of the final pieces in your industrial arsenal."
+				""
+				"{image:ftb:textures/noxrock_vent.png width:250 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To awaken this silent monument, you must &lfeed a blaze burner blaze cake&r directly atop the dormant vent. The resulting transformation fractures the pale crust, transforming the structure into an active state ready to receive its specialized molten fluid."
+				""
+				"Once activated, providing &druby chocolate&r will allow you to channel its energy via &lMechanical Extruders&r-fueling your bismuth automation pipeline."
+				""
+				" &7Silent. Still. Powerful. Awaken the pale-&lunlock the hidden ore of the End&r."
+			]
+			icon: "create_resource_vents:dormant_noxrock_vent"
+			id: "0F87A00F314DD547"
+			rewards: [
+				{
+					count: 9
+					id: "3B19BD46B8B41ECC"
+					item: "endelurgy:noxrock"
+					type: "item"
+				}
+				{
+					id: "3CAE2E075B1014E0"
+					item: "endelurgy:luxite_block"
+					type: "item"
+				}
+				{
+					id: "630080CD9BCA37BC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "37B1D1C7B27E941B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_noxrock_vent"
+					type: "observation"
+				}
+				{
+					id: "1C7CDD7405B4C11C"
+					item: "create_confectionery:ruby_chocolate_bucket"
+					type: "item"
+				}
+			]
+			title: "Whispers of the Noxrock Core"
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4669B8B378A79459"]
+			description: [
+				"Hidden deep within the Blooming Caverns of the Otherside, the &dResonite Vent&r shimmers faintly with ethereal energy. This ancient ore stone is the key to producing the elusive &9Echo Shards&r used in powerful late-game recipes and technologies."
+				""
+				"{image:ftb:textures/resonite_vent.png width:175 height:175 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To unleash its potential, locate a &lDormant Resonite Vent&r in the Otherside. Consider using Freecam to locate the vertical column of vent fluid. Feed a blaze burner blaze cake atop its core to awaken the ancient signal buried deep within."
+				""
+				"Once activated, supply it with &dresonarium&r to channel its energy through &lMechanical Extruders&r. Watch as the Resonite pulses to life, converting sound and soul into Echo Shards with mechanical precision."
+				""
+				" &5Resonance stirs, and with it-the automation of silence.&r"
+			]
+			icon: "create_resource_vents:dormant_resonite_vent"
+			id: "66C50363340B22B0"
+			rewards: [
+				{
+					count: 9
+					id: "7C0639D868BB8DF0"
+					item: "forge_frontier:resonite"
+					type: "item"
+				}
+				{
+					id: "593727ADF90B3E41"
+					item: "forge_frontier:echo_shard_block"
+					type: "item"
+				}
+				{
+					id: "10045CF9B2B693F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Ignite the Stone, Unleash the Flow. Click me for more info!"
+			tasks: [
+				{
+					id: "68F38195DCD117B9"
+					observe_type: 0
+					timer: 0L
+					to_observe: "create_resource_vents:dormant_resonite_vent"
+					type: "observation"
+				}
+				{
+					id: "07409A71AC711831"
+					item: "resonant_synthesis:resonarium_bucket"
+					type: "item"
+				}
+			]
+			title: "Pulse of the Otherside"
+			x: -11.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: ["As you journey across the &bOtherside&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "deeperdarker:lily_flower"
+			id: "4669B8B378A79459"
+			rewards: [{
+				id: "6CDCE76EF027D062"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "23B3BCC428EE9062"
+				title: "Otherside Resource Vents"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: [
+				"&7Beneath the Overworld lies a forgotten civilization swallowed by darkness. The ruins they left behind hold powerful relics, dangerous secrets, and the key to reaching an entirely new dimension.&r"
+				""
+				"The &5Deeper and Darker&r progression begins within the Deep Dark, where ancient structures and mysterious technology await those brave enough to descend into the darkness."
+				""
+				"{@pagebreak}"
+				""
+				"&lAncient City&r"
+				""
+				"Hidden deep beneath the Overworld, the &8Ancient City&r stands as the first major step into Deeper and Darker progression."
+				""
+				"These vast underground ruins are filled with valuable loot, rare resources, and clues surrounding the mysterious portal frame found at their center. As you explore, you will encounter powerful Sculk-infested threats and the terrifying &0Warden&r itself."
+				""
+				"Defeating the Warden and claiming its heart is essential for unlocking the path forward."
+				""
+				"{image:ftb:textures/ancient_city_screenshot.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lAncient Temple&r"
+				""
+				"Beyond the portal lies the &5Otherside&r, a mysterious dimension unlike anything found within the Overworld."
+				""
+				"Scattered throughout this strange realm are &5Ancient Temples&r, massive structures containing valuable treasures, unique resources, and powerful artifacts unavailable anywhere else. Among their rewards is the rare &dSculk Transmitter&r, a component required for some of the most advanced technologies in the pack."
+				""
+				"Exploration of these temples will reward those willing to brave the dangers of the Otherside."
+				""
+				"{image:ftb:textures/otherside_screenshot.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"To access the Otherside, you must first defeat the &0Warden&r within an Ancient City."
+				""
+				"Once defeated, place the Warden's Heart into the dormant portal frame found at the center of the city. The ancient gateway will awaken, granting passage into a realm forgotten by time."
+				""
+				"What awaits beyond is up to you to discover."
+				""
+				"{image:ftb:textures/otherside_portal.png width:225 height:140 align:center}"
+			]
+			icon: "ad_astra:black_flag"
+			id: "501BD9C57DEF57BF"
+			rewards: [
+				{
+					count: 4
+					id: "0739E06E4CE31AD3"
+					item: "resonant_synthesis:sculk_stone_sculk_ore"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49D0B93CF4630632"
+					item: "resonant_synthesis:sculk_stone_otherside_ore"
+					type: "item"
+				}
+				{
+					id: "4C53B39DF6D62FD6"
+					item: "minecraft:music_disc_5"
+					type: "item"
+				}
+				{
+					id: "696644B62B25A74B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "33688FCB6FD2F6BD"
+					structure: "#minecraft:ancient_city"
+					type: "structure"
+				}
+				{
+					id: "1A2A3C8C8423BAB8"
+					structure: "deeperdarker:ancient_temple"
+					type: "structure"
+				}
+			]
+			title: "Deep Dark Structures"
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["638EF7DB16108237"]
+			description: ["Within this pack, you may have discovered that unlocking the &eEnd&r is not a simple task. Through the use of &n&dEnd Remastered&r&r, the path to the End becomes a true adventure - one filled with exploration, forgotten ruins, dangerous encounters, and powerful relics scattered across the world. Below, you will learn about each Eye and the unique challenges tied to different stages of the &bDeep Dark progression."]
+			hide_dependent_lines: true
+			icon: "minecraft:sculk"
+			id: "130260CCAEEF6F7C"
+			rewards: [{
+				id: "215383BAC2B39215"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "7D7D42246BB41CB9"
+				title: "Eyes of the Deep Dark"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			description: ["As you journey across the &eEnd&r, you will uncover mysterious resource &6vents&r hidden throughout the landscape. Each &6vent&r holds the potential to fuel powerful automation lines and unlock new methods of resource production for your growing factory. Below, you will learn more about every &6vent&r, where they can be found, and the unique opportunities they bring to your adventure."]
+			hide_dependent_lines: true
+			icon: "unusualend:warped_end_stone"
+			id: "22ADB76FDC911F77"
+			rewards: [{
+				id: "7AB349B0A41AF432"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "21B9B5A1D60077BA"
+				title: "End Resource Vents"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			description: [
+				"&7The End is far more than a barren wasteland of floating islands. Scattered throughout the void are the remnants of forgotten civilizations, abandoned outposts, and mysterious structures filled with powerful loot and rare materials.&r"
+				""
+				"Exploration is a critical part of End progression. Many valuable resources, unique equipment, and rare crafting ingredients can only be found within these ancient ruins."
+				""
+				"Those willing to venture into the void will be richly rewarded."
+				""
+				"{@pagebreak}"
+				""
+				"&lAncient End Tower&r"
+				""
+				"Rising above the islands of the End, the &5Ancient End Tower&r stands as a relic of a civilization long lost to time."
+				""
+				"These towering structures contain valuable loot, rare resources, and dangerous defenders guarding their treasures. Adventurers who reach the upper levels will often find rewards worthy of the journey."
+				""
+				"Explore carefully—many dangers lurk within the tower's halls."
+				""
+				"{image:ftb:textures/ancient_end_tower.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lEnd Ships&r"
+				""
+				"Drifting through the void are abandoned vessels left behind by forgotten explorers."
+				""
+				"Both the &dFlying End Ship&r and the corrupted &5Warped Flying End Ship&r contain valuable loot, rare equipment, and resources useful throughout End progression. Their isolated locations make them difficult to reach, but the rewards often justify the risk."
+				""
+				"The void below offers little forgiveness to those who fall."
+				""
+				"{image:ftb:textures/flying_end_ship.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lEnd City&r"
+				""
+				"The iconic &5End City&r remains one of the most valuable structures found throughout The End."
+				""
+				"Its towering spires contain enchanted equipment, rare materials, and treasures useful for both exploration and progression. Powerful Shulkers defend these ancient cities, making preparation essential before attempting to raid them."
+				""
+				"Many adventurers make their fortune within these towering ruins."
+				""
+				"{image:ftb:textures/end_city.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"&lWarped Station&r"
+				""
+				"Among the strangest structures in the End is the &5Warped Station&r, a mysterious outpost suspended within the void."
+				""
+				"Little remains of its original inhabitants, but valuable loot and resources can still be found within its abandoned halls. These stations serve as excellent locations for gathering supplies while exploring the outer islands."
+				""
+				"No one knows who built them—or why they were abandoned."
+				""
+				"{image:ftb:textures/warped_station.png width:225 height:140 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"Each of these structures contains unique loot, resources, and opportunities for progression."
+				""
+				"Whether you're searching for equipment, rare crafting ingredients, or simply seeking adventure among the stars, exploration of The End is highly encouraged."
+				""
+				"The void holds many secrets."
+				""
+				"All that remains is for you to discover them."
+			]
+			icon: "ad_astra:pink_flag"
+			id: "7A752AF0D3E9431F"
+			rewards: [
+				{
+					count: 4
+					id: "7A1DEB2E50171021"
+					item: "endelurgy:end_adamantite_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "11DE2C32CEC2D7F0"
+					item: "endreborn:tungsten_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "55A29171591F1D37"
+					item: "endelurgy:noxrock_luxite_ore"
+					type: "item"
+				}
+				{
+					id: "41DFA3D41C2753B5"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DA2220E504D4B10"
+					item: "quark:dragon_scale"
+					type: "item"
+				}
+				{
+					id: "566D7E7EE3052893"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "4BD6ED1A9699859F"
+					structure: "unusualend:ancient_end_tower"
+					type: "structure"
+				}
+				{
+					id: "712CAC83C2FF5214"
+					structure: "unusualend:flying_end_ship"
+					type: "structure"
+				}
+				{
+					id: "0C9CC381E7A82DB8"
+					structure: "unusualend:warped_flying_end_ship"
+					type: "structure"
+				}
+				{
+					id: "7CFCBA6461F609FC"
+					structure: "minecraft:end_city"
+					type: "structure"
+				}
+				{
+					id: "2030514BD1F85C93"
+					structure: "unusualend:warped_station"
+					type: "structure"
+				}
+			]
+			title: "End Structures"
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7964AB0D39902EFA"]
+			description: [
+				"&7With both &5The End&r and &bGlacio&r conquered, a new frontier emerges beyond the known reaches of the Ad Astra solar system.&r"
+				""
+				"The construction of the &dTier 5 Rocket&r marks the beginning of a completely new chapter in your adventure. Built using materials gathered from End exploration, powerful bosses, and the frozen landscapes of Glacio, this spacecraft serves as the gateway to worlds unlike anything encountered before."
+				""
+				"What lies ahead is no longer traditional space exploration."
+				""
+				"It is the exploration of entirely new realms."
+				""
+				"{@pagebreak}"
+				""
+				"&lConstructing the Tier 5 Rocket&r"
+				""
+				"The Tier 5 Rocket is assembled using advanced components obtained through both End and Glacio progression. Many of its parts require rare materials, boss drops, specialized machinery, and extensive automation networks to produce."
+				""
+				"By this stage, your factory should be capable of handling complex production chains spanning multiple dimensions and planets."
+				""
+				"Need help crafting a specific rocket component?"
+				""
+				"Consult &6JEI&r for detailed recipes, ingredient requirements, and production chains for all rocket parts."
+				""
+				"{@pagebreak}"
+				""
+				"Upon completing the Tier 5 Rocket, you will unlock access to the first three &6Alex's Caves&r planets:"
+				""
+				"- &1Abyssal Chasm&r"
+				"- &6Primordial Caves&r"
+				"- &8Forlorn Hollows&r"
+				""
+				"Each world offers unique resources, dangerous creatures, powerful structures, and progression opportunities unavailable anywhere else."
+				""
+				"Prepare carefully before departure."
+				""
+				"These worlds operate by their own rules."
+				""
+				"{@pagebreak}"
+				""
+				"As the launch sequence begins and your newest spacecraft rises from the pad, you leave the familiar solar system behind."
+				""
+				"The Moon, Mars, Mercury, Venus, Glacio, and The End have prepared you for this moment."
+				""
+				"Now, the true unknown awaits."
+				""
+				"Your journey into Alex's Caves begins here."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_5_rocket"
+				tag: { }
+			}
+			id: "699FEE9775A89BE5"
+			rewards: [
+				{
+					count: 5
+					id: "3279370E97E1E6A8"
+					item: "endelurgy:enderite_block"
+					type: "item"
+				}
+				{
+					id: "777901EE27E08463"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+				{
+					id: "012CFF0CE45E5FB9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0BBE04FB866F4256"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "7FA6AFC75AFFBF82"
+					item: "forge_frontier:enderite_rocket_casing"
+					type: "item"
+				}
+				{
+					id: "4421D2C975B29C51"
+					item: "forge_frontier:dimensional_stability_core"
+					type: "item"
+				}
+				{
+					id: "373978EC7B1C068E"
+					item: "forge_frontier:thermal_shield_matrix"
+					type: "item"
+				}
+				{
+					id: "1EE4D225E309A632"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_4_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0DB0F34B4FCCC153"
+					item: "forge_frontier:solar_regulation_array"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "49190842A9F3F63C"
+					item: { Count: 3, id: "forge_frontier:rocket_fuel_tank" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "684121D34966607C"
+					item: { Count: 4, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "7966519ADDF48DD1"
+					item: "forge_frontier:rocket_engine"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Rocket Parts"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["699FEE9775A89BE5"]
+			description: [
+				"&7With the &dTier 5 Rocket&r complete, your journey expands beyond the familiar worlds of Ad Astra and into entirely new frontiers.&r"
+				""
+				"Congratulations, explorer! You have unlocked access to the first three &6Alex's Caves&r planets: &1Abyssal Chasm&r, &6Primordial Caves&r, and &8Forlorn Hollows&r. These worlds are unlike anything encountered throughout the solar system, each containing unique ecosystems, powerful resources, dangerous creatures, and progression opportunities that cannot be found anywhere else."
+				""
+				"A new era of exploration begins now."
+				""
+				"{@pagebreak}"
+				""
+				"&lAbyssal Chasm&r"
+				""
+				"Beneath endless oceans and crushing depths lies the &1Abyssal Chasm&r, a world consumed by darkness and ancient aquatic life."
+				""
+				"Those willing to brave its depths will discover:"
+				""
+				"- &oUnique underwater environments&r unlike any previous planet."
+				"- &oRare resources&r required for advanced progression."
+				"- &oAncient structures&r hidden beneath the waters."
+				"- &oPowerful creatures&r lurking within the abyss."
+				""
+				"The deeper you descend, the greater the rewards—and the dangers."
+				""
+				"{@pagebreak}"
+				""
+				"&lPrimordial Caves&r"
+				""
+				"Step into a lost world where prehistoric life still roams the land."
+				""
+				"Throughout the &6Primordial Caves&r, you will encounter:"
+				""
+				"- &oAncient creatures&r from a forgotten age."
+				"- &oPowerful resources&r unavailable anywhere else."
+				"- &oUnique structures&r hidden throughout the wilderness."
+				"- Dangerous encounters with some of the largest creatures in the pack."
+				""
+				"Survival here requires caution, preparation, and respect for the ancient world around you."
+				""
+				"{@pagebreak}"
+				""
+				"&lForlorn Hollows&r"
+				""
+				"Shrouded in darkness and mystery, the &8Forlorn Hollows&r is a realm where strange creatures and ancient horrors dwell."
+				""
+				"Within this haunting world you will find:"
+				""
+				"- &oRare materials&r used in advanced crafting."
+				"- &oUnique structures&r filled with valuable loot."
+				"- &oPowerful enemies&r guarding hidden secrets."
+				"- Progression opportunities essential for future rocket construction."
+				""
+				"Many enter the Hollows seeking treasure. Not all return."
+				""
+				"{@pagebreak}"
+				""
+				"Abyssal Chasm, Primordial Caves, and Forlorn Hollows represent the next major stage of your adventure."
+				""
+				"Their resources will unlock powerful new technologies, their dangers will challenge even experienced explorers, and their secrets will pave the way toward the worlds that still remain undiscovered."
+				""
+				"The stars no longer mark the end of your journey."
+				""
+				"They were only the beginning."
+			]
+			icon: "alexscaves:spelunkery_table"
+			id: "4E10DE76A5C435BA"
+			rewards: [
+				{
+					count: 3
+					id: "5D9BB80501DBC09F"
+					item: "alexscaves:amber"
+					type: "item"
+				}
+				{
+					id: "77B78A8D37317FF7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Three strange new worlds await—explore forgotten depths, prehistoric lands, and realms shrouded in darkness. Click me for more info!"
+			tasks: [
+				{
+					id: "237A4D488DE37ECD"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "241A3E7CC5037078"
+					item: "ad_astra:cryo_fuel_bucket"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Rocket: The Alex's Caves Expedition"
+			x: 3.0d
+			y: 11.0d
 		}
 	]
 	title: "Basic Dimensions"

@@ -1,0 +1,27 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:advanced_filter_upgrade"
+    }
+  ],
+  "key": {
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "P": {
+      "item": "sophisticatedstorage:filter_upgrade"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    "GPG",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:advanced_filter_upgrade"
+  }
+}

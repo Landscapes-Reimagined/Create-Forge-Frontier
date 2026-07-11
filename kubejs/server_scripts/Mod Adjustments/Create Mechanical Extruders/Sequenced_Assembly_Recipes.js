@@ -5,7 +5,7 @@ ServerEvents.recipes(event =>
             event.custom({
             type: 'create:sequenced_assembly',
             ingredient: {
-                item: 'create_dd:stargaze_singularity_casing'
+                item: 'createcobblestone:mechanical_generator'
             },
             loops: 1,
             results: [
@@ -19,15 +19,15 @@ ServerEvents.recipes(event =>
                 type: 'create:deploying',
                 ingredients: [
                     {
-                        item: 'create_dd:stargaze_singularity_casing'
+                        item: 'createcobblestone:mechanical_generator'
                     },
                     {
-                        item: 'create:deployer'
+                        item: 'create_dd:hydraulic_press'
                     }
                 ],
                 results: [
                     {
-                        item: 'create_dd:stargaze_singularity_casing'
+                        item: 'createcobblestone:mechanical_generator'
                     }
                 ]
                 },
@@ -35,23 +35,55 @@ ServerEvents.recipes(event =>
                 type: 'create:deploying',
                 ingredients: [
                     {
-                        item: 'create_dd:stargaze_singularity_casing'
+                        item: 'createcobblestone:mechanical_generator'
                     },
                     {
-                        item: 'create_dd:bronze_drill'
+                        item: 'create_dd:chromatic_compound'
                     }
                 ],
                 results: [
                     {
-                        item: 'create_dd:stargaze_singularity_casing'
+                        item: 'createcobblestone:mechanical_generator'
                     }
-                ]
+                ],
                 },
+                {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'createcobblestone:mechanical_generator'
+                    },
+                    {
+                        item: 'create_dd:shadow_steel'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'createcobblestone:mechanical_generator'
+                    }
+                ],  
+                },
+                {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'createcobblestone:mechanical_generator'
+                    },
+                    {
+                        item: 'create_dd:refined_radiance'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'createcobblestone:mechanical_generator'
+                    }
+                ],  
+                },                
                 {
                     type: 'create:deploying',
                     ingredients: [
                     {
-                        item: 'create_dd:stargaze_singularity_casing'
+                        item: 'createcobblestone:mechanical_generator'
                     },
                     {
                         item: 'minecraft:glass'
@@ -59,13 +91,13 @@ ServerEvents.recipes(event =>
                     ],
                     results: [
                     {
-                        item: 'create_dd:stargaze_singularity_casing'
+                        item: 'createcobblestone:mechanical_generator'
                     }
                     ]
                 }
             ],
             transitionalItem: {
-                item: 'create_dd:stargaze_singularity_casing'
+                item: 'createcobblestone:mechanical_generator'
             }
             }).id('forge_frontier:sequenced_assembly/mechanical_extruder');
     }

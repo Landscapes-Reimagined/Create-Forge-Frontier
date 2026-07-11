@@ -35,14 +35,14 @@
  "block.create_resource_vents.dormant_stellaris_vent": "Dormant Stellaris Vent",
  "block.create_resource_vents.active_stellaris_vent": "Active Stellaris Vent",
 
- "block.create_resource_vents.dormant_radiantite_vent": "Dormant Radiantite Vent",
- "block.create_resource_vents.active_radiantite_vent": "Active Radiantite Vent",
+ "block.create_resource_vents.dormant_noxrock_vent": "Dormant Noxrock Vent",
+ "block.create_resource_vents.active_noxrock_vent": "Active Noxrock Vent",
 
- "block.create_resource_vents.dormant_void_shale_vent": "Dormant Void Shale Vent",
- "block.create_resource_vents.active_void_shale_vent": "Active Void Shale Vent",
+ "block.create_resource_vents.dormant_gneiss_vent": "Dormant Gneiss Vent",
+ "block.create_resource_vents.active_gneiss_vent": "Active Gneiss Vent",
 
- "block.create_resource_vents.dormant_palerock_vent": "Dormant Palerock Vent",
- "block.create_resource_vents.active_palerock_vent": "Active Palerock Vent",
+ "block.create_resource_vents.dormant_endritus_vent": "Dormant Endritus Vent",
+ "block.create_resource_vents.active_endritus_vent": "Active Endritus Vent",
 
  "block.create_resource_vents.dormant_guanite_vent": "Dormant Guanite Vent",
  "block.create_resource_vents.active_guanite_vent": "Active Guanite Vent",

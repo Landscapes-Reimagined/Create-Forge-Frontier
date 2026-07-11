@@ -1,0 +1,22 @@
+{
+    "modId": "echovoids",
+    "group": {
+      "name": "Echovoids Flowers",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:flowers"
+    },
+    "customEntries": [
+      {
+        "output": "echovoids:glowglove_bud"
+      },
+      {
+        "output": "echovoids:blue_flower"
+      },
+      {
+        "output": "echovoids:endflower"
+      }
+    ]
+  }

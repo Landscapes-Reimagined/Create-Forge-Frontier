@@ -1,0 +1,23 @@
+{
+    "modId": "echovoids",
+    "group": {
+      "name": "Echovoids Saplings",
+      "enabledByDefault": true,
+      "defaultPayment": {
+        "item": "minecraft:emerald"
+      },
+      "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+      {
+        "output": "echovoids:yellow_sapling"
+      },
+      {
+        "output": "echovoids:acid_anemony"
+      },
+      {
+        "output": "echovoids:chorus_sprout"
+      }
+    ]
+  }
+  

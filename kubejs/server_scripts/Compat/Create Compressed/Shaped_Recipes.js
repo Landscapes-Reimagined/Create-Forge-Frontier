@@ -15,9 +15,6 @@ ServerEvents.recipes(event => {
     }
     
     const materials = [
-        'malachite',
-        'irradium',
-        'bismuth',
         'desh',
         'ostrum',
         'calorite',
@@ -36,8 +33,12 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        'star_infused_netherite',
-        'etrium',
+        'etrium',    
+        'tin',
+        'echo_shard',
+        'luxite',
+        'tungsten',
+        'adamantite', 
         // New Compressed Create Blocks
         'cogwheel_block',
         'large_cogwheel_block',
@@ -64,7 +65,70 @@ ServerEvents.recipes(event => {
         }
     });
 // Creates 1x Shaped Recipes
+    // Tin Block
+    event.shaped(
+        Item.of('forge_frontier:compressed_tin_1x'),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "create_dd:tin_block"
+        }
+    ).id('forge_frontier:shaped/tin_block_1x');
 
+    // Echo Shard Block
+    event.shaped(
+        Item.of("forge_frontier:compressed_echo_shard_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "forge_frontier:echo_shard_block"
+        }
+    ).id('forge_frontier:shaped/echo_shard_block_1x');
+
+    // Luxite
+    event.shaped(
+        Item.of("forge_frontier:compressed_luxite_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "endelurgy:luxite_block"
+        }
+    ).id('forge_frontier:shaped/luxite_block_1x');
+    
+    // Tungsten
+    event.shaped(
+        Item.of("forge_frontier:compressed_tungsten_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "createmetallurgy:tungsten_block"
+        }
+    ).id('forge_frontier:shaped/tungsten_block_1x');
+    
+    // Adamantite
+    event.shaped(
+        Item.of("forge_frontier:compressed_adamantite_1x"),
+        [
+            'AAA',
+            'AAA',
+            'AAA'
+        ],
+        {
+            A : "endelurgy:adamantite_block"
+        }
+    ).id('forge_frontier:shaped/adamantite_block_1x');    
     // Etrium Block
     event.shaped(
         Item.of('forge_frontier:compressed_etrium_1x'),
@@ -298,77 +362,7 @@ ServerEvents.recipes(event => {
             A : 'create_compressed:powdered_obsidian_pile'
         }
     ).id('forge_frontier:shaped/powdered_obsidian_pile_1x');
-
-    // Malachite
-        // Creates New Shaped Recipe for Malachite
-        event.remove({ id: 'enlightened_end:malachite_block' })
-        event.shaped(
-            Item.of('enlightened_end:malachite_block'),
-            [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            {
-                A: 'enlightened_end:malachite', 
-            }
-        ).id( 'forge_frontier:shaped/malachite_block' )
-
-        // Creates New Compressed Recipes for Malachite Compressed Blocks 1x
-        event.shaped(
-            Item.of('forge_frontier:compressed_malachite_1x'),
-            [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            {
-                A: 'enlightened_end:malachite_block', 
-            }
-        ).id( 'forge_frontier:shaped/malachite_block_1x' )
-
-    // Irradium
-        // Creates New Shaped Recipe for Irradium
-        event.remove({ id: 'enlightened_end:irradium_block'})
-        event.shaped(
-            Item.of('enlightened_end:irradium_block'),
-            [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            {
-                A: 'enlightened_end:irradium_bar', 
-            }
-        ).id( 'forge_frontier:shaped/irradium_block' )
-
-        // Creates New Compressed Recipes for Irradium Compressed Blocks 1x
-        event.shaped(
-            Item.of('forge_frontier:compressed_irradium_1x'),
-            [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            {
-                A: 'enlightened_end:irradium_block', 
-            }
-        ).id( 'forge_frontier:shaped/irradium_block_1x' )
-
-    // Bismuth
-         // Creates New Compressed Recipes for Bismuth Compressed Blocks 1x
-         event.shaped(
-            Item.of('forge_frontier:compressed_bismuth_1x'),
-            [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            {
-                A: 'enlightened_end:bismuth_block', 
-            }
-        ).id( 'forge_frontier:shaped/bismuth_block_1x' )
-   
+  
     // Desh
          // Creates New Compressed Recipes for Desh Compressed Blocks 1x
          event.shaped(
@@ -620,19 +614,5 @@ ServerEvents.recipes(event => {
                 A: 'advancednetherite:netherite_diamond_block', 
             }
         ).id( 'forge_frontier:shaped/netherite-diamond_block_1x' )      
-
-    // Star Infused Netherite Block
-        // Creates New Compressed Recipes for Star Infused Netherite Compressed Blocks 1x
-        event.shaped(
-            Item.of('forge_frontier:compressed_star_infused_netherite_1x'),
-            [
-                'AAA',
-                'AAA',
-                'AAA'
-            ],
-            {
-                A: 'cagedmobs:star_infused_netherite_block', 
-            }
-        ).id( 'forge_frontier:shaped/star_infused_netherite_block_1x' )          
-    
+  
 })

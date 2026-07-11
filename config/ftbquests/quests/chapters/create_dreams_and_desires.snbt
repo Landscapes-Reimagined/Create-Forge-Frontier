@@ -431,34 +431,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3696F1B5E0C16F29"]
-			description: ["When basic chests no longer cut it, it is time to scale up. Item Vaults offer massive bulk storage, and can be crafted in bulk themselves with overburden casing."]
-			icon: "create:item_vault"
-			id: "449C4C4A589B69B3"
-			rewards: [
-				{
-					count: 8
-					id: "07829932F865453B"
-					item: "create:item_vault"
-					type: "item"
-				}
-				{
-					id: "696F41F49AA2DEC2"
-					type: "xp"
-					xp: 100
-				}
-			]
-			subtitle: "Smart Storage Starts Here."
-			tasks: [{
-				id: "462F0A5899089C17"
-				item: "create:item_vault"
-				type: "item"
-			}]
-			title: "Storage Logistics"
-			x: -4.0d
-			y: -0.5d
-		}
-		{
 			dependencies: ["0157A9E38B635A46"]
 			description: ["Tin is a key part of bronze and a new addition in Dreams \\& Desires. It’s a soft, silvery metal that’s easy to process and alloy. You’ll need a steady supply, so keep an eye out while mining."]
 			id: "26F62AF949EFE491"
@@ -523,7 +495,7 @@
 				{
 					count: 8
 					id: "4BC100E0E610C577"
-					item: "excavated_variants:create_crimsite_iron_ore"
+					item: "enhanced_ore_variety:andesite_iron_ore"
 					type: "item"
 				}
 				{
@@ -1182,11 +1154,37 @@
 			]
 			icon: "create_dd:superheating_sail"
 			id: "53016A184649213E"
-			rewards: [{
-				id: "52EF26876F6B34EB"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "2E1E4E6FF081B5F9"
+					item: "create_dd:rubber"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A3C66F28C2D42C5"
+					item: "create_dd:chromatic_compound"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "786381138720C873"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "347121F9FE6070AE"
+					item: "create_dd:infernal_mechanism"
+					type: "item"
+				}
+				{
+					id: "1B2B91E14C8BF6B3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Wind at Work."
 			tasks: [
 				{
@@ -1364,15 +1362,9 @@
 		{
 			dependencies: [
 				"7A355AA3FDE025A6"
-				"2E99FE44436A381C"
-				"1D40BCB5E0BF8836"
-				"2BE12AF20FA6DC0D"
-				"1F22F9F9B3D393E1"
-				"38367FF1F1438DED"
-				"571CE6F8667DA48F"
 				"25559A9BCB194A6D"
 			]
-			description: ["{\"text\":\"Shimmer is a luminous fluid created by blending various fluids found throughout the \",\"extra\":[{\"text\":\"Molten Vents\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E4AA685A681F1B0\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\" chapter. It is used to craft the Stargaze Singularity Casing, a key component for crafting the \"},{\"text\":\"Mechanical Extruder\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6B0EFB5F45658146\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"]
+			description: ["{\"text\":\"Shimmer is a luminous fluid created by blending various fluids found throughout JEI. It is used to craft the Stargaze Singularity Casing, a key component for crafting the \"},{\"text\":\"Mechanical Extruder\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6B0EFB5F45658146\"},\"color\":\"blue\",\"underlined\":true},{\"text\":\".\"}]}"]
 			id: "4B1463B8ECBB6CF1"
 			rewards: [
 				{

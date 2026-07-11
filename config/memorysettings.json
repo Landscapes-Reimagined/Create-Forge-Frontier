@@ -5,7 +5,7 @@
   },
   "maximumClient": {
     "desc:": "Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended memory for the pack is 6000mb then set this to ~8000mb",
-    "maximumClient": 16384
+    "maximumClient": 15258
   },
   "minimumServer": {
     "desc:": "Set the servers minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
@@ -17,7 +17,7 @@
   },
   "disableWarnings": {
     "desc:": "Disable the memory warnings, default: false",
-    "disableWarnings": true
+    "disableWarnings": false
   },
   "earlyWarningMinimumMemory": {
     "desc:": "Set the message used for the early warning screen, notifying the user of too low memory set. You can use %d as placeholder for these memoryvalues, in order: currentmemory, minimum, recommendMemory",

@@ -1,11 +1,8 @@
 ServerEvents.recipes(event => 
     {
         const ores = [
-            { pile: 'crushed_bismuth_pile', raw: 'forge_frontier:crushed_bismuth' },
             { pile: 'crushed_calorite_pile', raw: 'forge_frontier:crushed_calorite' },
             { pile: 'crushed_desh_pile', raw: 'forge_frontier:crushed_desh' },
-            { pile: 'crushed_irradium_pile', raw: 'forge_frontier:crushed_irradium' },
-            { pile: 'crushed_malachite_pile', raw: 'forge_frontier:crushed_malachite' },
             { pile: 'crushed_ostrum_pile', raw: 'forge_frontier:crushed_ostrum' },
             { pile: 'crushed_verdantine_pile', raw: 'forge_frontier:crushed_verdantine'},
             { pile: 'crushed_glacium_pile', raw: 'forge_frontier:crushed_glacium'},
@@ -15,9 +12,6 @@ ServerEvents.recipes(event =>
             { pile: 'crushed_pyroclast_pile', raw: 'forge_frontier:crushed_pyroclast'},
             { pile: 'crushed_frostite_pile', raw: 'forge_frontier:crushed_frostite'},
             { pile: 'crushed_stellaris_pile', raw: 'forge_frontier:crushed_stellaris'},
-            { pile: 'crushed_radiantite_pile', raw: 'forge_frontier:crushed_radiantite'},
-            { pile: 'crushed_shale_pile', raw: 'forge_frontier:crushed_shale'},
-            { pile: 'crushed_palerock_pile', raw: 'forge_frontier:crushed_palerock'},
             { pile: 'crushed_guanite_pile', raw: 'forge_frontier:crushed_guanite'},
             { pile: 'crushed_pearlyte_pile', raw: 'forge_frontier:crushed_pearlyte'},
             { pile: 'crushed_amberlite_pile', raw: 'forge_frontier:crushed_amberlite'},

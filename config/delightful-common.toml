@@ -14,7 +14,6 @@
 	cloggrum_knife = true
 	constantan_knife = true
 	copper_knife = false
-	crystalline_knife = true
 	draco_arcanus_knife = true
 	electrum_knife = true
 	elementium_knife = true
@@ -143,14 +142,6 @@
 	venison_chops = true
 	wild_salmonberries = true
 	wrapped_cantaloupe = true
-	#Allow cooking milk from nuts
-	nut_milk = true
-	#Allow cooking honey from honey and clovers
-	clover_honey = false
-	#Give items that are sliced off of blocks directly to player's inventory instead of dropping
-	give_sliced_directly = false
-	#Allow sliced melons to be juiced in-world (right click)
-	melon_juicing = true
 	yucca_fruit_crate = true
 	glow_jam_jar = true
 	jam_jar = true
@@ -176,6 +167,21 @@
 	source_berry_cookie_tile_wall = true
 	source_berry_cookie_tiles = true
 	long_prickly_pear_juice = true
+	roe_blini = true
+	salmon_and_roe_blini = true
+	sinigang_cup = true
+	aged_roe = true
+	caviar = true
+	debug_blueberry_pie = true
+	debug_chorus_pie = true
+	debug_gloomgourd_pie = true
+	debug_green_apple_pie = true
+	debug_mulberry_pie = true
+	debug_mutton_pie = true
+	debug_passion_fruit_tart = true
+	debug_source_berry_pie = true
+	roe_roll = true
+	sturgeon_roe = true
 
 ["Baked Good Overhauls"]
 	blueberry_pie_slice = true
@@ -184,6 +190,18 @@
 	green_apple_pie_slice = true
 	mulberry_pie_slice = true
 	passion_fruit_tart_slice = true
-	pumpkin_pie_slice = true
 	source_berry_pie_slice = true
+	mutton_pie_slice = true
+	#Use a mixin to remove food properties from pie items (tag #farmersdelight:pies)?
+	pie_edible_mixin = true
+
+[Behavior]
+	#Allow cooking milk from nuts
+	nut_milk = true
+	#Allow cooking honey from honey and clovers
+	clover_honey = false
+	#Give items that are sliced off of blocks directly to player's inventory instead of dropping
+	give_sliced_directly = false
+	#Allow sliced melons to be juiced in-world (right click)
+	melon_juicing = true
 

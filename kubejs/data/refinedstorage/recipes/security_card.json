@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "CAC",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "item": "refinedstorage:network_card"
+    },
+    "A": {
+      "item": "refinedstorage:advanced_processor"
+    }
+  },
+  "result": {
+    "item": "refinedstorage:security_card"
+  }
+}

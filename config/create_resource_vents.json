@@ -142,7 +142,7 @@
         }
       ],
       "reactantFluids": [
-        "ad_astra:cryo_fuel"
+        "resonant_synthesis:resonarium"
       ],
       "maxGenerationDistance": 1
     },
@@ -204,10 +204,10 @@
     },
     
         {
-      "name": "radiantite",
+      "name": "noxrock",
       "generatedBlocks": [
         {
-          "id": "forge_frontier:radiantite",
+          "id": "endelurgy:noxrock",
           "properties": []
         }
       ],
@@ -218,10 +218,10 @@
     },
     
         {
-      "name": "void_shale",
+      "name": "gneiss",
       "generatedBlocks": [
         {
-          "id": "enlightened_end:void_shale",
+          "id": "unusualend:gneiss",
           "properties": []
         }
       ],
@@ -232,10 +232,10 @@
     },
     
         {
-      "name": "palerock",
+      "name": "endritus",
       "generatedBlocks": [
         {
-          "id": "enlightened_end:palerock",
+          "id": "endelurgy:endritus",
           "properties": []
         }
       ],

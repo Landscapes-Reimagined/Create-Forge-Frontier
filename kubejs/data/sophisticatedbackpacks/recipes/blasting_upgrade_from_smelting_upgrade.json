@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:blasting_upgrade"
+    }
+  ],
+  "key": {
+    "I": {
+      "item": "create:andesite_alloy"
+    },
+    "S": {
+      "item": "sophisticatedbackpacks:smelting_upgrade"
+    },
+    "T": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    "TTT"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:blasting_upgrade"
+  }
+}

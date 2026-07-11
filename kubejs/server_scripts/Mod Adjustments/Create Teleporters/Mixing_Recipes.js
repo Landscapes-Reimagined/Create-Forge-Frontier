@@ -1,16 +1,16 @@
 ServerEvents.recipes(event => 
     {
         // Strophar Mushroom to Quantum Fluid Mixing Recipe
-            event.remove({ id: 'createteleporters:quantum_fluid_recipe'})
+            event.remove({id: 'createteleporters:quantum_fluid_recipe' })
             event.custom({
                 type: 'create:mixing',
                 heatRequirement: 'heated',
                 ingredients: [
                 {
-                    item: 'ad_astra:strophar_mushroom'
+                    item: "minecraft:chorus_fruit"
                 },
                 {
-                    amount: 250,
+                    amount: 1000,
                     fluid: 'minecraft:water',
                     nbt: {}
                 }

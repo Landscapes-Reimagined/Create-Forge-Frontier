@@ -1,0 +1,20 @@
+#Ticks to wait after detecting a container before finalizing (allows worldgen to finish)
+#Range: 0 ~ 400
+finalization_delay_ticks = 20
+#Max containers to finalize per server tick
+#Range: 1 ~ 64
+max_finalizations_per_tick = 8
+
+[mimics]
+	#[mimics] Enable mimic compatibility for the Artifacts mod
+	enable_artifacts_mimic_compat = true
+	#[mimics] When to roll for mimic: 'finalization' or 'first_interact'
+	mimic_roll_timing = "finalization"
+	#[mimics] Container block IDs excluded from mimic (e.g. minecraft:barrel)
+	exclude_container_types = ["minecraft:barrel"]
+	#[mimics] Respect Artifacts mod's mimic config when available
+	respect_artifacts_config = true
+	#[mimics] Max mimic evaluations per tick (when using first_interact)
+	#Range: 1 ~ 64
+	max_mimic_checks_per_tick = 8
+

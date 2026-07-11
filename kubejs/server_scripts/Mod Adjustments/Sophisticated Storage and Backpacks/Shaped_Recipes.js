@@ -1,5 +1,43 @@
 ServerEvents.recipes(event => 
     {
+        // Sophisticated Backpacks Magnet Upgrade
+        event.remove({ id: "sophisticatedbackpacks:magnet_upgrade" });
+        event.shaped(
+            Item.of("sophisticatedbackpacks:magnet_upgrade"), 
+            [
+                "PBP",
+                "AMA",
+                "E L"
+            ], 
+            {
+                P: "#forge:ender_pearls",
+                B: "sophisticatedbackpacks:upgrade_base",
+                A: "create:andesite_alloy",
+                M: "simplemagnets:basicmagnet",
+                E: "create:electron_tube",
+                L: "minecraft:lapis_lazuli"
+            }
+        ).id("forge_frontier:shaped/backpack_magnet_upgrade");
+
+        // Sophisticated Storage Magnet Upgrade
+        event.remove({ id: "sophisticatedstorage:magnet_upgrade" });
+        event.shaped(
+            Item.of("sophisticatedstorage:magnet_upgrade"), 
+            [
+                "PBP",
+                "AMA",
+                "E L"
+            ], 
+            {
+                P: "#forge:ender_pearls",
+                B: "sophisticatedstorage:upgrade_base",
+                A: "create:andesite_alloy",
+                M: "simplemagnets:basicmagnet",
+                E: "create:electron_tube",
+                L: "minecraft:lapis_lazuli"
+            }
+        ).id("forge_frontier:shaped/storage_magnet_upgrade");        
+
         // Sophisticated Backpacks Upgrade Base Recipe
         event.remove({ id: "sophisticatedbackpacks:upgrade_base" });
         event.shaped(

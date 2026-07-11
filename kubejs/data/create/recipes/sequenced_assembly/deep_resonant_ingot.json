@@ -1,0 +1,47 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "resonant_synthesis:ingot_of_the_deeper"
+  },
+  "transitionalItem": {
+    "item": "resonant_synthesis:ingot_of_the_deeper"
+  },
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "resonant_synthesis:ingot_of_the_deeper"
+        },
+        {
+          "fluid": "resonant_synthesis:resonarium",
+          "amount": 250
+        }
+      ],
+      "results": [
+        {
+          "item": "resonant_synthesis:ingot_of_the_deeper"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "resonant_synthesis:ingot_of_the_deeper"
+        }
+      ],
+      "results": [
+        {
+          "item": "resonant_synthesis:ingot_of_the_deeper"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "item": "resonant_synthesis:otherside_ingot"
+    }
+  ],
+  "loops": 1
+}

@@ -1,15 +1,12 @@
 {
-  "enderchests": {
-    "hud": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage": true,
     "item_storage.normal_amount": 9,
+    "item_storage": true,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -61,9 +58,6 @@
   "create_mechanical_chicken": {
     "data": true
   },
-  "cagedmobs": {
-    "cagedmobs_jade": true
-  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
@@ -77,11 +71,9 @@
   "entangled": {
     "entangled_block_component": true
   },
-  "endertanks": {
-    "hud.basic": true,
-    "hud": true,
-    "hud.status": true,
-    "hud.contents": true
+  "extrastorage": {
+    "crafter": true,
+    "advanced_crafter": true
   },
   "collectorsreap": {
     "crop_progress": true
@@ -94,10 +86,6 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "expatternprovider": {
-    "jade_chamber": true,
-    "jade_wireless": true
-  },
   "create_mob_spawners": {
     "spawner_progress": true
   },
@@ -108,28 +96,11 @@
   "balm": {
     "jade": true
   },
-  "ae2": {
-    "part_icon": true,
-    "charger": true,
-    "debug": true,
-    "part_tooltip": true,
-    "grid_node_state": true,
-    "pattern_provider": true,
-    "part_mod_name": true,
-    "power_storage": true,
-    "crafting_monitor": true,
-    "part_name": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
   "jadeaddons.lootr": {
     "info": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
   },
   "easy_villagers": {
     "villager": true,

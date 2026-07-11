@@ -4,11 +4,8 @@ ServerEvents.recipes(function (event) {
 
     // --- Block Casting Section (Fluid → Block only) ---
     var basinCasts = [
-        { name: "bismuth", fluid: "forge_frontier:molten_bismuth", result: "enlightened_end:bismuth_block" },
         { name: "calorite", fluid: "forge_frontier:molten_calorite", result: "ad_astra:calorite_block" },
         { name: "desh", fluid: "forge_frontier:molten_desh", result: "ad_astra:desh_block" },
-        { name: "irradium", fluid: "forge_frontier:molten_irradium", result: "enlightened_end:irradium_block" },
-        { name: "malachite", fluid: "forge_frontier:molten_malachite", result: "enlightened_end:malachite_block" },
         { name: "ostrum", fluid: "forge_frontier:molten_ostrum", result: "ad_astra:ostrum_block" },
         { name: "etrium", fluid: "forge_frontier:molten_etrium", result: "ad_astra:etrium_block" },
         { name: "emerald", fluid: "forge_frontier:molten_emerald", result: "minecraft:emerald_block" },
@@ -28,7 +25,9 @@ ServerEvents.recipes(function (event) {
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", result: "create_better_motors:reggarfonite_block" },
         { name: "coal", fluid: "forge_frontier:molten_carbon", result: "minecraft:coal_block" },
         { name: "bronze", fluid: "createmetallurgy:molten_bronze", result: "create_dd:bronze_block" },
-        { name: "dielectric", fluid: "forge_frontier:molten_dielectric_paste", result: "forge_frontier:dielectric_paste_block" },
+        { name: "void_steel", fluid: "createmetallurgy:molten_void_steel", result: "createutilities:void_steel_block" },
+        { name: "luxite", fluid: "forge_frontier:molten_luxite", result: "endelurgy:luxite_block"},
+        { name: "adamantite", fluid: "forge_frontier:molten_adamantite", result: "endelurgy:adamantite_block"},
 
         // Hyper Experience – special amount (27 mB instead of 810)
         { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", result: "create_enchantment_industry:hyper_experience_block", amount: 27 },
@@ -59,12 +58,8 @@ ServerEvents.recipes(function (event) {
         { name: "tin_casing", fluid: "createmetallurgy:molten_tin", solid: { tag: "forge:stripped_logs" }, result: "create_dd:tin_casing", amount: INGOT_MB, time: 70 },
         { name: "netherite_casing", fluid: "createmetallurgy:molten_netherite", solid: { tag: "forge_frontier:netherite_casing_application" }, result: "create_dd:netherite_casing", amount: INGOT_MB, time: 70 },
         { name: "steel_casing", fluid: "createmetallurgy:molten_steel", solid: { tag: "forge:stone" }, result: "create_dd:steel_casing", amount: INGOT_MB, time: 70 },
-        { name: "steel_rocket_casing", fluid: "createmetallurgy:molten_steel", solid: { tag: "forge_frontier:netherite_casing_application" }, result: "forge_frontier:steel_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "desh_rocket_casing", fluid: "forge_frontier:molten_desh", solid: { item: "forge_frontier:steel_rocket_casing" }, result: "forge_frontier:desh_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "ostrum_rocket_casing", fluid: "forge_frontier:molten_ostrum", solid: { item: "forge_frontier:desh_rocket_casing" }, result: "forge_frontier:ostrum_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "calorite_rocket_casing", fluid: "forge_frontier:molten_calorite", solid: { item: "forge_frontier:ostrum_rocket_casing" }, result: "forge_frontier:calorite_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "malachite_rocket_casing", fluid: "forge_frontier:molten_malachite", solid: { item: "forge_frontier:calorite_rocket_casing" }, result: "forge_frontier:malachite_rocket_casing", amount: INGOT_MB, time: 70 },
-        { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 }
+        { name: "gilded_blackstone", fluid: "createmetallurgy:molten_gold", solid: { item: "minecraft:blackstone"}, result: "minecraft:gilded_blackstone", amount: INGOT_MB, time: 70 },
+        { name: "void_casing", fluid: "createmetallurgy:molten_void_steel", solid: { item: "minecraft:obsidian"}, result: "createutilities:void_casing", amount: INGOT_MB, time: 70 }
     ];
 
     casingCasts.forEach(function (cast) {

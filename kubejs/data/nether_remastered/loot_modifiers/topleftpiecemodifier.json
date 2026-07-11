@@ -1,0 +1,10 @@
+{
+  "type": "nether_remastered:nether_remastered_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": ""
+    }
+  ],
+  "lootTable": "nether_remastered:chests/top_left_piece"
+}

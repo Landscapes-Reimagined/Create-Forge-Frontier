@@ -1,0 +1,29 @@
+{
+  "type": "sophisticatedstorage:generic_wood_storage",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:limited_barrel_1"
+    }
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lever"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "PSP",
+    "PLP",
+    "PPP"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:limited_barrel_1",
+    "nbt": "{woodType:\"spruce\"}"
+  }
+}

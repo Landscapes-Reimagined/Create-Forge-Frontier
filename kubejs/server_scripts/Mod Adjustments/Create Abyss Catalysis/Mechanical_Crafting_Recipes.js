@@ -14,7 +14,7 @@ ServerEvents.recipes(event =>
                 key: {
                     S: Ingredient.of('minecraft:sculk').toJson(),
                     D: Ingredient.of('deeperdarker:sculk_stone').toJson(),
-                    T: Ingredient.of('mob_grinding_utils:tank').toJson(),
+                    T: Ingredient.of('railways:fuel_tank').toJson(),
                     B: Ingredient.of('create:basin').toJson(),
                     s: Ingredient.of('minecraft:sculk_sensor').toJson(),
                     C: Ingredient.of('create_dd:steel_casing').toJson(),

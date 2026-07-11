@@ -3,8 +3,6 @@ ServerEvents.recipes(function (event) {
         { name: 'bismuth', fluid: 'forge_frontier:molten_bismuth' },
         { name: 'calorite', fluid: 'forge_frontier:molten_calorite' },
         { name: 'desh', fluid: 'forge_frontier:molten_desh' },
-        { name: 'irradium', fluid: 'forge_frontier:molten_irradium' },
-        { name: 'malachite', fluid: 'forge_frontier:molten_malachite' },
         { name: 'ostrum', fluid: 'forge_frontier:molten_ostrum' },
         { name: 'verdantine', fluid: 'forge_frontier:molten_emerald' },
         { name: 'glacium', fluid: 'forge_frontier:molten_diamond' },
@@ -14,8 +12,6 @@ ServerEvents.recipes(function (event) {
         { name: 'pyroclast', fluid: 'forge_frontier:molten_calorite' },
         { name: 'frostite', fluid: 'forge_frontier:molten_etrium' },
         { name: 'stellaris', fluid: 'forge_frontier:molten_ostrum' },
-        { name: 'radiantite', fluid: 'forge_frontier:molten_irradium' },
-        { name: 'shale', fluid: 'forge_frontier:molten_malachite' },
         { name: 'palerock', fluid: 'forge_frontier:molten_bismuth' },
         { name: 'guanite', fluid: 'forge_frontier:molten_guano' },
         { name: 'pearlyte', fluid: 'forge_frontier:molten_pearl' },
@@ -26,15 +22,13 @@ ServerEvents.recipes(function (event) {
         { name: 'sulphite', fluid: 'forge_frontier:molten_sulfur' },
         { name: 'reggarfonite', fluid: 'forge_frontier:molten_reggarfonite' },
         { name: 'tin', fluid: 'createmetallurgy:molten_tin' },
-        { name: 'coal', fluid: 'forge_frontier:molten_carbon'}
+        { name: 'coal', fluid: 'forge_frontier:molten_carbon'},
+        { name: 'luxite', fluid: 'forge_frontier:molten_luxite'},
+        { name: 'adamantite', fluid: 'forge_frontier:molten_adamantite'}
     ];
 
     // Hardcoded storage blocks not covered by forge tags
     var specialBlocks = {
-        // Enlightened End
-        bismuth: { item: "enlightened_end:bismuth_block", fluid: "forge_frontier:molten_bismuth" },
-        irradium: { item: "enlightened_end:irradium_block", fluid: "forge_frontier:molten_irradium" },
-        malachite: { item: "enlightened_end:malachite_block", fluid: "forge_frontier:molten_malachite" },
 
         // Vanilla
         diamond: { item: "minecraft:diamond_block", fluid: "forge_frontier:molten_diamond" },

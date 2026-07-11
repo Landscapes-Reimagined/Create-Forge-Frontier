@@ -11,16 +11,16 @@ ServerEvents.recipes(event =>
             { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast', result: 'ad_astra:calorite_ingot' },
             { name: 'crushed_frostite', input: 'forge_frontier:crushed_frostite', result: 'ad_astra:etrium_ingot' },
             { name: 'crushed_stellaris', input: 'forge_frontier:crushed_stellaris', result: 'ad_astra:ostrum_ingot' },
-            { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite', result: 'enlightened_end:depleted_irradium_bar' },
-            { name: 'crushed_shale', input: 'forge_frontier:crushed_shale', result: 'enlightened_end:malachite' },
-            { name: 'crushed_palerock', input: 'forge_frontier:crushed_palerock', result: 'enlightened_end:bismuth_ingot' },
             { name: 'crushed_guanite', input: 'forge_frontier:crushed_guanite', result: 'alexscaves:guano' },
             { name: 'crushed_pearlyte', input: 'forge_frontier:crushed_pearlyte', result: 'alexscaves:pearl' },
             { name: 'crushed_amberlite', input: 'forge_frontier:crushed_amberlite', result: 'alexscaves:amber' },
             { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium', result: 'alexscaves:azure_neodymium_ingot' },
             { name: 'crushed_neodymrium', input: 'forge_frontier:crushed_neodymrium', result: 'alexscaves:scarlet_neodymium_ingot' },
             { name: 'crushed_uraniumnite', input: 'forge_frontier:crushed_uraniumnite', result: 'alexscaves:uranium' },
-            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite', result: 'alexscaves:sulfur_dust' }
+            { name: 'crushed_sulphite', input: 'forge_frontier:crushed_sulphite', result: 'alexscaves:sulfur_dust' },
+            { name: 'crushed_noxrock', input: "forge_frontier:crushed_noxrock", result: "endelurgy:luxite"},
+            { name: 'crushed_endritus', input: "forge_frontier:crushed_endritus", result: "endelurgy:adamantite_ingot"},
+            { name: 'crushed_gneiss', input: "forge_frontier:crushed_gneiss", result: "createmetallurgy:tungsten_ingot"},
         ];
 
         // Loop to create the blasting recipes
@@ -42,9 +42,6 @@ ServerEvents.recipes(event =>
             { name: 'crushed_aubrum', input: 'forge_frontier:crushed_aubrum_pile', result: 'ad_astra:desh_block' },
             { name: 'crushed_pyroclast', input: 'forge_frontier:crushed_pyroclast_pile', result: 'ad_astra:calorite_block' },
             { name: 'crushed_stellaris', input: 'forge_frontier:crushed_stellaris_pile', result: 'ad_astra:ostrum_block' },
-            { name: 'crushed_radiantite', input: 'forge_frontier:crushed_radiantite_pile', result: 'enlightened_end:irradium_block' },
-            { name: 'crushed_shale', input: 'forge_frontier:crushed_shale_pile', result: 'enlightened_end:malachite_block' },
-            { name: 'crushed_palerock', input: 'forge_frontier:crushed_palerock_pile', result: 'enlightened_end:bismuth_block' },
             { name: 'crushed_guanite', input: 'forge_frontier:crushed_guanite_pile', result: 'alexscaves:guano_block' },
             { name: 'crushed_pearlyte', input: 'forge_frontier:crushed_pearlyte_pile', result: 'alexscaves:block_of_pearl' },
             { name: 'crushed_azurnium', input: 'forge_frontier:crushed_azurnium_pile', result: 'alexscaves:block_of_azure_neodymium' },

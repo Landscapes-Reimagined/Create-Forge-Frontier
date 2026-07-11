@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "forge:storage_blocks/netherite"
+    },
+    "b": {
+      "item": "extrastorage:diamond_crafter"
+    },
+    "c": {
+      "item": "extrastorage:neural_processor"
+    },
+    "v": {
+      "item": "create_bs:netherite_item_vault"
+    }
+  },
+  "pattern": [
+    "ava",
+    "cbc",
+    "a a"
+  ],
+  "result": {
+    "item": "extrastorage:netherite_crafter"
+  },
+  "show_notification": true
+}

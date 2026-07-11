@@ -16,9 +16,6 @@ function createCompressedBlock(event, material, level) {
 
 // List of materials
 const materials = [
-    'Malachite',
-    'Irradium',
-    'Bismuth',
     'Desh',
     'Ostrum',
     'Calorite',
@@ -37,8 +34,12 @@ const materials = [
     'Netherite-Gold',
     'Netherite-Emerald',
     'Netherite-Diamond',
-    'Star_Infused_Netherite',
-    'Etrium', 
+    'Etrium',
+    'Tin',
+    'Echo_Shard',
+    'Luxite',
+    'Tungsten',
+    'Adamantite',
 
     // New Compressed Create Blocks
     'Cogwheel_Block',

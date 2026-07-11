@@ -11,17 +11,6 @@ ServerEvents.recipes(event =>
             result: 'create_dd:tin_block'
         }).id('forge_frontier:smelting/crushed_tin_pile')
     
-         // Crushed Bismuth Pile Smelting Recipe
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_bismuth_pile'
-            },
-            result: 'enlightened_end:bismuth_block'
-        }).id('forge_frontier:smelting/crushed_bismuth_pile')
-
         // Crushed Calorite Pile Smelting Recipe
         event.custom({
             type: "minecraft:smelting",
@@ -43,28 +32,6 @@ ServerEvents.recipes(event =>
             },
             result: 'ad_astra:desh_block'
         }).id('forge_frontier:smelting/crushed_desh_pile')
-
-        // Crushed Irradium Pile Smelting Recipe
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_irradium_pile'
-            },
-            result: 'enlightened_end:irradium_block'
-        }).id('forge_frontier:smelting/crushed_irradium_pile')
-
-        // Crushed Malachite Pile Smelting Recipe
-        event.custom({
-            type: "minecraft:smelting",
-            cookingtime: 200,
-            experience: 0.1,
-            ingredient: {
-                item: 'forge_frontier:crushed_malachite_pile'
-            },
-            result: 'enlightened_end:malachite_block'
-        }).id('forge_frontier:smelting/crushed_malachite_pile')
 
         // Crushed Ostrum Pile Smelting Recipe
         event.custom({

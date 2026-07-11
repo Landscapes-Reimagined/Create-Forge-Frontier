@@ -1,9 +1,0 @@
-{
-  "replace": true,
-  "values": [
-    "repurposed_structures:outposts_nether",
-    "repurposed_structures:villages_nether",
-    "repurposed_structures:ancient_cities_nether",
-    "minecraft:nether_complexes"
-  ]
-}

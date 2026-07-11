@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:stack_upgrade_tier_3"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_block"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "S": {
+      "item": "sophisticatedstorage:stack_upgrade_tier_2"
+    }
+  },
+  "pattern": [
+    "GGG",
+    "GSG",
+    "BGB"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:stack_upgrade_tier_3"
+  }
+}

@@ -34,30 +34,6 @@
 		fps = true
 
 [[modules_left]]
-	name = "graphics"
-	name_color = 16755200
-	value_color = 5636095
-	enabled = true
-
-	[modules_left.lines]
-		render_distance = true
-		graphics = true
-		clouds = true
-		biome_blend_radius = true
-		shader = true
-
-[[modules_left]]
-	name = "server"
-	name_color = 11184810
-	value_color = 16777045
-	enabled = true
-
-	[modules_left.lines]
-		server_tick = true
-		packets_sent = true
-		packets_received = true
-
-[[modules_left]]
 	name = "coords"
 	name_color = 16733525
 	color_x = 16733525
@@ -152,4 +128,17 @@
 		fluid_tags = true
 		nothing2 = true
 		targeted_entity = true
+
+[[modules_right]]
+	name = "help"
+	name_color = 16645526
+	value_color = 5636095
+	enabled_color = 5635925
+	disabled_color = 16733525
+	enabled = true
+
+	[modules_right.lines]
+		pie_graph = true
+		fps_tps = true
+		help = true
 

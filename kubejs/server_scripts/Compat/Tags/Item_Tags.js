@@ -1,5 +1,36 @@
 ServerEvents.tags('item', event => 
     {
+        // Rare Package Tag
+            event.add('create:packages/rare',
+                ['create:rare_creeper_package', 'create:rare_darcy_package', 'create:rare_evan_package', 'create:rare_jinx_package', 'create:rare_kryppers_package', 'create:rare_simi_package', 'create:rare_starlotte_package', 'create:rare_thunder_package', 'create:rare_vector_package', 'createmetallurgy:restingphantom_transfer_ladle', 'createmetallurgy:the_cooler_transfer_ladle', 'createqol:rare_iglee_package', 'createqol:rare_furti_package', 'createqol:rare_delta_package']
+            )
+        // Removes Infinity Ham for Relic Tags
+            event.remove( 'rarcompat:mimic_loot', 'relics:infinity_ham' )
+            event.remove( 'rarcompat:mimificable', 'relics:infinity_ham' )
+            
+        // Remove Excess Curios Tag
+            event.remove('curios:curio', [
+                    "universalgrid:wireless_universal_grid",
+                    "universalgrid:creative_wireless_universal_grid",
+                    "refinedstorage:wireless_grid",
+                    "refinedstorage:creative_wireless_grid",
+                    "refinedstorage:wireless_fluid_grid",
+                    "refinedstorage:creative_wireless_fluid_grid",
+                    "refinedstorage:wireless_crafting_monitor",
+                    "refinedstorage:creative_wireless_crafting_monitor",
+                    "refinedstorageaddons:wireless_crafting_grid",
+                    "refinedstorageaddons:creative_wireless_crafting_grid"
+                 ])
+
+        // Remove Excess Curios Belt Tag
+            event.remove('curios:belt', "toms_storage:ts.adv_wireless_terminal")
+
+        // Black Steel Sword tag
+            event.add('forge:tools/swords/black_steel', 'cataclysm:black_steel_sword')
+
+        // Black Steel Block tag
+            event.add('forge:storage_blocks/black_steel', 'cataclysm:black_steel_block')
+            
         // Chipped Tables
             event.add('forge_frontier:chipped_tables',[
                 "chipped:botanist_workbench",
@@ -26,10 +57,7 @@ ServerEvents.tags('item', event =>
                 "buildinggadgets2:gadget_cut_paste",
                 "buildinggadgets2:gadget_destruction"
             ])
-
-        // Industial Iron Tag
-            event.add('forge:ingots/industrial_iron', 'createdeco:industrial_iron_ingot')
-            
+           
         // Brass Chunk Loader Tag
             event.add('forge_frontier:chunk_loader/brass', [
                 'create_power_loader:brass_chunk_loader',
@@ -92,14 +120,6 @@ ServerEvents.tags('item', event =>
 
         // Adds Missing Tag for Trim Recipes
             event.add("forge:polished_diamond", "minecraft:diamond")
-
-        // New Nugget Tag
-            event.add("forge:nuggets/industrial_iron", 'createdeco:industrial_iron_nugget')
-
-        // New Sheet Tags
-            event.add("forge:plates/zinc", 'createdeco:zinc_sheet')
-            event.add("forge:plates/andesite_alloy", 'createdeco:andesite_sheet')
-            event.add("forge:plates/industrial_iron", 'createdeco:industrial_iron_sheet')
 
         // Neodymium Ingot Tag
             event.add("forge_frontier:ingot/neodymium", [
@@ -232,39 +252,25 @@ ServerEvents.tags('item', event =>
         // Adds Charm Tag to Woopie Cushion
             event.add("curios:charm", "artifacts:whoopee_cushion")
 
-        // Freeze Resistance Tag
-            event.add("ad_astra:freeze_resistant_armor",[
-                "advanced_ae:quantum_helmet",
-                "advanced_ae:quantum_chestplate",
-                "advanced_ae:quantum_leggings",
-                "advanced_ae:quantum_boots",
-            ])
-
-        // Heat Resistant Armor Tag
-            event.add("ad_astra:heat_resistant_armor",[
-                "advanced_ae:quantum_helmet",
-                "advanced_ae:quantum_chestplate",
-                "advanced_ae:quantum_leggings",
-                "advanced_ae:quantum_boots",
-            ])
-
-        // Create Nuclear Anti Radiation Tag
-            event.add("createnuclear:all_anti_radiation_armors",[
-                "advanced_ae:quantum_helmet",
-                "advanced_ae:quantum_chestplate",
-                "advanced_ae:quantum_leggings",
-                "advanced_ae:quantum_boots",
-            ])
+        // Radioactive Tag
+            event.add("tact:radioactive_and_acid_resistant_armor", "#create_new_age:hazmat_suit")
 
         // Hazmat Protection Tag
-            event.add("create_new_age:nuclear/hazmat_suit",
-                "#ad_astra:freeze_resistant_armor"
-            )
+            event.add("create_new_age:hazmat_suit",
+                [
+                    "#ad_astra:freeze_resistant_armor",
+                    "alexscaves:hazmat_mask",
+                    "alexscaves:hazmat_chestplate",
+                    "alexscaves:hazmat_leggings",
+                    "alexscaves:hazmat_boots"
+                ])
 
         // Freeze Immune Equipment
-            event.add("minecraft:freeze_immune_wearables",
-                "#ad_astra:freeze_resistant_armor"
-            )
+            event.add("minecraft:freeze_immune_wearables", 
+                [
+                    "#ad_astra:freeze_resistant_armor",
+                    '#tact:radioactive_and_acid_resistant_armor'
+                ])
 
         // Netherite Casing Tag
             event.add("forge_frontier:netherite_casing_application",[
@@ -282,10 +288,9 @@ ServerEvents.tags('item', event =>
             event.add("excavated_variants:stone_stones",[
                 "forge_frontier:amberlite", "forge_frontier:aubrum", "forge_frontier:azurnium", "forge_frontier:frostite",
                 "forge_frontier:glacium", "forge_frontier:guanite", "forge_frontier:neodymrium", "forge_frontier:pearlyte",
-                "forge_frontier:pyroclast", "forge_frontier:radiantite", "forge_frontier:stellaris",
-                "forge_frontier:sulphite", "forge_frontier:verdantine", "forge_frontier:uraniumnite",
-                "enlightened_end:palerock", "create_dd:potassic", "deeperdarker:sculk_grime",
-                "enlightened_end:void_shale", "forge_frontier:resonite"
+                "forge_frontier:pyroclast", "forge_frontier:stellaris",
+                "forge_frontier:sulphite", "forge_frontier:verdantine", "forge_frontier:uraniumnite","create_dd:potassic", "deeperdarker:sculk_grime",
+                "forge_frontier:resonite"
             ])
         
         // Create Additions Plant Tag
@@ -301,15 +306,6 @@ ServerEvents.tags('item', event =>
                 "ad_astra_rocketed:tier_6_rocket",
                 "ad_astra_rocketed:tier_7_rocket",
                 "ad_astra_giselle_addon:lander_icon"
-            ])
-
-        // AE Terminal Tags
-            event.add("ae2:terminals", [
-                "ae2:wireless_crafting_terminal",
-                "ae2wtlib:wireless_pattern_encoding_terminal",
-                "ae2wtlib:wireless_pattern_access_terminal",
-                "ae2wtlib:wireless_universal_terminal",
-                "expatternprovider:wireless_ex_pat"
             ])
 
         // Filling Tank Tags
@@ -377,7 +373,20 @@ ServerEvents.tags('item', event =>
             ])
 
         // New Curious Terminals Tags
-            event.add("curios:terminals", "#ae2:terminals")
+            event.add("curios:terminals",
+                 [
+                    "universalgrid:wireless_universal_grid",
+                    "universalgrid:creative_wireless_universal_grid",
+                    "refinedstorage:wireless_grid",
+                    "refinedstorage:creative_wireless_grid",
+                    "refinedstorage:wireless_fluid_grid",
+                    "refinedstorage:creative_wireless_fluid_grid",
+                    "refinedstorage:wireless_crafting_monitor",
+                    "refinedstorage:creative_wireless_crafting_monitor",
+                    "refinedstorageaddons:wireless_crafting_grid",
+                    "refinedstorageaddons:creative_wireless_crafting_grid",
+                    "toms_storage:ts.adv_wireless_terminal"
+                 ])
 
         // New Curios Oxgyen Cans Tags
             event.add("curios:oxygen_cans", "#ad_astra_gisselle_addon:oxygen_cans")
@@ -436,12 +445,13 @@ ServerEvents.tags('item', event =>
                 "forge_frontier:sulphite", 
                 "forge_frontier:verdantine", 
                 "forge_frontier:uraniumnite",
-                "enlightened_end:palerock", 
                 "create_dd:potassic", 
                 "deeperdarker:sculk_grime",
-                "enlightened_end:void_shale", 
                 "minecraft:ancient_debris", 
                 "forge_frontier:resonite",
+                "endelurgy:noxrock",
+                "endelurgy:endritus",
+                "unusualend:gneiss"
             ];
 
             createStones.forEach(stone => {
@@ -482,18 +492,6 @@ ServerEvents.tags('item', event =>
             event.add("forge:small_cacti",[
                 "creeperoverhaul:tiny_cactus",
                 "regions_unexplored:barrel_cactus"
-            ]);
-
-        // Cassette Tape
-            event.add("iammusicplayer:cassette_tape",[
-                "iammusicplayer:cassette_tape",
-                "iammusicplayer:cassette_tape_glass"
-            ]);
-
-        // Cerulean Stalk Block
-            event.add("enlightened_end:cerulean_stalk_blocks",[
-                "enlightened_end:cerulean_log",
-                "enlightened_end:stripped_cerulean_log"
             ]);
 
         // Magnolia Logs
@@ -542,11 +540,6 @@ ServerEvents.tags('item', event =>
             event.add("forge:ores/coal", "alexscaves:coprolith_coal_ore");
             event.add("forge:ores/uranium", "alexscaves:radrock_uranium_ore");
 
-        // Enlightened End Ores
-            event.add("forge:ores/bismuth", "enlightened_end:bismuth_ore");
-            event.add("forge:ores/irradium", "enlightened_end:irradium_ore");
-            event.add("forge:ores/malachite", "enlightened_end:malachite_ore");
-
         // Forge Templates/Smithing
             event.add("forge:templates/smithing", [
                 "minecraft:netherite_upgrade_smithing_template", 
@@ -554,8 +547,7 @@ ServerEvents.tags('item', event =>
                 "forge_frontier:netherite_gold_upgrade", 
                 "forge_frontier:netherite_emerald_upgrade",
                 "forge_frontier:netherite_diamond_upgrade", 
-                "cataclysm:ignitium_upgrade_smithing_template",
-                "enlightened_end:adamantite_smithing_template", 
+                "cataclysm:ignitium_upgrade_smithing_template", 
                 "endreborn:mysterious_upgrade_template", 
                 "endreborn:curious_upgrade_template", 
                 "deeperdarker:warden_upgrade_smithing_template", 
@@ -581,9 +573,6 @@ ServerEvents.tags('item', event =>
                 "crushed_desh", 
                 "crushed_ostrum", 
                 "crushed_calorite", 
-                "crushed_bismuth", 
-                "crushed_irradium", 
-                "crushed_malachite",
                 "crushed_redstone", 
                 "crushed_verdantine", 
                 "crushed_glacium", 
@@ -593,9 +582,6 @@ ServerEvents.tags('item', event =>
                 "crushed_pyroclast", 
                 "crushed_frostite", 
                 "crushed_stellaris", 
-                "crushed_radiantite", 
-                "crushed_shale",
-                "crushed_palerock", 
                 "crushed_guanite", 
                 "crushed_pearlyte", 
                 "crushed_amberlite", 
@@ -664,7 +650,7 @@ ServerEvents.tags('item', event =>
                 "forge_frontier:ostrum_rocket_casing",
                 "forge_frontier:calorite_rocket_casing",
                 "forge_frontier:primal_magma_rocket_casing",
-                "forge_frontier:malachite_rocket_casing",
+                "forge_frontier:enderite_rocket_casing",
             ]);
 
         // Knife Tags
@@ -686,15 +672,12 @@ ServerEvents.tags('item', event =>
             event.add("forge:ingots",[
                 "create_ethium:ethium_ingot",
                 "createcasing:chorium_ingot",
-                "createdeco:industrial_iron_ingot",
                 "forge_frontier:overcharged_netherite_ingot",
                 "alexscaves:scarlet_neodymium_ingot",
                 "alexscaves:azure_neodymium_ingot",
                 "endreborn:tungsten_ingot",
                 "endreborn:endorium_ingot",
                 "createutilities:void_steel_ingot",
-                "enlightened_end:adamantite_ingot",
-                "enlightened_end:bismuth_ingot",
                 "cataclysm:cursium_ingot",
                 "cataclysm:ignitium_ingot",
                 "cataclysm:black_steel_ingot",

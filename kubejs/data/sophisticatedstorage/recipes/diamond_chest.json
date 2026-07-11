@@ -1,0 +1,25 @@
+{
+  "type": "sophisticatedstorage:storage_tier_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:diamond_chest"
+    }
+  ],
+  "key": {
+    "D": {
+      "item": "create_dd:bronze_ingot"
+    },
+    "S": {
+      "item": "sophisticatedstorage:gold_chest"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DSD",
+    "DDD"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:diamond_chest"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#forge_frontier:deeper_darker_vein",
+  "biomes": "deeperdarker:blooming_caverns",
   "features": [
     "create_resource_vents:placed_resonite_vent"
   ],

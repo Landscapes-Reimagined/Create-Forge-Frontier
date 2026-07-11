@@ -50,12 +50,13 @@ ServerEvents.recipes(event =>
                     'RR RR',
                     'R A R',
                     'RR RR',
-                    ' RRR '
+                    ' RJR '
                 ],
                 key: {
                     R: Ingredient.of('create_compressed:rose_quartz_polished_block').toJson(),
                     N: Ingredient.of('forge_frontier:overcharged_netherite_block').toJson(),
-                    A: Ingredient.of('angelring:angel_ring').toJson()
+                    A: Ingredient.of('angelring:angel_ring').toJson(),
+                    J: Ingredient.of('create_sa:netherite_jetpack_chestplate').toJson()
                 },
                 result: Ingredient.of('angelring:energetic_angel_ring').toJson(),
                 acceptMirrored: false

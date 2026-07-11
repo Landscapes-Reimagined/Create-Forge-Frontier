@@ -1,0 +1,1452 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "37A1080736831E36"
+	icon: "extrastorage:disk_16384k"
+	id: "07C976892BBBECC6"
+	images: [{
+		height: 10.0d
+		image: "ftb:textures/refined_storage.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -0.5d
+		y: -11.5d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Moon gravel, processed from moon stone found on the moon contains the raw resource required to create Silicon. A base ingredient in developing digital technologies. Extract it and build on from there!"]
+			icon: "refinedstorage:silicon"
+			id: "45EFAF44704837D5"
+			rewards: [{
+				count: 32
+				id: "56E998C87C1E82CB"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A520B69BC46D3C8"
+					item: "forge_frontier:moon_gravel"
+					type: "item"
+				}
+				{
+					id: "47200DBE7816BF01"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			description: ["The base material for all processors in Refined Storage. "]
+			id: "089684A82CFD78E3"
+			rewards: [{
+				count: 16
+				id: "130DD4052DD1591E"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7438915FC91C6778"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"089684A82CFD78E3"
+				"45EFAF44704837D5"
+			]
+			description: ["The very first beginner processor. Used in some of the earliest stages in your digital storage system."]
+			id: "667A728D7A64B312"
+			rewards: [{
+				count: 8
+				id: "34CAD42260A47441"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FD82BA09D4C7029"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["667A728D7A64B312"]
+			description: ["The second stage of processor technology! Used in the more advanced logistics and control equipment for the digital system."]
+			id: "7EEECACB3CF28AE2"
+			rewards: [{
+				count: 8
+				id: "15A0BD0C89CA64BA"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "531D2C7AE1B9FBE3"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EEECACB3CF28AE2"]
+			description: ["The Advanced Processor is the third and penultimate step in processor technology. It grants access to powerful logistics options within the system such as colour coding, security and even wireless access."]
+			id: "117BCFE34C41DC49"
+			rewards: [{
+				count: 8
+				id: "25B1BA2819AC9236"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0869AF020BCBAF6C"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["117BCFE34C41DC49"]
+			description: ["The most advanced Processor in your storage setup. This grants access to powerful autocrafting uprades to process items even faster!"]
+			id: "57E51FFF0CEA6172"
+			rewards: [{
+				count: 8
+				id: "753DD0B62D932616"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23E93B3E33C655E0"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45EFAF44704837D5"]
+			description: [
+				"The most basic beginner unit for digital storage.. In Refined Storage there is no item type limited, a 1k storage item can store 1024 items, upgrades being counted in binary number jumps."
+				" "
+				"Use this part to craft into a drive or into a block."
+			]
+			id: "2FEAD1F3614172B6"
+			rewards: [{
+				id: "1BE37EC703DB379E"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29A7DBE2F9BD1E15"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2FEAD1F3614172B6"]
+			description: ["The 4k storage part leads to items that can store 4096 items, regardless of item types. The first upgrade from the 1k storage part."]
+			id: "4F8073EF6593BD7D"
+			rewards: [{
+				id: "0B2074E16DC6F725"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "531521E2FC6EDCF9"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4F8073EF6593BD7D"]
+			description: ["Storage blocks and drives made using the 16k component can store 16384 items regardless of types."]
+			id: "2291FC0B14AF94BC"
+			rewards: [{
+				id: "27B3507537992F4B"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "148AEE63905F7147"
+				item: { Count: 2, id: "refinedstorage:16k_storage_part" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2291FC0B14AF94BC"]
+			description: ["The 64k storage part will lead to a storage capacity of 65536 items regardless of type."]
+			id: "58D785190A33AD44"
+			rewards: [{
+				id: "3D129F6E97557D1A"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "284866D3D1FD8AF8"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58D785190A33AD44"]
+			description: ["The 256k component when crafted into a drive or block will store up to 262144 items regardless of item types. "]
+			id: "163EE2FED17DF32C"
+			rewards: [{
+				id: "04C9B5217C124F49"
+				item: "extrastorage:storagepart_256k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43F3B28E4E1A7C31"
+				item: "extrastorage:storagepart_256k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["163EE2FED17DF32C"]
+			description: ["Drives and blocks crafted using the 1024k part will provide a storage capacity of 1048576 items."]
+			id: "6163DD05DDF6B56E"
+			rewards: [{
+				id: "370A84ADBC2EB9F9"
+				item: "extrastorage:storagepart_1024k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "162AC71E69755B5E"
+				item: "extrastorage:storagepart_1024k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6163DD05DDF6B56E"]
+			description: ["This upgraded storage part will provide 4194304 item storage when turned into a drive or storage block."]
+			id: "52B024501AA56D25"
+			rewards: [{
+				id: "4C1C3F0F9028231E"
+				item: "extrastorage:storagepart_4096k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "579C1E182162A367"
+				item: "extrastorage:storagepart_4096k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52B024501AA56D25"]
+			description: ["The ultimate item storage part. Crafting a drive or storage block out of this component will contribute an item storage capacity of 16777216 items, regardless of type."]
+			id: "7E292C0270FE8E08"
+			rewards: [
+				{
+					id: "2FC154D6ED7FE3E6"
+					item: "extrastorage:storagepart_16384k"
+					type: "item"
+				}
+				{
+					id: "35B8EC7609E717B7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "0F2E2215D1167BC9"
+				item: "extrastorage:storagepart_16384k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["667A728D7A64B312"]
+			description: ["These chips are crafting components, that are used in any device that imports or exports from your storage system."]
+			id: "01102ABB3B3F4EF1"
+			rewards: [
+				{
+					count: 8
+					id: "6CC50D08B070B440"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "686FEADCF5407377"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5883D19B4E5F0257"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					id: "224FBF2AE60E4445"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			description: ["Quartz Enriched Iron is used in most Refined Storage network devices and components. It's a good idea to stock up on it before building your new storage system!"]
+			id: "15029CE6176E43DD"
+			rewards: [{
+				count: 4
+				id: "14C21E22F13FF054"
+				item: "refinedstorage:quartz_enriched_iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E6AEC577DF14A61"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15029CE6176E43DD"]
+			description: ["Cables are used to connect network devices to your storage network. A single cable can connect as many things as you need!"]
+			id: "0AA4D13589924084"
+			rewards: [{
+				count: 16
+				id: "09BE86DD38DD4ED1"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17C1F310994FD39A"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["15029CE6176E43DD"]
+			description: ["A simple casing used to house machinery components or storage parts."]
+			id: "52A7770B5CF4F0DB"
+			rewards: [{
+				count: 8
+				id: "008801143A374C2D"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05012A13A27609B4"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7EEECACB3CF28AE2"
+				"01102ABB3B3F4EF1"
+			]
+			description: [
+				"These are cable-attached components that handle container interaction with your network! Each is pretty self-explanatory. On each, you can right click with an empty hand to set up filters, and the filter slots can be expanded with upgrades."
+				""
+				"Flip to the next page to read more about each!"
+				""
+				""
+				""
+				"{@pagebreak}"
+				"Importer - Imports items into your storage system from the inventory it is attached to."
+				""
+				"Exporter - Exports items (set by it's filter) to the inventory it's attached to."
+				""
+				"External Storage - Uses the inventory it's connected to as a place to store items. Allows your storage system to interact with it as it would storage discs."
+				""
+				"Destructor - Breaks blocks in the world and imports the drops into your storage system."
+				""
+				"Constructor - Places blocks in the world from your storage system."
+			]
+			icon: "refinedstorage:importer"
+			id: "6D52CC43A0EF083E"
+			rewards: [
+				{
+					count: 8
+					id: "2F93F22CCDA62787"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "18F94FD379392953"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5657256B9893C17D"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "4DB3B53416C7FD12"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+				{
+					id: "3C0FFE67A1A85AAD"
+					item: "refinedstorage:external_storage"
+					type: "item"
+				}
+				{
+					id: "27D5747B40F117CC"
+					item: "refinedstorage:destructor"
+					type: "item"
+				}
+				{
+					id: "0C465FC351C41933"
+					item: "refinedstorage:constructor"
+					type: "item"
+				}
+			]
+			title: "Cable Parts"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D52CC43A0EF083E"]
+			description: ["These give double the filter space as a normal importer/exporter and improved speed!"]
+			icon: "extrastorage:advanced_importer"
+			id: "320A83D987854249"
+			rewards: [{
+				count: 8
+				id: "2BC75CA1CDC6A29F"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D09E5781D48B311"
+					item: "extrastorage:advanced_importer"
+					type: "item"
+				}
+				{
+					id: "49BF839F31AEBA37"
+					item: "extrastorage:advanced_exporter"
+					type: "item"
+				}
+			]
+			title: "Advanced Importing \\& Exporting"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"01102ABB3B3F4EF1"
+				"7EEECACB3CF28AE2"
+			]
+			description: ["The grid is the way you interact with your Refined Storage system. It provides a GUI where you can see all of your items and how many of them you have, and a search bar where you can look them up."]
+			id: "118EBA1966E23DE1"
+			rewards: [
+				{
+					count: 4
+					id: "2F299838D8D19DC2"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "10A578B50A9416C7"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			tasks: [{
+				id: "05700DB520C39083"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["01102ABB3B3F4EF1"]
+			description: ["{\"text\":\"This block allows you to display how many of a resource is inside of your storage system. You can set the resource by sneaking and right clicking on it, then placing the item in the slot.\"}"]
+			id: "65F7BD51158C74DB"
+			rewards: [
+				{
+					count: 4
+					id: "321650BFA11AAEFD"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7909A41971C4ACB4"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50C37D421C8540E6"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EEECACB3CF28AE2"]
+			description: [
+				"The Detector will output a redstone signal based on the amount of a specified resource within the storage network."
+				""
+				"The Crafting Emitter will output redstone when an item in the filter is being crafted."
+			]
+			id: "32374F97AD2EC499"
+			rewards: [
+				{
+					count: 4
+					id: "30E7A4A58C741ACB"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5A57964FFC5EC87A"
+					item: "refinedstorage:quartz_enriched_iron"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6CD0EF5AC081E177"
+					item: "refinedstorage:detector"
+					type: "item"
+				}
+				{
+					id: "66CC573B53F5734B"
+					item: "rsrequestify:crafting_emitter"
+					type: "item"
+				}
+			]
+			title: "Detecting and Emitting"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EEECACB3CF28AE2"]
+			description: ["This is the upgrade base. You can look in JEI to see what kinds of upgrades you can make!"]
+			id: "4427A3A839D949A5"
+			rewards: [{
+				count: 4
+				id: "1F02A5C1C78705D7"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59906438D234E369"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			title: "Upgrading"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"117BCFE34C41DC49"
+				"118EBA1966E23DE1"
+			]
+			description: ["An upgrade to the previous Grid. All functions are the same but it now has an added crafting system that can also be configured to pull from your inventory or directly from the system."]
+			id: "03BB2FE81305FDF9"
+			rewards: [{
+				count: 4
+				id: "0CEA5F3ADE634227"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CD313245BAD87D4"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			title: "Grid Upgrade"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"117BCFE34C41DC49"
+				"118EBA1966E23DE1"
+			]
+			description: [
+				"It's Autocrafting time!"
+				""
+				"Refined storage autocrafting is very simple, and split into two different categories of recipies - crafting and processing. You can change a recipe between the two with the checkbox at the bottom of the grid. Crafting recipies are for, well, normal crafting. "
+			]
+			icon: "refinedstorage:crafter"
+			id: "0B3F771B2D1CF021"
+			rewards: [
+				{
+					count: 16
+					id: "0AE91240B9C98A62"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "03A2212DFA9DC40C"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "202A28CE93BFE740"
+					item: "refinedstorage:pattern_grid"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7DB48040B4EE79EB"
+					item: {
+						Count: 8
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0BD8468F78AE459D"
+					item: "refinedstorage:crafter"
+					type: "item"
+				}
+			]
+			title: "Getting Started With Autocrafting"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["117BCFE34C41DC49"]
+			description: [
+				"This is the most compact form of digital storage available through Refined Storage. It accepts Storage Discs, which are crafted from storage parts, Each storage disk can store a number of items, the amount of which is determined by the teir of the storage part."
+				""
+				"The storage part teir can go up to 16384k in this pack, check the storage part quests for more information!"
+			]
+			id: "398E2EB1472CF371"
+			rewards: [
+				{
+					count: 4
+					id: "4E7FB53FBF71003B"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2077EEB8D3B1A446"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28ED69FC675CCCAE"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45EFAF44704837D5"]
+			description: ["Each bucket in minecraft is exactly 1000 millibuckets. The beginner 64k fluid storage part can store 64 of these buckets."]
+			id: "54CC8EECE224DDB5"
+			rewards: [{
+				id: "7FCCA64542461A3A"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77A50CF69ABC1CAB"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["54CC8EECE224DDB5"]
+			description: ["This first upgrade can store a maximum of 256 buckets when turned into a drive or block."]
+			id: "0879F649A4388C4D"
+			rewards: [{
+				id: "78675DDDA49F1046"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B842B06FE0346D9"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0879F649A4388C4D"]
+			description: ["Fluid drives and blocks made with this part will contribute 1024 buckets of capacity."]
+			id: "3B1AA01E691CF4B1"
+			rewards: [{
+				id: "53E032848EC9017D"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "306A8CFEAA5E33E4"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B1AA01E691CF4B1"]
+			description: ["This part will contribute 4096 buckets of storage capacity when inserted into a drive or block in your network."]
+			id: "1587D17ED1D376C8"
+			rewards: [{
+				id: "4D660BBDFC7BF238"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18D7343E0F2EF4CA"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1587D17ED1D376C8"]
+			description: ["A total of 16384 buckets can fit inside containers such as the drive or block when crafted using this part."]
+			id: "1FC8E3CC6906C255"
+			rewards: [{
+				id: "4F2AB16A2399C9F4"
+				item: "extrastorage:storagepart_16384k_fluid"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D600084D3A9C3E2"
+				item: "extrastorage:storagepart_16384k_fluid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FC8E3CC6906C255"]
+			description: ["65536 buckets in a single drive or block made using this part."]
+			id: "56AA7C8B464EF828"
+			rewards: [{
+				id: "69AD8754C402804B"
+				item: "extrastorage:storagepart_65536k_fluid"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AB1D873AD87DDE2"
+				item: "extrastorage:storagepart_65536k_fluid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56AA7C8B464EF828"]
+			description: ["The penultimate fluid storage part. Drives and blocks crafted wit this can store 262144 buckets."]
+			id: "416DBF0A6118A61C"
+			rewards: [{
+				id: "76FC111F6564EED3"
+				item: "extrastorage:storagepart_262144k_fluid"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E27EC349DED50C2"
+				item: "extrastorage:storagepart_262144k_fluid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["416DBF0A6118A61C"]
+			description: ["The ultimate storage for fluids... 1048576 buckets in a single drive or block. Thankfully it's digital (otherwise this would be denser than the sun's core)."]
+			id: "07925709A06B7A1C"
+			rewards: [{
+				id: "1DFB9F07E3EE5ABA"
+				item: "extrastorage:storagepart_1048576k_fluid"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62639B6D76AA7CFA"
+				item: "extrastorage:storagepart_1048576k_fluid"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0B3F771B2D1CF021"]
+			description: ["This block keeps resources in stock so that you never run out, by requesting their crafting recipies through your storage system!"]
+			id: "3158A9D4BF9BD8A4"
+			rewards: [
+				{
+					count: 8
+					id: "7B1AFF9EB4EE6914"
+					item: {
+						Count: 1
+						id: "refinedstorage:pattern"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "232BC394C89CFA02"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47636D2918ABF093"
+				item: "rsrequestify:requester"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D52CC43A0EF083E"]
+			description: ["This is a block that can both import into your stoarge system and export from it."]
+			id: "3483D429B8178D9B"
+			rewards: [
+				{
+					count: 8
+					id: "586830B8960B1CC4"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "002135639210B30D"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "59FEA19EF779A615"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B530563F4DEA510"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["117BCFE34C41DC49"]
+			description: ["This is the exact same as a Grid, but it only interfaces with the fluids you have in your storage sytem. You need to have some form of fluid storage attached to your system, be it tanks through external storage, fluid storage discs in your disk drives, or fluid storage blocks."]
+			id: "17019CCD1D459264"
+			rewards: [{
+				count: 4
+				id: "2018A721CCF9C2EF"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31CDAF97DC4ED558"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3483D429B8178D9B"]
+			description: ["Exactly like an interface but for importing and exporting of fluids from your storage system."]
+			id: "61EF669F64B04C52"
+			rewards: [{
+				count: 4
+				id: "60A3C74EF5BC44A7"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48083012F48CEFC5"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3158A9D4BF9BD8A4"]
+			description: ["Through CableTeirs, you can upgrade the requester! Each teir provides two new filter rows, and is faster than the last."]
+			id: "1115FC02948353E6"
+			rewards: [
+				{
+					count: 4
+					id: "64F537A5188150B0"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0273D95DB9CF5E7F"
+					item: "rsrequestify:requester"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CEEB4CD0491F543"
+				item: "cabletiers:elite_requester"
+				type: "item"
+			}]
+			title: "Upgraded Requesters"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0B3F771B2D1CF021"
+				"57E51FFF0CEA6172"
+			]
+			description: ["The crafter can be upgraded as well, each providing more slots and higher speeds."]
+			id: "0956D7D58078352C"
+			rewards: [{
+				count: 8
+				id: "3EF03B808103372D"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "161346F5A65A7B93"
+					item: "extrastorage:iron_crafter"
+					type: "item"
+				}
+				{
+					id: "49B12DC0FD0FA9D4"
+					item: "extrastorage:gold_crafter"
+					type: "item"
+				}
+				{
+					id: "27FBC0BA0D951241"
+					item: "extrastorage:diamond_crafter"
+					type: "item"
+				}
+				{
+					id: "771C4A72C2617E54"
+					item: "extrastorage:netherite_crafter"
+					type: "item"
+				}
+			]
+			title: "Upgraded Crafters"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["117BCFE34C41DC49"]
+			description: [
+				"The Network Transmitter and Reciever allow you to transmit your network over large distances without laying any cable between. "
+				""
+				"To connect the transmitter to a reciever, right-click the reciever with the network card and put it in your transmitter. Both sides of the connection must remain loaded for the connection to be active."
+			]
+			icon: "refinedstorage:network_card"
+			id: "0DE5E52E317D76DE"
+			rewards: [
+				{
+					id: "0AF2C20904FC8B96"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E550F5CE95E27B4"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5F232F9AD04A4F3C"
+					item: "refinedstorage:network_card"
+					type: "item"
+				}
+				{
+					id: "6ADE52D149D30951"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+				{
+					id: "5044A70BE16B1700"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+			]
+			title: "Transmitting Networks"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["117BCFE34C41DC49"]
+			description: [
+				"Now we can make a wireless antenna! This is what wireless grids connect to. It starts out with a &overy&r small range, but it can be increased with Range Upgrades. "
+				""
+				"In addition to the base grid, you also have access to the Universal Wireless Grid, which contains a Wireless Grid, Wireless Crafting Grid, and Wireless Fluid Grid."
+			]
+			icon: "refinedstorage:wireless_transmitter"
+			id: "0599FA05034040E9"
+			rewards: [
+				{
+					count: 8
+					id: "25B96E0DFB08FCD8"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7664830C90994E5A"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6C316FDFAE4BB45E"
+					item: "refinedstorage:wireless_transmitter"
+					type: "item"
+				}
+				{
+					id: "3A02A273EAC8B73B"
+					item: "refinedstorage:wireless_grid"
+					type: "item"
+				}
+			]
+			title: "Wireless Access"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0599FA05034040E9"
+				"773E6F5FC6DCFA3E"
+			]
+			description: ["This is used to increase the range of your terminal to all over your world, at least while your system is loaded. It does not function across dimensions."]
+			hide_dependency_lines: true
+			id: "3E6898926DE95608"
+			min_required_dependencies: 1
+			tasks: [{
+				id: "295EE7484C273663"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E6898926DE95608"]
+			description: ["This card will fully function across dimensions as long as it is chunkloaded. A true universal storage transmitter."]
+			id: "7980B05D8F7577E7"
+			tasks: [{
+				id: "244F30F62EB6A699"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0599FA05034040E9"]
+			description: [
+				"This functions as a Wireless Grid, Wireless Fluid Grid, and a Wireless Crafting Grid. Perfect for your multifacted on-the-go storage needs! "
+				""
+				"Depends on the presence of a transmitter and wireless card to function long range or across dimensions."
+			]
+			id: "1AA756630B5BA7D1"
+			rewards: [
+				{
+					count: 4
+					id: "651619598DADD8D8"
+					item: "refinedstorage:quartz_enriched_iron_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "444FA021DC22BF99"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FE3E85CFF98353A"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2FEAD1F3614172B6"]
+			description: [
+				"Convert your Storage Parts into Storage Disks or Storage Blocks so that you can store items with them!"
+				""
+				"Storage components can be extracted from Storage Blocks by sneak right clicking the item in the air."
+			]
+			icon: "refinedstorage:1k_storage_disk"
+			id: "1AA75E15A73234B4"
+			rewards: [
+				{
+					count: 4
+					id: "2A7A9D601292F745"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "38A4314D7A7BB2FE"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3C9E07C2567DB25A"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+				{
+					id: "2103279A85870B13"
+					item: "refinedstorage:1k_storage_block"
+					type: "item"
+				}
+			]
+			title: "Digital Storage"
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["54CC8EECE224DDB5"]
+			description: [
+				"Convert your Fluid Storage Parts into Discs or Blocks to store fluids with them!"
+				""
+				"The storage component can be withdrawn by sneak right clicking the block in the air."
+			]
+			icon: "refinedstorage:64k_fluid_storage_disk"
+			id: "7917F2FF3B410BA4"
+			rewards: [
+				{
+					count: 4
+					id: "66DD5CAA547BA712"
+					item: "refinedstorage:storage_housing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2548881256E49CE8"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3A4F18223F06D5BF"
+					item: "refinedstorage:64k_fluid_storage_disk"
+					type: "item"
+				}
+				{
+					id: "5CE6189B1FE8F83E"
+					item: "refinedstorage:64k_fluid_storage_block"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6D52CC43A0EF083E"]
+			description: ["The Elite teir of cable components are the same as the Advanced components, but they can be futher upgraded!"]
+			icon: "cabletiers:elite_exporter"
+			id: "0E84894127347CBA"
+			rewards: [{
+				count: 8
+				id: "7BA3FE13321B6E48"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "52EE300BCDA24253"
+					item: "cabletiers:elite_importer"
+					type: "item"
+				}
+				{
+					id: "23CF4E12FA048F57"
+					item: "cabletiers:elite_exporter"
+					type: "item"
+				}
+				{
+					id: "0FEC6A1DC829F739"
+					item: "cabletiers:elite_destructor"
+					type: "item"
+				}
+				{
+					id: "7C614DB7F3FD5427"
+					item: "cabletiers:elite_constructor"
+					type: "item"
+				}
+			]
+			title: "Further Upgraded Cable Parts"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4427A3A839D949A5"]
+			description: ["These are all the upgrades you can make! you can click on each to view more information about them."]
+			hide_dependency_lines: true
+			icon: "refinedstorage:upgrade"
+			id: "7A2B6FA42CB40C73"
+			secret: true
+			tasks: [{
+				id: "2F90AEEACB51C941"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			title: "Upgrade"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A2B6FA42CB40C73"]
+			description: ["These increase the speed of the component they are attached to. Usually, no more than four can be attached to any component."]
+			id: "42C78AB89DB42CD1"
+			rewards: [{
+				count: 4
+				id: "72348D64A5786AEF"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B4DAF60E390B4AB"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["42C78AB89DB42CD1"]
+			description: ["These increase the unit size of each operation performed by a component to a stack. No more than one can be installed at a time on any component."]
+			id: "0296C44E720AAB38"
+			rewards: [{
+				count: 2
+				id: "581DCF8760A3B639"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08E155360CDA656F"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7A2B6FA42CB40C73"]
+			description: ["The range upgrade increases how far a wireless transmitter can transmit."]
+			id: "773E6F5FC6DCFA3E"
+			rewards: [{
+				count: 2
+				id: "7E96F285D6056592"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D6FF86480A950F7"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7A2B6FA42CB40C73"]
+			description: ["This is an upgrade for the Destructor that applies Fortune 3 to the blocks that it breaks."]
+			id: "5AE2BFB0541FC505"
+			rewards: [{
+				count: 2
+				id: "2C235E5CB5309419"
+				item: "refinedstorage:fortune_3_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B3B42806AD1EC9D"
+				item: "refinedstorage:fortune_3_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A2B6FA42CB40C73"]
+			description: ["This is an upgrade for the Destructor that applies Silk Touch to the blocks that it breaks."]
+			id: "10C1AD9209F909F2"
+			rewards: [{
+				count: 2
+				id: "613FFD12F0127672"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F1BE5AAE1EDA886"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7A2B6FA42CB40C73"]
+			description: ["This is an upgrade for an importer or exporter that will keep a specified amount of resources inside of the attached component. Configure the amount by right clicking before inserting into the component."]
+			id: "238429F52E359915"
+			rewards: [{
+				count: 2
+				id: "74B03F8B9F824C43"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DE83A328AC53D8C"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A2B6FA42CB40C73"]
+			description: ["This upgrade will autocraft a resource that is required by a storage network device and the resource is not available."]
+			id: "5655FB76A8B236DC"
+			rewards: [{
+				count: 2
+				id: "48DCF04EE5A8AABF"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5442D775B4682FB1"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["117BCFE34C41DC49"]
+			description: ["This is the brain of your storage system -- it must be supplied with FE to function, and anything in your network must be connected with it to function."]
+			id: "32913DC384E52ABD"
+			rewards: [
+				{
+					count: 4
+					id: "23568EED2465AF49"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					id: "084F13C37A18805C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "385169A30DC8902F"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0DE5E52E317D76DE"]
+			description: [
+				"The security manager is used to manage access to your storage network! Once you place it down, your network becomes restricted to the players with bound security cards inside of it, &oincluding the player who placed it&r. &lThe player who placed the Security Manager can always open its interface.&r"
+				""
+				"There is more information on how they work on the next page!"
+				""
+				"{@pagebreak}"
+				""
+				"To set permissions, you use the Security Card. If a security card isn't bound to a player, you can use it in your hand to automatically bind it to you. To bind it to another online player, click the player button at the top of the screen. Once it's configured, you can insert it into your security manager!"
+			]
+			icon: "refinedstorage:security_card"
+			id: "7E45559DF9CB2BA7"
+			rewards: [
+				{
+					count: 4
+					id: "24D155A8EDD91085"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "298243D848665721"
+					item: "refinedstorage:security_card"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1C73657170382AB9"
+					item: { Count: 4, id: "refinedstorage:security_card" }
+					type: "item"
+				}
+				{
+					id: "04C93D3997EC752E"
+					item: "refinedstorage:security_manager"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+	]
+	title: "Refined Storage"
+}

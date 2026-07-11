@@ -1,18 +1,5 @@
 ServerEvents.recipes(event => 
     {
-        // Raw Uraninite Block Recipe
-            event.shaped(
-                Item.of('forge_frontier:raw_uraninite_block'),
-                [
-                    'UUU',
-                    'UUU',
-                    'UUU'
-                ],
-                {
-                    U: "powah:uraninite_raw"
-                }
-            ).id('forge_frontier:shaped/raw_uraninite_block') 
-
         // Hyper Experience Block Recipe
             event.shaped(
                 Item.of('create_enchantment_industry:hyper_experience_block'),
@@ -26,19 +13,6 @@ ServerEvents.recipes(event =>
                 }
             ).id('forge_frontier:shaped/hyper_experience_block')
                     
-        // Dielectric Paste Block Recipe
-            event.shaped(
-                Item.of('forge_frontier:dielectric_paste_block'),
-                [
-                    'PPP',
-                    'PPP',
-                    'PPP'
-                ],
-                {
-                    P: 'powah:dielectric_paste'
-                }
-            ).id('forge_frontier:shaped/dielectric_paste_block')
-
         // Echo Shard Block Recipe
             event.shaped(
                 Item.of('forge_frontier:echo_shard_block'),
@@ -77,72 +51,5 @@ ServerEvents.recipes(event =>
                     L: 'minecraft:leather'
                 }
             ).id( 'forge_frontier:shaped/leather_elytra' )
-            
-        // Custom Rocket Parts
-            // Engines
-                // Tier 5
-                    event.shaped(
-                        Item.of("forge_frontier:tier_5_engine"),
-                        [
-                            "MMM",
-                            "BEB",
-                            " G "
-                        ],
-                        {
-                            M: "enlightened_end:malachite_block",
-                            B: "enlightened_end:bismuth_ingot",
-                            E: "ad_astra:calorite_engine",
-                            G: "cataclysm:gauntlet_of_guard"
-                            
-                        }
-                    ).id( "forge_frontier:shaped/tier_5_engine" )
-
-                // Tier 6
-                    event.shaped(
-                        Item.of("forge_frontier:tier_6_engine"),
-                        [
-                            "MMM",
-                            "DED",
-                            " A "
-                        ],
-                        {
-                            M: "alexscaves:primal_magma",
-                            D: "alexscaves:pure_darkness",
-                            E: "forge_frontier:tier_5_engine",
-                            A: "cataclysm:abyssal_egg"
-                        }
-                    ).id( "forge_frontier:shaped/tier_6_engine" )
-
-            // Tanks
-                // Tier 5
-                    event.shaped(
-                        Item.of("forge_frontier:tier_5_tank"),
-                        [
-                            "MM ",
-                            "MTB",
-                            "MM "
-                        ],
-                        {
-                            M: "enlightened_end:malachite_block",
-                            B: "enlightened_end:bismuth_ingot",
-                            T: "ad_astra:calorite_tank",
-                            
-                        }
-                    ).id( "forge_frontier:shaped/tier_5_tank" )
-
-                // Tier 6
-                    event.shaped(
-                        Item.of("forge_frontier:tier_6_tank"),
-                        [
-                            "MM ",
-                            "MTC",
-                            "MM "
-                        ],
-                        {
-                            M: "alexscaves:primal_magma",
-                            T: "forge_frontier:tier_5_tank",
-                            C: "alexscaves:ominous_catalyst"
-                        }
-                    ).id( "forge_frontier:shaped/tier_6_tank" )
     }
 )

@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:advanced_jukebox_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "item": "create_dd:bronze_ingot"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "J": {
+      "item": "sophisticatedstorage:jukebox_upgrade"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GJG",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:advanced_jukebox_upgrade"
+  }
+}

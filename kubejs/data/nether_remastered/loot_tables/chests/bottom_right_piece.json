@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:chest",
+    "pools": [
+  ],
+  "random_sequence": "nether_remastered:chests/bottom_right_piece"
+}

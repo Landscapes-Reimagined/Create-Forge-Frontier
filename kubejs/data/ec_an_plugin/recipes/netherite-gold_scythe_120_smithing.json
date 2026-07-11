@@ -1,0 +1,28 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "expanded_combat:config_boolean",
+          "config_entry": "weapon"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "advancednetherite:netherite_gold_ingot"
+        },
+        "base": {
+          "item": "ec_an_plugin:netherite-iron_scythe"
+        },
+        "result": {
+          "item": "ec_an_plugin:netherite-gold_scythe"
+        },
+        "template": {
+          "item": "forge_frontier:netherite_gold_upgrade"
+        }
+      }
+    }
+  ]
+}

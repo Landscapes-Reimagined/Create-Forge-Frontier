@@ -13,13 +13,11 @@ ServerEvents.recipes(function (event) {
         { name: "debris", fluid: "forge_frontier:molten_debris", ingot: "minecraft:netherite_scrap"},
         { name: "coal", fluid: "forge_frontier:molten_carbon", ingot: "minecraft:coal"},
         { name: "netherite", fluid: "createmetallurgy:molten_netherite", nugget: "createdeco:netherite_nugget", plate: "createdeco:netherite_sheet"},
+        { name: 'void_steel', fluid: "createmetallurgy:molten_void_steel", ingot: "createutilities:void_steel_ingot", plate: "createutilities:void_steel_sheet"},
 
         // Forge Frontier + special ores
-        { name: "bismuth", fluid: "forge_frontier:molten_bismuth", ingot: "enlightened_end:bismuth_ingot", nugget: "enlightened_end:bismuth_nugget", plate: "forge_frontier:bismuth_sheet", rodTag: "forge:rods/bismuth", wireTag: "forge:wires/bismuth" },
         { name: "desh", fluid: "forge_frontier:molten_desh", ingot: "ad_astra:desh_ingot", nugget: "ad_astra:desh_nugget", plate: "ad_astra:desh_plate", rodTag: "forge:rods/desh", wireTag: "forge:wires/desh" },
         { name: "calorite", fluid: "forge_frontier:molten_calorite", ingot: "ad_astra:calorite_ingot", nugget: "ad_astra:calorite_nugget", plate: "ad_astra:calorite_plate", rodTag: "forge:rods/calorite", wireTag: "forge:wires/calorite" },
-        { name: "irradium", fluid: "forge_frontier:molten_irradium", ingot: "enlightened_end:irradium_bar", nugget: "forge_frontier:irradium_nugget", plate: "forge_frontier:irradium_sheet", rodTag: "forge:rods/irradium", wireTag: "forge:wires/irradium" },
-        { name: "malachite", fluid: "forge_frontier:molten_malachite", ingot: "enlightened_end:malachite", nugget: "forge_frontier:malachite_nugget", plate: "forge_frontier:malachite_sheet", rodTag: "forge:rods/malachite", wireTag: "forge:wires/malachite" },
         { name: "etrium", fluid: "forge_frontier:molten_etrium", ingot: "ad_astra:etrium_ingot", nugget: "ad_astra:etrium_nugget", plate: "ad_astra:etrium_plate", rod: "ad_astra:etrium_rod", wireTag: "forge:wires/etrium" },
         { name: "emerald", fluid: "forge_frontier:molten_emerald", ingot: "minecraft:emerald", nugget: "forge_frontier:emerald_nugget", plate: "forge_frontier:emerald_sheet", rodTag: "forge:rods/emerald", wireTag: "forge:wires/emerald" },
         { name: "diamond", fluid: "forge_frontier:molten_diamond", ingot: "minecraft:diamond", nugget: "forge_frontier:diamond_nugget", plate: "forge_frontier:diamond_sheet", rodTag: "forge:rods/diamond", wireTag: "forge:wires/diamond" },
@@ -29,6 +27,8 @@ ServerEvents.recipes(function (event) {
         { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", nugget: "create_enchantment_industry:hyper_experience_nugget", amount: 3 },
 
         // Newly added
+        { name: "luxite", fluid: "forge_frontier:molten_luxite", ingot: "endelurgy:luxite", nugget: "endelurgy:luxite_shard" },
+        { name: "adamantite", fluid: "forge_frontier:molten_adamantite", ingot: "endelurgy:adamantite_ingot", nugget: "endelurgy:adamantite_nugget" },
         { name: "sulfur", fluid: "forge_frontier:molten_sulfur", ingot: "alexscaves:sulfur_dust", nugget: "forge_frontier:sulfur_nugget", plate: "forge_frontier:sulfur_sheet", rodTag: "forge:rods/sulfur", wireTag: "forge:wires/sulfur" },
         { name: "amber", fluid: "forge_frontier:molten_amber", ingot: "alexscaves:amber", nugget: "forge_frontier:amber_nugget", plate: "forge_frontier:amber_sheet", rodTag: "forge:rods/amber", wireTag: "forge:wires/amber" },
         { name: "pearl", fluid: "forge_frontier:molten_pearl", ingot: "alexscaves:pearl", nugget: "alexscaves:pearl_nugget", plate: "forge_frontier:pearl_sheet", rodTag: "forge:rods/pearl", wireTag: "forge:wires/pearl" },
@@ -38,7 +38,6 @@ ServerEvents.recipes(function (event) {
         { name: "uranium", fluid: "forge_frontier:molten_uranium", ingot: "alexscaves:uranium", nugget: "forge_frontier:uranium_nugget", plate: "forge_frontier:uranium_sheet", rodTag: "forge:rods/uranium", wireTag: "forge:wires/uranium" },
         { name: "reggarfonite", fluid: "forge_frontier:molten_reggarfonite", ingot: "create_better_motors:reggarfonite_gem", nugget: "create_better_motors:reggarfonite_nugget", plate: "create_better_motors:reggarfonite_sheet", rodTag: "forge:rods/reggarfonite", wireTag: "forge:wires/reggarfonite" },
         { name: "ostrum", fluid: "forge_frontier:molten_ostrum", ingot: "ad_astra:ostrum_ingot", nugget: "ad_astra:ostrum_nugget", plate: "ad_astra:ostrum_plate", rodTag: "forge:rods/ostrum", wireTag: "forge:wires/ostrum" },
-        { name: "dielectric_paste", fluid: "forge_frontier:molten_dielectric_paste", ingot: "powah:dielectric_paste", rod: "powah:dielectric_rod"},
         { name: "bronze", fluid: "createmetallurgy:molten_bronze", ingot: "create_dd:bronze_ingot", nugget: "create_dd:bronze_nugget", plate: "create_dd:bronze_sheet"},
         { name: "tungsten", fluid: "createmetallurgy:molten_tungsten", wire: "createmetallurgy:tungsten_wire"},
         { name: "electrum", fluid: "createmetallurgy:molten_electrum", wireTag: "forge:wires/electrum"},

@@ -40,7 +40,6 @@ ServerEvents.recipes(event =>
                 oxidized_copper_shingle_slab: { ingredients: [{ item: "create:oxidized_copper_shingle_slab" }], energy_needed: 4000, result: "create:weathered_copper_shingle_slab" },
                 exposed_copper: { ingredients: [{ item: "minecraft:exposed_copper" }], energy_needed: 4000, result: "minecraft:copper_block" },
                 exposed_copper_shingle_slab: { ingredients: [{ item: "create:exposed_copper_shingle_slab" }], energy_needed: 4000, result: "create:copper_shingle_slab" },
-                certus_quartz_crystal: { ingredients: [{ item: "ae2:certus_quartz_crystal" }], energy_needed: 3200, result: "ae2:charged_certus_quartz_crystal" },
                 exposed_cut_copper_slab: { ingredients: [{ item: "minecraft:exposed_cut_copper_slab" }], energy_needed: 4000, result: "minecraft:cut_copper_slab" },
                 weathered_copper: { ingredients: [{ item: "minecraft:weathered_copper" }], energy_needed: 4000, result: "minecraft:exposed_copper" },
                 exposed_copper_shingles: { ingredients: [{ item: "create:exposed_copper_shingles" }], energy_needed: 4000, result: "create:copper_shingles" }

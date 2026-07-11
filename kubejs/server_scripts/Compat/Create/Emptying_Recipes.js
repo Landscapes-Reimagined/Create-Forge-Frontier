@@ -92,7 +92,6 @@ ServerEvents.recipes(event =>
                 ingredients: [{ item: wood_type, count: 1 }],
                 results: [
                     { item: wood_type, chance: 0.4 },
-                    { item: "create_dd:crystallized_sap", chance: 0.05 },
                     { fluid: "create_dd:sap", amount: 20 }
                 ]
             }).id(`forge_frontier:item_draining/sap_${wood_type.replace(":", "_")}`);

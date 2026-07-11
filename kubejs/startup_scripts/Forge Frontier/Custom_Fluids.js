@@ -8,9 +8,6 @@ StartupEvents.registry('fluid', event => {
         { name: 'netherite_emerald', color: 0x007a18 },
         { name: 'netherite_diamond', color: 0x327b81 },
         { name: 'uranium', color: 0x00fc00 },
-        { name: 'bismuth', color: 0x555341 },
-        { name: 'irradium', color: 0x21532b },
-        { name: 'malachite', color: 0x3c776d },
         { name: 'guano', color: 0x45271f },
         { name: 'scarlet_neodymium', color: 0xb91919 },
         { name: 'azure_neodymium', color: 0x005fec },
@@ -26,8 +23,9 @@ StartupEvents.registry('fluid', event => {
         { name: 'emerald', color: 0xa4fc73},
         { name: 'diamond', color: 0x67fcee},
         { name: 'reggarfonite', color: 0x288076},
-        { name: 'dielectric_paste', color: 0x202425},
-        { name: 'debris', color: 0x5c332b}
+        { name: 'debris', color: 0x5c332b},
+        { name: 'luxite', color: 0xffff37},
+        { name: 'adamantite', color: 0xdc3d4a},
     ];
 
     // Function to create molten fluids
@@ -84,6 +82,15 @@ StartupEvents.registry('fluid', event => {
         .color(0xe59282)        
         .bucketColor(0xe59282)
         .thinTexture(0xe59282)  
+        .viscosity(1000)        
+        .temperature(300)       
+        .bucketItem;
+
+    event.create('forge_frontier:creative_energy_fluid')
+        .displayName('Creative Energy Fluid')
+        .color(0xc34bbb)        
+        .bucketColor(0xc34bbb)
+        .thinTexture(0xc34bbb)  
         .viscosity(1000)        
         .temperature(300)       
         .bucketItem;

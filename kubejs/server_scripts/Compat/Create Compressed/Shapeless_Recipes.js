@@ -16,9 +16,6 @@ ServerEvents.recipes(event => {
     }
     
     const materials = [
-        'malachite',
-        'irradium',
-        'bismuth',
         'desh',
         'ostrum',
         'calorite',
@@ -37,8 +34,12 @@ ServerEvents.recipes(event => {
         'netherite-gold',
         'netherite-emerald',
         'netherite-diamond',
-        'star_infused_netherite',
         'etrium',
+        'tin',
+        'echo_shard',
+        'luxite',
+        'tungsten',
+        'adamantite', 
         // New Compressed Create Blocks
         'cogwheel_block',
         'large_cogwheel_block',
@@ -64,7 +65,76 @@ ServerEvents.recipes(event => {
             createCompressedBlockShapelessRecipe(event, material, i);
         }
     });
+    // 1x Shapeless Recipes
+    // Tin Block
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_tin_1x"
+            }
+        ],
+        result: {
+            item: "create_dd:tin_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_tin_block_1x')
 
+    // Echo Shard
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_echo_shard_1x"
+            }
+        ],
+        result: {
+            item: "forge_frontier:echo_shard_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_echo_shard_block_1x')    
+
+    // Luxite
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_luxite_1x"
+            }
+        ],
+        result: {
+            item: "endelurgy:luxite_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_luxite_block_1x')  
+    // Tungsten
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_tungsten_1x"
+            }
+        ],
+        result: {
+            item: "createmetallurgy:tungsten_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_tungsten_block_1x')      
+
+    // Adamantite
+    event.custom({ 
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            {
+                item: "forge_frontier:compressed_adamantite_1x"
+            }
+        ],
+        result: {
+            item: "endelurgy:adamantite_block",
+            count: 9
+        }
+    }).id('forge_frontier:shapeless/compressed_adamantite_block_1x')      
+        
     // Etrium Block
     event.custom({ 
         type: 'minecraft:crafting_shapeless',
@@ -316,80 +386,6 @@ ServerEvents.recipes(event => {
             count: 9
         }
     }).id('forge_frontier:shapeless/compressed_powdered_obsidian_pile_block_1x')    
-
-    // Malachite
-        // Malachite Block to Malchite Shapeless Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'enlightened_end:malachite_block'
-                }
-            ],
-            result: {
-                item: 'enlightened_end:malachite',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/malachite_block' )
-
-        // Malachite Compressed 1x to Malachite Block Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'forge_frontier:compressed_malachite_1x'
-                }
-            ],
-            result: {
-                item: 'enlightened_end:malachite_block',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/compressed_malachite_block_1x' )
-    
-    // Irradium
-     // Irradium Block to Irradium Shapeless Recipe
-     event.remove({ id: 'enlightened_end:irradium_block_convert' })
-     event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'enlightened_end:irradium_block'
-            }
-        ],
-        result: {
-            item: 'enlightened_end:irradium_bar',
-            count: 9
-        }
-    }).id( 'forge_frontier:shapeless/irradium_block' )
-
-    // Irradium Compressed 1x to Irradium Block Recipe
-    event.custom({
-        type: 'minecraft:crafting_shapeless',
-        ingredients: [
-            {
-                item: 'forge_frontier:compressed_irradium_1x'
-            }
-        ],
-        result: {
-            item: 'enlightened_end:irradium_block',
-            count: 9
-        }
-    }).id( 'forge_frontier:shapeless/compressed_irradium_block_1x' )
-
-    // Bismuth
-        // Bismuth Compressed 1x to Bismuth Block Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'forge_frontier:compressed_bismuth_1x'
-                }
-            ],
-            result: {
-                item: 'enlightened_end:bismuth_block',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/compressed_bismuth_block_1x' )
 
     // Desh
         // Desh Compressed 1x to Desh Block Recipe
@@ -660,20 +656,5 @@ ServerEvents.recipes(event => {
                 count: 9
             }
         }).id( 'forge_frontier:shapeless/compressed_netherite-diamond_block_1x' )      
-
-    // Star Infused Netherite Block
-        // Star Infused Netherite Compressed 1x to Star Infused Netherite Block Recipe
-        event.custom({
-            type: 'minecraft:crafting_shapeless',
-            ingredients: [
-                {
-                    item: 'forge_frontier:compressed_star_infused_netherite_1x'
-                }
-            ],
-            result: {
-                item: 'cagedmobs:star_infused_netherite_block',
-                count: 9
-            }
-        }).id( 'forge_frontier:shapeless/compressed_star_infused_netherite_block_1x' )         
-    
+ 
 })

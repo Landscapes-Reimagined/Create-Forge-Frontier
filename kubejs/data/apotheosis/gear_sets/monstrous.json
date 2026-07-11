@@ -1,0 +1,20 @@
+{
+    "weight": 100,
+    "quality": 0,
+    "mainhands": [],
+    "offhands": [],
+    "boots": [],
+    "leggings": [],
+    "chestplates": [],
+    "helmets": [
+        {
+            "weight": 1,
+            "stack": {
+                "item": "cataclysm:monstrous_helm"
+            }
+        }
+    ],
+    "tags": [
+        "moon"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "resonant_synthesis:otherside_ingot"
+  },
+  "base": {
+    "item": "advancednetherite:netherite_diamond_boots"
+  },
+  "result": {
+    "item": "resonant_synthesis:otherside_boots"
+  },
+  "template": {
+    "item": "resonant_synthesis:otherside_upgrade_smithing_template"
+  }
+}

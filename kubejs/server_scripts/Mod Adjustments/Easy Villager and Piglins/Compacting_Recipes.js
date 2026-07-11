@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => 
 	{
-		// === Remove default Easy Villagers & Piglins recipes ===
 		var removedIds = [
 		'easy_villagers:trader',
 		'easy_villagers:auto_trader',
@@ -15,7 +14,6 @@ ServerEvents.recipes(event =>
 		event.remove({ id: id });
 		});
 	
-		// === Helper function for compacting recipes ===
 		function addCompactingRecipe(output, id, ingredients) {
 		event.custom({
 			type: 'create:compacting',
@@ -24,7 +22,6 @@ ServerEvents.recipes(event =>
 		}).id('forge_frontier:compacting/' + id);
 		}
 	
-		// === Recipe Definitions ===
 		addCompactingRecipe('easy_villagers:trader', 'trader', [
 		{ item: 'create:framed_glass_pane' },
 		{ item: 'create:framed_glass_pane' },
@@ -34,30 +31,6 @@ ServerEvents.recipes(event =>
 		{ item: 'create:polished_rose_quartz' },
 		{ item: 'create:andesite_alloy' },
 		{ item: 'create:andesite_alloy' },
-		{ item: 'create:andesite_alloy' }
-		]);
-	
-		addCompactingRecipe('easy_villagers:auto_trader', 'auto_trader', [
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:polished_rose_quartz' },
-		{ item: 'create:andesite_alloy' },
-		{ item: 'create:brass_ingot' },
-		{ item: 'create:andesite_alloy' }
-		]);
-	
-		addCompactingRecipe('easy_villagers:farmer', 'farmer', [
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'create:framed_glass_pane' },
-		{ item: 'minecraft:water_bucket' },
-		{ item: 'create:andesite_alloy' },
-		{ item: 'farmersdelight:rich_soil' },
 		{ item: 'create:andesite_alloy' }
 		]);
 	

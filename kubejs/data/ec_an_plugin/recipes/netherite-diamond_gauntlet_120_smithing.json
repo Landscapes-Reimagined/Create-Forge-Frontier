@@ -1,0 +1,37 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "expanded_combat:config_boolean",
+          "config_entry": "gauntlet"
+        },
+        {
+          "type": "expanded_combat:config_material_boolean",
+          "location_path": [
+            "config",
+            "crafting",
+            "is_single_addition"
+          ],
+          "material": "Netherite-Diamond"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:smithing_transform",
+        "addition": {
+          "item": "advancednetherite:netherite_diamond_ingot"
+        },
+        "base": {
+          "item": "ec_an_plugin:netherite-emerald_gauntlet"
+        },
+        "result": {
+          "item": "ec_an_plugin:netherite-diamond_gauntlet"
+        },
+        "template": {
+          "item": "forge_frontier:netherite_diamond_upgrade"
+        }
+      }
+    }
+  ]
+}

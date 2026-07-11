@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:plates/zinc"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "chance": 80.0,
+      "item": "createfisheryindustry:pneumatic_mechanism"
+    },
+    {
+      "chance": 5.0,
+      "item": "createfisheryindustry:zinc_sheet"
+    },
+    {
+      "chance": 4.0,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "chance": 3.0,
+      "item": "create:cogwheel"
+    },
+    {
+      "chance": 2.0,
+      "item": "create:zinc_nugget"
+    },
+    {
+      "chance": 2.0,
+      "item": "create:shaft"
+    },
+    {
+      "chance": 2.0,
+      "item": "create:crushed_raw_zinc"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "create:propeller"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+        },
+        {
+          "item": "create:propeller"
+        }
+      ],
+      "results": [
+        {
+          "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+        },
+        {
+          "tag": "forge:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "createfisheryindustry:incomplete_pneumatic_mechanism"
+  }
+}

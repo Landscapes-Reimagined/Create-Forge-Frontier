@@ -24,7 +24,10 @@ ServerEvents.recipes(event => {
         'azurnium',
         'neodymrium',
         'uraniumnite',
-        'sulphite'
+        'sulphite',
+        'noxrock',
+        'endritus',
+        'gneiss'
     ];
 
     materials.forEach(material => {
@@ -51,9 +54,6 @@ ServerEvents.recipes(event => {
         { name: 'aubrum', input: 'forge_frontier:crushed_aubrum_pile' },
         { name: 'pyroclast', input: 'forge_frontier:crushed_pyroclast_pile' },
         { name: 'stellaris', input: 'forge_frontier:crushed_stellaris_pile' },
-        { name: 'radiantite', input: 'forge_frontier:crushed_radiantite_pile' },
-        { name: 'shale', input: 'forge_frontier:crushed_shale_pile' },
-        { name: 'palerock', input: 'forge_frontier:crushed_palerock_pile' },
         { name: 'guanite', input: 'forge_frontier:crushed_guanite_pile' },
         { name: 'pearlyte', input: 'forge_frontier:crushed_pearlyte_pile' },
         { name: 'azurnium', input: 'forge_frontier:crushed_azurnium_pile' },
@@ -65,11 +65,8 @@ ServerEvents.recipes(event => {
         { name: 'frostite', input: 'forge_frontier:crushed_frostite_pile' },
 
         // Expanded compressed piles
-        { name: 'bismuth', input: 'forge_frontier:crushed_bismuth_pile' },
         { name: 'calorite', input: 'forge_frontier:crushed_calorite_pile' },
         { name: 'desh', input: 'forge_frontier:crushed_desh_pile' },
-        { name: 'irradium', input: 'forge_frontier:crushed_irradium_pile' },
-        { name: 'malachite', input: 'forge_frontier:crushed_malachite_pile' },
         { name: 'ostrum', input: 'forge_frontier:crushed_ostrum_pile' },
         { name: 'amberlite', input: 'forge_frontier:crushed_amberlite_pile' },
         { name: 'tin', input: 'create_compressed:crushed_tin_pile' },
@@ -120,4 +117,17 @@ ServerEvents.recipes(event => {
             ]
         }).id(`forge_frontier:crushing/crushed_tin_to_dirty_dust`);
     }
+    // Crushed Silver
+    if (!Ingredient.of("create_more_additions:crushed_raw_silver").stacks.empty) {
+        event.custom({
+            type: "create:crushing",
+            ingredients: [{ item: 'create_more_additions:crushed_raw_silver' }],
+            processingTime: 250,
+            results: [
+                { item: "forge_frontier:dirty_silver_dust", count: 1 },
+                { item: "forge_frontier:dirty_silver_dust", chance: 0.25 }
+            ]
+        }).id(`forge_frontier:crushing/crushed_silver_to_dirty_dust`);
+    }
+
 });

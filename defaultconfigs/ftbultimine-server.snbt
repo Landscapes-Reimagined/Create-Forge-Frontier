@@ -25,7 +25,6 @@
 	# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
 	# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]
 	merge_tags: [
-		"minecraft:base_stone_overworld"
 		"c:*_ores"
 		"forge:ores/*"
 	]

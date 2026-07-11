@@ -1,10 +1,15 @@
 ServerEvents.recipes(event => 
     {
         // Recipe Removals
+            event.remove({ id: 'ad_astra:jet_suit_helmet'})
+            event.remove({ id: 'ad_astra:jet_suit'})
+            event.remove({ id: 'ad_astra:jet_suit_pants'})
+            event.remove({ id: 'ad_astra:jet_suit_boots'})
             event.remove({ id: 'ad_astra:etrionic_blast_furnace'})
             event.remove({ id: 'ad_astra:compressor'})
             event.remove({ id: 'ad_astra:fuel_refinery'})
             event.remove({ id: 'ad_astra:cryo_freezer'})
+            event.remove({ id: 'ad_astra:nasa_workbench'})
             event.remove({ id: 'ad_astra:compressing/iron_plate_from_compressiong_iron_ingot'})
             event.remove({ id: 'ad_astra:compressing/calorite_plate_from_compressing_calorite_blocks'})
             event.remove({ id: 'ad_astra:compressing/calorite_plate_from_compressing_calorite_ingots'})

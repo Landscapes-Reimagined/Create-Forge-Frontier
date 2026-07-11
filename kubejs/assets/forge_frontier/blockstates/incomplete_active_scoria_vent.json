@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forge_frontier:block/incomplete_active_scoria_vent"
+    }
+  }
+}

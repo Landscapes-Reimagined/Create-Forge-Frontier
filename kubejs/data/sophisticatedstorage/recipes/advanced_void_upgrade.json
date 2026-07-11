@@ -1,0 +1,31 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedstorage:advanced_void_upgrade"
+    }
+  ],
+  "key": {
+    "D": {
+      "item": "create_dd:bronze_ingot"
+    },
+    "G": {
+      "item": "create:brass_ingot"
+    },
+    "R": {
+      "item": "create:electron_tube"
+    },
+    "V": {
+      "item": "sophisticatedstorage:void_upgrade"
+    }
+  },
+  "pattern": [
+    " D ",
+    "GVG",
+    "RRR"
+  ],
+  "result": {
+    "item": "sophisticatedstorage:advanced_void_upgrade"
+  }
+}

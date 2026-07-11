@@ -1,0 +1,125 @@
+
+#Create: Pillagers Arise structure generation settings.
+#Restart the world or run /reload after changing these values.
+[structures]
+
+	[structures.cathedral_create]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 600
+		#Range: 1 ~ 4096
+		spacing = 600
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 11
+		#Range: 0 ~ 4095
+		separation = 11
+
+	[structures.createchinatower]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 170
+		#Range: 1 ~ 4096
+		spacing = 170
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 4
+		#Range: 0 ~ 4095
+		separation = 4
+
+	[structures.createpillagerblimp]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 200
+		#Range: 1 ~ 4096
+		spacing = 200
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 1
+		#Range: 0 ~ 4095
+		separation = 1
+
+	[structures.createpillagercamp]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 180
+		#Range: 1 ~ 4096
+		spacing = 180
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 2
+		#Range: 0 ~ 4095
+		separation = 2
+
+	[structures.createpillagerfortgate]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 140
+		#Range: 1 ~ 4096
+		spacing = 140
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 20
+		#Range: 0 ~ 4095
+		separation = 20
+
+	[structures.createpillagerhousesmall]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 130
+		#Range: 1 ~ 4096
+		spacing = 130
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 10
+		#Range: 0 ~ 4095
+		separation = 10
+
+	[structures.createpillageroutpost]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 160
+		#Range: 1 ~ 4096
+		spacing = 160
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 12
+		#Range: 0 ~ 4095
+		separation = 12
+
+	[structures.createpillagersmallhouse]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 170
+		#Range: 1 ~ 4096
+		spacing = 170
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 10
+		#Range: 0 ~ 4095
+		separation = 10
+
+	[structures.createpillagervillage]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 190
+		#Range: 1 ~ 4096
+		spacing = 190
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 10
+		#Range: 0 ~ 4095
+		separation = 10
+
+	[structures.pillagercreatetower]
+		#Set to false to stop this structure from generating.
+		enabled = true
+		#Random spread spacing. Lower values generate more often; higher values generate less often.
+		#Default: 190
+		#Range: 1 ~ 4096
+		spacing = 190
+		#Minimum chunk separation. Must be lower than spacing; values too high are clamped at load time.
+		#Default: 25
+		#Range: 0 ~ 4095
+		separation = 25
+

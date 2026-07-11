@@ -55,5 +55,11 @@ ServerEvents.recipes(event =>
         event.remove({ id: 'trials:bolt_trim_template' })
         event.remove({ id: 'trials:flow_trim_template'})
 
+        // Endelurgy Recipe Removal
+        event.remove({ id: 'endelurgy:enderite_upgrade_smithing_template'})
+
+        // Resonant Synthesis Recipe Removal
+        event.remove({ id: 'resonant_synthesis:otherside_upgrade_smithing_template'})
+
     }
 )
