@@ -5163,6 +5163,18 @@
 				"{ \"text\": \"Journey to Mars\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6169F8EB0E600750\" } }"
 			]
 			id: "0944A0317F519B21"
+			rewards: [
+				{
+					id: "0F29E6A5EF0824AB"
+					item: "create_compressed:rose_quartz_polished_block"
+					type: "item"
+				}
+				{
+					id: "37C53106F49BBE5B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "448728E185BC70D0"
 				item: "forge_frontier:solar_regulation_array"
@@ -5189,6 +5201,19 @@
 				"{ \"text\": \"Primordial Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE777D1CAD0CE01\" } }"
 			]
 			id: "08CAF05DB71306E0"
+			rewards: [
+				{
+					count: 2
+					id: "01DF1034B7C648F2"
+					item: "alexscavesdelight:honey_glazed_dinosaur_chop_block"
+					type: "item"
+				}
+				{
+					id: "32454FB8F5868CA9"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "3132792FC395AFFE"
@@ -5214,6 +5239,18 @@
 				"{ \"text\": \"Steel Production\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3970E3D9DAD23FF4\" } }"
 			]
 			id: "7D2BBB6DCCA33A1F"
+			rewards: [
+				{
+					id: "167E3E062988182C"
+					item: "ad_astra:steel_block"
+					type: "item"
+				}
+				{
+					id: "34AFE4F0CC64D9A0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1D50AEE826AF751C"
 				item: "ad_astra:rocket_fin"
@@ -5242,6 +5279,19 @@
 				"{ \"text\": \"Ancient Factory\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6A6CBE62C6E115C6\" } }"
 			]
 			id: "36E1FC204679E935"
+			rewards: [
+				{
+					count: 2
+					id: "117397F3A676B2DE"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					id: "0B0A774150F185A7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "4AC7C9170D858F00"
@@ -5271,6 +5321,19 @@
 				"{ \"text\": \"Primordial Caves\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE777D1CAD0CE01\" } }"
 			]
 			id: "17E73DE47FA1CACB"
+			rewards: [
+				{
+					count: 3
+					id: "7C8D9A0872FA2CDC"
+					item: "forge_frontier:primal_magma_rocket_casing"
+					type: "item"
+				}
+				{
+					id: "3507D86E5F4AE0BB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "0E78C6A21F064CB8"
@@ -5298,6 +5361,25 @@
 				"{ \"text\": \"Acropolis\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5F05530DA01EEECA\" } }"
 			]
 			id: "148FFFA8FA38D1EA"
+			rewards: [
+				{
+					count: 2
+					id: "74DFDA63C97F9986"
+					item: "cataclysm:essence_of_the_storm"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "568E9D8F3ABB628D"
+					item: "cataclysm:lacrima"
+					type: "item"
+				}
+				{
+					id: "383DEE2BF6290007"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "25A6DCE55F317692"
