@@ -1,5 +1,4 @@
 {
-	always_invisible: false
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "refined_storage"
@@ -1074,6 +1073,19 @@
 			hide_dependency_lines: true
 			id: "3E6898926DE95608"
 			min_required_dependencies: 1
+			rewards: [
+				{
+					count: 4
+					id: "42366107B5426941"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1CEB0E375588081A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			tasks: [{
 				id: "295EE7484C273663"
 				item: "rsinfinitybooster:infinity_card"
@@ -1086,6 +1098,24 @@
 			dependencies: ["3E6898926DE95608"]
 			description: ["This card will fully function across dimensions as long as it is chunkloaded. A true universal storage transmitter."]
 			id: "7980B05D8F7577E7"
+			rewards: [
+				{
+					count: 3
+					id: "307C9A2BC35A04F3"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "3D3FEAA6344630AB"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "76BE0F2152A9A1ED"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			tasks: [{
 				id: "244F30F62EB6A699"
 				item: "rsinfinitybooster:dimension_card"
@@ -1244,6 +1274,12 @@
 			hide_dependency_lines: true
 			icon: "refinedstorage:upgrade"
 			id: "7A2B6FA42CB40C73"
+			rewards: [{
+				count: 2
+				id: "1417A2DF3C125110"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
 			secret: true
 			tasks: [{
 				id: "2F90AEEACB51C941"

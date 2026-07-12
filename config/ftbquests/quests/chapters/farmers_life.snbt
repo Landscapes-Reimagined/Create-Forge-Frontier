@@ -946,12 +946,6 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "5D0B043912353A5C"
-					item: "botanypotstiers:elite_terracotta_hopper_botany_pot"
-					type: "item"
-				}
-				{
 					id: "7B121E47D6124A30"
 					type: "xp_levels"
 					xp_levels: 5
@@ -1462,7 +1456,7 @@
 				}
 				{
 					id: "1AA88713320878EB"
-					item: "sculkcatalyticchamber:mechanical_shrieker"
+					item: "minecraft:sculk_shrieker"
 					type: "item"
 				}
 				{
