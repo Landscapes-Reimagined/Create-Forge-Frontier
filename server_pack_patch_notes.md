@@ -85,4 +85,4 @@ https://discord.gg/quenZthXgy
 
 Deploy your **Forge Frontier v3.0.1** server instantly with our official hosting partner, **BisectHosting**.
 
-https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge_changelog
+[![BisectHosting Code](https://raw.githubusercontent.com/Landscapes-Reimagined/Create-Forge-Frontier/refs/heads/main/curseforge_banners/CREATE_FORGE_FRONTIER_Promo.webp)](https://bisecthosting.com/M0nkeyPr0grammer?r=curseforge+changelog)
