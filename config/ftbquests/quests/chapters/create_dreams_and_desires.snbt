@@ -466,7 +466,7 @@
 				{
 					count: 8
 					id: "44D73D3AC320D6F5"
-					item: "excavated_variants:create_ochrum_zinc_ore"
+					item: "create:deepslate_zinc_ore"
 					type: "item"
 				}
 				{
@@ -549,12 +549,12 @@
 			rewards: [
 				{
 					count: 8
-					id: "43A39EDCA1306AF5"
-					item: "excavated_variants:create_asurine_copper_ore"
+					id: "67A994B25E1259CF"
+					item: "enhanced_ore_variety:granite_copper_ore"
 					type: "item"
 				}
 				{
-					id: "52338142599A6726"
+					id: "340187CD9B0F885A"
 					type: "xp"
 					xp: 25
 				}
