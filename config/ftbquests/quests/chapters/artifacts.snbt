@@ -1520,7 +1520,7 @@
 		{
 			dependencies: ["3CE72BF099174999"]
 			description: [
-				"Increases your jump height and prevents fall damage, offering exceptional mobility and safety when traversing vertical spaces."
+				"Increases your jump height and prevents fall damage when the higher leaping ability is at a higher level, offering exceptional mobility and safety when traversing vertical spaces."
 				"This artifact can be found in jungle temples, buried treasure chests, bastion stables, and village tanneries."
 				"Naturally spawned zombies may rarely carry one."
 				"Additional copies can be uncovered through archaeology in warm ocean ruins."

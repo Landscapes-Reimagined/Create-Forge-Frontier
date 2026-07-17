@@ -1454,7 +1454,7 @@
 		}
 		{
 			dependencies: ["78FDFDDD273A975C"]
-			description: ["InfaBlocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with AE2 systems using formation and annihilation planes to automate their collection. Whether you're building or collecting infinite resources, InfaBlocks are the ultimate form of automation."]
+			description: ["InfaBlocks make you feel like you're in creative mode! They can be placed by hand or with deployers, and they can integrate seamlessly with Refined Storage systems using constructors and deconstructors to automate their collection. Whether you're building or collecting infinite resources, InfaBlocks are the ultimate form of automation."]
 			icon: "create_dd:infacobblestone"
 			id: "089AAAA52771B181"
 			rewards: [

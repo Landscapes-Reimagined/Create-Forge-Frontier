@@ -2745,7 +2745,7 @@
 		}
 		{
 			dependencies: ["462B6229E87FAA19"]
-			description: ["The Memory Tablet allows for access to any Obelisk up to 48 blocks away. Shift right click to bind the tablet to an obelisk."]
+			description: ["The Memory Tablet allows for access to any Obelisk up to 48 blocks away. Shift right click to bind the tablet to an obelisk. On top of that, the memory tablet allows players to store all experience inside a linked obelisk upon death, meaning no more xp is lost when you die."]
 			id: "1A158727695A13A5"
 			rewards: [
 				{
