@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_things_and_misc:glue_packaging"
+    },
+    {
+      "fluid": "fluid:slime_fluid",
+      "nbt": {},
+      "amount": 100
+    }
+  ],
+  "results": [
+    {
+      "item": "create:super_glue"
+    }
+  ]
+}

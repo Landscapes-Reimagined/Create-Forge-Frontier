@@ -45,18 +45,18 @@ ServerEvents.recipes(event => {
                 results: [{ item: mat.base, count: 2 },],
                 sequence: [
                     {
-                        type: 'create:filling',
+                        type: 'create:deploying',
                         ingredients: [
-                            { item: mat.base },
-                            { fluid: 'create_enchantment_industry:experience', amount: 250 }
+                            { item: mat.base},
+                            { item: block }
                         ],
                         results: [{ item: mat.incomplete }]
                     },
                     {
-                        type: 'create:deploying',
+                        type: 'create:filling',
                         ingredients: [
                             { item: mat.incomplete },
-                            { item: block }
+                            { fluid: 'create_enchantment_industry:experience', amount: 250 }
                         ],
                         results: [{ item: mat.incomplete }]
                     },
