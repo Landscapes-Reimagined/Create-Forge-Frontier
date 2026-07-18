@@ -1,5 +1,11 @@
 ServerEvents.tags('block', event => 
     {
+        // Tap Fillable
+            event.add('fluid:tap_fillable', [
+                "createmetallurgy:foundry_basin",
+                "createmetallurgy:casting_basin",
+                "createmetallurgy:casting_table"
+            ])
         // Removes Scoria Tag from Cobblestone Generator Blocks
             event.remove('createcobblestone:generator_blocks', 'create:scoria')
             
