@@ -354,6 +354,7 @@ guanoBurnFuel = true
 	licowitchAttackDamage = 3.0
 	#Range: 1.0 ~ 1000000.0
 	sweetishFishMaxHealth = 4.0
+	luxtructosaurusDisableJump = false
 
 ["Nuclear Furnace Options"]
 	#----------------------------------

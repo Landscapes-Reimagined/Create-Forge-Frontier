@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create:blaze_cake_base"
+    },
+    {
+      "fluid": "fluid:slime_fluid",
+      "nbt": {},
+      "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "item": "create_things_and_misc:slime_cake"
+    }
+  ]
+}

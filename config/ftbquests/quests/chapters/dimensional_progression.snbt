@@ -74,10 +74,10 @@
 			shape: "hexagon"
 			subtitle: "Begin your adventure in the Overworld and carve your legend into the land. Click for more info!"
 			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: "minecraft:grass_block"
-				id: "5CF9F9D9EE1AA90A"
-				type: "dimension"
+				id: "490FC431B843DBF0"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 25
 			}]
 			title: "&6A World of Endless Horizons&r"
 			x: -9.0d
@@ -98,7 +98,7 @@
 				""
 				"The Nether is home to a diverse collection of biomes, each offering unique resources, environmental hazards, and exploration opportunities."
 				""
-				"Journey through the crimson growth of the &cCrimson Forest&r, brave the unstable terrain of the &8Basalt Deltas&r, and cross the haunting &7Soul Sand Valley&r, alongside several new sub-biomes introduced through &cNether Remastered&r. Every region contains rare materials and hidden secrets that support your continued progression."
+				"Journey through the crimson growth of the &cCrimson Forest&r, brave the unstable terrain of the &8Basalt Deltas&r, and cross the haunting &7Soul Sand Valley&r, alongside several new sub-biomes introduced through &cRegions Unexplored and Luminous Nether&r. Every region contains rare materials and hidden secrets that support your continued progression."
 				""
 				"No two expeditions are ever the same."
 				""
@@ -651,12 +651,7 @@
 				""
 				"It is the beginning of your greatest adventure yet."
 				""
-				"{@pagebreak}"
-				""
 				"{image:ftb:textures/endframe_screenshot.png width:192 height:100 align:center}"
-				""
-				"Read more about End Remastered in its"
-				"{ \"text\": \"dedicated quest.\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55E1F170D9933E8F\" } }"
 			]
 			icon: "minecraft:end_portal_frame"
 			id: "09EEADB48E883801"
@@ -924,9 +919,10 @@
 			size: 3.0d
 			subtitle: "Master the dimensions, expand your reach, and push your journey forward. Click to learn more!"
 			tasks: [{
-				id: "61870D22C6222E40"
-				title: "Dimension Intro"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "6E2ABB7B68CA33E7"
+				type: "dimension"
 			}]
 			title: "&6Beyond Worlds, Beyond Stars&r"
 			x: 0.0d

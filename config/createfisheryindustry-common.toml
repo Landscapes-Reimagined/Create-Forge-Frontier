@@ -13,7 +13,7 @@
 	#Enable lava fishing functionality for Frame Trap (requires lava environment)
 	enableLavaFishing = true
 	#Use Nether Depths Upgrade loot tables for lava fishing when available
-	#If false or NDU is not installed, will fall back to default fishing loot table
+	#If false or NDU is not installed, NDU contributes no lava-fishing loot
 	useNDULootTables = true
 	#Multiplier for normal (water) fishing cooldown time
 	#Lower values = faster fishing, higher values = slower fishing

@@ -1,6 +1,12 @@
 StartupEvents.registry('item', event => {
     const items = [
         {
+            id: 'ppfluids:blank_fluid_module',
+            name: 'Blank Fluid Module',
+            stack: 16,
+            texture: 'forge_frontier:item/blank_fluid_module'
+        },
+        {
             id: 'create_enchantment_industry:hyper_experience_nugget',
             name: 'Hyper Experience Nugget',
             stack: 64,

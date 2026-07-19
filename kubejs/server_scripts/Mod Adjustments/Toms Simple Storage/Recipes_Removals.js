@@ -1,0 +1,21 @@
+ServerEvents.recipes(event =>
+    {
+        event.remove({ id: "toms_storage:inventory_connector" })
+        event.remove({ id: "toms_storage:storage_terminal" })
+        event.remove({ id: "toms_storage:trim" })
+        event.remove({ id: "toms_storage:trim_clean" })
+        event.remove({ id: "toms_storage:open_crate" })
+        event.remove({ id: "toms_storage:inventory_cable" })
+        event.remove({ id: "toms_storage:inventory_cable_framed" })
+        event.remove({ id: "toms_storage:inventory_cable_connector" })
+        event.remove({ id: "toms_storage:inventory_cable_connector_filtered" })
+        event.remove({ id: "toms_storage:inventory_cable_connector_framed" })
+        event.remove({ id: "toms_storage:inventory_proxy" })
+        event.remove({ id: "toms_storage:crafting_terminal" })
+        event.remove({ id: "toms_storage:inventory_hopper_basic" })
+        event.remove({ id: "toms_storage:level_emitter" })
+        event.remove({ id: "toms_storage:paint_kit" })
+        event.remove({ id: "toms_storage:wireless_terminal" })
+        event.remove({ id: "toms_storage:adv_wireless_terminal" })                       
+    }
+)

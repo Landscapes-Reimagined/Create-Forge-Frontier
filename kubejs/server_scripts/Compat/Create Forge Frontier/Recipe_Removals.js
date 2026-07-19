@@ -17,5 +17,7 @@ ServerEvents.recipes(event =>
 		event.remove({ id:  'create_oppenheimered:crushing/galena_iron_ore'})
 		event.remove({ id:  'create_oppenheimered:crushing/guanostone_redstone_ore'})
 		event.remove({ id:  'create_alexscaves_compat:crushing/guanostone_redstone_ore'})
+		event.remove({ id: 'create:industrial_iron_block_from_ingots_iron_stonecutting' })
+		event.remove({ id: 'sliceanddice:mixing/fertilizer/from_compost' })
 	}
 )

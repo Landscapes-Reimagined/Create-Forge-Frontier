@@ -1,5 +1,11 @@
 ServerEvents.tags('block', event => 
     {
+        // Tap Fillable
+            event.add('fluid:tap_fillable', [
+                "createmetallurgy:foundry_basin",
+                "createmetallurgy:casting_basin",
+                "createmetallurgy:casting_table"
+            ])
         // Removes Scoria Tag from Cobblestone Generator Blocks
             event.remove('createcobblestone:generator_blocks', 'create:scoria')
             
@@ -203,42 +209,6 @@ ServerEvents.tags('block', event =>
                 'minecraft:cauldron',
                 'minecraft:fletching_table',
                 '#deeperdarker:transmittable',
-                'sophisticatedstorage:barrel',
-                'sophisticatedstorage:copper_barrel',
-                'sophisticatedstorage:iron_barrel',
-                'sophisticatedstorage:gold_barrel',
-                'sophisticatedstorage:diamond_barrel',
-                'sophisticatedstorage:netherite_barrel',
-                'sophisticatedstorage:limited_barrel_1',
-                'sophisticatedstorage:limited_iron_barrel_1',
-                'sophisticatedstorage:limited_copper_barrel_1',
-                'sophisticatedstorage:limited_gold_barrel_1',
-                'sophisticatedstorage:limited_diamond_barrel_1',
-                'sophisticatedstorage:limited_netherite_barrel_1',
-                'sophisticatedstorage:limited_barrel_2',
-                'sophisticatedstorage:limited_copper_barrel_2',
-                'sophisticatedstorage:limited_iron_barrel_2',
-                'sophisticatedstorage:limited_gold_barrel_2',
-                'sophisticatedstorage:limited_diamond_barrel_2',
-                'sophisticatedstorage:limited_netherite_barrel_2',
-                'sophisticatedstorage:limited_barrel_3',
-                'sophisticatedstorage:limited_copper_barrel_3',
-                'sophisticatedstorage:limited_iron_barrel_3',
-                'sophisticatedstorage:limited_gold_barrel_3',
-                'sophisticatedstorage:limited_diamond_barrel_3',
-                'sophisticatedstorage:limited_netherite_barrel_3',
-                'sophisticatedstorage:limited_barrel_4',
-                'sophisticatedstorage:limited_copper_barrel_4',
-                'sophisticatedstorage:limited_iron_barrel_4',
-                'sophisticatedstorage:limited_gold_barrel_4',
-                'sophisticatedstorage:limited_diamond_barrel_4',
-                'sophisticatedstorage:limited_netherite_barrel_4',
-                'sophisticatedstorage:chest',
-                'sophisticatedstorage:copper_chest',
-                'sophisticatedstorage:iron_chest',
-                'sophisticatedstorage:gold_chest',
-                'sophisticatedstorage:diamond_chest',
-                'sophisticatedstorage:netherite_chest',
                 'sophisticatedstorage:shulker_box',
                 'sophisticatedstorage:copper_shulker_box',
                 'sophisticatedstorage:iron_shulker_box',

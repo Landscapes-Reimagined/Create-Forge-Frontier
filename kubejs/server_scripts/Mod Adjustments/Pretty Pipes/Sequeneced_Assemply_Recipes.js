@@ -946,7 +946,7 @@ ServerEvents.recipes(function(event) {
     // Pretty Pipes Fluids
     seq(
         'ppfluids:low_fluid_extraction_module',
-        'prettypipes:blank_module',
+        'ppfluids:blank_fluid_module',
         'forge_frontier:incomplete_low_fluid_extraction_module',
         [
             {
@@ -976,7 +976,7 @@ ServerEvents.recipes(function(event) {
 
     seq(
         'ppfluids:low_fluid_filter_module',
-        'prettypipes:blank_module',
+        'ppfluids:blank_fluid_module',
         'forge_frontier:incomplete_low_fluid_filter_module',
         [
             {
@@ -1006,7 +1006,7 @@ ServerEvents.recipes(function(event) {
 
     seq(
         'ppfluids:low_fluid_retrieval_module',
-        'prettypipes:blank_module',
+        'ppfluids:blank_fluid_module',
         'forge_frontier:incomplete_low_fluid_retrieval_module',
         [
             {
