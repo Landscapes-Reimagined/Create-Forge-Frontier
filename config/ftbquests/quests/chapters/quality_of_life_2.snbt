@@ -652,7 +652,7 @@
 				type: "item"
 			}]
 			title: "On A Stick"
-			x: -4.5d
+			x: -5.0d
 			y: 11.5d
 		}
 		{
@@ -696,7 +696,7 @@
 				type: "item"
 			}]
 			title: "Compact Machines"
-			x: -5.5d
+			x: -6.0d
 			y: 11.5d
 		}
 		{
@@ -923,6 +923,36 @@
 			}]
 			x: 1.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["6EE09A4C8D827BE0"]
+			description: ["Traveling repeatedly between distant locations can consume valuable time and resources. The Tempad streamlines exploration by allowing you to save destinations and open Timedoors that provide quick transportation between locations. Use it to establish convenient travel points at your base, major projects, and other frequently visited areas."]
+			hide_dependency_lines: true
+			id: "775B4B9E2D511F3B"
+			rewards: [
+				{
+					count: 4
+					id: "2F5FC92D9DB7CD6E"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "4CDFC76CE2696A9F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5EE4D6704AFFC31E"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
 		}
 	]
 	title: "Quality of Life"

@@ -2571,16 +2571,16 @@
 		}
 		{
 			description: [
-				"&7Ender Waystone&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				"&7Teleportation Anchor&r is a required component used in the construction of the &6Forge Rocket Door&r."
 				""
 				"&lHow to Obtain:&r"
-				"The Ender Waystone is crafted through an advanced Mechanical Crafting recipe that requires a variety of mid-game materials and components."
+				"The Teleportation Anchor is crafted through a shaped recipe that requires a variety of mid-game materials and components only found in the End."
 			]
 			id: "2008D9D0FF1BAEF7"
 			rewards: [
 				{
 					id: "365006D55571AC53"
-					item: "waystones:end_stone_waystone"
+					item: "unusualend:warping_waystone"
 					type: "item"
 				}
 				{
@@ -2594,7 +2594,7 @@
 			subtitle: "Starting Ingredient"
 			tasks: [{
 				id: "49C5F5D95B5C46C0"
-				item: "waystones:end_stone_waystone"
+				item: "unusualend:teleportation_anchor"
 				type: "item"
 			}]
 			x: 0.0d
