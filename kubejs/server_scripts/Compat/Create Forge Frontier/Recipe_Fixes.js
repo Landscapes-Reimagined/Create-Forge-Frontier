@@ -160,9 +160,6 @@ ServerEvents.recipes(event =>
                     }
                 }).id( 'createcompression:block/minecraft/raw_iron/decompress/1x' )
         
-        // Removed Pocket Dimension Remote Recipe
-            event.remove({ id: 'createteleporters:pocket_dimension_recipe'})
-
         // Removes Conflicting Recipes
             event.remove({ id: 'cratedelight:minecraft/crafting/wheat_flour_bag'})
             event.remove({ id: 'cratedelight:minecraft/crafting/cinder_flour_bag'})

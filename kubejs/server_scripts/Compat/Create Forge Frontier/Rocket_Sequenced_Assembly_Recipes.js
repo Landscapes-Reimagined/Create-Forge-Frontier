@@ -267,7 +267,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("dimensional_stability_core"),
-                    Ingredient.of("createteleporters:quantum_mechanism").toJson()
+                    Ingredient.of("minecraft:dragon_egg").toJson()
                 ],
                 results: [incomplete("dimensional_stability_core")]
             },

@@ -7,7 +7,7 @@ ServerEvents.recipes(event =>
                 type: "minecraft:stonecutting",
                 count: 8,
                 ingredient: {
-                    item: "ad_astra:iron_plate"
+                    item: "create:iron_sheet"
                 },
                 result: "ad_astra:iron_plating"
             }).id('forge_frontier:stonecutting/astra_iron_plating')

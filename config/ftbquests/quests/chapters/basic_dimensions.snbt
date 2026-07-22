@@ -2815,7 +2815,7 @@
 				{
 					count: 2L
 					id: "0B5B54D19E5EB025"
-					item: { Count: 2, id: "ad_astra:engine_frame" }
+					item: "forge_frontier:vacuum_structural_frame"
 					type: "item"
 				}
 				{
