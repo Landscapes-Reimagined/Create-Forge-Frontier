@@ -276,7 +276,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("forge_rocket_core"),
-                    Ingredient.of("createteleporters:quantum_mechanism").toJson()
+                    Ingredient.of("createfisheryindustry:pneumatic_mechanism").toJson()
                 ],
                 results: [incomplete("forge_rocket_core")]
             },
@@ -357,7 +357,7 @@ ServerEvents.recipes(event => {
     // Forge Rocket Door
     event.custom({
         type: "create:sequenced_assembly",
-        ingredient: Ingredient.of("createteleporters:custom_portal_base").toJson(),
+        ingredient: Ingredient.of("waystones:end_stone_waystone").toJson(),
         transitionalItem: incomplete("forge_rocket_door"),
         sequence: [
             { type: "create:deploying", ingredients: [incomplete("forge_rocket_door"), Ingredient.of("minecraft:stone").toJson()], results: [incomplete("forge_rocket_door")] },

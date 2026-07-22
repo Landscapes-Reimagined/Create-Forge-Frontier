@@ -6,12 +6,12 @@ ServerEvents.recipes(event =>
                 type: 'create:mechanical_crafting',
                 pattern: [
                     'RRR',
-                    'RQR',
+                    'RIR',
                     'CCC'
                 ],
                 key: {
                     R: Ingredient.of('create_new_age:reactor_glass').toJson(),
-                    Q: Ingredient.of('createteleporters:quantum_mechanism').toJson(),
+                    I: Ingredient.of("create_dd:infernal_mechanism").toJson(),
                     C: Ingredient.of('create_dd:netherite_casing').toJson()
                 },
                 result: Ingredient.of('create_power_loader:empty_andesite_chunk_loader').toJson(),
