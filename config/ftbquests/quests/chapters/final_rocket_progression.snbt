@@ -2571,21 +2571,16 @@
 		}
 		{
 			description: [
-				"&7Create Teleporter Portal Base&r is a required component used in the construction of the &6Forge Rocket Door&r."
+				"&7Ender Waystone&r is a required component used in the construction of the &6Forge Rocket Door&r."
 				""
 				"&lHow to Obtain:&r"
-				"The Create Teleporter Portal Base is crafted through an advanced Mechanical Crafting recipe that requires a variety of late-game materials and components."
-				""
-				"&lNotes:&r"
-				"Need help crafting the Create Teleporter Portal Base?"
-				""
-				"{ \"text\": \"Create Teleporters\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"44F0C841699000CB\" } }"
+				"The Ender Waystone is crafted through an advanced Mechanical Crafting recipe that requires a variety of mid-game materials and components."
 			]
 			id: "2008D9D0FF1BAEF7"
 			rewards: [
 				{
 					id: "365006D55571AC53"
-					item: "createteleporters:custom_portal_base"
+					item: "waystones:end_stone_waystone"
 					type: "item"
 				}
 				{
@@ -2599,7 +2594,7 @@
 			subtitle: "Starting Ingredient"
 			tasks: [{
 				id: "49C5F5D95B5C46C0"
-				item: "createteleporters:custom_portal_base"
+				item: "waystones:end_stone_waystone"
 				type: "item"
 			}]
 			x: 0.0d
@@ -2737,22 +2732,17 @@
 		}
 		{
 			description: [
-				"&7Quantum Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
+				"&7Pneumatic Mechanism&r is a required component used in the construction of the &6Forge Rocket Core&r."
 				""
 				"&lHow to Obtain:&r"
-				"Quantum Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Sturdy Sheets, Quantum Fluid, and other specialized components."
-				""
-				"&lNotes:&r"
-				"Need help producing Quantum Mechanisms and progressing through Create Teleporters?"
-				""
-				"{ \"text\": \"Create Teleporters: Quantum Mechanism\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"674E786854612FB7\" } }"
+				"Pneumatic Mechanisms are crafted through an advanced &6Sequenced Assembly&r process using Zinc Sheets, and other specialized components."
 			]
 			id: "0DC87F4D7B1CD584"
 			rewards: [
 				{
 					count: 3
 					id: "1B17D63EA6D64454"
-					item: "createteleporters:quantum_mechanism"
+					item: "createfisheryindustry:pneumatic_mechanism"
 					type: "item"
 				}
 				{
@@ -2765,7 +2755,7 @@
 			tasks: [{
 				count: 10L
 				id: "264A554744812E0C"
-				item: { Count: 10, id: "createteleporters:quantum_mechanism" }
+				item: "createfisheryindustry:pneumatic_mechanism"
 				type: "item"
 			}]
 			x: 4.5d
