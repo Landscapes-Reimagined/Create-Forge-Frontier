@@ -357,7 +357,7 @@ ServerEvents.recipes(event => {
     // Forge Rocket Door
     event.custom({
         type: "create:sequenced_assembly",
-        ingredient: Ingredient.of("waystones:end_stone_waystone").toJson(),
+        ingredient: Ingredient.of("unusualend:teleportation_anchor").toJson(),
         transitionalItem: incomplete("forge_rocket_door"),
         sequence: [
             { type: "create:deploying", ingredients: [incomplete("forge_rocket_door"), Ingredient.of("minecraft:stone").toJson()], results: [incomplete("forge_rocket_door")] },

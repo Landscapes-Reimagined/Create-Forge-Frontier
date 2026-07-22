@@ -13,7 +13,7 @@ ServerEvents.recipes(event =>
                         count: 1
                     }
                 ]
-            })
+            }).id('forge_frontier:crushing/moon_gravel')
             
         // Iron Plating Convertion Recipe
             event.custom({
