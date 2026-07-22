@@ -3495,18 +3495,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "6FD9B284A1C14E8A"
-					item: {
-						Count: 1
-						id: "waystones:warp_stone"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "5A7EDAEA0DBE9853"
 					type: "xp_levels"
 					xp_levels: 2
