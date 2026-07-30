@@ -1,10 +1,10 @@
-# **Forge Frontier v3.0.3 Server Pack**
+# **Forge Frontier v3.0.4 Server Pack**
 
 ## **Important Notice**
 
-This server pack is intended for **Forge Frontier v3.0.3**.
+This server pack is intended for **Forge Frontier v3.0.4**.
 
-**Existing v3.0.0 worlds are fully compatible with v3.0.3.** This update focuses on bug fixes, compatibility improvements, quest updates, configuration refinements, and updated dependencies. **A new world is not required** when updating from **v3.0.0**.
+**Existing v3.0.0 worlds are fully compatible with v3.0.4.** This update focuses on bug fixes, compatibility improvements, quest updates, configuration refinements, and updated dependencies. **A new world is not required** when updating from **v3.0.0**.
 
 If you are updating from **any version prior to v3.0.0**, you **must** create a new world due to the extensive progression and world generation changes introduced in *The Final Frontier*.
 
@@ -17,7 +17,7 @@ For more information about these changes, see:
 
 ## **Introduction**
 
-Forge Frontier **v3.0.3** is a maintenance release that continues refining the experience introduced in *The Final Frontier*. This server pack includes the latest server files, updated configurations, scripts, datapacks, and compatible mod updates while remaining fully compatible with existing **v3.0.0** worlds.
+Forge Frontier **v3.0.4** is a maintenance release that continues refining the experience introduced in *The Final Frontier*. This server pack includes the latest server files, updated configurations, scripts, datapacks, and compatible mod updates while remaining fully compatible with existing **v3.0.0** worlds.
 
 Whether you're hosting a private server for friends or a large multiplayer community, this update delivers a more stable, polished, and consistent gameplay experience without changing progression.
 
@@ -25,7 +25,7 @@ Whether you're hosting a private server for friends or a large multiplayer commu
 
 ## **What's Included**
 
-- Complete server files for **Forge Frontier v3.0.3**
+- Complete server files for **Forge Frontier v3.0.4**
 - Updated configurations matching the latest client release
 - Latest compatible mod and library updates
 - Updated KubeJS scripts, datapacks, and server optimizations
@@ -35,7 +35,7 @@ Whether you're hosting a private server for friends or a large multiplayer commu
 
 ## **Maintenance Highlights**
 
-Version **3.0.3** focuses on improving the overall experience through ongoing maintenance, including:
+Version **3.0.4** focuses on improving the overall experience through ongoing maintenance, including:
 
 - Updated mods and supporting libraries
 - Quest fixes and progression improvements
@@ -51,8 +51,8 @@ For a complete overview of the systems introduced in *The Final Frontier*, see:
 
 For a complete list of changes included in this release, see:
 
-- **[v3.0.3 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.3_Changelog.md)**
-- **[v3.0.3 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.3_Mod_Updates.md)**
+- **[v3.0.4 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.4_Changelog.md)**
+- **[v3.0.4 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.4_Mod_Updates.md)**
 
 ---
 
@@ -77,7 +77,7 @@ https://discord.gg/quenZthXgy
 
 ---
 
-> **Forge Frontier v3.0.3** continues refining the foundation established in *The Final Frontier*, delivering ongoing stability, compatibility, and maintenance improvements while preserving the intended multiplayer experience.
+> **Forge Frontier v3.0.4** continues refining the foundation established in *The Final Frontier*, delivering ongoing stability, compatibility, and maintenance improvements while preserving the intended multiplayer experience.
 
 ---
 
