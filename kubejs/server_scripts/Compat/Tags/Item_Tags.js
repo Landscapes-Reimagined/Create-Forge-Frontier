@@ -1,8 +1,40 @@
 ServerEvents.tags('item', event => 
     {
+        event.remove('create_enchantment_industry:ink_ingredient',
+            "minecraft:black_dye"
+        )
+        // Create Resource Stone
+            event.add('create:resource_stones',[
+                "create:asurine",
+                "create:veridium",
+                "create:crimsite",
+                "create:ochrum",
+                "create:scorchia",
+                "create:scoria",
+                "create_dd:potassic",
+                "forge_frontier:verdantine",
+                "forge_frontier:glacium",
+                "minecraft:ancient_debris",
+                "forge_frontier:resonite",
+                "forge_frontier:aubrum",
+                "forge_frontier:stellaris",
+                "forge_frontier:pyroclast",
+                "forge_frontier:frostite",
+                "endelurgy:noxrock",
+                "unusualend:gneiss",
+                "endelurgy:endritus",
+                "forge_frontier:pearlyte",
+                "forge_frontier:amberlite",
+                "forge_frontier:guanite",
+                "forge_frontier:neodymrium",
+                "forge_frontier:azurnium",
+                "forge_frontier:uraniumnite",
+                "forge_frontier:sulphite",
+                "create_ethium:lost_debris"
+            ])
         // Rare Package Tag
             event.add('create:packages/rare',
-                ['create:rare_creeper_package', 'create:rare_darcy_package', 'create:rare_evan_package', 'create:rare_jinx_package', 'create:rare_kryppers_package', 'create:rare_simi_package', 'create:rare_starlotte_package', 'create:rare_thunder_package', 'create:rare_vector_package', 'createmetallurgy:restingphantom_transfer_ladle', 'createmetallurgy:the_cooler_transfer_ladle', 'createqol:rare_iglee_package', 'createqol:rare_furti_package', 'createqol:rare_delta_package']
+                ['create:rare_creeper_package', 'create:rare_darcy_package', 'create:rare_evan_package', 'create:rare_jinx_package', 'create:rare_kryppers_package', 'create:rare_simi_package', 'create:rare_starlotte_package', 'create:rare_thunder_package', 'create:rare_vector_package', 'createmetallurgy:restingphantom_transfer_ladle', 'createmetallurgy:the_cooler_transfer_ladle', 'createqol:rare_iglee_package', 'createqol:rare_furti_package', 'createqol:rare_delta_package', "create_dragons_plus:rare_blaze_pacakge", "create_dragons_plus:rare_marble_gate_pacakge"]
             )
         // Removes Infinity Ham for Relic Tags
             event.remove( 'rarcompat:mimic_loot', 'relics:infinity_ham' )
@@ -85,8 +117,15 @@ ServerEvents.tags('item', event =>
             ])
 
         // Forge Wrench Tags
-            event.add('forge:wrenches', 'prettypipes:wrench')
-            event.add('forge:tools/wrench', 'prettypipes:wrench')
+            event.add('forge:wrenches', [
+                'prettypipes:wrench',
+                "refinedstorage:wrench"
+
+            ])
+            event.add('forge:tools/wrench', [
+                'prettypipes:wrench',
+                "refinedstorage:wrench"
+            ])
 
         // Ender Chest Tag
             event.add('forge_frontier:chests/ender', [
@@ -284,15 +323,6 @@ ServerEvents.tags('item', event =>
         // MCTB Revertable Workbench
             event.add("mctb:revertable_workbench","minecraft:crafting_table")
 
-        // Excavated Variants Stone Types Tag
-            event.add("excavated_variants:stone_stones",[
-                "forge_frontier:amberlite", "forge_frontier:aubrum", "forge_frontier:azurnium", "forge_frontier:frostite",
-                "forge_frontier:glacium", "forge_frontier:guanite", "forge_frontier:neodymrium", "forge_frontier:pearlyte",
-                "forge_frontier:pyroclast", "forge_frontier:stellaris",
-                "forge_frontier:sulphite", "forge_frontier:verdantine", "forge_frontier:uraniumnite","create_dd:potassic", "deeperdarker:sculk_grime",
-                "forge_frontier:resonite"
-            ])
-        
         // Create Additions Plant Tag
             event.add("createaddition:plants",[
                 "quark:chorus_weeds",
@@ -451,7 +481,7 @@ ServerEvents.tags('item', event =>
                 "forge_frontier:resonite",
                 "endelurgy:noxrock",
                 "endelurgy:endritus",
-                "unusualend:gneiss"
+                "unusualend:gneiss",
             ];
 
             createStones.forEach(stone => {
