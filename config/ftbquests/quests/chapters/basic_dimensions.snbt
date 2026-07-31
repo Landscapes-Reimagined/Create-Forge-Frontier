@@ -496,7 +496,7 @@
 				""
 				"Other ingredients can also be discovered through exploration."
 				""
-				"The &5Nether Crystal&r can be found within the chests of any &dHopo Portal&r structure, while &bChromatic Compound&r can be discovered in the loot chests of many Create-themed structures throughout the world."
+				"The &5Nether Crystal&r can be found within the chests of any &dHopo Portal&r structure. &bChromatic Compound&r can be discovered in the loot chests of many Create-themed structures throughout the world or crafted via heated mixing, note &4blaze burners&r can be found in many different create structures."
 				""
 				"One of the most important crafting components is the &6Deployer&r, which serves as a gateway into Sequenced Assembly. While Deployers can be crafted normally, they can also be found as loot within many Create-themed structures, allowing explorers to begin progression much sooner."
 				""
@@ -554,11 +554,26 @@
 			shape: "pentagon"
 			tasks: [
 				{
+					id: "532BD1078E48FB57"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
 					icon: "minecraft:heart_of_the_sea"
 					id: "35B1117A351F9D74"
 					structure: "idas:ruins_of_the_deep"
 					title: "Locate the Ruins of the Deep"
 					type: "structure"
+				}
+				{
+					id: "7FE863BFE62694E3"
+					item: "nether_remastered:seal_piece_1"
+					title: "1st Shard found inside the Ruins of the Deep"
+					type: "item"
 				}
 				{
 					icon: "handcrafted:hammer"
@@ -568,11 +583,10 @@
 					type: "structure"
 				}
 				{
-					icon: "create:cuckoo_clock"
-					id: "0641D629B7A2B3DA"
-					structure: "idas:tinkers_citadel"
-					title: "Locate the Tinkers Citadel"
-					type: "structure"
+					id: "1FC3C912E784A525"
+					item: "nether_remastered:seal_piece_2"
+					title: "2nd Shard found in a vault inside the Tinker's Workshop"
+					type: "item"
 				}
 				{
 					icon: {
@@ -588,11 +602,36 @@
 					type: "structure"
 				}
 				{
+					id: "757871615D952D47"
+					item: "nether_remastered:seal_piece_3"
+					title: "3rd Shard found inside minecarts in the lowest part of the Ancient Mines"
+					type: "item"
+				}
+				{
+					icon: "create:cuckoo_clock"
+					id: "0641D629B7A2B3DA"
+					structure: "idas:tinkers_citadel"
+					title: "Locate the Tinkers Citadel"
+					type: "structure"
+				}
+				{
+					id: "4E54A2D8A16AF82A"
+					item: "nether_remastered:seal_piece_4"
+					title: "4th Shard found inside a hidden room underneath the fountain at the Tinker's Citadel"
+					type: "item"
+				}
+				{
 					icon: "minecraft:obsidian"
 					id: "5FCF0604CFFF91F0"
 					structure: "#minecraft:ruined_portal"
 					title: "Locate any Ruined Portal from Hopo"
 					type: "structure"
+				}
+				{
+					id: "568FD327C2123AD8"
+					item: "nether_remastered:seal_crystal"
+					title: "Nether Crystal found in Hopo Portal loot chests"
+					type: "item"
 				}
 				{
 					id: "4A6DDBFE0C5A614C"
