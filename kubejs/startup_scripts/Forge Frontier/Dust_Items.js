@@ -31,6 +31,7 @@ StartupEvents.registry('item', event => {
         const id = `dirty_${material.toLowerCase()}_dust`;
         event.create(`forge_frontier:${id}`)
             .displayName(`Dirty ${material} Dust`)
+            .tag('forge:dusts')
             .texture(`forge_frontier:item/dirty_dust/${id}`);
     }
 
@@ -38,6 +39,7 @@ StartupEvents.registry('item', event => {
         const id = `${material.toLowerCase()}_dust`;
         event.create(`forge_frontier:${id}`)
             .displayName(`${material} Dust`)
+            .tag('forge:dusts')
             .texture(`forge_frontier:item/dust/${id}`);
     }
 
