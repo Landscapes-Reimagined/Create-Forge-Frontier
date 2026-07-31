@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'resonite',
-            secondary: { chance: 0.05, item: 'deeperdarker:warden_carapace' }
+            secondary: { chance: 0.5, item: "resonant_synthesis:sculk_crystalline_flour" }
         },
         {
             name: 'aubrum',
