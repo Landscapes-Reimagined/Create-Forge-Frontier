@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "tag": "forge:storage_blocks/diamond"
+      "item": "create_dd:bronze_block"
     },
     "b": {
       "item": "extrastorage:gold_crafter"

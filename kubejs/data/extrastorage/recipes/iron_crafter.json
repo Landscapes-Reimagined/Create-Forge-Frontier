@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "item": "minecraft:iron_block"
+      "item": "create:andesite_alloy_block"
     },
     "b": {
       "tag": "refinedstorage:crafter"

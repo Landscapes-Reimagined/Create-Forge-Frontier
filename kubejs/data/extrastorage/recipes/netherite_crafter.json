@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "tag": "forge:storage_blocks/netherite"
+      "item": "create_dd:mithril_block"
     },
     "b": {
       "item": "extrastorage:diamond_crafter"
