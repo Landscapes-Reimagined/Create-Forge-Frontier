@@ -1,0 +1,32 @@
+#Number of worker threads. 0 = auto (cores - 2, min 2).
+#Range: 0 ~ 64
+worker_count = 0
+#Log how long each acceleration phase took.
+log_timing = true
+
+[filter]
+	#Strategy for accelerating JEI ingredient filter build.
+	#  OFF              — vanilla JEI
+	#  BATCH            — pack per-item calls into one addAll (~10-15% faster, safe)
+	#  PARALLEL_PREFIX  — build each search prefix on its own thread (safe)
+	#  PARALLEL_FULL    — also parallelize tokenization inside each prefix (best)
+	#Default: PARALLEL_FULL
+	#Allowed Values: OFF, BATCH, PARALLEL_PREFIX, PARALLEL_FULL
+	mode = "PARALLEL_FULL"
+	#Build IngredientFilter contents in background — player enters world immediately,
+	#JEI search becomes available 1-2 sec later. If a player opens JEI before then,
+	#they see an empty grid until ready. Default false.
+	async = false
+
+[plugins]
+	#EXPERIMENTAL. Phase names of PluginCaller.callOnPlugins to run in parallel.
+	#Each plugin's handler runs concurrently. Mods NOT thread-safe in their JEI plugins
+	#WILL crash here (we saw theurgy, ars_nouveau, compactmachines crash in our 1.21.1 test).
+	#Empty list = disabled (DEFAULT, recommended).
+	#Try: ["Registering recipes"] only if you've verified your mod set is safe.
+	parallel_phases = []
+	#EXPERIMENTAL. Build CreativeModeTab contents in parallel.
+	#In our 1.21.1 test pack this LOST 22% of JEI items because some mods' tab builders
+	#race on internal state. Default OFF (safe). Enable only if your mod set is verified.
+	parallel_creative_tabs = false
+

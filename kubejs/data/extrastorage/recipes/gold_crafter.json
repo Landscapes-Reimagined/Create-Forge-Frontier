@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "a": {
-      "tag": "forge:storage_blocks/gold"
+      "item": "create:brass_block"
     },
     "b": {
       "item": "extrastorage:iron_crafter"

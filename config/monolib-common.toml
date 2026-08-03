@@ -1,2 +1,8 @@
 enable_jar_verification = true
 enable_debugging = false
+# Whether to log additional information to the console.
+debug = false
+# Whether to scan for JAR filenames registered to MonoLib's "Sailing" anti-piracy subsystem. 
+# Check out stopmodreposts.org for information on why this feature exists
+verify_jars = true
+

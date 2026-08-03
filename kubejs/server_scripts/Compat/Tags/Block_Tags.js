@@ -47,7 +47,8 @@ ServerEvents.tags('block', event =>
                 'quark:permafrost', 
                 'regions_unexplored:argillite',
                 "echovoids:corrode_stone",
-                "echovoids:corroded_entropite"
+                "echovoids:corroded_entropite",
+                "alexscaves:limestone"
             ])
             
         // Serene Seasons Tag
@@ -75,6 +76,7 @@ ServerEvents.tags('block', event =>
         
         // Create Wrenchable
             event.add('create:wrench_pickup', [
+                "refinedstorage:cable",
                 '#quill:axe_blocks',
                 '#forge:relocation_not_supported',
                 "toms_storage:ts.crafting_terminal",

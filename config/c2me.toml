@@ -35,9 +35,6 @@ globalExecutorParallelism = "default"
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
 	midTickChunkTasksInterval = "default"
-	# (Default: true) Whether to let async chunk request no longer block server thread
-	# (may cause incompatibility with other mods)
-	optimizeAsyncChunkRequest = "default"
 
 	[generalOptimizations.autoSave]
 		# (Default: ENHANCED) Defines how auto save should be handled  
@@ -61,13 +58,15 @@ globalExecutorParallelism = "default"
 	#  We has historically been doing this, and this config option allows you to disable this behavior.
 	# 
 	disableLoggingShutdownHook = "default"
-	# (Default: true) Enforces safe world random access.  
-	# This feature detects unsafe off-thread world random access, helping to find the causes  
-	# of mysterious "Accessing LegacyRandomSource from multiple threads" crash.  
-	# The default behavior is to fail hard when such bad things happens.  
-	# Disabling this option will replace this behavior with a warning.  
+	# (Default: false) Enforces safe world random access by hard-crashing on unsafe off-thread world random access.  
+	# This detection helps find the causes of mysterious  
+	# "Accessing LegacyRandomSource from multiple threads" crashes.  
 	# 
-	# It is generally not recommended to disable this settings unless you know what you are doing  
+	# Default is false: C2ME still DETECTS and reports such accesses (rate-limited), but recovers  
+	# with a thread-local fallback random instead of crashing, so a single mod's off-thread RNG bug  
+	# (e.g. some mob-variant mods) cannot take down an end user's world.  
+	# 
+	# Set to true to hard-crash instead -- useful for mod developers hunting the root cause.  
 	# 
 	# 
 	enforceSafeWorldRandomAccess = "default"
@@ -103,21 +102,6 @@ globalExecutorParallelism = "default"
 	# Set to false for the following reasons: 
 	# Incompatible with architectury@9.2.14 (*) (defined in c2me) 
 	gcFreeChunkSerializer = "default"
-	# (Default: 8192) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
-	# (Default: 32678) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
-	# (Default: -1) Defines which chunk compression should be used 
-	# -1 for Vanilla default  
-	# 1  for GZip (RFC1952) (Vanilla compatible) 
-	# 2  for Zlib (RFC1950) (Vanilla default) (Vanilla compatible) 
-	# 3  for Uncompressed (Fastest, but higher disk usage) (Vanilla compatible) 
-	#  
-	# Original chunk data will still readable after modifying this option  
-	# as this option only affects newly stored chunks 
-	# Invalid values will fall back to vanilla default
-	# 
-	chunkStreamVersion = "default"
 
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
@@ -135,20 +119,6 @@ globalExecutorParallelism = "default"
 [clientSideConfig]
 
 	[clientSideConfig.modifyMaxVDConfig]
-		# (Default: true) Whether to modify maximum view distance
-		# Set to false for the following reasons: 
-		# Incompatible with bobby@5.0.0 (*) (defined in c2me) 
-		enabled = "default"
 		# (Default: 65) Max render distance allowed in game options
 		maxViewDistance = "default"
-
-[vanillaWorldGenOptimizations]
-	# (Default: true) Whether to enable aquifer optimizations to accelerate overworld worldgen
-	# (may cause incompatibility with other mods)
-	optimizeAquifer = "default"
-	# (Default: true) Whether to enable End Biome Cache to accelerate The End worldgen 
-	# This is no longer included in lithium-fabric 
-	# (may cause incompatibility with other mods)
-	# 
-	useEndBiomeCache = "default"
 

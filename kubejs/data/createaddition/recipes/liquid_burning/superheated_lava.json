@@ -1,0 +1,15 @@
+{
+  "type":"createaddition:liquid_burning",
+  "input": {
+    "fluid": "createqol:superheated_lava",
+    "amount": 1000
+  },
+  "burnTime": 24000,
+  "superheated": true,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "createaddition"
+    }
+    ]
+}

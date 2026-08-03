@@ -93,6 +93,10 @@
     "adventure": true,
     "ench": true
   },
+  "stockbridge": {
+    "colony_demand_terminal": true,
+    "network_interface": true
+  },
   "balm": {
     "jade": true
   },

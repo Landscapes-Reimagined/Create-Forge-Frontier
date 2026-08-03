@@ -2,7 +2,7 @@ abilitiesData:
     abilities:
         autophagy:
             # Highest level to which the ability can be upgraded
-            maxLevel: 10
+            maxLevel: 0
             # Relic level at which the ability becomes unlocked
             requiredLevel: 0
             # Number of leveling points needed to increase the ability level
@@ -62,4 +62,3 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0

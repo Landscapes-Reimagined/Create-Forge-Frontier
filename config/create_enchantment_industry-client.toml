@@ -1,0 +1,5 @@
+#.
+#The vision range through Liquid Experience will be multiplied by this factor
+#Range: 1.0 ~ 256.0
+experienceVisionMultiplier = 1.0
+
