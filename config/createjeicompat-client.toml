@@ -1,0 +1,8 @@
+
+#.
+#Client-only settings for Create JEI Compat.
+[client]
+	#.
+	#Show clickable < > arrows next to the page number on multi-page sequenced assembly recipes. The 1/N label always shows. Mouse wheel and arrow keys still change pages.
+	showPageArrows = false
+

@@ -1,0 +1,34 @@
+#Energy consumption (FE/t) for the Network Interface block.
+#Range: 0 ~ 100
+networkInterfaceEnergy = 2
+#Milliseconds to cache RS item lists for pipes and interfaces.
+#Range: 250 ~ 30000
+slotCacheMs = 2000
+#How many RS item types Create pipes can see at once.
+#Range: 16 ~ 4096
+maxExposedItemSlots = 256
+#How many RS fluid types Create pumps and pipes can see at once.
+#Range: 8 ~ 1024
+maxExposedFluidTanks = 64
+#Filter-slot item amount in RS that makes the Network Interface emit a full 15 comparator signal.
+#Range: 1 ~ 2000000000
+comparatorFullAmount = 64
+#Maximum distance to auto-detect a MineColonies colony.
+#Range: 16 ~ 1024
+colonyScanRadius = 256
+#Ticks between automatic colony request refreshes.
+#Range: 5 ~ 600
+colonyRefreshTicks = 40
+#Energy consumption (FE/t) for the Colony Demand Terminal.
+#Range: 0 ~ 100
+colonyTerminalEnergy = 1
+#Maximum colony request rows shown in the GUI.
+#Range: 5 ~ 200
+colonyMaxDisplayEntries = 50
+#RS connection scan range for the wireless colony terminal.
+#Range: 2 ~ 32
+wirelessTerminalRange = 8
+#Energy consumption (FE/t) for the wireless colony terminal.
+#Range: 0 ~ 100
+wirelessTerminalEnergy = 4
+

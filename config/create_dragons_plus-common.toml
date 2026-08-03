@@ -1,0 +1,19 @@
+
+[features]
+	#Enable recipes and creative tab visibility for dye fluids (blocks/items remain registered)
+	dyeFluids = true
+	#Enable recipes and creative tab visibility for dragon breath fluid (blocks/items remain registered)
+	dragonBreathFluid = false
+	#Dye fluids + lava = colored concrete
+	dyeFluidsLavaInteractionGenerateColoredConcrete = true
+	#Enable recipes and creative tab visibility for fluid hatch block (block remains registered)
+	fluidHatch = false
+	#Enable recipes and creative tab visibility for blaze upgrade smithing template (item remains registered)
+	blazeUpgradeSmithingTemplate = false
+
+[recipes]
+	generateAutomaticBrewingRecipeForDragonBreathFluid = true
+	generateSandPaperPolishingRecipeForPolishedBlocks = false
+	generateSandPaperPolishingRecipeForOxidizedBlocks = true
+	generateSandPaperPolishingRecipeForWaxedBlocks = true
+
