@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'desh',
-            secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
+            secondary: { chance: 0.5, item: "ad_astra:steel_nugget" }
         },
         {
             name: 'ostrum',
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'stellaris',
-            secondary: { chance: 0.5, item: 'create_dd:steel_nugget' }
+            secondary: { chance: 0.5, item: "ad_astra:steel_nugget" }
         },
         {
             name: 'guanite',
