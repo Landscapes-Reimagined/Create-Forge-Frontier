@@ -1,0 +1,15 @@
+
+[recipes]
+	#Enable bulk coloring via fan
+	enableBulkColoring = true
+	#Enable bulk freezing via fan
+	enableBulkFreezing = false
+	#Enable bulk sanding via fan
+	enableBulkSanding = true
+	#Enable bulk ending via fan
+	enableBulkEnding = false
+	#Enable Aether Altar recipes with a fan blowing through Golden Aercloud
+	enableAetherBulkEnchanting = true
+	#Allow Aether Moa Eggs to incubate through Golden Aercloud
+	enableAetherMoaIncubation = true
+
