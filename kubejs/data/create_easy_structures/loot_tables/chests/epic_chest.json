@@ -80,7 +80,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 20,
           "name": "create_dd:chromatic_compound",
           "functions": [
             {

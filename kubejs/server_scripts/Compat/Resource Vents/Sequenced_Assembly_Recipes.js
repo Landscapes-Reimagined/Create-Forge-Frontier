@@ -165,7 +165,7 @@ ServerEvents.recipes(event => {
       type: 'create:sequenced_assembly',
       ingredient: { item: recipe.vent },
       transitionalItem: { item: recipe.incomplete },
-      loops: 2,
+      loops: 3,
       results: [
         { item: recipe.vent, count: 2 }
       ],
@@ -184,7 +184,7 @@ ServerEvents.recipes(event => {
           type: 'create:deploying',
           ingredients: [
             { item: recipe.incomplete },
-            { item: 'forge_frontier:compressed_mechanism_block_2x' }
+            { item: 'forge_frontier:compressed_mechanism_block_1x' }
           ],
           results: [
             { item: recipe.incomplete }

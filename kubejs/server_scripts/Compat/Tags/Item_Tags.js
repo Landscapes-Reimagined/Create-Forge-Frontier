@@ -618,7 +618,11 @@ ServerEvents.tags('item', event =>
                 "crushed_azurnium", 
                 "crushed_neodymrium",
                 "crushed_uraniumnite", 
-                "crushed_sulphite"
+                "crushed_sulphite",
+                "crushed_noxrock",
+                "crushed_endritus",
+                "crushed_gneiss",
+                "crushed_resonite"
             ];
 
             crushedMaterials.forEach(material => event.add("create:crushed_raw_materials", `forge_frontier:${material}`));

@@ -1,19 +1,19 @@
 {
   "minimumClient": {
     "desc:": "Set the clients minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
-    "minimumClient": 4096
+    "minimumClient": 5120
   },
   "maximumClient": {
     "desc:": "Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended memory for the pack is 6000mb then set this to ~8000mb",
-    "maximumClient": 15258
+    "maximumClient": 16384
   },
   "minimumServer": {
     "desc:": "Set the servers minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
-    "minimumServer": 4096
+    "minimumServer": 5120
   },
   "maximumServer": {
     "desc:": "Set the servers maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb",
-    "maximumServer": 24576
+    "maximumServer": 16384
   },
   "disableWarnings": {
     "desc:": "Disable the memory warnings, default: false",
@@ -21,7 +21,7 @@
   },
   "earlyWarningMinimumMemory": {
     "desc:": "Set the message used for the early warning screen, notifying the user of too low memory set. You can use %d as placeholder for these memoryvalues, in order: currentmemory, minimum, recommendMemory",
-    "earlyWarningMinimumMemory": "You have allocated less memory( %d MB) than the recommended minimum for this pack: %d MB.\nThe suggested amount for your system is: %d mb.\n Click OK to visit a wiki with instructions on how to allocate more memory, or Cancel to ignore this warning."
+    "earlyWarningMinimumMemory": "You have allocated less memory (%d MB) than the recommended minimum for this pack: %d MB.\nThe suggested amount for your system is: %d MB.\nClick OK to visit a guide on changing your memory allocation, or Cancel to continue anyway."
   },
   "howtolink": {
     "desc:": "Set the link used to guide players to a website with instructions to change memory allocation",
@@ -34,19 +34,17 @@
   "recommendedMemory": {
     "desc:": "Set the recommended memory values based off system memory in MB. [\"system memory:recommended\"]",
     "memory values": [
-      "3072:1536",
-      "4096:2048",
-      "5120:2560",
-      "6144:3072",
-      "7168:3584",
-      "8192:4096",
-      "10240:5120",
-      "12288:6144",
-      "16384:8192",
-      "20480:10240",
-      "24576:12288",
-      "32768:16384",
-      "65536:32768"
+      "4096:2500",
+      "6144:4096",
+      "8192:5120",
+      "12288:5120",
+      "16384:6144",
+      "24576:10240",
+      "32768:12288",
+      "49152:16384",
+      "65536:16384",
+      "98304:16384",
+      "131072:16384"
     ]
   }
 }

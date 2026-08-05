@@ -6,7 +6,7 @@ modpackMode = false
   # Fullscreen and borderless window behavior
   # Window mode applied at boot and by the fullscreen option
   # Accepted values are: [WINDOWED, BORDERLESS, FULLSCREEN]
-  mode = "BORDERLESS"
+  mode = "WINDOWED"
 
   # Adds 1px to the borderless window height, avoiding driver-level exclusive fullscreen optimizations
   disableBorderlessOptimizations = false

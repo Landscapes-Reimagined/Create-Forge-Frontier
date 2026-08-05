@@ -1,5 +1,27 @@
 ServerEvents.recipes(event => 
     {
+        // Blaze Powder
+            event.custom({
+                type: "create:mixing",
+                ingredients: [
+                    {
+                        item: 'minecraft:gunpowder'
+                    },
+                    {
+                        item: 'create:cinder_flour'
+                    },
+                    {
+                        fluid: 'minecraft:lava',
+                        amount: 250
+                    }, 
+                ],
+                results: [
+                    {
+                        item: 'minecraft:blaze_powder',
+                    }
+                ],
+            }).id('forge_frontier:mixing/blaze_powder');
+            
         // Egg Grog
             event.custom({
                 type: "create:mixing",
