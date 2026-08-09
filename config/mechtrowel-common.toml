@@ -1,0 +1,44 @@
+#Durability of the Mech Trowel (0 = infinite/no durability)
+#Range: 0 ~ 10000
+trowelDurability = 0
+#Durability cost per single block placement
+#Range: 1 ~ 100
+singlePlaceDurabilityCost = 1
+#Durability cost per wand mode action
+#Range: 1 ~ 100
+wandPlaceDurabilityCost = 8
+#Enable replace mode functionality
+replaceModeEnabled = true
+#Enable gradient mode functionality.
+gradientEnabled = true
+#Maximum number of palettes that can be stored (will be rounded to nearest multiple of 7)
+#Range: 7 ~ 70
+maxPalettes = 28
+#Maximum number of blocks that can be placed in one wand mode action as default
+#Range: 1 ~ 512
+wandMaxBlocks = 81
+#Maximum range from clicked block for wand mode
+#Range: 2 ~ 256
+wandMaxRange = 31
+#Enable wand upgrade functionality
+wandUpgradeEnabled = true
+#Enable wand capacity upgrade functionality
+wandCapacityUpgradeEnabled = true
+#Allow wand mode without requiring upgrade item (default: false)
+wandModeWithoutUpgrade = false
+#List of blocks that cannot be replaced
+replaceBlacklistBlocks = ["minecraft:bedrock", "minecraft:end_portal", "minecraft:command_block", "minecraft:barrier"]
+#List of block tags that cannot be replaced
+replaceBlacklistTags = ["#minecraft:wither_immune"]
+#Enable variant block auto-conversion upgrade functionality
+chippedConversionUpgradeEnabled = true
+#Enable reach upgrade functionality
+reachUpgradeEnabled = true
+#Additional block reach distance granted by reach upgrade
+#Range: 0.0 ~ 16.0
+reachUpgradeBonus = 4.0
+#Enable AE2 ME Storage integration upgrade functionality
+ae2UpgradeEnabled = true
+#Enable Refined Storage integration upgrade functionality
+rsUpgradeEnabled = true
+
