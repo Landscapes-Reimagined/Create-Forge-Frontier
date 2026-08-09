@@ -6,19 +6,29 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                    item: "create_enchantment_industry:hyper_experience_bottle",
+                    item: "create_enchantment_industry:super_experience_nugget",
                     },
                     {
-                    item: "create_enchantment_industry:hyper_experience_bottle",
+                    item: "create_enchantment_industry:super_experience_nugget",
                     },
                     {
-                    item: "create_enchantment_industry:hyper_experience_bottle",
+                    item: "create_enchantment_industry:super_experience_nugget",
                     },
                     {
-                    item: "create_enchantment_industry:hyper_experience_bottle",
+                    item: "create_enchantment_industry:super_experience_nugget",
                     },
                     {
-                    item: "create_enchantment_industry:hyper_experience_bottle",
+                    item: "create_enchantment_industry:super_experience_nugget",
+                    },
+                    {
+                    item: "create_enchantment_industry:super_experience_nugget",
+                    },
+                    
+                    {
+                    item: "create_enchantment_industry:super_experience_nugget",
+                    },
+                    {
+                    item: "create_enchantment_industry:super_experience_nugget",
                     },
                     {
                     item: "minecraft:phantom_membrane"

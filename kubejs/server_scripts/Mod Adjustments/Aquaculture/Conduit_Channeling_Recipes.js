@@ -6,7 +6,7 @@ ServerEvents.recipes(event =>
                     type: 'create_aquatic_ambitions:channeling',
                     ingredients: [
                         {
-                            item: 'create_enchantment_industry:hyper_experience_nugget'
+                            item: "create_enchantment_industry:super_experience_nugget"
                         }
                     ],
                     results: [

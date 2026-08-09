@@ -30,7 +30,6 @@ ServerEvents.recipes(function (event) {
         { name: "adamantite", fluid: "forge_frontier:molten_adamantite", result: "endelurgy:adamantite_block"},
 
         // Hyper Experience – special amount (27 mB instead of 810)
-        { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", result: "create_enchantment_industry:hyper_experience_block", amount: 27 },
         { name: "experience", fluid: "create_enchantment_industry:experience", result: "create:experience_block", amount: 27 }
     ];
 

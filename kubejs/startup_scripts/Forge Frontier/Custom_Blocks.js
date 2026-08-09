@@ -84,18 +84,6 @@ StartupEvents.registry('block', event => {
         .tagBlock("mineable/shovel")
         .fullBlock(true);
 
-    // Hyper Experience Block
-    event.create('create_enchantment_industry:hyper_experience_block')
-        .displayName('Hyper Experience Block')
-        .soundType('amethyst') 
-        .mapColor('DIAMOND') 
-        .hardness(2.0)
-        .model('forge_frontier:block/hyper_experience_block')
-        .requiresTool(true)
-        .renderType('solid')
-        .tagBlock("mineable/pickaxe")
-        .fullBlock(true);
-
     // Echo Shard Block
     event.create('forge_frontier:echo_shard_block')
         .displayName('Echo Shard Block')

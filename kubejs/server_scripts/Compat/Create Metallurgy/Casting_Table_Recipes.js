@@ -23,9 +23,6 @@ ServerEvents.recipes(function (event) {
         { name: "diamond", fluid: "forge_frontier:molten_diamond", ingot: "minecraft:diamond", nugget: "forge_frontier:diamond_nugget", plate: "forge_frontier:diamond_sheet", rodTag: "forge:rods/diamond", wireTag: "forge:wires/diamond" },
         { name: "echo", fluid: "forge_frontier:molten_echo_shard", ingot: "minecraft:echo_shard", nugget: "forge_frontier:echo_nugget", plate: "forge_frontier:echo_sheet", rodTag: "forge:rods/echo", wireTag: "forge:wires/echo" },
 
-        // Hyper Experience – special nugget amount (3 mB instead of 10)
-        { name: "hyper", fluid: "create_enchantment_industry:hyper_experience", nugget: "create_enchantment_industry:hyper_experience_nugget", amount: 3 },
-
         // Newly added
         { name: "luxite", fluid: "forge_frontier:molten_luxite", ingot: "endelurgy:luxite", nugget: "endelurgy:luxite_shard" },
         { name: "adamantite", fluid: "forge_frontier:molten_adamantite", ingot: "endelurgy:adamantite_ingot", nugget: "endelurgy:adamantite_nugget" },

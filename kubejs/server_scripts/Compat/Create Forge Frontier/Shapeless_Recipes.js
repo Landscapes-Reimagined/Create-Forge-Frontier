@@ -1,19 +1,5 @@
 ServerEvents.recipes(event => 
     {     
-        // Hyper Experience Block Recipe
-            event.custom({
-                type: 'minecraft:crafting_shapeless',
-                ingredients: [
-                    {
-                        item: 'create_enchantment_industry:hyper_experience_block'
-                    }
-                ],
-                result: {
-                    item: 'create_enchantment_industry:hyper_experience_nugget',
-                    count: 9
-                }
-            }).id( 'forge_frontier:shapeless/hyper_experience_nugget' ) 
-
         // Echo Shard Recipe
             event.custom({
                 type: 'minecraft:crafting_shapeless',

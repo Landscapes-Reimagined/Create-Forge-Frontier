@@ -7,13 +7,6 @@ StartupEvents.registry('item', event => {
             texture: 'forge_frontier:item/blank_fluid_module'
         },
         {
-            id: 'create_enchantment_industry:hyper_experience_nugget',
-            name: 'Hyper Experience Nugget',
-            stack: 64,
-            texture: 'forge_frontier:item/hyper_experience_nugget',
-            tooltip: 'This is used for crafting, not consumption'
-        },
-        {
             id: 'forge_frontier:leather_elytra',
             name: 'Leather Elytra',
             stack: 1,
