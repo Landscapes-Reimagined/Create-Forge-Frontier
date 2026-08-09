@@ -4172,7 +4172,7 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Molecular Metamorpher\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_MOLECULAR_METAMORPHER_QUEST_ID\" } }"
+				"{ \"text\": \"Molecular Metamorpher\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"556893DFE1DA18EC\" } }"
 			]
 			id: "67F447A10D7C13D1"
 			rewards: [
@@ -4214,7 +4214,7 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Bipliophage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BIPLIOPHAGE_QUEST_ID\" } }"
+				"{ \"text\": \"Bipliophage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0592C54DF2B57D18\" } }"
 			]
 			id: "5A1DCBC82EFFAC6C"
 			rewards: [
@@ -4252,7 +4252,7 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Bottle o' Nightmare\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BOTTLE_O_NIGHTMARE_QUEST_ID\" } }"
+				"{ \"text\": \"Bottle o' Nightmare\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05AED35DDD1D2EED\" } }"
 			]
 			id: "23484A12184A0C33"
 			rewards: [
@@ -4290,7 +4290,7 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Bottle o' Daydream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BOTTLE_O_DAYDREAM_QUEST_ID\" } }"
+				"{ \"text\": \"Bottle o' Daydream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"281B17D57747E4A4\" } }"
 			]
 			id: "50DA53DF1A11BB4C"
 			rewards: [
@@ -4980,7 +4980,7 @@
 				""
 				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
 				""
-				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_REFINED_STORAGE_QUEST_ID\" } }"
+				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C976892BBBECC6\" } }"
 			]
 			id: "0CCA64EFC4616AAF"
 			rewards: [
@@ -5020,7 +5020,7 @@
 				""
 				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
 				""
-				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_REFINED_STORAGE_QUEST_ID\" } }"
+				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C976892BBBECC6\" } }"
 			]
 			id: "4A2FA618FAF86C0E"
 			rewards: [
@@ -5767,7 +5767,7 @@
 				"&lNotes:&r"
 				"Need help locating The Leviathan and surviving the encounter?"
 				""
-				"{ \"text\": \"The Leviathan\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_LEVIATHAN_QUEST_ID\" } }"
+				"{ \"text\": \"The Leviathan\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"449BC30FBCC42249\" } }"
 			]
 			id: "753F7128569E478C"
 			rewards: [{
