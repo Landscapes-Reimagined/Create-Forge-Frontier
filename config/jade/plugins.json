@@ -5,8 +5,8 @@
     "harvest_tool.show_unbreakable": true,
     "animal_owner": true,
     "harvest_tool.effective_tool": true,
-    "item_storage.normal_amount": 9,
     "item_storage": true,
+    "item_storage.normal_amount": 9,
     "harvest_tool": true,
     "armor_stand": true,
     "fluid_storage.detailed": false,
@@ -86,6 +86,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "expatternprovider": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "create_mob_spawners": {
     "spawner_progress": true
   },
@@ -93,12 +97,20 @@
     "adventure": true,
     "ench": true
   },
-  "stockbridge": {
-    "colony_demand_terminal": true,
-    "network_interface": true
-  },
   "balm": {
     "jade": true
+  },
+  "ae2": {
+    "part_icon": true,
+    "charger": true,
+    "debug": true,
+    "part_tooltip": true,
+    "grid_node_state": true,
+    "pattern_provider": true,
+    "part_mod_name": true,
+    "power_storage": true,
+    "crafting_monitor": true,
+    "part_name": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -118,6 +130,14 @@
   },
   "supplementaries": {
     "hat_stand": true
+  },
+  "createpackage": {
+    "kinetic_pattern_provider": true,
+    "package_distributor": true
+  },
+  "appliedcreate": {
+    "grid_node_state": true,
+    "power_storage": true
   },
   "corpse": {
     "corpse": true
