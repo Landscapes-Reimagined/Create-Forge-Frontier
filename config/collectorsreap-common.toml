@@ -263,7 +263,7 @@
 	#Whether Pomegranate Bushes require Bee pollination to reach final growth stage in the Overworld.
 	pomegranate_pollination = true
 	#Whether bee pollination of bushes should occur much quicker (when Bee collides with it) rather than on Bee's AI scheduled timing. Use this if having issues with pollination.
-	fast_pollinate = false
+	fast_pollinate = true
 	#(1/x) Chance to pick a Stygian Pomegranate from a bush when all conditions are met.
 	#Range: 1 ~ 100
 	stygian_pomegranate_rarity = 10

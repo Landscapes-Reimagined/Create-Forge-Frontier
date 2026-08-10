@@ -1,6 +1,32 @@
 StartupEvents.registry('item', event => {
 
     const existingItems = [
+        // Reaction Chamber
+        { id: 'forge_frontier:incomplete_reaction_chamber', name: 'Incomplete Reaction Chamber' },
+        
+        // Stress Processors
+        { id: 'forge_frontier:incomplete_stress_processor', name: 'Incomplete Stress Processor' },
+        { id: 'forge_frontier:incomplete_stress_circuit_board', name: 'Incomplete Stress Circuit Board' },
+
+        // Advanced Processors
+        { id: 'forge_frontier:incomplete_advanced_stress_processor', name: 'Incomplete Advanced Stress Processor' },
+        { id: 'forge_frontier:incomplete_advanced_stress_circuit_board', name: 'Incomplete Advanced Stress Circuit Board' },
+        
+        // Quantum Processors
+        { id: 'forge_frontier:incomplete_quantum_processor', name: 'Incomplete Quantum Processor' },
+        { id: 'forge_frontier:incomplete_printed_quantum_processor', name: 'Incomplete Printed Quantum Processor' },
+        { id: 'forge_frontier:incomplete_quantum_processor_press', name: 'Incomplete Quantum Processor Press' },
+
+        // Energy Processors
+        { id: 'forge_frontier:incomplete_energy_processor', name: 'Incomplete Energy Processor' },
+        { id: 'forge_frontier:incomplete_printed_energy_processor', name: 'Incomplete Printed Energy Processor' },
+        { id: 'forge_frontier:incomplete_energy_processor_press', name: 'Incomplete Energy Processor Press' },
+
+        // Accumulation Processors
+        { id: 'forge_frontier:incomplete_accumulation_processor', name: 'Incomplete Accumulation Processor' },
+        { id: 'forge_frontier:incomplete_printed_accumulation_processor', name: 'Incomplete Printed Accumulation Processor' },
+        { id: 'forge_frontier:incomplete_accumulation_processor_press', name: 'Incomplete Accumulation Processor Press' },
+
         // Rocket Incomplete Parts
         { id: 'forge_frontier:incomplete_rocket_fuel_tank', name: 'Incomplete Rocket Fuel Tank' },
         { id: 'forge_frontier:incomplete_rocket_engine', name: 'Incomplete Rocket Engine' },

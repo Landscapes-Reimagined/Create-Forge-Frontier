@@ -3823,7 +3823,7 @@
 				{
 					count: 8
 					id: "5294322454999365"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -3863,7 +3863,7 @@
 				{
 					count: 6
 					id: "641CF33AAF453CE1"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -3903,7 +3903,7 @@
 				{
 					count: 6
 					id: "5E10B76D2D264218"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -3943,7 +3943,7 @@
 				{
 					count: 4
 					id: "6A9D567072DE75DD"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -3983,7 +3983,7 @@
 				{
 					count: 2
 					id: "6679F09FFB90E585"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -4023,7 +4023,7 @@
 				{
 					count: 4
 					id: "78B6F88047429CB6"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -4063,7 +4063,7 @@
 				{
 					count: 4
 					id: "2572605022B6610B"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -4103,7 +4103,7 @@
 				{
 					count: 4
 					id: "75483F4EF32E90EA"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -4124,15 +4124,15 @@
 		}
 		{
 			description: [
-				"&7Disenchanter&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				"&7Affix Augmentor&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
 				""
 				"&lHow to Obtain:&r"
-				"The Disenchanter is a useful machine from &6Create Enchantment Industry&r that can be crafted early using a Copper Casing, Sandpaper, and a few additional Create components."
+				"The Affix Augmentor is a useful machine from &6Create Enchantment Industry&r that can be crafted early using Brass Sheets, a Nether Star, God Forged Pearls, and a few additional Create components."
 				""
 				"&lNotes:&r"
-				"The Disenchanter can be used to extract &dLiquid Experience&r from a wide variety of items. This makes it an essential tool for powering advanced enchanting setups and experience-based automation."
+				"The Affix Augmentor can be used to automate Apotheosis's Augmenting of tools and armor among other things"
 				""
-				"Need help finding additional uses for the Disenchanter?"
+				"Need help finding additional uses for the Affix Augmentor?"
 				""
 				"Consult &6JEI&r for recipes, supported inputs, and automation opportunities."
 			]
@@ -4141,7 +4141,7 @@
 				{
 					count: 4
 					id: "080D5DEC1311D05A"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -4154,7 +4154,7 @@
 			tasks: [{
 				count: 4L
 				id: "71A13D70EEA5F0CB"
-				item: "create_enchantment_industry:disenchanter"
+				item: "create_enchantment_industry:affix_augmentor"
 				type: "item"
 			}]
 			x: -9.5d
@@ -4172,14 +4172,14 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Molecular Metamorpher\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_MOLECULAR_METAMORPHER_QUEST_ID\" } }"
+				"{ \"text\": \"Molecular Metamorpher\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"556893DFE1DA18EC\" } }"
 			]
 			id: "67F447A10D7C13D1"
 			rewards: [
 				{
 					count: 16
 					id: "429920F7D4B5F9F6"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{
@@ -4214,14 +4214,14 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Bipliophage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BIPLIOPHAGE_QUEST_ID\" } }"
+				"{ \"text\": \"Bipliophage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0592C54DF2B57D18\" } }"
 			]
 			id: "5A1DCBC82EFFAC6C"
 			rewards: [
 				{
 					count: 16
 					id: "0A1637C5E91957DE"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{
@@ -4252,14 +4252,14 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Bottle o' Nightmare\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BOTTLE_O_NIGHTMARE_QUEST_ID\" } }"
+				"{ \"text\": \"Bottle o' Nightmare\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"05AED35DDD1D2EED\" } }"
 			]
 			id: "23484A12184A0C33"
 			rewards: [
 				{
 					count: 16
 					id: "790BABF6743355A5"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{
@@ -4290,14 +4290,14 @@
 				""
 				"Need help learning Cognition?"
 				""
-				"{ \"text\": \"Bottle o' Daydream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_BOTTLE_O_DAYDREAM_QUEST_ID\" } }"
+				"{ \"text\": \"Bottle o' Daydream\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"281B17D57747E4A4\" } }"
 			]
 			id: "50DA53DF1A11BB4C"
 			rewards: [
 				{
 					count: 16
 					id: "279D72FA3209145D"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{
@@ -4335,7 +4335,7 @@
 				{
 					count: 16
 					id: "6953BD7ED226C81B"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{
@@ -4357,15 +4357,15 @@
 		}
 		{
 			description: [
-				"&7Hyper Experience&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
+				"&7Infused Dragon's Breath&r is a required component used in the construction of the &6Arcane Calibration Matrix&r."
 				""
 				"&lHow to Obtain:&r"
-				"Hyper Experience is created through &6Superheated Mixing&r using Lapis, Glow Squid Ink, and Liquid Experience. Once mixed, the resulting fluid must be collected and bottled using a &6Spout&r."
+				"Infused Dragon's Breath is created through a &6Infusing Recipe&r from Create Enchantment Industry using liquid dragon's breath"
 				""
 				"&lNotes:&r"
-				"Hyper Experience is used in a variety of advanced crafting recipes and progression systems throughout the pack."
+				"Infused Dragon's Breath is used in a variety of advanced crafting recipes and progression systems throughout the pack."
 				""
-				"Need help finding additional uses for Hyper Experience?"
+				"Need help finding additional uses for Infused Dragon's Breath?"
 				""
 				"Consult &6JEI&r for detailed recipes, production chains, and crafting applications."
 			]
@@ -4374,7 +4374,7 @@
 				{
 					count: 16
 					id: "670D8E2A15B8F82C"
-					item: "create_enchantment_industry:hyper_experience_block"
+					item: "create_enchantment_industry:super_experience_block"
 					type: "item"
 				}
 				{
@@ -4387,12 +4387,12 @@
 			size: 1.5d
 			subtitle: "Spouted Last"
 			tasks: [{
-				count: 400L
+				count: 4L
 				id: "16F8A549C2961042"
-				item: "create_enchantment_industry:hyper_experience_bottle"
+				item: "create_enchantment_industry:infused_dragon_breath_bucket"
 				type: "item"
 			}]
-			title: "4000mb of Hyper Experience"
+			title: "4 Buckets of Infused Dragon's Breath"
 			x: -9.5d
 			y: 18.75d
 		}
@@ -4980,7 +4980,7 @@
 				""
 				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
 				""
-				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_REFINED_STORAGE_QUEST_ID\" } }"
+				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C976892BBBECC6\" } }"
 			]
 			id: "0CCA64EFC4616AAF"
 			rewards: [
@@ -5005,28 +5005,28 @@
 		}
 		{
 			description: [
-				"&765536k Fluid Storage Part&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				"&14M Mega Storage Component&r is a required component used in the construction of the &6Forge Rocket Tank&r."
 				""
 				"&lHow to Obtain:&r"
-				"The 65536k Fluid Storage Part is an advanced fluid storage component from &6Refined Storage&r."
+				"The 4M Mega Storage Component is an advanced fluid storage component from &6AE2&r."
 				""
-				"Its production requires automated Moon Stone processing through crushing and washing, combined with numerous Create and vanilla ingredients."
+				"Its production requires automated AE2 processing, combined with numerous Create and vanilla ingredients."
 				""
 				"{@pagebreak}"
 				"&lNotes:&r"
-				"This component represents one of the highest tiers of fluid storage available and benefits greatly from a fully automated production chain."
+				"This component represents one of the higher tiers of storage components available for AE2 and benefits greatly from a fully automated production chain."
 				""
-				"Need help progressing through Refined Storage?"
+				"Need help progressing through AE2?"
 				""
-				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
+				"Consult the AE2 quests and &6JEI&r for detailed recipes and automation paths."
 				""
-				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_REFINED_STORAGE_QUEST_ID\" } }"
+				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C976892BBBECC6\" } }"
 			]
 			id: "4A2FA618FAF86C0E"
 			rewards: [
 				{
 					id: "1DC73997567D25B5"
-					item: "extrastorage:storagepart_65536k_fluid"
+					item: "megacells:cell_component_4m"
 					type: "item"
 				}
 				{
@@ -5037,7 +5037,7 @@
 			]
 			tasks: [{
 				id: "766220A4662CFC42"
-				item: "extrastorage:storagepart_65536k_fluid"
+				item: "megacells:cell_component_4m"
 				type: "item"
 			}]
 			x: 1.0d
@@ -5767,7 +5767,7 @@
 				"&lNotes:&r"
 				"Need help locating The Leviathan and surviving the encounter?"
 				""
-				"{ \"text\": \"The Leviathan\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"REPLACE_WITH_LEVIATHAN_QUEST_ID\" } }"
+				"{ \"text\": \"The Leviathan\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"449BC30FBCC42249\" } }"
 			]
 			id: "753F7128569E478C"
 			rewards: [{

@@ -1,0 +1,22 @@
+ServerEvents.recipes(event => 
+    {
+        event.remove({ id: "expatternprovider:cobblestone_cell"})
+        event.remove({ id: "expattenprovider:ex_inscriber"})
+        event.remove({ id: "ae2:network/blocks/spatial_anchor"})
+        event.remove({ id: "ae2:network/cells/spatial_components" })
+        event.remove({ id: "ae2:network/cells/spatial_components_0" })
+        event.remove({ id: "ae2:network/cells/spatial_components_1" })
+        event.remove({ id: "ae2:network/cells/spatial_storage_cell_2_cubed" })
+        event.remove({ id: "ae2:network/cells/spatial_storage_cell_2_cubed_storage" })
+        event.remove({ id: "ae2:network/cells/spatial_storage_cell_16_cubed" })
+        event.remove({ id: "ae2:network/cells/spatial_storage_cell_16_cubed_storage" })
+        event.remove({ id: "ae2:network/cells/spatial_storage_cell_128_cubed" })
+        event.remove({ id: "ae2:network/cells/spatial_storage_cell_128_cubed_storage" })
+        event.remove({ id: "ae2:network/blocks/spatial_io_pylon" })
+        event.remove({ id: "forge_frontier:shaped/spatial_io_port" })
+        event.remove({ id: "ae2:charger/guide" })
+        event.remove({ id: "ae2:charger/meteorite_compass" })
+        event.remove({ id: "ae2:charger/charged_certus_quartz_crystal" })
+        event.remove({ id: "ae2:network/blocks/spatial_io_port" })
+    }
+)

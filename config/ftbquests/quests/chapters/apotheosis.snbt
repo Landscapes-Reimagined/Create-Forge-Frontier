@@ -545,7 +545,7 @@
 				{
 					count: 2
 					id: "5A2B6166AE8850FC"
-					item: "create_enchantment_industry:hyper_experience_bottle"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{
@@ -2485,7 +2485,7 @@
 				{
 					count: 16
 					id: "6722205922675373"
-					item: "create_enchantment_industry:hyper_experience_nugget"
+					item: "create_enchantment_industry:super_experience_nugget"
 					type: "item"
 				}
 				{

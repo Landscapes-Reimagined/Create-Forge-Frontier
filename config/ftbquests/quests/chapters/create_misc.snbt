@@ -17,7 +17,7 @@
 		x: -0.75d
 		y: -10.0d
 	}]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -1672,6 +1672,437 @@
 			title: "Create Resource Vents"
 			x: -7.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["610FD2C783821A4E"]
+			description: [
+				"Create Metallurgy is a mod that allows you to process metals more efficiently."
+				""
+				"You will need to crush ores and wash them to get the most out of your ore."
+				""
+				"Every ore dust, when dirty, will produce a &6byproduct&r when washed, giving you bonus materials for your efforts."
+				""
+				"Before you can begin melting, you’ll need to mix up some &eRefractory Mortar&r, an essential material used to craft the Foundry Basin and begin the first stage of metal processing."
+				""
+				"This washed dust can then be melted and cast using molds or the casting basin."
+				"{@pagebreak}"
+				"This system also introduces &6molten metal alloying&r, letting you combine different materials into powerful new alloys like steel, obdurium, and brass."
+				""
+				"As you progress further, you’ll unlock advanced tools such as the &bBelt Grinder&r for efficient polishing."
+				""
+				"You will also unlock the &cIndustrial Crucible&r, which is capable of forming a massive, automated melting setup for large-scale metal production."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "createmetallurgy:foundry_mixer"
+				tag: { }
+			}
+			id: "33664D1FB2DB41D1"
+			rewards: [
+				{
+					id: "45C513351607616D"
+					item: {
+						Count: 1
+						id: "create:andesite_alloy_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1218DCEBD33D6AE2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "Molten Metal Mastery."
+			tasks: [{
+				id: "38793FCFB80C1C6D"
+				item: {
+					Count: 1
+					id: "createmetallurgy:refractory_mortar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Welcome to Create Metallurgy"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33664D1FB2DB41D1"]
+			description: [
+				"Using your newly obtained &eRefractory Mortar&r, craft a &bFoundry Lid&r and &bFoundry Basin&r."
+				""
+				"Once you craft them, you are ready to begin melting your ores."
+				"{@pagebreak}"
+				"To begin, place the Foundry Basin atop a &cBlaze Burner&r, and place a Foundry Lid on top of that. You can use a &aMechanical Arm&r, &7pipes&r, or &eBelts&r to insert ores into the Foundry Basin."
+				""
+				"Once the Basin is heated and the Lid is closed by &oshift right-clicking&r, it will begin melting the ore. The molten metal can then be extracted using &7pipes&r or a &bMechanical Pipette&r."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The &bCasting Table&r and &bCasting Basin&r serve as the two primary ways to turn your molten ore into usable materials such as &eingots&r, &7plates&r, &6blocks&r, or &bwires&r."
+				"{@pagebreak}"
+				"To automate the process, use &bCreate Fluid Pipes&r together with a &bMechanical Pump&r to control the exact flow of molten metal into your molds."
+				""
+				"&7Pretty Pipes&r does not work as intended for this purpose, so you must use &fvanilla Create pipes&r, or later on, &bApplied Energistics 2&r for full automation."
+				"{@pagebreak}"
+				"You can also use the &bMechanical Pipette&r to automate the process. Learn more about how to use it in its "
+				"{\"text\":\"dedicated quest.\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"08BCFA45FB71AB42\"},\"color\":\"blue\",\"underlined\":true}"
+				""
+				"{image:ftb:textures/metallurgy_setup.png width:180 height:140 align:center}"
+			]
+			icon: {
+				Count: 1
+				id: "createmetallurgy:foundry_basin"
+				tag: { }
+			}
+			id: "54833D179ADAFDD7"
+			rewards: [
+				{
+					count: 16
+					id: "50280DE35A5E2A7F"
+					item: "enhanced_ore_variety:andesite_iron_ore"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74A5F31F287C5B4B"
+					item: {
+						Count: 1
+						id: "minecraft:coal_ore"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "58E09998D2C58AD0"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					id: "38466873855AA655"
+					item: {
+						Count: 1
+						id: "createmetallurgy:foundry_lid"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7C32F4A86BADE7E5"
+					item: {
+						Count: 1
+						id: "createmetallurgy:foundry_basin"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "674D7E23E0A8B9C8"
+					item: "createmetallurgy:casting_basin"
+					type: "item"
+				}
+				{
+					id: "66AC1A5F689075C2"
+					item: "createmetallurgy:casting_table"
+					type: "item"
+				}
+			]
+			title: "Your First Foundry"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54833D179ADAFDD7"]
+			description: [
+				"&bGraphite Molds&r are essential components used for casting molten metals with the &bCasting Table&r. Each mold determines what shape the molten metal will take when poured."
+				""
+				"They come in several types for creating different materials such as &eingots&r, &7plates&r, &6rods&r, and &bwires&r."
+				""
+				"Make them all to fully master the art of metal casting and expand your foundry’s capabilities."
+			]
+			icon: "createmetallurgy:graphite_blank_mold"
+			id: "26445DC99561C4CE"
+			rewards: [
+				{
+					id: "532658691E32FD98"
+					item: {
+						Count: 1
+						id: "createmetallurgy:graphite"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "094FD052733D8097"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "3BC1EE3945A56D60"
+					item: {
+						Count: 1
+						id: "createmetallurgy:graphite_blank_mold"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "655DD92374A44F1C"
+					item: "createmetallurgy:graphite_ingot_mold"
+					type: "item"
+				}
+				{
+					id: "71EF1C33AA821F3E"
+					item: "createmetallurgy:graphite_nugget_mold"
+					type: "item"
+				}
+				{
+					id: "470C7D8A49A139B6"
+					item: "createmetallurgy:graphite_plate_mold"
+					type: "item"
+				}
+				{
+					id: "7BEFAFE66B553DBA"
+					item: "createmetallurgy:graphite_rod_mold"
+					type: "item"
+				}
+				{
+					id: "4D95AF14A9DD5315"
+					item: "createmetallurgy:graphite_wire_mold"
+					type: "item"
+				}
+			]
+			title: "Graphite Molds"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["26445DC99561C4CE"]
+			description: [
+				"To progress further into Create Metallurgy, you must travel to &cThe Nether&r and mine some &eWolframite Ore&r."
+				""
+				"Wolframite can be refined into &bTungsten&r, a key material used to craft the &bFoundry Mixer&r and &cIndustrial Crucible&r."
+				"{@pagebreak}"
+				"It can generate anywhere in the Nether, but it is most easily found in the &4Nether Wastes&r, its green texture makes it stand out clearly against the red netherrack. It's easier to spot without shaders."
+				""
+				"{image:ftb:textures/wolframite_ore_nether.png width:150 height:150 align:center}"
+				"{@pagebreak}"
+				"The &bFoundry Mixer&r unlocks &6molten metal alloying&r and advanced material mixing."
+				""
+				"To craft it, you must first create a &bSturdy Whisk&r, an essential component that puts your metalworking skills to the test."
+				""
+				"This step requires you to learn how to cast &bMolten Tungsten&r into &7Tungsten Sheets&r, which are then used to craft the whisk."
+				""
+				"Only once you’ve mastered this process will you be ready to assemble the Foundry Mixer and begin alloying."
+				""
+				"{@pagebreak}"
+				"The Foundry Mixer must be placed above a &bGlassed Foundry Lid&r. This can be done by right-clicking the lid with a wrench."
+				""
+				"Once assembled, consult &eJEI&r for all available recipes that can be made using the Foundry Mixer."
+			]
+			icon: {
+				Count: 1
+				id: "createmetallurgy:foundry_mixer"
+				tag: { }
+			}
+			id: "74E88A1EE28C9B8A"
+			rewards: [
+				{
+					count: 8
+					id: "3405348AFD322515"
+					item: "createmetallurgy:wolframite_ore"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22A4B0E339DEB0FB"
+					item: {
+						Count: 1
+						id: "createmetallurgy:coke"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "118D559943C09E84"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "20496DBDBDD70BF7"
+					item: "createmetallurgy:wolframite_ore"
+					type: "item"
+				}
+				{
+					id: "18390A3F619E78D8"
+					item: {
+						Count: 1
+						id: "createmetallurgy:foundry_mixer"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "The Foundry Mixer"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74E88A1EE28C9B8A"]
+			description: [
+				"With the &bFoundry Mixer&r unlocked, you can now begin alloying &bSteel&r."
+				""
+				"Steel is a critical material that unlocks many new crafting recipes and technological advancements. It represents your first major step into true industrial progress."
+				""
+				"Most importantly, Steel allows you to craft the &bTier 1 Rocket&r, marking the beginning of your journey into the stars through &eAd Astra&r."
+			]
+			id: "3970E3D9DAD23FF4"
+			rewards: [
+				{
+					count: 8
+					id: "4490B1A453F90C9C"
+					item: {
+						Count: 1
+						id: "ad_astra:steel_ingot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7910A870CFE8E1E6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "396D8DD54F9D0BFF"
+				item: {
+					Count: 1
+					id: "ad_astra:steel_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Steel"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3970E3D9DAD23FF4"]
+			description: [
+				"The &bMechanical Belt Grinder&r allows you to efficiently polish &dRose Quartz&r and other valuable gems with ease."
+				""
+				"It also plays a crucial role in the creation of the &cIndustrial Crucible&r, serving as a necessary step in its crafting process."
+				""
+				"In addition, the Belt Grinder supports a variety of grinding and refinement recipes. Consult &eJEI&r for a complete list of compatible materials and uses."
+			]
+			id: "06D408273095FCA5"
+			rewards: [
+				{
+					count: 8
+					id: "50D9BC6D4373BE89"
+					item: {
+						Count: 1
+						id: "create:rose_quartz"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "1120CD28DFD510F0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "50D5A43C5D7B7802"
+				item: {
+					Count: 1
+					id: "createmetallurgy:mechanical_belt_grinder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06D408273095FCA5"]
+			description: [
+				"The &cIndustrial Crucible&r is the pinnacle of your molten metal journey."
+				""
+				"It is designed for &6bulk melting&r of ores and materials, handling large quantities with unmatched efficiency. In addition, it’s powerful enough to &cmelt entities&r that fall inside, unlocking the true strength of your foundry setup."
+				""
+				"Don’t forget you can switch scenes at the bottom of the menu for a second, more in-depth Crucible tutorial."
+			]
+			icon: {
+				Count: 1
+				id: "createmetallurgy:industrial_crucible"
+				tag: { }
+			}
+			id: "05898D44B4A0A2F7"
+			rewards: [
+				{
+					id: "4D3BE41AB7483DF0"
+					item: {
+						Count: 1
+						id: "createmetallurgy:industrial_crucible"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7BEED25B24413D21"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "26B70D18D7F28B30"
+					item: {
+						Count: 1
+						id: "createmetallurgy:obdurium_sheet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "52D4258808C08F73"
+					item: {
+						Count: 1
+						id: "createmetallurgy:industrial_crucible"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "722016E409FDEFA3"
+					item: "createmetallurgy:gauge_attachment"
+					type: "item"
+				}
+			]
+			title: "The Industrial Crucible"
+			x: 3.5d
+			y: 2.5d
 		}
 	]
 	title: "Masterpieces of the Unseen (Create Miscellaneous Addons)"

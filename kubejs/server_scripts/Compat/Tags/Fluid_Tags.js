@@ -1,5 +1,10 @@
 ServerEvents.tags('fluid', event => 
     {
+        // Adds Experience Tag
+            event.add("create_enchantment_industry:infusing/ingredients",[
+                "sophisticatedcore:xp_still",
+                "experienceobelisk:cognition"
+            ])
         // Adds Oil Tag
             event.add("forge:crude_oil", "ad_astra:oil");
             event.add("forge:seed_oil", "createdieselgenerators:plant_oil")

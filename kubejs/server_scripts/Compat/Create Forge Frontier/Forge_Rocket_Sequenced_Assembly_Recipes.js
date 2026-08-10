@@ -204,7 +204,7 @@ ServerEvents.recipes(event => {
                 type: "create:deploying",
                 ingredients: [
                     incomplete("arcane_calibration_matrix"),
-                    Ingredient.of("create_enchantment_industry:disenchanter").toJson()
+                    Ingredient.of("create_enchantment_industry:affix_augmentor").toJson()
                 ],
                 results: [incomplete("arcane_calibration_matrix")]
             },
@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
                 type: "create:filling",
                 ingredients: [
                     incomplete("arcane_calibration_matrix"),
-                    Fluid.of("create_enchantment_industry:hyper_experience", 1000).toJson()
+                    Fluid.of("create_enchantment_industry:infused_dragon_breath", 1000).toJson()
                 ],
                 results: [incomplete("arcane_calibration_matrix")]
             },
