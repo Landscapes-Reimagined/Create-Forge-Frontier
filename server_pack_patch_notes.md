@@ -1,4 +1,4 @@
-# **Forge Frontier v3.1.0 Server Pack**
+# **Forge Frontier v3.1.0hf2 Server Pack**
 
 ## **Important Notice**
 
