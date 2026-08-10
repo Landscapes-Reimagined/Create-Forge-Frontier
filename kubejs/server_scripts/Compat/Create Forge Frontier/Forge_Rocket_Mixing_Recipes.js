@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
         ingredients: [
             Ingredient.of("forge_frontier:rocket_fuel_tank").toJson(),
             Ingredient.of("extrastorage:storagepart_1024k").toJson(),
-            Ingredient.of("extrastorage:storagepart_65536k_fluid").toJson(),
+            Ingredient.of("megacells:cell_component_4m").toJson(),
             Ingredient.of("sophisticatedstorage:stack_upgrade_omega_tier").toJson(),
             Ingredient.of("create_bs:netherite_item_vault").toJson(),
             Ingredient.of("deeperdarker:sculk_transmitter").toJson()

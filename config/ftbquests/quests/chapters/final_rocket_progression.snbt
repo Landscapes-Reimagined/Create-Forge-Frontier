@@ -5005,20 +5005,20 @@
 		}
 		{
 			description: [
-				"&765536k Fluid Storage Part&r is a required component used in the construction of the &6Forge Rocket Tank&r."
+				"&14M Mega Storage Component&r is a required component used in the construction of the &6Forge Rocket Tank&r."
 				""
 				"&lHow to Obtain:&r"
-				"The 65536k Fluid Storage Part is an advanced fluid storage component from &6Refined Storage&r."
+				"The 4M Mega Storage Component is an advanced fluid storage component from &6AE2&r."
 				""
-				"Its production requires automated Moon Stone processing through crushing and washing, combined with numerous Create and vanilla ingredients."
+				"Its production requires automated AE2 processing, combined with numerous Create and vanilla ingredients."
 				""
 				"{@pagebreak}"
 				"&lNotes:&r"
-				"This component represents one of the highest tiers of fluid storage available and benefits greatly from a fully automated production chain."
+				"This component represents one of the higher tiers of storage components available for AE2 and benefits greatly from a fully automated production chain."
 				""
-				"Need help progressing through Refined Storage?"
+				"Need help progressing through AE2?"
 				""
-				"Consult the Refined Storage quests and &6JEI&r for detailed recipes and automation paths."
+				"Consult the AE2 quests and &6JEI&r for detailed recipes and automation paths."
 				""
 				"{ \"text\": \"Refined Storage\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07C976892BBBECC6\" } }"
 			]
@@ -5026,7 +5026,7 @@
 			rewards: [
 				{
 					id: "1DC73997567D25B5"
-					item: "extrastorage:storagepart_65536k_fluid"
+					item: "megacells:cell_component_4m"
 					type: "item"
 				}
 				{
@@ -5037,7 +5037,7 @@
 			]
 			tasks: [{
 				id: "766220A4662CFC42"
-				item: "extrastorage:storagepart_65536k_fluid"
+				item: "megacells:cell_component_4m"
 				type: "item"
 			}]
 			x: 1.0d
