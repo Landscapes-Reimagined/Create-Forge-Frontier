@@ -6,7 +6,7 @@ ServerEvents.recipes(event =>
                 overcharged_gold_block: { ingredients: [{ item: "minecraft:gold_block" }], energy_needed: 18000 },
                 overcharged_diamond_block: { ingredients: [{ item: "minecraft:diamond_block" }], energy_needed: 90000 },
                 overcharged_netherite_block: { ingredients: [{ item: "minecraft:netherite_block" }], energy_needed: 450000 },
-                overcharged_netherite_ingot: { ingredients: [{ item: "minecraft:netherite_ingot" }], energy_needed: 50000 }
+                overcharged_netherite_ingot: { ingredients: [{ item: "minecraft:netherite_ingot" }], energy_needed: 50000 },
             };
 
             Object.entries(energisingRecipes).forEach(([result, recipe]) => {
@@ -145,5 +145,54 @@ ServerEvents.recipes(event =>
                     }
                     ]
                 }).id( 'forge_frontier:energising/magnetite_block' )
+
+            // Meteorite Compass
+                event.custom({
+                    type: 'create_new_age:energising',
+                    energy_needed: 3200,
+                    ingredients: [
+                    {
+                        item: 'minecraft:compass'
+                    }
+                    ],
+                    results: [
+                    {
+                        item: 'ae2:meteorite_compass'
+                    }
+                    ]
+                }).id( 'forge_frontier:energising/meteorite_compass' )
+
+            // Charged Certus Quartz Crystal
+                event.custom({
+                    type: 'create_new_age:energising',
+                    energy_needed: 3200,
+                    ingredients: [
+                    {
+                        item: 'ae2:certus_quartz_crystal'
+                    }
+                    ],
+                    results: [
+                    {
+                        item: 'ae2:charged_certus_quartz_crystal'
+                    }
+                    ]
+                }).id( 'forge_frontier:energising/charged_certus_quartz_crystal' )
+                
+            // Guide Book
+                event.custom({
+                    type: 'create_new_age:energising',
+                    energy_needed: 3200,
+                    ingredients: [
+                    {
+                        item: 'minecraft:book'
+                    }
+                    ],
+                    results: [
+                    {
+                        item: 'ae2:guide'
+                    }
+                    ]
+                }).id( 'forge_frontier:energising/ae2_guide' )
+
     }
 );

@@ -21,6 +21,7 @@ StartupEvents.registry('item', event => {
         { id: 'forge_frontier:incomplete_haunt_armor_trim', name: 'Incomplete Haunt Armor Trim', texture: 'forge_frontier:item/incomplete_items/incomplete_haunt_armor_trim' },
         { id: 'forge_frontier:incomplete_enderite_upgrade_smithing_template', name: 'Incomplete Enderite Upgrade', texture: 'forge_frontier:item/incomplete_items/incomplete_enderite_upgrade_smithing_template' },
         { id: 'forge_frontier:incomplete_otherside_upgrade_smithing_template', name: 'Incomplete Otherside Upgrade', texture: 'forge_frontier:item/incomplete_items/incomplete_otherside_upgrade_smithing_template' },
+        { id: 'forge_frontier:incomplete_fluix_upgrade', name: 'Incomplete Fluix Upgrade', texture: "forge_frontier:item/incomplete_fluix_upgrade" },
 
         // Custom Shards
         { id: 'forge_frontier:copper_shard', name: 'Copper Shard', stack: 64, texture: 'forge_frontier:item/copper_shard' },

@@ -1,5 +1,7 @@
 ServerEvents.recipes(event => 
     {
+        event.remove({ id: "createaddition:compat/ae2/charged_certus_quartz" })
+        
         const chargingRecipes = [
             {
             input: 'minecraft:iron_ingot',
@@ -91,6 +93,20 @@ ServerEvents.recipes(event =>
                 energy: 450000,
                 rate: 22500,
                 id: 'overcharged_netherite_block'
+            },
+            {
+                input: "minecraft:compass",
+                result: "ae2:meteorite_compass",
+                energy: 3200,
+                rate: 250,
+                id: 'ae2_compass'
+            },
+            {
+                input: "ae2:certus_quartz_crystal",
+                result: "ae2:charged_certus_quartz_crystal",
+                energy: 3200,
+                rate: 250,
+                id: 'ae2_crystal'
             }
         ];
 
