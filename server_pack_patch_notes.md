@@ -1,10 +1,10 @@
-# **Forge Frontier v3.1.1 Server Pack**
+# **Forge Frontier v3.1.2 Server Pack**
 
 ## **Important Notice**
 
-This server pack is intended for **Forge Frontier v3.1.1**.
+This server pack is intended for **Forge Frontier v3.1.2**.
 
-**Existing v3.0.0 and later worlds are fully compatible with v3.1.1.** A new world is **not required** when updating from **v3.0.0 or any later release**.
+**Existing v3.0.0 and later worlds are fully compatible with v3.1.2.** A new world is **not required** when updating from **v3.0.0 or any later release**.
 
 #### **⚠️ Updating from before v3.0.0?**
 
@@ -21,32 +21,37 @@ These documents cover the major systems and progression changes introduced in Ve
 
 ## **Introduction**
 
-Forge Frontier **v3.1.1** is a minor maintenance update following Version **3.1.0**, focused on improving compatibility and overall pack performance through two targeted mod updates.
+Forge Frontier **v3.1.2** is a maintenance and compatibility update focused on polishing the systems introduced in Version **3.1.0**. This release includes targeted quest fixes, recipe corrections, configuration refinements, and seven mod updates designed to improve consistency and reliability across multiplayer servers.
 
-This release does not introduce any major progression or gameplay changes. Instead, it builds upon the systems and content introduced in Version **3.1.0** while providing additional refinements for a smoother and more reliable multiplayer experience.
+No major progression or world generation changes are introduced in this release, allowing existing Version **3.0.0 and later** worlds to continue without requiring a reset.
 
 ---
 
 ## **What's Included**
 
-- Complete server files for **Forge Frontier v3.1.1**
-- Two targeted mod updates focused on compatibility and performance
-- Latest server configurations matching the v3.1.1 client release
+- Complete server files for **Forge Frontier v3.1.2**
+- Seven updated mods focused on compatibility, stability, and maintainability
+- Quest and recipe corrections matching the v3.1.2 client release
+- Updated KubeJS data, assets, and server scripts
+- Flux Networks chunkloading disabled
 - Full compatibility with existing **v3.0.0 and later worlds**
-- No progression changes or world reset required
+- No world reset required
 
 ---
 
 ## **Maintenance Highlights**
 
-Version **3.1.1** is focused specifically on maintenance and refinement:
+Version **3.1.2** focuses on targeted fixes and refinements across the pack:
 
-- Updated two mods to improve compatibility and performance
-- Improved overall pack reliability
-- Maintained compatibility with existing servers and worlds
-- Preserved the progression and gameplay experience established in Version **3.1.0**
+- Fixed the Alex's Caves Candicorn quest task
+- Updated Sophisticated Backpacks and Sophisticated Storage Conversion Upgrade recipes for greater consistency
+- Removed duplicate Create Mob Spawners Tea recipes and restored the original spawning recipes
+- Updated Ad Astra's Oil-to-Fuel recipe to use the Oil fluid tag
+- Updated Sophisticated Storage's Silicon naming to Raw Silicon
+- Disabled Flux Networks chunkloading
+- Updated seven mods, including Create: Enchantment Industry, Create: Dragons Plus, Chunksending, Create Compatible Storage, Sophisticated Backpacks, Sophisticated Core, and Structurify
 
-The major features introduced in Version **3.1.0**, including the return of Applied Energistics 2, expanded Create integrations, and the updated Create: Enchantment Industry integration, remain unchanged.
+The major features introduced in Version **3.1.0** remain in place while Version **3.1.2** focuses on improving their surrounding compatibility and reliability.
 
 For the major changes introduced in Version 3.1.0, see:
 
@@ -54,24 +59,25 @@ For the major changes introduced in Version 3.1.0, see:
 - **[v3.1.0 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.0_Changelog.md)**
 - **[v3.1.0 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.0_Mod_Updates.md)**
 
-For the complete details of Version 3.1.1, see:
+For the complete details of Version 3.1.2, see:
 
-- **[v3.1.1 Highlights](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Highlights.md)**
-- **[v3.1.1 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Changelog.md)**
-- **[v3.1.1 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Mod_Updates.md)**
+- **[v3.1.2 Highlights](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Highlights.md)**
+- **[v3.1.2 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Changelog.md)**
+- **[v3.1.2 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Mod_Updates.md)**
 
 ---
 
 ## **Server Improvements**
 
-This release includes minor server-side improvements focused on maintaining a stable and consistent multiplayer experience:
+This release includes several server-side refinements focused on maintaining a stable and consistent multiplayer experience:
 
-- Improved compatibility through targeted mod updates
-- Additional performance refinements
+- Updated seven mods for improved compatibility and maintainability
+- Disabled Flux Networks chunkloading
+- Corrected duplicate and inconsistent recipe data
+- Updated server-side KubeJS scripts and data to match the latest client release
 - Maintained compatibility with existing Version **3.0.0+** servers
-- Server files and configurations updated to match the latest client release
 
-No major configuration, progression, recipe, or world generation changes are included in this release.
+No major world generation or progression changes are included in this release.
 
 ---
 
@@ -83,7 +89,7 @@ If you have questions about server installation, configuration, progression, or 
 
 ---
 
-> **Forge Frontier v3.1.1** provides a small set of compatibility and performance improvements while preserving the progression, features, and multiplayer experience established in Version **3.1.0**.
+> **Forge Frontier v3.1.2** continues refining *The Final Frontier* with targeted compatibility fixes, recipe corrections, configuration improvements, and updated mods while preserving the progression and multiplayer experience established in Version **3.1.0**.
 
 ---
 

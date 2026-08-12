@@ -2,7 +2,11 @@
   "type": "create_mob_spawners:spawning",
   "input": {
     "amount": 200,
-        "fluid": "create:tea"
+    "fluid": "create:potion",
+    "nbt": {
+      "Potion": "minecraft:regeneration",
+      "Bottle": "REGULAR"
+    }
   },
   "spawn_ticks_at_max_speed": 100,
   "additional_spawn_attempts": 0

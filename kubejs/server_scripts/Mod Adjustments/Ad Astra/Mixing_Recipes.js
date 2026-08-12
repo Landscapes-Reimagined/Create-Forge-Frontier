@@ -61,7 +61,7 @@ ServerEvents.recipes(event =>
                 type: "create:mixing",
                 ingredients: [
                     {
-                        fluid: 'ad_astra:oil',
+                        fluidTag: 'ad_astra:oil',
                         amount: 1000
                     }
                 ],

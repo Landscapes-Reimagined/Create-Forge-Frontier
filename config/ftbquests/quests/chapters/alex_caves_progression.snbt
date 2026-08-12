@@ -3108,7 +3108,7 @@
 				{
 					icon: "alexscaves:spawn_egg_candicorn"
 					id: "5D182F161DFE18C7"
-					observe_type: 6
+					observe_type: 5
 					timer: 0L
 					title: "Find a Candicorn"
 					to_observe: "alexscaves:candicorn"
