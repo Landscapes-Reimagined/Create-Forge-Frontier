@@ -1,10 +1,10 @@
-# **Forge Frontier v3.1.0hf2 Server Pack**
+# **Forge Frontier v3.1.1 Server Pack**
 
 ## **Important Notice**
 
-This server pack is intended for **Forge Frontier v3.1.0**.
+This server pack is intended for **Forge Frontier v3.1.1**.
 
-**Existing v3.0.0 worlds are fully compatible with v3.1.0.** A new world is **not required** when updating from **v3.0.0 or any later 3.0.x release**.
+**Existing v3.0.0 and later worlds are fully compatible with v3.1.1.** A new world is **not required** when updating from **v3.0.0 or any later release**.
 
 #### **⚠️ Updating from before v3.0.0?**
 
@@ -21,63 +21,57 @@ These documents cover the major systems and progression changes introduced in Ve
 
 ## **Introduction**
 
-Forge Frontier **v3.1.0** is a substantial update to *The Final Frontier*, expanding storage and automation options while improving performance, compatibility, progression, and multiplayer stability.
+Forge Frontier **v3.1.1** is a minor maintenance update following Version **3.1.0**, focused on improving compatibility and overall pack performance through two targeted mod updates.
 
-The centerpiece of this release is the **return of Applied Energistics 2** as an alternative late-game storage and automation system alongside Refined Storage. AE2 returns with rebalanced progression, a restored and updated quest chapter, custom recipes and textures, and numerous addons that provide deeper integration with Create.
-
-Version 3.1.0 also updates **Create: Enchantment Industry**, expands its integration with **Apotheosis**, introduces additional building and quality-of-life content, and removes several resource-intensive or unstable compatibility mods to improve startup times, memory usage, and overall server performance.
+This release does not introduce any major progression or gameplay changes. Instead, it builds upon the systems and content introduced in Version **3.1.0** while providing additional refinements for a smoother and more reliable multiplayer experience.
 
 ---
 
 ## **What's Included**
 
-- Complete server files for **Forge Frontier v3.1.0**
-- Reintroduced **Applied Energistics 2** and its supported addons
-- New Create and AE2 compatibility integrations
-- Updated **Create: Enchantment Industry** integration and progression
-- Updated quests, recipes, KubeJS scripts, assets, and configurations
-- Performance and stability improvements from compatibility mod removals
-- Latest compatible mod and library updates
-- Multiplayer-ready configuration matching the v3.1.0 client release
+- Complete server files for **Forge Frontier v3.1.1**
+- Two targeted mod updates focused on compatibility and performance
+- Latest server configurations matching the v3.1.1 client release
+- Full compatibility with existing **v3.0.0 and later worlds**
+- No progression changes or world reset required
 
 ---
 
-## **Major Highlights**
+## **Maintenance Highlights**
 
-Version **3.1.0** expands the pack with several major changes:
+Version **3.1.1** is focused specifically on maintenance and refinement:
 
-- **Applied Energistics 2 Returns**: Reintroduced AE2 as an alternative late-game storage and automation system alongside Refined Storage, complete with rebalanced progression, quests, custom recipes, and numerous supported addons.
-- **Expanded Create & AE2 Integration**: Added integrations connecting AE2 with Create's mechanical crafting, package logistics, stock networks, Schematicannon construction, and other automation systems.
-- **Create: Enchantment Industry Update**: Updated Create: Enchantment Industry with accompanying changes to Apotheosis integration, quest rewards, custom assets, and progression recipes.
-- **Improved Performance & Stability**: Removed Every Compat: Wood Good and Every Compat: Stone Zone to reduce loading times and memory usage, while EC Apotheosis Plugin was removed due to server stability issues.
-- **New Building & Quality-of-Life Content**: Added MrCrayfish's Furniture Mod: Refurbished, Create: Chipped, Mech Trowel, Ender Lead, and additional supporting mods.
-- **Quest & Progression Improvements**: Reintroduced and rebalanced the AE2 quest chapter, reorganized Metallurgy and Create Addons progression, and updated Final Rocket component quests to match new recipes.
+- Updated two mods to improve compatibility and performance
+- Improved overall pack reliability
+- Maintained compatibility with existing servers and worlds
+- Preserved the progression and gameplay experience established in Version **3.1.0**
 
-For a complete overview of the systems introduced in *The Final Frontier*, see:
+The major features introduced in Version **3.1.0**, including the return of Applied Energistics 2, expanded Create integrations, and the updated Create: Enchantment Industry integration, remain unchanged.
 
-- **[v3.0.0 Highlights](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.0_Highlights.md)**
-- **[v3.0.0 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.0_Changelog.md)**
-- **[v3.0.0 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.0.0_Mod_Updates.md)**
-
-For the complete details of Version 3.1.0, see:
+For the major changes introduced in Version 3.1.0, see:
 
 - **[v3.1.0 Highlights](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.0_Highlights.md)**
 - **[v3.1.0 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.0_Changelog.md)**
 - **[v3.1.0 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.0_Mod_Updates.md)**
 
+For the complete details of Version 3.1.1, see:
+
+- **[v3.1.1 Highlights](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Highlights.md)**
+- **[v3.1.1 Changelog](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Changelog.md)**
+- **[v3.1.1 Mod Updates](https://github.com/Landscapes-Reimagined/Create-Forge-Frontier/blob/main/changelogs/3.1.1_Mod_Updates.md)**
+
 ---
 
 ## **Server Improvements**
 
-This release includes several changes designed to improve the multiplayer experience:
+This release includes minor server-side improvements focused on maintaining a stable and consistent multiplayer experience:
 
-- Reduced loading times and memory usage through the removal of resource-intensive Every Compat modules
-- Removed EC Apotheosis Plugin due to server stability issues
-- Updated server-side mods and supporting libraries
-- Updated KubeJS recipes and compatibility scripts
-- Added replacement recipes to preserve important functionality following mod removals
-- Improved compatibility between Create, Applied Energistics 2, Apotheosis, and other progression systems
-- Updated configuration defaults to match the latest client release
+- Improved compatibility through targeted mod updates
+- Additional performance refinements
+- Maintained compatibility with existing Version **3.0.0+** servers
+- Server files and configurations updated to match the latest client release
+
+No major configuration, progression, recipe, or world generation changes are included in this release.
 
 ---
 
@@ -85,11 +79,11 @@ This release includes several changes designed to improve the multiplayer experi
 
 If you have questions about server installation, configuration, progression, or gameplay, join the official **Landscapes Reimagined Discord**:
 
-https://discord.gg/quenZthXgy
+[https://discord.gg/quenZthXgy](https://discord.gg/quenZthXgy)
 
 ---
 
-> **Forge Frontier v3.1.0** expands *The Final Frontier* with new late-game storage and automation options, deeper Create integrations, improved performance, and continued progression refinements while preserving compatibility with existing Version 3.0.0 worlds.
+> **Forge Frontier v3.1.1** provides a small set of compatibility and performance improvements while preserving the progression, features, and multiplayer experience established in Version **3.1.0**.
 
 ---
 
