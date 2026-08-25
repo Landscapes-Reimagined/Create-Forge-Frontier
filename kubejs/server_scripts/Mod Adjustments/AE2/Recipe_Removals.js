@@ -3,7 +3,6 @@ ServerEvents.recipes(event =>
         event.remove({ id: "expatternprovider:cobblestone_cell"})
         event.remove({ id: "expattenprovider:ex_inscriber"})
         event.remove({ id: "ae2:network/blocks/spatial_anchor"})
-        event.remove({ id: "ae2:network/cells/spatial_components" })
         event.remove({ id: "ae2:network/cells/spatial_components_0" })
         event.remove({ id: "ae2:network/cells/spatial_components_1" })
         event.remove({ id: "ae2:network/cells/spatial_storage_cell_2_cubed" })
