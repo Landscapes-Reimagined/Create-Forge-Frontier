@@ -427,6 +427,8 @@ ServerEvents.tags('item', event =>
                 "expatternprovider:wireless_ex_pat"
             ])
 
+        // Added Curios Rings Tag to Ring item tag items
+            event.add("curios:rings", "#curios:ring")
 
         // New Curious Terminals Tags
             event.add("curios:terminals","#ae2:terminals")
