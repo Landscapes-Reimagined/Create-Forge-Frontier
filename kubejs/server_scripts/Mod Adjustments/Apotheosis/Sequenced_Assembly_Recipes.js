@@ -42,23 +42,32 @@ ServerEvents.recipes(event => {
                 ingredient: { item: mat.base },
                 transitionalItem: { item: mat.incomplete },
                 loops: 1,
-                results: [{ item: mat.base, count: 2 },],
+                results: [
+                    { item: mat.base, count: 2 },
+                ],
                 sequence: [
                     {
                         type: 'create:deploying',
                         ingredients: [
-                            { item: mat.base},
+                            { item: mat.base },
                             { item: block }
                         ],
-                        results: [{ item: mat.incomplete }]
+                        results: [
+                            { item: mat.incomplete }
+                        ]
                     },
                     {
                         type: 'create:filling',
                         ingredients: [
                             { item: mat.incomplete },
-                            { fluid: 'create_enchantment_industry:experience', amount: 250 }
+                            {
+                                fluid: 'create_enchantment_industry:experience',
+                                amount: 250
+                            }
                         ],
-                        results: [{ item: mat.incomplete }]
+                        results: [
+                            { item: mat.incomplete }
+                        ]
                     },
                     {
                         type: 'create:deploying',
@@ -66,21 +75,129 @@ ServerEvents.recipes(event => {
                             { item: mat.incomplete },
                             { item: 'create_dd:chromatic_compound' }
                         ],
-                        results: [{ item: mat.incomplete }]
+                        results: [
+                            { item: mat.incomplete }
+                        ]
                     },
                     {
                         type: 'create:pressing',
-                        ingredients: [{ item: mat.incomplete }],
-                        results: [{ item: mat.incomplete }]
+                        ingredients: [
+                            { item: mat.incomplete }
+                        ],
+                        results: [
+                            { item: mat.incomplete }
+                        ]
                     },
                     {
                         type: 'create:pressing',
-                        ingredients: [{ item: mat.incomplete }],
-                        results: [{ item: mat.base, count: 2 }]
+                        ingredients: [
+                            { item: mat.incomplete }
+                        ],
+                        results: [
+                            { item: mat.base, count: 2 }
+                        ]
                     }
                 ]
             }).id(`forge_frontier:sequenced_assembly/${name}_duplication_${blockName}_${index}`)
         })
     })
+
+
+    // Apotheosis Boss Summoner
+
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'create:precision_mechanism'
+        },
+        transitionalItem: {
+            item: 'forge_frontier:incomplete_boss_summoner'
+        },
+        loops: 3,
+        results: [
+            {
+                item: 'apotheosis:boss_summoner'
+            }
+        ],
+        sequence: [
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    },
+                    {
+                        item: 'apotheosis:gem_dust'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    },
+                    {
+                        item: 'apotheosis:common_material'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    },
+                    {
+                        item: 'apotheosis:uncommon_material'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    },
+                    {
+                        item: 'create:brass_sheet'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    }
+                ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    }
+                ],
+                results: [
+                    {
+                        item: 'forge_frontier:incomplete_boss_summoner'
+                    }
+                ]
+            }
+        ]
+    }).id('forge_frontier:sequenced_assembly/apotheosis/boss_summoner')
 
 })
