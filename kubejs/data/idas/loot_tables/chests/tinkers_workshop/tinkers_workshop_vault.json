@@ -61,6 +61,22 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
+          "name": "create_dd:chromatic_compound",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:redstone",
           "functions": [
