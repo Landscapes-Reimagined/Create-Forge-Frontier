@@ -418,6 +418,19 @@ ServerEvents.tags('item', event =>
                     "toms_storage:ts.adv_wireless_terminal"
                  ])
 
+        // AE Terminal Tags
+            event.add("ae2:terminals", [
+                "ae2:wireless_crafting_terminal",
+                "ae2wtlib:wireless_pattern_encoding_terminal",
+                "ae2wtlib:wireless_pattern_access_terminal",
+                "ae2wtlib:wireless_universal_terminal",
+                "expatternprovider:wireless_ex_pat"
+            ])
+
+
+        // New Curious Terminals Tags
+            event.add("curios:terminals","#ae2:terminals")
+
         // New Curios Oxgyen Cans Tags
             event.add("curios:oxygen_cans", "#ad_astra_gisselle_addon:oxygen_cans")
 
