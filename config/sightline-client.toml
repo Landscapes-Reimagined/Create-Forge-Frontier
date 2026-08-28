@@ -1,0 +1,102 @@
+
+#Occlusion culling: entities and block entities that are fully hidden behind opaque blocks
+#stop rendering. Visibility is checked with block raycasts on a background thread and cached
+#briefly, so the render thread only reads a flag. Everything starts VISIBLE and is only
+#culled after a confirmed 'hidden' result; glowing entities, your vehicle, huge entities
+#(bosses), Sable/LittleTiles sub-level content and everything inside the never-cull radius
+#are exempt, and culling is suspended during Oculus's shadow pass so shadows stay complete.
+[occlusion]
+	#Master switch for occlusion culling.
+	enabled = true
+	#Occlusion-cull entities (mobs, items, armor stands, players).
+	entities = true
+	#Occlusion-cull block entities (chests, signs, banners, skulls...). Block entities with
+	#unbounded render boxes (e.g. beacon beams) are never occlusion-culled.
+	blockEntities = true
+	#How often each target's visibility is re-checked, in milliseconds. Lower = less pop-in
+	#delay when something becomes visible, higher = fewer background raycasts.
+	#Range: 25 ~ 250
+	intervalMs = 75
+	#Beyond this distance (blocks) no occlusion raycasts are performed (rays get long and
+	#far-away things are cheap or already distance-trimmed).
+	#Range: 32 ~ 256
+	maxDistance = 96
+	#Nothing within this many blocks is ever occlusion-culled (protects close-quarters combat
+	#and fast corner peeks).
+	#Range: 4 ~ 64
+	neverCullRadius = 12
+	#Background raycast threads. 1 is plenty for normal scenes; raise only for extreme
+	#entity counts. Takes effect on the next game launch.
+	#Range: 1 ~ 4
+	threads = 1
+
+#Distance trims: straightforward render-distance caps, uniform in all directions.
+[trims]
+	#Scales every entity type's OWN render distance (dragons still render further than bats).
+	#100 = vanilla distances; 50 = everything renders at half its vanilla distance.
+	#Range: 20 ~ 100
+	entityDistancePercent = 100
+	#Scales every block-entity renderer's view distance (chests default to 64, beacon beams
+	#to 256...). 100 = vanilla.
+	#Range: 20 ~ 100
+	blockEntityDistancePercent = 100
+	#Hard per-type render distance caps in blocks, as 'namespace:id=blocks' entries - for
+	#decorative entity spam (item frames with maps are the classic FPS eater).
+	#Example defaults cap item frames and dropped items at 48 blocks. Remove entries for
+	#pure vanilla behavior.
+	entityTypeCaps = ["minecraft:item_frame=48", "minecraft:glow_item_frame=48", "minecraft:item=48"]
+	#Nameplates (players, named mobs) render up to this many blocks away (vanilla: 64).
+	#64 = vanilla behavior.
+	#Range: 8 ~ 64
+	nameplateDistance = 48
+	#Sign and hanging-sign TEXT renders up to this many blocks away (the sign board itself
+	#always renders). Text is per-glyph geometry and adds up fast in villages/towns.
+	#64 = vanilla behavior.
+	#Range: 4 ~ 64
+	signTextDistance = 24
+
+#Per-block-entity frustum culling: vanilla renders every block entity whose chunk
+#SECTION is visible; this additionally skips ones whose own render box is outside the camera
+#frustum (edges of the screen, above/below). Suspended during Oculus's shadow pass.
+[frustum]
+	#Frustum-cull individual block entities.
+	blockEntities = true
+
+#Leaf inner-face culling: vanilla 'fancy leaves' render BOTH faces between two adjacent leaf
+#blocks; in a forest most leaf quads are these invisible inner faces. Culling faces between
+#leaves of the SAME type is visually near-identical and removes a large share of foliage
+#geometry (a real win under shaders, where every quad runs the full gbuffer pipeline).
+#Chunks rebuild as usual when the setting changes (F3+A to force).
+[leaves]
+	#Cull faces between adjacent leaf blocks of the same type.
+	cullInnerFaces = true
+	#Also cull faces between DIFFERENT leaf types (oak against birch...). More savings in
+	#mixed forests; slight color blending at type boundaries.
+	cullAcrossTypes = false
+
+#Particle spawn governor: when the particle count runs hot (storms with rain enhancers,
+#big machines), newly spawned particles from the configurable 'ambient' list are shed
+#progressively instead of piling up. Gameplay-relevant particles (not in the list) are
+#never touched.
+[particles]
+	#Master switch for the particle spawn governor.
+	governor = true
+	#Soft cap on the TOTAL live particle count: above it, listed ambient particles are shed
+	#with rising probability (fully shed at 1.5x the budget). 0 disables the budget.
+	#Vanilla's hard engine cap is 16384.
+	#Range: 0 ~ 16384
+	budget = 3000
+	#Listed ambient particles are not even spawned beyond this many blocks from the camera
+	#(0 disables). Catches mods that spawn far particles directly through the engine.
+	#Range: 0 ~ 128
+	spawnDistance = 48
+	#Particle types the governor may shed (ambient/cosmetic only). Add ids from other mods
+	#(e.g. rain enhancers) here.
+	budgetIds = ["minecraft:rain", "minecraft:splash", "minecraft:smoke", "minecraft:white_smoke", "minecraft:poof", "minecraft:cloud", "minecraft:bubble", "minecraft:bubble_pop", "minecraft:crit", "minecraft:underwater", "minecraft:ash", "minecraft:white_ash", "minecraft:crimson_spore", "minecraft:warped_spore", "minecraft:spore_blossom_air", "minecraft:mycelium"]
+
+#Diagnostics.
+[debug]
+	#Small top-left readout: per-tick occlusion/trim/particle counters, raycast queue depth,
+	#and any hooks that failed to arm.
+	overlay = false
+

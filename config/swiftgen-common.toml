@@ -1,0 +1,49 @@
+
+#Climate/biome point-sample caching. Point queries through the biome source's raw sampler
+#(structure placement checks, /locate, explorer maps, world-spawn search) re-evaluate the whole
+#climate density-function stack per probe in vanilla. Swiftgen memoizes the result per position
+#(a pure function of the seed), which is a large win with expensive climate stacks such as
+#ReTerraForged and a modest one for vanilla. Seed-parity-safe.
+[climateCache]
+	#Cache biome point-sample results per generation thread.
+	enabled = true
+	#Cache size as a power of two (12 = 4096 entries, ~64 KB per worker thread).
+	#Range: 8 ~ 16
+	sizePow2 = 12
+
+#WorldGenRegion block-access fast path: feature placement does millions of getBlockState /
+#setBlock calls, each re-resolving the target chunk from the region every time. Swiftgen keeps
+#a per-region one-slot chunk cache (regions are used single-threaded). Seed-parity-safe.
+[regionAccess]
+	#Cache the last accessed chunk per WorldGenRegion.
+	enabled = true
+
+#Noise-fill stage tweaks.
+[noiseFill]
+	#During the noise fill, skip the two per-block worldgen-heightmap updates and prime both
+	#heightmaps in one batched pass right after the fill instead (the primed result is identical -
+	#nothing reads them mid-fill). Removes two branchy virtual calls per placed block.
+	#Seed-parity-safe.
+	batchedHeightmaps = true
+
+#ReTerraForged accelerator (only active when ReTerraForged is installed). RTF's point lookups
+#(structure placement, /locate, explorer maps, spawn search) keep only the SINGLE last cell per
+#thread and otherwise recompute its full terrain stack (continents, rivers, terrain regions) per
+#probe. Swiftgen widens that to a multi-slot per-thread cell cache. Uses RTF's own lookup code -
+#values are exactly what RTF would compute.
+[reterraforged]
+	#Multi-slot cell cache for ReTerraForged point lookups.
+	pointCellCache = true
+	#Cell cache size as a power of two (12 = 4096 cells, ~1 MB per worker thread).
+	#Range: 8 ~ 15
+	cellCacheSizePow2 = 12
+
+#Diagnostics: /swiftgen stats prints stage timings, cache hit rates and generation rate.
+[diagnostics]
+	#Collect per-stage timings (noise fill, surface, decoration). Two System.nanoTime() calls
+	#per stage per chunk - negligible; disable only for absolute-minimum overhead.
+	timings = true
+	#Log a 'chunks/min' line every 10 seconds while chunks are being generated (handy while
+	#verifying the speedup during pre-generation or elytra flights).
+	logGenRate = false
+

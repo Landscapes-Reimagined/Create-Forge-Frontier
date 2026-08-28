@@ -1,0 +1,84 @@
+
+[waterWheelShaderLod]
+	#Use lower-detail rotating water-wheel models when a shader pack disables Flywheel.
+	enabled = true
+	#Full-detail render distance in blocks. Medium LOD is used beyond this distance.
+	#Range: 0 ~ 128
+	fullDetailDistance = 16
+	#Low-detail render distance in blocks. Values below fullDetailDistance are clamped up at runtime.
+	#Range: 0 ~ 128
+	lowDetailDistance = 40
+
+[fanParticles]
+	#Range: 0 ~ 4096
+	maxPerTick = 96
+	#Range: 1 ~ 512
+	nearDistance = 16
+	#Range: 1 ~ 1024
+	midDistance = 32
+	#Range: 0 ~ 100
+	nearPercent = 80
+	#Range: 0 ~ 100
+	midPercent = 50
+	#Range: 0 ~ 100
+	farPercent = 25
+
+[chuteParticles]
+	#Range: 0 ~ 4096
+	maxPerTick = 16
+
+[linkedOutlines]
+	#Range: 1 ~ 20
+	rebuildIntervalTicks = 4
+	#Range: 1 ~ 128
+	prewarmBoxesPerFrame = 16
+	#Range: 64 ~ 16384
+	maxCachedBoxes = 2048
+
+[belt]
+	itemRenderLodEnabled = true
+	#Range: 1 ~ 512
+	itemRenderMidDistance = 32
+	#Range: 1 ~ 1024
+	itemRenderFarDistance = 64
+
+[kineticAudio]
+	#Range: 0 ~ 512
+	maxDistance = 48
+	#Range: 1 ~ 20
+	farIntervalTicks = 4
+
+[steamJetParticles]
+	#Range: 0 ~ 4096
+	maxPerTick = 96
+	#Range: 1 ~ 512
+	nearDistance = 16
+	#Range: 1 ~ 1024
+	midDistance = 32
+	#Range: 0 ~ 100
+	nearPercent = 80
+	#Range: 0 ~ 100
+	midPercent = 50
+	#Range: 0 ~ 100
+	farPercent = 25
+	#Queue steam jet sounds only inside this distance. Set to 0 to disable sound culling.
+	#Range: 0 ~ 1024
+	soundDistance = 96
+
+[chainConveyorRender]
+	#Enable Chain Conveyor span culling, light caching, and far-distance geometry LOD.
+	enabled = true
+	#Use Embeddium's bulk vertex writer for Chain Conveyor spans when it is available.
+	directVertexWriter = true
+	#Render one double-sided face instead of two beyond Create's 48-block chain MIP distance.
+	farSinglePlane = true
+	#Skip a chain span when its complete bounds are behind the main camera plane.
+	behindCameraCulling = true
+	#Maximum camera-to-chain distance in blocks.
+	#Range: 32 ~ 512
+	maxRenderDistance = 192
+	#Maximum distance for Chain Conveyor spans in shader shadow passes.
+	#Set to 0 to omit their shadows; wheels and transported packages are unaffected.
+	#Range: 0 ~ 256
+	shadowRenderDistance = 0
+

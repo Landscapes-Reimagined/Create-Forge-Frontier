@@ -71,6 +71,12 @@
   "entangled": {
     "entangled_block_component": true
   },
+  "apokinetics": {
+    "apokinetic_table": true,
+    "kinetic_pylon": true,
+    "kinetic_pylon_player": true,
+    "machine_sockets": true
+  },
   "extrastorage": {
     "crafter": true,
     "advanced_crafter": true

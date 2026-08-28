@@ -1,0 +1,11 @@
+
+[integrations]
+
+	[integrations.jade]
+		#Shows Apokinetics information through Jade when Jade is installed.
+		enabled = true
+
+	[integrations.jei]
+		#Registers Apokinetics recipe/help categories with JEI when JEI is installed.
+		enabled = true
+

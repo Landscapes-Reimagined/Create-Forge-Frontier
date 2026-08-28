@@ -27,7 +27,7 @@ S:custom_window_icon_16 = '/config/fancymenu/assets/icon16.png';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/icon32.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/icon32.png';
-S:custom_window_title = 'Create - Forge Frontier v3.1.0';
+S:custom_window_title = 'Create - Forge Frontier v3.1.3';
 
 
 ##[multiplayer_screen]

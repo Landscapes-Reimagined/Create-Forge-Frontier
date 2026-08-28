@@ -1,0 +1,6 @@
+
+#Explainium - Embeddium taint attribution
+[general]
+	enabled = true
+	debug_logging = false
+

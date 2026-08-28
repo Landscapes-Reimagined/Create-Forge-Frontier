@@ -1,0 +1,47 @@
+
+#SuppleFix - Supplementaries compatibility shim
+[general]
+	enabled = true
+	debug_logging = false
+	dump_detected_mods = false
+
+#Renderer Peacekeeper
+[renderer]
+	prevent_embeddium_taint = true
+	protected_targets = ["me.jellysquid.mods.sodium.client.render.chunk.compile.pipeline.FluidRenderer"]
+	#Mixin class names to block when Renderer Peacekeeper is active (requires Mixin Blacklist or similar; mitigates Embeddium taint warning)
+	blocked_mixins = ["net.mehvahdjukaar.supplementaries.mixins.forge.CompatEmbFluidRendererMixin"]
+
+#Book Pile Safety
+[bookpile]
+	#Allowed Values: AUTO, ALWAYS, OFF
+	book_pile_safety_mode = "AUTO"
+	book_pile_click_guard = true
+	book_pile_render_fallback = true
+
+#Defensive Guards
+[defensive]
+	#Allowed Values: AUTO, ALWAYS, OFF
+	defensive_init_guards = "AUTO"
+	fail_soft_integration = true
+	#Downgrade DispenserHelper restoration errors to warnings (e.g. lunch_basket compat)
+	dispenser_restoration_guard = true
+
+#Item Safety
+[items]
+	#Allowed Values: AUTO, ALWAYS, OFF
+	quiver_stack_safety = "AUTO"
+
+[create]
+	#Allowed Values: AUTO, ALWAYS, OFF
+	create_init_guards = "AUTO"
+	cannon_preview_fallback = true
+
+[blocks]
+	netherite_config_resync = true
+	#Allowed Values: AUTO, ALWAYS, OFF
+	stasis_book_guards = "AUTO"
+
+[advancements]
+	plunderer_advancement_fix = true
+
