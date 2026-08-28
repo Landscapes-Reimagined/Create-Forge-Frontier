@@ -28,7 +28,7 @@ dynamic:
   # Enables dynamic performance checks.
   enabled: true
   # The average MSPT to target.
-  target-mspt: 35
+  target-mspt: 40
   # The settings that will be decreased when the server is overloaded, in the specified order.
   # Removing a setting from the list will disable it.
   # ► max = The maximum value the server will increase the setting to.
@@ -38,7 +38,7 @@ dynamic:
   dynamic-settings:
     - setting: 'CHUNK_TICK_DISTANCE'
       max: 32
-      min: 2
+      min: 6
       increment: 1
       interval: 15
 
@@ -49,16 +49,16 @@ dynamic:
       interval: 15
 
     - setting: 'SIMULATION_DISTANCE'
-      max: 10
-      min: 2
+      max: 32
+      min: 6
       increment: 1
       interval: 15
 
     - setting: 'VIEW_DISTANCE'
-      max: 10
-      min: 2
+      max: 32
+      min: 6
       increment: 1
-      interval: 150
+      interval: 600
 
 
 # A special mobcap that only affects the breeding of animals and villagers.

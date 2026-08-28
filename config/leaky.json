@@ -1,26 +1,32 @@
 {
-  "improveItemPerformance": {
-    "desc:": "Improves item entiy performance, significantly reduing their overhead. default: true",
+  "itemsettings": {
+    "desc1:": "This section contains all settings for item leak detection. An item cluster is a gathering of item entities, and cluster size refers to the number of item entities in it. Item entities are the items you see floating in the world. For example, 64 cobblestone in one dropped stack counts as one item entity.",
+    "desc4:": "Set the minimum number of item entities at which Leaky starts tracking data for an item cluster. Default: 32",
+    "detectionThreshold": 32,
+    "desc3:": "Set the minimum size of an item cluster at which notifications can be sent. Default: 100",
+    "reportThreshold": 100,
+    "desc6:": "Set the chat notification type. Available options are: EVERYONE (all players), NEAREST_PLAYER (closest player), NEAREST_PLAYER_LIMITED (closest player within 200 blocks), NEAREST_OP (closest operator),ALL_OP (all operators). Multiple options can be combined, or leave empty for no notifications. Default: \"NEAREST_PLAYER_LIMITED, ALL_OP\"",
+    "reportNotification": "NEAREST_PLAYER_LIMITED, ALL_OP",
+    "desc2:": "Enable to make item clusters glow once they reach the reportThreshold. Default: true",
+    "highlightitems": true,
+    "desc5:": "Sets the percentage of despawns compared to newly added items at which a wasteful item cluster warning can be generated. This only applies when the threshold is exceeded over a longer period of time, with a minimum of 8 minutes. Default: 60",
+    "wasteFactor": 60,
+    "autoremoval": {
+      "desc0:": "This section contains settings for the automatic removal of oversized item clusters. Deleted clusters can be restored via command, using /leaky deletionHistory",
+      "desc1:": "Set the minimum cluster size at which an item cluster can be automatically removed. A cluster is observed for at least 120 seconds before it can reach this state. default: 300",
+      "autoremovethreshold": 300,
+      "desc2:": "Set the delay after which a cluster that reached the autoremovethreshold can be deleted. Default: 30 seconds",
+      "autoRemoveDelay": 30,
+      "desc3:": "Set the minimum cluster size at which an item cluster is immediately deleted. This is intended as a very high threshold to help prevent server crashes caused by extreme item entity concentrations. default: 1000",
+      "autoremovenodelaythreshold": 1000
+    }
+  },
+  "performance": {
+    "desc:": "Improves item entity performance, directly reducing their potential to cause lag. default: true",
     "improveItemPerformance": true
   },
-  "highlightitems": {
-    "desc:": "Choose if nearby reported stacked item entities should be glowing, default: true",
-    "highlightitems": true
-  },
-  "reportThreshold": {
-    "desc:": "Set the min amount of stacked items being reported, default: 100",
-    "reportThreshold": 80
-  },
-  "autoremovethreshold": {
-    "desc:": "Set the amount of stacked items being automatically removed, default: 160",
-    "autoremovethreshold": 120
-  },
-  "reportInterval": {
-    "desc:": "Set the amount of seconds between repeated notifications: default: 180",
-    "reportInterval": 180
-  },
-  "chatnotification": {
-    "desc:": "Set the chat notification type, one of these: PLAYER(closest player), EVERYONE(all players), NONE. default: PLAYER",
-    "chatnotification": "PLAYER"
+  "entitySection": {
+    "desc:": "Sets the threshold for logging concentrations of general non-item entities when more than this amount are found within a chunk section (16x16x16 blocks). Default: 150",
+    "entitySectionLogThreshold": 150
   }
 }

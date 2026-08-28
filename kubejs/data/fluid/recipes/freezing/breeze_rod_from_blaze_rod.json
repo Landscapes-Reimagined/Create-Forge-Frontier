@@ -1,0 +1,13 @@
+{
+  "type": "fluid:freezing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": "trials:breeze_rod"
+    }
+  ]
+}

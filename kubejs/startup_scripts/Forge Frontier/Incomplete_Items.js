@@ -1,6 +1,9 @@
 StartupEvents.registry('item', event => {
 
     const existingItems = [
+        // Boss Summoner
+        { id: 'forge_frontier:incomplete_boss_summoner', name: 'Incomplete Boss Summoner' },
+
         // Reaction Chamber
         { id: 'forge_frontier:incomplete_reaction_chamber', name: 'Incomplete Reaction Chamber' },
         
