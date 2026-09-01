@@ -18,9 +18,5 @@
   },
   "dontShowAll": [],
   "dontShow": [
-    "idas:tinkers_citadel",
-    "idas:tinkers_workshop",
-    "idas:ancient_mines",
-    "integrated_villages:marketstead_village"
   ]
 }

@@ -1,0 +1,5 @@
+
+[hub]
+	#Hub layout profile: CAROUSEL, CONTROL_CENTRE, DASHBOARD, ORBITAL, CLASSIC
+	layoutId = "CLASSIC"
+

@@ -1,0 +1,45 @@
+
+[player]
+	customEnabled = false
+	#PERSONAL CLIENT PREF — never synced to the server.
+	#When false (default / Apply to: ESH), Border/Text/Accent only tint Extra Special Hub.
+	#When true (Apply to: ALL), those colours also tint every ESC window (Dead Air, Pantheon, etc.).
+	#A pack/server theme with lockPlayers=true ignores both.
+	applyPlayerToAllEsc = false
+	#Range: 0 ~ 64
+	borderSwatch = 0
+	#Range: 0 ~ 64
+	textSwatch = 0
+	#Range: 0 ~ 64
+	accentSwatch = 0
+	#Custom border colour (#RRGGBB / #AARRGGBB). Blank = use borderSwatch.
+	borderColor = ""
+	#Custom text colour (#RRGGBB / #AARRGGBB). Blank = use textSwatch.
+	textColor = ""
+	#Custom accent colour (#RRGGBB / #AARRGGBB). Blank = use accentSwatch.
+	accentColor = ""
+	#Comma-separated recent colours from the ESC colour picker.
+	recentColors = ""
+	#Comma-separated saved custom colours from the ESC colour picker.
+	savedColors = ""
+
+[visual]
+	#OFF, LOW, MEDIUM, HIGH — visual budget for ESC effects.
+	#OFF: none. LOW: light scale. MEDIUM: shadows/glow/CRT/border sweeps.
+	#HIGH: also enables the animated backdrop (needs Motion ON).
+	#Fresh install is HIGH so the default Growth backdrop actually draws.
+	quality = "OFF"
+	#When true (Motion OFF in hub), freezes backdrop/border animation; backdrop stays visible at Q=HIGH.
+	reducedMotion = true
+	#Animated backdrop when Q=HIGH and Motion ON: GRID, SCAN, RAIN, PULSE, SPARKS, MATRIX, OCEAN, CLOUDS, AURORA, EMBER, STARFIELD, LIGHTNING, GROWTH
+	backdropStyle = "MATRIX"
+	#Range: 0.75 ~ 1.5
+	uiScale = 1.0
+	#Play ESC UI sound cues (hub nav, buttons, expand/collapse, etc.)
+	uiSounds = true
+	#Master multiplier for ESC UI sounds (0–1)
+	#Range: 0.0 ~ 1.0
+	uiSoundVolume = 0.85
+	#Draw EscScreen content/footer bounds (dev aid). Off by default.
+	layoutDebug = false
+
