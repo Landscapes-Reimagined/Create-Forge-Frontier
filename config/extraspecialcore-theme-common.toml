@@ -1,0 +1,22 @@
+
+#ESC theme — defaults and modpack/server override.
+#Hierarchy: ESC default → pack/server → application → player (if unlocked).
+[theme]
+	#VANILLA, FALLOUT, MAGIC, APOCALYPSE, CYBER, CLEAN, INDUSTRIAL, HIGH_CONTRAST, MATRIX, OCEAN, CLOUDS, GROWTH, EMBER
+	#Fresh install / ESH first-run uses GROWTH (ESH green chrome over the forest backdrop).
+	defaultPreset = "GROWTH"
+	packOverride = false
+	lockPlayers = true
+	packPreset = "FALLOUT"
+	#Optional effect package: NONE, TERMINAL, FALLOUT, CLEAN, HUD, CINEMATIC
+	effectPreset = ""
+	#Optional frame override: SQUARE, ROUNDED_SOFT, CHAMFER, CUT_CORNER, BRACKET
+	frameStyle = ""
+	border = ""
+	text = ""
+	body = ""
+	accent = ""
+	panel = ""
+	#Range: -1.0 ~ 1.0
+	panelOpacity = -1.0
+

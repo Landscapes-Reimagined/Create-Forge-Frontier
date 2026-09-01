@@ -1,0 +1,13 @@
+{
+  "modId": "example_pack",
+  "windowId": "readme",
+  "title": "Example JSON Window",
+  "section": "MODS",
+  "author": "Pack Author",
+  "subtitle": "Loaded from config/extraspecialhub/windows",
+  "docs": [
+    "Rename this file (drop the leading _) to enable it.",
+    "Use docs[], runCommand, or screenClass (Screen(Screen) ctor).",
+    "Java mods should prefer EshApi.registerModWindow(...)."
+  ]
+}

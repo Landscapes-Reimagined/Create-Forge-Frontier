@@ -1,14 +1,4 @@
 
-[waterWheelShaderLod]
-	#Use lower-detail rotating water-wheel models when a shader pack disables Flywheel.
-	enabled = true
-	#Full-detail render distance in blocks. Medium LOD is used beyond this distance.
-	#Range: 0 ~ 128
-	fullDetailDistance = 16
-	#Low-detail render distance in blocks. Values below fullDetailDistance are clamped up at runtime.
-	#Range: 0 ~ 128
-	lowDetailDistance = 40
-
 [fanParticles]
 	#Range: 0 ~ 4096
 	maxPerTick = 96
@@ -36,11 +26,60 @@
 	maxCachedBoxes = 2048
 
 [belt]
+	#Enable stable per-item distance LOD for transported belt items.
 	itemRenderLodEnabled = true
+	#Distance where stable medium-density item sampling starts.
 	#Range: 1 ~ 512
 	itemRenderMidDistance = 32
+	#Maximum distance for transported belt item models.
 	#Range: 1 ~ 1024
 	itemRenderFarDistance = 64
+	#Distance where stable sparse item sampling starts.
+	#Range: 1 ~ 768
+	itemRenderFarLodDistance = 48
+	#Use a cached single-quad far LOD for stable flat item models.
+	#Foil, NBT-sensitive, 3D, custom, multi-pass, package, and Flerovium-rendered items always use their original renderer.
+	itemFarStaticModelEnabled = true
+	#Distance where eligible flat transported items switch to the cached static far model.
+	#Range: 1 ~ 512
+	itemFarStaticModelDistance = 28
+	#Stable percentage of belt items retained in the medium LOD tier.
+	#Range: 0 ~ 100
+	itemRenderMidPercent = 50
+	#Stable percentage of belt items retained in the sparse LOD tier.
+	#Range: 0 ~ 100
+	itemRenderFarPercent = 20
+	#Maximum distance for Create's flat fake shadow below transported items.
+	#Fake shadows are always omitted from Oculus shader shadow passes.
+	#Range: 0 ~ 512
+	itemFakeShadowDistance = 24
+	#Omit Create's flat transported-item shadow whenever a shaderpack is active.
+	#The shader shadow map already supplies the corresponding visual cue.
+	skipItemFakeShadowsWithShaders = true
+	#Maximum distance for extra visual copies of large item stacks.
+	#The transported stack itself is still rendered beyond this distance.
+	#Range: 0 ~ 64
+	itemStackCopiesDistance = 12
+	#Maximum distance for transported item models in Oculus shader shadow passes.
+	#The shadow pass rejects the complete belt before item iteration and hard-caps this value at 12 blocks.
+	#Set to 0 to omit transported item models from shader shadow maps.
+	#Range: 0 ~ 256
+	itemShaderShadowDistance = 12
+	#Requested maximum distance for fallback-rendered belt body geometry in Oculus shadow passes.
+	#The fallback uses one decision for the complete belt and caps this at 16 blocks; from 8 to 16 blocks it retains one stable belt in four.
+	#This is ignored while Flywheel visualization is active. Set to 0 to omit fallback belt bodies from shadow maps.
+	#Range: 0 ~ 256
+	bodyShaderShadowDistance = 16
+	#Cache fallback belt body templates in persistent GPU buffers for the MAIN shader pass.
+	#Each visible belt then submits only its transform and scrolling UV offset.
+	#Requires Oculus and Embeddium, is disabled when irisflw owns belt visualization, and safely falls back on unsupported formats.
+	bodyMainPersistentVboEnabled = true
+	#Maximum GPU memory used by persistent fallback belt body templates.
+	#Range: 8 ~ 256
+	bodyMainPersistentVboMaxCacheMiB = 64
+	#Soft per-frame time budget for creating new persistent belt body VBOs.
+	#Range: 0.25 ~ 8.0
+	bodyMainPersistentVboMaxUploadMillisPerFrame = 2.0
 
 [kineticAudio]
 	#Range: 0 ~ 512
@@ -81,4 +120,50 @@
 	#Set to 0 to omit their shadows; wheels and transported packages are unaffected.
 	#Range: 0 ~ 256
 	shadowRenderDistance = 0
+
+[shaderFlywheel]
+	#Allow Colorwheel's instancing backend for shaderpacks without native Colorwheel support.
+	#This restores Flywheel GPU instancing instead of rebuilding kinetic block vertices every frame.
+	#Fallback mode can cause shaderpack-specific rendering issues; disable this option to use Colorwheel's own compatibility decision.
+	forceColorwheelFallback = true
+
+[waterWheelVbo]
+	#Cache static shader-compatible water wheel geometry in persistent GPU vertex buffers.
+	#Wheel rotation remains exact and is applied per rendered instance.
+	#Requires CreateBetterFPS, Embeddium, Oculus, an active shaderpack, and Flywheel's backend to be off.
+	enabled = true
+	#Render water wheels in shader shadow passes.
+	#Disabled by default because the shadow pass was the largest measured water-wheel render cost.
+	renderShadows = false
+	#Maximum GPU memory used by cached water wheel vertex buffers.
+	#Range: 16 ~ 512
+	maxCacheMiB = 96
+	#Soft time budget for building and uploading new water wheel VBOs per rendered frame.
+	#Additional uploads are deferred after the measured work reaches this budget.
+	#Range: 0.25 ~ 16.0
+	maxUploadMillisPerFrame = 4.0
+
+[kineticMachineVbo]
+	#Enable persistent VBO rendering for mixers, mechanical presses, and mechanical crafters.
+	#Animation remains exact through per-instance matrices; dynamic crafter items and scrolling UVs stay on Create's original path.
+	enabled = true
+	#Render mixers, mechanical presses, and mechanical crafters in shader shadow passes.
+	#Disabled by default to omit the complete block-entity renderer for these machines from shader shadows.
+	#The renamed key intentionally applies this safer default to configurations created by older releases.
+	renderShaderShadows = false
+
+[crushingWheelParticles]
+	#Maximum crushing-wheel particles per client tick. Active item crushing emits groups of four.
+	#Range: 0 ~ 4096
+	maxPerTick = 96
+	#Range: 1 ~ 512
+	nearDistance = 16
+	#Range: 1 ~ 1024
+	midDistance = 32
+	#Range: 0 ~ 100
+	nearPercent = 100
+	#Range: 0 ~ 100
+	midPercent = 50
+	#Range: 0 ~ 100
+	farPercent = 25
 
