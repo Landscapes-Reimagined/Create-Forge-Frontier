@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'calorite',
-            secondary: { chance: 0.5, item: 'create:brass_nugget' }
+            secondary: { chance: 0.5, item: 'create_dd:bronze_nugget' }
         },
         {
             name: 'desh',
@@ -15,7 +15,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'ostrum',
-            secondary: { chance: 0.5, item: 'create_dd:bronze_nugget' }
+            secondary: { chance: 0.5, item: 'create:brass_nugget' }
         },
         {
             name: 'verdantine',
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'stellaris',
-            secondary: { chance: 0.5, item: "ad_astra:steel_nugget" }
+            secondary: { chance: 0.5, item: "create:brass_nugget" }
         },
         {
             name: 'guanite',
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
         },
         {
             name: 'uraniumnite',
-            secondary: { chance: 0.25, item: 'powah:uraninite_raw' }
+            secondary: { chance: 0.25, item: 'create_new_age:radioactive_thorium' }
         },
         {
             name: 'sulphite',
