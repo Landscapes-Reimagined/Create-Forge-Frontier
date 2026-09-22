@@ -6,6 +6,11 @@ StartupEvents.registry('item', event => {
 
         // Reaction Chamber
         { id: 'forge_frontier:incomplete_reaction_chamber', name: 'Incomplete Reaction Chamber' },
+
+        // Chunk Loaders
+        { id: 'forge_frontier:incomplete_basic_chunk_loader', name: 'Incomplete Basic Chunk Loader' },
+        { id: 'forge_frontier:incomplete_advanced_chunk_loader', name: 'Incomplete Advanced Chunk Loader' },
+        { id: 'forge_frontier:incomplete_ultimate_chunk_loader', name: 'Incomplete Ultimate Chunk Loader' },
         
         // Stress Processors
         { id: 'forge_frontier:incomplete_stress_processor', name: 'Incomplete Stress Processor' },
