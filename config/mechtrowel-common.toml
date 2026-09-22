@@ -41,4 +41,8 @@ reachUpgradeBonus = 4.0
 ae2UpgradeEnabled = true
 #Enable Refined Storage integration upgrade functionality
 rsUpgradeEnabled = true
+#List of blocks the trowel will never place
+placeBlacklistBlocks = []
+#List of block tags the trowel will never place
+placeBlacklistTags = ["#comforts:sleeping_bags", "#comforts:hammocks"]
 

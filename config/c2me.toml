@@ -1,25 +1,22 @@
 version = 3
 # (Default: 
-#    max(
-#        1,
-#        min(
-#            if( is_windows,
-#                (cpus / 1.6 - 2),
-#                (cpus / 1.2 - 2)
-#            ),
-#            if( is_j9vm,
-#                ( ( mem_gb - (if(is_client, 0.6, 0.2)) ) / 0.5 ),
-#                ( ( mem_gb - (if(is_client, 1.2, 0.6)) ) / 1.2 )
-#            )
-#        ) - if(is_client, 2, 0)
-#    )
-# )  
+#   max(
+#       1,
+#       min(
+#           (cpus * 0.85),
+#           if( is_j9vm,
+#               ( ( mem_gb - (if(is_client, 1.0, 0.6)) ) / 0.35 ),
+#               ( ( mem_gb - (if(is_client, 1.5, 1.0)) ) / 0.6 )
+#           )
+#       ) - if(is_client, 1, 0)
+#   )
+#)  
 #  The expression for the default value of global executor parallelism. 
 #  This is used when the parallelism isn't overridden.
 #  Available variables: is_windows, is_j9vm, is_client, cpus, mem_gb
 # 
 defaultGlobalExecutorParallelismExpression = "default"
-# (Default: 6) Configures the parallelism of global executor
+# (Default: 15) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [generalOptimizations]
@@ -85,6 +82,15 @@ globalExecutorParallelism = "default"
 	# (may cause incompatibility with other mods)
 	# 
 	asyncScheduling = "default"
+	# (Default: fr.meulti.mbackrooms) Chunk generators whose generation steps run one chunk at a time within their dimension. 
+	# Comma-separated list of class-name prefixes (a mod's package is enough); "none" disables it. 
+	# Every generator not listed here (vanilla, Forge, other mods) still runs fully parallel. 
+	# For custom-dimension mods whose generator keeps shared state that is not thread-safe, which 
+	# crashes with ArrayIndexOutOfBoundsException / ConcurrentModificationException inside that mod 
+	# once several of its chunks generate at the same time. Meulti's Backrooms keeps its big-room 
+	# map in a plain hash map and writes it from the surface step, so it is listed by default. 
+	# 
+	serializedChunkGenerators = "default"
 
 [ioSystem]
 	# (Default: true) Whether to use the optimized implementation of IO system
@@ -106,7 +112,7 @@ globalExecutorParallelism = "default"
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-	# (Default: 7) No-tick view distance max concurrent chunk loads 
+	# (Default: 16) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
 	# (Default: true) Whether to use compatibility mode to send chunks 
